@@ -99,3 +99,68 @@ def test_sidebar_toolpanel_uses_extension_dialog_when_context_available() -> Non
     assert provider.calls == [
         (f"file:///mock-extension/{SIDEBAR_DIALOG_PATH}", "", "window-1", None)
     ]
+
+
+def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
+    class FakeModel:
+        def __init__(self, attribute_name: str) -> None:
+            setattr(self, attribute_name, "")
+
+    class FakeControl:
+        def __init__(self, attribute_name: str) -> None:
+            self.model = FakeModel(attribute_name)
+
+        def getModel(self) -> FakeModel:
+            return self.model
+
+    class FakeWindow:
+        def __init__(self) -> None:
+            self.controls = {
+                "Title": FakeControl("Label"),
+                "Status": FakeControl("Label"),
+                "Summary": FakeControl("Text"),
+                "Privacy": FakeControl("Label"),
+            }
+
+        def getControl(self, name: str) -> FakeControl:
+            return self.controls[name]
+
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    window = FakeWindow()
+    SidebarToolPanel(panel=panel, window=window)
+
+    panel.mark_visible()
+    panel.set_last_command(OPEN_SIDEBAR_COMMAND)
+    panel.record_request(
+        provider="openai-compatible",
+        model="local-default",
+        privacy_scope="selection-only",
+        selection_text="hello world",
+    )
+    panel.set_connected(True)
+    panel.set_pending_proposal(
+        SimpleNamespace(
+            tool_id="Writer.ReplaceSelection",
+            preview=SimpleNamespace(
+                summary="Preview Writer selection replacement",
+                before="hello world",
+                after="HELLO WORLD",
+            ),
+        )
+    )
+    panel.append_message("Preview Writer selection replacement")
+
+    assert window.controls["Title"].model.Label == "LibreOffice AI Agent"
+    assert "Connection: connected to sidecar" in window.controls["Status"].model.Label
+    assert "Provider: openai-compatible" in window.controls["Status"].model.Label
+    assert "Selection:\nhello world" in window.controls["Summary"].model.Text
+    assert (
+        "Pending preview:\nPreview Writer selection replacement"
+        in window.controls["Summary"].model.Text
+    )
+    assert "After: HELLO WORLD" in window.controls["Summary"].model.Text
+    assert (
+        "Recent activity:\n- Preview Writer selection replacement"
+        in window.controls["Summary"].model.Text
+    )
+    assert "Privacy scope: selection-only" in window.controls["Privacy"].model.Label

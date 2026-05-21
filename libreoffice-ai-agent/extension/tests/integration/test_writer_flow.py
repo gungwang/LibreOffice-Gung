@@ -13,7 +13,6 @@ from loaia.sidebar_panel import SidebarPanel
 from loaia_sidecar.server import LoaiaSidecarServer
 from loaia_sidecar.transport.named_pipe import NamedPipeTransport
 
-
 pytestmark = pytest.mark.skipif(os.name != "nt", reason="Windows named pipes only")
 
 
@@ -80,6 +79,11 @@ def test_writer_preview_then_approve_apply_round_trip() -> None:
         transport.close()
 
     assert preview_summary == "Preview Writer selection replacement"
+    assert panel.state.connected is True
+    assert panel.state.provider == "openai-compatible"
+    assert panel.state.model == "local-default"
+    assert panel.state.privacy_scope == "selection-only"
+    assert panel.state.selection_preview == "hello world"
     assert panel.state.pending_proposal is not None
     assert panel.state.pending_proposal.preview is not None
     assert panel.state.pending_proposal.preview.after == "HELLO WORLD"

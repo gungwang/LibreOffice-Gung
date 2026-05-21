@@ -12,7 +12,17 @@ class ChatController:
         self.client = client
 
     def submit(self, request: ChatRequest) -> str:
+        selection = request.context.selection
+        selection_text = selection.text if selection is not None else None
+        self.panel.record_request(
+            provider=request.provider,
+            model=request.model,
+            privacy_scope=str(request.privacy_scope),
+            selection_text=selection_text,
+        )
+
         response = self.client.request_chat(request)
+        self.panel.set_connected(True)
 
         if isinstance(response, DirectAnswer):
             self.panel.clear_pending_proposal()
