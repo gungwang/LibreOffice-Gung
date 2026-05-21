@@ -66,11 +66,11 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         del event_object
 
         if method_name == "Send":
-            self._handle_send(window)
+            self.preview_current_selection(window=window)
             return True
 
         if method_name == "Approve":
-            self._handle_approve(window)
+            self.approve_pending(window=window)
             return True
 
         return False
@@ -78,13 +78,34 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
     def getSupportedMethodNames(self) -> tuple[str, ...]:
         return ("Send", "Approve")
 
-    def _handle_send(self, window: object) -> None:
-        prompt = _get_control_text(window, "PromptInput")
+    def preview_current_selection(
+        self,
+        window: object | None = None,
+        prompt: str | None = None,
+    ) -> str:
+        return self._handle_send(window=window, prompt_override=prompt)
+
+    def approve_pending(self, window: object | None = None) -> str:
+        return self._handle_approve(window=window)
+
+    def _handle_send(
+        self,
+        window: object | None,
+        prompt_override: str | None = None,
+    ) -> str:
+        prompt = (
+            prompt_override
+            if prompt_override is not None
+            else _get_control_text(window, "PromptInput")
+        )
         if not prompt.strip():
             message = "Enter a prompt before sending."
             self.panel.set_last_error(message)
             self.panel.append_message(message)
-            return
+            return message
+
+        if prompt_override is not None:
+            _set_control_text(window, "PromptInput", prompt)
 
         self.panel.record_request(
             provider=self.panel.state.provider,
@@ -102,11 +123,11 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self.panel.set_connected(False)
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
-            return
+            return str(exc)
         except ValueError as exc:
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
-            return
+            return str(exc)
 
         self.panel.set_connected(True)
 
@@ -118,7 +139,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self.panel.clear_pending_proposal()
             self.panel.set_last_result(answer_text)
             self.panel.append_message(answer_text)
-            return
+            return answer_text
 
         if response_type == "ToolProposal":
             proposals = response.get("proposals")
@@ -127,8 +148,10 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 or not proposals
                 or not isinstance(proposals[0], dict)
             ):
-                self.panel.append_message("Sidecar returned an invalid tool proposal payload.")
-                return
+                message = "Sidecar returned an invalid tool proposal payload."
+                self.panel.set_last_error(message)
+                self.panel.append_message(message)
+                return message
 
             proposal = _proposal_from_payload(proposals[0])
             preview = proposal.preview
@@ -137,25 +160,26 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self.panel.set_pending_proposal(proposal)
             self.panel.set_last_result(summary)
             self.panel.append_message(summary)
-            return
+            return summary
 
         message = response.get("message")
         if isinstance(message, str):
             self.panel.set_last_error(message)
             self.panel.append_message(f"Error: {message}")
-            return
+            return message
 
         unexpected_message = f"Unexpected response type from sidecar: {response_type!r}"
         self.panel.set_last_error(unexpected_message)
         self.panel.append_message(unexpected_message)
+        return unexpected_message
 
-    def _handle_approve(self, window: object) -> None:
+    def _handle_approve(self, window: object | None) -> str:
         proposal = self.panel.state.pending_proposal
         if proposal is None or self._pending_selection is None:
             message = "No pending Writer proposal is available for approval."
             self.panel.set_last_error(message)
             self.panel.append_message(message)
-            return
+            return message
 
         try:
             replacement_text = _extract_replacement_text(proposal)
@@ -163,7 +187,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         except ValueError as exc:
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
-            return
+            return str(exc)
 
         applied_message = f"Applied {proposal.tool_id}"
         self.panel.set_selection_preview(replacement_text)
@@ -172,6 +196,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self.panel.clear_pending_proposal()
         self._pending_selection = None
         _set_control_text(window, "PromptInput", "")
+        return applied_message
 
     def _capture_writer_selection(self) -> RuntimeWriterSelection:
         frame = self.panel.frame

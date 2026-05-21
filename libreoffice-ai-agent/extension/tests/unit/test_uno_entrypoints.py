@@ -1,8 +1,10 @@
 from types import SimpleNamespace
 
 from loaia.bootstrap import (
+    APPROVE_PENDING_COMMAND,
     EXTENSION_IDENTIFIER,
     OPEN_SIDEBAR_COMMAND,
+    PREVIEW_SELECTION_COMMAND,
     PROTOCOL_SCHEME,
     SIDEBAR_DIALOG_PATH,
     SIDEBAR_RESOURCE_URL,
@@ -11,6 +13,61 @@ from loaia.bootstrap import (
 from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_python import LoaiaProtocolHandlerProvider, LoaiaSidebarPanelFactory
+
+
+class FakeWriterTextRange:
+    def __init__(self, text: str) -> None:
+        self.text = text
+
+    def getString(self) -> str:
+        return self.text
+
+    def setString(self, text: str) -> None:
+        self.text = text
+
+
+class FakeSelectionAccess:
+    def __init__(self, *ranges: FakeWriterTextRange) -> None:
+        self.ranges = ranges
+
+    def getCount(self) -> int:
+        return len(self.ranges)
+
+    def getByIndex(self, index: int) -> FakeWriterTextRange:
+        return self.ranges[index]
+
+
+class FakeWriterController:
+    def __init__(self, text_range: FakeWriterTextRange) -> None:
+        self.model = SimpleNamespace(Text=True, URL="file:///test-writer-document.odt")
+        self.selection = FakeSelectionAccess(text_range)
+
+    def getModel(self) -> object:
+        return self.model
+
+    def getSelection(self) -> FakeSelectionAccess:
+        return self.selection
+
+    def select(self, text_range: FakeWriterTextRange) -> None:
+        self.selection = FakeSelectionAccess(text_range)
+
+
+class FakeFrame:
+    def __init__(self, controller: FakeWriterController) -> None:
+        self.controller = controller
+
+    def getController(self) -> FakeWriterController:
+        return self.controller
+
+
+class FakeTransport:
+    def __init__(self, response: dict[str, object]) -> None:
+        self.response = response
+        self.requests: list[dict[str, object]] = []
+
+    def request(self, payload: dict[str, object]) -> dict[str, object]:
+        self.requests.append(payload)
+        return self.response
 
 
 def test_protocol_handler_dispatch_opens_sidebar() -> None:
@@ -31,6 +88,67 @@ def test_protocol_handler_dispatch_opens_sidebar() -> None:
     panel = runtime.get_panel()
     assert panel.state.visible is True
     assert panel.state.last_command == OPEN_SIDEBAR_COMMAND
+
+
+def test_protocol_handler_dispatches_preview_and_approve_commands() -> None:
+    transport = FakeTransport(
+        {
+            "type": "ToolProposal",
+            "proposals": [
+                {
+                    "proposalId": "proposal-1",
+                    "toolId": "Writer.ReplaceSelection",
+                    "safetyClass": "content-edit",
+                    "requiresApproval": True,
+                    "preview": {
+                        "summary": "Preview Writer selection replacement",
+                        "before": "hello world",
+                        "after": "HELLO WORLD",
+                    },
+                    "arguments": {"replacementText": "HELLO WORLD"},
+                }
+            ],
+        }
+    )
+    runtime = ExtensionBootstrap(transport=transport)
+    provider = LoaiaProtocolHandlerProvider(runtime=runtime)
+    text_range = FakeWriterTextRange("hello world")
+    frame = FakeFrame(FakeWriterController(text_range))
+    provider.initialize((frame,))
+
+    preview_url = SimpleNamespace(
+        Protocol=PROTOCOL_SCHEME,
+        Path=PREVIEW_SELECTION_COMMAND,
+        Complete=f"{PROTOCOL_SCHEME}{PREVIEW_SELECTION_COMMAND}",
+    )
+    approve_url = SimpleNamespace(
+        Protocol=PROTOCOL_SCHEME,
+        Path=APPROVE_PENDING_COMMAND,
+        Complete=f"{PROTOCOL_SCHEME}{APPROVE_PENDING_COMMAND}",
+    )
+    dispatch = provider.queryDispatch(preview_url, "_self", 0)
+
+    assert dispatch is not None
+    assert provider.queryDispatch(approve_url, "_self", 0) is dispatch
+
+    preview_args = (
+        SimpleNamespace(Name="Prompt", Value="Please convert this selection to uppercase."),
+    )
+    dispatch.dispatch(preview_url, preview_args)
+
+    panel = runtime.get_panel()
+    assert transport.requests[0]["type"] == "ChatRequest"
+    assert transport.requests[0]["userMessage"] == "Please convert this selection to uppercase."
+    assert panel.state.pending_proposal is not None
+    assert panel.state.last_result == "Preview Writer selection replacement"
+    assert panel.state.last_command == PREVIEW_SELECTION_COMMAND
+
+    dispatch.dispatch(approve_url, ())
+
+    assert text_range.text == "HELLO WORLD"
+    assert panel.state.pending_proposal is None
+    assert panel.state.last_result == "Applied Writer.ReplaceSelection"
+    assert panel.state.last_command == APPROVE_PENDING_COMMAND
 
 
 def test_sidebar_factory_creates_toolpanel_ui_element() -> None:
