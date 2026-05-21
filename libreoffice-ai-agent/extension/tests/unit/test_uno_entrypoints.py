@@ -8,6 +8,7 @@ from loaia.bootstrap import (
     SIDEBAR_RESOURCE_URL,
     ExtensionBootstrap,
 )
+from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_python import LoaiaProtocolHandlerProvider, LoaiaSidebarPanelFactory
 
@@ -97,8 +98,14 @@ def test_sidebar_toolpanel_uses_extension_dialog_when_context_available() -> Non
 
     assert tool_panel.getWindow() == f"dialog::file:///mock-extension/{SIDEBAR_DIALOG_PATH}"
     assert provider.calls == [
-        (f"file:///mock-extension/{SIDEBAR_DIALOG_PATH}", "", "window-1", None)
+        (
+            f"file:///mock-extension/{SIDEBAR_DIALOG_PATH}",
+            "",
+            "window-1",
+            tool_panel.event_handler,
+        )
     ]
+    assert isinstance(tool_panel.event_handler, SidebarDialogEventHandler)
 
 
 def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:

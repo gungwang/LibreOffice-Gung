@@ -1,6 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Callable
 
+from loaia.sidebar_actions import SidebarDialogEventHandler
+
 try:
     import unohelper
     from com.sun.star.ui import XToolPanel, XUIElement
@@ -42,6 +44,7 @@ def _create_panel_window(
     parent_window: object | None,
     extension_identifier: str | None,
     dialog_path: str | None,
+    handler: object | None = None,
 ) -> object | None:
     if (
         context is None
@@ -65,7 +68,7 @@ def _create_panel_window(
             context,
         )
         dialog_url = f"{package_location}/{dialog_path}"
-        return provider.createContainerWindow(dialog_url, "", parent_window, None)
+        return provider.createContainerWindow(dialog_url, "", parent_window, handler)
     except Exception:
         return parent_window
 
@@ -236,15 +239,18 @@ class SidebarToolPanel(unohelper.Base, XToolPanel):
         context: object | None = None,
         extension_identifier: str | None = None,
         dialog_path: str | None = None,
+        event_handler: object | None = None,
     ) -> None:
         self.panel = panel
         self.context = context
         self.parent_window = window
+        self.event_handler = event_handler or SidebarDialogEventHandler(panel=panel)
         self.window = _create_panel_window(
             context=context,
             parent_window=window,
             extension_identifier=extension_identifier,
             dialog_path=dialog_path,
+            handler=self.event_handler,
         )
         self.PanelWindow = self.window
         self.Window = self.window
