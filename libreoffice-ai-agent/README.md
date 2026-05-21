@@ -19,6 +19,12 @@ Main areas:
 - `docs/` project-local documentation for implementation and onboarding
 - `scripts/` development and packaging scripts
 
+Useful scripts:
+
+- `scripts/run_sidecar.ps1` starts the local named-pipe sidecar with the project `PYTHONPATH`
+- `scripts/verify_protocol_actions.ps1` installs the OXT and live-verifies the Writer preview/apply protocol flow
+- `scripts/verify_sidebar_direct_answer.ps1` installs the OXT and live-verifies the open-sidebar plus direct-answer flow without changing the document
+
 Canonical planning documents currently live in the parent repository docs folder:
 
 - [Project Architecture](../docs/libreoffice-ai-agent-architecture.md)
@@ -27,6 +33,6 @@ Canonical planning documents currently live in the parent repository docs folder
 
 Status:
 
-- this is an initial scaffold
-- code is mostly placeholder structure and contracts
-- implementation should begin with transport, sidebar shell UI, and the first Writer actions
+- this has moved from an initial scaffold into a working Windows-first prototype
+- the sidebar shell, Writer preview/apply flow, and live LibreOffice verification scripts are in place
+- planner/provider execution beyond the scaffold responses is still incomplete

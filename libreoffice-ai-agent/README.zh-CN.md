@@ -19,6 +19,12 @@
 - `docs/` 当前子项目自己的实现和开发文档
 - `scripts/` 开发和打包脚本
 
+常用脚本：
+
+- `scripts/run_sidecar.ps1` 启动本地 sidecar，并自动设置项目需要的 `PYTHONPATH`
+- `scripts/verify_protocol_actions.ps1` 安装 OXT，并在真实 LibreOffice 中验证 Writer 的“预览/批准应用”改写流程
+- `scripts/verify_sidebar_direct_answer.ps1` 安装 OXT，并在真实 LibreOffice 中验证“打开侧边栏 + 直接回答”流程，且不改动文档内容
+
 当前更完整的规划文档仍然放在上一级仓库的 `docs/` 目录中：
 
 - [项目架构](../docs/libreoffice-ai-agent-architecture.zh-CN.md)
@@ -27,6 +33,6 @@
 
 当前状态：
 
-- 这里还是初始骨架
-- 代码目前以占位结构和协议定义为主
-- 后续实现建议从传输层、侧边栏基础 UI、以及第一批 Writer 动作开始
+- 这里已经从初始骨架进入可运行的 Windows 原型阶段
+- 侧边栏基础界面、Writer 预览/批准应用流程、以及真实 LibreOffice 验证脚本都已就位
+- 更完整的规划器和 Provider 执行能力还未完成，目前直接回答仍然是 scaffold 阶段的响应
