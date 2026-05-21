@@ -1,3 +1,5 @@
+. (Join-Path $PSScriptRoot "env_common.ps1")
+
 function Resolve-LibreOfficeProgramPath {
 	param([string]$RequestedPath)
 
@@ -73,6 +75,8 @@ function Invoke-LoaiaVerificationProbe {
 			throw "Required path not found: $requiredPath"
 		}
 	}
+
+	Import-LoaiaDotEnv -ProjectRoot $projectRootPath -PreserveExisting
 
 	if ($ResetUserProfileDir -and (Test-Path -LiteralPath $resolvedUserProfileDir)) {
 		Remove-Item -LiteralPath $resolvedUserProfileDir -Recurse -Force

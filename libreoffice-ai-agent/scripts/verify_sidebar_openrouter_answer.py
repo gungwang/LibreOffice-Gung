@@ -12,7 +12,6 @@ from verification_probe_common import (
     model_text,
 )
 
-NON_SCAFFOLD_SENTINEL = "__NON_SCAFFOLD__"
 SCAFFOLD_DIRECT_ANSWER = (
     "Sidecar scaffold is running. Planner and provider execution are not implemented yet."
 )
@@ -40,9 +39,8 @@ def verify(
     context: object,
     prompt: str,
     initial_selection: str,
-    expected_answer: str,
-    expected_provider: str | None = None,
-    expected_model: str | None = None,
+    expected_provider: str,
+    expected_model: str,
 ) -> int:
     desktop = None
     document = None
@@ -94,20 +92,19 @@ def verify(
         summary_after_answer = model_text(panel_window.getControl("Summary"))
         rendered_result = extract_section(summary_after_answer, "Last result", "Recent activity")
         rendered_recent_activity = extract_section(summary_after_answer, "Recent activity")
+
         results["CONNECTED_AFTER_ANSWER"] = str(
             "Connection: connected to sidecar" in status_after_answer
         )
         results["LAST_COMMAND_AFTER_ANSWER"] = str(
             "Last command: preview-selection" in status_after_answer
         )
-        if expected_provider is not None:
-            results["HAS_EXPECTED_PROVIDER"] = str(
-                f"Provider: {expected_provider}" in status_after_answer
-            )
-        if expected_model is not None:
-            results["HAS_EXPECTED_MODEL"] = str(
-                f"Model: {expected_model}" in status_after_answer
-            )
+        results["HAS_EXPECTED_PROVIDER"] = str(
+            f"Provider: {expected_provider}" in status_after_answer
+        )
+        results["HAS_EXPECTED_MODEL"] = str(
+            f"Model: {expected_model}" in status_after_answer
+        )
         results["HAS_PROMPT_IN_SUMMARY"] = str(f"Prompt:\n{prompt}" in summary_after_answer)
         results["HAS_SELECTION_IN_SUMMARY"] = str(
             f"Selection:\n{initial_selection}" in summary_after_answer
@@ -115,22 +112,13 @@ def verify(
         results["HAS_NO_PENDING_PREVIEW"] = str(
             "Pending preview:\nNo pending proposal." in summary_after_answer
         )
-        if expected_answer == NON_SCAFFOLD_SENTINEL:
-            results["HAS_EXPECTED_ANSWER"] = str(
-                rendered_result not in ("", "No completed result yet.", SCAFFOLD_DIRECT_ANSWER)
-            )
-            results["HAS_RECENT_ACTIVITY"] = str(
-                bool(rendered_recent_activity)
-                and rendered_recent_activity != "No chat activity yet."
-                and SCAFFOLD_DIRECT_ANSWER not in rendered_recent_activity
-            )
-        else:
-            results["HAS_EXPECTED_ANSWER"] = str(
-                f"Last result:\n{expected_answer}" in summary_after_answer
-            )
-            results["HAS_RECENT_ACTIVITY"] = str(
-                f"Recent activity:\n- {expected_answer}" in summary_after_answer
-            )
+        results["HAS_NON_SCAFFOLD_RESULT"] = str(
+            rendered_result not in ("", "No completed result yet.", SCAFFOLD_DIRECT_ANSWER)
+        )
+        results["HAS_RECENT_ACTIVITY"] = str(
+            bool(rendered_recent_activity)
+            and rendered_recent_activity != "No chat activity yet."
+        )
         results["DOC_TEXT"] = document.Text.getString()
         results["APPROVE_ENABLED_AFTER_ANSWER"] = str(approve_button.isEnabled())
 
@@ -140,12 +128,12 @@ def verify(
         if results["APPROVE_ENABLED_AFTER_OPEN"] != "False":
             failures.append("Approve should start disabled after opening the sidebar.")
         if results["CONNECTED_AFTER_ANSWER"] != "True":
-            failures.append("Sidebar did not report a connected sidecar after direct answer.")
+            failures.append("Sidebar did not report a connected sidecar after the answer.")
         if results["LAST_COMMAND_AFTER_ANSWER"] != "True":
             failures.append("Sidebar status did not reflect the preview-selection command.")
-        if expected_provider is not None and results["HAS_EXPECTED_PROVIDER"] != "True":
+        if results["HAS_EXPECTED_PROVIDER"] != "True":
             failures.append("Sidebar status did not show the expected provider.")
-        if expected_model is not None and results["HAS_EXPECTED_MODEL"] != "True":
+        if results["HAS_EXPECTED_MODEL"] != "True":
             failures.append("Sidebar status did not show the expected model.")
         if results["HAS_PROMPT_IN_SUMMARY"] != "True":
             failures.append("Sidebar summary did not retain the submitted prompt.")
@@ -153,12 +141,12 @@ def verify(
             failures.append("Sidebar summary did not retain the selected text.")
         if results["HAS_NO_PENDING_PREVIEW"] != "True":
             failures.append("Sidebar summary did not show the empty pending-preview state.")
-        if results["HAS_EXPECTED_ANSWER"] != "True":
-            failures.append("Sidebar summary did not record the direct answer result.")
+        if results["HAS_NON_SCAFFOLD_RESULT"] != "True":
+            failures.append("Sidebar summary did not record a non-scaffold direct answer.")
         if results["HAS_RECENT_ACTIVITY"] != "True":
-            failures.append("Sidebar recent activity did not include the direct answer.")
+            failures.append("Sidebar recent activity did not record the answer.")
         if results["DOC_TEXT"] != initial_selection:
-            failures.append("Direct answer flow unexpectedly changed the Writer document.")
+            failures.append("OpenRouter answer flow unexpectedly changed the Writer document.")
         if results["APPROVE_ENABLED_AFTER_ANSWER"] != "False":
             failures.append("Approve should stay disabled after a direct answer.")
 
@@ -178,24 +166,20 @@ def verify(
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) not in (4, 6):
+    if len(argv) != 5:
         print(
-            "Usage: verify_sidebar_direct_answer.py <pipe_name> <prompt> "
-            "<initial_selection> <expected_answer> "
-            "[<expected_provider> <expected_model>]",
+            "Usage: verify_sidebar_openrouter_answer.py <pipe_name> <prompt> "
+            "<initial_selection> <expected_provider> <expected_model>",
             file=sys.stderr,
         )
         return 2
 
-    pipe_name, prompt, initial_selection, expected_answer, *extra = argv
-    expected_provider = extra[0] if len(extra) == 2 else None
-    expected_model = extra[1] if len(extra) == 2 else None
+    pipe_name, prompt, initial_selection, expected_provider, expected_model = argv
     context = connect(pipe_name)
     return verify(
         context=context,
         prompt=prompt,
         initial_selection=initial_selection,
-        expected_answer=expected_answer,
         expected_provider=expected_provider,
         expected_model=expected_model,
     )

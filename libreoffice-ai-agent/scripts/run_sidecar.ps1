@@ -6,6 +6,8 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
+. (Join-Path $PSScriptRoot "env_common.ps1")
+
 function Resolve-PythonPath {
 	param([string]$RequestedPath)
 
@@ -28,6 +30,8 @@ $projectRootPath = [System.IO.Path]::GetFullPath($ProjectRoot)
 if (-not (Test-Path -LiteralPath $projectRootPath)) {
 	throw "Project root not found: $projectRootPath"
 }
+
+Import-LoaiaDotEnv -ProjectRoot $projectRootPath -PreserveExisting
 
 $resolvedPythonPath = Resolve-PythonPath -RequestedPath $PythonPath
 $pythonPathEntries = @(
