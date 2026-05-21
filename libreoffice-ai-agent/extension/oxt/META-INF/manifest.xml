@@ -5,5 +5,5 @@
   <manifest:file-entry manifest:full-path="ProtocolHandler.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
   <manifest:file-entry manifest:full-path="Factories.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
   <manifest:file-entry manifest:full-path="Sidebar.xcu" manifest:media-type="application/vnd.sun.star.configuration-data"/>
-  <manifest:file-entry manifest:full-path="loaia_python.component" manifest:media-type="application/vnd.sun.star.uno-components"/>
+  <manifest:file-entry manifest:full-path="loaia.components" manifest:media-type="application/vnd.sun.star.uno-components"/>
 </manifest:manifest>

@@ -1,7 +1,5 @@
 from dataclasses import dataclass, field
 
-from loaia_shared.schema.actions import ToolProposal
-
 TOOL_PANEL_UI_TYPE = 7
 
 
@@ -13,7 +11,7 @@ class SidebarState:
     connected: bool = False
     visible: bool = False
     last_command: str | None = None
-    pending_proposal: ToolProposal | None = None
+    pending_proposal: object | None = None
     messages: list[str] = field(default_factory=list)
 
 
@@ -37,7 +35,7 @@ class SidebarPanel:
     def set_last_command(self, command: str) -> None:
         self.state.last_command = command
 
-    def set_pending_proposal(self, proposal: ToolProposal) -> None:
+    def set_pending_proposal(self, proposal: object) -> None:
         self.state.pending_proposal = proposal
 
     def clear_pending_proposal(self) -> None:
