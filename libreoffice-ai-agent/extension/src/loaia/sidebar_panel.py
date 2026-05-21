@@ -21,6 +21,54 @@ except ImportError:  # pragma: no cover - exercised under LibreOffice runtime
     TOOL_PANEL_UI_TYPE = 7
 
 
+def _get_service_manager(context: object | None) -> object | None:
+    if context is None:
+        return None
+
+    service_manager = getattr(context, "ServiceManager", None)
+    if service_manager is not None:
+        return service_manager
+
+    get_service_manager = getattr(context, "getServiceManager", None)
+    if callable(get_service_manager):
+        return get_service_manager()
+
+    return None
+
+
+def _create_panel_window(
+    context: object | None,
+    parent_window: object | None,
+    extension_identifier: str | None,
+    dialog_path: str | None,
+) -> object | None:
+    if (
+        context is None
+        or parent_window is None
+        or not extension_identifier
+        or not dialog_path
+    ):
+        return parent_window
+
+    try:
+        package_info = context.getValueByName(
+            "/singletons/com.sun.star.deployment.PackageInformationProvider"
+        )
+        package_location = package_info.getPackageLocation(extension_identifier)
+        service_manager = _get_service_manager(context)
+        if service_manager is None:
+            return parent_window
+
+        provider = service_manager.createInstanceWithContext(
+            "com.sun.star.awt.ContainerWindowProvider",
+            context,
+        )
+        dialog_url = f"{package_location}/{dialog_path}"
+        return provider.createContainerWindow(dialog_url, "", parent_window, None)
+    except Exception:
+        return parent_window
+
+
 @dataclass(slots=True)
 class SidebarState:
     provider: str = "openai-compatible"
@@ -61,17 +109,31 @@ class SidebarPanel:
 
 
 class SidebarToolPanel(unohelper.Base, XToolPanel):
-    def __init__(self, panel: SidebarPanel, window: object | None = None) -> None:
+    def __init__(
+        self,
+        panel: SidebarPanel,
+        window: object | None = None,
+        context: object | None = None,
+        extension_identifier: str | None = None,
+        dialog_path: str | None = None,
+    ) -> None:
         self.panel = panel
-        self.window = window
-        self.PanelWindow = window
-        self.Window = window
+        self.context = context
+        self.parent_window = window
+        self.window = _create_panel_window(
+            context=context,
+            parent_window=window,
+            extension_identifier=extension_identifier,
+            dialog_path=dialog_path,
+        )
+        self.PanelWindow = self.window
+        self.Window = self.window
 
     def getWindow(self) -> object | None:
         return self.window
 
     def createAccessible(self, parent_accessible: object) -> object | None:
-        return self.window
+        return self.window or parent_accessible
 
 
 class SidebarUIElement(unohelper.Base, XUIElement):

@@ -1,10 +1,12 @@
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel, SidebarUIElement
 
+EXTENSION_IDENTIFIER = "org.gungwang.libreoffice-ai-agent"
 PROTOCOL_SCHEME = "vnd.org.libreoffice.ai.agent:"
 OPEN_SIDEBAR_COMMAND = "open-sidebar"
 SIDEBAR_FACTORY_NAME = "LoaiaPanelFactory"
 SIDEBAR_PANEL_ID = "LoaiaPanel"
 SIDEBAR_RESOURCE_URL = f"private:resource/toolpanel/{SIDEBAR_FACTORY_NAME}/{SIDEBAR_PANEL_ID}"
+SIDEBAR_DIALOG_PATH = "toolpanels/sidebar_shell.xdl"
 
 
 class ExtensionBootstrap:
@@ -32,9 +34,16 @@ class ExtensionBootstrap:
         resource_url: str,
         frame: object | None = None,
         parent_window: object | None = None,
+        context: object | None = None,
     ) -> SidebarUIElement:
         panel = self.open_sidebar(frame=frame)
-        tool_panel = SidebarToolPanel(panel=panel, window=parent_window)
+        tool_panel = SidebarToolPanel(
+            panel=panel,
+            window=parent_window,
+            context=context,
+            extension_identifier=EXTENSION_IDENTIFIER,
+            dialog_path=SIDEBAR_DIALOG_PATH,
+        )
         return SidebarUIElement(
             frame=frame,
             resource_url=resource_url,

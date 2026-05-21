@@ -175,6 +175,7 @@ class LoaiaSidebarPanelFactory(
             resource_url=resource_url,
             frame=values_by_name.get("Frame"),
             parent_window=values_by_name.get("ParentWindow"),
+            context=self.context,
         )
 
 
