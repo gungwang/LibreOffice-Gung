@@ -1,0 +1,2160 @@
+#. extracted from filter/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2026-04-07 16:46+0200\n"
+"PO-Revision-Date: 2026-04-20 05:30+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <https://translations.documentfoundation.org/projects/libo_ui-master/filtermessages/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1564751052.000000\n"
+
+#. 5AQgJ
+#: filter/inc/strings.hrc:28
+msgctxt "STR_UNKNOWN_APPLICATION"
+msgid "Unknown"
+msgstr "Tak Dikenal"
+
+#. AP7oB
+#: filter/inc/strings.hrc:29
+msgctxt "STR_IMPORT_ONLY"
+msgid "import filter"
+msgstr "penapis impor"
+
+#. 7vg82
+#: filter/inc/strings.hrc:30
+msgctxt "STR_IMPORT_EXPORT"
+msgid "import/export filter"
+msgstr "penapis impor/ekspor"
+
+#. q6Bc5
+#: filter/inc/strings.hrc:31
+msgctxt "STR_EXPORT_ONLY"
+msgid "export filter"
+msgstr "penapis ekspor"
+
+#. AmATR
+#: filter/inc/strings.hrc:32
+msgctxt "STR_WARN_DELETE"
+msgid "Do you really want to delete the XML Filter '%s'? This action cannot be undone."
+msgstr "Anda yakin untuk menghapus Penapis XML '%s'? Penapis yang telah dihapus tidak dapat dikembalikan."
+
+#. Vf3nz
+#: filter/inc/strings.hrc:33
+msgctxt "STR_ERROR_FILTER_NAME_EXISTS"
+msgid "An XML filter with the name '%s' already exists. Please enter a different name."
+msgstr "Penapis XML dengan nama '%s' sudah ada. Mohon berikan nama yang lain."
+
+#. e3U54
+#: filter/inc/strings.hrc:34
+msgctxt "STR_ERROR_TYPE_NAME_EXISTS"
+msgid "The name for the user interface '%s1' is already used by the XML filter '%s2'. Please enter a different name."
+msgstr "Nama untuk antarmuka '%s1' sudah digunakan oleh penapis XML '%s2'. Mohon berikan nama yang lain."
+
+#. Zt87T
+#: filter/inc/strings.hrc:35
+msgctxt "STR_ERROR_EXPORT_XSLT_NOT_FOUND"
+msgid "The XSLT for export cannot be found. Please enter a valid path."
+msgstr "XSLT untuk melakukan ekspor tidak ditemukan. Mohon berikan lokasi yang benar."
+
+#. 7VkMt
+#: filter/inc/strings.hrc:36
+msgctxt "STR_ERROR_IMPORT_XSLT_NOT_FOUND"
+msgid "The XSLT for import cannot be found. Please enter a valid path."
+msgstr "XSLT untuk melakukan impor tidak ditemukan. Mohon berikan lokasi yang benar."
+
+#. CLFJD
+#: filter/inc/strings.hrc:37
+msgctxt "STR_ERROR_IMPORT_TEMPLATE_NOT_FOUND"
+msgid "The given import template cannot be found. Please enter a valid path."
+msgstr "Templat impor yang telah ditentukan tidak dapat ditemukan. Mohon berikan lokasi yang benar."
+
+#. WMzvt
+#: filter/inc/strings.hrc:38
+msgctxt "STR_DEFAULT_FILTER_NAME"
+msgid "New Filter"
+msgstr "Penapis Baru"
+
+#. N3wHE
+#: filter/inc/strings.hrc:39
+msgctxt "STR_DEFAULT_UI_NAME"
+msgid "Untitled"
+msgstr "Belum Berjudul"
+
+#. VAMhi
+#: filter/inc/strings.hrc:40
+msgctxt "STR_UNDEFINED_FILTER"
+msgid "undefined filter"
+msgstr "penapis tidak ditentukan"
+
+#. tphDj
+#: filter/inc/strings.hrc:41
+msgctxt "STR_FILTER_HAS_BEEN_SAVED"
+msgid "The XML filter '%s' has been saved as package '%s'. "
+msgstr "Penapis XML '%s' telah disimpan sebagai paket '%s'. "
+
+#. tJeU3
+#: filter/inc/strings.hrc:42
+msgctxt "STR_FILTERS_HAVE_BEEN_SAVED"
+msgid "%s XML filters have been saved in the package '%s'."
+msgstr "Penapis XML %s sudah disimpan pada paket '%s'."
+
+#. ZULF4
+#: filter/inc/strings.hrc:43
+msgctxt "STR_FILTER_PACKAGE"
+msgid "XSLT filter package"
+msgstr "Paket penapis XSLT"
+
+#. TAAAB
+#: filter/inc/strings.hrc:44
+msgctxt "STR_FILTER_INSTALLED"
+msgid "The XML filter '%s' has been installed successfully."
+msgstr "Penapis XML '%s' berhasil dipasang."
+
+#. SwDCV
+#: filter/inc/strings.hrc:45
+msgctxt "STR_FILTERS_INSTALLED"
+msgid "%s XML filters have been installed successfully."
+msgstr "Penapis XML %s sudah berhasil dipasang."
+
+#. dirBm
+#: filter/inc/strings.hrc:46
+msgctxt "STR_NO_FILTERS_FOUND"
+msgid "No XML filter could be installed because the package '%s' does not contain any XML filters."
+msgstr "Tidak ada penapis XML yang dapat dipasang karena paket '%s' tidak memiliki penapis XML apa pun."
+
+#. EifWe
+#: filter/inc/strings.hrc:47
+msgctxt "STR_XML_FILTER_LISTBOX"
+msgid "XML Filter List"
+msgstr "Senarai Penapis XML"
+
+#. iUSBA
+#: filter/inc/strings.hrc:49
+msgctxt "T602FILTER_STR_IMPORT_DIALOG_TITLE"
+msgid "Settings for T602 import"
+msgstr "Pengaturan untuk impor T602"
+
+#. BU2Mt
+#: filter/inc/strings.hrc:50
+msgctxt "T602FILTER_STR_ENCODING_LABEL"
+msgid "Encoding"
+msgstr "Enkode"
+
+#. j3aAG
+#: filter/inc/strings.hrc:51
+msgctxt "T602FILTER_STR_ENCODING_AUTO"
+msgid "Automatic"
+msgstr "Otomatis"
+
+#. DuxTb
+#: filter/inc/strings.hrc:52
+msgctxt "T602FILTER_STR_ENCODING_CP852"
+msgid "CP852 (Latin2)"
+msgstr "CP852 (Latin2)"
+
+#. AfQyS
+#: filter/inc/strings.hrc:53
+msgctxt "T602FILTER_STR_ENCODING_CP895"
+msgid "CP895 (KEYB2CS, Kamenicky)"
+msgstr "CP895 (KEYB2CS, Kamenicky)"
+
+#. 8NfvS
+#: filter/inc/strings.hrc:54
+msgctxt "T602FILTER_STR_ENCODING_KOI8CS2"
+msgid "KOI8 CS2"
+msgstr "KOI8 CS2"
+
+#. EWMCQ
+#: filter/inc/strings.hrc:55
+msgctxt "T602FILTER_STR_CYRILLIC_MODE"
+msgid "Mode for Russian language (Cyrillic)"
+msgstr "Modus untuk bahasa Rusia (Cyrillic)"
+
+#. mZVZv
+#: filter/inc/strings.hrc:56
+msgctxt "T602FILTER_STR_REFORMAT_TEXT"
+msgid "Reformat the text"
+msgstr "Format ulang teksnya"
+
+#. MGmYA
+#: filter/inc/strings.hrc:57
+msgctxt "T602FILTER_STR_DOT_COMMANDS"
+msgid "Display dot commands"
+msgstr "Tayangkan perintah titik"
+
+#. c6Atq
+#: filter/inc/strings.hrc:58
+msgctxt "T602FILTER_STR_CANCEL_BUTTON"
+msgid "Cancel"
+msgstr "Batal"
+
+#. Sjy7k
+#: filter/inc/strings.hrc:59
+msgctxt "T602FILTER_STR_OK_BUTTON"
+msgid "OK"
+msgstr "OK"
+
+#. AvaAH
+#: filter/inc/strings.hrc:61
+msgctxt "PDF_PROGRESS_BAR"
+msgid "Export as PDF"
+msgstr "Ekspor sebagai PDF"
+
+#. BGJB2
+#. strings used in encryption UI
+#. password dialog title
+#: filter/inc/strings.hrc:65
+msgctxt "STR_PDF_EXPORT_UDPWD"
+msgid "Set open password"
+msgstr "Tentukan sandi pembuka"
+
+#. GDvVE
+#. password dialog title
+#: filter/inc/strings.hrc:67
+msgctxt "STR_PDF_EXPORT_ODPWD"
+msgid "Set permission password"
+msgstr "Tentukan sandi hak akses"
+
+#. FTpr4
+#: filter/inc/strings.hrc:68
+msgctxt "STR_WARN_PASSWORD_PDFA"
+msgid "PDF/A does not allow encryption. The exported PDF file will not be password protected."
+msgstr "PDF/A tidak mengizinkan enkripsi. Berkas PDF yang diekspor tak akan dilindungi dengan kata sandi."
+
+#. XX5fd
+#: filter/inc/strings.hrc:69
+msgctxt "STR_WARN_TRANSP_PDFA_SHORT"
+msgid "PDF/A transparency"
+msgstr "Transparansi PDF/A"
+
+#. VGvbg
+#: filter/inc/strings.hrc:70
+msgctxt "STR_WARN_TRANSP_PDFA"
+msgid "PDF/A forbids transparency. A transparent object was painted opaque instead."
+msgstr "PDF/A melarang transparansi. Suatu objek transparan dicat legap sebagai gantinya."
+
+#. siDaM
+#: filter/inc/strings.hrc:71
+msgctxt "STR_WARN_TRANSP_VERSION_SHORT"
+msgid "PDF version conflict"
+msgstr "Versi PDF konflik"
+
+#. VSCwD
+#: filter/inc/strings.hrc:72
+msgctxt "STR_WARN_TRANSP_VERSION"
+msgid "Transparency is not supported in PDF versions earlier than PDF 1.4. A transparent object was painted opaque instead"
+msgstr "Transparansi tak didukung dalam PDF versi lebih awal dari PDF 1.4. Suatu objek transparan dicat legap sebagai gantinya"
+
+#. CyosP
+#: filter/inc/strings.hrc:73
+msgctxt "STR_WARN_FORMACTION_PDFA_SHORT"
+msgid "PDF/A form action"
+msgstr "Tindakan formulir PDF/A"
+
+#. N9Vug
+#: filter/inc/strings.hrc:74
+msgctxt "STR_WARN_FORMACTION_PDFA"
+msgid "A form control contained an action not supported by the PDF/A standard. The action was skipped"
+msgstr "Suatu kendali formulir memuat tindakan yang tak didukung oleh standar PDF/A. Tindakan dilewati"
+
+#. d2ndY
+#: filter/inc/strings.hrc:75
+msgctxt "STR_WARN_TRANSP_CONVERTED"
+msgid "Some objects were converted to an image in order to remove transparencies, because the target PDF format does not support transparencies. Possibly better results can be achieved if you remove the transparent objects before exporting."
+msgstr "Sejumlah objek dikonversi menjadi citra untuk membuang transparansinya, karena format PDF yang diinginkan tak mendukung transparansi. Mungkin hasil yang lebih baik dapat dicapai bila Anda menghapus objek transparan tersebut sebelum mengekspor."
+
+#. qtCcB
+#: filter/inc/strings.hrc:76
+msgctxt "STR_WARN_TRANSP_CONVERTED_SHORT"
+msgid "Transparencies removed"
+msgstr "Transparansi dihapus"
+
+#. UHmjA
+#: filter/inc/strings.hrc:77
+msgctxt "STR_ERR_SIGNATURE_FAILED"
+msgid "Signature generation failed"
+msgstr "Pembuatan tanda tangan gagal"
+
+#. wjBBo
+#: filter/inc/strings.hrc:78
+msgctxt "STR_ERR_PDF_EXPORT_ABORTED"
+msgid "PDF export aborted"
+msgstr "Ekspor PDF digugurkan"
+
+#. UAKJF
+#: filter/inc/strings.hrc:79
+msgctxt "STR_WARN_PDFUA_ISSUES"
+msgid "One accessibility error detected. Do you want to continue?"
+msgid_plural "%1 accessibility errors detected. Do you want to continue?"
+msgstr[0] "Satu galat aksesabilitas terdeteksi. Anda ingin melanjutkan?"
+msgstr[1] ""
+
+#. Kb2AE
+#: filter/inc/strings.hrc:80
+msgctxt "STR_PDFUA_IGNORE"
+msgid "Continue"
+msgstr "Lanjutkan"
+
+#. CqgUu
+#: filter/inc/strings.hrc:81
+msgctxt "STR_PDFUA_INVESTIGATE"
+msgid "Investigate error"
+msgid_plural "Investigate errors"
+msgstr[0] "Investigasi galat"
+msgstr[1] ""
+
+#. eNaMA
+#. Progress bar status indicator when importing or exporting
+#: filter/inc/strings.hrc:84
+msgctxt "STR_FILTER_DOC_LOADING"
+msgid "Loading: "
+msgstr "Memuat: "
+
+#. 4YFQR
+#: filter/inc/strings.hrc:85
+msgctxt "STR_FILTER_DOC_SAVING"
+msgid "Saving: "
+msgstr "Menyimpan: "
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "T_ambah"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "Ter_apkan"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "_Batal"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "_Tutup"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_Hapus"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "S_unting"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "_Bantuan"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "_Baru"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "_Tidak"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_OK"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "_Hapus"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "Atu_r Ulang"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "_Ya"
+
+#. AwX66
+#: filter/uiconfig/ui/pdfgeneralpage.ui:42
+msgctxt "pdfgeneralpage|all"
+msgid "_All"
+msgstr "Semu_a"
+
+#. QMgsn
+#: filter/uiconfig/ui/pdfgeneralpage.ui:52
+msgctxt "pdfgeneralpage|extended_tip|all"
+msgid "Exports all defined print ranges. If no print range is defined, exports the entire document."
+msgstr "Ekspor semua rentang cetak yang ditetapkan. Jika tidak ada rentang cetak yang ditentukan, ekspor seluruh dokumen."
+
+#. mFDan
+#: filter/uiconfig/ui/pdfgeneralpage.ui:64
+msgctxt "pdfgeneralpage|pagerange"
+msgid "_Pages:"
+msgstr "_Halaman:"
+
+#. PGTnA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:78
+msgctxt "pdfgeneralpage|extended_tip|pagerange"
+msgid "Exports the pages you type in the box."
+msgstr "Mengekspor halaman yang Anda ketikkan di dalam kotak."
+
+#. mshTf
+#: filter/uiconfig/ui/pdfgeneralpage.ui:89
+msgctxt "pdfgeneralpage|sheetrange"
+msgid "_Sheets:"
+msgstr "_Lembar:"
+
+#. YL2yA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:103
+msgctxt "pdfgeneralpage|extended_tip|sheetrange"
+msgid "Exports the sheets you type in the box."
+msgstr "Mengekspor lembar yang Anda ketikkan di dalam kotak."
+
+#. WTSeS
+#: filter/uiconfig/ui/pdfgeneralpage.ui:114
+msgctxt "pdfgeneralpage|selection"
+msgid "_Selection"
+msgstr "_Pemilihan"
+
+#. RQeDb
+#: filter/uiconfig/ui/pdfgeneralpage.ui:124
+msgctxt "pdfgeneralpage|extended_tip|selection"
+msgid "Exports the current selection."
+msgstr "Ekspor pilihan saat ini."
+
+#. qQrdx
+#: filter/uiconfig/ui/pdfgeneralpage.ui:146
+msgctxt "pdfgeneralpage|extended_tip|pages"
+msgid "Exports the pages you type in the box."
+msgstr "Mengekspor halaman yang Anda ketikkan dalam kotak."
+
+#. 2xAFV
+#: filter/uiconfig/ui/pdfgeneralpage.ui:167
+msgctxt "pdfgeneralpage|extended_tip|sheets"
+msgid "Exports the sheets you type in the box."
+msgstr "Mengekspor lembar yang Anda ketikkan di dalam kotak."
+
+#. di5RC
+#: filter/uiconfig/ui/pdfgeneralpage.ui:181
+msgctxt "pdfgeneralpage|slides"
+msgid "_Slides:"
+msgstr "_Salindia:"
+
+#. 9Cyn8
+#: filter/uiconfig/ui/pdfgeneralpage.ui:190
+msgctxt "pdfgeneralpage|viewpdf"
+msgid "_View PDF after export"
+msgstr "_Tilik PDF setelah ekspor"
+
+#. mwuGG
+#: filter/uiconfig/ui/pdfgeneralpage.ui:199
+msgctxt "pdfgeneralpage|extended_tip|viewpdf"
+msgid "Open the exported document in the system default PDF viewer."
+msgstr "Buka dokumen yang diekspor di penampil PDF baku sistem."
+
+#. aWj7F
+#: filter/uiconfig/ui/pdfgeneralpage.ui:214
+msgctxt "pdfgeneralpage|selectedsheets"
+msgid "_Selection/Selected sheet(s)"
+msgstr "Lembar _pilihan"
+
+#. MXtmZ
+#: filter/uiconfig/ui/pdfgeneralpage.ui:227
+msgctxt "pdfgeneralpage|label1"
+msgid "Range"
+msgstr "Rentang"
+
+#. WbQ5j
+#: filter/uiconfig/ui/pdfgeneralpage.ui:257
+msgctxt "pdfgeneralpage|losslesscompress"
+msgid "_Lossless compression"
+msgstr "Kompresi nirhi_lang"
+
+#. 9ut6Q
+#: filter/uiconfig/ui/pdfgeneralpage.ui:267
+msgctxt "pdfgeneralpage|extended_tip|losslesscompress"
+msgid "Selects a lossless compression of images. All pixels are preserved."
+msgstr "Memilih kompresi lossless untuk citra. Semua piksel akan dipertahankan."
+
+#. FP56V
+#: filter/uiconfig/ui/pdfgeneralpage.ui:284
+msgctxt "pdfgeneralpage|jpegcompress"
+msgid "_JPEG compression"
+msgstr "Kompresi _JPEG"
+
+#. PZCPi
+#: filter/uiconfig/ui/pdfgeneralpage.ui:294
+msgctxt "pdfgeneralpage|extended_tip|jpegcompress"
+msgid "Select a JPEG compression level. With a high quality level, almost all pixels are preserved. With a low quality level, some pixels are lost and artifacts are introduced, but file sizes are reduced."
+msgstr "Pilih tingkat kompresi JPEG. Dengan tingkat kualitas tinggi, hampir semua piksel dipertahankan. Dengan tingkat kualitas yang rendah, beberapa piksel hilang dan artefak muncul, tetapi ukuran berkas berkurang."
+
+#. ST3Rc
+#: filter/uiconfig/ui/pdfgeneralpage.ui:308
+msgctxt "pdfgeneralpage|label6"
+msgid "_Quality:"
+msgstr "_Kualitas:"
+
+#. mEbKx
+#: filter/uiconfig/ui/pdfgeneralpage.ui:339
+msgctxt "pdfgeneralpage|extended_tip|quality"
+msgid "Enter the quality level for JPEG compression."
+msgstr "Masukkan tingkat kualitas untuk kompresi JPEG."
+
+#. GSkFq
+#: filter/uiconfig/ui/pdfgeneralpage.ui:356
+msgctxt "pdfgeneralpage|changeresolution"
+msgid "Change ima_ge resolution to:"
+msgstr "Ubah resolusi _gambar menjadi:"
+
+#. imABE
+#: filter/uiconfig/ui/pdfgeneralpage.ui:368
+msgctxt "pdfgeneralpage|extended_tip|changeresolution"
+msgid "Select to resample or down-size the images to a lower number of pixels per inch."
+msgstr "Pilih untuk mencuplik ulang atau menurunkan ukuran gambar ke nilai piksel per inci yang lebih rendah."
+
+#. XHeTx
+#: filter/uiconfig/ui/pdfgeneralpage.ui:383
+msgctxt "pdfgeneralpage|resolution"
+msgid "75 DPI"
+msgstr "75 DPI"
+
+#. CXj4e
+#: filter/uiconfig/ui/pdfgeneralpage.ui:384
+msgctxt "pdfgeneralpage|resolution"
+msgid "150 DPI"
+msgstr "150 DPI"
+
+#. jZKqd
+#: filter/uiconfig/ui/pdfgeneralpage.ui:385
+msgctxt "pdfgeneralpage|resolution"
+msgid "300 DPI"
+msgstr "300 DPI"
+
+#. GsMsK
+#: filter/uiconfig/ui/pdfgeneralpage.ui:386
+msgctxt "pdfgeneralpage|resolution"
+msgid "600 DPI"
+msgstr "600 DPI"
+
+#. 5yTAM
+#: filter/uiconfig/ui/pdfgeneralpage.ui:387
+msgctxt "pdfgeneralpage|resolution"
+msgid "1200 DPI"
+msgstr "1200 DPI"
+
+#. r6npH
+#: filter/uiconfig/ui/pdfgeneralpage.ui:393
+msgctxt "pdfgeneralpage|comboboxtext-entry"
+msgid "75 DPI"
+msgstr "75 DPI"
+
+#. SkTeA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:402
+msgctxt "pdfgeneralpage|extended_tip|resolution"
+msgid "Select the target resolution for the images."
+msgstr "Pilih resolusi sasaran untuk citra."
+
+#. cFwGA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:417
+msgctxt "pdfgeneralpage|label2"
+msgid "Images"
+msgstr "Citra"
+
+#. NwjSn
+#: filter/uiconfig/ui/pdfgeneralpage.ui:447
+msgctxt "pdfgeneralpage|watermark"
+msgid "Sign with _watermark"
+msgstr "Tandatangani dengan _tanda air"
+
+#. 2uMoT
+#: filter/uiconfig/ui/pdfgeneralpage.ui:456
+msgctxt "pdfgeneralpage|extended_tip|watermark"
+msgid "Add a centered, vertical, light green watermark text to the page background. The watermark is not part of the source document."
+msgstr "Tambahkan teks tanda air hijau muda di tengah, vertikal, ke latar belakang halaman. Tanda air bukan bagian dari dokumen sumber."
+
+#. L7AYx
+#: filter/uiconfig/ui/pdfgeneralpage.ui:473
+msgctxt "pdfgeneralpage|extended_tip|watermarkentry"
+msgid "Insert the text for the watermark signature."
+msgstr "Masukkan teks untuk tanda tangan tanda air."
+
+#. JtBsL
+#: filter/uiconfig/ui/pdfgeneralpage.ui:485
+msgctxt "pdfgeneralpage|watermarklabel"
+msgid "Text:"
+msgstr "Teks:"
+
+#. VfFZf
+#: filter/uiconfig/ui/pdfgeneralpage.ui:504
+msgctxt "pdfgeneralpage|label3"
+msgid "Watermark"
+msgstr "Tanda Air"
+
+#. NCgBM
+#: filter/uiconfig/ui/pdfgeneralpage.ui:562
+msgctxt "pdfgeneralpage|pdf_version|tooltip_text"
+msgid "Select the PDF version. PDF/A version variants creates an ISO 19005 compliant PDF file, ideal for long-term document preservation."
+msgstr "Pilih versi PDF. Varian versi PDF/A membuat suatu berkas PDF patuh ISO 19005, yang ideal untuk preservasi dokumen jangka panjang."
+
+#. Ac3Ga
+#: filter/uiconfig/ui/pdfgeneralpage.ui:566
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF 1.7"
+msgstr "PDF 1.7"
+
+#. D6SQE
+#: filter/uiconfig/ui/pdfgeneralpage.ui:567
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF 2.0"
+msgstr "PDF 2.0"
+
+#. 5ZmpA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:568
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF/A-1b (PDF 1.4 base)"
+msgstr "PDF/A-1b (basis PDF 1.4)"
+
+#. wVHBd
+#: filter/uiconfig/ui/pdfgeneralpage.ui:569
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF/A-2b (PDF 1.7 base)"
+msgstr "PDF/A-2b (basis PDF 1.7)"
+
+#. xFuVe
+#: filter/uiconfig/ui/pdfgeneralpage.ui:570
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF/A-3b (PDF 1.7 base)"
+msgstr "PDF/A-3b (basis PDF 1.7)"
+
+#. Pk2QP
+#: filter/uiconfig/ui/pdfgeneralpage.ui:571
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF/A-4 (PDF 2.0 base)"
+msgstr "PDF/A-4 (basis PDF 2.0)"
+
+#. gyjaE
+#: filter/uiconfig/ui/pdfgeneralpage.ui:575
+msgctxt "pdfgeneralpage|extended_tip|pdf_version"
+msgid "Versions can be either the \"classic\" PDF (i.e. PDF 1.7, PDF 2.0) or PDF/A conformant. PDF/A is defined as an electronic document file format for long term preservation and archiving. It allows only a subset of PDF features that are compatible with that use case. For example: All fonts that were used in the source document will be embedded into the generated PDF file. PDF tags will be written."
+msgstr "Versi dapat berupa PDF \"klasik\" (misalnya PDF 1.7, PDF 2.0) atau patuh PDF/A. PDF/A didefinisikan sebagai format berkas dokumen elektronik untuk penyimpanan dan pengarsipan jangka panjang. Format ini hanya mengizinkan sebagian fitur PDF yang kompatibel dengan kasus penggunaan tersebut. Misalnya: Semua fonta yang digunakan dalam dokumen sumber akan disematkan ke dalam berkas PDF yang dihasilkan. Tag PDF akan ditulis."
+
+#. te76B
+#: filter/uiconfig/ui/pdfgeneralpage.ui:596
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF_ Version:"
+msgstr "Versi_ PDF:"
+
+#. VQGHi
+#: filter/uiconfig/ui/pdfgeneralpage.ui:626
+msgctxt "pdfgeneralpage|pdfua"
+msgid "Universal Accessibilit_y (PDF/UA)"
+msgstr "Aksesibilitas Un_iversal (PDF/UA)"
+
+#. 4B3FD
+#: filter/uiconfig/ui/pdfgeneralpage.ui:630
+msgctxt "pdfgeneralpage|pdfua|tooltip_text"
+msgid "Creates a universal accessibility-compliant PDF file that follows the requirements of PDF/UA (ISO 14289) specifications."
+msgstr "Membuat suatu berkas PDF yang patuh pada aksesibilitas universal yang mengikuti persyaratan dari spesifikasi PDF/UA (ISO 14289)."
+
+#. Birq5
+#: filter/uiconfig/ui/pdfgeneralpage.ui:636
+msgctxt "pdfgeneralpage|extended_tip|pdfua"
+msgid "Creates a universal accessibility-complying PDF file that follows the requirements of PDF/UA (ISO 14289) specifications."
+msgstr "Membuat berkas PDF yang memenuhi aksesibilitas universal yang mengikuti persyaratan spesifikasi PDF/UA (ISO 14289)."
+
+#. 2hSjJ
+#: filter/uiconfig/ui/pdfgeneralpage.ui:647
+msgctxt "pdfgeneralpage|embed"
+msgid "Hybrid PDF (em_bed ODF file)"
+msgstr "PDF Hibrida (tanamkan _berkas ODF)"
+
+#. eNsuA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:651
+msgctxt "pdfgeneralpage|embed|tooltip_text"
+msgid "Creates a PDF that embeds the original ODF file as an attachment."
+msgstr "Mencipta sebuah PDF yang menanam berkas ODF asli sebagai suatu lampiran."
+
+#. Y4L8y
+#: filter/uiconfig/ui/pdfgeneralpage.ui:657
+msgctxt "pdfgeneralpage|extended_tip|embed"
+msgid "This setting enables you to export the document as a .pdf file containing two file formats: PDF and ODF as an attachment."
+msgstr "Pengaturan ini memungkinkan Anda mengekspor dokumen sebagai suatu berkas .pdf yang mengandung dua format berkas: PDF dan ODF sebagai suatu lampiran."
+
+#. tCrYc
+#: filter/uiconfig/ui/pdfgeneralpage.ui:672
+msgctxt "pdfgeneralpage|general_label"
+msgid "General"
+msgstr "Umum"
+
+#. 6sDFd
+#: filter/uiconfig/ui/pdfgeneralpage.ui:701
+msgctxt "pdfgeneralpage|forms"
+msgid "Create PDF for_m"
+msgstr "Buat for_mulir PDF"
+
+#. 3Vg8V
+#: filter/uiconfig/ui/pdfgeneralpage.ui:705
+msgctxt "pdfgeneralpage|forms|tooltip_text"
+msgid "Creates a PDF with fields that can be filled out"
+msgstr "Membuat sebuah PDF dengan ruas-ruas yang dapat diisi"
+
+#. hmxuq
+#: filter/uiconfig/ui/pdfgeneralpage.ui:711
+msgctxt "pdfgeneralpage|extended_tip|forms"
+msgid "Choose to create a PDF form. This can be filled out and printed by the user of the PDF document."
+msgstr "Pilih untuk membuat formulir PDF. Ini dapat diisi dan dicetak oleh pengguna dokumen PDF."
+
+#. B7zan
+#: filter/uiconfig/ui/pdfgeneralpage.ui:731
+msgctxt "pdfgeneralpage|allowdups"
+msgid "Allow duplicate field _names"
+msgstr "Izinkan _nama ruas duplikat"
+
+#. D4MmM
+#: filter/uiconfig/ui/pdfgeneralpage.ui:740
+msgctxt "pdfgeneralpage|extended_tip|allowdups"
+msgid "Allows you to use the same field name for multiple fields in the generated PDF file. If disabled, field names will be exported using generated unique names."
+msgstr "Memungkinkan Anda untuk menggunakan nama ruas yang sama untuk beberapa ruas dalam berkas PDF yang dihasilkan. Jika dinonaktifkan, nama ruas akan diekspor menggunakan nama unik yang dihasilkan."
+
+#. tkPCH
+#: filter/uiconfig/ui/pdfgeneralpage.ui:756
+msgctxt "pdfgeneralpage|format"
+msgid "FDF"
+msgstr "FDF"
+
+#. rfzrh
+#: filter/uiconfig/ui/pdfgeneralpage.ui:757
+msgctxt "pdfgeneralpage|format"
+msgid "PDF"
+msgstr "PDF"
+
+#. S7caE
+#: filter/uiconfig/ui/pdfgeneralpage.ui:758
+msgctxt "pdfgeneralpage|format"
+msgid "HTML"
+msgstr "HTML"
+
+#. HUzsi
+#: filter/uiconfig/ui/pdfgeneralpage.ui:759
+msgctxt "pdfgeneralpage|format"
+msgid "XML"
+msgstr "XML"
+
+#. xbYYC
+#: filter/uiconfig/ui/pdfgeneralpage.ui:763
+msgctxt "pdfgeneralpage|extended_tip|format"
+msgid "Select the format of submitting forms from within the PDF file."
+msgstr "Pilih format pengiriman formulir dari dalam berkas PDF."
+
+#. ECLBB
+#: filter/uiconfig/ui/pdfgeneralpage.ui:785
+msgctxt "pdfgeneralpage|label7"
+msgid "Submit _format:"
+msgstr "Kirim _format:"
+
+#. 9iu3h
+#: filter/uiconfig/ui/pdfgeneralpage.ui:814
+msgctxt "pdfgeneralpage|forms_label"
+msgid "Forms"
+msgstr "Formulir"
+
+#. RAvA6
+#: filter/uiconfig/ui/pdfgeneralpage.ui:843
+msgctxt "pdfgeneralpage|tagged"
+msgid "_Tagged PDF (add document structure)"
+msgstr "PDF ber_tag (tambah struktur dokumen)"
+
+#. cAm8Z
+#: filter/uiconfig/ui/pdfgeneralpage.ui:847
+msgctxt "pdfgeneralpage|tagged|tooltip_text"
+msgid "Includes a document's content structure information in a PDF"
+msgstr "Sertakan suatu informasi struktur isi dokumen dalam suatu PDF"
+
+#. Btxot
+#: filter/uiconfig/ui/pdfgeneralpage.ui:853
+msgctxt "pdfgeneralpage|extended_tip|tagged"
+msgid "Select to write PDF tags. This can increase file size by huge amounts."
+msgstr "Pilih untuk menulis tag PDF. Hal ini dapat meningkatkan ukuran berkas luar biasa."
+
+#. FQzGc
+#: filter/uiconfig/ui/pdfgeneralpage.ui:864
+msgctxt "pdfgeneralpage|bookmarks"
+msgid "Export outl_ines"
+msgstr "Ekspor kerang_ka"
+
+#. Cc2Um
+#: filter/uiconfig/ui/pdfgeneralpage.ui:868
+msgctxt "pdfgeneralpage|bookmarks|tooltip_text"
+msgid "Export headings along with hyperlinked entries in Table of Contents as PDF bookmarks."
+msgstr "Ekspor tajuk bersama dengan entri terhipertautkan di Daftar Isi sebagai markah PDF."
+
+#. Q3h6b
+#: filter/uiconfig/ui/pdfgeneralpage.ui:874
+msgctxt "pdfgeneralpage|extended_tip|bookmarks"
+msgid "PDF bookmarks are created for all paragraphs with outline level 1 or greater and for all “Table of Contents” entries with hyperlinks."
+msgstr "Markah PDF dibuat untuk semua paragraf dengan tingkat kerangka 1 atau lebih tinggi dan untuk semua entri \"Daftar Isi\" dengan hipertaut."
+
+#. kQbPh
+#: filter/uiconfig/ui/pdfgeneralpage.ui:885
+msgctxt "pdfgeneralpage|exportplaceholders"
+msgid "Expo_rt placeholders"
+msgstr "Ekspo_r pewakil"
+
+#. T6RjA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:894
+msgctxt "pdfgeneralpage|extended_tip|exportplaceholders"
+msgid "Export the placeholders fields visual markings only. The exported placeholder is ineffective."
+msgstr "Ekspor tanda visual ruas pewakil saja. Pewakil yang diekspor tidak efektif."
+
+#. P4kGd
+#: filter/uiconfig/ui/pdfgeneralpage.ui:905
+msgctxt "pdfgeneralpage|comments"
+msgid "Comm_ents as PDF annotations"
+msgstr "Kom_entar sebagai anotasi PDF"
+
+#. SijbK
+#: filter/uiconfig/ui/pdfgeneralpage.ui:914
+msgctxt "pdfgeneralpage|extended_tip|comments"
+msgid "Select to export comments of Writer and Calc documents as PDF annotations."
+msgstr "Pilih untuk mengekspor komentar dokumen Writer dan Calc sebagai anotasi PDF."
+
+#. DiBsa
+#: filter/uiconfig/ui/pdfgeneralpage.ui:925
+msgctxt "pdfgeneralpage|commentsinmargin"
+msgid "_Comments in margin"
+msgstr "_Komentar di pias"
+
+#. RpDqi
+#: filter/uiconfig/ui/pdfgeneralpage.ui:934
+msgctxt "pdfgeneralpage|extended_tip|commentsinmargin"
+msgid "Select to export comments of Writer documents in the page margin."
+msgstr "Pilih untuk mengekspor komentar dokumen Writer dalam pias halaman."
+
+#. ghuXR
+#: filter/uiconfig/ui/pdfgeneralpage.ui:945
+msgctxt "pdfgeneralpage|notes"
+msgid "Export _notes pages"
+msgstr "Ekspor halaman catata_n"
+
+#. hRjqL
+#: filter/uiconfig/ui/pdfgeneralpage.ui:954
+msgctxt "pdfgeneralpage|extended_tip|notes"
+msgid "Export also the Notes pages view at the end of the exported PDF presentation document."
+msgstr "Ekspor juga tilikan halaman Catatan di akhir dokumen presentasi PDF yang diekspor."
+
+#. 2K2cD
+#: filter/uiconfig/ui/pdfgeneralpage.ui:965
+msgctxt "pdfgeneralpage|hiddenpages"
+msgid "Export _hidden pages"
+msgstr "Ekspor _halaman tersembunyi"
+
+#. Gr5rf
+#: filter/uiconfig/ui/pdfgeneralpage.ui:974
+msgctxt "pdfgeneralpage|extended_tip|hiddenpages"
+msgid "Exports document hidden slides."
+msgstr "Mengekspor salindia tersembunyi dokumen."
+
+#. BGvC2
+#: filter/uiconfig/ui/pdfgeneralpage.ui:985
+msgctxt "pdfgeneralpage|onlynotes"
+msgid "Export onl_y notes pages"
+msgstr "Ekspor han_ya halaman catatan"
+
+#. Mwnea
+#: filter/uiconfig/ui/pdfgeneralpage.ui:995
+msgctxt "pdfgeneralpage|extended_tip|onlynotes"
+msgid "Exports only the Notes page views."
+msgstr "Mengekspor hanya tilikan halaman Catatan."
+
+#. MpRUp
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1006
+msgctxt "pdfgeneralpage|singlepagesheets"
+msgid "Whole sheet export"
+msgstr "Ekspor seluruh lembar"
+
+#. jRGAS
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1015
+msgctxt "pdfgeneralpage|extended_tip|singlepagessheets"
+msgid "Ignores each sheet’s paper size, print ranges and shown/hidden status and puts every sheet (even hidden sheets) on exactly one page, which is exactly as small or large as needed to fit the whole contents of the sheet."
+msgstr "Mengabaikan ukuran kertas setiap lembar, rentang cetak dan status tampil/sembunyi dan menempatkan setiap lembar (bahkan lembar tersembunyi) tepat pada satu halaman, yang sama kecil atau besar sesuai kebutuhan agar sesuai dengan seluruh isi lembar."
+
+#. y9evS
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1026
+msgctxt "pdfgeneralpage|emptypages"
+msgid "Exp_ort automatically inserted blank pages"
+msgstr "Eksp_or halaman kosong yang disisipkan secara otomatis"
+
+#. Drp3w
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1035
+msgctxt "pdfgeneralpage|extended_tip|emptypages"
+msgid "If switched on, automatically inserted blank pages are exported to the PDF file. This is best if you are printing the pdf file double-sided. Example: In a book a chapter paragraph style is set to always start with an odd numbered page. If the previous chapter ends on an odd page, then an even numbered blank page is normally automatically inserted. This option controls whether to export that even numbered page or not."
+msgstr "Jika dinyalakan, halaman kosong yang dimasukkan secara otomatis akan diekspor ke berkas PDF. Paling baik hal ini dilakukan jika Anda mencetak berkas pdf dua sisi. Contoh: Dalam sebuah buku, gaya paragraf bab diatur untuk selalu dimulai dengan halaman bernomor ganjil. Jika bab sebelumnya berakhir pada halaman ganjil, maka halaman kosong bernomor genap biasanya dimasukkan secara otomatis. Pilihan ini mengendalikan apakah akan mengekspor halaman bernomor genap tersebut ataukah tidak."
+
+#. sHqKP
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1046
+msgctxt "pdfgeneralpage|usereferencexobject"
+msgid "Use reference XObjects"
+msgstr "Gunakan XObjects rujukan"
+
+#. 5ytg2
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1055
+msgctxt "pdfgeneralpage|extended_tip|usereferencexobject"
+msgid "When the option is enabled, then the reference XObject markup is used: viewers have to support this markup to show vector images. Otherwise a fallback bitmap is shown in the viewer."
+msgstr "Ketika pilihan ini difungsikan, maka rujukan markup XObject digunakan: penilik harus mendukung markup ini untuk menampilkan citra vektor. Jika tidak, bitmap cadangan ditampilkan di penilik."
+
+#. kvAZK
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1070
+msgctxt "pdfgeneralpage|structure_label"
+msgid "Structure"
+msgstr "Struktur"
+
+#. QEAua
+#: filter/uiconfig/ui/pdflinkspage.ui:29
+msgctxt "pdflinkspage|export"
+msgid "Export bookmarks as named destinations"
+msgstr "Ekspor tanda taut sebagai tujuan bernama"
+
+#. XCKUE
+#: filter/uiconfig/ui/pdflinkspage.ui:33
+msgctxt "pdflinkspage|export|tooltip_text"
+msgid "Enable the checkbox to export bookmarks in your document as named destinations in the PDF document."
+msgstr "Aktifkan kotak centang untuk mengekspor markah di dokumen Anda sebagai tujuan bernama di dokumen PDF."
+
+#. vECBd
+#: filter/uiconfig/ui/pdflinkspage.ui:38
+msgctxt "pdflinkspage|extended_tip|export"
+msgid "Enable the checkbox to export bookmarks in your document as named destinations in the PDF document. The destinations correspond to the location of your bookmarks. Use these destinations to create URL links that point to these locations in the PDF document."
+msgstr "Aktifkan kotak centang untuk mengekspor markah di dokumen Anda sebagai tujuan bernama di dokumen PDF. Tujuan sesuai dengan lokasi markah Anda. Gunakan tujuan ini untuk membuat tautan URL yang mengarah ke lokasi ini di dokumen PDF."
+
+#. aCCLQ
+#: filter/uiconfig/ui/pdflinkspage.ui:49
+msgctxt "pdflinkspage|convert"
+msgid "_Convert document references to PDF targets"
+msgstr "Konversikan _rujukan dokumen ke sasaran PDF"
+
+#. FEokC
+#: filter/uiconfig/ui/pdflinkspage.ui:57
+msgctxt "pdflinkspage|extended_tip|convert"
+msgid "Enable this checkbox to convert the URLs referencing other ODF files to PDF files with the same name. In the referencing URLs the extensions .odt, .odp, .ods, .odg, and .odm are converted to the extension .pdf."
+msgstr "Aktifkan kotak centang ini untuk mengubah URL yang merujuk ke berkas ODF lainnya ke berkas PDF dengan nama yang sama. Di URL yang merujuk ekstensi .odt, .odp, .ods, .odg, dan .odm dikonversi ke ekstensi .pdf."
+
+#. 6Lyp3
+#: filter/uiconfig/ui/pdflinkspage.ui:68
+msgctxt "pdflinkspage|exporturl"
+msgid "Export _URLs relative to file system"
+msgstr "Ekspor _URL relatif ke sistem berkas"
+
+#. RcdUF
+#: filter/uiconfig/ui/pdflinkspage.ui:76
+msgctxt "pdflinkspage|extended_tip|exporturl"
+msgid "Enable this checkbox to export URLs to other documents as relative URLs in the file system. See \"relative hyperlinks\" in the Help."
+msgstr "Aktifkan kotak centang ini untuk mengekspor URL ke dokumen lain sebagai URL relatif di sistem berkas. Lihat \"hipertaut relatif\" pada Bantuan."
+
+#. biumY
+#: filter/uiconfig/ui/pdflinkspage.ui:91
+msgctxt "pdflinkspage|label1"
+msgid "General"
+msgstr "Umum"
+
+#. mGRBH
+#: filter/uiconfig/ui/pdflinkspage.ui:120
+msgctxt "pdflinkspage|default"
+msgid "Default mode"
+msgstr "Modus baku"
+
+#. bcgaz
+#: filter/uiconfig/ui/pdflinkspage.ui:129
+msgctxt "pdflinkspage|extended_tip|default"
+msgid "Links from your PDF document to other documents will be handled as it is specified in your operating system."
+msgstr "Taut dari dokumen PDF Anda ke dokumen lain akan ditangani seperti yang dinyatakan dalam sistem operasi Anda."
+
+#. DNRK8
+#: filter/uiconfig/ui/pdflinkspage.ui:140
+msgctxt "pdflinkspage|openpdf"
+msgid "Open with PDF reader application"
+msgstr "Buka dengan aplikasi pembaca PDF"
+
+#. gmzoA
+#: filter/uiconfig/ui/pdflinkspage.ui:149
+msgctxt "pdflinkspage|extended_tip|openpdf"
+msgid "Cross-document links are opened with the PDF reader application that currently shows the document. The PDF reader application must be able to handle the specified file type inside the hyperlink."
+msgstr "Taut lintas-dokumen dibuka dengan aplikasi pembaca PDF yang saat ini menampilkan dokumen. Aplikasi pembaca PDF harus mampu menangani jenis berkas yang dinyatakan di dalam hipertaut."
+
+#. wPem9
+#: filter/uiconfig/ui/pdflinkspage.ui:160
+msgctxt "pdflinkspage|openinternet"
+msgid "Open _with Internet browser"
+msgstr "Buka _dengan peramban Internet"
+
+#. xfRr2
+#: filter/uiconfig/ui/pdflinkspage.ui:169
+msgctxt "pdflinkspage|extended_tip|openinternet"
+msgid "Cross-document links are opened with the Internet browser. The Internet browser must be able to handle the specified file type inside the hyperlink."
+msgstr "Taut lintas-dokumen dibuka dengan peramban Internet. Peramban Internet harus dapat menangani jenis berkas yang dinyatakan di dalam hipertaut."
+
+#. vw8zA
+#: filter/uiconfig/ui/pdflinkspage.ui:180
+msgctxt "pdflinkspage|removeexternallinks"
+msgid "Remove cross-document links"
+msgstr "Buang tautan lintas dokumen"
+
+#. mkY6P
+#: filter/uiconfig/ui/pdflinkspage.ui:189
+msgctxt "pdflinkspage|extended_tip|removeexternallinks"
+msgid "Cross-document links will be removed from your PDF document."
+msgstr "Tautan lintas dokumen akan disingkirkan dari dokumen PDF Anda."
+
+#. B9TGg
+#: filter/uiconfig/ui/pdflinkspage.ui:204
+msgctxt "pdflinkspage|label5"
+msgid "Cross-document Links"
+msgstr "Taut Lintas Dokumen"
+
+#. KmFGh
+#: filter/uiconfig/ui/pdfoptionsdialog.ui:8
+msgctxt "pdfoptionsdialog|PdfOptionsDialog"
+msgid "PDF Options"
+msgstr "Pilihan PDF"
+
+#. BwbwB
+#: filter/uiconfig/ui/pdfoptionsdialog.ui:38
+msgctxt "pdfoptionsdialog|ok"
+msgid "E_xport"
+msgstr "E_kspor"
+
+#. 7p3sS
+#: filter/uiconfig/ui/pdfsecuritypage.ui:28
+msgctxt "pdfsecuritypage|setpassword"
+msgid "Set _Passwords…"
+msgstr "Atur Kata _Sandi…"
+
+#. C9DhC
+#: filter/uiconfig/ui/pdfsecuritypage.ui:36
+msgctxt "pdfsecuritypage|extended_tip|setpassword"
+msgid "Click to open a dialog where you enter the passwords."
+msgstr "Klik untuk membuka dialog di mana Anda memasukkan kata sandi."
+
+#. 63szB
+#: filter/uiconfig/ui/pdfsecuritypage.ui:55
+msgctxt "pdfsecuritypage|label5"
+msgid "Open password set"
+msgstr "Kata sandi untuk membuka diisi"
+
+#. 6ktYG
+#: filter/uiconfig/ui/pdfsecuritypage.ui:67
+msgctxt "pdfsecuritypage|label6"
+msgid "PDF document will be encrypted"
+msgstr "Dokumen PDF akan dienkripsi"
+
+#. pTAZC
+#: filter/uiconfig/ui/pdfsecuritypage.ui:91
+msgctxt "pdfsecuritypage|label7"
+msgid "No open password set"
+msgstr "Kata sandi untuk membuka tak diisi"
+
+#. fp3My
+#: filter/uiconfig/ui/pdfsecuritypage.ui:103
+msgctxt "pdfsecuritypage|label8"
+msgid "PDF document will not be encrypted"
+msgstr "Dokumen PDF tak akan dienkripsi"
+
+#. aHC6v
+#: filter/uiconfig/ui/pdfsecuritypage.ui:127
+msgctxt "pdfsecuritypage|label30"
+msgid "PDF document will not be encrypted due to PDF/A export."
+msgstr "Dokumen PDF tak akan dienkripsi karena ekspor PDF/A."
+
+#. DsALB
+#: filter/uiconfig/ui/pdfsecuritypage.ui:152
+msgctxt "pdfsecuritypage|label9"
+msgid "Permission password set"
+msgstr "Kata sandi hak akses diisi"
+
+#. hRJpp
+#: filter/uiconfig/ui/pdfsecuritypage.ui:164
+msgctxt "pdfsecuritypage|label11"
+msgid "PDF document will be restricted"
+msgstr "Dokumen PDF akan terbatas"
+
+#. L3oQx
+#: filter/uiconfig/ui/pdfsecuritypage.ui:188
+msgctxt "pdfsecuritypage|label12"
+msgid "No permission password set"
+msgstr "Kata sandi izin tak diisi"
+
+#. s3RBF
+#: filter/uiconfig/ui/pdfsecuritypage.ui:200
+msgctxt "pdfsecuritypage|label13"
+msgid "PDF document will be unrestricted"
+msgstr "Dokumen PDF akan menjadi tidak terbatas"
+
+#. 4jwu7
+#: filter/uiconfig/ui/pdfsecuritypage.ui:224
+msgctxt "pdfsecuritypage|label14"
+msgid "PDF document will not be restricted due to PDF/A export."
+msgstr "Dokumen PDF tidak akan dibatasi karena ekspor ke PDF/A."
+
+#. 9CFqB
+#: filter/uiconfig/ui/pdfsecuritypage.ui:244
+msgctxt "pdfsecuritypage|setpasswordstitle"
+msgid "Set Passwords"
+msgstr "Atur Kata Sandi"
+
+#. FDKJa
+#: filter/uiconfig/ui/pdfsecuritypage.ui:259
+msgctxt "pdfsecuritypage|label2"
+msgid "File Encryption and Permission"
+msgstr "Izin dan Enkripsi Berkas"
+
+#. tWAWA
+#: filter/uiconfig/ui/pdfsecuritypage.ui:294
+msgctxt "pdfsecuritypage|printnone"
+msgid "_Not permitted"
+msgstr "Tidak diiji_nkan"
+
+#. R3Gvm
+#: filter/uiconfig/ui/pdfsecuritypage.ui:303
+msgctxt "pdfsecuritypage|extended_tip|printnone"
+msgid "Printing the document is not permitted."
+msgstr "Mencetak dokumen tidak diizinkan."
+
+#. kSfrd
+#: filter/uiconfig/ui/pdfsecuritypage.ui:314
+msgctxt "pdfsecuritypage|printlow"
+msgid "_Low resolution (150 dpi)"
+msgstr "Reso_lusi rendah (150 dpi)"
+
+#. kB7dx
+#: filter/uiconfig/ui/pdfsecuritypage.ui:323
+msgctxt "pdfsecuritypage|extended_tip|printlow"
+msgid "The document can only be printed in low resolution (150 dpi). Not all PDF readers honor this setting."
+msgstr "Dokumen hanya dapat dicetak dalam resolusi rendah (150 dpi). Tidak semua pembaca PDF menghormati pengaturan ini."
+
+#. CmQzT
+#: filter/uiconfig/ui/pdfsecuritypage.ui:334
+msgctxt "pdfsecuritypage|printhigh"
+msgid "_High resolution"
+msgstr "Resolusi tin_ggi"
+
+#. iBC7m
+#: filter/uiconfig/ui/pdfsecuritypage.ui:343
+msgctxt "pdfsecuritypage|extended_tip|printhigh"
+msgid "The document can be printed in high resolution."
+msgstr "Dokumen dapat dicetak dalam resolusi tinggi."
+
+#. Gjpp4
+#: filter/uiconfig/ui/pdfsecuritypage.ui:358
+msgctxt "pdfsecuritypage|label1"
+msgid "Printing"
+msgstr "Pencetakan"
+
+#. C6BHs
+#: filter/uiconfig/ui/pdfsecuritypage.ui:387
+msgctxt "pdfsecuritypage|changenone"
+msgid "No_t permitted"
+msgstr "_Tidak diizinkan"
+
+#. McdCx
+#: filter/uiconfig/ui/pdfsecuritypage.ui:396
+msgctxt "pdfsecuritypage|extended_tip|changenone"
+msgid "No changes of the content are permitted."
+msgstr "Tidak ada perubahan konten yang diizinkan."
+
+#. Vt6Zn
+#: filter/uiconfig/ui/pdfsecuritypage.ui:407
+msgctxt "pdfsecuritypage|changeinsdel"
+msgid "_Inserting, deleting, and rotating pages"
+msgstr "Meny_isip, menghapus, dan memutar halaman"
+
+#. bpyjZ
+#: filter/uiconfig/ui/pdfsecuritypage.ui:416
+msgctxt "pdfsecuritypage|extended_tip|changeinsdel"
+msgid "Only inserting, deleting, and rotating pages is permitted."
+msgstr "Hanya diperbolehkan menyisipkan, menghapus, dan memutar halaman."
+
+#. dAmDo
+#: filter/uiconfig/ui/pdfsecuritypage.ui:427
+msgctxt "pdfsecuritypage|changeform"
+msgid "_Filling in form fields"
+msgstr "Memasukkan isian ruas-ruas _formulir"
+
+#. yXs9B
+#: filter/uiconfig/ui/pdfsecuritypage.ui:436
+msgctxt "pdfsecuritypage|extended_tip|changeform"
+msgid "Only filling in form fields is permitted."
+msgstr "Hanya diizinkan mengisi ruas formulir."
+
+#. zGE7J
+#: filter/uiconfig/ui/pdfsecuritypage.ui:447
+msgctxt "pdfsecuritypage|changecomment"
+msgid "_Commenting, filling in form fields"
+msgstr "Meng_komentari, mengisi ruas-ruas formulir"
+
+#. aeLn4
+#: filter/uiconfig/ui/pdfsecuritypage.ui:456
+msgctxt "pdfsecuritypage|extended_tip|changecomment"
+msgid "Only commenting and filling in form fields is permitted."
+msgstr "Hanya diperbolehkan mengomentari dan mengisi ruas formulir."
+
+#. uP8VW
+#: filter/uiconfig/ui/pdfsecuritypage.ui:467
+msgctxt "pdfsecuritypage|changeany"
+msgid "_Any except extracting pages"
+msgstr "Seb_arang kecuali mengekstrak halaman"
+
+#. 3RDPJ
+#: filter/uiconfig/ui/pdfsecuritypage.ui:476
+msgctxt "pdfsecuritypage|extended_tip|changeany"
+msgid "All changes are permitted, except extracting pages."
+msgstr "Semua perubahan diperbolehkan, kecuali mengekstrak halaman."
+
+#. vLxXJ
+#: filter/uiconfig/ui/pdfsecuritypage.ui:491
+msgctxt "pdfsecuritypage|label3"
+msgid "Changes"
+msgstr "Perubahan"
+
+#. iJHWS
+#: filter/uiconfig/ui/pdfsecuritypage.ui:520
+msgctxt "pdfsecuritypage|enablecopy"
+msgid "Ena_ble copying of content"
+msgstr "_Fungsikan penyalinan isi"
+
+#. WJuNa
+#: filter/uiconfig/ui/pdfsecuritypage.ui:529
+msgctxt "pdfsecuritypage|extended_tip|enablecopy"
+msgid "Select to enable copying of content to the clipboard."
+msgstr "Pilih untuk memfungsikan penyalinan konten ke papan klip."
+
+#. 2EMgQ
+#: filter/uiconfig/ui/pdfsecuritypage.ui:540
+msgctxt "pdfsecuritypage|enablea11y"
+msgid "Enable text access for acce_ssibility tools"
+msgstr "Fungsikan akses teks untuk perkakas ak_sesibilitas"
+
+#. cQrBt
+#: filter/uiconfig/ui/pdfsecuritypage.ui:549
+msgctxt "pdfsecuritypage|extended_tip|enablea11y"
+msgid "Select to enable text access for accessibility tools."
+msgstr "Pilih untuk memfungsikan akses teks untuk alat aksesibilitas."
+
+#. 2hi53
+#: filter/uiconfig/ui/pdfsecuritypage.ui:564
+msgctxt "pdfsecuritypage|label4"
+msgid "Content"
+msgstr "Isi"
+
+#. uzDnE
+#: filter/uiconfig/ui/pdfsignpage.ui:33
+msgctxt "pdfsignpage|label2"
+msgid "Use this X.509 certificate to digitally sign PDF documents:"
+msgstr "Gunakan sertifikat X.509 ini untuk menandatangani dokumen PDF secara digital:"
+
+#. GZgNV
+#: filter/uiconfig/ui/pdfsignpage.ui:53
+msgctxt "pdfsignpage|extended_tip|cert"
+msgid "Allows you to select an X.509 certificate to be used for signing this PDF export."
+msgstr "Memungkinkan Anda memilih sertifikat X.509 yang akan digunakan untuk menandatangani ekspor PDF ini."
+
+#. xgYD9
+#: filter/uiconfig/ui/pdfsignpage.ui:69
+msgctxt "pdfsignpage|select"
+msgid "Select..."
+msgstr "Pilih..."
+
+#. UCtFh
+#: filter/uiconfig/ui/pdfsignpage.ui:76
+msgctxt "pdfsignpage|extended_tip|select"
+msgid "Opens the Select X.509 Certificate dialog."
+msgstr "Membuka dialog Pilih Sertifikat X.509."
+
+#. zRUyK
+#: filter/uiconfig/ui/pdfsignpage.ui:88
+msgctxt "pdfsignpage|clear"
+msgid "_Clear"
+msgstr "_Bersihkan"
+
+#. UQz9i
+#: filter/uiconfig/ui/pdfsignpage.ui:131
+msgctxt "pdfsignpage|extended_tip|password"
+msgid "Enter the password used for protecting the private key associated with the selected certificate."
+msgstr "Masukkan kata sandi yang digunakan untuk melindungi kunci privat yang terkait dengan sertifikat yang dipilih."
+
+#. 9NEtS
+#: filter/uiconfig/ui/pdfsignpage.ui:149
+msgctxt "pdfsignpage|extended_tip|location"
+msgid "These three fields allow you to optionally enter additional information about the digital signature that will be applied to the PDF (Where, by whom and why it was made). It will be embedded in the appropriate PDF fields and will be visible to anyone viewing the PDF. Each or all of the three fields may be left blank."
+msgstr "Ketiga ruas ini memungkinkan Anda untuk secara opsional memasukkan informasi tambahan tentang tanda tangan digital yang akan diterapkan ke PDF (Di mana, oleh siapa, dan mengapa hal itu dibuat). Ini akan disematkan di ruas PDF yang sesuai dan akan terlihat oleh siapa pun yang melihat PDF. Masing-masing atau semua dari tiga ruas mungkin dibiarkan kosong."
+
+#. uVShK
+#: filter/uiconfig/ui/pdfsignpage.ui:167
+msgctxt "pdfsignpage|extended_tip|contact"
+msgid "These three fields allow you to optionally enter additional information about the digital signature that will be applied to the PDF (Where, by whom and why it was made). It will be embedded in the appropriate PDF fields and will be visible to anyone viewing the PDF. Each or all of the three fields may be left blank."
+msgstr "Ketiga ruas ini memungkinkan Anda untuk secara opsional memasukkan informasi tambahan tentang tanda tangan digital yang akan diterapkan ke PDF (Di mana, oleh siapa, dan mengapa hal itu dibuat). Ini akan disematkan di ruas PDF yang sesuai dan akan terlihat oleh siapa pun yang melihat PDF. Masing-masing atau semua dari tiga ruas mungkin dibiarkan kosong."
+
+#. 5QBRv
+#: filter/uiconfig/ui/pdfsignpage.ui:185
+msgctxt "pdfsignpage|extended_tip|reason"
+msgid "These three fields allow you to optionally enter additional information about the digital signature that will be applied to the PDF (Where, by whom and why it was made). It will be embedded in the appropriate PDF fields and will be visible to anyone viewing the PDF. Each or all of the three fields may be left blank."
+msgstr "Ketiga ruas ini memungkinkan Anda untuk secara opsional memasukkan informasi tambahan tentang tanda tangan digital yang akan diterapkan ke PDF (Di mana, oleh siapa, dan mengapa hal itu dibuat). Ini akan disematkan di ruas PDF yang sesuai dan akan terlihat oleh siapa pun yang melihat PDF. Masing-masing atau semua dari tiga ruas mungkin dibiarkan kosong."
+
+#. wHqcD
+#: filter/uiconfig/ui/pdfsignpage.ui:200
+msgctxt "pdfsignpage|tsa"
+msgid "None"
+msgstr "Nihil"
+
+#. VMoF3
+#: filter/uiconfig/ui/pdfsignpage.ui:212
+msgctxt "pdfsignpage|label7"
+msgid "Certificate password:"
+msgstr "Kata sandi sertifikat:"
+
+#. Syow2
+#: filter/uiconfig/ui/pdfsignpage.ui:226
+msgctxt "pdfsignpage|label12"
+msgid "Location:"
+msgstr "Lokasi:"
+
+#. AQkj6
+#: filter/uiconfig/ui/pdfsignpage.ui:240
+msgctxt "pdfsignpage|label13"
+msgid "Contact information:"
+msgstr "Informasi kontak:"
+
+#. mvSG8
+#: filter/uiconfig/ui/pdfsignpage.ui:254
+msgctxt "pdfsignpage|label14"
+msgid "Reason:"
+msgstr "Alasan:"
+
+#. Bbwq2
+#: filter/uiconfig/ui/pdfsignpage.ui:268
+msgctxt "pdfsignpage|label15"
+msgid "Time Stamp Authority:"
+msgstr "Otoritas Stempel Waktu:"
+
+#. FZmZF
+#: filter/uiconfig/ui/pdfsignpage.ui:290
+msgctxt "pdfsignpage|label1"
+msgid "X.509 Certificate"
+msgstr "Sertifikat X.509"
+
+#. ZEPFF
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:43
+msgctxt "pdfuserinterfacepage|resize"
+msgid "_Resize window to initial page"
+msgstr "Ubah uku_ran jendela ke halaman awal"
+
+#. 8RErB
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:51
+msgctxt "pdfuserinterfacepage|extended_tip|resize"
+msgid "Select to generate a PDF file that is shown in a window displaying the whole initial page."
+msgstr "Pilih untuk membuat berkas PDF yang ditampilkan di jendela yang menampilkan keseluruhan halaman awal."
+
+#. 92sua
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:62
+msgctxt "pdfuserinterfacepage|center"
+msgid "_Center window on screen"
+msgstr "Jendela _di tengah layar"
+
+#. fGFCM
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:70
+msgctxt "pdfuserinterfacepage|extended_tip|center"
+msgid "Select to generate a PDF file that is shown in a reader window centered on screen."
+msgstr "Pilih untuk membuat berkas PDF yang ditampilkan di jendela pembaca yang terpusat di layar."
+
+#. crBwn
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:81
+msgctxt "pdfuserinterfacepage|open"
+msgid "_Open in full screen mode"
+msgstr "Buka dalam m_ode layar penuh"
+
+#. oWaHS
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:89
+msgctxt "pdfuserinterfacepage|extended_tip|open"
+msgid "Select to generate a PDF file that is shown in a full screen reader window in front of all other windows."
+msgstr "Pilih untuk membuat berkas PDF yang ditampilkan di jendela pembaca layar penuh di depan semua jendela lainnya."
+
+#. Cvzzi
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:100
+msgctxt "pdfuserinterfacepage|display"
+msgid "_Display document title"
+msgstr "Tayangkan judul _dokumen"
+
+#. tdVmB
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:108
+msgctxt "pdfuserinterfacepage|extended_tip|display"
+msgid "Select to generate a PDF file that is shown with the document title in the reader's title bar."
+msgstr "Pilih untuk membuat berkas PDF yang ditampilkan dengan judul dokumen di bilah judul pembaca."
+
+#. BtMjV
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:123
+msgctxt "pdfuserinterfacepage|label1"
+msgid "Window Options"
+msgstr "Pilihan Jendela"
+
+#. YLEgH
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:151
+msgctxt "pdfuserinterfacepage|menubar"
+msgid "Hide _menubar"
+msgstr "Sembunyikan bilah _menu"
+
+#. qBG8G
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:159
+msgctxt "pdfuserinterfacepage|extended_tip|menubar"
+msgid "Select to hide the reader's menu bar when the document is active."
+msgstr "Pilih untuk menyembunyikan bilah menu pembaca saat dokumen aktif."
+
+#. hZQVm
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:170
+msgctxt "pdfuserinterfacepage|toolbar"
+msgid "Hide _toolbar"
+msgstr "Sembunyikan bilah ala_t"
+
+#. eBE9L
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:178
+msgctxt "pdfuserinterfacepage|extended_tip|toolbar"
+msgid "Select to hide the reader's toolbar when the document is active."
+msgstr "Pilih untuk menyembunyikan bilah alat pembaca saat dokumen aktif."
+
+#. Aw2aq
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:189
+msgctxt "pdfuserinterfacepage|window"
+msgid "Hide _window controls"
+msgstr "Sembunyikan kendali _jendela"
+
+#. EhwCr
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:197
+msgctxt "pdfuserinterfacepage|extended_tip|window"
+msgid "Select to hide the reader's controls when the document is active."
+msgstr "Pilih untuk menyembunyikan kendali pembaca saat dokumen aktif."
+
+#. xm2Lh
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:212
+msgctxt "pdfuserinterfacepage|label2"
+msgid "User Interface Options"
+msgstr "Pilihan Antarmuka Pengguna"
+
+#. SwDno
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:239
+msgctxt "pdfuserinterfacepage|effects"
+msgid "_Use transition effects"
+msgstr "G_unakan efek transisi"
+
+#. BMEGm
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:247
+msgctxt "pdfuserinterfacepage|extended_tip|effects"
+msgid "Select to export Impress slide transition effects to respective PDF effects."
+msgstr "Pilih untuk mengekspor efek transisi salindia Impress ke masing-masing efek PDF."
+
+#. JgwC9
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:262
+msgctxt "pdfuserinterfacepage|label3"
+msgid "Transitions"
+msgstr "Transisi"
+
+#. sUC8i
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:291
+msgctxt "pdfuserinterfacepage|allbookmarks"
+msgid "Show _All"
+msgstr "Tampilkan Semu_a"
+
+#. XLd4F
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:300
+msgctxt "pdfuserinterfacepage|extended_tip|allbookmarks"
+msgid "Select to show all bookmark levels when the reader opens the PDF file."
+msgstr "Pilih untuk menampilkan semua tingkat markah ketika pembaca membuka berkas PDF."
+
+#. WzoF3
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:311
+msgctxt "pdfuserinterfacepage|visiblebookmark"
+msgid "_Visible levels:"
+msgstr "Tingkat yang ter_lihat:"
+
+#. FqQPa
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:323
+msgctxt "pdfuserinterfacepage|extended_tip|visiblebookmark"
+msgid "Select to show bookmark levels down to the selected level when the reader opens the PDF file."
+msgstr "Pilih untuk menampilkan tingkat markah ke tingkat yang dipilih ketika pembaca membuka berkas PDF."
+
+#. NEDWP
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:343
+msgctxt "pdfuserinterfacepage|extended_tip|visiblelevel"
+msgid "Select to show bookmark levels down to the selected level when the reader opens the PDF file."
+msgstr "Pilih untuk menampilkan tingkat markah ke tingkat yang dipilih ketika pembaca membuka berkas PDF."
+
+#. x4kjV
+#: filter/uiconfig/ui/pdfuserinterfacepage.ui:361
+msgctxt "pdfuserinterfacepage|label4"
+msgid "Collapse Outlines"
+msgstr "Kuncupkan Kerangka"
+
+#. ibYBv
+#: filter/uiconfig/ui/pdfviewpage.ui:48
+msgctxt "pdfviewpage|pageonly"
+msgid "_Page only"
+msgstr "Hanya _halaman"
+
+#. NCgWy
+#: filter/uiconfig/ui/pdfviewpage.ui:57
+msgctxt "pdfviewpage|extended_tip|pageonly"
+msgid "Select to generate a PDF file that shows only the page contents."
+msgstr "Pilih untuk membuat berkas PDF yang hanya menampilkan konten halaman."
+
+#. d2FAh
+#: filter/uiconfig/ui/pdfviewpage.ui:68
+msgctxt "pdfviewpage|outline"
+msgid "Outl_ine and page"
+msgstr "Kerang_ka dan halaman"
+
+#. JAAHm
+#: filter/uiconfig/ui/pdfviewpage.ui:77
+msgctxt "pdfviewpage|extended_tip|outline"
+msgid "Select to generate a PDF file that shows a bookmarks palette and the page contents."
+msgstr "Pilih untuk membuat berkas PDF yang menampilkan templat markah dan konten halaman."
+
+#. rT8gQ
+#: filter/uiconfig/ui/pdfviewpage.ui:88
+msgctxt "pdfviewpage|thumbs"
+msgid "_Thumbnails and page"
+msgstr "_Keluku dan halaman"
+
+#. gDHqJ
+#: filter/uiconfig/ui/pdfviewpage.ui:97
+msgctxt "pdfviewpage|extended_tip|thumbs"
+msgid "Select to generate a PDF file that shows a thumbnails palette and the page contents."
+msgstr "Pilih untuk membuat berkas PDF yang menampilkan templat keluku dan konten halaman."
+
+#. EgKos
+#: filter/uiconfig/ui/pdfviewpage.ui:116
+msgctxt "pdfviewpage|label4"
+msgid "Open on pa_ge:"
+msgstr "Buka pada _halaman:"
+
+#. QrQ84
+#: filter/uiconfig/ui/pdfviewpage.ui:135
+msgctxt "pdfviewpage|extended_tip|page"
+msgid "Select to show the given page when the reader opens the PDF file."
+msgstr "Pilih untuk menampilkan halaman yang diberikan ketika pembaca membuka berkas PDF."
+
+#. MxznY
+#: filter/uiconfig/ui/pdfviewpage.ui:156
+msgctxt "pdfviewpage|label2"
+msgid "Panes"
+msgstr "Panel"
+
+#. jA3LD
+#: filter/uiconfig/ui/pdfviewpage.ui:185
+msgctxt "pdfviewpage|fitdefault"
+msgid "_Default"
+msgstr "_Baku"
+
+#. vQNHv
+#: filter/uiconfig/ui/pdfviewpage.ui:194
+msgctxt "pdfviewpage|extended_tip|fitdefault"
+msgid "Select to generate a PDF file that shows the page contents without zooming. If the reader software is configured to use a zoom factor by default, the page shows with that zoom factor."
+msgstr "Pilih untuk membuat berkas PDF yang menampilkan isi halaman tanpa zum. Jika perangkat lunak pembaca dikonfigurasi untuk menggunakan faktor zum secara baku, halaman akan ditampilkan dengan faktor zum tersebut."
+
+#. kqho7
+#: filter/uiconfig/ui/pdfviewpage.ui:205
+msgctxt "pdfviewpage|fitwin"
+msgid "_Fit in window"
+msgstr "_Paskan jendela"
+
+#. Z6P6B
+#: filter/uiconfig/ui/pdfviewpage.ui:214
+msgctxt "pdfviewpage|extended_tip|fitwin"
+msgid "Select to generate a PDF file that shows the page zoomed to fit entirely into the reader's window."
+msgstr "Pilih untuk membuat berkas PDF yang menampilkan halaman yang diperbesar agar sesuai sepenuhnya ke jendela pembaca."
+
+#. gcStc
+#: filter/uiconfig/ui/pdfviewpage.ui:225
+msgctxt "pdfviewpage|fitwidth"
+msgid "Fit _width"
+msgstr "Pas _lebar"
+
+#. FkxYn
+#: filter/uiconfig/ui/pdfviewpage.ui:234
+msgctxt "pdfviewpage|extended_tip|fitwidth"
+msgid "Select to generate a PDF file that shows the page zoomed to fit the width of the reader's window."
+msgstr "Pilih untuk membuat berkas PDF yang menampilkan halaman yang diperbesar agar sesuai dengan lebar jendela pembaca."
+
+#. V6kwp
+#: filter/uiconfig/ui/pdfviewpage.ui:245
+msgctxt "pdfviewpage|fitvis"
+msgid "Fit _visible"
+msgstr "Pas yang _nampak"
+
+#. EBBzj
+#: filter/uiconfig/ui/pdfviewpage.ui:254
+msgctxt "pdfviewpage|extended_tip|fitvis"
+msgid "Select to generate a PDF file that shows the text and graphics on the page zoomed to fit the reader's window."
+msgstr "Pilih untuk membuat berkas PDF yang menampilkan teks dan grafik pada halaman yang di-zum agar pas dengan jendela pembaca."
+
+#. NGpWy
+#: filter/uiconfig/ui/pdfviewpage.ui:271
+msgctxt "pdfviewpage|fitzoom"
+msgid "_Zoom factor:"
+msgstr "Faktor _zum:"
+
+#. nQ4Du
+#: filter/uiconfig/ui/pdfviewpage.ui:283
+msgctxt "pdfviewpage|extended_tip|fitzoom"
+msgid "Select a given zoom factor when the reader opens the PDF file."
+msgstr "Pilih faktor zum yang diberikan ketika pembaca membuka berkas PDF."
+
+#. BBoAW
+#: filter/uiconfig/ui/pdfviewpage.ui:304
+msgctxt "pdfviewpage|extended_tip|zoom"
+msgid "Select a given zoom factor when the reader opens the PDF file."
+msgstr "Pilih faktor zum yang diberikan ketika pembaca membuka berkas PDF."
+
+#. LQKDP
+#: filter/uiconfig/ui/pdfviewpage.ui:325
+msgctxt "pdfviewpage|label3"
+msgid "Magnification"
+msgstr "Perbesaran"
+
+#. Eegkp
+#: filter/uiconfig/ui/pdfviewpage.ui:361
+msgctxt "pdfviewpage|defaultlayout"
+msgid "D_efault"
+msgstr "Bak_u"
+
+#. CtGeC
+#: filter/uiconfig/ui/pdfviewpage.ui:370
+msgctxt "pdfviewpage|extended_tip|defaultlayout"
+msgid "Select to generate a PDF file that shows the pages according to the layout setting of the reader software."
+msgstr "Pilih untuk membuat berkas PDF yang menunjukkan halaman sesuai dengan pengaturan tata letak perangkat lunak pembaca."
+
+#. QBpan
+#: filter/uiconfig/ui/pdfviewpage.ui:381
+msgctxt "pdfviewpage|singlelayout"
+msgid "_Single page"
+msgstr "_Satu halaman"
+
+#. 4PuqY
+#: filter/uiconfig/ui/pdfviewpage.ui:390
+msgctxt "pdfviewpage|extended_tip|singlelayout"
+msgid "Select to generate a PDF file that shows one page at a time."
+msgstr "Pilih untuk membuat berkas PDF yang menampilkan satu halaman setiap kali."
+
+#. whE6p
+#: filter/uiconfig/ui/pdfviewpage.ui:401
+msgctxt "pdfviewpage|contlayout"
+msgid "C_ontinuous"
+msgstr "Berke_lanjutan"
+
+#. BRxps
+#: filter/uiconfig/ui/pdfviewpage.ui:410
+msgctxt "pdfviewpage|extended_tip|contlayout"
+msgid "Select to generate a PDF file that shows pages in a continuous vertical column."
+msgstr "Pilih untuk membuat berkas PDF yang menampilkan halaman di kolom vertikal berkesinambungan."
+
+#. ALQRE
+#: filter/uiconfig/ui/pdfviewpage.ui:421
+msgctxt "pdfviewpage|contfacinglayout"
+msgid "Co_ntinuous facing"
+msgstr "Menghadap berkelanjutan"
+
+#. YyCT7
+#: filter/uiconfig/ui/pdfviewpage.ui:430
+msgctxt "pdfviewpage|extended_tip|contfacinglayout"
+msgid "Select to generate a PDF file that shows pages side by side in a continuous column. For more than two pages, the first page is displayed on the right."
+msgstr "Pilih untuk membuat berkas PDF yang menilikkan halaman berdampingan dalam kolom berkesinambungan. Untuk berkas lebih dari dua halaman, halaman pertama ditayangkan di sebelah kanan."
+
+#. 4DFBW
+#: filter/uiconfig/ui/pdfviewpage.ui:441
+msgctxt "pdfviewpage|firstonleft"
+msgid "First page is _left"
+msgstr "Halaman pertama k_iri"
+
+#. z57kb
+#: filter/uiconfig/ui/pdfviewpage.ui:450
+msgctxt "pdfviewpage|extended_tip|firstonleft"
+msgid "Select to generate a PDF file that shows pages side by side in a continuous column. For more than two pages, the first page is displayed on the left. You must enable support for complex text layout on Languages and Locales - General in the Options dialog box."
+msgstr "Pilih untuk menghasilkan berkas PDF yang menampilkan halaman berdampingan dalam kolom berkelanjutan. Untuk berkas dengan lebih dari dua halaman, halaman pertama ditampilkan di sebelah kiri. Anda harus memfungsikan dukungan untuk tata letak teks kompleks pada Bahasa dan Lokal - Umum di kotak dialog Pilihan."
+
+#. sYKod
+#: filter/uiconfig/ui/pdfviewpage.ui:465
+msgctxt "pdfviewpage|label1"
+msgid "Page Layout"
+msgstr "Tata Letak Halaman"
+
+#. G43B5
+#: filter/uiconfig/ui/testxmlfilter.ui:8
+msgctxt "testxmlfilter|TestXMLFilterDialog"
+msgid "Test XML Filter: %s"
+msgstr "Uji Penapis XML: %s"
+
+#. 93Aw7
+#: filter/uiconfig/ui/testxmlfilter.ui:88
+msgctxt "testxmlfilter|label3"
+msgid "XSLT for export"
+msgstr "XSLT untuk diekspor"
+
+#. 3EKij
+#: filter/uiconfig/ui/testxmlfilter.ui:101
+msgctxt "testxmlfilter|label4"
+msgid "Transform document"
+msgstr "Transformasikan dokumen"
+
+#. TZvm5
+#: filter/uiconfig/ui/testxmlfilter.ui:111
+msgctxt "testxmlfilter|exportbrowse"
+msgid "Browse..."
+msgstr "Ramban..."
+
+#. 6ZGrB
+#: filter/uiconfig/ui/testxmlfilter.ui:117
+msgctxt "testxmlfilter|extended_tip|exportbrowse"
+msgid "Locate the file that you want to apply the XML export filter to. The XML code of the transformed file is opened in your default XML editor after transformation."
+msgstr "Cari berkas yang Anda ingin terapkan penapis ekspor XML padanya. Kode XML dari berkas yang ditransformasi dibuka pada penyunting baku XML Anda setelah transformasi."
+
+#. F8CJd
+#: filter/uiconfig/ui/testxmlfilter.ui:128
+msgctxt "testxmlfilter|currentdocument"
+msgid "Current Document"
+msgstr "Dokumen Kini"
+
+#. GRXCc
+#: filter/uiconfig/ui/testxmlfilter.ui:134
+msgctxt "testxmlfilter|extended_tip|currentdocument"
+msgid "The front-most open file that matches the XML filter criteria will be used to test the filter. The current XML export filter transforms the file and the resulting XML code is displayed in the XML Filter output window."
+msgstr "Berkas terbuka paling depan yang cocok dengan kriteria penapis XML akan digunakan untuk menguji penapis. Penapis ekspor XML saat ini mengubah berkas dan menghasilkan kode XML yang ditayangkan di jendela Luaran Penapis XML."
+
+#. EPLxG
+#: filter/uiconfig/ui/testxmlfilter.ui:150
+msgctxt "testxmlfilter|extended_tip|exportxsltfile"
+msgid "Displays the file name of the XSLT filter that you entered on the Transformation tab page."
+msgstr "Menampilkan nama berkas penapis XSLT yang Anda masukkan pada halaman tab Transformasi ."
+
+#. 9HnMA
+#: filter/uiconfig/ui/testxmlfilter.ui:167
+msgctxt "testxmlfilter|extended_tip|currentfilename"
+msgid "Displays the file name of the document that you want to use to test the XSLT filter."
+msgstr "Menampilkan nama berkas dari dokumen yang Anda gunakan untuk menguji penapis XSLT."
+
+#. b7FMe
+#: filter/uiconfig/ui/testxmlfilter.ui:186
+msgctxt "testxmlfilter|label1"
+msgid "Export"
+msgstr "Ekspor"
+
+#. ANpSQ
+#: filter/uiconfig/ui/testxmlfilter.ui:219
+msgctxt "testxmlfilter|label5"
+msgid "XSLT for import"
+msgstr "XSLT untuk impor"
+
+#. aWFtZ
+#: filter/uiconfig/ui/testxmlfilter.ui:229
+msgctxt "testxmlfilter|importbrowse"
+msgid "Browse..."
+msgstr "Ramban..."
+
+#. eR68F
+#: filter/uiconfig/ui/testxmlfilter.ui:235
+msgctxt "testxmlfilter|extended_tip|importbrowse"
+msgid "Opens a file selection dialog. The selected file is opened using the current XML import filter."
+msgstr "Membuka dialog pemilihan berkas. Berkas yang dipilih dibuka menggunakan penapis impor XML saat ini."
+
+#. RGb9P
+#: filter/uiconfig/ui/testxmlfilter.ui:246
+msgctxt "testxmlfilter|recentfile"
+msgid "Recent File"
+msgstr "Berkas Baru-Baru Ini"
+
+#. 2vFnT
+#: filter/uiconfig/ui/testxmlfilter.ui:252
+msgctxt "testxmlfilter|extended_tip|recentfile"
+msgid "Re-opens the document that was last opened with this dialog."
+msgstr "Membuka ulang dokumen yang terakhir dibuka dengan dialog ini."
+
+#. WRoGk
+#: filter/uiconfig/ui/testxmlfilter.ui:266
+msgctxt "testxmlfilter|templateimport"
+msgid "Template for import"
+msgstr "Templat untuk impor"
+
+#. 75GJD
+#: filter/uiconfig/ui/testxmlfilter.ui:281
+msgctxt "testxmlfilter|extended_tip|importxsltfile"
+msgid "Displays the file name of the XSLT filter that you entered on the Transformation tab page."
+msgstr "Menampilkan nama berkas penapis XSLT yang Anda masukkan pada halaman tab Transformasi ."
+
+#. UAfyw
+#: filter/uiconfig/ui/testxmlfilter.ui:292
+msgctxt "testxmlfilter|displaysource"
+msgid "Display source"
+msgstr "Tayangkan sumber"
+
+#. CdCp5
+#: filter/uiconfig/ui/testxmlfilter.ui:300
+msgctxt "testxmlfilter|extended_tip|displaysource"
+msgid "Opens the XML source of the selected document in your default XML editor after importing."
+msgstr "Membuka sumber XML dari dokumen terpilih di penyunting XML baku Anda setelah mengimpor."
+
+#. AKfAy
+#: filter/uiconfig/ui/testxmlfilter.ui:314
+msgctxt "testxmlfilter|label6"
+msgid "Transform file"
+msgstr "Transformasikan berkas"
+
+#. FdiNb
+#: filter/uiconfig/ui/testxmlfilter.ui:329
+msgctxt "testxmlfilter|extended_tip|importxslttemplate"
+msgid "Displays the file name of the template that you entered on the Transformation tab page."
+msgstr "Menampilkan nama berkas templat yang Anda masukkan pada menuTransformasi halaman tab."
+
+#. RHRHL
+#: filter/uiconfig/ui/testxmlfilter.ui:346
+msgctxt "testxmlfilter|extended_tip|recentfilename"
+msgid "Re-opens the document that was last opened with this dialog."
+msgstr "Membuka ulang dokumen yang terakhir dibuka dengan dialog ini."
+
+#. 4MaaP
+#: filter/uiconfig/ui/testxmlfilter.ui:368
+msgctxt "testxmlfilter|label2"
+msgid "Import"
+msgstr "Impor"
+
+#. NsJor
+#: filter/uiconfig/ui/testxmlfilter.ui:396
+msgctxt "testxmlfilter|extended_tip|TestXMLFilterDialog"
+msgid "Tests the XSLT stylesheets used by the selected XML filter."
+msgstr "Menguji lembar gaya XSLT yang menggunakan penapis XML terpilih."
+
+#. DEJXN
+#: filter/uiconfig/ui/warnpdfdialog.ui:18
+msgctxt "warnpdfdialog|WarnPDFDialog"
+msgid "Problems During PDF Export"
+msgstr "Masalah Saat Ekspor PDF"
+
+#. 2BpUz
+#: filter/uiconfig/ui/warnpdfdialog.ui:25
+msgctxt "warnpdfdialog|WarnPDFDialog"
+msgid "During PDF export the following problems occurred:"
+msgstr "Ketika mengekspor PDF masalah berikut terjadi:"
+
+#. wG9NF
+#: filter/uiconfig/ui/xmlfiltersettings.ui:18
+msgctxt "xmlfiltersettings|XMLFilterSettingsDialog"
+msgid "XML Filter Settings"
+msgstr "Pengaturan Penapis XML"
+
+#. x9LGg
+#: filter/uiconfig/ui/xmlfiltersettings.ui:42
+msgctxt "xmlfiltersettings|extended_tip|help"
+msgid "Displays the help page for this dialog."
+msgstr "Menampilkan halaman bantuan untuk dialog ini."
+
+#. CmVSC
+#: filter/uiconfig/ui/xmlfiltersettings.ui:64
+msgctxt "xmlfiltersettings|extended_tip|close"
+msgid "Closes the dialog."
+msgstr "Tutup dialog."
+
+#. VvrGU
+#: filter/uiconfig/ui/xmlfiltersettings.ui:111
+msgctxt "xmlfiltersettings|header_name"
+msgid "Name"
+msgstr "Nama"
+
+#. D6uZS
+#: filter/uiconfig/ui/xmlfiltersettings.ui:124
+msgctxt "xmlfiltersettings|header_type"
+msgid "Type"
+msgstr "Jenis"
+
+#. A6qWH
+#: filter/uiconfig/ui/xmlfiltersettings.ui:135
+msgctxt "xmlfiltersettings|extended_tip|filterlist"
+msgid "Select one or more filters, then click one of the buttons."
+msgstr "Pilih satu atau beberapa penapis, lalu klik salah satu tombol."
+
+#. VcMQo
+#: filter/uiconfig/ui/xmlfiltersettings.ui:157
+msgctxt "xmlfiltersettings|new"
+msgid "_New..."
+msgstr "_Baru..."
+
+#. upKZD
+#: filter/uiconfig/ui/xmlfiltersettings.ui:164
+msgctxt "xmlfiltersettings|extended_tip|new"
+msgid "Opens a dialog for creating a new filter."
+msgstr "Membuka dialog untuk membuat penapis baru."
+
+#. W6Ju3
+#: filter/uiconfig/ui/xmlfiltersettings.ui:176
+msgctxt "xmlfiltersettings|edit"
+msgid "_Edit..."
+msgstr "_Sunting..."
+
+#. GMxC8
+#: filter/uiconfig/ui/xmlfiltersettings.ui:183
+msgctxt "xmlfiltersettings|extended_tip|edit"
+msgid "Opens a dialog for editing the selected filter."
+msgstr "Membuka dialog untuk menyunting penapis terpilih."
+
+#. DAoSK
+#: filter/uiconfig/ui/xmlfiltersettings.ui:195
+msgctxt "xmlfiltersettings|test"
+msgid "_Test XSLTs..."
+msgstr "Uji XSL_T..."
+
+#. mWGrq
+#: filter/uiconfig/ui/xmlfiltersettings.ui:202
+msgctxt "xmlfiltersettings|extended_tip|test"
+msgid "Opens a dialog for testing the selected filter."
+msgstr "Membuka dialog untuk menguji penapis terpilih."
+
+#. FE7Za
+#: filter/uiconfig/ui/xmlfiltersettings.ui:214
+msgctxt "xmlfiltersettings|delete"
+msgid "_Delete..."
+msgstr "_Hapus..."
+
+#. bDixG
+#: filter/uiconfig/ui/xmlfiltersettings.ui:221
+msgctxt "xmlfiltersettings|extended_tip|delete"
+msgid "Deletes the selected file after you confirm the dialog that follows."
+msgstr "Menghapus berkas yang dipilih setelah Anda mengonfirmasi dialog yang mengikuti."
+
+#. DmuTA
+#: filter/uiconfig/ui/xmlfiltersettings.ui:233
+msgctxt "xmlfiltersettings|save"
+msgid "_Save as Package..."
+msgstr "_Simpan sebagai Paket..."
+
+#. tPh4b
+#: filter/uiconfig/ui/xmlfiltersettings.ui:240
+msgctxt "xmlfiltersettings|extended_tip|save"
+msgid "Displays a Save as dialog to save the selected file as an XSLT filter package (*.jar)."
+msgstr "Menampilkan dialog Simpan sebagai untuk menyimpan berkas terpilih sebagai paket penapis XSLT (*.jar)."
+
+#. CuahL
+#: filter/uiconfig/ui/xmlfiltersettings.ui:252
+msgctxt "xmlfiltersettings|open"
+msgid "_Open Package..."
+msgstr "_Buka Paket..."
+
+#. D3FRp
+#: filter/uiconfig/ui/xmlfiltersettings.ui:259
+msgctxt "xmlfiltersettings|extended_tip|open"
+msgid "Displays an Open dialog to open a filter from an XSLT filter package (*.jar)."
+msgstr "Menampilkan dialog Buka untuk membuka penapis dari paket penapis XSLT (*.jar)."
+
+#. bC6ha
+#: filter/uiconfig/ui/xmlfiltersettings.ui:291
+msgctxt "xmlfiltersettings|extended_tip|XMLFilterSettingsDialog"
+msgid "Opens the XML Filter Settings dialog, where you can create, edit, delete, and test filters to import and to export XML files."
+msgstr "Membuka dialog Pengaturan Penapis XML, di mana Anda dapat membuat, menyunting, menghapus, dan menguji penapis untuk mengimpor dan mengekspor berkas XML."
+
+#. rLZ5z
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:23
+msgctxt "xmlfiltertabpagegeneral|label2"
+msgid "_Filter name:"
+msgstr "Nama _penapis:"
+
+#. rYNyn
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:43
+msgctxt "xmlfiltertabpagegeneral|extended_tip|filtername"
+msgid "Enter the name that you want to display in the list box of the XML Filter Settings dialog."
+msgstr "Masukkan nama yang ingin Anda tayangkan di kotak senarai dialog Pengaturan Penapis XML."
+
+#. dreFh
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:56
+msgctxt "xmlfiltertabpagegeneral|label3"
+msgid "_Application:"
+msgstr "_Aplikasi:"
+
+#. BFUsA
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:81
+msgctxt "xmlfiltertabpagegeneral|extended_tip|application"
+msgid "Select the application that you want to use with the filter."
+msgstr "Pilih aplikasi yang ingin Anda gunakan dengan penapis."
+
+#. yQmBY
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:94
+msgctxt "xmlfiltertabpagegeneral|label4"
+msgid "_Name of file type:"
+msgstr "_Nama jenis berkas:"
+
+#. fZvBA
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:114
+msgctxt "xmlfiltertabpagegeneral|extended_tip|interfacename"
+msgid "Enter the name that you want to display in the File type box in file dialogs."
+msgstr "Masukkan nama yang ingin Anda tayangkan di kotak Jenis berkas dalam dialog berkas."
+
+#. NB3Gy
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:127
+msgctxt "xmlfiltertabpagegeneral|label5"
+msgid "File _extension:"
+msgstr "_Ekstensi berkas:"
+
+#. D5aZP
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:147
+msgctxt "xmlfiltertabpagegeneral|extended_tip|extension"
+msgid "Enter the file extension to use when you open a file without specifying a filter. The file extension is used to determine which filter to use."
+msgstr "Masukkan ekstensi berkas yang akan dipakai ketika Anda membuka sebuah berkas tanpa menentukan suatu penapis. Ekstensi berkas dipakai untuk menentukan penapis mana yang dipakai."
+
+#. fPxWA
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:160
+msgctxt "xmlfiltertabpagegeneral|label6"
+msgid "Comment_s:"
+msgstr "_Komentar:"
+
+#. Gfrm2
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:187
+msgctxt "xmlfiltertabpagegeneral|extended_tip|description"
+msgid "Enter a comment (optional)."
+msgstr "Masukkan komentar (opsional)."
+
+#. G632R
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:207
+msgctxt "xmlfiltertabpagegeneral|extended_tip|XmlFilterTabPageGeneral"
+msgid "Enter or edit general information for an XML filter."
+msgstr "Masukkan dan sunting informasi umum dari Penapis XML."
+
+#. FhD2n
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:24
+msgctxt "xmlfiltertabpagetransformation|label2"
+msgid "_DocType:"
+msgstr "_DocType:"
+
+#. x2ex7
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:44
+msgctxt "xmlfiltertabpagetransformation|extended_tip|doc"
+msgid "Enter the DOCTYPE of the XML file."
+msgstr "Enter DOCTYPE atau berkas XML."
+
+#. J5c8A
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:57
+msgctxt "xmlfiltertabpagetransformation|label4"
+msgid "_XSLT for export:"
+msgstr "_XSLT untuk ekspor:"
+
+#. sjWgJ
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:81
+msgctxt "xmlfiltertabpagetransformation|extended_tip|xsltexport"
+msgid "If this is an export filter, enter the file name of the XSLT stylesheet that you want to use for exporting."
+msgstr "Jika ini adalah penapis ekspor, masukkan nama berkas dari lembar gaya XSLT yang ingin Anda gunakan untuk mengekspor."
+
+#. GwzvD
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:92
+msgctxt "xmlfiltertabpagetransformation|browseexport"
+msgid "Brows_e..."
+msgstr "R_amban..."
+
+#. QLd25
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:99
+msgctxt "xmlfiltertabpagetransformation|extended_tip|browseexport"
+msgid "Opens a file selection dialog."
+msgstr "Membuka dialog pemilihan berkas."
+
+#. oZGZS
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:112
+msgctxt "xmlfiltertabpagetransformation|label5"
+msgid "XSLT _for import:"
+msgstr "XSLT _untuk impor:"
+
+#. Xgroa
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:136
+msgctxt "xmlfiltertabpagetransformation|extended_tip|xsltimport"
+msgid "If this is an import filter, enter the file name of the XSLT stylesheet that you want to use for importing."
+msgstr "Jika ini penapis impor, masukkan nama berkas lembar gaya XSLT yang anda ingin gunakan untuk pengimporan."
+
+#. UNKTt
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:147
+msgctxt "xmlfiltertabpagetransformation|browseimport"
+msgid "B_rowse..."
+msgstr "Telusu_r..."
+
+#. TecWL
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:154
+msgctxt "xmlfiltertabpagetransformation|extended_tip|browseimport"
+msgid "Opens a file selection dialog."
+msgstr "Membuka dialog pemilihan berkas."
+
+#. 9nV9R
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:167
+msgctxt "xmlfiltertabpagetransformation|label6"
+msgid "Template for _import:"
+msgstr "Templat untuk _impor:"
+
+#. wRFNU
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:191
+msgctxt "xmlfiltertabpagetransformation|extended_tip|tempimport"
+msgid "Enter the name of the template that you want to use for importing. In the template, styles are defined to display XML tags."
+msgstr "Masukkan nama templat yang Anda ingin gunakan untuk pengimporan. Pada templat, gaya ditentukan untuk menampilkan tag XML."
+
+#. MNLtB
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:202
+msgctxt "xmlfiltertabpagetransformation|browsetemp"
+msgid "Browse..."
+msgstr "Ramban..."
+
+#. Dce3n
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:208
+msgctxt "xmlfiltertabpagetransformation|extended_tip|browsetemp"
+msgid "Opens a file selection dialog."
+msgstr "Membuka dialog pemilihan berkas."
+
+#. XTDex
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:229
+msgctxt "xmlfiltertabpagetransformation|filtercb"
+msgid "The filter needs XSLT 2.0 processor"
+msgstr "Penapis perlu prosesor XSLT 2.0"
+
+#. hDv78
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:244
+msgctxt "xmlfiltertabpagetransformation|extended_tip|XmlFilterTabPageTransformation"
+msgid "Enter or edit file information for an XML filter."
+msgstr "Masukkan atau sunting berkas informasi dari Penapis XML."
+
+#. MCfGg
+#: filter/uiconfig/ui/xsltfilterdialog.ui:8
+msgctxt "xsltfilterdialog|XSLTFilterDialog"
+msgid "XML Filter: %s"
+msgstr "Penapis XML: %s"
+
+#. bCZh2
+#: filter/uiconfig/ui/xsltfilterdialog.ui:62
+msgctxt "xsltfilterdialog|extended_tip|help"
+msgid "Displays the help page for this dialog."
+msgstr "Menampilkan halaman bantuan untuk dialog ini."
+
+#. Cvy2d
+#: filter/uiconfig/ui/xsltfilterdialog.ui:103
+msgctxt "xsltfilterdialog|general"
+msgid "General"
+msgstr "Umum"
+
+#. peR3F
+#: filter/uiconfig/ui/xsltfilterdialog.ui:126
+msgctxt "xsltfilterdialog|transformation"
+msgid "Transformation"
+msgstr "Transformasi"
+
+#. WkALr
+#: filter/uiconfig/ui/xsltfilterdialog.ui:149
+msgctxt "xsltfilterdialog|extended_tip|XSLTFilterDialog"
+msgid "Opens a dialog for creating a new filter."
+msgstr "Membuka dialog untuk membuat penapis baru."

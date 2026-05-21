@@ -1,0 +1,1268 @@
+#. extracted from librelogo/source/pythonpath
+msgid ""
+msgstr ""
+"Project-Id-Version: LibO 40l10n\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2020-06-29 13:09+0200\n"
+"PO-Revision-Date: 2024-05-05 01:46+0000\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <https://translations.documentfoundation.org/projects/libo_ui-master/librelogosourcepythonpath/ka/>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.3.1\n"
+"X-POOTLE-MTIME: 1513255502.000000\n"
+
+#. tFoAo
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FORWARD\n"
+"property.text"
+msgid "forward|fd"
+msgstr "წინ/წ"
+
+#. CAynz
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"BACKWARD\n"
+"property.text"
+msgid "back|bk"
+msgstr "უკან|უ"
+
+#. C2vPo
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"TURNLEFT\n"
+"property.text"
+msgid "left|turnleft|lt"
+msgstr "მარცხენა|მარცხნივ|მარცხ"
+
+#. 77BZH
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"TURNRIGHT\n"
+"property.text"
+msgid "right|turnright|rt"
+msgstr "მარჯვენა|მარჯვნივ|მარჯვ"
+
+#. CUWGq
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PENUP\n"
+"property.text"
+msgid "penup|pu"
+msgstr "მაღლა|მაღ"
+
+#. FKDzL
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PENDOWN\n"
+"property.text"
+msgid "pendown|pd"
+msgstr "დაბლა|დაბლ"
+
+#. BEiyw
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"HOME\n"
+"property.text"
+msgid "home"
+msgstr "საწყისი"
+
+#. KpJ4z
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"POINT\n"
+"property.text"
+msgid "point"
+msgstr "წერტილი"
+
+#. qKQFP
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"CIRCLE\n"
+"property.text"
+msgid "circle"
+msgstr "წრე"
+
+#. svw6Z
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ELLIPSE\n"
+"property.text"
+msgid "ellipse"
+msgstr "ოვალი"
+
+#. MCmRf
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SQUARE\n"
+"property.text"
+msgid "square"
+msgstr "კვადრატი"
+
+#. C8wfs
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"RECTANGLE\n"
+"property.text"
+msgid "rectangle"
+msgstr "მართკუთხედი"
+
+#. amFfu
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"LABEL\n"
+"property.text"
+msgid "label"
+msgstr "ჭდე"
+
+#. 2fBcU
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PENCOLOR\n"
+"property.text"
+msgid "pencolor|pencolour|linecolor|pc"
+msgstr "ფანქრისფერი|ხაზისფერი|ფ"
+
+#. uZsBx
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ANY\n"
+"property.text"
+msgid "any"
+msgstr "ნებისმიერი"
+
+#. WxpfM
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PENWIDTH\n"
+"property.text"
+msgid "pensize|penwidth|linewidth|ps"
+msgstr "ფანქრისზომა|ფანქრისსიგანე|ხაზისსიგანე|ფზ"
+
+#. 2Zgzv
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PENSTYLE\n"
+"property.text"
+msgid "penstyle|linestyle"
+msgstr "ფანქრისსტილი|ხაზისსტილი"
+
+#. L9YnA
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PENJOINT\n"
+"property.text"
+msgid "penjoint|linejoint"
+msgstr "ფანქრისშეერთ|ხაზებისშეერთება"
+
+#. bhT9C
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PENCAP\n"
+"property.text"
+msgid "pencap|linecap"
+msgstr "ფანქრისბოლო|ხაზისბოლო"
+
+#. cEECN
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"NONE\n"
+"property.text"
+msgid "none"
+msgstr "ცარიელი"
+
+#. f5mQa
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"BEVEL\n"
+"property.text"
+msgid "bevel"
+msgstr "დახრა"
+
+#. R4Z7i
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"MITER\n"
+"property.text"
+msgid "miter"
+msgstr "45დახრა"
+
+#. DX7nN
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ROUNDED\n"
+"property.text"
+msgid "round"
+msgstr "მრგვალი"
+
+#. VSaRQ
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SOLID\n"
+"property.text"
+msgid "solid"
+msgstr "მყარი"
+
+#. P6PxY
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"DASH\n"
+"property.text"
+msgid "dashed"
+msgstr "წყვეტილი"
+
+#. NgY8n
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"DOTTED\n"
+"property.text"
+msgid "dotted"
+msgstr "წერტილოვანი"
+
+#. ti8oV
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"CLOSE\n"
+"property.text"
+msgid "close"
+msgstr "დახურვა"
+
+#. btW32
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FILL\n"
+"property.text"
+msgid "fill"
+msgstr "შევსება"
+
+#. nGc2D
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FILLCOLOR\n"
+"property.text"
+msgid "fillcolor|fillcolour|fc"
+msgstr "შევსებისფერი|შფ"
+
+#. PGzDC
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FILLTRANSPARENCY\n"
+"property.text"
+msgid "filltransparency"
+msgstr "შევსების გამჭვირვალობა"
+
+#. rREgg
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PENTRANSPARENCY\n"
+"property.text"
+msgid "pentransparency|linetransparency"
+msgstr "ფაქრისგამჭვირვალობა|ხაზისგამჭვირვალობა"
+
+#. aYZ9n
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FILLSTYLE\n"
+"property.text"
+msgid "fillstyle"
+msgstr "შევსების სტილი"
+
+#. Z2nMa
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FONTCOLOR\n"
+"property.text"
+msgid "fontcolor|textcolor|textcolour"
+msgstr "ფონტისფერი|ტექსტისფერი"
+
+#. 3G7jg
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FONTTRANSPARENCY\n"
+"property.text"
+msgid "fonttransparency|texttransparency"
+msgstr "ფონტსგამჭვრივალობა|ტექსტისგამჭვირვალობა"
+
+#. EPJeZ
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FONTHEIGHT\n"
+"property.text"
+msgid "fontsize|textsize|textheight"
+msgstr "ფონტისზომა|ტექსტისზომა|ტექსტისსიმაღლე"
+
+#. amtRF
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FONTWEIGHT\n"
+"property.text"
+msgid "fontweight"
+msgstr "ფონტისსიგანე"
+
+#. Di9ys
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FONTSTYLE\n"
+"property.text"
+msgid "fontstyle"
+msgstr "ფონტსსტილი"
+
+#. YKYPa
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"BOLD\n"
+"property.text"
+msgid "bold"
+msgstr "სქელი"
+
+#. Q2DmA
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ITALIC\n"
+"property.text"
+msgid "italic"
+msgstr "კურსივი"
+
+#. hC7sA
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"UPRIGHT\n"
+"property.text"
+msgid "upright|normal"
+msgstr "მაღლა|ნორმალური"
+
+#. nG5Yw
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"NORMAL\n"
+"property.text"
+msgid "normal"
+msgstr "ჩვეულებრივი"
+
+#. fQ9uy
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FONTFAMILY\n"
+"property.text"
+msgid "fontfamily"
+msgstr "ფონტისოჯახი"
+
+#. Fu2PZ
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"CLEARSCREEN\n"
+"property.text"
+msgid "clearscreen|cs"
+msgstr "ეკრანისგასუფთავება|ეგ"
+
+#. 4eTcL
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"TEXT\n"
+"property.text"
+msgid "text"
+msgstr "ტექსტი"
+
+#. oJ8GF
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"HIDETURTLE\n"
+"property.text"
+msgid "hideturtle|ht|hideme"
+msgstr "კუსდამალვა|კდ"
+
+#. pbRce
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SHOWTURTLE\n"
+"property.text"
+msgid "showturtle|st|showme"
+msgstr "კუსჩვენება|კჩ"
+
+#. iEgLZ
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"POSITION\n"
+"property.text"
+msgid "position|pos|setpos"
+msgstr "მდებარეობა|მდებ|მდებარეობისდაყენება"
+
+#. ydeVD
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"HEADING\n"
+"property.text"
+msgid "heading|setheading|seth"
+msgstr "მიმართულება|მიმართულებისდაყენება|მიმართდაყ"
+
+#. HpQLM
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PAGESIZE\n"
+"property.text"
+msgid "pagesize"
+msgstr "გვერდისზომა"
+
+#. 9iYXj
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"GROUP\n"
+"property.text"
+msgid "picture|pic"
+msgstr "სურათი|სურ"
+
+#. HyJKJ
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"TO\n"
+"property.text"
+msgid "to"
+msgstr "ვის"
+
+#. qMmGB
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"END\n"
+"property.text"
+msgid "end"
+msgstr "ბოლო"
+
+#. tcxEM
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"STOP\n"
+"property.text"
+msgid "stop"
+msgstr "გაჩერება"
+
+#. AqQAe
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"REPEAT\n"
+"property.text"
+msgid "repeat|forever"
+msgstr "გამეორება|სამუდამოდ"
+
+#. pA442
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"REPCOUNT\n"
+"property.text"
+msgid "repcount"
+msgstr "გამეორებებისრაოდენობა"
+
+#. NEdAp
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"BREAK\n"
+"property.text"
+msgid "break"
+msgstr "შეწყვეტა"
+
+#. ccxHX
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"CONTINUE\n"
+"property.text"
+msgid "continue"
+msgstr "გაგრძელება"
+
+#. 5ZmQX
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"WHILE\n"
+"property.text"
+msgid "while"
+msgstr "სანამ"
+
+#. v4dsv
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FOR\n"
+"property.text"
+msgid "for"
+msgstr "ვისთვის"
+
+#. hUxfV
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"IN\n"
+"property.text"
+msgid "in"
+msgstr "სად"
+
+#. r8rdq
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"IF\n"
+"property.text"
+msgid "if"
+msgstr "თუ"
+
+#. fFrZA
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"OUTPUT\n"
+"property.text"
+msgid "output"
+msgstr "გამოტანა"
+
+#. WHewy
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"LEFTSTRING\n"
+"property.text"
+msgid "“|‘"
+msgstr "“|‘"
+
+#. dmm7x
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"RIGHTSTRING\n"
+"property.text"
+msgid "”|’"
+msgstr "”|’"
+
+#. rNpFP
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"TRUE\n"
+"property.text"
+msgid "true"
+msgstr "ჭეშმარიტი"
+
+#. bhF65
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FALSE\n"
+"property.text"
+msgid "false"
+msgstr "ცრუ"
+
+#. 8QhvZ
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"NOT\n"
+"property.text"
+msgid "not"
+msgstr "არ"
+
+#. iW2Yh
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"AND\n"
+"property.text"
+msgid "and"
+msgstr "და"
+
+#. B3QGc
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"OR\n"
+"property.text"
+msgid "or"
+msgstr "ან"
+
+#. E9emy
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"INPUT\n"
+"property.text"
+msgid "input"
+msgstr "შეტანა"
+
+#. n3DWZ
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PRINT\n"
+"property.text"
+msgid "print"
+msgstr "ბეჭდვა"
+
+#. LVNRT
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SLEEP\n"
+"property.text"
+msgid "sleep"
+msgstr "ძილი"
+
+#. 9h7xn
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"GLOBAL\n"
+"property.text"
+msgid "global"
+msgstr "გლობალური"
+
+#. BEhG8
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"RANDOM\n"
+"property.text"
+msgid "random"
+msgstr "შემთხვევითი"
+
+#. 7ety4
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"INT\n"
+"property.text"
+msgid "int"
+msgstr "მთელ"
+
+#. aXDnB
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FLOAT\n"
+"property.text"
+msgid "float"
+msgstr "მცურავი"
+
+#. X7Xrx
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"STR\n"
+"property.text"
+msgid "str"
+msgstr "სტრ"
+
+#. xTjuZ
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SQRT\n"
+"property.text"
+msgid "sqrt"
+msgstr "კვფესვი"
+
+#. rCfuG
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"LOG10\n"
+"property.text"
+msgid "log10"
+msgstr "ლოგ10"
+
+#. hvSEG
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SIN\n"
+"property.text"
+msgid "sin"
+msgstr "სინ"
+
+#. V37dC
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"COS\n"
+"property.text"
+msgid "cos"
+msgstr "კოს"
+
+#. irCAi
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ROUND\n"
+"property.text"
+msgid "round"
+msgstr "დამრგვალება"
+
+#. mK7BU
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ABS\n"
+"property.text"
+msgid "abs"
+msgstr "აბს"
+
+#. mMFnH
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"COUNT\n"
+"property.text"
+msgid "count"
+msgstr "რაოდენობა"
+
+#. REzwU
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SET\n"
+"property.text"
+msgid "set"
+msgstr "დაყენება"
+
+#. 2HJLi
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"RANGE\n"
+"property.text"
+msgid "range"
+msgstr "შუალედი"
+
+#. 5v85t
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"LIST\n"
+"property.text"
+msgid "list"
+msgstr "სია"
+
+#. WG9L8
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"TUPLE\n"
+"property.text"
+msgid "tuple"
+msgstr "კორტეჟი"
+
+#. AwCpS
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SORTED\n"
+"property.text"
+msgid "sorted"
+msgstr "დალაგებული"
+
+#. E3ZWb
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"RESUB\n"
+"property.text"
+msgid "sub"
+msgstr "ქვე"
+
+#. EQKA9
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"RESEARCH\n"
+"property.text"
+msgid "search"
+msgstr "ძებნა"
+
+#. 6qhHD
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"REFINDALL\n"
+"property.text"
+msgid "findall"
+msgstr "ყველასპოვნა"
+
+#. K3QbE
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"MIN\n"
+"property.text"
+msgid "min"
+msgstr "მინ"
+
+#. jk5VB
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"MAX\n"
+"property.text"
+msgid "max"
+msgstr "მაქს"
+
+#. UMhvT
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PI\n"
+"property.text"
+msgid "pi|π"
+msgstr "პი|π"
+
+#. 6iBXP
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"DECIMAL\n"
+"property.text"
+msgid "."
+msgstr "."
+
+#. jVbjB
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"DEG\n"
+"property.text"
+msgid "°"
+msgstr "°"
+
+#. qKdwN
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"HOUR\n"
+"property.text"
+msgid "h"
+msgstr "h"
+
+#. h63E5
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"MM\n"
+"property.text"
+msgid "mm"
+msgstr "მმ"
+
+#. RRfTD
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"CM\n"
+"property.text"
+msgid "cm"
+msgstr "სმ"
+
+#. hGRGr
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PT\n"
+"property.text"
+msgid "pt"
+msgstr "პტ"
+
+#. NVaj5
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"INCH\n"
+"property.text"
+msgid "in|\""
+msgstr "დუიმი|\""
+
+#. uCFwP
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"INVISIBLE\n"
+"property.text"
+msgid "invisible"
+msgstr "უხილავი"
+
+#. DovQK
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"BLACK\n"
+"property.text"
+msgid "black"
+msgstr "შავი"
+
+#. MGAxA
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SILVER\n"
+"property.text"
+msgid "silver"
+msgstr "ვერცხლისფერი"
+
+#. 9LBUQ
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"GRAY\n"
+"property.text"
+msgid "gray|grey"
+msgstr "ნაცრისფერი"
+
+#. oAy3e
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"WHITE\n"
+"property.text"
+msgid "white"
+msgstr "თეთრი"
+
+#. GfsGA
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"MAROON\n"
+"property.text"
+msgid "maroon"
+msgstr "ბორდოსფერი"
+
+#. YhZ6h
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"RED\n"
+"property.text"
+msgid "red"
+msgstr "წითელი"
+
+#. DthAM
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PURPLE\n"
+"property.text"
+msgid "purple"
+msgstr "იისფერი"
+
+#. Q44aX
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"FUCHSIA\n"
+"property.text"
+msgid "fuchsia|magenta"
+msgstr "ფუქსია|იისფერი"
+
+#. gwpzS
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"GREEN\n"
+"property.text"
+msgid "green"
+msgstr "მწვანე"
+
+#. tLqpS
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"LIME\n"
+"property.text"
+msgid "lime"
+msgstr "ლიმნისფერი"
+
+#. AQueV
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"OLIVE\n"
+"property.text"
+msgid "olive"
+msgstr "ზეთისხილისფერი"
+
+#. Xgbet
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"YELLOW\n"
+"property.text"
+msgid "yellow"
+msgstr "ყვითელი"
+
+#. J5atG
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"NAVY\n"
+"property.text"
+msgid "navy"
+msgstr "მუქილურჯი"
+
+#. TX4g3
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"BLUE\n"
+"property.text"
+msgid "blue"
+msgstr "ლურჯი"
+
+#. pDbAn
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"TEAL\n"
+"property.text"
+msgid "teal"
+msgstr "მომწვანო-მოლურჯო"
+
+#. GBgD2
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"AQUA\n"
+"property.text"
+msgid "aqua|cyan"
+msgstr "ცისფერი|წყლისფერი"
+
+#. 5BkSB
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"PINK\n"
+"property.text"
+msgid "pink"
+msgstr "ვარდისფერი"
+
+#. TZq8Z
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"TOMATO\n"
+"property.text"
+msgid "tomato"
+msgstr "მუქიწითელი"
+
+#. FKcUk
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ORANGE\n"
+"property.text"
+msgid "orange"
+msgstr "ნარინჯისფერი"
+
+#. 3EnvX
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"GOLD\n"
+"property.text"
+msgid "gold"
+msgstr "ოქროსფერი"
+
+#. xRupD
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"VIOLET\n"
+"property.text"
+msgid "violet"
+msgstr "იისფერი"
+
+#. TUvm5
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"SKYBLUE\n"
+"property.text"
+msgid "skyblue"
+msgstr "ცისფერი"
+
+#. HsKEB
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"CHOCOLATE\n"
+"property.text"
+msgid "chocolate"
+msgstr "შოკოლადისფერი"
+
+#. FSQCT
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"BROWN\n"
+"property.text"
+msgid "brown"
+msgstr "ყავისფერი"
+
+#. PTgyD
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"LIBRELOGO\n"
+"property.text"
+msgid "LibreLogo"
+msgstr "LibreLogo"
+
+#. 8BZVa
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERROR\n"
+"property.text"
+msgid "Error (in line %s)"
+msgstr "შეცდომა (ხაზზე %s)"
+
+#. 4dBoE
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_ZERODIVISION\n"
+"property.text"
+msgid "Division by zero."
+msgstr "ნულზე გაყოფა."
+
+#. gjBf3
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_NAME\n"
+"property.text"
+msgid "Unknown name: “%s”."
+msgstr "უცნობი სახელი: \"%s\"."
+
+#. oVW6Y
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_ARGUMENTS\n"
+"property.text"
+msgid "%s takes %s arguments (%s given)."
+msgstr "%s-ს %s არგუმენტის სჭირდება (მიწოდებულია %s)."
+
+#. 9GTjj
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_BLOCK\n"
+"property.text"
+msgid "Error (extra or missing spaces at brackets?)"
+msgstr "შეცდომა (დამატებითი ან ნაკლული ჰარეები ფრჩხილებთან?)"
+
+#. xHSSL
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_KEY\n"
+"property.text"
+msgid "Unknown element: %s"
+msgstr "უცნობი ელემენტი: %s"
+
+#. acBGX
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_INDEX\n"
+"property.text"
+msgid "Index out of range."
+msgstr "ინდექსი შუალედს გარეთაა."
+
+#. wtR3a
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_STOP\n"
+"property.text"
+msgid "Program terminated:"
+msgstr "პროგრამა შეწყდა:"
+
+#. YBhxX
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_MAXRECURSION\n"
+"property.text"
+msgid "maximum recursion depth (%d) exceeded."
+msgstr "მაქსიმალური რეკურსიის სიღრმე (%d) გადაცილებულია."
+
+#. 8X5oD
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_MEMORY\n"
+"property.text"
+msgid "not enough memory."
+msgstr "არასაკმარისი მეხსიერება."
+
+#. GqoAR
+#: LibreLogo_en_US.properties
+msgctxt ""
+"LibreLogo_en_US.properties\n"
+"ERR_NOTAPROGRAM\n"
+"property.text"
+msgid "Do you want to run this text document?"
+msgstr "გნებავთ, გაუშვათ ეს ტექსტური დოკუმენტი?"

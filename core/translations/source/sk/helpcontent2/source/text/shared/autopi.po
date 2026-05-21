@@ -1,0 +1,6452 @@
+#. extracted from helpcontent2/source/text/shared/autopi
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2023-09-28 12:40+0200\n"
+"PO-Revision-Date: 2020-10-16 15:35+0000\n"
+"Last-Translator: Miloš Šrámek <msramek22@gmail.com>\n"
+"Language-Team: Slovak <https://weblate.documentfoundation.org/projects/libo_help-master/textsharedautopi/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1524571094.000000\n"
+
+#. hCAzG
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Wizard"
+msgstr "Sprievodca"
+
+#. 27Ect
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"bm_id3152551\n"
+"help.text"
+msgid "<bookmark_value>wizards; overview</bookmark_value><bookmark_value>AutoPilots, see wizards</bookmark_value>"
+msgstr "<bookmark_value>sprievodcovia,prehľad</bookmark_value><bookmark_value>Autopilot, viď sprievodcovia </bookmark_value>"
+
+#. qP9Fu
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3152551\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01000000.xhp\">Wizards</link>"
+msgstr "<link href=\"text/shared/autopi/01000000.xhp\">Sprievodcovia</link>"
+
+#. miGFD
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"par_id3153527\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AutoPilotMenu\">Guides you through creating business and personal letters, faxes, agendas, and more.</ahelp>"
+msgstr ""
+
+#. dAcHA
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3154750\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010000.xhp\">Letter</link>"
+msgstr "<link href=\"text/shared/autopi/01010000.xhp\">List</link>"
+
+#. 38xQF
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3153662\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020000.xhp\">Fax</link>"
+msgstr "<link href=\"text/shared/autopi/01020000.xhp\">Fax</link>"
+
+#. SG8Tp
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3153561\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040000.xhp\">Agenda</link>"
+msgstr "<link href=\"text/shared/autopi/01040000.xhp\">Program</link>"
+
+#. zjitK
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3147530\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130000.xhp\">Document Converter</link>"
+msgstr "<link href=\"text/shared/autopi/01130000.xhp\">Konvertor dokumentov</link>"
+
+#. Z9ju7
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3147303\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01150000.xhp\">Euro Converter</link>"
+msgstr "<link href=\"text/shared/autopi/01150000.xhp\">Euro konvertor</link>"
+
+#. eAGW4
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard"
+msgstr "Sprievodca vytvorením listu"
+
+#. PFxuA
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"bm_id3151100\n"
+"help.text"
+msgid "<bookmark_value>wizards; letters</bookmark_value><bookmark_value>Letter Wizard</bookmark_value><bookmark_value>templates;letters</bookmark_value>"
+msgstr "<bookmark_value>Sprievodcovia, listy</bookmark_value><bookmark_value>Sprievodca listom</bookmark_value><bookmark_value>Šablóny, listy</bookmark_value>"
+
+#. 96DDV
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3151100\n"
+"help.text"
+msgid "Letter Wizard"
+msgstr "Sprievodca vytvorením listu"
+
+#. 6BFCi
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3093440\n"
+"help.text"
+msgid "<variable id=\"brief\"><ahelp hid=\".uno:AutoPilotLetter\">Starts the wizard for a letter template.</ahelp></variable> You can use this template for both business and personal correspondence."
+msgstr "<variable id=\"brief\"><ahelp hid=\".uno:AutoPilotLetter\">Spustí sprievodcu a vytvorí šablónu listu.</ahelp></variable> Túto šablónu je možné použiť pre pracovnú aj osobnú korešpondenciu."
+
+#. 7uF5N
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3149178\n"
+"help.text"
+msgid "$[officename] comes with sample templates for personal or business letters, which you can customize to your own needs with the help of the wizard. The wizard leads you step-by-step in creating a document template and offers numerous layout and design options. The preview gives you an impression of how the finished letter will appear according to the settings you choose."
+msgstr "$[officename] prichádza so vzorovými šablónami pre osobné alebo pracovné listy, ktoré je možné za pomoci sprievodcu upravovať podľa vlastných potrieb. Sprievodca vás prevedie krok za krokom vytváraním šablón a ponúkne veľa návrhov designu. Náhľad vám poskytuje predstavu ako bude výsledný list podľa vašich nastavení vyzerať."
+
+#. yqgt8
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153748\n"
+"help.text"
+msgid "Within the wizard, you can modify your entries and options at any time. You may also skip an entire page or even all the wizard pages, in which case the current (or default) settings will remain in effect."
+msgstr "V dialógovom okne môžete vami zadané položky a voľby kedykoľvek zmeniť. Môžete tiež preskočiť celú stránku alebo dokonca všetky stránky sprievodcu. V takom prípade ostanú v platnosti aktuálne (alebo základné) nastavenia."
+
+#. oHQpt
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153824\n"
+"help.text"
+msgid "If you are creating a business letter, you can select a variety of elements to include in your document, which usually do not apply to personal letters, such as a subject line. If you choose the <emph>Personal</emph> letter option, some pages which contain elements specific to business letters will not be included in the wizard dialog."
+msgstr "Pri vytváraní pracovného listu môžete nastaviť veľa rôznych volieb, ktoré sa však obvykle neobjavujú v osobných listoch, ako napr. riadok Predmetu. Pri výbere <emph>Osobného</emph> listu nebudú v sprievodcovi zahrnuté voľby určené pre pracovné listy."
+
+#. Baf5u
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3159176\n"
+"help.text"
+msgid "Back"
+msgstr "Späť"
+
+#. CBTWx
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153543\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_BACK\">Allows you to view the selections that you made on the previous steps.</ahelp> The current settings will be saved."
+msgstr "<ahelp hid=\"HID_LTRWIZARD_BACK\">Umožnia vám zobraziť voľby predchádzajúcich krokov.</ahelp> Zároveň bude uložené aktuálne nastavenie."
+
+#. cNLgv
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3150254\n"
+"help.text"
+msgid "Next"
+msgstr "Ďalej"
+
+#. uz8uA
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3155923\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_NEXT\">Saves the current settings and continues to the next page.</ahelp>"
+msgstr "<ahelp hid=\"HID_LTRWIZARD_NEXT\">Uloží aktuálne nastavenia a pokračuje na ďalšiu stránku.</ahelp>"
+
+#. RTbvH
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3148944\n"
+"help.text"
+msgid "Finish"
+msgstr "Dokončiť"
+
+#. TT8KQ
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3149669\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_CREATE\">According to your selections, the wizard creates a new document template and saves it on your hard disk.</ahelp> $[officename] creates a new document based on the existing templates with the \"Untitled X\" name (X stands for the consecutive numbering) and displays it on the work area."
+msgstr "<ahelp hid=\"HID_LTRWIZARD_CREATE\">V závislosti na vašich voľbách sprievodca vytvorí novú šablónu dokumentu a uloží ju na váš pevný disk.</ahelp> $[officename] vytvorí nový dokument založený na existujúcej šablóne s názvom \"Bez názvu X\" (kde X zastupuje číslo) a zobrazí ho na pracovnej ploche."
+
+#. k2a98
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3144433\n"
+"help.text"
+msgid "$[officename] saves the current settings in the wizard according to the chosen template. These settings are used as the default settings the next time you activate the wizard."
+msgstr "$[officename] uloží aktuálne nastavenia v sprievodcovi na základe zvolenej šablóny. Tieto nastavenia sa použijú ako základné pri ďalšom spustení sprievodcu."
+
+#. HCxtN
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Page design"
+msgstr "Sprievodca listom - Vzhľad strany"
+
+#. wGb3D
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3147102\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010100.xhp\">Letter Wizard - Page design</link>"
+msgstr "<link href=\"text/shared/autopi/01010100.xhp\">Sprievodca listu - Vzhľad strany</link>"
+
+#. jBVzZ
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3147226\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether you want to create a personal or a business letter.</ahelp> The available options on the following pages vary depending on your choice."
+msgstr ""
+
+#. mq5gE
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3149183\n"
+"help.text"
+msgid "Please choose the type of letter and page design"
+msgstr "Prosím vyberte si typ listu a rozvrhnutie strany"
+
+#. aaq7E
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3145346\n"
+"help.text"
+msgid "Specify whether you want to create a business or personal letter template."
+msgstr ""
+
+#. nFnBc
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3155941\n"
+"help.text"
+msgid "Business letter"
+msgstr "Obchodný list"
+
+#. NQaEB
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a business letter template.</ahelp>"
+msgstr ""
+
+#. GFA2A
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN10616\n"
+"help.text"
+msgid "Formal personal letter"
+msgstr "Formálny osobný list"
+
+#. 6CCEY
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN1061D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a formal personal letter.</ahelp>"
+msgstr ""
+
+#. EjdWv
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3147275\n"
+"help.text"
+msgid "Personal letter"
+msgstr "Osobný list"
+
+#. q2EJE
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3148538\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a personal letter.</ahelp>"
+msgstr ""
+
+#. UG6M2
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3155628\n"
+"help.text"
+msgid "Page design"
+msgstr "Návrh strany"
+
+#. XJVC5
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3149415\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the design for your letter template.</ahelp>"
+msgstr ""
+
+#. BBUGY
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN106A7\n"
+"help.text"
+msgid "Use letterhead paper with pre-printed elements"
+msgstr "Použiť hlavičkový papier s predtlačenými prvkami"
+
+#. 8dkJA
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN106AB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether paper is used that already contains an imprinted logo, address, or footer line. The Wizard shows the Letterhead layout page next.</ahelp>"
+msgstr ""
+
+#. QREhA
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3150254\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010200.xhp\">Go to Letter Wizard - Letterhead layout</link>"
+msgstr "<link href=\"text/shared/autopi/01010200.xhp\">Choď na Sprievodca listom - Vzhľad hlavičkového papiera</link>"
+
+#. ma7Nd
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Letterhead layout"
+msgstr "Sprievodca listom - Vzhľad hlavičkového papiera"
+
+#. AEnQz
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3155354\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010200.xhp\">Letter Wizard - Letterhead layout</link>"
+msgstr "<link href=\"text/shared/autopi/01010200.xhp\">Sprievodca listom - Vzhľad hlavičkového papiera</link>"
+
+#. 9ZLVJ
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3146856\n"
+"help.text"
+msgid "<ahelp hid=\".\">Allows you to specify the elements that are already imprinted on your letterhead paper.</ahelp> Those elements are not printed, and the space they occupy is left blank by the printer."
+msgstr ""
+
+#. a7zJK
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3156211\n"
+"help.text"
+msgid "Specify items already on your letterhead paper"
+msgstr "Vyberte položky, ktoré sú už predtlačené na hlavičkovom papiere"
+
+#. KXGUp
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3149549\n"
+"help.text"
+msgid "Logo"
+msgstr "Logo"
+
+#. 5dJ2i
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3154186\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that a logo is already printed on your letterhead paper. %PRODUCTNAME does not print a logo.</ahelp>"
+msgstr ""
+
+#. d4G5o
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3151245\n"
+"help.text"
+msgid "Height"
+msgstr "Výška"
+
+#. YdKBc
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3148944\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the height of the object.</ahelp>"
+msgstr ""
+
+#. bxDB8
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3149415\n"
+"help.text"
+msgid "Width"
+msgstr "Šírka"
+
+#. DKTET
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3156192\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the width of the object.</ahelp>"
+msgstr ""
+
+#. GZSW3
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3152922\n"
+"help.text"
+msgid "Spacing to left margin"
+msgstr "Vzdialenosť od ľavého okraja"
+
+#. cTiMt
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3149766\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sets the object distance from the left page margin.</ahelp>"
+msgstr ""
+
+#. y76AK
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3150449\n"
+"help.text"
+msgid "Spacing to top margin"
+msgstr "Vzdialenosť od horného okraja"
+
+#. cW3AQ
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3156423\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sets the object distance from the top page margin.</ahelp>"
+msgstr ""
+
+#. EMVxG
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106CB\n"
+"help.text"
+msgid "Own address"
+msgstr "Spiatočná adresa"
+
+#. N5YAU
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106CF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that an address is already printed on your letterhead paper. %PRODUCTNAME does not print an address.</ahelp>"
+msgstr ""
+
+#. 6DLwm
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D2\n"
+"help.text"
+msgid "Return address in envelope window"
+msgstr "Spiatočná adresa v okne obálky"
+
+#. EbYY5
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that your own address is already imprinted in small size above the area of the recipient's address. %PRODUCTNAME does not print an address in small size.</ahelp>"
+msgstr ""
+
+#. 3HBwc
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D9\n"
+"help.text"
+msgid "Footer"
+msgstr "Päta"
+
+#. 8c4td
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106DD\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that a footer area is already printed on your letterhead paper. %PRODUCTNAME does not print a footer.</ahelp>"
+msgstr ""
+
+#. EPJJw
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106E0\n"
+"help.text"
+msgid "Height"
+msgstr "Výška"
+
+#. JAwHF
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106E4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the height of the footer area that is already imprinted on your letterhead paper. %PRODUCTNAME does not print in that area.</ahelp>"
+msgstr ""
+
+#. URpme
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3153367\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010300.xhp\">Go to Letter Wizard - Printed items</link>"
+msgstr "<link href=\"text/shared/autopi/01010300.xhp\">Choď na Sprievodca listom - Tlačené položky</link>"
+
+#. hPVFU
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Printed items"
+msgstr "Sprievodca listom - Tlačené položky"
+
+#. LfRYv
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"hd_id3148520\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010300.xhp\">Letter Wizard - Printed items</link>"
+msgstr "<link href=\"text/shared/autopi/01010300.xhp\">Sprievodca listom - Tlačené položky</link>"
+
+#. wnxmZ
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_id3152594\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the items to be included in the letter template.</ahelp>"
+msgstr ""
+
+#. bbREk
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Logo"
+msgstr "Logo"
+
+#. SPm2h
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN105FE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a logo on the letter template.</ahelp>"
+msgstr ""
+
+#. iACsf
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10615\n"
+"help.text"
+msgid "Return address in envelope window"
+msgstr "Spiatočná adresa v okne obálky"
+
+#. GWKbG
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10619\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a small size return address on the letter template.</ahelp>"
+msgstr ""
+
+#. BZKw8
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10630\n"
+"help.text"
+msgid "Letter signs"
+msgstr "Značky listu"
+
+#. jMGHL
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10634\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a line with references to a business letter on the letter template.</ahelp>"
+msgstr ""
+
+#. 3G2Ua
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1064B\n"
+"help.text"
+msgid "Subject line"
+msgstr "Riadok predmetu"
+
+#. r7iGS
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1064F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a subject line on the letter template.</ahelp>"
+msgstr ""
+
+#. YCuyF
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1066E\n"
+"help.text"
+msgid "Salutation"
+msgstr "Oslovenie"
+
+#. C8Qod
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10672\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a salutation on the letter template. Select the salutation from the list box.</ahelp>"
+msgstr ""
+
+#. zaPU8
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10689\n"
+"help.text"
+msgid "Fold marks"
+msgstr "Značky ohybu"
+
+#. Kyc8o
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1068D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes fold marks on the letter template.</ahelp>"
+msgstr ""
+
+#. EHXeE
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106AC\n"
+"help.text"
+msgid "Complimentary close"
+msgstr "Zdvorilostné zakončenie"
+
+#. CyBFN
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106B0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a complimentary close on the letter template. Select the text from the list box.</ahelp>"
+msgstr ""
+
+#. hsSZh
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106C7\n"
+"help.text"
+msgid "Footer"
+msgstr "Päta"
+
+#. nfwuD
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106CB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a footer on the letter template.</ahelp>"
+msgstr ""
+
+#. 6D8fE
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_id3149666\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010400.xhp\">Go to Letter Wizard - Recipient and sender</link>"
+msgstr "<link href=\"text/shared/autopi/01010400.xhp\">Choď na Sprievodca listom - Príjemca a odosielateľ</link>"
+
+#. EYFFV
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Recipient and sender"
+msgstr "Sprievodca listom - Príjemca a odosielateľ"
+
+#. ENbsV
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"hd_id3154288\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010400.xhp\">Letter Wizard - Recipient and sender</link>"
+msgstr "<link href=\"text/shared/autopi/01010400.xhp\">Sprievodca listom - Príjemca a odosielateľ</link>"
+
+#. ZFzrE
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_id3159233\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the sender and recipient information.</ahelp>"
+msgstr ""
+
+#. wFHpK
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Sender's address"
+msgstr "Adresa odosielateľa:"
+
+#. 22bkt
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Specifies your address information."
+msgstr ""
+
+#. 8ezXK
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "Use user data for return address"
+msgstr "Použiť informácie o používateľovi pre spiatočnú adresu"
+
+#. cuFFc
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the address data from %PRODUCTNAME - User Data in the Options dialog box.</ahelp>"
+msgstr ""
+
+#. DxHmG
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10603\n"
+"help.text"
+msgid "New sender address"
+msgstr "Nová adresa odosielateľa"
+
+#. 9fMBY
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10606\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the address data from the following text boxes.</ahelp>"
+msgstr ""
+
+#. ooQkP
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1061D\n"
+"help.text"
+msgid "Name"
+msgstr "Názov"
+
+#. zQzeZ
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10620\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the sender.</ahelp>"
+msgstr ""
+
+#. fUoud
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10637\n"
+"help.text"
+msgid "Street"
+msgstr "Ulica"
+
+#. mvNzb
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1063A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the street address of the sender.</ahelp>"
+msgstr ""
+
+#. UGDXD
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10661\n"
+"help.text"
+msgid "Postcode/State/City"
+msgstr "PSČ/Štát/Mesto"
+
+#. MVHBf
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10664\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the address data of the sender.</ahelp>"
+msgstr ""
+
+#. KkM7F
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10673\n"
+"help.text"
+msgid "Recipient's address"
+msgstr "Adresa príjemcu"
+
+#. ZVkei
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10677\n"
+"help.text"
+msgid "Specifies the recipient's address information."
+msgstr "Určuje adresu príjemcu"
+
+#. JJEb6
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10682\n"
+"help.text"
+msgid "Use placeholders for recipient's address"
+msgstr "Použiť úchyty pre adresu príjemcu"
+
+#. Dp9fM
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10685\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that placeholder fields are inserted into the letter template.</ahelp>"
+msgstr ""
+
+#. 3wABv
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1069C\n"
+"help.text"
+msgid "Use address database for mail merge"
+msgstr "Použiť databázu adries pre hromadnú korešpondenciu"
+
+#. ewNqt
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1069F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Address database fields are inserted into the letter template.</ahelp>"
+msgstr ""
+
+#. PWjGD
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_id3154365\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010500.xhp\">Go to Letter Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01010500.xhp\">Choď na Sprievodca listom - Päta</link>"
+
+#. P7eTT
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Footer"
+msgstr "Sprievodca listom - Päta"
+
+#. 7UQEB
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"hd_id3143281\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010500.xhp\">Letter Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01010500.xhp\">Sprievodca listom - Päta</link>"
+
+#. kNGXK
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3147834\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the information to include in the footer space.</ahelp>"
+msgstr ""
+
+#. 5Lwz9
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105DF\n"
+"help.text"
+msgid "Footer"
+msgstr "Päta"
+
+#. LsLdw
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the text for the footer lines.</ahelp>"
+msgstr ""
+
+#. k8UGa
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Include only on second and following pages"
+msgstr "Použiť iba na druhej a ďalších stranách"
+
+#. Bd4Le
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN10600\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to suppress the footer on the first page.</ahelp>"
+msgstr "<ahelp hid=\".\">Skryť pätu na prvej strane.</ahelp>"
+
+#. W8CTM
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"hd_id3153093\n"
+"help.text"
+msgid "Include page numbers"
+msgstr "Použiť čísla stránok"
+
+#. oMyXY
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3155414\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes page numbers in your letter template.</ahelp>"
+msgstr ""
+
+#. UDwLE
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3154988\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010600.xhp\">Go to Letter Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01010600.xhp\">Choď na Sprievodca listom - Meno a umiestenie</link>"
+
+#. sbinu
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Name and Location"
+msgstr "Sprievodca listom - Meno a umiestenie"
+
+#. jFU9s
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3150355\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010600.xhp\">Letter Wizard - Name and Location</link>"
+msgstr "<link href=\"text/shared/autopi/01010600.xhp\">Sprievodca listom - Meno a umiestenie</link>"
+
+#. Bf2pC
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_id3152996\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies where and under which name you want to save the document and template.</ahelp>"
+msgstr ""
+
+#. MG999
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3154047\n"
+"help.text"
+msgid "Template name"
+msgstr "Meno šablóny"
+
+#. EjgjE
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_id3159157\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title of the document template.</ahelp>"
+msgstr ""
+
+#. 8cKNZ
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3151043\n"
+"help.text"
+msgid "Path"
+msgstr "Cesta"
+
+#. kFkEp
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN1061A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the path and file name for the template, or click the <emph>...</emph> button to select the path and file name.</ahelp>"
+msgstr ""
+
+#. WExSE
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10639\n"
+"help.text"
+msgid "Create a letter from this template"
+msgstr "Vytvoriť list z tejto šablóny"
+
+#. ADCT6
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN1063C\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves and closes the template, and then opens a new untitled document based on the template.</ahelp>"
+msgstr ""
+
+#. XDEVG
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10653\n"
+"help.text"
+msgid "Make manual changes to this letter template"
+msgstr "Urobiť manuálne zmeny pre túto šablónu listu"
+
+#. 6LRY8
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10656\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the template and keeps it open for editing.</ahelp>"
+msgstr ""
+
+#. rZMX9
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10665\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010000.xhp\">Letter Wizard overview</link>"
+msgstr "<link href=\"text/shared/autopi/01010000.xhp\">Prehľad sprievodcu listu</link>"
+
+#. Fdhin
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard"
+msgstr "Sprievodca faxom"
+
+#. Le26A
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"bm_id3150445\n"
+"help.text"
+msgid "<bookmark_value>wizards;faxes</bookmark_value><bookmark_value>faxes;wizards</bookmark_value><bookmark_value>templates;faxes</bookmark_value>"
+msgstr "<bookmark_value>sprievodcovia, fax</bookmark_value><bookmark_value>fax, sprievodcovia</bookmark_value><bookmark_value>šablóny, fax</bookmark_value>"
+
+#. 3EVBG
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3150445\n"
+"help.text"
+msgid "Fax Wizard"
+msgstr "Sprievodca faxom"
+
+#. mZvnG
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3153394\n"
+"help.text"
+msgid "<variable id=\"fax\"><ahelp hid=\".uno:AutoPilotFax\">Opens the wizard for faxes.</ahelp> The wizard can help you create document templates for fax documents. You can then print the fax documents to a printer or to a fax machine, if fax driver software is available. </variable>"
+msgstr "<variable id=\"fax\"><ahelp hid=\".uno:AutoPilotFax\">Otvorí sprievodcu pre faxy.</ahelp> Sprievodca vám môže pomôcť vytvoriť šablóny dokumentov pre faxové dokumenty. Potom môžete vytlačiť faxové dokumenty tlačiarňou alebo faxom, ak sú dostupné ovládače pre fax.</variable>"
+
+#. TiVAB
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3154824\n"
+"help.text"
+msgid "$[officename] comes with a template for fax documents, which you can modify with the wizard to suit your own needs. The wizard leads you step-by-step in creating a document template, and offers numerous layout and design options. The document preview gives you an impression of how the finished fax will appear."
+msgstr "$[officename] prichádza so šablónami pre faxové dokumenty, ktoré môžete pomocou sprievodcu meniť podľa vlastných potrieb. Sprievodca vás prevedie krok za krokom vytváraním šablón a ponúkne množstvo rôznych možností vzhľadu a formátovania. Náhľad dokumentu vám dá predstavu ako bude výsledný fax vyzerať."
+
+#. HcBVT
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3147088\n"
+"help.text"
+msgid "Within the dialog you can modify your entries and options at any time. You can also skip an entire page or even all the wizard pages, in which case the current (or default) settings will remain in effect."
+msgstr "V dialógovom okne môžete kedykoľvek meniť hodnoty a voľby. Môžete tiež preskočiť celú stranu alebo dokonca všetky strany sprievodcu. V takom prípade ostanú v platnosti aktuálne (alebo základné) nastavenia."
+
+#. cJRx9
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3156156\n"
+"help.text"
+msgid "Back"
+msgstr "Späť"
+
+#. vMGxd
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3155628\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click the<emph> Back </emph>button to view the settings chosen on the previous page. The current settings will not be modified or deleted if you click this button.<emph> Back </emph>will be active from the second page onwards.</ahelp>"
+msgstr "<ahelp hid=\".\">Pre zobrazenie zvolených nastavení z predchádzajúcej strany kliknite na tlačidlo <emph>Späť</emph>. Aktuálne nastavenia ostanú po kliknutí na toto tlačidlo nezmenené. Tlačidlo <emph>Späť</emph> bude aktívne od druhej strany.</ahelp>"
+
+#. 9QWoC
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3147335\n"
+"help.text"
+msgid "Next"
+msgstr "Ďalej"
+
+#. EEAfC
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3156117\n"
+"help.text"
+msgid "<ahelp hid=\".\">The wizard saves the current settings and goes to the next page. The<emph> Next </emph>button will become inactive once you have reached the last page.</ahelp>"
+msgstr "<ahelp hid=\".\">Sprievodca uloží aktuálne nastavenia a prejde na ďalšiu stranu. Tlačidlo <emph>Ďalšia</emph> sa stane na poslednej strane neaktívne.</ahelp>"
+
+#. EYyfx
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3152350\n"
+"help.text"
+msgid "Finish"
+msgstr "Dokončiť"
+
+#. gBkCQ
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3146948\n"
+"help.text"
+msgid "<ahelp hid=\".\">According to your selections, the wizard creates a document template and saves it. A new document based on the template appears in the work area, with the filename \"UntitledX\".</ahelp>"
+msgstr "<ahelp hid=\".\">Podľa zvolených nastavení sprievodca vytvorí šablónu dokumentu a uloží ju. Na pracovnej ploche sa objaví nový dokument založený na šablóne s názvom \"Bez názvu X\".</ahelp>"
+
+#. DAFAP
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Page Design"
+msgstr "Sprievodca faxom - Vzhľad strany"
+
+#. ZFqNt
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020100.xhp\">Fax Wizard - Page Design</link>"
+msgstr "<link href=\"text/shared/autopi/01020100.xhp\">Sprievodca faxom - Vzhľad strany</link>"
+
+#. hNAfN
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id3156027\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE1\">Defines the style of your fax document.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE1\">Definuje štýl vášho faxového dokumentu.</ahelp>"
+
+#. eTqZA
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Business Fax"
+msgstr "Pracovný fax"
+
+#. RBvyc
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a fax template for a business-style fax.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytvára šablónu faxu pre pracovne štylizovaný fax.</ahelp>"
+
+#. Ti5G4
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Style"
+msgstr "Štýl"
+
+#. v8xTd
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the predefined style.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje preddefinovaný štýl.</ahelp>"
+
+#. FsnaG
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Private Fax"
+msgstr "Súkromný fax"
+
+#. gNnwo
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a fax template for a private fax.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytvára šablónu faxu pre súkromný fax.</ahelp>"
+
+#. YgFdG
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Style"
+msgstr "Štýl"
+
+#. gR87P
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the predefined style.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje preddefinovaný štýl.</ahelp>"
+
+#. LN6vy
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id3156002\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020200.xhp\">Go to Fax Wizard - Items to include</link>"
+msgstr "<link href=\"text/shared/autopi/01020200.xhp\">Choď na Sprievodca faxom - Položky</link>"
+
+#. fdj9N
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Items to include"
+msgstr "Sprievodca faxom - Položky"
+
+#. YWenL
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"hd_id3157898\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020200.xhp\">Fax Wizard - Items to include</link>"
+msgstr "<link href=\"text/shared/autopi/01020200.xhp\">Sprievodca faxom - Položky</link>"
+
+#. gA627
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_id3147571\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE2\">Specifies the fax elements to be printed.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE2\">Určuje, ktoré prvky faxu majú byť vytlačené.</ahelp>"
+
+#. YzQ7x
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Logo"
+msgstr "Logo"
+
+#. qeR9J
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a company logo.</ahelp>"
+msgstr "<ahelp hid=\".\">Obsahuje logo spoločnosti.</ahelp>"
+
+#. vrcqF
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Date"
+msgstr "Dátum"
+
+#. pNCdC
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a date field.</ahelp>"
+msgstr "<ahelp hid=\".\">Obsahuje pole na dátum.</ahelp>"
+
+#. 5kHar
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Type of message"
+msgstr "Typ správy"
+
+#. pK47y
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a communication type line. Select the line from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Vloží riadok komunikačného typu. Vyberte text zo zoznamu.</ahelp>"
+
+#. biohR
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Subject line"
+msgstr "Riadok predmetu"
+
+#. NyHR8
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a subject line.</ahelp>"
+msgstr "<ahelp hid=\".\">Vloží riadok predmetu.</ahelp>"
+
+#. Gkh2u
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "Salutation"
+msgstr "Oslovenie"
+
+#. 2GMEC
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a salutation. Select the salutation from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Pridať oslovenie. Oslovenie vyberte zo zoznamu.</ahelp>"
+
+#. tDEDH
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Complimentary close"
+msgstr "Zdvorilostné zakončenie"
+
+#. cx5zi
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105FE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a greeting. Select the greeting from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Pridať pozdrav. Pozdrav vyberte zo zoznamu.</ahelp>"
+
+#. RP8EW
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN10601\n"
+"help.text"
+msgid "Footer"
+msgstr "Päta"
+
+#. vfysy
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN10605\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a footer.</ahelp>"
+msgstr "<ahelp hid=\".\">Vloží pätu.</ahelp>"
+
+#. V9gQW
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_id3148491\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020300.xhp\">Go to Fax Wizard - Sender and Recipient</link>"
+msgstr "<link href=\"text/shared/autopi/01020300.xhp\">Choď na Sprievodca faxom - Príjemca a odosielateľ</link>"
+
+#. KqE4C
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Sender and Recipient"
+msgstr "Sprievodca faxom - Príjemca a odosielateľ"
+
+#. hTjUX
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"hd_id3155934\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020300.xhp\">Fax Wizard - Sender and Recipient</link>"
+msgstr "<link href=\"text/shared/autopi/01020300.xhp\">Sprievodca faxom - Príjemca a odosielateľ</link>"
+
+#. 9wCnR
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3150808\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE3\">Specifies the receiver and sender information for the fax.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE3\">Určuje príjemcu a odosielateľa faxu.</ahelp>"
+
+#. BFGGE
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Use user data for return address"
+msgstr "Použiť informácie o používateľovi pre spiatočnú adresu"
+
+#. FEmwq
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts placeholders for the address on the fax template. Later in the fax document, click the placeholder to enter the actual data.</ahelp>"
+msgstr "<ahelp hid=\".\">Vloží do šablóny faxu zástupné pole pre adresu. Neskôr v dokumentu kliknite na zástupné pole a zadajte skutočné hodnoty.</ahelp>"
+
+#. fpiE7
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "New return address"
+msgstr "Nová spiatočná adresa"
+
+#. GwDe4
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to enter the address data in the following text boxes. The data is inserted as normal text in the fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte, ak chcete zadať adresu do následujúcich textových polí. Údaje sa do fax dokumentu vložia ako bežný text.</ahelp>"
+
+#. AVUEL
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "(Address data fields)"
+msgstr "(Dátové pole adresy)"
+
+#. opQMn
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the sender address data.</ahelp>"
+msgstr "<ahelp hid=\".\">Vložte adresu odosielateľa.</ahelp>"
+
+#. yJ5BB
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105F9\n"
+"help.text"
+msgid "Use placeholders as receiver address"
+msgstr "Použiť zástupné pole pre adresu príjemcu"
+
+#. CHEfg
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105FD\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts placeholders for the address on the fax template. Later in the fax document, click the placeholder to enter the actual data.</ahelp>"
+msgstr "<ahelp hid=\".\">Vloží do šablóny faxu zástupné pole pre adresu. Neskôr v dokumentu kliknite na zástupné pole a zadajte skutočné hodnoty.</ahelp>"
+
+#. GvA5M
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN10600\n"
+"help.text"
+msgid "Use address database for mail merge"
+msgstr "Použiť databázu adries pre hromadnú korešpondenciu"
+
+#. UZfBc
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN10604\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts database fields for a later mail merge with the fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">Vloží databázové polia, ktoré sa použijú neskôr pri hromadnej korešpondencií.</ahelp>"
+
+#. ESAKo
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3154938\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020400.xhp\">Go to Fax Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01020400.xhp\">Choď na Sprievodca faxom - Päta</link>"
+
+#. q69hP
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Footer"
+msgstr "Sprievodca faxom - Päta"
+
+#. NdRZx
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"hd_id3147143\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020400.xhp\">Fax Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01020400.xhp\">Sprievodca faxom - Päta</link>"
+
+#. moG7a
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE4\">Specifies the footer data.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE4\">Určuje dáta v päte.</ahelp>"
+
+#. SGdS8
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Footer"
+msgstr "Päta"
+
+#. cB5yW
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the text to be printed in the footer area.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje text, ktorý sa má vytlačiť v päte.</ahelp>"
+
+#. AhtwT
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Include only on second and following pages"
+msgstr "Použiť iba na druhej a ďalších stranách"
+
+#. 9tppz
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Suppresses the footer on the first page of a multipage fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">Skryť pätu na prvej strane vo viac stranových fax dokumentoch.</ahelp>"
+
+#. VdMcV
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E4\n"
+"help.text"
+msgid "Include page number"
+msgstr "Použiť čísla strán"
+
+#. CDAW4
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Prints a page number in the footer area.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytlačí číslo stránky v oblasti päty.</ahelp>"
+
+#. ULEDC
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_id3152812\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020500.xhp\">Go to Fax Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01020500.xhp\"> Choď na Sprievodca faxom - Meno a umiestnenie</link>"
+
+#. 5GTDj
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Name and location"
+msgstr "Sprievodca faxom - Meno a umiestnenie"
+
+#. LV9gq
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"hd_id3150247\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020500.xhp\">Fax Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01020500.xhp\">Sprievodca faxom - Meno a umiestnenie</link>"
+
+#. 9MJNj
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_id3155552\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE5\">Defines the template name and location.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE5\">Definuje meno a umiestnenie šablóny.</ahelp>"
+
+#. DmUvk
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Template name"
+msgstr "Meno šablóny"
+
+#. c9MRS
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the name of the fax template.</ahelp>"
+msgstr "<ahelp hid=\".\">Vložte meno šablóny faxu.</ahelp>"
+
+#. Wo6cf
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. v4s8X
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to enter or select the complete path, including the file name of the fax template.</ahelp>"
+msgstr "<ahelp hid=\".\">Kliknite pre vloženie alebo výber celej cesty, vrátane mena šablóny faxu.</ahelp>"
+
+#. kFST8
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Create a fax from this template"
+msgstr "Vytvoriť fax z tejto šablóny"
+
+#. e2GKo
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the fax template, then opens a new fax document based on that template.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytvorí a uloží fax, potom otvorí nový dokument založený na tejto šablóne.</ahelp>"
+
+#. FbyeK
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Make manual changes to this fax template"
+msgstr "Urobiť manuálne zmeny pre túto fax šablónu"
+
+#. ENcNh
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the fax template, then opens the template for further editing.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytvorí a uloží šablónu fax, potom otvorí šablónu k ďalšej úprave.</ahelp>"
+
+#. fETJG
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_id3151119\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020000.xhp\">Go to Fax Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01020000.xhp\">Choď na Sprievodca faxom</link>"
+
+#. sRsoY
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard"
+msgstr "Sprievodca poradou"
+
+#. D3wGn
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"bm_id3149031\n"
+"help.text"
+msgid "<bookmark_value>wizards;agendas</bookmark_value><bookmark_value>Agenda Wizard</bookmark_value><bookmark_value>templates;agendas</bookmark_value>"
+msgstr "<bookmark_value>sprievodcovia, porady</bookmark_value><bookmark_value>sprievodca poradou</bookmark_value><bookmark_value>šablóny, porady</bookmark_value>"
+
+#. s5qJR
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3149031\n"
+"help.text"
+msgid "Agenda Wizard"
+msgstr "Sprievodca poradou"
+
+#. rVtcF
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "<variable id=\"agenda\"><ahelp hid=\".uno:AutoPilotAgenda\">Starts the wizard to help you create an agenda template.</ahelp></variable> You can use an agenda to specify discussion topics for conferences and meetings."
+msgstr "<variable id=\"agenda\"><ahelp hid=\".uno:AutoPilotAgenda\">Spustí sprievodcu, ktorý vám pomôže vytvoriť šablónu porady.</ahelp></variable> Program je možné použiť pre upresnenie diskusných tém konferencií a stretnutí."
+
+#. HJ9w2
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156414\n"
+"help.text"
+msgid "$[officename] comes with a sample template for agendas that you can modify to suit your own needs. The wizard offers numerous layout and design options for creating document templates. The preview gives you an impression of how the finished agenda will appear."
+msgstr "$[officename] prichádza s jednoduchou šablónou porady, ktorú môžete upravovať podľa vašich potrieb. Sprievodca ponúka veľa rôznych možností vzhľadu pre vytváranie šablón. Náhľad vám dáva predstavu ako bude výsledná porada vyzerať."
+
+#. a9sZA
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3147571\n"
+"help.text"
+msgid "Within the wizard, you can modify your entries at any time. You may also skip an entire page or even all the pages, in which case the current (or default) settings remain in effect."
+msgstr "V dialógovom okne môžete zadané hodnoty kedykoľvek meniť. Môžete tiež preskočiť stranu alebo aj všetky strany. V tom prípade ostanú v platnosti aktuálne (alebo základné) nastavenia."
+
+#. MkDYV
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3147088\n"
+"help.text"
+msgid "Back"
+msgstr "Späť"
+
+#. LKGRk
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3149177\n"
+"help.text"
+msgid "Returns to the selections made on the previous page. The current settings remain in effect. This button only becomes active after the first page."
+msgstr "Vracia na voľby urobené na predchádzajúcej strane. Aktuálne nastavenia ostanú v platnosti. Toto tlačidlo ostáva aktívne iba po prvej strane."
+
+#. FZ2oT
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3155391\n"
+"help.text"
+msgid "Next"
+msgstr "Ďalej"
+
+#. TExdC
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156426\n"
+"help.text"
+msgid "The wizard saves the current settings and goes to the next page. Once you reach the last page, this button will become inactive."
+msgstr "Sprievodca uloží aktuálne nastavenia a prejde na ďalšiu stranu. Po dosiahnutí poslednej strany sa toto tlačidlo stane neaktívne."
+
+#. oA55U
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3145382\n"
+"help.text"
+msgid "Finish"
+msgstr "Dokončiť"
+
+#. Df3HR
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156346\n"
+"help.text"
+msgid "According to your selections, the wizard creates a document template and saves it on your hard disk. A new document based on the template appears in the work area, with the filename \"UntitledX\" (X stands for an automatic number)."
+msgstr "Na základe vašich volieb sprievodca vytvorí šablónu dokumentu a uloží ju na váš pevný disk. Nový dokument založený na šablóne s názvom \"UntitledX\" sa objaví na pracovnej ploche."
+
+#. BRhRd
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3149235\n"
+"help.text"
+msgid "$[officename] saves the current settings in the wizard according to the selected document template. These will be used as the default settings the next time you activate the wizard."
+msgstr "$[officename] na základe zvolenej šablóny dokumentu uloží aktuálne nastavenia pomocníka. Tieto nastavenia budú použité ako základné pri ďalšom spustení pomocníka."
+
+#. Ga2ET
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Page Design"
+msgstr "Sprievodca poradou - Vzhľad strany"
+
+#. kefJn
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"hd_id3151100\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040100.xhp\">Agenda Wizard - Page Design</link>"
+msgstr "<link href=\"text/shared/autopi/01040100.xhp\">Sprievodca poradou - Vzhľad strany</link>"
+
+#. fPTHx
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_id3152594\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE1\">Specifies a page design for the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE1\">Určuje vzhľad strany pre poradu.</ahelp>"
+
+#. DvnTS
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Page design"
+msgstr "Návrh strany"
+
+#. 4yNMX
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the page design from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Zo zoznamu vyberte vzhľad stránky.</ahelp>"
+
+#. QLiPz
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Include form for recording minutes"
+msgstr "Včítane formulára pre záznam porady"
+
+#. eMAzz
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Prints out a page on which you can write down the minutes during the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytlačí stranu, na ktorej si môžete robiť poznámky v priebehu porady.</ahelp>"
+
+#. f7afU
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_id3153087\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040200.xhp\">Go to Agenda Wizard - General information</link>"
+msgstr "<link href=\"text/shared/autopi/01040200.xhp\">Choď na Sprievodca poradou - Všeobecné informácie</link>"
+
+#. WGmzy
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - General Information"
+msgstr "Sprievodca poradou - Všeobecné informácie"
+
+#. TZ7iE
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3150247\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040200.xhp\">Agenda Wizard - General Information</link>"
+msgstr "<link href=\"text/shared/autopi/01040200.xhp\">Sprievodca poradou - Všeobecné informácie</link>"
+
+#. eLECH
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3150616\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE2\">Specifies the date, time, title, and location of the meeting.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE2\">Určuje dátum, čas, názov a miesto stretnutia.</ahelp>"
+
+#. 4FFjn
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3153748\n"
+"help.text"
+msgid "Date"
+msgstr "Dátum"
+
+#. HnhbG
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3153311\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_DATE\">Specifies the date of the meeting.</ahelp>"
+msgstr ""
+
+#. A6udC
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3154749\n"
+"help.text"
+msgid "Time"
+msgstr "Čas"
+
+#. 7pUwh
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3166460\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_TIME\">Specifies the time of the meeting.</ahelp>"
+msgstr ""
+
+#. huAt8
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_idN10625\n"
+"help.text"
+msgid "Title"
+msgstr "Nadpis"
+
+#. Z4KWB
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_idN10629\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title of the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje nadpis stretnutia.</ahelp>"
+
+#. AuoCJ
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3150355\n"
+"help.text"
+msgid "Location"
+msgstr "Umiestnenie"
+
+#. v4Q2M
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3159400\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_LOCATION\">Specifies the location of the meeting.</ahelp>"
+msgstr ""
+
+#. FUWpn
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3148946\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040300.xhp\">Go to Agenda Wizard - Headings to include</link>"
+msgstr "<link href=\"text/shared/autopi/01040300.xhp\">Choď na Sprievodca poradou - Záhlavie</link>"
+
+#. Q5JDB
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Headings to include"
+msgstr "Sprievodca poradou - Záhlavie"
+
+#. sS3Ai
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040300.xhp\">Agenda Wizard - Headings to include</link>"
+msgstr "<link href=\"text/shared/autopi/01040300.xhp\">Sprievodca poradou - Záhlavie</link>"
+
+#. yBn6A
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_id3157898\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE3\">Specifies the headings that you want to include in the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE3\">Určuje záhlavia, ktoré chcete zahrnúť do porady.</ahelp>"
+
+#. GdA4w
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Type of meeting"
+msgstr "Druh schôdzky"
+
+#. RF7Bc
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print the type of meeting line.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok typ stretnutia.</ahelp>"
+
+#. uENde
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Please read"
+msgstr "Prosím čítajte"
+
+#. grxGw
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Please read line.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok prosím čítajte.</ahelp>"
+
+#. DxEWX
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Please bring"
+msgstr "Prineste si"
+
+#. sxFqg
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Please bring line.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok Prineste si.</ahelp>"
+
+#. FJa3j
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Notes"
+msgstr "Poznámky"
+
+#. wAJ3E
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Notes line.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok Poznámky.</ahelp>"
+
+#. qPJUT
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040400.xhp\">Go to Agenda Wizard - Names</link>"
+msgstr "<link href=\"text/shared/autopi/01040400.xhp\">Choď na Sprievodca poradou - Mená</link>"
+
+#. zECC7
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Names"
+msgstr "Sprievodca poradou - Mená"
+
+#. LLyji
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"hd_id3143284\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040400.xhp\">Agenda Wizard - Names</link>"
+msgstr "<link href=\"text/shared/autopi/01040400.xhp\">Sprievodca poradou - Mená</link>"
+
+#. emLhT
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_id3152363\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE4\">Specifies the names to be printed on the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE4\">Určuje mená, ktoré majú byť vytlačené v porade.</ahelp>"
+
+#. 8aXPP
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Meeting called by"
+msgstr "Zvolávajúci"
+
+#. XV5jU
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the person who called the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok, do ktorého môžete vložiť meno osoby, ktorá poradu zvolala.</ahelp>"
+
+#. Zs7oS
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Chairperson"
+msgstr "Predsedajúci"
+
+#. g2ENf
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the chairperson.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok, do ktorého môžete vložiť meno predsedajúcej osoby.</ahelp>"
+
+#. sCW9u
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Minute keeper"
+msgstr "Zapisovateľ"
+
+#. fCEm5
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the minute keeper.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok, do ktorého môžete vložiť meno zapisovateľa.</ahelp>"
+
+#. FFnFU
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Moderator"
+msgstr "Moderátor"
+
+#. xteNq
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the moderator.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok, do ktorého môžete vložiť meno moderátora.</ahelp>"
+
+#. 5GWEM
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105F6\n"
+"help.text"
+msgid "Attendees"
+msgstr "Pracovníci"
+
+#. 8AmH5
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the attendees.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok, do ktorého môžete vložiť meno pracovníkov.</ahelp>"
+
+#. wUrJw
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105FD\n"
+"help.text"
+msgid "Observers"
+msgstr "Pozorovatelia"
+
+#. AXc3C
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10601\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the observers.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok, do ktorého môžete vložiť meno pozorovateľov.</ahelp>"
+
+#. wDRLD
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10604\n"
+"help.text"
+msgid "Facility personnel"
+msgstr "Účastníci"
+
+#. TwjCN
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10608\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the facility personnel.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, či sa má vytlačiť riadok, do ktorého môžete vložiť meno účastníkov.</ahelp>"
+
+#. aGeGK
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_id3150275\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040500.xhp\">Go to Agenda Wizard - Agenda Items</link>"
+msgstr "<link href=\"text/shared/autopi/01040500.xhp\">Choď na Sprievodca poradou - Položky porady</link>"
+
+#. STCc4
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Agenda Items"
+msgstr "Sprievodca poradou - Položky porady"
+
+#. BRFWD
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"hd_id3159224\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040500.xhp\">Agenda Wizard - Agenda Items</link>"
+msgstr "<link href=\"text/shared/autopi/01040500.xhp\">Sprievodca poradou - Položky porady</link>"
+
+#. BDRvF
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_id3147143\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE5\">Specifies the topics to be printed on the agenda template.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE5\">Určuje témy programu, ktoré sa majú v šablóne porady vytlačiť.</ahelp>"
+
+#. 9fX5B
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Topics"
+msgstr "Témy"
+
+#. 4WUYv
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the agenda topics. Use the Move up and Move down buttons to sort the topics.</ahelp>"
+msgstr "<ahelp hid=\".\">Zadajte témy programu. Pre zmenu poradia tém programu použite tlačidla Hore a Dole.</ahelp>"
+
+#. GwCL3
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105DD\n"
+"help.text"
+msgid "Insert"
+msgstr "Vložiť"
+
+#. ZUpjc
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts a new empty topic row above the current row.</ahelp>"
+msgstr "<ahelp hid=\".\">Vloží prázdny riadok pre tému za aktuálny riadok.</ahelp>"
+
+#. eQ47V
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "Remove"
+msgstr "Odstrániť"
+
+#. GT2qp
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Removes the current topic row.</ahelp>"
+msgstr "<ahelp hid=\".\">Odstráni aktuálnu tému programu.</ahelp>"
+
+#. swdtC
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "Move up"
+msgstr "Presunúť vyššie"
+
+#. 4qETi
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Moves the current topic row up.</ahelp>"
+msgstr "<ahelp hid=\".\">Posunie vyššie aktuálnu tému programu ..</ahelp>"
+
+#. YRUBi
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Move down"
+msgstr "Presunúť nižšie"
+
+#. Na8AX
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105F2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Moves the current topic row down.</ahelp>"
+msgstr "<ahelp hid=\".\">Presunie nižšie aktuálnu tému programu.</ahelp>"
+
+#. 92RXq
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_id3146798\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040600.xhp\">Go to Agenda Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01040600.xhp\">Choď na Sprievodca poradou - Meno a umiestnenie</link>"
+
+#. H9Wbq
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Name and Location"
+msgstr "Sprievodca poradou - Meno a umiestnenie"
+
+#. DJrxQ
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"hd_id3144740\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040600.xhp\">Agenda Wizard - Name and Location</link>"
+msgstr "<link href=\"text/shared/autopi/01040600.xhp\">Sprievodca poradou - Meno a umiestnenie</link>"
+
+#. viGf3
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE6\">Choose the title and location for the agenda template.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE6\">Vyberte nadpis a umiestnenie pre šablónu porady.</ahelp>"
+
+#. zdHND
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Template title"
+msgstr "Názov šablóny"
+
+#. SdS6f
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the agenda template.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje meno šablóny porady.</ahelp>"
+
+#. kToFw
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Path"
+msgstr "Cesta"
+
+#. iDkAF
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the complete path, including the file name of the agenda template.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje úplnú cestu, vrátane názvu súboru šablóny porady.</ahelp>"
+
+#. rLKcW
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Create an agenda from this template"
+msgstr "Vytvor poradu z tejto šablóny"
+
+#. fLXtF
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the agenda template, then opens a new agenda document based on that template.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytvorí a uloží šablónu porady, potom otvorí nový dokument programu porady založený na tejto šablóne.</ahelp>"
+
+#. Ai5bf
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Make manual changes to this template"
+msgstr "Upraviť šablónu ručne"
+
+#. 4PFkD
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the agenda template, then opens the template for further editing.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytvorí a uloží šablónu porady, potom otvorí šablónu pre ďalšie úpravy.</ahelp>"
+
+#. 8PBRB
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105F6\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040000.xhp\">Go to Agenda Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01040000.xhp\">Choď na Sprievodca poradou</link>"
+
+#. 4DsCG
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard"
+msgstr "Sprievodca formulárom"
+
+#. XGnsy
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"bm_id9834894\n"
+"help.text"
+msgid "<bookmark_value>forms;wizards</bookmark_value><bookmark_value>wizards;forms</bookmark_value>"
+msgstr "<bookmark_value>formuláre,sprievodcovia</bookmark_value><bookmark_value>sprievodcovia,formuláre</bookmark_value>"
+
+#. 6y3yt
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "Form Wizard"
+msgstr "Sprievodca formulárom"
+
+#. xPnbC
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_id3150247\n"
+"help.text"
+msgid "<variable id=\"formular\"><ahelp hid=\"HID_DLGFORM_DIALOG\">Activates the Wizard for creating forms.</ahelp></variable>"
+msgstr "<variable id=\"formular\"><ahelp hid=\"HID_DLGFORM_DIALOG\">Aktivuje sprievodcu pre tvorbu formulárov.</ahelp></variable>"
+
+#. uGE5s
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_id3152801\n"
+"help.text"
+msgid "Select the form properties using the following steps:"
+msgstr "Pomocou nasledujúcich krokov vyberte vlastnosti formuláru."
+
+#. WHBV8
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_idN10686\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to create the form without answering further pages.</ahelp>"
+msgstr "<ahelp hid=\".\">Kliknutím vytvoríte formulár bez zodpovedania ďalších otázok.</ahelp>"
+
+#. uDz4j
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Field Selection"
+msgstr "Sprievodca formulárom - Výber polí"
+
+#. dhmCd
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090100.xhp\">Form Wizard - Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01090100.xhp\">Sprievodca formulárom - Výber polí</link>"
+
+#. q2PHa
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3150445\n"
+"help.text"
+msgid "On this page of the <link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link>, you can specify the table or query that you need to create the form as well as the fields that you want to include in the form."
+msgstr ""
+
+#. yohes
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3153750\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "Tabuľky alebo dotazy"
+
+#. Dm9se
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3147399\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the table or query that you want to create the form for.</ahelp>"
+msgstr ""
+
+#. A74SN
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3153527\n"
+"help.text"
+msgid "Available fields"
+msgstr "Dostupné polia"
+
+#. 5ttQz
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3149095\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the names of the data base fields in the selected table or query.</ahelp> Click to select a field or hold down the Shift or the <switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while you click to select more than one field."
+msgstr ""
+
+#. 783iE
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3150443\n"
+"help.text"
+msgid ">"
+msgstr ">"
+
+#. jAh8F
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3148538\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. mkvek
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3154142\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. 8PpZf
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3145121\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. WXSxV
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3155419\n"
+"help.text"
+msgid "<"
+msgstr "<"
+
+#. emTFp
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3149763\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. SnCSD
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3159399\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. EBDCd
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3156329\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. SsZdG
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN1074A\n"
+"help.text"
+msgid "^"
+msgstr ""
+
+#. FCjSo
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN1074E\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field up one entry in the list.</ahelp>"
+msgstr "<ahelp hid=\".\">Pre presunutie poľa vyššie kliknite sem.</ahelp>"
+
+#. hVfmg
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN10751\n"
+"help.text"
+msgid "v"
+msgstr ""
+
+#. A3Vcv
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN10755\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field down one entry in the list.</ahelp>"
+msgstr "<ahelp hid=\".\">Pre presunutie vybraného poľa nižšie kliknite sem.</ahelp>"
+
+#. VBmtN
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3147618\n"
+"help.text"
+msgid "Fields in the form"
+msgstr "Polia vo formulári"
+
+#. REATC
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3156194\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the fields that are in the new form.</ahelp>"
+msgstr ""
+
+#. zPdeU
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3150398\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090200.xhp\">Form Wizard - Set up a subform</link>"
+msgstr "<link href=\"text/shared/autopi/01090200.xhp\">Sprievodca formulárom - nastavenie podformulára</link>"
+
+#. fwpB4
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set up a Subform"
+msgstr "Sprievodca formulárom - Nastavenie podformulára"
+
+#. aDCAa
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090200.xhp\">Form Wizard - Set up a Subform</link>"
+msgstr "<link href=\"text/shared/autopi/01090200.xhp\">Sprievodca formulárom - Nastavenie podformulára</link>"
+
+#. 2n64M
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specify if you want to use a subform and enter the subform's properties. A subform is a form that is inserted in another form."
+msgstr "Určuje, či chcete použiť podformulár a zadajte jeho vlastnosti. Podformulár je formulár vložený do iného formulára."
+
+#. kPtFb
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Add subform"
+msgstr "Pridať podformulár"
+
+#. SnVCG
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105B4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to add a subform.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pre pridanie podformulára.</ahelp>"
+
+#. Y6FNL
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "Sub form based on existing relation"
+msgstr "Podformulár založený na existujúcej relácií."
+
+#. 5GTNB
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to add a subform based on an existing relation.</ahelp>"
+msgstr "<ahelp hid=\".\">Kliknite pre pridanie podformulára založeného na existujúcej relácií.</ahelp>"
+
+#. h4Dpj
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN1055E\n"
+"help.text"
+msgid "Which relation do you want to add?"
+msgstr "Ktorú reláciu chcete pridať?"
+
+#. tB7nj
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the relation on which the subform is based.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte reláciu, na ktorej je podformulár založený.</ahelp>"
+
+#. NTiTM
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105D1\n"
+"help.text"
+msgid "Sub form based on manual selection of fields"
+msgstr "Podformulár založený na manuálnom výbere polí."
+
+#. qqGFs
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105DF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to add a subform based on a manual selection of fields. </ahelp>"
+msgstr "<ahelp hid=\".\">Kliknite pre pridanie podformulára založeného na ručnom výbere polí. </ahelp>"
+
+#. Japf2
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090210.xhp\">Form Wizard - Add subform fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090210.xhp\">Sprievodca formulárom - Pridanie polí do podformulára</link>"
+
+#. pRjtt
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Add Subform Fields"
+msgstr "Sprievodca formulárom - Pridanie polí do podformulára"
+
+#. GFBi4
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10546\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090210.xhp\">Form Wizard - Add Subform Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090210.xhp\">Sprievodca formulárom - Pridanie polí do podformulára</link>"
+
+#. 72CSC
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Specify the table or query you need to create the subform, and which fields you wish to include in the subform."
+msgstr "Určite tabuľku alebo dotaz potrebný pre vytvorenie podformulára a určite, ktoré polia chcete zahrnúť do podformulára."
+
+#. hRCY6
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10559\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "Tabuľky alebo dotazy"
+
+#. ztKcK
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the table or query for which the subform is to be created.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje tabuľku alebo dotaz, pre ktorý bude podformulár vytvorený.</ahelp>"
+
+#. TSkRs
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10590\n"
+"help.text"
+msgid "Fields in my subform"
+msgstr "Polia v mojom podformulári."
+
+#. ZgoQx
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10594\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays all fields that will be included in the new subform.</ahelp>"
+msgstr "<ahelp hid=\".\">Zobrazí všetky polia, ktoré budú zahrnuté v novom podformulári.</ahelp>"
+
+#. hM6Xf
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10597\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090220.xhp\">Form Wizard - Get joined fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090220.xhp\">Sprievodca formulárom - Zobraziť spojené polia</link>"
+
+#. 6F3Mi
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Get Joined Fields"
+msgstr "Sprievodca formulárom - Zobraziť spojené polia"
+
+#. jTMsz
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090220.xhp\">Form Wizard - Get Joined Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090220.xhp\">Sprievodca formulárom - Zobraziť spojené polia</link>"
+
+#. GwQwB
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "If you chose in step 2 to set up a subform based on manual selection of fields, you can select the joined fields on this wizard page."
+msgstr "Ak si v 2 kroku vyberiete možnosť Podformulár založený na ručnom výbere polí, môžete vybrať spojené polia na tejto strane sprievodcu."
+
+#. uLL8F
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "First joined subform field"
+msgstr "Prvé spojené polia podformulára"
+
+#. cZFUw
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105B4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pole podformulára, ktoré bude spojené s poľom hlavného formulára vybraného z vedľajšieho zoznamu.</ahelp>"
+
+#. bDvEk
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105B9\n"
+"help.text"
+msgid "First joined main form field"
+msgstr "Prvé spojené pole hlavného formulára"
+
+#. TC65e
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105BF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pole hlavného formulára, ktoré bude spojené s poľom podformulára vybraného z vedľajšieho zoznamu.</ahelp>"
+
+#. 3JBGE
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105CE\n"
+"help.text"
+msgid "Second joined subform field"
+msgstr "Druhé spojené pole podformulára"
+
+#. SLyVM
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pole podformulára, ktoré bude spojené s poľom hlavného formulára vybraného z vedľajšieho zoznamu.</ahelp>"
+
+#. SL3kU
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D5\n"
+"help.text"
+msgid "Second joined main form field"
+msgstr "Druhé spojené pole hlavného formulára"
+
+#. FZGFD
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pole hlavného formulára, ktoré bude spojené s poľom podformulára vybraného z vedľajšieho zoznamu.</ahelp>"
+
+#. hgafV
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105DC\n"
+"help.text"
+msgid "Third joined subform field"
+msgstr "Tretie spojené pole podformulára"
+
+#. HGBBJ
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pole podformulára, ktoré bude spojené s poľom hlavného formulára vybraného z vedľajšieho zoznamu.</ahelp>"
+
+#. ARbDE
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "Third joined main form field"
+msgstr "Tretie spojené pole hlavného formulára"
+
+#. GsVHD
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pole hlavného formulára, ktoré bude spojené s poľom podformulára vybraného z vedľajšieho zoznamu.</ahelp>"
+
+#. Aemww
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105EA\n"
+"help.text"
+msgid "Fourth joined subform field"
+msgstr "Štvrté spojené pole podformulára"
+
+#. PDajP
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105EE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pole podformulára, ktoré bude spojené s poľom hlavného formulára vybraného z vedľajšieho zoznamu.</ahelp>"
+
+#. ByQB8
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F1\n"
+"help.text"
+msgid "Fourth joined main form field"
+msgstr "Štvrté spojené pole hlavného formulára"
+
+#. o9LHc
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pole hlavného formulára, ktoré bude spojené s poľom podformulára vybraného z vedľajšieho zoznamu.</ahelp>"
+
+#. PEfee
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F8\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090300.xhp\">Form Wizard - Arrange controls</link>"
+msgstr "<link href=\"text/shared/autopi/01090300.xhp\">Sprievodca formulárom - Usporiadať ovládacie prvky</link>"
+
+#. oKc93
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Arrange Controls"
+msgstr "Sprievodca formulárom - Usporiadať ovládacie prvky"
+
+#. vpSXC
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3163829\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090300.xhp\">Form Wizard - Arrange Controls</link>"
+msgstr "<link href=\"text/shared/autopi/01090300.xhp\">Sprievodca formulárom - Usporiadať ovládacie prvky</link>"
+
+#. T3rtu
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3153539\n"
+"help.text"
+msgid "On this page of the Wizard, you can select the layout of the created form."
+msgstr "Na tejto strane sprievodcu môžete vybrať rozvrhnutie vytváraného formulára."
+
+#. FjjD4
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3150791\n"
+"help.text"
+msgid "Label placement"
+msgstr "Označenie"
+
+#. dD3py
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3153379\n"
+"help.text"
+msgid "Align left"
+msgstr "Zarovnať vľavo"
+
+#. Ah2Er
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3151210\n"
+"help.text"
+msgid "<ahelp hid=\".\">The labels are left-aligned.</ahelp>"
+msgstr ""
+
+#. ZvFED
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3149169\n"
+"help.text"
+msgid "Align right"
+msgstr "Zarovnať vpravo"
+
+#. ZAjqi
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3148672\n"
+"help.text"
+msgid "<ahelp hid=\".\">The labels are right-aligned.</ahelp>"
+msgstr ""
+
+#. vabKg
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3153682\n"
+"help.text"
+msgid "Arrangement of the main form"
+msgstr "Usporiadanie hlavného formulára"
+
+#. jQH2t
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3155892\n"
+"help.text"
+msgid "Columnar - Labels Left"
+msgstr "Stĺpcový - popisky vľavo"
+
+#. uibgW
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3149388\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp>"
+msgstr ""
+
+#. XPabr
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3145345\n"
+"help.text"
+msgid "Columnar - Labels on Top"
+msgstr "Stĺpcový - popisky hore"
+
+#. x9drS
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3150355\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels above the field.</ahelp>"
+msgstr ""
+
+#. yVG3V
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3147209\n"
+"help.text"
+msgid "As Data Sheet"
+msgstr "Ako dátový list"
+
+#. SCSyA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3153824\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields in a tabular form.</ahelp>"
+msgstr ""
+
+#. BHFyA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3154897\n"
+"help.text"
+msgid "In Blocks - Labels Above"
+msgstr "Do blokov - popisy nad"
+
+#. EQENe
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3155421\n"
+"help.text"
+msgid "<ahelp hid=\".\">Arranges the labels above the corresponding data.</ahelp>"
+msgstr ""
+
+#. AxksA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106C9\n"
+"help.text"
+msgid "Arrangement of the subform"
+msgstr "Usporiadanie podformulára"
+
+#. BB8bH
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106D5\n"
+"help.text"
+msgid "Columnar - Labels Left"
+msgstr "Stĺpcový - popisky vľavo"
+
+#. ixMpR
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106D9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp>"
+msgstr "<ahelp hid=\".\">Zarovná polia databázy do stĺpcov pričom popisky sú vľavo.</ahelp>"
+
+#. 6Asyj
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106DC\n"
+"help.text"
+msgid "Columnar - Labels on Top"
+msgstr "Stĺpcový - popisky hore"
+
+#. AbtoY
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels above the field.</ahelp>"
+msgstr "<ahelp hid=\".\">Zarovná polia databázy do stĺpcov pričom popisky sú hore.</ahelp>"
+
+#. xPC4F
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E3\n"
+"help.text"
+msgid "As Data Sheet"
+msgstr "Ako dátový list"
+
+#. RD3L8
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields in a tabular form.</ahelp>"
+msgstr "<ahelp hid=\".\">Zarovná polia databázy do tabuľky.</ahelp>"
+
+#. kTVuc
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106EA\n"
+"help.text"
+msgid "In Blocks - Labels Above"
+msgstr "Do blokov - popisy nad"
+
+#. CkQkF
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106EE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Arranges the labels above the corresponding data.</ahelp>"
+msgstr "<ahelp hid=\".\">Zarovná popisky nad zodpovedajúce dáta.</ahelp>"
+
+#. bF3EF
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106F3\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090400.xhp\">Form Wizard - Set data entry</link>"
+msgstr "<link href=\"text/shared/autopi/01090400.xhp\">Sprievodca formulárom - Nastaviť zadávané dáta</link>"
+
+#. R3iBH
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set Data Entry"
+msgstr "Sprievodca formulárom - Nastaviť zadávané dáta"
+
+#. pEQKk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090400.xhp\">Form Wizard - Set Data Entry</link>"
+msgstr "<link href=\"text/shared/autopi/01090400.xhp\">Sprievodca formulárom - Nastaviť zadávané dáta</link>"
+
+#. cmcmk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the data handling mode for the new form."
+msgstr "Určuje režim zadávania dát pre nový formulár."
+
+#. PaTFE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10558\n"
+"help.text"
+msgid "The form is to be used for entering new data only. Existing data will not be displayed"
+msgstr "Formulár sa bude používať iba pre zadávanie nových dát. Existujúce dáta nebudú zobrazené."
+
+#. ST8HC
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105B6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a form that is only used for entering new data.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytvorí formulár, ktorý sa bude používať len pre zadávanie nových dát.</ahelp>"
+
+#. 9xAvT
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105BB\n"
+"help.text"
+msgid "The form is to display all data"
+msgstr "Formulár bude zobrazovať všetky údaje."
+
+#. aD8tt
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105C1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a form that can be used to display existing data and to enter new data.</ahelp>"
+msgstr "<ahelp hid=\".\">Vytvorí formulár, ktorý sa bude používať na zobrazovanie existujúcich údajov ako aj na zadávanie nových.</ahelp>"
+
+#. hrXuE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN1055C\n"
+"help.text"
+msgid "Do not allow modification of existing data"
+msgstr "Zakázať úpravu existujúcich údajov."
+
+#. gUETD
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow editing data.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pre zákaz úprav údajov.</ahelp>"
+
+#. CkGkM
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105DD\n"
+"help.text"
+msgid "Do not allow deletion of existing data"
+msgstr "Zakázať zmazávanie existujúcich údajov."
+
+#. oWDvk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow deleting data.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pre zákaz mazania údajov.</ahelp>"
+
+#. FU3KE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E6\n"
+"help.text"
+msgid "Do not allow addition of new data"
+msgstr "Zakázať pridávanie nových údajov."
+
+#. fGtoB
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow adding new data.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte pre zákaz pridávania nových údajov.</ahelp>"
+
+#. SqRNq
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E4\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090500.xhp\">Form Wizard - Apply styles</link>"
+msgstr "<link href=\"text/shared/autopi/01090500.xhp\">Sprievodca formulárom - Vybrať štýl</link>"
+
+#. ZDqNF
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Apply Styles"
+msgstr "Sprievodca formulárom - Vybrať štýl"
+
+#. r5BGE
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090500.xhp\">Form Wizard - Apply Styles</link>"
+msgstr "<link href=\"text/shared/autopi/01090500.xhp\">Sprievodca formulárom - Vybrať štýl</link>"
+
+#. gfLGt
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the form style."
+msgstr "Určuje štýl formulára."
+
+#. c7yFt
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Apply styles"
+msgstr "Vybrať štýl"
+
+#. HM2Xs
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the page style for the form.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje štýl strany formulára.</ahelp>"
+
+#. CD52v
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "Field border"
+msgstr "Okraj poľa"
+
+#. u7WYC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10561\n"
+"help.text"
+msgid "Specifies the field border style."
+msgstr ""
+
+#. ktcNg
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10564\n"
+"help.text"
+msgid "No border"
+msgstr "Bez okrajov"
+
+#. LDYVC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10568\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the fields have no border.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, že polia nemajú orámovanie.</ahelp>"
+
+#. ogq9S
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1056B\n"
+"help.text"
+msgid "3D look"
+msgstr "3D vzhľad"
+
+#. 8yTjp
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1056F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the field borders have a 3D look.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, že okraje polí majú 3D vzhľad.</ahelp>"
+
+#. fGEET
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10572\n"
+"help.text"
+msgid "Flat"
+msgstr "Plochý"
+
+#. 3LvLa
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10576\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the field borders look flat.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje, že okraje polí majú plochý vzhľad.</ahelp>"
+
+#. FtrrC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10579\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090600.xhp\">Form Wizard - Set name</link>"
+msgstr "<link href=\"text/shared/autopi/01090600.xhp\">Sprievodca formulárom - Nastaviť názov</link>"
+
+#. kFiaa
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set Name"
+msgstr "Sprievodca formulárom - Názov formulára"
+
+#. 83jJk
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090600.xhp\">Form Wizard - Set Name</link>"
+msgstr "<link href=\"text/shared/autopi/01090600.xhp\">Sprievodca formulárom - Názov formulára</link>"
+
+#. kuq7q
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the name of the form and how to proceed."
+msgstr ""
+
+#. ydyFn
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Name of the form"
+msgstr "Názov formulára"
+
+#. 2kzEM
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the form.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje názov formulára.</ahelp>"
+
+#. yMPCS
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "Work with the form"
+msgstr "Pracovať s formulárom"
+
+#. zDoPU
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the form, and opens it as a form document to enter and display data.</ahelp>"
+msgstr "<ahelp hid=\".\">Uloží formulár a otvorí ho ako formulárový dokument pre vkladanie a zobrazovanie údajov.</ahelp>"
+
+#. DVqM9
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10563\n"
+"help.text"
+msgid "Modify the form"
+msgstr "Upraviť formulár"
+
+#. hSQZP
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the form, and opens it in edit mode to change the layout.</ahelp>"
+msgstr "<ahelp hid=\".\">Uloží formulár a otvorí ho pre úpravy rozvrhnutia.</ahelp>"
+
+#. qDmWk
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10569\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01090000.xhp\">Sprievodca formulárom</link>"
+
+#. 9GEmD
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard"
+msgstr "Sprievodca zostavou"
+
+#. Ljpsw
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"hd_id3150499\n"
+"help.text"
+msgid "Report Wizard"
+msgstr "Sprievodca zostavou"
+
+#. Wxizv
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"par_id3145071\n"
+"help.text"
+msgid "<variable id=\"report\"><ahelp hid=\".\">Activates the wizard for creating reports.</ahelp></variable>"
+msgstr ""
+
+#. JBzBF
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"par_id3152780\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the report properties.</ahelp>"
+msgstr "<ahelp hid=\".\">Vyberte vlastnosti správy.</ahelp>"
+
+#. jjzfj
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Field Selection"
+msgstr "Sprievodca zostavou - Výber polí"
+
+#. Adyxy
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100100.xhp\">Report Wizard - Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01100100.xhp\">Sprievodca zostavou - Výber polí</link>"
+
+#. k9HWM
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150476\n"
+"help.text"
+msgid "Specifies the table or query for which you are creating the report, and which fields you wish to include in the report."
+msgstr ""
+
+#. UFBD8
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3156136\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "Tabuľky alebo dotazy"
+
+#. tM6DC
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3147043\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the table or query for which the report is to be created.</ahelp>"
+msgstr ""
+
+#. CbuDf
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3147008\n"
+"help.text"
+msgid "Available fields"
+msgstr "Dostupné polia"
+
+#. uK9gE
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the names of the data base fields in the selected table or query.</ahelp> Click to select a field or press the Shift or <switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while clicking to select multiple fields."
+msgstr ""
+
+#. TbTWD
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3153031\n"
+"help.text"
+msgid "Fields in report"
+msgstr "Polia v zostave"
+
+#. FXTGe
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3147275\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays all fields that are included in the new report.</ahelp>"
+msgstr ""
+
+#. bYCJA
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3147209\n"
+"help.text"
+msgid ">"
+msgstr ">"
+
+#. XFRnY
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3152350\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. H3BpD
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3159269\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. erhB6
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3149784\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. kFZoZ
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3153146\n"
+"help.text"
+msgid "<"
+msgstr "<"
+
+#. VoFm5
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150275\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. DHsy3
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3149233\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. fZExB
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. ebFt7
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3145609\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100150.xhp\">More about Report Wizard - Labeling Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01100150.xhp\">Viac o sprievodcovi zostavou - Popisovanie polí</link>"
+
+#. CU6F5
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Labeling Fields"
+msgstr "Sprievodca zostavou - Popisovanie polí"
+
+#. w745A
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"hd_id3144415\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100150.xhp\">Report Wizard - Labeling Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01100150.xhp\">Sprievodca zostavou - Popisovanie polí</link>"
+
+#. GsVRi
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "Specifies how you want to label the fields."
+msgstr ""
+
+#. FbLt4
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"hd_id3155805\n"
+"help.text"
+msgid "Field list"
+msgstr "Zoznam polí"
+
+#. cyewr
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3150774\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the names of the fields to be included in the report. At the right you can enter a label for each field that will be printed in the report.</ahelp>"
+msgstr ""
+
+#. 3ZFEY
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3153748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100200.xhp\">More about Report Wizard - Grouping</link>"
+msgstr "<link href=\"text/shared/autopi/01100200.xhp\">Viac o sprievodcovi zostavou - Zoskupenia</link>"
+
+#. BUhYd
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Grouping"
+msgstr "Sprievodca zostavou - Zoskupenia"
+
+#. zPKjm
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3147000\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100200.xhp\">Report Wizard - Grouping</link>"
+msgstr "<link href=\"text/shared/autopi/01100200.xhp\">Sprievodca zostavou - Zoskupenia</link>"
+
+#. UURLb
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3163829\n"
+"help.text"
+msgid "You can group records in a report based on the values in one or more fields. Select the fields by which the resulting report will be grouped. You can group up to four fields in a report. When you group more than one field, $[officename] nests the groups according to their group level."
+msgstr ""
+
+#. 8NNsd
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3149760\n"
+"help.text"
+msgid "Fields"
+msgstr "Polia"
+
+#. hbLB2
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the fields from your selection on the previous page of the Wizard. To group the report by a field, select the field name, then click the <emph>></emph> button. You may select up to four levels of grouping.</ahelp>"
+msgstr ""
+
+#. 2Sj4h
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3155552\n"
+"help.text"
+msgid "Groupings"
+msgstr "Zoskupenia"
+
+#. 6WbLz
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3155892\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the fields by which the report will be grouped. To remove one level of grouping, select the field name, then click the <emph><</emph> button. You may select up to four levels of grouping.</ahelp>"
+msgstr ""
+
+#. wWSqE
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3154289\n"
+"help.text"
+msgid ">"
+msgstr ">"
+
+#. bedJG
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3157958\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. jVAxH
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3154823\n"
+"help.text"
+msgid "<"
+msgstr "<"
+
+#. oEZnJ
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. uTa48
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3150355\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100300.xhp\">More about Report Wizard - Sort Options</link>"
+msgstr "<link href=\"text/shared/autopi/01100300.xhp\">Viac o Sprievodcovi zostavou - Vlastnosti zoraďovania</link>"
+
+#. HPGPg
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Sort Options"
+msgstr "Sprievodca zostavou - Možnosti zoraďovania"
+
+#. VzFbG
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3148668\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100300.xhp\">Report Wizard - Sort Options</link>"
+msgstr "<link href=\"text/shared/autopi/01100300.xhp\">Viac o Sprievodcovi zostavou - Možnosti zoraďovania</link>"
+
+#. RSArv
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3148520\n"
+"help.text"
+msgid "Select the fields by which to sort the report. Fields can be sorted by up to four levels, each either ascending or descending. Grouped fields can only be sorted within each group."
+msgstr ""
+
+#. uDGaD
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3149205\n"
+"help.text"
+msgid "Sort by"
+msgstr "Zoradiť podľa"
+
+#. ECFCo
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3155555\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the first field by which to sort the report.</ahelp>"
+msgstr ""
+
+#. resUF
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3154751\n"
+"help.text"
+msgid "Then by"
+msgstr "Ďalej podľa"
+
+#. FcTDC
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3149182\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select an additional field by which to sort the report.</ahelp>"
+msgstr ""
+
+#. yiwfs
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3146957\n"
+"help.text"
+msgid "Ascending"
+msgstr "Vzostupne"
+
+#. Cvpkb
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sorts the field contents in ascending order.</ahelp>"
+msgstr ""
+
+#. EoPCs
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3147653\n"
+"help.text"
+msgid "Descending"
+msgstr "Zostupne"
+
+#. A25vE
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3156113\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sorts the field contents in descending order.</ahelp>"
+msgstr ""
+
+#. aT4Eu
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3156329\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100400.xhp\">More about Report Wizard - Choose Layout</link>"
+msgstr "<link href=\"text/shared/autopi/01100400.xhp\">Viac o sprievodcovi zostavou - Zvoliť vzhľad</link>"
+
+#. 8Gkxm
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Choose Layout"
+msgstr "Sprievodca zostavou - Zvoliť vzhľad"
+
+#. 3d3Bi
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3148668\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100400.xhp\">Report Wizard - Choose Layout</link>"
+msgstr "<link href=\"text/shared/autopi/01100400.xhp\">Sprievodca zostavou - Zvoliť vzhľad</link>"
+
+#. aPVFq
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154894\n"
+"help.text"
+msgid "Choose the layout from different templates and styles, and choose landscape or portrait page orientation."
+msgstr ""
+
+#. QmVbY
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3145345\n"
+"help.text"
+msgid "Layout of data"
+msgstr "Vzhľad dát"
+
+#. xFhp9
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines a set of styles for the report. The styles assign fonts, indents, table background, and more.</ahelp>"
+msgstr ""
+
+#. ZNEUQ
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3145071\n"
+"help.text"
+msgid "Layout of headers and footers"
+msgstr "Vzhľad hlavičiek a piet"
+
+#. cJ5Sk
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3152551\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines a page layout for the report. The page layouts are loaded from template files, which assign a header, footer, and page background.</ahelp>"
+msgstr ""
+
+#. gRJX6
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3152996\n"
+"help.text"
+msgid "Orientation"
+msgstr "Orientácia"
+
+#. D4ZfK
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "Choose the page orientation for the report."
+msgstr "Vyberte orientáciu strany v správe."
+
+#. BrBYq
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3156347\n"
+"help.text"
+msgid "Landscape"
+msgstr "Na šírku"
+
+#. mVVHx
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3145382\n"
+"help.text"
+msgid "<ahelp hid=\".\">Selects a landscape page orientation for the report.</ahelp>"
+msgstr ""
+
+#. M8S4j
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3149233\n"
+"help.text"
+msgid "Portrait"
+msgstr "Na výšku"
+
+#. 2GXYz
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154285\n"
+"help.text"
+msgid "<ahelp hid=\".\">Selects a portrait page orientation for the report.</ahelp>"
+msgstr ""
+
+#. CwwC2
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3148491\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100500.xhp\">More about Report Wizard - Create Report</link>"
+msgstr "<link href=\"text/shared/autopi/01100500.xhp\">Viac o Sprievodcovi zostavou - Vytvoriť zostavu</link>"
+
+#. KwNon
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Create Report"
+msgstr "Sprievodca zostavou - Vytvoriť zostavu"
+
+#. DBGWP
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3156211\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100500.xhp\">Report Wizard - Create Report</link>"
+msgstr "<link href=\"text/shared/autopi/01100500.xhp\">Sprievodca zostavou - Vytvoriť zostavu</link>"
+
+#. G5N3i
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3159224\n"
+"help.text"
+msgid "You can create the report as a static or dynamic report. When you open a dynamic report, it will display with the current data contents. When you open a static report, it will always display the same data from the time when the static report was created."
+msgstr ""
+
+#. TEwgC
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3145669\n"
+"help.text"
+msgid "Title of report"
+msgstr "Názov správy"
+
+#. FvqnT
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3156136\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title that is printed at the title line of each page.</ahelp>"
+msgstr ""
+
+#. HmVap
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3157910\n"
+"help.text"
+msgid "Static report"
+msgstr "Statická správa"
+
+#. LDxSX
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3149580\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the report as a static report. When you open a static report, it will always display the data from the time the report was created.</ahelp>"
+msgstr ""
+
+#. TtnAs
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3154751\n"
+"help.text"
+msgid "Dynamic report"
+msgstr "Dynamická správa"
+
+#. EQjod
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the report as a template. When you open a dynamic report, it will display with the current data contents.</ahelp>"
+msgstr ""
+
+#. FEAko
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3148538\n"
+"help.text"
+msgid "Modify report layout"
+msgstr "Upraviť vzhľad správy"
+
+#. UvDe7
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<ahelp hid=\".\">When you click <emph>Finish</emph>, the report will be saved and opened for edit.</ahelp>"
+msgstr ""
+
+#. 58YBL
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3153127\n"
+"help.text"
+msgid "Create report now"
+msgstr "Vytvoriť správu teraz"
+
+#. GwGyH
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3156194\n"
+"help.text"
+msgid "<ahelp hid=\".\">When you click <emph>Finish</emph>, the report will be saved.</ahelp>"
+msgstr ""
+
+#. CEeC5
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard"
+msgstr "Sprievodca prvkom zoskupenia"
+
+#. bt2jX
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"hd_id3149031\n"
+"help.text"
+msgid "Group Element Wizard"
+msgstr "Sprievodca prvkom zoskupenia"
+
+#. LZVXR
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"par_id3151097\n"
+"help.text"
+msgid "The Group Element Wizard starts automatically when you insert a <link href=\"text/shared/02/01170000.xhp\">Group Box</link> into a document."
+msgstr "Sprievodca prvkom skupiny bude automaticky spustený hneď ako vložíte do dokumentu prvok <link href=\"text/shared/02/01170000.xhp\">Zoskupenia</link>."
+
+#. 5ftFD
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"hd_id3145071\n"
+"help.text"
+msgid "Create"
+msgstr "Vytvoriť"
+
+#. SrWfY
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LISTWIZARD_FINISH\">Creates the object.</ahelp>"
+msgstr ""
+
+#. M8QEd
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Data"
+msgstr "Sprievodca prvkom zoskupenia: Údaje"
+
+#. xgNjY
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120100.xhp\">Group Element Wizard: Data</link>"
+msgstr "<link href=\"text/shared/autopi/01120100.xhp\">Sprievodca prvkom zoskupenia: Údaje</link>"
+
+#. jS7JL
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154894\n"
+"help.text"
+msgid "Specifies which option fields are contained inside the group box."
+msgstr "Určuje, ktoré možnosti budú obsiahnuté v poli zoskupenia."
+
+#. DFFfh
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3153894\n"
+"help.text"
+msgid "Which names do you want to give the option fields?"
+msgstr "Aké názvy chcete dať poliam možností?"
+
+#. RMqcA
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154673\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiolabels\" visibility=\"visible\">Specifies the respective label for each option field. You will see the label of the option field in the form.</ahelp> This entry corresponds to the <link href=\"text/shared/02/01170101.xhp\">Label</link> property of the option field."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiolabels\" visibility=\"visible\">Určuje názvy príslušných polí možností. Názov poľa možnosti uvidíte vo formulári.</ahelp> Táto položka súvisí s vlastnosťou <link href=\"text/shared/02/01170101.xhp\">Označenie</link> poľa."
+
+#. ZExvE
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3155805\n"
+"help.text"
+msgid "Accept"
+msgstr "Prijať"
+
+#. 7XPNw
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3147008\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. TEzQK
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3153345\n"
+"help.text"
+msgid "<ahelp visibility=\"visible\" hid=\"modules/sabpilot/ui/groupradioselectionpage/toright\">Confirms the current label and copies the label to the <emph>Option fields</emph> list.</ahelp>"
+msgstr ""
+
+#. UFmvH
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "Enter the label for each option field of the group that you want to create and copy the label to the list by clicking the arrow button. Repeat this procedure until all the option fields are defined."
+msgstr "Zadajte názov označenia pre každé pole možností a kliknutím na tlačidlo šípky ho skopírujte do zoznamu. Tento postup opakujte pre všetky polia možností."
+
+#. iNRfq
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3150443\n"
+"help.text"
+msgid "Option fields"
+msgstr "Polia možností"
+
+#. qWPvJ
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3152996\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiobuttons\" visibility=\"visible\">Displays all option fields which have to be included in the group box.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiobuttons\" visibility=\"visible\">Zobrazí všetky možnosti, ktoré majú byť zahrnuté do poľa zoskupenia.</ahelp>"
+
+#. fDsAQ
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3146949\n"
+"help.text"
+msgid "Remove"
+msgstr "Odstrániť"
+
+#. ABcDi
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3153561\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. CJoAh
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3159157\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/toleft\" visibility=\"visible\">Removes the selected option fields from the list.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/toleft\" visibility=\"visible\">Odstráni vybranú možnosť zo zoznamu.</ahelp>"
+
+#. M3CGF
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Default Field Selection"
+msgstr "Sprievodca prvkom tabuľky - Výber základného poľa"
+
+#. 3f4Rt
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3151299\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120200.xhp\">Group Element Wizard: Default Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01120200.xhp\">Sprievodca prvkom tabuľky - Výber základného poľa</link>"
+
+#. jbMoc
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3144740\n"
+"help.text"
+msgid "Determines that you want one option field to be selected as the default choice."
+msgstr "Určuje, či bude jedno pole vybrané ako základná možnosť."
+
+#. NF68U
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3154094\n"
+"help.text"
+msgid "The default settings will be accepted if you open the form in the user mode. With these settings you determine the control property <link href=\"text/shared/02/01170101.xhp\">Default Status</link>."
+msgstr "Základná možnosť bude použitá, ak otvoríte formulár v používateľskom režime. Touto možnosťou určujete vlastnosť <link href=\"text/shared/02/01170101.xhp\">Základný stav</link>."
+
+#. 5Bk7d
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3157896\n"
+"help.text"
+msgid "Should one option field be selected as a default?"
+msgstr "Má byť jedno pole voľby vybrané ako východzie?"
+
+#. n8eDM
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "Specifies whether you want to set default settings for the option box."
+msgstr "Určuje, či chcete nastaviť východzie nastavenia pre zoskupenia."
+
+#. QDuNC
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3147226\n"
+"help.text"
+msgid "Yes, the following:"
+msgstr "Áno, toto:"
+
+#. 4M3qj
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3150774\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionyes\" visibility=\"visible\">Specifies that you want an option field to be selected as a default after opening the form.</ahelp> Choose the option field from the box."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionyes\" visibility=\"visible\">Určuje, ktoré pole možností bude vybrané ako východzie pre otvorenie formulára.</ahelp> Vyberte možnosť zo zoznamu."
+
+#. 8FPkc
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3153345\n"
+"help.text"
+msgid "List box"
+msgstr "Pole zoznamu"
+
+#. CJsPp
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3146957\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defselectionfield\" visibility=\"visible\">Select the option field that you want to have as the default when opening the form.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defselectionfield\" visibility=\"visible\">Vyberte pole možnosti, ktoré si prajete mať pri otvorení formulára nastavené ako východzie.</ahelp>"
+
+#. BoGAr
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3147242\n"
+"help.text"
+msgid "No, one particular field is not going to be selected"
+msgstr "Nie, nebude vybraté žiadne pole."
+
+#. uEAAP
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionno\" visibility=\"visible\">Specifies that you do not want any option field to be the default choice.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionno\" visibility=\"visible\">Určuje, že Ako východzia možnosť nebude vybraté žiadne pole.</ahelp>"
+
+#. HKDPk
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Field Values"
+msgstr "Sprievodca prvkom tabuľky - Hodnoty polí"
+
+#. oTfsy
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3151097\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120300.xhp\">Group Element Wizard: Field Values</link>"
+msgstr "<link href=\"text/shared/autopi/01120300.xhp\">Sprievodca prvkom tabuľky - Hodnoty polí</link>"
+
+#. mVBx2
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3151100\n"
+"help.text"
+msgid "Assigns a reference value to each option field."
+msgstr "Každému poľu možnosti priradí odkazovú hodnotu."
+
+#. o2nxm
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3153323\n"
+"help.text"
+msgid "Select a field from the option fields list and enter the corresponding <link href=\"text/shared/02/01170101.xhp\">reference value</link>."
+msgstr "Vyberte pole možnosti zo zoznamu a zadajte zodpovedajúcu <link href=\"text/shared/02/01170101.xhp\">odkazovú hodnotu</link>."
+
+#. e8DgD
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3152594\n"
+"help.text"
+msgid "Which value do you want to assign to each option?"
+msgstr "Akú hodnotu chcete priradiť jednotlivým voľbám?"
+
+#. 47Fhy
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3152425\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/optionvalue\" visibility=\"visible\">Select a number or a text as a reference value for the selected option field.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/optionvalue\" visibility=\"visible\">Ako východziu hodnotu vybraného poľa možnosti zadajte číslo alebo text.</ahelp>"
+
+#. 64wRq
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3155555\n"
+"help.text"
+msgid "Option fields"
+msgstr "Polia možností"
+
+#. jx2Ha
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3155941\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/radiobuttons\" visibility=\"visible\">Select the option field for which you want to assign the reference value.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/radiobuttons\" visibility=\"visible\">Vyberte pole možnosti, ku ktorému si prajete priradiť východziu hodnotu.</ahelp>"
+
+#. CTA76
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Database Field"
+msgstr "Sprievodca prvkom tabuľky - Databázové pole"
+
+#. BKpyH
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120400.xhp\">Group Element Wizard: Database Field</link>"
+msgstr "<link href=\"text/shared/autopi/01120400.xhp\">Sprievodca prvkom tabuľky - Databázové pole</link>"
+
+#. yTnES
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3154094\n"
+"help.text"
+msgid "This page is only visible if the document is linked to a database. It specifies whether the reference values should be saved in the database."
+msgstr "Táto strana je zobrazená iba vtedy, ak je dokument pripojený k databázy. Určuje, či majú byt odkazové hodnoty uložené v databázy."
+
+#. FwS4J
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3153255\n"
+"help.text"
+msgid "Indicate where to save the <link href=\"text/shared/02/01170101.xhp\">reference values</link>. A reference value can represent the current state of the group box in a database."
+msgstr "Udáva kam sa budú ukladať <link href=\"text/shared/02/01170101.xhp\">odkazové hodnoty</link>. Odkazová hodnota môže reprezentovať aktuálny stav zoskupenia v databáze."
+
+#. EQAQC
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3149828\n"
+"help.text"
+msgid "This page is only displayed if the document is already linked to a database."
+msgstr "Táto strana je zobrazená iba ak je dokument napojený na databázu."
+
+#. mHGFo
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3152551\n"
+"help.text"
+msgid "Do you want to save the value in a database field?"
+msgstr "Chcete uložiť hodnotu v poli databázy?"
+
+#. QExFj
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3154823\n"
+"help.text"
+msgid "Yes, I want to save it in the following database field:"
+msgstr "Áno, chcem to uložiť do tohoto poľa v databáze:"
+
+#. 5XkEg
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3156346\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/yesRadiobutton\">Specifies that you want to save the reference values in a database.</ahelp> The values are written in the data field selected in the list box. The list box displays all the field names from the database table that the form is linked to."
+msgstr ""
+
+#. DbbcG
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3145382\n"
+"help.text"
+msgid "List box"
+msgstr "Pole zoznamu"
+
+#. 8ba8P
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3149398\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/storeInFieldCombobox\" visibility=\"hidden\">Select the data field in which the reference values have to be saved.</ahelp>"
+msgstr ""
+
+#. j7eCU
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3153881\n"
+"help.text"
+msgid "No, I only want to save the value in the form."
+msgstr "Nie, chcem uložiť len hodnotu do formulára."
+
+#. LWkZN
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3153146\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/noRadiobutton\">Specifies that you want to save the reference values in the form only, and not in the database.</ahelp>"
+msgstr ""
+
+#. VbSgR
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Create Option Group"
+msgstr "Sprievodca prvkom tabuľky - Vytvoriť skupinu možností"
+
+#. Xcfm7
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"hd_id3143206\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120500.xhp\">Group Element Wizard: Create Option Group</link>"
+msgstr "<link href=\"text/shared/autopi/01120500.xhp\">Sprievodca prvkom tabuľky - Vytvoriť skupinu možností</link>"
+
+#. erbEs
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"par_id3154812\n"
+"help.text"
+msgid "Specifies a label for the option group."
+msgstr "Určuje označenie pre skupinu možností."
+
+#. cAQMg
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"hd_id3144415\n"
+"help.text"
+msgid "Which caption is to be given to your option group?"
+msgstr "Aký popis má byť pridelený vašej skupine výberu?"
+
+#. 4fkc8
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"par_id3163829\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionsfinalpage/nameit\" visibility=\"visible\">Specifies the label for the option box. You will see the label of the group box displayed in the form.</ahelp> The text you enter here will correspond to the <link href=\"text/shared/02/01170101.xhp\">Label</link> property of the group box."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionsfinalpage/nameit\" visibility=\"visible\">Určuje označenie pre celú skupinu. Označenie uvidíte na mieste skupiny.</ahelp> Text, ktorý sem vložíte, bude korešpondovať s vlastnosťou <link href=\"text/shared/02/01170101.xhp\">Označenie</link> skupiny."
+
+#. QbUG5
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document Converter"
+msgstr "Konvertor dokumentov"
+
+#. szRb9
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"hd_id3149798\n"
+"help.text"
+msgid "Document Converter"
+msgstr "Konvertor dokumentov"
+
+#. v5SJh
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "<variable id=\"ms\"><ahelp hid=\".\">Copies and converts documents into the OpenDocument XML format used by $[officename].</ahelp></variable>"
+msgstr "<variable id=\"ms\"><ahelp hid=\".\">Kopíruje a konvertuje dokumenty do formátu OpenDocument XML, používaného aplikáciou $[officename]. </ahelp></variable>"
+
+#. nidaA
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3150775\n"
+"help.text"
+msgid "The wizard converts documents from Microsoft Word, Excel and PowerPoint. The source files are only read, not edited. New target files are written with the new file name extension in the same or a new folder."
+msgstr ""
+
+#. CCGV9
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3156410\n"
+"help.text"
+msgid "The Document Converter Wizard contains the following pages:"
+msgstr "Konvertor dokumentov obsahuje nasledujúce strany:"
+
+#. 9CQNJ
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"hd_id3154318\n"
+"help.text"
+msgid "Document Converter Summary"
+msgstr "Konvertor dokumentov – Výsledok"
+
+#. 3qZPc
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3145313\n"
+"help.text"
+msgid "Displays a summary which shows what will be converted when you click <emph>Convert</emph>."
+msgstr "Zobrazí zhrnutie, ktoré ukáže, čo bude konvertované po stlačení tlačidla <emph>Previesť</emph>."
+
+#. hQ8ZW
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document Converter Page 1"
+msgstr "Konvertor dokumentov – Strana 1"
+
+#. 3ukbt
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3151299\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130100.xhp\">Document Converter Page 1</link>"
+msgstr "<link href=\"text/shared/autopi/01130100.xhp\">Konvertor dokumentov – Strana 1</link>"
+
+#. G7Zgn
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150445\n"
+"help.text"
+msgid "Specifies the type of Microsoft Office documents that will be converted."
+msgstr ""
+
+#. XBD3E
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3166410\n"
+"help.text"
+msgid "Microsoft Office"
+msgstr "Microsoft Office"
+
+#. ByPJh
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150771\n"
+"help.text"
+msgid "Converts Microsoft Office documents into the OpenDocument format."
+msgstr "Konvertuje dokumenty Microsoft Office na dokumenty formátu OpenDocument."
+
+#. Z8xAg
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3150984\n"
+"help.text"
+msgid "Word documents"
+msgstr "Dokumenty Word"
+
+#. 6iGtB
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150255\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKWORD\">Converts documents in Microsoft Word format *.doc into OpenDocument *.odt documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKWORD\">Konvertuje dokumenty vo formáte Microsoft Word *.doc do formátu OpenDocument *.odt.</ahelp>"
+
+#. DGuJT
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3155421\n"
+"help.text"
+msgid "Excel documents"
+msgstr "Dokumenty Excel"
+
+#. LaFwN
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3155630\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKEXCEL\">Converts documents in Microsoft Excel format *.xls into OpenDocument *.ods documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKEXCEL\">Konvertuje dokumenty formátu Microsoft Excel *.xls do formátu OpenDocument *.ods.</ahelp>"
+
+#. 7eruC
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3153127\n"
+"help.text"
+msgid "PowerPoint documents"
+msgstr "Dokumenty PowerPoint"
+
+#. ZSqCh
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149786\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKPOWERPOINT\">Converts documents in Microsoft PowerPoint format *.ppt into OpenDocument *.odp documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKPOWERPOINT\">Konvertuje dokumenty vo formáte Microsoft PowerPoint *.ppt do formátu OpenDocument *.odp.</ahelp>"
+
+#. pBEKc
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3153088\n"
+"help.text"
+msgid "Create Log file"
+msgstr "Vytvoriť protokolový súbor"
+
+#. EB93X
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149797\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_0_CHKLOGFILE\">Creates a log file in your work directory showing which documents have been converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_0_CHKLOGFILE\">Vytvorí vo vašom pracovnom adresári protokolový súbor ukazujúci, ktoré dokumenty boli konvertované.</ahelp>"
+
+#. tg5JD
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149578\n"
+"help.text"
+msgid "Continue to the next page of the <link href=\"text/shared/autopi/01130200.xhp\">Document Converter</link>."
+msgstr "Pokračujte na ďalšiu stranu <link href=\"text/shared/autopi/01130200.xhp\">Konvertora dokumentov</link>."
+
+#. 58vGa
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document converter continuation pages"
+msgstr "Konvertor dokumentov – ďalšie strany"
+
+#. QMuxr
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130200.xhp\">Document converter continuation pages</link>"
+msgstr "<link href=\"text/shared/autopi/01130200.xhp\">Konvertor dokumentov – ďalšie strany</link>"
+
+#. Ve7Wv
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3147143\n"
+"help.text"
+msgid "Specifies, for each template type and document type, the directory to be read from and the directory to be written to."
+msgstr "Pre každý typ šablóny a dokumentu určuje adresár, z ktorého sa bude čítať a adresár, do ktorého sa bude zapisovať."
+
+#. cDEcm
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3156027\n"
+"help.text"
+msgid "Templates"
+msgstr "Šablóny"
+
+#. NcsGh
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "Determines whether templates are to be converted, and how they are converted."
+msgstr "Rozhoduje, či budú šablóny konvertované a ako budú konvertované."
+
+#. 7Lai8
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3146957\n"
+"help.text"
+msgid "Text templates"
+msgstr "Šablóny textových súborov"
+
+#. SizJe
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153345\n"
+"help.text"
+msgid "Note that the \"Text templates\" label can change, depending on the selections from the previous page. For example, if Microsoft Word documents have been selected, the label reads \"Word templates\"."
+msgstr "Označenie \"Textové šablóny\" sa môžete zmeniť v závislosti na výbere z predchádzajúcej strany. Ak vyberiete napríklad dokumenty Microsoft Word, nadpis bude \"Word šablóny\"."
+
+#. yQ3K9
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3149182\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBTEMPLATE\">Specifies that templates are to be converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBTEMPLATE\">Určuje, či budú konvertované šablóny.</ahelp>"
+
+#. fnBXC
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3153683\n"
+"help.text"
+msgid "Including subdirectories"
+msgstr "Vrátane podadresárov"
+
+#. 4VYYb
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENTRECURSE\">Indicates that the subdirectories of the selected directory are also searched for matching files.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENTRECURSE\">Udáva, či sa hľadané súbory budú hľadať aj v podadresároch vybraného adresára.</ahelp>"
+
+#. BFX2N
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3159269\n"
+"help.text"
+msgid "Import from"
+msgstr "Importovať z"
+
+#. X9j5Q
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153821\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_LBDOCUMENTPATH\">Specifies the directory containing the source files. </ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_LBDOCUMENTPATH\">Určuje adresár obsahujúci zdrojové súbory. </ahelp>"
+
+#. Dgbm5
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149732\n"
+"help.text"
+msgid "Save to"
+msgstr "Uložiť do"
+
+#. Sx3Bm
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3155449\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_EDDOCUMENTPATH\">Specifies the directory to which the destination files are written.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_EDDOCUMENTPATH\">Určuje adresár, do ktorého budú uložené výsledné súbory.</ahelp>"
+
+#. EesvY
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3153126\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. zfQQ7
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3155388\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CMDDOCUMENTPATHSELECT\">Opens a dialog to select the desired path.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CMDDOCUMENTPATHSELECT\">Otvorí dialóg pre vybratie požadovanej cesty.</ahelp>"
+
+#. i6Kah
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149416\n"
+"help.text"
+msgid "Documents"
+msgstr "Dokumenty"
+
+#. 8cKND
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3159176\n"
+"help.text"
+msgid "Determines whether and how documents are converted."
+msgstr "Rozhoduje, či a ako budú dokumenty konvertované."
+
+#. rRiuu
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149236\n"
+"help.text"
+msgid "Text documents"
+msgstr "Textové dokumenty"
+
+#. t59oX
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3148564\n"
+"help.text"
+msgid "Note that the \"Text documents\" label can change, depending on the selections from the previous page. For example, if Microsoft Word documents have been selected, the label reads \"Word documents\"."
+msgstr "Nadpis \"Textové dokumenty\" sa môžete  zmeniť v závislosti na výbere z predchádzajúcej strany. Ak vyberiete napríklad dokumenty Microsoft Word, nadpis bude \"Word dokumenty\"."
+
+#. oqwC5
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3148944\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENT\">Indicates that the documents are to be converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENT\">Určuje, či budú dokumenty konvertované.</ahelp>"
+
+#. YDwV9
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3156344\n"
+"help.text"
+msgid "Here you can return to the main page of the <link href=\"text/shared/autopi/01130000.xhp\">Document Converter Wizard</link>."
+msgstr "Tu sa môžete vrátiť na hlavnú stránku <link href=\"text/shared/autopi/01130000.xhp\">Konvertora dokumentov</link>"
+
+#. ELq8D
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Euro Converter Wizard"
+msgstr "Sprievodca Eurokonvertorom"
+
+#. EKHAB
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"bm_id3154840\n"
+"help.text"
+msgid "<bookmark_value>Euro; Euro Converter Wizard</bookmark_value><bookmark_value>wizards; Euro Converter</bookmark_value><bookmark_value>converters; Euro converter</bookmark_value><bookmark_value>currencies; converters</bookmark_value>"
+msgstr "<bookmark_value>Euro; Sprievodca Eurokonvertorom</bookmark_value><bookmark_value>Sprievodcovia; Eurokonvertor</bookmark_value><bookmark_value>konvertory; Eurokonvertor</bookmark_value><bookmark_value>meny; konvertory</bookmark_value>"
+
+#. ERtPD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3154840\n"
+"help.text"
+msgid "Euro Converter Wizard"
+msgstr "Sprievodca Eurokonvertorom"
+
+#. uwNbS
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3149140\n"
+"help.text"
+msgid "<variable id=\"eurokonv\"><ahelp hid=\".\">Converts the currency amounts found in $[officename] Calc documents and in fields and tables of $[officename] Writer documents into euros.</ahelp></variable>"
+msgstr ""
+
+#. 9JFzG
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3145669\n"
+"help.text"
+msgid "Only closed files are converted. It is possible, however, to use the Euro Converter in an open $[officename] Calc document. In this case, a separate dialog opens. This dialog is described <link href=\"text/shared/autopi/01150000.xhp\">at the end of this section</link>."
+msgstr "Konvertovať je možné iba zavreté súbory. Je možné použiť Eurokonvertor aj v otvorenom dokumente aplikácie $[officename] Calc, ale v tomto prípade bude otvorený samostatný dialóg. Tento dialóg je opísaný <link href=\"text/shared/autopi/01150000.xhp\">na konci tejto sekcie</link>."
+
+#. qBXtJ
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147275\n"
+"help.text"
+msgid "Only the currencies of the countries participating in the European Monetary Union are converted."
+msgstr "Konvertované sú iba meny štátov Európskej menovej únie."
+
+#. ayFSS
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156152\n"
+"help.text"
+msgid "Extent"
+msgstr "Rozsah"
+
+#. FNztD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156155\n"
+"help.text"
+msgid "Single $[officename] Calc document"
+msgstr "Samostatný $[officename] Calc dokument."
+
+#. BELnK
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155420\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts a single $[officename] Calc file.</ahelp> To convert fields and tables in $[officename] Writer, first mark the <emph>Also convert fields and tables in text documents </emph>check box."
+msgstr ""
+
+#. h5BYq
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153541\n"
+"help.text"
+msgid "Complete Directory"
+msgstr "Celý adresár"
+
+#. dMZQs
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150670\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts all $[officename] Calc and $[officename] Writer documents and templates in the selected directory.</ahelp>"
+msgstr ""
+
+#. i4GGG
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3149516\n"
+"help.text"
+msgid "Currencies"
+msgstr "Meny"
+
+#. MF4uh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3156002\n"
+"help.text"
+msgid "Specifies the currency to be converted into euros."
+msgstr ""
+
+#. WXetC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3150275\n"
+"help.text"
+msgid "Source directory / Source Document"
+msgstr "Zdrojový adresár / Zdrojový dokument"
+
+#. r6grs
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154898\n"
+"help.text"
+msgid "<ahelp hid=\".\">Indicates the directory or the name of the single document to be converted.</ahelp>"
+msgstr ""
+
+#. ncDhB
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3151385\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. Ecwmi
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147264\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog to select the desired directory or document.</ahelp>"
+msgstr ""
+
+#. AoRar
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3147560\n"
+"help.text"
+msgid "Including Subfolders"
+msgstr "Vrátane podpriečinkov"
+
+#. FsG9U
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3152771\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether all subfolders of the selected directory are included.</ahelp>"
+msgstr ""
+
+#. 8ZEme
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3150542\n"
+"help.text"
+msgid "Also convert fields and tables in text documents"
+msgstr "Polia a tabuľky konvertovať aj v textových dokumentoch"
+
+#. PYHYz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150398\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts currency amounts found in fields and tables of $[officename] Writer documents.</ahelp>"
+msgstr ""
+
+#. yvDAz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3148453\n"
+"help.text"
+msgid "Values in the text document that are not in fields or tables are not converted."
+msgstr "Hodnoty v textových dokumentoch, ktoré nie sú v poliach alebo tabuľkách nebudú konvertované."
+
+#. AxFBW
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3151382\n"
+"help.text"
+msgid "Temporarily unprotect sheet without query"
+msgstr "Dočasne odomkni listy bez opýtania"
+
+#. N2hUD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153192\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that sheet protection will be disabled during conversion and thereafter re-enabled. If sheet protection is covered by a password, you will see a dialog for entering the password.</ahelp>"
+msgstr ""
+
+#. NDAMC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3147288\n"
+"help.text"
+msgid "Target Directory"
+msgstr "Cieľový adresár"
+
+#. iAJop
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153771\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the folder and path in which the converted files are to be saved.</ahelp>"
+msgstr ""
+
+#. gzfBf
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154151\n"
+"help.text"
+msgid "<emph>...</emph>"
+msgstr "<emph>...</emph>"
+
+#. YMDjh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147427\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog in which you can select a directory to hold the converted files.</ahelp>"
+msgstr ""
+
+#. ULUG4
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155854\n"
+"help.text"
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#. bT4oP
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153190\n"
+"help.text"
+msgid "<ahelp hid=\".\">Closes the Euro Converter.</ahelp>"
+msgstr ""
+
+#. gFZDz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3154986\n"
+"help.text"
+msgid "Help"
+msgstr "Pomocník"
+
+#. GDiFH
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155413\n"
+"help.text"
+msgid "<ahelp hid=\".\">Activates the help for the dialog.</ahelp>"
+msgstr ""
+
+#. 5uzLq
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3148616\n"
+"help.text"
+msgid "Convert"
+msgstr "Konvertovať"
+
+#. LHvH2
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150011\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the conversion.</ahelp>"
+msgstr ""
+
+#. JLBGT
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3146975\n"
+"help.text"
+msgid "During conversion, a page showing the progress status is displayed."
+msgstr "Počas prevádzania bude v dialógovom okne zobrazený jeho priebeh."
+
+#. JP7s8
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155308\n"
+"help.text"
+msgid "Back"
+msgstr "Späť"
+
+#. RGPAV
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153953\n"
+"help.text"
+msgid "<ahelp hid=\".\">Returns to the first page of the Euro Converter.</ahelp>"
+msgstr ""
+
+#. GD48d
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154640\n"
+"help.text"
+msgid "If the current document is a $[officename] Calc document or template, you can call up the Euro Converter using the corresponding icon in the Tools bar. This icon is hidden by default. To display the Euro Converter icon, click the arrow at the end of the Tools bar, select the <emph>Visible Buttons</emph> command and activate the <emph>Euro Converter</emph> icon."
+msgstr ""
+
+#. tBweT
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155415\n"
+"help.text"
+msgid "<image id=\"img_id3150417\" src=\"cmd/sc_euroconverter.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150417\">Icon</alt></image>"
+msgstr "<image id=\"img_id3150417\" src=\"cmd/sc_euroconverter.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150417\">Ikonka</alt></image>"
+
+#. B3FT7
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3149418\n"
+"help.text"
+msgid "Euro Converter"
+msgstr "Eurokonvertor"
+
+#. cq2Dh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3144766\n"
+"help.text"
+msgid "The <emph>Euro Converter</emph> dialog contains the following functions:"
+msgstr "Dialóg <emph>Eurokonvertoru</emph> obsahuje nasledujúce funkcie:"
+
+#. DRxvg
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3148387\n"
+"help.text"
+msgid "Entire document"
+msgstr "Celý dokument"
+
+#. jkLfd
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150113\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts the entire document.</ahelp>"
+msgstr ""
+
+#. FFBCA
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3159110\n"
+"help.text"
+msgid "Currencies"
+msgstr "Meny"
+
+#. AcEzX
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3148834\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the currency to be converted into euros.</ahelp>"
+msgstr ""
+
+#. uon72
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155084\n"
+"help.text"
+msgid "Selection"
+msgstr "Výber"
+
+#. cmdme
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3152999\n"
+"help.text"
+msgid "Select the cells you want to convert in this range, if you did not mark the <emph>Entire document</emph> check box. Select an option and then click the desired entries in the <emph>Templates</emph> / <emph>Currency ranges</emph> field. The selected range will be visible as such in the document. Click <emph>Convert</emph> to carry out the conversion."
+msgstr "Vyberte bunky, ktoré chcete konvertovať, ak ste neoznačili pole  <emph>Celý dokument</emph>. Vyberte možnosť a kliknite na požadované vstupy v poli <emph>Šablóny</emph> / <emph>Rozsahy peňažných čiastok</emph>. Vybratý rozsah bude zobrazený v dokumente. Pre uskutočnenie prevodu kliknite na tlačidlo <emph>Previesť</emph>."
+
+#. pH3eL
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153950\n"
+"help.text"
+msgid "Cell Styles"
+msgstr "Štýly buniek"
+
+#. XigoC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3145162\n"
+"help.text"
+msgid "<ahelp hid=\".\">All cells with the selected Cell Styles are converted.</ahelp>"
+msgstr ""
+
+#. ASWK8
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3152974\n"
+"help.text"
+msgid "Currency cells in the current sheet"
+msgstr "Bunky z aktuálneho listu, ktoré majú formát meny"
+
+#. GQCTN
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154479\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the active spreadsheet will be converted.</ahelp>"
+msgstr ""
+
+#. jUZLF
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156276\n"
+"help.text"
+msgid "Currency cells in the entire document"
+msgstr "Bunky meny v celom dokumente"
+
+#. 2aiVu
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3146912\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the active document will be converted.</ahelp>"
+msgstr ""
+
+#. RDBDD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155444\n"
+"help.text"
+msgid "Selected range"
+msgstr "Vybraná oblasť"
+
+#. 6dm7F
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153736\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the range selected before the converter was called will be converted.</ahelp> All cells must have the same format so that they can be recognized as a selected range."
+msgstr ""
+
+#. JfTz9
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153927\n"
+"help.text"
+msgid "Templates / Currency ranges"
+msgstr "Šablóny/Rozsahy peňažných čiastok"
+
+#. nCBWu
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154756\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the ranges to be converted from the list.</ahelp>"
+msgstr ""
+
+#. zm6iT
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Address Data Source"
+msgstr "Dátový zdroj adries"
+
+#. UdqCV
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3147285\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170000.xhp\">Address Data Source</link>"
+msgstr "<link href=\"text/shared/autopi/01170000.xhp\">Dátový zdroj adries</link>"
+
+#. BEBQU
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3153910\n"
+"help.text"
+msgid "<ahelp hid=\".\">This wizard registers an existing address book as a data source in $[officename].</ahelp>"
+msgstr "<ahelp hid=\".\">Tento sprievodca zaregistruje existujúci adresár ako dátový zdroj $[officename].</ahelp>"
+
+#. SbPAF
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3151226\n"
+"help.text"
+msgid "You can register address data and other data sources in $[officename] at any time:"
+msgstr "Kedykoľvek môžete zaregistrovať  databázu adries a iné zdrojové dáta v $[officename]:"
+
+#. RQrEJ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3153527\n"
+"help.text"
+msgid "Please select the type of your external address book"
+msgstr "Prosím vyberte typ vašej externej databázy kontaktov"
+
+#. 6XszA
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id5782036\n"
+"help.text"
+msgid "Not all types are available on all systems."
+msgstr "Nie všetky typy sú prístupné vo všetkých systémoch."
+
+#. Ux9cU
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3895382\n"
+"help.text"
+msgid "Thunderbird"
+msgstr ""
+
+#. vaHTD
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6709494\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Thunderbird or Icedove.</ahelp>"
+msgstr "<ahelp hid=\".\">Túto možnosť vyberte, ak už používate adresár v Thunderbird alebo Icedove.</ahelp>"
+
+#. MDJ87
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id9215979\n"
+"help.text"
+msgid "KDE Address book"
+msgstr "Databáza kontaktov prostredia KDE"
+
+#. cWAyw
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id585650\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in KDE Address book.</ahelp>"
+msgstr "<ahelp hid=\".\">Ak používate databázu kontaktov prostredia KDE, zvoľte túto možnosť.</ahelp>"
+
+#. yMyJB
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4791405\n"
+"help.text"
+msgid "macOS Address book"
+msgstr ""
+
+#. ehrbJ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6873683\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in macOS Address book.</ahelp>"
+msgstr "<ahelp hid=\".\">Ak používate adresár v MacOS, vyberte túto možnosť.</ahelp>"
+
+#. diDWW
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4517654\n"
+"help.text"
+msgid "Evolution"
+msgstr "Evolution"
+
+#. aQAVp
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id4368724\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Evolution.</ahelp>"
+msgstr "<ahelp hid=\".\">Ak používate databázu kontaktov z aplikácie Evolution zvoľte túto možnosť.</ahelp>"
+
+#. qw2A9
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4218268\n"
+"help.text"
+msgid "Evolution LDAP"
+msgstr "Evolution LDAP"
+
+#. 2zmtZ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6269112\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Evolution LDAP.</ahelp>"
+msgstr "<ahelp hid=\".\">Ak používate databázu kontaktov z aplikácie Evolution LDAP, zvoľte túto možnosť.</ahelp>"
+
+#. duPBr
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id8174382\n"
+"help.text"
+msgid "Groupwise"
+msgstr "Groupwise"
+
+#. ooRzZ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id5294045\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Groupwise.</ahelp>"
+msgstr "<ahelp hid=\".\">Túto možnosť vyberte, ak už používate adresár v Groupwise.</ahelp>"
+
+#. HWNER
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3150976\n"
+"help.text"
+msgid "Other external data source"
+msgstr "Ostatné externé zdroje dát"
+
+#. BWaJb
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3156192\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/selecttypepage/other\">Select this option if you want to register another data source as address book in $[officename].</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/selecttypepage/other\">Ak si prajete zaregistrovať ako databázu kontaktov $[officename] iný dátový zdroj, zvoľte túto možnosť.</ahelp>"
+
+#. 8uMDB
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3145674\n"
+"help.text"
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#. vb6Vy
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3154306\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_CANCEL\">Exits the wizard without implementing any changes.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_CANCEL\">Ukončí sprievodcu bez uskutočnenia akýchkoľvek zmien.</ahelp>"
+
+#. qGp5U
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3148943\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_PREVIOUS\" visibility=\"hidden\">Go to previous step.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_PREVIOUS\" visibility=\"hidden\">Choď na predchádzajúci krok.</ahelp>"
+
+#. YwCDw
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3148946\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_NEXT\" visibility=\"hidden\">Go to next step.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_NEXT\" visibility=\"hidden\">Choď na ďalší krok.</ahelp>"
+
+#. NVj5A
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3147303\n"
+"help.text"
+msgid "Create"
+msgstr "Vytvoriť"
+
+#. GcKDS
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3149795\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_FINISH\">Establishes the connection to the data source and closes the dialog.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_FINISH\">Vytvorí spojenie na dátový zdroj a ukončí tento dialóg.</ahelp>"
+
+#. SK6BS
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Additional Settings"
+msgstr "Ďalšie nastavenia"
+
+#. SAEvC
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"hd_id3154094\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170200.xhp\">Additional Settings</link>"
+msgstr "<link href=\"text/shared/autopi/01170200.xhp\">Ďalšie nastavenia</link>"
+
+#. DFBck
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"par_id3143281\n"
+"help.text"
+msgid "<ahelp hid=\".\">Allows you to enter additional settings for other external data sources.</ahelp>"
+msgstr ""
+
+#. zrAAW
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"hd_id3155555\n"
+"help.text"
+msgid "Settings"
+msgstr "Nastavenia"
+
+#. TNLzG
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"par_id3153311\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/invokeadminpage/settings\">Calls a dialog in which you can enter additional settings.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/invokeadminpage/settings\">Otvorí dialógové okno, v ktorom je možné zadať dodatočné nastavenia.</ahelp>"
+
+#. 5e2zp
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Select Table"
+msgstr "Vybrať tabuľku"
+
+#. TUPDb
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170300.xhp\">Select Table</link>"
+msgstr "<link href=\"text/shared/autopi/01170300.xhp\">Vybrať tabuľku</link>"
+
+#. pQydK
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3156211\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies a table from the Seamonkey / Netscape address book source that is used as the address book in $[officename].</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje tabuľku z databáze kontaktov aplikácií Mozilla / Netscape 6.x, ktorá bude použitá ako databáza kontaktov $[officename].</ahelp>"
+
+#. Eu86p
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3155150\n"
+"help.text"
+msgid "All tables from the first user profile will be registered for this data source in $[officename]. You must specify one as the table that will be used in the $[officename] templates."
+msgstr "Všetky tabuľky z profilu prvého používateľa budú zaregistrované pre tento dátový zdroj v $[officename]. Musíte vybrať jednu, ktorá bude použitá ako tabuľka v šablónach $[officename] ."
+
+#. HEARC
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"hd_id3154927\n"
+"help.text"
+msgid "List box"
+msgstr "Pole zoznamu"
+
+#. DsQYX
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3147043\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/selecttablepage/table\">Specifies the table that is to serve as the address book for the $[officename] templates.</ahelp>"
+msgstr ""
+
+#. zzChA
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3152801\n"
+"help.text"
+msgid "You can make changes to the templates and documents at a later time by choosing <emph>Edit - Exchange Database</emph>."
+msgstr "Zmeny v dokumentoch a šablónach je možné urobiť kedykoľvek neskôr vybratím <emph>Úpravy - Vymeniť databázu</emph>."
+
+#. cGFhu
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Data Source Title"
+msgstr ""
+
+#. BsQPs
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"hd_id3147000\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170400.xhp\">Data Source Title</link>"
+msgstr ""
+
+#. CKBwu
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_id3144740\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies a location for the address book file and a name under which the data source will be listed in the data source explorer.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje miesto pre súbor s databázou kontaktov a názov, pod ktorým bude dátový zdroj zobrazený v prehliadači zdrojov dát.</ahelp>"
+
+#. gSJGW
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105B7\n"
+"help.text"
+msgid "Location"
+msgstr "Umiestnenie"
+
+#. bEA2A
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105BB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the location of the database file.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje umiestenie databázového súboru.</ahelp>"
+
+#. TBChn
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105BE\n"
+"help.text"
+msgid "Browse"
+msgstr "Prehľadávať"
+
+#. 3256N
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the location using a file dialog.</ahelp>"
+msgstr "<ahelp hid=\".\">Určuje umiestenie dialógového súboru.</ahelp>"
+
+#. i7z3t
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "Make this address book available to all modules in %PRODUCTNAME"
+msgstr "Sprístupní databázu kontaktov všetkým modulom  %PRODUCTNAME"
+
+#. pFkuF
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Registers the newly created database file in %PRODUCTNAME. The database will then be listed in the Data sources pane (<switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+Shift+F4). If this check box is cleared, the database will be available only by opening the database file.</ahelp>"
+msgstr ""
+
+#. 7MbQ5
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"hd_id3144436\n"
+"help.text"
+msgid "Address book name"
+msgstr "Názov adresára"
+
+#. SfdpW
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_id3154673\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/datasourcepage/name\">Specifies the data source name.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/datasourcepage/name\">Spresní názov zdroja dát.</ahelp>"
+
+#. BKrWA
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Field Assignment"
+msgstr "Priradenie poľa"
+
+#. Zq2BM
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"hd_id3147588\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170500.xhp\">Field Assignment</link>"
+msgstr "<link href=\"text/shared/autopi/01170500.xhp\">Priradenie poľa</link>"
+
+#. yEkbV
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"par_id3143284\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog that allows you to specify the field assignment.</ahelp>"
+msgstr "<ahelp hid=\".\">Otvorí dialógové okno, ktoré vám umožní upresniť priradenie poľa.</ahelp>"
+
+#. PhHdF
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"hd_id3152372\n"
+"help.text"
+msgid "Field Assignment"
+msgstr "Priradenie poľa"
+
+#. HrTyA
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"par_id3149549\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/fieldassignpage/assign\">Opens the <link href=\"text/shared/01/01110101.xhp\">Templates: Address Book Assignment</link> dialog.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/fieldassignpage/assign\">Otvorí dialóg <link href=\"text/shared/01/01110101.xhp\">Šablóny: Priradenie zoznamu adries</link>.</ahelp>"

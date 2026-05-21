@@ -1,0 +1,641 @@
+#. extracted from fpicker/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2026-02-09 11:46+0100\n"
+"PO-Revision-Date: 2025-05-22 15:55+0000\n"
+"Last-Translator: Donald Rogers <donr2648@fastmail.fm>\n"
+"Language-Team: Esperanto <https://translations.documentfoundation.org/projects/libo_ui-master/fpickermessages/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1538497039.000000\n"
+
+#. SJGCw
+#: fpicker/inc/strings.hrc:24
+msgctxt "STR_EXPLORERFILE_OPEN"
+msgid "Open"
+msgstr "Malfermi"
+
+#. xNMsi
+#: fpicker/inc/strings.hrc:25
+msgctxt "STR_EXPLORERFILE_SAVE"
+msgid "Save as"
+msgstr "Konservi kiel"
+
+#. gseq9
+#: fpicker/inc/strings.hrc:26
+msgctxt "STR_EXPLORERFILE_BUTTONSAVE"
+msgid "~Save"
+msgstr "Konservi"
+
+#. tpvKy
+#: fpicker/inc/strings.hrc:27
+msgctxt "STR_PATHNAME"
+msgid "~Path:"
+msgstr "Vojprefikso:"
+
+#. 9PVSK
+#: fpicker/inc/strings.hrc:28
+msgctxt "STR_PATHSELECT"
+msgid "Select path"
+msgstr "Elekti vojprefikson"
+
+#. ykCyy
+#: fpicker/inc/strings.hrc:29
+msgctxt "STR_BUTTONSELECT"
+msgid "~Select"
+msgstr "Elekti"
+
+#. zBr7H
+#: fpicker/inc/strings.hrc:30
+msgctxt "STR_PREVIEW"
+msgid "File Preview"
+msgstr "Antaŭrigardo de dosiero"
+
+#. AGj3z
+#: fpicker/inc/strings.hrc:31
+msgctxt "STR_DEFAULT_DIRECTORY"
+msgid "My Documents"
+msgstr "Miaj dokumentoj"
+
+#. iTPzL
+#: fpicker/inc/strings.hrc:32
+msgctxt "RID_FILEOPEN_NOTEXISTENTFILE"
+msgid ""
+"The file $(ARG1) does not exist.\n"
+"Make sure you have entered the correct file name."
+msgstr ""
+"La dosiero $(ARG1) ne ekzistas.\n"
+"Certigu ke vi enigis la ĝustan dosiernomon."
+
+#. CahDV
+#: fpicker/inc/strings.hrc:33
+msgctxt "STR_SVT_NEW_FOLDER"
+msgid "Folder"
+msgstr "Dosierujo"
+
+#. o5hFk
+#: fpicker/inc/strings.hrc:34
+msgctxt "STR_SVT_NOREMOVABLEDEVICE"
+msgid ""
+"No removable storage device detected.\n"
+"Make sure it is plugged in properly and try again."
+msgstr ""
+"Neniu demetebla memoraparato detektita.\n"
+"Konfirmu ĝi estas enŝtopita ĝuste kaj reprovu."
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "Aldoni"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "Apliki"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "Rezigni"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "Fermi"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "Forigi"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "Redakti"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "Helpo"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "Nova"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "Ne"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "Akcepti"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "Forigi"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "Aliagordi"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "Jes"
+
+#. D3iME
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:129
+msgctxt "explorerfiledialog|connect_to_server"
+msgid "Servers..."
+msgstr "Serviloj..."
+
+#. ZqDfr
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:133
+msgctxt "explorerfiledialog|connect_to_server|tooltip_text"
+msgid "Connect To Server"
+msgstr "Konekti al servilo"
+
+#. kaDnz
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:137
+msgctxt "explorerfiledialog|connect_to_server-atkobject"
+msgid "Connect To Server"
+msgstr "Konekti al servilo"
+
+#. e8DSB
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:193
+msgctxt "explorerfiledialog|new_folder|tooltip_text"
+msgid "Create New Folder"
+msgstr "Krei novan dosierujon"
+
+#. Lyb7g
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:199
+msgctxt "explorerfiledialog|new_folder-atkobject"
+msgid "Create New Folder"
+msgstr "Krei novan dosierujon"
+
+#. X5SYh
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:261
+msgctxt "explorerfiledialog|places"
+msgid "Places"
+msgstr "Lokoj"
+
+#. CnQhU
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:296
+msgctxt "explorerfiledialog|add"
+msgid "Add current folder to Places"
+msgstr "Aldoni la aktualan dosierujon al Lokoj"
+
+#. 6ZCFB
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:311
+msgctxt "explorerfiledialog|del"
+msgid "Remove selected folder from Places"
+msgstr "Forigi elektitan dosierujon el Lokoj"
+
+#. Upnsg
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:365
+msgctxt "explorerfiledialog|name"
+msgid "Name"
+msgstr "Nomo"
+
+#. CGq9e
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:385
+msgctxt "explorerfiledialog|type"
+msgid "Type"
+msgstr "Tipo"
+
+#. wDiXd
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:399
+msgctxt "explorerfiledialog|size"
+msgid "Size"
+msgstr "Grando"
+
+#. CDqza
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:413
+msgctxt "explorerfiledialog|date"
+msgid "Date modified"
+msgstr "Dato modifita"
+
+#. vQEZt
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:495
+msgctxt "explorerfiledialog|open"
+msgid "_Open"
+msgstr "Malfermi"
+
+#. JnE2t
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:542
+msgctxt "explorerfiledialog|play"
+msgid "_Play"
+msgstr "Spektigi"
+
+#. dWNqZ
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:580
+msgctxt "explorerfiledialog|file_name_label"
+msgid "File _name:"
+msgstr "Dosier_nomo:"
+
+#. 9cjFB
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:606
+msgctxt "explorerfiledialog|file_type_label"
+msgid "File _type:"
+msgstr "Dosier-_tipo:"
+
+#. quCXH
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:670
+msgctxt "explorerfiledialog|readonly"
+msgid "_Read-only"
+msgstr "Nurlega"
+
+#. hm2xy
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:693
+msgctxt "explorerfiledialog|password"
+msgid "Save with password"
+msgstr "Konservi kun pasvorto"
+
+#. 8EYcB
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:706
+msgctxt "explorerfiledialog|extension"
+msgid "_Automatic file name extension"
+msgstr "_Aŭtomata dosiernoma sufikso"
+
+#. 2CgAZ
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:719
+msgctxt "explorerfiledialog|options"
+msgid "Edit _filter settings"
+msgstr "Redakti _filtrilan agordaron"
+
+#. 6XqLj
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:746
+msgctxt "explorerfiledialog|gpgencrypt"
+msgid "Encrypt with GPG key"
+msgstr "Ĉifri per GPG-ŝlosilo"
+
+#. raQ3e
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:759
+msgctxt "explorerfiledialog|gpgencrypt"
+msgid "Sign with default certificate"
+msgstr "Subskribu per la apriora atestilo."
+
+#. 2ZWy2
+#: fpicker/uiconfig/ui/foldernamedialog.ui:8
+msgctxt "foldernamedialog|FolderNameDialog"
+msgid "Folder Name"
+msgstr "Nomo de dosierujo"
+
+#. neJna
+#: fpicker/uiconfig/ui/foldernamedialog.ui:83
+msgctxt "foldernamedialog|label2"
+msgid "Na_me:"
+msgstr "Nomo:"
+
+#. uiXuE
+#: fpicker/uiconfig/ui/foldernamedialog.ui:113
+msgctxt "foldernamedialog|label1"
+msgid "Create New Folder"
+msgstr "Krei novan dosierujon"
+
+#. UB9xb
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:61
+msgctxt "remotefilesdialog|edit_service"
+msgid "_Add service"
+msgstr "Aldoni servon"
+
+#. kF4BR
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:69
+msgctxt "remotefilesdialog|edit_service"
+msgid "_Edit service"
+msgstr "Redakti servon"
+
+#. 8Xguy
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:77
+msgctxt "remotefilesdialog|delete_service"
+msgid "_Delete service"
+msgstr "Forigi servon"
+
+#. pVchs
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:85
+msgctxt "remotefilesdialog|change_password"
+msgid "_Change password"
+msgstr "Ŝanĝi pasvorton"
+
+#. RnU7Z
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:93
+msgctxt "remotefilesdialog|RemoteFilesDialog"
+msgid "Remote Files"
+msgstr "Foraj dosieroj"
+
+#. FA4UT
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:139
+msgctxt "remotefilesdialog|open"
+msgid "_Open"
+msgstr "Malfermi"
+
+#. uGwr4
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:172
+msgctxt "remotefilesdialog|label1"
+msgid "Service:"
+msgstr "Servo:"
+
+#. cwNkT
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:200
+msgctxt "remotefilesdialog|add_service_btn"
+msgid "_Manage services"
+msgstr "Mastrumi servojn"
+
+#. Jnndg
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:251
+msgctxt "remotefilesdialog|list_view|tooltip_text"
+msgid "List view"
+msgstr "Lista vido"
+
+#. xxBtB
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:266
+msgctxt "remotefilesdialog|icon_view|tooltip_text"
+msgid "Icon view"
+msgstr "Bildsimbola vido"
+
+#. 6CiqC
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:282
+msgctxt "remotefilesdialog|new_folder|tooltip_text"
+msgid "Create New Folder"
+msgstr "Krei novan dosierujon"
+
+#. aXDaC
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:387
+msgctxt "remotefilesdialog|name"
+msgid "Name"
+msgstr "Nomo"
+
+#. qRHnF
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:407
+msgctxt "remotefilesdialog|size"
+msgid "Size"
+msgstr "Grando"
+
+#. qeF3r
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:421
+msgctxt "remotefilesdialog|date"
+msgid "Date modified"
+msgstr "Dato modifita"
+
+#. cGNWD
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:497
+msgctxt "remotefilesdialog|filterLabel"
+msgid "Filter"
+msgstr "Filtrilo"
+
+#. rCVer
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:511
+msgctxt "remotefilesdialog|nameLabel"
+msgid "File name"
+msgstr "Dosiernomo"
+
+#. GUWMA
+#: include/fpicker/strings.hrc:14
+msgctxt "STR_SVT_FILEPICKER_AUTO_EXTENSION"
+msgid "~Automatic file name extension"
+msgstr "Aŭtomata dosiernoma sufikso"
+
+#. 2DxYf
+#: include/fpicker/strings.hrc:15
+msgctxt "STR_SVT_FILEPICKER_PASSWORD"
+msgid "Save with pass~word"
+msgstr "Konservi kun pasvorto"
+
+#. UysiP
+#. dear loplugins, please don't remove this constant, it will be used in follow-up commits
+#: include/fpicker/strings.hrc:17
+msgctxt "STR_SVT_FILEPICKER_GPGENCRYPT"
+msgid "Encrypt with ~GPG key"
+msgstr "Ĉifri per GPG-ŝlosilo"
+
+#. uyMuc
+#: include/fpicker/strings.hrc:18
+msgctxt "STR_SVT_FILEPICKER_GPGSIGN"
+msgid "Sign with ~default certificate"
+msgstr "Subskribu per la apriora atestilo."
+
+#. LWkae
+#: include/fpicker/strings.hrc:19
+msgctxt "STR_SVT_FILEPICKER_FILTER_OPTIONS"
+msgid "~Edit filter settings"
+msgstr "Redakti agordojn de filtrado"
+
+#. k7Sdb
+#: include/fpicker/strings.hrc:20
+msgctxt "STR_SVT_FILEPICKER_READONLY"
+msgid "~Read-only"
+msgstr "Nurlega"
+
+#. 7VhDp
+#: include/fpicker/strings.hrc:21
+msgctxt "STR_SVT_FILEPICKER_INSERT_AS_LINK"
+msgid "~Link"
+msgstr "Ligo"
+
+#. dFf6y
+#: include/fpicker/strings.hrc:22
+msgctxt "STR_SVT_FILEPICKER_SHOW_PREVIEW"
+msgid "Pr~eview"
+msgstr "Antaŭvido"
+
+#. uu7VW
+#: include/fpicker/strings.hrc:23
+msgctxt "STR_SVT_FILEPICKER_PLAY"
+msgid "~Play"
+msgstr "Legi"
+
+#. ReGYn
+#: include/fpicker/strings.hrc:24
+msgctxt "STR_SVT_FILEPICKER_VERSION"
+msgid "~Version:"
+msgstr "Versio:"
+
+#. nuKha
+#: include/fpicker/strings.hrc:25
+msgctxt "STR_SVT_FILEPICKER_TEMPLATES"
+msgid "S~tyles:"
+msgstr "Stiloj:"
+
+#. emrjD
+#: include/fpicker/strings.hrc:26
+msgctxt "STR_SVT_FILEPICKER_IMAGE_TEMPLATE"
+msgid "Style:"
+msgstr "Stilo:"
+
+#. TNmc2
+#: include/fpicker/strings.hrc:27
+msgctxt "STR_SVT_FILEPICKER_IMAGE_ANCHOR"
+msgid "A~nchor:"
+msgstr "Ankri"
+
+#. JvMvb
+#: include/fpicker/strings.hrc:28
+msgctxt "STR_SVT_FILEPICKER_SELECTION"
+msgid "~Selection"
+msgstr "Elektaĵo"
+
+#. VEgEJ
+#: include/fpicker/strings.hrc:29
+msgctxt "STR_SVT_FILEPICKER_FILTER_TITLE"
+msgid "File ~type:"
+msgstr "Dosiertipo:"
+
+#. 7Mozz
+#: include/fpicker/strings.hrc:30
+msgctxt "STR_SVT_FOLDERPICKER_DEFAULT_TITLE"
+msgid "Select Path"
+msgstr "Elekti vojprefikson"
+
+#. GtMEC
+#: include/fpicker/strings.hrc:31
+msgctxt "STR_SVT_FOLDERPICKER_DEFAULT_DESCRIPTION"
+msgid "Please select a folder."
+msgstr "Bonvolu elekti dosierujon."
+
+#. 7pThC
+#: include/fpicker/strings.hrc:32
+msgctxt "STR_SVT_ALREADYEXISTOVERWRITE"
+msgid ""
+"A file named \"$filename$\" already exists.\n"
+"\n"
+"Do you want to replace it?"
+msgstr ""
+"Jam ekzistas dosiero nomita \"$filename$\".\n"
+"\n"
+"Ĉu vi volas anstataŭigi ĝin?"
+
+#. t4wDh
+#: include/fpicker/strings.hrc:33
+msgctxt "STR_SVT_ALREADYEXISTOVERWRITE_SECONDARY"
+msgid "The file already exists in \"$dirname$\". Replacing it will overwrite its contents."
+msgstr "La dosiero jam ekzistas en \"$dirname$\". Anstataŭigi ĝin anstataŭigos ĝian enhavon."
+
+#. cBvCB
+#: include/fpicker/strings.hrc:34
+msgctxt "STR_SVT_ALLFORMATS"
+msgid "All Formats"
+msgstr "Ĉiuj formatoj"
+
+#. z6Eo3
+#: include/fpicker/strings.hrc:35
+msgctxt "STR_SVT_DELETESERVICE"
+msgid ""
+"Are you sure you want to delete the service?\n"
+"\"$servicename$\""
+msgstr ""
+"Ĉu vi certas ke vi volas forigi la servon?\n"
+"\"$servicename$\""
+
+#. KegFE
+#: include/fpicker/strings.hrc:36
+msgctxt "STR_SVT_ROOTLABEL"
+msgid "Root"
+msgstr "Radiko"
+
+#. sWRTd
+#: include/fpicker/strings.hrc:37
+msgctxt "STR_FILTERNAME_ALL"
+msgid "All files"
+msgstr "Ĉiuj dosieroj"
+
+#. FBggE
+#: include/fpicker/strings.hrc:38
+msgctxt "STR_FILEDLG_OPEN"
+msgid "Open"
+msgstr "Malfermi"
+
+#. wJYsA
+#: include/fpicker/strings.hrc:39
+msgctxt "STR_FILEDLG_TYPE"
+msgid "File ~type"
+msgstr "Dosiertipo"
+
+#. EEBg4
+#: include/fpicker/strings.hrc:40
+msgctxt "STR_FILEDLG_SAVE"
+msgid "Save"
+msgstr "Konservi"
+
+#. KACYH
+#: include/fpicker/strings.hrc:42
+msgctxt "STR_FILESAVE_AUTOEXTENSION"
+msgid "Automatically adds the file extension to the end of the file name that corresponds to the selected file type."
+msgstr "Aŭtomate aldonas la dosiersufikson al la finaĵo de la dosiernomo kiu konformas al la elektita dosiertipo."
+
+#. 4qPci
+#: include/fpicker/strings.hrc:43
+msgctxt "STR_FILESAVE_SAVEWITHPASSWORD"
+msgid "Protects the file with a password that must be entered before a user can open the file."
+msgstr "Protektas la dosieron per pasvorto kiun oni devas enigi antaŭ ol malfermi la dosieron."
+
+#. dFCgT
+#: include/fpicker/strings.hrc:44
+msgctxt "STR_FILESAVE_CUSTOMIZEFILTER"
+msgid "Allows you to set the spreadsheet saving options for some types of data files."
+msgstr "Ebligas al vi agordi la kalkultabelajn konservajn agordojn por iaj datumaj dosieroj."
+
+#. fJtCZ
+#: include/fpicker/strings.hrc:45
+msgctxt "STR_FILEOPEN_READONLY"
+msgid "Opens the file in read-only mode."
+msgstr "Malfermas la dosieron en nurlega reĝimo."
+
+#. BMEgo
+#: include/fpicker/strings.hrc:46
+msgctxt "STR_FILEDLG_LINK_CB"
+msgid "Inserts the selected graphic file as a link."
+msgstr "Enmetas la elektitan grafikan dosieron kiel ligilon."
+
+#. jHPYN
+#: include/fpicker/strings.hrc:47
+msgctxt "STR_FILEDLG_PREVIEW_CB"
+msgid "Displays a preview of the selected graphic file."
+msgstr "Vidigas la aspekton de la elektita grafika dosiero."
+
+#. xWLX2
+#: include/fpicker/strings.hrc:48
+msgctxt "STR_FILESAVE_DOPLAY"
+msgid "Plays the selected sound file. Click again to stop playing the sound file."
+msgstr "Ludas la elektitan sonan dosieron. Ree klaku por haltigi ludadon de la sona dosiero."
+
+#. 27ayC
+#: include/fpicker/strings.hrc:49
+msgctxt "STR_FILEOPEN_VERSION"
+msgid "If there are multiple versions of the selected file, select the version that you want to open."
+msgstr "Se ekzistas pluraj versioj de la elektita dosiero, elektu la version malfermotan."
+
+#. K6RjJ
+#: include/fpicker/strings.hrc:50
+msgctxt "STR_FILESAVE_TEMPLATE"
+msgid "Select the paragraph style or outline level that you want to use to separate the source document into sub-documents."
+msgstr "Elektu la alinean stilon aŭ skeman nivelon uzotan por apartigi la fontan dokumenton en subdokumentojn."
+
+#. 7GLrR
+#: include/fpicker/strings.hrc:51
+msgctxt "STR_FILEOPEN_IMAGE_TEMPLATE"
+msgid "Select the frame style for the graphic."
+msgstr "Elektu la kadran stilon por la grafikaĵo."
+
+#. Lfiaj
+#: include/fpicker/strings.hrc:52
+msgctxt "STR_FILEOPEN_IMAGE_ANCHOR"
+msgid "Select the frame style for the graphic."
+msgstr "Elektu la kadran stilon por la grafikaĵo."
+
+#. d6DG8
+#: include/fpicker/strings.hrc:53
+msgctxt "STR_FILESAVE_SELECTION"
+msgid "Exports only the selected graphic objects in %PRODUCTNAME Draw and Impress to another format. If this box is not checked, the entire document is exported."
+msgstr "Eksportas nur la elektitajn grafikajn objektojn en %PRODUCTNAME Desegnilo kaj  Prezentilo al alia formato. Se ĉi tiu ne estas markita, la tuta dokumento eksportiĝos."

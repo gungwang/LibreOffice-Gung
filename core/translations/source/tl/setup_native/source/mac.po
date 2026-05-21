@@ -1,0 +1,223 @@
+#. extracted from setup_native/source/mac
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2023-12-04 15:07+0100\n"
+"PO-Revision-Date: 2024-10-27 01:45+0000\n"
+"Last-Translator: Andy Flagg <libreoffice.tagalog@gmail.com>\n"
+"Language-Team: Tagalog <https://translations.documentfoundation.org/projects/libo_ui-master/setup_nativesourcemac/tl/>\n"
+"Language: tl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9);\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. HQKCW
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"OKLabel\n"
+"LngText.text"
+msgid "OK"
+msgstr "OK"
+
+#. 4PBRu
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"InstallLabel\n"
+"LngText.text"
+msgid "Install"
+msgstr "I-install"
+
+#. yPrE3
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"AbortLabel\n"
+"LngText.text"
+msgid "Abort"
+msgstr "I-abort"
+
+#. bGAKz
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"IntroText1\n"
+"LngText.text"
+msgid "Welcome to the [FULLPRODUCTNAME] Installation Wizard"
+msgstr "Maligayang pagdating sa [FULLPRODUCTNAME] Installation Wizard"
+
+#. nBYzF
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"IntroText2\n"
+"LngText.text"
+msgid "This installation will update your installed versions of [PRODUCTNAME]"
+msgstr "Ia-update ng pag-install na ito ang iyong mga naka-install na bersyon ng [PRODUCTNAME]"
+
+#. gBF5L
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"IntroText3\n"
+"LngText.text"
+msgid "This might take a moment."
+msgstr "Maaaring tumagal ito ng ilang sandali."
+
+#. FEETb
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"ChooseMyOwnText\n"
+"LngText.text"
+msgid "Not listed (choose location in an extra step)"
+msgstr "Hindi nakalista (pumili ng lokasyon sa isang karagdagang hakbang)"
+
+#. ey87A
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"ListPromptText\n"
+"LngText.text"
+msgid "Choose [PRODUCTNAME] [PRODUCTVERSION] installation for which you want to install the [FULLPRODUCTNAME]"
+msgstr "Piliin ang [PRODUCTNAME] [PRODUCTVERSION] na pag-install kung saan mo gustong i-install ang [FULLPRODUCTNAME]"
+
+#. M9B9E
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"ChooseManualText\n"
+"LngText.text"
+msgid "Point the dialog to your [PRODUCTNAME] [PRODUCTVERSION] installation."
+msgstr "Ituro ang dialog sa iyong [PRODUCTNAME] [PRODUCTVERSION] na pag-install."
+
+#. Quddb
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"ListOKLabelText\n"
+"LngText.text"
+msgid "Install"
+msgstr "I-install"
+
+#. CiKia
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"ListCancelLabel\n"
+"LngText.text"
+msgid "Abort"
+msgstr "I-abort"
+
+#. GjfRp
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"AppInvalidText1\n"
+"LngText.text"
+msgid "This is not a valid [PRODUCTNAME] [PRODUCTVERSION] installation."
+msgstr "Ito ay hindi wastong pag-install ng [PRODUCTNAME] [PRODUCTVERSION]."
+
+#. AiE42
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"AppInvalidText2\n"
+"LngText.text"
+msgid "Run the installer again and choose a valid [PRODUCTNAME] [PRODUCTVERSION] installation"
+msgstr "Patakbuhin muli ang installer at pumili ng wastong pag-install ng [PRODUCTNAME] [PRODUCTVERSION]."
+
+#. iXawi
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"StartInstallText1\n"
+"LngText.text"
+msgid "Click Install to start the installation"
+msgstr "I-click ang I-install upang simulan ang pag-install"
+
+#. ikAwX
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"StartInstallText2\n"
+"LngText.text"
+msgid "Installation might take a minute..."
+msgstr "Maaaring tumagal ng isang minuto ang pag-install..."
+
+#. jVkZ4
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"IdentifyQText\n"
+"LngText.text"
+msgid "Installation failed; most likely your account does not have the necessary privileges."
+msgstr "Nabigo ang pag-install; malamang na ang iyong account ay walang mga kinakailangang pribilehiyo."
+
+#. FG8ap
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"IdentifyQText2\n"
+"LngText.text"
+msgid "Do you want to identify as administrator and try again?"
+msgstr "Gusto mo bang kilalanin bilang administrator at subukang muli?"
+
+#. ejbhB
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"IdentifyYES\n"
+"LngText.text"
+msgid "Yes, identify"
+msgstr "Oo, kilalanin"
+
+#. QdpWc
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"IdentifyNO\n"
+"LngText.text"
+msgid "No, abort installation"
+msgstr "Hindi, i-abort ang pag-install"
+
+#. mpz6J
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"InstallFailedText\n"
+"LngText.text"
+msgid "Installation failed."
+msgstr "Nabigo ang pag-install."
+
+#. yEt3v
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"InstallCompleteText\n"
+"LngText.text"
+msgid "Installation of [PRODUCTNAME] language pack completed."
+msgstr "Nakumpleto ang pag-install ng [PRODUCTNAME] language pack."
+
+#. AGCvG
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"InstallCompleteText2\n"
+"LngText.text"
+msgid "Call '[PRODUCTNAME] - Preferences - Languages and Locales - General' to change the user interface language."
+msgstr "Tawagan ang '[PRODUCTNAME] - Mga Kagustuhan - Mga Wika at Lokal - Pangkalahatan' upang baguhin ang wika ng user interface."
+
+#. kAZvs
+#: macinstall.ulf
+msgctxt ""
+"macinstall.ulf\n"
+"InstallCompleteTextPatch\n"
+"LngText.text"
+msgid "Installation of [FULLPRODUCTNAME] completed"
+msgstr "Nakumpleto ang pag-install ng [FULLPRODUCTNAME]."

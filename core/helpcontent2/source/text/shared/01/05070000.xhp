@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<meta>
+<topic id="textshared0105070000xml" indexer="include">
+<title id="tit">Align Objects</title>
+<filename>/text/shared/01/05070000.xhp</filename>
+</topic>
+</meta>
+<body>
+<section id="alignment">
+<bookmark branch="index" id="bm_id3149987"><bookmark_value>aligning; objects</bookmark_value>
+<bookmark_value>positioning; objects</bookmark_value>
+<bookmark_value>ordering; objects</bookmark_value>
+</bookmark>
+<bookmark branch="hid/.uno:AlignFrameMenu" id="bm_id0801200803290113" localize="false"/>
+<bookmark branch="hid/.uno:AvailableToolbars?Toolbar:string=alignmentbar" id="bm_id271690546882866" localize="false"/>
+<h1 id="hd_id3149987"><link href="text/shared/01/05070000.xhp">Align Objects</link></h1>
+<paragraph role="paragraph" id="par_id3150445"><ahelp hid=".">Aligns selected objects with respect to one another.</ahelp></paragraph>
+</section>
+
+<note id="par_id3150144">If one of the selected objects is anchored as a character, some of the alignment options do not work.</note>
+<section id="howtoget">
+<embed href="text/shared/00/00040501.xhp#alignment"/>
+</section>
+<note id="par_id8872646">Not all types of objects can be selected together. Not all modules (Writer, Calc, Impress, Draw) support all types of alignment.</note>
+<embed href="text/shared/01/05070100.xhp#left"/>
+<embed href="text/shared/01/05070200.xhp#center_horizontal"/>
+<embed href="text/shared/01/05070300.xhp#right"/>
+<embed href="text/shared/01/05070400.xhp#top"/>
+<embed href="text/shared/01/05070500.xhp#center_vertical"/>
+<embed href="text/shared/01/05070600.xhp#bottom"/>
+</body>
+</helpdocument>

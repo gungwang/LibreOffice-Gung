@@ -1,0 +1,4256 @@
+#. extracted from wizards/source/resources
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-07-23 13:32+0200\n"
+"PO-Revision-Date: 2026-02-05 21:42+0000\n"
+"Last-Translator: NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translations.documentfoundation.org/projects/libo_ui-26-2/wizardssourceresources/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1518685297.000000\n"
+
+#. 8UKfi
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_0\n"
+"property.text"
+msgid "The directory '%1' could not be created.<BR>There may not be enough space left on your hard disk."
+msgstr "ບໍ່ສາມາດສ້າງໂຟນເດີ '%1' ໄດ້.<BR>ອາດຈະມີພື້ນທີ່ວ່າງບໍ່ພຽງພໍໃນຮາດດິດຂອງທ່ານ."
+
+#. YDL7z
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_1\n"
+"property.text"
+msgid "The text document could not be created.<BR>Please check if the module '%PRODUCTNAME Writer' is installed."
+msgstr "ບໍ່ສາມາດສ້າງເອກະສານຂໍ້ຄວາມໄດ້.<BR>ກະລຸນາກວດເບິ່ງວ່າໂມດູນ '%PRODUCTNAME Writer' ໄດ້ຕິດຕັ້ງແລ້ວຫຼືບໍ່."
+
+#. ovyQD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_2\n"
+"property.text"
+msgid "The spreadsheet could not be created.<BR>Please check if the module '%PRODUCTNAME Calc' is installed."
+msgstr "ບໍ່ສາມາດສ້າງຕາຕະລາງຄຳນວນໄດ້.<BR>ກະລຸນາກວດເບິ່ງວ່າໂມດູນ '%PRODUCTNAME Calc' ໄດ້ຕິດຕັ້ງແລ້ວຫຼືບໍ່."
+
+#. XoWgV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_3\n"
+"property.text"
+msgid "The presentation could not be created.<BR>Please check if the module '%PRODUCTNAME Impress' is installed."
+msgstr "ບໍ່ສາມາດສ້າງການນຳສະເໜີໄດ້.<BR>ກະລຸນາກວດເບິ່ງວ່າໂມດູນ '%PRODUCTNAME Impress' ໄດ້ຕິດຕັ້ງແລ້ວຫຼືບໍ່."
+
+#. 86ERo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_4\n"
+"property.text"
+msgid "The drawing could not be created.<BR>Please check if the module '%PRODUCTNAME Draw' is installed."
+msgstr "ບໍ່ສາມາດສ້າງການແຕ້ມໄດ້.<BR>ກະລຸນາກວດເບິ່ງວ່າໂມດູນ '%PRODUCTNAME Draw' ໄດ້ຕິດຕັ້ງແລ້ວຫຼືບໍ່."
+
+#. oGc3c
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_5\n"
+"property.text"
+msgid "The formula could not be created.<BR>Please check if the module '%PRODUCTNAME Math' is installed."
+msgstr "ບໍ່ສາມາດສ້າງສູດຄິດໄລ່ໄດ້.<BR>ກະລຸນາກວດເບິ່ງວ່າໂມດູນ '%PRODUCTNAME Math' ໄດ້ຕິດຕັ້ງແລ້ວຫຼືບໍ່."
+
+#. j5GzW
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_6\n"
+"property.text"
+msgid "The files required could not be found.<BR>Please start the %PRODUCTNAME Setup and choose 'Repair'."
+msgstr "ບໍ່ພົບໄຟລ໌ທີ່ຕ້ອງການ.<BR>ກະລຸນາເລີ່ມຕົ້ນການຕິດຕັ້ງ %PRODUCTNAME ແລະເລືອກທີ່ 'Repair' (ສ້ອມແປງ)."
+
+#. BFtze
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_7\n"
+"property.text"
+msgid "The file '<PATH>' already exists.<BR><BR>Would you like to overwrite the existing file?"
+msgstr "ມີໄຟລ໌ '<PATH>' ຢູ່ແລ້ວ.<BR><BR> ທ່ານຕ້ອງການຂຽນທັບໄຟລ໌ທີ່ມີຢູ່ແລ້ວບໍ່?"
+
+#. 7AvGR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_8\n"
+"property.text"
+msgid "Yes"
+msgstr "ແມ່ນ"
+
+#. GPG93
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_9\n"
+"property.text"
+msgid "Yes to All"
+msgstr "ແມ່ນທັງໝົດ"
+
+#. oBhQ5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_10\n"
+"property.text"
+msgid "No"
+msgstr "ບໍ່"
+
+#. wMBK7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_11\n"
+"property.text"
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. boSx2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_12\n"
+"property.text"
+msgid "~Finish"
+msgstr "~ສຳເລັດ"
+
+#. apFF8
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_13\n"
+"property.text"
+msgid "< ~Back"
+msgstr "< ~ກັບຄືນ"
+
+#. q8epA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_14\n"
+"property.text"
+msgid "~Next >"
+msgstr "~ຕໍ່ໄປ >"
+
+#. rSt56
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_15\n"
+"property.text"
+msgid "~Help"
+msgstr "~ຊ່ວຍເຫຼືອ"
+
+#. 9GUa6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_16\n"
+"property.text"
+msgid "Steps"
+msgstr "ຂັ້ນຕອນ"
+
+#. 9wWVR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_17\n"
+"property.text"
+msgid "Close"
+msgstr "ປິດ"
+
+#. zUv9u
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_18\n"
+"property.text"
+msgid "OK"
+msgstr "ຕົກລົງ"
+
+#. 6kGc4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_19\n"
+"property.text"
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "ມີໄຟລ໌ນີ້ຢູ່ແລ້ວ. ທ່ານຕ້ອງການຂຽນທັບມັນບໍ່?"
+
+#. BGj7a
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_20\n"
+"property.text"
+msgid "Template created via <wizard_name> on <current_date>."
+msgstr "ແມ່ແບບຖືກສ້າງຂຶ້ນຜ່ານ <wizard_name> ເມື່ອ <current_date>."
+
+#. zRGEs
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_21\n"
+"property.text"
+msgid "The wizard could not be run, because important files were not found.\\nUnder 'Tools - Options - %PRODUCTNAME - Paths' click the 'Default' button to reset the paths to the original default settings.\\nThen run the wizard again."
+msgstr "ບໍ່ສາມາດດຳເນີນການຕົວຊ່ວຍສ້າງໄດ້ ເນື່ອງຈາກບໍ່ພົບໄຟລ໌ທີ່ສຳຄັນ.\\nຢູ່ທີ່ 'Tools - Options - %PRODUCTNAME - Paths', ໃຫ້ກົດປຸ່ມ 'Default' ເພື່ອຕັ້ງຄ່າເສັ້ນທາງກັບຄືນເປັນຄ່າເລີ່ມຕົ້ນເດີມ.\\nຈາກນັ້ນໃຫ້ດຳເນີນການຕົວຊ່ວຍສ້າງອີກຄັ້ງ."
+
+#. GohbP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_0\n"
+"property.text"
+msgid "Report Wizard"
+msgstr "ຕົວຊ່ວຍສ້າງລາຍງານ"
+
+#. BZtXG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_3\n"
+"property.text"
+msgid "~Table"
+msgstr "~ຕາຕະລາງ"
+
+#. BhUoK
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_4\n"
+"property.text"
+msgid "Colu~mns"
+msgstr "~ຖັນ"
+
+#. KgzkD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_7\n"
+"property.text"
+msgid "Report_"
+msgstr "ລາຍງານ_"
+
+#. uKDkU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_8\n"
+"property.text"
+msgid "- undefined -"
+msgstr "- ບໍ່ໄດ້ກຳນົດ -"
+
+#. ZZqKE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_9\n"
+"property.text"
+msgid "~Fields in report"
+msgstr "~ເຂດຂໍ້ມູນໃນລາຍງານ"
+
+#. hMbDC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_11\n"
+"property.text"
+msgid "Grouping"
+msgstr "ການຈັດກຸ່ມ"
+
+#. wVXwx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_12\n"
+"property.text"
+msgid "Sort options"
+msgstr "ຕົວເລືອກການຈັດລຽງ"
+
+#. 7EUD3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_13\n"
+"property.text"
+msgid "Choose layout"
+msgstr "ເລືອກເຄົ້າໂຄງ"
+
+#. 45SFZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_14\n"
+"property.text"
+msgid "Create report"
+msgstr "ສ້າງລາຍງານ"
+
+#. cKDcw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_15\n"
+"property.text"
+msgid "Layout of data"
+msgstr "ເຄົ້າໂຄງຂອງຂໍ້ມູນ"
+
+#. HhPzF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_16\n"
+"property.text"
+msgid "Layout of headers and footers"
+msgstr "ເຄົ້າໂຄງຂອງສ່ວນຫົວ ແລະ ສ່ວນທ້າຍ"
+
+#. bN2Fw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_19\n"
+"property.text"
+msgid "Fields"
+msgstr "ເຂດຂໍ້ມູນ"
+
+#. qHq62
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_20\n"
+"property.text"
+msgid "~Sort by"
+msgstr "~ຈັດລຽງໂດຍ"
+
+#. 8CX4A
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_21\n"
+"property.text"
+msgid "T~hen by"
+msgstr "~ຈາກນັ້ນໂດຍ"
+
+#. kvzxk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_22\n"
+"property.text"
+msgid "Orientation"
+msgstr "ທິດທາງການວາງ"
+
+#. b3YDa
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_23\n"
+"property.text"
+msgid "Portrait"
+msgstr "ລວງຕັ້ງ"
+
+#. DT8hG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_24\n"
+"property.text"
+msgid "Landscape"
+msgstr "ລວງນອນ"
+
+#. TErmd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_28\n"
+"property.text"
+msgid "Which fields do you want to have in your report?"
+msgstr "ເຂດຂໍ້ມູນໃດທີ່ທ່ານຕ້ອງການໃຫ້ມີຢູ່ໃນລາຍງານຂອງທ່ານ?"
+
+#. HZgJU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_29\n"
+"property.text"
+msgid "Do you want to add grouping levels?"
+msgstr "ທ່ານຕ້ອງການເພີ່ມລະດັບການຈັດກຸ່ມບໍ່?"
+
+#. xPoaP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_30\n"
+"property.text"
+msgid "According to which fields do you want to sort the data?"
+msgstr "ທ່ານຕ້ອງການຈັດລຽງຂໍ້ມູນໂດຍອີງໃສ່ເຂດຂໍ້ມູນໃດ?"
+
+#. kAjMy
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_31\n"
+"property.text"
+msgid "How do you want your report to look?"
+msgstr "ທ່ານຕ້ອງການໃຫ້ລາຍງານຂອງທ່ານມີຮູບແບບແນວໃດ?"
+
+#. QvM65
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_32\n"
+"property.text"
+msgid "Decide how you want to proceed"
+msgstr "ຕັດສິນໃຈວ່າທ່ານຕ້ອງການດຳເນີນການແນວໃດ"
+
+#. GqD3n
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_33\n"
+"property.text"
+msgid "Title of report"
+msgstr "ຫົວຂໍ້ລາຍງານ"
+
+#. Nm8v3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_34\n"
+"property.text"
+msgid "Display report"
+msgstr "ສະແດງລາຍງານ"
+
+#. crCtw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_35\n"
+"property.text"
+msgid "Create report"
+msgstr "ສ້າງລາຍງານ"
+
+#. EiKBA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_36\n"
+"property.text"
+msgid "Ascending"
+msgstr "ລຽງຈາກນ້ອຍຫາໃຫຍ່"
+
+#. BboXx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_37\n"
+"property.text"
+msgid "Descending"
+msgstr "ລຽງຈາກໃຫຍ່ຫານ້ອຍ"
+
+#. sHcrv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_40\n"
+"property.text"
+msgid "~Dynamic report"
+msgstr "~ລາຍງານແບບເຄື່ອນໄຫວ"
+
+#. CxGG7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_41\n"
+"property.text"
+msgid "~Create report now"
+msgstr "~ສ້າງລາຍງານດຽວນີ້"
+
+#. FVhkR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_42\n"
+"property.text"
+msgid "~Modify report layout"
+msgstr "~ແກ້ໄຂເຄົ້າໂຄງລາຍງານ"
+
+#. BBFba
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_43\n"
+"property.text"
+msgid "Static report"
+msgstr "ລາຍງານແບບຄົງທີ່"
+
+#. gSyfQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_44\n"
+"property.text"
+msgid "Save as"
+msgstr "ບັນທຶກເປັນ"
+
+#. hdCaM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_50\n"
+"property.text"
+msgid "Groupings"
+msgstr "ການຈັດກຸ່ມ"
+
+#. XrhAA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_51\n"
+"property.text"
+msgid "Then b~y"
+msgstr "ຈາກນັ້ນ~ໂດຍ"
+
+#. dnjA2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_52\n"
+"property.text"
+msgid "~Then by"
+msgstr "~ຈາກນັ້ນໂດຍ"
+
+#. ZuRZA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_53\n"
+"property.text"
+msgid "Asc~ending"
+msgstr "~ລຽງຈາກນ້ອຍຫາໃຫຍ່"
+
+#. 2aQcz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_54\n"
+"property.text"
+msgid "Ascend~ing"
+msgstr "ລຽງຈາກ~ນ້ອຍຫາໃຫຍ່"
+
+#. d7S3o
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_55\n"
+"property.text"
+msgid "Ascendin~g"
+msgstr "ລຽງຈາກນ້ອຍຫາ~ໃຫຍ່"
+
+#. 8YKTL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_56\n"
+"property.text"
+msgid "De~scending"
+msgstr "~ລຽງຈາກໃຫຍ່ຫານ້ອຍ"
+
+#. 82XcF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_57\n"
+"property.text"
+msgid "Des~cending"
+msgstr "ລຽງຈາກ~ໃຫຍ່ຫານ້ອຍ"
+
+#. SCPyV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_58\n"
+"property.text"
+msgid "De~scending"
+msgstr "~ລຽງຈາກໃຫຍ່ຫານ້ອຍ"
+
+#. s4E5A
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_60\n"
+"property.text"
+msgid "Binary fields cannot be displayed in the report."
+msgstr "ບໍ່ສາມາດສະແດງເຂດຂໍ້ມູນເລກຖານສອງໃນລາຍງານໄດ້."
+
+#. zhqsu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_61\n"
+"property.text"
+msgid "The table '<TABLENAME>' does not exist."
+msgstr "ບໍ່ມີຕາຕະລາງ '<TABLENAME>'."
+
+#. JdC5d
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_62\n"
+"property.text"
+msgid "Creating Report..."
+msgstr "ກຳລັງສ້າງລາຍງານ..."
+
+#. PQ4E9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_63\n"
+"property.text"
+msgid "Number of records inserted: <COUNT>"
+msgstr "ຈຳນວນລະບຽນທີ່ແຊກໃສ່: <COUNT>"
+
+#. BUWNB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_64\n"
+"property.text"
+msgid "The form '<REPORTFORM>' does not exist."
+msgstr "ບໍ່ມີຟອມ '<REPORTFORM>'."
+
+#. AyMsD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_65\n"
+"property.text"
+msgid "The query with the statement <BR>'<STATEMENT>' <BR> could not be run. <BR> Check your data source."
+msgstr "ບໍ່ສາມາດດຳເນີນການແບບສອບຖາມດ້ວຍຄຳສັ່ງ <BR>'<STATEMENT>' <BR> ໄດ້. <BR> ກະລຸນາກວດສອບແຫຼ່ງຂໍ້ມູນຂອງທ່ານ."
+
+#. LW9DZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_66\n"
+"property.text"
+msgid "The following hidden control in the form '<REPORTFORM>' could not be read: '<CONTROLNAME>'."
+msgstr "ບໍ່ສາມາດອ່ານການຄວບຄຸມທີ່ເຊື່ອງໄວ້ໃນຟອມ '<REPORTFORM>': '<CONTROLNAME>'."
+
+#. GvE8h
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_67\n"
+"property.text"
+msgid "Importing data..."
+msgstr "ກຳລັງນຳເຂົ້າຂໍ້ມູນ..."
+
+#. LujCA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_68\n"
+"property.text"
+msgid "Labeling fields"
+msgstr "ການໃສ່ປ້າຍຊື່ເຂດຂໍ້ມູນ"
+
+#. HPxDv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_69\n"
+"property.text"
+msgid "How do you want to label the fields?"
+msgstr "ທ່ານຕ້ອງການໃສ່ປ້າຍຊື່ເຂດຂໍ້ມູນແນວໃດ?"
+
+#. C2Caz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_70\n"
+"property.text"
+msgid "Label"
+msgstr "ປ້າຍຊື່"
+
+#. EknR9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_71\n"
+"property.text"
+msgid "Field"
+msgstr "ເຂດຂໍ້ມູນ"
+
+#. agw3x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_72\n"
+"property.text"
+msgid "An error occurred in the wizard.<BR>The template '%PATH' could be erroneous.<BR>Either the required sections or tables do not exist or exist under the wrong name.<BR>See the Help for more detailed information.<BR>Please select another template."
+msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນໃນຕົວຊ່ວຍສ້າງ.<BR>ແມ່ແບບ '%PATH' ອາດມີບັນຫາ.<BR>ພາກສ່ວນ ຫຼື ຕາຕະລາງທີ່ຕ້ອງການອາດຈະບໍ່ມີ ຫຼື ໃຊ້ຊື່ຜິດ.<BR>ເບິ່ງວິທີໃຊ້ສຳລັບຂໍ້ມູນເພີ່ມເຕີ່ມ.<BR>ກະລຸນາເລືອກແມ່ແບບອື່ນ."
+
+#. Za86f
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_73\n"
+"property.text"
+msgid "There is an invalid user field in a table."
+msgstr "ມີເຂດຂໍ້ມູນຜູ້ໃຊ້ທີ່ບໍ່ຖືກຕ້ອງຢູ່ໃນຕາຕະລາງ."
+
+#. rXZZH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_74\n"
+"property.text"
+msgid "The sort criterion '<FIELDNAME>' was chosen twice. Each criterion can only be chosen once."
+msgstr "ເງື່ອນໄຂການຈັດລຽງ '<FIELDNAME>' ຖືກເລືອກຊ້ຳກັນ. ແຕ່ລະເງື່ອນໄຂສາມາດເລືອກໄດ້ພຽງຄັ້ງດຽວ."
+
+#. ZNk6M
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_75\n"
+"property.text"
+msgid "Note: The dummy text will be replaced by data from the database when the report is created."
+msgstr "ໝາຍເຫດ: ຂໍ້ຄວາມຕົວຢ່າງຈະຖືກແທນທີ່ດ້ວຍຂໍ້ມູນຈາກຖານຂໍ້ມູນເມື່ອລາຍງານຖືກສ້າງຂຶ້ນ."
+
+#. 5VdG4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_76\n"
+"property.text"
+msgid "A report '%REPORTNAME' already exists in the database. Please assign another name."
+msgstr "ມີລາຍງານ '%REPORTNAME' ຢູ່ໃນຖານຂໍ້ມູນແລ້ວ. ກະລຸນາໃສ່ຊື່ອື່ນ."
+
+#. TD56g
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_78\n"
+"property.text"
+msgid "How do you want to proceed after creating the report?"
+msgstr "ທ່ານຕ້ອງການດຳເນີນການແນວໃດຫຼັງຈາກສ້າງລາຍງານແລ້ວ?"
+
+#. fpEwz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_79\n"
+"property.text"
+msgid "What kind of report do you want to create?"
+msgstr "ທ່ານຕ້ອງການສ້າງລາຍງານປະເພດໃດ?"
+
+#. s3vBB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_80\n"
+"property.text"
+msgid "Tabular"
+msgstr "ແບບຕາຕະລາງ"
+
+#. dDWAD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_81\n"
+"property.text"
+msgid "Columnar, single-column"
+msgstr "ແບບຖັນ, ຖັນດຽວ"
+
+#. MwR8x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_82\n"
+"property.text"
+msgid "Columnar, two columns"
+msgstr "ແບບຖັນ, ສອງຖັນ"
+
+#. UsKmm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_83\n"
+"property.text"
+msgid "Columnar, three columns"
+msgstr "ແບບຖັນ, ສາມຖັນ"
+
+#. RG9ds
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_84\n"
+"property.text"
+msgid "In blocks, labels left"
+msgstr "ແບບບລັອກ, ປ້າຍຊື່ທາງຊ້າຍ"
+
+#. dspnP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_85\n"
+"property.text"
+msgid "In blocks, labels above"
+msgstr "ແບບບລັອກ, ປ້າຍຊື່ທາງເທິງ"
+
+#. FXJtW
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_86\n"
+"property.text"
+msgid "Title:"
+msgstr "ຫົວຂໍ້:"
+
+#. 2z2JH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_87\n"
+"property.text"
+msgid "Author:"
+msgstr "ຜູ້ສ້າງ:"
+
+#. uESaE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_88\n"
+"property.text"
+msgid "Date:"
+msgstr "ວັນທີ:"
+
+#. GzkD4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_89\n"
+"property.text"
+msgid "Page #page# of #count#"
+msgstr "ໜ້າ #page# ຈາກ #count#"
+
+#. 3FXVE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_90\n"
+"property.text"
+msgid "Page number:"
+msgstr "ເລກໜ້າ:"
+
+#. 9HCyq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_91\n"
+"property.text"
+msgid "Page count:"
+msgstr "ຈຳນວນໜ້າ:"
+
+#. FAa63
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_92\n"
+"property.text"
+msgid "No valid report template was found."
+msgstr "ບໍ່ພົບແມ່ແບບລາຍງານທີ່ຖືກຕ້ອງ."
+
+#. F6vrA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_93\n"
+"property.text"
+msgid "Page:"
+msgstr "ໜ້າ:"
+
+#. v8gUF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_94\n"
+"property.text"
+msgid "Align Left - Border"
+msgstr "ຈັດຊ້າຍ - ມີຂອບ"
+
+#. TV3AA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_95\n"
+"property.text"
+msgid "Align Left - Compact"
+msgstr "ຈັດຊ້າຍ - ກະທັດຮັດ"
+
+#. DL6ZJ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_96\n"
+"property.text"
+msgid "Align Left - Elegant"
+msgstr "ຈັດຊ້າຍ - ສວຍງາມ"
+
+#. wRNAq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_97\n"
+"property.text"
+msgid "Align Left - Highlighted"
+msgstr "ຈັດຊ້າຍ - ເນັ້ນຄຳ"
+
+#. JnhXj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_98\n"
+"property.text"
+msgid "Align Left - Modern"
+msgstr "ຈັດຊ້າຍ - ທັນສະໄໝ"
+
+#. 4Djyg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_99\n"
+"property.text"
+msgid "Align Left - Red & Blue"
+msgstr "ຈັດຊ້າຍ - ແດງ & ຟ້າ"
+
+#. BvcfB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_100\n"
+"property.text"
+msgid "Default"
+msgstr "ຄ່າເລີ່ມຕົ້ນ"
+
+#. Bca59
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_101\n"
+"property.text"
+msgid "Outline - Borders"
+msgstr "ໂຄງຮ່າງ - ມີຂອບ"
+
+#. C9umd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_102\n"
+"property.text"
+msgid "Outline - Compact"
+msgstr "ໂຄງຮ່າງ - ກະທັດຮັດ"
+
+#. uYz2T
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_103\n"
+"property.text"
+msgid "Outline - Elegant"
+msgstr "ໂຄງຮ່າງ - ສວຍງາມ"
+
+#. iFk6x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_104\n"
+"property.text"
+msgid "Outline - Highlighted"
+msgstr "ໂຄງຮ່າງ - ເນັ້ນຄຳ"
+
+#. jhJnN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_105\n"
+"property.text"
+msgid "Outline - Modern"
+msgstr "ໂຄງຮ່າງ - ທັນສະໄໝ"
+
+#. mXnKN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_106\n"
+"property.text"
+msgid "Outline - Red & Blue"
+msgstr "ໂຄງຮ່າງ - ແດງ & ຟ້າ"
+
+#. zKFcj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_107\n"
+"property.text"
+msgid "Outline, indented - Borders"
+msgstr "ໂຄງຮ່າງ, ຫຍໍ້ໜ້າ - ມີຂອບ"
+
+#. 8XBee
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_108\n"
+"property.text"
+msgid "Outline, indented - Compact"
+msgstr "ໂຄງຮ່າງ, ຫຍໍ້ໜ້າ - ກະທັດຮັດ"
+
+#. e47Xn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_109\n"
+"property.text"
+msgid "Outline, indented - Elegant"
+msgstr "ໂຄງຮ່າງ, ຫຍໍ້ໜ້າ - ສວຍງາມ"
+
+#. CGQuu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_110\n"
+"property.text"
+msgid "Outline, indented - Highlighted"
+msgstr "ໂຄງຮ່າງ, ຫຍໍ້ໜ້າ - ເນັ້ນຄຳ"
+
+#. ABC5q
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_111\n"
+"property.text"
+msgid "Outline, indented - Modern"
+msgstr "ໂຄງຮ່າງ, ຫຍໍ້ໜ້າ - ທັນສະໄໝ"
+
+#. urT2J
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_112\n"
+"property.text"
+msgid "Outline, indented - Red & Blue"
+msgstr "ໂຄງຮ່າງ, ຫຍໍ້ໜ້າ - ແດງ & ຟ້າ"
+
+#. TzXg5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_113\n"
+"property.text"
+msgid "Bubbles"
+msgstr "ຟອງອາກາດ"
+
+#. RGiTm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_114\n"
+"property.text"
+msgid "Cinema"
+msgstr "ຮູບເງົາ"
+
+#. Eo2jG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_115\n"
+"property.text"
+msgid "Controlling"
+msgstr "ການຄວບຄຸມ"
+
+#. fpiSX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_116\n"
+"property.text"
+msgid "Default"
+msgstr "ຄ່າເລີ່ມຕົ້ນ"
+
+#. 927HM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_117\n"
+"property.text"
+msgid "Drafting"
+msgstr "ການຮ່າງ"
+
+#. BGvCk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_118\n"
+"property.text"
+msgid "Finances"
+msgstr "ການເງິນ"
+
+#. mhJr6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_119\n"
+"property.text"
+msgid "Flipchart"
+msgstr "ກະດານພິກ"
+
+#. t5VdL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_120\n"
+"property.text"
+msgid "Formal with Company Logo"
+msgstr "ທາງການພ້ອມໂລໂກ້ບໍລິສັດ"
+
+#. iwANQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_121\n"
+"property.text"
+msgid "Generic"
+msgstr "ທົ່ວໄປ"
+
+#. RkArE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_122\n"
+"property.text"
+msgid "Worldmap"
+msgstr "ແຜນທີ່ໂລກ"
+
+#. wpr5T
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_0\n"
+"property.text"
+msgid "C~reate"
+msgstr "~ສ້າງ"
+
+#. W6xLZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_1\n"
+"property.text"
+msgid "~Cancel"
+msgstr "~ຍົກເລີກ"
+
+#. ecMFi
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_2\n"
+"property.text"
+msgid "< ~Back"
+msgstr "< ~ກັບຄືນ"
+
+#. HvEAE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_3\n"
+"property.text"
+msgid "~Next >"
+msgstr "~ຕໍ່ໄປ >"
+
+#. u5rzd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_4\n"
+"property.text"
+msgid "~Database"
+msgstr "~ຖານຂໍ້ມູນ"
+
+#. sCeDP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_5\n"
+"property.text"
+msgid "~Table name"
+msgstr "~ຊື່ຕາຕະລາງ"
+
+#. KC4Dw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_6\n"
+"property.text"
+msgid "An error occurred while running the wizard. The wizard will be terminated."
+msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນໃນຂະນະດຳເນີນການຕົວຊ່ວຍສ້າງ. ຕົວຊ່ວຍສ້າງຈະຖືກປິດລົງ."
+
+#. ZG95j
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_8\n"
+"property.text"
+msgid "No database has been installed. At least one database is required before the wizard for forms can be started."
+msgstr "ບໍ່ມີຖານຂໍ້ມູນຖືກຕິດຕັ້ງ. ຕ້ອງການຖານຂໍ້ມູນຢ່າງໜ້ອຍໜຶ່ງອັນກ່ອນທີ່ຈະສາມາດເລີ່ມຕົວຊ່ວຍສ້າງຟອມໄດ້."
+
+#. GCAgB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_9\n"
+"property.text"
+msgid "The database does not contain any tables."
+msgstr "ຖານຂໍ້ມູນບໍ່ມີຕາຕະລາງໃດໆ."
+
+#. ikZ7F
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_10\n"
+"property.text"
+msgid "This title already exists in the database. Please enter another name."
+msgstr "ຊື່ນີ້ມີຢູ່ໃນຖານຂໍ້ມູນແລ້ວ. ກະລຸນາໃສ່ຊື່ອື່ນ."
+
+#. Dposv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_11\n"
+"property.text"
+msgid "The title must not contain any spaces or special characters."
+msgstr "ຊື່ຕ້ອງບໍ່ມີຍະຫວ່າງ ຫຼື ຕົວອັກສອນພິເສດ."
+
+#. FUgQA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_12\n"
+"property.text"
+msgid "The database service (com.sun.data.DatabaseEngine) could not be instantiated."
+msgstr "ບໍ່ສາມາດເລີ່ມຕົ້ນການບໍລິການຖານຂໍ້ມູນ (com.sun.data.DatabaseEngine) ໄດ້."
+
+#. HRAeA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_13\n"
+"property.text"
+msgid "The selected table or query could not be opened."
+msgstr "ບໍ່ສາມາດເປີດຕາຕະລາງ ຫຼື ແບບສອບຖາມທີ່ເລືອກໄດ້."
+
+#. VAphN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_14\n"
+"property.text"
+msgid "No connection to the database could be established."
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ຫາຖານຂໍ້ມູນໄດ້."
+
+#. z9FhA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_20\n"
+"property.text"
+msgid "~Help"
+msgstr "~ຊ່ວຍເຫຼືອ"
+
+#. eXWrX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_21\n"
+"property.text"
+msgid "~Stop"
+msgstr "~ຢຸດ"
+
+#. GiCi2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_30\n"
+"property.text"
+msgid "The document could not be saved."
+msgstr "ບໍ່ສາມາດບັນທຶກເອກະສານໄດ້."
+
+#. UkQEx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_33\n"
+"property.text"
+msgid "Exiting the wizard"
+msgstr "ກຳລັງອອກຈາກຕົວຊ່ວຍສ້າງ"
+
+#. HrveE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_34\n"
+"property.text"
+msgid "Connecting to data source..."
+msgstr "ກຳລັງເຊື່ອມຕໍ່ຫາແຫຼ່ງຂໍ້ມູນ..."
+
+#. se64P
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_35\n"
+"property.text"
+msgid "The connection to the data source could not be established."
+msgstr "ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່ຫາແຫຼ່ງຂໍ້ມູນໄດ້."
+
+#. Ch5MD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_36\n"
+"property.text"
+msgid "The file path entered is not valid."
+msgstr "ເສັ້ນທາງໄຟລ໌ທີ່ປ້ອນບໍ່ຖືກຕ້ອງ."
+
+#. kPABE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_37\n"
+"property.text"
+msgid "Please select a data source"
+msgstr "ກະລຸນາເລືອກແຫຼ່ງຂໍ້ມູນ"
+
+#. XDBBC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_38\n"
+"property.text"
+msgid "Please select a table or query"
+msgstr "ກະລຸນາເລືອກຕາຕະລາງ ຫຼື ແບບສອບຖາມ"
+
+#. AgeWk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_39\n"
+"property.text"
+msgid "Add field"
+msgstr "ເພີ່ມເຂດຂໍ້ມູນ"
+
+#. FoExR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_40\n"
+"property.text"
+msgid "Remove field"
+msgstr "ເອົາເຂດຂໍ້ມູນອອກ"
+
+#. BuUZ5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_41\n"
+"property.text"
+msgid "Add all fields"
+msgstr "ເພີ່ມເຂດຂໍ້ມູນທັງໝົດ"
+
+#. PVELV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_42\n"
+"property.text"
+msgid "Remove all fields"
+msgstr "ເອົາເຂດຂໍ້ມູນທັງໝົດອອກ"
+
+#. jAXRw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_43\n"
+"property.text"
+msgid "Move field up"
+msgstr "ຍ້າຍເຂດຂໍ້ມູນຂຶ້ນ"
+
+#. Ao2Z6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_44\n"
+"property.text"
+msgid "Move field down"
+msgstr "ຍ້າຍເຂດຂໍ້ມູນລົງ"
+
+#. B4mWx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_45\n"
+"property.text"
+msgid "The field names from '%NAME' could not be retrieved."
+msgstr "ບໍ່ສາມາດດຶງຊື່ເຂດຂໍ້ມູນຈາກ '%NAME' ໄດ້."
+
+#. SNhe5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_0\n"
+"property.text"
+msgid "Query Wizard"
+msgstr "ຕົວຊ່ວຍສ້າງແບບສອບຖາມ"
+
+#. RySqB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_1\n"
+"property.text"
+msgid "Query"
+msgstr "ແບບສອບຖາມ"
+
+#. wKhwS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_2\n"
+"property.text"
+msgid "Query Wizard"
+msgstr "ຕົວຊ່ວຍສ້າງແບບສອບຖາມ"
+
+#. QEtRG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_3\n"
+"property.text"
+msgid "~Tables"
+msgstr "~ຕາຕະລາງ"
+
+#. s2KnF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_4\n"
+"property.text"
+msgid "A~vailable fields"
+msgstr "~ເຂດຂໍ້ມູນທີ່ມີ"
+
+#. Wsx8x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_5\n"
+"property.text"
+msgid "Name ~of the query"
+msgstr "ຊື່~ຂອງແບບສອບຖາມ"
+
+#. t9MEU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_6\n"
+"property.text"
+msgid "Display ~Query"
+msgstr "ສະແດງ~ແບບສອບຖາມ"
+
+#. UBWUX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_7\n"
+"property.text"
+msgid "~Modify Query"
+msgstr "~ແກ້ໄຂແບບສອບຖາມ"
+
+#. AoeET
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_8\n"
+"property.text"
+msgid "~How do you want to proceed after creating the query?"
+msgstr "~ທ່ານຕ້ອງການດຳເນີນການແນວໃດຫຼັງຈາກສ້າງແບບສອບຖາມແລ້ວ?"
+
+#. kofEg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_9\n"
+"property.text"
+msgid "Match ~all of the following"
+msgstr "ກົງກັບ~ທັງໝົດຕໍ່ໄປນີ້"
+
+#. 4xM3Z
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_10\n"
+"property.text"
+msgid "~Match any of the following"
+msgstr "~ກົງກັບອັນໃດອັນໜຶ່ງຕໍ່ໄປນີ້"
+
+#. WLFFc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_11\n"
+"property.text"
+msgid "~Detailed query (Shows all records of the query.)"
+msgstr "~ແບບສອບຖາມລະອຽດ (ສະແດງລະບຽນທັງໝົດຂອງແບບສອບຖາມ.)"
+
+#. fnzhE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_12\n"
+"property.text"
+msgid "~Summary query (Shows only results of aggregate functions.)"
+msgstr "~ແບບສອບຖາມສະຫຼຸບ (ສະແດງພຽງແຕ່ຜົນຂອງຟັງຊັນລວມ.)"
+
+#. SdQBk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_16\n"
+"property.text"
+msgid "Aggregate functions"
+msgstr "ຟັງຊັນລວມ"
+
+#. tFNb2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_17\n"
+"property.text"
+msgid "Fields"
+msgstr "ເຂດຂໍ້ມູນ"
+
+#. D9sGR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_18\n"
+"property.text"
+msgid "~Group by"
+msgstr "~ຈັດກຸ່ມໂດຍ"
+
+#. E5N85
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_19\n"
+"property.text"
+msgid "Field"
+msgstr "ເຂດຂໍ້ມູນ"
+
+#. 2dqd2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_20\n"
+"property.text"
+msgid "Alias"
+msgstr "ຊື່ແທນ"
+
+#. 8eMER
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_21\n"
+"property.text"
+msgid "Table:"
+msgstr "ຕາຕະລາງ:"
+
+#. jaKR7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_22\n"
+"property.text"
+msgid "Query:"
+msgstr "ແບບສອບຖາມ:"
+
+#. TpbSv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_24\n"
+"property.text"
+msgid "Condition"
+msgstr "ເງື່ອນໄຂ"
+
+#. Dvk6K
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_25\n"
+"property.text"
+msgid "Value"
+msgstr "ຄ່າ"
+
+#. oP8P9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_26\n"
+"property.text"
+msgid "is equal to"
+msgstr "ເທົ່າກັບ"
+
+#. D7K36
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_27\n"
+"property.text"
+msgid "is not equal to"
+msgstr "ບໍ່ເທົ່າກັບ"
+
+#. n9gFB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_28\n"
+"property.text"
+msgid "is smaller than"
+msgstr "ນ້ອຍກວ່າ"
+
+#. FAiPg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_29\n"
+"property.text"
+msgid "is greater than"
+msgstr "ໃຫຍ່ກວ່າ"
+
+#. pFsPY
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_30\n"
+"property.text"
+msgid "is equal or less than"
+msgstr "ເທົ່າກັບ ຫຼື ນ້ອຍກວ່າ"
+
+#. yT9cM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_31\n"
+"property.text"
+msgid "is equal or greater than"
+msgstr "ເທົ່າກັບ ຫຼື ໃຫຍ່ກວ່າ"
+
+#. GFnAN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_32\n"
+"property.text"
+msgid "like"
+msgstr "ຄືກັບ"
+
+#. JZCLd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_33\n"
+"property.text"
+msgid "not like"
+msgstr "ບໍ່ຄືກັບ"
+
+#. TiHHv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_34\n"
+"property.text"
+msgid "is null"
+msgstr "ເປັນຄ່າວ່າງ"
+
+#. dpAdZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_35\n"
+"property.text"
+msgid "is not null"
+msgstr "ບໍ່ແມ່ນຄ່າວ່າງ"
+
+#. ZnCKf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_36\n"
+"property.text"
+msgid "true"
+msgstr "ຈິງ"
+
+#. AwCQp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_37\n"
+"property.text"
+msgid "false"
+msgstr "ເທັດ"
+
+#. GEGKb
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_38\n"
+"property.text"
+msgid "and"
+msgstr "ແລະ"
+
+#. GDvQV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_39\n"
+"property.text"
+msgid "or"
+msgstr "ຫຼື"
+
+#. BaA5J
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_40\n"
+"property.text"
+msgid "get the sum of"
+msgstr "ໄດ້ຜົນລວມຂອງ"
+
+#. uCRgg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_41\n"
+"property.text"
+msgid "get the average of"
+msgstr "ໄດ້ຄ່າສະເລ່ຍຂອງ"
+
+#. UjEVW
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_42\n"
+"property.text"
+msgid "get the minimum of"
+msgstr "ໄດ້ຄ່າຕ່ຳສຸດຂອງ"
+
+#. qpN4C
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_43\n"
+"property.text"
+msgid "get the maximum of"
+msgstr "ໄດ້ຄ່າສູງສຸດຂອງ"
+
+#. DAZUE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_44\n"
+"property.text"
+msgid "get the count of"
+msgstr "ນັບຈຳນວນຂອງ"
+
+#. BBEEj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_48\n"
+"property.text"
+msgid "(none)"
+msgstr "(ບໍ່ມີ)"
+
+#. agTUo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_50\n"
+"property.text"
+msgid "Fie~lds in the Query:"
+msgstr "~ເຂດຂໍ້ມູນໃນແບບສອບຖາມ:"
+
+#. CScUQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_51\n"
+"property.text"
+msgid "Sorting order:"
+msgstr "ລຳດັບການຈັດລຽງ:"
+
+#. JDHFH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_52\n"
+"property.text"
+msgid "No sorting fields were assigned."
+msgstr "ບໍ່ມີເຂດຂໍ້ມູນການຈັດລຽງທີ່ຖືກກຳນົດ."
+
+#. GLtfA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_53\n"
+"property.text"
+msgid "Search conditions:"
+msgstr "ເງື່ອນໄຂການຄົ້ນຫາ:"
+
+#. DocWB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_54\n"
+"property.text"
+msgid "No conditions were assigned."
+msgstr "ບໍ່ມີການກຳນົດເງື່ອນໄຂ."
+
+#. BfAEG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_55\n"
+"property.text"
+msgid "Aggregate functions:"
+msgstr "ຟັງຊັນລວມ:"
+
+#. mArUE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_56\n"
+"property.text"
+msgid "No aggregate functions were assigned."
+msgstr "ບໍ່ມີການກຳນົດຟັງຊັນລວມ."
+
+#. uDTRV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_57\n"
+"property.text"
+msgid "Grouped by:"
+msgstr "ຈັດກຸ່ມໂດຍ:"
+
+#. WXLSS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_58\n"
+"property.text"
+msgid "No Groups were assigned."
+msgstr "ບໍ່ມີການກຳນົດກຸ່ມ."
+
+#. jhPaR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_59\n"
+"property.text"
+msgid "Grouping conditions:"
+msgstr "ເງື່ອນໄຂການຈັດກຸ່ມ:"
+
+#. EoMHV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_60\n"
+"property.text"
+msgid "No grouping conditions were assigned."
+msgstr "ບໍ່ມີການກຳນົດເງື່ອນໄຂການຈັດກຸ່ມ."
+
+#. NNF8b
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_70\n"
+"property.text"
+msgid "Select the fields (columns) for your query"
+msgstr "ເລືອກເຂດຂໍ້ມູນ (ຖັນ) ສຳລັບແບບສອບຖາມຂອງທ່ານ"
+
+#. kX9cK
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_71\n"
+"property.text"
+msgid "Select the sorting order"
+msgstr "ເລືອກລຳດັບການຈັດລຽງ"
+
+#. 7jmnS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_72\n"
+"property.text"
+msgid "Select the search conditions"
+msgstr "ເລືອກເງື່ອນໄຂການຄົ້ນຫາ"
+
+#. UHCrm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_73\n"
+"property.text"
+msgid "Select the type of query"
+msgstr "ເລືອກປະເພດຂອງແບບສອບຖາມ"
+
+#. ZY6MS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_74\n"
+"property.text"
+msgid "Select the groups"
+msgstr "ເລືອກກຸ່ມ"
+
+#. N8n8X
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_75\n"
+"property.text"
+msgid "Select the grouping conditions"
+msgstr "ເລືອກເງື່ອນໄຂການຈັດກຸ່ມ"
+
+#. sy7Lt
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_76\n"
+"property.text"
+msgid "Assign aliases if desired"
+msgstr "ກຳນົດຊື່ແທນຖ້າຕ້ອງການ"
+
+#. exiZ6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_77\n"
+"property.text"
+msgid "Check the overview and decide how to proceed"
+msgstr "ກວດສອບພາບລວມແລະຕັດສິນໃຈວ່າຈະດຳເນີນການແນວໃດ"
+
+#. 2uhKR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_80\n"
+"property.text"
+msgid "Field selection"
+msgstr "ການເລືອກເຂດຂໍ້ມູນ"
+
+#. LzPyD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_81\n"
+"property.text"
+msgid "Sorting order"
+msgstr "ລຳດັບການຈັດລຽງ"
+
+#. pVVLS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_82\n"
+"property.text"
+msgid "Search conditions"
+msgstr "ເງື່ອນໄຂການຄົ້ນຫາ"
+
+#. Z22GZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_83\n"
+"property.text"
+msgid "Detail or summary"
+msgstr "ລາຍລະອຽດ ຫຼື ບົດສະຫຼຸບ"
+
+#. 4EYC7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_84\n"
+"property.text"
+msgid "Grouping"
+msgstr "ການຈັດກຸ່ມ"
+
+#. MziCd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_85\n"
+"property.text"
+msgid "Grouping conditions"
+msgstr "ເງື່ອນໄຂການຈັດກຸ່ມ"
+
+#. EB7JF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_86\n"
+"property.text"
+msgid "Aliases"
+msgstr "ຊື່ແທນ"
+
+#. WzptL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_87\n"
+"property.text"
+msgid "Overview"
+msgstr "ພາບລວມ"
+
+#. f4xrP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_88\n"
+"property.text"
+msgid "A field that has not been assigned an aggregate function must be used in a group."
+msgstr "ເຂດຂໍ້ມູນທີ່ບໍ່ໄດ້ຖືກກຳນົດໃຫ້ເປັນຟັງຊັນລວມຕ້ອງຖືກໃຊ້ໃນກຸ່ມ."
+
+#. 2C2nu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_89\n"
+"property.text"
+msgid "The condition '<FIELDNAME> <LOGICOPERATOR> <VALUE>' was chosen twice. Each condition can only be chosen once"
+msgstr "ເງື່ອນໄຂ '<FIELDNAME> <LOGICOPERATOR> <VALUE>' ຖືກເລືອກສອງຄັ້ງ. ແຕ່ລະເງື່ອນໄຂສາມາດເລືອກໄດ້ຄັ້ງດຽວ"
+
+#. ZAHzB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_90\n"
+"property.text"
+msgid "The aggregate function <FUNCTION> has been assigned twice to the fieldname '<NUMERICFIELD>'."
+msgstr "ຟັງຊັນລວມ <FUNCTION> ຖືກກຳນົດສອງຄັ້ງໃຫ້ກັບຊື່ເຂດຂໍ້ມູນ '<NUMERICFIELD>'."
+
+#. s2MGE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_91\n"
+"property.text"
+msgid ","
+msgstr ","
+
+#. D8bmB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_92\n"
+"property.text"
+msgid "<FIELDTITLE> (<FIELDNAME>)"
+msgstr "<FIELDTITLE> (<FIELDNAME>)"
+
+#. dGCJv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_93\n"
+"property.text"
+msgid "<FIELDNAME> (<SORTMODE>)"
+msgstr "<FIELDNAME> (<SORTMODE>)"
+
+#. RAt2h
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_94\n"
+"property.text"
+msgid "<FIELDNAME> <LOGICOPERATOR> <VALUE>"
+msgstr "<FIELDNAME> <LOGICOPERATOR> <VALUE>"
+
+#. pbBGo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_95\n"
+"property.text"
+msgid "<CALCULATEDFUNCTION> <FIELDNAME>"
+msgstr "<CALCULATEDFUNCTION> <FIELDNAME>"
+
+#. MBwoM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_96\n"
+"property.text"
+msgid "<FIELDNAME> <LOGICOPERATOR> <VALUE>"
+msgstr "<FIELDNAME> <LOGICOPERATOR> <VALUE>"
+
+#. yheet
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_0\n"
+"property.text"
+msgid "Form Wizard"
+msgstr "ຕົວຊ່ວຍສ້າງຟອມ"
+
+#. H4MXV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_1\n"
+"property.text"
+msgid "Fields in ~the form"
+msgstr "ເຂດຂໍ້ມູນໃນ~ຟອມ"
+
+#. 6J6EJ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_2\n"
+"property.text"
+msgid "Binary fields are always listed and selectable from the left list.\\nIf possible, they are interpreted as images."
+msgstr "ເຂດຂໍ້ມູນຖານສອງຈະສະແດງແລະເລືອກໄດ້ຈາກລາຍການທາງຊ້າຍສະເໝີ.\\nຖ້າເປັນໄປໄດ້, ພວກມັນຈະຖືກແປຜົນເປັນຮູບພາບ."
+
+#. BCBCd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_3\n"
+"property.text"
+msgid "A subform is a form that is inserted in another form.\\nUse subforms to show data from tables or queries with a one-to-many relationship."
+msgstr "ຟອມຍ່ອຍແມ່ນຟອມທີ່ຖືກແຊກຢູ່ໃນຟອມອື່ນ.\\nໃຊ້ຟອມຍ່ອຍເພື່ອສະແດງຂໍ້ມູນຈາກຕາຕະລາງ ຫຼື ແບບສອບຖາມທີ່ມີຄວາມສຳພັນແບບໜຶ່ງຕໍ່ຫຼາຍ."
+
+#. h4XzG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_4\n"
+"property.text"
+msgid "~Add Subform"
+msgstr "~ເພີ່ມຟອມຍ່ອຍ"
+
+#. GSiwE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_5\n"
+"property.text"
+msgid "~Subform based on existing relation"
+msgstr "~ຟອມຍ່ອຍອີງຕາມຄວາມສຳພັນທີ່ມີຢູ່"
+
+#. oFM6V
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_6\n"
+"property.text"
+msgid "Tables or queries"
+msgstr "ຕາຕະລາງ ຫຼື ແບບສອບຖາມ"
+
+#. 2BEab
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_7\n"
+"property.text"
+msgid "Subform based on ~manual selection of fields"
+msgstr "ຟອມຍ່ອຍອີງຕາມ~ການເລືອກເຂດຂໍ້ມູນດ້ວຍຕົນເອງ"
+
+#. PShA6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_8\n"
+"property.text"
+msgid "~Which relation do you want to add?"
+msgstr "~ທ່ານຕ້ອງການເພີ່ມຄວາມສຳພັນໃດ?"
+
+#. yGGuc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_9\n"
+"property.text"
+msgid "Fields in the ~subform"
+msgstr "ເຂດຂໍ້ມູນໃນ~ຟອມຍ່ອຍ"
+
+#. KG4Hj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_12\n"
+"property.text"
+msgid "~Available fields"
+msgstr "~ເຂດຂໍ້ມູນທີ່ມີ"
+
+#. pB2Mv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_13\n"
+"property.text"
+msgid "Fields in form"
+msgstr "ເຂດຂໍ້ມູນໃນຟອມ"
+
+#. fFuDk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_19\n"
+"property.text"
+msgid "The join '<FIELDNAME1>' and '<FIELDNAME2>' has been selected twice.\\nBut joins may only be used once."
+msgstr "ການຮ່ວມ '<FIELDNAME1>' ແລະ '<FIELDNAME2>' ຖືກເລືອກສອງຄັ້ງ.\\nແຕ່ການຮ່ວມສາມາດໃຊ້ໄດ້ພຽງຄັ້ງດຽວ."
+
+#. 9uFd2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_20\n"
+"property.text"
+msgid "~First joined subform field"
+msgstr "~ເຂດຂໍ້ມູນຟອມຍ່ອຍທີ່ຮ່ວມກັນທຳອິດ"
+
+#. NfpyC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_21\n"
+"property.text"
+msgid "~Second joined subform field"
+msgstr "~ເຂດຂໍ້ມູນຟອມຍ່ອຍທີ່ຮ່ວມກັນທີສອງ"
+
+#. 5F4nf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_22\n"
+"property.text"
+msgid "~Third joined subform field"
+msgstr "~ເຂດຂໍ້ມູນຟອມຍ່ອຍທີ່ຮ່ວມກັນທີສາມ"
+
+#. BJBzR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_23\n"
+"property.text"
+msgid "~Fourth joined subform field"
+msgstr "~ເຂດຂໍ້ມູນຟອມຍ່ອຍທີ່ຮ່ວມກັນທີສີ່"
+
+#. EAJxx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_24\n"
+"property.text"
+msgid "F~irst joined main form field"
+msgstr "~ເຂດຂໍ້ມູນຟອມຫຼັກທີ່ຮ່ວມກັນທຳອິດ"
+
+#. S72RL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_25\n"
+"property.text"
+msgid "S~econd joined main form field"
+msgstr "~ເຂດຂໍ້ມູນຟອມຫຼັກທີ່ຮ່ວມກັນທີສອງ"
+
+#. C73ZZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_26\n"
+"property.text"
+msgid "T~hird joined main form field"
+msgstr "~ເຂດຂໍ້ມູນຟອມຫຼັກທີ່ຮ່ວມກັນທີສາມ"
+
+#. AwNUu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_27\n"
+"property.text"
+msgid "F~ourth joined main form field"
+msgstr "~ເຂດຂໍ້ມູນຟອມຫຼັກທີ່ຮ່ວມກັນທີສີ່"
+
+#. KCNEY
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_28\n"
+"property.text"
+msgid "Field border"
+msgstr "ຂອບຂອງເຂດຂໍ້ມູນ"
+
+#. oQq6u
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_29\n"
+"property.text"
+msgid "No border"
+msgstr "ບໍ່ມີຂອບ"
+
+#. hk9Xa
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_30\n"
+"property.text"
+msgid "3D look"
+msgstr "ແບບ 3 ມິຕິ"
+
+#. noMiL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_31\n"
+"property.text"
+msgid "Flat"
+msgstr "ແປນ"
+
+#. kCBjw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_32\n"
+"property.text"
+msgid "Label placement"
+msgstr "ການວາງປ້າຍຊື່"
+
+#. Vrww6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_33\n"
+"property.text"
+msgid "Align left"
+msgstr "ຈັດຊ້າຍ"
+
+#. Qrt6U
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_34\n"
+"property.text"
+msgid "Align right"
+msgstr "ຈັດຂວາ"
+
+#. KNG6r
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_35\n"
+"property.text"
+msgid "Arrangement of DB fields"
+msgstr "ການຈັດລຽງເຂດຂໍ້ມູນ DB"
+
+#. nRTak
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_36\n"
+"property.text"
+msgid "Columnar - Labels Left"
+msgstr "ແບບຖັນ - ປ້າຍຊື່ທາງຊ້າຍ"
+
+#. HcbRM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_37\n"
+"property.text"
+msgid "Columnar - Labels on Top"
+msgstr "ແບບຖັນ - ປ້າຍຊື່ທາງເທິງ"
+
+#. dRw3C
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_38\n"
+"property.text"
+msgid "In Blocks - Labels Left"
+msgstr "ໃນບລັອກ - ປ້າຍຊື່ທາງຊ້າຍ"
+
+#. m99kS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_39\n"
+"property.text"
+msgid "In Blocks - Labels Above"
+msgstr "ໃນບລັອກ - ປ້າຍຊື່ທາງເທິງ"
+
+#. ZNTvC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_40\n"
+"property.text"
+msgid "As Data Sheet"
+msgstr "ເປັນແຜ່ນຂໍ້ມູນ"
+
+#. F5dN5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_41\n"
+"property.text"
+msgid "Arrangement of the main form"
+msgstr "ການຈັດລຽງແບບຟອມຫຼັກ"
+
+#. BEN4F
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_42\n"
+"property.text"
+msgid "Arrangement of the subform"
+msgstr "ການຈັດລຽງແບບຟອມຍ່ອຍ"
+
+#. ZAxZE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_44\n"
+"property.text"
+msgid "The form is to be ~used for entering new data only."
+msgstr "ຟອມຕ້ອງຖືກ~ໃຊ້ເພື່ອປ້ອນຂໍ້ມູນໃໝ່ເທົ່ານັ້ນ."
+
+#. epRse
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_45\n"
+"property.text"
+msgid "Existing data will not be displayed"
+msgstr "ຂໍ້ມູນທີ່ມີຢູ່ແລ້ວຈະບໍ່ຖືກສະແດງ"
+
+#. hrpiG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_46\n"
+"property.text"
+msgid "T~he form is to display all data"
+msgstr "~ຟອມຈະຕ້ອງສະແດງຂໍ້ມູນທັງໝົດ"
+
+#. jqEHe
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_47\n"
+"property.text"
+msgid "Do not allow ~modification of existing data"
+msgstr "ບໍ່ອະນຸຍາດ~ໃຫ້ມີການແກ້ໄຂຂໍ້ມູນທີ່ມີຢູ່ແລ້ວ"
+
+#. FE9no
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_48\n"
+"property.text"
+msgid "Do not allow ~deletion of existing data"
+msgstr "ບໍ່ອະນຸຍາດ~ໃຫ້ລຶບຂໍ້ມູນທີ່ມີຢູ່ແລ້ວ"
+
+#. KwdDp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_49\n"
+"property.text"
+msgid "Do not allow ~addition of new data"
+msgstr "ບໍ່ອະນຸຍາດ~ໃຫ້ເພີ່ມຂໍ້ມູນໃໝ່"
+
+#. Z7Wzp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_50\n"
+"property.text"
+msgid "Name of ~the form"
+msgstr "ຊື່ຂອງ~ຟອມ"
+
+#. AdLhz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_51\n"
+"property.text"
+msgid "How do you want to proceed after creating the form?"
+msgstr "ທ່ານຕ້ອງການດຳເນີນການແນວໃດຫຼັງຈາກການສ້າງຟອມ?"
+
+#. G7CYq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_52\n"
+"property.text"
+msgid "~Work with the form"
+msgstr "~ເຮັດວຽກກັບຟອມ"
+
+#. iCnFm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_53\n"
+"property.text"
+msgid "~Modify the form"
+msgstr "~ແກ້ໄຂຟອມ"
+
+#. 5EgBu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_55\n"
+"property.text"
+msgid "~Page Styles"
+msgstr "~ຮູບແບບໜ້າ"
+
+#. D99cE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_80\n"
+"property.text"
+msgid "Field selection"
+msgstr "ການເລືອກເຂດຂໍ້ມູນ"
+
+#. AspWz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_81\n"
+"property.text"
+msgid "Set up a subform"
+msgstr "ຕັ້ງຄ່າຟອມຍ່ອຍ"
+
+#. YayFB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_82\n"
+"property.text"
+msgid "Add subform fields"
+msgstr "ເພີ່ມເຂດຂໍ້ມູນຟອມຍ່ອຍ"
+
+#. V2Q6R
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_83\n"
+"property.text"
+msgid "Get joined fields"
+msgstr "ຮັບເອົາເຂດຂໍ້ມູນຮ່ວມ"
+
+#. orBm4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_84\n"
+"property.text"
+msgid "Arrange controls"
+msgstr "ຈັດລຽງການຄວບຄຸມ"
+
+#. QGCau
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_85\n"
+"property.text"
+msgid "Set data entry"
+msgstr "ຕັ້ງຄ່າການປ້ອນຂໍ້ມູນ"
+
+#. vFeqn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_86\n"
+"property.text"
+msgid "Apply styles"
+msgstr "ນຳໃຊ້ຮູບແບບ"
+
+#. 24keF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_87\n"
+"property.text"
+msgid "Set name"
+msgstr "ຕັ້ງຊື່"
+
+#. H25LH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_88\n"
+"property.text"
+msgid "(Date)"
+msgstr "(ວັນທີ)"
+
+#. EACeJ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_89\n"
+"property.text"
+msgid "(Time)"
+msgstr "(ເວລາ)"
+
+#. scXkg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_90\n"
+"property.text"
+msgid "Select the fields of your form"
+msgstr "ເລືອກເຂດຂໍ້ມູນຂອງຟອມທ່ານ"
+
+#. s6xRo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_91\n"
+"property.text"
+msgid "Decide if you want to set up a subform"
+msgstr "ຕັດສິນໃຈວ່າທ່ານຕ້ອງການຕັ້ງຄ່າຟອມຍ່ອຍບໍ່"
+
+#. 4pHsF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_92\n"
+"property.text"
+msgid "Select the fields of your subform"
+msgstr "ເລືອກເຂດຂໍ້ມູນຂອງຟອມຍ່ອຍ"
+
+#. WT3Gn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_93\n"
+"property.text"
+msgid "Select the joins between your forms"
+msgstr "ເລືອກການຮ່ວມລະຫວ່າງຟອມຂອງທ່ານ"
+
+#. DWvza
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_94\n"
+"property.text"
+msgid "Arrange the controls on your form"
+msgstr "ຈັດລຽງການຄວບຄຸມເທິງຟອມຂອງທ່ານ"
+
+#. j6uv4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_95\n"
+"property.text"
+msgid "Select the data entry mode"
+msgstr "ເລືອກໂຫມດການປ້ອນຂໍ້ມູນ"
+
+#. TWztZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_96\n"
+"property.text"
+msgid "Apply the style of your form"
+msgstr "ນຳໃຊ້ຮູບແບບຂອງຟອມທ່ານ"
+
+#. zZiae
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_97\n"
+"property.text"
+msgid "Set the name of the form"
+msgstr "ຕັ້ງຊື່ຂອງຟອມ"
+
+#. JTRXV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_98\n"
+"property.text"
+msgid "A form with the name '%FORMNAME' already exists.\\nChoose another name."
+msgstr "ມີຟອມຊື່ '%FORMNAME' ຢູ່ແລ້ວ.\\nກະລຸນາເລືອກຊື່ອື່ນ."
+
+#. KJkgf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_1\n"
+"property.text"
+msgid "Table Wizard"
+msgstr "ຕົວຊ່ວຍສ້າງຕາຕະລາງ"
+
+#. hGMoR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_2\n"
+"property.text"
+msgid "Select fields"
+msgstr "ເລືອກເຂດຂໍ້ມູນ"
+
+#. XEQgp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_3\n"
+"property.text"
+msgid "Set types and formats"
+msgstr "ຕັ້ງຄ່າປະເພດ ແລະ ຮູບແບບ"
+
+#. Lww9c
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_4\n"
+"property.text"
+msgid "Set primary key"
+msgstr "ຕັ້ງຄ່າຄີຫຼັກ"
+
+#. LkTBf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_5\n"
+"property.text"
+msgid "Create table"
+msgstr "ສ້າງຕາຕະລາງ"
+
+#. hei5Y
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_8\n"
+"property.text"
+msgid "Select fields for your table"
+msgstr "ເລືອກເຂດຂໍ້ມູນສຳລັບຕາຕະລາງຂອງທ່ານ"
+
+#. 5DXT6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_9\n"
+"property.text"
+msgid "Set field types and formats"
+msgstr "ຕັ້ງຄ່າປະເພດ ແລະ ຮູບແບບເຂດຂໍ້ມູນ"
+
+#. bAfiP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_10\n"
+"property.text"
+msgid "Set primary key"
+msgstr "ຕັ້ງຄ່າຄີຫຼັກ"
+
+#. UHTbE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_11\n"
+"property.text"
+msgid "Create table"
+msgstr "ສ້າງຕາຕະລາງ"
+
+#. XyCFc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_14\n"
+"property.text"
+msgid "This wizard helps you to create a table for your database. After selecting a table category and a sample table, choose the fields you want to include in your table. You can include fields from more than one sample table."
+msgstr "ຕົວຊ່ວຍສ້າງນີ້ຈະຊ່ວຍທ່ານສ້າງຕາຕະລາງສຳລັບຖານຂໍ້ມູນຂອງທ່ານ. ຫຼັງຈາກເລືອກປະເພດຕາຕະລາງ ແລະ ຕາຕະລາງຕົວຢ່າງ, ໃຫ້ເລືອກເຂດຂໍ້ມູນທີ່ທ່ານຕ້ອງການໃສ່ໃນຕາຕະລາງຂອງທ່ານ. ທ່ານສາມາດໃສ່ເຂດຂໍ້ມູນຈາກຕາຕະລາງຕົວຢ່າງຫຼາຍກວ່າໜຶ່ງອັນໄດ້."
+
+#. FEU9Q
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_15\n"
+"property.text"
+msgid "Ca~tegory"
+msgstr "~ປະເພດ"
+
+#. aBFKF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_16\n"
+"property.text"
+msgid "B~usiness"
+msgstr "~ທຸລະກິດ"
+
+#. nfCjy
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_17\n"
+"property.text"
+msgid "P~ersonal"
+msgstr "~ສ່ວນຕົວ"
+
+#. NrVBB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_18\n"
+"property.text"
+msgid "~Sample tables"
+msgstr "~ຕາຕະລາງຕົວຢ່າງ"
+
+#. itXJ9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_19\n"
+"property.text"
+msgid "A~vailable fields"
+msgstr "~ເຂດຂໍ້ມູນທີ່ມີ"
+
+#. JteH7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_20\n"
+"property.text"
+msgid "Field information"
+msgstr "ຂໍ້ມູນເຂດຂໍ້ມູນ"
+
+#. NqEog
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_21\n"
+"property.text"
+msgid "+"
+msgstr "+"
+
+#. BhFze
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_22\n"
+"property.text"
+msgid "-"
+msgstr "-"
+
+#. B8Qeu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_23\n"
+"property.text"
+msgid "Field name"
+msgstr "ຊື່ເຂດຂໍ້ມູນ"
+
+#. gF5v4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_24\n"
+"property.text"
+msgid "Field type"
+msgstr "ປະເພດເຂດຂໍ້ມູນ"
+
+#. S82Up
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_25\n"
+"property.text"
+msgid "~Selected fields"
+msgstr "~ເຂດຂໍ້ມູນທີ່ເລືອກ"
+
+#. iWG72
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_26\n"
+"property.text"
+msgid "A primary key uniquely identifies each record in a database table. Primary keys ease the linking of information in separate tables, and it is recommended that you have a primary key in every table. Without a primary key, it will not be possible to enter data into this table."
+msgstr "ຄີຫຼັກລະບຸແຕ່ລະລະບຽນໃນຕາຕະລາງຖານຂໍ້ມູນຢ່າງເປັນເອກະລັກ. ຄີຫຼັກຊ່ວຍອຳນວຍຄວາມສະດວກໃນການເຊື່ອມຕໍ່ຂໍ້ມູນໃນຕາຕະລາງທີ່ແຍກກັນ, ແລະ ແນະນຳໃຫ້ທ່ານມີຄີຫຼັກໃນທຸກໆຕາຕະລາງ. ຖ້າບໍ່ມີຄີຫຼັກ, ມັນຈະເປັນໄປບໍ່ໄດ້ທີ່ຈະປ້ອນຂໍ້ມູນເຂົ້າໃນຕາຕະລາງນີ້."
+
+#. 3kaaw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_27\n"
+"property.text"
+msgid "~Create a primary key"
+msgstr "~ສ້າງຄີຫຼັກ"
+
+#. xGC6Z
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_28\n"
+"property.text"
+msgid "~Automatically add a primary key"
+msgstr "~ເພີ່ມຄີຫຼັກໂດຍອັດຕະໂນມັດ"
+
+#. aP3ai
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_29\n"
+"property.text"
+msgid "~Use an existing field as a primary key"
+msgstr "~ໃຊ້ເຂດຂໍ້ມູນທີ່ມີຢູ່ເປັນຄີຫຼັກ"
+
+#. KBVAL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_30\n"
+"property.text"
+msgid "Define p~rimary key as a combination of several fields"
+msgstr "ກຳນົດຄີ~ຫຼັກເປັນການປະສົມຂອງຫຼາຍເຂດຂໍ້ມູນ"
+
+#. PQfF2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_31\n"
+"property.text"
+msgid "F~ieldname"
+msgstr "~ຊື່ເຂດຂໍ້ມູນ"
+
+#. AK4Vf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_32\n"
+"property.text"
+msgid "~Primary key fields"
+msgstr "~ເຂດຂໍ້ມູນຄີຫຼັກ"
+
+#. ZykVT
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_33\n"
+"property.text"
+msgid "Auto ~value"
+msgstr "ຄ່າ~ອັດຕະໂນມັດ"
+
+#. AnaDG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_34\n"
+"property.text"
+msgid "What do you want to name your table?"
+msgstr "ທ່ານຕ້ອງການໃສ່ຊື່ຕາຕະລາງຂອງທ່ານວ່າແນວໃດ?"
+
+#. vVHAs
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_35\n"
+"property.text"
+msgid "Congratulations. You have entered all the information needed to create your table."
+msgstr "ຂໍສະແດງຄວາມຍິນດີ. ທ່ານໄດ້ປ້ອນຂໍ້ມູນທັງໝົດທີ່ຕ້ອງການເພື່ອສ້າງຕາຕະລາງຂອງທ່ານ."
+
+#. 9wGua
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_36\n"
+"property.text"
+msgid "What do you want to do next?"
+msgstr "ທ່ານຕ້ອງການເຮັດຫຍັງຕໍ່ໄປ?"
+
+#. satRX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_37\n"
+"property.text"
+msgid "Modify the table design"
+msgstr "ແກ້ໄຂການອອກແບບຕາຕະລາງ"
+
+#. GEjDE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_38\n"
+"property.text"
+msgid "Insert data immediately"
+msgstr "ແຊກຂໍ້ມູນທັນທີ"
+
+#. E8SB9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_39\n"
+"property.text"
+msgid "C~reate a form based on this table"
+msgstr "~ສ້າງຟອມໂດຍອີງໃສ່ຕາຕະລາງນີ້"
+
+#. FkbmE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_40\n"
+"property.text"
+msgid "The table you have created could not be opened."
+msgstr "ບໍ່ສາມາດເປີດຕາຕະລາງທີ່ທ່ານສ້າງໄດ້."
+
+#. mZMcY
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_41\n"
+"property.text"
+msgid "The table name '%TABLENAME' contains a character ('%SPECIALCHAR') that might not be supported by the database."
+msgstr "ຊື່ຕາຕະລາງ '%TABLENAME' ມີຕົວອັກສອນ ('%SPECIALCHAR') ທີ່ຖານຂໍ້ມູນອາດຈະບໍ່ຮອງຮັບ."
+
+#. GGfLR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_42\n"
+"property.text"
+msgid "The field name '%FIELDNAME' contains a special character ('%SPECIALCHAR') that might not be supported by the database."
+msgstr "ຊື່ເຂດຂໍ້ມູນ '%FIELDNAME' ມີຕົວອັກສອນພິເສດ ('%SPECIALCHAR') ທີ່ຖານຂໍ້ມູນອາດຈະບໍ່ຮອງຮັບ."
+
+#. CtXqK
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_43\n"
+"property.text"
+msgid "Field"
+msgstr "ເຂດຂໍ້ມູນ"
+
+#. LCMUy
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_44\n"
+"property.text"
+msgid "MyTable"
+msgstr "ຕາຕະລາງຂອງຂ້ອຍ"
+
+#. g7GJC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_45\n"
+"property.text"
+msgid "Add a Field"
+msgstr "ເພີ່ມເຂດຂໍ້ມູນ"
+
+#. EC4Xn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_46\n"
+"property.text"
+msgid "Remove the selected Field"
+msgstr "ເອົາເຂດຂໍ້ມູນທີ່ເລືອກອອກ"
+
+#. rhV9g
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_47\n"
+"property.text"
+msgid "The field cannot be inserted because this would exceed the maximum number of %COUNT possible fields in the database table"
+msgstr "ບໍ່ສາມາດແຊກເຂດຂໍ້ມູນໄດ້ ເນື່ອງຈາກມັນຈະເກີນຈຳນວນສູງສຸດຂອງ %COUNT ເຂດຂໍ້ມູນທີ່ເປັນໄປໄດ້ໃນຕາຕະລາງຖານຂໍ້ມູນ"
+
+#. jbZRo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_48\n"
+"property.text"
+msgid "The name '%TABLENAME' already exists.\\nPlease enter another name."
+msgstr "ຊື່ '%TABLENAME' ມີຢູ່ແລ້ວ.\\nກະລຸນາປ້ອນຊື່ອື່ນ."
+
+#. CSsZM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_49\n"
+"property.text"
+msgid "Catalog of the table"
+msgstr "ລາຍການຂອງຕາຕະລາງ"
+
+#. vYCp3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_50\n"
+"property.text"
+msgid "Schema of the table"
+msgstr "ໂຄງສ້າງຂອງຕາຕະລາງ"
+
+#. UnUxG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_51\n"
+"property.text"
+msgid "The field '%FIELDNAME' already exists."
+msgstr "ມີເຂດຂໍ້ມູນ '%FIELDNAME' ຢູ່ແລ້ວ."
+
+#. BBZaA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLES_0\n"
+"property.text"
+msgid "Theme Selection"
+msgstr "ການເລືອກຫົວຂໍ້"
+
+#. DbGhN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLES_1\n"
+"property.text"
+msgid "Error while saving the document to the clipboard! The following action cannot be undone."
+msgstr "ເກີດຂໍ້ຜິດພາດໃນຂະນະບັນທຶກເອກະສານລົງໃນຄລິບບອດ! ການກະທຳຕໍ່ໄປນີ້ບໍ່ສາມາດເຮັດຄືນໄດ້."
+
+#. LTS44
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLES_2\n"
+"property.text"
+msgid "~Cancel"
+msgstr "~ຍົກເລີກ"
+
+#. qXu5G
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLES_3\n"
+"property.text"
+msgid "~OK"
+msgstr "~ຕົກລົງ"
+
+#. VkFhm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_0\n"
+"property.text"
+msgid "(Standard)"
+msgstr "(ມາດຕະຖານ)"
+
+#. YUTxB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_1\n"
+"property.text"
+msgid "Autumn Leaves"
+msgstr "ໃບໄມ້ຫຼົ່ນ"
+
+#. Bmx9P
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_2\n"
+"property.text"
+msgid "Be"
+msgstr "ບີ"
+
+#. AYcUq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_3\n"
+"property.text"
+msgid "Black and White"
+msgstr "ຂາວດຳ"
+
+#. kNA76
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_4\n"
+"property.text"
+msgid "Blackberry Bush"
+msgstr "ພຸ່ມຕົ້ນແບລັກເບີຣີ"
+
+#. AsnuA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_5\n"
+"property.text"
+msgid "Blue Jeans"
+msgstr "ໂສ້ງຢີນສີຟ້າ"
+
+#. VgzDD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_6\n"
+"property.text"
+msgid "Fifties Diner"
+msgstr "ຮ້ານອາຫານຍຸກ 50"
+
+#. YDRhE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_7\n"
+"property.text"
+msgid "Glacier"
+msgstr "ກ້ອນນ້ຳແຂງ"
+
+#. 769K8
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_8\n"
+"property.text"
+msgid "Green Grapes"
+msgstr "ໝາກອະງຸ່ນຂຽວ"
+
+#. bNeCA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_9\n"
+"property.text"
+msgid "Marine"
+msgstr "ທ້ອງທະເລ"
+
+#. LYvgg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_10\n"
+"property.text"
+msgid "Millennium"
+msgstr "ສະຫັດສະຫວັດ"
+
+#. 2dsey
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_11\n"
+"property.text"
+msgid "Nature"
+msgstr "ທຳມະຊາດ"
+
+#. sobFj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_12\n"
+"property.text"
+msgid "Neon"
+msgstr "ນີອອນ"
+
+#. E9VPF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_13\n"
+"property.text"
+msgid "Night"
+msgstr "ກາງຄືນ"
+
+#. VFByN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_14\n"
+"property.text"
+msgid "PC Nostalgia"
+msgstr "ຄວາມຫຼັງ PC"
+
+#. FCRpD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_15\n"
+"property.text"
+msgid "Pastel"
+msgstr "ສີພາສເທວ"
+
+#. uAsPp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_16\n"
+"property.text"
+msgid "Pool Party"
+msgstr "ງານລ້ຽງແຄມສະ"
+
+#. GDi2u
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_17\n"
+"property.text"
+msgid "Pumpkin"
+msgstr "ໝາກອຶ"
+
+#. piSqr
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceDialog_0\n"
+"property.text"
+msgid "Addressee"
+msgstr "ຜູ້ຮັບ"
+
+#. Cy8W9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceDialog_1\n"
+"property.text"
+msgid "One recipient"
+msgstr "ຜູ້ຮັບໜຶ່ງຄົນ"
+
+#. rH3a3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceDialog_2\n"
+"property.text"
+msgid "Several recipients (address database)"
+msgstr "ຜູ້ຮັບຫຼາຍຄົນ (ຖານຂໍ້ມູນທີ່ຢູ່)"
+
+#. G8T6x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceDialog_3\n"
+"property.text"
+msgid "Use of This Template"
+msgstr "ການນຳໃຊ້ແມ່ແບບນີ້"
+
+#. wTrM9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceMsgError\n"
+"property.text"
+msgid "An error has occurred."
+msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນ."
+
+#. K77VB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_0\n"
+"property.text"
+msgid "Click placeholder and overwrite"
+msgstr "ຄລິກບ່ອນວາງ ແລະ ຂຽນທັບ"
+
+#. hRJRf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_1\n"
+"property.text"
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. c6Zjp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_2\n"
+"property.text"
+msgid "Department"
+msgstr "ພະແນກ"
+
+#. cYzGQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_3\n"
+"property.text"
+msgid "First Name"
+msgstr "ຊື່"
+
+#. BEmdM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_4\n"
+"property.text"
+msgid "Last Name"
+msgstr "ນາມສະກຸນ"
+
+#. fxfq5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_5\n"
+"property.text"
+msgid "Street"
+msgstr "ຖະໜົນ"
+
+#. DxdCD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_6\n"
+"property.text"
+msgid "Country"
+msgstr "ປະເທດ"
+
+#. uNexF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_7\n"
+"property.text"
+msgid "ZIP/Postal Code"
+msgstr "ລະຫັດໄປສະນີ"
+
+#. qHMFm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_8\n"
+"property.text"
+msgid "City"
+msgstr "ເມືອງ"
+
+#. AqdCs
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_9\n"
+"property.text"
+msgid "Title"
+msgstr "ຄຳນຳໜ້າ"
+
+#. s8G9A
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_10\n"
+"property.text"
+msgid "Position"
+msgstr "ຕຳແໜ່ງ"
+
+#. Wa8WF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_11\n"
+"property.text"
+msgid "Form of Address"
+msgstr "ຮູບແບບທີ່ຢູ່"
+
+#. 5FwLR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_12\n"
+"property.text"
+msgid "Initials"
+msgstr "ຕົວອັກສອນຫຍໍ້"
+
+#. zH6b3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_13\n"
+"property.text"
+msgid "Salutation"
+msgstr "ຄຳທັກທາຍ"
+
+#. wDEfh
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_14\n"
+"property.text"
+msgid "Home Phone"
+msgstr "ໂທລະສັບເຮືອນ"
+
+#. LJ5ou
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_15\n"
+"property.text"
+msgid "Work Phone"
+msgstr "ໂທລະສັບບ່ອນເຮັດວຽກ"
+
+#. hJQtY
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_16\n"
+"property.text"
+msgid "Fax"
+msgstr "ແຟັກ"
+
+#. jmiN2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_17\n"
+"property.text"
+msgid "Email"
+msgstr "ອີເມວ"
+
+#. w7uK5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_18\n"
+"property.text"
+msgid "URL"
+msgstr "URL"
+
+#. bgJJe
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_19\n"
+"property.text"
+msgid "Notes"
+msgstr "ໝາຍເຫດ"
+
+#. EhQEg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_20\n"
+"property.text"
+msgid "Alt. Field 1"
+msgstr "ເຂດຂໍ້ມູນສຳຮອງ 1"
+
+#. bZ4za
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_21\n"
+"property.text"
+msgid "Alt. Field 2"
+msgstr "ເຂດຂໍ້ມູນສຳຮອງ 2"
+
+#. vgr7W
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_22\n"
+"property.text"
+msgid "Alt. Field 3"
+msgstr "ເຂດຂໍ້ມູນສຳຮອງ 3"
+
+#. TGKbX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_23\n"
+"property.text"
+msgid "Alt. Field 4"
+msgstr "ເຂດຂໍ້ມູນສຳຮອງ 4"
+
+#. HTUTU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_24\n"
+"property.text"
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. BkAJF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_25\n"
+"property.text"
+msgid "State"
+msgstr "ລັດ/ແຂວງ"
+
+#. 8NXAm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_26\n"
+"property.text"
+msgid "Office Phone"
+msgstr "ໂທລະສັບຫ້ອງການ"
+
+#. RvvuS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_27\n"
+"property.text"
+msgid "Pager"
+msgstr "ເພຈເຈີ"
+
+#. M65e8
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_28\n"
+"property.text"
+msgid "Mobile Phone"
+msgstr "ໂທລະສັບມືຖື"
+
+#. hNCCT
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_29\n"
+"property.text"
+msgid "Other Phone"
+msgstr "ໂທລະສັບອື່ນໆ"
+
+#. jNWYd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_30\n"
+"property.text"
+msgid "Calendar URL"
+msgstr "URL ປະຕິທິນ"
+
+#. Ad3kk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_31\n"
+"property.text"
+msgid "Invite"
+msgstr "ເຊີນ"
+
+#. gpGUV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceNoTextmark_0\n"
+"property.text"
+msgid "The bookmark 'Recipient' is missing."
+msgstr "ບໍ່ພົບທີ່ໝາຍໜ້າ 'Recipient' (ຜູ້ຮັບ)."
+
+#. G6KuE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceNoTextmark_1\n"
+"property.text"
+msgid "Form letter fields can not be included."
+msgstr "ບໍ່ສາມາດລວມເຂດຂໍ້ມູນຈົດໝາຍແບບຟອມໄດ້."
+
+#. WM8Eu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgName\n"
+"property.text"
+msgid "Minutes Template"
+msgstr "ແມ່ແບບບົດບັນທຶກກອງປະຊຸມ"
+
+#. 3Yeqe
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgNoCancel\n"
+"property.text"
+msgid "An option must be confirmed."
+msgstr "ຕ້ອງຢືນຢັນຕົວເລືອກ."
+
+#. BEWBh
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgFrame\n"
+"property.text"
+msgid "Minutes Type"
+msgstr "ປະເພດບົດບັນທຶກກອງປະຊຸມ"
+
+#. hyGRE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgButton1\n"
+"property.text"
+msgid "Results Minutes"
+msgstr "ບົດບັນທຶກຜົນໄດ້ຮັບ"
+
+#. DMfQn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgButton2\n"
+"property.text"
+msgid "Evaluation Minutes"
+msgstr "ບົດບັນທຶກການປະເມີນຜົນ"
+
+#. 9zy6P
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"TextField\n"
+"property.text"
+msgid "User data field is not defined!"
+msgstr "ບໍ່ໄດ້ກຳນົດເຂດຂໍ້ມູນຜູ້ໃຊ້!"
+
+#. DzUkS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"NoDirCreation\n"
+"property.text"
+msgid "The '%1' directory cannot be created:"
+msgstr "ບໍ່ສາມາດສ້າງໂຟນເດີ '%1' ໄດ້:"
+
+#. JDcBR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MsgDirNotThere\n"
+"property.text"
+msgid "The '%1' directory does not exist."
+msgstr "ບໍ່ມີໂຟນເດີ '%1'."
+
+#. WcmGg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"QueryfornewCreation\n"
+"property.text"
+msgid "Do you want to create it now?"
+msgstr "ທ່ານຕ້ອງການສ້າງມັນດຽວນີ້ບໍ່?"
+
+#. 6rvR2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"HelpButton\n"
+"property.text"
+msgid "~Help"
+msgstr "~ຊ່ວຍເຫຼືອ"
+
+#. qeDY7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CancelButton\n"
+"property.text"
+msgid "~Cancel"
+msgstr "~ຍົກເລີກ"
+
+#. yZGTC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"BackButton\n"
+"property.text"
+msgid "< ~Back"
+msgstr "< ~ກັບຄືນ"
+
+#. Wc2Fp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"NextButton\n"
+"property.text"
+msgid "Ne~xt >"
+msgstr "~ຕໍ່ໄປ >"
+
+#. tntS5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"BeginButton\n"
+"property.text"
+msgid "~Convert"
+msgstr "~ແປງ"
+
+#. CL4tm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CloseButton\n"
+"property.text"
+msgid "~Close"
+msgstr "~ປິດ"
+
+#. 3FYU3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"WelcometextLabel1\n"
+"property.text"
+msgid "This wizard convert legacy format documents to Open Document Format for Office Applications."
+msgstr "ຕົວຊ່ວຍສ້າງນີ້ຈະແປງເອກະສານຮູບແບບເກົ່າໃຫ້ເປັນ Open Document Format ສຳລັບ Office Applications."
+
+#. ZQwGS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"WelcometextLabel3\n"
+"property.text"
+msgid "Select the document type for conversion:"
+msgstr "ເລືອກປະເພດເອກະສານສຳລັບການແປງ:"
+
+#. 8QmDc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSTemplateCheckbox_1_\n"
+"property.text"
+msgid "Word templates"
+msgstr "ແມ່ແບບ Word"
+
+#. AujXQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSTemplateCheckbox_2_\n"
+"property.text"
+msgid "Excel templates"
+msgstr "ແມ່ແບບ Excel"
+
+#. hPB75
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSTemplateCheckbox_3_\n"
+"property.text"
+msgid "PowerPoint templates"
+msgstr "ແມ່ແບບ PowerPoint"
+
+#. QUiMA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSDocumentCheckbox_1_\n"
+"property.text"
+msgid "Word documents"
+msgstr "ເອກະສານ Word"
+
+#. BDr26
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSDocumentCheckbox_2_\n"
+"property.text"
+msgid "Excel documents"
+msgstr "ເອກະສານ Excel"
+
+#. 9RwAv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSDocumentCheckbox_3_\n"
+"property.text"
+msgid "PowerPoint/Publisher documents"
+msgstr "ເອກະສານ PowerPoint/Publisher"
+
+#. uCxvB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSContainerName\n"
+"property.text"
+msgid "Microsoft Office"
+msgstr "Microsoft Office"
+
+#. s4vuw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SummaryHeader\n"
+"property.text"
+msgid "Summary:"
+msgstr "ບົດສະຫຼຸບ:"
+
+#. uAmbh
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"GroupnameDefault\n"
+"property.text"
+msgid "Imported_Templates"
+msgstr "ແມ່ແບບ_ທີ່ນຳເຂົ້າ"
+
+#. As7iy
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressMoreDocs\n"
+"property.text"
+msgid "Documents"
+msgstr "ເອກະສານ"
+
+#. tbXgc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressMoreTemplates\n"
+"property.text"
+msgid "Templates"
+msgstr "ແມ່ແບບ"
+
+#. foG9h
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"FileExists\n"
+"property.text"
+msgid "The '<1>' file already exists.<CR>Do you want to overwrite it?"
+msgstr "ມີໄຟລ໌ '<1>' ຢູ່ແລ້ວ.<CR>ທ່ານຕ້ອງການຂຽນທັບມັນບໍ່?"
+
+#. bvMuH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MorePathsError3\n"
+"property.text"
+msgid "Directories do not exist"
+msgstr "ບໍ່ມີໂຟນເດີນີ້"
+
+#. Jh3WF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ConvertError1\n"
+"property.text"
+msgid "Do you really want to terminate conversion at this point?"
+msgstr "ທ່ານຕ້ອງການຍົກເລີກການແປງຢູ່ຈຸດນີ້ແທ້ບໍ່?"
+
+#. zuFo9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ConvertError2\n"
+"property.text"
+msgid "Cancel Wizard"
+msgstr "ຍົກເລີກຕົວຊ່ວຍສ້າງ"
+
+#. MNVFe
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RTErrorDesc\n"
+"property.text"
+msgid "An error has occurred in the wizard."
+msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນໃນຕົວຊ່ວຍສ້າງ."
+
+#. VzQoq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RTErrorHeader\n"
+"property.text"
+msgid "Error"
+msgstr "ຂໍ້ຜິດພາດ"
+
+#. mFTyW
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"OverwriteallFiles\n"
+"property.text"
+msgid "Do you want to overwrite documents without being asked?"
+msgstr "ທ່ານຕ້ອງການຂຽນທັບເອກະສານໂດຍບໍ່ຕ້ອງຖາມບໍ່?"
+
+#. rWgBN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ReeditMacro\n"
+"property.text"
+msgid "Document macro has to be revised."
+msgstr "ມະຫາພາກ (Macro) ຂອງເອກະສານຕ້ອງໄດ້ຮັບການປັບປຸງ."
+
+#. GDbH6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CouldNotsaveDocument\n"
+"property.text"
+msgid "Document '<1>' could not be saved."
+msgstr "ບໍ່ສາມາດບັນທຶກເອກະສານ '<1>' ໄດ້."
+
+#. GcGjC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CouldNotopenDocument\n"
+"property.text"
+msgid "Document '<1>' could not be opened."
+msgstr "ບໍ່ສາມາດເປີດເອກະສານ '<1>' ໄດ້."
+
+#. XG3Dg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"PathDialogMessage\n"
+"property.text"
+msgid "Select a directory"
+msgstr "ເລືອກໂຟນເດີ"
+
+#. 8DV2D
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"DialogTitle\n"
+"property.text"
+msgid "Document Converter"
+msgstr "ຕົວແປງເອກະສານ"
+
+#. 6hySA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SearchInSubDir\n"
+"property.text"
+msgid "Including subdirectories"
+msgstr "ລວມທັງໂຟນເດີຍ່ອຍ"
+
+#. Juv8i
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressPage1\n"
+"property.text"
+msgid "Progress"
+msgstr "ຄວາມຄືບໜ້າ"
+
+#. EWECA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressPage2\n"
+"property.text"
+msgid "Retrieving the relevant documents:"
+msgstr "ກຳລັງດຶງເອກະສານທີ່ກ່ຽວຂ້ອງ:"
+
+#. zTpAx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressPage3\n"
+"property.text"
+msgid "Converting the documents"
+msgstr "ກຳລັງແປງເອກະສານ"
+
+#. B6PuJ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressFound\n"
+"property.text"
+msgid "Found:"
+msgstr "ພົບ:"
+
+#. 9G86q
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressPage5\n"
+"property.text"
+msgid "\"%1 found"
+msgstr "ພົບ \"%1"
+
+#. GmveL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"Ready\n"
+"property.text"
+msgid "Finished"
+msgstr "ສຳເລັດ"
+
+#. yZCLk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SourceDocuments\n"
+"property.text"
+msgid "Source documents"
+msgstr "ເອກະສານຕົ້ນສະບັບ"
+
+#. vDd4X
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"TargetDocuments\n"
+"property.text"
+msgid "Target documents"
+msgstr "ເອກະສານເປົ້າໝາຍ"
+
+#. VyLKU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"LogfileSummary\n"
+"property.text"
+msgid "<COUNT> documents converted"
+msgstr "ແປງແລ້ວ <COUNT> ເອກະສານ"
+
+#. D8KY3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumInclusiveSubDir\n"
+"property.text"
+msgid "All subdirectories will be taken into account"
+msgstr "ໂຟນເດີຍ່ອຍທັງໝົດຈະຖືກນຳມາພິຈາລະນາ"
+
+#. 8Bmz9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumSaveDokumente\n"
+"property.text"
+msgid "These will be exported to the following directory:"
+msgstr "ສິ່ງເຫຼົ່ານີ້ຈະຖືກສົ່ງອອກໄປທີ່ໂຟນເດີຕໍ່ໄປນີ້:"
+
+#. 8atHD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"TextImportLabel\n"
+"property.text"
+msgid "Import from:"
+msgstr "ນຳເຂົ້າຈາກ:"
+
+#. zpCFk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"TextExportLabel\n"
+"property.text"
+msgid "Save to:"
+msgstr "ບັນທຶກໃສ່:"
+
+#. C7a2B
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CreateLogfile\n"
+"property.text"
+msgid "Create log file"
+msgstr "ສ້າງໄຟລ໌ Log"
+
+#. pzBG4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"LogfileHelpText\n"
+"property.text"
+msgid "A log file will be created in your work directory"
+msgstr "ໄຟລ໌ Log ຈະຖືກສ້າງຂຶ້ນໃນໂຟນເດີເຮັດວຽກຂອງທ່ານ"
+
+#. mDG8Y
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ShowLogfile\n"
+"property.text"
+msgid "Show log file"
+msgstr "ສະແດງໄຟລ໌ Log"
+
+#. 7S3Ct
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSTextDocuments\n"
+"property.text"
+msgid "All Word documents contained in the following directory will be imported:"
+msgstr "ເອກະສານ Word ທັງໝົດໃນໂຟນເດີຕໍ່ໄປນີ້ຈະຖືກນຳເຂົ້າ:"
+
+#. iBJo8
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSTableDocuments\n"
+"property.text"
+msgid "All Excel documents contained in the following directory will be imported:"
+msgstr "ເອກະສານ Excel ທັງໝົດໃນໂຟນເດີຕໍ່ໄປນີ້ຈະຖືກນຳເຂົ້າ:"
+
+#. kZfUh
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSDrawDocuments\n"
+"property.text"
+msgid "All PowerPoint/Publisher documents contained in the following directory will be imported:"
+msgstr "ເອກະສານ PowerPoint/Publisher ທັງໝົດໃນໂຟນເດີຕໍ່ໄປນີ້ຈະຖືກນຳເຂົ້າ:"
+
+#. AEPyE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSTextTemplates\n"
+"property.text"
+msgid "All Word templates contained in the following directory will be imported:"
+msgstr "ແມ່ແບບ Word ທັງໝົດໃນໂຟນເດີຕໍ່ໄປນີ້ຈະຖືກນຳເຂົ້າ:"
+
+#. G2vMa
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSTableTemplates\n"
+"property.text"
+msgid "All Excel templates contained in the following directory will be imported:"
+msgstr "ແມ່ແບບ Excel ທັງໝົດໃນໂຟນເດີຕໍ່ໄປນີ້ຈະຖືກນຳເຂົ້າ:"
+
+#. AEEwA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSDrawTemplates\n"
+"property.text"
+msgid "All PowerPoint templates contained in the following directory will be imported:"
+msgstr "ແມ່ແບບ PowerPoint ທັງໝົດໃນໂຟນເດີຕໍ່ໄປນີ້ຈະຖືກນຳເຂົ້າ:"

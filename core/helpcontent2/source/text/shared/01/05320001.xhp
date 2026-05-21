@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textshared0105320001xml" indexer="include" status="PUBLISH">
+<title id="tit">Text Columns</title>
+<filename>/text/shared/01/05320001.xhp</filename>
+</topic>
+</meta>
+<body>
+<section id="text_animation">
+<bookmark branch="hid/cui/ui/textcolumnstabpage/TextColumnsPage" id="bm_id3147477" localize="false"/>
+<bookmark branch="hid/cui/ui/textcolumnstabpage/@@nowidget@@" id="bm_id3147477" localize="false"/>
+<bookmark branch="index" id="bm_id361750075553571">
+<bookmark_value>columns;text box</bookmark_value>
+<bookmark_value>multiple columns;drawing object</bookmark_value>
+<bookmark_value>drawing objects;multiple columns</bookmark_value>
+<bookmark_value>text box;multiple columns</bookmark_value>
+<bookmark_value>text box;column spacing</bookmark_value>
+</bookmark>
+
+<section id="textcolumns">
+<h1 id="hd_id3150014"><link href="text/shared/01/05320001.xhp">Text Columns</link></h1>
+<paragraph role="paragraph" id="par_id3154788"><ahelp hid="cui/ui/textcolumnstabpage/TextColumnsPage">Adds columns to the text in the selected drawing object.</ahelp></paragraph>
+</section>
+</section>
+<section id="howtoget">
+    <embed href="text/shared/00/00040502.xhp#textcolumns"/>
+</section>
+<h2 id="hd_id3152821">Number of columns</h2>
+<paragraph role="paragraph" id="par_id3144436">Specifies how many columns to use to lay out the drawing object's text.</paragraph>
+<h2 id="hd_id3152822">Spacing</h2>
+<paragraph role="paragraph" id="par_id3144437">Specifies the amount of space between the columns.</paragraph>
+<section id="relatedtopics">
+    <embed href="text/shared/01/05990000.xhp#texth1"/>
+</section>
+</body>
+</helpdocument>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<helpdocument version="1.0">
+<meta>
+<topic id="textscalc0102180000xml" indexer="include" status="PUBLISH">
+<title id="tit" xml-lang="en-US">Move or Copy a Sheet</title>
+<filename>/text/scalc/01/02180000.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<bookmark xml-lang="en-US" branch="index" id="bm_id3153360"><bookmark_value>spreadsheets; moving</bookmark_value>
+<bookmark_value>spreadsheets; copying</bookmark_value>
+<bookmark_value>moving; spreadsheets</bookmark_value>
+<bookmark_value>copying; spreadsheets</bookmark_value>
+</bookmark>
+<bookmark xml-lang="en-US" branch="hid/.uno:Move" id="bm_id9622978" localize="false"/>
+<bookmark xml-lang="en-US" branch="hid/modules/scalc/ui/movecopysheet/MoveCopySheetDialog" id="bm_id3149657" localize="false"/>
+<bookmark xml-lang="en-US" branch="hid/modules/scalc/ui/movecopysheet/@@nowidget@@" id="bm_id3149657" localize="false"/>
+<section id="movecopysheet">
+  <h1 id="hd_id3153360"><variable id="movecopy_sheet"><link href="text/scalc/01/02180000.xhp">Move or Copy a Sheet</link></variable></h1>
+<paragraph role="paragraph" id="par_id3154686" xml-lang="en-US"><variable id="tabelleverschiebenkopierentext"><ahelp hid=".uno:Move">Moves or copies a sheet to a new location in the document or to a different document.</ahelp></variable></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/scalc/00/sheet_menu.xhp#move_or_copy_sheet"/>
+</section>
+<paragraph role="warning" id="par_id2282479" xml-lang="en-US">When you copy and paste cells containing <link href="text/scalc/01/04060102.xhp">date values</link> between different spreadsheets, both spreadsheet documents must be set to the same date base. If date bases differ, the displayed date values will change!</paragraph>
+<note id="par_id3720376688484858">When the <link href="text/shared/01/02230100.xhp"><menuitem>Record Changes</menuitem></link> command is active, you cannot delete or move sheets.</note>
+<bookmark xml-lang="en-US" branch="hid/modules/scalc/ui/movecopysheet/toDocument" id="bm_id3146119" localize="false"/>
+<h2 id="hd_id3163710">To Document</h2>
+<paragraph role="paragraph" id="par_id3148645" xml-lang="en-US"><ahelp hid="modules/scalc/ui/movecopysheet/toDocument">Indicates where the current sheet is to be moved or copied to.</ahelp> Select <emph>- new document -</emph> if you want to create a new location for the sheet to be moved or copied.</paragraph>
+<bookmark xml-lang="en-US" branch="hid/modules/scalc/ui/movecopysheet/insertBefore" id="bm_id3147350" localize="false"/>
+<h2 id="hd_id3154012">Insert Before</h2>
+<paragraph role="paragraph" id="par_id3145366" xml-lang="en-US"><ahelp hid="modules/scalc/ui/movecopysheet/insertBefore">The current sheet is moved or copied in front of the selected sheet.</ahelp> The <emph>- move to end position -</emph> option places the current sheet at the end.</paragraph>
+<bookmark xml-lang="en-US" branch="hid/modules/scalc/ui/movecopysheet/copy" id="bm_id3156283" localize="false"/>
+<h2 id="hd_id3153726">Copy</h2>
+<paragraph role="paragraph" id="par_id3144764" xml-lang="en-US"><ahelp hid="modules/scalc/ui/movecopysheet/copy">Specifies that the sheet is to be copied. If the option is unmarked, the sheet is moved.</ahelp> Moving sheets is the default.</paragraph>
+</body>
+</helpdocument>

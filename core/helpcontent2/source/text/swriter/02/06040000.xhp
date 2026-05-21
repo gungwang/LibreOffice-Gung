@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textswriter0206040000xml" indexer="include" status="PUBLISH">
+<title id="tit">No List</title>
+<filename>/text/swriter/02/06040000.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+
+<bookmark branch="hid/.uno:RemoveBullets" id="bm_id3147170" localize="false"/>
+  <section id="nolist">
+<h1 id="hd_id3145822"><link href="text/swriter/02/06040000.xhp">No List</link></h1>
+  <paragraph role="paragraph" id="par_id3154505"><ahelp hid=".uno:RemoveBullets" visibility="visible">Removes numbering or bullets and list indenting for the current paragraph or selected paragraphs.</ahelp></paragraph>
+  </section>
+  <section id="howtoget">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id721692393222724">Choose <menuitem>Format - Lists - No List</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_context"/>
+    <paragraph role="paragraph" id="par_id461692393262366">Choose <menuitem>Lists - No List</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="synolist">
+      <table id="tbl_id3152892">
+        <tablerow>
+          <tablecell>
+            <paragraph role="paragraph" id="par_id3151177"><image src="cmd/lc_removebullets.png" id="img_id3145083" width="1cm" height="1cm"><alt id="alt_id3145083">Icon No List</alt></image></paragraph>
+          </tablecell>
+          <tablecell>
+            <paragraph role="paragraph" id="par_id3150749">No List</paragraph>
+          </tablecell>
+        </tablerow>
+      </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id281692392523986"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + F12</keycode></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+    <paragraph role="paragraph" id="par_id231692393562403">On the <menuitem>Paragraph</menuitem> panel of the <menuitem>Properties</menuitem> deck, click on <menuitem>No List</menuitem>.</paragraph>
+  </section>
+
+  <tip id="par_id811614270889392">To preserve indenting, but remove bullet or number, place cursor at the beginning of the paragraph and press <keycode>Backspace</keycode>.</tip>
+
+  <section id="relatedtopics">
+     <embed href="text/shared/guide/numbering_stop.xhp#numbering_stop"/>
+  </section>
+
+ </body>
+</helpdocument>

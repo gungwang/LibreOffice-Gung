@@ -1,0 +1,4256 @@
+#. extracted from wizards/source/resources
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-07-23 13:32+0200\n"
+"PO-Revision-Date: 2026-05-03 13:30+0000\n"
+"Last-Translator: Aefgh3962 <aefgh3962@gmail.com>\n"
+"Language-Team: Thai <https://translations.documentfoundation.org/projects/libo_ui-master/wizardssourceresources/th/>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1516048800.000000\n"
+
+#. 8UKfi
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_0\n"
+"property.text"
+msgid "The directory '%1' could not be created.<BR>There may not be enough space left on your hard disk."
+msgstr "ไม่สามารถสร้างไดเรกทอรี '%1' ได้<BR>ฮาร์ดดิสก์ของคุณอาจมีพื้นที่ว่างไม่เพียงพอ"
+
+#. YDL7z
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_1\n"
+"property.text"
+msgid "The text document could not be created.<BR>Please check if the module '%PRODUCTNAME Writer' is installed."
+msgstr "ไม่สามารถสร้างเอกสารข้อความได้<BR>กรุณาตรวจสอบว่าได้ติดตั้ง '%PRODUCTNAME Writer' ไว้หรือไม่"
+
+#. ovyQD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_2\n"
+"property.text"
+msgid "The spreadsheet could not be created.<BR>Please check if the module '%PRODUCTNAME Calc' is installed."
+msgstr "ไม่สามารถสร้างตารางคำนวณได้<BR>กรุณาตรวจสอบว่าได้ติดตั้ง '%PRODUCTNAME Calc' ไว้หรือไม่"
+
+#. XoWgV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_3\n"
+"property.text"
+msgid "The presentation could not be created.<BR>Please check if the module '%PRODUCTNAME Impress' is installed."
+msgstr "ไม่สามารถสร้างงานนำเสนอได้<BR>กรุณาตรวจสอบว่าได้ติดตั้ง '%PRODUCTNAME Impress' ไว้หรือไม่"
+
+#. 86ERo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_4\n"
+"property.text"
+msgid "The drawing could not be created.<BR>Please check if the module '%PRODUCTNAME Draw' is installed."
+msgstr "ไม่สามารถสร้างงานวาดได้<BR>กรุณาตรวจสอบว่าได้ติดตั้ง '%PRODUCTNAME Draw' ไว้หรือไม่"
+
+#. oGc3c
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_5\n"
+"property.text"
+msgid "The formula could not be created.<BR>Please check if the module '%PRODUCTNAME Math' is installed."
+msgstr "ไม่สามารถสร้างสูตรได้<BR>กรุณาตรวจสอบว่าได้ติดตั้ง '%PRODUCTNAME Math' ไว้หรือไม่"
+
+#. j5GzW
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_6\n"
+"property.text"
+msgid "The files required could not be found.<BR>Please start the %PRODUCTNAME Setup and choose 'Repair'."
+msgstr "ไม่พบไฟล์ที่ต้องการ<BR>กรุณาเรียกโปรแกรมติดตั้ง %PRODUCTNAME และเลือก 'ซ่อมแซม'"
+
+#. BFtze
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_7\n"
+"property.text"
+msgid "The file '<PATH>' already exists.<BR><BR>Would you like to overwrite the existing file?"
+msgstr "ไฟล์ '<PATH>' มีอยู่แล้ว<BR><BR>คุณต้องการเขียนทับไฟล์เดิมหรือไม่?"
+
+#. 7AvGR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_8\n"
+"property.text"
+msgid "Yes"
+msgstr "ใช่"
+
+#. GPG93
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_9\n"
+"property.text"
+msgid "Yes to All"
+msgstr "ใช่ เขียนทับทั้งหมด"
+
+#. oBhQ5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_10\n"
+"property.text"
+msgid "No"
+msgstr "ไม่ใช่"
+
+#. wMBK7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_11\n"
+"property.text"
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#. boSx2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_12\n"
+"property.text"
+msgid "~Finish"
+msgstr "เ~สร็จสิ้น"
+
+#. apFF8
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_13\n"
+"property.text"
+msgid "< ~Back"
+msgstr "< ~ย้อนกลับ"
+
+#. q8epA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_14\n"
+"property.text"
+msgid "~Next >"
+msgstr "~ถัดไป >"
+
+#. rSt56
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_15\n"
+"property.text"
+msgid "~Help"
+msgstr "~วิธีใช้"
+
+#. 9GUa6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_16\n"
+"property.text"
+msgid "Steps"
+msgstr "ขั้นตอน"
+
+#. 9wWVR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_17\n"
+"property.text"
+msgid "Close"
+msgstr "ปิด"
+
+#. zUv9u
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_18\n"
+"property.text"
+msgid "OK"
+msgstr "ตกลง"
+
+#. 6kGc4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_19\n"
+"property.text"
+msgid "The file already exists. Do you want to overwrite it?"
+msgstr "ไฟล์นี้มีอยู่แล้ว คุณต้องการเขียนทับไฟล์เดิมหรือไม่?"
+
+#. BGj7a
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_20\n"
+"property.text"
+msgid "Template created via <wizard_name> on <current_date>."
+msgstr "แม่แบบถูกสร้างโดย <wizard_name> เมื่อ <current_date>"
+
+#. zRGEs
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_COMMON_21\n"
+"property.text"
+msgid "The wizard could not be run, because important files were not found.\\nUnder 'Tools - Options - %PRODUCTNAME - Paths' click the 'Default' button to reset the paths to the original default settings.\\nThen run the wizard again."
+msgstr "ตัวช่วยสร้างไม่สามารถทำงานได้ เนื่องจากไม่พบไฟล์สำคัญบางไฟล์\\nกรุณาไปที่ 'เครื่องมือ - ตัวเลือก - %PRODUCTNAME - พาธ' แล้วคลิกปุ่ม 'ค่าเริ่มต้น' เพื่อล้างค่าพาธให้เป็นค่าเริ่มต้นดั้งเดิม\\nแล้วจึงเรียกตัวช่วยสร้างนี้อีกครั้ง"
+
+#. GohbP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_0\n"
+"property.text"
+msgid "Report Wizard"
+msgstr "ตัวช่วยสร้างรายงาน"
+
+#. BZtXG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_3\n"
+"property.text"
+msgid "~Table"
+msgstr "~ตาราง"
+
+#. BhUoK
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_4\n"
+"property.text"
+msgid "Colu~mns"
+msgstr "~คอลัมน์"
+
+#. KgzkD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_7\n"
+"property.text"
+msgid "Report_"
+msgstr "รายงาน_"
+
+#. uKDkU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_8\n"
+"property.text"
+msgid "- undefined -"
+msgstr "- ไม่กำหนด -"
+
+#. ZZqKE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_9\n"
+"property.text"
+msgid "~Fields in report"
+msgstr "เ~ขตข้อมูลในรายงาน"
+
+#. hMbDC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_11\n"
+"property.text"
+msgid "Grouping"
+msgstr "การจัดกลุ่ม"
+
+#. wVXwx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_12\n"
+"property.text"
+msgid "Sort options"
+msgstr "การเรียงลำดับ"
+
+#. 7EUD3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_13\n"
+"property.text"
+msgid "Choose layout"
+msgstr "เลือกโครงร่าง"
+
+#. 45SFZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_14\n"
+"property.text"
+msgid "Create report"
+msgstr "สร้างรายงาน"
+
+#. cKDcw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_15\n"
+"property.text"
+msgid "Layout of data"
+msgstr "โครงร่างของข้อมูล"
+
+#. HhPzF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_16\n"
+"property.text"
+msgid "Layout of headers and footers"
+msgstr "โครงร่างของหัวกระดาษและท้ายกระดาษ"
+
+#. bN2Fw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_19\n"
+"property.text"
+msgid "Fields"
+msgstr "เขตข้อมูล"
+
+#. qHq62
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_20\n"
+"property.text"
+msgid "~Sort by"
+msgstr "เ~รียงลำดับตาม"
+
+#. 8CX4A
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_21\n"
+"property.text"
+msgid "T~hen by"
+msgstr "~จากนั้นตาม"
+
+#. kvzxk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_22\n"
+"property.text"
+msgid "Orientation"
+msgstr "แนววาง"
+
+#. b3YDa
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_23\n"
+"property.text"
+msgid "Portrait"
+msgstr "แนวตั้ง"
+
+#. DT8hG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_24\n"
+"property.text"
+msgid "Landscape"
+msgstr "แนวนอน"
+
+#. TErmd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_28\n"
+"property.text"
+msgid "Which fields do you want to have in your report?"
+msgstr "ต้องการให้มีเขตข้อมูลใดบ้างในรายงานของคุณ?"
+
+#. HZgJU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_29\n"
+"property.text"
+msgid "Do you want to add grouping levels?"
+msgstr "คุณต้องการเพิ่มระดับการจัดกลุ่มหรือไม่?"
+
+#. xPoaP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_30\n"
+"property.text"
+msgid "According to which fields do you want to sort the data?"
+msgstr "คุณต้องการเรียงลำดับข้อมูลตามเขตข้อมูลใด?"
+
+#. kAjMy
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_31\n"
+"property.text"
+msgid "How do you want your report to look?"
+msgstr "คุณต้องการให้รายงานของคุณมีหน้าตาอย่างไร?"
+
+#. QvM65
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_32\n"
+"property.text"
+msgid "Decide how you want to proceed"
+msgstr "ตัดสินใจว่าคุณต้องการดำเนินการต่อไปอย่างไร"
+
+#. GqD3n
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_33\n"
+"property.text"
+msgid "Title of report"
+msgstr "ชื่อเรื่องของรายงาน"
+
+#. Nm8v3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_34\n"
+"property.text"
+msgid "Display report"
+msgstr "แสดงผลรายงาน"
+
+#. crCtw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_35\n"
+"property.text"
+msgid "Create report"
+msgstr "สร้างรายงาน"
+
+#. EiKBA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_36\n"
+"property.text"
+msgid "Ascending"
+msgstr "จากน้อยไปมาก"
+
+#. BboXx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_37\n"
+"property.text"
+msgid "Descending"
+msgstr "จากมากไปน้อย"
+
+#. sHcrv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_40\n"
+"property.text"
+msgid "~Dynamic report"
+msgstr "รายงานแบบ~ปรับตามข้อมูล"
+
+#. CxGG7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_41\n"
+"property.text"
+msgid "~Create report now"
+msgstr "~สร้างรายงานทันที"
+
+#. FVhkR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_42\n"
+"property.text"
+msgid "~Modify report layout"
+msgstr "ปรับเปลี่ยนโ~ครงร่างรายงาน"
+
+#. BBFba
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_43\n"
+"property.text"
+msgid "Static report"
+msgstr "รายงานแบบเนื้อหาหยุดนิ่ง"
+
+#. gSyfQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_44\n"
+"property.text"
+msgid "Save as"
+msgstr "บันทึกเป็น"
+
+#. hdCaM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_50\n"
+"property.text"
+msgid "Groupings"
+msgstr "การจัดกลุ่ม"
+
+#. XrhAA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_51\n"
+"property.text"
+msgid "Then b~y"
+msgstr "จา~กนั้นตาม"
+
+#. dnjA2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_52\n"
+"property.text"
+msgid "~Then by"
+msgstr "จาก~นั้นตาม"
+
+#. ZuRZA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_53\n"
+"property.text"
+msgid "Asc~ending"
+msgstr "จากน้~อยไปมาก"
+
+#. 2aQcz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_54\n"
+"property.text"
+msgid "Ascend~ing"
+msgstr "จากน้อย~ไปมาก"
+
+#. d7S3o
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_55\n"
+"property.text"
+msgid "Ascendin~g"
+msgstr "จากน้อยไปมาก"
+
+#. 8YKTL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_56\n"
+"property.text"
+msgid "De~scending"
+msgstr "จาก~มากไปน้อย"
+
+#. 82XcF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_57\n"
+"property.text"
+msgid "Des~cending"
+msgstr "จากม~ากไปน้อย"
+
+#. SCPyV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_58\n"
+"property.text"
+msgid "De~scending"
+msgstr "จากมา~กไปน้อย"
+
+#. s4E5A
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_60\n"
+"property.text"
+msgid "Binary fields cannot be displayed in the report."
+msgstr "เขตข้อมูลไบนารีไม่สามารถแสดงในรายงานได้"
+
+#. zhqsu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_61\n"
+"property.text"
+msgid "The table '<TABLENAME>' does not exist."
+msgstr "ไม่มีตาราง '<TABLENAME>'"
+
+#. JdC5d
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_62\n"
+"property.text"
+msgid "Creating Report..."
+msgstr "กำลังสร้างรายงาน..."
+
+#. PQ4E9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_63\n"
+"property.text"
+msgid "Number of records inserted: <COUNT>"
+msgstr "จำนวนระเบียนที่แทรกเข้ามา: <COUNT>"
+
+#. BUWNB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_64\n"
+"property.text"
+msgid "The form '<REPORTFORM>' does not exist."
+msgstr "ไม่มีแบบฟอร์ม '<REPORTFORM>'"
+
+#. AyMsD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_65\n"
+"property.text"
+msgid "The query with the statement <BR>'<STATEMENT>' <BR> could not be run. <BR> Check your data source."
+msgstr "คิวรีที่มีคำสั่ง <BR>'<STATEMENT>' <BR> ไม่สามารถทำงานได้ <BR> กรุณาตรวจสอบแหล่งข้อมูลของคุณ"
+
+#. LW9DZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_66\n"
+"property.text"
+msgid "The following hidden control in the form '<REPORTFORM>' could not be read: '<CONTROLNAME>'."
+msgstr "ไม่สามารถอ่านตัวควบคุมต่อไปนี้ที่ซ่อนอยู่ในแบบฟอร์ม '<REPORTFORM>' ได้: '<CONTROLNAME>'"
+
+#. GvE8h
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_67\n"
+"property.text"
+msgid "Importing data..."
+msgstr "กำลังนำเข้าข้อมูล..."
+
+#. LujCA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_68\n"
+"property.text"
+msgid "Labeling fields"
+msgstr "การกำหนดป้ายชื่อให้กับเขตข้อมูล"
+
+#. HPxDv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_69\n"
+"property.text"
+msgid "How do you want to label the fields?"
+msgstr "คุณต้องการใส่ป้ายชื่อให้กับเขตข้อมูลอย่างไร?"
+
+#. C2Caz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_70\n"
+"property.text"
+msgid "Label"
+msgstr "ป้ายชื่อ"
+
+#. EknR9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_71\n"
+"property.text"
+msgid "Field"
+msgstr "เขตข้อมูล"
+
+#. agw3x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_72\n"
+"property.text"
+msgid "An error occurred in the wizard.<BR>The template '%PATH' could be erroneous.<BR>Either the required sections or tables do not exist or exist under the wrong name.<BR>See the Help for more detailed information.<BR>Please select another template."
+msgstr "เกิดข้อผิดพลาดขึ้นในตัวช่วยสร้าง<BR>แม่แบบ '%PATH' อาจมีความผิดพลาด<BR>อาจเกิดจากตอนหรือตารางที่จำเป็นไม่มีอยู่ หรือมีแต่เป็นชื่อที่ไม่ถูกต้อง<BR>ดูรายระเอียดเพิ่มเติมได้จากคู่มือวิธีใช้<BR>กรุณาเลือกแม่แบบอื่น"
+
+#. Za86f
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_73\n"
+"property.text"
+msgid "There is an invalid user field in a table."
+msgstr "มีเขตข้อมูลของผู้ใช้ที่ไม่ถูกต้องอยู่ในตาราง"
+
+#. rXZZH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_74\n"
+"property.text"
+msgid "The sort criterion '<FIELDNAME>' was chosen twice. Each criterion can only be chosen once."
+msgstr "เกณฑ์การเรียงลำดับ '<FIELDNAME>' ถูกเลือกซ้ำ เกณฑ์แต่ละเกณฑ์สามารถเลือกได้เพียงครั้งเดียวเท่านั้น"
+
+#. ZNk6M
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_75\n"
+"property.text"
+msgid "Note: The dummy text will be replaced by data from the database when the report is created."
+msgstr "หมายเหตุ: ข้อความตัวแทนนี้จะถูกแทนที่โดยข้อมูลจากฐานข้อมูลเมื่อสร้างรายงาน"
+
+#. 5VdG4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_76\n"
+"property.text"
+msgid "A report '%REPORTNAME' already exists in the database. Please assign another name."
+msgstr "รายงาน '%REPORTNAME' มีอยู่แล้วในฐานข้อมูล กรุณาใช้ชื่ออื่น"
+
+#. TD56g
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_78\n"
+"property.text"
+msgid "How do you want to proceed after creating the report?"
+msgstr "คุณต้องการดำเนินการต่อไปอย่างไรหลังจากการสร้างรายงาน?"
+
+#. fpEwz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_79\n"
+"property.text"
+msgid "What kind of report do you want to create?"
+msgstr "คุณต้องการสร้างรายงานชนิดใด?"
+
+#. s3vBB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_80\n"
+"property.text"
+msgid "Tabular"
+msgstr "ตาราง"
+
+#. dDWAD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_81\n"
+"property.text"
+msgid "Columnar, single-column"
+msgstr "เรียงแนวตั้ง คอลัมน์เดียว"
+
+#. MwR8x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_82\n"
+"property.text"
+msgid "Columnar, two columns"
+msgstr "เรียงแนวตั้ง สองคอลัมน์"
+
+#. UsKmm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_83\n"
+"property.text"
+msgid "Columnar, three columns"
+msgstr "เรียงแนวตั้ง สามคอลัมน์"
+
+#. RG9ds
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_84\n"
+"property.text"
+msgid "In blocks, labels left"
+msgstr "ในกล่อง ป้ายกำกับอยู่ทางซ้าย"
+
+#. dspnP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_85\n"
+"property.text"
+msgid "In blocks, labels above"
+msgstr "ในกล่อง ป้ายกำกับอยู่ด้านบน"
+
+#. FXJtW
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_86\n"
+"property.text"
+msgid "Title:"
+msgstr "ชื่อเรื่อง:"
+
+#. 2z2JH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_87\n"
+"property.text"
+msgid "Author:"
+msgstr "ผู้เขียน:"
+
+#. uESaE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_88\n"
+"property.text"
+msgid "Date:"
+msgstr "วันที่:"
+
+#. GzkD4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_89\n"
+"property.text"
+msgid "Page #page# of #count#"
+msgstr "หน้า #page# จาก #count#"
+
+#. 3FXVE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_90\n"
+"property.text"
+msgid "Page number:"
+msgstr "เลขหน้า:"
+
+#. 9HCyq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_91\n"
+"property.text"
+msgid "Page count:"
+msgstr "จำนวนหน้า:"
+
+#. FAa63
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_92\n"
+"property.text"
+msgid "No valid report template was found."
+msgstr "ไม่พบแม่แบบรายงานที่ใช้การได้"
+
+#. F6vrA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_93\n"
+"property.text"
+msgid "Page:"
+msgstr "หน้า:"
+
+#. v8gUF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_94\n"
+"property.text"
+msgid "Align Left - Border"
+msgstr "จัดชิดซ้าย - มีขอบ"
+
+#. TV3AA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_95\n"
+"property.text"
+msgid "Align Left - Compact"
+msgstr "จัดชิดซ้าย - กระชับ"
+
+#. DL6ZJ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_96\n"
+"property.text"
+msgid "Align Left - Elegant"
+msgstr "จัดชิดซ้าย - เรียบหรู"
+
+#. wRNAq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_97\n"
+"property.text"
+msgid "Align Left - Highlighted"
+msgstr "จัดชิดซ้าย - เน้น"
+
+#. JnhXj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_98\n"
+"property.text"
+msgid "Align Left - Modern"
+msgstr "จัดชิดซ้าย - สมัยใหม่"
+
+#. 4Djyg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_99\n"
+"property.text"
+msgid "Align Left - Red & Blue"
+msgstr "จัดชิดซ้าย - แดงและน้ำเงิน"
+
+#. BvcfB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_100\n"
+"property.text"
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#. Bca59
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_101\n"
+"property.text"
+msgid "Outline - Borders"
+msgstr "เค้าโครง - มีขอบ"
+
+#. C9umd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_102\n"
+"property.text"
+msgid "Outline - Compact"
+msgstr "เค้าโครง - กระชับ"
+
+#. uYz2T
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_103\n"
+"property.text"
+msgid "Outline - Elegant"
+msgstr "เค้าโครง - เรียบหรู"
+
+#. iFk6x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_104\n"
+"property.text"
+msgid "Outline - Highlighted"
+msgstr "เค้าโครง - เน้น"
+
+#. jhJnN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_105\n"
+"property.text"
+msgid "Outline - Modern"
+msgstr "เค้าโครง - สมัยใหม่"
+
+#. mXnKN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_106\n"
+"property.text"
+msgid "Outline - Red & Blue"
+msgstr "เค้าโครง - แดงและน้ำเงิน"
+
+#. zKFcj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_107\n"
+"property.text"
+msgid "Outline, indented - Borders"
+msgstr "เค้าโครง, ร่นข้อความ - มีขอบ"
+
+#. 8XBee
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_108\n"
+"property.text"
+msgid "Outline, indented - Compact"
+msgstr "เค้าโครง, ร่นข้อความ - กระชับ"
+
+#. e47Xn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_109\n"
+"property.text"
+msgid "Outline, indented - Elegant"
+msgstr "เค้าโครง, ร่นข้อความ - งดงาม"
+
+#. CGQuu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_110\n"
+"property.text"
+msgid "Outline, indented - Highlighted"
+msgstr "เค้าโครง, ร่นข้อความ - เน้น"
+
+#. ABC5q
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_111\n"
+"property.text"
+msgid "Outline, indented - Modern"
+msgstr "เค้าโครง, ร่นข้อความ - สมัยใหม่"
+
+#. urT2J
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_112\n"
+"property.text"
+msgid "Outline, indented - Red & Blue"
+msgstr "เค้าโครง, ร่นข้อความ - แดงและน้ำเงิน"
+
+#. TzXg5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_113\n"
+"property.text"
+msgid "Bubbles"
+msgstr "ฟอง"
+
+#. RGiTm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_114\n"
+"property.text"
+msgid "Cinema"
+msgstr "โรงภาพยนตร์"
+
+#. Eo2jG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_115\n"
+"property.text"
+msgid "Controlling"
+msgstr "ที่ควบคุม"
+
+#. fpiSX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_116\n"
+"property.text"
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#. 927HM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_117\n"
+"property.text"
+msgid "Drafting"
+msgstr "ยกร่าง"
+
+#. BGvCk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_118\n"
+"property.text"
+msgid "Finances"
+msgstr "การเงิน"
+
+#. mhJr6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_119\n"
+"property.text"
+msgid "Flipchart"
+msgstr "กระดานฟลิปชาร์ต"
+
+#. t5VdL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_120\n"
+"property.text"
+msgid "Formal with Company Logo"
+msgstr "เป็นทางการพร้อมตราสัญลักษณ์บริษัท"
+
+#. iwANQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_121\n"
+"property.text"
+msgid "Generic"
+msgstr "ทั่วไป"
+
+#. RkArE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_REPORT_122\n"
+"property.text"
+msgid "Worldmap"
+msgstr "แผนที่โลก"
+
+#. wpr5T
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_0\n"
+"property.text"
+msgid "C~reate"
+msgstr "~สร้าง"
+
+#. W6xLZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_1\n"
+"property.text"
+msgid "~Cancel"
+msgstr "~ยกเลิก"
+
+#. ecMFi
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_2\n"
+"property.text"
+msgid "< ~Back"
+msgstr "< ~ย้อนกลับ"
+
+#. HvEAE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_3\n"
+"property.text"
+msgid "~Next >"
+msgstr "~ถัดไป >"
+
+#. u5rzd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_4\n"
+"property.text"
+msgid "~Database"
+msgstr "ฐาน~ข้อมูล"
+
+#. sCeDP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_5\n"
+"property.text"
+msgid "~Table name"
+msgstr "ชื่อ~ตาราง"
+
+#. KC4Dw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_6\n"
+"property.text"
+msgid "An error occurred while running the wizard. The wizard will be terminated."
+msgstr "เกิดข้อผิดพลาดระหว่างการทำงานของตัวช่วยสร้าง และจะปิดตัวช่วยสร้างนี้"
+
+#. ZG95j
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_8\n"
+"property.text"
+msgid "No database has been installed. At least one database is required before the wizard for forms can be started."
+msgstr "ไม่มีฐานข้อมูลติดตั้งอยู่ จะต้องมีฐานข้อมูลอย่างน้อยหนึ่งตัวก่อนที่ตัวช่วยสร้างจะเริ่มทำงานได้"
+
+#. GCAgB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_9\n"
+"property.text"
+msgid "The database does not contain any tables."
+msgstr "ฐานข้อมูลไม่มีตารางใด"
+
+#. ikZ7F
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_10\n"
+"property.text"
+msgid "This title already exists in the database. Please enter another name."
+msgstr "ชื่อนี้มีอยู่แล้วในฐานข้อมูล กรุณาป้อนชื่ออื่น"
+
+#. Dposv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_11\n"
+"property.text"
+msgid "The title must not contain any spaces or special characters."
+msgstr "ชื่อไม่สามารถมีช่องว่างหรืออักขระพิเศษใดๆ ได้"
+
+#. FUgQA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_12\n"
+"property.text"
+msgid "The database service (com.sun.data.DatabaseEngine) could not be instantiated."
+msgstr "ไม่สามารถสร้างบริการฐานข้อมูล (com.sun.data.DatabaseEngine) ได้"
+
+#. HRAeA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_13\n"
+"property.text"
+msgid "The selected table or query could not be opened."
+msgstr "ไม่สามารถเปิดตารางหรือคิวรีที่เลือกได้"
+
+#. VAphN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_14\n"
+"property.text"
+msgid "No connection to the database could be established."
+msgstr "ไม่สามารถเชื่อมต่อกับฐานข้อมูลได้"
+
+#. z9FhA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_20\n"
+"property.text"
+msgid "~Help"
+msgstr "~ช่วยเหลือ"
+
+#. eXWrX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_21\n"
+"property.text"
+msgid "~Stop"
+msgstr "~หยุด"
+
+#. GiCi2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_30\n"
+"property.text"
+msgid "The document could not be saved."
+msgstr "ไม่สามารถบันทึกเอกสารได้"
+
+#. UkQEx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_33\n"
+"property.text"
+msgid "Exiting the wizard"
+msgstr "จะออกจากตัวช่วยสร้าง"
+
+#. HrveE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_34\n"
+"property.text"
+msgid "Connecting to data source..."
+msgstr "กำลังเชื่อมต่อกับแหล่งข้อมูล..."
+
+#. se64P
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_35\n"
+"property.text"
+msgid "The connection to the data source could not be established."
+msgstr "ไม่สามารถเชื่อมต่อไปยังแหล่งข้อมูลได้"
+
+#. Ch5MD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_36\n"
+"property.text"
+msgid "The file path entered is not valid."
+msgstr "พาธของไฟล์ที่ป้อนไม่ถูกต้อง"
+
+#. kPABE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_37\n"
+"property.text"
+msgid "Please select a data source"
+msgstr "กรุณาเลือกแหล่งข้อมูล"
+
+#. XDBBC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_38\n"
+"property.text"
+msgid "Please select a table or query"
+msgstr "กรุณาเลือกตารางหรือคิวรี"
+
+#. AgeWk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_39\n"
+"property.text"
+msgid "Add field"
+msgstr "เพิ่มเขตข้อมูล"
+
+#. FoExR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_40\n"
+"property.text"
+msgid "Remove field"
+msgstr "ลบเขตข้อมูล"
+
+#. BuUZ5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_41\n"
+"property.text"
+msgid "Add all fields"
+msgstr "เพิ่มเขตข้อมูลทั้งหมด"
+
+#. PVELV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_42\n"
+"property.text"
+msgid "Remove all fields"
+msgstr "ลบเขตข้อมูลทั้งหมด"
+
+#. jAXRw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_43\n"
+"property.text"
+msgid "Move field up"
+msgstr "เลื่อนเขตข้อมูลขึ้น"
+
+#. Ao2Z6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_44\n"
+"property.text"
+msgid "Move field down"
+msgstr "เลื่อนเขตข้อมูลลง"
+
+#. B4mWx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_DB_COMMON_45\n"
+"property.text"
+msgid "The field names from '%NAME' could not be retrieved."
+msgstr "ไม่สามารถเรียกอ่านชื่อเขตข้อมูลจาก '%NAME' ได้"
+
+#. SNhe5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_0\n"
+"property.text"
+msgid "Query Wizard"
+msgstr "ตัวช่วยสร้างคิวรี"
+
+#. RySqB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_1\n"
+"property.text"
+msgid "Query"
+msgstr "คิวรี"
+
+#. wKhwS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_2\n"
+"property.text"
+msgid "Query Wizard"
+msgstr "ตัวช่วยสร้างคิวรี"
+
+#. QEtRG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_3\n"
+"property.text"
+msgid "~Tables"
+msgstr "~ตาราง"
+
+#. s2KnF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_4\n"
+"property.text"
+msgid "A~vailable fields"
+msgstr "เขตข้อมูลที่~มี"
+
+#. Wsx8x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_5\n"
+"property.text"
+msgid "Name ~of the query"
+msgstr "ชื่~อของคิวรี"
+
+#. t9MEU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_6\n"
+"property.text"
+msgid "Display ~Query"
+msgstr "แ~สดงผลคิวรี"
+
+#. UBWUX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_7\n"
+"property.text"
+msgid "~Modify Query"
+msgstr "~ปรับเปลี่ยนคิวรี"
+
+#. AoeET
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_8\n"
+"property.text"
+msgid "~How do you want to proceed after creating the query?"
+msgstr "คุณต้องการดำเนินการต่ออย่างไรหลังจากสร้างคิวรี?"
+
+#. kofEg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_9\n"
+"property.text"
+msgid "Match ~all of the following"
+msgstr "ตรงกับเงื่อนไขต่อไปนี้~ทั้งหมด"
+
+#. 4xM3Z
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_10\n"
+"property.text"
+msgid "~Match any of the following"
+msgstr "ตรงกับเงื่อนไขข้อใดข้อ~หนึ่งต่อไปนี้"
+
+#. WLFFc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_11\n"
+"property.text"
+msgid "~Detailed query (Shows all records of the query.)"
+msgstr "คิวรีแสดง~รายละเอียด (แสดงระเบียนทั้งหมดที่ได้จากคิวรี)"
+
+#. fnzhE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_12\n"
+"property.text"
+msgid "~Summary query (Shows only results of aggregate functions.)"
+msgstr "คิวรีผล~สรุป (แสดงเฉพาะผลของฟังก์ชันผลรวม)"
+
+#. SdQBk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_16\n"
+"property.text"
+msgid "Aggregate functions"
+msgstr "ฟังก์ชันผลรวม"
+
+#. tFNb2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_17\n"
+"property.text"
+msgid "Fields"
+msgstr "เขตข้อมูล"
+
+#. D9sGR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_18\n"
+"property.text"
+msgid "~Group by"
+msgstr "~จัดกลุ่มตาม"
+
+#. E5N85
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_19\n"
+"property.text"
+msgid "Field"
+msgstr "เขตข้อมูล"
+
+#. 2dqd2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_20\n"
+"property.text"
+msgid "Alias"
+msgstr "ชื่อเรียก"
+
+#. 8eMER
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_21\n"
+"property.text"
+msgid "Table:"
+msgstr "ตาราง:"
+
+#. jaKR7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_22\n"
+"property.text"
+msgid "Query:"
+msgstr "คิวรี:"
+
+#. TpbSv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_24\n"
+"property.text"
+msgid "Condition"
+msgstr "เงื่อนไข"
+
+#. Dvk6K
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_25\n"
+"property.text"
+msgid "Value"
+msgstr "ค่า"
+
+#. oP8P9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_26\n"
+"property.text"
+msgid "is equal to"
+msgstr "เท่ากับ"
+
+#. D7K36
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_27\n"
+"property.text"
+msgid "is not equal to"
+msgstr "ไม่เท่ากับ"
+
+#. n9gFB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_28\n"
+"property.text"
+msgid "is smaller than"
+msgstr "น้อยกว่า"
+
+#. FAiPg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_29\n"
+"property.text"
+msgid "is greater than"
+msgstr "มากกว่า"
+
+#. pFsPY
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_30\n"
+"property.text"
+msgid "is equal or less than"
+msgstr "น้อยกว่าหรือเท่ากับ"
+
+#. yT9cM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_31\n"
+"property.text"
+msgid "is equal or greater than"
+msgstr "มากกว่าหรือเท่ากับ"
+
+#. GFnAN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_32\n"
+"property.text"
+msgid "like"
+msgstr "คล้ายกับ"
+
+#. JZCLd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_33\n"
+"property.text"
+msgid "not like"
+msgstr "ไม่คล้ายกับ"
+
+#. TiHHv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_34\n"
+"property.text"
+msgid "is null"
+msgstr "มีค่าว่างเปล่า"
+
+#. dpAdZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_35\n"
+"property.text"
+msgid "is not null"
+msgstr "มีค่าไม่ว่างเปล่า"
+
+#. ZnCKf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_36\n"
+"property.text"
+msgid "true"
+msgstr "จริง"
+
+#. AwCQp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_37\n"
+"property.text"
+msgid "false"
+msgstr "เท็จ"
+
+#. GEGKb
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_38\n"
+"property.text"
+msgid "and"
+msgstr "และ"
+
+#. GDvQV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_39\n"
+"property.text"
+msgid "or"
+msgstr "หรือ"
+
+#. BaA5J
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_40\n"
+"property.text"
+msgid "get the sum of"
+msgstr "หาค่าผลบวกของ"
+
+#. uCRgg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_41\n"
+"property.text"
+msgid "get the average of"
+msgstr "หาค่าเฉลี่ยของ"
+
+#. UjEVW
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_42\n"
+"property.text"
+msgid "get the minimum of"
+msgstr "หาค่าต่ำสุดของ"
+
+#. qpN4C
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_43\n"
+"property.text"
+msgid "get the maximum of"
+msgstr "หาค่าสูงสุดของ"
+
+#. DAZUE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_44\n"
+"property.text"
+msgid "get the count of"
+msgstr "นับจำนวนของ"
+
+#. BBEEj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_48\n"
+"property.text"
+msgid "(none)"
+msgstr "(ไม่มี)"
+
+#. agTUo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_50\n"
+"property.text"
+msgid "Fie~lds in the Query:"
+msgstr "เขตข้อมูลใน~คิวรี:"
+
+#. CScUQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_51\n"
+"property.text"
+msgid "Sorting order:"
+msgstr "ลำดับการเรียง:"
+
+#. JDHFH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_52\n"
+"property.text"
+msgid "No sorting fields were assigned."
+msgstr "ไม่มีการกำหนดเขตข้อมูลสำหรับเรียงลำดับ"
+
+#. GLtfA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_53\n"
+"property.text"
+msgid "Search conditions:"
+msgstr "เงื่อนไขการค้นหา:"
+
+#. DocWB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_54\n"
+"property.text"
+msgid "No conditions were assigned."
+msgstr "ไม่มีการกำหนดเงื่อนไข"
+
+#. BfAEG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_55\n"
+"property.text"
+msgid "Aggregate functions:"
+msgstr "ฟังก์ชันผลรวม:"
+
+#. mArUE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_56\n"
+"property.text"
+msgid "No aggregate functions were assigned."
+msgstr "ไม่มีการกำหนดฟังก์ชันผลรวม"
+
+#. uDTRV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_57\n"
+"property.text"
+msgid "Grouped by:"
+msgstr "จัดกลุ่มตาม:"
+
+#. WXLSS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_58\n"
+"property.text"
+msgid "No Groups were assigned."
+msgstr "ไม่มีการกำหนดกลุ่ม"
+
+#. jhPaR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_59\n"
+"property.text"
+msgid "Grouping conditions:"
+msgstr "เงื่อนไขในการจัดกลุ่ม:"
+
+#. EoMHV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_60\n"
+"property.text"
+msgid "No grouping conditions were assigned."
+msgstr "ไม่มีการกำหนดเงื่อนไขการจัดกลุ่ม"
+
+#. NNF8b
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_70\n"
+"property.text"
+msgid "Select the fields (columns) for your query"
+msgstr "เลือกเขตข้อมูล (คอลัมน์) สำหรับคิวรีของคุณ"
+
+#. kX9cK
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_71\n"
+"property.text"
+msgid "Select the sorting order"
+msgstr "เลือกการเรียงลำดับ"
+
+#. 7jmnS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_72\n"
+"property.text"
+msgid "Select the search conditions"
+msgstr "เลือกเงื่อนไขการค้นหา"
+
+#. UHCrm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_73\n"
+"property.text"
+msgid "Select the type of query"
+msgstr "เลือกชนิดของคิวรี"
+
+#. ZY6MS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_74\n"
+"property.text"
+msgid "Select the groups"
+msgstr "เลือกกลุ่ม"
+
+#. N8n8X
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_75\n"
+"property.text"
+msgid "Select the grouping conditions"
+msgstr "เลือกเงื่อนไขการจัดกลุ่ม"
+
+#. sy7Lt
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_76\n"
+"property.text"
+msgid "Assign aliases if desired"
+msgstr "กำหนดชื่อเรียกหากต้องการ"
+
+#. exiZ6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_77\n"
+"property.text"
+msgid "Check the overview and decide how to proceed"
+msgstr "ตรวจสอบภาพรวมและตัดสินใจว่าจะดำเนินการต่อไปอย่างไร"
+
+#. 2uhKR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_80\n"
+"property.text"
+msgid "Field selection"
+msgstr "เลือกเขตข้อมูล"
+
+#. LzPyD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_81\n"
+"property.text"
+msgid "Sorting order"
+msgstr "การเรียงลำดับ"
+
+#. pVVLS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_82\n"
+"property.text"
+msgid "Search conditions"
+msgstr "เงื่อนไขในการค้นหา"
+
+#. Z22GZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_83\n"
+"property.text"
+msgid "Detail or summary"
+msgstr "รายละเอียดหรือสรุป"
+
+#. 4EYC7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_84\n"
+"property.text"
+msgid "Grouping"
+msgstr "การจัดกลุ่ม"
+
+#. MziCd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_85\n"
+"property.text"
+msgid "Grouping conditions"
+msgstr "เงื่อนไขการจัดกลุ่ม"
+
+#. EB7JF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_86\n"
+"property.text"
+msgid "Aliases"
+msgstr "ชื่อเรียกเขตข้อมูล"
+
+#. WzptL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_87\n"
+"property.text"
+msgid "Overview"
+msgstr "ภาพรวม"
+
+#. f4xrP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_88\n"
+"property.text"
+msgid "A field that has not been assigned an aggregate function must be used in a group."
+msgstr "เขตข้อมูลที่ไม่ได้มีการกำหนดฟังก์ชันผลรวมต้องนำมาใช้ในกลุ่ม"
+
+#. 2C2nu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_89\n"
+"property.text"
+msgid "The condition '<FIELDNAME> <LOGICOPERATOR> <VALUE>' was chosen twice. Each condition can only be chosen once"
+msgstr "มีการเลือกเงื่อนไข '<FIELDNAME> <LOGICOPERATOR> <VALUE>'  ซ้ำ เงื่อนไขแต่ละข้อสามารถเลือกได้เพียงครั้งเดียว"
+
+#. ZAHzB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_90\n"
+"property.text"
+msgid "The aggregate function <FUNCTION> has been assigned twice to the fieldname '<NUMERICFIELD>'."
+msgstr "ฟังก์ชันผลรวม <FUNCTION> มีการกำหนดซ้ำให้กับเขตข้อมูลชื่อ '<NUMERICFIELD>'"
+
+#. s2MGE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_91\n"
+"property.text"
+msgid ","
+msgstr ","
+
+#. D8bmB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_92\n"
+"property.text"
+msgid "<FIELDTITLE> (<FIELDNAME>)"
+msgstr "<FIELDTITLE> (<FIELDNAME>)"
+
+#. dGCJv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_93\n"
+"property.text"
+msgid "<FIELDNAME> (<SORTMODE>)"
+msgstr "<FIELDNAME> (<SORTMODE>)"
+
+#. RAt2h
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_94\n"
+"property.text"
+msgid "<FIELDNAME> <LOGICOPERATOR> <VALUE>"
+msgstr "<FIELDNAME> <LOGICOPERATOR> <VALUE>"
+
+#. pbBGo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_95\n"
+"property.text"
+msgid "<CALCULATEDFUNCTION> <FIELDNAME>"
+msgstr "<CALCULATEDFUNCTION> <FIELDNAME>"
+
+#. MBwoM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_QUERY_96\n"
+"property.text"
+msgid "<FIELDNAME> <LOGICOPERATOR> <VALUE>"
+msgstr "<FIELDNAME> <LOGICOPERATOR> <VALUE>"
+
+#. yheet
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_0\n"
+"property.text"
+msgid "Form Wizard"
+msgstr "ตัวช่วยสร้างแบบฟอร์ม"
+
+#. H4MXV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_1\n"
+"property.text"
+msgid "Fields in ~the form"
+msgstr "เขตข้อมูลในแ~บบฟอร์ม"
+
+#. 6J6EJ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_2\n"
+"property.text"
+msgid "Binary fields are always listed and selectable from the left list.\\nIf possible, they are interpreted as images."
+msgstr "เขตข้อมูลไบนารีจะปรากฏให้เลือกได้ในรายชื่อทางซ้ายเสมอ\\nและจะถูกตีความเป็นรูปภาพถ้าเป็นไปได้"
+
+#. BCBCd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_3\n"
+"property.text"
+msgid "A subform is a form that is inserted in another form.\\nUse subforms to show data from tables or queries with a one-to-many relationship."
+msgstr "แบบฟอร์มย่อยคือแบบฟอร์มที่แทรกอยู่ในฟอร์มอื่น\\nคุณสามารถใช้แบบฟอร์มย่อยในการแสดงข้อมูลจากตารางหรือคิวรีที่มีความสัมพันธ์แบบหนึ่งต่อกลุ่ม (one-to-many) ได้"
+
+#. h4XzG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_4\n"
+"property.text"
+msgid "~Add Subform"
+msgstr "เ~พิ่มแบบฟอร์มย่อย"
+
+#. GSiwE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_5\n"
+"property.text"
+msgid "~Subform based on existing relation"
+msgstr "แบบฟอร์มย่อยจากความสัมพันธ์ที่~มีอยู่"
+
+#. oFM6V
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_6\n"
+"property.text"
+msgid "Tables or queries"
+msgstr "ตารางหรือคิวรี"
+
+#. 2BEab
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_7\n"
+"property.text"
+msgid "Subform based on ~manual selection of fields"
+msgstr "แบบฟอร์มย่อยจากการเ~ลือกเขตข้อมูลเอง"
+
+#. PShA6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_8\n"
+"property.text"
+msgid "~Which relation do you want to add?"
+msgstr "คุณต้องการเพิ่ม~ความสัมพันธ์ใด?"
+
+#. yGGuc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_9\n"
+"property.text"
+msgid "Fields in the ~subform"
+msgstr "เขตข้อมูลในแบบฟอร์มย่~อย"
+
+#. KG4Hj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_12\n"
+"property.text"
+msgid "~Available fields"
+msgstr "เขตข้อมูลที่~มี"
+
+#. pB2Mv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_13\n"
+"property.text"
+msgid "Fields in form"
+msgstr "เขตข้อมูลในแบบฟอร์ม"
+
+#. fFuDk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_19\n"
+"property.text"
+msgid "The join '<FIELDNAME1>' and '<FIELDNAME2>' has been selected twice.\\nBut joins may only be used once."
+msgstr "มีการเลือกการเชื่อม '<FIELDNAME1>' และ '<FIELDNAME2>' ซ้ำ\\nแต่การเชื่อมทำได้เพียงครั้งเดียว"
+
+#. 9uFd2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_20\n"
+"property.text"
+msgid "~First joined subform field"
+msgstr "เขตข้อมูลแ~รกของแบบฟอร์มย่อยที่เชื่อม"
+
+#. NfpyC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_21\n"
+"property.text"
+msgid "~Second joined subform field"
+msgstr "เขตข้อมูลที่ส~องของแบบฟอร์มย่อยที่เชื่อม"
+
+#. 5F4nf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_22\n"
+"property.text"
+msgid "~Third joined subform field"
+msgstr "เขตข้อมูลที่สา~มของแบบฟอร์มย่อยที่เชื่อม"
+
+#. BJBzR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_23\n"
+"property.text"
+msgid "~Fourth joined subform field"
+msgstr "เขตข้อมูลที่~สี่ของแบบฟอร์มย่อมที่เชื่อม"
+
+#. EAJxx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_24\n"
+"property.text"
+msgid "F~irst joined main form field"
+msgstr "เขตข้อมูลแร~กของแบบฟอร์มหลักที่เชื่อม"
+
+#. S72RL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_25\n"
+"property.text"
+msgid "S~econd joined main form field"
+msgstr "เขตข้อมูลที่สอ~งของแบบฟอร์มหลักที่เชื่อม"
+
+#. C73ZZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_26\n"
+"property.text"
+msgid "T~hird joined main form field"
+msgstr "เขตข้อมูลที่ส~ามของแบบฟอร์มหลักที่เชื่อม"
+
+#. AwNUu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_27\n"
+"property.text"
+msgid "F~ourth joined main form field"
+msgstr "เขตข้อมูล~ที่สี่ของแบบฟอร์มหลักที่เชื่อม"
+
+#. KCNEY
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_28\n"
+"property.text"
+msgid "Field border"
+msgstr "เส้นขอบของเขตข้อมูล"
+
+#. oQq6u
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_29\n"
+"property.text"
+msgid "No border"
+msgstr "ไม่มีเส้นขอบ"
+
+#. hk9Xa
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_30\n"
+"property.text"
+msgid "3D look"
+msgstr "รูปร่าง 3 มิติ"
+
+#. noMiL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_31\n"
+"property.text"
+msgid "Flat"
+msgstr "แบน"
+
+#. kCBjw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_32\n"
+"property.text"
+msgid "Label placement"
+msgstr "การจัดวางป้ายชื่อ"
+
+#. Vrww6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_33\n"
+"property.text"
+msgid "Align left"
+msgstr "จัดชิดซ้าย"
+
+#. Qrt6U
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_34\n"
+"property.text"
+msgid "Align right"
+msgstr "จัดชิดขวา"
+
+#. KNG6r
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_35\n"
+"property.text"
+msgid "Arrangement of DB fields"
+msgstr "การจัดเรียงเขตข้อมูล DB"
+
+#. nRTak
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_36\n"
+"property.text"
+msgid "Columnar - Labels Left"
+msgstr "เรียงแนวตั้ง - ป้ายชื่ออยู่ทางซ้าย"
+
+#. HcbRM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_37\n"
+"property.text"
+msgid "Columnar - Labels on Top"
+msgstr "เรียงแนวตั้ง - ป้ายชื่ออยู่ด้านบน"
+
+#. dRw3C
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_38\n"
+"property.text"
+msgid "In Blocks - Labels Left"
+msgstr "ในกล่อง - ป้ายชื่ออยู่ทางซ้าย"
+
+#. m99kS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_39\n"
+"property.text"
+msgid "In Blocks - Labels Above"
+msgstr "ในกล่อง - ป้ายชื่ออยู่ด้านบน"
+
+#. ZNTvC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_40\n"
+"property.text"
+msgid "As Data Sheet"
+msgstr "เป็นแผ่นข้อมูล"
+
+#. F5dN5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_41\n"
+"property.text"
+msgid "Arrangement of the main form"
+msgstr "การจัดเรียงของแบบฟอร์มหลัก"
+
+#. BEN4F
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_42\n"
+"property.text"
+msgid "Arrangement of the subform"
+msgstr "การจัดเรียงของฟอร์มย่อย"
+
+#. ZAxZE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_44\n"
+"property.text"
+msgid "The form is to be ~used for entering new data only."
+msgstr "แบบฟอร์มนี้ใช้สำหรับป้อนข้อมูลใ~หม่เท่านั้น"
+
+#. epRse
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_45\n"
+"property.text"
+msgid "Existing data will not be displayed"
+msgstr "จะไม่แสดงข้อมูลเดิมที่มีอยู่"
+
+#. hrpiG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_46\n"
+"property.text"
+msgid "T~he form is to display all data"
+msgstr "แบบฟอร์มนี้ใช้แ~สดงข้อมูลทั้งหมด"
+
+#. jqEHe
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_47\n"
+"property.text"
+msgid "Do not allow ~modification of existing data"
+msgstr "ไม่อนุญาตให้แ~ก้ไขข้อมูลเดิมที่มีอยู่"
+
+#. FE9no
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_48\n"
+"property.text"
+msgid "Do not allow ~deletion of existing data"
+msgstr "ไม่อนุญาตให้~ลบข้อมูลเดิมที่มีอยู่"
+
+#. KwdDp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_49\n"
+"property.text"
+msgid "Do not allow ~addition of new data"
+msgstr "ไม่อนุญาตให้เ~พิ่มข้อมูลใหม่"
+
+#. Z7Wzp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_50\n"
+"property.text"
+msgid "Name of ~the form"
+msgstr "ชื่อของแ~บบฟอร์ม"
+
+#. AdLhz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_51\n"
+"property.text"
+msgid "How do you want to proceed after creating the form?"
+msgstr "คุณต้องการดำเนินการต่ออย่างไรหลังจากสร้างแบบฟอร์ม?"
+
+#. G7CYq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_52\n"
+"property.text"
+msgid "~Work with the form"
+msgstr "~ทำงานกับแบบฟอร์ม"
+
+#. iCnFm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_53\n"
+"property.text"
+msgid "~Modify the form"
+msgstr "~ปรับเปลี่ยนแบบฟอร์ม"
+
+#. 5EgBu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_55\n"
+"property.text"
+msgid "~Page Styles"
+msgstr "ลักษณะ~หน้า"
+
+#. D99cE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_80\n"
+"property.text"
+msgid "Field selection"
+msgstr "เลือกเขตข้อมูล"
+
+#. AspWz
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_81\n"
+"property.text"
+msgid "Set up a subform"
+msgstr "ตั้งค่าแบบฟอร์มย่อย"
+
+#. YayFB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_82\n"
+"property.text"
+msgid "Add subform fields"
+msgstr "เพิ่มเขตข้อมูลแบบฟอร์มย่อย"
+
+#. V2Q6R
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_83\n"
+"property.text"
+msgid "Get joined fields"
+msgstr "เชื่อมเขตข้อมูล"
+
+#. orBm4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_84\n"
+"property.text"
+msgid "Arrange controls"
+msgstr "จัดเรียงตัวควบคุม"
+
+#. QGCau
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_85\n"
+"property.text"
+msgid "Set data entry"
+msgstr "ตั้งค่าการป้อนข้อมูล"
+
+#. vFeqn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_86\n"
+"property.text"
+msgid "Apply styles"
+msgstr "ใส่ลักษณะ"
+
+#. 24keF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_87\n"
+"property.text"
+msgid "Set name"
+msgstr "กำหนดชื่อ"
+
+#. H25LH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_88\n"
+"property.text"
+msgid "(Date)"
+msgstr "(วันที่)"
+
+#. EACeJ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_89\n"
+"property.text"
+msgid "(Time)"
+msgstr "(เวลา)"
+
+#. scXkg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_90\n"
+"property.text"
+msgid "Select the fields of your form"
+msgstr "เลือกเขตข้อมูลสำหรับแบบฟอร์มของคุณ"
+
+#. s6xRo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_91\n"
+"property.text"
+msgid "Decide if you want to set up a subform"
+msgstr "เลือกว่าคุณต้องการสร้างแบบฟอร์มย่อยหรือไม่"
+
+#. 4pHsF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_92\n"
+"property.text"
+msgid "Select the fields of your subform"
+msgstr "เลือกเขตข้อมูลสำหรับแบบฟอร์มย่อยของคุณ"
+
+#. WT3Gn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_93\n"
+"property.text"
+msgid "Select the joins between your forms"
+msgstr "เลือกการเชื่อมโยงระหว่างแบบฟอร์มของคุณ"
+
+#. DWvza
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_94\n"
+"property.text"
+msgid "Arrange the controls on your form"
+msgstr "จัดเรียงตัวควบคุมในแบบฟอร์มของคุณ"
+
+#. j6uv4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_95\n"
+"property.text"
+msgid "Select the data entry mode"
+msgstr "เลือกโหมดของการป้อนข้อมูล"
+
+#. TWztZ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_96\n"
+"property.text"
+msgid "Apply the style of your form"
+msgstr "ใส่ลักษณะให้กับแบบฟอร์มของคุณ"
+
+#. zZiae
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_97\n"
+"property.text"
+msgid "Set the name of the form"
+msgstr "ตั้งชื่อแบบฟอร์ม"
+
+#. JTRXV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_FORM_98\n"
+"property.text"
+msgid "A form with the name '%FORMNAME' already exists.\\nChoose another name."
+msgstr "มีแบบฟอร์มชื่อ '%FORMNAME' อยู่ก่อนแล้ว\\nกรุณาเลือกชื่ออื่น"
+
+#. KJkgf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_1\n"
+"property.text"
+msgid "Table Wizard"
+msgstr "ตัวช่วยสร้างตาราง"
+
+#. hGMoR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_2\n"
+"property.text"
+msgid "Select fields"
+msgstr "เลือกเขตข้อมูล"
+
+#. XEQgp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_3\n"
+"property.text"
+msgid "Set types and formats"
+msgstr "กำหนดชนิดและรูปแบบข้อมูล"
+
+#. Lww9c
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_4\n"
+"property.text"
+msgid "Set primary key"
+msgstr "กำหนดคีย์หลัก"
+
+#. LkTBf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_5\n"
+"property.text"
+msgid "Create table"
+msgstr "สร้างตาราง"
+
+#. hei5Y
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_8\n"
+"property.text"
+msgid "Select fields for your table"
+msgstr "เลือกเขตข้อมูลสำหรับตารางของคุณ"
+
+#. 5DXT6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_9\n"
+"property.text"
+msgid "Set field types and formats"
+msgstr "กำหนดชนิดและรูปแบบของเขตข้อมูล"
+
+#. bAfiP
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_10\n"
+"property.text"
+msgid "Set primary key"
+msgstr "กำหนดคีย์หลัก"
+
+#. UHTbE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_11\n"
+"property.text"
+msgid "Create table"
+msgstr "สร้างตาราง"
+
+#. XyCFc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_14\n"
+"property.text"
+msgid "This wizard helps you to create a table for your database. After selecting a table category and a sample table, choose the fields you want to include in your table. You can include fields from more than one sample table."
+msgstr "ตัวช่วยสร้างนี้จะช่วยสร้างตารางสำหรับฐานข้อมูลของคุณ โดยหลังจากที่คุณเลือกประเภทตารางและตารางตัวอย่างแล้ว คุณก็เลือกเขตข้อมูลที่ต้องการมาใส่ในตารางของคุณ คุณสามารถเลือกเขตข้อมูลจากตารางตัวอย่างได้มากกว่าหนึ่งตาราง"
+
+#. FEU9Q
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_15\n"
+"property.text"
+msgid "Ca~tegory"
+msgstr "~ประเภท"
+
+#. aBFKF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_16\n"
+"property.text"
+msgid "B~usiness"
+msgstr "ธุร~กิจ"
+
+#. nfCjy
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_17\n"
+"property.text"
+msgid "P~ersonal"
+msgstr "~ส่วนบุคคล"
+
+#. NrVBB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_18\n"
+"property.text"
+msgid "~Sample tables"
+msgstr "~ตารางตัวอย่าง"
+
+#. itXJ9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_19\n"
+"property.text"
+msgid "A~vailable fields"
+msgstr "เขตข้อมูลที่~มี"
+
+#. JteH7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_20\n"
+"property.text"
+msgid "Field information"
+msgstr "รายละเอียดของเขตข้อมูล"
+
+#. NqEog
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_21\n"
+"property.text"
+msgid "+"
+msgstr "+"
+
+#. BhFze
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_22\n"
+"property.text"
+msgid "-"
+msgstr "-"
+
+#. B8Qeu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_23\n"
+"property.text"
+msgid "Field name"
+msgstr "ชื่อเขตข้อมูล"
+
+#. gF5v4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_24\n"
+"property.text"
+msgid "Field type"
+msgstr "ชนิดของเขตข้อมูล"
+
+#. S82Up
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_25\n"
+"property.text"
+msgid "~Selected fields"
+msgstr "เ~ขตข้อมูลที่เลือก"
+
+#. iWG72
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_26\n"
+"property.text"
+msgid "A primary key uniquely identifies each record in a database table. Primary keys ease the linking of information in separate tables, and it is recommended that you have a primary key in every table. Without a primary key, it will not be possible to enter data into this table."
+msgstr "คีย์หลักใช้ในการระบุระเบียนแต่ละระเบียนในตารางของฐานข้อมูล คีย์หลักช่วยอำนวยความสะดวกในการเชื่อมโยงข้อมูลข้ามตาราง และควรมีคีย์หลักในทุกตาราง ถ้าไม่มีคีย์หลักก็จะไม่สามารถป้อนข้อมูลลงในตารางนี้ได้"
+
+#. 3kaaw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_27\n"
+"property.text"
+msgid "~Create a primary key"
+msgstr "~สร้างคีย์หลัก"
+
+#. xGC6Z
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_28\n"
+"property.text"
+msgid "~Automatically add a primary key"
+msgstr "เพิ่มคีย์หลักโดย~อัตโนมัติ"
+
+#. aP3ai
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_29\n"
+"property.text"
+msgid "~Use an existing field as a primary key"
+msgstr "ใช้เขตข้อมูลห~นึ่งที่มีอยู่เป็นคีย์หลัก"
+
+#. KBVAL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_30\n"
+"property.text"
+msgid "Define p~rimary key as a combination of several fields"
+msgstr "กำหนดคีย์หลักจากการใช้เขตข้อมูลห~ลายเขตประกอบกัน"
+
+#. PQfF2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_31\n"
+"property.text"
+msgid "F~ieldname"
+msgstr "ชื่อเข~ตข้อมูล"
+
+#. AK4Vf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_32\n"
+"property.text"
+msgid "~Primary key fields"
+msgstr "~เขตข้อมูลคีย์หลัก"
+
+#. ZykVT
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_33\n"
+"property.text"
+msgid "Auto ~value"
+msgstr "~ค่าอัตโนมัติ"
+
+#. AnaDG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_34\n"
+"property.text"
+msgid "What do you want to name your table?"
+msgstr "คุณต้องการตั้งชื่อตารางของคุณว่าอะไร?"
+
+#. vVHAs
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_35\n"
+"property.text"
+msgid "Congratulations. You have entered all the information needed to create your table."
+msgstr "ยินดีด้วย คุณได้ป้อนข้อมูลทั้งหมดที่จำเป็นในการสร้างตารางของคุณเรียบร้อยแล้ว"
+
+#. 9wGua
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_36\n"
+"property.text"
+msgid "What do you want to do next?"
+msgstr "คุณต้องการทำสิ่งใดต่อไป?"
+
+#. satRX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_37\n"
+"property.text"
+msgid "Modify the table design"
+msgstr "ปรับเปลี่ยนแบบตาราง"
+
+#. GEjDE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_38\n"
+"property.text"
+msgid "Insert data immediately"
+msgstr "ป้อนข้อมูลทันที"
+
+#. E8SB9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_39\n"
+"property.text"
+msgid "C~reate a form based on this table"
+msgstr "สร้างแ~บบฟอร์มจากตารางนี้"
+
+#. FkbmE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_40\n"
+"property.text"
+msgid "The table you have created could not be opened."
+msgstr "ตารางที่คุณสร้างขึ้นไม่สามารถเปิดได้"
+
+#. mZMcY
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_41\n"
+"property.text"
+msgid "The table name '%TABLENAME' contains a character ('%SPECIALCHAR') that might not be supported by the database."
+msgstr "ชื่อตาราง '%TABLENAME' มีอักขระ ('%SPECIALCHAR') ที่ฐานข้อมูลอาจไม่รองรับ"
+
+#. GGfLR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_42\n"
+"property.text"
+msgid "The field name '%FIELDNAME' contains a special character ('%SPECIALCHAR') that might not be supported by the database."
+msgstr "ชื่อเขตข้อมูล '%FIELDNAME' มีอักขระพิเศษ ('%SPECIALCHAR') ที่ฐานข้อมูลอาจไม่รองรับ"
+
+#. CtXqK
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_43\n"
+"property.text"
+msgid "Field"
+msgstr "เขตข้อมูล"
+
+#. LCMUy
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_44\n"
+"property.text"
+msgid "MyTable"
+msgstr "ตารางของฉัน"
+
+#. g7GJC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_45\n"
+"property.text"
+msgid "Add a Field"
+msgstr "เพิ่มเขตข้อมูล"
+
+#. EC4Xn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_46\n"
+"property.text"
+msgid "Remove the selected Field"
+msgstr "ลบเขตข้อมูลที่เลือก"
+
+#. rhV9g
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_47\n"
+"property.text"
+msgid "The field cannot be inserted because this would exceed the maximum number of %COUNT possible fields in the database table"
+msgstr "ไม่สามารถเพิ่มเขตข้อมูลได้ เพราะจะทำให้จำนวนเขตข้อมูลเกิน %COUNT ซึ่งเป็นจำนวนสูงสุดที่เป็นไปได้ในตารางของฐานข้อมูล"
+
+#. jbZRo
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_48\n"
+"property.text"
+msgid "The name '%TABLENAME' already exists.\\nPlease enter another name."
+msgstr "มีชื่อ '%TABLENAME' อยู่แล้ว\\nกรุณาป้อนชื่ออื่น"
+
+#. CSsZM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_49\n"
+"property.text"
+msgid "Catalog of the table"
+msgstr "แค็ตตาล็อกของตาราง"
+
+#. vYCp3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_50\n"
+"property.text"
+msgid "Schema of the table"
+msgstr "เค้าร่างของตาราง"
+
+#. UnUxG
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RID_TABLE_51\n"
+"property.text"
+msgid "The field '%FIELDNAME' already exists."
+msgstr "มีเขตข้อมูล '%FIELDNAME' อยู่แล้ว"
+
+#. BBZaA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLES_0\n"
+"property.text"
+msgid "Theme Selection"
+msgstr "การเลือกธีม"
+
+#. DbGhN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLES_1\n"
+"property.text"
+msgid "Error while saving the document to the clipboard! The following action cannot be undone."
+msgstr "เกิดข้อผิดพลาดขณะบันทึกเอกสารลงในคลิปบอร์ด! การกระทำต่อไปนี้ไม่สามารถทำกลับได้ิ"
+
+#. LTS44
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLES_2\n"
+"property.text"
+msgid "~Cancel"
+msgstr "~ยกเลิก"
+
+#. qXu5G
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLES_3\n"
+"property.text"
+msgid "~OK"
+msgstr "~ตกลง"
+
+#. VkFhm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_0\n"
+"property.text"
+msgid "(Standard)"
+msgstr "(มาตรฐาน)"
+
+#. YUTxB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_1\n"
+"property.text"
+msgid "Autumn Leaves"
+msgstr "ใบไม้ฤดูสารท"
+
+#. Bmx9P
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_2\n"
+"property.text"
+msgid "Be"
+msgstr "Be"
+
+#. AYcUq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_3\n"
+"property.text"
+msgid "Black and White"
+msgstr "ขาวดำ"
+
+#. kNA76
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_4\n"
+"property.text"
+msgid "Blackberry Bush"
+msgstr "พุ่มแบล็กเบอร์รี"
+
+#. AsnuA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_5\n"
+"property.text"
+msgid "Blue Jeans"
+msgstr "บลูยีนส์"
+
+#. VgzDD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_6\n"
+"property.text"
+msgid "Fifties Diner"
+msgstr "ร้านอาหารยุค 50s"
+
+#. YDRhE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_7\n"
+"property.text"
+msgid "Glacier"
+msgstr "ธารน้ำแข็ง"
+
+#. 769K8
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_8\n"
+"property.text"
+msgid "Green Grapes"
+msgstr "องุ่นเขียว"
+
+#. bNeCA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_9\n"
+"property.text"
+msgid "Marine"
+msgstr "เรือเดินสมุทร"
+
+#. LYvgg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_10\n"
+"property.text"
+msgid "Millennium"
+msgstr "สหัสวรรษ"
+
+#. 2dsey
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_11\n"
+"property.text"
+msgid "Nature"
+msgstr "ธรรมชาติ"
+
+#. sobFj
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_12\n"
+"property.text"
+msgid "Neon"
+msgstr "นีออน"
+
+#. E9VPF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_13\n"
+"property.text"
+msgid "Night"
+msgstr "กลางคืน"
+
+#. VFByN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_14\n"
+"property.text"
+msgid "PC Nostalgia"
+msgstr "พีซีรำลึก"
+
+#. FCRpD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_15\n"
+"property.text"
+msgid "Pastel"
+msgstr "พาสเทล"
+
+#. uAsPp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_16\n"
+"property.text"
+msgid "Pool Party"
+msgstr "ปาร์ตีริมสระ"
+
+#. GDi2u
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"STYLENAME_17\n"
+"property.text"
+msgid "Pumpkin"
+msgstr "ฟักทอง"
+
+#. piSqr
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceDialog_0\n"
+"property.text"
+msgid "Addressee"
+msgstr "ผู้รับ"
+
+#. Cy8W9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceDialog_1\n"
+"property.text"
+msgid "One recipient"
+msgstr "ผู้รับคนเดียว"
+
+#. rH3a3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceDialog_2\n"
+"property.text"
+msgid "Several recipients (address database)"
+msgstr "ผู้รับหลายคน (ฐานข้อมูลที่อยู่)"
+
+#. G8T6x
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceDialog_3\n"
+"property.text"
+msgid "Use of This Template"
+msgstr "การใช้แม่แบบนี้"
+
+#. wTrM9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceMsgError\n"
+"property.text"
+msgid "An error has occurred."
+msgstr "เกิดข้อผิดพลาด"
+
+#. K77VB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_0\n"
+"property.text"
+msgid "Click placeholder and overwrite"
+msgstr "คลิกตัวยึดตำแหน่งและเขียนทับ"
+
+#. hRJRf
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_1\n"
+"property.text"
+msgid "Company"
+msgstr "บริษัท"
+
+#. c6Zjp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_2\n"
+"property.text"
+msgid "Department"
+msgstr "แผนก"
+
+#. cYzGQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_3\n"
+"property.text"
+msgid "First Name"
+msgstr "ชื่อ"
+
+#. BEmdM
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_4\n"
+"property.text"
+msgid "Last Name"
+msgstr "นามสกุล"
+
+#. fxfq5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_5\n"
+"property.text"
+msgid "Street"
+msgstr "ถนน"
+
+#. DxdCD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_6\n"
+"property.text"
+msgid "Country"
+msgstr "ประเทศ"
+
+#. uNexF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_7\n"
+"property.text"
+msgid "ZIP/Postal Code"
+msgstr "รหัสไปรษณีย์"
+
+#. qHMFm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_8\n"
+"property.text"
+msgid "City"
+msgstr "เมือง"
+
+#. AqdCs
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_9\n"
+"property.text"
+msgid "Title"
+msgstr "ชื่อเรื่อง"
+
+#. s8G9A
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_10\n"
+"property.text"
+msgid "Position"
+msgstr "ตำแหน่ง"
+
+#. Wa8WF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_11\n"
+"property.text"
+msgid "Form of Address"
+msgstr "รูปแบบของที่อยู่"
+
+#. 5FwLR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_12\n"
+"property.text"
+msgid "Initials"
+msgstr "ชื่อย่อ"
+
+#. zH6b3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_13\n"
+"property.text"
+msgid "Salutation"
+msgstr "คำขึ้นต้น"
+
+#. wDEfh
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_14\n"
+"property.text"
+msgid "Home Phone"
+msgstr "โทรศัพท์บ้าน"
+
+#. LJ5ou
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_15\n"
+"property.text"
+msgid "Work Phone"
+msgstr "โทรศัพท์ที่ทำงาน"
+
+#. hJQtY
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_16\n"
+"property.text"
+msgid "Fax"
+msgstr "แฟ็กซ์"
+
+#. jmiN2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_17\n"
+"property.text"
+msgid "Email"
+msgstr "อีเมล"
+
+#. w7uK5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_18\n"
+"property.text"
+msgid "URL"
+msgstr "URL"
+
+#. bgJJe
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_19\n"
+"property.text"
+msgid "Notes"
+msgstr "บันทึก"
+
+#. EhQEg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_20\n"
+"property.text"
+msgid "Alt. Field 1"
+msgstr "เขตข้อมูลอื่นๆ 1"
+
+#. bZ4za
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_21\n"
+"property.text"
+msgid "Alt. Field 2"
+msgstr "เขตข้อมูลอื่นๆ 2"
+
+#. vgr7W
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_22\n"
+"property.text"
+msgid "Alt. Field 3"
+msgstr "เขตข้อมูลอื่นๆ 3"
+
+#. TGKbX
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_23\n"
+"property.text"
+msgid "Alt. Field 4"
+msgstr "เขตข้อมูลอื่นๆ 4"
+
+#. HTUTU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_24\n"
+"property.text"
+msgid "ID"
+msgstr "รหัส"
+
+#. BkAJF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_25\n"
+"property.text"
+msgid "State"
+msgstr "รัฐ"
+
+#. 8NXAm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_26\n"
+"property.text"
+msgid "Office Phone"
+msgstr "โทรศัพท์ที่ทำงาน"
+
+#. RvvuS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_27\n"
+"property.text"
+msgid "Pager"
+msgstr "เพจเจอร์"
+
+#. M65e8
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_28\n"
+"property.text"
+msgid "Mobile Phone"
+msgstr "โทรศัพท์มือถือ"
+
+#. hNCCT
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_29\n"
+"property.text"
+msgid "Other Phone"
+msgstr "โทรศัพท์อื่นๆ"
+
+#. jNWYd
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_30\n"
+"property.text"
+msgid "Calendar URL"
+msgstr "URL ปฏิทิน"
+
+#. Ad3kk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceFields_31\n"
+"property.text"
+msgid "Invite"
+msgstr "เชิญ"
+
+#. gpGUV
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceNoTextmark_0\n"
+"property.text"
+msgid "The bookmark 'Recipient' is missing."
+msgstr "ไม่พบที่คั่นหน้า 'ผู้รับ'"
+
+#. G6KuE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CorrespondenceNoTextmark_1\n"
+"property.text"
+msgid "Form letter fields can not be included."
+msgstr "ไม่สามารถเติมเขตข้อมูลจดหมายของแบบฟอร์มได้"
+
+#. WM8Eu
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgName\n"
+"property.text"
+msgid "Minutes Template"
+msgstr "แม่แบบบันทึกการประชุม"
+
+#. 3Yeqe
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgNoCancel\n"
+"property.text"
+msgid "An option must be confirmed."
+msgstr "ต้องยืนยันตัวเลือกใดตัวเลือกหนึ่ง"
+
+#. BEWBh
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgFrame\n"
+"property.text"
+msgid "Minutes Type"
+msgstr "ชนิดของบันทึกการประชุม"
+
+#. hyGRE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgButton1\n"
+"property.text"
+msgid "Results Minutes"
+msgstr "บันทึกผลการประชุม"
+
+#. DMfQn
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"AgendaDlgButton2\n"
+"property.text"
+msgid "Evaluation Minutes"
+msgstr "บันทึกการประเมินผล"
+
+#. 9zy6P
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"TextField\n"
+"property.text"
+msgid "User data field is not defined!"
+msgstr "ยังไม่ได้กำหนดเขตข้อมูลของผู้ใช้!"
+
+#. DzUkS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"NoDirCreation\n"
+"property.text"
+msgid "The '%1' directory cannot be created:"
+msgstr "ไม่สามารถสร้างไดเรกทอรี '%1':"
+
+#. JDcBR
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MsgDirNotThere\n"
+"property.text"
+msgid "The '%1' directory does not exist."
+msgstr "ไม่มีไดเรกทอรี '%1' อยู่"
+
+#. WcmGg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"QueryfornewCreation\n"
+"property.text"
+msgid "Do you want to create it now?"
+msgstr "คุณต้องการสร้างใหม่ตอนนี้หรือไม่?"
+
+#. 6rvR2
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"HelpButton\n"
+"property.text"
+msgid "~Help"
+msgstr "~ช่วยเหลือ"
+
+#. qeDY7
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CancelButton\n"
+"property.text"
+msgid "~Cancel"
+msgstr "~ยกเลิก"
+
+#. yZGTC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"BackButton\n"
+"property.text"
+msgid "< ~Back"
+msgstr "< ย้อน~กลับ"
+
+#. Wc2Fp
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"NextButton\n"
+"property.text"
+msgid "Ne~xt >"
+msgstr "~ถัดไป >"
+
+#. tntS5
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"BeginButton\n"
+"property.text"
+msgid "~Convert"
+msgstr "แ~ปลง"
+
+#. CL4tm
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CloseButton\n"
+"property.text"
+msgid "~Close"
+msgstr "ปิ~ด"
+
+#. 3FYU3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"WelcometextLabel1\n"
+"property.text"
+msgid "This wizard convert legacy format documents to Open Document Format for Office Applications."
+msgstr "ตัวช่วยนี้จะแปลงเอกสารรูปแบบเดิมให้เป็นรูปแบบเอกสารเปิดหรือ Open Document Format สำหรับแอปพลิเคชันออฟฟิศ"
+
+#. ZQwGS
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"WelcometextLabel3\n"
+"property.text"
+msgid "Select the document type for conversion:"
+msgstr "เลือกชนิดองเอกสารที่จะแปลง:"
+
+#. 8QmDc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSTemplateCheckbox_1_\n"
+"property.text"
+msgid "Word templates"
+msgstr "แม่แบบ Word"
+
+#. AujXQ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSTemplateCheckbox_2_\n"
+"property.text"
+msgid "Excel templates"
+msgstr "แม่แบบ Excel"
+
+#. hPB75
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSTemplateCheckbox_3_\n"
+"property.text"
+msgid "PowerPoint templates"
+msgstr "แม่แบบ PowerPoint"
+
+#. QUiMA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSDocumentCheckbox_1_\n"
+"property.text"
+msgid "Word documents"
+msgstr "เอกสาร Word"
+
+#. BDr26
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSDocumentCheckbox_2_\n"
+"property.text"
+msgid "Excel documents"
+msgstr "เอกสาร Excel"
+
+#. 9RwAv
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSDocumentCheckbox_3_\n"
+"property.text"
+msgid "PowerPoint/Publisher documents"
+msgstr "เอกสาร PowerPoint/Publisher"
+
+#. uCxvB
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MSContainerName\n"
+"property.text"
+msgid "Microsoft Office"
+msgstr "Microsoft Office"
+
+#. s4vuw
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SummaryHeader\n"
+"property.text"
+msgid "Summary:"
+msgstr "สรุป:"
+
+#. uAmbh
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"GroupnameDefault\n"
+"property.text"
+msgid "Imported_Templates"
+msgstr "แม่แบบนำเข้า"
+
+#. As7iy
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressMoreDocs\n"
+"property.text"
+msgid "Documents"
+msgstr "เอกสาร"
+
+#. tbXgc
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressMoreTemplates\n"
+"property.text"
+msgid "Templates"
+msgstr "แม่แบบ"
+
+#. foG9h
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"FileExists\n"
+"property.text"
+msgid "The '<1>' file already exists.<CR>Do you want to overwrite it?"
+msgstr "มีไฟล์ '<1>' อยู่ก่อนแล้ว<CR>คุณต้องการเขียนทับหรือไม่?"
+
+#. bvMuH
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"MorePathsError3\n"
+"property.text"
+msgid "Directories do not exist"
+msgstr "ไม่มีไดเรกทอรีอยู่"
+
+#. Jh3WF
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ConvertError1\n"
+"property.text"
+msgid "Do you really want to terminate conversion at this point?"
+msgstr "คุณยืนยันหรือไม่ว่าต้องการยุติการแปลงที่จุดนี้?"
+
+#. zuFo9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ConvertError2\n"
+"property.text"
+msgid "Cancel Wizard"
+msgstr "ยกเลิกการนำร่องอัตโนมัติ"
+
+#. MNVFe
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RTErrorDesc\n"
+"property.text"
+msgid "An error has occurred in the wizard."
+msgstr "เกิดข้อผิดพลาดในตัวช่วย"
+
+#. VzQoq
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"RTErrorHeader\n"
+"property.text"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+#. mFTyW
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"OverwriteallFiles\n"
+"property.text"
+msgid "Do you want to overwrite documents without being asked?"
+msgstr "คุณต้องการเขียนทับเอกสารต่างๆ โดยไม่ต้องถามหรือไม่?"
+
+#. rWgBN
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ReeditMacro\n"
+"property.text"
+msgid "Document macro has to be revised."
+msgstr "แมโครของเอกสารต้องมีการแก้ไข"
+
+#. GDbH6
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CouldNotsaveDocument\n"
+"property.text"
+msgid "Document '<1>' could not be saved."
+msgstr "ไม่สามารถบันทึกเอกสาร '<1>' ได้"
+
+#. GcGjC
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CouldNotopenDocument\n"
+"property.text"
+msgid "Document '<1>' could not be opened."
+msgstr "ไม่สามารถเปิดเอกสาร '<1>' ได้"
+
+#. XG3Dg
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"PathDialogMessage\n"
+"property.text"
+msgid "Select a directory"
+msgstr "เลือกไดเรกทอรี"
+
+#. 8DV2D
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"DialogTitle\n"
+"property.text"
+msgid "Document Converter"
+msgstr "ตัวแปลงเอกสาร"
+
+#. 6hySA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SearchInSubDir\n"
+"property.text"
+msgid "Including subdirectories"
+msgstr "รวมไดเรกทอรีย่อยด้วย"
+
+#. Juv8i
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressPage1\n"
+"property.text"
+msgid "Progress"
+msgstr "ความคืบหน้า"
+
+#. EWECA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressPage2\n"
+"property.text"
+msgid "Retrieving the relevant documents:"
+msgstr "กำลังเรียกอ่านเอกสารที่เกี่ยวข้อง:"
+
+#. zTpAx
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressPage3\n"
+"property.text"
+msgid "Converting the documents"
+msgstr "กำลังแปลงเอกสาร"
+
+#. B6PuJ
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressFound\n"
+"property.text"
+msgid "Found:"
+msgstr "พบ:"
+
+#. 9G86q
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ProgressPage5\n"
+"property.text"
+msgid "\"%1 found"
+msgstr "พบ \"%1"
+
+#. GmveL
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"Ready\n"
+"property.text"
+msgid "Finished"
+msgstr "เสร็จสิ้น"
+
+#. yZCLk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SourceDocuments\n"
+"property.text"
+msgid "Source documents"
+msgstr "เอกสารต้นทาง"
+
+#. vDd4X
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"TargetDocuments\n"
+"property.text"
+msgid "Target documents"
+msgstr "เอกสารปลายทาง"
+
+#. VyLKU
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"LogfileSummary\n"
+"property.text"
+msgid "<COUNT> documents converted"
+msgstr "แปลงเอกสารแล้ว <COUNT> ฉบับ"
+
+#. D8KY3
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumInclusiveSubDir\n"
+"property.text"
+msgid "All subdirectories will be taken into account"
+msgstr "ไดเรกทอรีย่อยทั้งหมดจะถูกดำเนินการด้วย"
+
+#. 8Bmz9
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumSaveDokumente\n"
+"property.text"
+msgid "These will be exported to the following directory:"
+msgstr "เอกสารเหล่านี้จะถูกส่งออกไปยังไดเรกทอรีต่อไปนี้:"
+
+#. 8atHD
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"TextImportLabel\n"
+"property.text"
+msgid "Import from:"
+msgstr "นำเข้าจาก:"
+
+#. zpCFk
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"TextExportLabel\n"
+"property.text"
+msgid "Save to:"
+msgstr "บันทึกไปยัง:"
+
+#. C7a2B
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"CreateLogfile\n"
+"property.text"
+msgid "Create log file"
+msgstr "สร้างไฟล์ปูม"
+
+#. pzBG4
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"LogfileHelpText\n"
+"property.text"
+msgid "A log file will be created in your work directory"
+msgstr "จะสร้างไฟล์ปูมในไดเรกทอรีทำงานของคุณ"
+
+#. mDG8Y
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"ShowLogfile\n"
+"property.text"
+msgid "Show log file"
+msgstr "แสดงไฟล์ปูม"
+
+#. 7S3Ct
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSTextDocuments\n"
+"property.text"
+msgid "All Word documents contained in the following directory will be imported:"
+msgstr "เอกสาร Word ทั้งหมดที่อยู่ในไดเรกทอรีต่อไปนี้จะถูกนำเข้า:"
+
+#. iBJo8
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSTableDocuments\n"
+"property.text"
+msgid "All Excel documents contained in the following directory will be imported:"
+msgstr "เอกสาร Excel ทั้งหมดที่อยู่ในไดเรกทอรีต่อไปนี้จะถูกนำเข้า:"
+
+#. kZfUh
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSDrawDocuments\n"
+"property.text"
+msgid "All PowerPoint/Publisher documents contained in the following directory will be imported:"
+msgstr "เอกสาร PowerPoint/Publisher ทั้งหมดที่อยู่ในไดเรกทอรีต่อไปนี้จะถูกนำเข้า:"
+
+#. AEPyE
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSTextTemplates\n"
+"property.text"
+msgid "All Word templates contained in the following directory will be imported:"
+msgstr "แม่แบบ Word ทั้งหมดที่อยู่ในไดเรกทอรีต่อไปนี้จะถูกนำเข้า:"
+
+#. G2vMa
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSTableTemplates\n"
+"property.text"
+msgid "All Excel templates contained in the following directory will be imported:"
+msgstr "แม่แบบ Excel ทั้งหมดที่อยู่ในไดเรกทอรีต่อไปนี้จะถูกนำเข้า:"
+
+#. AEEwA
+#: resources_en_US.properties
+msgctxt ""
+"resources_en_US.properties\n"
+"SumMSDrawTemplates\n"
+"property.text"
+msgid "All PowerPoint templates contained in the following directory will be imported:"
+msgstr "แม่แบบ PowerPoint ทั้งหมดที่อยู่ในไดเรกทอรีต่อไปนี้จะถูกนำเข้า:"

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+    <!--
+    * This file is part of the LibreOffice project.
+    *
+    * This Source Code Form is subject to the terms of the Mozilla Public
+    * License, v. 2.0. If a copy of the MPL was not distributed with this
+    * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+    *
+    -->
+
+    <meta>
+        <topic id="textscalc01func_xlookupxhp" indexer="include" status="PUBLISH">
+            <title id="tit">XLOOKUP Function</title>
+            <filename>/text/scalc/01/func_xlookup.xhp</filename>
+        </topic>
+    </meta>
+
+<body>
+<bookmark branch="hid/SC_HID_FUNC_XLOOKUP_MS" id="bm_id501708280229180" localize="false"/>
+<bookmark branch="index" id="bm_id361708283183878">
+    <bookmark_value>XLOOKUP function</bookmark_value>
+</bookmark>
+<section id="xlookup">
+    <h1 id="hd_id821708279355736"><variable id="h1"><link href="text/scalc/01/func_xlookup.xhp">XLOOKUP</link></variable></h1>
+    <paragraph id="par_id581708279355738" role="paragraph">Searches for a value in an array and returns a reference to a cell or range of cells.</paragraph>
+</section>
+<paragraph role="paragraph" id="par_id631708282151776">XLOOKUP function is a modern and flexible replacement for older functions like <link href="text/scalc/01/04060109.xhp#Section9">VLOOKUP</link>, <link href="text/scalc/01/04060109.xhp#Section17">HLOOKUP</link>, and <link href="text/scalc/01/func_lookup.xhp">LOOKUP</link>. XLOOKUP supports approximate and exact matching, wildcards (* ?) or regular expressions for partial matches, and lookups in vertical or horizontal ranges. XLOOKUP can perform a reverse search and offers a fast binary search option when working with large datasets.</paragraph>
+
+<embed href="text/scalc/01/ful_func.xhp#func_head_syntax"/>
+<paragraph role="code" id="par_id211708281649651">XLOOKUP( [Search criterion] ; Search Array ; Result Array [ ; [ Result if not found ] [ ; [Match Mode] [ ; Search Mode ] ] ] )</paragraph>
+
+<paragraph role="paragraph" id="par_id861708281340704"><emph>Search criterion</emph>: (optional) The value of any type to search for in <emph>Array</emph>. If omitted, XLOOKUP returns blank cells it finds in <emph>Search Array</emph>.</paragraph>
+<paragraph role="paragraph" id="par_id831708281625340"><emph>Search Array</emph>: is the reference of the array to search.  Array must be a 1-dimensional array and must be contained in one sheet only.</paragraph>
+<paragraph role="paragraph" id="par_id241708281629922"><emph>Result Array</emph>: is the reference of the array or range to return.</paragraph>
+<note id="par_id821708357634624">If <emph>Result Array</emph> is a range of cells, the XLOOKUP function must be entered as an <link href="text/scalc/01/04060107.xhp#creating_array_formulas">array formula</link>.</note>
+<paragraph role="paragraph" id="par_id271708281637035"><emph>Result if not found</emph>: a text or cell content to return if the <emph>Lookup</emph> value is not found. If a valid match is not found and <emph>Result if not found</emph> is omitted, the function returns the #N/A error.</paragraph>
+
+<section id="matchmode">
+    <paragraph role="paragraph" id="par_id121708281643207"><emph>Match Mode</emph>: (optional) specifies the match type. Values can be:</paragraph>
+<list type="unordered">
+    <listitem>
+        <paragraph id="par_id111708281542144" role="listitem"><emph>0</emph>: exact match (default). If <emph>Search criterion</emph> value is not found and <emph>Result if not found</emph> text is omitted, then return the #N/A error.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id851708281548335" role="listitem"><emph>-1</emph>: attempt exact match. If <emph>Search criterion</emph> value is not found, then return the next smaller item.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id801708281553430" role="listitem"><emph>1</emph>: attempt exact match. If <emph>Search criterion</emph> value is not found, then return the next larger item.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id881708281558005" role="listitem"><emph>2</emph>: a <link href="text/scalc/guide/wildcards.xhp">wildcard</link> match where characters * (multiple characters), ? (single character), and ~ have special meanings.</paragraph>
+    </listitem>
+    <listitem>
+    <paragraph role="listitem" id="par_id111718970605394"><emph>3</emph>: a <link href="text/shared/01/02100001.xhp">regular expression</link> match.</paragraph>
+    </listitem>
+    </list>
+</section>
+
+<section id="searchmode">
+    <paragraph role="paragraph" id="par_id871708281607313"><emph>Search Mode</emph>: (optional) specifies the search mode to use.</paragraph>
+<list type="unordered">
+    <listitem>
+        <paragraph id="par_id281708281579757" role="listitem"><emph>1</emph>: returns the first occurrence starting from the first item of <emph>Search Array</emph> (default).</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id251708281584285" role="listitem"><emph>-1</emph>: reverse search. Returns the first occurrence starting from the last item of <emph>Search Array</emph>.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id191708281589997" role="listitem"><emph>2</emph>: binary search that relies on <emph>Search Array</emph> being sorted in ascending order. If not sorted, invalid results will be returned.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id561708281595885" role="listitem"><emph>-2</emph>: binary search that relies on <emph>Search Array</emph> being sorted in descending order. If not sorted, invalid results will be returned.</paragraph>
+    </listitem>
+    </list>
+    <warning id="par_id551718627629229"><emph>Match Mode</emph> values 2 and 3 cannot be combined with binary search (<emph>Search Mode</emph> value <emph>2</emph> or <emph>-2</emph>).</warning>
+</section>
+<embed href="text/scalc/01/common_func.xhp#optional_args"/>
+
+<embed href="text/scalc/01/ful_func.xhp#func_head_example"/>
+
+<embed href="text/scalc/01/04060109.xhp#xmpl_periodic_elements"/>
+<paragraph role="paragraph" id="par_id141716739193733"><input>{=XLOOKUP("Atomic Number";A2:A4;A2:DO4)}</input> returns the array</paragraph>
+<table id="tbl_id841716753067380">
+    <tablerow>
+        <tablecell><paragraph id="par_id741716739042699" role="tablecontent">Atomic Number</paragraph></tablecell>
+        <tablecell><paragraph id="par_id261716735499470"  localize="false" role="tablecontent">1</paragraph></tablecell>
+        <tablecell><paragraph id="par_id791716735507557"  localize="false" role="tablecontent">2</paragraph></tablecell>
+        <tablecell><paragraph id="par_id221716735520590"  localize="false" role="tablecontent">3</paragraph></tablecell>
+        <tablecell><paragraph id="par_id351716738989500"  localize="false" role="tablecontent">...</paragraph></tablecell>
+        <tablecell><paragraph id="par_id831716738992540"  localize="false" role="tablecontent">118</paragraph></tablecell>
+    </tablerow>
+</table>
+<paragraph role="paragraph" id="par_id231716739652495"><input>{=XLOOKUP("Helium";B1:DO1;B1:DO4)}</input> returns the array</paragraph>
+<table id="tbl_id691716753111818">
+    <tablerow><tablecell><paragraph id="par_id21716739329244" role="tablecontent">Helium</paragraph></tablecell></tablerow>
+    <tablerow><tablecell><paragraph id="par_id181716739331829"  localize="false" role="tablecontent">He</paragraph></tablecell></tablerow>
+    <tablerow><tablecell><paragraph id="par_id121716739334900"  localize="false" role="tablecontent">2</paragraph></tablecell></tablerow>
+    <tablerow><tablecell><paragraph id="par_id41716739337755"  localize="false" role="tablecontent">4.0026</paragraph></tablecell></tablerow>
+</table>
+
+<paragraph role="paragraph" id="par_id671708356683379"><input>{=XLOOKUP("Kryptonite";B1:DO1;B1:DO4;"Unknown element")}</input> returns the array {"Unknown element","Unknown element","Unknown element","Unknown element"}.</paragraph>
+
+<embed href="text/scalc/01/common_func.xhp#sectiontechinfo"/>
+<embed href="text/scalc/00/avail_release.xhp#24.8"/>
+<embed href="text/scalc/01/common_func.xhp#notODFF"/>
+<paragraph role="paragraph" id="par_id341640870986703" localize="false"><literal>COM.MICROSOFT.XLOOKUP</literal></paragraph>
+<section id="relatedtopics">
+    <paragraph role="paragraph" id="par_id31708365865376" localize="false"><embedvar href="text/scalc/01/func_xmatch.xhp#h1" markup="ignore"/></paragraph>
+    <tip id="par_id701677016751508"><link href="https://wiki.documentfoundation.org/Documentation/Calc_Functions/XLOOKUP">XLOOKUP wiki page</link>.</tip>
+</section>
+</body>
+</helpdocument>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+    <!--
+    * This file is part of the LibreOffice project.
+    *
+    * This Source Code Form is subject to the terms of the Mozilla Public
+    * License, v. 2.0. If a copy of the MPL was not distributed with this
+    * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+    *
+    -->
+
+    <meta>
+        <topic id="menudatacalculate" indexer="include" status="PUBLISH">
+            <title id="tit">Calculate</title>
+            <filename>/text/scalc/01/calculate.xhp</filename>
+        </topic>
+    </meta>
+<body>
+<bookmark id="bm_id931584668179315" branch="hid/.uno:CellContentsMenu" localize="false"/>
+    <section id="calculateheader">
+        <h1 id="hd_id621584668179317"><variable id="h1"><link href="text/scalc/01/calculate.xhp">Calculate</link></variable></h1>
+        <paragraph id="par_id241584668179318" role="paragraph">Commands to calculate formula cells.</paragraph>
+    </section>
+    <section id="howtoget">
+        <embed href="text/scalc/00/00000412.xhp#calculate"/>
+    </section>
+    <embed href="text/scalc/01/06080000.xhp#recalculateheader"/>
+    <embed href="text/scalc/01/recalculate_hard.xhp#recalculate_hard_head"/>
+    <embed href="text/scalc/01/formula2value.xhp#formula2value"/>
+    <embed href="text/scalc/01/06070000.xhp#autocalculate"/>
+</body>
+</helpdocument>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textswritermain0110xml" indexer="include" status="PUBLISH">
+    <title id="tit">Table</title>
+    <filename>/text/swriter/main0110.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+
+<bookmark branch="hid/.uno:TableMenu" id="bm_id1366008" localize="false"/>
+<section id="table">
+<h1 id="par_idN10553"><variable id="h1"><link href="text/swriter/main0110.xhp">Table</link></variable></h1>
+<paragraph id="par_idN10563" role="paragraph"><ahelp hid=".">Shows commands to insert, edit, and delete a table and its elements inside a text document.</ahelp></paragraph>
+</section>
+
+<section id="howtoget">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <switch select="appl">
+    <case select="WRITER">
+      <paragraph role="paragraph" id="par_id381693604855427">Choose <menuitem>Table</menuitem>.</paragraph>
+    </case>
+    <case select="CALC"></case>
+    <default>
+      <paragraph role="paragraph" id="par_id751713467207034">Choose <menuitem>Format - Table</menuitem>.</paragraph>
+    </default>
+  </switch>
+</section>
+
+<switch select="appl">
+  <case select="WRITER">
+    <embed href="text/swriter/01/04150000.xhp#inserttable"/>
+
+    <embed href="text/swriter/01/TableInsertMenu.xhp#insertmenu"/>
+    <embed href="text/swriter/01/TableDeleteMenu.xhp#deletemenu"/>
+    <embed href="text/swriter/01/TableSelectMenu.xhp#selectmenu"/>
+    <embed href="text/swriter/01/TableAutoFitMenu.xhp#table_size_menu"/>
+
+    <embed href="text/shared/01/05100100.xhp#merge_cells"/>
+    <embed href="text/shared/01/05100200.xhp#split_cells"/>
+
+    <embed href="text/swriter/01/05200000.xhp#merge_table"/>
+    <embed href="text/swriter/01/05190000.xhp#split_table"/>
+
+    <embed href="text/shared/01/Protect.xhp#protect"/>
+    <embed href="text/swriter/01/05100400.xhp#unprotect"/>
+
+    <embed href="text/shared/01/AutoFormat.xhp#autoformat"/>
+
+    <embed href="text/shared/01/05020300.xhp#numbersh1"/>
+
+    <embed href="text/swriter/01/TableNumberRecognition.xhp#numberrecognition"/>
+    <embed href="text/swriter/01/HeadingRowsRepeat.xhp#HeadingRowsRepeat"/>
+
+    <embed href="text/swriter/01/RowSplit.xhp#rowsplit"/>
+
+    <embed href="text/swriter/01/TableConvertMenu.xhp#convertmenu"/>
+
+    <embed href="text/swriter/main0214.xhp#formula_bar"/>
+    <embed href="text/swriter/01/06100000.xhp#sorttable"/>
+  </case>
+  <case select="CALC"></case>
+  <case select="IMPRESS">
+    <embed href="text/shared/01/minimal_row_height.xhp#minimal_row_height"/>
+    <embed href="text/shared/01/SetOptimalRowHeight.xhp#optimal_row_height"/>
+    <embed href="text/shared/01/05110600m.xhp#distribute_rows_equally"/>
+    <embed href="text/shared/01/EntireRow.xhp#entire_row"/>
+    <embed href="text/swriter/01/05120400.xhp#insertcolumnsrows"/>
+    <embed href="text/shared/01/DeleteRows.xhp#delete_rows"/>
+
+    <embed href="text/shared/01/minimal_column_width.xhp#minimal_column_width"/>
+    <embed href="text/shared/01/SetOptimalColumnWidth.xhp#optimal_column_width"/>
+    <embed href="text/shared/01/05120600.xhp#distribute_columns_equally"/>
+    <embed href="text/shared/01/EntireColumn.xhp#entire_column"/>
+    <embed href="text/swriter/01/05120400.xhp#insertcolumnsrows"/>
+    <embed href="text/shared/01/DeleteColumns.xhp#delete_columns"/>
+
+    <embed href="text/shared/01/05100100.xhp#merge_cells"/>
+    <embed href="text/shared/01/05100200.xhp#split_cells"/>
+    <embed href="text/shared/01/DeleteTable.xhp#delete_table"/>
+    <embed href="text/shared/01/SelectTable.xhp#select_table"/>
+  </case>
+  <case select="DRAW">
+    <embed href="text/shared/01/minimal_row_height.xhp#minimal_row_height"/>
+    <embed href="text/shared/01/SetOptimalRowHeight.xhp#optimal_row_height"/>
+    <embed href="text/shared/01/05110600m.xhp#distribute_rows_equally"/>
+    <embed href="text/shared/01/EntireRow.xhp#entire_row"/>
+    <embed href="text/swriter/01/05120400.xhp#insertcolumnsrows"/>
+    <embed href="text/shared/01/DeleteRows.xhp#delete_rows"/>
+
+    <embed href="text/shared/01/minimal_column_width.xhp#minimal_column_width"/>
+    <embed href="text/shared/01/SetOptimalColumnWidth.xhp#optimal_column_width"/>
+    <embed href="text/shared/01/05120600.xhp#distribute_columns_equally"/>
+    <embed href="text/shared/01/EntireColumn.xhp#entire_column"/>
+    <embed href="text/swriter/01/05120400.xhp#insertcolumnsrows"/>
+    <embed href="text/shared/01/DeleteColumns.xhp#delete_columns"/>
+
+    <embed href="text/shared/01/05100100.xhp#merge_cells"/>
+    <embed href="text/shared/01/05100200.xhp#split_cells"/>
+    <embed href="text/shared/01/DeleteTable.xhp#delete_table"/>
+    <embed href="text/shared/01/SelectTable.xhp#select_table"/>
+  </case>
+</switch>
+<h2 id="par_idN10617"><link href="text/swriter/01/05090000.xhp">Properties</link></h2>
+<embed href="text/swriter/01/05090000.xhp#tabletext"/>
+</body>
+</helpdocument>

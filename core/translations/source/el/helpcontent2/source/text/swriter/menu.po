@@ -1,0 +1,665 @@
+#. extracted from helpcontent2/source/text/swriter/menu
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-05-07 13:02+0200\n"
+"PO-Revision-Date: 2026-01-13 15:30+0000\n"
+"Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
+"Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-master/textswritermenu/el/>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1462887506.000000\n"
+
+#. acMEH
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Content Control Submenu"
+msgstr "Υπομενού Έλεγχος περιεχομένου"
+
+#. JGVVJ
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"bm_id901672741515183\n"
+"help.text"
+msgid "<bookmark_value>content control</bookmark_value><bookmark_value>checkbox;content control</bookmark_value><bookmark_value>date;content control</bookmark_value><bookmark_value>combo box;content control</bookmark_value><bookmark_value>drop-down list;content control</bookmark_value><bookmark_value>text;content control</bookmark_value><bookmark_value>rich text;content control</bookmark_value>"
+msgstr "<bookmark_value>έλεγχος περιεχομένου</bookmark_value><bookmark_value>πλαίσιο ελέγχου; έλεγχος περιεχομένου</bookmark_value><bookmark_value>ημερομηνία; έλεγχος περιεχομένου</bookmark_value><bookmark_value>σύνθετο πλαίσιο; έλεγχος περιεχομένου</bookmark_value><bookmark_value>αναπτυσσόμενος κατάλογος; έλεγχος περιεχομένου</bookmark_value><bookmark_value>κείμενο; έλεγχος περιεχομένου</bookmark_value><bookmark_value>εμπλουτισμένο κείμενο; έλεγχος περιεχομένου</bookmark_value>"
+
+#. St8Ci
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id591672690941663\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/swriter/menu/contentcontrol_submenu.xhp\">Content Controls</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/swriter/menu/contentcontrol_submenu.xhp\">Στοιχεία ελέγχου περιεχομένου</link></variable>"
+
+#. zbRAP
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_idN10560\n"
+"help.text"
+msgid "A content control is a placeholder text in which the current content will be replaced when clicking into the control. Content controls are individual controls to  add and customize for use in templates, forms, and documents. Content controls can provide instructional text and set controls to disappear when users type in their own text."
+msgstr "Ένα στοιχείο ελέγχου περιεχομένου είναι ένα κείμενο κράτησης θέσης στο οποίο το τρέχον περιεχόμενο θα αντικατασταθεί όταν πατήσετε στο στοιχείο ελέγχου. Τα στοιχεία ελέγχου περιεχομένου είναι μεμονωμένα στοιχεία ελέγχου για προσθήκη και προσαρμογή για χρήση σε πρότυπα, φόρμες και έγγραφα. Τα στοιχεία ελέγχου περιεχομένου μπορούν να παρέχουν κείμενο οδηγιών και να ρυθμίζουν τα στοιχεία ελέγχου ώστε να εξαφανίζονται όταν οι χρήστες πληκτρολογούν το δικό τους κείμενο."
+
+#. rAqzZ
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id771672704361268\n"
+"help.text"
+msgid "Content controls have many properties and are similar to the legacy controls but can be easier to work with and format."
+msgstr "Τα στοιχεία ελέγχου περιεχομένου έχουν πολλές ιδιότητες και είναι παρόμοια με τα στοιχεία ελέγχου παλαιού τύπου, αλλά μπορεί να είναι ευκολότερο να εργαστείτε με αυτά και να τα μορφοποιήσετε."
+
+#. GBJMn
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id401672693292708\n"
+"help.text"
+msgid "Rich Text"
+msgstr "Εμπλουτισμένο κείμενο"
+
+#. SFU7D
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id71672703856991\n"
+"help.text"
+msgid "Contains custom formatted text or other items, such as tables, pictures, or other content controls."
+msgstr "Περιέχει προσαρμοσμένο μορφοποιημένο κείμενο, ή άλλα στοιχεία, όπως πίνακες, εικόνες ή άλλα στοιχεία ελέγχου περιεχομένου."
+
+#. 2ELAt
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id71672693297394\n"
+"help.text"
+msgid "Plain Text"
+msgstr "Απλό κείμενο"
+
+#. enpKC
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id681672703870033\n"
+"help.text"
+msgid "A plain text content control is limited to plain text in a single or multiple paragraphs. Unlike rich text, it cannot contain other items, such as tables, pictures, or other content controls."
+msgstr "Ένα στοιχείο ελέγχου περιεχομένου απλού κειμένου περιορίζεται σε απλό κείμενο σε μία ή πολλές παραγράφους. Σε αντίθεση με το εμπλουτισμένο κείμενο, δεν μπορεί να περιέχει άλλα στοιχεία, όπως πίνακες, εικόνες ή άλλα στοιχεία ελέγχου περιεχομένου."
+
+#. 2c6gz
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id571672693302104\n"
+"help.text"
+msgid "Picture"
+msgstr "Εικόνα"
+
+#. jUK5q
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id241672703879416\n"
+"help.text"
+msgid "Contains a single image anchored <link href=\"text/swriter/guide/anchor_object.xhp\"><emph>as-character</emph></link>. Clicking on the content control opens the file open dialog to provide a replacement for the picture placeholder."
+msgstr "Περιέχει μια μεμονωμένη εικόνα αγκυρωμένη <link href=\"text/swriter/guide/anchor_object.xhp\"><emph>ως χαρακτήρα</emph></link>. Πατώντας στο στοιχείο ελέγχου περιεχομένου ανοίγει το παράθυρο διαλόγου ανοίγματος αρχείου για να αντικατασταθεί το σύμβολο κράτησης θέσης εικόνας."
+
+#. C3ayW
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id831672693306132\n"
+"help.text"
+msgid "Check Box"
+msgstr "Πλαίσιο ελέγχου"
+
+#. GAXmE
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id581672703896121\n"
+"help.text"
+msgid "Contains a single check box character to interact with. Clicking on the content control toggles the checked state of the check box."
+msgstr "Περιέχει έναν χαρακτήρα μοναδικού πλαισίου ελέγχου για αλληλεπίδραση. Πατώντας στο στοιχείο ελέγχου περιεχομένου αλλάζει η επιλεγμένη κατάσταση του πλαισίου ελέγχου."
+
+#. xjWQb
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id711672693310034\n"
+"help.text"
+msgid "Combo Box"
+msgstr "Σύνθετο πλαίσιο"
+
+#. 3XBQd
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id341672703909353\n"
+"help.text"
+msgid "Contains a drop-down selection of list entries that you can select and text box that you can edit directly."
+msgstr "Περιέχει μια αναπτυσσόμενη επιλογή από καταχωρήσεις καταλόγου που μπορείτε να επιλέξετε και πλαίσιο κειμένου που μπορείτε να επεξεργαστείτε απευθείας."
+
+#. PGCKF
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id731672693314411\n"
+"help.text"
+msgid "Drop-down List"
+msgstr "Αναπτυσσόμενος κατάλογος"
+
+#. LJyny
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id741672703915281\n"
+"help.text"
+msgid "Contains a drop-down button control with a list of display-text and value pairs. Unlike a combo box, the drop-down list does not let users enter a custom input."
+msgstr "Περιέχει ένα αναπτυσσόμενο πλήκτρο ελέγχου με έναν κατάλογο ζευγών κειμένου εμφάνισης και τιμών. Σε αντίθεση με ένα σύνθετο πλαίσιο, ο αναπτυσσόμενος κατάλογος δεν επιτρέπει στους χρήστες να εισάγουν μια προσαρμοσμένη είσοδο."
+
+#. zvdaS
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id191672693319354\n"
+"help.text"
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#. pEBdA
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id841672703921231\n"
+"help.text"
+msgid "Contains a calendar control. Limits text to a single paragraph."
+msgstr "Περιέχει στοιχείο ελέγχου ημερολογίου. Περιορίζει το κείμενο σε μία παράγραφο."
+
+#. k5UDL
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Reference (Edit)"
+msgstr "Αναφορά (Επεξεργασία)"
+
+#. MKMWr
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"hd_id1001603128268578\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/edit_reference_submenu.xhp\">Reference</link>"
+msgstr "<link href=\"text/swriter/menu/edit_reference_submenu.xhp\">Αναφορά</link>"
+
+#. 6LFFX
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"par_id411603128291771\n"
+"help.text"
+msgid "A submenu that offers possibilities to edit footnotes, endnotes, index entries, and bibliography entries."
+msgstr "Ένα υπομενού που προσφέρει δυνατότητες επεξεργασίας υποσημειώσεων, σημειώσεων τέλους, καταχωρήσεων ευρετηρίου και εγγραφών βιβλιογραφίας."
+
+#. 4WjGu
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"hd_id3147302\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/02150000.xhp\">Footnote or Endnote</link>"
+msgstr "<link href=\"text/swriter/01/02150000.xhp\">Υποσημείωση ή Σημείωση τέλους</link>"
+
+#. Q5YzA
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"hd_id3147327\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04120100.xhp\">Index Entry</link>"
+msgstr "<link href=\"text/swriter/01/04120100.xhp\">Καταχώρηση ευρετηρίου</link>"
+
+#. b6WK8
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"par_id561673359242198\n"
+"help.text"
+msgid "Edits the selected index entry."
+msgstr "Επεξεργάζεται την επιλεγμένη καταχώρηση ευρετηρίου."
+
+#. p7mQW
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"hd_id3147352\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/02130000.xhp\">Bibliography Entry</link>"
+msgstr "<link href=\"text/swriter/01/02130000.xhp\">Καταχώρηση βιβλιογραφίας</link>"
+
+#. tP5yN
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"tit\n"
+"help.text"
+msgid "Footnote and Endnote"
+msgstr "Υποσημειώση και σημείωση τέλους"
+
+#. FKmED
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"hd_id03042016113344773\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/insert_footnote_endnote.xhp\">Footnote and Endnote</link>"
+msgstr "<link href=\"text/swriter/menu/insert_footnote_endnote.xhp\">Υποσημείωση και σημείωση τέλους</link>"
+
+#. Nn9aD
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"par_id030420161136126396\n"
+"help.text"
+msgid "<ahelp hid=\".\">The menu contains commands to insert a footnote or endnote with or without additional user interaction.</ahelp>"
+msgstr "<ahelp hid=\".\">Το μενού περιέχει εντολές για να εισάγετε μια υποσημείωση ή σημείωση τέλους με ή χωρίς πρόσθετη αλληλεπίδραση του χρήστη.</ahelp>"
+
+#. DAD9F
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"par_id03042016113613789\n"
+"help.text"
+msgid "Footnote"
+msgstr "Υποσημείωση"
+
+#. DiRbq
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"par_id030420161138373075\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InsertFootnote\">Insert a footnote at the current cursor position without a prompt.</ahelp>"
+msgstr "<ahelp hid=\".uno:InsertFootnote\">Εισάγει μια υποσημείωση στην τρέχουσα θέση του δρομέα χωρίς προτροπή.</ahelp>"
+
+#. GsFrA
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"hd_id030420161138377837\n"
+"help.text"
+msgid "Endnote"
+msgstr "Σημείωση τέλους"
+
+#. bjm2B
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"par_id030420161138378865\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InsertEndnote\">Insert a endnote at the current cursor position without a prompt.</ahelp>"
+msgstr "<ahelp hid=\".uno:InsertEndnote\">Εισάγει μια σημείωση τέλους στην τρέχουσα θέση του δρομέα χωρίς προτροπή.</ahelp>"
+
+#. 2oFcD
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"hd_id3147231\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04030000.xhp\">Footnote or Endnote</link>"
+msgstr "<link href=\"text/swriter/01/04030000.xhp\">Υποσημείωση ή τελική σημείωση</link>"
+
+#. VGa5M
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"tit\n"
+"help.text"
+msgid "Frame"
+msgstr "Πλαίσιο"
+
+#. k8vhB
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"hd_id030720160601535384\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/insert_frame.xhp\">Insert Frame</link>"
+msgstr "<link href=\"text/swriter/menu/insert_frame.xhp\">Εισαγωγή πλαισίου</link>"
+
+#. LZL3Y
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"par_id030720160603138925\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu contains both interactive and non-interactive means of inserting a frame.</ahelp>"
+msgstr "<ahelp hid=\".\">Αυτό το μενού περιέχει και διαδραστικά και μη διαδραστικά μέσα εισαγωγής πλαισίου.</ahelp>"
+
+#. 2924M
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"par_id811689500121312\n"
+"help.text"
+msgid "Choose <menuitem>Insert - Frame</menuitem>."
+msgstr "Επιλέξτε <menuitem>Εισαγωγή - Πλαίσιο</menuitem>."
+
+#. Hq4D6
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"hd_id030720160605268360\n"
+"help.text"
+msgid "Frame Interactively"
+msgstr "Διαδραστικό πλαίσιο"
+
+#. NsCBf
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"par_id030720160605261333\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InsertFrameInteract\">Insert a frame by drawing its shape with the mouse cursor.</ahelp>"
+msgstr "<ahelp hid=\".uno:InsertFrameInteract\">Εισάγει ένα πλαίσιο σχεδιάζοντας το σχήμα του με τον δρομέα του ποντικιού.</ahelp>"
+
+#. BzkFd
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"hd_id3150951\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04160500.xhp\">Floating Frame</link>"
+msgstr "<link href=\"text/shared/01/04160500.xhp\">Αιωρούμενο πλαίσιο</link>"
+
+#. fC2Td
+#: insert_header_footer.xhp
+msgctxt ""
+"insert_header_footer.xhp\n"
+"tit\n"
+"help.text"
+msgid "Header and Footer"
+msgstr "Κεφαλίδα και υποσέλιδο"
+
+#. 4Gubu
+#: insert_header_footer.xhp
+msgctxt ""
+"insert_header_footer.xhp\n"
+"hd_id030720160441573285\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/insert_header_footer.xhp\">Header and Footer</link>"
+msgstr "<link href=\"text/swriter/menu/insert_header_footer.xhp\">Κεφαλίδα και υποσέλιδο</link>"
+
+#. RV7vJ
+#: insert_header_footer.xhp
+msgctxt ""
+"insert_header_footer.xhp\n"
+"par_id030720160442296603\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu includes commands to add and remove page headers and footers.</ahelp>"
+msgstr "<ahelp hid=\".\">Αυτό το υπομενού περιλαμβάνει εντολές προσθήκης και αφαίρεσης κεφαλίδων και υποσέλιδων σελίδας.</ahelp>"
+
+#. tg8kt
+#: insert_header_footer.xhp
+msgctxt ""
+"insert_header_footer.xhp\n"
+"par_id421690025310002\n"
+"help.text"
+msgid "Choose <menuitem>Insert - Header and Footer</menuitem>."
+msgstr "Επιλέξτε <menuitem>Εισαγωγή - Κεφαλίδα και υποσέλιδο</menuitem>."
+
+#. Rrvyb
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Page Layout Menu"
+msgstr "Μενού διάταξης σελίδας"
+
+#. Wa3wg
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"hd_id401746390478568\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/swriter/menu/pageLayoutMenu.xhp\">Page Layout Menu</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/swriter/menu/pageLayoutMenu.xhp\">Μενού διάταξης σελίδας</link></variable>"
+
+#. R6c2W
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id301746390478571\n"
+"help.text"
+msgid "Opens a submenu to select the page layout displayed in the workspace."
+msgstr "Ανοίγει ένα υπομενού για να επιλέξετε τη διάταξη σελίδας που εμφανίζεται στον χώρο εργασίας."
+
+#. Biggi
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id811746391318561\n"
+"help.text"
+msgid "Choose <menuitem>View - Page Layout</menuitem>."
+msgstr "Επιλέξτε <menuitem>Προβολή - Διάταξη σελίδας</menuitem>."
+
+#. Jv7jB
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id181746392923676\n"
+"help.text"
+msgid "Click on one of the 3 icons on the <menuitem>View Layout</menuitem> area."
+msgstr "Πατήστε σε ένα από τα 3 εικονίδια στην περιοχή <menuitem>Προβολή διάταξης</menuitem>."
+
+#. 9C4Du
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"hd_id881746391264324\n"
+"help.text"
+msgid "Single Page per Row"
+msgstr "Μία σελίδα ανά σειρά"
+
+#. 6KSCi
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id21746392515474\n"
+"help.text"
+msgid "<image src=\"cmd/lc_showsinglepage.svg\" id=\"img_id641746392515477\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id551746392515479\">Icon Single Page per Row</alt></image>"
+msgstr "<image src=\"cmd/lc_showsinglepage.svg\" id=\"img_id641746392515477\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id551746392515479\">Εικονίδιο Μία σελίδα ανά γραμμή</alt></image>"
+
+#. JTY5w
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id971746392515484\n"
+"help.text"
+msgid "Single Page per Row"
+msgstr "Μία σελίδα ανά σειρά"
+
+#. szHSo
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id361746392000871\n"
+"help.text"
+msgid "Display one page per row, independent of the zoom factor or the width of the workspace."
+msgstr "Εμφάνιση μίας σελίδας ανά γραμμή, ανεξάρτητα από τον συντελεστή εστίασης ή το πλάτος του χώρου εργασίας."
+
+#. bD7MJ
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"hd_id21746391277506\n"
+"help.text"
+msgid "Multiple Pages per Row"
+msgstr "Πολλές σελίδες ανά σειρά"
+
+#. DKjDB
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id401746392458352\n"
+"help.text"
+msgid "<image src=\"cmd/lc_showtwopages.svg\" id=\"img_id41746392458354\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id501746392458356\">Icon Multiple Pages per Row</alt></image>"
+msgstr "<image src=\"cmd/lc_showtwopages.svg\" id=\"img_id41746392458354\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id501746392458356\">Εικονίδιο πολλαπλών σελίδων ανά σειρά</alt></image>"
+
+#. ttGfQ
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id941746392458360\n"
+"help.text"
+msgid "Multiple Pages per Row"
+msgstr "Πολλαπλές σελίδες ανά σειρά"
+
+#. LrjJN
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id321746391995839\n"
+"help.text"
+msgid "Displays multiple pages per row. The number of pages displayed in a row depends on the zoom factor and the width of the workspace."
+msgstr "Εμφανίζει πολλές σελίδες ανά σειρά. Ο αριθμός των σελίδων που εμφανίζονται σε μια σειρά εξαρτάται από τον συντελεστή εστίασης και το πλάτος του χώρου εργασίας."
+
+#. u8GVX
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"hd_id311746391283488\n"
+"help.text"
+msgid "Book View"
+msgstr "Προβολή βιβλίου"
+
+#. md644
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id901746392353176\n"
+"help.text"
+msgid "<image src=\"cmd/lc_showbookview.svg\" id=\"img_id711746392353178\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id1001746392353180\">Icon Book View</alt></image>"
+msgstr "<image src=\"cmd/lc_showbookview.svg\" id=\"img_id711746392353178\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id1001746392353180\">Εικονίδιο Προβολής βιβλίου</alt></image>"
+
+#. B5oVR
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id331746392353185\n"
+"help.text"
+msgid "Book View"
+msgstr "Προβολή βιβλίου"
+
+#. XgEG2
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id91746391985766\n"
+"help.text"
+msgid "Displays two pages per row, even numbered pages on the left and odd numbered pages on the right."
+msgstr "Εμφανίζει δύο σελίδες ανά σειρά, τις σελίδες με ζυγό αριθμό στα αριστερά και τις σελίδες με μονό αριθμό στα δεξιά."
+
+#. cSY5i
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"tit\n"
+"help.text"
+msgid "More Breaks (submenu)"
+msgstr "Περισσότερες αλλαγές (υπομενού)"
+
+#. o8qyU
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"hd_id651601651730204\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/submenu_more_breaks.xhp\">More Breaks</link>"
+msgstr "<link href=\"text/swriter/menu/submenu_more_breaks.xhp\">Περισσότερες αλλαγές</link>"
+
+#. CLUjA
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"par_id911601651828340\n"
+"help.text"
+msgid "<ahelp hid=\".\">Submenu with additional row, column, and page breaks</ahelp>"
+msgstr "<ahelp hid=\".\">Υπομενού με πρόσθετη γραμμή, στήλη και αλλαγές σελίδας</ahelp>"
+
+#. t534N
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"hd_id41601652439817\n"
+"help.text"
+msgid "Insert Manual Row Break"
+msgstr "Εισαγωγή χειροκίνητης αλλαγής γραμμής"
+
+#. AEbaf
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"par_id41601888013000\n"
+"help.text"
+msgid "<image src=\"cmd/lc_insertlinebreak.svg\" id=\"img_id281601888013000\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id381601888013000\">Manual Row Break Icon</alt></image>"
+msgstr "<image src=\"cmd/lc_insertlinebreak.svg\" id=\"img_id281601888013000\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id381601888013000\">Εικονίδιο χειροκίνητης αλλαγής γραμμής</alt></image>"
+
+#. QGmjC
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"bm_id651604885957774\n"
+"help.text"
+msgid "<bookmark_value>text documents; inserting column breaks</bookmark_value><bookmark_value>column breaks; inserting</bookmark_value><bookmark_value>inserting; manual column breaks</bookmark_value><bookmark_value>manual column breaks</bookmark_value>"
+msgstr "<bookmark_value>έγγραφα κειμένου; εισαγωγή αλλαγών στήλης</bookmark_value><bookmark_value>αλλαγές στήλης; εισαγωγή</bookmark_value><bookmark_value>εισαγωγή; χειροκίνητες αλλαγές στήλης</bookmark_value><bookmark_value>χειροκίνητες αλλαγές στήλης</bookmark_value>"
+
+#. XBU67
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"hd_id531601652875225\n"
+"help.text"
+msgid "Insert Manual Column Break"
+msgstr "Εισαγωγή χειροκίνητης αλλαγής στήλης"
+
+#. jBj9E
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"par_id121601888786076\n"
+"help.text"
+msgid "<image src=\"cmd/lc_insertcolumnbreak.svg\" id=\"img_id851601888786076\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id881601888786076\">Manual Column Break Icon</alt></image>"
+msgstr "<image src=\"cmd/lc_insertcolumnbreak.svg\" id=\"img_id851601888786076\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id881601888786076\">Εικονίδιο χειροκίνητης αλλαγής στήλης</alt></image>"
+
+#. TECBj
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"hd_id281601654787535\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04010000.xhp\">Manual Break</link>"
+msgstr "<link href=\"text/swriter/01/04010000.xhp\">Χειροκίνητη αλλαγή</link>"
+
+#. XACTx
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"par_id621601889272427\n"
+"help.text"
+msgid "<image src=\"cmd/lc_insertbreak.svg\" id=\"img_id461601889272427\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id31601889272427\">Manual Break icon</alt></image>"
+msgstr "<image src=\"cmd/lc_insertbreak.svg\" id=\"img_id461601889272427\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id31601889272427\">Εικονίδιο χειροκίνητης αλλαγής</alt></image>"

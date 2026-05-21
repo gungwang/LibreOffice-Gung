@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textswriter0000000401xml" indexer="exclude" status="PUBLISH">
+<title id="tit">File Menu</title>
+<filename>/text/swriter/00/00000401.xhp</filename>
+</topic>
+</meta>
+<body>
+<h1 id="hd_id3149499">File Menu</h1>
+<paragraph role="paragraph" id="par_id3154487"><variable id="exportdoc">Menu <emph>File - Export</emph>
+</variable></paragraph>
+
+<section id="sendenstarimpress">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3151242">Choose <menuitem>File - Send - Outline to Presentation</menuitem></paragraph>
+</section>
+<section id="sendenclipboard">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3153249">Choose <menuitem>File - Send - Outline to Clipboard</menuitem></paragraph>
+</section>
+<section id="sendenautoabstract">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3146962">Choose <menuitem>File - Send - Create AutoAbstract</menuitem></paragraph>
+</section>
+
+<section id="sendenpraeser">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3156397">Choose <menuitem>File - Send - AutoAbstract to Presentation</menuitem></paragraph>
+	</section>
+
+<section id="html">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3147404">Choose <menuitem>File - Send - Create HTML Document</menuitem></paragraph>
+</section>
+
+<section id="mail_merge">
+<paragraph role="paragraph" id="par_id3149350">Insert at least one address database field into a text document, then start printing the document. Answer "Yes" to the question whether you want to print a form letter.<comment>i80170</comment></paragraph>
+</section>
+<section id="symail_merge">
+<table id="tbl_id3149877">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3083448">
+<image id="img_id3083452" src="cmd/lc_mergedialog.svg" width="1cm" height="1cm"><alt id="alt_id3083452">Icon Mail Merge</alt>
+	</image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3149025">Mail Merge</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+</body>
+</helpdocument>

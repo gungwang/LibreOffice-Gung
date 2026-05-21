@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+    <!--
+    * This file is part of the LibreOffice project.
+    *
+    * This Source Code Form is subject to the terms of the Mozilla Public
+    * License, v. 2.0. If a copy of the MPL was not distributed with this
+    * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+    *
+    * This file incorporates work covered by the following license notice:
+    *
+    *   Licensed to the Apache Software Foundation (ASF) under one or more
+    *   contributor license agreements. See the NOTICE file distributed
+    *   with this work for additional information regarding copyright
+    *   ownership. The ASF licenses this file to you under the Apache
+    *   License, Version 2.0 (the "License"); you may not use this file
+    *   except in compliance with the License. You may obtain a copy of
+    *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+    -->
+
+    <meta>
+        <topic id="textscalc0000000412xml" indexer="exclude" status="PUBLISH">
+            <title id="tit">Data Menu</title>
+            <filename>/text/scalc/00/00000412.xhp</filename>
+        </topic>
+    </meta>
+    <body>
+    <h1 id="hd_id3145136">Data Menu</h1>
+
+    <section id="text2columns">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id8366954">Choose <menuitem>Data - Text to Columns</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id671704353941295">Choose <menuitem>Data - Text to Columns</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id771704354060226">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Text to Columns</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id451704354128299">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id231704354128300" role="paragraph"><image src="cmd/lc_texttocolumns.svg" id="img_id601704354128301" width="1cm"  height="1cm"><alt id="alt_id471704354128302">Icon Text to Columns</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id11704354128304" role="paragraph">Text to Columns</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="definerange">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3147399"><variable id="dbrbf">Choose <emph>Data - Define Range</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id491703673711439">Choose <menuitem>Data</menuitem> - <menuitem>Define Range</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id321703673716748">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Define Range</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id651703673736936">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id691703673736937" role="paragraph"><image src="cmd/lc_definedbname.svg" id="img_id841703673736938" width="1cm"  height="1cm"><alt id="alt_id221703673736939">Icon Define Range</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id131703673736941" role="paragraph">Define Range</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="selectrange">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3145345"><variable id="dbrba">Choose <emph>Data - Select Range</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id621703673870509">Choose <menuitem>Data - Select Range</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id261703673873605">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Select Range</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id671703673891812">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id651703673891813" role="paragraph"><image src="cmd/lc_selectdb.svg" id="img_id1001703673891814" width="1cm"  height="1cm"><alt id="alt_id291703673891815">Icon Select Range</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id71703673891816" role="paragraph">Select Range</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="sort">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3150443"><variable id="dnsrt">Choose <emph>Data - Sort...</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id871703614487983">Choose <menuitem>Data - Sort</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id171703614533423">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Sort</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id551703614720322">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id701703614720324" role="paragraph"><image src="cmd/lc_datasort.svg" id="img_id171703614720325" width="1cm"  height="1cm"><alt id="alt_id321703614720326">Icon Sort</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id841703614720328" role="paragraph">Sort</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="handleduplicaterecords">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id291725983812933"><variable id="duplicaterecordsdlg">Choose <emph>Data - Duplicates...</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id771742304991104">Choose <emph>Data - Duplicates</emph>.</paragraph>
+    </section>
+
+    <section id="datasortascending1">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id641584647437810"><variable id="datasortascending">Choose <menuitem>Data - Sort Ascending</menuitem></variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id51703615084612">Choose <menuitem>Data - Sort Ascending</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id421703615080492">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Sort Ascending</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id481703615010039">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id881703615010041" role="paragraph"><image src="cmd/lc_sortascending.svg" id="img_id431703615010042" width="1cm"  height="1cm"><alt id="alt_id861703615010043">Icon Sort Ascending</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id741703615010044" role="paragraph">Sort Ascending</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="datasortdescending1">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id711584647447316"><variable id="datasortdescending">Choose <menuitem>Data - Sort Descending</menuitem></variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id381703615221123">Choose <menuitem>Data - Sort Descending</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id731703615224099">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Sort Descending</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id581703615261055">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id531703615261057" role="paragraph"><image src="cmd/lc_sortdescending.svg" id="img_id51703615261058" width="1cm"  height="1cm"><alt id="alt_id451703615261059">Icon Sort Descending</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id401703615261060" role="paragraph">Sort Descending</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="sort_criteria">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3148491">Choose <emph>Data - Sort - Sort Criteria</emph> tab.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id811765674974680">On the <menuitem>Data</menuitem> tab, choose <menuitem>Sort</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id231765675002662">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id61765675002662" role="paragraph"><image src="cmd/lc_datasort.svg" id="img_id851765675002662" width="1cm"  height="1cm"><alt id="alt_id981765675002662">Icon Sort</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id541765675002662" role="paragraph">Sort</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+        <section id="sysort_criteria">
+            <section id="sortascending">
+                <table id="tbl_id3156023">
+                    <tablerow>
+                        <tablecell>
+                            <paragraph role="paragraph" id="par_id3148663">
+                                <image id="img_id3150543" src="cmd/sc_sortup.png" width="1cm" height="1cm"><alt id="alt_id3150543">Icon Sort Ascending</alt></image>
+                            </paragraph>
+                        </tablecell>
+                        <tablecell>
+                            <paragraph role="paragraph" id="par_id3150767">Sort Ascending</paragraph>
+                        </tablecell>
+                    </tablerow>
+                </table>
+            </section>
+                <section id="sortdescending">
+                    <table id="tbl_id3256023">
+                        <tablerow>
+                            <tablecell>
+                                <paragraph role="paragraph" id="par_id3153969">
+                                    <image id="img_id3125863" src="cmd/sc_sortdown.png" width="1cm" height="1cm"><alt id="alt_id3125863">Icon Sort Descending</alt></image>
+                                </paragraph>
+                            </tablecell>
+                            <tablecell>
+                                <paragraph role="paragraph" id="par_id3145364">Sort Descending</paragraph>
+                            </tablecell>
+                        </tablerow>
+                    </table>
+                </section>
+            </section>
+
+
+        <section id="dnstot1">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id3146984"><variable id="dnstot">Choose <emph>Data - Sort - Options</emph> tab.</variable></paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id621762376602839">Choose <menuitem>Data - Sort - Options</menuitem> tab.</paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+            <table id="tab_id151762376647500">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id951762376647500" role="paragraph"><image src="cmd/lc_datasort.svg" id="img_id31762376647500" width="1cm"  height="1cm"><alt id="alt_id581762376647500">Icon Sort</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id241762376647500" role="paragraph">Sort, then Options tab.</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+
+    <section id="filtermenu">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3155308"><variable id="dnftr">Choose <emph>Data - More Filters</emph>.</variable></paragraph>
+    </section>
+
+    <section id="autofilter">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3148646">Choose <emph>Data - AutoFilter</emph>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id541703617143126">Choose <menuitem>Data - AutoFilter</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id751703617148566">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>AutoFilter</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syautofilter">
+            <table id="tbl_id3155418">
+                <tablerow>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id3145799">
+                            <image id="img_id3149413" src="cmd/lc_datafilterautofilter.svg" width="1cm" height="1cm"><alt id="alt_id3149413">Icon Autofilter</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id3149401">AutoFilter</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id61703617236607"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + L</keycode></paragraph>
+    </section>
+
+    <section id="advancedfilter">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3156278"><variable id="dnfspz">Choose <emph>Data - More Filters - Advanced Filter...</emph> .</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id231703619502524">Choose <menuitem>Data - Advanced Filter</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id611703619507923">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Advanced Filter</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id41703619531301">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id491703619531302" role="paragraph"><image src="cmd/lc_datafilterspecialfilter.svg" id="img_id41703619531303" width="1cm"  height="1cm"><alt id="alt_id451703619531304">Icon Advanced Filter</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id771703619531306" role="paragraph">Advanced Filter</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="filter_options">
+        <paragraph role="paragraph" id="par_id3153764">Choose <emph>Data - More Filters - Standard Filter... - Options</emph> label.</paragraph>
+        <paragraph role="paragraph" id="par_id3155444">Choose <emph>Data - More Filters - Advanced Filter... - Options</emph> label.</paragraph>
+    </section>
+    <section id="reset_filter">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3156382">Choose <emph>Data - More Filters - Reset Filter</emph>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id661703622352347">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Reset Filter</menuitem>.</paragraph>
+    </section>
+
+    <section id="hideautofilter">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3152778"><variable id="dnaftas">Choose <menuitem>Data - More Filters - Hide AutoFilter</menuitem>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id541703623051905">Choose <menuitem>Data - Hide AutoFilter</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id121703622992207">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Hide AutoFilter</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id91703623095338">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id631703623095339" role="paragraph"><image src="cmd/lc_removefiltersort.svg" id="img_id981703623095340" width="1cm"  height="1cm"><alt id="alt_id261703623095341">Icon Hide AutoFilter</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id351703623095343" role="paragraph">Hide AutoFilter</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="subtotals_menu">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3166424"><variable id="dntegs">Choose <emph>Data - Subtotals</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id231704304474727">Choose <menuitem>Data - Subtotals</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id791704304691703">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Subtotals</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id361704304642911">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id601704304642912" role="paragraph"><image src="cmd/lc_datasubtotals.svg" id="img_id161704304642913" width="1cm"  height="1cm"><alt id="alt_id281704304642915">Icon Subtotals</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id141704304642917" role="paragraph">Subtotals</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="1st2nd3rd">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3154574"><variable id="dntezd">Choose <emph>Data - Subtotals - 1st, 2nd, 3rd Group</emph> tabs.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id221704305332605">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Subtotals - 1st, 2nd or 3rd Group</menuitem> tabs.</paragraph>
+    </section>
+
+    <section id="subtotoptions">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3151277"><variable id="dntopi">Choose <emph>Data - Subtotals - Options</emph> tab.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id431704305670112">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Subtotals - Options</menuitem> tab.</paragraph>
+    </section>
+
+    <section id="validity">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3145133"><variable id="datengueltig">Choose <emph>Data - Validity</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id941704298058952">Choose <menuitem>Data - Validity</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id161704298115623">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Validity</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id961704298143024">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id821704298143026" role="paragraph"><image src="cmd/lc_validation.svg" id="img_id561704298143028" width="1cm"  height="1cm"><alt id="alt_id991704298143029">Icon Data Validity</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id611704298143032" role="paragraph">Data Validity</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="validity_criteria">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3152992"><variable id="datengueltigwerte">Menu <emph>Data - Validity - Criteria</emph> tab.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id281704302934153">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Validity - Criteria</menuitem> tab.</paragraph>
+    </section>
+
+    <section id="input_help">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3150367"><variable id="datengueltigeingabe">Choose <emph>Data - Validity - Input Help</emph> tab.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id391704303360650">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Validity - Input Help</menuitem> tab.</paragraph>
+    </section>
+
+    <section id="error_alert">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3154486"><variable id="datengueltigfehler">Choose <emph>Data - Validity - Error Alert</emph> tab.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id951704303538788">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Validity - Error Alert</menuitem> tab.</paragraph>
+    </section>
+
+    <section id="mult_operations">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3146978"><variable id="dnmfo">Choose <emph>Data - Multiple Operations</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id571704323996248">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Multiple Operations</menuitem>.</paragraph>
+    </section>
+
+    <section id="consolidate">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3155809"><variable id="dnksd">Choose <emph>Data - Consolidate</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id411704368556767">Choose <menuitem>Data - Consolidate</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id741704368118028">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Consolidate</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id311704368169078">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id181704368169079" role="paragraph"><image src="cmd/lc_dataconsolidate.svg" id="img_id521704368169080" width="1cm"  height="1cm"><alt id="alt_id331704368169081">Icon Consolidate</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id371704368169083" role="paragraph">Consolidate</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="group_menu">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3148701"><variable id="dngld">Choose <emph>Data - Group and Outline</emph>.</variable></paragraph>
+    </section>
+
+    <section id="show_details">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3159223"><variable id="dngde">Choose <emph>Data - Group and Outline - Show Details</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id181704373338815">Choose <menuitem>Data - Show Details</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id631704374025765">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Show Details</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id451704373355285">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id531704373355287" role="paragraph"><image src="cmd/lc_showdetail.svg" id="img_id451704373355288" width="1cm"  height="1cm"><alt id="alt_id921704373355289">Icon Show Details</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id451704373355290" role="paragraph">Show Details</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="hide_details">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3153815"><variable id="dngda">Choose <emph>Data - Group and Outline - Hide Details</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id161704373839255">Choose <menuitem>Data - Hide Details</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id821704373842279">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Hide Details</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id721704373860902">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id871704373860903" role="paragraph"><image src="cmd/lc_hidedetail.svg" id="img_id91704373860904" width="1cm"  height="1cm"><alt id="alt_id101704373860905">Icon Hide Details</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id461704373860906" role="paragraph">Hide Details</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="data_outline_group">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3146870">Choose <emph>Data - Group and Outline - Group</emph>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id341704370684918">Choose <menuitem>Data - Group</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id91704370689903">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Group</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="sygroup">
+            <table id="tbl_id3154532">
+                <tablerow>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id3149438">
+                            <image id="img_id3153287" src="cmd/lc_group.svg" width="1cm" height="1cm"><alt id="alt_id3153287">Icon Group</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id3150214">Group</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" localize="false" id="par_id3144507">F12</paragraph>
+    </section>
+    <section id="data_outline_ungroup">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3146781">Choose <emph>Data - Group and Outline - Ungroup</emph>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id431704370985403">Choose <menuitem>Data - Ungroup</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id831704370988651">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Ungroup</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syungroup">
+            <table id="tbl_id3143223">
+                <tablerow>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id3150048">
+                            <image id="img_id3155914" src="cmd/lc_ungroup.svg" width="1cm" height="1cm"><alt id="alt_id3155914">Icon Ungroup</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id3153555">Ungroup</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id3150892"><switchinline select="sys"><caseinline select="MAC">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> + F12</paragraph>
+    </section>
+
+    <section id="auto_outline">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3153008"><variable id="dnglagl">Choose <emph>Data - Group and Outline - AutoOutline</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id371704372113351">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>AutoOutline</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id21704371965013">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id301704371965014" role="paragraph"><image src="cmd/lc_autooutline.svg" id="img_id421704371965015" width="1cm"  height="1cm"><alt id="alt_id131704371965016">Icon AutoOutline</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id11704371965018" role="paragraph">AutoOutline</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="remove_outline">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3154709"><variable id="dnglef">Choose <emph>Data - Group and Outline - Remove Outline</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id311704372728016">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Remove Outline</menuitem>.</paragraph>
+    </section>
+
+    <paragraph role="paragraph" id="par_id1774346"><variable id="dngdrill">Choose <emph>Data - Group and Outline - Show Details</emph> (for some pivot tables).</variable></paragraph>
+
+    <section id="pivotmenu">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3155759"><variable id="dndtpt">Choose <emph>Data - Pivot Table</emph>.</variable></paragraph>
+    </section>
+
+    <section id="insertpivot">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3154625"><variable id="dndpa">Choose <emph>Insert - Pivot Table</emph>.</variable></paragraph>
+        <paragraph role="paragraph" id="par_id641698842008451">Choose <menuitem>Data - Pivot Table - Insert or Edit</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id741698842068169">Choose <menuitem>Insert - Pivot Table</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id71698842082244">Choose <menuitem>Data - Pivot Table</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id591703713858518">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Insert or Edit Pivot Table</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id401698842094888">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id401698842094889" role="paragraph"><image src="cmd/lc_datadatapilotrun.svg" id="img_id691698842094890" width="1cm"  height="1cm"><alt id="alt_id81698842094891">Icon Pivot Table</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id301698842094893" role="paragraph">Pivot Table</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <paragraph role="paragraph" id="par_id3147558"><variable id="dndq">Choose <emph>Insert - Pivot Table</emph>, in the <emph>Select Source</emph> dialog choose the option <emph>Data source registered in $[officename]</emph>.</variable></paragraph>
+    <section id="insert_pivot_table">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3153297">Choose <menuitem>Insert - Pivot Table</menuitem>, in the <menuitem>Select Source</menuitem> dialog choose the option <menuitem>Current selection</menuitem> or <menuitem>Named Range</menuitem> in the drop-down list.</paragraph>
+        <paragraph role="paragraph" id="par_id3145118">Choose <emph>Insert - Pivot Table</emph>, in the <emph>Select Source</emph> dialog choose the option <emph>Data source registered in $[officename]</emph>, click <emph>OK</emph> to see <emph>Select Data Source</emph> dialog.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id261748987889947">Place the cursor inside the pivot table and select <menuitem>Data - Pivot Table</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph role="paragraph" id="par_id261748987475181">Place the cursor inside the pivot table and select <menuitem>Properties</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id231748987954567">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id261748987954570" role="paragraph"><image src="cmd/lc_datadatapilotrun.svg" id="img_id181748987954572" width="1cm"  height="1cm"><alt id="alt_id611748987954575">Icon Pivot Table</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id171748987954580" role="paragraph">Pivot Table</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="refreshpivot">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3153294"><variable id="dndpak">Choose <emph>Data - Pivot Table - Refresh</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id971703714377500">Choose <menuitem>Data - Refresh Pivot Table</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id141703714382620">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Refresh</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph role="paragraph" id="par_id61703714423387">Choose <menuitem>Refresh</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id971703714454286">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id681703714454287" role="paragraph"><image src="cmd/lc_recalcpivottable.svg" id="img_id461703714454288" width="1cm"  height="1cm"><alt id="alt_id871703714454289">Icon Refresh Pivot Table</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id921703714454291" role="paragraph">Refresh Pivot Table</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="deletepivot">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3151344"><variable id="dndploe">Choose <emph>Data - Pivot Table - Delete</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id1001703715498579">Choose <menuitem>Data - Delete Pivot Table</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id651703715502131">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Delete</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph role="paragraph" id="par_id741703715505778">Choose <menuitem>Delete</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id861703715519188">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id1001703715519189" role="paragraph"><image src="cmd/lc_deletepivottable.svg" id="img_id931703715519190" width="1cm"  height="1cm"><alt id="alt_id241703715519191">Icon Delete Pivot Table</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id901703715519193" role="paragraph">Delete Pivot Table</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="refreshrange">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id3150397"><variable id="dndakt">Choose <emph>Data - Refresh Range</emph>.</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id101703676224446">Choose <menuitem>Data - Refresh Range</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id151703676230661">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Refresh Range</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id801703676243671">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id121703676243672" role="paragraph"><image src="cmd/lc_dataarearefresh.svg" id="img_id321703676243673" width="1cm"  height="1cm"><alt id="alt_id371703676243674">Icon Refresh Range</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id11703676243676" role="paragraph">Refresh Range</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="grouping">
+        <paragraph role="paragraph" id="par_id301736198469192">With cursor placed in a pivot table:</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_idN10B8F">Choose <menuitem>Data - Group and Outline - Group</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id431736198551350">Choose <menuitem>Data - Group</menuitem></paragraph>
+        <paragraph role="paragraph" id="par_id961736198706930">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Group</menuitem> </paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id761736198726165">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id1001736198726165" role="paragraph"><image src="cmd/lc_group.svg" id="img_id451736198726165" width="1cm"  height="1cm"><alt id="alt_id831736198726165">Icon Group</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id921736198726165" role="paragraph">Group</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id521736198766553" localize="false"><keycode>F12</keycode></paragraph>
+    </section>
+
+    <section id="recalculate_hard">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id891645217179561">Choose <menuitem>Data - Calculate - Recalculate hard</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id21645217233263"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + F9</keycode></paragraph>
+    </section>
+    <section id="recalculate">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3146919" role="paragraph">Choose <menuitem>Data - Calculate - Recalculate</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id941704291900381">Choose <menuitem>Data - Recalculate</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id91704291937592">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Recalculate</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id871704291971183">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id891704291971184" role="paragraph"><image src="cmd/lc_calculate.svg" id="img_id11704291971185" width="1cm"  height="1cm"><alt id="alt_id421704291971186">Icon Recalculate</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id981704291971188" role="paragraph">Recalculate</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph id="par_id3149257" role="paragraph"><keycode>F9</keycode></paragraph>
+    </section>
+    <section id="formula2value">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id31645223233125">Choose <menuitem>Data - Calculate - Formula to Value</menuitem>.</paragraph>
+    </section>
+    <section id="autocalculate">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3150941" role="paragraph"><variable id="exatmb">Choose <menuitem>Data - Calculate - AutoCalculate</menuitem>.</variable></paragraph>
+    </section>
+    <section id="calculate">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id251645222672072">Choose <menuitem>Data - Calculate</menuitem></paragraph>
+    </section>
+    <section id="data_entry_form">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id240920171007389295" role="paragraph">Choose <menuitem>Data - Form</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id11704321904178">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Form</menuitem>.</paragraph>
+    </section>
+    <section id="datastream">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id211704322761278" role="paragraph">Choose <menuitem>Data – Streams</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id501704322625784">Choose <menuitem>Data - Streams</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id541704322246936">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Streams</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id161704322646250">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id601704322646251" role="paragraph"><image src="cmd/lc_datastreams.svg" id="img_id261704322646252" width="1cm"  height="1cm"><alt id="alt_id951704322646253">Icon Streams</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id361704322646255" role="paragraph">Streams</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <section id="xml_source">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id111704323472652" role="paragraph">Choose <menuitem>Data - XML Source</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id641704323374235">Choose <menuitem>Data - XML Source</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id751704323411478">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id821704323411479" role="paragraph"><image src="cmd/lc_managexmlsource.svg" id="img_id431704323411480" width="1cm"  height="1cm"><alt id="alt_id871704323411481">Icon XML Source</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id341704323411483" role="paragraph">XML Source</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <section id="statistics">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id471704386872787">Choose <menuitem>Data - Statistics</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id361704462605759">Choose <menuitem>Data - Statistics</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id641704462610723">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id541704461144979">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id791704461144980" role="paragraph"><image src="cmd/lc_statisticsmenu.svg" id="img_id511704461144981" width="1cm" height="1cm"><alt id="alt_id761704461144982">Icon Statistics</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id741704461144984" role="paragraph">Statistics</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <section id="stat_sampling">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id1000040" role="paragraph">Choose <menuitem>Data - Statistics - Sampling</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id981704462941856">Choose <menuitem>Data - Statistics - Sampling</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id221704462945303">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Sampling</menuitem>.</paragraph>
+    </section>
+    <section id="stat_descriptive">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id621704463141747" role="paragraph">Choose <menuitem>Data - Statistics - Descriptive Statistics</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id291704463195858">Choose <menuitem>Data - Statistics - Descriptive Statistics</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id421704463199642">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Descriptive Statistics</menuitem>.</paragraph>
+    </section>
+    <section id="stat_anova">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id1001250" role="paragraph">Choose <menuitem>Data - Statistics - Analysis of Variance (ANOVA)</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id991704463588928">Choose <menuitem>Data - Statistics - Analysis of Variance (ANOVA)</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id991704463592208">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Analysis of Variance (ANOVA)</menuitem>.</paragraph>
+    </section>
+    <section id="stat_correlation">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id261704463752644" role="paragraph">Choose <menuitem>Data - Statistics - Correlation</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id491704463758812">Choose <menuitem>Data - Statistics - Correlation</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id631704463761947">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Correlation</menuitem>.</paragraph>
+    </section>
+    <section id="stat_covariance">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id1001950" role="paragraph">Choose <menuitem>Data - Statistics - Covariance</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id31704463917441">Choose <menuitem>Data - Statistics - Covariance</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id531704463920208">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Covariance</menuitem>.</paragraph>
+    </section>
+    <section id="stat_expon">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id1002130" role="paragraph">Choose <menuitem>Data - Statistics - Exponential Smoothing</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id591704464123553">Choose <menuitem>Data - Statistics - Exponential Smoothing</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id121704464126315">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Exponential Smoothing</menuitem>.</paragraph>
+    </section>
+    <section id="stat_movingavg">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id781704464266839" role="paragraph">Choose <menuitem>Data - Statistics - Moving Average</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id681704464144618">Choose <menuitem>Data - Statistics - Moving Average</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id821704464147643">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Moving Average</menuitem>.</paragraph>
+    </section>
+    <section id="stat_regression">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id731704464349309" role="paragraph">Choose <menuitem>Data - Statistics - Regression</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id41704464352982">Choose <menuitem>Data - Statistics - Regression</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id781704464356845">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Regression</menuitem>.</paragraph>
+    </section>
+    <section id="stat_ttest">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id1002830" role="paragraph">Choose <menuitem>Data - Statistics - Paired t-test</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id651704464561944">Choose <menuitem>Data - Statistics - Paired t-test</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id851704464564768">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Paired t-test</menuitem>.</paragraph>
+    </section>
+    <section id="stat_ftest">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id791704464660029" role="paragraph">Choose <menuitem>Data - Statistics - F-test</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id911704464663694">Choose <menuitem>Data - Statistics - F-test</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id101704464667638">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - F-test</menuitem>.</paragraph>
+    </section>
+    <section id="stat_ztest">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id1003650" role="paragraph">Choose <menuitem>Data - Statistics - Z-test</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id651704464793226">Choose <menuitem>Data - Statistics - Z-test</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id821704464796362">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Z-test</menuitem>.</paragraph>
+    </section>
+    <section id="stat_chitest">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id1003990" role="paragraph"><variable id="sam02">Choose <menuitem>Data - Statistics - Chi-square Test</menuitem></variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id81704464923384">Choose <menuitem>Data - Statistics - Chi-square Test</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id481704464926832">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Chi-square Test</menuitem>.</paragraph>
+    </section>
+    <section id="stat_fourier">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id101704465098092" role="paragraph">Choose <menuitem>Data - Statistics - Fourier Analysis</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id851704465051620">Choose <menuitem>Data - Statistics - Fourier Analysis</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id701704465054813">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Statistics - Fourier Analysis</menuitem>.</paragraph>
+    </section>
+</body>
+</helpdocument>

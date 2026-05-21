@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textshared01galleryxml" indexer="include">
+    <title id="tit">Gallery</title>
+    <filename>/text/shared/01/gallery.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+<bookmark branch="index" id="bm_id621711721620413">
+  <bookmark_value>Gallery; opening</bookmark_value>
+  <bookmark_value>Gallery; context menu</bookmark_value>
+  <bookmark_value>Gallery; themes</bookmark_value>
+  <bookmark_value>Gallery; new theme</bookmark_value>
+</bookmark>
+
+
+<section id="media_gallery">
+
+<section id="stargallery">
+<bookmark branch="hid/.uno:Gallery" id="bm_id2975847" localize="false"/>
+<bookmark branch="hid/SIDEBAR_GALLERYDECK" id="bm_id331702908948474" localize="false"/>
+
+<h1 id="hd_id3153894"><variable id="media_gallery_h1"><link href="text/shared/01/gallery.xhp">Gallery</link></variable></h1>
+<paragraph id="par_id3150789" role="paragraph"><variable id="media_gallery_text"><ahelp hid=".">Opens the Gallery deck of the Sidebar, where you can select images and audio clips to insert into your document.</ahelp></variable></paragraph>
+</section>
+</section>
+<section id="howtoget">
+  <switch select="appl">
+    <case select="MATH"/>
+    <case select="BASE"/>
+    <default>
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id3146765" xml-lang="en-US">Choose <menuitem>View - Gallery</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+      <paragraph role="paragraph" id="par_id561687042574900">Choose <menuitem>Insert - Gallery</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+      <paragraph role="paragraph" id="par_id581711550086281"><switchinline select="sys"><caseinline select="MAC"><keycode>Option</keycode></caseinline><defaultinline><keycode>Alt</keycode></defaultinline></switchinline><keycode> + 3</keycode></paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+      <section id="sygallery">
+        <table id="tbl_id3147273">
+          <tablerow>
+            <tablecell>
+              <paragraph role="paragraph" id="par_id3153323" xml-lang="en-US"><image id="img_id3154894" src="cmd/lc_gallery.svg" width="1cm" height="1cm"><alt id="alt_id3154894" xml-lang="en-US">Icon Gallery</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+              <paragraph xml-lang="en-US" id="par_id3153551" role="paragraph">Gallery</paragraph>
+            </tablecell>
+          </tablerow>
+        </table>
+      </section>
+    </default>
+  </switch>
+</section>
+<paragraph id="par_id3155555" role="paragraph">You can display the contents of the <emph>Gallery </emph>as icons, or icons with titles and path information.</paragraph>
+<paragraph id="par_id3153394" role="paragraph">To zoom in or zoom out on a single object in the <emph>Gallery</emph>, double-click the object, or select the object, and then press the Spacebar.</paragraph>
+<bookmark branch="hid/SVX_HID_GALLERY_THEMELIST" id="bm_id3150774" localize="false"/>
+<paragraph id="par_id3145346" role="paragraph">Themes are listed on the left side of the <emph>Gallery</emph>. <ahelp hid="SVX_HID_GALLERY_THEMELIST">Click a theme to view the objects associated with the theme.</ahelp></paragraph>
+<bookmark branch="hid/SVX_HID_GALLERY_WINDOW" id="bm_id3157958" localize="false"/>
+<paragraph id="par_id3155355" role="paragraph"><ahelp hid="SVX_HID_GALLERY_WINDOW">To insert a <emph>Gallery </emph>object, select the object, and then drag it into the document.</ahelp></paragraph>
+  <h2 id="hd_id41711735303911">Themes context menu</h2>
+  <paragraph id="par_id3159167" role="paragraph">To access the following commands, right-click a theme in the <emph>Gallery</emph>:</paragraph>
+  <embed href="text/shared/00/00000010.xhp#update"/>
+  <embed href="text/shared/00/00000010.xhp#delete"/>
+  <bookmark  branch="hid/svx/ui/gallerymenu1/rename" id="bm_id411711738593390" localize="false"/>
+
+  <embed href="text/shared/00/00000010.xhp#rename"/>
+<h3 id="hd_id3154142">Properties</h3>
+<paragraph id="par_id3148990" role="paragraph">The <emph>Properties</emph> dialog contains the following tabs:</paragraph>
+  <h4 id="hd_id901711736039528"><link href="text/shared/00/01050000.xhp">General</link></h4>
+<embed href="text/shared/00/01050000.xhp#par_id3159242"/>
+<h4 id="hd_id3151384"><link href="text/shared/01/gallery_files.xhp">Files</link></h4>
+<embed href="text/shared/01/gallery_files.xhp#stargallerymanager"/>
+  <h2 id="hd_id741711735329999">Object context menu</h2>
+  <paragraph role="paragraph" id="par_id221711737517487">To access the following commands, right-click an object in the <emph>Gallery</emph>:</paragraph>
+  <embed href="text/shared/00/00000010.xhp#insert"/>
+  <switch select="appl">
+    <case select="WRITER">
+  <embed href="text/shared/00/00000010.xhp#insert_as_background"/>
+      </case>
+</switch>
+  <bookmark  branch="hid/svx/ui/gallerymenu2/preview)" id="bm_id751711738097220" localize="false"/>
+  <embed href="text/shared/00/00000010.xhp#preview"/>
+   <bookmark  branch="hid/svx/ui/gallerymenu2/title" id="bm_id581711738217617" localize="false"/>
+  <h3 id="hd_id241711736368130">Title</h3>
+  <paragraph role="paragraph" id="par_id801711736385660">Changes the title of the selected object. After selecting <menuitem>Title</menuitem> the name is selected and a new one can be entered directly. Use the arrow keys to set the cursor at the beginning or end of the name to delete or add to part of the name or to reposition the cursor.</paragraph>
+  <bookmark  branch="hid/svx/ui/gallerymenu2/delete" id="bm_id841711738460660" localize="false"/>
+
+  <embed href="text/shared/00/00000010.xhp#delete"/>
+  <embed href="text/shared/00/00000010.xhp#delete2"/>
+  <bookmark  branch="hid/svx/ui/gallerymenu2/copy" id="bm_id101711738287627" localize="false"/>
+  <embed href="text/shared/00/00000010.xhp#copy"/>
+  <bookmark  branch="hid/CHANGE ME(path/to/dialog/widget)" id="bm_id261711738304848" localize="false"/>
+<bookmark  branch="hid/svx/ui/gallerymenu2/paste" id="bm_id911711738319047" localize="false"/>
+  <embed href="text/shared/00/00000010.xhp#paste"/>
+  <bookmark branch="hid/SVX_HID_GALLERY_ICONVIEW" id="bm_id3146946" localize="false"/>
+  <h2 id="hd_id621711984540725">Icon View</h2>
+  <paragraph id="par_id3149783" role="paragraph"><ahelp hid="SVX_HID_GALLERY_ICONVIEW">Displays the contents of the <emph>Gallery </emph>as icons.</ahelp></paragraph>
+  <bookmark branch="hid/SVX_HID_GALLERY_LISTVIEW" id="bm_id3152821" localize="false"/>
+  <h2 id="hd_id961711984651481">Detailed View</h2>
+  <paragraph id="par_id3148983" role="paragraph"><ahelp hid="SVX_HID_GALLERY_LISTVIEW">Displays the contents of the <emph>Gallery </emph>as small icons, with title and path information.</ahelp></paragraph>
+
+  <h2 id="hd_id3145315">New</h2>
+<paragraph id="par_id3150275" role="paragraph"><ahelp hid="SVX_HID_GALLERY_NEWTHEME">Adds a new theme to the <emph>Gallery</emph> and lets you choose the files to include in the theme.</ahelp></paragraph>
+
+<section id="relatedtopics">
+  <embed href="text/shared/guide/gallery_insert.xhp#gallery_insert"/>
+  <embed href="text/shared/guide/dragdrop_gallery.xhp#dragdrop_gallery"/>
+</section>
+
+</body>
+
+</helpdocument>

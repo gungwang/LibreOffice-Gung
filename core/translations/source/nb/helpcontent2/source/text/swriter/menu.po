@@ -1,0 +1,665 @@
+#. extracted from helpcontent2/source/text/swriter/menu
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-05-07 13:02+0200\n"
+"PO-Revision-Date: 2025-05-09 16:37+0000\n"
+"Last-Translator: Karl Morten Ramberg <karl.m.ramberg@gmail.com>\n"
+"Language-Team: Norwegian Bokmål <https://translations.documentfoundation.org/projects/libo_help-master/textswritermenu/nb_NO/>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1463917467.000000\n"
+
+#. acMEH
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Content Control Submenu"
+msgstr "Undermeny for innholdskontroll"
+
+#. JGVVJ
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"bm_id901672741515183\n"
+"help.text"
+msgid "<bookmark_value>content control</bookmark_value><bookmark_value>checkbox;content control</bookmark_value><bookmark_value>date;content control</bookmark_value><bookmark_value>combo box;content control</bookmark_value><bookmark_value>drop-down list;content control</bookmark_value><bookmark_value>text;content control</bookmark_value><bookmark_value>rich text;content control</bookmark_value>"
+msgstr "<bookmark_value>innholdskontroll</bookmark_value><bookmark_value>avkrysningsboks;innholdskontroll</bookmark_value><bookmark_value>dato;innholdskontroll</bookmark_value><bookmark_value>kombiboks;innholdskontroll</bookmark_value><bookmark_value>rullegardinliste ;innholdskontroll</bookmark_value><bookmark_value>tekst;innholdskontroll</bookmark_value><bookmark_value>rik tekst;innholdskontroll</bookmark_value>"
+
+#. St8Ci
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id591672690941663\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/swriter/menu/contentcontrol_submenu.xhp\">Content Controls</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/swriter/menu/contentcontrol_submenu.xhp\">Innholdskontroller</link></variable>"
+
+#. zbRAP
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_idN10560\n"
+"help.text"
+msgid "A content control is a placeholder text in which the current content will be replaced when clicking into the control. Content controls are individual controls to  add and customize for use in templates, forms, and documents. Content controls can provide instructional text and set controls to disappear when users type in their own text."
+msgstr "En innholdskontroll er en plassholdertekst der gjeldende innhold vil bli erstattet når du klikker inn i kontrollen. Innholdskontroller er individuelle kontroller for å legge til og tilpasse for bruk i maler, skjemaer og dokumenter. Innholdskontroller kan gi instruksjonstekst og angi at kontroller skal forsvinne når brukere skriver inn sin egen tekst."
+
+#. rAqzZ
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id771672704361268\n"
+"help.text"
+msgid "Content controls have many properties and are similar to the legacy controls but can be easier to work with and format."
+msgstr "Innholdskontroller har mange egenskaper og ligner på de eldre kontrollene, men kan være enklere å jobbe med og formatere."
+
+#. GBJMn
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id401672693292708\n"
+"help.text"
+msgid "Rich Text"
+msgstr "Rik tekst"
+
+#. SFU7D
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id71672703856991\n"
+"help.text"
+msgid "Contains custom formatted text or other items, such as tables, pictures, or other content controls."
+msgstr "Inneholder egendefinert formatert tekst eller andre elementer, for eksempel tabeller, bilder eller andre innholdskontroller."
+
+#. 2ELAt
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id71672693297394\n"
+"help.text"
+msgid "Plain Text"
+msgstr "Ren tekst"
+
+#. enpKC
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id681672703870033\n"
+"help.text"
+msgid "A plain text content control is limited to plain text in a single or multiple paragraphs. Unlike rich text, it cannot contain other items, such as tables, pictures, or other content controls."
+msgstr "En innholdskontroll for ren tekst er begrenset til ren tekst i et enkelt eller flere avsnitt. I motsetning til rik tekst kan den ikke inneholde andre elementer, for eksempel tabeller, bilder eller andre innholdskontroller."
+
+#. 2c6gz
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id571672693302104\n"
+"help.text"
+msgid "Picture"
+msgstr "Bilde"
+
+#. jUK5q
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id241672703879416\n"
+"help.text"
+msgid "Contains a single image anchored <link href=\"text/swriter/guide/anchor_object.xhp\"><emph>as-character</emph></link>. Clicking on the content control opens the file open dialog to provide a replacement for the picture placeholder."
+msgstr "Inneholder et enkelt bilde forankret <link href=\"text/swriter/guide/anchor_object.xhp\"><emph>som-karakter</emph></link>. Ved å klikke på innholdskontrollen åpnes filåpningsdialogen for å gi en erstatning for bildeplassholderen."
+
+#. C3ayW
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id831672693306132\n"
+"help.text"
+msgid "Check Box"
+msgstr "Avmerkingsboks"
+
+#. GAXmE
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id581672703896121\n"
+"help.text"
+msgid "Contains a single check box character to interact with. Clicking on the content control toggles the checked state of the check box."
+msgstr "Inneholder et enkelt avmerkingsbokstegn å samhandle med. Ved å klikke på innholdskontrollen veksler den avkryssede tilstanden til avmerkingsboksen."
+
+#. xjWQb
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id711672693310034\n"
+"help.text"
+msgid "Combo Box"
+msgstr "Kombiboks"
+
+#. 3XBQd
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id341672703909353\n"
+"help.text"
+msgid "Contains a drop-down selection of list entries that you can select and text box that you can edit directly."
+msgstr "Inneholder et rullegardinvalg av listeoppføringer som du kan velge og tekstboks som du kan redigere direkte."
+
+#. PGCKF
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id731672693314411\n"
+"help.text"
+msgid "Drop-down List"
+msgstr "Nedtrekksliste"
+
+#. LJyny
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id741672703915281\n"
+"help.text"
+msgid "Contains a drop-down button control with a list of display-text and value pairs. Unlike a combo box, the drop-down list does not let users enter a custom input."
+msgstr "Inneholder en rullegardinknappkontroll med en liste over visningstekst og verdipar. I motsetning til en kombinasjonsboks, lar ikke rullegardinlisten brukere angi en egendefinert inndata."
+
+#. zvdaS
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"hd_id191672693319354\n"
+"help.text"
+msgid "Date"
+msgstr "Dato"
+
+#. pEBdA
+#: contentcontrol_submenu.xhp
+msgctxt ""
+"contentcontrol_submenu.xhp\n"
+"par_id841672703921231\n"
+"help.text"
+msgid "Contains a calendar control. Limits text to a single paragraph."
+msgstr "Inneholder en kalenderkontroll. Begrenser tekst til ett enkelt avsnitt."
+
+#. k5UDL
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Reference (Edit)"
+msgstr "Referanse (Rediger)"
+
+#. MKMWr
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"hd_id1001603128268578\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/edit_reference_submenu.xhp\">Reference</link>"
+msgstr "<link href=\"text/swriter/menu/edit_reference_submenu.xhp\">Referanse</link>"
+
+#. 6LFFX
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"par_id411603128291771\n"
+"help.text"
+msgid "A submenu that offers possibilities to edit footnotes, endnotes, index entries, and bibliography entries."
+msgstr "En undermeny som tilbyr muligheter til å redigere fotnoter, sluttnoter, indeksoppføringer og bibliografioppføringer."
+
+#. 4WjGu
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"hd_id3147302\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/02150000.xhp\">Footnote or Endnote</link>"
+msgstr "<link href=\"text/swriter/01/02150000.xhp\">Fotnote eller sluttnote</link>"
+
+#. Q5YzA
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"hd_id3147327\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04120100.xhp\">Index Entry</link>"
+msgstr "<link href=\"text/swriter/01/04120100.xhp\">Indeksoppføring</link>"
+
+#. b6WK8
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"par_id561673359242198\n"
+"help.text"
+msgid "Edits the selected index entry."
+msgstr "Redigerer den valgte indeksoppføringen."
+
+#. p7mQW
+#: edit_reference_submenu.xhp
+msgctxt ""
+"edit_reference_submenu.xhp\n"
+"hd_id3147352\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/02130000.xhp\">Bibliography Entry</link>"
+msgstr "<link href=\"text/swriter/01/02130000.xhp\">Bibliografioppføring</link>"
+
+#. tP5yN
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"tit\n"
+"help.text"
+msgid "Footnote and Endnote"
+msgstr "Fot- og sluttnote"
+
+#. FKmED
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"hd_id03042016113344773\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/insert_footnote_endnote.xhp\">Footnote and Endnote</link>"
+msgstr "<link href=\"text/swriter/menu/insert_footnote_endnote.xhp\">Fotnote og Sluttnote</link>"
+
+#. Nn9aD
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"par_id030420161136126396\n"
+"help.text"
+msgid "<ahelp hid=\".\">The menu contains commands to insert a footnote or endnote with or without additional user interaction.</ahelp>"
+msgstr "<ahelp hid=\".\">Menyen inneholder kommandoer for å sette inn en fotnote eller sluttnote, med eller foruten ekstar brukerinteraksjon.</ahelp>"
+
+#. DAD9F
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"par_id03042016113613789\n"
+"help.text"
+msgid "Footnote"
+msgstr "Fotnote"
+
+#. DiRbq
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"par_id030420161138373075\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InsertFootnote\">Insert a footnote at the current cursor position without a prompt.</ahelp>"
+msgstr "<ahelp hid=\".uno:InsertFootnote\">Sett inn en fotnote ved skrivermarkørens posisjon uten en advarsel.</ahelp>"
+
+#. GsFrA
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"hd_id030420161138377837\n"
+"help.text"
+msgid "Endnote"
+msgstr "Sluttnote"
+
+#. bjm2B
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"par_id030420161138378865\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InsertEndnote\">Insert a endnote at the current cursor position without a prompt.</ahelp>"
+msgstr "<ahelp hid=\".uno:InsertEndnote\">Sett inn en sluttnote ved skrivermarkørens posisjon uten en advarsel.</ahelp>"
+
+#. 2oFcD
+#: insert_footnote_endnote.xhp
+msgctxt ""
+"insert_footnote_endnote.xhp\n"
+"hd_id3147231\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04030000.xhp\">Footnote or Endnote</link>"
+msgstr "<link href=\"text/swriter/01/04030000.xhp\">Fotnote eller Sluttnote</link>"
+
+#. VGa5M
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"tit\n"
+"help.text"
+msgid "Frame"
+msgstr "Ramme"
+
+#. k8vhB
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"hd_id030720160601535384\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/insert_frame.xhp\">Insert Frame</link>"
+msgstr "<link href=\"text/swriter/menu/insert_frame.xhp\">Sett inn Ramme</link>"
+
+#. LZL3Y
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"par_id030720160603138925\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu contains both interactive and non-interactive means of inserting a frame.</ahelp>"
+msgstr "<ahelp hid=\".\">Denne undermenyen inneholder både en ineraktiv og ikke interaktiv måte å sette inn en ramme på.</ahelp>"
+
+#. 2924M
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"par_id811689500121312\n"
+"help.text"
+msgid "Choose <menuitem>Insert - Frame</menuitem>."
+msgstr "Velg <menuitem>Sett inn - Ramme</menuitem>."
+
+#. Hq4D6
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"hd_id030720160605268360\n"
+"help.text"
+msgid "Frame Interactively"
+msgstr "Ramme interaktivt"
+
+#. NsCBf
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"par_id030720160605261333\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InsertFrameInteract\">Insert a frame by drawing its shape with the mouse cursor.</ahelp>"
+msgstr "<ahelp hid=\".uno:InsertFrameInteract\">Sett inn en ramme gjennom å tegne den med musepekeren.</ahelp>"
+
+#. BzkFd
+#: insert_frame.xhp
+msgctxt ""
+"insert_frame.xhp\n"
+"hd_id3150951\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04160500.xhp\">Floating Frame</link>"
+msgstr "<link href=\"text/shared/01/04160500.xhp\">Flytende ramme</link>"
+
+#. fC2Td
+#: insert_header_footer.xhp
+msgctxt ""
+"insert_header_footer.xhp\n"
+"tit\n"
+"help.text"
+msgid "Header and Footer"
+msgstr "Topp- og bunntekst"
+
+#. 4Gubu
+#: insert_header_footer.xhp
+msgctxt ""
+"insert_header_footer.xhp\n"
+"hd_id030720160441573285\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/insert_header_footer.xhp\">Header and Footer</link>"
+msgstr "<link href=\"text/swriter/menu/insert_header_footer.xhp\">Topptekst og Bunntekst</link>"
+
+#. RV7vJ
+#: insert_header_footer.xhp
+msgctxt ""
+"insert_header_footer.xhp\n"
+"par_id030720160442296603\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu includes commands to add and remove page headers and footers.</ahelp>"
+msgstr "<ahelp hid=\".\">Denne undermenyen inneholder kommandoer for å legge til og fjerne Topptekst og Bunntekst.</ahelp>"
+
+#. tg8kt
+#: insert_header_footer.xhp
+msgctxt ""
+"insert_header_footer.xhp\n"
+"par_id421690025310002\n"
+"help.text"
+msgid "Choose <menuitem>Insert - Header and Footer</menuitem>."
+msgstr "Velg <menuitem>Sett inn - Topptekst og bunntekst</menuitem>."
+
+#. Rrvyb
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Page Layout Menu"
+msgstr "Sideoppsettmeny"
+
+#. Wa3wg
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"hd_id401746390478568\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/swriter/menu/pageLayoutMenu.xhp\">Page Layout Menu</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/swriter/menu/pageLayoutMenu.xhp\">Sideoppsettmeny</link></variable>"
+
+#. R6c2W
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id301746390478571\n"
+"help.text"
+msgid "Opens a submenu to select the page layout displayed in the workspace."
+msgstr "Åpner en undermeny for å velge sideoppsettet som vises i arbeidsområdet."
+
+#. Biggi
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id811746391318561\n"
+"help.text"
+msgid "Choose <menuitem>View - Page Layout</menuitem>."
+msgstr "Velg <menuitem>Vis - Sideoppsett</menuitem>."
+
+#. Jv7jB
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id181746392923676\n"
+"help.text"
+msgid "Click on one of the 3 icons on the <menuitem>View Layout</menuitem> area."
+msgstr "Klikk på et av de tre ikonene i <menuitem>Vis layout</menuitem>-området."
+
+#. 9C4Du
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"hd_id881746391264324\n"
+"help.text"
+msgid "Single Page per Row"
+msgstr "Enkeltside per rad"
+
+#. 6KSCi
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id21746392515474\n"
+"help.text"
+msgid "<image src=\"cmd/lc_showsinglepage.svg\" id=\"img_id641746392515477\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id551746392515479\">Icon Single Page per Row</alt></image>"
+msgstr "<image src=\"cmd/lc_showsinglepage.svg\" id=\"img_id641746392515477\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id551746392515479\">Ikon Enkeltside per rad</alt></image>"
+
+#. JTY5w
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id971746392515484\n"
+"help.text"
+msgid "Single Page per Row"
+msgstr "Enkeltside per rad"
+
+#. szHSo
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id361746392000871\n"
+"help.text"
+msgid "Display one page per row, independent of the zoom factor or the width of the workspace."
+msgstr "Vis én side per rad, uavhengig av zoomfaktoren eller bredden på arbeidsområdet."
+
+#. bD7MJ
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"hd_id21746391277506\n"
+"help.text"
+msgid "Multiple Pages per Row"
+msgstr "Flere sider per rad"
+
+#. DKjDB
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id401746392458352\n"
+"help.text"
+msgid "<image src=\"cmd/lc_showtwopages.svg\" id=\"img_id41746392458354\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id501746392458356\">Icon Multiple Pages per Row</alt></image>"
+msgstr "<image src=\"cmd/lc_showtwopages.svg\" id=\"img_id41746392458354\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id501746392458356\">Ikon Flere sider per rad</alt></image>"
+
+#. ttGfQ
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id941746392458360\n"
+"help.text"
+msgid "Multiple Pages per Row"
+msgstr "Flere sider per rad"
+
+#. LrjJN
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id321746391995839\n"
+"help.text"
+msgid "Displays multiple pages per row. The number of pages displayed in a row depends on the zoom factor and the width of the workspace."
+msgstr "Viser flere sider per rad. Antall sider som vises på en rad avhenger av zoomfaktoren og bredden på arbeidsområdet."
+
+#. u8GVX
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"hd_id311746391283488\n"
+"help.text"
+msgid "Book View"
+msgstr "Bokvisning"
+
+#. md644
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id901746392353176\n"
+"help.text"
+msgid "<image src=\"cmd/lc_showbookview.svg\" id=\"img_id711746392353178\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id1001746392353180\">Icon Book View</alt></image>"
+msgstr "<image src=\"cmd/lc_showbookview.svg\" id=\"img_id711746392353178\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id1001746392353180\">Ikon Bokvisning</alt></image>"
+
+#. B5oVR
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id331746392353185\n"
+"help.text"
+msgid "Book View"
+msgstr "Bokvisning"
+
+#. XgEG2
+#: pageLayoutMenu.xhp
+msgctxt ""
+"pageLayoutMenu.xhp\n"
+"par_id91746391985766\n"
+"help.text"
+msgid "Displays two pages per row, even numbered pages on the left and odd numbered pages on the right."
+msgstr "Viser to sider per rad, partallsider til venstre og oddetallsider til høyre."
+
+#. cSY5i
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"tit\n"
+"help.text"
+msgid "More Breaks (submenu)"
+msgstr "Flere Brytninger (undermenyer)"
+
+#. o8qyU
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"hd_id651601651730204\n"
+"help.text"
+msgid "<link href=\"text/swriter/menu/submenu_more_breaks.xhp\">More Breaks</link>"
+msgstr "<link href=\"text/swriter/menu/submenu_more_breaks.xhp\">Flere Brytninger</link>"
+
+#. CLUjA
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"par_id911601651828340\n"
+"help.text"
+msgid "<ahelp hid=\".\">Submenu with additional row, column, and page breaks</ahelp>"
+msgstr "<ahelp hid=\".\">Undermeny med ekstra rad, kolonne og sidebrytninger</ahelp>"
+
+#. t534N
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"hd_id41601652439817\n"
+"help.text"
+msgid "Insert Manual Row Break"
+msgstr "Sett inn Manuelle Radbrytninger"
+
+#. AEbaf
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"par_id41601888013000\n"
+"help.text"
+msgid "<image src=\"cmd/lc_insertlinebreak.svg\" id=\"img_id281601888013000\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id381601888013000\">Manual Row Break Icon</alt></image>"
+msgstr "<image src=\"cmd/lc_insertlinebreak.svg\" id=\"img_id281601888013000\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id381601888013000\">Manuelle Radbrytninger Ikon</alt></image>"
+
+#. QGmjC
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"bm_id651604885957774\n"
+"help.text"
+msgid "<bookmark_value>text documents; inserting column breaks</bookmark_value><bookmark_value>column breaks; inserting</bookmark_value><bookmark_value>inserting; manual column breaks</bookmark_value><bookmark_value>manual column breaks</bookmark_value>"
+msgstr "<bookmark_value>tekstdokumenter; sette inn kolonnebrytninger</bookmark_value><bookmark_value> kolonnebrytninger; sett inn</bookmark_value><bookmark_value>sett inn; manual kolonnebrytninger </bookmark_value><bookmark_value>manuelle kolonnebrytninger </bookmark_value>"
+
+#. XBU67
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"hd_id531601652875225\n"
+"help.text"
+msgid "Insert Manual Column Break"
+msgstr "Sett inn Kolonnebrytninger"
+
+#. jBj9E
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"par_id121601888786076\n"
+"help.text"
+msgid "<image src=\"cmd/lc_insertcolumnbreak.svg\" id=\"img_id851601888786076\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id881601888786076\">Manual Column Break Icon</alt></image>"
+msgstr "<image src=\"cmd/lc_insertcolumnbreak.svg\" id=\"img_id851601888786076\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id881601888786076\">Manuelt Kolonnebrytnings Ikon</alt></image>"
+
+#. TECBj
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"hd_id281601654787535\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04010000.xhp\">Manual Break</link>"
+msgstr "<link href=\"text/swriter/01/04010000.xhp\">Manuell Brytning</link>"
+
+#. XACTx
+#: submenu_more_breaks.xhp
+msgctxt ""
+"submenu_more_breaks.xhp\n"
+"par_id621601889272427\n"
+"help.text"
+msgid "<image src=\"cmd/lc_insertbreak.svg\" id=\"img_id461601889272427\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id31601889272427\">Manual Break icon</alt></image>"
+msgstr "<image src=\"cmd/lc_insertbreak.svg\" id=\"img_id461601889272427\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id31601889272427\">Manuelt Brytnings Ikon</alt></image>"

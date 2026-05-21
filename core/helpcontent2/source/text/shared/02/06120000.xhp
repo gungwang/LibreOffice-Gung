@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+  <topic id="textshared0206120000xml" indexer="include" status="PUBLISH">
+    <title id="tit">Toggle Unordered List</title>
+    <filename>/text/shared/02/06120000.xhp</filename>
+  </topic>
+  <history>
+    <created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+  </history>
+</meta>
+<body>
+<bookmark branch="hid/.uno:DefaultBullet" id="bm_id5921827" localize="false"/>
+<section id="toggle_bullets">
+<h1 id="hd_id3154228"><link href="text/shared/02/06120000.xhp">Unordered List</link></h1>
+<paragraph role="paragraph" id="par_id3148520"><ahelp hid=".uno:DefaultBullet">Assigns bullet points to the selected paragraphs, or removes them from bulleted paragraphs.</ahelp></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id721692393222724">Choose <menuitem>Format - Lists - Unordered List</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id461692393262366">Choose <menuitem>Lists - Unordered List</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id261692394295047">Choose <menuitem>Home - Unordered List</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="sytoggle_bullets">
+    <table id="tbl_id3146798">
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3150355"><image id="img_id3157909" src="cmd/lc_defaultbullet.svg" width="1cm" height="1cm"><alt id="alt_id3157909">Icon Unordered List</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3149233">Toggle Unordered List</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id281692392523986"><keycode>Shift + F12</keycode></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph role="paragraph" id="par_id231692393562403">On the <menuitem>Paragraph</menuitem> deck of the <menuitem>Properties</menuitem> panel, click on <menuitem>Unordered List</menuitem>.</paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3155150"><switchinline select="appl"><caseinline select="WRITER">Bullet options such as type and position are defined in the <link href="text/shared/01/06050000.xhp"><emph>Bullets and Numbering</emph></link> dialog. To open this dialog, click the <emph>Bullets and Numbering</emph> icon on the <link href="text/swriter/main0206.xhp"><emph>Bullets and Numbering</emph> bar</link>.</caseinline></switchinline></paragraph>
+<paragraph role="paragraph" id="par_id3145669"><switchinline select="appl"><caseinline select="IMPRESS">Bullet options such as type and position are defined in the <link href="text/shared/01/06050000.xhp"><emph>Bullets and Numbering</emph></link> dialog. To open this dialog, click the <emph>Bullets and Numbering</emph> icon on the <emph>Text Formatting</emph> bar.</caseinline></switchinline></paragraph>
+<paragraph role="paragraph" id="par_id3147576"><switchinline select="appl"><caseinline select="WRITER">In the <link href="text/swriter/01/03120000.xhp"><emph>Web Layout</emph></link>, some numbering/bullet options are not available.</caseinline></switchinline></paragraph>
+<paragraph role="paragraph" id="par_id3154317"><switchinline select="appl"><caseinline select="IMPRESS">The distance between the text and the left text box and the position of the bullets can be determined in the dialog under <link href="text/shared/01/05030100.xhp"><emph>Format - Paragraph</emph></link> by entering the left indent and the first-line indent.</caseinline></switchinline></paragraph>
+
+</body>
+</helpdocument>

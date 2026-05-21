@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textsimpressmain0202xml" indexer="include" status="PUBLISH">
+<title id="tit">Line and Filling Bar</title>
+<filename>/text/simpress/main0202.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<section id="lineandfillingbar">
+<h1 id="hd_id3149664"><link href="text/simpress/main0202.xhp">Line and Filling Bar</link></h1>
+<paragraph role="paragraph" id="par_id3153729"><ahelp hid=".">The Line and Filling Bar contains commands and options that you can apply in the current view.</ahelp></paragraph>
+</section>
+<note id="par_id651683559196525">With no object selected in the workspace, if you set the shape attributes like line thickness, line color, line style, area fill type and area fill style with the Line and Filling bar, then the line and filling settings are applied to new shapes, as direct formatting, overriding the shape Default Drawing Style attributes. To reset the attributes of the Line and Filling bar to those of the Default Drawing Style, unselect any object in the workspace and double-click on the Default Drawing Style entry in the Styles pane of the Sidebar. The next object you draw shows the Default Drawing Style.</note>
+<embed href="text/shared/01/05230000.xhp#position_and_size"/>
+<embed href="text/shared/00/00040502.xhp#syposition"/>
+
+<embed href="text/shared/01/05070000.xhp#alignment"/>
+
+<embed href="text/shared/01/05250100.xhp#bring_to_front"/>
+<embed href="text/shared/00/00040501.xhp#sybring_to_front"/>
+
+<embed href="text/shared/01/05250200.xhp#bring_forward"/>
+<embed href="text/shared/00/00040501.xhp#sybring_forward"/>
+
+<embed href="text/shared/01/05250300.xhp#send_backward"/>
+<embed href="text/shared/00/00040501.xhp#sysend_backward"/>
+
+<embed href="text/shared/01/05250400.xhp#send_to_back"/>
+<embed href="text/shared/00/00040501.xhp#sysend_to_back"/>
+
+<embed href="text/simpress/01/05250500.xhp#in_front_of_object"/>
+
+<embed href="text/simpress/01/05250600.xhp#behind_object"/>
+
+<h2 id="hd_id3156382"><link href="text/shared/01/05200100.xhp">Line Style</link></h2>
+<embed href="text/shared/01/05200100.xhp#stiltext"/>
+<embed href="text/shared/00/00000004.xhp#syline_style"/>
+<h2 id="hd_id3159184"><link href="text/shared/01/05200100.xhp">Line Thickness</link></h2>
+<embed href="text/shared/01/05200100.xhp#breitetext"/>
+<embed href="text/shared/00/00000004.xhp#syline_thickness"/>
+<h2 id="hd_id3150250"><link href="text/shared/01/05200100.xhp">Line Color</link></h2>
+<embed href="text/shared/01/05200100.xhp#farbetext"/>
+<embed href="text/shared/00/00000004.xhp#syline_color"/>
+<h2 id="hd_id3148609"><link href="text/shared/01/05210100.xhp">Area Style / Filling</link></h2>
+<embed href="text/shared/01/05210100.xhp#sytext"/>
+<embed href="text/shared/00/00000004.xhp#syarea_style"/>
+
+<embed href="text/shared/01/05210600.xhp#syshadow"/>
+<embed href="text/shared/02/05020000.xhp#arrow_style"/>
+<embed href="text/shared/02/05020000.xhp#syarrow_style"/>
+
+<embed href="text/shared/01/05240100.xhp#vertically"/>
+<embed href="text/shared/01/05240200.xhp#horizontally"/>
+
+<embed href="text/simpress/02/10030000.xhp#transformations"/>
+
+<embed href="text/shared/02/01230000.xhp#stylist"/>
+<embed href="text/shared/00/00040500.xhp#systylist"/>
+
+<embed href="text/shared/02/01171200.xhp#displaygrid"/>
+
+<embed href="text/shared/02/01171300.xhp#snap2grid"/>
+
+<embed href="text/shared/02/01171400.xhp#helplines_while_moving"/>
+
+</body>
+</helpdocument>

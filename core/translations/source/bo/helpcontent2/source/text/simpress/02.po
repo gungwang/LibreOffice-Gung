@@ -1,0 +1,5579 @@
+#. extracted from helpcontent2/source/text/simpress/02
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-10-07 13:33+0200\n"
+"PO-Revision-Date: 2025-03-04 21:02+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Tibetan <https://translations.documentfoundation.org/projects/libo_help-master/textsimpress02/bo/>\n"
+"Language: bo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1507112541.000000\n"
+
+#. AiACn
+#: 04010000.xhp
+msgctxt ""
+"04010000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Show/Hide Slide"
+msgstr "གབ་པའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་"
+
+#. JQm8Z
+#: 04010000.xhp
+msgctxt ""
+"04010000.xhp\n"
+"hd_id3147368\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/04010000.xhp\">Show/Hide Slide</link>"
+msgstr "<link href=\"text/simpress/02/04010000.xhp\">སྒྲོན་བཪྙན་སྤྱིན་ཤོག་གབ་པ་</link>"
+
+#. EVzWT
+#: 04010000.xhp
+msgctxt ""
+"04010000.xhp\n"
+"par_id3149883\n"
+"help.text"
+msgid "<ahelp hid=\".uno:HideSlide\">Hides the selected slide so that it is not displayed during a slide show.</ahelp>"
+msgstr "<ahelp hid=\".uno:HideSlide\"> འདེམས་ངེས་ཀྱི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་གབ་ཏེ་དེ་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་བཪྙན་གཏོང་སྐབས་མི་མངོན་པ།</ahelp>"
+
+#. dEZwX
+#: 04010000.xhp
+msgctxt ""
+"04010000.xhp\n"
+"par_id3155434\n"
+"help.text"
+msgid "The number of a hidden slide is crossed out. To show a hidden slide, choose <menuitem>Slide Show - Show/Hide Slide</menuitem> again."
+msgstr ""
+
+#. cjT2r
+#: 04010000.xhp
+msgctxt ""
+"04010000.xhp\n"
+"par_id3148772\n"
+"help.text"
+msgid "<image id=\"img_id3156067\" src=\"cmd/lc_hideslide.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156067\">Icon Hide Slide</alt></image>"
+msgstr ""
+
+#. sLDAL
+#: 04010000.xhp
+msgctxt ""
+"04010000.xhp\n"
+"par_id3156061\n"
+"help.text"
+msgid "Show/Hide Slide"
+msgstr "གབ་པའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་"
+
+#. ESfve
+#: 04020000.xhp
+msgctxt ""
+"04020000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Slides Per Row"
+msgstr "ཕྲེང་སོ་སོར་མངོན་པའི་ཁ་གྲངས་"
+
+#. YQ9XC
+#: 04020000.xhp
+msgctxt ""
+"04020000.xhp\n"
+"hd_id3154319\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/04020000.xhp\">Slides Per Row</link>"
+msgstr "<link href=\"text/simpress/02/04020000.xhp\">ཕྲེང་སོ་སོར་མངོན་པའི་ཁ་གྲངས།</link>"
+
+#. ot6hT
+#: 04020000.xhp
+msgctxt ""
+"04020000.xhp\n"
+"par_id3154012\n"
+"help.text"
+msgid "<ahelp hid=\".uno:PagesPerRow\">Enter the number of slides to display on each row in the Slide Sorter.</ahelp>"
+msgstr "<ahelp hid=\".uno:PagesPerRow\">སྒྲོན་བཪྙན་སྤྱིན་ཤོག་མིག་བཤར་ནང་ཕྲེང་སོ་སོ་མངོན་པའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ཀྱི་ཁ་གྲངས་ནང་འཇུག</ahelp>"
+
+#. fNkxT
+#: 04030000.xhp
+msgctxt ""
+"04030000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Slide Effects"
+msgstr "སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ཕན་འབྲས་"
+
+#. TrJBP
+#: 04030000.xhp
+msgctxt ""
+"04030000.xhp\n"
+"hd_id3152598\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/04030000.xhp\">Slide Effects</link>"
+msgstr "<link href=\"text/simpress/02/04030000.xhp\">སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ཕན་འབྲས།</link>"
+
+#. sDJeq
+#: 04030000.xhp
+msgctxt ""
+"04030000.xhp\n"
+"par_idN1059C\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the transition effect that appears before the current slide is shown.</ahelp>"
+msgstr "<ahelp hid=\".\">མིག་སྔའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་སྔོན་ཐོན་པའི་བརྗེ་འགྱུར་ཕན་འབྲས་བདམས་ཏེ་བསྒྲགས་གཏོང་།</ahelp>"
+
+#. HNHFS
+#: 04060000.xhp
+msgctxt ""
+"04060000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Time"
+msgstr "དུས་ཚོད་"
+
+#. bKTQd
+#: 04060000.xhp
+msgctxt ""
+"04060000.xhp\n"
+"hd_id3153188\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/04060000.xhp\">Time</link>"
+msgstr "<link href=\"text/simpress/02/04060000.xhp\">དུས་ཚོད།</link>"
+
+#. 9B2G8
+#: 04060000.xhp
+msgctxt ""
+"04060000.xhp\n"
+"par_idN1059C\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the amount of time before the slide show automatically advances to the next slide.</ahelp> This option is only available for automatic transition."
+msgstr "<ahelp hid=\".\">རང་འགུལ་གྱིས་གཤམ་གྱི་ཤོག་ལྟེར་བརྗེ་སྒྱུར་བྱས་པའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་སྒུག་པའི་དུས་ཚོད་ནང་འཇུག་བྱེད།  འདེམས་གཞི་འདི་རང་འགུལ་བརྗེ་སྒྱུར་བཟོ་ལྟ་ཁོ་ནང་བེད་སྤྱད་</ahelp> འདེམས་གཞི་འདི་རང་འགུལ་བརྗེ་འགྱུར་གྱི་ཐབས་ཚུལ་ཁོ་ནར་སྤྱོད་ཐུབ།"
+
+#. BAD4d
+#: 04070000.xhp
+msgctxt ""
+"04070000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Rehearse Timings"
+msgstr "སྦྱོང་བརྡར་དུས་བཀག་"
+
+#. i8ZFP
+#: 04070000.xhp
+msgctxt ""
+"04070000.xhp\n"
+"hd_id3150010\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/04070000.xhp\">Rehearse Timings</link>"
+msgstr "<link href=\"text/simpress/02/04070000.xhp\">སྦྱོང་བརྡར་དུས་བཀག་</link>"
+
+#. sBSvg
+#: 04070000.xhp
+msgctxt ""
+"04070000.xhp\n"
+"par_id3154491\n"
+"help.text"
+msgid "<ahelp hid=\".uno:RehearseTimings\">Starts a slide show with a timer in the lower left corner.</ahelp>"
+msgstr "<ahelp hid=\".uno:RehearseTimings\"> སྒྲོན་བཪྙན་སྤྱིན་ཤོག་བཪྙན་གཏོང་འགོ་བརྩུགས་པ་མ་ཟད་ གཡོན་གྱི་གཤམ་ཟུར་ལ་དུས་བཀག་ཆས་མངོན་པ། </ahelp>"
+
+#. T8Ygw
+#: 04070000.xhp
+msgctxt ""
+"04070000.xhp\n"
+"par_id3156385\n"
+"help.text"
+msgid "<image id=\"img_id3155962\" src=\"cmd/lc_rehearsetimings.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155962\">Icon Rehearse Timings</alt></image>"
+msgstr ""
+
+#. EGvU7
+#: 04070000.xhp
+msgctxt ""
+"04070000.xhp\n"
+"par_id3150298\n"
+"help.text"
+msgid "Rehearse Timings"
+msgstr "སྦྱོང་བརྡར་དུས་བཀག་"
+
+#. YGAAB
+#: 04070000.xhp
+msgctxt ""
+"04070000.xhp\n"
+"par_id3152994\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/06080000.xhp\">Slide Show Settings</link>"
+msgstr "<link href=\"text/simpress/01/06080000.xhp\">སྒྲོན་བཪྙན་སྤྱིན་ཤོག་གཏོང་བཀོད་སྒྲིག</link>"
+
+#. s3Nu4
+#: 08020000.xhp
+msgctxt ""
+"08020000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Current Size"
+msgstr "མིག་སྔའི་ཆེ་ཆུང་"
+
+#. 4QBcv
+#: 08020000.xhp
+msgctxt ""
+"08020000.xhp\n"
+"hd_id3154011\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/08020000.xhp\">Current Size</link>"
+msgstr "<link href=\"text/simpress/02/08020000.xhp\">མིག་སྔའི་ཆེ་ཆུང་</link>"
+
+#. 5xBqE
+#: 08020000.xhp
+msgctxt ""
+"08020000.xhp\n"
+"par_id3154321\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Position\">Displays the X and Y position of the cursor and the size of the selected object.</ahelp>"
+msgstr "<ahelp hid=\".uno:Position\">འོད་རྟགས་ཀྱི་ X དང་ Y གནས་ས་དང་འདེམས་ངེས་བྱ་ཡུལ་གྱི་ཆེ་ཆུང་མངོན་པ་</ahelp>"
+
+#. dZ82L
+#: 08020000.xhp
+msgctxt ""
+"08020000.xhp\n"
+"par_id3154510\n"
+"help.text"
+msgid "This Status bar field uses the same measurement units as the rulers. You can define the units by choosing <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - <link href=\"text/shared/optionen/01070500.xhp\"><emph>%PRODUCTNAME Impress - General</emph></link>."
+msgstr ""
+
+#. 6tHYP
+#: 08060000.xhp
+msgctxt ""
+"08060000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Current Slide/Level"
+msgstr "མིག་སྔའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་/རིམ་པ་"
+
+#. CFJFQ
+#: 08060000.xhp
+msgctxt ""
+"08060000.xhp\n"
+"hd_id3159153\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/08060000.xhp\">Current Slide/Level</link>"
+msgstr "<link href=\"text/simpress/02/08060000.xhp\">མིག་སྔའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་/རིམ་པ་</link>"
+
+#. fgC2j
+#: 08060000.xhp
+msgctxt ""
+"08060000.xhp\n"
+"par_id3153190\n"
+"help.text"
+msgid "<ahelp hid=\".uno:PageStatus\" visibility=\"visible\">Displays the current slide number followed by the total number of slides.</ahelp>"
+msgstr "<ahelp hid=\".uno:PageStatus\" visibility=\"visible\">མིག་སྔའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་གི་ཨང་འགོད་དང་མིག་སྔའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་གི་བསྡོམས་གྲངས་མངོན་པ།</ahelp>"
+
+#. 42t7t
+#: 08060000.xhp
+msgctxt ""
+"08060000.xhp\n"
+"par_id3149126\n"
+"help.text"
+msgid "In Layer Mode, the name of the layer containing the selected object is displayed."
+msgstr "རིམ་པའི་མ་ཚུལ་འོག་བྱ་ཡུལ་ཚུད་པའི་རིམ་པའི་མིང་འདེམས་དགོས།"
+
+#. CCAgB
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Zoom"
+msgstr "སྡུར་ཚད་མངོན་པ་"
+
+#. Zzvoy
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"bm_id3159153\n"
+"help.text"
+msgid "<bookmark_value>increasing sizes of views</bookmark_value><bookmark_value>views; display sizes</bookmark_value><bookmark_value>decreasing sizes of views</bookmark_value><bookmark_value>zooming; in presentations</bookmark_value><bookmark_value>views; shift function</bookmark_value><bookmark_value>hand icon for moving slides</bookmark_value>"
+msgstr "<bookmark_value>མཐོང་རིས་ཁྲེ་ཚུན་ཆེར་གཏོང་ </bookmark_value><bookmark_value>རིས་འགོད་;  ཁྲེ་ཚུན་མངོན་པ་</bookmark_value><bookmark_value>མཐོང་རིས་ཀྱི་ཁྲེ་ཚུན།</bookmark_value><bookmark_value>མངོན་པའི་སྡུར་ཚད་བསྐུམ་པ་; གསལ་སྟོན་ཡིག་ཟིན་</bookmark_value><bookmark_value>མཐོང་རིས་; སྤོ་སྒུལ་བྱེད་ནུས་</bookmark_value><bookmark_value>སྒྲིན་བཪྙན་སྤྱིན་ཤོག་སྤོ་སྒུལ་གྱི་ལག་དབྱིབས་རིས་རྟགས་ལ་སྤྱོད་པ།</bookmark_value>"
+
+#. EAGJR
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"hd_id3159153\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/10020000.xhp\">Zoom</link>"
+msgstr "<link href=\"text/simpress/02/10020000.xhp\">སྡུར་ཚད་མངོན་པ།</link>"
+
+#. tomZx
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"par_id3147339\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ZoomToolBox\">Reduces or enlarges the screen display of the current document. Click the arrow next to the icon to open the <emph>Zoom</emph> toolbar.</ahelp>"
+msgstr "<ahelp hid=\".uno:ZoomToolBox\">མིག་སྔའི་ཡིག་ཚགས་ཀྱི་གསལ་ཡོལ་མངོན་ཆུང་བསྐུམ་མམ་ཆེ་གཏོང་རིས་རྟགས་འགྲམ་གྱི་དམའ་རྩེ་ཁ་ཕྱེ་རྐྱང་རྡེབ་ཀྱིས་སྡུར་ཚད།<emph></emph>ཡོ་བྱད་མངོན་པ།</ahelp>"
+
+#. ZNAn4
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"par_id3148569\n"
+"help.text"
+msgid "<image id=\"img_id3150205\" src=\"cmd/lc_zoompage.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150205\">Icon Zoom</alt></image>"
+msgstr ""
+
+#. DqpEK
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"par_id3153246\n"
+"help.text"
+msgid "Zoom"
+msgstr "སྡུར་ཚད་མངོན་པ་"
+
+#. 7x5VK
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"par_id3145113\n"
+"help.text"
+msgid "<image id=\"img_id3153070\" src=\"cmd/lc_zoom.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153070\">Icon Zoom ($[officename] Impress in Outline and Slide View)</alt></image>"
+msgstr ""
+
+#. 5UKvs
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"par_id3150397\n"
+"help.text"
+msgid "Zoom ($[officename] Impress in Outline and Slide View)"
+msgstr ""
+
+#. 7ErUk
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"par_id3145822\n"
+"help.text"
+msgid "You can also select the <link href=\"text/shared/01/ZoomMode.xhp\">Zoom & Pan</link> tool and drag a rectangular frame around the area you want to enlarge."
+msgstr ""
+
+#. JJADh
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"hd_id3156060\n"
+"help.text"
+msgid "Zoom 100%"
+msgstr "སྡུར་ཚད་མངོན་པ་ 100%"
+
+#. sCdBX
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"par_id3149031\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Zoom100Percent\">Displays the slide at its actual size.</ahelp>"
+msgstr "<ahelp hid=\".uno:Zoom100Percent\">དངོས་ཡོད་ཆེ་ཆུང་གི་སྒྲོམ་བསྙན་སྤྱོན་ཤོག་མངོན་པ།</ahelp>"
+
+#. MhZJE
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"par_id3155410\n"
+"help.text"
+msgid "<image id=\"img_id3155988\" src=\"cmd/lc_zoom100percent.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155988\">Icon Zoom 100%</alt></image>"
+msgstr ""
+
+#. MiAsU
+#: 10020000.xhp
+msgctxt ""
+"10020000.xhp\n"
+"par_id3083450\n"
+"help.text"
+msgid "Zoom 100%"
+msgstr "སྡུར་ཚད་མངོན་པ་ 100%"
+
+#. yEHKT
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Transformations"
+msgstr ""
+
+#. R839F
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"bm_id3150199\n"
+"help.text"
+msgid "<bookmark_value>flipping around a flip line</bookmark_value><bookmark_value>mirroring objects</bookmark_value><bookmark_value>3D rotation objects; converting to</bookmark_value><bookmark_value>slanting objects</bookmark_value><bookmark_value>objects; effects</bookmark_value><bookmark_value>distorting objects</bookmark_value><bookmark_value>shearing objects</bookmark_value><bookmark_value>transparency; of objects</bookmark_value><bookmark_value>gradients; transparent</bookmark_value><bookmark_value>colors; defining gradients interactively</bookmark_value><bookmark_value>gradients; defining colors</bookmark_value><bookmark_value>circles; of objects</bookmark_value>"
+msgstr "<bookmark_value>མགོ་རྟིང་སློག་པ་; མགོ་རྟིང་སློག་པའི་ཐིག་ལ་སྐོར་བ་</bookmark_value><bookmark_value>བྱ་ཡུལ་རྟེན་འཕྲོ་</bookmark_value><bookmark_value>རྩ་གསུམ་འཁྱིལ་འཁོར་; </bookmark_value><bookmark_value>གསེས་སྤོ་ལ་སྒྱུར་བ་; བྱ་ཡུལ་</bookmark_value><bookmark_value>བྱ་ཡུལ་; ནུས་པ་</bookmark_value><bookmark_value>གཅུས་པ་; བྱ་ཡུལ་</bookmark_value><bookmark_value>བྱ་ཡུལ་དྲས་བཟོ་</bookmark_value><bookmark_value>གསལ་དངས་; བྱ་ཡུལ་</bookmark_value><bookmark_value>ཚོན་མདོག་རིས་མོ་; གསལ་དངས་</bookmark_value><bookmark_value>ཚོན་མདོག་; མཉམ་གསེས་ཀྱིས་ཚོན་མདོག་རིས་མོར་མཚན་འཇོག</bookmark_value><bookmark_value>དལ་འགྱུར་; ཚོན་མདོག་མཚན་འཇོག་</bookmark_value><bookmark_value>སྒོར་མོ་; བྱ་ཡུལ་</bookmark_value>"
+
+#. Tm7xa
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"hd_id3147264\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/10030000.xhp\">Transformations</link>"
+msgstr ""
+
+#. EpoHs
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3153965\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AdvancedMode\">Modifies the shape, orientation or fill of the selected object(s).</ahelp>"
+msgstr "<ahelp hid=\".uno:AdvancedMode\"> འདེམས་ངེས་བྱ་ཡུལ་གྱི་བཟོ་དབྱེབས་ཁ་ཕྱོགས་སམ་སྐོང་གསབ་ཐབས་ཚུལ་བཟོ་བཅོས། </ahelp>"
+
+#. uEqDG
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3149018\n"
+"help.text"
+msgid "Choose <menuitem>View - Toolbars - Transformations</menuitem>."
+msgstr ""
+
+#. iDvMV
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id401626114053741\n"
+"help.text"
+msgid "Click the arrow next to the <emph>Transformations</emph> icon on the <emph>Standard</emph> bar."
+msgstr ""
+
+#. VczLB
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3149665\n"
+"help.text"
+msgid "<image id=\"img_id3154490\" src=\"cmd/lc_toggleobjectrotatemode.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154490\">Icon Transformations</alt></image>"
+msgstr ""
+
+#. ZKyMH
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3154018\n"
+"help.text"
+msgid "Transformations"
+msgstr ""
+
+#. pfG6c
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"hd_id3150199\n"
+"help.text"
+msgid "Rotate"
+msgstr "འཁྱིལ་འཁོར་"
+
+#. nDg6B
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3148489\n"
+"help.text"
+msgid "Rotates or skews the selected 2D object(s) around a pivot point. Drag a corner handle of the object in the direction you want to rotate it. To skew an object, drag a center handle in the direction you want to skew it."
+msgstr "འཁྱིལ་འཁོར་གཅིག་གམ་གསེགས་སྤོ་འདེམས་ངེས་ཀྱི་ཆུ་སྙོམས་ངེས་རིས་དབྱིབས་བྱ་ཡུལ་སྐོར་དགོས།  བྱ་ཡུལ་འཁྱིལ་འཁོར་དགོས་ན་འཁྱིལ་འཁོར་དགོས་པའི་ཁ་ཕྱོགས་བརྒྱུད་བྱ་ཡུལ་ཟུར་ཞིག་གི་ཚད་འཛིན་ཚིག་འདྲུད་སྒུལ་; བྱ་ཡུལ་གསེག་སྤོ་དགོས་ན་ གསེག་སྤོ་དགོས་པའི་ཁ་ཕྱོགས་བརྒྱུད་གྱི་དཀྱིལ་གྱི་ཚོད་འཛིན་ཚེག་འདྲུད་སྒུལ།"
+
+#. QVC2A
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3154022\n"
+"help.text"
+msgid "Each slide has only one pivot point. Double-click an object to move the pivot point to the center of the object. You can also drag the pivot point to a new location on the screen, and then rotate the object."
+msgstr "སྒྲོན་བཪྙན་སྤྱིན་ཤོག་སོ་སོར་འཁྱིལ་འཁོར་ཚེག་གཅིག་ཁོ་ན་ལས་མེད། བྱ་ཡུལ་ཆ་རྡེབ་ཀྱིས་འཁྱིལ་འཁོར་ཚེག་བྱ་ཡུལ་གྱི་དཀྱིལ་ལ་སྤོ་སྒུལ་བྱེད་ འཁྱིལ་འཁོར་ཚེག་གསལ་སྤོལ་ནང་གི་གནས་ས་གསར་པ་འདྲུད་རྗེས་བྱ་ཡུལ་ཡང་སྐྱར་འཁྱིལ་འཁོར་བྱེད།"
+
+#. NnrMf
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3153914\n"
+"help.text"
+msgid "If you select a group that includes a 3D object, only the 3D object is rotated. You cannot skew a 3D object, instead, you can rotate it about the X and Y axes by dragging the center handles."
+msgstr "གལ་ཏེ་ཚོ་གཅིག་བདམས་པ་དང་ཚོ་དེའི་ནང་རྩ་གསུམ་གྱི་བྱ་ཡུལ་ཡོད་ན་ རྩ་གསུམ་བྱ་ཡུལ་འཁྱིལ་འཁོར་བྱེད། རྩ་གསུམ་བྱ་ཡུལ་གསེག་སྤོ་བྱེད་མ་ཐུབ་ན་ དཀྱིལ་གྱི་ཚོད་འཛིན་ཚེག་འདྲུད་སྒུལ་བརྒྱུད་དེ་ འདི་Xམདའ་དང་Yམདའ་འཁྱེལ་འཁོར་བྱེད།"
+
+#. oBz7V
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3146962\n"
+"help.text"
+msgid "<image id=\"img_id3153811\" src=\"cmd/sc_toggleobjectrotatemode.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153811\">Icon Rotate</alt></image>"
+msgstr ""
+
+#. WCPSb
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3150435\n"
+"help.text"
+msgid "Rotate"
+msgstr "འཁྱིལ་འཁོར་"
+
+#. c33zf
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"hd_id3151387\n"
+"help.text"
+msgid "Flip"
+msgstr "མགོ་རྟིང་སློག་པ་"
+
+#. GDoy3
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3157874\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Mirror\">Flips the selected object(s) around a flip line, that you can drag to anywhere on the slide. Drag a handle of the object(s) across the flip line to flip the object(s). To change the orientation of the flip line, drag one of its end points to new location.</ahelp>"
+msgstr "<ahelp hid=\".uno:Mirror\">མགོ་རྟིང་སློག་པའི་ཐིག་གཅིག་མཐའ་སྐོར་འདེམས་ངེས་ཀྱི་བྱ་ཡུལ་གཅིག་གམ་མང་པོ་མགོ་རྟིང་སློག་པ་   མགོ་རྟིང་སློག་པའི་ཚེག་ཤོག་ངེས་ཀྱི་གནས་ས་ངེས་མེད་ལ་འདྲུད་ཆོག་  བྱ་ཡུལ་གཅིག་གམ་མང་པོའི་ཚོད་འཛིན་ཚེག་འདྲུད་སྒུལ་གྱིས་དེ་མགོ་རྟིང་སློག་པའི་ཐིག་ལས་བརྒལ་དགོས་ མགོ་རྟིང་སློག་པའི་ཚེག་གི་ཁ་ཕྱོགས་སྒྱུར་དགོས་ན་  མགོ་རྟིང་སློག་པ་གི་སྣེ་གཅིག་གནས་ས་གསར་པའི་སྟེང་འདྲུད་དགོས། </ahelp>"
+
+#. FWwdE
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3153035\n"
+"help.text"
+msgid "<image id=\"img_id3153932\" src=\"cmd/lc_mirror.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153932\">Icon Flip</alt></image>"
+msgstr ""
+
+#. Kz9PF
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3145590\n"
+"help.text"
+msgid "Flip"
+msgstr "མགོ་རྟིང་སློག་པ་"
+
+#. dyHFf
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"hd_id3155263\n"
+"help.text"
+msgid "In 3D Rotation Object"
+msgstr "གསུམ་འཁྱིལ་འཁོར་ནང་"
+
+#. wawhs
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3145169\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConvertInto3DLathe\">Converts the selected 2D object(s) to a 3D object, by rotating the object(s) around a symmetry line.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConvertInto3DLathe\">འདེམས་ངེས་ཀྱི་ཆུ་སྙོམས་བྱ་ཡུལ་ཆ་སྒྲིག་བརྒྱུད་དེ་འཁྱིལ་འཁོར་གྱིས་དེ་རྩ་གསུམ་བྱ་ཡུལ་ལ་འགྱུར་དགོས།</ahelp>"
+
+#. 8HKkk
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3150332\n"
+"help.text"
+msgid "Drag the symmetry line to a new location to change the shape of the converted object. To change the orientation of the symmetry line, drag one of its end points. Click the object to convert it to 3D."
+msgstr "ཆ་འགྲིག་ཐིག་གནས་ས་གསར་པར་འདྲུད་དེ་འགྱུར་རྗེས་ཀྱི་བྱ་ཡུལ་བཟོ་ལྟ་བཅོས་ཆོག  ཆ་འགྲིལ་ཐིག་གི་ཁ་ཕྱོགས་འགྱུར་དགོས་ན་  ཆ་འགྲིལ་ཐིག་གཅིག་གི་སྣེ་ཚེག་འདྲུད་སྒུལ་བྱེད་  བྱ་ཡུལ་རྐྱང་རྡེབ་ཀྱིས་དེ་གསུམ་འཇལ་ལ་འགྱུར།"
+
+#. EAroP
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3150928\n"
+"help.text"
+msgid "<image id=\"img_id3145295\" src=\"svx/res/rotate3d.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3145295\">Icon In 3D rotation object</alt></image>"
+msgstr ""
+
+#. vCf5c
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3149024\n"
+"help.text"
+msgid "In 3D Rotation Object"
+msgstr "གསུམ་འཁྱིལ་འཁོར་ནང་"
+
+#. YXDuU
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"hd_id3147536\n"
+"help.text"
+msgid "Set in circle (perspective)"
+msgstr "སྒོར་མོའི་ནང་བཀོད་སྒྲིག་(སྒྲིབ་མེད་)"
+
+#. ueVum
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3150468\n"
+"help.text"
+msgid "<ahelp hid=\".uno:CrookRotate\">Distorts the selected object by wrapping it around imaginary circles, and then adding perspective. Drag a handle of the selected object to distort it.</ahelp> If the selected object is not a polygon or Bézier curve, you are prompted to change the object to a curve before you can distort it."
+msgstr "<ahelp hid=\".uno:CrookRotate\">རྟོག་བཟོའི་སྒོར་མོ་བརྒྱུད་འདེམས་ངེས་ཀྱི་བྱ་ཡུལ་འཁྱིལ་འཁོར་གྱིས་དེ་གཅུས་ཏེ་བཟོ་ལྟ་འགྱུར་བ་བྱེད་དེ་རྗེས་སྒྲིབ་མེད་ཕན་འབྲས་གསབ་སྣོན་  འདེམས་ངེས་བྱ་ཡུལ་གྱི་ཚོད་འཛིན་ཚེག་འདྲུད་སྒུལ་གྱི་བྱ་ཡུལ་གཅུས་ཏེ་བཟོ་ལྟ་འགྱུར་བ་བྱེད།  གལ་ཏེ་འདེམས་ངེས་ཀྱི་བྱ་ཡུལ་མཐའ་མང་དབྱེབས་དང་སྤེ་སེར་ཁྱོག་ཐིག་མིན་ན་མ་ལག་གིས་ཁྱེད་ལ་དེ་ཁྱོག་ཐིག་ལ་འགྱུར་བ་དྲན་བརྡ་བྱེད་གཅུས་ཏེ་བཟོ་ལྟ་འགྱུར་གྱི་ཡོད། </ahelp>"
+
+#. wB59c
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3147167\n"
+"help.text"
+msgid "<image id=\"img_id3083443\" src=\"cmd/lc_crookslant.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3083443\">Icon Set in circle</alt></image>"
+msgstr ""
+
+#. jQBPp
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3149454\n"
+"help.text"
+msgid "Set in circle (perspective)"
+msgstr "སྒོར་མོའི་ནང་བཀོད་སྒྲིག་(སྒྲིབ་མེད་)"
+
+#. s7TXu
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"hd_id3151185\n"
+"help.text"
+msgid "Set to circle (slant)"
+msgstr "སྒོར་དབྱེབས་བཟོ་ལྟ་འགྱུར་བ་(倾斜)"
+
+#. DGGdN
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3150766\n"
+"help.text"
+msgid "<ahelp hid=\".uno:CrookSlant\">Distorts the selected object by wrapping it around imaginary circles. Drag a handle of the selected object to distort it.</ahelp> If the selected object is not a polygon or Bézier curve, you are prompted to change the object to a curve before you can distort it."
+msgstr "<ahelp hid=\".uno:CrookSlant\">རྟོག་བཟོའི་སྒོར་མོ་བརྒྱུད་འདེམས་ངེས་ཀྱི་བྱ་ཡུལ་འཁྱིལ་འཁོར་གྱིས་དེ་གཅུས་ཏེ་བཟོ་ལྟ་འགྱུར་བ་བྱེད་དེ་རྗེས་སྒྲིབ་མེད་ཕན་འབྲས་གསབ་སྣོན་  འདེམས་ངེས་བྱ་ཡུལ་གྱི་ཚོད་འཛིན་ཚེག་འདྲུད་སྒུལ་གྱི་བྱ་ཡུལ་གཅུས་ཏེ་བཟོ་ལྟ་འགྱུར་བ་བྱེད།</ahelp>གལ་ཏེ་འདེམས་ངེས་ཀྱི་བྱ་ཡུལ་མཐའ་མང་དབྱེབས་དང་སྤེ་སེར་ཁྱོག་ཐིག་མིན་ན་མ་ལག་གིས་ཁྱེད་ལ་དེ་ཁྱོག་ཐིག་ལ་འགྱུར་བ་དྲན་བརྡ་བྱེད་གཅུས་ཏེ་བཟོ་ལྟ་འགྱུར་གྱི་ཡོད།"
+
+#. GkHCQ
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3150875\n"
+"help.text"
+msgid "<image id=\"img_id3150882\" src=\"cmd/lc_crookrotate.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150882\">Icon Set to circle</alt></image>"
+msgstr ""
+
+#. CHQyt
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3153156\n"
+"help.text"
+msgid "Set to circle (slant)"
+msgstr "སྒོར་དབྱེབས་བཟོ་ལྟ་འགྱུར་བ་(倾斜)"
+
+#. cgohm
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"hd_id3154049\n"
+"help.text"
+msgid "Distort"
+msgstr "གཅུས་ཏེ་བཟོ་ལྟ་འགྱུར་བ་"
+
+#. TpfKC
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3149756\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Shear\">Lets you drag the handles of the selected object to change its shape.</ahelp> If the selected object is not a polygon or Bézier curve, you are prompted to change the object to a curve before you can distort it."
+msgstr "<ahelp hid=\".uno:Shear\"> འདེམས་ངེས་བྱ་ཡུལ་གྱི་ཚོད་འཛིན་ཚེག་འདྲུད་སྒུལ་བརྒྱུད་བྱ་ཡུལ་གྱི་བཟོ་ལྟ་བཅོས་པ།</ahelp>གལ་ཏེ་འདེམས་ངེས་ཀྱི་བྱ་ཡུལ་མཐའ་མང་ཁྱོག་ཐིགས་མིན་ན་མ་ལག་གི་ཁྱེད་ལ་དེ་ཁྱོག་ཐིག་ལ་འགྱུར་བ་དྲན་བརྡ་བྱེད་པ་དང་གཅུས་ཏེ་བཟོ་ལྟ་འགྱུར་གྱི་ཡོད།"
+
+#. ATAuC
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3154693\n"
+"help.text"
+msgid "<image id=\"img_id3154933\" src=\"cmd/lc_shear.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154933\">Icon Distort</alt></image>"
+msgstr ""
+
+#. 5Fh3F
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3154294\n"
+"help.text"
+msgid "Distort"
+msgstr "གཅུས་ཏེ་བཟོ་ལྟ་འགྱུར་བ་"
+
+#. DAdiJ
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"hd_id3154203\n"
+"help.text"
+msgid "Transparency"
+msgstr "གསལ་དངས་"
+
+#. Jp4JC
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3154258\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InteractiveTransparence\">Applies a transparency gradient to the selected object.</ahelp> The transparency line represents a grayscale, with the black handle corresponding to 0% transparency and the white handle to 100% transparency."
+msgstr ""
+
+#. YEZC2
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3147516\n"
+"help.text"
+msgid "Drag the white handle to change the direction of the transparency gradient. Drag the black handle to change the length of the gradient. You can also drag and drop colors onto the handles from the <menuitem>Color Bar</menuitem> to change their grayscale values."
+msgstr ""
+
+#. CCtXc
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3154104\n"
+"help.text"
+msgid "To display the <menuitem>Color Bar</menuitem>, choose <menuitem>View - Color Bar</menuitem>."
+msgstr ""
+
+#. 7z8fd
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3154602\n"
+"help.text"
+msgid "<image id=\"img_id3154790\" src=\"cmd/lc_interactivetransparence.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154790\">Icon Transparency</alt></image>"
+msgstr ""
+
+#. xZb79
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3150623\n"
+"help.text"
+msgid "Transparency"
+msgstr "གསལ་དངས་"
+
+#. EBm4p
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"hd_id3149932\n"
+"help.text"
+msgid "Gradient"
+msgstr "ཚོན་མདོག་རིས་མོ་"
+
+#. ssDkN
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3149594\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InteractiveGradient\">Modifies the gradient fill of the selected object. This command is only available if you applied a gradient to the selected object in <menuitem>Format - Area</menuitem>.</ahelp> Drag the handles of the gradient line to change the direction of the gradient or the length of the gradient. You can also drag and drop colors onto the handles from the <menuitem>Color Bar</menuitem> to change the color of the gradient endpoints."
+msgstr ""
+
+#. XREtB
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3151311\n"
+"help.text"
+msgid "To display the <menuitem>Color Bar</menuitem>, choose <menuitem>View - Color Bar</menuitem>."
+msgstr ""
+
+#. HMYUP
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3150990\n"
+"help.text"
+msgid "<image id=\"img_id3151102\" src=\"cmd/lc_interactivegradient.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151102\">Icon Gradient</alt></image>"
+msgstr ""
+
+#. nVb58
+#: 10030000.xhp
+msgctxt ""
+"10030000.xhp\n"
+"par_id3148400\n"
+"help.text"
+msgid "Gradient"
+msgstr "ཚོན་མདོག་རིས་མོ་"
+
+#. cZRpT
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Gluepoints Bar"
+msgstr "སྦྱར་ཚེགས་"
+
+#. Qvuc5
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"bm_id3149948\n"
+"help.text"
+msgid "<bookmark_value>object bars; editing gluepoints</bookmark_value>"
+msgstr ""
+
+#. GWD99
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3149948\n"
+"help.text"
+msgid "<variable id=\"gluepointsbar\"><link href=\"text/simpress/02/10030200.xhp\">Gluepoints Bar</link></variable>"
+msgstr ""
+
+#. PDTWP
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3159206\n"
+"help.text"
+msgid "<ahelp hid=\".\">Insert or modify the properties of a gluepoint. A gluepoint is a point where you can attach a <link href=\"text/simpress/02/10100000.xhp\">connector</link> line. </ahelp>"
+msgstr ""
+
+#. bwrG7
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id381748539489834\n"
+"help.text"
+msgid "By default, %PRODUCTNAME automatically places a gluepoint at the center of each side of the bounding rectangle for every object you create."
+msgstr ""
+
+#. a76g9
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3149876\n"
+"help.text"
+msgid "Insert Gluepoint"
+msgstr ""
+
+#. ddyBH
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3150393\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueInsertPoint\">Inserts a gluepoint where you click in an object.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueInsertPoint\">བྱ་ཡུལ་རྩིག་རྟགས་རྐྱང་རྡེབ་ཀྱི་གནས་སར་སྦྱར་ཚེག་གཅིག་བསྒར་འཛུད་</ahelp>"
+
+#. X9vCD
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3157876\n"
+"help.text"
+msgid "<image id=\"img_id3150650\" src=\"cmd/lc_glueinsertpoint.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150650\">Icon Insert Gluepoint</alt></image>"
+msgstr ""
+
+#. RCm8h
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3148729\n"
+"help.text"
+msgid "Insert Point"
+msgstr "འབྲེལ་ཚེག་བསྒར་འཛུད་"
+
+#. YbLcW
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3153933\n"
+"help.text"
+msgid "Exit Direction Left"
+msgstr "གཡོན་ཕྱོགས་ཕྱིར་འཐེན་"
+
+#. WrtRK
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3150864\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueEscapeDirectionLeft\">Connector attaches to the left edge of the selected gluepoint.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueEscapeDirectionLeft\"> འབྲེལ་མཐུད་རྟགས་དང་འདེམས་ངེས་སྦྲེལ་ཚེག་གི་གཡོན་མཐའ་འགྲམ་ཕན་ཚུན་སྦྲེལ་བ།</ahelp>"
+
+#. MAUuQ
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3145165\n"
+"help.text"
+msgid "<image id=\"img_id3153567\" src=\"cmd/lc_glueescapedirectionleft.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153567\">Icon Exit Direction Left</alt></image>"
+msgstr ""
+
+#. KrDHH
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3150019\n"
+"help.text"
+msgid "Exit Direction Left"
+msgstr "གཡོན་ཕྱོགས་ཕྱིར་འཐེན་"
+
+#. BDDEv
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3149881\n"
+"help.text"
+msgid "Exit Direction Top"
+msgstr "སྟེང་ཕྱོགས་ལ་ཕྱིར་འཐེན་"
+
+#. 6dB3t
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3147370\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueEscapeDirectionTop\">Connector attaches to the top edge of the selected gluepoint.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueEscapeDirectionTop\"> སྦྲེལ་མཐུད་རྟགས་དང་འདེམས་ངེས་སྦྱར་ཚེག་སྟེང་གི་ལྟིང་མཐའ་འགྲམ་མཉམ་སྦྲེལ།</ahelp>"
+
+#. fHzur
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3153042\n"
+"help.text"
+msgid "<image id=\"img_id3148386\" src=\"cmd/lc_glueescapedirectiontop.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148386\">Icon Exit Direction Top</alt></image>"
+msgstr ""
+
+#. FNzDv
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3150929\n"
+"help.text"
+msgid "Exit Direction Top"
+msgstr "སྟེང་ཕྱོགས་ལ་ཕྱིར་འཐེན་"
+
+#. GfDqi
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3150265\n"
+"help.text"
+msgid "Exit Direction Right"
+msgstr "གཡས་ཕྱོགས་ལ་ཕྱིར་འཐེན་"
+
+#. H6otk
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3149030\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueEscapeDirectionRight\">Connector attaches to the right edge of the selected gluepoint.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueEscapeDirectionRight\"> འབྲེལ་མཐུད་རྟགས་འདེམས་ངེས་སྦྲེལ་ཚེག་གི་གཡས་མཐའ་འགྲོ་ལ་གསབ་སྣོན་བྱ།</ahelp>"
+
+#. FSEzG
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3155401\n"
+"help.text"
+msgid "<image id=\"img_id3156256\" src=\"cmd/lc_glueescapedirectionright.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156256\">Icon Exit Direction Right</alt></image>"
+msgstr ""
+
+#. AGqED
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3153716\n"
+"help.text"
+msgid "Exit Direction Right"
+msgstr "གཡས་ཕྱོགས་ལ་ཕྱིར་འཐེན་"
+
+#. nUdrQ
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3147173\n"
+"help.text"
+msgid "Exit Direction Bottom"
+msgstr "འོག་ཕྱོགས་ལ་ཕྱིར་འཐེན་"
+
+#. TbvAt
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3149710\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueEscapeDirectionBottom\">Connector attaches to the bottom edge of the selected gluepoint.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueEscapeDirectionBottom\">འབྲེལ་མཐུད་རྟགས་འདེམས་ངེས་སྦྲེལ་ཚེག་གི་གཤམ་མཐའ་འགྲོ་ལ་གསབ་སྣོན། </ahelp>"
+
+#. AxSoV
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3145204\n"
+"help.text"
+msgid "<image id=\"img_id3150756\" src=\"cmd/lc_glueescapedirectionbottom.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150756\">Icon Exit Direction Bottom</alt></image>"
+msgstr ""
+
+#. T3asN
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3153218\n"
+"help.text"
+msgid "Exit Direction Bottom"
+msgstr "འོག་ཕྱོགས་ལ་ཕྱིར་འཐེན་"
+
+#. E8HuW
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3150875\n"
+"help.text"
+msgid "Gluepoint Relative"
+msgstr ""
+
+#. eaDid
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3147571\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GluePercent\">Maintains the relative position of a selected gluepoint when you resize an object.</ahelp>"
+msgstr "<ahelp hid=\".uno:GluePercent\">བྱ་ཡུལ་ཆེ་ཆུང་ལེགས་སྒྲིག་སྐབས་  འདེམས་ངེས་ཀྱི་སྦྱར་ཚེག་གྱི་ལྟོས་པའི་གནས་ས་རྒྱུན་སྲུང་།</ahelp>"
+
+#. DHJdf
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3153622\n"
+"help.text"
+msgid "<image id=\"img_id3153149\" src=\"cmd/lc_gluepercent.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153149\">Icon Gluepoint Relative</alt></image>"
+msgstr ""
+
+#. FtTLV
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3149286\n"
+"help.text"
+msgid "Gluepoint Relative"
+msgstr ""
+
+#. SpABR
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3149755\n"
+"help.text"
+msgid "Gluepoint Horizontal Left"
+msgstr ""
+
+#. 3QrV9
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3147252\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueHorzAlignLeft\">When the object is resized, the current gluepoint remains fixed to the left edge of the object.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueHorzAlignLeft\">བྱ་ཡུལ་ཆེ་ཆུང་ལེགས་སྒྲིག་སྐབས་  མིག་སྔའི་སྦྱར་ཚེག་བྱ་ཡུལ་གྱི་གཡོན་མཐའ་འགྲོ་རྒྱུན་སྲུང་རྒྱས་བཅད། </ahelp>"
+
+#. FygXr
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3154934\n"
+"help.text"
+msgid "<image id=\"img_id3148829\" src=\"cmd/lc_gluehorzalignleft.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148829\">Icon Gluepoint Horizontal Left</alt></image>"
+msgstr ""
+
+#. 7PEgH
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3158405\n"
+"help.text"
+msgid "Gluepoint Horizontal Left"
+msgstr ""
+
+#. Wwiiy
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3154214\n"
+"help.text"
+msgid "Gluepoint Horizontal Center"
+msgstr ""
+
+#. sFGAs
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3147510\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueHorzAlignCenter\">When the object is resized, the current gluepoint remains fixed to the center of the object.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueHorzAlignCenter\">བྱ་ཡུལ་ཆེ་ཆུང་ལེགས་སྒྲིག་སྐབས་  མིག་སྔའི་སྦྱར་ཚེག་བྱ་ཡུལ་གྱི་དཀྱིལ་ལ་རྒྱུན་སྲུང་རྒྱས་བཅད།</ahelp>"
+
+#. 99EX6
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3148910\n"
+"help.text"
+msgid "<image id=\"img_id3148919\" src=\"cmd/lc_gluehorzaligncenter.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148919\">Icon Gluepoint Horizontal Center</alt></image>"
+msgstr ""
+
+#. 3ge7d
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3150706\n"
+"help.text"
+msgid "Gluepoint Horizontal Center"
+msgstr ""
+
+#. pGdhP
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3153748\n"
+"help.text"
+msgid "Gluepoint Horizontal Right"
+msgstr ""
+
+#. j57kW
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3154096\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueHorzAlignRight\">When the object is resized, the current gluepoint remains fixed to the right edge of the object.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueHorzAlignRight\"> བྱ་ཡུལ་ཆེ་ཆུང་ལེགས་སྒྲིག་སྐབས་  མིག་སྔའི་སྦྲེལ་ཚེག་བྱ་ཡུལ་གྱི་གཡས་མཐའ་འགྲམ་ལ་རྒྱུན་སྲུང་རྒྱས་བཅད།</ahelp>"
+
+#. 7vDTf
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3148627\n"
+"help.text"
+msgid "<image id=\"img_id3149808\" src=\"cmd/lc_gluehorzalignright.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149808\">Icon Gluepoint Horizontal Right</alt></image>"
+msgstr ""
+
+#. PsGcp
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3154799\n"
+"help.text"
+msgid "Gluepoint Horizontal Right"
+msgstr ""
+
+#. CqkDB
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3153540\n"
+"help.text"
+msgid "Gluepoint Vertical Top"
+msgstr ""
+
+#. HTixw
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3149930\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueVertAlignTop\">When the object is resized, the current gluepoint remains fixed to the top edge of the object.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueVertAlignTop\">བྱ་ཡུལ་ཆེ་ཆུང་ལེགས་སྒྲིག་སྐབས་མིག་སྔའི་སྦྲེལ་ཚེག་བྱ་ཡུལ་སྟེང་མཐའ་འགྲམ་ལ་རྒྱུན་སྲུང་རྒྱས་བཅད།</ahelp>"
+
+#. UgGWp
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3154481\n"
+"help.text"
+msgid "<image id=\"img_id3154571\" src=\"cmd/lc_gluevertaligntop.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154571\">Icon Gluepoint Vertical Top</alt></image>"
+msgstr ""
+
+#. DzcPM
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3148681\n"
+"help.text"
+msgid "Gluepoint Vertical Top"
+msgstr ""
+
+#. V5AvY
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3153678\n"
+"help.text"
+msgid "Gluepoint Vertical Center"
+msgstr ""
+
+#. M5aQi
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3151310\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueVertAlignCenter\">When the object is resized, the current gluepoint remains fixed to the vertical center of the object.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueVertAlignCenter\">བྱ་ཡུལ་ཆེ་ཆུང་ལེགས་སྒྲིག་སྐབས་ མིག་སྔའི་སྦྱར་ཚེག་བྱ་ཡུལ་དྲང་འཕྱང་སྟེང་ཕྱོགས་ཀྱི་དཀྱིལ་ལ་རྒྱུན་སྲུང་རྒྱས་བཅད།</ahelp>"
+
+#. SDycG
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3150996\n"
+"help.text"
+msgid "<image id=\"img_id3151106\" src=\"cmd/lc_gluevertaligncenter.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151106\">Icon Gluepoint Vertical Center</alt></image>"
+msgstr ""
+
+#. DmqDC
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3146130\n"
+"help.text"
+msgid "Gluepoint Vertical Center"
+msgstr ""
+
+#. MbCWi
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"hd_id3147529\n"
+"help.text"
+msgid "Gluepoint Vertical Bottom"
+msgstr ""
+
+#. azpMi
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3148397\n"
+"help.text"
+msgid "<ahelp hid=\".uno:GlueVertAlignBottom\">When the object is resized, the current gluepoint remains fixed to the bottom edge of the object.</ahelp>"
+msgstr "<ahelp hid=\".uno:GlueVertAlignBottom\"> བྱ་ཡུལ་ཆེ་ཆུང་ལེགས་སྒྲིག་སྐབས་  མིག་སྔའི་སྦྱར་ཚེག་གྱི་བྱ་ཡུལ་གཤམ་གསལ་མཐའ་འགྲམ་རྒྱུན་སྲུང་རྒྱས་བཅད།</ahelp>"
+
+#. jSF2c
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3150644\n"
+"help.text"
+msgid "<image id=\"img_id3154192\" src=\"cmd/lc_gluevertalignbottom.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154192\">Icon Gluepoint Vertical Bottom</alt></image>"
+msgstr ""
+
+#. b7zcE
+#: 10030200.xhp
+msgctxt ""
+"10030200.xhp\n"
+"par_id3156204\n"
+"help.text"
+msgid "Gluepoint Vertical Bottom"
+msgstr ""
+
+#. dkHqv
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Text"
+msgstr "ཡི་གེ་དང་མཆན་འགོད་ཡོ་བྱད་ཚང་"
+
+#. HdMnC
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"bm_id3152994\n"
+"help.text"
+msgid "<bookmark_value>text; toolbar</bookmark_value><bookmark_value>floating text</bookmark_value><bookmark_value>callouts; inserting in presentations</bookmark_value><bookmark_value>inserting; callouts in presentations</bookmark_value>"
+msgstr "<bookmark_value>ཡི་གེ་དང་རྟགས་འགོད་; ཡོ་བྱད་ཚང།</bookmark_value><bookmark_value>འཕྱོ་འགུལ་; ཡི་གེ་དང་རྟགས་འགོད་ཡོ་བྱད་ཚང་</bookmark_value><bookmark_value>རྟགས་འགོད་; གསལ་སྟོན་ཡིག་ཟིན་ནང་བསྒར་འཛུད་</bookmark_value><bookmark_value>བསྒར་འཛུད་; སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ནང་གི་རྟགས་འགོད་</bookmark_value>"
+
+#. D6ULE
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"hd_id3152994\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/10050000.xhp\">Text</link>"
+msgstr "<link href=\"text/simpress/02/10050000.xhp\">ཡི་གེ་དང་རྟགས་འགོད་ཡོ་བྱད་ཚང་།</link>"
+
+#. TZdqA
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3163709\n"
+"help.text"
+msgid "<ahelp hid=\".uno:TextToolbox\">The <emph>Text</emph> toolbar contains some icons to enter different types of text boxes.</ahelp>"
+msgstr "<ahelp hid=\".uno:TextToolbox\">རང་མཚན་འཇོག་ཡོ་བྱད་ཚང་ <emph>[ བརྒྱུད་ནས་]</emph>ཡི་གེ་དང་མཆན་འགོད་ཡོ་བྱད་ཚང་གསབ་སྣོན།</ahelp>"
+
+#. VHfku
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"hd_id3151243\n"
+"help.text"
+msgid "Text"
+msgstr "ཡི་གེ་དང་མཆན་འགོད་ཡོ་བྱད་ཚང་"
+
+#. g773q
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3156019\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Text\">Draws a text box where you click or drag in the current document. Click anywhere in the document, and then type or paste your text.</ahelp>"
+msgstr "<ahelp hid=\".uno:Text\">མིག་སྔའི་ཡིག་ཚག་ནང་རྐྱང་རྡེབ་བམ་འདྲུད་སྒུལ་གྱི་གནས་སར་ཡིག་སྒྲོམ་ཞིག་བྲིས་འགོད་བྱ།  ཡིག་ཚགས་ནང་གི་ངེས་མེད་གནས་ས་རྐྱང་རྡེབ་རྗེས་ཡི་གེ་མཐེབ་འཇུག་གམ་དྲས་སྦྱར་བྱེད་དགོས་ </ahelp>ཡིག་ཚགས་ནང་གི་གནས་ས་ངེས་མེད་རྐྱང་རྡེབ་རྗེས་མཐིབ་འཇུག་གམ་   ཡི་གེ་དྲས་སྦྱར་  འོད་རྟགས་སྣོན་འཇུག་དགོས་པའི་ཡི་གེའི་གནས་སར་སྤོ་སྒུལ་གྱིས་ཡིག་དེབ་སྒྲོམ་གཅིག་འདྲུད་དེ་རྗེས་ཡི་གེ་མཐེབ་འཇུག་གམ་དྲས་སྦྱར་བྱེད།"
+
+#. GK7g2
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3149875\n"
+"help.text"
+msgid "<image id=\"img_id3153070\" src=\"cmd/sc_drawtext.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153070\">Icon</alt></image>"
+msgstr ""
+
+#. FWGFZ
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3150391\n"
+"help.text"
+msgid "Text"
+msgstr "ཡི་གེ་དང་མཆན་འགོད་ཡོ་བྱད་ཚང་"
+
+#. ivRUW
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"hd_id3166466\n"
+"help.text"
+msgid "Fit Text to Frame"
+msgstr "ཡི་གེ་དངསྒྲོམ་སྙོམ་སྒྲིག་"
+
+#. KB7dB
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3150538\n"
+"help.text"
+msgid "<ahelp hid=\".uno:TextFitToSizeTool\">Draws a text box where you click or drag in the current document. The text that you enter is automatically resized to fit the dimensions of the text box.</ahelp> Click anywhere in the document, and then type or paste your text."
+msgstr "<ahelp hid=\".uno:TextFitToSizeTool\"> མིག་སྔའི་ཡིག་ཚག་ནང་རྐྱང་རྡེབ་བམ་འདྲུད་སྒུལ་གྱི་གནས་སར་ཡི་གེའི་སྒྲོམ་གཅིག་བྲིས་འགོད་བྱེད།  ནང་འཇུག་གི་ཡི་གི་རང་འགུལ་གྱི་ཆེ་ཆུང་ལེགས་སྒྲིག་གི་ཡི་གེ་སྒྲོམ་གྱི་ཁྲེ་ཚོན་དང་ཟླ་སྒྲིལ་བྱེད་ </ahelp>ཡིག་ཚགས་ནང་གི་གནས་ས་ངེས་མེད་གཅིག་རྐྱང་རྡེབ་བྱས་རྗེས་ཡི་གེ་མཐིབ་འཇུག་དང་དྲས་སྦྱར་བྱེད།"
+
+#. C4f4P
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3145826\n"
+"help.text"
+msgid "<image id=\"img_id3153038\" src=\"cmd/sc_textfittosizetool.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153038\">Icon</alt></image>"
+msgstr ""
+
+#. CAnBM
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3150860\n"
+"help.text"
+msgid "Fit Text to Frame"
+msgstr "ཡི་གེ་དངསྒྲོམ་སྙོམ་སྒྲིག་"
+
+#. wZwMs
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"hd_id3145596\n"
+"help.text"
+msgid "Callouts"
+msgstr "རིས་རྟགས་"
+
+#. xHsVB
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3153006\n"
+"help.text"
+msgid "Draws a line that ends in a rectangular callout from where you drag in the current document. The text direction is horizontal. Drag a handle of the callout to resize the callout. To change a rectangular callout to a rounded callout, drag the largest corner handle when the pointer changes to a hand. To add text, click the edge of the callout, and then type or paste your text."
+msgstr "མིག་སྔའི་ཡིག་ཚག་ནངབྲིས་འགོད་ཀྱིས་འདྲུད་སྒུལ་གྱིས་གནས་ས་ནས་འགོ་བརྩུགས་ཏེ་རེ་བར་གྲུ་བཞི་དཔེ་རིས་མངོན་པའི་གནས་སར་འཇུག་སྒྲིལ་ ཡི་གེ་ཆེ་སྙོམས་གྱི་ཁ་ཕྱོགས་ འདྲུད་སྒུལ་དཔེ་རིས་ཀྱིས་ཚོད་འཛིན་ཚེག་གི་དཔེ་རིས་ཀྱི་དཔེ་རིས་ཆེ་ཆུང་བཟོ་བཅོས་བྱ། གྲུ་བཞི་དཔེ་རིས་སྒོར་ཟུར་དཔེ་རིས་ལ་བསྒྱུར་དགོས་ན་སྟོན་མདའ་ལག་སྒུལ་ལ་སྒྱུར་སྐབས་ཟུར་ཚོད་འཛིན་ཚེག་འདྲུད་སྒུལ་ཆེ་ཤོས་བྱ་དགོས། ཡི་གེ་སྣོན་འཇུག་བྱ་དགོས་ན་དཔེ་རིས་ཀྱི་མཐའ་ཐིག་རྐྱང་རྡེབ་རྗེས་ཡི་གེ་མཐེབ་འཇུག་གམ་དྲང་སྦྱར་བྱེད་དགོས།"
+
+#. p8gk2
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3150019\n"
+"help.text"
+msgid "<image id=\"img_id3153738\" src=\"cmd/lc_drawcaption.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153738\">Icon Callouts</alt></image>"
+msgstr ""
+
+#. bDZNT
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3157860\n"
+"help.text"
+msgid "Callouts"
+msgstr "རིས་རྟགས་"
+
+#. ysQHG
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"hd_id3148390\n"
+"help.text"
+msgid "Fit Vertical Text to Frame"
+msgstr "གཞུང་སྒྲིག་ཡི་གེ་དང་སྒྲོམ་སྙོམ་སྒྲིག་"
+
+#. cQVEE
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3148770\n"
+"help.text"
+msgid "<ahelp hid=\".uno:VerticalTextFitToSizeTool\">Draws a text box with vertical text direction where you click or drag in the current document. The text that you enter is automatically resized to fit the dimensions of the box. (Enable Asian text support to enable this icon).</ahelp> Click anywhere in the document, and then type or paste your text. You can also move the cursor to where you want to add the text, drag a box, and then type or paste your text."
+msgstr ""
+
+#. WVsEx
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3147537\n"
+"help.text"
+msgid "<image id=\"img_id3154869\" src=\"cmd/lc_verticaltextfittosizetool.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154869\">Icon Fit Vertical Text to Frame</alt></image>"
+msgstr ""
+
+#. r5imS
+#: 10050000.xhp
+msgctxt ""
+"10050000.xhp\n"
+"par_id3150472\n"
+"help.text"
+msgid "Fit Vertical Text to Frame"
+msgstr "གཞུང་སྒྲིག་ཡི་གེ་དང་སྒྲོམ་སྙོམ་སྒྲིག་"
+
+#. FGhyo
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Rectangles"
+msgstr "གྲུ་བཞི་"
+
+#. sA2wy
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"bm_id3159204\n"
+"help.text"
+msgid "<bookmark_value>rectangles</bookmark_value><bookmark_value>forms; inserting</bookmark_value><bookmark_value>geometric forms</bookmark_value><bookmark_value>inserting;rectangles</bookmark_value>"
+msgstr "<bookmark_value>གྲུ་བཞི་; བསྒར་འཛུད་</bookmark_value><bookmark_value>རེའུ་མིག་; བསྒར་འཛུད་</bookmark_value><bookmark_value>དབྱེབས་རྩིས་རེའུ་མིག</bookmark_value>"
+
+#. JRwL4
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"hd_id3159204\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/10060000.xhp\">Rectangles</link>"
+msgstr "<link href=\"text/simpress/02/10060000.xhp\">གྲུ་བཞི་</link>"
+
+#. 9GDww
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3145112\n"
+"help.text"
+msgid "<ahelp hid=\".uno:RectangleToolbox\">Using Customize Toolbar, you can add the <emph>Legacy Rectangles</emph> toolbar.</ahelp>"
+msgstr "<ahelp hid=\".uno:RectangleToolbox\"> རང་མཚན་འཇོག་ཡོ་བྱད་ཚང་བརྒྱུད་དེ་གྲུ་བཞི་\"ཡོ་བྱད་ཚང་\"གསབ་སྣོན་བྱ་ <emph> </emph> </ahelp>"
+
+#. GDfDb
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"hd_id3150396\n"
+"help.text"
+msgid "Rectangle"
+msgstr "གྲུ་བཞི་"
+
+#. LEvuY
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3147405\n"
+"help.text"
+msgid "Draws a filled rectangle where you drag in the current document. Click where you want to place a corner of the rectangle, and drag to the size you want. To draw a square, hold down <keycode>Shift</keycode> while you drag."
+msgstr ""
+
+#. JBQjv
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3145828\n"
+"help.text"
+msgid "<image id=\"img_id3148729\" src=\"cmd/lc_rect.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148729\">Icon Rectangle</alt></image>"
+msgstr ""
+
+#. 2ZYc6
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3154558\n"
+"help.text"
+msgid "Rectangle"
+msgstr "གྲུ་བཞི་"
+
+#. AiCAU
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"hd_id3145591\n"
+"help.text"
+msgid "Square"
+msgstr "གྲུ་བཞི་ཁ་གང་མ་"
+
+#. hr8TC
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3145164\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Square\">Draws a filled square where you drag in the current document. Click where you want to place a corner of the square, and drag to the size you want. To draw a rectangle, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. BCQrJ
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3149879\n"
+"help.text"
+msgid "<image id=\"img_id3149884\" src=\"cmd/lc_square.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149884\">Icon Square</alt></image>"
+msgstr ""
+
+#. eZDSp
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3148770\n"
+"help.text"
+msgid "Square"
+msgstr "གྲུ་བཞི་ཁ་གང་མ་"
+
+#. ccVtx
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"hd_id3145295\n"
+"help.text"
+msgid "Rounded Rectangle"
+msgstr "སྒོར་ཟུར་གྲུ་བཞི་"
+
+#. VcDHn
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3145355\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Rect_Rounded\">Draws a rounded rectangle with a fill where you drag in the current document. Click where you want to place a corner of the rounded rectangle, and drag to the size you want. To draw a rounded square, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. yfzFQ
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3154870\n"
+"help.text"
+msgid "<image id=\"img_id3150467\" src=\"cmd/lc_rect_rounded.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150467\">Icon Rounded Rectangle</alt></image>"
+msgstr ""
+
+#. vu8ZJ
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3155987\n"
+"help.text"
+msgid "Rounded Rectangle"
+msgstr "སྒོར་ཟུར་གྲུ་བཞི་"
+
+#. sd3V3
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"hd_id3083443\n"
+"help.text"
+msgid "Rounded Square"
+msgstr "སྒོར་ཟུར་གྲུ་བཞི་ཁ་གང་མ་"
+
+#. yY4UA
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3149715\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Square_Rounded\">Draws a rounded square with a fill where you drag in the current document. Click where you want to place a corner of the rounded square, and drag to the size you want. To draw a rounded rectangle, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. teAyy
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3156323\n"
+"help.text"
+msgid "<image id=\"img_id3151189\" src=\"cmd/lc_square_rounded.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151189\">Icon Rounded Square</alt></image>"
+msgstr ""
+
+#. bDNZ4
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3145207\n"
+"help.text"
+msgid "Rounded Square"
+msgstr "སྒོར་ཟུར་གྲུ་བཞི་ཁ་གང་མ་"
+
+#. PgmcK
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"hd_id3153618\n"
+"help.text"
+msgid "Rectangle, Unfilled"
+msgstr "གྲུ་བཞི་ མདོག་གསབ་མེད་"
+
+#. 46PrT
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3149981\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Rect_Unfilled\">Draws an empty rectangle where you drag in the current document. Click where you want to place a corner of the rectangle, and drag to the size you want. To draw a square, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. H72Qj
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3159179\n"
+"help.text"
+msgid "<image id=\"img_id3159186\" src=\"cmd/lc_rect_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3159186\">Icon Rectangle, Unfilled</alt></image>"
+msgstr ""
+
+#. 6Btcg
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3153907\n"
+"help.text"
+msgid "Rectangle, Unfilled"
+msgstr "གྲུ་བཞི་ མདོག་གསབ་མེད་"
+
+#. LLh3D
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"hd_id3154930\n"
+"help.text"
+msgid "Square, Unfilled"
+msgstr "གྲུ་བཞི་ མདོག་གསབ་མེད་"
+
+#. wEPDB
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3148830\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Square_Unfilled\">Draws an empty square where you drag in the current document. Click where you want to place a corner of the square, and drag to the size you want. To draw a rectangle, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. chpmW
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3154268\n"
+"help.text"
+msgid "<image id=\"img_id3147510\" src=\"cmd/lc_square_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147510\">Icon Square, Unfilled</alt></image>"
+msgstr ""
+
+#. fuYuC
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3149161\n"
+"help.text"
+msgid "Square, Unfilled"
+msgstr "གྲུ་བཞི་ མདོག་གསབ་མེད་"
+
+#. GYNLD
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"hd_id3154098\n"
+"help.text"
+msgid "Rounded Rectangle, Unfilled"
+msgstr "སྒོར་ཟུར་གྲུ་བཞི་ མདོག་གསབ་མེད་"
+
+#. GdNF7
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3153684\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Rect_Rounded_Unfilled\">Draws an empty rounded rectangle where you drag in the current document. Click where you want to place a corner of the rounded rectangle, and drag to the size you want. To draw a rounded square, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. SgFNM
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3154603\n"
+"help.text"
+msgid "<image id=\"img_id3154610\" src=\"cmd/lc_rect_rounded_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154610\">Icon Rounded Square, Unfilled</alt></image>"
+msgstr ""
+
+#. E7mzD
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3154802\n"
+"help.text"
+msgid "Rounded Square, Unfilled"
+msgstr "སྒོར་ཟུར་གྲུ་བཞི་ མདོག་གསབ་མེད་"
+
+#. dEBg7
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"hd_id3150350\n"
+"help.text"
+msgid "Rounded Square, Unfilled"
+msgstr "སྒོར་ཟུར་གྲུ་བཞི་ མདོག་གསབ་མེད་"
+
+#. f2EQZ
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3150990\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Square_Rounded_Unfilled\">Draws an empty rounded square where you drag in the current document. Click where you want to place a corner of the rounded square, and drag to the size you want. To draw a rounded rectangle, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. bS2VY
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3154565\n"
+"help.text"
+msgid "<image id=\"img_id3154571\" src=\"cmd/lc_square_rounded_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154571\">Icon Rounded Square, Unfilled</alt></image>"
+msgstr ""
+
+#. ur4KM
+#: 10060000.xhp
+msgctxt ""
+"10060000.xhp\n"
+"par_id3152960\n"
+"help.text"
+msgid "Rounded Square, Unfilled"
+msgstr "སྒོར་ཟུར་གྲུ་བཞི་ མདོག་གསབ་མེད་"
+
+#. ZCPSB
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Ellipse"
+msgstr "འཇོང་དབྱིབས་"
+
+#. mzF8P
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"bm_id3145586\n"
+"help.text"
+msgid "<bookmark_value>toolbars;ellipses</bookmark_value><bookmark_value>ellipses; toolbars</bookmark_value>"
+msgstr "<bookmark_value>ཡོ་བྱད་ཚང་; འཇོང་དབྱིབས།</bookmark_value><bookmark_value>འཇོང་དབྱིབས་; ཡོ་བྱད་ཚང་ </bookmark_value>"
+
+#. mmb5Y
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"bm_id3148841\n"
+"help.text"
+msgid "<bookmark_value>inserting; ellipses</bookmark_value>"
+msgstr "<bookmark_value>བསྒར་འཛུད་; འཇོང་དབྱིབས།</bookmark_value>"
+
+#. qMnz7
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3148841\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/10070000.xhp\">Ellipse</link>"
+msgstr "<link href=\"text/simpress/02/10070000.xhp\">འཇོང་དབྱིབས།</link>"
+
+#. mLRKP
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3153248\n"
+"help.text"
+msgid "<ahelp hid=\".uno:EllipseToolbox\">Using Customize Toolbar, you can add the Ellipse icon which opens the <emph>Legacy Circles and Ovals</emph> toolbar.</ahelp>"
+msgstr "<ahelp hid=\".uno:EllipseToolbox\"> \"རང་མཚན་འཇོག་ཡོ་བྱད་ཚང་ \"བརྒྱུད་ནས།<emph>འཇོང་དབྱིབས།</emph> ཡོ་བྱད་ཚང་གསབ་སྣོན་ཆོག </ahelp>"
+
+#. fd2Z5
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3154762\n"
+"help.text"
+msgid "Ellipse"
+msgstr "འཇོང་དབྱིབས་"
+
+#. Yw6Bv
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3146963\n"
+"help.text"
+msgid "Draws a filled oval where you drag in the current document. Click where you want to draw the oval, and drag to the size you want. To draw a circle, hold down <keycode>Shift</keycode> while you drag."
+msgstr ""
+
+#. yWYGK
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3147300\n"
+"help.text"
+msgid "<image id=\"img_id3151391\" src=\"cmd/lc_ellipse.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151391\">Icon Ellipse</alt></image>"
+msgstr ""
+
+#. vt42G
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3150650\n"
+"help.text"
+msgid "Ellipse"
+msgstr "འཇོང་དབྱིབས་"
+
+#. zE7Ct
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3145822\n"
+"help.text"
+msgid "Circle"
+msgstr "སྒོར་མོ་"
+
+#. vj2n7
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3148725\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Circle\">Draws a filled circle where you drag in the current document. Click where you want to draw the circle, and drag to the size you want. To draw an ellipse, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. Jkpco
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3153930\n"
+"help.text"
+msgid "<image id=\"img_id3153936\" src=\"cmd/lc_circle.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153936\">Icon Circle</alt></image>"
+msgstr ""
+
+#. WeYqD
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3150339\n"
+"help.text"
+msgid "Circle"
+msgstr "སྒོར་མོ་"
+
+#. mjuP4
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3153736\n"
+"help.text"
+msgid "Ellipse Pie"
+msgstr "འཇོང་དབྱིབས་"
+
+#. Eww49
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3149879\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Circle\">Draws a filled shape that is defined by the arc of an oval and two radius lines in the current document. To draw an ellipse pie, drag an oval to the size you want, and then click to define the first radius line. Move your pointer to where you want to place the second radius line and click. You do not need to click on the oval. To draw a circle pie, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. NGvBa
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3150932\n"
+"help.text"
+msgid "<image id=\"img_id3145295\" src=\"cmd/lc_pie.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3145295\">Icon Ellipse Pie</alt></image>"
+msgstr ""
+
+#. asDvG
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3156065\n"
+"help.text"
+msgid "Ellipse Pie"
+msgstr "འཇོང་དབྱིབས་"
+
+#. ZtGEL
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3150473\n"
+"help.text"
+msgid "Circle Pie"
+msgstr "སྒོར་རླུང་གཡབ་དབྱིབས་"
+
+#. qDYXC
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3155369\n"
+"help.text"
+msgid "<ahelp hid=\".uno:CirclePie\">Draws a filled shape that is defined by the arc of a circle and two radius lines in the current document. To draw a circle pie, drag a circle to the size you want, and then click to define the first radius line. Move your pointer to where you want to place the second radius line and click. You do not need to click on the circle. To draw an ellipse pie, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. 6D2Ni
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3153716\n"
+"help.text"
+msgid "<image id=\"img_id3153722\" src=\"cmd/lc_circlepie.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153722\">Icon Circle pie</alt></image>"
+msgstr ""
+
+#. kGUeD
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3149452\n"
+"help.text"
+msgid "Circle pie"
+msgstr "སྒོར་རླུང་གཡབ་དབྱིབས་"
+
+#. Gjeyg
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3150759\n"
+"help.text"
+msgid "Ellipse Segment"
+msgstr "འཇོང་དབྱིབས་ཆད་"
+
+#. GMDA5
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3156324\n"
+"help.text"
+msgid "<ahelp hid=\".uno:EllipseCut\">Draws a filled shape that is defined by the arc of an oval and a diameter line in the current document. To draw an ellipse segment, drag an ellipse to the size you want, and then click to define the starting point of the diameter line. Move your pointer to where you want to place the endpoint of the diameter line and click. You do not need to click on the ellipse. To draw a circle segment, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. 3aEoN
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3150254\n"
+"help.text"
+msgid "<image id=\"img_id3150261\" src=\"cmd/lc_ellipsecut.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150261\">Icon Ellipse segment</alt></image>"
+msgstr ""
+
+#. 8CAt5
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3153151\n"
+"help.text"
+msgid "Ellipse segment"
+msgstr "འཇོང་དབྱིབས་"
+
+#. YzuSC
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3149287\n"
+"help.text"
+msgid "Circle Segment"
+msgstr "སྒོར་ཆད་"
+
+#. 6ZXmV
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3159180\n"
+"help.text"
+msgid "Draws a filled shape that is defined by the arc of a circle and a diameter line in the current document. To draw a circle segment, drag a circle to the size you want, and then click to define the starting point of the diameter line. Move your pointer to where you want to place the endpoint of the diameter line and click. You do not need to click on the circle. To draw an ellipse segment, hold down <keycode>Shift</keycode> while you drag."
+msgstr ""
+
+#. MgwNu
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3153910\n"
+"help.text"
+msgid "<image id=\"img_id3154692\" src=\"cmd/lc_circlecut.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154692\">Icon Circle segment</alt></image>"
+msgstr ""
+
+#. CKTEx
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3145410\n"
+"help.text"
+msgid "Circle segment"
+msgstr "སྒོར་ཆད་"
+
+#. 4hKLq
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3158404\n"
+"help.text"
+msgid "Ellipse, Unfilled"
+msgstr "འཇོང་དབྱིབས་   མདོག་གསབ་མེད་"
+
+#. GaL8m
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3153582\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Ellipse_Unfilled\">Draws an empty oval where you drag in the current document. Click where you want to draw the oval, and drag to the size you want. To draw a circle, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. nWE4a
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3150702\n"
+"help.text"
+msgid "<image id=\"img_id3150708\" src=\"cmd/lc_ellipse_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150708\">Icon Ellipse, Unfilled</alt></image>"
+msgstr ""
+
+#. JaBZc
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3153688\n"
+"help.text"
+msgid "Ellipse, Unfilled"
+msgstr "འཇོང་དབྱིབས་   མདོག་གསབ་མེད་"
+
+#. cmjGq
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3149926\n"
+"help.text"
+msgid "Circle, Unfilled"
+msgstr "སྒོར་མོ་ མདོག་གསབ་མེད་"
+
+#. dEEDh
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3154601\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Circle_Unfilled\">Draws an empty circle where you drag in the current document. Click where you want to draw the circle, and drag to the size you want. To draw an ellipse, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. H9Wd3
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3150984\n"
+"help.text"
+msgid "<image id=\"img_id3150990\" src=\"cmd/lc_circle_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150990\">Icon Circle, Unfilled</alt></image>"
+msgstr ""
+
+#. nKPeC
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3151106\n"
+"help.text"
+msgid "Circle, Unfilled"
+msgstr "སྒོར་མོ་ མདོག་གསབ་མེད་"
+
+#. s25M4
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3154572\n"
+"help.text"
+msgid "Ellipse Pie, Unfilled"
+msgstr "འཇོང་དབྱིབས་  མདོག་གསབ་མེད་"
+
+#. MPNVW
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3152964\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Pie_Unfilled\">Draws an empty shape that is defined by the arc of an oval and two radius lines in the current document. To draw an ellipse pie, drag an oval to the size you want, and then click to define the first radius line. Move your pointer to where you want to place the second radius line and click. You do not need to click on the oval. To draw a circle pie, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. bmBcT
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3150359\n"
+"help.text"
+msgid "<image id=\"img_id3151313\" src=\"cmd/lc_pie_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151313\">Icon Ellipse Pie, Unfilled</alt></image>"
+msgstr ""
+
+#. VQFyi
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3148403\n"
+"help.text"
+msgid "Ellipse Pie, Unfilled"
+msgstr "འཇོང་དབྱིབས་  མདོག་གསབ་མེད་"
+
+#. DEU7C
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3150835\n"
+"help.text"
+msgid "Circle Pie, Unfilled"
+msgstr "སྒོར་རླུང་གཡབ་དབྱིབས་  མདོག་གསབ་མེད་"
+
+#. 6Yjna
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3149334\n"
+"help.text"
+msgid "<ahelp hid=\".uno:CirclePie_Unfilled\">Draws an empty shape that is defined by the arc of a circle and two radius lines in the current document. To draw a circle pie, drag a circle to the size you want, and then click to define the first radius line. Move your pointer to where you want to place the second radius line and click. You do not need to click on the circle. To draw an ellipse pie, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. CNkYh
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3154199\n"
+"help.text"
+msgid "<image id=\"img_id3146925\" src=\"cmd/lc_circlepie_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146925\">Icon Circle Pie, Unfilled</alt></image>"
+msgstr ""
+
+#. BGUP2
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3148986\n"
+"help.text"
+msgid "Circle Pie, Unfilled"
+msgstr "སྒོར་རླུང་གཡབ་དབྱིབས་  མདོག་གསབ་མེད་"
+
+#. D7Nmc
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3149300\n"
+"help.text"
+msgid "Ellipse Segment, Unfilled"
+msgstr "འཇོང་དབྱིབས་ཆད་ མདོག་གསབ་མེད་"
+
+#. uLqfc
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3155179\n"
+"help.text"
+msgid "<ahelp hid=\".uno:EllipseCut_Unfilled\">Draws an empty shape that is defined by the arc of an oval and a diameter line in the current document. To draw an ellipse segment, drag an ellipse to the size you want, and then click to define the starting point of the diameter line. Move your pointer to where you want to place the endpoint of the diameter line and click. You do not need to click on the ellipse. To draw a circle segment, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. neCzC
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3149483\n"
+"help.text"
+msgid "<image id=\"img_id3149490\" src=\"cmd/lc_ellipsecut_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149490\">Icon Ellipse Segment, Unfilled</alt></image>"
+msgstr ""
+
+#. uBAis
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3151253\n"
+"help.text"
+msgid "Ellipse Segment, Unfilled"
+msgstr "འཇོང་དབྱིབས་ཆད་ མདོག་གསབ་མེད་"
+
+#. 44oVc
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3149103\n"
+"help.text"
+msgid "Circle Segment, Unfilled"
+msgstr "སྒོར་ཆད་ མདོག་གསབ་མེད་"
+
+#. ADt29
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3154836\n"
+"help.text"
+msgid "<ahelp hid=\".uno:CircleCut_Unfilled\">Draws an empty shape that is defined by the arc of a circle and a diameter line in the current document. To draw a circle segment, drag a circle to the size you want, and then click to define the starting point of the diameter line. Move your pointer to where you want to place the endpoint of the diameter line and click. You do not need to click on the circle. To draw a segment that is based on an ellipse, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. ixgbC
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3148972\n"
+"help.text"
+msgid "<image id=\"img_id3148979\" src=\"cmd/lc_circlecut_unfilled.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148979\">Icon Circle Segment, Unfilled</alt></image>"
+msgstr ""
+
+#. gEF2q
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3149037\n"
+"help.text"
+msgid "Circle Segment, Unfilled"
+msgstr "སྒོར་ཆད་ མདོག་གསབ་མེད་"
+
+#. dWsQD
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3149434\n"
+"help.text"
+msgid "Arc"
+msgstr "སྒོར་གཞུ་"
+
+#. B926J
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3147577\n"
+"help.text"
+msgid "Draws an arc in the current document. To draw an arc, drag an oval to the size you want, and then click to define the starting point of the arc. Move your pointer to where you want to place the endpoint and click. You do not need to click on the oval. To draw an arc that is based on a circle, hold down <keycode>Shift</keycode> while you drag."
+msgstr ""
+
+#. iDsmN
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3152771\n"
+"help.text"
+msgid "<image id=\"img_id3152778\" src=\"cmd/lc_arc.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3152778\">Icon Arc</alt></image>"
+msgstr ""
+
+#. dm2TD
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3155139\n"
+"help.text"
+msgid "Arc"
+msgstr "སྒོར་གཞུ་"
+
+#. i7dE3
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"hd_id3153514\n"
+"help.text"
+msgid "Circle Arc"
+msgstr "སྒོར་གཞུ་"
+
+#. hHzZj
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3147075\n"
+"help.text"
+msgid "<ahelp hid=\".uno:CircleArc\">Draws an arc that is based on a circle in the current document. To draw an arc, drag a circle to the size you want, and then click to define the starting point of the arc. Move your pointer to where you want to place the endpoint and click. You do not need to click on the circle. To draw an arc that is based on an ellipse, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. UB6JV
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3154380\n"
+"help.text"
+msgid "<image id=\"img_id3154386\" src=\"cmd/lc_circlearc.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154386\">Icon Circle Arc</alt></image>"
+msgstr ""
+
+#. uXnKN
+#: 10070000.xhp
+msgctxt ""
+"10070000.xhp\n"
+"par_id3154111\n"
+"help.text"
+msgid "Circle Arc"
+msgstr "སྒོར་གཞུ་"
+
+#. V7Gkw
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Curves and Polygons"
+msgstr ""
+
+#. XjpFZ
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"bm_id3149050\n"
+"help.text"
+msgid "<bookmark_value>toolbars;curves</bookmark_value><bookmark_value>curves; toolbar</bookmark_value><bookmark_value>polygons; inserting</bookmark_value><bookmark_value>inserting; polygons</bookmark_value><bookmark_value>freeform lines; drawing</bookmark_value><bookmark_value>drawing; freeform lines</bookmark_value>"
+msgstr "<bookmark_value>ཡོ་བྱད་ཚང་;ཁྱོག་ཐིག་</bookmark_value><bookmark_value>ཁྱོག་ཐིག་; ཡོ་བྱད་ཚང།</bookmark_value><bookmark_value> མཐའ་མང་ཐིག་; བསྒར་འཛུད་</bookmark_value><bookmark_value>བསྒར་འཛུད་; མཐའ་མང་ཐིག</bookmark_value><bookmark_value> སྒྲིག་སྲོལ་མེད་པའི་ཐིག་སྐུད་; བྲིས་འགོད།</bookmark_value><bookmark_value>བྲིས་འགོད་; སྒྲིག་སྲོལ་མེད་པའི་ཐིག་སྐུད་ </bookmark_value>"
+
+#. ZNY8o
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"hd_id3149875\n"
+"help.text"
+msgid "<variable id=\"curves_and_polygons_h1\"><link href=\"text/simpress/02/10080000.xhp\">Curves and Polygons</link></variable>"
+msgstr ""
+
+#. dxPJK
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3147301\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LineToolbox\">The <menuitem>Curves and Polygons</menuitem> icon on the Drawing bar opens the <emph>Lines</emph> toolbar, where you can add lines and shapes to the current slide.</ahelp>"
+msgstr ""
+
+#. aNBx6
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3157873\n"
+"help.text"
+msgid "If you hold the Shift key down, the movement of the mouse is limited to multiples of 45 degrees. If you hold down the <switchinline select=\"sys\"><caseinline select=\"MAC\">Options</caseinline><defaultinline>Alt</defaultinline></switchinline> key, the new point will not be connected to the last point. This allows you to create objects that consist of curves that are not connected together. If you draw a smaller object while holding down the <switchinline select=\"sys\"><caseinline select=\"MAC\">Option</caseinline><defaultinline>Alt</defaultinline></switchinline> key into a larger object that you have not closed yet, the smaller object is subtracted from the larger one, thus appearing as a hole in the larger one."
+msgstr "གལ་ཏེ་ཁྱེད་ཀྱི་Shift མཐེབ་གནོན་ཟིན་ན་ རྩིག་རྟགས་འགུལ་སྐྱོད་ཏུའུ་45ཡི་ལྡབ་གྲངས་ལ་ཚོད་འཛིན་བྱེད། གལ་ཏེ་ཁྱེད་ཀྱི་ <switchinline select=\"sys\"><caseinline select=\"MAC\">Optionsམཐེབ་གནོན་ </caseinline>ཟིན་བྱས་ན་  འབྲེལ་ཚེག་གསར་པ་མཇུག་ཤོས་ཀྱི་འབྲེལ་ཚེག་འབྲེལ་མཐུད་བྱེད་མི་ཐུབ་འདི་ལྟར་ཕན་ཚུན་འབྲེལ་བའི་ཁྱོག་ཐིག་ལས་གྲུབ་པའི་བྱ་ཡུལ་བརྩུགས་ཆོག<defaultinline>Alt</defaultinline></switchinline> མཐེབ་དང་དུས་མཚུངས་ཁ་བརྒྱབ་མེད་པའི་ཅུང་ཆེ་བའི་བྱ་ཡུལ་ནང་ཅུང་ཆུང་བྱ་བའི་བྱ་ཡུལ་གྱི་ཞིག་བྲིས་འགོད་བྱས་ན་ཅུང་ཆུང་བའི་བྱ་ཡུལ་ནང་ནས་ཅུང་ཆེ་བའི་བྱ་ཡུལ་འཐེན་དགོས། འདི་ལྟར་བལྟས་པ་ཡིན་ན་ཅུང་ཆེ་བའི་བྱ་ཡུལ་ནང་ཕུན་གཅིག་ཐོན་པ་དང་འོ་ <switchinline select=\"sys\"><caseinline select=\"MAC\">Options </caseinline><defaultinline>Alt</defaultinline></switchinline>"
+
+#. KDWGY
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3153083\n"
+"help.text"
+msgid "Closed shapes automatically receive the fill that is displayed in the <emph>Area Style/Filling</emph> box on <emph>Line and Filling</emph> bar."
+msgstr "ཁ་བརྒྱབ་པའི་བཟོ་དབྱིབས་ཀྱིས་རང་འགུལ་གྱིས་<emph>ཐིག་སྐུད་དང་</emph>ཚང་ནང་གི་<emph>ཆུ་སྙོམས་བཟོ་ལྟ་/ཆུ་སྙོམས་ངོས་སྐོང་གསབ་སྐོང་གསབ་</emph>གྲུ་བཞིའི་སྒྲོམ་ནང་གི་བཀོད་སྒྲིག་ལ་སྐོང་གསབ་བྱེད།"
+
+#. v6Lgv
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"hd_id3155926\n"
+"help.text"
+msgid "Curve, Filled"
+msgstr "མདོག་གསབ་ཁྱོག་ཐིག་"
+
+#. 7MvAc
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3150016\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierFill\">Draws a filled closed shape that is based on a Bézier curve. Click where you want the curve to start, drag, release, and then move the pointer to where you want the curve to end and click. Move the pointer and click again to add a straight line segment to the curve. Double-click to close the shape.</ahelp>"
+msgstr "<ahelp hid=\".uno:BezierFill\">ཁྱོག་ཐིག་ལ་གཞིས་པའི་མདོག་གསབ་ཁ་རྒྱབ་བཟོ་ལྟ་བྲིས་འགོད་བྱ་དགོས་   འདེམས་ངེས་ཁྱོག་ཐིག་གི་འགོ་ཚེག་གནས་སར་རྐྱང་རྡེབ་   འདྲུད་སྒུལ་གློད་པ་   དེ་རྗེས་རྩིག་རྟགས་སྟོན་མདའ་སྤོ་འགུལ་དང་འབྲེལ་ཡང་སྐྱར་རྐྱང་རྡེབ་ཀྱིས་ཐིག་སྐུད་ཁྱོག་ཐིག་ནང་གསབ་འཇུག་བྱ།  ཆ་རྡེབ་ཀྱིས་བཟོ་ལྟ་ལེགས་གྲུབ། </ahelp>"
+
+#. j2HLA
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3148773\n"
+"help.text"
+msgid "<image id=\"img_id3150936\" src=\"cmd/sc_bezierfill.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150936\">Icon</alt></image>"
+msgstr "<image id=\"img_id3150936\" src=\"cmd/sc_bezierfill.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150936\">རིས་འགོད་</alt></image>"
+
+#. 2ohb3
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3150570\n"
+"help.text"
+msgid "Curve, Filled"
+msgstr "མདོག་གསབ་ཁྱོག་ཐིག་"
+
+#. GSufr
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"hd_id3149028\n"
+"help.text"
+msgid "Polygon, filled"
+msgstr "མཐའ་མར་དབྱིབས་  མདོག་གསབ་ཚར་བ་"
+
+#. DAB5p
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3155374\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Polygon\">Draws a closed shape consisting of straight line segments. Click where you want to start the polygon, and drag to draw a line segment. Click again to define the end of the line segment, and continue clicking to define the remaining line segments of the polygon. Double-click to finish drawing the polygon. To constrain the polygon to angles of 45 degree, hold down Shift when you click.</ahelp>"
+msgstr "<ahelp hid=\".uno:Polygon\"> ཐད་ཐིག་དུམ་ལས་གྲུབ་པའི་ཁ་རྒྱབ་བཟོ་དབྱིབས་བྲིས་འགོད་བྱ།  མཐའ་མང་དབྱིབས་འགོ་འཇུགས་སར་རྐྱང་རྡེབ་རྗེས་འདྲུད་   དུལ་གྱི་ཐད་ཐིག་དུམ་བྲིས་འགོད་ཡང་སྐྱར་རྐྱང་རྡེབ་ཀྱི་ཐིག་དུམ་གྱི་མཇུག་མར་རང་མཚན་འཇོག་བྱེད།   མུ་མཐུད་རྐྱང་རྡེབ་ཀྱིས་མཐའ་མང་དབྱིབས་ཀྱི་ཐིག་དུམ་གཞན་དག་ལ་རང་མཚན་འཇོག་བྱ།  ཆ་རྡེབ་ཀྱིས་མཐའ་མང་དབྱིབས་བྲིས་འགོད་ལེགས་གྲུབ་ཡོང་བ་བྱེད་དགོས་མཐའ་མང་དབྱིབས་  ཏུའུ་45ཡི་ཟུར་ལ་ཚོད་འཛིན་བྱེད་དགོས་ རྐྱང་རྡེབ་སྐབས་ Shiftམཐེབ་གནོན་ཟིན་བྱ།</ahelp>"
+
+#. F9CCr
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3153720\n"
+"help.text"
+msgid "<image id=\"img_id3083443\" src=\"cmd/sc_polygon.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3083443\">Icon</alt></image>"
+msgstr "<image id=\"img_id3083443\" src=\"cmd/sc_polygon.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3083443\">རིས་འགོད་</alt></image>"
+
+#. KV7oM
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3152926\n"
+"help.text"
+msgid "Polygon, Filled"
+msgstr "མདོག་གསབ་ཐིག་མཐའ་མང་དབྱིབས་"
+
+#. F7GML
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"hd_id3156322\n"
+"help.text"
+msgid "Polygon (45°), Filled"
+msgstr "མཐའ་མང་དབྱིབས་ལ་མདོག་གསབ་(45ཏུའུ་)"
+
+#. BBwCG
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3151267\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Polygon_Diagonal\">Draws a closed shape consisting of straight line segments that are constrained by angles of 45 degrees. Click where you want to start the polygon, and drag to draw a line segment. Click again to define the end of the line segment, and continue clicking to define the remaining line segments of the polygon. Double-click to finish drawing the polygon. To draw a polygon that is not constrained to a 45 degree angle, hold down Shift when you click.</ahelp>"
+msgstr "<ahelp hid=\".uno:Polygon_Diagonal\">ཟུར་ཚད་45ཡིས་ཚོད་འཛིན་པའི་ཐད་ཐིག་དུམ་ལས་གྲུབ་པའི་ཁ་རྒྱབ་བཟོ་དབྱིབས་བྲིས་འགོད་བྱ།   མཐའ་མང་དབྱིབས་འགོ་བརྩུགས་པའི་གནས་སར་རྐྱང་རྡེབ་རྗེས་འདྲུད་སྒུལ་གྱིས་ཐད་ཐིག་དུམ་བྲིས་འགོད་བྱ།  ཡང་བསྐྱར་རྐྱང་རྡེབ་ཀྱིས་ཐིག་དུམ་གྱི་མཇུག་མཚན་འཇོག་བྱེད་ མུ་མཐུད་རྐྱང་རྡེབ་ཀྱིས་མཐའ་མང་དབྱིབས་ཀྱི་ལྷག་མའི་ཐིག་དུམ་མཚན་འཇོག་  Shift  </ahelp>"
+
+#. zEH4W
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3153624\n"
+"help.text"
+msgid "<image id=\"img_id3149976\" src=\"cmd/sc_polygon_diagonal.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3149976\">Icon</alt></image>"
+msgstr "<image id=\"img_id3149976\" src=\"cmd/sc_polygon_diagonal.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3149976\">རིས་འགོད་</alt></image>"
+
+#. 6GEtB
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3153155\n"
+"help.text"
+msgid "Polygon (45°), Filled"
+msgstr "མཐའ་མང་དབྱིབས་ལ་མདོག་གསབ་(45ཏུའུ་)"
+
+#. 88M9F
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"hd_id3149292\n"
+"help.text"
+msgid "Freeform Line, Filled"
+msgstr "སྒྲིག་སྲོལ་མེད་པའི་ཐིག་སྐུད་  མདོག་གསབ་"
+
+#. HUPMG
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3147256\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Freeline\">Draws a freeform line where you drag in the slide. When you release, $[officename] creates a closed shape by drawing a straight line segment from the endpoint to the starting point of the line. The shape within the lines will be filled with the current area color.</ahelp>"
+msgstr "<ahelp hid=\".uno:Freeline\">  སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ནང་འདྲུད་སྒུལ་གྱིས་སྒྲིག་སྲོལ་མེད་པའི་ཐིག་སྐུད་གཅིག་བྲིས་འགོད།   རྩིག་རྟགས་གློད་རྗེས་$[officename] ཐིག་སྐུད་ནང་གི་འགོ་ཚེག་དང་སྣེ་ཚེག་དབར་བརྒྱུད་དེ་ཐད་ཐིག་དུམ་བྲིས་འགོད་ཀྱིས་ཁ་རྒྱབ་པའི་བཟོ་ལྟ་འཛུགས་དགོས་  ཐིག་སྐུད་ནང་གི་བཟོ་ལྟ་མིག་སྔའི་ཆུ་སྙོམས་ངོས་ཀྱི་ཚོན་མདོག་སྐོང་གསབ་བྱེད།</ahelp>"
+
+#. SjSrd
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3148833\n"
+"help.text"
+msgid "<image id=\"img_id3145410\" src=\"cmd/sc_freeline.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3145410\">Icon</alt></image>"
+msgstr "<image id=\"img_id3145410\" src=\"cmd/sc_freeline.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3145410\">རིས་འགོད་</alt></image>"
+
+#. tC6FB
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3154264\n"
+"help.text"
+msgid "Freeform Line, Filled"
+msgstr "སྒྲིག་སྲོལ་མེད་པའི་ཐིག་སྐུད་  མདོག་གསབ་"
+
+#. 8XK2q
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"hd_id3147506\n"
+"help.text"
+msgid "Curve"
+msgstr "ཁྱོག་ཐིག་"
+
+#. HjDXg
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3154100\n"
+"help.text"
+msgid "<image id=\"img_id3154106\" src=\"cmd/sc_bezier_unfilled.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3154106\">Icon</alt></image>"
+msgstr "<image id=\"img_id3154106\" src=\"cmd/sc_bezier_unfilled.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3154106\">རིས་འགོད་</alt></image>"
+
+#. XwjoB
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3149801\n"
+"help.text"
+msgid "Curve"
+msgstr "ཁྱོག་ཐིག་"
+
+#. XCxRr
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"hd_id3154610\n"
+"help.text"
+msgid "Polygon"
+msgstr "མཐའ་མང་དབྱིབས་"
+
+#. 5d6ea
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3153780\n"
+"help.text"
+msgid "<image id=\"img_id3146123\" src=\"cmd/sc_polygon_unfilled.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3146123\">Icon</alt></image>"
+msgstr "<image id=\"img_id3146123\" src=\"cmd/sc_polygon_unfilled.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3146123\">རིས་འགོད་</alt></image>"
+
+#. 49WF8
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3158435\n"
+"help.text"
+msgid "Polygon"
+msgstr "མཐའ་མང་དབྱིབས་"
+
+#. dqAMp
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"hd_id3153668\n"
+"help.text"
+msgid "Polygon (45°)"
+msgstr "མཐའ་མང་དབྱིབས་(45ཏུའུ་)"
+
+#. XG2YE
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3150354\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Polygon_Diagonal_Unfilled\">Draws a line composed of a series of straight line segments, that are constrained by angles of 45 degree. Drag to draw a line segment, click to define the endpoint of the line segment, and then drag to draw a new line segment. Double-click to finish drawing the line. To create a closed shape, hold down <switchinline select=\"sys\"><caseinline select=\"MAC\">Option</caseinline><defaultinline>Alt</defaultinline></switchinline> and double-click.</ahelp>"
+msgstr ""
+
+#. MkLvc
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3151108\n"
+"help.text"
+msgid "<image id=\"img_id3150987\" src=\"cmd/sc_polygon_diagonal_unfilled.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150987\">Icon</alt></image>"
+msgstr "<image id=\"img_id3150987\" src=\"cmd/sc_polygon_diagonal_unfilled.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150987\">རིས་འགོད་</alt></image>"
+
+#. pQKpD
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3150829\n"
+"help.text"
+msgid "Polygon (45°)"
+msgstr "མཐའ་མང་དབྱིབས་(45ཏུའུ་)"
+
+#. pmkYL
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"hd_id3149340\n"
+"help.text"
+msgid "Freeform Line"
+msgstr "ངེས་མེད་ཐིག་སྐུད་"
+
+#. fdFdg
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3159188\n"
+"help.text"
+msgid "<image id=\"img_id3159194\" src=\"cmd/sc_linetoolbox.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3159194\">Icon</alt></image>"
+msgstr "<image id=\"img_id3159194\" src=\"cmd/sc_linetoolbox.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3159194\">རིས་འགོད་</alt></image>"
+
+#. BCTyX
+#: 10080000.xhp
+msgctxt ""
+"10080000.xhp\n"
+"par_id3159192\n"
+"help.text"
+msgid "Freeform Line"
+msgstr "ངེས་མེད་ཐིག་སྐུད་"
+
+#. nMjFR
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"tit\n"
+"help.text"
+msgid "3D Objects"
+msgstr "རྩ་གསུམ་བྱ་ཡུལ་"
+
+#. cdTkQ
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"bm_id3150208\n"
+"help.text"
+msgid "<bookmark_value>toolbars;3D objects</bookmark_value><bookmark_value>3D objects; inserting</bookmark_value><bookmark_value>inserting;3D objects</bookmark_value><bookmark_value>cubes</bookmark_value><bookmark_value>spheres</bookmark_value><bookmark_value>cylinders</bookmark_value><bookmark_value>cones</bookmark_value><bookmark_value>pyramids</bookmark_value><bookmark_value>torus</bookmark_value><bookmark_value>shells</bookmark_value><bookmark_value>half-spheres</bookmark_value><bookmark_value>drawing;3D objects</bookmark_value>"
+msgstr "<bookmark_value>ཡོ་བྱད་ཚང་; རྩ་གསུམ་བྱ་ཡུལ་</bookmark_value><bookmark_value>རྩ་གསུམ་བྱ་ཡུལ་; བསྒར་འཛུད་</bookmark_value><bookmark_value>བསྒར་འཛུད་; རྩ་གསུམ་བྱ་ཡུལ་</bookmark_value><bookmark_value>སླང་གཟུགས།</bookmark_value><bookmark_value>ཟླུམ་གཟུགས།</bookmark_value><bookmark_value>ཀ་ཟླུམ་གཟུགས།</bookmark_value><bookmark_value>ཀ་ཟླུམ་གཟུགས།</bookmark_value><bookmark_value>ཟླུམ་སྙུང་གཟུགས།</bookmark_value><bookmark_value>ཟླུམ་གཟུགས།</bookmark_value><bookmark_value>དུང་གཟུགས།</bookmark_value><bookmark_value>ཟླུམ་ཕྱེད།</bookmark_value><bookmark_value>བྲིས་འགོད་; རྩ་གསུམ་བྱ་ཡུལ་</bookmark_value>"
+
+#. DSGHk
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"hd_id3159238\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/10090000.xhp\">3D Objects</link>"
+msgstr "<link href=\"text/simpress/02/10090000.xhp\">རྩ་གསུམ་བྱ་ཡུལ་</link>"
+
+#. MABCA
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3152900\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Objects3DToolbox\">Opens the <emph>3D Objects</emph> toolbar. The objects are three dimensional, with depth, illumination, and reflection.</ahelp> Each inserted object initially forms a 3D scene. You can press <keycode>F3</keycode> to enter the scene. For these 3D objects, you can open the 3D Effects dialog to edit the properties."
+msgstr ""
+
+#. jbtiv
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3154767\n"
+"help.text"
+msgid "<image id=\"img_id3146967\" src=\"cmd/sc_objects3dtoolbox.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146967\">Icon 3D Objects</alt></image>"
+msgstr ""
+
+#. 9NmbF
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3150397\n"
+"help.text"
+msgid "3D Objects"
+msgstr "རྩ་གསུམ་བྱ་ཡུལ་"
+
+#. gJY2s
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3153038\n"
+"help.text"
+msgid "To rotate a 3D object around any of its three axes, click to select the object, and then click again to display its rotation handles. Drag a handle in the direction you want to rotate the object."
+msgstr "དེ་སོ་སོའི་གནས་ཚད་མདའ་གསུམ་ལ་གརྩོར་བཞག་ནས་རྩ་གསུམ་བྱ་ཡུལ་འཁྱིལ་འཁོར་བྱེད་ན་སྔོན་འདེམས་པའི་བྱ་ཡུལ་རྐྱང་རྡེབ་རྗེས་ཡང་སྐྱར་རྐྱང་རྡེབ་ཀྱི་བྱ་ཡུལ་འཁྱིལ་འཁོར་གྱི་ཚོད་འཛིན་མངོན་དགོས་ འཁྱིལ་འཁོར་བྱ་དགོས་པའི་ཁ་ཕྱོགས་བརྒྱུད་ཚོད་འཛིན་ཚེག་འདྲུད་སྒུལ་བྱ་དགོས།"
+
+#. 3e3HF
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"hd_id3153936\n"
+"help.text"
+msgid "Cube"
+msgstr "སླང་གཟུགས་"
+
+#. ouf9p
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3145593\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Cube\">Draws a filled cube where you drag in the slide. To draw a 3D rectangle, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. DG2Aa
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3149877\n"
+"help.text"
+msgid "<image id=\"img_id3149884\" src=\"cmd/lc_cube.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149884\">Icon Cube</alt></image>"
+msgstr ""
+
+#. AzrbG
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3155440\n"
+"help.text"
+msgid "Cube"
+msgstr "སླང་གཟུགས་"
+
+#. RUv4B
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"hd_id3145354\n"
+"help.text"
+msgid "Sphere"
+msgstr "ཟླུམ་གཟུགས་"
+
+#. G7Tqz
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3145303\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Sphere\">Draws a filled sphere where you drag in the slide. To draw a spheroid, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. bKq8c
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3155985\n"
+"help.text"
+msgid "<image id=\"img_id3155992\" src=\"cmd/lc_sphere.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155992\">Icon Sphere</alt></image>"
+msgstr ""
+
+#. prHxM
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3153720\n"
+"help.text"
+msgid "Sphere"
+msgstr "ཟླུམ་གཟུགས་"
+
+#. 8SoVh
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"hd_id3149710\n"
+"help.text"
+msgid "Cylinder"
+msgstr "ཟླུམ་སྙུང་གཟུགས་"
+
+#. WzZCc
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3152928\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Cylinder\">Draws a cylinder that is based on a circle where you drag in the slide. To draw a cylinder that is based on an oval, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. 5ceDC
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3147562\n"
+"help.text"
+msgid "<image id=\"img_id3147569\" src=\"cmd/lc_cylinder.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147569\">Icon Cylinder</alt></image>"
+msgstr ""
+
+#. CRRxk
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3153151\n"
+"help.text"
+msgid "Cylinder"
+msgstr "ཟླུམ་སྙུང་གཟུགས་"
+
+#. Qt79F
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"hd_id3155843\n"
+"help.text"
+msgid "Cone"
+msgstr "ཟླུམ་སྙུང་གཟུགས་"
+
+#. 39wUt
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3143236\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Cone\">Draws a cone that is based on a circle where you drag in the slide. To draw a cone that is based on an oval, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. MvaAw
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3151172\n"
+"help.text"
+msgid "<image id=\"img_id3151178\" src=\"cmd/lc_cone.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151178\">Icon Cone</alt></image>"
+msgstr ""
+
+#. cnGGV
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3148829\n"
+"help.text"
+msgid "Cone"
+msgstr "ཟླུམ་སྙུང་གཟུགས་"
+
+#. YW6DC
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"hd_id3158408\n"
+"help.text"
+msgid "Pyramid"
+msgstr "སྙུང་གཟུགས་"
+
+#. RAjBo
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3147511\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Cyramid\">Draws a pyramid with a square base where you drag in the slide. To draw a pyramid with a rectangular base, hold down <keycode>Shift</keycode> while you drag. To define a different polygon for the base of the pyramid, open the <emph>3D Effects</emph> dialog and click the <link href=\"text/shared/01/05350200.xhp\"><emph>Geometry</emph></link> tab. In the <emph>Segments</emph> area, enter the number of sides for the polygon in the box labeled <emph>Horizontal</emph>, and then click the green checkmark.</ahelp>"
+msgstr ""
+
+#. TCdBF
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3152941\n"
+"help.text"
+msgid "<image id=\"img_id3152948\" src=\"cmd/lc_cyramid.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3152948\">Icon Pyramid</alt></image>"
+msgstr ""
+
+#. MW3SN
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3149812\n"
+"help.text"
+msgid "Pyramid"
+msgstr "སྙུང་གཟུགས་"
+
+#. 4yVLC
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"hd_id3149930\n"
+"help.text"
+msgid "Torus"
+msgstr "ཟླུ་སྐོར་ངོས་"
+
+#. ZHEWC
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3153533\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Torus\">Draws a ring-shaped object that is based on a circle where you drag in the slide. To draw a torus that is based on an oval, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. BFHA9
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3151312\n"
+"help.text"
+msgid "<image id=\"img_id3151319\" src=\"cmd/lc_torus.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151319\">Icon Torus</alt></image>"
+msgstr ""
+
+#. GrNZd
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3151108\n"
+"help.text"
+msgid "Torus"
+msgstr "ཟླུ་སྐོར་ངོས་"
+
+#. suaQ5
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"hd_id3152952\n"
+"help.text"
+msgid "Shell"
+msgstr "ཟླུམ་དུང་"
+
+#. 6jDhB
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3153774\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Shell3D\">Draws a bowl-shaped object that is based on a circle where you drag in the slide. To draw a shell that is based on an oval, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. m846j
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3155904\n"
+"help.text"
+msgid "<image id=\"img_id3150838\" src=\"cmd/lc_shell3d.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150838\">Icon Shell</alt></image>"
+msgstr ""
+
+#. yqEUo
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3154193\n"
+"help.text"
+msgid "Shell"
+msgstr "ཟླུམ་དུང་"
+
+#. KRRjU
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"hd_id3156209\n"
+"help.text"
+msgid "Half-Sphere"
+msgstr "ཟླུ་ཕྱེད་"
+
+#. qKaGF
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3146928\n"
+"help.text"
+msgid "<ahelp hid=\".uno:HalfSphere\">Draws one half of a sphere where you drag in the slide. To draw a one half of a spheroid, hold down <keycode>Shift</keycode> while you drag.</ahelp>"
+msgstr ""
+
+#. AAGHB
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3149310\n"
+"help.text"
+msgid "<image id=\"img_id3151328\" src=\"cmd/lc_halfsphere.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151328\">Icon Half-sphere</alt></image>"
+msgstr ""
+
+#. CMfw5
+#: 10090000.xhp
+msgctxt ""
+"10090000.xhp\n"
+"par_id3149484\n"
+"help.text"
+msgid "Half-sphere"
+msgstr "ཟླུ་ཕྱེད་"
+
+#. QXvdZ
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Connectors"
+msgstr "འབྲེལ་མཐུད་རྟགས་"
+
+#. 3REC3
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3149664\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/10100000.xhp\">Connectors</link>"
+msgstr "<link href=\"text/simpress/02/10100000.xhp\">འབྲེལ་རྟགས་</link>"
+
+#. Fh2BH
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155445\n"
+"help.text"
+msgid "<image id=\"img_id3149018\" src=\"cmd/lc_connector.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149018\">Icon Connector</alt></image>"
+msgstr ""
+
+#. VY4UU
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154702\n"
+"help.text"
+msgid "Connector"
+msgstr "འབྲེལ་མཐུད་རྟགས་"
+
+#. QDCBk
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3148488\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorToolbox\">Open the <emph>Connectors</emph> toolbar, where you can add connectors to objects in the current slide. A connector is a line that joins objects, and remains attached when the objects are moved. If you copy an object with a connector, the connector is also copied.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorToolbox\"> ཁ་ཕྱེ།<emph>འབྲེལ་རྟགས་ </emph>ཡོ་བྱད་ཚང་   ཡོ་བྱད་ཚང་དེ་སྤྱད་ནས་མིག་སྔའི་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ནང་གི་བྱ་ཡུལ་ལ་འབྲེལ་རྟགས་གསབ་སྣོན་བྱས་ཆོག་   འབྲེལ་རྟགས་ནི་བྱ་ཡུལ་སོ་སོའི་འབྲེལ་ཐིག་སྐུད་ཡིན་ཞིང་བྱ་ཡུལ་དང་སྒྲོག་ནས་སྤོ་སྒུལ་བྱེད་  འབྲེལ་རྟགས་ལྡན་པའི་བྱ་ཡུལ་འདྲ་ཕབ་བྱེད་སྐབས་འབྲེལ་རྟགས་ཡང་ཕབ་བྱེད། </ahelp>"
+
+#. cW22q
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154658\n"
+"help.text"
+msgid "There are four types of connector lines:"
+msgstr "འབྲེལ་རྟགས་ལ་རིགས་བཞི་ཡོད་"
+
+#. RyMPZ
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3145584\n"
+"help.text"
+msgid "Standard (90-degree angle bends)"
+msgstr "ཚད་ལྡན་(90  ཁྱོག་ཚད་དྲང་ཟུར་)"
+
+#. 9zi2E
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154485\n"
+"help.text"
+msgid "Line (two bends)"
+msgstr "ཐིག་ཚུལ་( འཁྱོག་ཟུར་གཉིས་)"
+
+#. EiFax
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153817\n"
+"help.text"
+msgid "Straight"
+msgstr "དྲང་ཐིག་"
+
+#. za9BS
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149943\n"
+"help.text"
+msgid "Curved"
+msgstr "ཁྱོག་ཐིག་"
+
+#. KgM64
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3148604\n"
+"help.text"
+msgid "When you click a connector and move your mouse pointer over a filled object, or the edge of an unfilled object, gluepoints appear. A gluepoint is a fixed point where you can attach a connector line. You can add custom <link href=\"text/simpress/02/10030200.xhp\">gluepoints</link> to an object."
+msgstr ""
+
+#. qX29Y
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154762\n"
+"help.text"
+msgid "To draw a connector line, click a gluepoint on an object, drag to a gluepoint on another object, and then release. You can also drag to an empty part of you document and click. The unattached end of the connector is locked in place, until you drag the end to a different location. To detach a connector, drag either end of the connector line to a different location."
+msgstr "འབྲེལ་རྟགས་བཀོད་དགོས་ན་ བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས་ ཡང་ན་ཡིག་ཚགས་ཀྱི་སྟོང་ཆར་འདྲུད་ནས་རྐྱང་རྡེབ་བྱ།དགོས་ དེ་འདྲ་བྱས་ཚེ་གནས་ས་གཞན་པར་འདྲུད་པ་ཕུད་འབྲེལ་ཚེག་གི་གནས་ས་འཆིང་ཐུབ་འབྲེལ་རྟགས་གློད་དགོས་ན་འབྲེལ་རྟགས་ཀྱི་སྣེ་གང་རུང་ཞིག་གནས་ས་གཞན་ཞིག་ཏུ་འདྲུད་རོགས།"
+
+#. AyCus
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3147297\n"
+"help.text"
+msgid "Connector"
+msgstr "འབྲེལ་མཐུད་རྟགས་"
+
+#. QtVhC
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3166468\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Connector\">Draws a connector with one or more 90-degree angle bends. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:Connector\"> ཀྱོག་ཚད་ཏུའུ་གྲངས་90བྱས་པའི་འབྲེལ་རྟགས་གཅིག་གམ་མང་པོ་བཀོད་པ་   བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས་    </ahelp>"
+
+#. CAVyL
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3150743\n"
+"help.text"
+msgid "<image id=\"img_id3153037\" src=\"cmd/lc_connector.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153037\">Icon Connector</alt></image>"
+msgstr ""
+
+#. ec4c9
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153084\n"
+"help.text"
+msgid "Connector"
+msgstr "འབྲེལ་མཐུད་རྟགས་"
+
+#. 5LVk8
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3145597\n"
+"help.text"
+msgid "Connector Starts with Arrow"
+msgstr "གོང་སྣེ་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. P3p35
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153114\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorArrowStart\">Draws a connector with one or more 90-degree angle bends and an arrow at the starting point. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorArrowStart\">གཅིག་གམ་མང་པོའི་ཏུའུ་ཁྱོན་པའི་ཟུར་དང་གོང་སྣེ་མདའ་རྩེ་ཡིན་པའི་འབྲེལ་མཐུད་རྟགས་བྲིས་འགོད་བྱ་དགོས།   བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་  སྟེང་དུ་འདྲུད་སྒུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་རྒྱུ། </ahelp>"
+
+#. uCbNu
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155930\n"
+"help.text"
+msgid "<image id=\"img_id3150021\" src=\"cmd/lc_connectorarrowstart.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150021\">Icon Connector Starts with Arrow</alt></image>"
+msgstr ""
+
+#. DE2TS
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155434\n"
+"help.text"
+msgid "Connector Starts with Arrow"
+msgstr "གོང་སྣེ་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. GtrEb
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3145248\n"
+"help.text"
+msgid "Connector Ends with Arrow"
+msgstr "མཇུག་སྣེ་ནི་མདའ་རྩེ་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. Ro6qs
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3145353\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorArrowEnd\">Draws a connector with one or more 90-degree angle bends and an arrow at the endpoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorArrowEnd\"> མཇུག་སྣེ་མདའ་རྩེ་ཡིན་ཞིང་ཁྱོག་ཚད་དྲང་ཟུར་ཡིན་པའི་འབྲེལ་རྟགས་གཅིག་བྱ་ཡུལ་ཞིག་གི་སྦྲེལ་ཚེག་ཐོག་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་སྦྲེལ་ཚེག་སར་རྩིག་རྟགས་གློད་དགོས། </ahelp>"
+
+#. LETGA
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3150930\n"
+"help.text"
+msgid "<image id=\"img_id3150936\" src=\"cmd/lc_connectorarrowend.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150936\">Icon Connector Ends with Arrow</alt></image>"
+msgstr ""
+
+#. EdZE3
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3109843\n"
+"help.text"
+msgid "Connector Ends with Arrow"
+msgstr "མཇུག་སྣེ་ནི་མདའ་རྩེ་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. CipKz
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3154865\n"
+"help.text"
+msgid "Connector with Arrows"
+msgstr "སྣེ་གཉིས་མདའ་རྩེ་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. kB7zr
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155374\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorArrows\">Draws a connector with one or more 90-degree angle bends and arrows at both ends. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorArrows\"> སྣེ་གཉིས་ཀ་མདའ་རྩེ་ཡིན་ཞིང་ཁྱོག་ཚད་ཏུའུ་གྲངས་90ཡིན་པའི་འབྲེལ་རྟགས་གཅིག་གམ་མང་པོ་བཀོད་པ་  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས། </ahelp>"
+
+#. dkc4H
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155987\n"
+"help.text"
+msgid "<image id=\"img_id3153720\" src=\"cmd/lc_connectorarrows.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153720\">Icon Connector with Arrows</alt></image>"
+msgstr ""
+
+#. NxoXM
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149709\n"
+"help.text"
+msgid "Connector with Arrows"
+msgstr "སྣེ་གཉིས་མདའ་རྩེ་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. DhXCg
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3149452\n"
+"help.text"
+msgid "Connector Starts with Circle"
+msgstr "གོང་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. G7wAv
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3151183\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCircleStart\">Draws a connector with one or more 90-degree angle bends and a circle at the starting point. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCircleStart\">གཅིག་གམ་མང་པོ་ཚང་བའི་ཏུའུ་གྲངས་90ཡི་ཟུར་ཁྱོག་ལ་གོང་སྣེ་ནི་སྒོར་མོ་ཡིན་པའི་འབྲེལ་རྟགས་བྲིས་འགོད་བྱ་དགོས་  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་རྒྱུ།</ahelp>"
+
+#. fnSgo
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3147565\n"
+"help.text"
+msgid "<image id=\"img_id3147572\" src=\"cmd/lc_connectorcirclestart.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147572\">Icon Connector Starts with Circle</alt></image>"
+msgstr ""
+
+#. ypzh8
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153219\n"
+"help.text"
+msgid "Connector Starts with Circle"
+msgstr "གོང་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. uDjYA
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3155847\n"
+"help.text"
+msgid "Connector Ends with Circle"
+msgstr "མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. B9ZmB
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154054\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCircleEnd\">Draws a connector with one or more 90-degree angle bends and a circle at the endpoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCircleEnd\">གཅིག་གམ་ཡང་ན་མང་དག་སྐུར་མཇུག་སྣེ་ནི་ཁྱོག་ཁར་སྒོར་དབྱིབས་ཡིན་པའིའབྲེལ་རྟགས་བཀོད་དགོས་  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས། </ahelp>"
+
+#. nMMDX
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3143234\n"
+"help.text"
+msgid "<image id=\"img_id3149289\" src=\"cmd/lc_connectorcircleend.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149289\">Icon Connector Ends with Circle</alt></image>"
+msgstr ""
+
+#. ATS2v
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3159186\n"
+"help.text"
+msgid "Connector Ends with Circle"
+msgstr "མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. E8pZB
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3151172\n"
+"help.text"
+msgid "Connector with Circles"
+msgstr "སྣེ་གཉིས་སྒོར་དབྱིབས་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. WCbH8
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154698\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCircles\">Draws a connector with one or more 90-degree angle bends and circles at both ends. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCircles\">ཀྱོག་ཚད་ཏུའུ་གྲངས་90ཡིན་པ་མ་ཟད་ སྣེ་གཉིས་ཀ་སྒོར་དབྱིབས་ཡིན་པའི་སྦྲེལ་རྟགས་གཅིག་གམ་མང་པོ་བཀོད་པ།  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས།</ahelp>"
+
+#. ueakD
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3158400\n"
+"help.text"
+msgid "<image id=\"img_id3154203\" src=\"cmd/lc_connector.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154203\">Icon Connector with Circles</alt></image>"
+msgstr ""
+
+#. wY2Az
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3147509\n"
+"help.text"
+msgid "Connector with Circles"
+msgstr "སྣེ་གཉིས་སྒོར་དབྱིབས་ཡིན་པའི་འབྲེལ་རྟགས་"
+
+#. 3PmME
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3154265\n"
+"help.text"
+msgid "Line Connector"
+msgstr "ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. oCvEA
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3148906\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLines\">Draws a connector that bends near a gluepoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release. To adjust the length of the line segment between a bend point and a gluepoint, click the connector and drag the bend point.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLines\">སྦྲེལ་མཐུད་ཚེག་གི་ཉེ་འགྲམ་ཁྱོག་པ་དང་མཇུག་སྣེ་མདའ་རྩེ་ཡིན་པའི་འབྲེལ་མཐུད་རྟགས་བྲིས་འགོད་བྱ་དགོས་  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་རྒྱུ་  ཁྱོག་ཚེག་དང་འབྲེལ་མཐུད་ཚེག་དབར་གྱི་ཐིག་དུམ་རིང་ཚད་ལེགས་སྒྲིག་དགོས་ན་  འབྲེལ་མཐུད་རྟགས་དེ་རྐྱང་རྡེབ་དང་ཁྱོག་ཚེག་འདྲུད་སྒུལ་བྱེད།</ahelp>"
+
+#. 6FMdr
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3150705\n"
+"help.text"
+msgid "<image id=\"img_id3153679\" src=\"cmd/lc_connectorlines.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153679\">Icon Line Connector</alt></image>"
+msgstr ""
+
+#. R6Kir
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3152940\n"
+"help.text"
+msgid "Line Connector"
+msgstr "ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. 3BxK3
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3159274\n"
+"help.text"
+msgid "Line Connector Starts with Arrow"
+msgstr "གོང་སྣེ་མདའ་རྩེ་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. E2HYN
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153747\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLinesArrowStart\">Draws a connector that starts with an arrow and bends near a gluepoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release. To adjust the length of the line segment between a bend point and a gluepoint, click the connector and drag the bend point.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLinesArrowStart\">འབྲེལ་ཚེག་སྟེ་བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་ཚེག་སྟེང་འཁྱོག་ཚེག་དང་འབྲེལ་ཚེག་དབར་གྱི་ཐིག་དུམ་རིང་ཚད་སྙོམ་དགོས་ན་  ཁྱེད་ཀྱིས་འབྲེལ་རྟགས་འདྲུད་སྒུལ་བྱས་ཁར་འཁྱོག་ཚེག་་འདྲུད་སྒུལ་བྱ་དགོས།</ahelp>"
+
+#. KNdVh
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154610\n"
+"help.text"
+msgid "<image id=\"img_id3150629\" src=\"cmd/lc_connectorlinesarrowstart.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150629\">Icon Line Connector Starts with Arrow</alt></image>"
+msgstr ""
+
+#. bTTB5
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154798\n"
+"help.text"
+msgid "Line Connector Starts with Arrow"
+msgstr "གོང་སྣེ་མདའ་རྩེ་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. GNXDD
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3153539\n"
+"help.text"
+msgid "Line Connector Ends with Arrow"
+msgstr "མཇུག་སྣེ་ནི་མདའ་རྩེ་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. hVCVt
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3148686\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLinesArrowEnd\">Draws a connector that ends with an arrow and bends near a gluepoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release. To adjust the length of the line segment between a bend point and a gluepoint, click the connector and drag the bend point.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLinesArrowEnd\">སྦྲེལ་མཐུད་ཚེག་གི་ཉེ་འགྲམ་ཁྱོན་པ་དང་མཇུག་སྣེ་མདའ་རྩེ་ཡིན་པའི་འབྲེལ་མཐུད་རྟགས་བྲིས་འགོད་བྱ་དགོས་ བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་ཚེག་འདྲུད་སྒུལ་བྱས་ཏེ་རྩིག་རྟགས་གློད་དགོས་ ཁྱོག་ཚེག་དང་འབྲེལ་མཐུད་ཚེག་དབར་གྱི་ཐིག་དུམ་རིང་ཚད་ལེགས་སྒྲིག་བྱེད་ན་ འབྲེལ་མཐུད་རྟགས་དེ་རྐྱང་རྡེབ་དང་ཁྱོག་ཚེག་འདྲུད་སྒུལ་བྱ་དགོས།</ahelp>"
+
+#. jvzA3
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3150347\n"
+"help.text"
+msgid "<image id=\"img_id3150357\" src=\"cmd/lc_connectorlinesarrowend.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150357\">Icon Line Connector Ends with Arrow</alt></image>"
+msgstr ""
+
+#. amBDG
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3152962\n"
+"help.text"
+msgid "Line Connector Ends with Arrow"
+msgstr "མཇུག་སྣེ་ནི་མདའ་རྩེ་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. nBh95
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3153678\n"
+"help.text"
+msgid "Line Connector with Arrows"
+msgstr "སྣེ་གཉིས་མདའ་རྩེ་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. iAPRP
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3158436\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLinesArrows\">Draws a connector that bends near a gluepoint and has arrows at both ends. Click a gluepoint on an object, drag to a gluepoint on another object, and then release. To adjust the length of the line segment between a bend point and a gluepoint, click the connector and drag the bend point.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLinesArrows\"> འབྲེལ་ཚེག་འཁྲིས་ལ་ཁྱོག་ཞིང་སྣེ་གཉིས་ནི་མདའ་རྩེ་ཡིན་པའི་འབྲེལ་རྟགས་བཀོད་པ།  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས་  ཁྱོག་ཚེག་དང་འབྲེལ་མཐུད་ཚེག་དབར་གྱི་ཐིག་དུམ་རིང་ཚད་ལེགས་སྒྲིག་བྱེད་ན་འབྲེལ་རྟགས་རྐྱང་རྡེབ་བྱ།དགོས་པ་མ་ཟད་ཀྱོག་ཚེག་འདྲུད་སྒུལ་བྱ་དགོས།</ahelp>"
+
+#. BFmjm
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3150972\n"
+"help.text"
+msgid "<image id=\"img_id3150982\" src=\"cmd/lc_connectorlinesarrows.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150982\">Icon Line Connector with Arrows</alt></image>"
+msgstr ""
+
+#. ognF3
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155892\n"
+"help.text"
+msgid "Line Connector with Arrows"
+msgstr "སྣེ་གཉིས་མདའ་རྩེ་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. BXGs4
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3150827\n"
+"help.text"
+msgid "Line Connector Starts with Circle"
+msgstr "གོང་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. nWHNP
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149338\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLinesCircleStart\">Draws a connector that starts with a circle and bends near a gluepoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release. To adjust the length of the line segment between a bend point and a gluepoint, click the connector and drag the bend point.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLinesCircleStart\">སྦྲེལ་མཐུད་ཚེག་འགྲམ་གྱི་ཁྱོག་ཐིག་གཅིག་གོང་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འབྲེལ་མཐུད་རྟགས་བྲིས་འགོད་བྱ་དགོས།   བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་དགོས་   ཁྱོག་ཚེག་དང་འབྲེལ་མཐུད་ཚེག་དབར་གྱི་ཐིག་དུམ་རིང་ཚད་ལེགས་སྒྲིག་དགོས་ན་   འབྲེལ་མཐུད་རྟགས་དེ་རྐྱང་རྡེབ་དང་ཁྱོག་ཚེག་འདྲུད་སྒུལ་བྱེད།</ahelp>"
+
+#. JG3YP
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3151274\n"
+"help.text"
+msgid "<image id=\"img_id3151284\" src=\"cmd/lc_connectorlinescirclestart.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151284\">Icon Line Connector Starts with Circle</alt></image>"
+msgstr ""
+
+#. sVK4B
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154136\n"
+"help.text"
+msgid "Line Connector Starts with Circle"
+msgstr "གོང་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. efGpE
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3146932\n"
+"help.text"
+msgid "Line Connector Ends with Circle"
+msgstr "མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. EfgDP
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155187\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLinesCircleEnd\">Draws a connector that ends with a circle and bends near a gluepoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release. To adjust the length of the line segment between a bend point and a gluepoint, click the connector and drag the bend point.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLinesCircleEnd\">འབྲེལ་ཚེག་འཁྲིས་ལ་ཁྱོག་ཞིང་མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འབྲེལ་རྟགས་བཀོད་པ།  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས་   ཁྱོག་ཚེག་དང་འབྲེལ་མཐུད་ཚེག་དབར་གྱི་ཐིག་དུམ་རིང་ཚད་ལེགས་སྒྲིག་བྱེད་ན་འབྲེལ་རྟགས་རྐྱང་རྡེབ་དང་ཁྱོག་ཚེག་འདྲུད་སྒུལ་བྱ་དགོས།</ahelp>"
+
+#. qsg9r
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149578\n"
+"help.text"
+msgid "<image id=\"img_id3151326\" src=\"cmd/lc_connectorlinescircleend.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151326\">Icon Line Connector Ends with Circle</alt></image>"
+msgstr ""
+
+#. TJVfb
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3152582\n"
+"help.text"
+msgid "Line Connector Ends with Circle"
+msgstr "མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. FjTga
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3159102\n"
+"help.text"
+msgid "Line Connector with Circles"
+msgstr "སྣེ་གཉིས་སྒོར་དབྱིབས་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. P7bE9
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149486\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLinesCircles\">Draws a connector that bends near a gluepoint and has circles at both ends. Click a gluepoint on an object, drag to a gluepoint on another object, and then release. To adjust the length of the line segment between a bend point and a gluepoint, click the connector and drag the bend point.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLinesCircles\"> སྦྲེལ་མཐུད་ཚེག་གི་ཉེ་འགྲམ་ཁྱོན་པ་དང་ཁྱོག་ཐིག་དང་ཆ་སྙོམ་སྒོར་དབྱིབས་ཡིན་པའི་འབྲེལ་མཐུད་རྟགས་བྲིས་འགོད་བྱ་དགོས་     བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་རྒྱུ་   ཁྱོག་ཚེག་དང་འབྲེལ་མཐུད་ཚེག་དབར་གྱི་ཐིག་དུམ་རིང་ཚད་ལེགས་སྒྲིག་དགོས་ན་  འབྲེལ་མཐུད་རྟགས་དེ་རྐྱང་རྡེབ་དང་ཁྱོག་ཚེག་འདྲུད་སྒུལ་བྱེད།</ahelp>"
+
+#. 3spRD
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3151262\n"
+"help.text"
+msgid "<image id=\"img_id3154834\" src=\"cmd/lc_connector.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154834\">Icon Line Connector with Circles</alt></image>"
+msgstr ""
+
+#. Gq7fQ
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149690\n"
+"help.text"
+msgid "Line Connector with Circles"
+msgstr "སྣེ་གཉིས་སྒོར་དབྱིབས་ཡིན་པའི་ཐིག་ཚུལ་འབྲེལ་རྟགས་"
+
+#. UjUqm
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3153759\n"
+"help.text"
+msgid "Straight Connector"
+msgstr "དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. MW88g
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149793\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLine\">Draws a straight line connector. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLine\">གྲང་ཐིག་འབྲེལ་རྟགས་བྲིས་འགོད་བྱ་རྒྱུ་ བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་སར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་རྒྱུ།</ahelp>"
+
+#. Zny3m
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3148981\n"
+"help.text"
+msgid "<image id=\"img_id3154223\" src=\"cmd/lc_connectorline.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154223\">Icon Straight Connector</alt></image>"
+msgstr ""
+
+#. vDiGL
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154901\n"
+"help.text"
+msgid "Straight Connector"
+msgstr "དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. 74EYd
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3149037\n"
+"help.text"
+msgid "Straight Connector Starts with Arrow"
+msgstr "གོང་སྣེ་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. zDRpB
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149435\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLineArrowStart\">Draws a straight line connector with an arrow at the starting point. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLineArrowStart\">འགོ་སྣེ་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་མཐུད་རྟགས་བྲིས་འགོད་བྱ་དགོས།   བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་རྒྱུ་   ཁྱོག་ཚེག་དང་འབྲེལ་མཐུད་ཚེག་དབར་གྱི་ཐིག་དུམ་རིང་ཚད་ལེགས་སྒྲིག་དགོས་ན་   འབྲེལ་མཐུད་རྟགས་དེ་རྐྱང་རྡེབ་དང་ཁྱོག་ཚེག་འདྲུད་སྒུལ་བྱེད།</ahelp>"
+
+#. VaEzS
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3152775\n"
+"help.text"
+msgid "<image id=\"img_id3156188\" src=\"cmd/lc_connectorlinearrowstart.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156188\">Icon Straight Connector Starts with Arrow</alt></image>"
+msgstr ""
+
+#. kyuj8
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3148932\n"
+"help.text"
+msgid "Straight Connector Starts with Arrow"
+msgstr "གོང་སྣེ་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. jrP6E
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3147321\n"
+"help.text"
+msgid "Straight Connector Ends with Arrow"
+msgstr "མཇུག་སྣེ་ནི་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. dFFGM
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155135\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLineArrowEnd\">Draws a straight line connector with an arrow at the endpoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLineArrowEnd\"> མཇུག་སྣེ་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་བཀོད་པ། བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས།</ahelp>"
+
+#. xbadq
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3147072\n"
+"help.text"
+msgid "<image id=\"img_id3147082\" src=\"cmd/lc_connectorlinearrowend.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147082\">Icon Straight Connector Ends with Arrow</alt></image>"
+msgstr ""
+
+#. kCF46
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154520\n"
+"help.text"
+msgid "Straight Connector Ends with Arrow"
+msgstr "མཇུག་སྣེ་ནི་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. Me4jF
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3154379\n"
+"help.text"
+msgid "Straight Connector with Arrows"
+msgstr "སྣེ་གཉིས་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. 4ucF5
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3148650\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLineArrows\">Draws a straight line connector with arrows at both ends. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLineArrows\">སྣེ་གཉིས་ཚང་མ་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་མཐུད་རྟགས་བྲིས་འགོད་བྱ།  བྱ་ཡུལ་གཅིག་སྟེང་གི་འབྲེལ་མཐུད་ཚེག་གི་སར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་ཚེག་སྟེང་འདྲུད་དེ་རྩིག་རྟགས་གློད་རྒྱུ།</ahelp>"
+
+#. bzW9z
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3151027\n"
+"help.text"
+msgid "<image id=\"img_id3151037\" src=\"cmd/lc_connectorlinearrows.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151037\">Icon Straight Connector with Arrows</alt></image>"
+msgstr ""
+
+#. fDbpm
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149172\n"
+"help.text"
+msgid "Straight Connector with Arrows"
+msgstr "སྣེ་གཉིས་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. CvePy
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3150581\n"
+"help.text"
+msgid "Straight Connector Starts with Circle"
+msgstr "གོང་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. g2F6m
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3151297\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLineCircleStar\">Draws a straight line connector with a circle at the starting point. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLineCircleStar\">གོང་སྣེ་སྒོར་མོའི་གྲངས་ཐིག་འབྲེལ་རྟགས་བྲིས་འགོད་བྱ་དགོས་     བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་རྒྱུ།</ahelp>"
+
+#. LvdEs
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3156370\n"
+"help.text"
+msgid "<image id=\"img_id3156380\" src=\"cmd/lc_connectorlinecirclestart.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156380\">Icon Straight Connector Starts with Circle</alt></image>"
+msgstr ""
+
+#. fXGy5
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3145780\n"
+"help.text"
+msgid "Straight Connector Starts with Circle"
+msgstr "གོང་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. nPzLM
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3148758\n"
+"help.text"
+msgid "Straight Connector Ends with Circle"
+msgstr "མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. DAfVF
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155124\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLineCircleEnd\">Draws a straight line connector with a circle at the endpoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLineCircleEnd\">མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་བཀོད་དགོས།  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས།</ahelp>"
+
+#. q5xFL
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155912\n"
+"help.text"
+msgid "<image id=\"img_id3155922\" src=\"cmd/lc_connectorlinecircleend.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155922\">Icon Straight Connector Ends with Circle</alt></image>"
+msgstr ""
+
+#. 5RcGY
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153201\n"
+"help.text"
+msgid "Straight Connector Ends with Circle"
+msgstr "མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. vbobB
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3148881\n"
+"help.text"
+msgid "Straight Connector with Circles"
+msgstr "སྣེ་གཉིས་སྒོར་དབྱིབས་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. dsjED
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149540\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorLineCircles\">Draws a straight line connector with circles at both ends. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorLineCircles\">སྣེ་གཉིས་ཚང་མ་སྒོར་དབྱིབས་ཀྱི་དྲང་ཐིག་འབྲེལ་མཐུད་རྟགས་བྲིས་འགོད་བྱ་དགོས།   བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་རྒྱུ། </ahelp>"
+
+#. SNsxD
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3150112\n"
+"help.text"
+msgid "<image id=\"img_id3150122\" src=\"cmd/lc_connectorline.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150122\">Icon Straight Connector with Circles</alt></image>"
+msgstr ""
+
+#. LNdin
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3158387\n"
+"help.text"
+msgid "Straight Connector with Circles"
+msgstr "སྣེ་གཉིས་སྒོར་དབྱིབས་ཡིན་པའི་དྲང་ཐིག་འབྲེལ་རྟགས་"
+
+#. DKqdJ
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3147475\n"
+"help.text"
+msgid "Curved Connector"
+msgstr "འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. gLjB8
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153698\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCurve\">Draws a curved line connector. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCurve\">འཁྱོག་ཐིག་འབྲེལ་རྟགས་བཀོད་པ།   བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་སར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་རྒྱུ།</ahelp>"
+
+#. Jg7ET
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3146139\n"
+"help.text"
+msgid "<image id=\"img_id3146149\" src=\"cmd/lc_connectorcurve.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146149\">Icon Curved Connector</alt></image>"
+msgstr ""
+
+#. X6RWd
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3145259\n"
+"help.text"
+msgid "Curved Connector"
+msgstr "འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. vgdMf
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3149551\n"
+"help.text"
+msgid "Curved Connector Starts with Arrow"
+msgstr "གོང་སྣེ་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. aAD9b
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149568\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCurveArrowStart\">Draws a curved line connector with an arrow at the starting point. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCurveArrowStart\">འགོ་བརྩུགས་ཚེག་མདའ་རྩེ་ཡིན་པའི་ཁྱོག་ཐིག་འབྲེལ་མཐུད་རྟགས་བྲིས་འགོད་བྱ་དགོས།   བྱ་ཡུལ་གཅིག་གི་འབྲེལ་མཐུད་ཚེག་གསར་རྐྱང་རྡེབ་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་འབྲེལ་མཐུད་སར་འདྲུད་ཏེ་རྩིག་རྟགས་གློད་རྒྱུ།</ahelp>"
+
+#. ayAvp
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3146914\n"
+"help.text"
+msgid "<image id=\"img_id3154807\" src=\"cmd/lc_connectorcurvearrowstart.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154807\">Icon Curved Connector Starts with Arrow</alt></image>"
+msgstr ""
+
+#. V949S
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153265\n"
+"help.text"
+msgid "Curved Connector Starts with Arrow"
+msgstr "གོང་སྣེ་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. Sow5D
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3147552\n"
+"help.text"
+msgid "Curved Connector Ends with Arrow"
+msgstr "མཇུག་སྣེ་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. fWTKs
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3145079\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCurveArrowEnd\">Draws a curved line connector with an arrow at the endpoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCurveArrowEnd\"> མཇུག་སྣེ་མདའ་རྩེ་ཡིན་པའི་ཁྱོག་ཐིག་སྦྲེལ་རྟགས་བཀོད་པ་    བྱ་ཡུལ་ཞིག་གི་སྦྲེལ་ཚེག་ཐོག་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་ཞིག་གི་སྦྲེལ་ཚེག་སར་རྩིག་རྟགས་གློད་དགོས་ </ahelp>"
+
+#. yHZBc
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3145215\n"
+"help.text"
+msgid "<image id=\"img_id3145225\" src=\"cmd/lc_connectorcurvearrowend.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3145225\">Icon Curved Connector Ends with Arrow</alt></image>"
+msgstr ""
+
+#. nT2is
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153087\n"
+"help.text"
+msgid "Curved Connector Ends with Arrow"
+msgstr "མཇུག་སྣེ་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. dvn6T
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3153103\n"
+"help.text"
+msgid "Curved Connector with Arrows"
+msgstr "སྣེ་གཉིས་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. TFnC4
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154954\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCurveArrows\">Draws a curved line connector with arrows at both ends. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCurveArrows\"> སྣེ་གཉིས་ཀ་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་བཀོད་དགོས་  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས།</ahelp>"
+
+#. uAgMd
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3148438\n"
+"help.text"
+msgid "<image id=\"img_id3148448\" src=\"cmd/lc_connectorcurvearrows.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148448\">Icon Curved Connector with Arrows</alt></image>"
+msgstr ""
+
+#. gpCCf
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3145304\n"
+"help.text"
+msgid "Curved Connector with Arrows"
+msgstr "སྣེ་གཉིས་མདའ་རྩེ་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. CDAB3
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3145320\n"
+"help.text"
+msgid "Curved Connector Starts with Circle"
+msgstr "གོང་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. 8bGGL
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153800\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCurveCircleStart\">Draws a curved line connector with a circle at the starting point. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCurveCircleStart\">འགོ་འཛུགས་ཚེག་ནི་རིས་དབྱིབས་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་བཀོད་དགོས་  བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས།</ahelp>"
+
+#. aWuQ5
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153291\n"
+"help.text"
+msgid "<image id=\"img_id3153301\" src=\"cmd/lc_connectorcurvecirclestart.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153301\">Icon Curved Connector Starts with Circle</alt></image>"
+msgstr ""
+
+#. W2YFD
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154596\n"
+"help.text"
+msgid "Curved Connector Starts with Circle"
+msgstr "གོང་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. RduWF
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3154311\n"
+"help.text"
+msgid "Curved Connector Ends with Circle"
+msgstr "མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. H94KE
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3153977\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCurveCircleEnd\">Draws a curved line connector with a circle at the endpoint. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCurveCircleEnd\"> མཇུག་སྣེ་ནི་སྒོར་དབྱིབས་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་བཀོད་དགོས། བྱ་ཡུལ་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་རྐྱང་རྡེབ་བྱས་རྗེས་བྱ་ཡུལ་གཞན་གཅིག་གི་འབྲེལ་རྟགས་སྟེང་འདྲུད་འགུལ་བྱས་རྗེས་རྩིག་རྟགས་གློད་དགོས།</ahelp>"
+
+#. LbpzY
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3154724\n"
+"help.text"
+msgid "<image id=\"img_id3156097\" src=\"cmd/lc_connectorcurvecircleend.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156097\">Icon Curved Connector Ends with Circle</alt></image>"
+msgstr ""
+
+#. zbtLi
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149322\n"
+"help.text"
+msgid "Curved Connector Ends with Circle"
+msgstr "མཇུག་སྣེ་སྒོར་དབྱིབས་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. 2Fq35
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"hd_id3150450\n"
+"help.text"
+msgid "Curved Connector with Circles"
+msgstr "སྣེ་གཉིས་ནི་སྒོར་དབྱིབས་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. dNBpr
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3156117\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ConnectorCurveCircles\">Draws a curved line connector with circles at both ends. Click a gluepoint on an object, drag to a gluepoint on another object, and then release.</ahelp>"
+msgstr "<ahelp hid=\".uno:ConnectorCurveCircles\"> སྣེ་གཉིས་ཀ་སྒོར་དབྱིབས་ཡིན་པའི་ཁྱོག་ཐིག་འབྲེལ་རྟགས་བཀོད་པ།  བྱ་ཡུལ་ཞིག་གི་འབྲེལ་ཚེག་ཐོག་རྐྱང་རྡེབ་བྱས་རྗེས་   རྩིག་རྟགས་བྱ་ཡུལ་ཞིག་གི་ཐོག་ཏུ་འདྲུད་ནས་གློད་དགོས།</ahelp>"
+
+#. DmCTQ
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3155588\n"
+"help.text"
+msgid "<image id=\"img_id3155598\" src=\"cmd/lc_connectorcurvecircles.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155598\">Icon Curved Connector with Circles</alt></image>"
+msgstr ""
+
+#. qQWaC
+#: 10100000.xhp
+msgctxt ""
+"10100000.xhp\n"
+"par_id3149766\n"
+"help.text"
+msgid "Curved Connector with Circles"
+msgstr "སྣེ་གཉིས་ནི་སྒོར་དབྱིབས་ཡིན་པའི་འཁྱོག་ཐིག་འབྲེལ་རྟགས་"
+
+#. u5LhC
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Insert"
+msgstr "བསྒར་འཛུད་"
+
+#. cBx8F
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"hd_id3149945\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/10110000.xhp\">Insert</link>"
+msgstr "<link href=\"text/simpress/02/10110000.xhp\">བསྒར་འཛུད་</link>"
+
+#. bQbqm
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"par_id3154766\n"
+"help.text"
+msgid "<image id=\"img_id3153812\" src=\"cmd/sc_drawchart.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3153812\">Icon</alt></image>"
+msgstr "<image id=\"img_id3153812\" src=\"cmd/sc_drawchart.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3153812\" xml-lang=\"bo\">རིས་འགོད་</alt></image>"
+
+#. GKXXf
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"par_id3145582\n"
+"help.text"
+msgid "Insert"
+msgstr "བསྒར་འཛུད་"
+
+#. FQFXD
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"par_id3147401\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InsertToolbox\">Open the <emph>Insert</emph> toolbar, where you can add objects, including charts, spreadsheets, and images, to your document.</ahelp>"
+msgstr "<ahelp hid=\".uno:InsertToolbox\">ཁ་ཕྱེ་<emph>[བསྒར་འཛུད་ཡོ་བྱད་ཚང་]</emph>ཡོ་བྱད་ཚང་དེ་སྤྱད་ནས་ཡིག་ཚགས་ནང་ལ་རིས་རྟགས་  གློག་རྡུལ་རེའུ་མིག་དེ་བཞིན་རིས་བཪྙན་བཅས་ཀྱི་བྱ་ཡུལ་གསབ་སྣོན་བྱས་ཆོག </ahelp>"
+
+#. uzbg7
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"hd_id3149028\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/new_slide.xhp\">Slide</link>"
+msgstr ""
+
+#. ygC8H
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"hd_id3154558\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04160500.xhp\">Floating Frame</link>"
+msgstr "<link href=\"text/shared/01/04160500.xhp\">གཡོ་འགུལ་སྒྲོམ་གཞི་</link>"
+
+#. BpmfQ
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"hd_id3155986\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04140000.xhp\">From File</link>"
+msgstr "<link href=\"text/shared/01/04140000.xhp\">ཡིག་ཆའི་ཆ་ཤས་</link>"
+
+#. pBP2a
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"hd_id3145826\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04160300.xhp\">Formula</link>"
+msgstr "<link href=\"text/shared/01/04160300.xhp\">སྤྱི་འགྲོས་</link>"
+
+#. A9AUD
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"hd_id3157904\n"
+"help.text"
+msgid "<link href=\"text/shared/guide/chart_insert.xhp\">Chart</link>"
+msgstr ""
+
+#. Gv3jm
+#: 10110000.xhp
+msgctxt ""
+"10110000.xhp\n"
+"hd_id3153004\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04150100.xhp\">OLE Object</link>"
+msgstr "<link href=\"text/shared/01/04150100.xhp\">OLE བྱ་ཡུལ་</link>"
+
+#. yeRNc
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Lines and Arrows"
+msgstr ""
+
+#. MYZ6p
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"bm_id3145799\n"
+"help.text"
+msgid "<bookmark_value>lines;inserting</bookmark_value><bookmark_value>arrows; inserting</bookmark_value><bookmark_value>inserting; lines</bookmark_value><bookmark_value>inserting; arrows</bookmark_value><bookmark_value>dimension lines; drawing</bookmark_value>"
+msgstr "<bookmark_value>ཐིག་སྐུད་;  བསྒར་འཛུད་</bookmark_value><bookmark_value>མདའ་རྩེ་; བསྒར་འཛུད་</bookmark_value><bookmark_value>བསྒར་འཛུད་; ཐིག་སྐུད།</bookmark_value><bookmark_value>བསྒར་འཛུད་; མདའ་རྩེ་ </bookmark_value><bookmark_value> གཏན་ཚད་ཐིག་;རིས་བཀོད་ </bookmark_value>"
+
+#. BGAmB
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3145799\n"
+"help.text"
+msgid "<variable id=\"lines_and_arrows_h1\"><link href=\"text/simpress/02/10120000.xhp\">Lines and Arrows</link></variable>"
+msgstr ""
+
+#. 4zGbe
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3145790\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ArrowsToolbox\">Open the <variable id=\"lines_and_arrows_menu\"><menuitem>Lines and Arrows</menuitem></variable> toolbar, where you can add straight lines, lines with arrows, and dimension lines to the current slide or page.</ahelp>"
+msgstr ""
+
+#. dJyBN
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_idN1071F\n"
+"help.text"
+msgid "If you want, you can add an arrow after you draw a line by choosing Format - Line, and then selecting an arrow style from the Style box."
+msgstr "གལ་ཏེ་མཁོ་ན་ ཐིག་སྐུད་བྲིས་རྗེས་མདའ་རྩེ་གསབ་སྣོན་བྱས་ཆོག་ལ་ཐབས་ནི་\"རྣམ་གཞག་\"-\"ཐིག་སྐུད་\"བདམས་རྗེས་\"བཟོ་ལྟ་ \"ཡི་སྒྲོམ་ནང་ནས་མདའ་རྩེའི་བཟོ་ལྟ་བདམས་དགོས་"
+
+#. U9amF
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3153811\n"
+"help.text"
+msgid "<variable id=\"Lineh1\"><link href=\"text/simpress/02/10120000.xhp\">Line</link></variable>"
+msgstr ""
+
+#. jpHZe
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3145114\n"
+"help.text"
+msgid "Draws a straight line where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag."
+msgstr "མིག་སྔའི་ཡིག་ཚགས་ནང་གི་འདྲུད་སྒུལ་ས་ཐིག་སྐུད་གཅིག་ལྡན་པའི་དྲང་ཐིག་ཞིག་བཀོད་པ་  ཐིག་སྐུད་ཀྱི་ཁྱོག་ཚད་45ཏུའུ་  འདྲུད་སྒུལ་སྐབས་ Shiftམཐེབ་གནོན་འཛིན་བྱ་དགོས།"
+
+#. Dbm8p
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3147405\n"
+"help.text"
+msgid "<image id=\"img_id3147299\" src=\"cmd/lc_line.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147299\">Icon Line</alt></image>"
+msgstr ""
+
+#. xDo9J
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3157906\n"
+"help.text"
+msgid "Line"
+msgstr "ཐིག་སྐུད་"
+
+#. Re5SX
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3148725\n"
+"help.text"
+msgid "Line Ends with Arrow"
+msgstr "མཇུག་སྣེར་མདའ་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. uRDc4
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3153034\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LineArrowEnd\">Draws a straight line that ends with an arrow where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp>"
+msgstr "<ahelp hid=\".uno:LineArrowEnd\">མིག་སྔའི་ཡིག་ཚགས་འདྲུད་འགུལ་བྱས་པའི་གནས་སར་མགོ་མཇུག་སྣེ་གཉིས་ནི་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་བཀོད་དགོས།   ཐིག་སྐུད་ཀྱི་ཟུར་ནི་ཏུའུ་གྲངས་45ལ་ཚད་འཛིན་དགོས་ལ་ ཁྱེད་ཀྱི་འདྲུད་འགུལ་བྱེད་སྐབས་མཐེབ Shiftགནོན་དགོས།</ahelp>"
+
+#. 3BN7d
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3145590\n"
+"help.text"
+msgid "<image id=\"img_id3145596\" src=\"cmd/lc_linearrowend.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3145596\">Icon Line Ends with Arrow</alt></image>"
+msgstr ""
+
+#. goz7b
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3153733\n"
+"help.text"
+msgid "Line Ends with Arrow"
+msgstr "མཇུག་སྣེར་མདའ་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. zYefU
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3149881\n"
+"help.text"
+msgid "Line with Arrow/Circle"
+msgstr "འགོ་མཇུག་སྣེར་མདའ་རྩེ་/ སྒོར་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. oZGEV
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3147370\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LineArrowCircle\">Draws a straight line that starts with an arrow and ends with a circle where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp>"
+msgstr "<ahelp hid=\".uno:LineArrowCircle\">  མིག་སྔའི་ཡིག་ཚགས་ནང་གི་འདྲུད་སྒུལ་སར་གོང་སྣེར་མདའ་རྩེ་ལྡན་ཞིང་མཇུག་སྣེར་སྒོར་དབྱིབས་ལྡན་པའི་དྲང་ཐིག་ཞིག་བཀོད་པ་   ཐིག་སྐུད་ཀྱི་ཟུར་ཚད་ཏུའུ་གྲངས་45ལ་ཚད་འཛིན་དགོས་ན་  འདྲུད་སྒུལ་བྱེད་སྐབས་མཐེབ་ Shift གནོན་རོགས་གནང་། </ahelp>"
+
+#. LfD99
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3156060\n"
+"help.text"
+msgid "<image id=\"img_id3156066\" src=\"cmd/lc_linearrowcircle.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156066\">Icon Line with Arrow/Circle</alt> </image>"
+msgstr ""
+
+#. sFGs4
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3145297\n"
+"help.text"
+msgid "Line with Arrow/Circle"
+msgstr "འགོ་མཇུག་སྣེར་མདའ་རྩེ་/ སྒོར་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. WDGEn
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3149024\n"
+"help.text"
+msgid "Line with Arrow/Square"
+msgstr "འགོ་མཇུག་སྣེ་གཉིས་ཀར་མདའ་རྩེ་/གྲུ་བཞིའི་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. DA9C4
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3154873\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LineArrowSquare\">Draws a straight line that starts with an arrow and ends with a square where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp>"
+msgstr "<ahelp hid=\".uno:LineArrowSquare\"> མིག་སྔའི་ཡིག་ཚགས་ནང་འདྲུད་འགུལ་བྱས་པའི་གནས་སར་གོང་སྣེར་མདའ་རྩེ་དང་ མཇུག་སྣེར་གྲུ་བཞིའི་རྩེ་ཡིན་པའི་དྲ་ཐིག་གཅིག་བཀོད་དགོས།   ཐིག་སྐུད་ཀྱི་ཟུར་ཚད་ནི་ཏུའུ་གྲངས་45 ཡིན་དགོས་ལ་  ཁྱེད་ཀྱི་འདྲུད་འགུལ་སྐབས་མཐེབ་ Shiftགནོན་དགོས།</ahelp>"
+
+#. PSnGK
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3155402\n"
+"help.text"
+msgid "<image id=\"img_id3155409\" src=\"cmd/lc_linearrowsquare.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155409\">Icon Line with Arrow/Square</alt></image>"
+msgstr ""
+
+#. BrnKY
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3149446\n"
+"help.text"
+msgid "Line with Arrow/Square"
+msgstr "འགོ་མཇུག་སྣེ་གཉིས་ཀར་མདའ་རྩེ་/གྲུ་བཞིའི་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. w6WUv
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3150967\n"
+"help.text"
+msgid "Line (45°)"
+msgstr "ཐིག་སྐུད་(45ཏུའུ་)"
+
+#. Eztvk
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3152929\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Line_Diagonal\">Draws a straight line that is constrained by angles of 45 degrees.</ahelp>"
+msgstr "<ahelp hid=\".uno:Line_Diagonal\"> ཡིས་ ཏུའུ་གྲངས་45ཡིན་གནས་པའི་དྲང་ཐིག་བཀོད་དགོས་   </ahelp>"
+
+#. uBJiw
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3145202\n"
+"help.text"
+msgid "<image id=\"img_id3145209\" src=\"cmd/lc_line_diagonal.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3145209\">Icon Line (45°)</alt> </image>"
+msgstr ""
+
+#. v6fFj
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3153151\n"
+"help.text"
+msgid "Line (45°)"
+msgstr "ཐིག་སྐུད་(45ཏུའུ་)"
+
+#. BR4tr
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3150256\n"
+"help.text"
+msgid "Line Starts with Arrow"
+msgstr "གོང་སྣེར་མདའ་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. DcZDJ
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3143236\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LineArrowStart\">Draws a straight line that starts with an arrow where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp>"
+msgstr "<ahelp hid=\".uno:LineArrowStart\">  མིག་སྔའི་ཡིག་ཚགས་ནང་གི་འདྲུད་སྒུལ་སར་གོང་སྣེར་མདའ་རྩེ་ལྡན་པའི་དྲང་ཐིག་ཞིག་བཀོད་པ་  ཐིག་སྐུད་ཀྱི་ཁྱོག་ཚད་45ཏུའུ་  འདྲུད་སྒུལ་སྐབས་ Shiftམཐེབ་གནོན་འཛིན་བྱ་དགོས།</ahelp>"
+
+#. 4QEGR
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3151172\n"
+"help.text"
+msgid "<image id=\"img_id3151178\" src=\"cmd/lc_linearrowstart.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151178\">Icon Line Starts with Arrow</alt></image>"
+msgstr ""
+
+#. BAKF3
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3148830\n"
+"help.text"
+msgid "Line Starts with Arrow"
+msgstr "གོང་སྣེར་མདའ་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. eUfsv
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3154295\n"
+"help.text"
+msgid "Line with Circle/Arrow"
+msgstr "གོང་མཇུག་ལ་སྒོར་མོ་ལྡན་པ་/ མདའ་རྩེའི་ཐིག་སྐུད་ལྡན་པ་"
+
+#. fK7xL
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3158403\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LineCircleArrow\">Draws a straight line that starts with a circle and ends with an arrow where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp>"
+msgstr "<ahelp hid=\".uno:LineCircleArrow\">མིག་སྔའི་ཡིག་ཚགས་ནང་འདྲུད་འགུལ་བྱས་པའི་གནས་སར་གོང་སྣེ་ནི་སྒོར་དབྱིབས་དང་  མཇུག་སྣེ་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་བཀོད་དགོས་  ཐིག་སྐུད་ཀྱི་ཟུར་ཚད་ནི་ཏུའུ་གྲངས་ 45ལ་ཚོད་འཛིན་དགོས་ལ་  ཁྱེད་ཀྱི་འདྲུད་འགུལ་བྱེད་སྐབས་མཐེབ་  Shiftགནོན་དགོས།</ahelp>"
+
+#. dpFF6
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3154276\n"
+"help.text"
+msgid "<image id=\"img_id3149152\" src=\"cmd/lc_linecirclearrow.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149152\">Icon Line with Circle/Arrow</alt></image>"
+msgstr ""
+
+#. KWta8
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3154100\n"
+"help.text"
+msgid "Line with Circle/Arrow"
+msgstr "གོང་མཇུག་ལ་སྒོར་མོ་ལྡན་པ་/ མདའ་རྩེའི་ཐིག་སྐུད་ལྡན་པ་"
+
+#. 32bKG
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3153688\n"
+"help.text"
+msgid "Line with Square/Arrow"
+msgstr "མགོ་མཇུག་སྣེ་གཉིས་སུ་རྩེ་གྲུ་བཞི་/མདའ་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. ECtTs
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3149800\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LineSquareArrow\">Draws a straight line that starts with a square and ends with an arrow where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp>"
+msgstr "<ahelp hid=\".uno:LineSquareArrow\"> མིག་སྔའི་ཡིག་ཚགས་ནང་འདྲུད་འགུལ་བྱས་པའི་གནས་སར་གོང་སྣེ་གྲུ་བཞི་མགོ་ཅན་དང་  མཇུག་སྣེ་མདའ་རྩེ་ཡིན་པའི་དྲང་ཐིག་གཅིག་འབྲི་དགོས།  ཐིག་སྐུད་ཀྱི་ཟུར་ཚད་ནི་ཏུའུ་གྲངས་45ལ་ཚད་འཛིན་དགོས་ལ་  ཁྱེད་ཀྱི་འདྲུད་འགུལ་བྱེད་སྐབས་མཐེབ་Shift གནོན་དགོས།</ahelp>"
+
+#. iLfzZ
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3153538\n"
+"help.text"
+msgid "<image id=\"img_id3149931\" src=\"cmd/lc_linesquarearrow.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149931\">Icon Line with Square/Arrow</alt></image>"
+msgstr ""
+
+#. JfC4g
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3150975\n"
+"help.text"
+msgid "Line with Square/Arrow"
+msgstr "མགོ་མཇུག་སྣེ་གཉིས་སུ་རྩེ་གྲུ་བཞི་/མདའ་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. TpDQu
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3154477\n"
+"help.text"
+msgid "Dimension Line"
+msgstr "གཏན་ཚད་ཐིག་སྐུད་"
+
+#. 5VR74
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3146124\n"
+"help.text"
+msgid "<ahelp hid=\".uno:MeasureLine\">Draws a line that displays the dimension length bounded by guides.</ahelp> Dimension lines automatically calculate and display linear dimensions. To draw a dimension line, open the <emph>Arrows</emph> toolbar, and click the <emph>Dimension Line</emph> icon. Move your pointer to where you want the line to start and drag to draw the dimension line. Release when finished."
+msgstr "<ahelp hid=\".uno:MeasureLine\"> སྣེ་གཉིས་ལ་རོགས་སྐྱོར་ཐིག་ལྡན་ཞིང་ཁྲེ་ཚོན་རིང་ཚད་མངོན་པའི་ཐིག་སྐུད་བཀོད་པ་གཏན་ཚིག་ཐིག་གིས་རང་འགུལ་རྩིས་རྒྱག་དང་ཐིག་གཤིས་ཁྲེ་ཚོན་མངོན་ཐུབ་</ahelp>  <emph>[ མདའ་རྩེའི་ཡོ་བྱད་ཚང་ ]</emph>དེ་རྗེས་རྐྱང་རྡེབ།<emph>ཀྱི་འགོ་བརྩུགས་སར་སྤོས་རྗེས་འདྲུད་སྒུལ་བྱས་ནས་\" གཏན་ཚེག་ཐིག་\"བཀོད་དགོས་</emph>བཀོད་ཚར་རྗེས་རྩིག་རྟགས་གློད་དགོས།"
+
+#. GAapD
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3148407\n"
+"help.text"
+msgid "If you want the dimension line to be the same length as the side of a nearby object, hold down the <switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while dragging. To constrain the dimension line to 45 degrees, hold down the Shift key while dragging."
+msgstr ""
+
+#. GfFUQ
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3148986\n"
+"help.text"
+msgid "In %PRODUCTNAME Draw, a dimension line is always inserted on the <link href=\"text/sdraw/guide/layer_tipps.xhp\">layer</link> called <emph>Dimension Lines</emph>. If you set that layer to invisible, you will not see any dimension line in your drawing."
+msgstr ""
+
+#. FNGgg
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"hd_id3149784\n"
+"help.text"
+msgid "Line with Arrows"
+msgstr "སྣེ་གཉིས་ལ་མདའ་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. CndTw
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3156350\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LineArrows\">Draws a straight line with arrows at both ends where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp>"
+msgstr "<ahelp hid=\".uno:LineArrows\"> མིག་སྔའི་ཡིག་ཚགས་ནང་འདྲུད་འགུལ་གྱིས་གནས་སར་སྣེ་གཉིས་མདའ་རྩེ་ལྡན་པའི་དྲང་ཐིག་བཀོད་དགོས་    ཐིག་སྐུད་ཀྱི་ཟུར་ཚད་ནི་ཏུའུ་གྲངས་ 45 ཚད་འཛིན་དགོས་ལ་   ཁྱེད་ཀྱི་འདྲུད་འགུལ་བྱེད་སྐབས་མཐེབ་ Shiftགནོན་དགོས།</ahelp>"
+
+#. aUD3K
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3147218\n"
+"help.text"
+msgid "<image id=\"img_id3147224\" src=\"cmd/lc_linearrows.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147224\">Icon Line with Arrows</alt></image>"
+msgstr ""
+
+#. sEJwd
+#: 10120000.xhp
+msgctxt ""
+"10120000.xhp\n"
+"par_id3149435\n"
+"help.text"
+msgid "Line with Arrows"
+msgstr "སྣེ་གཉིས་ལ་མདའ་རྩེ་ལྡན་པའི་ཐིག་སྐུད་"
+
+#. 3wtqj
+#: 11060000.xhp
+msgctxt ""
+"11060000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Show Only First Level"
+msgstr ""
+
+#. qFm57
+#: 11060000.xhp
+msgctxt ""
+"11060000.xhp\n"
+"bm_id3153142\n"
+"help.text"
+msgid "<bookmark_value>levels; hiding</bookmark_value><bookmark_value>hiding; levels</bookmark_value>"
+msgstr "<bookmark_value>རིམ་པ་; གབ་པ།</bookmark_value><bookmark_value>གབ་པ་; རིམ་པ།</bookmark_value>"
+
+#. 8gAGP
+#: 11060000.xhp
+msgctxt ""
+"11060000.xhp\n"
+"hd_id3153142\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/11060000.xhp\">Show Only First Level</link>"
+msgstr ""
+
+#. bRPGY
+#: 11060000.xhp
+msgctxt ""
+"11060000.xhp\n"
+"par_id3151076\n"
+"help.text"
+msgid "<ahelp visibility=\"visible\" hid=\".uno:OutlineCollapseAll\">Hides all of the headings of the slides in the current slide show except for the titles of the slides. Hidden headings are indicated by a black line in front of a slide title. To show the headings, click the <link href=\"text/simpress/02/11070000.xhp\"><menuitem>Show All Levels</menuitem></link> icon.</ahelp>"
+msgstr ""
+
+#. F7upw
+#: 11060000.xhp
+msgctxt ""
+"11060000.xhp\n"
+"par_id3154702\n"
+"help.text"
+msgid "<image src=\"cmd/sc_outlinecollapseall.png\" id=\"img_id3155336\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155336\">Icon Show Only First Level</alt></image>"
+msgstr ""
+
+#. ihfCb
+#: 11060000.xhp
+msgctxt ""
+"11060000.xhp\n"
+"par_id3150207\n"
+"help.text"
+msgid "Show Only First Level"
+msgstr ""
+
+#. GAwVz
+#: 11070000.xhp
+msgctxt ""
+"11070000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Show All Levels"
+msgstr ""
+
+#. caapd
+#: 11070000.xhp
+msgctxt ""
+"11070000.xhp\n"
+"bm_id3153728\n"
+"help.text"
+msgid "<bookmark_value>levels; showing</bookmark_value><bookmark_value>showing; levels</bookmark_value>"
+msgstr "<bookmark_value>རིམ་པ་   མངོན་པ།</bookmark_value><bookmark_value>མངོན་པ་ རིམ་པ་   </bookmark_value>"
+
+#. v7PtR
+#: 11070000.xhp
+msgctxt ""
+"11070000.xhp\n"
+"hd_id3153728\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/11070000.xhp\">Show All Levels</link>"
+msgstr ""
+
+#. teHgS
+#: 11070000.xhp
+msgctxt ""
+"11070000.xhp\n"
+"par_id3154492\n"
+"help.text"
+msgid "<ahelp visibility=\"visible\" hid=\".uno:OutlineExpandAll\">Displays the hidden headings of the slides in the current slide show. To hide all of the headings in the current slide show, except for the slide titles, click the <link href=\"text/simpress/02/11060000.xhp\"><menuitem>Show Only First Level</menuitem></link> icon.</ahelp>"
+msgstr ""
+
+#. qb29i
+#: 11070000.xhp
+msgctxt ""
+"11070000.xhp\n"
+"par_id3155333\n"
+"help.text"
+msgid "<image src=\"cmd/sc_outlineexpandall.png\" id=\"img_id3154705\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154705\">Icon Show All Levels</alt></image>"
+msgstr ""
+
+#. EC9jC
+#: 11070000.xhp
+msgctxt ""
+"11070000.xhp\n"
+"par_id3166424\n"
+"help.text"
+msgid "Show All Levels"
+msgstr ""
+
+#. htUK8
+#: 11080000.xhp
+msgctxt ""
+"11080000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Hide Subpoints"
+msgstr "折叠"
+
+#. 9fBuY
+#: 11080000.xhp
+msgctxt ""
+"11080000.xhp\n"
+"bm_id3146119\n"
+"help.text"
+msgid "<bookmark_value>subpoints; hiding</bookmark_value><bookmark_value>hiding; subpoints</bookmark_value>"
+msgstr "<bookmark_value>དུམ་མཚམས་དབྱེ་བ་    གབ་པ།</bookmark_value><bookmark_value>གབ་པ་; དུམ་མཚམས་དབྱེ་བ།</bookmark_value>"
+
+#. ad9jp
+#: 11080000.xhp
+msgctxt ""
+"11080000.xhp\n"
+"hd_id3146119\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/11080000.xhp\">Hide Subpoints</link>"
+msgstr "<link href=\"text/simpress/02/11080000.xhp\">ལྡེབ་པ་</link>"
+
+#. CZjcu
+#: 11080000.xhp
+msgctxt ""
+"11080000.xhp\n"
+"par_id3154490\n"
+"help.text"
+msgid "<ahelp visibility=\"visible\" hid=\".uno:OutlineCollapse\">Hides the subheadings of a selected heading. Hidden subheadings are indicated by a black line in front of a heading. To show the lower level headings, click the <link href=\"text/simpress/02/11090000.xhp\"><emph>Show Subpoints</emph></link> icon.</ahelp>"
+msgstr "<ahelp visibility=\"visible\" hid=\".uno:OutlineCollapse\"> འདེམས་ངེས་དུམ་མཚམས་ཀྱི་བར་དུམ་མཚམས་གབ་པ། དུམ་མཚམས་མདུན་གྱི་ཐིག་སྐུད་ནག་པོ་   བར་དུམ་མཚམས་བཀབ་པ་མཚོན་རིས་མོའི་ཁ་བྱང་མངོན་དགོས་ན་   ཁྱེད་ཀྱི་རྐྱང་རྡེབ།<link href=\"text/simpress/02/11090000.xhp\"><emph>དུམ་མཚམས་མངོན་པ་</emph></link>རིས་འགོད།</ahelp>"
+
+#. 49fKD
+#: 11080000.xhp
+msgctxt ""
+"11080000.xhp\n"
+"par_id3155961\n"
+"help.text"
+msgid "<image src=\"cmd/sc_outlinecollapse.png\" id=\"img_id3149256\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149256\">Icon Hide Subpoints</alt></image>"
+msgstr ""
+
+#. YhA3W
+#: 11080000.xhp
+msgctxt ""
+"11080000.xhp\n"
+"par_id3148489\n"
+"help.text"
+msgid "Hide Subpoints"
+msgstr "折叠"
+
+#. ZBeW9
+#: 11090000.xhp
+msgctxt ""
+"11090000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Show Subpoints"
+msgstr "བཀྲམ་པ་"
+
+#. hFhsv
+#: 11090000.xhp
+msgctxt ""
+"11090000.xhp\n"
+"bm_id3153144\n"
+"help.text"
+msgid "<bookmark_value>subpoints; showing</bookmark_value><bookmark_value>showing; subpoints</bookmark_value>"
+msgstr "<bookmark_value> དུམ་མཚམས་དབྱེ་བ་;  མངོན་པ།</bookmark_value><bookmark_value>མངོན་པ་; དུམ་མཚམས་དབྱེ་བ།</bookmark_value>"
+
+#. YoAFA
+#: 11090000.xhp
+msgctxt ""
+"11090000.xhp\n"
+"hd_id3153144\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/11090000.xhp\">Show Subpoints</link>"
+msgstr "<link href=\"text/simpress/02/11090000.xhp\">བཀྲམ་པ་</link>"
+
+#. q7QjD
+#: 11090000.xhp
+msgctxt ""
+"11090000.xhp\n"
+"par_id3154510\n"
+"help.text"
+msgid "<ahelp visibility=\"visible\" hid=\".uno:OutlineExpand\">Displays the hidden subheadings of a selected heading. To hide the subheadings of a selected heading, click <link href=\"text/simpress/02/11080000.xhp\"><emph>Hide Subpoints</emph></link> icon.</ahelp>"
+msgstr "<ahelp visibility=\"visible\" hid=\".uno:OutlineExpand\"> འདེམས་ངེས་ཁ་བྱང་གི་གབ་པའི་ཟུར་བྱང་མངོན་པ། བདམས་ངེས་ཁ་བྱང་གི་ཟུར་བྱང་གབ་དགོས་ན།  ཁྱེད་ཀྱི་རྐྱང་རྡེབ།<link href=\"text/simpress/02/11080000.xhp\"><emph>\"ལྡེབ་པ་\"</emph></link>རིས་འགོད།</ahelp>"
+
+#. a3dwN
+#: 11090000.xhp
+msgctxt ""
+"11090000.xhp\n"
+"par_id3155959\n"
+"help.text"
+msgid "<image src=\"cmd/sc_outlineexpand.png\" id=\"img_id3155336\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155336\">Icon Show Subpoints</alt></image>"
+msgstr ""
+
+#. CYjYo
+#: 11090000.xhp
+msgctxt ""
+"11090000.xhp\n"
+"par_id3146314\n"
+"help.text"
+msgid "Show Subpoints"
+msgstr "བཀྲམ་པ་"
+
+#. PBq5V
+#: 11100000.xhp
+msgctxt ""
+"11100000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Show Formatting"
+msgstr ""
+
+#. hD2V5
+#: 11100000.xhp
+msgctxt ""
+"11100000.xhp\n"
+"bm_id3150012\n"
+"help.text"
+msgid "<bookmark_value>formatting;slides headings</bookmark_value>"
+msgstr "<bookmark_value>རྣམ་བཞག་; སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ཁ་རྒྱབ་པ་</bookmark_value>"
+
+#. HEjQS
+#: 11100000.xhp
+msgctxt ""
+"11100000.xhp\n"
+"hd_id3150012\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/11100000.xhp\">Show Formatting</link>"
+msgstr ""
+
+#. x3uAQ
+#: 11100000.xhp
+msgctxt ""
+"11100000.xhp\n"
+"par_id3151073\n"
+"help.text"
+msgid "<ahelp hid=\".uno:OutlineFormat\">Shows or hides the character formatting of the slide headings. To change the character formatting of a heading, open the <emph>Styles</emph> window, right-click a style, and then choose <emph>Modify</emph>.</ahelp>"
+msgstr ""
+
+#. wpgbG
+#: 11100000.xhp
+msgctxt ""
+"11100000.xhp\n"
+"par_id3156382\n"
+"help.text"
+msgid "<image id=\"img_id3154254\" src=\"cmd/sc_outlineformat.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154254\">Show Formatting Icon</alt></image>"
+msgstr ""
+
+#. 6tAg5
+#: 11100000.xhp
+msgctxt ""
+"11100000.xhp\n"
+"par_id3145789\n"
+"help.text"
+msgid "Show Formatting"
+msgstr ""
+
+#. qb3uX
+#: 11110000.xhp
+msgctxt ""
+"11110000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Black and White"
+msgstr "དཀར་ནག་མཐོང་རིས་"
+
+#. RtZw8
+#: 11110000.xhp
+msgctxt ""
+"11110000.xhp\n"
+"bm_id3154011\n"
+"help.text"
+msgid "<bookmark_value>views; black and white</bookmark_value><bookmark_value>black and white view</bookmark_value>"
+msgstr "<bookmark_value>མཐོང་རིས་   དཀར་ནག</bookmark_value><bookmark_value> དཀར་ནག་མཐོང་རིས་</bookmark_value>"
+
+#. KFfGE
+#: 11110000.xhp
+msgctxt ""
+"11110000.xhp\n"
+"hd_id3154011\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/11110000.xhp\">Black and White</link>"
+msgstr "<link href=\"text/simpress/02/11110000.xhp\">དཀར་ནག་མཐོང་རིས་</link>"
+
+#. E6Ny6
+#: 11110000.xhp
+msgctxt ""
+"11110000.xhp\n"
+"par_id3145251\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ColorView\">Shows your slides in black and white only.</ahelp>"
+msgstr "<ahelp hid=\".uno:ColorView\"> མཚོན་མདོག་དཀར་ནག་གི་བཪྙན་གཏོང་སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ཁོ་ན་སྤྱད་པ།</ahelp>"
+
+#. XR5bY
+#: 11110000.xhp
+msgctxt ""
+"11110000.xhp\n"
+"par_id3155335\n"
+"help.text"
+msgid "<image id=\"img_id3154705\" src=\"cmd/lc_graphicfilterinvert.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154705\">Black and White Icon</alt></image>"
+msgstr ""
+
+#. spDa7
+#: 11110000.xhp
+msgctxt ""
+"11110000.xhp\n"
+"par_id3150345\n"
+"help.text"
+msgid "Black and White"
+msgstr "དཀར་ནག་མཐོང་རིས་"
+
+#. fbcnv
+#: 13010000.xhp
+msgctxt ""
+"13010000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Gluepoints"
+msgstr ""
+
+#. taW46
+#: 13010000.xhp
+msgctxt ""
+"13010000.xhp\n"
+"hd_id3153144\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13010000.xhp\">Gluepoints</link>"
+msgstr ""
+
+#. YwigX
+#: 13010000.xhp
+msgctxt ""
+"13010000.xhp\n"
+"par_id3146120\n"
+"help.text"
+msgid "<ahelp visibility=\"visible\" hid=\".uno:GlueEditMode\">Insert or modify the properties of a gluepoint. A gluepoint is a custom connection point where you can attach a <link href=\"text/simpress/02/10100000.xhp\">connector</link> line.</ahelp>"
+msgstr ""
+
+#. cSpbQ
+#: 13010000.xhp
+msgctxt ""
+"13010000.xhp\n"
+"par_id3153713\n"
+"help.text"
+msgid "<image src=\"cmd/sc_glueeditmode.png\" id=\"img_id3154256\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154256\">Icon Glue Points</alt></image>"
+msgstr ""
+
+#. 5NSN9
+#: 13010000.xhp
+msgctxt ""
+"13010000.xhp\n"
+"par_id3147339\n"
+"help.text"
+msgid "Show Gluepoints Functions"
+msgstr ""
+
+#. FipQc
+#: 13020000.xhp
+msgctxt ""
+"13020000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Rotation Mode after Clicking Object"
+msgstr "འཁྱིལ་འཁོར་"
+
+#. ioy5p
+#: 13020000.xhp
+msgctxt ""
+"13020000.xhp\n"
+"bm_id2825428\n"
+"help.text"
+msgid "<bookmark_value>rotation mode</bookmark_value>"
+msgstr "<bookmark_value> འཁྱིལ་འཁོར།</bookmark_value>"
+
+#. gJGuv
+#: 13020000.xhp
+msgctxt ""
+"13020000.xhp\n"
+"hd_id3149664\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13020000.xhp\">Rotation Mode after Clicking Object</link>"
+msgstr "<link href=\"text/simpress/02/13020000.xhp\">འཁྱིལ་འཁོར་</link>"
+
+#. 5ZKTc
+#: 13020000.xhp
+msgctxt ""
+"13020000.xhp\n"
+"par_id3154320\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ClickChangeRotation\">Changes the mouse-click behavior, so that rotation handles appear after you click an object, and then click it again.</ahelp> Drag a handle to rotate the object in the direction you want."
+msgstr "<ahelp hid=\".uno:ClickChangeRotation\"> རྩིག་རྟགས་རྐྱང་རྡེབ་ཀྱི་ཐབས་ཚུལ་དུ་བརྗེ་ལེན་བྱས་ནས་  བྱ་ཡུལ་ངེས་མེད་ཞིག་ལ་རྐྱང་རྡེབ་བྱས་ཚེ་འཁྱོལ་འཁོར་ཚོད་འཛིན་ཚེག་དོན་གྱི་ཡོད་  དེ་རྗེས་ཡང་བསྐྱར་བྱ་ཡུལ་དེ་ལ་རྐྱང་རྡེབ་བྱ།དགོས།</ahelp> ཚོད་འཛིན་ཚེག་གཅིག་འདྲུད་འགུལ་བྱས་ན་ཁ་ཕྱོགས་ངེས་མེད་ལ་འཁྱོལ་འཁོར་བྱེད་ཐུབ་"
+
+#. ZT34q
+#: 13020000.xhp
+msgctxt ""
+"13020000.xhp\n"
+"par_id3155066\n"
+"help.text"
+msgid "<image id=\"img_id3153714\" src=\"cmd/sc_clickchangerotation.png\" width=\"5.64mm\" height=\"5.64mm\"><alt id=\"alt_id3153714\">Icon</alt></image>"
+msgstr "<image id=\"img_id3153714\" src=\"cmd/sc_clickchangerotation.png\" width=\"5.64mm\" height=\"5.64mm\"><alt id=\"alt_id3153714\" xml-lang=\"bo\">རིས་འགོད་</alt></image>"
+
+#. JRBVj
+#: 13020000.xhp
+msgctxt ""
+"13020000.xhp\n"
+"par_id3149019\n"
+"help.text"
+msgid "Rotation Mode after Clicking Object"
+msgstr "འཁྱིལ་འཁོར་"
+
+#. VKbDZ
+#: 13030000.xhp
+msgctxt ""
+"13030000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Allow Effects"
+msgstr "ཁས་ལེན་ནུས་པ་"
+
+#. 6stBa
+#: 13030000.xhp
+msgctxt ""
+"13030000.xhp\n"
+"bm_id3149666\n"
+"help.text"
+msgid "<bookmark_value>allowing; effects</bookmark_value><bookmark_value>effects; preview</bookmark_value>"
+msgstr "<bookmark_value> ཁས་ལེན་;  ནུས་པ་</bookmark_value><bookmark_value>ནུས་པ་;  སྔོན་ལྟ།</bookmark_value>"
+
+#. uEGhk
+#: 13030000.xhp
+msgctxt ""
+"13030000.xhp\n"
+"hd_id3149666\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13030000.xhp\">Allow Effects</link>"
+msgstr "<link href=\"text/simpress/02/13030000.xhp\"> ཁས་ལེན་ནུས་པ་</link>"
+
+#. vLdAW
+#: 13030000.xhp
+msgctxt ""
+"13030000.xhp\n"
+"par_id3145251\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AnimationMode\">Plays a preview of an animation effect that is assigned to an object, when you click the object in the slide. To select an object for editing, hold down the <switchinline select=\"sys\"><caseinline select=\"MAC\">Option</caseinline><defaultinline>Alt</defaultinline></switchinline> key when you click.</ahelp>"
+msgstr "<ahelp hid=\".uno:AnimationMode\"> སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ནང་གི་བྱ་ཡུལ་ལ་རྐྱང་རྡེབ་བྱས་ནས་བྱ་ཡུལ་དེ་གའི་འགོད་པའི་སྒུལ་རིས་ནུས་ཀྱི་སྔོན་ལྟར་བསྒྲགས་གཏོང་བྱ་དགོས་ འདམས་པའི་བྱ་ཡུལ་ལ་རྩོམ་སྒྲིག་བྱ་དགོས།  རྐྱང་རྡེབ་བྱ་དུས་གནོན་འཛིན་<switchinline select=\"sys\"><caseinline select=\"MAC\"> བྱ་རྒྱུ་  འདེམས་གཞི།</caseinline><defaultinline>Alt</defaultinline></switchinline> མཐེབ།</ahelp>"
+
+#. ZeuJA
+#: 13030000.xhp
+msgctxt ""
+"13030000.xhp\n"
+"par_id3154704\n"
+"help.text"
+msgid "<image id=\"img_id3149129\" src=\"cmd/sc_animationmode.png\" width=\"5.64mm\" height=\"5.64mm\"><alt id=\"alt_id3149129\">Icon</alt></image>"
+msgstr "<image id=\"img_id3149129\" src=\"cmd/sc_animationmode.png\" width=\"5.64mm\" height=\"5.64mm\"><alt id=\"alt_id3149129\" xml-lang=\"bo\">རིས་འགོད་</alt></image>"
+
+#. MDAfg
+#: 13030000.xhp
+msgctxt ""
+"13030000.xhp\n"
+"par_id3159236\n"
+"help.text"
+msgid "Allow Effects"
+msgstr "ཁས་ལེན་ནུས་པ་"
+
+#. BCnCh
+#: 13040000.xhp
+msgctxt ""
+"13040000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Allow Interaction"
+msgstr "ཁས་ལེན་ཕན་ཚུན་རྗེས་པའི་རྣམ་པ་"
+
+#. yYpYN
+#: 13040000.xhp
+msgctxt ""
+"13040000.xhp\n"
+"bm_id3148386\n"
+"help.text"
+msgid "<bookmark_value>interactions; preview</bookmark_value><bookmark_value>allowing; interaction</bookmark_value>"
+msgstr "<bookmark_value> ཕན་ཚུན་རྗེས་པའི་རྣམ་པ་   སྔོན་ལྟ།</bookmark_value><bookmark_value>ཁས་ལེན་; ཕན་ཚུན་རྗེས་པའི་རྣམ་པ།</bookmark_value>"
+
+#. 3XuNB
+#: 13040000.xhp
+msgctxt ""
+"13040000.xhp\n"
+"hd_id3148386\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13040000.xhp\">Allow Interaction</link>"
+msgstr "<link href=\"text/simpress/02/13040000.xhp\">ཁས་ལེན་ཕན་ཚུན་རྗེས་པའི་རྣམ་པ་</link>"
+
+#. 8p4Uz
+#: 13040000.xhp
+msgctxt ""
+"13040000.xhp\n"
+"par_id3150266\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ActionMode\">Runs a preview of the interaction that is assigned to an object, when you click the object in the slide. To select an object for editing, hold down the <switchinline select=\"sys\"><caseinline select=\"MAC\">Option</caseinline><defaultinline>Alt</defaultinline></switchinline> key when you click.</ahelp>"
+msgstr "<ahelp hid=\".uno:ActionMode\"> སྒྲོན་བཪྙན་སྤྱིན་ཤོག་ནང་གི་བྱ་ཡུལ་ལ་རྐྱང་རྡེབ་བྱས་ནས་བྱ་ཡུལ་དེ་གའི་འགོད་པའི་ཕན་ཚུན་རྗེས་པའི་བྱེད་སྒོའི་སྔོན་ལྟར་བསྒྲགས་གཏོང་བྱ་དགོས།<switchinline select=\"sys\"><caseinline select=\"MAC\">འདེམས་གཞི་</caseinline><defaultinline>Alt</defaultinline></switchinline> མཐེབ།</ahelp>"
+
+#. Jma8T
+#: 13040000.xhp
+msgctxt ""
+"13040000.xhp\n"
+"par_id3153925\n"
+"help.text"
+msgid "<image id=\"img_id3156262\" src=\"cmd/sc_animationeffects.png\" width=\"5.64mm\" height=\"5.64mm\"><alt id=\"alt_id3156262\">Icon</alt></image>"
+msgstr "<image id=\"img_id3156262\" src=\"cmd/sc_animationeffects.png\" width=\"5.64mm\" height=\"5.64mm\"><alt id=\"alt_id3156262\" xml-lang=\"bo\">རིས་འགོད་</alt></image>"
+
+#. irh25
+#: 13040000.xhp
+msgctxt ""
+"13040000.xhp\n"
+"par_id3156256\n"
+"help.text"
+msgid "Allow Interaction"
+msgstr "ཁས་ལེན་ཕན་ཚུན་རྗེས་པའི་རྣམ་པ་"
+
+#. CT4EV
+#: 13050000.xhp
+msgctxt ""
+"13050000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Show Snap Lines"
+msgstr "གནས་ཚད་ཐིག་མངོན་"
+
+#. rC72e
+#: 13050000.xhp
+msgctxt ""
+"13050000.xhp\n"
+"bm_id3152596\n"
+"help.text"
+msgid "<bookmark_value>guides; show snap lines icon</bookmark_value><bookmark_value>showing; guides</bookmark_value>"
+msgstr "<bookmark_value>རོགས་སྐྱོར་ཐིག་; གནས་ཚད་ཐིག་རིས་རྟགས་མངོན།</bookmark_value><bookmark_value>མངོན་པ་; རོགས་སྐྱོར་ཐིག</bookmark_value>"
+
+#. aGCe5
+#: 13050000.xhp
+msgctxt ""
+"13050000.xhp\n"
+"hd_id3152596\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13050000.xhp\">Show Snap Lines</link>"
+msgstr "<link href=\"text/simpress/02/13050000.xhp\">གནས་ཚད་ཐིག་མངོན་</link>"
+
+#. cGkGF
+#: 13050000.xhp
+msgctxt ""
+"13050000.xhp\n"
+"par_id3154490\n"
+"help.text"
+msgid "<ahelp hid=\".uno:HelplinesVisible\">Shows or hides snap lines so can you align objects on your slide. To remove a snap line, drag it off the slide.</ahelp>"
+msgstr "<ahelp hid=\".uno:HelplinesVisible\"> གནས་ཚད་ཐིག་ནི་སྙོམ་སྒྲིག་ཤོག་ལྷེབ་ནང་གི་བྱ་ཡུལ་དུ་མངོན་པའམ་གབ་བོ།  གནས་ཚད་ཐིག་སུབ་ན་ཤོག་ལྷེབ་དེ་ག་འདྲུད་ལ་འགྲིག</ahelp>"
+
+#. EgcyC
+#: 13050000.xhp
+msgctxt ""
+"13050000.xhp\n"
+"par_id3149019\n"
+"help.text"
+msgid "<image id=\"img_id3156385\" src=\"cmd/sc_helplinesvisible.png\" width=\"4.23mm\" height=\"4.23mm\"><alt id=\"alt_id3156385\">Icon</alt></image>"
+msgstr "<image id=\"img_id3156385\" src=\"cmd/sc_helplinesvisible.png\" width=\"4.23mm\" height=\"4.23mm\"><alt id=\"alt_id3156385\" xml-lang=\"bo\">རིས་འགོད་</alt></image>"
+
+#. i7Dnm
+#: 13050000.xhp
+msgctxt ""
+"13050000.xhp\n"
+"par_id3147339\n"
+"help.text"
+msgid "Show Snap Lines"
+msgstr "གནས་ཚད་ཐིག་མངོན་"
+
+#. C82vS
+#: 13060000.xhp
+msgctxt ""
+"13060000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Double-Click to add Text"
+msgstr "རྩོམ་སྒྲིག་ཡི་གེར་རྩི་རྡེབ་བྱེད་"
+
+#. FrWTE
+#: 13060000.xhp
+msgctxt ""
+"13060000.xhp\n"
+"bm_id3150010\n"
+"help.text"
+msgid "<bookmark_value>text; double-clicking to edit</bookmark_value>"
+msgstr "<bookmark_value> ཡིག་དེབ་; ཆ་རྡེབ་སྟེ་རྩོམ་སྒྲིག་བྱས་ན་ཆོག་</bookmark_value>"
+
+#. MugRC
+#: 13060000.xhp
+msgctxt ""
+"13060000.xhp\n"
+"hd_id3150010\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13060000.xhp\">Double-Click to add Text</link>"
+msgstr "<link href=\"text/simpress/02/13060000.xhp\">རྩོམ་སྒྲིག་ཡི་གེར་རྩི་རྡེབ་བྱེད་</link>"
+
+#. E4yVo
+#: 13060000.xhp
+msgctxt ""
+"13060000.xhp\n"
+"par_id3149378\n"
+"help.text"
+msgid "<ahelp hid=\".uno:DoubleClickTextEdit\">Changes the mouse-click behavior, so that you can double-click an object to add or edit text.</ahelp>"
+msgstr "<ahelp hid=\".uno:DoubleClickTextEdit\"> རྩིག་རྟགས་ཡ་རྡེབ་ཀྱི་ཐབས་ཚུལ་དུ་བརྗེ་ན་  བྱ་ཡུལ་ཞིག་ལ་ཆ་རྡེབ་བྱེད་པར་སྟབས་བདེ་བྱུང་ནས་ཡིག་དེབ་ཁ་སྣོན་བྱུང་བའམ་རྩོམ་སྒྲིག་བྱེད་ཐུབ།</ahelp>"
+
+#. puYHM
+#: 13060000.xhp
+msgctxt ""
+"13060000.xhp\n"
+"par_id3154756\n"
+"help.text"
+msgid "<image id=\"img_id3147341\" src=\"cmd/sc_doubleclicktextedit.png\" width=\"5.64mm\" height=\"5.64mm\"><alt id=\"alt_id3147341\">Icon</alt></image>"
+msgstr "<image id=\"img_id3147341\" src=\"cmd/sc_doubleclicktextedit.png\" width=\"5.64mm\" height=\"5.64mm\"><alt id=\"alt_id3147341\" xml-lang=\"bo\">རིས་འགོད་</alt></image>"
+
+#. uEyFT
+#: 13060000.xhp
+msgctxt ""
+"13060000.xhp\n"
+"par_id3155445\n"
+"help.text"
+msgid "Double-click to add Text"
+msgstr "རྩོམ་སྒྲིག་ཡི་གེར་རྩི་རྡེབ་བྱེད་"
+
+#. fitZB
+#: 13090000.xhp
+msgctxt ""
+"13090000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Modify Object with Attributes"
+msgstr "ཚང་བའི་གཏོགས་གཤིས་ཀྱི་བྱ་ཡུལ་བཟོ་རྒྱུ་"
+
+#. 6f8FK
+#: 13090000.xhp
+msgctxt ""
+"13090000.xhp\n"
+"bm_id3152596\n"
+"help.text"
+msgid "<bookmark_value>attributes; objects with</bookmark_value>         <bookmark_value>objects; with attributes</bookmark_value>"
+msgstr "<bookmark_value>གཏོགས་གཤིས་; བྱ་ཡུལ་</bookmark_value><bookmark_value> བྱ་ཡུལ་; གཏོགས་གཤིས་ལྡན་པ།</bookmark_value>"
+
+#. UmAXH
+#: 13090000.xhp
+msgctxt ""
+"13090000.xhp\n"
+"hd_id3152596\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13090000.xhp\">Modify Object with Attributes</link>"
+msgstr "<link href=\"text/simpress/02/13090000.xhp\">ཚང་བའི་གཏོགས་གཤིས་ཀྱི་བྱ་ཡུལ་ཐོན་པ།</link>"
+
+#. F9duh
+#: 13090000.xhp
+msgctxt ""
+"13090000.xhp\n"
+"par_id3151074\n"
+"help.text"
+msgid "<ahelp hid=\".uno:SolidCreate\">If this icon on the <emph>Options</emph> bar is activated, objects are shown with their attributes, but with 50% transparency, while you move or draw them.</ahelp> If this icon is not activated, only a contour is shown while drawing, and the object is shown with all attributes when you release the mouse button."
+msgstr "<ahelp hid=\".uno:SolidCreate\">གལ་ཏེ་རིས་རྟགས་འདི་ནི་<emph> འདེམས་གཞི་</emph> ཚང་ནང་དུ་གསོན་སློང་རྣམ་པར་གནས་ན་  ཁྱེད་ཀྱི་བྱ་ཡུལ་འདྲུད་སྒུལ་བྱེད་སྐབས་ དེའི་གཏོགས་གཤིས་མངོན་གྱི་ཡོད།  གལ་ཏེ་རིས་རྟགས་དེ་གསོན་སློང་མིན་པའི་རྣམ་པར་གནས་ཡོད་ཚེ་  འདྲུད་སྒུལ་བྱེད་སྐབས་སྤྱི་ཁོག་གཅིག་ཁོ་ན་ལས་མངོན་རྒྱུ་མེད།  ཁྱེད་ཀྱི་རྩིག་རྟགས་གློད་པའི་སྐབས་དེར་   བྱ་ཡུལ་དེ་དང་དེའི་གཏོགས་གཤིས་ཞན་ཚང་མ་མཉམ་དུ་མངོན་གྱི་ཡོད།</ahelp>"
+
+#. zQ8DG
+#: 13090000.xhp
+msgctxt ""
+"13090000.xhp\n"
+"par_id3154702\n"
+"help.text"
+msgid "<image id=\"img_id3155962\" src=\"cmd/sc_solidcreate.png\" width=\"0.1665in\" height=\"0.1665in\"><alt id=\"alt_id3155962\">Icon</alt></image>"
+msgstr "<image id=\"img_id3154254\" src=\"cmd/sc_outlineformat.png\" width=\"0.1665inch\" height=\"0.1665inch\"><alt id=\"alt_id3154254\">རིས་འགོད་</alt></image>"
+
+#. vKGiF
+#: 13090000.xhp
+msgctxt ""
+"13090000.xhp\n"
+"par_id3154021\n"
+"help.text"
+msgid "Modify Object with Attributes"
+msgstr "ཚང་བའི་གཏོགས་གཤིས་ཀྱི་བྱ་ཡུལ་བཟོ་རྒྱུ་"
+
+#. 9rWm4
+#: 13100000.xhp
+msgctxt ""
+"13100000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Exit all Groups"
+msgstr "ཚོ་སྒྲིག་ཚང་མ་ཕྱིར་འཐེན་པ་"
+
+#. CiTdy
+#: 13100000.xhp
+msgctxt ""
+"13100000.xhp\n"
+"hd_id3153188\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13100000.xhp\">Exit all Groups</link>"
+msgstr "<link href=\"text/simpress/02/13100000.xhp\"> ཚོ་སྒྲིག་ཚང་མ་ཕྱིར་འཐེན་པ་</link>"
+
+#. WY3qV
+#: 13100000.xhp
+msgctxt ""
+"13100000.xhp\n"
+"par_id3150011\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LeaveAllGroups\" visibility=\"visible\">Exits all groups and returns to normal view.</ahelp>"
+msgstr "<ahelp hid=\".uno:LeaveAllGroups\" visibility=\"visible\"> ཚོ་སྒྲིག་ཚང་མ་ཕྱིར་འཐེན་པ་  སྤྱིར་བཏང་མཐོང་རིས་སུ་ལོག་རྒྱུ།</ahelp>"
+
+#. v8HRQ
+#: 13100000.xhp
+msgctxt ""
+"13100000.xhp\n"
+"par_id3155443\n"
+"help.text"
+msgid "<image src=\"cmd/sc_leaveallgroups.png\" id=\"img_id3154757\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154757\">Icon Exit all groups</alt></image>"
+msgstr ""
+
+#. CGmZy
+#: 13100000.xhp
+msgctxt ""
+"13100000.xhp\n"
+"par_id3149019\n"
+"help.text"
+msgid "Exit all groups"
+msgstr "ཚོ་སྒྲིག་ཚང་མ་ཕྱིར་འཐེན་པ་"
+
+#. tScTM
+#: 13140000.xhp
+msgctxt ""
+"13140000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Snap to Snap Guides"
+msgstr ""
+
+#. JGgsz
+#: 13140000.xhp
+msgctxt ""
+"13140000.xhp\n"
+"hd_id3153726\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13140000.xhp\">Snap to Snap Guides</link>"
+msgstr ""
+
+#. GXfRk
+#: 13140000.xhp
+msgctxt ""
+"13140000.xhp\n"
+"par_id3150717\n"
+"help.text"
+msgid "<image id=\"img_id3146969\" src=\"cmd/sc_helplinesuse.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146969\">Icon</alt></image>"
+msgstr ""
+
+#. wYSJV
+#: 13140000.xhp
+msgctxt ""
+"13140000.xhp\n"
+"par_id3154255\n"
+"help.text"
+msgid "Snap to Snap Guides"
+msgstr ""
+
+#. oXWsX
+#: 13150000.xhp
+msgctxt ""
+"13150000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Snap to Page Margins"
+msgstr "ཤོག་མཐའི་བར་ཐག་དང་སྙོམ་"
+
+#. kZqME
+#: 13150000.xhp
+msgctxt ""
+"13150000.xhp\n"
+"hd_id3150441\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13150000.xhp\">Snap to Page Margins</link>"
+msgstr "<link href=\"text/simpress/02/13150000.xhp\">ཤོག་མཐའི་བར་ཐག་དང་སྙོམ་</link>"
+
+#. Mv3cD
+#: 13150000.xhp
+msgctxt ""
+"13150000.xhp\n"
+"par_id3150717\n"
+"help.text"
+msgid "<image src=\"cmd/sc_snapborder.png\" id=\"img_id3154016\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154016\">Icon Snap to Page Margins</alt></image>"
+msgstr ""
+
+#. BVB6e
+#: 13150000.xhp
+msgctxt ""
+"13150000.xhp\n"
+"par_id3156384\n"
+"help.text"
+msgid "Snap to Page Margins"
+msgstr "ཤོག་མཐའི་བར་ཐག་དང་སྙོམ་"
+
+#. fqMsb
+#: 13160000.xhp
+msgctxt ""
+"13160000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Snap to Object Border"
+msgstr "བྱ་ཡུལ་མཐའ་སྒྲོམ་དང་སྙོམ་"
+
+#. Y4DBP
+#: 13160000.xhp
+msgctxt ""
+"13160000.xhp\n"
+"hd_id3125865\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13160000.xhp\">Snap to Object Border</link>"
+msgstr "<link href=\"text/simpress/02/13160000.xhp\">བྱ་ཡུལ་མཐའ་སྒྲོམ་དང་སྙོམ་</link>"
+
+#. 72nDp
+#: 13160000.xhp
+msgctxt ""
+"13160000.xhp\n"
+"par_id3150717\n"
+"help.text"
+msgid "<image src=\"cmd/sc_snapframe.png\" id=\"img_id3154510\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154510\">Icon Snap to Object Border</alt></image>"
+msgstr ""
+
+#. 5AnZF
+#: 13160000.xhp
+msgctxt ""
+"13160000.xhp\n"
+"par_id3154018\n"
+"help.text"
+msgid "Snap to Object Border"
+msgstr "བྱ་ཡུལ་མཐའ་སྒྲོམ་དང་སྙོམ་"
+
+#. ex5GA
+#: 13170000.xhp
+msgctxt ""
+"13170000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Snap to Object Points"
+msgstr "བྱ་ཡུལ་ཚེག་ལ་གནས་འཁེལ་བྱ་རྒྱུ་"
+
+#. pmKfX
+#: 13170000.xhp
+msgctxt ""
+"13170000.xhp\n"
+"hd_id3150870\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13170000.xhp\">Snap to Object Points</link>"
+msgstr "<link href=\"text/simpress/02/13170000.xhp\">བྱ་ཡུལ་ཚེག་ལ་གནས་འཁེལ་བྱ་རྒྱུ་</link>"
+
+#. nDEAG
+#: 13170000.xhp
+msgctxt ""
+"13170000.xhp\n"
+"par_id3154016\n"
+"help.text"
+msgid "<image src=\"cmd/sc_snappoints.png\" id=\"img_id3153415\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153415\">Icon Snap to Object Points</alt></image>"
+msgstr ""
+
+#. ggjdc
+#: 13170000.xhp
+msgctxt ""
+"13170000.xhp\n"
+"par_id3148664\n"
+"help.text"
+msgid "Snap to Object Points"
+msgstr "བྱ་ཡུལ་ཚེག་ལ་གནས་འཁེལ་བྱ་རྒྱུ་"
+
+#. ihzr3
+#: 13180000.xhp
+msgctxt ""
+"13180000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Allow Quick Editing"
+msgstr "མགྱོགས་མྱུར་རྩོམ་སྒྲིག་ལ་ཁས་ལེན་རྒྱུ་"
+
+#. CwZ4j
+#: 13180000.xhp
+msgctxt ""
+"13180000.xhp\n"
+"hd_id3154758\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13180000.xhp\">Allow Quick Editing</link>"
+msgstr "<link href=\"text/simpress/02/13180000.xhp\">མགྱོགས་མྱུར་རྩོམ་སྒྲིག་ལ་ཁས་ལེན་རྒྱུ།</link>"
+
+#. 86BGL
+#: 13180000.xhp
+msgctxt ""
+"13180000.xhp\n"
+"par_id3149664\n"
+"help.text"
+msgid "<image src=\"cmd/sc_quickedit.png\" id=\"img_id3153728\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153728\">Icon Allow Quick Editing</alt></image>"
+msgstr ""
+
+#. 6agsE
+#: 13180000.xhp
+msgctxt ""
+"13180000.xhp\n"
+"par_id3146974\n"
+"help.text"
+msgid "Allow Quick Editing"
+msgstr "མགྱོགས་མྱུར་རྩོམ་སྒྲིག་ལ་ཁས་ལེན་རྒྱུ་"
+
+#. B28Ta
+#: 13190000.xhp
+msgctxt ""
+"13190000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Select Text Area Only"
+msgstr "ཡི་གེའི་ཁོངས་ཁོ་ན་འདེམས་རྒྱུ་"
+
+#. ZutkA
+#: 13190000.xhp
+msgctxt ""
+"13190000.xhp\n"
+"hd_id3150439\n"
+"help.text"
+msgid "<link href=\"text/simpress/02/13190000.xhp\">Select Text Area Only</link>"
+msgstr "<link href=\"text/simpress/02/13190000.xhp\">ཡི་གེའི་ཁོངས་ཁོ་ན་འདེམས་རྒྱུ་</link>"
+
+#. 2KA8K
+#: 13190000.xhp
+msgctxt ""
+"13190000.xhp\n"
+"par_id3154510\n"
+"help.text"
+msgid "<image src=\"cmd/sc_pickthrough.png\" id=\"img_id3154015\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154015\">Icon Select Text Area Only</alt></image>"
+msgstr ""
+
+#. GUik3
+#: 13190000.xhp
+msgctxt ""
+"13190000.xhp\n"
+"par_id3154254\n"
+"help.text"
+msgid "Select Text Area Only"
+msgstr "ཡི་གེའི་ཁོངས་ཁོ་ན་འདེམས་རྒྱུ་"

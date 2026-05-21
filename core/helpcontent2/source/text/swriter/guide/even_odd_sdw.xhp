@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textswriterguideeven_odd_sdwxml" indexer="include" status="PUBLISH">
+    <title id="tit">Alternating Page Styles on Odd and Even Pages</title>
+    <filename>/text/swriter/guide/even_odd_sdw.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+
+<bookmark branch="index" id="bm_id3153407">
+  <bookmark_value>page styles; left and right pages</bookmark_value>
+  <bookmark_value>blank pages with alternating page styles</bookmark_value>
+  <bookmark_value>empty page with alternating page styles</bookmark_value>
+  <bookmark_value>pages; left and right pages</bookmark_value>
+  <bookmark_value>formatting; even/odd pages</bookmark_value>
+  <bookmark_value>title pages; page styles</bookmark_value>
+  <bookmark_value>First Page page style</bookmark_value>
+  <bookmark_value>Left Page page style</bookmark_value>
+  <bookmark_value>right pages</bookmark_value>
+  <bookmark_value>even/odd pages;formatting</bookmark_value>
+</bookmark>
+<comment>MW made "empty pages;..." and "blank pages;.." to one level entries.</comment>
+
+<h1 id="hd_id3153407"><variable id="even_odd_sdw"><link href="text/swriter/guide/even_odd_sdw.xhp">Alternating Page Styles on Odd and Even Pages</link></variable></h1>
+
+<table id="tbl_id3152897">
+  <tablerow>
+    <tablecell>
+      <paragraph id="par_id3154265" role="paragraph"> <image id="img_id3155876" src="cmd/sc_designerdialog.png" width="0.473cm" height="0.473cm"><alt id="alt_id3155876">Icon</alt></image></paragraph>
+    </tablecell>
+    <tablecell>
+      <paragraph id="par_id3147126" role="paragraph">$[officename] can automatically apply alternating page styles on even (left) and odd pages (right) in your document. For example, you can use page styles to display different headers and footers on even and odd pages. The current page style is displayed in the <emph>Status Bar</emph> at the bottom of the workplace.</paragraph>
+    </tablecell>
+  </tablerow>
+</table>
+
+
+<h2 id="hd_id8194219">To Set Up Alternating Page Styles</h2>
+
+<list type="ordered">
+  <listitem>
+    <paragraph id="par_id3150526" role="listitem">Choose <item type="menuitem">View - Styles</item>, and then click the <item type="menuitem">Page Styles</item> icon.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id3153153" role="listitem">In the list of page styles, right-click "Left Page" and choose <emph>Modify</emph>.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id3153179" role="listitem">Click the <emph>General</emph> tab.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id3145267" role="listitem">Select "Right Page" in the <emph>Next Style</emph> box, and then click <emph>OK</emph>.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id3145299" role="listitem">In the list of page styles, right-click "Right Page" and choose <emph>Modify</emph>.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id3155529" role="listitem">Select "Left Page" in the <emph>Next Style</emph> box, and then click <emph>OK</emph>.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id3155561" role="listitem">Go to the first page in your document, and double-click "Right Page" in the list of page styles in the Styles window.</paragraph>
+  </listitem>
+</list>
+<paragraph id="par_id3155588" role="paragraph">To add a header to one of the page styles, choose <item type="menuitem">Insert - Header and Footer - Header</item>, and choose the page style that you want to add the header to. In the header frame, type the text that you want to use as the header.</paragraph>
+<paragraph id="par_id3147772" role="paragraph">To add a footer to one of the page styles, choose <item type="menuitem">Insert - Header and Footer - Footer</item>, and choose the page style that you want to add the footer to. In the footer frame, type the text that you want to use as a footer.</paragraph>
+<tip id="par_id3147254">If you do not want to have a header or a footer on the title page of your document, apply the "First Page" style to the title page.</tip>
+
+<h2 id="hd_id888698">To Suppress the Printout of Empty Pages</h2>
+<paragraph id="par_id3394573" role="paragraph">If two even or two odd pages directly follow each other in your document, Writer will insert an empty page by default. You can suppress those automatically generated empty pages from printing and from exporting to PDF.</paragraph>
+
+<list type="ordered">
+  <listitem>
+    <paragraph id="par_id7594225" role="paragraph">Choose <switchinline select="sys"><caseinline select="MAC"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Writer - Print</emph>.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id8147221" role="paragraph">Remove the check mark from <emph>Print automatically inserted blank pages</emph>.</paragraph>
+  </listitem>
+</list>
+
+<section id="relatedtopics">
+<embed href="text/swriter/guide/pagestyles.xhp#pagestyles"/>
+<embed href="text/swriter/guide/header_footer.xhp#header_footer"/>
+<paragraph id="par_id3145596" role="paragraph"><link href="text/swriter/01/04010000.xhp">Insert Break dialog</link></paragraph>
+</section>
+</body>
+
+</helpdocument>

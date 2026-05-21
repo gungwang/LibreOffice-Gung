@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+
+<meta>
+<topic id="textshared0106130010xml" indexer="include">
+<title id="tit" >Record Macro</title>
+<filename>/text/shared/01/06130010.xhp</filename>
+</topic>
+</meta>
+<body>
+<bookmark  branch="hid/.uno:MacroRecorder" id="bm_id986626" localize="false"/>
+<section id="recordmacro">
+<h1 id="hd_id3153383"><link href="text/shared/01/06130010.xhp">Record Macro</link></h1>
+<paragraph role="paragraph" id="par_id3152952" ><ahelp hid=".uno:MacroRecorder">Records a new macro.</ahelp></paragraph>
+</section>
+<note id="par_id41696516696703">Only available, if macro recording feature is enabled in <switchinline select="sys"><caseinline select="MAC"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME - Advanced</emph>.</note>
+<section id="howtoget">
+<embed href="text/shared/00/00000406.xhp#recordmacro"/>
+</section>
+<bookmark  branch="hid/.uno:StopRecording" id="bm_id1545801" localize="false"/>
+<h2 id="hd_id3154788">Stop Recording</h2>
+<paragraph role="paragraph" id="par_id3146067" ><ahelp hid=".uno:StopRecording">Stops recording a macro.</ahelp></paragraph>
+<section id="relatedtopics">
+<embed href="text/shared/guide/macro_recording.xhp#macro_recording"/>
+</section>
+</body>
+</helpdocument>

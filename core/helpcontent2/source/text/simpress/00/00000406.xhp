@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+* This file is part of the LibreOffice project.
+*
+* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this
+* file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*
+* This file incorporates work covered by the following license notice:
+*
+*   Licensed to the Apache Software Foundation (ASF) under one or more
+*   contributor license agreements. See the NOTICE file distributed
+*   with this work for additional information regarding copyright
+*   ownership. The ASF licenses this file to you under the Apache
+*   License, Version 2.0 (the "License"); you may not use this file
+*   except in compliance with the License. You may obtain a copy of
+*   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+<meta>
+  <topic id="textsimpress0000000406xml" indexer="exclude" status="PUBLISH">
+    <title id="tit">Tools Menu</title>
+    <filename>/text/simpress/00/00000406.xhp</filename>
+  </topic>
+  <history>
+    <created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+  </history>
+</meta>
+<body>
+    <h1 id="hd_id3153770">Tools Menu</h1>
+    <paragraph role="paragraph" id="par_id3153727"><variable id="silbentrennung">Choose <menuitem>Tools - Language - Hyphenation</menuitem>.</variable></paragraph>
+    <paragraph role="paragraph" id="par_id3163803"><variable id="neuprae">Choose <emph>Slide Show - Custom Slide Show</emph> and then click <emph>New</emph>.</variable></paragraph>
+
+    <section id="minimizer">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id631695942640160">Choose <menuitem>Tools - Presentation Minimizer</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+      <paragraph role="paragraph" id="par_id21695942645014">Choose <menuitem>Slide Show - Minimize Presentation</menuitem>.</paragraph>
+      <paragraph role="paragraph" id="par_id991695941978054">On the <menuitem>Slide Show</menuitem> menu of the <menuitem>Slide Show</menuitem> tab, choose <menuitem>Minimize Presentation</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+      <table id="tab_id271695941864657">
+        <tablerow>
+          <tablecell>
+            <paragraph id="par_id561695941864658" role="paragraph"><image src="cmd/lc_presentationminimizer.svg" id="img_id411695941864659" width="1cm"  height="1cm"><alt id="alt_id621695941864660">Icon Presentation Minimizer</alt></image></paragraph>
+          </tablecell>
+          <tablecell>
+            <paragraph id="par_id51695941864661" role="paragraph">Presentation Minimizer</paragraph>
+          </tablecell>
+        </tablerow>
+      </table>
+    </section>
+</body>
+</helpdocument>

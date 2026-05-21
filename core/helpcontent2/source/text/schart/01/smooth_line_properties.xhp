@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textschart01smooth_line_propertiesxml" indexer="include" status="PUBLISH">
+<title id="tit">Smooth Line Properties</title>
+<filename>/text/schart/01/smooth_line_properties.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<bookmark branch="hid/modules/schart/ui/smoothlinesdlg/@@nowidget@@" id="bm_@@nowidget@@" localize="false"/>
+<bookmark branch="hid/modules/schart/ui/smoothlinesdlg/SmoothLinesDialog" id="bm_id1593677" localize="false"/>
+<bookmark branch="index" id="bm_id3803827"><bookmark_value>curves;properties in line charts/XY charts</bookmark_value>
+<bookmark_value>properties;smooth lines in line charts/XY charts</bookmark_value>
+</bookmark>
+<h1 id="hd_id3050325">Smooth Line Properties</h1>
+<paragraph role="paragraph" id="par_id9421979">In a chart that displays lines (Line type or XY type), you can choose to show curves instead of straight lines. Some options control the properties of those curves.<comment>most possibly these curves are not Bezier curves.</comment></paragraph>
+<section id="howtoget">
+  <embed href="text/schart/00/00000004.xhp#stlp"/>
+</section>
+
+<h2 id="hd_id1228370">Line properties</h2>
+<section id="smoothproperties">
+<h3 id="hd_id711747347628263">Line type</h3>
+<paragraph role="paragraph" id="par_id1601611">Select Cubic Spline or B-Spline.</paragraph>
+<paragraph role="paragraph" id="par_id879848">These are mathematical models that influence the display of the curves. The curves are created by joining together segments of polynomials.</paragraph>
+<paragraph role="paragraph" id="par_id5989562"><emph>Cubic Spline</emph> interpolates your data points with polynomials of degree 3. The transitions between the polynomial pieces are smooth, having the same slope and curvature.</paragraph>
+<paragraph role="paragraph" id="par_id9280373"><emph>B-Spline</emph> uses a parametric, interpolating B-spline curve. Those curves are built piecewise from polynomials.</paragraph>
+<h3 id="hd_id811747347621991">Resolution</h3>
+<paragraph role="paragraph" id="par_id6128421">The <emph>Resolution</emph> determines how many line segments are calculated to draw a piece of polynomial between two data points. You can see the intermediate points if you click any data point.</paragraph>
+<paragraph role="paragraph" id="par_id3464461">A higher value leads to a smoother line.</paragraph>
+<h3 id="hd_id431747347617774">Degree of polynomials</h3>
+<paragraph role="paragraph" id="par_id6998809">For B-spline lines optionally set the degree of the polynomials.</paragraph>
+</section>
+<section id="relatedtopics">
+<paragraph role="paragraph" id="par_id731747249615264" localize="false"><embedvar href="text/schart/01/choose_chart_type.xhp#choose_chart_type" markup="ignore"/></paragraph>
+<paragraph role="paragraph" id="par_id711747349415813" localize="false"><embedvar href="text/schart/01/type_xy.xhp#type_xy" markup="ignore"/></paragraph>
+<paragraph role="paragraph" id="par_id471747349421591" localize="false"><embedvar href="text/schart/01/type_line.xhp#type_line" markup="ignore"/></paragraph>
+</section>
+</body>
+</helpdocument>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+  <topic id="textshared0205090000xml" indexer="include" status="PUBLISH">
+    <title id="tit">Rotate</title>
+    <filename>/text/shared/02/05090000.xhp</filename>
+  </topic>
+  <history>
+    <created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+  </history>
+</meta>
+<body>
+<bookmark branch="hid/.uno:ToggleObjectRotateMode" id="bm_id3148520" localize="false"/>
+<section id="rotate">
+<h1 id="hd_id3154863"><variable id="rotate_h1"><link href="text/shared/02/05090000.xhp">Rotate</link></variable></h1>
+<paragraph role="paragraph" id="par_id3149119"><ahelp hid=".uno:ToggleObjectRotateMode">Rotates the selected object.</ahelp></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id411693066855382">Choose <menuitem>Format - Rotate or Flip - Rotate</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id611693066850373">Choose <menuitem>Rotate or Flip - Rotate</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id611693067023223">Choose <menuitem>Draw - Rotate</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id961693067027127">Choose <menuitem>Image - Rotate</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="syrotate">
+    <table id="tbl_id3148548">
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3152551"><image id="img_id3154317" src="cmd/lc_toggleobjectrotatemode.svg" width="1cm" height="1cm"><alt id="alt_id3154317">Icon Rotate</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3153577">Rotate</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+</section>
+<paragraph role="paragraph" id="par_id611693067183268">Drag a corner handle of the object in the direction you want to rotate it.</paragraph>
+<note id="par_id581693067646597">The object is rotated around the center of the object box.</note>
+<section id="relatedtopics">
+<paragraph role="paragraph" id="par_id3156113"><link href="text/shared/01/05230300.xhp"><emph>Format - Position and Size - Rotate</emph></link>.</paragraph>
+</section>
+</body>
+</helpdocument>

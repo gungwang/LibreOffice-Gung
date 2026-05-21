@@ -1,0 +1,1187 @@
+#. extracted from helpcontent2/source/text/shared/menu
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2024-06-03 12:06+0200\n"
+"PO-Revision-Date: 2024-12-16 09:45+0000\n"
+"Last-Translator: Olivier Hallot <olivier.hallot@libreoffice.org>\n"
+"Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textsharedmenu/pt_BR/>\n"
+"Language: pt-BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.4.3\n"
+"X-POOTLE-MTIME: 1464813590.000000\n"
+
+#. 4dDYy
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"tit\n"
+"help.text"
+msgid "File Menu"
+msgstr "Menu Arquivo"
+
+#. 6W8BF
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"hd_id881705934083852\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/menu/PickList.xhp\">File</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/menu/PickList.xhp\">Arquivo</link></variable>"
+
+#. WAmKT
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id231705934083854\n"
+"help.text"
+msgid "Opens the File menu."
+msgstr "Abre o menu Arquivo."
+
+#. CCTq8
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id3147352\n"
+"help.text"
+msgid "<ahelp hid=\".\">These commands apply to the current document, create a document, open an existing document, or close the application.</ahelp>"
+msgstr "<ahelp hid=\".\">Esses comandos são aplicáveis ao documento atual, criam um documento, abrem um novo documento ou fecham o aplicativo.</ahelp>"
+
+#. 9EvAu
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id3151112\n"
+"help.text"
+msgid "<ahelp hid=\".\">These commands apply to the current spreadsheet, create a spreadsheet, open an existing spreadsheet, or close the application.</ahelp>"
+msgstr "<ahelp hid=\".\">Esses comandos são aplicáveis ao documento de planilha atual, criam uma documento de planilha, abrem um novo documento de planilha, ou fecham o aplicativo.</ahelp>"
+
+#. C5giA
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id3154321\n"
+"help.text"
+msgid "<ahelp hid=\".\">These commands apply to the current presentation, create a presentation, open an existing presentation, or close the application.</ahelp>"
+msgstr "<ahelp hid=\".\">Esses comandos são aplicáveis à apresentação atual, criam uma apresentação, abrem uma nova apresentação ou fecham o aplicativo.</ahelp>"
+
+#. fpugy
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id3150868\n"
+"help.text"
+msgid "This menu contains general commands for working with Draw documents, such as create, open, close and print. To close $[officename] Draw, click <emph>Exit</emph>."
+msgstr "Esse menu contém comandos gerais para trabalhar com documentos do Draw, como criar, abrir, fechar e imprimir. Para fechar o $[officename] Draw, clique em <emph>Sair</emph>."
+
+#. BoATR
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id681705934190383\n"
+"help.text"
+msgid "Choose <menuitem>File</menuitem>."
+msgstr "Escolha <menuitem>Arquivo</menuitem>."
+
+#. kAYUQ
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Comments Menu"
+msgstr "Menu de Anotações"
+
+#. iAF2Y
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id381685980724188\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/menu/comment_menu.xhp\">Comments Menu</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/menu/comment_menu.xhp\">Menu Anotações</link></variable>"
+
+#. nxWrC
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id941603125587454\n"
+"help.text"
+msgid "Shows a submenu that gives options to reply to comments from other users, resolve and delete comments."
+msgstr "Mostra um submenu que oferece opções para responder a anotações de outros usuários, resolver e excluir anotações."
+
+#. ZpC2v
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id771685982803183\n"
+"help.text"
+msgid "Reply Comment"
+msgstr "Responder à anotação"
+
+#. Gvcr8
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id491685993001013\n"
+"help.text"
+msgid "Inserts a new comment adjacent to the comment to which you want to reply. The comment anchor is the same for all comments in the thread."
+msgstr "Insere uma nova anotação adjacente à anotação a qual deseja responder. A âncora da anotação é a mesma para todas as anotações da discussão."
+
+#. rcW2w
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id341685992961744\n"
+"help.text"
+msgid "<image src=\"cmd/lc_replycomment.svg\" id=\"img_id911685992961745\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id541685992961746\">Icon Reply Comment</alt></image>"
+msgstr "<image src=\"cmd/lc_replycomment.svg\" id=\"img_id911685992961745\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id541685992961746\">Ícone Responder anotação</alt></image>"
+
+#. DBxGw
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id661685992961748\n"
+"help.text"
+msgid "Reply Comment"
+msgstr "Responder à anotação"
+
+#. z6sGj
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id931685994600871\n"
+"help.text"
+msgid "Replying a comment creates a comment thread."
+msgstr "Ao responder a uma anotação cria-se uma discussão."
+
+#. ihDxZ
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id951685982807912\n"
+"help.text"
+msgid "Resolve / Unresolve"
+msgstr "Resolver / Não resolver"
+
+#. M6x5n
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id751685993265436\n"
+"help.text"
+msgid "Marks the comment as <emph>Resolved</emph> (or <emph>Unresolved</emph>). When you mark the comment resolved, the word <emph>Resolved</emph> is inserted under the date in the comment box. When marking unresolved, the word <emph>Resolved</emph> is removed."
+msgstr "Marca a anotação como <emph>Resolvida</emph> (ou <emph>Não resolvida</emph>). Quando marcar a anotação como resolvida, a palavra <emph>Resolvida</emph> é inserida abaixo da data na caixa da anotação. Ao marcar como não resolvida, a palavra <emph>Resolvida</emph> é removida."
+
+#. EfGUV
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id541685982812304\n"
+"help.text"
+msgid "Resolve Thread"
+msgstr "Marcar como resolvido"
+
+#. LvCLG
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id171685994484069\n"
+"help.text"
+msgid "Marks the comment thread as <emph>Resolved</emph> (or <emph>Unresolved</emph>). All comments in the thread are marked <emph>Resolved</emph> (or <emph>Unresolved)</emph>."
+msgstr "Marca a discussão como <emph>Resolvida</emph> (ou <emph>Não resolvida</emph>). Todos as anotações na discussão são marcadas como <emph>Resolvidas</emph> (ou <emph>Não resolvidas)</emph>."
+
+#. 4bSUA
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id811685982816727\n"
+"help.text"
+msgid "Delete Comment"
+msgstr "Excluir anotação"
+
+#. rJq6j
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id241685994046592\n"
+"help.text"
+msgid "Deletes the comment."
+msgstr "Exclui a anotação."
+
+#. 9vvEv
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id721685994175303\n"
+"help.text"
+msgid "<image src=\"cmd/lc_deleteannotation.svg\" id=\"img_id161685994175304\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id751685994175306\">Icon Delete Comment</alt></image>"
+msgstr "<image src=\"cmd/lc_deleteannotation.svg\" id=\"img_id161685994175304\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id751685994175306\">Ícone Excluir anotação</alt></image>"
+
+#. gi9Xt
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id641685994175307\n"
+"help.text"
+msgid "Delete Comment"
+msgstr "Excluir anotação"
+
+#. 6DKqG
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id411685982821640\n"
+"help.text"
+msgid "Delete Comment Thread"
+msgstr "Excluir discussão"
+
+#. w7wTC
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id941685994231483\n"
+"help.text"
+msgid "Deletes all comments of the same thread."
+msgstr "Exclui todas as anotações da discussão."
+
+#. AKAAD
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id801685982825543\n"
+"help.text"
+msgid "Delete Comment By"
+msgstr "Excluir anotação de"
+
+#. tfGAA
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id631685994308029\n"
+"help.text"
+msgid "Deletes all comments of the same author."
+msgstr "Exclui todas as anotações do mesmo autor."
+
+#. J5FWB
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id321685982829794\n"
+"help.text"
+msgid "Delete All Comments"
+msgstr "Excluir todas as anotações"
+
+#. zmziK
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id131685994324823\n"
+"help.text"
+msgid "Deletes all comments of the document."
+msgstr "Exclui todas as anotações do documento."
+
+#. mnSiZ
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id881685994350879\n"
+"help.text"
+msgid "<image src=\"cmd/lc_deleteallannotation.svg\" id=\"img_id501685994350880\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id131685994350881\">Icon Delete All Comments</alt></image>"
+msgstr "<image src=\"cmd/lc_deleteallannotation.svg\" id=\"img_id501685994350880\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id131685994350881\">Ícone Excluir todas as anotações</alt></image>"
+
+#. 5wMSG
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id371685994350883\n"
+"help.text"
+msgid "Delete All Comments"
+msgstr "Excluir todas as anotações"
+
+#. 3ijYG
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id701685995308264\n"
+"help.text"
+msgid "Format All Comments"
+msgstr "Formatar todas as anotações"
+
+#. WBBq9
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id481685995582479\n"
+"help.text"
+msgid "Opens the <link href=\"text/shared/01/05020000.xhp\">Format Character</link> dialog to set font, font effects, position and highlighting of all comments text."
+msgstr "Abre a caixa de diálogo <link href=\"text/shared/01/05020000.xhp\">Formatar caractere</link> para definir, fonte, posição e destaque do texto de todas as anotações."
+
+#. rxCQJ
+#: forms.xhp
+msgctxt ""
+"forms.xhp\n"
+"tit\n"
+"help.text"
+msgid "Forms submenu"
+msgstr "Submenu Formulários"
+
+#. zwjCw
+#: forms.xhp
+msgctxt ""
+"forms.xhp\n"
+"hd_id491647289210348\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/menu/forms.xhp\">Forms Submenu</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/menu/forms.xhp\">Submenu Formulários</link></variable>"
+
+#. kbBmz
+#: insert_form_control.xhp
+msgctxt ""
+"insert_form_control.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Control Menu"
+msgstr "Menu de controle de formulários"
+
+#. fxAGy
+#: insert_form_control.xhp
+msgctxt ""
+"insert_form_control.xhp\n"
+"hd_id030720160611303537\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/insert_form_control.xhp\">Form Control</link>"
+msgstr "<link href=\"text/shared/menu/insert_form_control.xhp\">Controle de formulário</link>"
+
+#. exnvH
+#: insert_form_control.xhp
+msgctxt ""
+"insert_form_control.xhp\n"
+"par_id03072016061205929\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu contains form controls like a textbox, checkbox, option button, and listbox that can be inserted into the document.</ahelp>"
+msgstr "<ahelp hid=\".\">Este submenu contém controles de formulário como caixa de textos, caixa de seleção, botão de opção, e caixas de listagem que podem ser inseridas no documento.</ahelp>"
+
+#. GmbEB
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"tit\n"
+"help.text"
+msgid "Insert Shape"
+msgstr "Inserir forma"
+
+#. PvcFc
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id07684081706272\n"
+"help.text"
+msgid "<variable id=\"insert_h1\"><link href=\"text/shared/menu/insert_shape.xhp\">Insert</link></variable>"
+msgstr "<variable id=\"insert_h1\"><link href=\"text/shared/menu/insert_shape.xhp\">Inserir</link></variable>"
+
+#. MHwAt
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id030420161043484643\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/insert_shape.xhp\">Shape</link>"
+msgstr "<link href=\"text/shared/menu/insert_shape.xhp\">Forma</link>"
+
+#. 9QTsN
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030420161051456436\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu contains common shapes like a line, circle, triangle, and square, or a symbol shape like a smiley face, heart, and flower that can be inserted into the document.</ahelp>"
+msgstr "<ahelp hid=\".\">Este submenu contém formas comuns tais como linhas, círculos, triângulos ou quadrados, ou então uma forma de símbolo como sorriso, coração, e flores que podem ser inseridas no documento.</ahelp>"
+
+#. v9tGR
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id261716922857055\n"
+"help.text"
+msgid "Choose <menuitem>Shape - Insert</menuitem>."
+msgstr "Escolha <menuitem>Forma - Inserir</menuitem>."
+
+#. vcXma
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id371689419860375\n"
+"help.text"
+msgid "Choose <menuitem>Insert - Shape</menuitem>."
+msgstr "Escolha <menuitem>Inserir - Forma</menuitem>"
+
+#. 5prSD
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id221689420180556\n"
+"help.text"
+msgid "Choose <menuitem>Home</menuitem>."
+msgstr "Escolha <menuitem>Início</menuitem>."
+
+#. tuTUD
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id51689420185288\n"
+"help.text"
+msgid "Choose <menuitem>Insert</menuitem>."
+msgstr "Escolha <menuitem>Inserir</menuitem>."
+
+#. UFRsP
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id801689420619159\n"
+"help.text"
+msgid "<image src=\"cmd/lc_graphic.svg\" id=\"img_id831689420619160\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id681689420619161\">Icon Insert Shape</alt></image>"
+msgstr "<image src=\"cmd/lc_graphic.svg\" id=\"img_id831689420619160\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id681689420619161\">Ícone Inserir forma</alt></image>"
+
+#. RKMoV
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id321689420619163\n"
+"help.text"
+msgid "Insert Shape"
+msgstr "Inserir formas"
+
+#. MWkRP
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id451689424666075\n"
+"help.text"
+msgid "Open the <menuitem>Shapes</menuitem> deck."
+msgstr "Abre o deque <menuitem>Formas</menuitem>."
+
+#. 7fziz
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id71689424658656\n"
+"help.text"
+msgid "Open the <menuitem>Shapes</menuitem> deck."
+msgstr "Abre o deque <menuitem>Formas</menuitem>."
+
+#. Um3uD
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160629548185\n"
+"help.text"
+msgid "Line"
+msgstr "Linha"
+
+#. nsXTj
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160640091844\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu contains straight, freeform, curved and polygon line shapes.</ahelp>"
+msgstr "<ahelp hid=\".\">Este submenu contém formas lineares retas, à mão livre, curvas e poligonais.</ahelp>"
+
+#. kzkBD
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160629546864\n"
+"help.text"
+msgid "Basic Shapes"
+msgstr "Formas simples"
+
+#. 8CEvF
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160644597415\n"
+"help.text"
+msgid "This submenu contains basic shapes like rectangles, circles, triangles, pentagon, hexagon, octagon, cylinder, and cube."
+msgstr "Este submenu contém formas tais como retângulos, círculos, triângulos, pentágonos, hexágonos, octágonos, cilindro e cubo."
+
+#. PXhah
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160629547675\n"
+"help.text"
+msgid "Symbol Shapes"
+msgstr "Formas de símbolos"
+
+#. GCKeF
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160644595417\n"
+"help.text"
+msgid "This submenu contains symbols shapes like smiley face, heart, sun, moon, flower, puzzle, beveled shapes, and brackets."
+msgstr "Este submenu contém símbolos como sorrisos, coração, sol, lua, flor, quebra cabeça, formas com relevo e colchetes."
+
+#. vNTVM
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id611689426279512\n"
+"help.text"
+msgid "Block Arrows"
+msgstr "Setas cheias"
+
+#. BPnWg
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id41689426765628\n"
+"help.text"
+msgid "This submenu contains block arrow shapes like right arrow, split arrow, circular arrow and more."
+msgstr "Este submenu contém setas cheias como seta para direita, setas divididas, setas circulares e mais."
+
+#. GfbGc
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id271689426283831\n"
+"help.text"
+msgid "Flowchart"
+msgstr "Fluxogramas"
+
+#. 6QCkL
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id631689426759732\n"
+"help.text"
+msgid "This submenu contains flowchart shapes like process, decision, data, document, terminator and more."
+msgstr "Este submenu contém formas de fluxograma como processo, decisão, dados, documento, terminador e mais."
+
+#. tmYcp
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id371689426288479\n"
+"help.text"
+msgid "Callout Shapes"
+msgstr "Formas de textos explicativos"
+
+#. FR72i
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id291689426754707\n"
+"help.text"
+msgid "This submenu contains callout shapes like rectangular, rounded rectangular, round, cloud and more."
+msgstr "Este submenu contém formas de textos explicativos como retangulares, retangulares arredondados, redondos, nuvem e muito mais."
+
+#. Xxjvu
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id731689426292776\n"
+"help.text"
+msgid "Stars and Banners"
+msgstr "Estrelas e faixas"
+
+#. 7L864
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id461689426746716\n"
+"help.text"
+msgid "This submenu contains star and banners shapes like multi ray stars, scrolls and more."
+msgstr "Este submenu contém formas de estrelas e faixas, como estrelas de vários raios, pergaminhos e muito mais."
+
+#. et6tw
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"tit\n"
+"help.text"
+msgid "Save Image"
+msgstr "Salvar imagem"
+
+#. sn5hM
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"bm_id561566144886972\n"
+"help.text"
+msgid "<bookmark_value>page;save background image</bookmark_value>        <bookmark_value>slide;save background image</bookmark_value>        <bookmark_value>page background image;save</bookmark_value>        <bookmark_value>slide background image;save</bookmark_value>"
+msgstr "<bookmark_value>página;salvar imagem do plano de fundo</bookmark_value>        <bookmark_value>slide;salvar imagem do plano de fundo</bookmark_value>        <bookmark_value>imagem do plano de fundo;salvar</bookmark_value>        <bookmark_value>imagem do plano de fundo do slide;salvar</bookmark_value>"
+
+#. 6cP5z
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"hd_id881566143431255\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/save_image.xhp\">Save Background Image</link>"
+msgstr "<link href=\"text/shared/menu/save_image.xhp\">Salvar imagem do plano de fundo</link>"
+
+#. qWmcs
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"par_id121566143431256\n"
+"help.text"
+msgid "<variable id=\"variable name\"><ahelp hid=\".uno:SaveBackground\">Saves the background image of the current <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">slide</caseinline><defaultinline>page</defaultinline></switchinline>.</ahelp></variable>"
+msgstr "<variable id=\"variable name\"><ahelp hid=\".uno:SaveBackground\">Salva a imagem do plano de fundo <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">do slide</caseinline><defaultinline>da página</defaultinline></switchinline>.</ahelp></variable>"
+
+#. Y5Mt5
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"par_id91566150694760\n"
+"help.text"
+msgid "Choose <switchinline select=\"appl\"><caseinline select=\"IMPRESS\"><menuitem>Slide</menuitem></caseinline><defaultinline><menuitem>Page</menuitem></defaultinline></switchinline> - <menuitem>Save Background Image</menuitem>."
+msgstr "Escolha <switchinline select=\"appl\"><caseinline select=\"IMPRESS\"><menuitem>Slide</menuitem></caseinline><defaultinline><menuitem>Página</menuitem></defaultinline></switchinline> - <menuitem>Salvar imagem do plano de fundo</menuitem>."
+
+#. V2Dps
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"par_id291566144541584\n"
+"help.text"
+msgid "Opens the <emph>Export Image</emph> dialog to save the background image of the current <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">slide</caseinline><defaultinline>page</defaultinline></switchinline>. Select the image file format in the Filter box, enter a file name for the image and click <emph>Save</emph>."
+msgstr "Abre a caixa de diálogo <emph>Exportar figura</emph> para salvar a figura do plano de fundo <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">do slide</caseinline><defaultinline>da página</defaultinline></switchinline>. Selecione o formato de arquivo da figura na caixa Filtro, insira um nome de arquivo para a figura e clique em <emph>Salvar</emph>."
+
+#. LJVBr
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"par_id841566144548379\n"
+"help.text"
+msgid "Depending on the file format chosen, a dialog appears to set the image format properties."
+msgstr "A depender do formato do arquivo de imagem, uma caixa de diálogo aparece para definir as propriedades do formato da imagem."
+
+#. QZF9R
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"tit\n"
+"help.text"
+msgid "Set Image Background"
+msgstr "Definir imagem do plano de fundo"
+
+#. Pyf3s
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"bm_id561566144886972\n"
+"help.text"
+msgid "<bookmark_value>page;set background image</bookmark_value><bookmark_value>slide;set background image</bookmark_value><bookmark_value>page background image;set</bookmark_value><bookmark_value>slide background image;set</bookmark_value>"
+msgstr "<bookmark_value>página;definir imagem do plano de fundo</bookmark_value><bookmark_value>slide;definir imagem do plano de fundo</bookmark_value><bookmark_value>imagem do plano de fundo da página;definir</bookmark_value><bookmark_value>imagem do plano de fundo do slide;definir</bookmark_value>"
+
+#. jnYeL
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"hd_id881566143431255\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/set_image_background.xhp\">Set Background Image</link>"
+msgstr "<link href=\"text/shared/menu/set_image_background.xhp\">Definir imagem do plano de fundo</link>"
+
+#. B8FvH
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"par_id121566143431256\n"
+"help.text"
+msgid "<variable id=\"setimagebackground\"><ahelp hid=\".uno:SelectBackground\">Set the image background of the <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">slide</caseinline><defaultinline>page</defaultinline></switchinline>.</ahelp></variable>"
+msgstr "<variable id=\"setimagebackground\"><ahelp hid=\".uno:SelectBackground\">Define a imagem do plano de fundo <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">do slide</caseinline><defaultinline>da página</defaultinline></switchinline>.</ahelp></variable>"
+
+#. j4B9R
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"par_id91566150694760\n"
+"help.text"
+msgid "Choose <switchinline select=\"appl\"><caseinline select=\"IMPRESS\"><menuitem>Slide</menuitem></caseinline><defaultinline><menuitem>Page</menuitem></defaultinline></switchinline> - <menuitem>Set Background Image</menuitem>."
+msgstr "Escolha <switchinline select=\"appl\"><caseinline select=\"IMPRESS\"><menuitem>Slide</menuitem></caseinline><defaultinline><menuitem>Página</menuitem></defaultinline></switchinline> - <menuitem>Definir imagem do plano de fundo</menuitem>."
+
+#. 4wqBR
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"par_id291566144541584\n"
+"help.text"
+msgid "Opens the <emph>Set Image Background</emph> dialog to set the background image of the current <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">slide</caseinline><defaultinline>page</defaultinline></switchinline>. Select an image file and click <emph>Open</emph>."
+msgstr "Abre a caixa de diálogo <emph>Definir imagem do plano de fundo</emph> para definir a imagem do plano de fundo  <switchinline select=\"appl\"><caseinline select=\"IMPRESS\"> do slide</caseinline><defaultinline>da página</defaultinline></switchinline> atual. Selecione o arquivo de imagem, e clique em <emph>Abrir</emph>."
+
+#. W7R4s
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Styles (menu)"
+msgstr "Estilos (menu)"
+
+#. bwUC5
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/style_menu.xhp\">Styles</link>"
+msgstr "<link href=\"text/shared/menu/style_menu.xhp\">Estilos</link>"
+
+#. tqez2
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_idN10563\n"
+"help.text"
+msgid "<ahelp hid=\".\">Contains commands to apply, create, edit, update, load, and manage <link href=\"text/swriter/01/05130000.xhp\">styles</link> in a text document.</ahelp>"
+msgstr "<ahelp hid=\".\">Contém comandos para aplicar, criar, editar, atualizar, carregar e gerenciar <link href=\"text/swriter/01/05130000.xhp\">estilos</link> num documento de texto.</ahelp>"
+
+#. EMXiA
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id951701984989443\n"
+"help.text"
+msgid "<ahelp hid=\".\">Contains commands to apply, create, edit, update, load, and manage styles in a spreadsheet document.</ahelp>"
+msgstr "<ahelp hid=\".\">Contém comandos para aplicar, criar, editar, atualizar, carregar e gerenciar estilos num documento de planilha.</ahelp>"
+
+#. tgkBx
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id191713460859953\n"
+"help.text"
+msgid "Contains commands to create, edit, update, and manage styles in a presentation document."
+msgstr "Contém comandos para criar, editar, atualizar e gerenciar estilos num documento de apresentação."
+
+#. Enc6m
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id991713461213944\n"
+"help.text"
+msgid "Choose <menuitem>Format - Styles</menuitem>."
+msgstr "Escolha <menuitem>Formatar - Estilos</menuitem>."
+
+#. y8Gxg
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id811713461480734\n"
+"help.text"
+msgid "Choose <menuitem>Format - Styles</menuitem>."
+msgstr "Escolha <menuitem>Formatar - Estilos</menuitem>."
+
+#. BssPU
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id71693522443488\n"
+"help.text"
+msgid "Choose <menuitem>Styles</menuitem>."
+msgstr "Escolha <menuitem>Estilos</menuitem>."
+
+#. fK84v
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"hd_id121529878513674\n"
+"help.text"
+msgid "Text styles entries"
+msgstr "Entradas dos estilos de texto"
+
+#. ouDxU
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id411529878520742\n"
+"help.text"
+msgid "The entries includes most common paragraph, character and list styles. Click on the style to apply."
+msgstr "As entradas do menu incluem os estilos mais comuns de parágrafos e caracteres. Clique no estilo para aplicar."
+
+#. 9WH7A
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id811701985858003\n"
+"help.text"
+msgid "Cell styles entries"
+msgstr "Entradas dos estilos de células"
+
+#. R8yuC
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id31701985198261\n"
+"help.text"
+msgid "The entries includes most common cell styles. Click on the style to apply."
+msgstr "As entradas incluem os estilos de células mais comuns. Clique no estilo para aplicar."
+
+#. 7FPtK
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id451529878529005\n"
+"help.text"
+msgid "You can customize the list of styles entries using menu <link href=\"text/shared/01/06140100.xhp\"><emph>Tools - Customize</emph></link>. Because custom styles belongs to the actual document, remember to store the customized menu in the document scope."
+msgstr "É possível personalizar as entradas dos estilos usando o menu <link href=\"text/shared/01/06140100.xhp\"><emph>Ferramentas - Personalizar</emph></link>. Como os estilos personalizados pertencem ao próprio documento, lembre-se de armazenar os menus personalizados no escopo do documento aberto."
+
+#. izuQf
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"tit\n"
+"help.text"
+msgid "Image"
+msgstr "Figura"
+
+#. WEo9P
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id411816022675979\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/submenu_image.xhp\">Image</link>"
+msgstr "<link href=\"text/shared/menu/submenu_image.xhp\">Figura</link>"
+
+#. PXKMS
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"par_id398855439580084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu where you can choose commands to manipulate images.</ahelp>"
+msgstr "<ahelp hid=\".\">Abre um submenu para escolher comandos específicos de manipulação de figuras.</ahelp>"
+
+#. F7WSB
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"par_id321690379868876\n"
+"help.text"
+msgid "Choose <menuitem>Format - Image</menuitem>"
+msgstr "Escolha <menuitem>Formatar - Figura</menuitem>"
+
+#. FFzA8
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id471690383078695\n"
+"help.text"
+msgid "Original Size"
+msgstr "Tamanho original"
+
+#. Xjhs9
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"par_id711690383088371\n"
+"help.text"
+msgid "Restores the original size of the selected image."
+msgstr "Restaura o tamanho original da figura selecionada."
+
+#. ZYu8G
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id11692743945980\n"
+"help.text"
+msgid "Fit to cell size"
+msgstr "Ajustar ao tamanho da célula"
+
+#. 6uumw
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id341690402790136\n"
+"help.text"
+msgid "<link href=\"text/shared/02/24010000.xhp\">Filter</link>"
+msgstr "<link href=\"text/shared/02/24010000.xhp\">Filtrar</link>"
+
+#. DiNQt
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"par_id181690402800547\n"
+"help.text"
+msgid "Opens a submenu with several filters that can be applied to the selected image."
+msgstr "Abre um submenu com vários filtros para aplicar na imagem selecionada."
+
+#. xEepr
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id281692741932662\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/05060000.xhp\">Properties</link>"
+msgstr "<link href=\"text/swriter/01/05060000.xhp\">Propiedades</link>"
+
+#. UofYA
+#: submenu_lists.xhp
+msgctxt ""
+"submenu_lists.xhp\n"
+"tit\n"
+"help.text"
+msgid "Lists"
+msgstr "Listas"
+
+#. BEEuG
+#: submenu_lists.xhp
+msgctxt ""
+"submenu_lists.xhp\n"
+"hd_id411816022675979\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/submenu_lists.xhp\">Lists</link>"
+msgstr "<link href=\"text/shared/menu/submenu_lists.xhp\">Listas</link>"
+
+#. HWyDE
+#: submenu_lists.xhp
+msgctxt ""
+"submenu_lists.xhp\n"
+"par_id398855439580084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu where you can choose commands to create and work on lists.</ahelp>"
+msgstr "<ahelp hid=\".\">Abre um submenu com comandos específicos para criar e trabalhar com listas.</ahelp>"
+
+#. M2gWP
+#: submenu_lists.xhp
+msgctxt ""
+"submenu_lists.xhp\n"
+"par_id321690379868876\n"
+"help.text"
+msgid "Choose <menuitem>Format - Lists</menuitem>"
+msgstr "Escolha <menuitem>Formatar - Listas</menuitem>"
+
+#. zeHPg
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"tit\n"
+"help.text"
+msgid "Rotate or Flip"
+msgstr "Girar ou inverter"
+
+#. TFgHu
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"hd_id661693064275326\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/menu/submenu_rotateflip.xhp\">Rotate or Flip</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/menu/submenu_rotateflip.xhp\">Girar ou inverter</link></variable>"
+
+#. SxrTz
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id561602978499640\n"
+"help.text"
+msgid "Opens a submenu where you can rotate or flip a selected shape or image. Text boxes can only be rotated."
+msgstr "Abre um submenu para girar e inverter uma forma ou imagem selecionada. Caixas de texto só podem ser giradas."
+
+#. rVWwL
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id41693064459459\n"
+"help.text"
+msgid "Choose <menuitem>Format - Rotate or Flip</menuitem>."
+msgstr "Escolha <menuitem>Formatar - Girar ou inverter</menuitem>."
+
+#. HN4P4
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id801693065302337\n"
+"help.text"
+msgid "Choose <menuitem>Rotate or Flip</menuitem>."
+msgstr "Escolha <menuitem>Girar ou inverter</menuitem>."
+
+#. CCKoF
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id751693066303787\n"
+"help.text"
+msgid "<image src=\"cmd/lc_rotateleft.svg\" id=\"img_id651693066303788\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id651693066303789\">Icon Rotate or Flip</alt></image>"
+msgstr "<image src=\"cmd/lc_rotateleft.svg\" id=\"img_id651693066303788\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id651693066303789\">Ícone Girar ou inverter</alt></image>"
+
+#. 9o3U8
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id771693066303791\n"
+"help.text"
+msgid "Rotate or Flip"
+msgstr "Girar ou inverter"
+
+#. pkF4D
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"hd_id491693087845438\n"
+"help.text"
+msgid "Reset Rotation"
+msgstr "Redefinir rotação"
+
+#. 5zhDT
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id751693088211586\n"
+"help.text"
+msgid "Set the object rotation to zero degrees."
+msgstr "Define a rotação do objeto para zero graus."
+
+#. fGrZx
+#: submenu_spacing.xhp
+msgctxt ""
+"submenu_spacing.xhp\n"
+"tit\n"
+"help.text"
+msgid "Spacing"
+msgstr "Espaçamento"
+
+#. ehPgj
+#: submenu_spacing.xhp
+msgctxt ""
+"submenu_spacing.xhp\n"
+"hd_id411816022675979\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/submenu_spacing.xhp\">Spacing</link>"
+msgstr "<link href=\"text/shared/menu/submenu_spacing.xhp\">Espaçamento</link>"
+
+#. 22dPh
+#: submenu_spacing.xhp
+msgctxt ""
+"submenu_spacing.xhp\n"
+"par_id398855439580084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu where you can choose text spacing commands.</ahelp>"
+msgstr "<ahelp hid=\".\">Abre um submenu para escolher comandos específicos de espaçamento entre linhas.</ahelp>"
+
+#. MVHBc
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"tit\n"
+"help.text"
+msgid "Text"
+msgstr "Texto"
+
+#. wA9Xa
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id411816022675978\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/submenu_text.xhp\">Text</link>"
+msgstr "<link href=\"text/shared/menu/submenu_text.xhp\">Texto</link>"
+
+#. UdmfU
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id398855439580083\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu where you can choose text formatting commands.</ahelp>"
+msgstr "<ahelp hid=\".\">Abre um submenu para escolher comandos específicos de formatação de texto.</ahelp>"
+
+#. br5DC
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id207025326941609\n"
+"help.text"
+msgid "Wrap Text"
+msgstr "Dispor texto"
+
+#. jBc2E
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id302484503842787\n"
+"help.text"
+msgid "<ahelp hid=\".\">Break text automatically at the right edges of the selected cells.</ahelp>"
+msgstr "<ahelp hid=\".\">Insere uma quebra de texto automaticamente na borda direita das células selecionadas.</ahelp>"
+
+#. zo6cE
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id3155392\n"
+"help.text"
+msgid "Half-width"
+msgstr "Meia largura"
+
+#. SEpmw
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id3147088\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ChangeCaseToHalfWidth\">Changes the selected Asian characters to half-width characters.</ahelp>"
+msgstr "<ahelp hid=\".uno:ChangeCaseToHalfWidth\">Altera os caracteres asiáticos selecionados para caracteres de meia largura.</ahelp>"
+
+#. rA2DG
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id3156113\n"
+"help.text"
+msgid "Full Width"
+msgstr "Largura inteira"
+
+#. Ep24G
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ChangeCaseToFullWidth\">Changes the selected Asian characters to full-width characters.</ahelp>"
+msgstr "<ahelp hid=\".uno:ChangeCaseToFullWidth\">Altera os caracteres asiáticos selecionados para caracteres de largura normal.</ahelp>"
+
+#. dZCcC
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id3152996\n"
+"help.text"
+msgid "Hiragana"
+msgstr "Hiragana"
+
+#. AB6ta
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id3156156\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ChangeCaseToHiragana\">Changes the selected Asian characters to Hiragana characters.</ahelp>"
+msgstr "<ahelp hid=\".uno:ChangeCaseToHiragana\">Altera os caracteres asiáticos selecionados para caracteres Hiragana.</ahelp>"
+
+#. LNQLS
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id3154173\n"
+"help.text"
+msgid "Katakana"
+msgstr "Katakana"
+
+#. QSxUp
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id3146137\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ChangeCaseToKatakana\">Changes the selected Asian characters to Katakana characters.</ahelp>"
+msgstr "<ahelp hid=\".uno:ChangeCaseToKatakana\">Altera os caracteres asiáticos selecionados para caracteres Katakana.</ahelp>"

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+<topic id="textsharededit_menuxml" indexer="exclude">
+<title id="tit">Edit Menu</title>
+<filename>/text/shared/00/edit_menu.xhp</filename>
+</topic>
+</meta>
+<body>
+<h1 id="hd_id3147273">Edit Menu</h1>
+
+<section id="do">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3085157">Choose <menuitem>Edit - Undo</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syundo">
+        <table id="tbl_id3145226">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3155449"><image id="img_id3155577" src="cmd/lc_undo.svg" width="1cm" height="1cm"><alt id="alt_id3155577">Icon Undo</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3148563">Undo</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3145160"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Z</keycode></paragraph>
+</section>
+
+<section id="redo">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3145068">Choose <menuitem>Edit - Redo</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syredo">
+        <table id="tbl_id3154935">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3154938"><image id="img_id3150358" src="cmd/lc_redo.svg" width="1cm" height="1cm"><alt id="alt_id3150358">Icon Redo</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3151211">Redo</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id591685963188763"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Y</keycode></paragraph>
+</section>
+
+<section id="repeat">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3154365">Choose <menuitem>Edit - Repeat</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id821685963967519">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id611685963967520" role="paragraph">
+                    <image src="cmd/lc_repeat.svg" id="img_id491685963967521" width="1cm" height="1cm"><alt id="alt_id131685963967522">Icon Repeat</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id121685963967524" role="paragraph">Repeat</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id371685963759435"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + Y</keycode></paragraph>
+</section>
+
+<section id="cut">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3149765">Choose <menuitem>Edit - Cut</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id321685964587740">Choose <menuitem>Home - Cut</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="sycut">
+        <table id="tbl_id3154218">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3145173"><image id="img_id3145744" src="cmd/lc_cut.svg" width="1cm" height="1cm"><alt id="alt_id3145744">Icon Cut</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3154153">Cut</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3144762"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + X</keycode></paragraph>
+    <paragraph role="paragraph" id="par_id101685965015077"><keycode>Shift + Del</keycode></paragraph>
+</section>
+
+<section id="copy">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3150742">Choose <menuitem>Edit - Copy</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id421685964733661">Choose <menuitem>Home - Copy</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="sycopy">
+        <table id="tbl_id3147299">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3154985"><image id="img_id3156441" src="cmd/lc_copy.svg" width="1cm" height="1cm"><alt id="alt_id3156441">Icon Copy</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3150685">Copy</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3148923"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + C</keycode></paragraph>
+    <paragraph role="paragraph" id="par_id101685965088876"><keycode>Ctrl + Ins</keycode></paragraph>
+</section>
+
+<section id="paste">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3159153">Choose <menuitem>Edit - Paste</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id481685965303610">Choose <menuitem>Home - Paste</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="sypaste">
+        <table id="tbl_id3147217">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3156106"><image id="img_id3159196" src="cmd/lc_paste.svg" width="1cm" height="1cm"><alt id="alt_id3159196">Icon Paste</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3154471">Paste</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3155860"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + V</keycode></paragraph>
+    <paragraph role="paragraph" id="par_id261685965384099"><keycode>Shift + Ins</keycode></paragraph>
+</section>
+
+<section id="pastespecialmenu">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3142791">Choose <menuitem>Edit - Paste Special</menuitem>.</paragraph>
+</section>
+
+<section id="pastespecial">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3152791">Choose <menuitem>Edit - Paste Special - Paste Special</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id521685966553736">Long click on <menuitem>Home - Paste</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id71685967705405">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id801685967705406" role="paragraph"><image src="cmd/lc_pastespecial.svg" id="img_id411685967705407" width="1cm"  height="1cm"><alt id="alt_id261685967705408">Icon Paste Special</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id661685967705410" role="paragraph">Paste Special</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    <table id="tab_id31685968775098">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id401685968775099" role="paragraph"><image src="cmd/lc_paste.svg" id="img_id331685968775100" width="1cm"  height="1cm"><alt id="alt_id191685968775101">Icon Paste</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id81685968775103" role="paragraph">Paste (long click)</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id431584795675377"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + V</keycode>.</paragraph>
+</section>
+
+
+<section id="pasteunformattedtext">
+    <paragraph role="paragraph" id="par_id731584805182269">Choose <menuitem>Edit - Paste Special - Paste Unformatted Text</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id431584825207430">Right-click to open the context menu and choose <menuitem>Paste Special - Unformatted Text</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id941584805189349"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Alt + Shift + V</keycode>.</paragraph>
+</section>
+<section id="pastenestedtable">
+    <paragraph role="paragraph" id="par_id531584805456716">Choose <menuitem>Edit - Paste Special - Paste Nested Table</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id701584824350359">Right-click on the target table cell to open the context menu and choose <menuitem>Paste Special - Nested Table</menuitem>.</paragraph>
+</section>
+<section id="pasterowabove">
+    <paragraph role="paragraph" id="par_id961584805473396">Choose <menuitem>Edit - Paste Special - Paste as Rows above</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id961584822968492">Right-click on the target table cell to open the context menu and choose <menuitem>Paste Special - Rows Above</menuitem>.</paragraph>
+</section>
+<section id="pastecolumnbefore">
+    <paragraph role="paragraph" id="par_id711584805479741">Choose <menuitem>Edit - Paste Special - Paste as Columns Before</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id61584824301756">Right-click on the target table cell to open the context menu and choose <menuitem>Paste Special - Columns Before</menuitem>.</paragraph>
+</section>
+
+<section id="select_all">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3148555">Choose <menuitem>Edit - Select All</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syselect_all">
+        <table id="tbl_id3145271">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3145748"><image id="img_id3153095" src="cmd/lc_selectall.svg" width="1cm" height="1cm"><alt id="alt_id3153095">Icon Select All</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3153139">Select All</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3152417"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + A</keycode></paragraph>
+    <switch select="appl">
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id721697471791843"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + Space</keycode></paragraph>
+        </case>
+    </switch>
+</section>
+
+<section id="changes">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3145251">Choose <menuitem>Edit - Track Changes</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id561696881820809">Choose <menuitem>Review</menuitem> tab.</paragraph>
+    <switch select="appl">
+    <case select= "WRITER">
+     <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id731696881885071">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id801696881885072" role="paragraph"><image src="cmd/lc_trackchanges.svg" id="img_id101696881885073" width="1cm"  height="1cm"><alt id="alt_id531696881885074">Icon Track Changes</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id1001696881885075" role="paragraph">Track Changes</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    </case>
+    <default>
+    </default>
+    </switch>
+</section>
+
+<section id="record_changes">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id3153336"><variable id="aufzeichnen">
+Choose <menuitem>Edit - Track Changes - Record</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id8579214900849931">Choose <menuitem>Review - Record</menuitem>.</paragraph>
+  <switch select="appl">
+  <case select= "WRITER">
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <paragraph role="paragraph" id="par_id9619616648791285">On the <emph>Track Changes</emph> toolbar, click</paragraph>
+  <embed href="text/swriter/track_changes_toolbar.xhp#icon_record_changes"/>
+  </case>
+  <default>
+  </default>
+  </switch>
+</section>
+
+<section id="anzeigen">
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id3150594">Choose <menuitem>Edit - Track Changes - Show</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id61686936467150">Choose <menuitem>View - Show Track Changes</menuitem>.</paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id781686936363852">Choose <menuitem>Review - Show Track Changes</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id351686936649755">On the <menuitem>Review</menuitem> menu of the <menuitem>Review</menuitem> tab, choose <menuitem>Show</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id3150694">Choose <menuitem>Edit - Track Changes - Show</menuitem>.</paragraph>
+        </case>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id261686936494834">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id341686936494835" role="paragraph"><image src="cmd/lc_showtrackedchanges.svg" id="img_id171686936494836" width="1cm"  height="1cm"><alt id="alt_id281686936494837">Icon Show Track Changes</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id891686936494839" role="paragraph">Show Track Changes</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="manage_changes">
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id361703166953911"><switchinline select="sys"><caseinline select="MAC"><keycode>Option</keycode></caseinline><defaultinline><keycode>Alt</keycode></defaultinline></switchinline><keycode> + 7</keycode></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3153845">Choose <menuitem>Edit - Track Changes - Manage</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id281703167550014">Choose <menuitem>Review - Manage</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id71703167551002">In the <menuitem>Review</menuitem> menu of the <menuitem>Review</menuitem> tab, choose <menuitem>Manage</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <paragraph role="paragraph" id="par_id251647262886504">On the <emph>Track Changes</emph> toolbar, click</paragraph>
+    <embed href="text/swriter/track_changes_toolbar.xhp#icon_manage_changes"/>
+    <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+    <paragraph role="paragraph" id="par_id301703166840376">Open the <menuitem>Manage Changes</menuitem> deck.</paragraph>
+</section>
+<section id="list">
+<paragraph role="paragraph" id="par_id3148587">Choose <menuitem>Edit - Track Changes - Manage - List</menuitem> tab.</paragraph>
+<paragraph role="paragraph" id="par_id3150396">Choose <menuitem>Tools - AutoCorrect - Apply and Edit Changes</menuitem>. The <emph>AutoCorrect</emph> dialog appears.<br/>Click the <emph>Edit Changes</emph> button and navigate to the <emph>List</emph> tab.</paragraph>
+</section>
+<paragraph role="paragraph" id="par_id3153878"><variable id="rotliniefilter">Choose <menuitem>Edit - Track Changes - Manage - Filter</menuitem> tab.</variable></paragraph>
+
+<paragraph role="paragraph" id="par_id561647263926698"><variable id="protect">Choose <menuitem>Edit - Track Changes - Protect</menuitem></variable></paragraph>
+
+<section id="comment">
+<paragraph role="paragraph" id="par_id3148773">Choose <menuitem>Edit - Track Changes - Comment</menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id3149488">Choose <menuitem>Edit - Track Changes - Manage - List</menuitem> tab.<br/>Click an entry in the list and open the context menu.<br/>Choose <emph>Edit Comment</emph>.</paragraph>
+</section>
+
+<section id="comment_menu">
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id171685981254743">Choose <menuitem>Edit - Comment</menuitem>.</paragraph>
+            <section id="ctxmnu">
+                <embed href="text/shared/00/00000004.xhp#from_context"/>
+                <paragraph role="paragraph" id="par_id501685985116612">Click on the comment to select and then open the context menu.</paragraph>
+                <h4 id="hd_id211685985284382">On the Comment note:</h4>
+                <paragraph role="paragraph" id="par_id321685985156516">Click on the drop-down list of the selected comment.</paragraph>
+            </section>
+        </case>
+        <case select="IMPRESS"><embed href="text/shared/00/edit_menu.xhp#ctxmnu"/></case>
+        <case select="DRAW"><embed href="text/shared/00/edit_menu.xhp#ctxmnu"/></case>
+        <case select="CALC"></case>
+        <case select="MATH"></case>
+        <case select="BASE"></case>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id711685981703647">Choose <menuitem>Review</menuitem>.</paragraph>
+</section>
+
+<section id="find">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id31562971">Choose <menuitem>Edit - Find</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id511685975100630">Choose <menuitem>Home - Find</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id381685975004751">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id831685975004752" role="paragraph"><image src="cmd/lc_recsearch.svg" id="img_id251685975004753" width="1cm"  height="1cm"><alt id="alt_id521685975004754">Icon Find</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id51685975004756" role="paragraph">Find</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id31545031"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + F</keycode></paragraph>
+</section>
+
+<section id="find_and_replace">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3156297">Choose <menuitem>Edit - Find &amp; Replace</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syfind_and_replace">
+        <table id="tbl_id3156320">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3150020"><image id="img_id3149121" src="cmd/lc_searchdialog.svg" width="1cm" height="1cm"><alt id="alt_id3149121">Icon Find &amp; Replace</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3144748">Find &amp; Replace</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3154503"><switchinline select="sys"><caseinline select="MAC">Command</caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + H</keycode></paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3156357"><variable id="suchenattribute">Choose <menuitem>Edit - Find &amp; Replace - Attributes</menuitem>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3153840"><variable id="suchenformat">Choose <menuitem>Edit - Find &amp; Replace - Format</menuitem> button.</variable></paragraph>
+<section id="similarity_search_access">
+    <switch select="appl">
+        <case select="BASE">
+            <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+            <table id="tab_id281602175669056">
+                <tablerow>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id781602175775848"><image id="img_id314249" src="cmd/lc_recsearch.svg" width="1cm" height="1cm"><alt id="alt_id314249">Search Icon</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id3153709">On the <emph>Table Data</emph> bar, click <emph>Find Record</emph> icon, then <emph>Similarity search</emph> check box, then click the <emph>Similarities</emph> button (database table view).</paragraph>
+                        <paragraph role="paragraph" id="par_id3150749">On the <emph>Form Navigation</emph> bar, click <emph>Record Search</emph> icon, then <emph>Similarity search</emph> check box, then click the <emph>Similarities</emph> button (database form view).</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+            <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+            <paragraph role="paragraph" id="par_id781602175775847">On the database table view, press  <switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+F</keycode>, select <emph>Similarity search</emph> check box, then click the <emph>Similarities</emph> button.</paragraph>
+        </case>
+        <default>
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id3146971">Choose <menuitem>Edit - Find &amp; Replace - Similarity search</menuitem> check box, then click the <emph>Similarities</emph> button.</paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+            <paragraph role="paragraph" id="par_id331722857155092">Press <switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+H</keycode>, select <menuitem>Similarity</menuitem> check box, then click the <emph>Similarities</emph> button.</paragraph>
+        </default>
+    </switch>
+    <switch select="appl">
+            <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+            <paragraph role="paragraph" id="par_id731722854962140">Open the <menuitem>Find</menuitem> deck, click on <menuitem>Search Options</menuitem>, select <menuitem>Similarity</menuitem> check box and click <menuitem>Similarities</menuitem> button.</paragraph>
+        </case>
+    </switch>
+</section>
+
+<section id="navigator">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3152960">Choose <menuitem>View - Navigator</menuitem>.</paragraph>
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id791687085753159">Choose <menuitem>Home - Navigator</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id791687085753160">Choose <menuitem>View - Navigator</menuitem>.</paragraph>
+        </case>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tbl_id3155515">
+        <tablerow>
+            <tablecell>
+                <paragraph role="paragraph" id="par_id3159183">
+                    <image id="img_id3154508" src="cmd/lc_navigator.svg" width="1cm" height="1cm"><alt id="alt_id3154508">Icon Navigator On/Off</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph role="paragraph" id="par_id3147359">Navigator On/Off</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id941683841117366"><keycode>F5</keycode></paragraph>
+    <paragraph role="paragraph" id="par_id971723655402885"><switchinline select="sys"><caseinline select="MAC"><keycode>Option</keycode></caseinline><defaultinline><keycode>Alt</keycode></defaultinline></switchinline><keycode> + 4</keycode> to open in the Sidebar.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+    <table id="tab_id61723655609778">
+        <tablerow>
+            <tablecell>
+                <paragraph role="paragraph" id="par_id431723655609778">
+                    <image src="cmd/lc_navigator.svg" id="img_id991723655609778" width="1cm" height="1cm"><alt id="alt_id911723655609778">Icon Navigator</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id21723655609778" role="paragraph">Navigator</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+
+<paragraph role="paragraph" id="par_id3147338"><variable id="litdat">Choose <menuitem>Tools - Bibliography Database</menuitem>.</variable></paragraph>
+
+<section id="link">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <switch select="appl">
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id631686092409826">Choose <menuitem>Edit - Links to External Files</menuitem>.</paragraph>
+        </case>
+        <case select="MATH"/>
+        <case select="BASE"/>
+        <default>
+            <paragraph role="paragraph" id="par_id3149281">Choose <menuitem>Edit - External Links</menuitem>.</paragraph>
+        </default>
+    </switch>
+</section>
+
+<paragraph role="paragraph" id="par_id3159339"><variable id="linkae">Choose <menuitem>Edit - External Links - Modify</menuitem> (DDE links only).</variable></paragraph>
+<section id="frame_properties">
+<paragraph role="paragraph" id="par_id3148927">Select a frame, then choose <menuitem>Edit - OLE Object - Properties</menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id3156315">Open context menu of selected frame, choose <menuitem>Properties</menuitem>.</paragraph>
+</section>
+
+<section id="edit1">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3149259">Choose <menuitem>Edit - OLE Object</menuitem>.</paragraph>
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id661686145726427">Choose <menuitem>Object - Object menu - OLE object</menuitem>.</paragraph>
+        </case>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_context"/>
+    <paragraph role="paragraph" id="par_id691686147047344">Choose <menuitem>Edit</menuitem>.</paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3154966"><variable id="edit2">Choose <menuitem>Edit - OLE Object - Edit</menuitem>, also in the context menu of selected object.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3149565"><variable id="edit3">Choose <menuitem>Edit - OLE Object - Open</menuitem>.</variable></paragraph>
+
+<section id="reference">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id951603556032047">Choose <menuitem>Edit - Reference</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id51686083178680">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id1001686083178681" role="paragraph">
+                    <image src="cmd/lc_insertreferencefield.svg" id="img_id811686083178682" width="1cm"  height="1cm"><alt id="alt_id281686083178683">Icon Reference</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id671686083178685" role="paragraph">Reference</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+</body>
+</helpdocument>

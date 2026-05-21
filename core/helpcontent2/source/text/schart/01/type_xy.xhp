@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+	
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+ 
+	
+<meta>
+<topic id="textschart01type_xyxhp" indexer="include" status="PUBLISH">
+<title id="tit">Chart Type XY</title>
+<filename>/text/schart/01/type_xy.xhp</filename>
+</topic>
+</meta>
+<body>
+<bookmark branch="index" id="bm_id84231"><bookmark_value>scatter charts</bookmark_value>
+<bookmark_value>XY charts</bookmark_value>
+<bookmark_value>chart types;XY (scatter)</bookmark_value>
+<bookmark_value>error indicators in charts</bookmark_value>
+<bookmark_value>error bars in charts</bookmark_value>
+<bookmark_value>averages in charts</bookmark_value>
+<bookmark_value>statistics in charts</bookmark_value>
+<bookmark_value>variances in charts</bookmark_value>
+<bookmark_value>standard deviation in charts</bookmark_value>
+</bookmark><comment>mw changed xy to XY (2x)</comment>
+<h1 id="hd_id9346598"><variable id="type_xy"><link href="text/schart/01/type_xy.xhp">Chart Type XY (Scatter)</link></variable></h1>
+<paragraph role="paragraph" id="par_id2003845">On the first page of the <link href="text/schart/01/wiz_chart_type.xhp">Chart Wizard</link> you can choose a chart type. </paragraph>
+<section id="howtoget">
+  <embed href="text/schart/00/00000004.xhp#wiz"/>
+  <paragraph role="paragraph" id="par_id791747395583502">Then choose <emph>XY (Scatter)</emph>.</paragraph>
+</section>
+<h2 id="hd_id7757194">XY (Scatter)</h2>
+<paragraph role="paragraph" id="par_id5977965">An XY chart in its basic form is based on one data series consisting of a name, a list of x‑values, and a list of y‑values. Each value pair (x|y) is shown as a point in a coordinate system. The name of the data series is associated with the y‑values and shown in the legend.</paragraph>
+<paragraph role="paragraph" id="par_id4381847">Choose an XY chart for the following example tasks:</paragraph>
+<list type="ordered">
+<listitem>
+<paragraph role="paragraph" id="par_id1336710">scale the x‑axis</paragraph>
+</listitem>
+<listitem>
+<paragraph role="paragraph" id="par_id1221655">generate a parameter curve, for example a spiral</paragraph>
+</listitem>
+<listitem>
+<paragraph role="paragraph" id="par_id3397320">draw the graph of a function</paragraph>
+</listitem>
+<listitem>
+<paragraph role="paragraph" id="par_id7657399">explore the statistical association of quantitative variables</paragraph>
+</listitem>
+</list>
+<paragraph role="paragraph" id="par_id8925138">Your XY chart may have more than one data series.</paragraph>
+<h2 id="hd_id5461897">XY Chart Variants</h2>
+<paragraph role="paragraph" id="par_id8919339">You can choose an XY chart variant on the first page of the <link href="text/schart/01/wiz_chart_type.xhp">Chart Wizard</link>, or by choosing <item type="menuitem">Format - Chart Type </item>for a chart in edit mode.</paragraph>
+<paragraph role="paragraph" id="par_id4634235">The chart is created with default settings. After the chart is finished, you can edit its properties to change the appearance. Line styles and icons can be changed on the <emph>Line</emph> tab page of the data series properties dialog.</paragraph>
+<paragraph role="paragraph" id="par_id5482039">Double-click any data point to open the <item type="menuitem">Data Series</item> dialog. In this dialog, you can change many properties of the data series.</paragraph>
+<paragraph role="paragraph" id="par_id0805200810492449">For 2D charts, you can choose <item type="menuitem">Insert - Y Error Bars</item> to enable the display of error bars.</paragraph>
+<paragraph role="paragraph" id="par_id6221198">You can enable the display of mean value lines and trend lines using commands on the Insert menu.</paragraph>
+<h3 id="hd_id1393475">Points only</h3>
+<paragraph role="paragraph" id="par_id6571550">Each data point is shown by an icon. %PRODUCTNAME uses default icons with different forms and colors for each data series. The default colors are set in <switchinline select="sys"><caseinline select="MAC"><item type="menuitem">%PRODUCTNAME - Preferences</item></caseinline><defaultinline><item type="menuitem">Tools - Options</item></defaultinline></switchinline><item type="menuitem"> - Charts - Default Colors</item>. </paragraph>
+<table id="tab_id731747339706537">
+    <tablerow>
+        <tablecell>
+            <paragraph id="par_id331747339706540" role="paragraph"><image src="chart2/res/valueaxisdirectpoints_52x60.svg" id="img_id71747339706542" width="0.6252in" height="0.5417in"><alt id="alt_id61747339706545">Icon Points only</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+            <paragraph id="par_id91747339706549" role="paragraph">Points only</paragraph>
+        </tablecell>
+    </tablerow>
+</table>
+<h3 id="hd_id5376140">Lines Only</h3>
+<paragraph role="paragraph" id="par_id4408093">This variant draws straight lines from one data point to the next. The data points are not shown by icons. </paragraph>
+<paragraph role="paragraph" id="par_id7261268">The drawing order is the same as the order in the data series. Mark <emph>Sort by X Values</emph> to draw the lines in the order of the x values. This sorting applies only to the chart, not to the data in the table.</paragraph>
+<table id="tab_id161747339873031">
+    <tablerow>
+        <tablecell>
+            <paragraph id="par_id631747339873034" role="paragraph"><image src="chart2/res/valueaxisdirectlines_52x60.svg" id="img_id651747339873036" width="0.6252in" height="0.5417in"><alt id="alt_id931747339873038">Icon Lines only</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+            <paragraph id="par_id551747339873043" role="paragraph">Lines only</paragraph>
+        </tablecell>
+    </tablerow>
+</table>
+<h3 id="hd_id6949369">Points and Lines</h3>
+<paragraph role="paragraph" id="par_id9611499">This variant shows points and lines at the same time.</paragraph>
+<table id="tab_id941747339975951">
+    <tablerow>
+        <tablecell>
+            <paragraph id="par_id881747339975954" role="paragraph"><image src="chart2/res/valueaxisdirectboth_52x60.svg" id="img_id301747339975956" width="0.6252in" height="0.5417in"><alt id="alt_id91747339975959">Icon Points and Lines</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+            <paragraph id="par_id51747339975963" role="paragraph">Points and Lines</paragraph>
+        </tablecell>
+    </tablerow>
+</table>
+<h3 id="hd_id6765953">3D Lines</h3>
+<paragraph role="paragraph" id="par_id7422711">The lines are shown like tapes. The data points are not shown by icons. In the finished chart choose <link href="text/schart/01/three_d_view.xhp">3D View</link> to set properties like illumination and angle of view.</paragraph>
+<table id="tab_id491747340074523">
+    <tablerow>
+        <tablecell>
+            <paragraph id="par_id731747340074526" role="paragraph"><image src="chart2/res/valueaxisdirect3d_52x60.svg" id="img_id781747340074528" width="0.6252in" height="0.5417in"><alt id="alt_id161747340074531">Icon 3D Lines</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+            <paragraph id="par_id971747340074535" role="paragraph">3D Lines</paragraph>
+        </tablecell>
+    </tablerow>
+</table>
+
+<h3 id="hd_id239265">Smooth Lines</h3>
+<paragraph role="paragraph" id="par_id7957396">Choose <emph>Smooth</emph> from the <emph>Line type</emph> dropdown to draw curves instead of straight line segments.<comment>i80587</comment></paragraph>
+<paragraph role="paragraph" id="par_id1202124">Click <emph>Properties</emph> to set details for the curves.</paragraph>
+<embed href="text/schart/01/smooth_line_properties.xhp#smoothproperties"/>
+
+<h3 id="hd_id5031251">Stepped Lines</h3>
+<paragraph role="paragraph" id="par_id1449076">Choose <emph>Stepped</emph> from the <emph>Line type</emph> dropdown to draw lines which step from point to point instead of straight line segments.</paragraph>
+<paragraph role="paragraph" id="par_id1202125">Click <emph>Properties</emph> to set details for the curves.</paragraph>
+<paragraph role="paragraph" id="par_id9811476">There are 4 different step types:</paragraph>
+<embed href="text/schart/01/stepped_line_properties.xhp#table_stepped"/>
+
+<section id="relatedtopics">
+<paragraph role="paragraph" id="par_id731747249615264" localize="false"><embedvar href="text/schart/01/choose_chart_type.xhp#choose_chart_type" markup="ignore"/></paragraph>
+<embed href="text/shared/guide/chart_insert.xhp#chart_insert"/>
+<embed href="text/schart/01/wiz_chart_type.xhp#wiz_chart_type"/>
+<embed href="text/schart/01/wiz_data_range.xhp#wiz_data_range"/>
+<embed href="text/schart/01/wiz_data_series.xhp#wiz_data_series"/>
+<embed href="text/schart/01/wiz_chart_elements.xhp#wiz_chart_elements"/>
+</section>
+</body>
+</helpdocument>

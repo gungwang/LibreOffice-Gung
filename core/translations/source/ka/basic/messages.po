@@ -1,0 +1,904 @@
+#. extracted from basic/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2024-09-16 19:50+0200\n"
+"PO-Revision-Date: 2024-05-29 21:14+0000\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <https://translations.documentfoundation.org/projects/libo_ui-master/basicmessages/ka/>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1519026038.000000\n"
+
+#. CacXi
+#: basic/inc/basic.hrc:32
+msgctxt "RID_BASIC_START"
+msgid "Syntax error."
+msgstr "სინტაქსის შეცდომა."
+
+#. phEtF
+#: basic/inc/basic.hrc:33
+msgctxt "RID_BASIC_START"
+msgid "Return without Gosub."
+msgstr "დაბრუნება Gosub-ის გარეშე."
+
+#. xGnDD
+#: basic/inc/basic.hrc:34
+msgctxt "RID_BASIC_START"
+msgid "Incorrect entry; please retry."
+msgstr "ჩანაწერი არასწორია; გთხოვთ თავიდან ცადოთ."
+
+#. SDAtt
+#: basic/inc/basic.hrc:35
+msgctxt "RID_BASIC_START"
+msgid "Invalid procedure call."
+msgstr "არასწორი პროცედურის გამოძახება."
+
+#. ERmVC
+#: basic/inc/basic.hrc:36
+msgctxt "RID_BASIC_START"
+msgid "Overflow."
+msgstr "გადავსება."
+
+#. 2Cqdp
+#: basic/inc/basic.hrc:37
+msgctxt "RID_BASIC_START"
+msgid "Not enough memory."
+msgstr "არასაკმარისი მეხსიერება."
+
+#. vQn2L
+#: basic/inc/basic.hrc:38
+msgctxt "RID_BASIC_START"
+msgid "Array already dimensioned."
+msgstr "მასივი უკვე განზომილებიანია."
+
+#. iXC8S
+#: basic/inc/basic.hrc:39
+msgctxt "RID_BASIC_START"
+msgid "Index out of defined range."
+msgstr "ინდექსი განსაზღვრული შუალედის გარეთაა."
+
+#. puyiQ
+#: basic/inc/basic.hrc:40
+msgctxt "RID_BASIC_START"
+msgid "Duplicate definition."
+msgstr "განმეორებადი აღწერა."
+
+#. eqwCs
+#: basic/inc/basic.hrc:41
+msgctxt "RID_BASIC_START"
+msgid "Division by zero."
+msgstr "ნულზე გაყოფა."
+
+#. owjv6
+#: basic/inc/basic.hrc:42
+msgctxt "RID_BASIC_START"
+msgid "Variable not defined."
+msgstr "ცვლადი განსაზღვრული არაა."
+
+#. oEA47
+#: basic/inc/basic.hrc:43
+msgctxt "RID_BASIC_START"
+msgid "Data type mismatch."
+msgstr "მონაცემთა ტიპების აცდენა."
+
+#. bFP4H
+#: basic/inc/basic.hrc:44
+msgctxt "RID_BASIC_START"
+msgid "Invalid parameter."
+msgstr "არასწორი პარამეტრი."
+
+#. qZCrY
+#: basic/inc/basic.hrc:45
+msgctxt "RID_BASIC_START"
+msgid "Process interrupted by user."
+msgstr "პროცესი შეწყვეტილია მომხმარებლის მიერ."
+
+#. nnqTQ
+#: basic/inc/basic.hrc:46
+msgctxt "RID_BASIC_START"
+msgid "Resume without error."
+msgstr "შეცდომის გარეშე გაგრძელება."
+
+#. QGuZq
+#: basic/inc/basic.hrc:47
+msgctxt "RID_BASIC_START"
+msgid "Not enough stack memory."
+msgstr "არასაკმარისი სტეკის მეხსიერება."
+
+#. X8Anp
+#: basic/inc/basic.hrc:48
+msgctxt "RID_BASIC_START"
+msgid "Sub-procedure or function procedure not defined."
+msgstr "ქვეპროცედურა ან ფუნქცია აღწერილი არაა."
+
+#. oF6VV
+#: basic/inc/basic.hrc:49
+msgctxt "RID_BASIC_START"
+msgid "Error loading DLL file."
+msgstr "შეცდომა DLL ფაილის ჩატვირთვისას."
+
+#. 9MUQ8
+#: basic/inc/basic.hrc:50
+msgctxt "RID_BASIC_START"
+msgid "Wrong DLL call convention."
+msgstr "DLL-ის არასწორი გამოძახების შეთანხმება."
+
+#. AoHjH
+#: basic/inc/basic.hrc:51
+msgctxt "RID_BASIC_START"
+msgid "Internal error $(ARG1)."
+msgstr "შიდა შეცდომა $(ARG1)."
+
+#. wgNZg
+#: basic/inc/basic.hrc:52
+msgctxt "RID_BASIC_START"
+msgid "Invalid file name or file number."
+msgstr "ფაილის სახელი ან ნომერი არასწორია."
+
+#. cdGJ5
+#: basic/inc/basic.hrc:53
+msgctxt "RID_BASIC_START"
+msgid "File not found."
+msgstr "ფაილი ვერ მოიძებნა."
+
+#. RQB3i
+#: basic/inc/basic.hrc:54
+msgctxt "RID_BASIC_START"
+msgid "Incorrect file mode."
+msgstr "ფაილის რეჟიმი არასწორია."
+
+#. 2UUYj
+#: basic/inc/basic.hrc:55
+msgctxt "RID_BASIC_START"
+msgid "File already open."
+msgstr "ფაილი უკვე გახსნილია."
+
+#. BRx4X
+#: basic/inc/basic.hrc:56
+msgctxt "RID_BASIC_START"
+msgid "Device I/O error."
+msgstr "მოწყობილობის I/O შეცდომა."
+
+#. 3wGUY
+#: basic/inc/basic.hrc:57
+msgctxt "RID_BASIC_START"
+msgid "File already exists."
+msgstr "ფაილი უკვე არსებობს."
+
+#. rAFCG
+#: basic/inc/basic.hrc:58
+msgctxt "RID_BASIC_START"
+msgid "Incorrect record length."
+msgstr "ჩანაწერის სიგრძე არასწორია."
+
+#. EnLKw
+#: basic/inc/basic.hrc:59
+msgctxt "RID_BASIC_START"
+msgid "Disk or hard drive full."
+msgstr "მყარი დისკი სავსეა."
+
+#. BFTP8
+#: basic/inc/basic.hrc:60
+msgctxt "RID_BASIC_START"
+msgid "Reading exceeds EOF."
+msgstr "წაკითხვა ცდება EOF-ს."
+
+#. nuyE7
+#: basic/inc/basic.hrc:61
+msgctxt "RID_BASIC_START"
+msgid "Incorrect record number."
+msgstr "ჩანაწერის ნომერი არასწორია."
+
+#. sgdJF
+#: basic/inc/basic.hrc:62
+msgctxt "RID_BASIC_START"
+msgid "Too many files."
+msgstr "ძალიან ბევრი ფაილი."
+
+#. 3iiGy
+#: basic/inc/basic.hrc:63
+msgctxt "RID_BASIC_START"
+msgid "Device not available."
+msgstr "მოწყობილობა მიუწვდომელია."
+
+#. k7uzP
+#: basic/inc/basic.hrc:64
+msgctxt "RID_BASIC_START"
+msgid "Access denied."
+msgstr "წვდომა აკრძალულია."
+
+#. WcKob
+#: basic/inc/basic.hrc:65
+msgctxt "RID_BASIC_START"
+msgid "Disk not ready."
+msgstr "დისკი მზად არაა."
+
+#. JgiDa
+#: basic/inc/basic.hrc:66
+msgctxt "RID_BASIC_START"
+msgid "Not implemented."
+msgstr "განხორციელებული არაა."
+
+#. mAxmt
+#: basic/inc/basic.hrc:67
+msgctxt "RID_BASIC_START"
+msgid "Renaming on different drives impossible."
+msgstr "სახელის შეცვლა სხვა დისკზე შეუძლებელია."
+
+#. 8gEYf
+#: basic/inc/basic.hrc:68
+msgctxt "RID_BASIC_START"
+msgid "Path/File access error."
+msgstr "ფაილის/ბილიკის წვდომის შეცდომა."
+
+#. JefUT
+#: basic/inc/basic.hrc:69
+msgctxt "RID_BASIC_START"
+msgid "Path not found."
+msgstr "ბილიკი ვერ მოიძებნა."
+
+#. QXDRW
+#: basic/inc/basic.hrc:70
+msgctxt "RID_BASIC_START"
+msgid "Object variable not set."
+msgstr "ობიექტის ცვლადი დაყენებული არაა."
+
+#. Y9yi3
+#: basic/inc/basic.hrc:71
+msgctxt "RID_BASIC_START"
+msgid "Invalid string pattern."
+msgstr "სტრიქონის ნიმუში არასწორია."
+
+#. K7DhF
+#: basic/inc/basic.hrc:72
+msgctxt "RID_BASIC_START"
+msgid "Use of zero not permitted."
+msgstr "ნულის გამოყენება დაუშვებელია."
+
+#. cJT8h
+#: basic/inc/basic.hrc:73
+msgctxt "RID_BASIC_START"
+msgid "DDE Error."
+msgstr "DDE შეცდომა."
+
+#. 6GqpS
+#: basic/inc/basic.hrc:74
+msgctxt "RID_BASIC_START"
+msgid "Awaiting response to DDE connection."
+msgstr "ველოდები DDE კავშირის პასუხს."
+
+#. eoE3n
+#: basic/inc/basic.hrc:75
+msgctxt "RID_BASIC_START"
+msgid "No DDE channels available."
+msgstr "DDE არხები მიუწვდომელია."
+
+#. uX7nT
+#: basic/inc/basic.hrc:76
+msgctxt "RID_BASIC_START"
+msgid "No application responded to DDE connect initiation."
+msgstr "პროგრამა არ გამოეხმაურა DDE კავშირის ინიციატივას."
+
+#. TNaxB
+#: basic/inc/basic.hrc:77
+msgctxt "RID_BASIC_START"
+msgid "Too many applications responded to DDE connect initiation."
+msgstr "DDE კავშირის ინიციატივას გამოეხმაურა ზედმეტად ბევრი პროგრამა."
+
+#. VroGT
+#: basic/inc/basic.hrc:78
+msgctxt "RID_BASIC_START"
+msgid "DDE channel locked."
+msgstr "DDE არხი ჩაკეტილია."
+
+#. Vg79x
+#: basic/inc/basic.hrc:79
+msgctxt "RID_BASIC_START"
+msgid "External application cannot execute DDE operation."
+msgstr "გარე პროგრამას არ შეუძლია გაუშვას DDE ოპერაცია."
+
+#. DnKBx
+#: basic/inc/basic.hrc:80
+msgctxt "RID_BASIC_START"
+msgid "Timeout while waiting for DDE response."
+msgstr "DDE გამოხმაურების ლოდინში ვადა ამოიწურა."
+
+#. 4q3yy
+#: basic/inc/basic.hrc:81
+msgctxt "RID_BASIC_START"
+msgid "User pressed ESCAPE during DDE operation."
+msgstr "DDE ოპერაციის დროს მომხმარებელმა დააჭირა ESCAPE ღილაკს."
+
+#. 7WymF
+#: basic/inc/basic.hrc:82
+msgctxt "RID_BASIC_START"
+msgid "External application busy."
+msgstr "გარე პროგრამა დაკავებულია."
+
+#. GGDRf
+#: basic/inc/basic.hrc:83
+msgctxt "RID_BASIC_START"
+msgid "DDE operation without data."
+msgstr "DDE ოპერაცია მონაცემების გარეშე."
+
+#. p7sHC
+#: basic/inc/basic.hrc:84
+msgctxt "RID_BASIC_START"
+msgid "Data are in wrong format."
+msgstr "მონაცემები არასწორ ფორმატშია."
+
+#. JDnmB
+#: basic/inc/basic.hrc:85
+msgctxt "RID_BASIC_START"
+msgid "External application has been terminated."
+msgstr "გარე პროგრამა შეწყდა."
+
+#. VT4R2
+#: basic/inc/basic.hrc:86
+msgctxt "RID_BASIC_START"
+msgid "DDE connection interrupted or modified."
+msgstr "DDE შეერთება შეწყდა ან შეიცვალა."
+
+#. DgSMR
+#: basic/inc/basic.hrc:87
+msgctxt "RID_BASIC_START"
+msgid "DDE method invoked with no channel open."
+msgstr "DDE მეთოდი აღიძრა ღია არხის გარეშე."
+
+#. RHck4
+#: basic/inc/basic.hrc:88
+msgctxt "RID_BASIC_START"
+msgid "Invalid DDE link format."
+msgstr "DDE კავშირის ფორმატი არასწორია."
+
+#. DUsPA
+#: basic/inc/basic.hrc:89
+msgctxt "RID_BASIC_START"
+msgid "DDE message has been lost."
+msgstr "DDE შეტყობინება დაიკარგა."
+
+#. FhoZY
+#: basic/inc/basic.hrc:90
+msgctxt "RID_BASIC_START"
+msgid "Paste link already performed."
+msgstr "ჩასმის ბმული უკვე შესრულდა."
+
+#. SQyEF
+#: basic/inc/basic.hrc:91
+msgctxt "RID_BASIC_START"
+msgid "Link mode cannot be set due to invalid link topic."
+msgstr "არასწორი ბმულის სათაურის გამო ბმულის რეჟიმის დაყენება შეუძლებელია."
+
+#. J2Rf3
+#: basic/inc/basic.hrc:92
+msgctxt "RID_BASIC_START"
+msgid "DDE requires the DDEML.DLL file."
+msgstr "DDE-ს ჭირდება ფაილი DDEML.DDL."
+
+#. yfBfX
+#: basic/inc/basic.hrc:93
+msgctxt "RID_BASIC_START"
+msgid "Module cannot be loaded; invalid format."
+msgstr "მოდული ვერ ჩაიტვირთა; ფორმატი არასწორია."
+
+#. eCEEV
+#: basic/inc/basic.hrc:94
+msgctxt "RID_BASIC_START"
+msgid "Invalid object index."
+msgstr "ობიექტის ინდექსი არასწორია."
+
+#. GLCzx
+#: basic/inc/basic.hrc:95
+msgctxt "RID_BASIC_START"
+msgid "Object is not available."
+msgstr "ობიექტი მიუწვდომელია."
+
+#. nfXrp
+#: basic/inc/basic.hrc:96
+msgctxt "RID_BASIC_START"
+msgid "Incorrect property value."
+msgstr "თვისების არასწორი მნიშვნელობა."
+
+#. 8qjhR
+#: basic/inc/basic.hrc:97
+msgctxt "RID_BASIC_START"
+msgid "This property is read-only."
+msgstr "ეს თვისება მხოლოდ წაკითხვადია."
+
+#. ScKEy
+#: basic/inc/basic.hrc:98
+msgctxt "RID_BASIC_START"
+msgid "This property is write only."
+msgstr "ეს თვისება მხოლოდ ჩაწერადია."
+
+#. kTCMC
+#: basic/inc/basic.hrc:99
+msgctxt "RID_BASIC_START"
+msgid "Invalid object reference."
+msgstr "არასწორი ობიექტის მიმართვა."
+
+#. fz98J
+#: basic/inc/basic.hrc:100
+msgctxt "RID_BASIC_START"
+msgid "Property or method not found: $(ARG1)."
+msgstr "თვისება ან მეთოდი არ მოიძებნა: $(ARG1)."
+
+#. rWwbT
+#: basic/inc/basic.hrc:101
+msgctxt "RID_BASIC_START"
+msgid "Object required."
+msgstr "ობიექტი საჭიროა."
+
+#. b3XBE
+#: basic/inc/basic.hrc:102
+msgctxt "RID_BASIC_START"
+msgid "Invalid use of an object."
+msgstr "ობიექტიs არასწორი გამოყენება."
+
+#. pM7Vq
+#: basic/inc/basic.hrc:103
+msgctxt "RID_BASIC_START"
+msgid "OLE Automation is not supported by this object."
+msgstr "ამ ობიექტს OLE -ს ავტომატიზაციის მხარდაჭერა არ გააჩნია."
+
+#. HMAey
+#: basic/inc/basic.hrc:104
+msgctxt "RID_BASIC_START"
+msgid "This property or method is not supported by the object."
+msgstr "ობიექტს ამ თვისების ან მეთოდის მხარდაჭერა არ გააჩნია."
+
+#. DMts6
+#: basic/inc/basic.hrc:105
+msgctxt "RID_BASIC_START"
+msgid "OLE Automation Error."
+msgstr "OLE ავტომატიზაციის შეცდომა."
+
+#. 3VsB3
+#: basic/inc/basic.hrc:106
+msgctxt "RID_BASIC_START"
+msgid "This action is not supported by given object."
+msgstr "მოცემულ ობიექტს არ გააჩნია ამ ქმედების მხარდაჭერა."
+
+#. vgvzF
+#: basic/inc/basic.hrc:107
+msgctxt "RID_BASIC_START"
+msgid "Named arguments are not supported by given object."
+msgstr "მოცემულ ობიექტს დასახელებული არგუმენტების მხარდაჭერა არ გააჩნია."
+
+#. 4aZxy
+#: basic/inc/basic.hrc:108
+msgctxt "RID_BASIC_START"
+msgid "The current locale setting is not supported by the given object."
+msgstr "მოცემულ ობიექტს მიმდინარე ლოკალის მნიშვნელობის მხარდაჭერა არ გააჩნია."
+
+#. AoqGh
+#: basic/inc/basic.hrc:109
+msgctxt "RID_BASIC_START"
+msgid "Named argument not found."
+msgstr "დასახელებული არგუმენტი ვერ მოიძებნა."
+
+#. G2sC5
+#: basic/inc/basic.hrc:110
+msgctxt "RID_BASIC_START"
+msgid "Argument is not optional."
+msgstr "არგუმენტი სავალდებულოა."
+
+#. v78nF
+#: basic/inc/basic.hrc:111 basic/inc/basic.hrc:119
+msgctxt "RID_BASIC_START"
+msgid "Invalid number of arguments."
+msgstr "არგუმენტების არასწორი რაოდენობა."
+
+#. DVFF3
+#: basic/inc/basic.hrc:112
+msgctxt "RID_BASIC_START"
+msgid "Object is not a list."
+msgstr "ობიექტი სია არ არის."
+
+#. zDijP
+#: basic/inc/basic.hrc:113
+msgctxt "RID_BASIC_START"
+msgid "Invalid ordinal number."
+msgstr "რიგობითი რიცხვი არასწორია."
+
+#. uY35B
+#: basic/inc/basic.hrc:114
+msgctxt "RID_BASIC_START"
+msgid "Specified DLL function not found."
+msgstr "მითითებული DDL ფუნქცია ვერ მოიძებნა."
+
+#. MPTAv
+#: basic/inc/basic.hrc:115
+msgctxt "RID_BASIC_START"
+msgid "Invalid clipboard format."
+msgstr "გაცვლის ბუფერის ფორმატი არასწორია."
+
+#. UC2FV
+#: basic/inc/basic.hrc:116
+msgctxt "RID_BASIC_START"
+msgid "Object does not have this property."
+msgstr "ობიექტს ეს თვისება არ გააჩნია."
+
+#. 9JEU2
+#: basic/inc/basic.hrc:117
+msgctxt "RID_BASIC_START"
+msgid "Object does not have this method."
+msgstr "ობიექტს ეს მეთოდი არ გააჩნია."
+
+#. azsCo
+#: basic/inc/basic.hrc:118
+msgctxt "RID_BASIC_START"
+msgid "Required argument lacking."
+msgstr "აკლია საჭირო არგუმენტი."
+
+#. 9WA8D
+#: basic/inc/basic.hrc:120
+msgctxt "RID_BASIC_START"
+msgid "Error executing a method."
+msgstr "შეცდომა მეთოდის შესრულებისას."
+
+#. N3vcw
+#: basic/inc/basic.hrc:121
+msgctxt "RID_BASIC_START"
+msgid "Unable to set property."
+msgstr "თვისების დაყენება შეუძლებელია."
+
+#. k82XW
+#: basic/inc/basic.hrc:122
+msgctxt "RID_BASIC_START"
+msgid "Unable to determine property."
+msgstr "თვისების განსაზღვრა შეუძლებელია."
+
+#. 5cGpa
+#. Compiler errors. These are not runtime errors.
+#: basic/inc/basic.hrc:124
+msgctxt "RID_BASIC_START"
+msgid "Unexpected symbol: $(ARG1)."
+msgstr "მოულოდნელი სიმბოლო: $(ARG1)."
+
+#. SBpod
+#: basic/inc/basic.hrc:125
+msgctxt "RID_BASIC_START"
+msgid "Expected: $(ARG1)."
+msgstr "მოველოდი: $(ARG1)."
+
+#. JBaEp
+#: basic/inc/basic.hrc:126
+msgctxt "RID_BASIC_START"
+msgid "Symbol expected."
+msgstr "მოველოდი სიმბოლოს."
+
+#. CkAE9
+#: basic/inc/basic.hrc:127
+msgctxt "RID_BASIC_START"
+msgid "Variable expected."
+msgstr "მოველოდი ცვლადს."
+
+#. DS5cS
+#: basic/inc/basic.hrc:128
+msgctxt "RID_BASIC_START"
+msgid "Label expected."
+msgstr "მოველოდი ჭდეს."
+
+#. k2myJ
+#: basic/inc/basic.hrc:129
+msgctxt "RID_BASIC_START"
+msgid "Value cannot be applied."
+msgstr "მნიშვნელობის გადატარება შეუძლებელია."
+
+#. oPCtL
+#: basic/inc/basic.hrc:130
+msgctxt "RID_BASIC_START"
+msgid "Variable $(ARG1) already defined."
+msgstr "ცვლადი $(ARG1) უკვე აღწერილია."
+
+#. WmiB6
+#: basic/inc/basic.hrc:131
+msgctxt "RID_BASIC_START"
+msgid "Sub procedure or function procedure $(ARG1) already defined."
+msgstr "ქვეპროცედურა ან ფუნქციის პროცედურა $(ARG1) უკვე აღწერილია."
+
+#. byksZ
+#: basic/inc/basic.hrc:132
+msgctxt "RID_BASIC_START"
+msgid "Label $(ARG1) already defined."
+msgstr "ჭდე $(ARG1) უკვე აღწერილია."
+
+#. GHdG4
+#: basic/inc/basic.hrc:133
+msgctxt "RID_BASIC_START"
+msgid "Variable $(ARG1) not found."
+msgstr "ცვლადი $(ARG1) ვერ მოიძებნა."
+
+#. DksBU
+#: basic/inc/basic.hrc:134
+msgctxt "RID_BASIC_START"
+msgid "Array or procedure $(ARG1) not found."
+msgstr "მასივი ან პროცედურა $(ARG1) ვერ მოიძებნა."
+
+#. 7CD6B
+#: basic/inc/basic.hrc:135
+msgctxt "RID_BASIC_START"
+msgid "Procedure $(ARG1) not found."
+msgstr "პროცედურა $(ARG1) ვერ მოიძებნა."
+
+#. GREm3
+#: basic/inc/basic.hrc:136
+msgctxt "RID_BASIC_START"
+msgid "Label $(ARG1) undefined."
+msgstr "ჭდე $(ARG1) განუსაზღვრელია."
+
+#. 2VFZq
+#: basic/inc/basic.hrc:137
+msgctxt "RID_BASIC_START"
+msgid "Unknown data type $(ARG1)."
+msgstr "მონაცემების ტიპი $(ARG1) უცნობია."
+
+#. hvsH3
+#: basic/inc/basic.hrc:138
+msgctxt "RID_BASIC_START"
+msgid "Exit $(ARG1) expected."
+msgstr "მოველოდი Exit $(ARG1)."
+
+#. 7kZX5
+#: basic/inc/basic.hrc:139
+msgctxt "RID_BASIC_START"
+msgid "Statement block still open: $(ARG1) missing."
+msgstr "ინსტრუქციის ბლოკი კვლავ ღიაა: $(ARG1) აკლია."
+
+#. EysAe
+#: basic/inc/basic.hrc:140
+msgctxt "RID_BASIC_START"
+msgid "Parentheses do not match."
+msgstr "ფრჩხილები არ ემთხვევა."
+
+#. tGqRY
+#: basic/inc/basic.hrc:141
+msgctxt "RID_BASIC_START"
+msgid "Symbol $(ARG1) already defined differently."
+msgstr "სიმბოლო $(ARG1) უკვე სხვანაირად აღიწერა."
+
+#. Nvysh
+#: basic/inc/basic.hrc:142
+msgctxt "RID_BASIC_START"
+msgid "Parameters do not correspond to procedure."
+msgstr "პარამეტრები პროცედურას არ შეესაბამება."
+
+#. aLCNz
+#: basic/inc/basic.hrc:143
+msgctxt "RID_BASIC_START"
+msgid "Invalid character in number."
+msgstr "არასწორი სიმბოლო რიცხვში."
+
+#. ZL3GF
+#: basic/inc/basic.hrc:144
+msgctxt "RID_BASIC_START"
+msgid "Array must be dimensioned."
+msgstr "მასივის ზომების მითითება აუცილებელია."
+
+#. bvzvK
+#: basic/inc/basic.hrc:145
+msgctxt "RID_BASIC_START"
+msgid "Else/Endif without If."
+msgstr "Else/Endif If-ის გარეშე."
+
+#. BPHwC
+#: basic/inc/basic.hrc:146
+msgctxt "RID_BASIC_START"
+msgid "$(ARG1) not allowed within a procedure."
+msgstr "$(ARG1) დაუშვებელია პროცედურის შიგნით."
+
+#. t4CFy
+#: basic/inc/basic.hrc:147
+msgctxt "RID_BASIC_START"
+msgid "$(ARG1) not allowed outside a procedure."
+msgstr "$(ARG1) დაუშვებელია პროცედურის გარეთ."
+
+#. BAmBZ
+#: basic/inc/basic.hrc:148
+msgctxt "RID_BASIC_START"
+msgid "Dimension specifications do not match."
+msgstr "განზომილების სპეციფიკაციები არ ემთხვევა."
+
+#. kKjmy
+#: basic/inc/basic.hrc:149
+msgctxt "RID_BASIC_START"
+msgid "Unknown option: $(ARG1)."
+msgstr "უცნობი პარამეტრი: $(ARG1)."
+
+#. LCo58
+#: basic/inc/basic.hrc:150
+msgctxt "RID_BASIC_START"
+msgid "Constant $(ARG1) redefined."
+msgstr "მუდმივა $(ARG1) თავიდან აღიწერა."
+
+#. Dx6YA
+#: basic/inc/basic.hrc:151
+msgctxt "RID_BASIC_START"
+msgid "Program too large."
+msgstr "პროგრამა ძალიან დიდია."
+
+#. aAKCD
+#: basic/inc/basic.hrc:152
+msgctxt "RID_BASIC_START"
+msgid "Strings or arrays not permitted."
+msgstr "სტრიქონები ან მასივები დაუშვებელია."
+
+#. gqBGJ
+#: basic/inc/basic.hrc:153
+msgctxt "RID_BASIC_START"
+msgid "An exception occurred $(ARG1)."
+msgstr "გამონაკლისი წარმოიშვა $(ARG1)."
+
+#. YTygS
+#: basic/inc/basic.hrc:154
+msgctxt "RID_BASIC_START"
+msgid "This array is fixed or temporarily locked."
+msgstr "ეს მასივი ფიქსირებული ან დროებით ჩაკეტილია."
+
+#. AwvaS
+#: basic/inc/basic.hrc:155
+msgctxt "RID_BASIC_START"
+msgid "Out of string space."
+msgstr "სტრიქონს გარეთ."
+
+#. VosXA
+#: basic/inc/basic.hrc:156
+msgctxt "RID_BASIC_START"
+msgid "Expression Too Complex."
+msgstr "გამოსახულება მეტისმეტად რთულია."
+
+#. fYWci
+#: basic/inc/basic.hrc:157
+msgctxt "RID_BASIC_START"
+msgid "Can't perform requested operation."
+msgstr "მოთხოვნილი ოპერაციის შესრულება შეუძლებელია."
+
+#. oGvjJ
+#: basic/inc/basic.hrc:158
+msgctxt "RID_BASIC_START"
+msgid "Too many DLL application clients."
+msgstr "მეტისმეტად ბევრი DLL აპლიკაციის კლიენტი."
+
+#. tC47t
+#: basic/inc/basic.hrc:159
+msgctxt "RID_BASIC_START"
+msgid "For loop not initialized."
+msgstr "მარყუჟი For-სთვის ინიციალიზებული არაა."
+
+#. DA4GN
+#: basic/inc/basic.hrc:160
+msgctxt "RID_BASIC_START"
+msgid "$(ARG1)"
+msgstr "$(ARG1)"
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "_დამატება"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "_გადატარება"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "გაუ_ქმება"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "_დახურვა"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_წაშლა"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "_ჩასწორება"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "_დახმარება"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "_ახალი"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "_არა"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_დიახ"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "_წაშლა"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "ჩამოყ_რა"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "_დიახ"
+
+#. Vtc9n
+#: basic/inc/strings.hrc:24
+msgctxt "STR_BASICKEY_FORMAT_ON"
+msgid "On"
+msgstr "ჩართვა"
+
+#. yUCEp
+#: basic/inc/strings.hrc:25
+msgctxt "STR_BASICKEY_FORMAT_OFF"
+msgid "Off"
+msgstr "გამორთვა"
+
+#. iGZeR
+#: basic/inc/strings.hrc:26
+msgctxt "STR_BASICKEY_FORMAT_TRUE"
+msgid "True"
+msgstr "ჭეშმარიტი"
+
+#. Vcbum
+#: basic/inc/strings.hrc:27
+msgctxt "STR_BASICKEY_FORMAT_FALSE"
+msgid "False"
+msgstr "ცრუ"
+
+#. wGj5U
+#: basic/inc/strings.hrc:28
+msgctxt "STR_BASICKEY_FORMAT_YES"
+msgid "Yes"
+msgstr "დიახ"
+
+#. TYgJR
+#: basic/inc/strings.hrc:29
+msgctxt "STR_BASICKEY_FORMAT_NO"
+msgid "No"
+msgstr "არა"
+
+#. YXUyZ
+#. format currency: do not localize decimal separators and currency symbol - that is done in code
+#: basic/inc/strings.hrc:31
+msgctxt "STR_BASICKEY_FORMAT_CURRENCY"
+msgid "@0.00 $;@(0.00 $)"
+msgstr "@0.00 $;@(0.00 $)"
+
+#. AP2X4
+#: basic/inc/strings.hrc:33
+msgctxt "IDS_SBERR_TERMINATED"
+msgid "The macro running has been interrupted"
+msgstr "გაშვებული მაკრო შეწყდა"
+
+#. En542
+#: basic/inc/strings.hrc:34
+msgctxt "STR_ADDITIONAL_INFO"
+msgid ""
+"$ERR\n"
+"Additional information: $MSG"
+msgstr ""
+"$ERR\n"
+"დამატებითი ინფორმაცია: $MSG"

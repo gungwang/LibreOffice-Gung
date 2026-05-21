@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+
+<meta>
+<topic id="textshared0106010500xml" indexer="include">
+<title id="tit">Language</title>
+<filename>/text/shared/01/06010500.xhp</filename>
+</topic>
+</meta>
+<body>
+<bookmark branch="hid/.uno:LanguageMenu" id="bm_id7076326" localize="false"/>
+<section id="language">
+<h1 id="par_idN1055C"><link href="text/shared/01/06010500.xhp">Language</link></h1>
+<paragraph role="paragraph" id="par_idN1056C"><ahelp hid=".">Opens a submenu where you can choose language specific commands.</ahelp></paragraph>
+</section>
+<section id="howtoget">
+    <embed href="text/shared/00/00000406.xhp#tools_language"/>
+</section>
+<switch select="appl">
+<case select="WRITER"><comment>Writer menu commands, i80434</comment>
+<bookmark branch="hid/.uno:SetLanguageSelectionMenu" id="bm_id3691824" localize="false"/>
+<h2 id="hd_id5787224">For Selection</h2>
+<paragraph role="paragraph" id="par_id1507309"><ahelp hid=".">Opens a submenu. Choose a language for the selected text. <br/>Choose None to exclude the selected text from spellchecking and hyphenation.<br/>Choose More to open a dialog with more options.</ahelp></paragraph>
+<bookmark branch="hid/.uno:SetLanguageParagraphMenu" id="bm_id5369426" localize="false"/>
+<h2 id="hd_id7693411">For Paragraph</h2>
+<paragraph role="paragraph" id="par_id3928952"><ahelp hid=".">Opens a submenu. Choose a language for the current paragraph. <br/>Choose None to exclude the current paragraph from spellchecking and hyphenation.<br/>Choose More to open a dialog with more options.</ahelp></paragraph>
+<bookmark branch="hid/.uno:SetLanguageAllTextMenu" id="bm_id1342204" localize="false"/>
+<h2 id="hd_id5206762">For all Text</h2>
+<paragraph role="paragraph" id="par_id5735953"><ahelp hid=".">Opens a submenu. Choose a language for all text. <br/>Choose None to exclude all text from spellchecking and hyphenation.<br/>Choose More to open a dialog with more options.</ahelp></paragraph>
+</case>
+</switch>
+<embed href="text/shared/01/06200000.xhp#hangul"/>
+<embed href="text/shared/01/06010600.xhp#chinese"/>
+<embed href="text/shared/01/06020000.xhp#thesaurus"/>
+<embed href="text/shared/01/hyphenation.xhp#hyphenation"/>
+<bookmark branch="hid/.uno:MoreDictionaries" id="bm_id0805200811520622" localize="false"/>
+<h2 id="hd_id0805200811534540">More Dictionaries Online</h2>
+<paragraph role="paragraph" id="par_id0805200811534630"><ahelp hid=".">Opens the default browser on the dictionaries extension page.</ahelp></paragraph>
+</body>
+</helpdocument>

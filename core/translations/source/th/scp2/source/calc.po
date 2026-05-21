@@ -1,0 +1,233 @@
+#. extracted from scp2/source/calc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2023-06-07 13:57+0200\n"
+"PO-Revision-Date: 2025-08-25 17:54+0000\n"
+"Last-Translator: Aefgh3962 <aefgh3962@gmail.com>\n"
+"Language-Team: Thai <https://translations.documentfoundation.org/projects/libo_ui-master/scp2sourcecalc/th/>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1492065216.000000\n"
+
+#. rTGYE
+#: folderitem_calc.ulf
+msgctxt ""
+"folderitem_calc.ulf\n"
+"STR_FI_NAME_TABELLENDOKUMENT\n"
+"LngText.text"
+msgid "Spreadsheet"
+msgstr "ตารางคำนวณ"
+
+#. yfZ8B
+#: folderitem_calc.ulf
+msgctxt ""
+"folderitem_calc.ulf\n"
+"STR_FI_TOOLTIP_CALC\n"
+"LngText.text"
+msgid "Perform calculations, analyze information and manage lists in spreadsheets by using Calc."
+msgstr "ทำการคำนวณ วิเคราะห์ข้อมูล และจัดการรายชื่อต่างๆ ในตารางคำนวณโดยใช้ Calc"
+
+#. 2sEBu
+#: module_calc.ulf
+msgctxt ""
+"module_calc.ulf\n"
+"STR_NAME_MODULE_PRG_CALC\n"
+"LngText.text"
+msgid "%PRODUCTNAME Calc"
+msgstr "%PRODUCTNAME Calc"
+
+#. erCpE
+#: module_calc.ulf
+msgctxt ""
+"module_calc.ulf\n"
+"STR_DESC_MODULE_PRG_CALC\n"
+"LngText.text"
+msgid "Perform calculations, analyze information and manage lists in spreadsheets by using %PRODUCTNAME Calc."
+msgstr "ทำการคำนวณ วิเคราะห์ข้อมูล และจัดการรายชื่อต่างๆ ในตารางคำนวณโดยใช้ %PRODUCTNAME Calc"
+
+#. LAxSN
+#: module_calc.ulf
+msgctxt ""
+"module_calc.ulf\n"
+"STR_NAME_MODULE_PRG_CALC_BIN\n"
+"LngText.text"
+msgid "Program Module"
+msgstr "มอดูลของโปรแกรม"
+
+#. yrtDF
+#: module_calc.ulf
+msgctxt ""
+"module_calc.ulf\n"
+"STR_DESC_MODULE_PRG_CALC_BIN\n"
+"LngText.text"
+msgid "The application %PRODUCTNAME Calc"
+msgstr "แอปพลิเคชัน %PRODUCTNAME Calc"
+
+#. 4gcnp
+#: module_calc.ulf
+msgctxt ""
+"module_calc.ulf\n"
+"STR_NAME_MODULE_PRG_CALC_HELP\n"
+"LngText.text"
+msgid "%PRODUCTNAME Calc Help"
+msgstr "วิธีใช้ %PRODUCTNAME Calc"
+
+#. wVArW
+#: module_calc.ulf
+msgctxt ""
+"module_calc.ulf\n"
+"STR_DESC_MODULE_PRG_CALC_HELP\n"
+"LngText.text"
+msgid "Help about %PRODUCTNAME Calc"
+msgstr "คู่มือวิธีใช้ %PRODUCTNAME Calc"
+
+#. pturF
+#: module_calc.ulf
+msgctxt ""
+"module_calc.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_ADDINS\n"
+"LngText.text"
+msgid "Add-in"
+msgstr "โปรแกรมเสริม"
+
+#. yVG6t
+#: module_calc.ulf
+msgctxt ""
+"module_calc.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_ADDINS\n"
+"LngText.text"
+msgid "Add-ins are additional programs that make new functions available in %PRODUCTNAME Calc."
+msgstr "โปรแกรมเสริมเป็นโปรแกรมที่เพิ่มเข้ามาเพื่อทำให้มีฟังก์ชันใหม่ใน %PRODUCTNAME Calc"
+
+#. xtCyD
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_NEW\n"
+"LngText.text"
+msgid "&New"
+msgstr "ใ&หม่"
+
+#. PGkDJ
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_SO60_SPREADSHEET\n"
+"LngText.text"
+msgid "%SXWFORMATNAME %SXWFORMATVERSION Spreadsheet"
+msgstr "ตารางคำนวณ %SXWFORMATNAME %SXWFORMATVERSION"
+
+#. KXEGd
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_SO60_CALC_TEMPLATE\n"
+"LngText.text"
+msgid "%SXWFORMATNAME %SXWFORMATVERSION Spreadsheet Template"
+msgstr "แม่แบบตารางคำนวณ %SXWFORMATNAME %SXWFORMATVERSION"
+
+#. ChktK
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_OO_CALC\n"
+"LngText.text"
+msgid "OpenDocument Spreadsheet"
+msgstr "ตารางคำนวณ OpenDocument"
+
+#. oS5qx
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_OO_CALC_TEMPLATE\n"
+"LngText.text"
+msgid "OpenDocument Spreadsheet Template"
+msgstr "แม่แบบตารางคำนวณ OpenDocument"
+
+#. B2tXa
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_MS_EXCEL_WORKSHEET_OLD\n"
+"LngText.text"
+msgid "Microsoft Excel 97-2003 Worksheet"
+msgstr "ตารางทำการ Microsoft Excel 97-2003"
+
+#. aAdan
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_MS_EXCEL_WORKSHEET\n"
+"LngText.text"
+msgid "Microsoft Excel Worksheet"
+msgstr "ตารางทำการ Microsoft Excel"
+
+#. GWhEw
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_MS_EXCEL_WEBQUERY\n"
+"LngText.text"
+msgid "Microsoft Excel Web Query File"
+msgstr "ไฟล์ Web Query ของ Microsoft Excel"
+
+#. QGyiB
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_MS_EXCEL_TEMPLATE_OLD\n"
+"LngText.text"
+msgid "Microsoft Excel 97-2003 Template"
+msgstr "แม่แบบ Microsoft Excel 97-2003"
+
+#. sputX
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_MS_EXCEL_TEMPLATE\n"
+"LngText.text"
+msgid "Microsoft Excel Template"
+msgstr "แม่แบบ Microsoft Excel"
+
+#. vnbCH
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_UNIFORM_OFFICE_FORMAT_SPREADSHEET\n"
+"LngText.text"
+msgid "Uniform Office Format Spreadsheet"
+msgstr "ตารางคำนวณ Uniform Office Format"
+
+#. wDiKM
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_QUATTROPRO_SPREADSHEET\n"
+"LngText.text"
+msgid "Lotus Quattro Pro Spreadsheet"
+msgstr "ตารางคำนวณ Lotus Quattro Pro"
+
+#. VDqde
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_NUMBERS_SPREADSHEET\n"
+"LngText.text"
+msgid "Apple Numbers"
+msgstr "Apple Numbers"
+
+#. ETNRG
+#: registryitem_calc.ulf
+msgctxt ""
+"registryitem_calc.ulf\n"
+"STR_REG_VAL_MS_WORKS\n"
+"LngText.text"
+msgid "Microsoft Works Spreadsheet with Excel format"
+msgstr "ตารางคำนวณของ Microsoft Works ในรูปแบบ Excel"

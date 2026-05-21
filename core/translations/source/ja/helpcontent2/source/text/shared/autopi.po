@@ -1,0 +1,6452 @@
+#. extracted from helpcontent2/source/text/shared/autopi
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2023-09-28 12:40+0200\n"
+"PO-Revision-Date: 2024-07-15 14:54+0000\n"
+"Last-Translator: Taichi Haradaguchi <20001722@ymail.ne.jp>\n"
+"Language-Team: Japanese <https://translations.documentfoundation.org/projects/libo_help-master/textsharedautopi/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.4.3\n"
+"X-POOTLE-MTIME: 1565336718.000000\n"
+
+#. hCAzG
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Wizard"
+msgstr "ウィザード"
+
+#. 27Ect
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"bm_id3152551\n"
+"help.text"
+msgid "<bookmark_value>wizards; overview</bookmark_value><bookmark_value>AutoPilots, see wizards</bookmark_value>"
+msgstr "<bookmark_value>ウィザード; 概要</bookmark_value><bookmark_value>オートパイロット, ウィザードの参照</bookmark_value>"
+
+#. qP9Fu
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3152551\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01000000.xhp\">Wizards</link>"
+msgstr "<link href=\"text/shared/autopi/01000000.xhp\">ウィザード</link>"
+
+#. miGFD
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"par_id3153527\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AutoPilotMenu\">Guides you through creating business and personal letters, faxes, agendas, and more.</ahelp>"
+msgstr ""
+
+#. dAcHA
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3154750\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010000.xhp\">Letter</link>"
+msgstr "<link href=\"text/shared/autopi/01010000.xhp\">レター</link>"
+
+#. 38xQF
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3153662\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020000.xhp\">Fax</link>"
+msgstr "<link href=\"text/shared/autopi/01020000.xhp\">ファックス送付状...</link>"
+
+#. SG8Tp
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3153561\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040000.xhp\">Agenda</link>"
+msgstr "<link href=\"text/shared/autopi/01040000.xhp\">アジェンダ</link>"
+
+#. zjitK
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3147530\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130000.xhp\">Document Converter</link>"
+msgstr "<link href=\"text/shared/autopi/01130000.xhp\">ドキュメント変換</link>"
+
+#. Z9ju7
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3147303\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01150000.xhp\">Euro Converter</link>"
+msgstr "<link href=\"text/shared/autopi/01150000.xhp\">ユーロ通貨換算...</link>"
+
+#. eAGW4
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard"
+msgstr "レターウィザード"
+
+#. PFxuA
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"bm_id3151100\n"
+"help.text"
+msgid "<bookmark_value>wizards; letters</bookmark_value><bookmark_value>Letter Wizard</bookmark_value><bookmark_value>templates;letters</bookmark_value>"
+msgstr "<bookmark_value>ウィザード; レター</bookmark_value><bookmark_value>レターウイザード</bookmark_value><bookmark_value>テンプレート;レター</bookmark_value>"
+
+#. 96DDV
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3151100\n"
+"help.text"
+msgid "Letter Wizard"
+msgstr "レターウィザード"
+
+#. 6BFCi
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3093440\n"
+"help.text"
+msgid "<variable id=\"brief\"><ahelp hid=\".uno:AutoPilotLetter\">Starts the wizard for a letter template.</ahelp></variable> You can use this template for both business and personal correspondence."
+msgstr "<variable id=\"brief\"><ahelp hid=\".uno:AutoPilotLetter\">レターテンプレート用のウィザードを起動します。</ahelp></variable>このテンプレートは、社用書簡および個人用書簡の両用途で使用できます。"
+
+#. 7uF5N
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3149178\n"
+"help.text"
+msgid "$[officename] comes with sample templates for personal or business letters, which you can customize to your own needs with the help of the wizard. The wizard leads you step-by-step in creating a document template and offers numerous layout and design options. The preview gives you an impression of how the finished letter will appear according to the settings you choose."
+msgstr "$[officename] にはビジネスレターや個人レターの既成テンプレートが用意されています。ウィザードは、このテンプレートのカスタマイズを簡単に行うための機能です。一段階ずつドキュメントテンプレートの設定を行い、その際には様々なオプションが選択できます。ダイアログにはプレビューが表示され、設定がどのように反映されるかが確認できます。"
+
+#. yqgt8
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153748\n"
+"help.text"
+msgid "Within the wizard, you can modify your entries and options at any time. You may also skip an entire page or even all the wizard pages, in which case the current (or default) settings will remain in effect."
+msgstr "ウィザードでは、随時設定をキャンセルしたり、ある段階をスキップしたりできます。スキップした設定には、既定値が適用されます。"
+
+#. oHQpt
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153824\n"
+"help.text"
+msgid "If you are creating a business letter, you can select a variety of elements to include in your document, which usually do not apply to personal letters, such as a subject line. If you choose the <emph>Personal</emph> letter option, some pages which contain elements specific to business letters will not be included in the wizard dialog."
+msgstr "ビジネスレターを作成する場合、レターの件名など、通常の個人レターでは使用しない各種の項目が必要となりますが、どのような項目をドキュメントに表示させるかは個別に指定できます。また <emph>個人レター</emph> オプションを選択すると、ビジネスレター固有の項目は、ウィザードに表示されなくなります。"
+
+#. Baf5u
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3159176\n"
+"help.text"
+msgid "Back"
+msgstr "戻る"
+
+#. CBTWx
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153543\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_BACK\">Allows you to view the selections that you made on the previous steps.</ahelp> The current settings will be saved."
+msgstr "<ahelp hid=\"HID_LTRWIZARD_BACK\">以前のステップで選択した項目が表示されます。</ahelp>現在の設定は保存されます。"
+
+#. cNLgv
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3150254\n"
+"help.text"
+msgid "Next"
+msgstr "次へ>>"
+
+#. uz8uA
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3155923\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_NEXT\">Saves the current settings and continues to the next page.</ahelp>"
+msgstr "<ahelp hid=\"HID_LTRWIZARD_NEXT\">現在の設定を保存し、次のページに進みます。</ahelp>"
+
+#. RTbvH
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3148944\n"
+"help.text"
+msgid "Finish"
+msgstr "完了"
+
+#. TT8KQ
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3149669\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_CREATE\">According to your selections, the wizard creates a new document template and saves it on your hard disk.</ahelp> $[officename] creates a new document based on the existing templates with the \"Untitled X\" name (X stands for the consecutive numbering) and displays it on the work area."
+msgstr "<ahelp hid=\"HID_LTRWIZARD_CREATE\">選択した項目に応じて、新しいドキュメントテンプレートが作成され、それがハードディスク上に保存されます。</ahelp>\"無題 X\"（X は通し番号です）という名前の新しいドキュメントが既存のテンプレートに基づいて作成され、$[officename]の作業領域に表示されます。"
+
+#. k2a98
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3144433\n"
+"help.text"
+msgid "$[officename] saves the current settings in the wizard according to the chosen template. These settings are used as the default settings the next time you activate the wizard."
+msgstr "$[officename] はこのウィザードの現在の設定を保存します。現在の設定は、次回ウィザードを呼び出すと、既定値として表示されます。"
+
+#. HCxtN
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Page design"
+msgstr "レターウィザード - ページデザイン"
+
+#. wGb3D
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3147102\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010100.xhp\">Letter Wizard - Page design</link>"
+msgstr "<link href=\"text/shared/autopi/01010100.xhp\">レターウィザード - ページデザイン</link>"
+
+#. jBVzZ
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3147226\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether you want to create a personal or a business letter.</ahelp> The available options on the following pages vary depending on your choice."
+msgstr ""
+
+#. mq5gE
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3149183\n"
+"help.text"
+msgid "Please choose the type of letter and page design"
+msgstr "作成するレターテンプレートの設定を行います。"
+
+#. aaq7E
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3145346\n"
+"help.text"
+msgid "Specify whether you want to create a business or personal letter template."
+msgstr ""
+
+#. nFnBc
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3155941\n"
+"help.text"
+msgid "Business letter"
+msgstr "ビジネスレター"
+
+#. NQaEB
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a business letter template.</ahelp>"
+msgstr ""
+
+#. GFA2A
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN10616\n"
+"help.text"
+msgid "Formal personal letter"
+msgstr "フォーマルな個人レター"
+
+#. 6CCEY
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN1061D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a formal personal letter.</ahelp>"
+msgstr ""
+
+#. EjdWv
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3147275\n"
+"help.text"
+msgid "Personal letter"
+msgstr "個人レター"
+
+#. q2EJE
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3148538\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a personal letter.</ahelp>"
+msgstr ""
+
+#. UG6M2
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3155628\n"
+"help.text"
+msgid "Page design"
+msgstr "ページデザイン"
+
+#. XJVC5
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3149415\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the design for your letter template.</ahelp>"
+msgstr ""
+
+#. BBUGY
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN106A7\n"
+"help.text"
+msgid "Use letterhead paper with pre-printed elements"
+msgstr "要素があらかじめ印刷されているレターヘッド用紙を使用する"
+
+#. 8dkJA
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN106AB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether paper is used that already contains an imprinted logo, address, or footer line. The Wizard shows the Letterhead layout page next.</ahelp>"
+msgstr ""
+
+#. QREhA
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3150254\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010200.xhp\">Go to Letter Wizard - Letterhead layout</link>"
+msgstr "<link href=\"text/shared/autopi/01010200.xhp\">レターウィザード - レターヘッドのレイアウト に進む</link>"
+
+#. ma7Nd
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Letterhead layout"
+msgstr "レターウィザード - レターヘッドのレイアウト"
+
+#. AEnQz
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3155354\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010200.xhp\">Letter Wizard - Letterhead layout</link>"
+msgstr "<link href=\"text/shared/autopi/01010200.xhp\">レターウィザード - レターヘッドのレイアウト</link>"
+
+#. 9ZLVJ
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3146856\n"
+"help.text"
+msgid "<ahelp hid=\".\">Allows you to specify the elements that are already imprinted on your letterhead paper.</ahelp> Those elements are not printed, and the space they occupy is left blank by the printer."
+msgstr ""
+
+#. a7zJK
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3156211\n"
+"help.text"
+msgid "Specify items already on your letterhead paper"
+msgstr "レターヘッド用紙にすでに存在する項目を選択"
+
+#. KXGUp
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3149549\n"
+"help.text"
+msgid "Logo"
+msgstr "ロゴ"
+
+#. 5dJ2i
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3154186\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that a logo is already printed on your letterhead paper. %PRODUCTNAME does not print a logo.</ahelp>"
+msgstr ""
+
+#. d4G5o
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3151245\n"
+"help.text"
+msgid "Height"
+msgstr "高さ"
+
+#. YdKBc
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3148944\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the height of the object.</ahelp>"
+msgstr ""
+
+#. bxDB8
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3149415\n"
+"help.text"
+msgid "Width"
+msgstr "幅"
+
+#. DKTET
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3156192\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the width of the object.</ahelp>"
+msgstr ""
+
+#. GZSW3
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3152922\n"
+"help.text"
+msgid "Spacing to left margin"
+msgstr "左マージンまでの間隔"
+
+#. cTiMt
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3149766\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sets the object distance from the left page margin.</ahelp>"
+msgstr ""
+
+#. y76AK
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3150449\n"
+"help.text"
+msgid "Spacing to top margin"
+msgstr "上マージンまでの間隔"
+
+#. cW3AQ
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3156423\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sets the object distance from the top page margin.</ahelp>"
+msgstr ""
+
+#. EMVxG
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106CB\n"
+"help.text"
+msgid "Own address"
+msgstr "独自アドレス"
+
+#. N5YAU
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106CF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that an address is already printed on your letterhead paper. %PRODUCTNAME does not print an address.</ahelp>"
+msgstr ""
+
+#. 6DLwm
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D2\n"
+"help.text"
+msgid "Return address in envelope window"
+msgstr "封筒ウィンドウの返信アドレス"
+
+#. EbYY5
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that your own address is already imprinted in small size above the area of the recipient's address. %PRODUCTNAME does not print an address in small size.</ahelp>"
+msgstr ""
+
+#. 3HBwc
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D9\n"
+"help.text"
+msgid "Footer"
+msgstr "フッター"
+
+#. 8c4td
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106DD\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that a footer area is already printed on your letterhead paper. %PRODUCTNAME does not print a footer.</ahelp>"
+msgstr ""
+
+#. EPJJw
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106E0\n"
+"help.text"
+msgid "Height"
+msgstr "高さ"
+
+#. JAwHF
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106E4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the height of the footer area that is already imprinted on your letterhead paper. %PRODUCTNAME does not print in that area.</ahelp>"
+msgstr ""
+
+#. URpme
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3153367\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010300.xhp\">Go to Letter Wizard - Printed items</link>"
+msgstr "<link href=\"text/shared/autopi/01010300.xhp\">レターウィザード - 印刷項目 に進む</link>"
+
+#. hPVFU
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Printed items"
+msgstr "レターウィザード - 印刷項目"
+
+#. LfRYv
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"hd_id3148520\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010300.xhp\">Letter Wizard - Printed items</link>"
+msgstr "<link href=\"text/shared/autopi/01010300.xhp\">レターウィザード - 印刷項目</link>"
+
+#. wnxmZ
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_id3152594\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the items to be included in the letter template.</ahelp>"
+msgstr ""
+
+#. bbREk
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Logo"
+msgstr "ロゴ"
+
+#. SPm2h
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN105FE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a logo on the letter template.</ahelp>"
+msgstr ""
+
+#. iACsf
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10615\n"
+"help.text"
+msgid "Return address in envelope window"
+msgstr "封筒ウィンドウの返信アドレス"
+
+#. GWKbG
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10619\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a small size return address on the letter template.</ahelp>"
+msgstr ""
+
+#. BZKw8
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10630\n"
+"help.text"
+msgid "Letter signs"
+msgstr "レターのサイン"
+
+#. jMGHL
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10634\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a line with references to a business letter on the letter template.</ahelp>"
+msgstr ""
+
+#. 3G2Ua
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1064B\n"
+"help.text"
+msgid "Subject line"
+msgstr "件名"
+
+#. r7iGS
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1064F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a subject line on the letter template.</ahelp>"
+msgstr ""
+
+#. YCuyF
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1066E\n"
+"help.text"
+msgid "Salutation"
+msgstr "挨拶文"
+
+#. C8Qod
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10672\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a salutation on the letter template. Select the salutation from the list box.</ahelp>"
+msgstr ""
+
+#. zaPU8
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10689\n"
+"help.text"
+msgid "Fold marks"
+msgstr "折り目マーク"
+
+#. Kyc8o
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1068D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes fold marks on the letter template.</ahelp>"
+msgstr ""
+
+#. EHXeE
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106AC\n"
+"help.text"
+msgid "Complimentary close"
+msgstr "結びの挨拶"
+
+#. CyBFN
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106B0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a complimentary close on the letter template. Select the text from the list box.</ahelp>"
+msgstr ""
+
+#. hsSZh
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106C7\n"
+"help.text"
+msgid "Footer"
+msgstr "フッター"
+
+#. nfwuD
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106CB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a footer on the letter template.</ahelp>"
+msgstr ""
+
+#. 6D8fE
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_id3149666\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010400.xhp\">Go to Letter Wizard - Recipient and sender</link>"
+msgstr "<link href=\"text/shared/autopi/01010400.xhp\">レターウィザード - 受取人と差出人 に進む</link>"
+
+#. EYFFV
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Recipient and sender"
+msgstr "レターウィザード - 受取人と差出人"
+
+#. ENbsV
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"hd_id3154288\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010400.xhp\">Letter Wizard - Recipient and sender</link>"
+msgstr "<link href=\"text/shared/autopi/01010400.xhp\">レターウィザード - 受取人と差出人</link>"
+
+#. ZFzrE
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_id3159233\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the sender and recipient information.</ahelp>"
+msgstr ""
+
+#. wFHpK
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Sender's address"
+msgstr "差出人のアドレス"
+
+#. 22bkt
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Specifies your address information."
+msgstr ""
+
+#. 8ezXK
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "Use user data for return address"
+msgstr "返信アドレス用のユーザーデータを使用"
+
+#. cuFFc
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the address data from %PRODUCTNAME - User Data in the Options dialog box.</ahelp>"
+msgstr ""
+
+#. DxHmG
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10603\n"
+"help.text"
+msgid "New sender address"
+msgstr "新規差出人アドレス"
+
+#. 9fMBY
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10606\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the address data from the following text boxes.</ahelp>"
+msgstr ""
+
+#. ooQkP
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1061D\n"
+"help.text"
+msgid "Name"
+msgstr "名前"
+
+#. zQzeZ
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10620\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the sender.</ahelp>"
+msgstr ""
+
+#. fUoud
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10637\n"
+"help.text"
+msgid "Street"
+msgstr "番地"
+
+#. mvNzb
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1063A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the street address of the sender.</ahelp>"
+msgstr ""
+
+#. UGDXD
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10661\n"
+"help.text"
+msgid "Postcode/State/City"
+msgstr "郵便番号/都道府県/市"
+
+#. MVHBf
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10664\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the address data of the sender.</ahelp>"
+msgstr ""
+
+#. KkM7F
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10673\n"
+"help.text"
+msgid "Recipient's address"
+msgstr "受取人のアドレス"
+
+#. ZVkei
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10677\n"
+"help.text"
+msgid "Specifies the recipient's address information."
+msgstr "受取人のアドレス情報を指定します。"
+
+#. JJEb6
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10682\n"
+"help.text"
+msgid "Use placeholders for recipient's address"
+msgstr "宛先住所としてプレースホルダーを使用"
+
+#. Dp9fM
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10685\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that placeholder fields are inserted into the letter template.</ahelp>"
+msgstr ""
+
+#. 3wABv
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1069C\n"
+"help.text"
+msgid "Use address database for mail merge"
+msgstr "差し込み印刷にアドレスデータベースを使用"
+
+#. ewNqt
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1069F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Address database fields are inserted into the letter template.</ahelp>"
+msgstr ""
+
+#. PWjGD
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_id3154365\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010500.xhp\">Go to Letter Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01010500.xhp\">レターウィザード - フッター に進む</link>"
+
+#. P7eTT
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Footer"
+msgstr "レターウィザード - フッター"
+
+#. 7UQEB
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"hd_id3143281\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010500.xhp\">Letter Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01010500.xhp\">レターウィザード - フッター</link>"
+
+#. kNGXK
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3147834\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the information to include in the footer space.</ahelp>"
+msgstr ""
+
+#. 5Lwz9
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105DF\n"
+"help.text"
+msgid "Footer"
+msgstr "フッター"
+
+#. LsLdw
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the text for the footer lines.</ahelp>"
+msgstr ""
+
+#. k8UGa
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Include only on second and following pages"
+msgstr "2 ページ目以降のページだけに入れる"
+
+#. Bd4Le
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN10600\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to suppress the footer on the first page.</ahelp>"
+msgstr "<ahelp hid=\".\">最初のページでフッターを抑制する場合に選択します。</ahelp>"
+
+#. W8CTM
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"hd_id3153093\n"
+"help.text"
+msgid "Include page numbers"
+msgstr "ページ番号を入れる"
+
+#. oMyXY
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3155414\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes page numbers in your letter template.</ahelp>"
+msgstr ""
+
+#. UDwLE
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3154988\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010600.xhp\">Go to Letter Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01010600.xhp\">レターウィザード - 名前と場所 に進む</link>"
+
+#. sbinu
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Name and Location"
+msgstr "レターウィザード - 名前と場所"
+
+#. jFU9s
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3150355\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010600.xhp\">Letter Wizard - Name and Location</link>"
+msgstr "<link href=\"text/shared/autopi/01010600.xhp\">レターウィザード - 名前と場所</link>"
+
+#. Bf2pC
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_id3152996\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies where and under which name you want to save the document and template.</ahelp>"
+msgstr ""
+
+#. MG999
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3154047\n"
+"help.text"
+msgid "Template name"
+msgstr "テンプレート名"
+
+#. EjgjE
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_id3159157\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title of the document template.</ahelp>"
+msgstr ""
+
+#. 8cKNZ
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3151043\n"
+"help.text"
+msgid "Path"
+msgstr "パス"
+
+#. kFkEp
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN1061A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the path and file name for the template, or click the <emph>...</emph> button to select the path and file name.</ahelp>"
+msgstr ""
+
+#. WExSE
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10639\n"
+"help.text"
+msgid "Create a letter from this template"
+msgstr "このテンプレートからレターを作成"
+
+#. ADCT6
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN1063C\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves and closes the template, and then opens a new untitled document based on the template.</ahelp>"
+msgstr ""
+
+#. XDEVG
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10653\n"
+"help.text"
+msgid "Make manual changes to this letter template"
+msgstr "このレターテンプレートを手動で変更"
+
+#. 6LRY8
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10656\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the template and keeps it open for editing.</ahelp>"
+msgstr ""
+
+#. rZMX9
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10665\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010000.xhp\">Letter Wizard overview</link>"
+msgstr "<link href=\"text/shared/autopi/01010000.xhp\">レターウィザード の概要</link>"
+
+#. Fdhin
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard"
+msgstr "ファックスウィザード"
+
+#. Le26A
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"bm_id3150445\n"
+"help.text"
+msgid "<bookmark_value>wizards;faxes</bookmark_value><bookmark_value>faxes;wizards</bookmark_value><bookmark_value>templates;faxes</bookmark_value>"
+msgstr "<bookmark_value>ウィザード; FAX</bookmark_value><bookmark_value>FAX; ウィザード</bookmark_value><bookmark_value>テンプレート; FAX</bookmark_value>"
+
+#. 3EVBG
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3150445\n"
+"help.text"
+msgid "Fax Wizard"
+msgstr "ファックスウィザード"
+
+#. mZvnG
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3153394\n"
+"help.text"
+msgid "<variable id=\"fax\"><ahelp hid=\".uno:AutoPilotFax\">Opens the wizard for faxes.</ahelp> The wizard can help you create document templates for fax documents. You can then print the fax documents to a printer or to a fax machine, if fax driver software is available. </variable>"
+msgstr "<variable id=\"fax\"><ahelp hid=\".uno:AutoPilotFax\">FAX 用のウィザードを開きます。</ahelp> FAX 用のウィザードを使うことで、FAX 送付状ドキュメントのテンプレートを簡単に作成できます。FAX 送付状を作成したあと、モデムが接続されていれば FAX を直接送信できます。</variable>"
+
+#. TiVAB
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3154824\n"
+"help.text"
+msgid "$[officename] comes with a template for fax documents, which you can modify with the wizard to suit your own needs. The wizard leads you step-by-step in creating a document template, and offers numerous layout and design options. The document preview gives you an impression of how the finished fax will appear."
+msgstr "$[officename] には Fax ドキュメント用サンプルテンプレートがすでに用意されています。ウィザードでは、このテンプレートをさらにユーザーの希望に合わせてカスタマイズします。その際、設定は一段階ずつでき、また様々なオプションが選択できます。ダイアログには、送信した Fax ドキュメントがどのように表示されるのかの設定イメージがプレビューとして表示されます。"
+
+#. HcBVT
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3147088\n"
+"help.text"
+msgid "Within the dialog you can modify your entries and options at any time. You can also skip an entire page or even all the wizard pages, in which case the current (or default) settings will remain in effect."
+msgstr "ダイアログ上の項目やオプションは随時変更できます。ウィザードの表示する個々の設定ページは、どれもスキップすることが可能で、その場合は表示された設定 (標準値) が適用されます。"
+
+#. cJRx9
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3156156\n"
+"help.text"
+msgid "Back"
+msgstr "戻る"
+
+#. vMGxd
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3155628\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click the<emph> Back </emph>button to view the settings chosen on the previous page. The current settings will not be modified or deleted if you click this button.<emph> Back </emph>will be active from the second page onwards.</ahelp>"
+msgstr "<ahelp hid=\".\">前のページで選択した設定を表示するには、<emph>戻る</emph> ボタンをクリックします。 このボタンをクリックしても現在の設定は変更も削除もされません。<emph>戻る</emph> は、2 ページ目以降で有効になります。</ahelp>"
+
+#. 9QWoC
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3147335\n"
+"help.text"
+msgid "Next"
+msgstr "次へ>>"
+
+#. EEAfC
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3156117\n"
+"help.text"
+msgid "<ahelp hid=\".\">The wizard saves the current settings and goes to the next page. The<emph> Next </emph>button will become inactive once you have reached the last page.</ahelp>"
+msgstr "<ahelp hid=\".\">ウィザードは現在の設定を保存して、次のページに移動します。 最終ページに到達すると、<emph>次へ</emph> ボタンは無効になります。</ahelp>"
+
+#. EYyfx
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3152350\n"
+"help.text"
+msgid "Finish"
+msgstr "完了"
+
+#. gBkCQ
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3146948\n"
+"help.text"
+msgid "<ahelp hid=\".\">According to your selections, the wizard creates a document template and saves it. A new document based on the template appears in the work area, with the filename \"UntitledX\".</ahelp>"
+msgstr "<ahelp hid=\".\">ここで選択した内容に従って、ウィザードがドキュメントのテンプレートを作成し、保存します。 テンプレートに基づく新しいドキュメントが「無題X」というファイル名で作業領域に表示されます。</ahelp>"
+
+#. DAFAP
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Page Design"
+msgstr "ファックスウィザード - ページのデザイン"
+
+#. ZFqNt
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020100.xhp\">Fax Wizard - Page Design</link>"
+msgstr "<link href=\"text/shared/autopi/01020100.xhp\">ファックスウィザード - ページのデザイン</link>"
+
+#. hNAfN
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id3156027\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE1\">Defines the style of your fax document.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE1\">FAX送付状のスタイル、タイトル、書式を定義します。</ahelp>"
+
+#. eTqZA
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Business Fax"
+msgstr "ビジネスファックス"
+
+#. RBvyc
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a fax template for a business-style fax.</ahelp>"
+msgstr "<ahelp hid=\".\">ビジネス用の Fax テンプレートを作成します。</ahelp>"
+
+#. Ti5G4
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Style"
+msgstr "スタイル"
+
+#. v8xTd
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the predefined style.</ahelp>"
+msgstr "<ahelp hid=\".\">事前定義のスタイルを指定します。</ahelp>"
+
+#. FsnaG
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Private Fax"
+msgstr "個人ファックス"
+
+#. gNnwo
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a fax template for a private fax.</ahelp>"
+msgstr "<ahelp hid=\".\">個人用の Fax テンプレートを作成します。</ahelp>"
+
+#. YgFdG
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Style"
+msgstr "スタイル"
+
+#. gR87P
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the predefined style.</ahelp>"
+msgstr "<ahelp hid=\".\">事前定義のスタイルを指定します。</ahelp>"
+
+#. LN6vy
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id3156002\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020200.xhp\">Go to Fax Wizard - Items to include</link>"
+msgstr "<link href=\"text/shared/autopi/01020200.xhp\">ファックスウィザード - 含める項目 に進む</link>"
+
+#. fdj9N
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Items to include"
+msgstr "ファックスウィザード - 含める項目"
+
+#. YWenL
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"hd_id3157898\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020200.xhp\">Fax Wizard - Items to include</link>"
+msgstr "<link href=\"text/shared/autopi/01020200.xhp\">ファックスウィザード - 含める項目</link>"
+
+#. gA627
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_id3147571\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE2\">Specifies the fax elements to be printed.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE2\">印刷されるFax項目を指定します。</ahelp>"
+
+#. YzQ7x
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Logo"
+msgstr "ロゴ"
+
+#. qeR9J
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a company logo.</ahelp>"
+msgstr "<ahelp hid=\".\">企業ロゴを含めます。</ahelp>"
+
+#. vrcqF
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Date"
+msgstr "日付"
+
+#. pNCdC
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a date field.</ahelp>"
+msgstr "<ahelp hid=\".\">データフィールドを含めます。</ahelp>"
+
+#. 5kHar
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Type of message"
+msgstr "メッセージの種類"
+
+#. pK47y
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a communication type line. Select the line from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">通信の種類行を含めます。通信の種類行はリストボックスから選択します。</ahelp>"
+
+#. biohR
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Subject line"
+msgstr "件名"
+
+#. NyHR8
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a subject line.</ahelp>"
+msgstr "<ahelp hid=\".\">件名行を含めます。</ahelp>"
+
+#. Gkh2u
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "Salutation"
+msgstr "挨拶文"
+
+#. 2GMEC
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a salutation. Select the salutation from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">挨拶文を含めます。挨拶文はリストボックスから選択します。</ahelp>"
+
+#. tDEDH
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Complimentary close"
+msgstr "結びの挨拶"
+
+#. cx5zi
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105FE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a greeting. Select the greeting from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">挨拶行を含めます。挨拶行はリストボックスから選択します。</ahelp>"
+
+#. RP8EW
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN10601\n"
+"help.text"
+msgid "Footer"
+msgstr "フッター"
+
+#. vfysy
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN10605\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a footer.</ahelp>"
+msgstr "<ahelp hid=\".\">フッターを含めます。</ahelp>"
+
+#. V9gQW
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_id3148491\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020300.xhp\">Go to Fax Wizard - Sender and Recipient</link>"
+msgstr "<link href=\"text/shared/autopi/01020300.xhp\">ファックスウィザード - 送信者と受信者に進む</link>"
+
+#. KqE4C
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Sender and Recipient"
+msgstr "ファックスウィザード - 送信者と受信者"
+
+#. hTjUX
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"hd_id3155934\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020300.xhp\">Fax Wizard - Sender and Recipient</link>"
+msgstr "<link href=\"text/shared/autopi/01020300.xhp\">ファックスウィザード - 送信者と受信者</link>"
+
+#. 9wCnR
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3150808\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE3\">Specifies the receiver and sender information for the fax.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE3\">FAX の差出人情報を指定します。</ahelp>"
+
+#. BFGGE
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Use user data for return address"
+msgstr "返信アドレス用のユーザーデータを使用"
+
+#. FEmwq
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts placeholders for the address on the fax template. Later in the fax document, click the placeholder to enter the actual data.</ahelp>"
+msgstr "<ahelp hid=\".\">アドレス用のプレースホルダーを Fax テンプレートに挿入します。この後、Fax ドキュメントに実際のデータを入れるには、プレースホルダーをクリックします。</ahelp>"
+
+#. fpiE7
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "New return address"
+msgstr "新しい返信アドレス"
+
+#. GwDe4
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to enter the address data in the following text boxes. The data is inserted as normal text in the fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">次のテキストボックスにアドレスデータを入力する場合に選択します。データは通常のテキストとして Fax ドキュメントに挿入されます。</ahelp>"
+
+#. AVUEL
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "(Address data fields)"
+msgstr "(アドレスデータフィールド)"
+
+#. opQMn
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the sender address data.</ahelp>"
+msgstr "<ahelp hid=\".\">送信者のアドレスデータを入力します。</ahelp>"
+
+#. yJ5BB
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105F9\n"
+"help.text"
+msgid "Use placeholders as receiver address"
+msgstr "受信者アドレスとしてプレースホルダーを使用する"
+
+#. CHEfg
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105FD\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts placeholders for the address on the fax template. Later in the fax document, click the placeholder to enter the actual data.</ahelp>"
+msgstr "<ahelp hid=\".\">アドレス用のプレースホルダーを Fax テンプレートに挿入します。この後、Fax ドキュメントに実際のデータを入れるには、プレースホルダーをクリックします。</ahelp>"
+
+#. GvA5M
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN10600\n"
+"help.text"
+msgid "Use address database for mail merge"
+msgstr "差し込み印刷にアドレスデータベースを使用"
+
+#. UZfBc
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN10604\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts database fields for a later mail merge with the fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">差し込み印刷用のデータベースフィールドを Fax ドキュメントに挿入します。</ahelp>"
+
+#. ESAKo
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3154938\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020400.xhp\">Go to Fax Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01020400.xhp\">ファックスウィザード - フッター に進む</link>"
+
+#. q69hP
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Footer"
+msgstr "ファックスウィザード - フッター"
+
+#. NdRZx
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"hd_id3147143\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020400.xhp\">Fax Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01020400.xhp\">ファックスウィザード - フッター</link>"
+
+#. moG7a
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE4\">Specifies the footer data.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE4\">宛先情報を指定します。</ahelp>"
+
+#. SGdS8
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Footer"
+msgstr "フッター"
+
+#. cB5yW
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the text to be printed in the footer area.</ahelp>"
+msgstr "<ahelp hid=\".\">フッター領域に印刷するテキストを指定します。</ahelp>"
+
+#. AhtwT
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Include only on second and following pages"
+msgstr "2 ページ目以降のページだけに入れる"
+
+#. 9tppz
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Suppresses the footer on the first page of a multipage fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">複数ページの Fax ドキュメントの最初のページでフッターを抑制します。</ahelp>"
+
+#. VdMcV
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E4\n"
+"help.text"
+msgid "Include page number"
+msgstr "ページ番号を含める"
+
+#. CDAW4
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Prints a page number in the footer area.</ahelp>"
+msgstr "<ahelp hid=\".\">フッター領域にページ番号を印刷します。</ahelp>"
+
+#. ULEDC
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_id3152812\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020500.xhp\">Go to Fax Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01020500.xhp\">ファックスウィザード - 名前と場所 に進む</link>"
+
+#. 5GTDj
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Name and location"
+msgstr "ファックスウィザード - 名前と場所"
+
+#. LV9gq
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"hd_id3150247\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020500.xhp\">Fax Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01020500.xhp\">ファックスウィザード - 名前と場所</link>"
+
+#. 9MJNj
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_id3155552\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE5\">Defines the template name and location.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE5\">日付や件名など、FAX に表示する項目を指定します。</ahelp>"
+
+#. DmUvk
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Template name"
+msgstr "テンプレート名"
+
+#. c9MRS
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the name of the fax template.</ahelp>"
+msgstr "<ahelp hid=\".\">Faxテンプレートの名前を入力します。</ahelp>"
+
+#. Wo6cf
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. v4s8X
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to enter or select the complete path, including the file name of the fax template.</ahelp>"
+msgstr "<ahelp hid=\".\">クリックして、Fax テンプレートのファイル名を含む絶対パスを入力または選択します。</ahelp>"
+
+#. kFST8
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Create a fax from this template"
+msgstr "このテンプレートからファックスを作成"
+
+#. e2GKo
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the fax template, then opens a new fax document based on that template.</ahelp>"
+msgstr "<ahelp hid=\".\">Fax テンプレートを作成して保存し、そのテンプレートに基づいて、新しい Fax ドキュメントを開きます。</ahelp>"
+
+#. FbyeK
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Make manual changes to this fax template"
+msgstr "このファックステンプレートを手動で変更"
+
+#. ENcNh
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the fax template, then opens the template for further editing.</ahelp>"
+msgstr "<ahelp hid=\".\">Fax テンプレートを作成して保存し、そのテンプレートを編集のために開きます。</ahelp>"
+
+#. fETJG
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_id3151119\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020000.xhp\">Go to Fax Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01020000.xhp\">ファックスウィザードに進む</link>"
+
+#. sRsoY
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard"
+msgstr "アジェンダウィザード"
+
+#. D3wGn
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"bm_id3149031\n"
+"help.text"
+msgid "<bookmark_value>wizards;agendas</bookmark_value><bookmark_value>Agenda Wizard</bookmark_value><bookmark_value>templates;agendas</bookmark_value>"
+msgstr "<bookmark_value>ウィザード; アジェンダ</bookmark_value><bookmark_value>アジェンダ; ウィザード</bookmark_value><bookmark_value>テンプレート;アジェンダ</bookmark_value>"
+
+#. s5qJR
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3149031\n"
+"help.text"
+msgid "Agenda Wizard"
+msgstr "アジェンダウィザード"
+
+#. rVtcF
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "<variable id=\"agenda\"><ahelp hid=\".uno:AutoPilotAgenda\">Starts the wizard to help you create an agenda template.</ahelp></variable> You can use an agenda to specify discussion topics for conferences and meetings."
+msgstr "<variable id=\"agenda\"><ahelp hid=\".uno:AutoPilotAgenda\">アジェンダテンプレートを簡単に作成できるウィザードを起動します。</ahelp></variable>アジェンダには、会議の議題を指定できます。"
+
+#. HJ9w2
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156414\n"
+"help.text"
+msgid "$[officename] comes with a sample template for agendas that you can modify to suit your own needs. The wizard offers numerous layout and design options for creating document templates. The preview gives you an impression of how the finished agenda will appear."
+msgstr "$[officename] には、独自のニーズに合わせて変更できるアジェンダ用のサンプルテンプレートが付属しています。ウィザードには、ドキュメントテンプレートを作成する場合に役立つ多彩なレイアウトおよびデザイン用オプションが用意されています。プレビューでは、完成後のアジェンダの印象がどのように変化するか確認できます。"
+
+#. a9sZA
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3147571\n"
+"help.text"
+msgid "Within the wizard, you can modify your entries at any time. You may also skip an entire page or even all the pages, in which case the current (or default) settings remain in effect."
+msgstr "ウィザードでは、随時設定をキャンセルしたり、ある段階をスキップしたりできます。スキップした設定には、既定値が適用されます。"
+
+#. MkDYV
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3147088\n"
+"help.text"
+msgid "Back"
+msgstr "戻る"
+
+#. LKGRk
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3149177\n"
+"help.text"
+msgid "Returns to the selections made on the previous page. The current settings remain in effect. This button only becomes active after the first page."
+msgstr "1 つ前の設定ページに戻ります。現在のページで行った設定は、保持されます。このボタンを使用できるのは、2 つ目のページ以降です。"
+
+#. FZ2oT
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3155391\n"
+"help.text"
+msgid "Next"
+msgstr "次へ>>"
+
+#. TExdC
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156426\n"
+"help.text"
+msgid "The wizard saves the current settings and goes to the next page. Once you reach the last page, this button will become inactive."
+msgstr "このボタンをクリックすると、ウィザードは現在の設定を保存して、次のページに進みます。最後のページでは、このボタンはクリックできません。"
+
+#. oA55U
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3145382\n"
+"help.text"
+msgid "Finish"
+msgstr "完了"
+
+#. Df3HR
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156346\n"
+"help.text"
+msgid "According to your selections, the wizard creates a document template and saves it on your hard disk. A new document based on the template appears in the work area, with the filename \"UntitledX\" (X stands for an automatic number)."
+msgstr "ウィザードは、これまでの設定に従って新しいドキュメントテンプレートをハードディスクに保存します。$[officename] はこの新しいドキュメントテンプレートをもとに、新しいドキュメントを画面表示します。ファイル名は初期設定で「無題」となり、連番が付きます。"
+
+#. BRhRd
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3149235\n"
+"help.text"
+msgid "$[officename] saves the current settings in the wizard according to the selected document template. These will be used as the default settings the next time you activate the wizard."
+msgstr "$[officename] はこのウィザードの現在の設定を保存します。現在の設定は、次回ウィザードを呼び出すと、既定値として表示されます。"
+
+#. Ga2ET
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Page Design"
+msgstr "アジェンダウィザード - ページデザイン"
+
+#. kefJn
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"hd_id3151100\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040100.xhp\">Agenda Wizard - Page Design</link>"
+msgstr "<link href=\"text/shared/autopi/01040100.xhp\">アジェンダウィザード - ページデザイン</link>"
+
+#. fPTHx
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_id3152594\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE1\">Specifies a page design for the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE1\">アジェンダのスタイルを指定し、タイトルを割り当てます。</ahelp>"
+
+#. DvnTS
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Page design"
+msgstr "ページデザイン"
+
+#. 4yNMX
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the page design from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">リストボックスからページデザインフォームを選択します。</ahelp>"
+
+#. QLiPz
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Include form for recording minutes"
+msgstr "記録時間 (分単位) のフォームを含める"
+
+#. eMAzz
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Prints out a page on which you can write down the minutes during the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">会議の時間 (分) を記録できるページを印刷します。</ahelp>"
+
+#. f7afU
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_id3153087\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040200.xhp\">Go to Agenda Wizard - General information</link>"
+msgstr "<link href=\"text/shared/autopi/01040200.xhp\">アジェンダウィザード - 全般情報 に進む</link>"
+
+#. WGmzy
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - General Information"
+msgstr "アジェンダウィザード - 全般情報"
+
+#. TZ7iE
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3150247\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040200.xhp\">Agenda Wizard - General Information</link>"
+msgstr "<link href=\"text/shared/autopi/01040200.xhp\">アジェンダウィザード - 全般情報</link>"
+
+#. eLECH
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3150616\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE2\">Specifies the date, time, title, and location of the meeting.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE2\">会議の日付、時刻、場所を指定します。</ahelp>"
+
+#. 4FFjn
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3153748\n"
+"help.text"
+msgid "Date"
+msgstr "日付"
+
+#. HnhbG
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3153311\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_DATE\">Specifies the date of the meeting.</ahelp>"
+msgstr ""
+
+#. A6udC
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3154749\n"
+"help.text"
+msgid "Time"
+msgstr "時刻"
+
+#. 7pUwh
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3166460\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_TIME\">Specifies the time of the meeting.</ahelp>"
+msgstr ""
+
+#. huAt8
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_idN10625\n"
+"help.text"
+msgid "Title"
+msgstr "タイトル"
+
+#. Z4KWB
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_idN10629\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title of the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">会議のタイトルを指定します。</ahelp>"
+
+#. AuoCJ
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3150355\n"
+"help.text"
+msgid "Location"
+msgstr "場所"
+
+#. v4Q2M
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3159400\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_LOCATION\">Specifies the location of the meeting.</ahelp>"
+msgstr ""
+
+#. FUWpn
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3148946\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040300.xhp\">Go to Agenda Wizard - Headings to include</link>"
+msgstr "<link href=\"text/shared/autopi/01040300.xhp\">アジェンダウィザード - 使用する見出し に進む</link>"
+
+#. Q5JDB
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Headings to include"
+msgstr "アジェンダウィザード - 使用する見出し"
+
+#. sS3Ai
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040300.xhp\">Agenda Wizard - Headings to include</link>"
+msgstr "<link href=\"text/shared/autopi/01040300.xhp\">アジェンダウィザード - 使用する見出し</link>"
+
+#. yBn6A
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_id3157898\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE3\">Specifies the headings that you want to include in the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE3\">アジェンダに表示する見出しを選択します。</ahelp>"
+
+#. GdA4w
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Type of meeting"
+msgstr "会議の種類"
+
+#. RF7Bc
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print the type of meeting line.</ahelp>"
+msgstr "<ahelp hid=\".\">会議の種類行を印刷するかどうかを指定します。</ahelp>"
+
+#. uENde
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Please read"
+msgstr "参考資料"
+
+#. grxGw
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Please read line.</ahelp>"
+msgstr "<ahelp hid=\".\">参考資料行を印刷するかどうかを指定します。</ahelp>"
+
+#. DxEWX
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Please bring"
+msgstr "持ち物"
+
+#. sxFqg
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Please bring line.</ahelp>"
+msgstr "<ahelp hid=\".\">持ち物行を印刷するかどうかを指定します。</ahelp>"
+
+#. FJa3j
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Notes"
+msgstr "ノート"
+
+#. wAJ3E
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Notes line.</ahelp>"
+msgstr "<ahelp hid=\".\">ノート行を印刷するかどうかを指定します。</ahelp>"
+
+#. qPJUT
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040400.xhp\">Go to Agenda Wizard - Names</link>"
+msgstr "<link href=\"text/shared/autopi/01040400.xhp\">アジェンダウィザード - 名前 に進む</link>"
+
+#. zECC7
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Names"
+msgstr "アジェンダウィザード - 名前"
+
+#. LLyji
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"hd_id3143284\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040400.xhp\">Agenda Wizard - Names</link>"
+msgstr "<link href=\"text/shared/autopi/01040400.xhp\">アジェンダウィザード - 名前</link>"
+
+#. emLhT
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_id3152363\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE4\">Specifies the names to be printed on the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE4\">アジェンダに表示する名前を選択します。</ahelp>"
+
+#. 8aXPP
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Meeting called by"
+msgstr "発議者"
+
+#. XV5jU
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the person who called the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">会議の招集者を入力できる行を印刷するかどうかを指定します。</ahelp>"
+
+#. Zs7oS
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Chairperson"
+msgstr "議長"
+
+#. g2ENf
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the chairperson.</ahelp>"
+msgstr "<ahelp hid=\".\">議長を入力できる行を印刷するかどうかを指定します。</ahelp>"
+
+#. sCW9u
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Minute keeper"
+msgstr "タイムキーパー"
+
+#. fCEm5
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the minute keeper.</ahelp>"
+msgstr "<ahelp hid=\".\">タイムキーパーを入力できる行を印刷するかどうかを指定します。</ahelp>"
+
+#. FFnFU
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Moderator"
+msgstr "司会者"
+
+#. xteNq
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the moderator.</ahelp>"
+msgstr "<ahelp hid=\".\">司会者を入力できる行を印刷するかどうかを指定します。</ahelp>"
+
+#. 5GWEM
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105F6\n"
+"help.text"
+msgid "Attendees"
+msgstr "出席者"
+
+#. 8AmH5
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the attendees.</ahelp>"
+msgstr "<ahelp hid=\".\">出席者を入力できる行を印刷するかどうかを指定します。</ahelp>"
+
+#. wUrJw
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105FD\n"
+"help.text"
+msgid "Observers"
+msgstr "オブザーバー"
+
+#. AXc3C
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10601\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the observers.</ahelp>"
+msgstr "<ahelp hid=\".\">傍聴者を入力できる行を印刷するかどうかを指定します。</ahelp>"
+
+#. wDRLD
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10604\n"
+"help.text"
+msgid "Facility personnel"
+msgstr "施設担当者"
+
+#. TwjCN
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10608\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the facility personnel.</ahelp>"
+msgstr "<ahelp hid=\".\">施設担当者を入力できる行を印刷するかどうかを指定します。</ahelp>"
+
+#. aGeGK
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_id3150275\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040500.xhp\">Go to Agenda Wizard - Agenda Items</link>"
+msgstr "<link href=\"text/shared/autopi/01040500.xhp\">アジェンダウィザード - アジェンダの項目 に進む</link>"
+
+#. STCc4
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Agenda Items"
+msgstr "アジェンダウィザード - アジェンダの項目"
+
+#. BRFWD
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"hd_id3159224\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040500.xhp\">Agenda Wizard - Agenda Items</link>"
+msgstr "<link href=\"text/shared/autopi/01040500.xhp\">アジェンダウィザード - アジェンダの項目</link>"
+
+#. BDRvF
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_id3147143\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE5\">Specifies the topics to be printed on the agenda template.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE5\">アジェンダテンプレートに表示する議題の項目を指定します。</ahelp>"
+
+#. 9fX5B
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Topics"
+msgstr "アジェンダの項目"
+
+#. 4WUYv
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the agenda topics. Use the Move up and Move down buttons to sort the topics.</ahelp>"
+msgstr "<ahelp hid=\".\">アジェンダの議題の項目を入力します。議題の項目を並べ替えるには、「上へ移動」ボタンと「下へ移動」ボタンを使用します。</ahelp>"
+
+#. GwCL3
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105DD\n"
+"help.text"
+msgid "Insert"
+msgstr "挿入"
+
+#. ZUpjc
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts a new empty topic row above the current row.</ahelp>"
+msgstr "<ahelp hid=\".\">現在の行の上に、新しい空の議題の項目行を挿入します。</ahelp>"
+
+#. eQ47V
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "Remove"
+msgstr "削除"
+
+#. GT2qp
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Removes the current topic row.</ahelp>"
+msgstr "<ahelp hid=\".\">現在の議題の項目行を削除します。</ahelp>"
+
+#. swdtC
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "Move up"
+msgstr "上へ移動"
+
+#. 4qETi
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Moves the current topic row up.</ahelp>"
+msgstr "<ahelp hid=\".\">現在の議題の項目行を上に移動します。</ahelp>"
+
+#. YRUBi
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Move down"
+msgstr "下へ移動"
+
+#. Na8AX
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105F2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Moves the current topic row down.</ahelp>"
+msgstr "<ahelp hid=\".\">現在の議題の項目行を下に移動します。</ahelp>"
+
+#. 92RXq
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_id3146798\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040600.xhp\">Go to Agenda Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01040600.xhp\">アジェンダウィザード - 名前と場所に進む</link>"
+
+#. H9Wbq
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Name and Location"
+msgstr "アジェンダウィザード - 名前と場所"
+
+#. DJrxQ
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"hd_id3144740\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040600.xhp\">Agenda Wizard - Name and Location</link>"
+msgstr "<link href=\"text/shared/autopi/01040600.xhp\">アジェンダウィザード - 名前と場所</link>"
+
+#. viGf3
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE6\">Choose the title and location for the agenda template.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE6\">アジェンダテンプレートのタイトルと保存場所を選択します。</ahelp>"
+
+#. zdHND
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Template title"
+msgstr "テンプレートのタイトル"
+
+#. SdS6f
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the agenda template.</ahelp>"
+msgstr "<ahelp hid=\".\">アジェンダテンプレートの名前を指定します。</ahelp>"
+
+#. kToFw
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Path"
+msgstr "パス"
+
+#. iDkAF
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the complete path, including the file name of the agenda template.</ahelp>"
+msgstr "<ahelp hid=\".\">アジェンダテンプレートのファイル名を含む絶対パスを指定します。</ahelp>"
+
+#. rLKcW
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Create an agenda from this template"
+msgstr "このテンプレートからアジェンダを作成"
+
+#. fLXtF
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the agenda template, then opens a new agenda document based on that template.</ahelp>"
+msgstr "<ahelp hid=\".\">アジェンダテンプレートを作成して保存し、そのテンプレートに基づいて、新しいアジェンダドキュメントを開きます。</ahelp>"
+
+#. Ai5bf
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Make manual changes to this template"
+msgstr "この議題テンプレートを手動で変更"
+
+#. 4PFkD
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the agenda template, then opens the template for further editing.</ahelp>"
+msgstr "<ahelp hid=\".\">アジェンダテンプレートを作成して保存し、編集用にテンプレートを開きます。</ahelp>"
+
+#. 8PBRB
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105F6\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040000.xhp\">Go to Agenda Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01040000.xhp\">アジェンダウィザードに進む</link>"
+
+#. 4DsCG
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard"
+msgstr "フォームウィザード"
+
+#. XGnsy
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"bm_id9834894\n"
+"help.text"
+msgid "<bookmark_value>forms;wizards</bookmark_value><bookmark_value>wizards;forms</bookmark_value>"
+msgstr "<bookmark_value>フォーム; ウィザード</bookmark_value><bookmark_value>ウィザード; フォーム</bookmark_value>"
+
+#. 6y3yt
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "Form Wizard"
+msgstr "フォームウィザード"
+
+#. xPnbC
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_id3150247\n"
+"help.text"
+msgid "<variable id=\"formular\"><ahelp hid=\"HID_DLGFORM_DIALOG\">Activates the Wizard for creating forms.</ahelp></variable>"
+msgstr "<variable id=\"formular\"><ahelp hid=\"HID_DLGFORM_DIALOG\">フォーム作成のためのウィザードが起動します。</ahelp></variable>"
+
+#. uGE5s
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_id3152801\n"
+"help.text"
+msgid "Select the form properties using the following steps:"
+msgstr "次の手順に従って、フォームの属性を選択します。"
+
+#. WHBV8
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_idN10686\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to create the form without answering further pages.</ahelp>"
+msgstr "<ahelp hid=\".\">クリックすると、以降のページの質問に答えることなくフォームを作成します。</ahelp>"
+
+#. uDz4j
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Field Selection"
+msgstr "フォームウィザード: データベース選択"
+
+#. dhmCd
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090100.xhp\">Form Wizard - Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01090100.xhp\">フォームウィザード - フィールド選択</link>"
+
+#. q2PHa
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3150445\n"
+"help.text"
+msgid "On this page of the <link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link>, you can specify the table or query that you need to create the form as well as the fields that you want to include in the form."
+msgstr ""
+
+#. yohes
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3153750\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "テーブルまたはクエリー"
+
+#. Dm9se
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3147399\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the table or query that you want to create the form for.</ahelp>"
+msgstr ""
+
+#. A74SN
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3153527\n"
+"help.text"
+msgid "Available fields"
+msgstr "使用可能なフィールド"
+
+#. 5ttQz
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3149095\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the names of the data base fields in the selected table or query.</ahelp> Click to select a field or hold down the Shift or the <switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while you click to select more than one field."
+msgstr ""
+
+#. 783iE
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3150443\n"
+"help.text"
+msgid ">"
+msgstr ">"
+
+#. jAh8F
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3148538\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. mkvek
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3154142\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. 8PpZf
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3145121\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. WXSxV
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3155419\n"
+"help.text"
+msgid "<"
+msgstr "<"
+
+#. emTFp
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3149763\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. SnCSD
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3159399\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. EBDCd
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3156329\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. SsZdG
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN1074A\n"
+"help.text"
+msgid "^"
+msgstr "^"
+
+#. FCjSo
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN1074E\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field up one entry in the list.</ahelp>"
+msgstr "<ahelp hid=\".\">選択したフィールドをリスト内で項目 1 つ分上に移動するには、ここをクリックします。</ahelp>"
+
+#. hVfmg
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN10751\n"
+"help.text"
+msgid "v"
+msgstr "v"
+
+#. A3Vcv
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN10755\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field down one entry in the list.</ahelp>"
+msgstr "<ahelp hid=\".\">選択したフィールドをリスト内で項目 1 つ分下に移動するには、ここをクリックします。</ahelp>"
+
+#. VBmtN
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3147618\n"
+"help.text"
+msgid "Fields in the form"
+msgstr "フォーム内のフィールド"
+
+#. REATC
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3156194\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the fields that are in the new form.</ahelp>"
+msgstr ""
+
+#. zPdeU
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3150398\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090200.xhp\">Form Wizard - Set up a subform</link>"
+msgstr "<link href=\"text/shared/autopi/01090200.xhp\">フォームウィザード - サブフォームを設定</link>"
+
+#. fwpB4
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set up a Subform"
+msgstr "フォームウィザード - サブフォームを設定"
+
+#. aDCAa
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090200.xhp\">Form Wizard - Set up a Subform</link>"
+msgstr "<link href=\"text/shared/autopi/01090200.xhp\">フォームウィザード - サブフォームの設定</link>"
+
+#. 2n64M
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specify if you want to use a subform and enter the subform's properties. A subform is a form that is inserted in another form."
+msgstr "サブフォームを使用してサブフォームのプロパティを入力するかどうかを指定します。サブフォームとは、別のフォーム内に挿入されるフォームのことです。"
+
+#. kPtFb
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Add subform"
+msgstr "サブフォームの追加"
+
+#. SnVCG
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105B4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to add a subform.</ahelp>"
+msgstr "<ahelp hid=\".\">サブフォームを追加する場合に選択します。</ahelp>"
+
+#. Y6FNL
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "Sub form based on existing relation"
+msgstr "既存のリレーションに基づくサブフォーム"
+
+#. 5GTNB
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to add a subform based on an existing relation.</ahelp>"
+msgstr "<ahelp hid=\".\">既存のリレーションに基づいてサブフォームを追加するには、ここをクリックします。</ahelp>"
+
+#. h4Dpj
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN1055E\n"
+"help.text"
+msgid "Which relation do you want to add?"
+msgstr "どのリレーションを追加しますか?"
+
+#. tB7nj
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the relation on which the subform is based.</ahelp>"
+msgstr "<ahelp hid=\".\">サブフォームのベースとなるリレーションを選択します。</ahelp>"
+
+#. NTiTM
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105D1\n"
+"help.text"
+msgid "Sub form based on manual selection of fields"
+msgstr "フィールドの手動選択に基づくサブフォーム"
+
+#. qqGFs
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105DF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to add a subform based on a manual selection of fields. </ahelp>"
+msgstr "<ahelp hid=\".\">フィールドの手動選択に基づいてサブフォームを追加するには、ここをクリックします。</ahelp>"
+
+#. Japf2
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090210.xhp\">Form Wizard - Add subform fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090210.xhp\">フォームウィザード - サブフォームフィールドの追加</link>"
+
+#. pRjtt
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Add Subform Fields"
+msgstr "フォームウィザード - サブフォームフィールドを追加"
+
+#. GFBi4
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10546\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090210.xhp\">Form Wizard - Add Subform Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090210.xhp\">フォームウィザード - サブフォームフィールドの追加</link>"
+
+#. 72CSC
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Specify the table or query you need to create the subform, and which fields you wish to include in the subform."
+msgstr "サブフォームの作成に必要なテーブルまたはクエリーを指定し、サブフォームにどのフィールドを含めるかも指定します。"
+
+#. hRCY6
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10559\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "テーブルまたはクエリー"
+
+#. ztKcK
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the table or query for which the subform is to be created.</ahelp>"
+msgstr "<ahelp hid=\".\">サブフォームが作成される表またはクエリーを指定します。</ahelp>"
+
+#. TSkRs
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10590\n"
+"help.text"
+msgid "Fields in my subform"
+msgstr "サブフォーム内のフィールド"
+
+#. ZgoQx
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10594\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays all fields that will be included in the new subform.</ahelp>"
+msgstr "<ahelp hid=\".\">新しいサブフォームに含まれるすべてのフィールドを表示します。</ahelp>"
+
+#. hM6Xf
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10597\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090220.xhp\">Form Wizard - Get joined fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090220.xhp\">フォームウィザード - 結合フィールドの取得</link>"
+
+#. 6F3Mi
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Get Joined Fields"
+msgstr "フォームウィザード - 結合されたフィールドを取得します"
+
+#. jTMsz
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090220.xhp\">Form Wizard - Get Joined Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090220.xhp\">フォームウィザード - 結合フィールドの取得</link>"
+
+#. GwQwB
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "If you chose in step 2 to set up a subform based on manual selection of fields, you can select the joined fields on this wizard page."
+msgstr "ステップ 2 で、フィールドの手動選択に基づいてサブフォームを設定することを選択した場合、このウィザードページでは結合されたフィールドを選択できます。"
+
+#. uLL8F
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "First joined subform field"
+msgstr "最初に結合されたサブフォームフィールド"
+
+#. cZFUw
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105B4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">メインフォームフィールドに参加させるサブフォームフィールドを、このリストボックスの隣にあるリストボックスから選択します。</ahelp>"
+
+#. bDvEk
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105B9\n"
+"help.text"
+msgid "First joined main form field"
+msgstr "最初に結合されたメインフォームフィールド"
+
+#. TC65e
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105BF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">サブフォームフィールドに参加させるメインフォームフィールドを、このリストボックスの隣にあるリストボックスから選択します。</ahelp>"
+
+#. 3JBGE
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105CE\n"
+"help.text"
+msgid "Second joined subform field"
+msgstr "2 番目に結合されたサブフォームフィールド"
+
+#. SLyVM
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">メインフォームフィールドに参加させるサブフォームフィールドを、このリストボックスの隣にあるリストボックスから選択します。</ahelp>"
+
+#. SL3kU
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D5\n"
+"help.text"
+msgid "Second joined main form field"
+msgstr "2 番目に結合されたメインフォームフィールド"
+
+#. FZGFD
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">サブフォームフィールドに参加させるメインフォームフィールドを、このリストボックスの隣にあるリストボックスから選択します。</ahelp>"
+
+#. hgafV
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105DC\n"
+"help.text"
+msgid "Third joined subform field"
+msgstr "3 番目に結合されたサブフォームフィールド"
+
+#. HGBBJ
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">メインフォームフィールドに参加させるサブフォームフィールドを、このリストボックスの隣にあるリストボックスから選択します。</ahelp>"
+
+#. ARbDE
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "Third joined main form field"
+msgstr "3 番目に結合されたメインフォームフィールド"
+
+#. GsVHD
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">サブフォームフィールドに参加させるメインフォームフィールドを、このリストボックスの隣にあるリストボックスから選択します。</ahelp>"
+
+#. Aemww
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105EA\n"
+"help.text"
+msgid "Fourth joined subform field"
+msgstr "4 番目に結合されたサブフォームフィールド"
+
+#. PDajP
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105EE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">メインフォームフィールドに参加させるサブフォームフィールドを、このリストボックスの隣にあるリストボックスから選択します。</ahelp>"
+
+#. ByQB8
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F1\n"
+"help.text"
+msgid "Fourth joined main form field"
+msgstr "4 番目に結合されたメインフォームフィールド"
+
+#. o9LHc
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">サブフォームフィールドに参加させるメインフォームフィールドを、このリストボックスの隣にあるリストボックスから選択します。</ahelp>"
+
+#. PEfee
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F8\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090300.xhp\">Form Wizard - Arrange controls</link>"
+msgstr "<link href=\"text/shared/autopi/01090300.xhp\">フォームウィザード - コントロールの整列</link>"
+
+#. oKc93
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Arrange Controls"
+msgstr "フォームウィザード: レイアウトの選択"
+
+#. vpSXC
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3163829\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090300.xhp\">Form Wizard - Arrange Controls</link>"
+msgstr "<link href=\"text/shared/autopi/01090300.xhp\">フォームウィザード - コントロールの整列</link>"
+
+#. T3rtu
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3153539\n"
+"help.text"
+msgid "On this page of the Wizard, you can select the layout of the created form."
+msgstr "ウィザードのこのページでは、作成したフォームのレイアウトを選択できます。変更内容がドキュメントに直ちに反映されるので、ウィザードを閉じる必要はありません。"
+
+#. FjjD4
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3150791\n"
+"help.text"
+msgid "Label placement"
+msgstr "ラベル配置"
+
+#. dD3py
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3153379\n"
+"help.text"
+msgid "Align left"
+msgstr "左揃え"
+
+#. Ah2Er
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3151210\n"
+"help.text"
+msgid "<ahelp hid=\".\">The labels are left-aligned.</ahelp>"
+msgstr ""
+
+#. ZvFED
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3149169\n"
+"help.text"
+msgid "Align right"
+msgstr "右揃え"
+
+#. ZAjqi
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3148672\n"
+"help.text"
+msgid "<ahelp hid=\".\">The labels are right-aligned.</ahelp>"
+msgstr ""
+
+#. vabKg
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3153682\n"
+"help.text"
+msgid "Arrangement of the main form"
+msgstr "データベースフィールドの整列"
+
+#. jQH2t
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3155892\n"
+"help.text"
+msgid "Columnar - Labels Left"
+msgstr "欄で、ラベル書きは左に"
+
+#. uibgW
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3149388\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp>"
+msgstr ""
+
+#. XPabr
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3145345\n"
+"help.text"
+msgid "Columnar - Labels on Top"
+msgstr "欄で、ラベル書きは上に"
+
+#. x9drS
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3150355\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels above the field.</ahelp>"
+msgstr ""
+
+#. yVG3V
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3147209\n"
+"help.text"
+msgid "As Data Sheet"
+msgstr "データシート形式"
+
+#. SCSyA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3153824\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields in a tabular form.</ahelp>"
+msgstr ""
+
+#. BHFyA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3154897\n"
+"help.text"
+msgid "In Blocks - Labels Above"
+msgstr "ブロックで、ラベル書きは上に"
+
+#. EQENe
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3155421\n"
+"help.text"
+msgid "<ahelp hid=\".\">Arranges the labels above the corresponding data.</ahelp>"
+msgstr ""
+
+#. AxksA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106C9\n"
+"help.text"
+msgid "Arrangement of the subform"
+msgstr "サブフォームの整列"
+
+#. BB8bH
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106D5\n"
+"help.text"
+msgid "Columnar - Labels Left"
+msgstr "欄で、ラベル書きは左に"
+
+#. ixMpR
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106D9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp>"
+msgstr "<ahelp hid=\".\">データベースのフィールドを列単位で、フィールドの左側にあるラベルにそろえます。</ahelp>"
+
+#. 6Asyj
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106DC\n"
+"help.text"
+msgid "Columnar - Labels on Top"
+msgstr "欄で、ラベル書きは上に"
+
+#. AbtoY
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels above the field.</ahelp>"
+msgstr "<ahelp hid=\".\">データベースのフィールドを列単位で、フィールド上部のラベルにそろえます。</ahelp>"
+
+#. xPC4F
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E3\n"
+"help.text"
+msgid "As Data Sheet"
+msgstr "データシート形式"
+
+#. RD3L8
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields in a tabular form.</ahelp>"
+msgstr "<ahelp hid=\".\">データベースのフィールドを表形式でそろえます。</ahelp>"
+
+#. kTVuc
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106EA\n"
+"help.text"
+msgid "In Blocks - Labels Above"
+msgstr "ブロックで、ラベル書きは上に"
+
+#. CkQkF
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106EE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Arranges the labels above the corresponding data.</ahelp>"
+msgstr "<ahelp hid=\".\">対応するデータの上にラベルを整列します。</ahelp>"
+
+#. bF3EF
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106F3\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090400.xhp\">Form Wizard - Set data entry</link>"
+msgstr "<link href=\"text/shared/autopi/01090400.xhp\">フォームウィザード - データエントリの設定</link>"
+
+#. R3iBH
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set Data Entry"
+msgstr "フォームウィザード - データ項目を設定"
+
+#. pEQKk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090400.xhp\">Form Wizard - Set Data Entry</link>"
+msgstr "<link href=\"text/shared/autopi/01090400.xhp\">フォームウィザード - データエントリの設定</link>"
+
+#. cmcmk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the data handling mode for the new form."
+msgstr "新しいフォームのデータ処理モードを指定します。"
+
+#. PaTFE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10558\n"
+"help.text"
+msgid "The form is to be used for entering new data only. Existing data will not be displayed"
+msgstr "フォームは新しいデータの入力のみに使用され、既存のデータは表示されません。"
+
+#. ST8HC
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105B6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a form that is only used for entering new data.</ahelp>"
+msgstr "<ahelp hid=\".\">新しいデータ入力用のフォームを作成します。</ahelp>"
+
+#. 9xAvT
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105BB\n"
+"help.text"
+msgid "The form is to display all data"
+msgstr "フォームはすべてのデータを表示します。"
+
+#. aD8tt
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105C1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a form that can be used to display existing data and to enter new data.</ahelp>"
+msgstr "<ahelp hid=\".\">既存のデータを表示したり、新しいデータを入力したりするのに使用できるフォームを作成します。</ahelp>"
+
+#. hrXuE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN1055C\n"
+"help.text"
+msgid "Do not allow modification of existing data"
+msgstr "既存データの変更を禁止"
+
+#. gUETD
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow editing data.</ahelp>"
+msgstr "<ahelp hid=\".\">データの編集を禁止する場合に選択します。</ahelp>"
+
+#. CkGkM
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105DD\n"
+"help.text"
+msgid "Do not allow deletion of existing data"
+msgstr "既存データの削除を禁止"
+
+#. oWDvk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow deleting data.</ahelp>"
+msgstr "<ahelp hid=\".\">データの削除を禁止する場合に選択します。</ahelp>"
+
+#. FU3KE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E6\n"
+"help.text"
+msgid "Do not allow addition of new data"
+msgstr "新規データの追加を禁止"
+
+#. fGtoB
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow adding new data.</ahelp>"
+msgstr "<ahelp hid=\".\">新しいデータの追加を禁止する場合に選択します。</ahelp>"
+
+#. SqRNq
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E4\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090500.xhp\">Form Wizard - Apply styles</link>"
+msgstr "<link href=\"text/shared/autopi/01090500.xhp\">フォームウィザード - スタイルの適用</link>"
+
+#. ZDqNF
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Apply Styles"
+msgstr "フォームウィザード - スタイルを適用"
+
+#. r5BGE
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090500.xhp\">Form Wizard - Apply Styles</link>"
+msgstr "<link href=\"text/shared/autopi/01090500.xhp\">フォームウィザード - スタイルの適用</link>"
+
+#. gfLGt
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the form style."
+msgstr "フォームスタイルを指定します。"
+
+#. c7yFt
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Apply styles"
+msgstr "スタイルの適用"
+
+#. HM2Xs
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the page style for the form.</ahelp>"
+msgstr "<ahelp hid=\".\">フォームのページスタイルを指定します。</ahelp>"
+
+#. CD52v
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "Field border"
+msgstr "フィールド枠"
+
+#. u7WYC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10561\n"
+"help.text"
+msgid "Specifies the field border style."
+msgstr ""
+
+#. ktcNg
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10564\n"
+"help.text"
+msgid "No border"
+msgstr "外枠なし"
+
+#. LDYVC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10568\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the fields have no border.</ahelp>"
+msgstr "<ahelp hid=\".\">フィールドの外枠を表示しないことを指定します。</ahelp>"
+
+#. ogq9S
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1056B\n"
+"help.text"
+msgid "3D look"
+msgstr "3D ルック"
+
+#. 8yTjp
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1056F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the field borders have a 3D look.</ahelp>"
+msgstr "<ahelp hid=\".\">フィールドの外枠を 3D で表示することを指定します。</ahelp>"
+
+#. fGEET
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10572\n"
+"help.text"
+msgid "Flat"
+msgstr "フラット"
+
+#. 3LvLa
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10576\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the field borders look flat.</ahelp>"
+msgstr "<ahelp hid=\".\">フィールドの外枠を平坦に表示することを指定します。</ahelp>"
+
+#. FtrrC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10579\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090600.xhp\">Form Wizard - Set name</link>"
+msgstr "<link href=\"text/shared/autopi/01090600.xhp\">フォームウィザード - 名前の設定</link>"
+
+#. kFiaa
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set Name"
+msgstr "フォームウィザード - 名前を設定します"
+
+#. 83jJk
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090600.xhp\">Form Wizard - Set Name</link>"
+msgstr "<link href=\"text/shared/autopi/01090600.xhp\">フォームウィザード - 名前の設定</link>"
+
+#. kuq7q
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the name of the form and how to proceed."
+msgstr ""
+
+#. ydyFn
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Name of the form"
+msgstr "フォームの名前"
+
+#. 2kzEM
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the form.</ahelp>"
+msgstr "<ahelp hid=\".\">フォームの名前を指定します。</ahelp>"
+
+#. yMPCS
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "Work with the form"
+msgstr "フォームを使用した操作"
+
+#. zDoPU
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the form, and opens it as a form document to enter and display data.</ahelp>"
+msgstr "<ahelp hid=\".\">フォームを保存して、そのフォームを、データを入力または表示できるフォームドキュメントとして開きます。</ahelp>"
+
+#. DVqM9
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10563\n"
+"help.text"
+msgid "Modify the form"
+msgstr "フォームの変更"
+
+#. hSQZP
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the form, and opens it in edit mode to change the layout.</ahelp>"
+msgstr "<ahelp hid=\".\">フォームを保存して、そのフォームを、レイアウトを変更できる編集モードで開きます。</ahelp>"
+
+#. qDmWk
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10569\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01090000.xhp\">フォームウィザード</link>"
+
+#. 9GEmD
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard"
+msgstr "レポートウィザード"
+
+#. Ljpsw
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"hd_id3150499\n"
+"help.text"
+msgid "Report Wizard"
+msgstr "レポートウィザード"
+
+#. Wxizv
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"par_id3145071\n"
+"help.text"
+msgid "<variable id=\"report\"><ahelp hid=\".\">Activates the wizard for creating reports.</ahelp></variable>"
+msgstr ""
+
+#. JBzBF
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"par_id3152780\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the report properties.</ahelp>"
+msgstr "<ahelp hid=\".\">レポートのプロパティを選択します。</ahelp>"
+
+#. jjzfj
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Field Selection"
+msgstr "レポートウィザード - フィールド選択"
+
+#. Adyxy
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100100.xhp\">Report Wizard - Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01100100.xhp\">レポートウィザード - フィールド選択</link>"
+
+#. k9HWM
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150476\n"
+"help.text"
+msgid "Specifies the table or query for which you are creating the report, and which fields you wish to include in the report."
+msgstr ""
+
+#. UFBD8
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3156136\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "テーブルまたはクエリー"
+
+#. tM6DC
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3147043\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the table or query for which the report is to be created.</ahelp>"
+msgstr ""
+
+#. CbuDf
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3147008\n"
+"help.text"
+msgid "Available fields"
+msgstr "使用可能なフィールド"
+
+#. uK9gE
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the names of the data base fields in the selected table or query.</ahelp> Click to select a field or press the Shift or <switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while clicking to select multiple fields."
+msgstr ""
+
+#. TbTWD
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3153031\n"
+"help.text"
+msgid "Fields in report"
+msgstr "レポートのフィールド"
+
+#. FXTGe
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3147275\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays all fields that are included in the new report.</ahelp>"
+msgstr ""
+
+#. bYCJA
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3147209\n"
+"help.text"
+msgid ">"
+msgstr ">"
+
+#. XFRnY
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3152350\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. H3BpD
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3159269\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. erhB6
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3149784\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. kFZoZ
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3153146\n"
+"help.text"
+msgid "<"
+msgstr "<"
+
+#. VoFm5
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150275\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. DHsy3
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3149233\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. fZExB
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. ebFt7
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3145609\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100150.xhp\">More about Report Wizard - Labeling Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01100150.xhp\">(続き) レポートウィザード - ラベル付けフィールド</link>"
+
+#. CU6F5
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Labeling Fields"
+msgstr "レポートウィザード - フィールドのラベル付け"
+
+#. w745A
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"hd_id3144415\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100150.xhp\">Report Wizard - Labeling Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01100150.xhp\">レポートウィザード - ラベル付けフィールド</link>"
+
+#. GsVRi
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "Specifies how you want to label the fields."
+msgstr ""
+
+#. FbLt4
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"hd_id3155805\n"
+"help.text"
+msgid "Field list"
+msgstr "フィールドリスト"
+
+#. cyewr
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3150774\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the names of the fields to be included in the report. At the right you can enter a label for each field that will be printed in the report.</ahelp>"
+msgstr ""
+
+#. 3ZFEY
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3153748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100200.xhp\">More about Report Wizard - Grouping</link>"
+msgstr "<link href=\"text/shared/autopi/01100200.xhp\">(続き) レポートウィザード - 分類</link>"
+
+#. BUhYd
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Grouping"
+msgstr "レポートウィザード - 分類"
+
+#. zPKjm
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3147000\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100200.xhp\">Report Wizard - Grouping</link>"
+msgstr "<link href=\"text/shared/autopi/01100200.xhp\">レポートウィザード - 分類</link>"
+
+#. UURLb
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3163829\n"
+"help.text"
+msgid "You can group records in a report based on the values in one or more fields. Select the fields by which the resulting report will be grouped. You can group up to four fields in a report. When you group more than one field, $[officename] nests the groups according to their group level."
+msgstr ""
+
+#. 8NNsd
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3149760\n"
+"help.text"
+msgid "Fields"
+msgstr "フィールド"
+
+#. hbLB2
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the fields from your selection on the previous page of the Wizard. To group the report by a field, select the field name, then click the <emph>></emph> button. You may select up to four levels of grouping.</ahelp>"
+msgstr ""
+
+#. 2Sj4h
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3155552\n"
+"help.text"
+msgid "Groupings"
+msgstr "分類"
+
+#. 6WbLz
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3155892\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the fields by which the report will be grouped. To remove one level of grouping, select the field name, then click the <emph><</emph> button. You may select up to four levels of grouping.</ahelp>"
+msgstr ""
+
+#. wWSqE
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3154289\n"
+"help.text"
+msgid ">"
+msgstr ">"
+
+#. bedJG
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3157958\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. jVAxH
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3154823\n"
+"help.text"
+msgid "<"
+msgstr "<"
+
+#. oEZnJ
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. uTa48
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3150355\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100300.xhp\">More about Report Wizard - Sort Options</link>"
+msgstr "<link href=\"text/shared/autopi/01100300.xhp\">(続き) レポートウィザード - ソートオプション</link>"
+
+#. HPGPg
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Sort Options"
+msgstr "レポートウィザード - ソートオプション"
+
+#. VzFbG
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3148668\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100300.xhp\">Report Wizard - Sort Options</link>"
+msgstr "<link href=\"text/shared/autopi/01100300.xhp\">レポートウィザード - ソートオプション</link>"
+
+#. RSArv
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3148520\n"
+"help.text"
+msgid "Select the fields by which to sort the report. Fields can be sorted by up to four levels, each either ascending or descending. Grouped fields can only be sorted within each group."
+msgstr ""
+
+#. uDGaD
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3149205\n"
+"help.text"
+msgid "Sort by"
+msgstr "表示順序"
+
+#. ECFCo
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3155555\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the first field by which to sort the report.</ahelp>"
+msgstr ""
+
+#. resUF
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3154751\n"
+"help.text"
+msgid "Then by"
+msgstr "2 番目に優先されるキー"
+
+#. FcTDC
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3149182\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select an additional field by which to sort the report.</ahelp>"
+msgstr ""
+
+#. yiwfs
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3146957\n"
+"help.text"
+msgid "Ascending"
+msgstr "昇順"
+
+#. Cvpkb
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sorts the field contents in ascending order.</ahelp>"
+msgstr ""
+
+#. EoPCs
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3147653\n"
+"help.text"
+msgid "Descending"
+msgstr "降順"
+
+#. A25vE
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3156113\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sorts the field contents in descending order.</ahelp>"
+msgstr ""
+
+#. aT4Eu
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3156329\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100400.xhp\">More about Report Wizard - Choose Layout</link>"
+msgstr "<link href=\"text/shared/autopi/01100400.xhp\">(続き) レポートウィザード - レイアウトの選択</link>"
+
+#. 8Gkxm
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Choose Layout"
+msgstr "レポートウィザード - レイアウトの選択"
+
+#. 3d3Bi
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3148668\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100400.xhp\">Report Wizard - Choose Layout</link>"
+msgstr "<link href=\"text/shared/autopi/01100400.xhp\">レポートウィザード - レイアウトの選択</link>"
+
+#. aPVFq
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154894\n"
+"help.text"
+msgid "Choose the layout from different templates and styles, and choose landscape or portrait page orientation."
+msgstr ""
+
+#. QmVbY
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3145345\n"
+"help.text"
+msgid "Layout of data"
+msgstr "データのレイアウト"
+
+#. xFhp9
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines a set of styles for the report. The styles assign fonts, indents, table background, and more.</ahelp>"
+msgstr ""
+
+#. ZNEUQ
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3145071\n"
+"help.text"
+msgid "Layout of headers and footers"
+msgstr "ヘッダーとフッターのレイアウト"
+
+#. cJ5Sk
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3152551\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines a page layout for the report. The page layouts are loaded from template files, which assign a header, footer, and page background.</ahelp>"
+msgstr ""
+
+#. gRJX6
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3152996\n"
+"help.text"
+msgid "Orientation"
+msgstr "方向"
+
+#. D4ZfK
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "Choose the page orientation for the report."
+msgstr "レポートのページの向きを指定します。"
+
+#. BrBYq
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3156347\n"
+"help.text"
+msgid "Landscape"
+msgstr "横"
+
+#. mVVHx
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3145382\n"
+"help.text"
+msgid "<ahelp hid=\".\">Selects a landscape page orientation for the report.</ahelp>"
+msgstr ""
+
+#. M8S4j
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3149233\n"
+"help.text"
+msgid "Portrait"
+msgstr "縦"
+
+#. 2GXYz
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154285\n"
+"help.text"
+msgid "<ahelp hid=\".\">Selects a portrait page orientation for the report.</ahelp>"
+msgstr ""
+
+#. CwwC2
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3148491\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100500.xhp\">More about Report Wizard - Create Report</link>"
+msgstr "<link href=\"text/shared/autopi/01100500.xhp\">(続き) レポートウィザード - レポートの作成</link>"
+
+#. KwNon
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Create Report"
+msgstr "レポートウィザード - レポートの作成"
+
+#. DBGWP
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3156211\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100500.xhp\">Report Wizard - Create Report</link>"
+msgstr "<link href=\"text/shared/autopi/01100500.xhp\">レポートウィザード - レポートの作成</link>"
+
+#. G5N3i
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3159224\n"
+"help.text"
+msgid "You can create the report as a static or dynamic report. When you open a dynamic report, it will display with the current data contents. When you open a static report, it will always display the same data from the time when the static report was created."
+msgstr ""
+
+#. TEwgC
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3145669\n"
+"help.text"
+msgid "Title of report"
+msgstr "レポート名"
+
+#. FvqnT
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3156136\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title that is printed at the title line of each page.</ahelp>"
+msgstr ""
+
+#. HmVap
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3157910\n"
+"help.text"
+msgid "Static report"
+msgstr "スタティックなレポート"
+
+#. LDxSX
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3149580\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the report as a static report. When you open a static report, it will always display the data from the time the report was created.</ahelp>"
+msgstr ""
+
+#. TtnAs
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3154751\n"
+"help.text"
+msgid "Dynamic report"
+msgstr "自動レポート"
+
+#. EQjod
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the report as a template. When you open a dynamic report, it will display with the current data contents.</ahelp>"
+msgstr ""
+
+#. FEAko
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3148538\n"
+"help.text"
+msgid "Modify report layout"
+msgstr "レポートテンプレートの編集を続ける"
+
+#. UvDe7
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<ahelp hid=\".\">When you click <emph>Finish</emph>, the report will be saved and opened for edit.</ahelp>"
+msgstr ""
+
+#. 58YBL
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3153127\n"
+"help.text"
+msgid "Create report now"
+msgstr "レポートテンプレートをすぐ使用する"
+
+#. GwGyH
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3156194\n"
+"help.text"
+msgid "<ahelp hid=\".\">When you click <emph>Finish</emph>, the report will be saved.</ahelp>"
+msgstr ""
+
+#. CEeC5
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard"
+msgstr "グループエレメントウィザード"
+
+#. bt2jX
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"hd_id3149031\n"
+"help.text"
+msgid "Group Element Wizard"
+msgstr "グループエレメントウィザード"
+
+#. LZVXR
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"par_id3151097\n"
+"help.text"
+msgid "The Group Element Wizard starts automatically when you insert a <link href=\"text/shared/02/01170000.xhp\">Group Box</link> into a document."
+msgstr "ドキュメントに <link href=\"text/shared/02/01170000.xhp\">グループボックス</link> を挿入すると、グループエレメントウィザードが自動的に開始します。"
+
+#. 5ftFD
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"hd_id3145071\n"
+"help.text"
+msgid "Create"
+msgstr "完了"
+
+#. SrWfY
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LISTWIZARD_FINISH\">Creates the object.</ahelp>"
+msgstr "<ahelp hid=\"HID_LISTWIZARD_FINISH\">オブジェクトを作成します。</ahelp>"
+
+#. M8QEd
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Data"
+msgstr "グループエレメントウィザード: データ"
+
+#. xgNjY
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120100.xhp\">Group Element Wizard: Data</link>"
+msgstr "<link href=\"text/shared/autopi/01120100.xhp\">グループエレメントウィザード: データ</link>"
+
+#. jS7JL
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154894\n"
+"help.text"
+msgid "Specifies which option fields are contained inside the group box."
+msgstr "グループボックスに含めるオプションフィールドを指定します。"
+
+#. DFFfh
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3153894\n"
+"help.text"
+msgid "Which names do you want to give the option fields?"
+msgstr "オプションフィールドはどのような名前にするべきでしょうか？"
+
+#. RMqcA
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154673\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiolabels\" visibility=\"visible\">Specifies the respective label for each option field. You will see the label of the option field in the form.</ahelp> This entry corresponds to the <link href=\"text/shared/02/01170101.xhp\">Label</link> property of the option field."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiolabels\" visibility=\"visible\">個々のオプションフィールドのタイトル名を 1 つずつ入力します。フォーム上のオプションフィールドには、ここで指定するタイトル名が表示されます。</ahelp>この項目は、オプションフィールドの<link href=\"text/shared/02/01170101.xhp\">タイトル</link>属性に該当します。"
+
+#. ZExvE
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3155805\n"
+"help.text"
+msgid "Accept"
+msgstr "取り込み"
+
+#. 7XPNw
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3147008\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. TEzQK
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3153345\n"
+"help.text"
+msgid "<ahelp visibility=\"visible\" hid=\"modules/sabpilot/ui/groupradioselectionpage/toright\">Confirms the current label and copies the label to the <emph>Option fields</emph> list.</ahelp>"
+msgstr ""
+
+#. UFmvH
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "Enter the label for each option field of the group that you want to create and copy the label to the list by clicking the arrow button. Repeat this procedure until all the option fields are defined."
+msgstr "同じグループに挿入されるそれぞれのオプションフィールドに対して、名前をつけて、それらの名前を矢印ボタンをマウスでクリックしてオプションフィールドのリストに取り込みます。この作業を全てのオプションフィールドが取り込まれるまで続けます。"
+
+#. iNRfq
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3150443\n"
+"help.text"
+msgid "Option fields"
+msgstr "オプションフィールド"
+
+#. qWPvJ
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3152996\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiobuttons\" visibility=\"visible\">Displays all option fields which have to be included in the group box.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiobuttons\" visibility=\"visible\">グループボックスに表示されるすべてのオプションフィールドが一覧表示されます。</ahelp>"
+
+#. fDsAQ
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3146949\n"
+"help.text"
+msgid "Remove"
+msgstr "削除"
+
+#. ABcDi
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3153561\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. CJoAh
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3159157\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/toleft\" visibility=\"visible\">Removes the selected option fields from the list.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/toleft\" visibility=\"visible\">選択したオプションフィールドをリストから削除します。</ahelp>"
+
+#. M3CGF
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Default Field Selection"
+msgstr "グループエレメントウィザード: 標準フィールド選択"
+
+#. 3f4Rt
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3151299\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120200.xhp\">Group Element Wizard: Default Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01120200.xhp\">グループエレメントウィザード: 標準フィールド選択</link>"
+
+#. jbMoc
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3144740\n"
+"help.text"
+msgid "Determines that you want one option field to be selected as the default choice."
+msgstr "デフォルト (標準) の選択肢として、オプションフィールドの 1 つを選択状態にしておくかを指定します。"
+
+#. NF68U
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3154094\n"
+"help.text"
+msgid "The default settings will be accepted if you open the form in the user mode. With these settings you determine the control property <link href=\"text/shared/02/01170101.xhp\">Default Status</link>."
+msgstr "ユーザーモードでフォームを開くと、既定値が適用されます。これらの設定を適用した状態で、コントロール属性<link href=\"text/shared/02/01170101.xhp\">標準ステータス</link>を指定します。"
+
+#. 5Bk7d
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3157896\n"
+"help.text"
+msgid "Should one option field be selected as a default?"
+msgstr "オプションフィールドのどれかを標準的に有効にしますか？"
+
+#. n8eDM
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "Specifies whether you want to set default settings for the option box."
+msgstr "既定値とするオプションボックスの設定をします。"
+
+#. QDuNC
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3147226\n"
+"help.text"
+msgid "Yes, the following:"
+msgstr "はい、次の通りにします。"
+
+#. 4M3qj
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3150774\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionyes\" visibility=\"visible\">Specifies that you want an option field to be selected as a default after opening the form.</ahelp> Choose the option field from the box."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionyes\" visibility=\"visible\">フォームを開く際に、オプションフィールドの 1 つをデフォルトで選択状態とさせます。</ahelp>選択状態とするオプションフィールドは、リストボックスで指定します。"
+
+#. 8FPkc
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3153345\n"
+"help.text"
+msgid "List box"
+msgstr "リストボックス"
+
+#. CJsPp
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3146957\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defselectionfield\" visibility=\"visible\">Select the option field that you want to have as the default when opening the form.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defselectionfield\" visibility=\"visible\">フォームを開く際に、デフォルトで選択しておくオプションフィールドを指定します。</ahelp>"
+
+#. BoGAr
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3147242\n"
+"help.text"
+msgid "No, one particular field is not going to be selected"
+msgstr "いいえ、フィールドは選択しません。"
+
+#. uEAAP
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionno\" visibility=\"visible\">Specifies that you do not want any option field to be the default choice.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionno\" visibility=\"visible\">デフォルトですべてのオプションフィールドを非選択状態とさせます。</ahelp>"
+
+#. HKDPk
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Field Values"
+msgstr "グループエレメントウィザード: フィールド値"
+
+#. oTfsy
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3151097\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120300.xhp\">Group Element Wizard: Field Values</link>"
+msgstr "<link href=\"text/shared/autopi/01120300.xhp\">グループエレメントウィザード: フィールド値</link>"
+
+#. mVBx2
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3151100\n"
+"help.text"
+msgid "Assigns a reference value to each option field."
+msgstr "各オプションフィールドに参照値を割り当てます。"
+
+#. o2nxm
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3153323\n"
+"help.text"
+msgid "Select a field from the option fields list and enter the corresponding <link href=\"text/shared/02/01170101.xhp\">reference value</link>."
+msgstr "オプションフィールドのリストから、フィールドの 1 つを選択して、割り当てる<link href=\"text/shared/02/01170101.xhp\">参照値</link>を指定します。"
+
+#. e8DgD
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3152594\n"
+"help.text"
+msgid "Which value do you want to assign to each option?"
+msgstr "それぞれのオプションにどの値を割り当てますか？"
+
+#. 47Fhy
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3152425\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/optionvalue\" visibility=\"visible\">Select a number or a text as a reference value for the selected option field.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/optionvalue\" visibility=\"visible\">選択したオプションフィールドの参照値とする数字またはテキストを指定します。</ahelp>"
+
+#. 64wRq
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3155555\n"
+"help.text"
+msgid "Option fields"
+msgstr "オプションフィールド"
+
+#. jx2Ha
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3155941\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/radiobuttons\" visibility=\"visible\">Select the option field for which you want to assign the reference value.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/radiobuttons\" visibility=\"visible\">ここで参考値を割り当てするオプションフィールドを選択します。</ahelp>"
+
+#. CTA76
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Database Field"
+msgstr "グループエレメントウィザード: データベースフィールド"
+
+#. BKpyH
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120400.xhp\">Group Element Wizard: Database Field</link>"
+msgstr "<link href=\"text/shared/autopi/01120400.xhp\">グループエレメントウィザード: データベースフィールド</link>"
+
+#. yTnES
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3154094\n"
+"help.text"
+msgid "This page is only visible if the document is linked to a database. It specifies whether the reference values should be saved in the database."
+msgstr "このページが表示されるのは、ドキュメントがデータベースに関連付けられている場合だけです。参照値をデータベースに保存するかどうかを指定します。"
+
+#. FwS4J
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3153255\n"
+"help.text"
+msgid "Indicate where to save the <link href=\"text/shared/02/01170101.xhp\">reference values</link>. A reference value can represent the current state of the group box in a database."
+msgstr "<link href=\"text/shared/02/01170101.xhp\">参照値</link>の保存先を指定します。参照値は、データベース内にグループボックスの現在の状態を示すのに使用できます。"
+
+#. EQAQC
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3149828\n"
+"help.text"
+msgid "This page is only displayed if the document is already linked to a database."
+msgstr "このページが表示されるのは、すでにドキュメントがデータベースに関連付けられている場合だけです。"
+
+#. mHGFo
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3152551\n"
+"help.text"
+msgid "Do you want to save the value in a database field?"
+msgstr "値をデータベースのフィールドに保存しますか？"
+
+#. QExFj
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3154823\n"
+"help.text"
+msgid "Yes, I want to save it in the following database field:"
+msgstr "はい、次のデータベースフィールドへ："
+
+#. 5XkEg
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3156346\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/yesRadiobutton\">Specifies that you want to save the reference values in a database.</ahelp> The values are written in the data field selected in the list box. The list box displays all the field names from the database table that the form is linked to."
+msgstr ""
+
+#. DbbcG
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3145382\n"
+"help.text"
+msgid "List box"
+msgstr "リストボックス"
+
+#. 8ba8P
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3149398\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/storeInFieldCombobox\" visibility=\"hidden\">Select the data field in which the reference values have to be saved.</ahelp>"
+msgstr ""
+
+#. j7eCU
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3153881\n"
+"help.text"
+msgid "No, I only want to save the value in the form."
+msgstr "いいえ、値はフォームだけに保存します。"
+
+#. LWkZN
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3153146\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/noRadiobutton\">Specifies that you want to save the reference values in the form only, and not in the database.</ahelp>"
+msgstr ""
+
+#. VbSgR
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Create Option Group"
+msgstr "グループエレメントウィザード：オプショングループの作成"
+
+#. Xcfm7
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"hd_id3143206\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120500.xhp\">Group Element Wizard: Create Option Group</link>"
+msgstr "<link href=\"text/shared/autopi/01120500.xhp\">グループエレメントウィザード：オプショングループの作成</link>"
+
+#. erbEs
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"par_id3154812\n"
+"help.text"
+msgid "Specifies a label for the option group."
+msgstr "オプショングループの名前を指定します。"
+
+#. cAQMg
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"hd_id3144415\n"
+"help.text"
+msgid "Which caption is to be given to your option group?"
+msgstr "オプショングループにはどのような名前をつけますか？"
+
+#. 4fkc8
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"par_id3163829\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionsfinalpage/nameit\" visibility=\"visible\">Specifies the label for the option box. You will see the label of the group box displayed in the form.</ahelp> The text you enter here will correspond to the <link href=\"text/shared/02/01170101.xhp\">Label</link> property of the group box."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionsfinalpage/nameit\" visibility=\"visible\">オプションボックスの名前を指定します。</ahelp>フォーム上のグループボックスには、ここで指定するタイトル名が表示されます。この項目は、グループボックスの<link href=\"text/shared/02/01170101.xhp\">タイトル</link>属性に該当します。"
+
+#. QbUG5
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document Converter"
+msgstr "ドキュメント変換"
+
+#. szRb9
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"hd_id3149798\n"
+"help.text"
+msgid "Document Converter"
+msgstr "ドキュメント変換"
+
+#. v5SJh
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "<variable id=\"ms\"><ahelp hid=\".\">Copies and converts documents into the OpenDocument XML format used by $[officename].</ahelp></variable>"
+msgstr "<variable id=\"ms\"><ahelp hid=\".\">ドキュメントをコピーして、$[officename] で使用される OpenDocument XML 形式に変換します。</ahelp></variable>"
+
+#. nidaA
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3150775\n"
+"help.text"
+msgid "The wizard converts documents from Microsoft Word, Excel and PowerPoint. The source files are only read, not edited. New target files are written with the new file name extension in the same or a new folder."
+msgstr ""
+
+#. CCGV9
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3156410\n"
+"help.text"
+msgid "The Document Converter Wizard contains the following pages:"
+msgstr "ドキュメント変換ウィザードは、次のページから構成されます。"
+
+#. 9CQNJ
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"hd_id3154318\n"
+"help.text"
+msgid "Document Converter Summary"
+msgstr "ドキュメント変換概要"
+
+#. 3qZPc
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3145313\n"
+"help.text"
+msgid "Displays a summary which shows what will be converted when you click <emph>Convert</emph>."
+msgstr "<emph>変換</emph> をクリックしたときに変換される内容について、その概要が表示されます。"
+
+#. hQ8ZW
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document Converter Page 1"
+msgstr "ドキュメント変換 1 ページ目"
+
+#. 3ukbt
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3151299\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130100.xhp\">Document Converter Page 1</link>"
+msgstr "<link href=\"text/shared/autopi/01130100.xhp\">ドキュメント変換 １ページ目</link>"
+
+#. G7Zgn
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150445\n"
+"help.text"
+msgid "Specifies the type of Microsoft Office documents that will be converted."
+msgstr ""
+
+#. XBD3E
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3166410\n"
+"help.text"
+msgid "Microsoft Office"
+msgstr "Microsoft Office"
+
+#. ByPJh
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150771\n"
+"help.text"
+msgid "Converts Microsoft Office documents into the OpenDocument format."
+msgstr "Microsoft Office ドキュメントを OpenDocument 形式に変換します。"
+
+#. Z8xAg
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3150984\n"
+"help.text"
+msgid "Word documents"
+msgstr "Word ドキュメント"
+
+#. 6iGtB
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150255\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKWORD\">Converts documents in Microsoft Word format *.doc into OpenDocument *.odt documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKWORD\">Microsoft Word の *.doc ドキュメントを OpenDocument の *.odt ドキュメントに変換します。</ahelp>"
+
+#. DGuJT
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3155421\n"
+"help.text"
+msgid "Excel documents"
+msgstr "Excel ドキュメント"
+
+#. LaFwN
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3155630\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKEXCEL\">Converts documents in Microsoft Excel format *.xls into OpenDocument *.ods documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKEXCEL\">Microsoft Excel の *.xls ドキュメントを OpenDocument の *.ods ドキュメントに変換します。</ahelp>"
+
+#. 7eruC
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3153127\n"
+"help.text"
+msgid "PowerPoint documents"
+msgstr "PowerPoint ドキュメント"
+
+#. ZSqCh
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149786\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKPOWERPOINT\">Converts documents in Microsoft PowerPoint format *.ppt into OpenDocument *.odp documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKPOWERPOINT\">Microsoft PowerPoint の *.ppt ドキュメントを OpenDocument の *.odp ドキュメントに変換します。</ahelp>"
+
+#. pBEKc
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3153088\n"
+"help.text"
+msgid "Create Log file"
+msgstr "ログファイルの作成"
+
+#. EB93X
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149797\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_0_CHKLOGFILE\">Creates a log file in your work directory showing which documents have been converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_0_CHKLOGFILE\">変換されたドキュメントに関する情報を記録するログファイルを作業ディレクトリ内に作成します。</ahelp>"
+
+#. tg5JD
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149578\n"
+"help.text"
+msgid "Continue to the next page of the <link href=\"text/shared/autopi/01130200.xhp\">Document Converter</link>."
+msgstr "<link href=\"text/shared/autopi/01130200.xhp\">ドキュメント変換の次のページへ</link>"
+
+#. 58vGa
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document converter continuation pages"
+msgstr "ドキュメント変換 2 ページ目以降"
+
+#. QMuxr
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130200.xhp\">Document converter continuation pages</link>"
+msgstr "<link href=\"text/shared/autopi/01130200.xhp\">ドキュメント変換（続き）</link>"
+
+#. Ve7Wv
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3147143\n"
+"help.text"
+msgid "Specifies, for each template type and document type, the directory to be read from and the directory to be written to."
+msgstr "テンプレートとドキュメントの種類ごとに、読み取り用のディレクトリと書き込み用のディレクトリを指定します。"
+
+#. cDEcm
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3156027\n"
+"help.text"
+msgid "Templates"
+msgstr "テンプレート"
+
+#. NcsGh
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "Determines whether templates are to be converted, and how they are converted."
+msgstr "テンプレートを変換するかどうかを指定します。また、変換する場合にはその方法を選択します。"
+
+#. 7Lai8
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3146957\n"
+"help.text"
+msgid "Text templates"
+msgstr "テキストテンプレート"
+
+#. SizJe
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153345\n"
+"help.text"
+msgid "Note that the \"Text templates\" label can change, depending on the selections from the previous page. For example, if Microsoft Word documents have been selected, the label reads \"Word templates\"."
+msgstr "前のページで選択した設定に応じて、ラベル <emph>文書テンプレート</emph> が変化することに注意してください。例えば、Microsoft Word ドキュメントを選択した場合、このラベルは <emph>Word テンプレート</emph> になります。"
+
+#. yQ3K9
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3149182\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBTEMPLATE\">Specifies that templates are to be converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBTEMPLATE\">ドキュメントテンプレートを変換する場合はこのフィールドを選択します。</ahelp>"
+
+#. fnBXC
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3153683\n"
+"help.text"
+msgid "Including subdirectories"
+msgstr "下位ディレクトリも含む"
+
+#. 4VYYb
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENTRECURSE\">Indicates that the subdirectories of the selected directory are also searched for matching files.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENTRECURSE\">選択したディレクトリのサブディレクトリでも、一致するファイルを検索します。</ahelp>"
+
+#. BFX2N
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3159269\n"
+"help.text"
+msgid "Import from"
+msgstr "インポート元"
+
+#. X9j5Q
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153821\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_LBDOCUMENTPATH\">Specifies the directory containing the source files. </ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_LBDOCUMENTPATH\">ソースファイルを含むディレクトリを指定します。</ahelp>"
+
+#. Dgbm5
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149732\n"
+"help.text"
+msgid "Save to"
+msgstr "保存先"
+
+#. Sx3Bm
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3155449\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_EDDOCUMENTPATH\">Specifies the directory to which the destination files are written.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_EDDOCUMENTPATH\">ターゲットファイルを書き込むディレクトリを指定します。</ahelp>"
+
+#. EesvY
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3153126\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. zfQQ7
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3155388\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CMDDOCUMENTPATHSELECT\">Opens a dialog to select the desired path.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CMDDOCUMENTPATHSELECT\">パスを選択するためのダイアログが開きます。</ahelp>"
+
+#. i6Kah
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149416\n"
+"help.text"
+msgid "Documents"
+msgstr "ドキュメント"
+
+#. 8cKND
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3159176\n"
+"help.text"
+msgid "Determines whether and how documents are converted."
+msgstr "ドキュメントを変換するかどうかを指定します。また、変換する場合には、その方法も指定します。"
+
+#. rRiuu
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149236\n"
+"help.text"
+msgid "Text documents"
+msgstr "文書ドキュメント"
+
+#. t59oX
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3148564\n"
+"help.text"
+msgid "Note that the \"Text documents\" label can change, depending on the selections from the previous page. For example, if Microsoft Word documents have been selected, the label reads \"Word documents\"."
+msgstr "前のページで選択した設定に応じて、ラベル <emph>文書ドキュメント</emph> が変化することに注意してください。例えば、Microsoft Word ドキュメントを選択した場合、このラベルは <emph>Word ドキュメント</emph> になります。"
+
+#. oqwC5
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3148944\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENT\">Indicates that the documents are to be converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENT\">ドキュメントを変換する場合はこのフィールドを選択します。</ahelp>"
+
+#. YDwV9
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3156344\n"
+"help.text"
+msgid "Here you can return to the main page of the <link href=\"text/shared/autopi/01130000.xhp\">Document Converter Wizard</link>."
+msgstr "ここで、 <link href=\"text/shared/autopi/01130000.xhp\">ドキュメント変換ウィザード</link>のメインページに戻ることができます。"
+
+#. ELq8D
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Euro Converter Wizard"
+msgstr "ユーロ通貨換算 ウィザード"
+
+#. EKHAB
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"bm_id3154840\n"
+"help.text"
+msgid "<bookmark_value>Euro; Euro Converter Wizard</bookmark_value><bookmark_value>wizards; Euro Converter</bookmark_value><bookmark_value>converters; Euro converter</bookmark_value><bookmark_value>currencies; converters</bookmark_value>"
+msgstr "<bookmark_value>ユーロ; ユーロ通貨換算ウィザード</bookmark_value><bookmark_value>ウィザード; ユーロ通貨換算</bookmark_value><bookmark_value>コンバータ; ユーロ通貨換算</bookmark_value><bookmark_value>通貨; コンバータ</bookmark_value>"
+
+#. ERtPD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3154840\n"
+"help.text"
+msgid "Euro Converter Wizard"
+msgstr "ユーロ通貨換算 ウィザード"
+
+#. uwNbS
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3149140\n"
+"help.text"
+msgid "<variable id=\"eurokonv\"><ahelp hid=\".\">Converts the currency amounts found in $[officename] Calc documents and in fields and tables of $[officename] Writer documents into euros.</ahelp></variable>"
+msgstr ""
+
+#. 9JFzG
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3145669\n"
+"help.text"
+msgid "Only closed files are converted. It is possible, however, to use the Euro Converter in an open $[officename] Calc document. In this case, a separate dialog opens. This dialog is described <link href=\"text/shared/autopi/01150000.xhp\">at the end of this section</link>."
+msgstr "換算できるのは閉じたファイルだけです。ただし、$[officename] Calc ドキュメントを開いている場合には、ユーロ通貨換算機能を使用できます。この場合には、別個のダイアログが開きます。このダイアログについては、<link href=\"text/shared/autopi/01150000.xhp\">本節の最後</link>で説明します。"
+
+#. qBXtJ
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147275\n"
+"help.text"
+msgid "Only the currencies of the countries participating in the European Monetary Union are converted."
+msgstr "尚、ここで変換される通貨は、ユーロ通貨導入の対象となっている国の通貨である必要がありますので、ご注意ください。"
+
+#. ayFSS
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156152\n"
+"help.text"
+msgid "Extent"
+msgstr "外枠"
+
+#. FNztD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156155\n"
+"help.text"
+msgid "Single $[officename] Calc document"
+msgstr "単一の $[officename] Calc ドキュメント"
+
+#. BELnK
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155420\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts a single $[officename] Calc file.</ahelp> To convert fields and tables in $[officename] Writer, first mark the <emph>Also convert fields and tables in text documents </emph>check box."
+msgstr ""
+
+#. h5BYq
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153541\n"
+"help.text"
+msgid "Complete Directory"
+msgstr "ディレクトリ一括"
+
+#. dMZQs
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150670\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts all $[officename] Calc and $[officename] Writer documents and templates in the selected directory.</ahelp>"
+msgstr ""
+
+#. i4GGG
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3149516\n"
+"help.text"
+msgid "Currencies"
+msgstr "通貨"
+
+#. MF4uh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3156002\n"
+"help.text"
+msgid "Specifies the currency to be converted into euros."
+msgstr ""
+
+#. WXetC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3150275\n"
+"help.text"
+msgid "Source directory / Source Document"
+msgstr "ソースディレクトリ/ソースドキュメント"
+
+#. r6grs
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154898\n"
+"help.text"
+msgid "<ahelp hid=\".\">Indicates the directory or the name of the single document to be converted.</ahelp>"
+msgstr ""
+
+#. ncDhB
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3151385\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. Ecwmi
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147264\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog to select the desired directory or document.</ahelp>"
+msgstr ""
+
+#. AoRar
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3147560\n"
+"help.text"
+msgid "Including Subfolders"
+msgstr "サブディレクトリを含む"
+
+#. FsG9U
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3152771\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether all subfolders of the selected directory are included.</ahelp>"
+msgstr ""
+
+#. 8ZEme
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3150542\n"
+"help.text"
+msgid "Also convert fields and tables in text documents"
+msgstr "文書ドキュメントのフィールドと表も変換"
+
+#. PYHYz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150398\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts currency amounts found in fields and tables of $[officename] Writer documents.</ahelp>"
+msgstr ""
+
+#. yvDAz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3148453\n"
+"help.text"
+msgid "Values in the text document that are not in fields or tables are not converted."
+msgstr "文書ドキュメントの値で、フィールドやテーブルにないものは変換されません。"
+
+#. AxFBW
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3151382\n"
+"help.text"
+msgid "Temporarily unprotect sheet without query"
+msgstr "一時的に確認なしでシートの保護を解除"
+
+#. N2hUD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153192\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that sheet protection will be disabled during conversion and thereafter re-enabled. If sheet protection is covered by a password, you will see a dialog for entering the password.</ahelp>"
+msgstr ""
+
+#. NDAMC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3147288\n"
+"help.text"
+msgid "Target Directory"
+msgstr "ターゲットディレクトリ"
+
+#. iAJop
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153771\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the folder and path in which the converted files are to be saved.</ahelp>"
+msgstr ""
+
+#. gzfBf
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154151\n"
+"help.text"
+msgid "<emph>...</emph>"
+msgstr "<emph>...</emph>"
+
+#. YMDjh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147427\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog in which you can select a directory to hold the converted files.</ahelp>"
+msgstr ""
+
+#. ULUG4
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155854\n"
+"help.text"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. bT4oP
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153190\n"
+"help.text"
+msgid "<ahelp hid=\".\">Closes the Euro Converter.</ahelp>"
+msgstr ""
+
+#. gFZDz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3154986\n"
+"help.text"
+msgid "Help"
+msgstr "ヘルプ"
+
+#. GDiFH
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155413\n"
+"help.text"
+msgid "<ahelp hid=\".\">Activates the help for the dialog.</ahelp>"
+msgstr ""
+
+#. 5uzLq
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3148616\n"
+"help.text"
+msgid "Convert"
+msgstr "変換"
+
+#. LHvH2
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150011\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the conversion.</ahelp>"
+msgstr ""
+
+#. JLBGT
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3146975\n"
+"help.text"
+msgid "During conversion, a page showing the progress status is displayed."
+msgstr "変換処理が実行されている間、状況報告のページが表示され、処理の進み具合を報告します。"
+
+#. JP7s8
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155308\n"
+"help.text"
+msgid "Back"
+msgstr "戻る"
+
+#. RGPAV
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153953\n"
+"help.text"
+msgid "<ahelp hid=\".\">Returns to the first page of the Euro Converter.</ahelp>"
+msgstr ""
+
+#. GD48d
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154640\n"
+"help.text"
+msgid "If the current document is a $[officename] Calc document or template, you can call up the Euro Converter using the corresponding icon in the Tools bar. This icon is hidden by default. To display the Euro Converter icon, click the arrow at the end of the Tools bar, select the <emph>Visible Buttons</emph> command and activate the <emph>Euro Converter</emph> icon."
+msgstr ""
+
+#. tBweT
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155415\n"
+"help.text"
+msgid "<image id=\"img_id3150417\" src=\"cmd/sc_euroconverter.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150417\">Icon</alt></image>"
+msgstr "<image id=\"img_id3150417\" src=\"cmd/sc_euroconverter.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150417\">アイコン</alt></image>"
+
+#. B3FT7
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3149418\n"
+"help.text"
+msgid "Euro Converter"
+msgstr "ユーロ変換"
+
+#. cq2Dh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3144766\n"
+"help.text"
+msgid "The <emph>Euro Converter</emph> dialog contains the following functions:"
+msgstr "ダイアログ <emph>ユーロ通貨換算</emph> では、次の機能を利用できます。"
+
+#. DRxvg
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3148387\n"
+"help.text"
+msgid "Entire document"
+msgstr "ドキュメント全体"
+
+#. jkLfd
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150113\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts the entire document.</ahelp>"
+msgstr ""
+
+#. FFBCA
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3159110\n"
+"help.text"
+msgid "Currencies"
+msgstr "通貨"
+
+#. AcEzX
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3148834\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the currency to be converted into euros.</ahelp>"
+msgstr ""
+
+#. uon72
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155084\n"
+"help.text"
+msgid "Selection"
+msgstr "選択項目"
+
+#. cmdme
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3152999\n"
+"help.text"
+msgid "Select the cells you want to convert in this range, if you did not mark the <emph>Entire document</emph> check box. Select an option and then click the desired entries in the <emph>Templates</emph> / <emph>Currency ranges</emph> field. The selected range will be visible as such in the document. Click <emph>Convert</emph> to carry out the conversion."
+msgstr "<emph>ドキュメント全体</emph> を選択していない場合は、ここで変換の対象となるセルを選択します。まずはオプションを一つ選択して、右の <emph>テンプレート</emph> フィールドをクリックして、<emph>適用通貨範囲</emph> を設定します。ドキュメント上では、選択された範囲がセレクションとして示されます。変換処理を実行するには、<emph>変換</emph> ボタンをクリックします。"
+
+#. pH3eL
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153950\n"
+"help.text"
+msgid "Cell Styles"
+msgstr "セルスタイル"
+
+#. XigoC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3145162\n"
+"help.text"
+msgid "<ahelp hid=\".\">All cells with the selected Cell Styles are converted.</ahelp>"
+msgstr ""
+
+#. ASWK8
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3152974\n"
+"help.text"
+msgid "Currency cells in the current sheet"
+msgstr "現在のワークシートにある通貨セル"
+
+#. GQCTN
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154479\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the active spreadsheet will be converted.</ahelp>"
+msgstr ""
+
+#. jUZLF
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156276\n"
+"help.text"
+msgid "Currency cells in the entire document"
+msgstr "ドキュメント全体の通貨セル"
+
+#. 2aiVu
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3146912\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the active document will be converted.</ahelp>"
+msgstr ""
+
+#. RDBDD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155444\n"
+"help.text"
+msgid "Selected range"
+msgstr "選択された範囲"
+
+#. 6dm7F
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153736\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the range selected before the converter was called will be converted.</ahelp> All cells must have the same format so that they can be recognized as a selected range."
+msgstr ""
+
+#. JfTz9
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153927\n"
+"help.text"
+msgid "Templates / Currency ranges"
+msgstr "テンプレート / 適用通貨範囲"
+
+#. nCBWu
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154756\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the ranges to be converted from the list.</ahelp>"
+msgstr ""
+
+#. zm6iT
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Address Data Source"
+msgstr "アドレス帳データソース"
+
+#. UdqCV
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3147285\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170000.xhp\">Address Data Source</link>"
+msgstr "<link href=\"text/shared/autopi/01170000.xhp\">アドレス帳データソース</link>"
+
+#. BEBQU
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3153910\n"
+"help.text"
+msgid "<ahelp hid=\".\">This wizard registers an existing address book as a data source in $[officename].</ahelp>"
+msgstr "<ahelp hid=\".\">このウィザードでは既存のアドレス帳を $[officename] のデータソースとすることができます。</ahelp>"
+
+#. SbPAF
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3151226\n"
+"help.text"
+msgid "You can register address data and other data sources in $[officename] at any time:"
+msgstr "アドレス帳やその他のデータソースはいつでも $[officename] で登録できます。"
+
+#. RQrEJ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3153527\n"
+"help.text"
+msgid "Please select the type of your external address book"
+msgstr "外部アドレス帳の種別を選択します"
+
+#. 6XszA
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id5782036\n"
+"help.text"
+msgid "Not all types are available on all systems."
+msgstr "すべてのシステムで、すべてのタイプが利用できるわけではありません。"
+
+#. Ux9cU
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3895382\n"
+"help.text"
+msgid "Thunderbird"
+msgstr ""
+
+#. vaHTD
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6709494\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Thunderbird or Icedove.</ahelp>"
+msgstr "<ahelp hid=\".\">Groupwise ですでにアドレス帳を使用している場合は、このオプションを選択します。</ahelp>"
+
+#. MDJ87
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id9215979\n"
+"help.text"
+msgid "KDE Address book"
+msgstr "KDE アドレス帳"
+
+#. cWAyw
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id585650\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in KDE Address book.</ahelp>"
+msgstr "<ahelp hid=\".\">KDE アドレス帳ですでにアドレス帳を使用している場合は、このオプションを選択します。</ahelp>"
+
+#. yMyJB
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4791405\n"
+"help.text"
+msgid "macOS Address book"
+msgstr ""
+
+#. ehrbJ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6873683\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in macOS Address book.</ahelp>"
+msgstr ""
+
+#. diDWW
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4517654\n"
+"help.text"
+msgid "Evolution"
+msgstr "Evolution"
+
+#. aQAVp
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id4368724\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Evolution.</ahelp>"
+msgstr "<ahelp hid=\".\">Evolution ですでにアドレス帳を使用している場合は、このオプションを選択します。</ahelp>"
+
+#. qw2A9
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4218268\n"
+"help.text"
+msgid "Evolution LDAP"
+msgstr "Evolution LDAP"
+
+#. 2zmtZ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6269112\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Evolution LDAP.</ahelp>"
+msgstr "<ahelp hid=\".\">Evolution LDAP ですでにアドレス帳を使用している場合は、このオプションを選択します。</ahelp>"
+
+#. duPBr
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id8174382\n"
+"help.text"
+msgid "Groupwise"
+msgstr "Groupwise"
+
+#. ooRzZ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id5294045\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Groupwise.</ahelp>"
+msgstr "<ahelp hid=\".\">Groupwise ですでにアドレス帳を使用している場合は、このオプションを選択します。</ahelp>"
+
+#. HWNER
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3150976\n"
+"help.text"
+msgid "Other external data source"
+msgstr "その他の外部データソース"
+
+#. BWaJb
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3156192\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/selecttypepage/other\">Select this option if you want to register another data source as address book in $[officename].</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/selecttypepage/other\">$[officename] のアドレス帳として別の外部データソースを登録する場合、このオプションを選択します。</ahelp>"
+
+#. 8uMDB
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3145674\n"
+"help.text"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. vb6Vy
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3154306\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_CANCEL\">Exits the wizard without implementing any changes.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_CANCEL\">このコマンドで変更は実行されずにウィザードを終了します。</ahelp>"
+
+#. qGp5U
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3148943\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_PREVIOUS\" visibility=\"hidden\">Go to previous step.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_PREVIOUS\" visibility=\"hidden\">前の編集段階に戻る</ahelp>"
+
+#. YwCDw
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3148946\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_NEXT\" visibility=\"hidden\">Go to next step.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_NEXT\" visibility=\"hidden\">次の編集段階に進む。</ahelp>"
+
+#. NVj5A
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3147303\n"
+"help.text"
+msgid "Create"
+msgstr "完了"
+
+#. GcKDS
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3149795\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_FINISH\">Establishes the connection to the data source and closes the dialog.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_FINISH\">データソースへの接続を確立し、ダイアログを閉じます。</ahelp>"
+
+#. SK6BS
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Additional Settings"
+msgstr "追加設定"
+
+#. SAEvC
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"hd_id3154094\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170200.xhp\">Additional Settings</link>"
+msgstr "<link href=\"text/shared/autopi/01170200.xhp\">追加設定</link>"
+
+#. DFBck
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"par_id3143281\n"
+"help.text"
+msgid "<ahelp hid=\".\">Allows you to enter additional settings for other external data sources.</ahelp>"
+msgstr ""
+
+#. zrAAW
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"hd_id3155555\n"
+"help.text"
+msgid "Settings"
+msgstr "設定"
+
+#. TNLzG
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"par_id3153311\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/invokeadminpage/settings\">Calls a dialog in which you can enter additional settings.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/invokeadminpage/settings\">追加設定を入力できるダイアログを呼び出します。</ahelp>"
+
+#. 5e2zp
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Select Table"
+msgstr "テーブルの選択"
+
+#. TUPDb
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170300.xhp\">Select Table</link>"
+msgstr "<link href=\"text/shared/autopi/01170300.xhp\">テーブルの選択</link>"
+
+#. pQydK
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3156211\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies a table from the Seamonkey / Netscape address book source that is used as the address book in $[officename].</ahelp>"
+msgstr "<ahelp hid=\".\">$[officename] でアドレス帳として使用する Seamonkey / Netscape のアドレス帳ソースのテーブルを指定します。</ahelp>"
+
+#. Eu86p
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3155150\n"
+"help.text"
+msgid "All tables from the first user profile will be registered for this data source in $[officename]. You must specify one as the table that will be used in the $[officename] templates."
+msgstr "最初のユーザープロファイルのすべてのテーブルが $[officename] 内でこのデータソースに登録されます。$[officename] テンプレート内で使用するテーブルを 1 つ指定する必要があります。"
+
+#. HEARC
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"hd_id3154927\n"
+"help.text"
+msgid "List box"
+msgstr "リストボックス"
+
+#. DsQYX
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3147043\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/selecttablepage/table\">Specifies the table that is to serve as the address book for the $[officename] templates.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/selecttablepage/table\">テンプレートのアドレス帳として使用するテーブルを指定します。</ahelp>"
+
+#. zzChA
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3152801\n"
+"help.text"
+msgid "You can make changes to the templates and documents at a later time by choosing <emph>Edit - Exchange Database</emph>."
+msgstr "テンプレートやドキュメントでの追加変更は <emph>編集 → データベース変更</emph> で行います。"
+
+#. cGFhu
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Data Source Title"
+msgstr ""
+
+#. BsQPs
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"hd_id3147000\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170400.xhp\">Data Source Title</link>"
+msgstr ""
+
+#. CKBwu
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_id3144740\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies a location for the address book file and a name under which the data source will be listed in the data source explorer.</ahelp>"
+msgstr "<ahelp hid=\".\">アドレス帳ファイルの場所とデータソースエクスプローラーでデータソースを一覧表示する名前を指定します。</ahelp>"
+
+#. gSJGW
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105B7\n"
+"help.text"
+msgid "Location"
+msgstr "場所"
+
+#. bEA2A
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105BB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the location of the database file.</ahelp>"
+msgstr "<ahelp hid=\".\">データベースファイルの場所を指定します。</ahelp>"
+
+#. TBChn
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105BE\n"
+"help.text"
+msgid "Browse"
+msgstr "ブラウズ"
+
+#. 3256N
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the location using a file dialog.</ahelp>"
+msgstr "<ahelp hid=\".\">ファイルダイアログを使用して場所を指定します。</ahelp>"
+
+#. i7z3t
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "Make this address book available to all modules in %PRODUCTNAME"
+msgstr "このアドレス帳を%PRODUCTNAMEのすべてのモジュールで使用可能にする"
+
+#. pFkuF
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Registers the newly created database file in %PRODUCTNAME. The database will then be listed in the Data sources pane (<switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+Shift+F4). If this check box is cleared, the database will be available only by opening the database file.</ahelp>"
+msgstr ""
+
+#. 7MbQ5
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"hd_id3144436\n"
+"help.text"
+msgid "Address book name"
+msgstr "タイトル"
+
+#. SfdpW
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_id3154673\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/datasourcepage/name\">Specifies the data source name.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/datasourcepage/name\">データソースの名前を指定します。</ahelp>"
+
+#. BKrWA
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Field Assignment"
+msgstr "フィールドの割り当て"
+
+#. Zq2BM
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"hd_id3147588\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170500.xhp\">Field Assignment</link>"
+msgstr "<link href=\"text/shared/autopi/01170500.xhp\">フィールドの並べ替え</link>"
+
+#. yEkbV
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"par_id3143284\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog that allows you to specify the field assignment.</ahelp>"
+msgstr "<ahelp hid=\".\">フィールドの割り当てを指定できるダイアログが開きます。</ahelp>"
+
+#. PhHdF
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"hd_id3152372\n"
+"help.text"
+msgid "Field Assignment"
+msgstr "フィールドの割り当て"
+
+#. HrTyA
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"par_id3149549\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/fieldassignpage/assign\">Opens the <link href=\"text/shared/01/01110101.xhp\">Templates: Address Book Assignment</link> dialog.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/fieldassignpage/assign\"><link href=\"text/shared/01/01110101.xhp\">テンプレート: アドレス帳の割り当て</link> ダイアログ</ahelp>"

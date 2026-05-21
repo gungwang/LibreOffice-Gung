@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textshared01title_pagexml" indexer="include" status="PUBLISH">
+    <title id="tit">Using title pages in your document</title>
+    <filename>/text/swriter/01/title_page.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+<bookmark branch="hid/.uno:TitlePageDialog" id="bm_id300920161429511761" localize="false"/>
+<bookmark branch="hid/modules/swriter/ui/titlepage/@@nowidget@@" id="bm_@@nowidget@@" localize="false"/>
+<bookmark branch="hid/modules/swriter/ui/titlepage/DLG_TITLEPAGE" id="bm_id301920161429511761" localize="false"/>
+<bookmark branch="index" id="bm_id300920161717389897">
+<bookmark_value>page;title page</bookmark_value>
+<bookmark_value>title page;numbering</bookmark_value>
+</bookmark>
+
+<section id="using_title_pages_in_your_document">
+  <h1 id="hd_id300920161429137211"><variable id="titlepage"><link href="text/swriter/01/title_page.xhp#title page">Title page</link></variable></h1>
+<paragraph role="paragraph" id="par_id471602976213270">Opens a dialog where you can design a title page.</paragraph>
+</section>
+
+<section id="howtoget">
+  <embed href="text/swriter/00/00000405.xhp#titlepage"/>
+</section>
+<h2 id="hd_id721690976937899">Make Title Pages</h2>
+<h3 id="hd_id581690976962732">Converting existing pages to title pages</h3>
+<paragraph role="paragraph" id="par_id441690977483173">Change the current page style to <emph>First Page</emph> and the following pages will have the <emph>Default Page Style</emph>. The styles <emph>First Page</emph> and <emph>Default Page Style</emph> are %PRODUCTNAME automatic page styles.</paragraph>
+<h3 id="hd_id551690976966704">Insert new title pages</h3>
+<paragraph role="paragraph" id="par_id571690977537765">Insert a page break and change the current page style to <emph>First Page</emph>. The following pages will have the <emph>Default Page Style</emph> page style.</paragraph>
+<h3 id="hd_id311690976973163">Number of title pages</h3>
+<paragraph role="paragraph" id="par_id251690977607245">Set the number of title pages to insert.</paragraph>
+<h3 id="hd_id391690976978480">Place title pages at</h3>
+<h4 id="hd_id1001690976984732">Document start</h4>
+<paragraph role="paragraph" id="par_id171690978034067">The title pages are inserted before the first page of the document.</paragraph>
+<h4 id="hd_id921690976995197">Page</h4>
+<paragraph role="paragraph" id="par_id291690978040595">The title pages are inserted at the page specified by its current numbering.</paragraph>
+<h2 id="hd_id841690976952914">Page Numbering</h2>
+<h3 id="hd_id581690977006188">Reset page numbering after title pages</h3>
+<paragraph role="paragraph" id="par_id651690979013384">When checked, stop current numbering page count and restart numbering after the last inserted title page.</paragraph>
+<h3 id="hd_id41690977010317">Page number</h3>
+<paragraph role="paragraph" id="par_id371690979008787">Set the page number of the page following the last title page.</paragraph>
+<h3 id="hd_id211690977016241">Set page number for first title page</h3>
+<paragraph role="paragraph" id="par_id481690979004731">When checked, set the page number for the first title page inserted.</paragraph>
+<h3 id="hd_id81690977024457">Page number</h3>
+<paragraph role="paragraph" id="par_id21690979000164">Set the page number for the first title page.</paragraph>
+<h2 id="hd_id151690976957674">Edit Page Properties</h2>
+<h3 id="hd_id201690977029670">Style</h3>
+<paragraph role="paragraph" id="par_id941690977098457">Select the page style from the available pages styles in the document.</paragraph>
+<h3 id="hd_id901690977033901">Edit</h3>
+<paragraph role="paragraph" id="par_id421690977055692">Click to edit the page style.</paragraph>
+
+<section id="relatedtopics">
+  <paragraph role="paragraph" id="par_id111690981135817" localize="false"><embedvar href="text/swriter/guide/title_page.xhp#usingtitlepage" markup="ignore"/></paragraph>
+    <paragraph id="par_id300920161443378384" role="paragraph"><link href="text/shared/01/05040200.xhp">Format page</link>, </paragraph>
+    <paragraph id="par_id300920161915582003" role="paragraph"><link href="text/swriter/guide/page_break.xhp">Page break</link></paragraph>
+    <paragraph id="par_id300920161915587772" role="paragraph"><link href="text/swriter/guide/change_header.xhp">Creating a Page Style Based on the Current Page</link></paragraph>
+</section>
+</body>
+</helpdocument>

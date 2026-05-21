@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+	
+<helpdocument version="1.0">
+<meta>
+<topic id="textsharedautopi01090300xml" indexer="include" status="PUBLISH">
+<title id="tit" xml-lang="en-US">Form Wizard - Arrange Controls</title>
+<filename>/text/shared/autopi/01090300.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<section id="arrangecontrols">
+<h1 id="hd_id3163829"><link href="text/shared/autopi/01090300.xhp">Form Wizard - Arrange Controls</link></h1>
+<paragraph role="paragraph" id="par_id3153539" xml-lang="en-US">On this page of the Wizard, you can select the layout of the created form. </paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/shared/00/00000401.xhp#autopilotformular"/>
+</section>
+<h2 id="hd_id3150791">Label placement</h2>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDALIGNLEFT" id="bm_id3154365" localize="false"/>
+<h3 id="hd_id3153379">Align left</h3>
+<paragraph role="paragraph" id="par_id3151210" xml-lang="en-US"><ahelp hid=".">The labels are left-aligned.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDALIGNRIGHT" id="bm_id3125865" localize="false"/>
+<h3 id="hd_id3149169">Align right</h3>
+<paragraph role="paragraph" id="par_id3148672" xml-lang="en-US"><ahelp hid=".">The labels are right-aligned.</ahelp></paragraph>
+<h2 id="hd_id3153682">Arrangement of the main form</h2>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDLEFTLABELED" id="bm_id3154823" localize="false"/>
+<h3 id="hd_id3155892">Columnar - Labels Left</h3>
+<paragraph role="paragraph" id="par_id3149388" xml-lang="en-US"><ahelp hid=".">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDTOPLABELED" id="bm_id3166460" localize="false"/>
+<h3 id="hd_id3145345">Columnar - Labels on Top</h3>
+<paragraph role="paragraph" id="par_id3150355" xml-lang="en-US"><ahelp hid=".">Aligns the database fields column-wise with the labels above the field.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDTABLESTYLE" id="bm_id3146948" localize="false"/>
+<h3 id="hd_id3147209">As Data Sheet</h3>
+<paragraph role="paragraph" id="par_id3153824" xml-lang="en-US"><ahelp hid=".">Aligns the database fields in a tabular form.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDTOPJUSTIFIED" id="bm_id3149762" localize="false"/>
+<h3 id="hd_id3154897">In Blocks - Labels Above</h3>
+<paragraph role="paragraph" id="par_id3155421" xml-lang="en-US"><ahelp hid=".">Arranges the labels above the corresponding data.</ahelp></paragraph>
+<h2 id="par_idN106C9">Arrangement of the subform</h2>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDLEFTLABELED2" id="bm_id3149763" localize="false"/>
+<h3 id="par_idN106D5">Columnar - Labels Left</h3>
+<paragraph role="paragraph" id="par_idN106D9" xml-lang="en-US"><ahelp hid=".">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDTOPLABELED2" id="bm_id3149764" localize="false"/>
+<h3 id="par_idN106DC">Columnar - Labels on Top</h3>
+<paragraph role="paragraph" id="par_idN106E0" xml-lang="en-US"><ahelp hid=".">Aligns the database fields column-wise with the labels above the field.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDTABLESTYLE2" id="bm_id3149765" localize="false"/>
+<h3 id="par_idN106E3">As Data Sheet</h3>
+<paragraph role="paragraph" id="par_idN106E7" xml-lang="en-US"><ahelp hid=".">Aligns the database fields in a tabular form.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/WIZARDS_HID_DLGFORM_CMDTOPJUSTIFIED2" id="bm_id3149766" localize="false"/>
+<h3 id="par_idN106EA">In Blocks - Labels Above</h3>
+<paragraph role="paragraph" id="par_idN106EE" xml-lang="en-US"><ahelp hid=".">Arranges the labels above the corresponding data.</ahelp></paragraph>
+<paragraph role="paragraph" id="par_idN106F3" xml-lang="en-US"><link href="text/shared/autopi/01090400.xhp">Form Wizard - Set data entry</link></paragraph>
+</body>
+</helpdocument>

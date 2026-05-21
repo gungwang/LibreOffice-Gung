@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textschart01type_areaxhp" indexer="include" status="PUBLISH">
+<title id="tit">Chart Type Area</title>
+<filename>/text/schart/01/type_area.xhp</filename>
+</topic>
+</meta>
+<body>
+<bookmark branch="index" id="bm_id4130680"><bookmark_value>area charts</bookmark_value>
+<bookmark_value>chart types;area</bookmark_value>
+</bookmark>
+<h1 id="hd_id310678"><variable id="type_area"><link href="text/schart/01/type_area.xhp">Chart Type Area</link>
+</variable></h1>
+<paragraph role="paragraph" id="par_id916776">On the first page of the <link href="text/schart/01/wiz_chart_type.xhp">Chart Wizard</link> you can choose a chart type. </paragraph>
+<section id="howtoget">
+  <embed href="text/schart/00/00000004.xhp#wiz"/>
+  <paragraph role="paragraph" id="par_id791747395583502">Then choose <emph>Area</emph>.</paragraph>
+</section>
+<h2 id="hd_id961943">Area</h2>
+<paragraph role="paragraph" id="par_id631733">An area chart shows values as points on the y axis. The x axis shows categories. The y values of each data series are connected by a line. The area between each two lines is filled with a color. The area chart's focus is to emphasize the changes from one category to the next.</paragraph>
+<h3 id="hd_id551747337954836">Normal</h3>
+<paragraph role="paragraph" id="par_id7811822">This subtype plots all values as absolute y values. It first plots the area of the last column in the data range, then the next to last, and so on, and finally the first column of data is drawn. Thus, if the values in the first column are higher than other values, the last drawn area will hide the other areas.</paragraph>
+<table id="tab_id51747337986801">
+  <tablerow>
+    <tablecell>
+      <paragraph id="par_id361747337986803" role="paragraph"><image src="chart2/res/areaspiled_52x60.svg" id="img_id991747337986806" width="0.6252in" height="0.5417in"><alt id="alt_id101747337986808">Icon Normal</alt></image></paragraph>
+    </tablecell>
+    <tablecell>
+      <paragraph id="par_id231747337986813" role="paragraph">Normal</paragraph>
+    </tablecell>
+  </tablerow>
+</table>
+<h3 id="hd_id721747337948732">Stacked</h3>
+<paragraph role="paragraph" id="par_id3640247">This subtype plots values cumulatively stacked on each other. It ensures that all values are visible, and no data set is hidden by others. However, the y values no longer represent absolute values, except for the last column which is drawn at the bottom of the stacked areas.</paragraph>
+<table id="tab_id751747338247888">
+  <tablerow>
+    <tablecell>
+      <paragraph id="par_id421747338247891" role="paragraph"><image src="chart2/res/areas_52x60.svg" id="img_id321747338247893" width="0.6252in" height="0.5417in"><alt id="alt_id131747338247896">Icon Stacked</alt></image></paragraph>
+    </tablecell>
+    <tablecell>
+      <paragraph id="par_id291747338247900" role="paragraph">Stacked</paragraph>
+    </tablecell>
+  </tablerow>
+</table>
+<h3 id="hd_id111747337943860">Percent</h3>
+<paragraph role="paragraph" id="par_id4585100">This subtype plots values cumulatively stacked on each other and scaled as percentage of the category total.</paragraph>
+<table id="tab_id961747338273751">
+  <tablerow>
+    <tablecell>
+      <paragraph id="par_id711747338273753" role="paragraph"><image src="chart2/res/areasfull_52x60.svg" id="img_id551747338273756" width="0.6252in" height="0.5417in"><alt id="alt_id91747338273758">Icon Percent</alt></image></paragraph>
+    </tablecell>
+    <tablecell>
+      <paragraph id="par_id581747338273763" role="paragraph">Percent</paragraph>
+    </tablecell>
+  </tablerow>
+</table>
+<section id="relatedtopics">
+<paragraph role="paragraph" id="par_id731747249615264" localize="false"><embedvar href="text/schart/01/choose_chart_type.xhp#choose_chart_type" markup="ignore"/></paragraph>
+<embed href="text/shared/guide/chart_insert.xhp#chart_insert"/>
+<embed href="text/schart/01/wiz_chart_type.xhp#wiz_chart_type"/>
+<embed href="text/schart/01/wiz_data_range.xhp#wiz_data_range"/>
+<embed href="text/schart/01/wiz_data_series.xhp#wiz_data_series"/>
+<embed href="text/schart/01/wiz_chart_elements.xhp#wiz_chart_elements"/>
+</section>
+</body>
+</helpdocument>

@@ -1,0 +1,5540 @@
+#. extracted from chart2/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2026-04-24 18:12+0200\n"
+"PO-Revision-Date: 2026-05-04 16:31+0000\n"
+"Last-Translator: NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translations.documentfoundation.org/projects/libo_ui-master/chart2messages/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1540150683.000000\n"
+
+#. NCRDD
+#: chart2/inc/chart.hrc:18
+msgctxt "tp_ChartType|liststore1"
+msgid "Bar"
+msgstr "ແທ່ງ"
+
+#. YpLZF
+#: chart2/inc/chart.hrc:19
+msgctxt "tp_ChartType|liststore1"
+msgid "Cylinder"
+msgstr "ຮູບທໍ່"
+
+#. VLXhh
+#: chart2/inc/chart.hrc:20
+msgctxt "tp_ChartType|liststore1"
+msgid "Cone"
+msgstr "ຮູບກວຍ"
+
+#. xsWC2
+#: chart2/inc/chart.hrc:21
+msgctxt "tp_ChartType|liststore1"
+msgid "Pyramid"
+msgstr "ຮູບທາດ"
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "_ເພີ່ມ"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "_ນຳໃຊ້"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "_ຍົກເລີກ"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "_ປິດ"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_ລຶບ"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "_ແກ້ໄຂ"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "_ວິທີໃຊ້"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "_ໃໝ່"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "_ບໍ່"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_ຕົກລົງ"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "_ເອົາອອກ"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "_ຄືນຄ່າ"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "_ແມ່ນ"
+
+#. v9sqX
+#: chart2/inc/strings.hrc:24
+msgctxt "STR_DLG_CHART_WIZARD"
+msgid "Chart Wizard"
+msgstr "ຕົວຊ່ວຍສ້າງແຜນພູມ"
+
+#. HCEG9
+#: chart2/inc/strings.hrc:25
+msgctxt "STR_DLG_SMOOTH_LINE_PROPERTIES"
+msgid "Smooth Lines"
+msgstr "ເສັ້ນລຽບ"
+
+#. qxGHJ
+#: chart2/inc/strings.hrc:26
+msgctxt "STR_DLG_STEPPED_LINE_PROPERTIES"
+msgid "Stepped Lines"
+msgstr "ເສັ້ນວັດໄລຍະ"
+
+#. LcVWV
+#: chart2/inc/strings.hrc:27
+msgctxt "STR_DLG_REMOVE_DATA_TABLE"
+msgid "This chart currently contains an internal data table. Do you want to proceed, deleting the internal data table, and set a new data range?"
+msgstr "ຕາຕະລາງນີ້ປະຈຸບັນມີຕາຕະລາງຂໍ້ມູນພາຍໃນ. ເຈົ້າ​ຕ້ອງ​ການ​ບໍ່ທີ່ຈະດໍາເນີນການ, ລຶບຕາຕະລາງຂໍ້ມູນພາຍໃນ ແລະ ກໍານົດລະດັບຂໍ້ມູນໃຫມ່?"
+
+#. E2JCT
+#: chart2/inc/strings.hrc:28
+msgctxt "STR_PAGE_CHARTTYPE"
+msgid "Chart Type"
+msgstr "ຊະນິດແຜນວາດ"
+
+#. GFDEv
+#: chart2/inc/strings.hrc:29
+msgctxt "STR_PAGE_DATA_RANGE"
+msgid "Data Range"
+msgstr "ຂອບເຂດຂໍ້ມູນ"
+
+#. uxZuD
+#: chart2/inc/strings.hrc:30
+msgctxt "STR_PAGE_CHART_ELEMENTS"
+msgid "Chart Elements"
+msgstr "ອົງປະກອບແຜນພູມ"
+
+#. 6xo4a
+#: chart2/inc/strings.hrc:31
+msgctxt "STR_OBJECT_AVERAGE_LINE_WITH_PARAMETERS"
+msgid "Mean value line with value %AVERAGE_VALUE and standard deviation %STD_DEVIATION"
+msgstr "ເສັ້ນຄ່າສະເລ່ຍທີ່ມີມູນຄ່າ %AVERAGE_VALUE ແລະ ສ່ວນບ່ຽງເບນມາດຕະຖານ %STD_DEVIATION"
+
+#. eP9wF
+#: chart2/inc/strings.hrc:32
+msgctxt "STR_OBJECT_AXIS"
+msgid "Axis"
+msgstr "ແກນແນວນອນ"
+
+#. jNgVd
+#: chart2/inc/strings.hrc:33
+msgctxt "STR_OBJECT_AXIS_X"
+msgid "X Axis"
+msgstr "ແກນ X"
+
+#. cA4xe
+#: chart2/inc/strings.hrc:34
+msgctxt "STR_OBJECT_AXIS_Y"
+msgid "Y Axis"
+msgstr "ແກນ Y"
+
+#. ZXErW
+#: chart2/inc/strings.hrc:35
+msgctxt "STR_OBJECT_AXIS_Z"
+msgid "Z Axis"
+msgstr "ແກນ Z"
+
+#. qkJUd
+#: chart2/inc/strings.hrc:36
+msgctxt "STR_OBJECT_SECONDARY_X_AXIS"
+msgid "Secondary X Axis"
+msgstr "ແກນ X ທີ 2"
+
+#. YHCbM
+#: chart2/inc/strings.hrc:37
+msgctxt "STR_OBJECT_SECONDARY_Y_AXIS"
+msgid "Secondary Y Axis"
+msgstr "ແກນ Y ທີ 2"
+
+#. natrx
+#: chart2/inc/strings.hrc:38
+msgctxt "STR_OBJECT_AXES"
+msgid "Axes"
+msgstr "ແກນແນວນອນ"
+
+#. FE87Y
+#: chart2/inc/strings.hrc:39
+msgctxt "STR_OBJECT_GRIDS"
+msgid "Grids"
+msgstr "ຕາໜ່າງ"
+
+#. zyanU
+#: chart2/inc/strings.hrc:40
+msgctxt "STR_OBJECT_GRID"
+msgid "Grid"
+msgstr "ຕາໜ່າງ"
+
+#. pEwe5
+#: chart2/inc/strings.hrc:41
+msgctxt "STR_OBJECT_GRID_MAJOR_X"
+msgid "X Axis Major Grid"
+msgstr "X ແກນຕາໜ່າງຫຼັກ"
+
+#. ETsPn
+#: chart2/inc/strings.hrc:42
+msgctxt "STR_OBJECT_GRID_MAJOR_Y"
+msgid "Y Axis Major Grid"
+msgstr "Y ແກນຕາໜ່າງຫຼັກ"
+
+#. SonFW
+#: chart2/inc/strings.hrc:43
+msgctxt "STR_OBJECT_GRID_MAJOR_Z"
+msgid "Z Axis Major Grid"
+msgstr "Z ແກນຕາໜ່າງຫຼັກ"
+
+#. sBgvb
+#: chart2/inc/strings.hrc:44
+msgctxt "STR_OBJECT_GRID_MINOR_X"
+msgid "X Axis Minor Grid"
+msgstr "ຕາໜ່າງຮອງແກນ X"
+
+#. 3YcEK
+#: chart2/inc/strings.hrc:45
+msgctxt "STR_OBJECT_GRID_MINOR_Y"
+msgid "Y Axis Minor Grid"
+msgstr "ຕາໜ່າງຮອງແກນ Y"
+
+#. hkZQA
+#: chart2/inc/strings.hrc:46
+msgctxt "STR_OBJECT_GRID_MINOR_Z"
+msgid "Z Axis Minor Grid"
+msgstr "ຕາໜ່າງຮອງແກນ Z"
+
+#. HRr84
+#: chart2/inc/strings.hrc:47
+msgctxt "STR_OBJECT_LEGEND"
+msgid "Legend"
+msgstr "ຄຳອະທິບາຍ"
+
+#. BKrVD
+#: chart2/inc/strings.hrc:48
+msgctxt "STR_OBJECT_TITLE"
+msgid "Title"
+msgstr "ຫົວຂໍ້"
+
+#. daY6i
+#: chart2/inc/strings.hrc:49
+msgctxt "STR_OBJECT_TITLES"
+msgid "Titles"
+msgstr "ຫົວຂໍ້"
+
+#. HPrwf
+#: chart2/inc/strings.hrc:50
+msgctxt "STR_OBJECT_TITLE_MAIN"
+msgid "Main Title"
+msgstr "ຫົວຂໍ້ຫຼັກ"
+
+#. 3HPz3
+#: chart2/inc/strings.hrc:51
+msgctxt "STR_OBJECT_TITLE_SUB"
+msgid "Subtitle"
+msgstr "ຫົວຂໍ້ຍ່ອຍ"
+
+#. eZE2v
+#: chart2/inc/strings.hrc:52
+msgctxt "STR_OBJECT_TITLE_X_AXIS"
+msgid "X Axis Title"
+msgstr "ຫົວຂໍ້ແກນ X"
+
+#. uqBii
+#: chart2/inc/strings.hrc:53
+msgctxt "STR_OBJECT_TITLE_Y_AXIS"
+msgid "Y Axis Title"
+msgstr "ຫົວຂໍ້ແກນ Y"
+
+#. 37EU5
+#: chart2/inc/strings.hrc:54
+msgctxt "STR_OBJECT_TITLE_Z_AXIS"
+msgid "Z Axis Title"
+msgstr "ຫົວຂໍ້ແກນ Z"
+
+#. QmoDH
+#: chart2/inc/strings.hrc:55
+msgctxt "STR_OBJECT_TITLE_SECONDARY_X_AXIS"
+msgid "Secondary X Axis Title"
+msgstr "ຫົວຂໍ້ແກນ X ທີສອງ"
+
+#. F7NWG
+#: chart2/inc/strings.hrc:56
+msgctxt "STR_OBJECT_TITLE_SECONDARY_Y_AXIS"
+msgid "Secondary Y Axis Title"
+msgstr "ຫົວຂໍ້ແກນ Y ທີສອງ"
+
+#. AtLNM
+#: chart2/inc/strings.hrc:57
+msgctxt "STR_OBJECT_LABEL"
+msgid "Label"
+msgstr "ປ້າຍ"
+
+#. ag7pg
+#: chart2/inc/strings.hrc:58
+msgctxt "STR_OBJECT_DATALABELS"
+msgid "Data Labels"
+msgstr "ປ້າຍກຳກັບຂໍ້ມູນ"
+
+#. ts3Cj
+#: chart2/inc/strings.hrc:59
+msgctxt "STR_OBJECT_DATAPOINT"
+msgid "Data Point"
+msgstr "ຈຸດຂອງຂໍ້ມູນ"
+
+#. EnsUx
+#: chart2/inc/strings.hrc:60
+msgctxt "STR_OBJECT_DATAPOINTS"
+msgid "Data Points"
+msgstr "ຈຸດຂອງຂໍ້ມູນ"
+
+#. CqWnU
+#: chart2/inc/strings.hrc:61
+msgctxt "STR_OBJECT_LEGEND_SYMBOL"
+msgid "Legend Key"
+msgstr "ຄ່າຫຼັກຄຳອະທິບາຍ"
+
+#. jNwC8
+#: chart2/inc/strings.hrc:62
+msgctxt "STR_OBJECT_DATASERIES"
+msgid "Data Series"
+msgstr "ຊຸດຂໍ້ມູນ"
+
+#. Zf7DA
+#: chart2/inc/strings.hrc:63
+msgctxt "STR_OBJECT_DATASERIES_PLURAL"
+msgid "Data Series"
+msgstr "ຊຸດຂໍ້ມູນ"
+
+#. 3G9WG
+#: chart2/inc/strings.hrc:64
+msgctxt "STR_OBJECT_CURVE"
+msgid "Trend Line"
+msgstr "ເສັ້ນແນວໂນ້ມ"
+
+#. 8miGx
+#: chart2/inc/strings.hrc:65
+msgctxt "STR_OBJECT_CURVES"
+msgid "Trend Lines"
+msgstr "ເສັ້ນແນວໂນ້ມ"
+
+#. ESVL6
+#: chart2/inc/strings.hrc:66
+msgctxt "STR_OBJECT_CURVE_WITH_PARAMETERS"
+msgid "Trend line %FORMULA with accuracy R² = %RSQUARED"
+msgstr "ເສັ້ນແນວໂນ້ມ %FORMULA ມີຄວາມຖືກຕ້ອງ R² = %RSQUARED"
+
+#. DrVz3
+#: chart2/inc/strings.hrc:67
+msgctxt "STR_OBJECT_MOVING_AVERAGE_WITH_PARAMETERS"
+msgid "Moving average trend line with period = %PERIOD"
+msgstr "ເສັ້ນແນວໂນ້ມຄ່າສະເລ່ຍເຄື່ອນຍ້າຍ = %PERIOD"
+
+#. mcMQC
+#: chart2/inc/strings.hrc:68
+msgctxt "STR_OBJECT_AVERAGE_LINE"
+msgid "Mean Value Line"
+msgstr "ເສັ້ນຄ່າສະເລ່ຍ"
+
+#. RLMNC
+#: chart2/inc/strings.hrc:69
+msgctxt "STR_OBJECT_CURVE_EQUATION"
+msgid "Equation"
+msgstr "ສົມຜົນ"
+
+#. apx4j
+#: chart2/inc/strings.hrc:70
+msgctxt "STR_OBJECT_ERROR_BARS_X"
+msgid "X Error Bars"
+msgstr "ແຖບຂໍ້ຜິດພາດ X"
+
+#. BUEbq
+#: chart2/inc/strings.hrc:71
+msgctxt "STR_OBJECT_ERROR_BARS_Y"
+msgid "Y Error Bars"
+msgstr "ແຖບຂໍ້ຜິດພາດ Y"
+
+#. tQCpv
+#: chart2/inc/strings.hrc:72
+msgctxt "STR_OBJECT_ERROR_BARS_Z"
+msgid "Z Error Bars"
+msgstr "ແຖບຂໍ້ຜິດພາດ Z"
+
+#. bz4Dw
+#: chart2/inc/strings.hrc:73
+msgctxt "STR_OBJECT_STOCK_LOSS"
+msgid "Stock Loss"
+msgstr "ຂາດທຶນສະຕ໋ອກ"
+
+#. AFE2t
+#: chart2/inc/strings.hrc:74
+msgctxt "STR_OBJECT_STOCK_GAIN"
+msgid "Stock Gain"
+msgstr "ກຳໄລຈາກສະຕ໋ອກ"
+
+#. Y5Qif
+#: chart2/inc/strings.hrc:75
+msgctxt "STR_OBJECT_PAGE"
+msgid "Chart Area"
+msgstr "ຜັງພື້ນທີ່"
+
+#. J9m2k
+#: chart2/inc/strings.hrc:76
+msgctxt "STR_OBJECT_DIAGRAM"
+msgid "Chart"
+msgstr "ແຜນວາດ"
+
+#. oRCev
+#: chart2/inc/strings.hrc:77
+msgctxt "STR_OBJECT_DIAGRAM_WALL"
+msgid "Chart Wall"
+msgstr "ຜັງແຜນພູມ"
+
+#. meV4E
+#: chart2/inc/strings.hrc:78
+msgctxt "STR_OBJECT_DIAGRAM_FLOOR"
+msgid "Chart Floor"
+msgstr "ພື້ນແຜນວາດ"
+
+#. AHV4D
+#: chart2/inc/strings.hrc:79
+msgctxt "STR_OBJECT_SHAPE"
+msgid "Drawing Object"
+msgstr "ການແຕ້ມວັດຖຸ"
+
+#. dNCXG
+#: chart2/inc/strings.hrc:80
+msgctxt "STR_TIP_DATASERIES"
+msgid "Data Series '%SERIESNAME'"
+msgstr "ຊຸດຂໍ້ມູນ '%SERIESNAME'"
+
+#. LDsiQ
+#: chart2/inc/strings.hrc:81
+msgctxt "STR_TIP_DATAPOINT_INDEX"
+msgid "Data Point %POINTNUMBER"
+msgstr "ຈຸດຂອງຂໍ້ມູນ %POINTNUMBER"
+
+#. 6C6HT
+#: chart2/inc/strings.hrc:82
+msgctxt "STR_TIP_DATAPOINT_VALUES"
+msgid "Values: %POINTVALUES"
+msgstr "ຄ່າ: %POINTVALUES"
+
+#. rCVeF
+#: chart2/inc/strings.hrc:83
+msgctxt "STR_TIP_DATAPOINT"
+msgid "Data Point %POINTNUMBER, data series %SERIESNUMBER, values: %POINTVALUES"
+msgstr "ຈຸດຂໍ້ມູນ %POINTNUMBER, ຊຸດຂໍ້ມູນ %SERIESNUMBER, ຄ່າ: %POINTVALUES"
+
+#. eKDAq
+#: chart2/inc/strings.hrc:84
+msgctxt "STR_STATUS_DATAPOINT_MARKED"
+msgid "Data point %POINTNUMBER in data series %SERIESNUMBER selected, values: %POINTVALUES"
+msgstr "ຈຸດຂໍ້ມູນ %POINTNUMBER ໃນຊຸຸດຂໍ້ມູນ %SERIESNUMBER ທີ່ຖືກເລືອກໄວ້, ຄ່າ: %POINTVALUES"
+
+#. GB96x
+#: chart2/inc/strings.hrc:85
+msgctxt "STR_STATUS_OBJECT_MARKED"
+msgid "Selection: %OBJECTNAME"
+msgstr "ການເລືອກ: %OBJECTNAME"
+
+#. vyJED
+#: chart2/inc/strings.hrc:86
+msgctxt "STR_STATUS_PIE_SEGMENT_EXPLODED"
+msgid "Pie exploded by %PERCENTVALUE percent"
+msgstr "ແຜນວາດວົງກົມກະຈາຍຕົວດ້ວຍຄ່າເປັນເປີເຊັນ %PERCENTVALUE"
+
+#. FbGFr
+#: chart2/inc/strings.hrc:87
+msgctxt "STR_OBJECT_FOR_SERIES"
+msgid "%OBJECTNAME for Data Series '%SERIESNAME'"
+msgstr "%OBJECTNAME ສຳລັບຊຸດຂໍ້ມູນ '%SERIESNAME'"
+
+#. VVB54
+#: chart2/inc/strings.hrc:88
+msgctxt "STR_OBJECT_FOR_ALL_SERIES"
+msgid "%OBJECTNAME for all Data Series"
+msgstr "%OBJECTNAME ສໍາລັບຊຸດຂໍ້ມູນທັງຫມົດ"
+
+#. Ahjrv
+#: chart2/inc/strings.hrc:89
+msgctxt "STR_ACTION_EDIT_CHARTTYPE"
+msgid "Edit chart type"
+msgstr "ແກ້ໄຂປະເພດແຜນພູມ"
+
+#. zSLvA
+#: chart2/inc/strings.hrc:90
+msgctxt "STR_ACTION_EDIT_DATA_RANGES"
+msgid "Edit data ranges"
+msgstr "ແກ້ໄຂຊ່ວງຂໍ້ມູນ"
+
+#. RmtWN
+#: chart2/inc/strings.hrc:91
+msgctxt "STR_ACTION_EDIT_3D_VIEW"
+msgid "Edit 3D view"
+msgstr "ແກ້ໄຂ 3 ມິຕິ"
+
+#. REBbR
+#: chart2/inc/strings.hrc:92
+msgctxt "STR_ACTION_EDIT_CHART_DATA"
+msgid "Edit chart data"
+msgstr "ແກ້ໄຂຂໍ້ມູນແຜນພູມ"
+
+#. Y7hDD
+#: chart2/inc/strings.hrc:93
+msgctxt "STR_ACTION_TOGGLE_LEGEND"
+msgid "Legend on/off"
+msgstr "ເປີດ/ປິດ ຄຳອະທິບາຍ"
+
+#. fnfBr
+#: chart2/inc/strings.hrc:94
+msgctxt "STR_ACTION_TOGGLE_GRID_HORZ"
+msgid "Horizontal grid major/major&minor/off"
+msgstr "ເປີດຕາໜ່າງຫຼັກ/ເປີດຕາໜ່າງຫຼັກ&ຮອງ/ປິດຕາໜ່າງ ແນວນອນ"
+
+#. jZDDr
+#: chart2/inc/strings.hrc:95
+msgctxt "STR_ACTION_TOGGLE_GRID_VERTICAL"
+msgid "Vertical grid major/major&minor/off"
+msgstr "ເປີດຕາໜ່າງຫຼັກ/ເປີດຕາໜ່າງຫຼັກ&ຮອງ/ປິດຕາໜ່າງ ແນວຕັ້ງ"
+
+#. bZzzZ
+#: chart2/inc/strings.hrc:96
+msgctxt "STR_ACTION_SCALE_TEXT"
+msgid "Scale Text"
+msgstr "ມາດຕາສ່ວນຂໍ້ຄວາມ"
+
+#. wJ7wY
+#: chart2/inc/strings.hrc:97
+msgctxt "STR_ACTION_REARRANGE_CHART"
+msgid "Automatic Layout"
+msgstr "ແຜນວາດການຈັດຄືນໃໝ່"
+
+#. j4xMg
+#: chart2/inc/strings.hrc:98
+msgctxt "STR_ACTION_NOTPOSSIBLE"
+msgid "This function cannot be completed with the selected objects."
+msgstr "ໜ້າທີ່ນີ້ບໍ່ສາມາດດຳເນີນການກັບດ້ວຍວັດຖຸທີ່ເລືອກ"
+
+#. GaEzn
+#: chart2/inc/strings.hrc:99
+msgctxt "STR_ACTION_EDIT_TEXT"
+msgid "Edit text"
+msgstr "ແກ້ໄຂຂໍ້ຄວາມ"
+
+#. EVDVA
+#: chart2/inc/strings.hrc:100
+msgctxt "STR_COLUMN_LABEL"
+msgid "Column %COLUMNNUMBER"
+msgstr "ຖັນ %COLUMNNUMBER"
+
+#. dmCD9
+#: chart2/inc/strings.hrc:101
+msgctxt "STR_ROW_LABEL"
+msgid "Row %ROWNUMBER"
+msgstr "ແຖວ %ROWNUMBER"
+
+#. fVS6E
+#: chart2/inc/strings.hrc:102
+msgctxt "STR_DATA_ROLE_LABEL"
+msgid "Name"
+msgstr "ຊື່"
+
+#. ozAB8
+#: chart2/inc/strings.hrc:103
+msgctxt "STR_DATA_ROLE_X"
+msgid "X-Values"
+msgstr "ຄ່າແກນ X"
+
+#. FgGiW
+#: chart2/inc/strings.hrc:104
+msgctxt "STR_DATA_ROLE_Y"
+msgid "Y-Values"
+msgstr "ຄ່າແກນ Y"
+
+#. vzYAg
+#: chart2/inc/strings.hrc:105
+msgctxt "STR_DATA_ROLE_SIZE"
+msgid "Bubble Sizes"
+msgstr "ຂະໜາດຂອງຟອງ"
+
+#. pMGL4
+#: chart2/inc/strings.hrc:106
+msgctxt "STR_DATA_ROLE_X_ERROR"
+msgid "X-Error-Bars"
+msgstr "ແຖບຂໍ້ຜິດພາດ X"
+
+#. c9oCh
+#: chart2/inc/strings.hrc:107
+msgctxt "STR_DATA_ROLE_X_ERROR_POSITIVE"
+msgid "Positive X-Error-Bars"
+msgstr "ແຖບຂໍ້ຜິດພາດ Y ຄ່າບວກ"
+
+#. uTsVM
+#: chart2/inc/strings.hrc:108
+msgctxt "STR_DATA_ROLE_X_ERROR_NEGATIVE"
+msgid "Negative X-Error-Bars"
+msgstr "ແຖບຂໍ້ຜິດພາດ X ຄ່າລົບ"
+
+#. RZaBP
+#: chart2/inc/strings.hrc:109
+msgctxt "STR_DATA_ROLE_Y_ERROR"
+msgid "Y-Error-Bars"
+msgstr "ແຖບຂໍ້ຜິດພາດ Y"
+
+#. ZFFKK
+#: chart2/inc/strings.hrc:110
+msgctxt "STR_DATA_ROLE_Y_ERROR_POSITIVE"
+msgid "Positive Y-Error-Bars"
+msgstr "ແຖບຂໍ້ຜິດພາດ Y ຄ່າບວກ"
+
+#. pZ3af
+#: chart2/inc/strings.hrc:111
+msgctxt "STR_DATA_ROLE_Y_ERROR_NEGATIVE"
+msgid "Negative Y-Error-Bars"
+msgstr "ແຖບຂໍ້ຜິດພາດ Y ຄ່າລົບ"
+
+#. SD2nd
+#: chart2/inc/strings.hrc:112
+msgctxt "STR_DATA_ROLE_FIRST"
+msgid "Open Values"
+msgstr "ຄ່າທີ່ເປີດ"
+
+#. fySNC
+#: chart2/inc/strings.hrc:113
+msgctxt "STR_DATA_ROLE_LAST"
+msgid "Close Values"
+msgstr "ຄ່າທີ່ປິດ"
+
+#. j5tve
+#: chart2/inc/strings.hrc:114
+msgctxt "STR_DATA_ROLE_MIN"
+msgid "Low Values"
+msgstr "ຄ່າຕໍ່າສຸດ"
+
+#. kr9Ta
+#: chart2/inc/strings.hrc:115
+msgctxt "STR_DATA_ROLE_MAX"
+msgid "High Values"
+msgstr "ຄ່າສູງສຸດ"
+
+#. bK6ee
+#: chart2/inc/strings.hrc:116
+msgctxt "STR_DATA_ROLE_CATEGORIES"
+msgid "Categories"
+msgstr "ປະເພດ"
+
+#. yL7QE
+#: chart2/inc/strings.hrc:117
+msgctxt "STR_DATA_UNNAMED_SERIES"
+msgid "Series"
+msgstr "ອະນຸກົມ"
+
+#. EgbkL
+#: chart2/inc/strings.hrc:118
+msgctxt "STR_DATA_UNNAMED_SERIES_WITH_INDEX"
+msgid "Series%NUMBER"
+msgstr "ເລກ%ອະນຸກົມ"
+
+#. E2YZH
+#: chart2/inc/strings.hrc:119
+msgctxt "STR_DATA_SELECT_RANGE_FOR_SERIES"
+msgid "Select Range for %VALUETYPE of %SERIESNAME"
+msgstr "ເລືອກຊ່ວງສຳລັບ %VALUETYPE ຂອງ %SERIESNAME"
+
+#. pBSSc
+#: chart2/inc/strings.hrc:120
+msgctxt "STR_DATA_SELECT_RANGE_FOR_CATEGORIES"
+msgid "Select Range for Categories"
+msgstr "ເລືອກຊ່ວງສຳລັບໝວດໝູ່"
+
+#. brKa4
+#: chart2/inc/strings.hrc:121
+msgctxt "STR_DATA_SELECT_RANGE_FOR_DATALABELS"
+msgid "Select Range for data labels"
+msgstr "ເລືອກຂອບເຂດສໍາລັບປ້າຍຂໍ້ມູນ"
+
+#. EDFdH
+#: chart2/inc/strings.hrc:122
+msgctxt "STR_DATA_EDITOR_INCORRECT_INPUT"
+msgid ""
+"Your last input is incorrect.\n"
+"Ignore this change and close the dialog?"
+msgstr ""
+"ຂໍ້ມູນເຂົ້າລ່າສຸດຂອງທ່ານບໍ່ຖືກຕ້ອງ.\n"
+"ບໍ່ສົນໃຈການປ່ຽນແປງນີ້ ແລະ ປິດກ່ອງໂຕ້ຕອບຫຼືບໍ່?"
+
+#. Vx6bG
+#: chart2/inc/strings.hrc:123
+msgctxt "STR_TEXT_DIRECTION_LTR"
+msgid "Left-to-right"
+msgstr "ຊ້າຍຫາຂວາ"
+
+#. WoDyW
+#: chart2/inc/strings.hrc:124
+msgctxt "STR_TEXT_DIRECTION_RTL"
+msgid "Right-to-left"
+msgstr "ຂວາຫາຊ້າຍ"
+
+#. dtE2L
+#: chart2/inc/strings.hrc:125
+msgctxt "STR_TEXT_DIRECTION_SUPER"
+msgid "Use superordinate object settings"
+msgstr "ນຳໃຊ້ການຕິດຕັ້ງຜູ້ສັ່ງການລະດັບສູງ"
+
+#. GtGu4
+#: chart2/inc/strings.hrc:126
+msgctxt "STR_PROPERTY_ROLE_FILLCOLOR"
+msgid "Fill Color"
+msgstr "ສີທີ່ຕື່ໃສ່"
+
+#. bzDDY
+#: chart2/inc/strings.hrc:127
+msgctxt "STR_PROPERTY_ROLE_BORDERCOLOR"
+msgid "Border Color"
+msgstr "ສີຂອບ"
+
+#. KSB4c
+#: chart2/inc/strings.hrc:128
+msgctxt "STR_DATA_TABLE"
+msgid "Data Table"
+msgstr "ຕາຕະລາງຂໍ້ມູນ"
+
+#. TuRxr
+#: chart2/inc/strings.hrc:130
+msgctxt "STR_CONTROLTEXT_ERROR_BARS_FROM_DATA"
+msgid "From Data Table"
+msgstr "ຈາກຕາຕະລາງຂໍ້ມູນ"
+
+#. aPEDY
+#: chart2/inc/strings.hrc:131
+msgctxt "STR_REGRESSION_LINEAR"
+msgid "Linear"
+msgstr "ຕາມເສັ້ນ"
+
+#. nD8ay
+#: chart2/inc/strings.hrc:132
+msgctxt "STR_REGRESSION_LOG"
+msgid "Logarithmic"
+msgstr "ຂັ້ນຕອນວິທີ"
+
+#. CotSJ
+#: chart2/inc/strings.hrc:133
+msgctxt "STR_REGRESSION_EXP"
+msgid "Exponential"
+msgstr "ຊີ້ແຈງ"
+
+#. HqBJV
+#: chart2/inc/strings.hrc:134
+msgctxt "STR_REGRESSION_POWER"
+msgid "Power"
+msgstr "ຍົກກຳລັງ"
+
+#. dBiUj
+#: chart2/inc/strings.hrc:135
+msgctxt "STR_REGRESSION_POLYNOMIAL"
+msgid "Polynomial"
+msgstr "ພະຫຸນາມ"
+
+#. FWi4g
+#: chart2/inc/strings.hrc:136
+msgctxt "STR_REGRESSION_MOVING_AVERAGE"
+msgid "Moving average"
+msgstr "ຄ່າສະເລ່ຍເຄື່ອນທີ່"
+
+#. psj3B
+#: chart2/inc/strings.hrc:137
+msgctxt "STR_REGRESSION_MEAN"
+msgid "Mean"
+msgstr "ຄ່າສະເລ່ຍ"
+
+#. C8FVd
+#: chart2/inc/strings.hrc:139
+msgctxt "STR_TYPE_COLUMN"
+msgid "Column"
+msgstr "ຖັນ"
+
+#. SWPnA
+#: chart2/inc/strings.hrc:140
+msgctxt "STR_TYPE_BAR"
+msgid "Bar"
+msgstr "ແທ່ງ"
+
+#. xUnpz
+#: chart2/inc/strings.hrc:141
+msgctxt "STR_TYPE_AREA"
+msgid "Area"
+msgstr "ພື້ນທີ່"
+
+#. bqxBm
+#: chart2/inc/strings.hrc:142
+msgctxt "STR_TYPE_PIE"
+msgid "Pie"
+msgstr "ວົງມົນ"
+
+#. KkcWA
+#: chart2/inc/strings.hrc:143
+msgctxt "STR_TYPE_PIE"
+msgid "Of-Pie"
+msgstr "ຂອງວົງມົນ"
+
+#. GGwEH
+#: chart2/inc/strings.hrc:144
+msgctxt "STR_PIE_EXPLODED"
+msgid "Exploded Pie Chart"
+msgstr "ກະຈາຍແຜນພູມວົງກົມ"
+
+#. fAPmA
+#: chart2/inc/strings.hrc:145
+msgctxt "STR_BAR_OF_PIE"
+msgid "Bar-of-pie Chart"
+msgstr "ແຜນພູມແທ່ງຂອງວົງມົນ"
+
+#. pSGGW
+#: chart2/inc/strings.hrc:146
+msgctxt "STR_PIE_OF_PIE"
+msgid "Pie-of-pie Chart"
+msgstr "ແຜນພູມວົງມົນຂອງວົງມົນ"
+
+#. gxFtf
+#: chart2/inc/strings.hrc:147
+msgctxt "STR_DONUT_EXPLODED"
+msgid "Exploded Donut Chart"
+msgstr "ກະຈາຍແຜນພູມໂດນັດ"
+
+#. nsoQ2
+#: chart2/inc/strings.hrc:148
+msgctxt "STR_DONUT"
+msgid "Donut"
+msgstr "ໂດນັດ"
+
+#. 7HjEG
+#: chart2/inc/strings.hrc:149
+msgctxt "STR_TYPE_LINE"
+msgid "Line"
+msgstr "ເສັ້ນ"
+
+#. Miu8E
+#: chart2/inc/strings.hrc:150
+msgctxt "STR_TYPE_XY"
+msgid "XY (Scatter)"
+msgstr "XY (ການກະຈາຍ)"
+
+#. LBFRX
+#: chart2/inc/strings.hrc:151
+msgctxt "STR_POINTS_AND_LINES"
+msgid "Points and Lines"
+msgstr "ຈຸດ ແລະ ເສັ້ນ"
+
+#. fjka7
+#: chart2/inc/strings.hrc:152
+msgctxt "STR_POINTS_ONLY"
+msgid "Points Only"
+msgstr "ຈຸດເທົ່າກັນ"
+
+#. Sz53v
+#: chart2/inc/strings.hrc:153
+msgctxt "STR_LINES_ONLY"
+msgid "Lines Only"
+msgstr "ເສັ້ນເທົ່າກັນ"
+
+#. AAEA2
+#: chart2/inc/strings.hrc:154
+msgctxt "STR_LINES_3D"
+msgid "3D Lines"
+msgstr "ເສັ້ນແບບ 3 ມິຕິ"
+
+#. ABjEg
+#: chart2/inc/strings.hrc:155
+msgctxt "STR_TYPE_COMBI_COLUMN_LINE"
+msgid "Column and Line"
+msgstr "ຖັນ ແລະ ເສັ້ນ"
+
+#. nVKfC
+#: chart2/inc/strings.hrc:156
+msgctxt "STR_LINE_COLUMN"
+msgid "Columns and Lines"
+msgstr "ຖັນ ແລະ ເສັ້ນ"
+
+#. QkQSa
+#: chart2/inc/strings.hrc:157
+msgctxt "STR_LINE_STACKEDCOLUMN"
+msgid "Stacked Columns and Lines"
+msgstr "ຖັນທັບຊ້ອນ ແລະ ເສັ້ນ"
+
+#. HGKEx
+#: chart2/inc/strings.hrc:158
+msgctxt "STR_TYPE_NET"
+msgid "Net"
+msgstr "ເຄືອຂ່າຍ"
+
+#. BKUc4
+#: chart2/inc/strings.hrc:159
+msgctxt "STR_TYPE_STOCK"
+msgid "Stock"
+msgstr "ສະຕ໋ອກ"
+
+#. oG4gw
+#: chart2/inc/strings.hrc:160
+msgctxt "STR_STOCK_1"
+msgid "Stock Chart 1"
+msgstr "ແຜນຜັງແບບສຳເລັດ 1"
+
+#. pSzDo
+#: chart2/inc/strings.hrc:161
+msgctxt "STR_STOCK_2"
+msgid "Stock Chart 2"
+msgstr "ແຜນຜັງແບບສຳເລັດ 2"
+
+#. aEFDu
+#: chart2/inc/strings.hrc:162
+msgctxt "STR_STOCK_3"
+msgid "Stock Chart 3"
+msgstr "ແຜນຜັງແບບສຳເລັດ 3"
+
+#. jZqox
+#: chart2/inc/strings.hrc:163
+msgctxt "STR_STOCK_4"
+msgid "Stock Chart 4"
+msgstr "ແຜນຜັງແບບສຳເລັດ 4"
+
+#. DNBgg
+#: chart2/inc/strings.hrc:164
+msgctxt "STR_NORMAL"
+msgid "Normal"
+msgstr "ປົກກະຕິ"
+
+#. EfGVL
+#: chart2/inc/strings.hrc:165
+msgctxt "STR_STACKED"
+msgid "Stacked"
+msgstr "ທັບຊ້ອນ"
+
+#. wqtzw
+#: chart2/inc/strings.hrc:166
+msgctxt "STR_PERCENT"
+msgid "Percent Stacked"
+msgstr "ເປີເຊັນທັບຊ້ອນ"
+
+#. 52UGB
+#: chart2/inc/strings.hrc:167
+msgctxt "STR_DEEP"
+msgid "Deep"
+msgstr "ເລິກ"
+
+#. dxfuQ
+#: chart2/inc/strings.hrc:168
+msgctxt "STR_FILLED"
+msgid "Filled"
+msgstr "ເຕີມສີ"
+
+#. rC5nu
+#: chart2/inc/strings.hrc:169
+msgctxt "STR_TYPE_BUBBLE"
+msgid "Bubble"
+msgstr "ຟອງ"
+
+#. N9tXx
+#: chart2/inc/strings.hrc:170
+msgctxt "STR_BUBBLE_1"
+msgid "Bubble Chart"
+msgstr "ແຜນພູມຂອງຟອງ"
+
+#. AjPsf
+#: chart2/inc/strings.hrc:172
+msgctxt "STR_INVALID_NUMBER"
+msgid "Numbers are required. Check your input."
+msgstr "ຕ້ອງມີຕົວເລກ. ກວດສອບຂໍ້ມູນຂອງເຈົ້າ."
+
+#. ofh4V
+#: chart2/inc/strings.hrc:173
+msgctxt "STR_STEP_GT_ZERO"
+msgid "The major interval requires a positive number. Check your input."
+msgstr "ຊ່ວງເວລາສຳຄັນຕ້ອງໃຊ້ຈຳນວນບວກ ກວດສອບຂໍ້ມູນຂອງເຈົ້າ"
+
+#. EBJjR
+#: chart2/inc/strings.hrc:174
+msgctxt "STR_BAD_LOGARITHM"
+msgid "The logarithmic scale requires positive numbers. Check your input."
+msgstr "ມາດຕາສ່ວນ ອາວກະລິທຶມ ຕ້ອງໃຊ້ຕົວເລກບວກ ກວດສອບຂໍ້ມູນຂອງເຈົ້າ"
+
+#. K8BCB
+#: chart2/inc/strings.hrc:175
+msgctxt "STR_MIN_GREATER_MAX"
+msgid "The minimum must be lower than the maximum. Check your input."
+msgstr "ຈຳນວນນ້ອຍສຸດຕ້ອງຕໍ່າກວ່າຄ່າຫຼາຍສຸດ ກວດສອບຂໍ້ມູນຂອງເຈົ້າ"
+
+#. oBR4x
+#: chart2/inc/strings.hrc:176
+msgctxt "STR_INVALID_INTERVALS"
+msgid "The major interval needs to be greater than the minor interval. Check your input."
+msgstr "ຊ່ວງເວລາສຳຄັນຕ້ອງໃຫ່ຍກ່ວາຊ່ວງຍ່ອຍ ກວດສອບຂໍ້ມູນຂອງເຈົ້າ"
+
+#. ZvDEh
+#: chart2/inc/strings.hrc:177
+msgctxt "STR_INVALID_TIME_UNIT"
+msgid "The major and minor interval need to be greater or equal to the resolution. Check your input."
+msgstr "ຊ່ວງຫຼັກ ແລະ ຊ່ວງຮອງຕ້ອງຫຼາຍກວ່າຫຼືເທົ່າກັບຄວາມລະອຽດ. ກວດເບິ່ງການປ້ອນຄ່າຂອງທ່ານ"
+
+#. UD9f7
+#: chart2/inc/strings.hrc:178
+msgctxt "STR_UNSUPPORTED_CHART_TYPE"
+msgid "One or more chart types are unsupported in this version of %PRODUCTNAME"
+msgstr "ໜຶ່ງ ຫຼື ຫຼາຍປະເພດແຜນພູມບໍ່ໄດ້ຮັບການຮອງຮັບໃນ %PRODUCTNAME ເວີຊັນນີ້"
+
+#. VVVyQ
+#: chart2/uiconfig/ui/3dviewdialog.ui:8
+msgctxt "3dviewdialog|3DViewDialog"
+msgid "3D View"
+msgstr "ມຸມມອງ 3 ມິຕິ"
+
+#. 3aACC
+#: chart2/uiconfig/ui/chardialog.ui:8
+msgctxt "chardialog|CharDialog"
+msgid "Character"
+msgstr "ຕົວອັກສອນ"
+
+#. DWGVf
+#: chart2/uiconfig/ui/chartcolorpalettepopup.ui:46
+msgctxt "chartcolorpalettepopup|colorfulwin"
+msgid "Colorful"
+msgstr "ຫຼາກຫຼາຍສີ"
+
+#. xmAmH
+#: chart2/uiconfig/ui/chartcolorpalettepopup.ui:95
+msgctxt "chartcolorpalettepopup|monochromaticwin"
+msgid "Monochromatic"
+msgstr "ສີໂທນດຽວ"
+
+#. vuzAY
+#: chart2/uiconfig/ui/chartdatadialog.ui:8
+msgctxt "chartdatadialog|ChartDataDialog"
+msgid "Data Table"
+msgstr "ຕາຕະລາງຂໍ້ມູນ"
+
+#. ywdAz
+#: chart2/uiconfig/ui/chartdatadialog.ui:72
+msgctxt "chartdatadialog|InsertRow"
+msgid "Insert Row"
+msgstr "ແຊກແຖວໃສ່"
+
+#. 8ijLs
+#: chart2/uiconfig/ui/chartdatadialog.ui:77
+msgctxt "chartdatadialog|extended_tip|InsertRow"
+msgid "Inserts a new row below the current row."
+msgstr "ແຊກແຖວໃໝ່ໃສ່ລຸ່ມແຖວປະຈຸບັນ."
+
+#. DDsFz
+#: chart2/uiconfig/ui/chartdatadialog.ui:89
+msgctxt "chartdatadialog|InsertColumn"
+msgid "Insert Series"
+msgstr "ແຊກຊຸດຂໍ້ມູນ"
+
+#. EjHBF
+#: chart2/uiconfig/ui/chartdatadialog.ui:94
+msgctxt "chartdatadialog|extended_tip|InsertColumn"
+msgid "Inserts a new data series after the current column."
+msgstr "ແຊກຊຸດຂໍ້ມູນໃໝ່ໃສ່ຫຼັງຖັນປະຈຸບັນ."
+
+#. KuFy7
+#: chart2/uiconfig/ui/chartdatadialog.ui:106
+msgctxt "chartdatadialog|InsertTextColumn"
+msgid "Insert Text Column"
+msgstr "ແຊກຖັນຂໍ້ຄວາມ"
+
+#. tVACy
+#: chart2/uiconfig/ui/chartdatadialog.ui:111
+msgctxt "chartdatadialog|extended_tip|InsertTextColumn"
+msgid "Inserts a new text column after the current column for hierarchical axes descriptions."
+msgstr "ແຊກຖັນຂໍ້ຄວາມໃໝ່ໃສ່ຫຼັງຖັນປະຈຸບັນ ສຳລັບຄຳອະທິບາຍແກນແບບລຳດັບຂັ້ນ."
+
+#. 4JgTE
+#: chart2/uiconfig/ui/chartdatadialog.ui:123
+msgctxt "chartdatadialog|RemoveRow"
+msgid "Delete Row"
+msgstr "ລຶບແຖວ"
+
+#. DVMcX
+#: chart2/uiconfig/ui/chartdatadialog.ui:128
+msgctxt "chartdatadialog|extended_tip|RemoveRow"
+msgid "Deletes the current row. It is not possible to delete the label row."
+msgstr "ລຶບແຖວປະຈຸບັນ. ບໍ່ສາມາດລຶບແຖວປ້າຍຊື່ໄດ້."
+
+#. JCBmW
+#: chart2/uiconfig/ui/chartdatadialog.ui:140
+msgctxt "chartdatadialog|RemoveColumn"
+msgid "Delete Series"
+msgstr "ລົບຊຸດຂໍ້ມູນ"
+
+#. mSCiJ
+#: chart2/uiconfig/ui/chartdatadialog.ui:145
+msgctxt "chartdatadialog|extended_tip|RemoveColumn"
+msgid "Deletes the current series or text column. It is not possible to delete the first text column."
+msgstr "ລຶບຊຸດຂໍ້ມູນ ຫຼື ຖັນຂໍ້ຄວາມປະຈຸບັນ. ບໍ່ສາມາດລຶບຖັນຂໍ້ຄວາມທຳອິດໄດ້."
+
+#. MUkk3
+#: chart2/uiconfig/ui/chartdatadialog.ui:167
+msgctxt "chartdatadialog|MoveLeftColumn"
+msgid "Move Series Left"
+msgstr "ຍ້າຍຊຸດຂໍ້ມູນໄປທາງຊ້າຍ"
+
+#. V7UUB
+#: chart2/uiconfig/ui/chartdatadialog.ui:172
+msgctxt "chartdatadialog|extended_tip|MoveLeftColumn"
+msgid "Switches the current column with its neighbor at the left."
+msgstr "ສະລັບຖັນປະຈຸບັນກັບຖັນທາງເບື້ອງຊ້າຍ."
+
+#. DfxQy
+#: chart2/uiconfig/ui/chartdatadialog.ui:184
+msgctxt "chartdatadialog|MoveRightColumn"
+msgid "Move Series Right"
+msgstr "ຍ້າຍຊຸດຂໍ້ມູນໄປທາງຂວາ"
+
+#. JxZC8
+#: chart2/uiconfig/ui/chartdatadialog.ui:189
+msgctxt "chartdatadialog|extended_tip|MoveRightColumn"
+msgid "Switches the current column with its neighbor at the right."
+msgstr "ສະລັບຖັນປະຈຸບັນກັບຖັນທາງເບື້ອງຂວາ."
+
+#. EkxKw
+#: chart2/uiconfig/ui/chartdatadialog.ui:201
+msgctxt "chartdatadialog|MoveUpRow"
+msgid "Move Row Up"
+msgstr "ຍ້າຍແຖວຂື້ນ"
+
+#. DnZTt
+#: chart2/uiconfig/ui/chartdatadialog.ui:206
+msgctxt "chartdatadialog|extended_tip|MoveUpRow"
+msgid "Switches the current row with its neighbor above."
+msgstr "ສະລັບແຖວປະຈຸບັນກັບແຖວທາງເທິງ."
+
+#. TvbuK
+#: chart2/uiconfig/ui/chartdatadialog.ui:218
+msgctxt "chartdatadialog|MoveDownRow"
+msgid "Move Row Down"
+msgstr "ຍ້າຍແຖວລົງ"
+
+#. u8jmj
+#: chart2/uiconfig/ui/chartdatadialog.ui:223
+msgctxt "chartdatadialog|extended_tip|MoveDownRow"
+msgid "Switches the current row with its neighbor below."
+msgstr "ສະລັບແຖວປະຈຸບັນກັບແຖວທາງລຸ່ມ."
+
+#. rRJDK
+#: chart2/uiconfig/ui/chartdatadialog.ui:354
+msgctxt "chartdatadialog|extended_tip|ChartDataDialog"
+msgid "Opens the Data Table dialog where you can edit the chart data."
+msgstr "ເປີດກ່ອງຂໍ້ຄວາມຕາຕະລາງຂໍ້ມູນ ເພື່ອໃຫ້ທ່ານແກ້ໄຂຂໍ້ມູນແຜນພູມ."
+
+#. KbkRw
+#: chart2/uiconfig/ui/charttypedialog.ui:8
+msgctxt "charttypedialog|ChartTypeDialog"
+msgid "Chart Type"
+msgstr "ຊະນິດແຜນວາດ"
+
+#. 9AVY7
+#: chart2/uiconfig/ui/datarangedialog.ui:8
+msgctxt "datarangedialog|DataRangeDialog"
+msgid "Data Ranges"
+msgstr "ຂອບເຂດຂໍ້ມູນ"
+
+#. PqEvS
+#: chart2/uiconfig/ui/datarangedialog.ui:125
+msgctxt "datarangedialog|range"
+msgid "Data Range"
+msgstr "ຂອບເຂດຂໍ້ມູນ"
+
+#. YmqFB
+#: chart2/uiconfig/ui/datarangedialog.ui:172
+msgctxt "datarangedialog|series"
+msgid "Data Series"
+msgstr "ຊຸດຂໍ້ມູນ"
+
+#. H6ezZ
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:13
+msgctxt "dlg_DataLabel|dlg_DataLabels"
+msgid "Data Labels for all Data Series"
+msgstr "ປ້າຍຂໍ້ມູນສໍາລັບຊຸດຂໍ້ມູນທັງຫມົດ"
+
+#. EEEgE
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:107
+msgctxt "dlg_DataLabel|CB_VALUE_AS_NUMBER"
+msgid "Value as _number"
+msgstr "ຄ່າເປັນ_ຕົວເລກ"
+
+#. sDLeD
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:115
+msgctxt "dlg_DataLabel|extended_tip|CB_VALUE_AS_NUMBER"
+msgid "Displays the absolute values of the data points."
+msgstr "ສະແດງຄ່າສົມບູນຂອງຈຸດຂໍ້ມູນ."
+
+#. bFd8g
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:126
+msgctxt "dlg_DataLabel|PB_NUMBERFORMAT"
+msgid "Number _format..."
+msgstr "ຮູບແ_ບບຕົວເລກ..."
+
+#. yHa5z
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:134
+msgctxt "dlg_DataLabel|extended_tip|PB_NUMBERFORMAT"
+msgid "Opens a dialog to select the number format."
+msgstr "ເປີດກ່ອງຂໍ້ຄວາມເພື່ອເລືອກຮູບແບບຕົວເລກ."
+
+#. 7zFS6
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:145
+msgctxt "dlg_DataLabel|CB_VALUE_AS_PERCENTAGE"
+msgid "Value as _percentage"
+msgstr "ຄ່າເປັນ_ເປີເຊັນ"
+
+#. 5Hp8E
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:153
+msgctxt "dlg_DataLabel|extended_tip|CB_VALUE_AS_PERCENTAGE"
+msgid "Displays the percentage of the data points in each column."
+msgstr "ສະແດງສ່ວນຮ້ອຍຂອງຈຸດຂໍ້ມູນໃນແຕ່ລະຖັນ."
+
+#. cFD6D
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:164
+msgctxt "dlg_DataLabel|PB_PERCENT_NUMBERFORMAT"
+msgid "Percentage f_ormat..."
+msgstr "_ຮູບແບບເປີເຊັນ"
+
+#. Wj42y
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:172
+msgctxt "dlg_DataLabel|extended_tip|PB_PERCENT_NUMBERFORMAT"
+msgid "Opens a dialog to select the percentage format."
+msgstr "ເປີດກ່ອງຂໍ້ຄວາມເພື່ອເລືອກຮູບແບບສ່ວນຮ້ອຍ."
+
+#. h3skj
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:183
+msgctxt "dlg_DataLabel|CB_CATEGORY"
+msgid "_Category"
+msgstr "_ໝວດໝູ່"
+
+#. oJGQF
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:191
+msgctxt "dlg_DataLabel|extended_tip|CB_CATEGORY"
+msgid "Shows the data point text labels."
+msgstr "ສະແດງປ້າຍຊື່ຂໍ້ຄວາມຂອງຈຸດຂໍ້ມູນ."
+
+#. 69qZL
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:203
+msgctxt "dlg_DataLabel|STR_DLG_NUMBERFORMAT_FOR_PERCENTAGE_VALUE"
+msgid "Number Format for Percentage Value"
+msgstr "ຮູບແບບຕົວເລກສຳລັບເປີເຊັນ"
+
+#. DhnMn
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:212
+msgctxt "dlg_DataLabel|CB_DATA_SERIES_NAME"
+msgid "_Series name"
+msgstr "ຊື່_ຊຸດຂໍ້ມູນ"
+
+#. 8bEui
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:220
+msgctxt "dlg_DataLabel|extended_tip|CB_DATA_SERIES_NAME"
+msgid "Shows the data series name in the label."
+msgstr "ສະແດງຊື່ຊຸດຂໍ້ມູນໃນປ້າຍຊື່."
+
+#. ETbFx
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:233
+msgctxt "dlg_DataLabel|CT_LABEL_DIAL"
+msgid "ABCD"
+msgstr "ABCD"
+
+#. u5FBJ
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:245
+msgctxt "dlg_DataLabel|CB_SYMBOL"
+msgid "_Legend key"
+msgstr "ຄີ_ຄຳອະທິບາຍ"
+
+#. 7WADc
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:253
+msgctxt "dlg_DataLabel|extended_tip|CB_SYMBOL"
+msgid "Displays the legend icons next to each data point label."
+msgstr "ສະແດງໄອຄອນຄຳອະທິບາຍສັນຍະລັກຂ້າງປ້າຍຊື່ຈຸດຂໍ້ມູນແຕ່ລະອັນ."
+
+#. BA3kD
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:264
+msgctxt "dlg_DataLabel|CB_WRAP_TEXT"
+msgid "Auto text _wrap"
+msgstr "_ຫຸ້ມໜັງສືອັດຕະໂນມັດ"
+
+#. mFeMA
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:288
+msgctxt "dlg_DataLabel|label1"
+msgid "Text Attributes"
+msgstr "ຄຸນສົມບັດຂໍ້ຄວາມ"
+
+#. NvbuM
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:322
+msgctxt "dlg_DataLabel|FT_TEXT_SEPARATOR"
+msgid "_Separator"
+msgstr "ຕົວແ_ບ່ງ"
+
+#. m8qsr
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:338
+msgctxt "dlg_DataLabel|liststoreSEPARATOR"
+msgid "Space"
+msgstr "ຊ່ອງວ່າງ"
+
+#. d6M3S
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:339
+msgctxt "dlg_DataLabel|liststoreSEPARATOR"
+msgid "Comma"
+msgstr "ເຄື່ອງໝາຍຈຸດ"
+
+#. HUBkD
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:340
+msgctxt "dlg_DataLabel|liststoreSEPARATOR"
+msgid "Semicolon"
+msgstr "ຈ້ຳຈຸດ"
+
+#. 3CaCX
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:341
+msgctxt "dlg_DataLabel|liststoreSEPARATOR"
+msgid "New line"
+msgstr "ເສັ້ນໃໝ່"
+
+#. CAtwB
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:342
+msgctxt "dlg_DataLabel|liststoreSEPARATOR"
+msgid "Period"
+msgstr "ຈ້ຳ"
+
+#. 8Z3DJ
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:346
+msgctxt "dlg_DataLabel|extended_tip|LB_TEXT_SEPARATOR"
+msgid "Selects the separator between multiple text strings for the same object."
+msgstr "ເລືອກຕົວຂັ້ນລະຫວ່າງຂໍ້ຄວາມຫຼາຍອັນສຳລັບວັດຖຸດຽວກັນ."
+
+#. FDBQW
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:359
+msgctxt "dlg_DataLabel|FT_LABEL_PLACEMENT"
+msgid "Place_ment"
+msgstr "ການຈັດ_ວາງ"
+
+#. RBvRC
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:375
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Best fit"
+msgstr "ພໍດີ"
+
+#. CFGTS
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:376
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Center"
+msgstr "ທາງກາງ"
+
+#. kxNDG
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:377
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Above"
+msgstr "ຂ້າງເທິງ"
+
+#. dnhiD
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:378
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Top left"
+msgstr "ຊ້າຍເທິງ"
+
+#. TGuEk
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:379
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Left"
+msgstr "ຊ້າຍ"
+
+#. eUxTR
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:380
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Bottom left"
+msgstr "ລຸ່ມຊ້າຍ"
+
+#. CGQj7
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:381
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Below"
+msgstr "ຂ້າງລຸ່ມ"
+
+#. UJ7uQ
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:382
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Bottom right"
+msgstr "ລຸ່ມຂວາ"
+
+#. nEFuG
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:383
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Right"
+msgstr "ຂວາ"
+
+#. NQCGE
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:384
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Top right"
+msgstr "ຂວາເທິງ"
+
+#. UagUt
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:385
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Inside"
+msgstr "ດ້ານໃນ"
+
+#. y25DL
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:386
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Outside"
+msgstr "ດ້ານນອກ"
+
+#. 3HjyB
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:387
+msgctxt "dlg_DataLabel|liststorePLACEMENT"
+msgid "Near origin"
+msgstr "ໃກ້ຈຸດກຳເນີດ"
+
+#. TMEug
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:391
+msgctxt "dlg_DataLabel|extended_tip|LB_LABEL_PLACEMENT"
+msgid "Selects the placement of data labels relative to the objects."
+msgstr "ເລືອກຕຳແໜ່ງການວາງປ້າຍຊື່ຂໍ້ມູນທຽບກັບວັດຖຸ."
+
+#. oEFpN
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:406
+msgctxt "dlg_DataLabel|label1"
+msgid "Attribute Options"
+msgstr "ຕົວເລືອກຄຸນລັກສະນະ"
+
+#. gE7CA
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:458
+msgctxt "dlg_DataLabel|extended_tip|CT_DIAL"
+msgid "Click in the dial to set the text orientation for the data labels."
+msgstr "ຄລິກທີ່ໜ້າປັດເພື່ອຕັ້ງຄ່າທິດທາງຂໍ້ຄວາມສຳລັບປ້າຍຊື່ຂໍ້ມູນ."
+
+#. MjCoG
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:479
+msgctxt "dlg_DataLabel|extended_tip|NF_LABEL_DEGREES"
+msgid "Enter the counterclockwise rotation angle for the data labels."
+msgstr "ປ້ອນມຸມການໝຸນທວນເຂັມໂມງສຳລັບປ້າຍຊື່ຂໍ້ມູນ."
+
+#. Jhjwb
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:493
+msgctxt "dlg_DataLabel|FT_LABEL_DEGREES"
+msgid "_Degrees"
+msgstr "_ອົງສາ"
+
+#. vtVy2
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:518
+msgctxt "dlg_DataLabel|FT_LABEL_TEXTDIR"
+msgid "Te_xt direction"
+msgstr "ທິດທາງ_ຂໍ້ຄວາມ"
+
+#. tjcHp
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:535
+msgctxt "dlg_DataLabel|extended_tip|LB_LABEL_TEXTDIR"
+msgid "Specify the text direction for a paragraph that uses complex text layout (CTL). This feature is only available if complex text layout support is enabled."
+msgstr "ລະບຸທິດທາງຂໍ້ຄວາມສຳລັບຫຍໍ້ໜ້າທີ່ໃຊ້ການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນ (CTL). ຄຸນສົມບັດນີ້ຈະໃຊ້ໄດ້ກໍຕໍ່ເມື່ອເປີດການຮອງຮັບການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນເທົ່ານັ້ນ."
+
+#. xpAEz
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:558
+msgctxt "dlg_DataLabel|label2"
+msgid "Rotate Text"
+msgstr "ໝູນຂໍ້ຄວາມ"
+
+#. NpD8D
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:587
+msgctxt "dlg_DataLabel|CB_CUSTOM_LEADER_LINES"
+msgid "_Connect displaced data labels to data points"
+msgstr "_ເຊື່ອມຕໍ່ປ້າຍຊື່ຂໍ້ມູນທີ່ຖືກຍ້າຍໄປຫາຈຸດຂໍ້ມູນ"
+
+#. MJdmK
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:595
+msgctxt "dlg_DataLabel|extended_tip|CB_CUSTOM_LEADER_LINES"
+msgid "Draws a line connecting the data labels to the data points"
+msgstr "ແຕ້ມເສັ້ນເຊື່ອມຕໍ່ປ້າຍຊື່ຂໍ້ມູນໄປຫາຈຸດຂໍ້ມູນ"
+
+#. UKVF9
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:611
+msgctxt "dlg_DataLabel|label3"
+msgid "Leader Lines"
+msgstr "ເສັ້ນໂຍງ"
+
+#. 2cE35
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:641
+msgctxt "dlg_DataLabel|extended_tip|dlg_DataLabel"
+msgid "Opens the Data Labels dialog, which enables you to set the data labels."
+msgstr "ເປີດກ່ອງຂໍ້ຄວາມປ້າຍຊື່ຂໍ້ມູນ ເພື່ອໃຫ້ທ່ານຕັ້ງຄ່າປ້າຍຊື່ຂໍ້ມູນ."
+
+#. bt7D7
+#: chart2/uiconfig/ui/dlg_DataLabel.ui:660
+msgctxt "dlg_DataLabel|extended_tip|dlg_DataLabels"
+msgid "Opens the Data Labels dialog, which enables you to set the data labels."
+msgstr "ເປີດກ່ອງຂໍ້ຄວາມປ້າຍຊື່ຂໍ້ມູນ ເພື່ອໃຫ້ທ່ານຕັ້ງຄ່າປ້າຍຊື່ຂໍ້ມູນ."
+
+#. XbRRD
+#: chart2/uiconfig/ui/dlg_InsertDataTable.ui:8
+msgctxt "dlg_InsertDataTable|dlg_InsertDataTable"
+msgid "Data Table"
+msgstr "ຕາຕະລາງຂໍ້ມູນ"
+
+#. SBrCL
+#: chart2/uiconfig/ui/dlg_InsertDataTable.ui:85
+msgctxt "dlg_InsertDataTable|horizontalBorderCB"
+msgid "Show data table"
+msgstr "ສະແດງຕາຕະລາງຂໍ້ມູນ"
+
+#. y4rFB
+#: chart2/uiconfig/ui/dlg_InsertDataTable.ui:119
+msgctxt "dlg_InsertDataTable|horizontalBorderCB"
+msgid "Show horizontal border"
+msgstr "ສະແດງຂອບແນວນອນ"
+
+#. GstZR
+#: chart2/uiconfig/ui/dlg_InsertDataTable.ui:135
+msgctxt "dlg_InsertDataTable|verticalBorderCB"
+msgid "Show vertical border"
+msgstr "ສະແດງຂອບແນວຕັ້ງ"
+
+#. KAzDB
+#: chart2/uiconfig/ui/dlg_InsertDataTable.ui:151
+msgctxt "dlg_InsertDataTable|outlineCB"
+msgid "Show outline"
+msgstr "ສະແດງເຄົ້າຮ່າງ"
+
+#. bm6hN
+#: chart2/uiconfig/ui/dlg_InsertDataTable.ui:167
+msgctxt "dlg_InsertDataTable|keysCB"
+msgid "Show keys"
+msgstr "ສະແດງຄີ"
+
+#. JpXPi
+#: chart2/uiconfig/ui/dlg_InsertDataTable.ui:187
+msgctxt "dlg_InsertDataTable|dataTablePropertiesLabel"
+msgid "Data Table Properties"
+msgstr "ຄຸນສົມບັດຕາຕະລາງຂໍ້ມູນ"
+
+#. 3GUtp
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:28
+msgctxt "dlg_InsertErrorBars|dlg_InsertErrorBars"
+msgid "Legend"
+msgstr "ຄຳອະທິບາຍ"
+
+#. 9Wf9T
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:124
+msgctxt "dlg_InsertErrorBars|RB_NONE"
+msgid "_None"
+msgstr "_ບໍ່ມີຫຍັງ"
+
+#. pvfsb
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:133
+msgctxt "dlg_InsertErrorBars|extended_tip|RB_NONE"
+msgid "Does not show any error bars."
+msgstr "ບໍ່ສະແດງແຖບຄວາມຄາດເຄື່ອນໃດໆ."
+
+#. sMZoy
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:145
+msgctxt "dlg_InsertErrorBars|RB_CONST"
+msgid "_Constant Value"
+msgstr "_ຄ່າຄົງທີ່"
+
+#. oDzF5
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:154
+msgctxt "dlg_InsertErrorBars|extended_tip|RB_CONST"
+msgid "Displays constant values that you specify in the Parameters area."
+msgstr "ສະແດງຄ່າຄົງທີ່ທີ່ທ່ານລະບຸໄວ້ໃນສ່ວນພາຣາມິເຕີ."
+
+#. UzxQQ
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:166
+msgctxt "dlg_InsertErrorBars|RB_PERCENT"
+msgid "_Percentage"
+msgstr "_ເປີເຊັນ"
+
+#. bGDm2
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:175
+msgctxt "dlg_InsertErrorBars|extended_tip|RB_PERCENT"
+msgid "Displays a percentage. The display refers to the corresponding data point. Set the percentage in the Parameters area."
+msgstr "ສະແດງເປັນສ່ວນຮ້ອຍ. ການສະແດງຜົນຈະອ້າງອີງຕາມຈຸດຂໍ້ມູນທີ່ກ່ຽວຂ້ອງ. ຕັ້ງຄ່າສ່ວນຮ້ອຍໃນສ່ວນພາຣາມິເຕີ."
+
+#. tSBH9
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:200
+msgctxt "dlg_InsertErrorBars|extended_tip|RB_FUNCTION"
+msgid "Select a function to calculate the error bars."
+msgstr "ເລືອກຟັງຊັນເພື່ອຄິດໄລ່ແຖບຄວາມຄາດເຄື່ອນ."
+
+#. fkUNn
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:215
+msgctxt "dlg_InsertErrorBars|liststoreFUNCTION"
+msgid "Standard Error"
+msgstr "ມາດຕະຖານການບົກຜ່ອງ"
+
+#. zpc6d
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:216
+msgctxt "dlg_InsertErrorBars|liststoreFUNCTION"
+msgid "Standard Deviation"
+msgstr "ສ່ວນແຕກຕ່າງມາດຕະຖານ"
+
+#. wA6LE
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:217
+msgctxt "dlg_InsertErrorBars|liststoreFUNCTION"
+msgid "Variance"
+msgstr "ຕົວແປ"
+
+#. UASm3
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:218
+msgctxt "dlg_InsertErrorBars|liststoreFUNCTION"
+msgid "Error Margin"
+msgstr "ຂອບຂໍ້ຜິດພາດ"
+
+#. vqTAT
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:222
+msgctxt "dlg_InsertErrorBars|extended_tip|LB_FUNCTION"
+msgid "Select a function to calculate the error bars."
+msgstr "ເລືອກຟັງຊັນເພື່ອຄິດໄລ່ແຖບຄວາມຄາດເຄື່ອນ."
+
+#. Z5yGF
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:241
+msgctxt "dlg_InsertErrorBars|RB_RANGE"
+msgid "Cell _Range"
+msgstr "_ຊ່ວງເຊວ"
+
+#. Vm5iS
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:250
+msgctxt "dlg_InsertErrorBars|extended_tip|RB_RANGE"
+msgid "Click Cell Range and then specify a cell range from which to take the positive and negative error bar values."
+msgstr "ຄລິກ 'ຊ່ວງຕາຕະລາງ' ແລ້ວລະບຸຊ່ວງຕາຕະລາງທີ່ຈະໃຊ້ຄ່າແຖບຄວາມຄາດເຄື່ອນທາງບວກ ແລະ ທາງລົບ."
+
+#. vdvVR
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:266
+msgctxt "dlg_InsertErrorBars|label1"
+msgid "Error Category"
+msgstr "ປະເພດຂໍ້ຜິດພາດ"
+
+#. oZaa3
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:296
+msgctxt "dlg_InsertErrorBars|RB_BOTH"
+msgid "Positive _and Negative"
+msgstr "ຄ່າບວກ _ແລະ ຄ່າລົບ"
+
+#. aAhky
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:305
+msgctxt "dlg_InsertErrorBars|extended_tip|RB_BOTH"
+msgid "Shows positive and negative error bars."
+msgstr "ສະແດງແຖບຄວາມຄາດເຄື່ອນທັງທາງບວກ ແລະ ທາງລົບ."
+
+#. jJw8Y
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:316
+msgctxt "dlg_InsertErrorBars|RB_POSITIVE"
+msgid "Pos_itive"
+msgstr "ຄ່າ_ບວກ"
+
+#. yXXuP
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:325
+msgctxt "dlg_InsertErrorBars|extended_tip|RB_POSITIVE"
+msgid "Shows only positive error bars."
+msgstr "ສະແດງສະເພາະແຖບຄວາມຄາດເຄື່ອນທາງບວກ."
+
+#. 6YgbM
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:336
+msgctxt "dlg_InsertErrorBars|RB_NEGATIVE"
+msgid "Ne_gative"
+msgstr "ຄ່າ_ລົບ"
+
+#. KsYHq
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:345
+msgctxt "dlg_InsertErrorBars|extended_tip|RB_NEGATIVE"
+msgid "Shows only negative error bars."
+msgstr "ສະແດງສະເພາະແຖບຄວາມຄາດເຄື່ອນທາງລົບ."
+
+#. fkKQH
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:393
+msgctxt "dlg_InsertErrorBars|label2"
+msgid "Error Indicator"
+msgstr "ຕົວບົ່ງບອກຂໍ້ຜິດພາດ"
+
+#. WWuZ8
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:437
+msgctxt "dlg_InsertErrorBars|FT_POSITIVE"
+msgid "P_ositive (+)"
+msgstr "ຄ່າ_ບວກ (+)"
+
+#. EHq4d
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:456
+msgctxt "dlg_InsertErrorBars|extended_tip|MF_POSITIVE"
+msgid "Enter the value to add to the displayed value as the positive error value."
+msgstr "ປ້ອນຄ່າທີ່ຈະບວກໃສ່ຄ່າທີ່ສະແດງ ເພື່ອເປັນຄ່າຄວາມຄາດເຄື່ອນທາງບວກ."
+
+#. SUBEs
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:475
+msgctxt "dlg_InsertErrorBars|extended_tip|ED_RANGE_POSITIVE"
+msgid "Enter the address range from where to get the positive error values. Use the Shrink button to select the range from a sheet."
+msgstr "ປ້ອນຊ່ວງທີ່ຢູ່ທີ່ຈະເອົາຄ່າຄວາມຄາດເຄື່ອນທາງບວກ. ໃຊ້ປຸ່ມຫຍໍ້ເພື່ອເລືອກຊ່ວງຈາກແຜ່ນງານ."
+
+#. 5FfdH
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:490
+msgctxt "dlg_InsertErrorBars|IB_RANGE_POSITIVE|tooltip_text"
+msgid "Select data range"
+msgstr "ເລືອກຊ່ວງຂໍ້ມູນ"
+
+#. JYk3c
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:495
+msgctxt "dlg_InsertErrorBars|extended_tip|IB_RANGE_POSITIVE"
+msgid "Click a button to shrink the dialog, then use the mouse to select the cell range in the spreadsheet. Click the button again to restore the dialog to full size."
+msgstr "ຄລິກປຸ່ມເພື່ອຫຍໍ້ກ່ອງຂໍ້ຄວາມ, ແລ້ວໃຊ້ເມົາສ໌ເລືອກຊ່ວງຕາຕະລາງໃນສະເປຣດຊີດ. ຄລິກປຸ່ມອີກຄັ້ງເພື່ອຂະຫຍາຍກ່ອງຂໍ້ຄວາມກັບຄືນຂະໜາດເດີມ."
+
+#. K9wAk
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:521
+msgctxt "dlg_InsertErrorBars|FT_NEGATIVE"
+msgid "_Negative (-)"
+msgstr "ຄ່າ_ລົບ (-)"
+
+#. Hzr6X
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:540
+msgctxt "dlg_InsertErrorBars|extended_tip|MF_NEGATIVE"
+msgid "Enter the value to subtract from the displayed value as the negative error value."
+msgstr "ປ້ອນຄ່າທີ່ຈະລົບອອກຈາກຄ່າທີ່ສະແດງ ເພື່ອເປັນຄ່າຄວາມຄາດເຄື່ອນທາງລົບ."
+
+#. DTR5D
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:559
+msgctxt "dlg_InsertErrorBars|extended_tip|ED_RANGE_NEGATIVE"
+msgid "Enter the address range from where to get the negative error values. Use the Shrink button to select the range from a sheet."
+msgstr "ປ້ອນຊ່ວງທີ່ຢູ່ທີ່ຈະເອົາຄ່າຄວາມຄາດເຄື່ອນທາງລົບ. ໃຊ້ປຸ່ມຫຍໍ້ເພື່ອເລືອກຊ່ວງຈາກແຜ່ນງານ."
+
+#. jsckc
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:574
+msgctxt "dlg_InsertErrorBars|IB_RANGE_NEGATIVE|tooltip_text"
+msgid "Select data range"
+msgstr "ເລືອກຊ່ວງຂໍ້ມູນ"
+
+#. mEwUr
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:579
+msgctxt "dlg_InsertErrorBars|extended_tip|IB_RANGE_NEGATIVE"
+msgid "Click a button to shrink the dialog, then use the mouse to select the cell range in the spreadsheet. Click the button again to restore the dialog to full size."
+msgstr "ຄລິກປຸ່ມເພື່ອຫຍໍ້ກ່ອງຂໍ້ຄວາມ, ແລ້ວໃຊ້ເມົາສ໌ເລືອກຊ່ວງຕາຕະລາງໃນສະເປຣດຊີດ. ຄລິກປຸ່ມອີກຄັ້ງເພື່ອຂະຫຍາຍກ່ອງຂໍ້ຄວາມກັບຄືນຂະໜາດເດີມ."
+
+#. GZS6d
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:598
+msgctxt "dlg_InsertErrorBars|CB_SYN_POS_NEG"
+msgid "Same value for both"
+msgstr "ຄ່າດຽວກັນສຳລັບທັງສອງ"
+
+#. wTppD
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:606
+msgctxt "dlg_InsertErrorBars|extended_tip|CB_SYN_POS_NEG"
+msgid "Enable to use the positive error values also as negative error values. You can only change the value of the \"Positive (+)\" box. That value gets copied to the \"Negative (-)\" box automatically."
+msgstr "ເປີດໃຊ້ເພື່ອໃຫ້ຄ່າຄວາມຄາດເຄື່ອນທາງບວກເປັນຄ່າຄວາມຄາດເຄື່ອນທາງລົບນຳ. ທ່ານສາມາດປ່ຽນໄດ້ສະເພາະຄ່າໃນຫ້ອງ \\\"ທາງບວກ (+)\\\" ເທົ່ານັ້ນ. ຄ່ານັ້ນຈະຖືກຄັດລອກໄປຫາຫ້ອງ \\\"ທາງລົບ (-)\\\" ໂດຍອັດຕະໂນມັດ."
+
+#. ogVMg
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:622
+msgctxt "dlg_InsertErrorBars|label3"
+msgid "Parameters"
+msgstr "ຕົວຊີ້ວັດ"
+
+#. MXxxE
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:639
+msgctxt "dlg_InsertErrorBars|STR_DATA_SELECT_RANGE_FOR_POSITIVE_ERRORBARS"
+msgid "Select Range for Positive Error Bars"
+msgstr "ເລືອກຂອບເຂດສໍາລັບແຖບຂໍ້ຜິດພາດຄ່າບວກ"
+
+#. ixAQm
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:650
+msgctxt "dlg_InsertErrorBars|STR_DATA_SELECT_RANGE_FOR_NEGATIVE_ERRORBARS"
+msgid "Select Range for Negative Error Bars"
+msgstr "ເລືອກຊ່ວງສໍາລັບແຖບຂໍ້ຜິດພາດຄ່າລົບ"
+
+#. 68LFy
+#: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:661
+msgctxt "dlg_InsertErrorBars|STR_CONTROLTEXT_ERROR_BARS_FROM_DATA"
+msgid "From Data Table"
+msgstr "ຈາກຕາຕະລາງຂໍ້ມູນ"
+
+#. 3G3Jo
+#: chart2/uiconfig/ui/dlg_InsertLegend.ui:8
+msgctxt "dlg_InsertLegend|dlg_InsertLegend"
+msgid "Legend"
+msgstr "ຄຳອະທິບາຍ"
+
+#. TQUNp
+#: chart2/uiconfig/ui/dlg_InsertLegend.ui:99
+msgctxt "dlg_InsertLegend|show"
+msgid "_Display legend"
+msgstr "_ສະແດງຄຳອະທິບາຍ"
+
+#. BbrEG
+#: chart2/uiconfig/ui/dlg_InsertLegend.ui:121
+msgctxt "dlg_InsertLegend|left"
+msgid "_Left"
+msgstr "_ຊ້າຍ"
+
+#. EdZ7j
+#: chart2/uiconfig/ui/dlg_InsertLegend.ui:136
+msgctxt "dlg_InsertLegend|right"
+msgid "_Right"
+msgstr "_ຂວາ"
+
+#. PoZ9R
+#: chart2/uiconfig/ui/dlg_InsertLegend.ui:151
+msgctxt "dlg_InsertLegend|top"
+msgid "_Top"
+msgstr "_ເທິງ"
+
+#. Uvcht
+#: chart2/uiconfig/ui/dlg_InsertLegend.ui:166
+msgctxt "dlg_InsertLegend|bottom"
+msgid "_Bottom"
+msgstr "_ລຸ່ມ"
+
+#. bxdb5
+#: chart2/uiconfig/ui/dlg_InsertLegend.ui:192
+msgctxt "dlg_InsertLegend|TXT_POSITION"
+msgid "Position"
+msgstr "ຕຳແໜ່ງ"
+
+#. FAEct
+#: chart2/uiconfig/ui/insertaxisdlg.ui:8
+msgctxt "insertaxisdlg|InsertAxisDialog"
+msgid "Axes"
+msgstr "ແກນ"
+
+#. 4Drc8
+#: chart2/uiconfig/ui/insertaxisdlg.ui:102
+msgctxt "insertaxisdlg|primaryX"
+msgid "_X axis"
+msgstr "ແກນ _X"
+
+#. QyAAw
+#: chart2/uiconfig/ui/insertaxisdlg.ui:110
+msgctxt "insertaxisdlg|extended_tip|primaryX"
+msgid "Displays the X axis as a line with subdivisions."
+msgstr "ສະແດງແກນ X ເປັນເສັ້ນທີ່ມີການແບ່ງຍ່ອຍ."
+
+#. XeWVu
+#: chart2/uiconfig/ui/insertaxisdlg.ui:122
+msgctxt "insertaxisdlg|primaryY"
+msgid "_Y axis"
+msgstr "ແກນ _Y"
+
+#. 8ZzUp
+#: chart2/uiconfig/ui/insertaxisdlg.ui:130
+msgctxt "insertaxisdlg|extended_tip|primaryY"
+msgid "Displays the Y axis as a line with subdivisions."
+msgstr "ສະແດງແກນ Y ເປັນເສັ້ນທີ່ມີການແບ່ງຍ່ອຍ."
+
+#. FoAXW
+#: chart2/uiconfig/ui/insertaxisdlg.ui:142
+msgctxt "insertaxisdlg|primaryZ"
+msgid "_Z axis"
+msgstr "ແກນ _Z"
+
+#. DgjxB
+#: chart2/uiconfig/ui/insertaxisdlg.ui:150
+msgctxt "insertaxisdlg|extended_tip|primaryZ"
+msgid "Displays the Z axis as a line with subdivisions."
+msgstr "ສະແດງແກນ Z ເປັນເສັ້ນທີ່ມີການແບ່ງຍ່ອຍ."
+
+#. YZ7GG
+#: chart2/uiconfig/ui/insertaxisdlg.ui:167
+msgctxt "insertaxisdlg|label1"
+msgid "Axes"
+msgstr "ແກນ"
+
+#. WEUFf
+#: chart2/uiconfig/ui/insertaxisdlg.ui:198
+msgctxt "insertaxisdlg|secondaryX"
+msgid "X _axis"
+msgstr "ແກນ _X"
+
+#. JGQhE
+#: chart2/uiconfig/ui/insertaxisdlg.ui:206
+msgctxt "insertaxisdlg|extended_tip|secondaryX"
+msgid "Displays a secondary X axis in the chart."
+msgstr "ສະແດງແກນ X ສຳຮອງໃນແຜນພູມ."
+
+#. 598Gk
+#: chart2/uiconfig/ui/insertaxisdlg.ui:218
+msgctxt "insertaxisdlg|secondaryY"
+msgid "Y ax_is"
+msgstr "ແກນ _Y"
+
+#. trDFK
+#: chart2/uiconfig/ui/insertaxisdlg.ui:226
+msgctxt "insertaxisdlg|extended_tip|secondaryY"
+msgid "The major axis and the secondary axis can have different scaling. For example, you can scale one axis to 2 in. and the other to 1.5 in. "
+msgstr "ແກນຫຼັກ ແລະ ແກນສຳຮອງສາມາດມີການກຳນົດຂະໜາດທີ່ແຕກຕ່າງກັນໄດ້. ຕົວຢ່າງ: ທ່ານສາມາດກຳນົດຂະໜາດແກນໜຶ່ງເປັນ 2 ນິ້ວ ແລະ ອີກແກນໜຶ່ງເປັນ 1.5 ນິ້ວ. "
+
+#. CAFjD
+#: chart2/uiconfig/ui/insertaxisdlg.ui:238
+msgctxt "insertaxisdlg|secondaryZ"
+msgid "Z axi_s"
+msgstr "ແກນ _Z"
+
+#. 2LQwV
+#: chart2/uiconfig/ui/insertaxisdlg.ui:258
+msgctxt "insertaxisdlg|label2"
+msgid "Secondary Axes"
+msgstr "ແກນສຳຮອງ"
+
+#. 7yEDE
+#: chart2/uiconfig/ui/insertaxisdlg.ui:287
+msgctxt "insertaxisdlg|extended_tip|InsertAxisDialog"
+msgid "Specifies the axes to be displayed in the chart."
+msgstr "ລະບຸແກນທີ່ຈະໃຫ້ສະແດງໃນແຜນພູມ."
+
+#. 2eGKS
+#: chart2/uiconfig/ui/insertgriddlg.ui:8
+msgctxt "insertgriddlg|InsertGridDialog"
+msgid "Grids"
+msgstr "ຕາໜ່າງ"
+
+#. adEgJ
+#: chart2/uiconfig/ui/insertgriddlg.ui:102
+msgctxt "insertgriddlg|primaryX"
+msgid "_X axis"
+msgstr "ແກນ _X"
+
+#. TeVcH
+#: chart2/uiconfig/ui/insertgriddlg.ui:110
+msgctxt "insertgriddlg|extended_tip|primaryX"
+msgid "Adds gridlines to the X axis of the chart."
+msgstr "ເພີ່ມເສັ້ນຕາຕະລາງໃຫ້ແກນ X ຂອງແຜນພູມ."
+
+#. FEBZW
+#: chart2/uiconfig/ui/insertgriddlg.ui:122
+msgctxt "insertgriddlg|primaryY"
+msgid "_Y axis"
+msgstr "ແກນ _Y"
+
+#. 6SmKJ
+#: chart2/uiconfig/ui/insertgriddlg.ui:130
+msgctxt "insertgriddlg|extended_tip|primaryY"
+msgid "Adds gridlines to the Y axis of the chart."
+msgstr "ເພີ່ມເສັ້ນຕາຕະລາງໃຫ້ແກນ Y ຂອງແຜນພູມ."
+
+#. XEXTu
+#: chart2/uiconfig/ui/insertgriddlg.ui:142
+msgctxt "insertgriddlg|primaryZ"
+msgid "_Z axis"
+msgstr "ແກນ _Z"
+
+#. bF4Eb
+#: chart2/uiconfig/ui/insertgriddlg.ui:150
+msgctxt "insertgriddlg|extended_tip|primaryZ"
+msgid "Adds gridlines to the Z axis of the chart."
+msgstr "ເພີ່ມເສັ້ນຕາຕະລາງໃຫ້ແກນ Z ຂອງແຜນພູມ."
+
+#. 9QbAA
+#: chart2/uiconfig/ui/insertgriddlg.ui:167
+msgctxt "insertgriddlg|label1"
+msgid "Major Grids"
+msgstr "ຕາໜ່າງຫຼັກ"
+
+#. wqXds
+#: chart2/uiconfig/ui/insertgriddlg.ui:198
+msgctxt "insertgriddlg|secondaryX"
+msgid "X _axis"
+msgstr "ແກນ _X"
+
+#. cfAUn
+#: chart2/uiconfig/ui/insertgriddlg.ui:206
+msgctxt "insertgriddlg|extended_tip|secondaryX"
+msgid "Adds gridlines that subdivide the X axis into smaller sections."
+msgstr "ເພີ່ມເສັ້ນຕາຕະລາງທີ່ແບ່ງແກນ X ອອກເປັນສ່ວນຍ່ອຍໆ."
+
+#. PkzaY
+#: chart2/uiconfig/ui/insertgriddlg.ui:218
+msgctxt "insertgriddlg|secondaryY"
+msgid "Y ax_is"
+msgstr "ແກນ _Y"
+
+#. a3asH
+#: chart2/uiconfig/ui/insertgriddlg.ui:226
+msgctxt "insertgriddlg|extended_tip|secondaryY"
+msgid "Adds gridlines that subdivide the Y axis into smaller sections."
+msgstr "ເພີ່ມເສັ້ນຕາຕະລາງທີ່ແບ່ງແກນ Y ອອກເປັນສ່ວນຍ່ອຍໆ."
+
+#. CcCG8
+#: chart2/uiconfig/ui/insertgriddlg.ui:238
+msgctxt "insertgriddlg|secondaryZ"
+msgid "Z axi_s"
+msgstr "ແກນ _Z"
+
+#. hcj99
+#: chart2/uiconfig/ui/insertgriddlg.ui:246
+msgctxt "insertgriddlg|extended_tip|secondaryZ"
+msgid "Adds gridlines that subdivide the Z axis into smaller sections."
+msgstr "ເພີ່ມເສັ້ນຕາຕະລາງທີ່ແບ່ງແກນ Z ອອກເປັນສ່ວນຍ່ອຍໆ."
+
+#. QBQD4
+#: chart2/uiconfig/ui/insertgriddlg.ui:263
+msgctxt "insertgriddlg|label2"
+msgid "Minor Grids"
+msgstr "ຕາໜ່າງສຳຮອງ"
+
+#. URB9E
+#: chart2/uiconfig/ui/insertgriddlg.ui:292
+msgctxt "insertgriddlg|extended_tip|InsertGridDialog"
+msgid "You can divide the axes into sections by assigning gridlines to them. This allows you to get a better overview of the chart, especially if you are working with large charts."
+msgstr "ທ່ານສາມາດແບ່ງແກນອອກເປັນສ່ວນໆໄດ້ໂດຍການກຳນົດເສັ້ນຕາຕະລາງໃຫ້ພວກມັນ. ສິ່ງນີ້ຊ່ວຍໃຫ້ທ່ານເບິ່ງພາບລວມຂອງແຜນພູມໄດ້ດີຂຶ້ນ, ໂດຍສະເພາະຖ້າທ່ານກຳລັງເຮັດວຽກກັບແຜນພູມຂະໜາດໃຫຍ່."
+
+#. rqADt
+#: chart2/uiconfig/ui/inserttitledlg.ui:8
+msgctxt "inserttitledlg|InsertTitleDialog"
+msgid "Titles"
+msgstr "ຫົວຂໍ້"
+
+#. pAKf8
+#: chart2/uiconfig/ui/inserttitledlg.ui:92
+msgctxt "inserttitledlg|labelMainTitle"
+msgid "_Title"
+msgstr "_ຫົວຂໍ້"
+
+#. ZBgRn
+#: chart2/uiconfig/ui/inserttitledlg.ui:106
+msgctxt "inserttitledlg|labelSubTitle"
+msgid "_Subtitle"
+msgstr "_ຫົວຂໍ້ຍ່ອຍ"
+
+#. aCRZ7
+#: chart2/uiconfig/ui/inserttitledlg.ui:125
+msgctxt "inserttitledlg|extended_tip|maintitle"
+msgid "Enter the desired title for the chart."
+msgstr "ປ້ອນຊື່ຫົວຂໍ້ທີ່ຕ້ອງການສຳລັບແຜນພູມ."
+
+#. 5eiq7
+#: chart2/uiconfig/ui/inserttitledlg.ui:143
+msgctxt "inserttitledlg|extended_tip|subtitle"
+msgid "Enter the desired subtitle for the chart."
+msgstr "ປ້ອນຫົວຂໍ້ຮອງທີ່ຕ້ອງການສຳລັບແຜນພູມ."
+
+#. y8KiH
+#: chart2/uiconfig/ui/inserttitledlg.ui:178
+msgctxt "inserttitledlg|labelPrimaryXaxis"
+msgid "_X axis"
+msgstr "ແກນ _X"
+
+#. RhsUT
+#: chart2/uiconfig/ui/inserttitledlg.ui:192
+msgctxt "inserttitledlg|labelPrimaryYaxis"
+msgid "_Y axis"
+msgstr "ແກນ _Y"
+
+#. ypJFt
+#: chart2/uiconfig/ui/inserttitledlg.ui:206
+msgctxt "inserttitledlg|labelPrimaryZaxis"
+msgid "_Z axis"
+msgstr "ແກນ _Z"
+
+#. qz8WP
+#: chart2/uiconfig/ui/inserttitledlg.ui:225
+msgctxt "inserttitledlg|extended_tip|primaryXaxis"
+msgid "Enter the desired title for the X axis of the chart."
+msgstr "ປ້ອນຊື່ຫົວຂໍ້ທີ່ຕ້ອງການສຳລັບແກນ X ຂອງແຜນພູມ.\""
+
+#. 3m5Dk
+#: chart2/uiconfig/ui/inserttitledlg.ui:243
+msgctxt "inserttitledlg|extended_tip|primaryYaxis"
+msgid "Enter the desired title for the Y axis of the chart."
+msgstr "ປ້ອນຊື່ຫົວຂໍ້ທີ່ຕ້ອງການສຳລັບແກນ Y ຂອງແຜນພູມ."
+
+#. PY2EU
+#: chart2/uiconfig/ui/inserttitledlg.ui:261
+msgctxt "inserttitledlg|extended_tip|primaryZaxis"
+msgid "Enter the desired title for the Z axis of the chart."
+msgstr "ປ້ອນຊື່ຫົວຂໍ້ທີ່ຕ້ອງການສຳລັບແກນ Z ຂອງແຜນພູມ."
+
+#. aHvzY
+#: chart2/uiconfig/ui/inserttitledlg.ui:276
+msgctxt "inserttitledlg|Axe"
+msgid "Axes"
+msgstr "ແກນ"
+
+#. 8XRFP
+#: chart2/uiconfig/ui/inserttitledlg.ui:308
+msgctxt "inserttitledlg|labelSecondaryXAxis"
+msgid "X _axis"
+msgstr "ແກນ _X"
+
+#. Tq7G9
+#: chart2/uiconfig/ui/inserttitledlg.ui:322
+msgctxt "inserttitledlg|labelSecondaryYAxis"
+msgid "Y ax_is"
+msgstr "ແກນ _Y"
+
+#. EsHDi
+#: chart2/uiconfig/ui/inserttitledlg.ui:341
+msgctxt "inserttitledlg|extended_tip|secondaryXaxis"
+msgid "Enter the desired secondary title for the X axis of the chart."
+msgstr "ປ້ອນຊື່ຫົວຂໍ້ສຳຮອງທີ່ຕ້ອງການສຳລັບແກນ X ຂອງແຜນພູມ."
+
+#. bnwti
+#: chart2/uiconfig/ui/inserttitledlg.ui:359
+msgctxt "inserttitledlg|extended_tip|secondaryYaxis"
+msgid "Enter the desired secondary title for the Y axis of the chart."
+msgstr "ປ້ອນຊື່ຫົວຂໍ້ສຳຮອງທີ່ຕ້ອງການສຳລັບແກນ Y ຂອງແຜນພູມ."
+
+#. XvJwD
+#: chart2/uiconfig/ui/inserttitledlg.ui:374
+msgctxt "inserttitledlg|label2"
+msgid "Secondary Axes"
+msgstr "ແກນສຳຮອງ"
+
+#. Y96AE
+#: chart2/uiconfig/ui/inserttitledlg.ui:403
+msgctxt "inserttitledlg|extended_tip|InsertTitleDialog"
+msgid "Opens a dialog to enter or modify the titles in a chart."
+msgstr "ເປີດກ່ອງຂໍ້ຄວາມເພື່ອປ້ອນ ຫຼື ແກ້ໄຂຫົວຂໍ້ໃນແຜນພູມ."
+
+#. 23FsQ
+#: chart2/uiconfig/ui/paradialog.ui:8
+msgctxt "paradialog|ParagraphDialog"
+msgid "Paragraph"
+msgstr "ຫຍໍ້ໜ້າ"
+
+#. jEDem
+#: chart2/uiconfig/ui/sidebaraxis.ui:24
+msgctxt "sidebaraxis|checkbutton_show_label"
+msgid "Show labels"
+msgstr "ສະແດງປ້າຍ"
+
+#. 52BFU
+#: chart2/uiconfig/ui/sidebaraxis.ui:40
+msgctxt "sidebaraxis|checkbutton_reverse"
+msgid "Reverse direction"
+msgstr "ຍ້ອນກັບທິດທາງ"
+
+#. hABaw
+#: chart2/uiconfig/ui/sidebaraxis.ui:58
+msgctxt "sidebaraxis|label1"
+msgid "_Label position:"
+msgstr "ຕຳແໜ່ງ_ປ້າຍ"
+
+#. JpV6N
+#: chart2/uiconfig/ui/sidebaraxis.ui:73
+msgctxt "sidebaraxis|comboboxtext_label_position"
+msgid "Near Axis"
+msgstr "ໃກ້ແກນ"
+
+#. HEMNB
+#: chart2/uiconfig/ui/sidebaraxis.ui:74
+msgctxt "sidebaraxis|comboboxtext_label_position"
+msgid "Near Axis (other side)"
+msgstr "ໃກ້ແກນ (ດ້ານອື່ນ)"
+
+#. BE2dT
+#: chart2/uiconfig/ui/sidebaraxis.ui:75
+msgctxt "sidebaraxis|comboboxtext_label_position"
+msgid "Outside start"
+msgstr "ເລີ່ມຕົ້ນທາງນອກ"
+
+#. rH94z
+#: chart2/uiconfig/ui/sidebaraxis.ui:76
+msgctxt "sidebaraxis|comboboxtext_label_position"
+msgid "Outside end"
+msgstr "ຈົບທາງນອກ"
+
+#. 69LSe
+#: chart2/uiconfig/ui/sidebaraxis.ui:90
+msgctxt "sidebaraxis|label2"
+msgid "_Text orientation:"
+msgstr "ການວາງແນວ_ຂໍ້ຄວາມ:"
+
+#. Yif9X
+#: chart2/uiconfig/ui/sidebarcolors.ui:29
+msgctxt "sidebarcolors|bordertype|tooltip_text"
+msgid "Allow to select a color palette to apply to current chart data series."
+msgstr "ອະນຸຍາດໃຫ້ເລືອກຈານສີເພື່ອນຳໃຊ້ກັບຊຸດຂໍ້ມູນແຜນພູມປັດຈຸບັນ."
+
+#. xGjwG
+#: chart2/uiconfig/ui/sidebarcolors.ui:41
+msgctxt "sidebarcolors|cellbordertype-atkobject"
+msgid "Border Style"
+msgstr "ຮູບແບບເສັ້ນຂອບ"
+
+#. vkhjB
+#: chart2/uiconfig/ui/sidebarelements.ui:25
+msgctxt "sidebarelements|l"
+msgid "Titles"
+msgstr "ຫົວຂໍ້"
+
+#. Bqqg6
+#: chart2/uiconfig/ui/sidebarelements.ui:38
+msgctxt "sidebarelements|checkbutton_title"
+msgid "Title"
+msgstr "ຫົວຂໍ້"
+
+#. HttnZ
+#: chart2/uiconfig/ui/sidebarelements.ui:71
+msgctxt "sidebarelements|checkbutton_subtitle"
+msgid "Subtitle"
+msgstr "ຫົວຂໍ້ຍ່ອຍ"
+
+#. UVbZR
+#: chart2/uiconfig/ui/sidebarelements.ui:108
+msgctxt "sidebarelements|label_legen"
+msgid "Legend"
+msgstr "ຄຳອະທິບາຍ"
+
+#. dB6pP
+#: chart2/uiconfig/ui/sidebarelements.ui:121
+msgctxt "sidebarelements|checkbutton_legend"
+msgid "Show legend"
+msgstr "ສະແດງຄຳອະທິບາຍ"
+
+#. XxG3r
+#: chart2/uiconfig/ui/sidebarelements.ui:125
+msgctxt "sidebarelements|checkbutton_legend|tooltip_text"
+msgid "Show Legend"
+msgstr "ສະແດງຄຳອະທິບາຍ"
+
+#. N9Vw3
+#: chart2/uiconfig/ui/sidebarelements.ui:141
+msgctxt "sidebarelements|comboboxtext_legend"
+msgid "Right"
+msgstr "ຂວາ"
+
+#. XWGfH
+#: chart2/uiconfig/ui/sidebarelements.ui:142
+msgctxt "sidebarelements|comboboxtext_legend"
+msgid "Top"
+msgstr "ເທິງ"
+
+#. AYbfc
+#: chart2/uiconfig/ui/sidebarelements.ui:143
+msgctxt "sidebarelements|comboboxtext_legend"
+msgid "Bottom"
+msgstr "ລຸ່ມ"
+
+#. Hdrnv
+#: chart2/uiconfig/ui/sidebarelements.ui:144
+msgctxt "sidebarelements|comboboxtext_legend"
+msgid "Left"
+msgstr "ຊ້າຍ"
+
+#. WxtCZ
+#: chart2/uiconfig/ui/sidebarelements.ui:154
+msgctxt "sidebarelements|checkbutton_no_overlay"
+msgid "Show the legend without overlapping the chart"
+msgstr "ສະແດງຄຳອະທິບາຍໂດຍບໍ່ໃຫ້ຊ້ອນທັບແຜນພູມ"
+
+#. ScLEM
+#: chart2/uiconfig/ui/sidebarelements.ui:175
+msgctxt "sidebarelements|label_axes"
+msgid "Axes"
+msgstr "ແກນ"
+
+#. Am6Gz
+#: chart2/uiconfig/ui/sidebarelements.ui:188
+msgctxt "sidebarelements|checkbutton_x_axis"
+msgid "X axis"
+msgstr "ແກນ X"
+
+#. iMXPp
+#: chart2/uiconfig/ui/sidebarelements.ui:203
+msgctxt "sidebarelements|checkbutton_y_axis"
+msgid "Y axis"
+msgstr "ແກນ Y"
+
+#. A35cf
+#: chart2/uiconfig/ui/sidebarelements.ui:218
+msgctxt "sidebarelements|checkbutton_z_axis"
+msgid "Z axis"
+msgstr "ແກນ Z"
+
+#. GoJDH
+#: chart2/uiconfig/ui/sidebarelements.ui:233
+msgctxt "sidebarelements|checkbutton_2nd_x_axis"
+msgid "2nd X axis"
+msgstr "ແກນ X ທີ 2"
+
+#. bGsCM
+#: chart2/uiconfig/ui/sidebarelements.ui:247
+msgctxt "sidebarelements|checkbutton_2nd_y_axis"
+msgid "2nd Y axis"
+msgstr "ແກນ Y ທີ 2"
+
+#. P5gxx
+#: chart2/uiconfig/ui/sidebarelements.ui:261
+msgctxt "sidebarelements|checkbutton_x_axis_title"
+msgid "X axis title"
+msgstr "ຫົວຂໍ້ແກນ X"
+
+#. vF4oS
+#: chart2/uiconfig/ui/sidebarelements.ui:276
+msgctxt "sidebarelements|checkbutton_y_axis_title"
+msgid "Y axis title"
+msgstr "ຫົວຂໍ້ແກນ Y"
+
+#. RZFAU
+#: chart2/uiconfig/ui/sidebarelements.ui:291
+msgctxt "sidebarelements|checkbutton_z_axis_title"
+msgid "Z axis title"
+msgstr "ຫົວຂໍ້ແກນ Z"
+
+#. nsoDZ
+#: chart2/uiconfig/ui/sidebarelements.ui:306
+msgctxt "sidebarelements|checkbutton_2nd_x_axis_title"
+msgid "2nd X axis title"
+msgstr "ຫົວຂໍ້ແກນ X ທີ 2"
+
+#. yDNuy
+#: chart2/uiconfig/ui/sidebarelements.ui:320
+msgctxt "sidebarelements|checkbutton_2nd_y_axis_title"
+msgid "2nd Y axis title"
+msgstr "ຫົວຂໍ້ແກນ Y ທີ 2"
+
+#. yeE2v
+#: chart2/uiconfig/ui/sidebarelements.ui:339
+msgctxt "sidebarelements|label_gri"
+msgid "Gridlines"
+msgstr "ເສັ້ນຂີດ"
+
+#. RL8AA
+#: chart2/uiconfig/ui/sidebarelements.ui:352
+msgctxt "sidebarelements|checkbutton_gridline_horizontal_major"
+msgid "Horizontal major"
+msgstr "ແນວນອນຫຼັກ"
+
+#. FYBSZ
+#: chart2/uiconfig/ui/sidebarelements.ui:367
+msgctxt "sidebarelements|checkbutton_gridline_vertical_major"
+msgid "Vertical major"
+msgstr "ແນວຕັ້ງຫຼັກ"
+
+#. VCTTS
+#: chart2/uiconfig/ui/sidebarelements.ui:382
+msgctxt "sidebarelements|checkbutton_gridline_horizontal_minor"
+msgid "Horizontal minor"
+msgstr "ແນວນອນໃນ"
+
+#. QDFEZ
+#: chart2/uiconfig/ui/sidebarelements.ui:397
+msgctxt "sidebarelements|checkbutton_gridline_vertical_minor"
+msgid "Vertical minor"
+msgstr "ແນວຕັ້ງໃນ"
+
+#. uacDo
+#: chart2/uiconfig/ui/sidebarelements.ui:419
+msgctxt "sidebarelements|text_title"
+msgid "Title"
+msgstr "ຫົວຂໍ້"
+
+#. jXGDE
+#: chart2/uiconfig/ui/sidebarelements.ui:432
+msgctxt "sidebarelements|text_subtitle"
+msgid "Subtitle"
+msgstr "ຫົວຂໍ້ຍ່ອຍ"
+
+#. zszn2
+#: chart2/uiconfig/ui/sidebarelements.ui:445
+msgctxt "sidebarelements|placement_label"
+msgid "_Placement:"
+msgstr "_ການວາງ"
+
+#. SCPM4
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:48
+msgctxt "sidebarerrorbar|label2"
+msgid "Category:"
+msgstr "ປະເພດ:"
+
+#. 8Pb84
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:63
+msgctxt "sidebarerrorbar|comboboxtext_type"
+msgid "Constant"
+msgstr "ຂໍ້ຈຳກັດ"
+
+#. Lz8Lo
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:64
+msgctxt "sidebarerrorbar|comboboxtext_type"
+msgid "Percentage"
+msgstr "ເປີເຊັນ"
+
+#. Ap367
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:65
+msgctxt "sidebarerrorbar|comboboxtext_type"
+msgid "Cell Range or Data Table"
+msgstr "ຊ່ວງເຊວ ຫຼື ຕາຕະລາງຂໍ້ມູນ"
+
+#. Lqw6L
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:66
+msgctxt "sidebarerrorbar|comboboxtext_type"
+msgid "Standard deviation"
+msgstr "ສ່ວນແຕກຕ່າງມາດຕະຖານ"
+
+#. qUL78
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:67
+msgctxt "sidebarerrorbar|comboboxtext_type"
+msgid "Standard error"
+msgstr "ມາດຕະຖານການບົກຜ່ອງ"
+
+#. KUCgB
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:68
+msgctxt "sidebarerrorbar|comboboxtext_type"
+msgid "Variance"
+msgstr "ຕົວແປ"
+
+#. QDwJu
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:69
+msgctxt "sidebarerrorbar|comboboxtext_type"
+msgid "Error margin"
+msgstr "ຂອບຂໍ້ຜິດພາດ"
+
+#. US82z
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:82
+msgctxt "sidebarerrorbar|label3"
+msgid "Positive (+):"
+msgstr "ຄ່າບວກ (+):"
+
+#. NJdbG
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:94
+msgctxt "sidebarerrorbar|label4"
+msgid "Negative (-):"
+msgstr "ຄ່າລົບ (-):"
+
+#. GBewc
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:105
+msgctxt "sidebarerrorbar|spinbutton_pos"
+msgid "0.00"
+msgstr "0.00"
+
+#. e3GvR
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:119
+msgctxt "sidebarerrorbar|spinbutton_neg"
+msgid "0.00"
+msgstr "0.00"
+
+#. 34Vax
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:139
+msgctxt "sidebarerrorbar|radiobutton_positive_negative|tooltip_text"
+msgid "Positive and Negative"
+msgstr "ຄ່າບວກ ແລະ ຄ່າລົບ"
+
+#. gETvJ
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:156
+msgctxt "sidebarerrorbar|radiobutton_positive|tooltip_text"
+msgid "Positive"
+msgstr "ຄ່າບວກ"
+
+#. 3Ur2d
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:173
+msgctxt "sidebarerrorbar|radiobutton_negative|tooltip_text"
+msgid "Negative"
+msgstr "ຄ່າລົບ"
+
+#. iCPU4
+#: chart2/uiconfig/ui/sidebarerrorbar.ui:196
+msgctxt "sidebarerrorbar|label5"
+msgid "Indicator"
+msgstr "ຕົວຊີ້ວັດ"
+
+#. qJBsd
+#: chart2/uiconfig/ui/sidebarseries.ui:38
+msgctxt "sidebarseries|checkbutton_label"
+msgid "Show data labels"
+msgstr "ສະແດງປ້າຍຂໍ້ມູນ"
+
+#. Dk3GN
+#: chart2/uiconfig/ui/sidebarseries.ui:56
+msgctxt "sidebarseries|comboboxtext_label"
+msgid "Above"
+msgstr "ຂ້າງເທິງ"
+
+#. e4znD
+#: chart2/uiconfig/ui/sidebarseries.ui:57
+msgctxt "sidebarseries|comboboxtext_label"
+msgid "Below"
+msgstr "ຂ້າງລຸ່ມ"
+
+#. CWwzt
+#: chart2/uiconfig/ui/sidebarseries.ui:58
+msgctxt "sidebarseries|comboboxtext_label"
+msgid "Center"
+msgstr "ທາງກາງ"
+
+#. osWVq
+#: chart2/uiconfig/ui/sidebarseries.ui:59
+msgctxt "sidebarseries|comboboxtext_label"
+msgid "Outside"
+msgstr "ພາຍນອກ"
+
+#. U3N4S
+#: chart2/uiconfig/ui/sidebarseries.ui:60
+msgctxt "sidebarseries|comboboxtext_label"
+msgid "Inside"
+msgstr "ພາຍໃນ"
+
+#. pAmg7
+#: chart2/uiconfig/ui/sidebarseries.ui:61
+msgctxt "sidebarseries|comboboxtext_label"
+msgid "Near origin"
+msgstr "ໃກ້ຈຸດກຳເນີດ"
+
+#. erC9C
+#: chart2/uiconfig/ui/sidebarseries.ui:71
+msgctxt "sidebarseries|checkbutton_trendline"
+msgid "Show trendline"
+msgstr "ສະແດງໃຫ້ເຫັນເສັ້ນແນວໂນ້ມ"
+
+#. FFPa2
+#: chart2/uiconfig/ui/sidebarseries.ui:92
+msgctxt "sidebarseries|label1"
+msgid "Error Bars"
+msgstr "ແທ່ງຂໍ້ຜິດພາດ"
+
+#. bXUND
+#: chart2/uiconfig/ui/sidebarseries.ui:105
+msgctxt "sidebarseries|checkbutton_y_error"
+msgid "Y error bars"
+msgstr "ແທ່ງຂໍ້ຜິດພາດ Y"
+
+#. zK6DE
+#: chart2/uiconfig/ui/sidebarseries.ui:121
+msgctxt "sidebarseries|checkbutton_x_error"
+msgid "X error bars"
+msgstr "ແທ່ງຂໍ້ຜິດພາດ X"
+
+#. qE5HF
+#: chart2/uiconfig/ui/sidebarseries.ui:142
+msgctxt "sidebarseries|axis_label"
+msgid "Align Series to Axis"
+msgstr "ຈັດແນວຊຸດຂໍ້ມູນໃຫ້ແກນ"
+
+#. fvnkG
+#: chart2/uiconfig/ui/sidebarseries.ui:157
+msgctxt "sidebarseries|label_series_tmpl"
+msgid "Data series '%1'"
+msgstr "ຊຸດຂໍ້ມູນ '%1'"
+
+#. vhdnt
+#: chart2/uiconfig/ui/sidebarseries.ui:173
+msgctxt "sidebarseries|radiobutton_primary_axis"
+msgid "Primary Y axis"
+msgstr "ແກນຫຼັກ Y"
+
+#. VPWVq
+#: chart2/uiconfig/ui/sidebarseries.ui:189
+msgctxt "sidebarseries|radiobutton_secondary_axis"
+msgid "Secondary Y axis"
+msgstr "ແກນ Y ທີ 2"
+
+#. BsC9D
+#: chart2/uiconfig/ui/sidebarseries.ui:218
+msgctxt "sidebarseries|label_box"
+msgid "P_lacement:"
+msgstr "_ການວາງ"
+
+#. mZfrk
+#: chart2/uiconfig/ui/sidebartype.ui:80
+msgctxt "sidebartype|3dlook"
+msgid "_3D Look"
+msgstr "ຮູບລັກສະນະ _3 ມິຕິ"
+
+#. mjrkY
+#: chart2/uiconfig/ui/sidebartype.ui:96
+msgctxt "sidebartype|3dscheme"
+msgid "Simple"
+msgstr "ແບບງ່າຍດາຍ"
+
+#. urfc7
+#: chart2/uiconfig/ui/sidebartype.ui:97
+msgctxt "sidebartype|3dscheme"
+msgid "Realistic"
+msgstr "ແບບສົມຈິງ"
+
+#. gYXXE
+#: chart2/uiconfig/ui/sidebartype.ui:111
+msgctxt "sidebartype|shapeft"
+msgid "Sh_ape"
+msgstr "ຮູບ_ຮ່າງ"
+
+#. B6KS5
+#: chart2/uiconfig/ui/sidebartype.ui:159
+msgctxt "sidebartype|stack"
+msgid "_Stack series"
+msgstr "_ຊ້ອນຊຸດຂໍ້ມູນ"
+
+#. KaS7Z
+#: chart2/uiconfig/ui/sidebartype.ui:176
+msgctxt "sidebartype|linetypeft"
+msgid "_Line type"
+msgstr "ຊະນິດ_ເສັ້ນ"
+
+#. Hqc3N
+#: chart2/uiconfig/ui/sidebartype.ui:189
+msgctxt "sidebartype|linetype"
+msgid "Straight"
+msgstr "ຊື່"
+
+#. EB58Z
+#: chart2/uiconfig/ui/sidebartype.ui:190
+msgctxt "sidebartype|linetype"
+msgid "Smooth"
+msgstr "ລຽບ"
+
+#. qLn3k
+#: chart2/uiconfig/ui/sidebartype.ui:191
+msgctxt "sidebartype|linetype"
+msgid "Stepped"
+msgstr "ຂັ້ນໄດ"
+
+#. jKDXh
+#: chart2/uiconfig/ui/sidebartype.ui:201
+msgctxt "sidebartype|properties"
+msgid "Properties..."
+msgstr "ຄຸນສົມບັດ..."
+
+#. xW9CQ
+#: chart2/uiconfig/ui/sidebartype.ui:213
+msgctxt "sidebartype|sort"
+msgid "_Sort by X values"
+msgstr "_ຈັດລຽງຕາມຄ່າ X"
+
+#. thu3G
+#: chart2/uiconfig/ui/sidebartype.ui:229
+msgctxt "sidebartype|nolinesft"
+msgid "_Number of lines"
+msgstr "_ຈຳນວນເສັ້ນ"
+
+#. 6cgoa
+#: chart2/uiconfig/ui/sidebartype.ui:257
+msgctxt "sidebartype|compositesizeft"
+msgid "_Number of lines"
+msgstr "_ຈຳນວນເສັ້ນ"
+
+#. Yau6n
+#: chart2/uiconfig/ui/sidebartype.ui:316
+msgctxt "sidebartype|ontop"
+msgid "On top"
+msgstr "ຢູ່ເທິງສຸດ"
+
+#. f2J43
+#: chart2/uiconfig/ui/sidebartype.ui:332
+msgctxt "sidebartype|percent"
+msgid "Percent"
+msgstr "ເປີເຊັນ"
+
+#. iDSaa
+#: chart2/uiconfig/ui/sidebartype.ui:348
+msgctxt "sidebartype|deep"
+msgid "Deep"
+msgstr "ເລິກ"
+
+#. Ledzw
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:22
+msgctxt "smoothlinesdlg|SmoothLinesDialog"
+msgid "Smooth Lines"
+msgstr "ເສັ້ນລຽບ"
+
+#. vmRbz
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:114
+msgctxt "smoothlinesdlg|TypeLabel"
+msgid "Line _Type:"
+msgstr "_ຊະນິດເສັ້ນ"
+
+#. Nkqhi
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:131
+msgctxt "smoothlinesdlg|SplineTypeComboBox"
+msgid "Cubic spline"
+msgstr "ໜ້າທີ່ຄ້າຍຄືກັບພະຫຸນາມກຳລັງສາມ Cubic spline"
+
+#. LTCVw
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:132
+msgctxt "smoothlinesdlg|SplineTypeComboBox"
+msgid "B-spline"
+msgstr "ໜ້າທີ່ຄ້າຍຄືພະຫຸນາມ B-spline"
+
+#. EJdNq
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:136
+msgctxt "smoothlinesdlg|extended_tip|SplineTypeComboBox"
+msgid "Apply a line curve model."
+msgstr "ນຳໃຊ້ຮູບແບບເສັ້ນໂຄ້ງ."
+
+#. eecxc
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:167
+msgctxt "smoothlinesdlg|ResolutionLabel"
+msgid "_Resolution:"
+msgstr "ຄວາມ_ລະອຽດ"
+
+#. AdG5v
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:181
+msgctxt "smoothlinesdlg|PolynomialsLabel"
+msgid "_Degree of polynomials:"
+msgstr "_ລະດັບຊັ້ນພະຫຸພົດ"
+
+#. X35yY
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:199
+msgctxt "smoothlinesdlg|extended_tip|ResolutionSpinbutton"
+msgid "Set the resolution."
+msgstr "ຕັ້ງຄ່າຄວາມລະອຽດ."
+
+#. a4btg
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:217
+msgctxt "smoothlinesdlg|extended_tip|PolynomialsSpinButton"
+msgid "Set the degree of the polynomials."
+msgstr "ຕັ້ງຄ່າດີກຣີຂອງໂພລີໂນມຽລ."
+
+#. YECJR
+#: chart2/uiconfig/ui/smoothlinesdlg.ui:249
+msgctxt "smoothlinesdlg|extended_tip|SmoothLinesDialog"
+msgid "Apply a line curve model."
+msgstr "ນຳໃຊ້ຮູບແບບເສັ້ນໂຄ້ງ."
+
+#. RyJg5
+#: chart2/uiconfig/ui/steppedlinesdlg.ui:128
+msgctxt "steppedlinesdlg|step_start_rb"
+msgid "_Start with horizontal line"
+msgstr "_ເລີ່ມຕົ້ນດ້ວຍເສັ້ນນອນ"
+
+#. Zcr4L
+#: chart2/uiconfig/ui/steppedlinesdlg.ui:137
+msgctxt "steppedlinesdlg|extended_tip|step_start_rb"
+msgid "Start with horizontal line and step up vertically at the end."
+msgstr "ເລີ່ມຕົ້ນດ້ວຍເສັ້ນນອນ ແລະ ຂຶ້ນເປັນຂັ້ນໄດໃນແນວຕັ້ງຢູ່ຕອນທ້າຍ."
+
+#. iJCAt
+#: chart2/uiconfig/ui/steppedlinesdlg.ui:148
+msgctxt "steppedlinesdlg|step_center_x_rb"
+msgid "Step at the _horizontal mean"
+msgstr "ຂັ້ນຕອນຕາມແນວ_ນອນ"
+
+#. ThgqD
+#: chart2/uiconfig/ui/steppedlinesdlg.ui:157
+msgctxt "steppedlinesdlg|extended_tip|step_center_x_rb"
+msgid "Start with horizontal line, step up vertically in the middle of the X values and end with horizontal line."
+msgstr "ເລີ່ມຕົ້ນດ້ວຍເສັ້ນນອນ, ຂຶ້ນເປັນຂັ້ນໄດໃນແນວຕັ້ງຢູ່ເຄິ່ງກາງຂອງຄ່າ X ແລະ ຈົບລົງດ້ວຍເສັ້ນນອນ."
+
+#. vtGik
+#: chart2/uiconfig/ui/steppedlinesdlg.ui:168
+msgctxt "steppedlinesdlg|step_end_rb"
+msgid "_End with horizontal line"
+msgstr "_ລົງທ້າຍດ້ວຍເສັ້ນນອນ"
+
+#. VmiBH
+#: chart2/uiconfig/ui/steppedlinesdlg.ui:177
+msgctxt "steppedlinesdlg|extended_tip|step_end_rb"
+msgid "Start to step up vertically and end with horizontal line."
+msgstr "ເລີ່ມຕົ້ນຂຶ້ນເປັນຂັ້ນໄດໃນແນວຕັ້ງ ແລະ ຈົບລົງດ້ວຍເສັ້ນນອນ."
+
+#. X3536
+#: chart2/uiconfig/ui/steppedlinesdlg.ui:188
+msgctxt "steppedlinesdlg|step_center_y_rb"
+msgid "Step to the _vertical mean"
+msgstr "ຂັ້ນຕອນໄປຍັງຄ່າເສັ້ນແນວ_ຕັ້ງ"
+
+#. S528C
+#: chart2/uiconfig/ui/steppedlinesdlg.ui:197
+msgctxt "steppedlinesdlg|extended_tip|step_center_y_rb"
+msgid "Start to step up vertically to the middle of the Y values, draw a horizontal line and finish by stepping vertically to the end."
+msgstr "ເລີ່ມຕົ້ນຂຶ້ນເປັນຂັ້ນໄດໃນແນວຕັ້ງໄປຫາເຄິ່ງກາງຂອງຄ່າ Y, ແຕ້ມເສັ້ນນອນ ແລະ ຈົບລົງດ້ວຍການຂຶ້ນເປັນຂັ້ນໄດໃນແນວຕັ້ງຈົນຮອດຕອນທ້າຍ."
+
+#. oDDMr
+#: chart2/uiconfig/ui/steppedlinesdlg.ui:223
+msgctxt "steppedlinesdlg|label2"
+msgid "Type of Stepping"
+msgstr "ຊະນິດຂອງການກ້າວກະໂດດ"
+
+#. K2DaE
+#: chart2/uiconfig/ui/titlerotationtabpage.ui:43
+msgctxt "titlerotationtabpage|extended_tip|OrientDegree"
+msgid "Allows you to manually enter the orientation angle."
+msgstr "ຊ່ວຍໃຫ້ທ່ານປ້ອນມຸມການຈັດວາງທິດທາງໄດ້ດ້ວຍຕົນເອງ."
+
+#. ViJ9k
+#: chart2/uiconfig/ui/titlerotationtabpage.ui:57
+msgctxt "titlerotationtabpage|degreeL"
+msgid "_Degrees"
+msgstr "_ອົງສາ"
+
+#. tv9xJ
+#: chart2/uiconfig/ui/titlerotationtabpage.ui:92
+msgctxt "titlerotationtabpage|stackedCB"
+msgid "Ve_rtically stacked"
+msgstr "ຊ້ອນກັນຕາມແນວຕັ້ງ"
+
+#. VGDph
+#: chart2/uiconfig/ui/titlerotationtabpage.ui:101
+msgctxt "titlerotationtabpage|extended_tip|stackedCB"
+msgid "Assigns vertical text orientation for cell contents."
+msgstr "ກຳນົດທິດທາງຂໍ້ຄວາມຕາມແນວຕັ້ງສຳລັບເນື້ອໃນໃນເຊວ."
+
+#. 3BaMa
+#: chart2/uiconfig/ui/titlerotationtabpage.ui:113
+msgctxt "titlerotationtabpage|labelABCD"
+msgid "ABCD"
+msgstr "ABCD"
+
+#. dAHWb
+#: chart2/uiconfig/ui/titlerotationtabpage.ui:130
+msgctxt "titlerotationtabpage|textdirL"
+msgid "Te_xt direction:"
+msgstr "ທິດທາງ_ຂໍ້ຄວາມ"
+
+#. i5UYm
+#: chart2/uiconfig/ui/titlerotationtabpage.ui:144
+msgctxt "titlerotationtabpage|extended_tip|textdirLB"
+msgid "Specify the text direction for a paragraph that uses complex text layout (CTL). This feature is only available if complex text layout support is enabled."
+msgstr "ລະບຸທິດທາງຂໍ້ຄວາມສຳລັບຫຍໍ້ໜ້າທີ່ໃຊ້ການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນ (CTL). ຄຸນສົມບັດນີ້ສາມາດໃຊ້ໄດ້ກໍຕໍ່ເມື່ອມີການເປີດໃຊ້ການຮອງຮັບການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນເທົ່ານັ້ນ."
+
+#. 9cDiw
+#: chart2/uiconfig/ui/titlerotationtabpage.ui:163
+msgctxt "titlerotationtabpage|extended_tip|dialCtrl"
+msgid "Clicking anywhere on the wheel defines the variable text orientation."
+msgstr "ຄລິກບ່ອນໃດກໍໄດ້ເທິງວົງລໍ້ເພື່ອມັກກຳນົດທິດທາງຂໍ້ຄວາມ."
+
+#. syx89
+#: chart2/uiconfig/ui/titlerotationtabpage.ui:178
+msgctxt "titlerotationtabpage|labelTextOrient"
+msgid "Text Orientation"
+msgstr "ທິດຂອງຂໍ້ຄວາມ"
+
+#. CDDxo
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:20
+msgctxt "tp_3D_SceneAppearance|FT_SCHEME"
+msgid "Sche_me"
+msgstr "ແ_ບບແຜນ"
+
+#. 4uCgf
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:36
+msgctxt "tp_3D_SceneAppearance|liststoreSCHEME"
+msgid "Simple"
+msgstr "ງ່າຍ"
+
+#. uVRvv
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:37
+msgctxt "tp_3D_SceneAppearance|liststoreSCHEME"
+msgid "Realistic"
+msgstr "ຈິງແທ້"
+
+#. tFKjs
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:38
+msgctxt "tp_3D_SceneAppearance|liststoreSCHEME"
+msgid "Custom"
+msgstr "ກຳນົດເອງ:"
+
+#. raML6
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:42
+msgctxt "tp_3D_SceneAppearance|extended_tip|LB_SCHEME"
+msgid "Select a scheme from the list box, or click any of the check boxes below."
+msgstr "ເລືອກແບບແຜນຈາກກ່ອງລາຍການ, ຫຼື ຄລິກໃສ່ກ່ອງເລືອກໃດໜຶ່ງຢູ່ທາງລຸ່ມ."
+
+#. EyGsf
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:78
+msgctxt "tp_3D_SceneAppearance|CB_SHADING"
+msgid "_Shading"
+msgstr "_ເງົາ"
+
+#. W68hV
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:86
+msgctxt "tp_3D_SceneAppearance|extended_tip|CB_SHADING"
+msgid "Applies Gouraud shading if marked, or flat shading if unmarked."
+msgstr "ໃຊ້ການເຮັດເງົາແບບ Gouraud ຖ້າໝາຍເລືອກ, ຫຼື ການເຮັດເງົາແບບຮາບພຽງຖ້າບໍ່ໄດ້ໝາຍເລືອກ."
+
+#. SMFrD
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:98
+msgctxt "tp_3D_SceneAppearance|CB_OBJECTLINES"
+msgid "_Object borders"
+msgstr "_ຂອບຂອງວັດຖຸ"
+
+#. CQjGV
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:106
+msgctxt "tp_3D_SceneAppearance|extended_tip|CB_OBJECTLINES"
+msgid "Shows borders around the areas by setting the line style to Solid."
+msgstr "ສະແດງຂອບອ້ອມຮອບພື້ນທີ່ໂດຍການຕັ້ງຄ່າຮູບແບບເສັ້ນເປັນແບບທຶບ."
+
+#. CpWRj
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:118
+msgctxt "tp_3D_SceneAppearance|CB_ROUNDEDEDGE"
+msgid "_Rounded edges"
+msgstr "ຂອບວົງ_ມົນ"
+
+#. c5pNB
+#: chart2/uiconfig/ui/tp_3D_SceneAppearance.ui:126
+msgctxt "tp_3D_SceneAppearance|extended_tip|CB_ROUNDEDEDGE"
+msgid "Edges are rounded by 5%."
+msgstr "ຂອບຈະຖືກເຮັດໃຫ້ມົນ 5%."
+
+#. U5CTF
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:37
+msgctxt "tp_3D_SceneGeometry|CBX_RIGHT_ANGLED_AXES"
+msgid "_Right-angled axes"
+msgstr "ແກນ_ມຸມສາກ"
+
+#. QxmLn
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:45
+msgctxt "tp_3D_SceneGeometry|extended_tip|CBX_RIGHT_ANGLED_AXES"
+msgid "If Right-angled axes is enabled, you can rotate the chart contents only in X and Y direction, that is, parallel to the chart borders. Right-angled axes is enabled by default for newly created 3D charts. Pie and Donut charts do not support right-angled axes."
+msgstr "ຖ້າເປີດໃຊ້ແກນມຸມສາກ, ທ່ານຈະສາມາດໝູນເນື້ອໃນແຜນວາດໄດ້ສະເພາະໃນທິດທາງ X ແລະ Y ເທົ່ານັ້ນ, ເຊິ່ງຈະຂະໜານກັບຂອບຂອງແຜນວາດ. ແກນມຸມສາກຈະຖືກເປີດໃຊ້ເປັນຄ່າເລີ່ມຕົ້ນສຳລັບແຜນວາດ 3 ມິຕິທີ່ສ້າງຂຶ້ນໃໝ່. ແຜນວາດຮູບວົງມົນ ແລະ ຮູບໂດນັດ ບໍ່ຮອງຮັບແກນມຸມສາກ."
+
+#. y8Tyg
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:59
+msgctxt "tp_3D_SceneGeometry|FT_X_ROTATION"
+msgid "_X rotation"
+msgstr "ໝູນແກນ _X"
+
+#. TJ2Xp
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:73
+msgctxt "tp_3D_SceneGeometry|FT_Y_ROTATION"
+msgid "_Y rotation"
+msgstr "ໝູນແກນ _Y"
+
+#. UTAG5
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:87
+msgctxt "tp_3D_SceneGeometry|FT_Z_ROTATION"
+msgid "_Z rotation"
+msgstr "ໝູນແກນ _Z"
+
+#. ZC8ZQ
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:99
+msgctxt "tp_3D_SceneGeometry|CBX_PERSPECTIVE"
+msgid "_Perspective"
+msgstr "_ທັດສະນະມູມມອງ"
+
+#. xyePC
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:110
+msgctxt "tp_3D_SceneGeometry|extended_tip|CBX_PERSPECTIVE"
+msgid "Mark the Perspective box to view the chart as through a camera lens. Use the spin button to set the percentage. With a high percentage nearer objects look bigger than more distant objects."
+msgstr "ໝາຍໃສ່ກ່ອງທັດສະນະມູມມອງເພື່ອເບິ່ງແຜນວາດຜ່ານເລນກ້ອງຖ່າຍຮູບ. ໃຊ້ປຸ່ມໝູນເພື່ອຕັ້ງຄ່າເປີເຊັນ. ດ້ວຍເປີເຊັນທີ່ສູງ ວັດຖຸທີ່ຢູ່ໃກ້ຈະເບິ່ງໃຫຍ່ກວ່າວັດຖຸທີ່ຢູ່ໄກ."
+
+#. mdPAi
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:131
+msgctxt "tp_3D_SceneGeometry|MTR_FLD_PERSPECTIVE-atkobject"
+msgid "Perspective"
+msgstr "ທັດສະນະມູມມອງ"
+
+#. JECHC
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:132
+msgctxt "tp_3D_SceneGeometry|extended_tip|MTR_FLD_PERSPECTIVE"
+msgid "Mark the Perspective box to view the chart as through a camera lens. Use the spin button to set the percentage. With a high percentage nearer objects look bigger than more distant objects."
+msgstr "ໝາຍໃສ່ກ່ອງທັດສະນະມູມມອງເພື່ອເບິ່ງແຜນວາດຜ່ານເລນກ້ອງຖ່າຍຮູບ. ໃຊ້ປຸ່ມໝູນເພື່ອຕັ້ງຄ່າເປີເຊັນ. ດ້ວຍເປີເຊັນທີ່ສູງ ວັດຖຸທີ່ຢູ່ໃກ້ຈະເບິ່ງໃຫຍ່ກວ່າວັດຖຸທີ່ຢູ່ໄກ."
+
+#. PP8jT
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:150
+msgctxt "tp_3D_SceneGeometry|extended_tip|MTR_FLD_Z_ROTATION"
+msgid "Sets the rotation of the chart on the z axis. The preview responds to the new settings."
+msgstr "ຕັ້ງຄ່າການໝູນຂອງແຜນວາດເທິງແກນ Z. ຕົວຢ່າງຈະສະແດງຜົນຕາມການຕັ້ງຄ່າໃໝ່."
+
+#. AyMWn
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:168
+msgctxt "tp_3D_SceneGeometry|extended_tip|MTR_FLD_Y_ROTATION"
+msgid "Sets the rotation of the chart on the y axis. The preview responds to the new settings."
+msgstr "ຕັ້ງຄ່າການໝູນຂອງແຜນວາດເທິງແກນ Y. ຕົວຢ່າງຈະສະແດງຜົນຕາມການຕັ້ງຄ່າໃໝ່."
+
+#. EGS4B
+#: chart2/uiconfig/ui/tp_3D_SceneGeometry.ui:186
+msgctxt "tp_3D_SceneGeometry|extended_tip|MTR_FLD_X_ROTATION"
+msgid "Sets the rotation of the chart on the x axis. The preview responds to the new settings."
+msgstr "ຕັ້ງຄ່າການໝູນຂອງແຜນວາດເທິງແກນ X. ຕົວຢ່າງຈະສະແດງຜົນຕາມການຕັ້ງຄ່າໃໝ່."
+
+#. RGQDC
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:92
+msgctxt "tp_3D_SceneIllumination|BTN_LIGHT_1|tooltip_text"
+msgid "Light source 1"
+msgstr "ຕົ້ນກຳເນີດແສງ 1"
+
+#. EQb5g
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:97
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_LIGHT_1"
+msgid "Click to enable or disable the specular light source with highlights."
+msgstr "ຄລິກເພື່ອເປີດ ຫຼື ປິດການໃຊ້ງານແຫຼ່ງກຳເນີດແສງສະທ້ອນພ້ອມຈຸດເດັ່ນ."
+
+#. bwfDH
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:111
+msgctxt "tp_3D_SceneIllumination|BTN_LIGHT_2|tooltip_text"
+msgid "Light source 2"
+msgstr "ຕົ້ນກຳເນີດແສງ 2"
+
+#. jkJM8
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:116
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_LIGHT_2"
+msgid "Click to enable or disable the uniform light source."
+msgstr "ຄລິກເພື່ອເປີດ ຫຼື ປິດການໃຊ້ງານແຫຼ່ງກຳເນີດແສງແບບສະໝໍ່າສະເໝີ."
+
+#. uMVDV
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:130
+msgctxt "tp_3D_SceneIllumination|BTN_LIGHT_3|tooltip_text"
+msgid "Light source 3"
+msgstr "ຕົ້ນກຳເນີດແສງ 3"
+
+#. ZEUk7
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:135
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_LIGHT_3"
+msgid "Click to enable or disable the uniform light source."
+msgstr "ຄລິກເພື່ອເປີດ ຫຼື ປິດການໃຊ້ງານແຫຼ່ງກຳເນີດແສງແບບສະໝໍ່າສະເໝີ."
+
+#. 6CBDG
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:149
+msgctxt "tp_3D_SceneIllumination|BTN_LIGHT_4|tooltip_text"
+msgid "Light source 4"
+msgstr "ຕົ້ນກຳເນີດແສງ 4"
+
+#. X5ZD3
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:154
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_LIGHT_4"
+msgid "Click to enable or disable the uniform light source."
+msgstr "ຄລິກເພື່ອເປີດ ຫຼື ປິດການໃຊ້ງານແຫຼ່ງກຳເນີດແສງແບບສະໝໍ່າສະເໝີ."
+
+#. Hf5Du
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:168
+msgctxt "tp_3D_SceneIllumination|BTN_LIGHT_5|tooltip_text"
+msgid "Light source 5"
+msgstr "ຕົ້ນກຳເນີດແສງ 5"
+
+#. mUPX4
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:173
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_LIGHT_5"
+msgid "Click to enable or disable the uniform light source."
+msgstr "ຄລິກເພື່ອເປີດ ຫຼື ປິດການໃຊ້ງານແຫຼ່ງກຳເນີດແສງແບບສະໝໍ່າສະເໝີ."
+
+#. T7qDZ
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:187
+msgctxt "tp_3D_SceneIllumination|BTN_LIGHT_6|tooltip_text"
+msgid "Light source 6"
+msgstr "ຕົ້ນກຳເນີດແສງ 6"
+
+#. AAkx2
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:192
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_LIGHT_6"
+msgid "Click to enable or disable the uniform light source."
+msgstr "ຄລິກເພື່ອເປີດ ຫຼື ປິດການໃຊ້ງານແຫຼ່ງກຳເນີດແສງແບບສະໝໍ່າສະເໝີ."
+
+#. mSsDD
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:206
+msgctxt "tp_3D_SceneIllumination|BTN_LIGHT_7|tooltip_text"
+msgid "Light source 7"
+msgstr "ຕົ້ນກຳເນີດແສງ 7"
+
+#. Rh9Hz
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:211
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_LIGHT_7"
+msgid "Click to enable or disable the uniform light source."
+msgstr "ຄລິກເພື່ອເປີດ ຫຼື ປິດການໃຊ້ງານແຫຼ່ງກຳເນີດແສງແບບສະໝໍ່າສະເໝີ."
+
+#. wY5CR
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:225
+msgctxt "tp_3D_SceneIllumination|BTN_LIGHT_8|tooltip_text"
+msgid "Light source 8"
+msgstr "ຕົ້ນກຳເນີດແສງ 8"
+
+#. EbsUA
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:230
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_LIGHT_8"
+msgid "Click to enable or disable the uniform light source."
+msgstr "ຄລິກເພື່ອເປີດ ຫຼື ປິດການໃຊ້ງານແຫຼ່ງກຳເນີດແສງແບບສະໝໍ່າສະເໝີ."
+
+#. DwEDc
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:264
+msgctxt "tp_3D_SceneIllumination|extended_tip|LB_LIGHTSOURCE"
+msgid "Select a color for the selected light source."
+msgstr "ເລືອກສີສຳລັບແຫຼ່ງກຳເນີດແສງທີ່ເລືອກ."
+
+#. cAvJJ
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:279
+msgctxt "tp_3D_SceneIllumination|BTN_LIGHTSOURCE_COLOR|tooltip_text"
+msgid "Select a color using the Pick a Color dialog"
+msgstr "ເລືອກສີໂດຍໃຊ້ກ່ອງໂຕ້ຕອບເລືອກສີ"
+
+#. D3Udo
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:283
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_LIGHTSOURCE_COLOR"
+msgid "Select a color using the Pick a Color dialog."
+msgstr "ເລືອກສີໂດຍໃຊ້ກ່ອງໂຕ້ຕອບເລືອກສີ."
+
+#. mgXyK
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:306
+msgctxt "tp_3D_SceneIllumination|FT_LIGHTSOURCE"
+msgid "_Light Source"
+msgstr "ແ_ຫຼ່ງກຳເນີດແສງ"
+
+#. WssJA
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:348
+msgctxt "tp_3D_SceneIllumination|extended_tip|LB_AMBIENTLIGHT"
+msgid "Select a color for the ambient light."
+msgstr "ເລືອກສີສຳລັບແສງສະຫວ່າງໂດຍຮອບ."
+
+#. GcwLA
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:363
+msgctxt "tp_3D_SceneIllumination|BTN_AMBIENT_COLOR|tooltip_text"
+msgid "Select a color using the Pick a Color dialog"
+msgstr "ເລືອກສີໂດຍໃຊ້ກ່ອງໂຕ້ຕອບເລືອກສີ"
+
+#. YbFV8
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:367
+msgctxt "tp_3D_SceneIllumination|extended_tip|BTN_AMBIENT_COLOR"
+msgid "Select a color using the Pick a color dialog."
+msgstr "ເລືອກສີໂດຍໃຊ້ກ່ອງໂຕ້ຕອບເລືອກສີ."
+
+#. LFMGL
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:383
+msgctxt "tp_3D_SceneIllumination|FT_AMBIENTLIGHT"
+msgid "_Ambient Light"
+msgstr "ແສງສະຫວ່າງໂດຍ_ຮອບ"
+
+#. snUGf
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:427
+msgctxt "tp_3D_SceneIllumination|CTL_LIGHT_PREVIEW|tooltip_text"
+msgid "Light Preview"
+msgstr "ສະແດງຕົວຢ່າງແສງສະຫວ່າງ"
+
+#. tQBhd
+#: chart2/uiconfig/ui/tp_3D_SceneIllumination.ui:485
+msgctxt "tp_3D_SceneIllumination|extended_tip|tp_3D_SceneIllumination"
+msgid "Set the light sources for the 3D view."
+msgstr "ຕັ້ງຄ່າແຫຼ່ງກຳເນີດແສງສຳລັບມູມມອງ 3 ມິຕິ."
+
+#. XRVrG
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:44
+msgctxt "tp_AxisPositions|FT_CROSSES_OTHER_AXIS_AT"
+msgid "_Cross other axis at"
+msgstr "_ຕັດກັບແກນອື່ນໆທີ່"
+
+#. Z734o
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:60
+msgctxt "tp_AxisPositions|LB_CROSSES_OTHER_AXIS_AT"
+msgid "Start"
+msgstr "ເລີ່ມຕົ້ນ"
+
+#. u6i7J
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:61
+msgctxt "tp_AxisPositions|LB_CROSSES_OTHER_AXIS_AT"
+msgid "End"
+msgstr "ຈົບ"
+
+#. vAUzq
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:62
+msgctxt "tp_AxisPositions|LB_CROSSES_OTHER_AXIS_AT"
+msgid "Value"
+msgstr "ຄ່າ"
+
+#. 5CSqT
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:63
+msgctxt "tp_AxisPositions|LB_CROSSES_OTHER_AXIS_AT"
+msgid "Category"
+msgstr "ໝວດໝູ່"
+
+#. eKYhk
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:67
+msgctxt "tp_AxisPositions|extended_tip|LB_CROSSES_OTHER_AXIS_AT"
+msgid "Select where to cross the other axis: at start, at end, at a specified value, or at a category."
+msgstr "ເລືອກບ່ອນທີ່ຈະຕັດກັບແກນອື່ນ: ຕອນເລີ່ມຕົ້ນ, ຕອນສິ້ນສຸດ, ຕາມຄ່າທີ່ລະບຸ, ຫຼື ຕາມໝວດໝູ່."
+
+#. FwCEp
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:86
+msgctxt "tp_AxisPositions|extended_tip|EDT_CROSSES_OTHER_AXIS_AT"
+msgid "Enter the value where the axis line should cross the other axis."
+msgstr "ປ້ອນຄ່າບ່ອນທີ່ເສັ້ນແກນຄວນຕັດກັບແກນອື່ນ."
+
+#. AnLbY
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:110
+msgctxt "tp_AxisPositions|extended_tip|EDT_CROSSES_OTHER_AXIS_AT_CATEGORY"
+msgid "Select the category where the axis line should cross the other axis."
+msgstr "ເລືອກໝວດໝູ່ບ່ອນທີ່ເສັ້ນແກນຄວນຕັດກັບແກນອື່ນ."
+
+#. VYVhe
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:129
+msgctxt "tp_AxisPositions|CB_AXIS_BETWEEN_CATEGORIES"
+msgid "Axis _between categories"
+msgstr "ແກນ_ລະຫວ່າງໝວດໝູ່"
+
+#. bW7T9
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:147
+msgctxt "tp_AxisPositions|TXT_AXIS_LINE"
+msgid "Axis Line"
+msgstr "ເສັ້ນແກນ"
+
+#. 5ezBt
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:177
+msgctxt "tp_AxisPositions|RB_ON"
+msgid "_On tick marks"
+msgstr "ເທິງເຄື່ອງໝາຍ_ຂີດ"
+
+#. FaKJZ
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:186
+msgctxt "tp_AxisPositions|extended_tip|RB_ON"
+msgid "Specifies that the axis is positioned on the first/last tickmarks. This makes the data points visual representation begin/end at the value axis."
+msgstr "ລະບຸວ່າແກນຖືກວາງຕຳແໜ່ງຢູ່ເທິງເຄື່ອງໝາຍຂີດທຳອິດ/ສຸດທ້າຍ. ສິ່ງນີ້ເຮັດໃຫ້ການສະແດງພາບຂອງຈຸດຂໍ້ມູນເລີ່ມຕົ້ນ/ສິ້ນສຸດຢູ່ທີ່ແກນຄ່າ."
+
+#. gSFeZ
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:197
+msgctxt "tp_AxisPositions|RB_BETWEEN"
+msgid "_Between tick marks"
+msgstr "ລະ_ຫວ່າງເຄື່ອງໝາຍຂີດ"
+
+#. BSx2x
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:206
+msgctxt "tp_AxisPositions|extended_tip|RB_BETWEEN"
+msgid "Specifies that the axis is positioned between the tickmarks. This makes the data points visual representation begin/end at a distance from the value axis."
+msgstr "ລະບຸວ່າແກນຖືກວາງຕຳແໜ່ງຢູ່ລະຫວ່າງເຄື່ອງໝາຍຂີດ. ສິ່ງນີ້ເຮັດໃຫ້ການສະແດງພາບຂອງຈຸດຂໍ້ມູນເລີ່ມຕົ້ນ/ສິ້ນສຸດຢູ່ໃນໄລຍະຫ່າງຈາກແກນຄ່າ."
+
+#. ExBDm
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:221
+msgctxt "tp_AxisPositions|TXT_POSITION"
+msgid "Position Axis"
+msgstr "ຕຳແໜ່ງແກນ"
+
+#. 5AGbD
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:258
+msgctxt "tp_AxisPositions|FT_PLACE_LABELS"
+msgid "_Place labels"
+msgstr "_ວາງປ້າຍກຳກັບ"
+
+#. GDk2L
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:274
+msgctxt "tp_AxisPositions|LB_PLACE_LABELS"
+msgid "Near axis"
+msgstr "ໃກ້ແກນ"
+
+#. ZWQzB
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:275
+msgctxt "tp_AxisPositions|LB_PLACE_LABELS"
+msgid "Near axis (other side)"
+msgstr "ໃກ້ແກນ (ດ້ານອື່ນ)"
+
+#. j3GGm
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:276
+msgctxt "tp_AxisPositions|LB_PLACE_LABELS"
+msgid "Outside start"
+msgstr "ເລີ່ມຕົ້ນທາງນອກ"
+
+#. mGDNr
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:277
+msgctxt "tp_AxisPositions|LB_PLACE_LABELS"
+msgid "Outside end"
+msgstr "ຈົບທາງນອກ"
+
+#. ChAqv
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:281
+msgctxt "tp_AxisPositions|extended_tip|LB_PLACE_LABELS"
+msgid "Select where to place the labels: near axis, near axis (other side), outside start, or outside end."
+msgstr "ເລືອກບ່ອນທີ່ຈະວາງປ້າຍກຳກັບ: ໃກ້ແກນ, ໃກ້ແກນ (ອີກດ້ານໜຶ່ງ), ທາງນອກຕອນເລີ່ມຕົ້ນ, ຫຼື ທາງນອກຕອນສິ້ນສຸດ."
+
+#. DUNn4
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:306
+msgctxt "tp_AxisPositions|FT_AXIS_LABEL_DISTANCE"
+msgid "_Distance"
+msgstr "_ຄວາມຫ່າງ"
+
+#. Hkjze
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:343
+msgctxt "tp_AxisPositions|TXT_FL_LABELS"
+msgid "Labels"
+msgstr "ປ້າຍ"
+
+#. YBk4g
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:382
+msgctxt "tp_AxisPositions|FT_MAJOR"
+msgid "Major:"
+msgstr "ຫຼັກ:"
+
+#. G8MEU
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:398
+msgctxt "tp_AxisPositions|FT_MINOR"
+msgid "Minor:"
+msgstr "ຮອງ:"
+
+#. UN6Pr
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:412
+msgctxt "tp_AxisPositions|CB_TICKS_INNER"
+msgid "_Inner"
+msgstr "_ພາຍໃນ"
+
+#. DpVNk
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:423
+msgctxt "tp_AxisPositions|extended_tip|CB_TICKS_INNER"
+msgid "Specifies that marks are placed on the inner side of the axis."
+msgstr "ລະບຸວ່າເຄື່ອງໝາຍຈະຖືກວາງໄວ້ທາງດ້ານໃນຂອງແກນ."
+
+#. EhLxm
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:434
+msgctxt "tp_AxisPositions|CB_TICKS_OUTER"
+msgid "_Outer"
+msgstr "_ພາຍນອກ"
+
+#. DGWEb
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:445
+msgctxt "tp_AxisPositions|extended_tip|CB_TICKS_OUTER"
+msgid "Specifies that marks are placed on the outer side of the axis."
+msgstr "ລະບຸວ່າເຄື່ອງໝາຍຈະຖືກວາງໄວ້ທາງດ້ານນອກຂອງແກນ."
+
+#. RJXic
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:456
+msgctxt "tp_AxisPositions|CB_MINOR_INNER"
+msgid "I_nner"
+msgstr "ພາຍໃ_ນ"
+
+#. jbRx3
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:467
+msgctxt "tp_AxisPositions|extended_tip|CB_MINOR_INNER"
+msgid "Specifies that minor interval marks are placed on the inner side of the axis."
+msgstr "ລະບຸວ່າເຄື່ອງໝາຍຊ່ວງຮອງຈະຖືກວາງໄວ້ທາງດ້ານໃນຂອງແກນ."
+
+#. nBCFJ
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:478
+msgctxt "tp_AxisPositions|CB_MINOR_OUTER"
+msgid "O_uter"
+msgstr "ພາຍ_ນອກ"
+
+#. JAi2f
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:489
+msgctxt "tp_AxisPositions|extended_tip|CB_MINOR_OUTER"
+msgid "Specifies that minor interval marks are placed on the outer side of the axis."
+msgstr "ລະບຸວ່າເຄື່ອງໝາຍຊ່ວງຮອງຈະຖືກວາງໄວ້ທາງດ້ານນອກຂອງແກນ."
+
+#. XWuxR
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:514
+msgctxt "tp_AxisPositions|FT_PLACE_TICKS"
+msgid "Place _marks"
+msgstr "ວາງເ_ຄື່ອງໝາຍ"
+
+#. mvGBB
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:530
+msgctxt "tp_AxisPositions|LB_PLACE_TICKS"
+msgid "At labels"
+msgstr "ທີ່ປ້າຍກຳກັບ"
+
+#. dGAYz
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:531
+msgctxt "tp_AxisPositions|LB_PLACE_TICKS"
+msgid "At axis"
+msgstr "ຢູ່ແກນ"
+
+#. TJAJB
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:532
+msgctxt "tp_AxisPositions|LB_PLACE_TICKS"
+msgid "At axis and labels"
+msgstr "ຢູ່ແກນແລະປ້າຍຊື່"
+
+#. tED2r
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:536
+msgctxt "tp_AxisPositions|extended_tip|LB_PLACE_TICKS"
+msgid "Select where to place the marks: at labels, at axis, or at axis and labels."
+msgstr "ເລືອກບ່ອນທີ່ຈະວາງເຄື່ອງໝາຍ: ທີ່ປ້າຍກຳກັບ, ທີ່ແກນ, ຫຼື ທີ່ແກນ ແລະ ປ້າຍກຳກັບ."
+
+#. jK9rf
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:559
+msgctxt "tp_AxisPositions|TXT_FL_TICKS"
+msgid "Interval Marks"
+msgstr "ເຄື່ອງໝາຍຊ່ວງເວລາ"
+
+#. 4Jp7G
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:589
+msgctxt "tp_AxisPositions|CB_MAJOR_GRID"
+msgid "Show major _grid"
+msgstr "ສະແດງ_ຕາໜ່າງຫຼັກ"
+
+#. 7c2Hs
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:603
+msgctxt "tp_AxisPositions|CB_MINOR_GRID"
+msgid "_Show minor grid"
+msgstr "ສະແດງຕາໜ່າງ_ຮອງ"
+
+#. Dp5Ar
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:617
+msgctxt "tp_AxisPositions|PB_MAJOR_GRID"
+msgid "Mo_re..."
+msgstr "ເ_ພີ່ມເຕີມ..."
+
+#. k5VQQ
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:630
+msgctxt "tp_AxisPositions|PB_MINOR_GRID"
+msgid "Mor_e..."
+msgstr "ເ_ພີ່ມເຕີມ..."
+
+#. 7eDLK
+#: chart2/uiconfig/ui/tp_AxisPositions.ui:647
+msgctxt "tp_AxisPositions|label2"
+msgid "Grids"
+msgstr "ຕາໜ່າງ"
+
+#. x3adg
+#: chart2/uiconfig/ui/tp_ChartColorPalette.ui:67
+msgctxt "tp_ChartColorPalette|colorfulwin"
+msgid "Colorful"
+msgstr "ຫຼາກຫຼາຍສີ"
+
+#. 8QjnP
+#: chart2/uiconfig/ui/tp_ChartColorPalette.ui:120
+msgctxt "tp_ChartColorPalette|monochromaticwin"
+msgid "Monochromatic"
+msgstr "ສີດຽວ"
+
+#. CUoe3
+#: chart2/uiconfig/ui/tp_ChartType.ui:55
+msgctxt "tp_ChartType|FT_CAPTION_FOR_WIZARD"
+msgid "Choose a Chart Type"
+msgstr "ເລືອກປະເພດແຜນວາດ"
+
+#. wBFXQ
+#: chart2/uiconfig/ui/tp_ChartType.ui:101
+msgctxt "tp_ChartType|extended_tip|subtype"
+msgid "Select a sub type of the basic chart type."
+msgstr "ເລືອກປະເພດຍ່ອຍຂອງປະເພດແຜນວາດພື້ນຖານ."
+
+#. FSf6b
+#: chart2/uiconfig/ui/tp_ChartType.ui:130
+msgctxt "tp_ChartType|3dlook"
+msgid "_3D Look"
+msgstr "ຮູບລັກສະນະ _3 ມິຕິ"
+
+#. EB95g
+#: chart2/uiconfig/ui/tp_ChartType.ui:140
+msgctxt "tp_ChartType|extended_tip|3dlook"
+msgid "Enables a 3D look for the data values."
+msgstr "ເປີດໃຊ້ຮູບລັກສະນະ 3 ມິຕິສຳລັບຄ່າຂໍ້ມູນ."
+
+#. FprGw
+#: chart2/uiconfig/ui/tp_ChartType.ui:154
+msgctxt "tp_ChartType|3dscheme"
+msgid "Simple"
+msgstr "ງ່າຍ"
+
+#. pKhfX
+#: chart2/uiconfig/ui/tp_ChartType.ui:155
+msgctxt "tp_ChartType|3dscheme"
+msgid "Realistic"
+msgstr "ຈິງແທ້"
+
+#. zZxWG
+#: chart2/uiconfig/ui/tp_ChartType.ui:162
+msgctxt "tp_ChartType|extended_tip|3dscheme"
+msgid "Select the type of 3D look."
+msgstr "ເລືອກຮູບແບບຂອງຮູບລັກສະນະ 3 ມິຕິ."
+
+#. FxHfq
+#: chart2/uiconfig/ui/tp_ChartType.ui:180
+msgctxt "tp_ChartType|shapeft"
+msgid "Sh_ape"
+msgstr "_ຮູບຮ່າງ"
+
+#. CCA3V
+#: chart2/uiconfig/ui/tp_ChartType.ui:223
+msgctxt "tp_ChartType|extended_tip|shape"
+msgid "Select a shape from the list."
+msgstr "ເລືອກຮູບຮ່າງຈາກລາຍການ."
+
+#. G2u4D
+#: chart2/uiconfig/ui/tp_ChartType.ui:248
+msgctxt "tp_ChartType|stack"
+msgid "_Stack series"
+msgstr "ຊຸດຂໍ້ມູນ_ຕັ້ງຊ້ອນ"
+
+#. h8wCq
+#: chart2/uiconfig/ui/tp_ChartType.ui:255
+msgctxt "tp_ChartType|extended_tip|stack"
+msgid "Displays stacked series for Line charts."
+msgstr "ສະແດງຊຸດຂໍ້ມູນແບບຕັ້ງຊ້ອນສຳລັບແຜນວາດເສັ້ນ."
+
+#. KfD2L
+#: chart2/uiconfig/ui/tp_ChartType.ui:273
+msgctxt "tp_ChartType|ontop"
+msgid "On top"
+msgstr "ຢູ່ເທິງ"
+
+#. DY854
+#: chart2/uiconfig/ui/tp_ChartType.ui:281
+msgctxt "tp_ChartType|extended_tip|ontop"
+msgid "Stack series display values on top of each other."
+msgstr "ຊຸດຂໍ້ມູນແບບຕັ້ງຊ້ອນຈະສະແດງຄ່າຊ້ອນກັນ."
+
+#. C7JxK
+#: chart2/uiconfig/ui/tp_ChartType.ui:292
+msgctxt "tp_ChartType|percent"
+msgid "Percent"
+msgstr "ເປີເຊັນ"
+
+#. EVNAR
+#: chart2/uiconfig/ui/tp_ChartType.ui:300
+msgctxt "tp_ChartType|extended_tip|percent"
+msgid "Stack series display values as percent."
+msgstr "ຊຸດຂໍ້ມູນແບບຕັ້ງຊ້ອນຈະສະແດງຄ່າເປັນເປີເຊັນ."
+
+#. ijuPy
+#: chart2/uiconfig/ui/tp_ChartType.ui:311
+msgctxt "tp_ChartType|deep"
+msgid "Deep"
+msgstr "ເລິກ"
+
+#. etF2p
+#: chart2/uiconfig/ui/tp_ChartType.ui:338
+msgctxt "tp_ChartType|linetypeft"
+msgid "_Line type"
+msgstr "ຊະນິດເ_ສັ້ນ"
+
+#. RbyB4
+#: chart2/uiconfig/ui/tp_ChartType.ui:352
+msgctxt "tp_ChartType|linetype"
+msgid "Straight"
+msgstr "ກົງ"
+
+#. dG5tv
+#: chart2/uiconfig/ui/tp_ChartType.ui:353
+msgctxt "tp_ChartType|linetype"
+msgid "Smooth"
+msgstr "ລຽບ"
+
+#. uHHpu
+#: chart2/uiconfig/ui/tp_ChartType.ui:354
+msgctxt "tp_ChartType|linetype"
+msgid "Stepped"
+msgstr "ກ້າວຫນ້າ"
+
+#. G3eDR
+#: chart2/uiconfig/ui/tp_ChartType.ui:358
+msgctxt "tp_ChartType|extended_tip|linetype"
+msgid "Choose the type of line to draw."
+msgstr "ເລືອກຮູບແບບຂອງເສັ້ນທີ່ຈະແຕ້ມ."
+
+#. JqNUv
+#: chart2/uiconfig/ui/tp_ChartType.ui:369
+msgctxt "tp_ChartType|properties"
+msgid "Properties..."
+msgstr "ຄຸນສົມບັດ..."
+
+#. EnymX
+#: chart2/uiconfig/ui/tp_ChartType.ui:375
+msgctxt "tp_ChartType|extended_tip|properties"
+msgid "Opens a dialog to set the line or curve properties."
+msgstr "ເປີດກ່ອງໂຕ້ຕອບເພື່ອຕັ້ງຄ່າຄຸນສົມບັດຂອງເສັ້ນ ຫຼື ເສັ້ນໂຄ້ງ."
+
+#. KzGZQ
+#: chart2/uiconfig/ui/tp_ChartType.ui:392
+msgctxt "tp_ChartType|sort"
+msgid "_Sort by X values"
+msgstr "ຈັດຮ_ຽງຕາມຄ່າແກນ X"
+
+#. tbgi3
+#: chart2/uiconfig/ui/tp_ChartType.ui:399
+msgctxt "tp_ChartType|extended_tip|sort"
+msgid "Connects points by ascending X values, even if the order of values is different, in an XY scatter diagram."
+msgstr "ເຊື່ອມຕໍ່ຈຸດຕ່າງໆໂດຍການລຽງລຳດັບຄ່າ X ຈາກນ້ອຍໄປຫາໃຫຍ່, ເຖິງແມ່ນວ່າລຳດັບຂອງຄ່າຈະແຕກຕ່າງກັນກໍຕາມ, ໃນແຜນວາດການກະຈາຍ XY."
+
+#. CmGat
+#: chart2/uiconfig/ui/tp_ChartType.ui:418
+msgctxt "tp_ChartType|nolinesft"
+msgid "_Number of lines"
+msgstr "_ຈຳນວນຂອງເສັ້ນ:"
+
+#. bBgDJ
+#: chart2/uiconfig/ui/tp_ChartType.ui:438
+msgctxt "tp_ChartType|extended_tip|nolines"
+msgid "Set the number of lines for the Column and Line chart type."
+msgstr "ຕັ້ງຄ່າຈຳນວນເສັ້ນສຳລັບປະເພດແຜນວາດເສັ້ນ ແລະ ຖັນ."
+
+#. P6EEx
+#: chart2/uiconfig/ui/tp_ChartType.ui:463
+msgctxt "tp_ChartType|compositesizeft"
+msgid "_Size of composite wedge"
+msgstr "_ຂະໜາດຂອງຊິ້ນສ່ວນປະກອບ"
+
+#. RtkuK
+#: chart2/uiconfig/ui/tp_ChartType.ui:483
+msgctxt "tp_ChartType|extended_tip|compositesize"
+msgid "Set the number of entries in the composite wedge."
+msgstr "ຕັ້ງຄ່າຈຳນວນລາຍການໃນຊິ້ນສ່ວນປະກອບ."
+
+#. M2sxB
+#: chart2/uiconfig/ui/tp_ChartType.ui:551
+msgctxt "tp_ChartType|extended_tip|charttype"
+msgid "Select a basic chart type."
+msgstr "ເລືອກປະເພດແຜນວາດພື້ນຖານ."
+
+#. UGk4x
+#: chart2/uiconfig/ui/tp_DataLabel.ui:39
+msgctxt "tp_DataLabel|CB_VALUE_AS_NUMBER"
+msgid "Value as _number"
+msgstr "ຄ່າເປັນ_ຕົວເລກ"
+
+#. uGdoi
+#: chart2/uiconfig/ui/tp_DataLabel.ui:47
+msgctxt "tp_DataLabel|extended_tip|CB_VALUE_AS_NUMBER"
+msgid "Displays the absolute values of the data points."
+msgstr "ສະແດງຄ່າສຳບູນຂອງຈຸດຂໍ້ມູນ."
+
+#. QFsau
+#: chart2/uiconfig/ui/tp_DataLabel.ui:58
+msgctxt "tp_DataLabel|CB_VALUE_AS_PERCENTAGE"
+msgid "Value as _percentage"
+msgstr "ຄ່າເປັນ_ເປີເຊັນ"
+
+#. FcaPo
+#: chart2/uiconfig/ui/tp_DataLabel.ui:66
+msgctxt "tp_DataLabel|extended_tip|CB_VALUE_AS_PERCENTAGE"
+msgid "Displays the percentage of the data points in each column."
+msgstr "ສະແດງເປີເຊັນຂອງຈຸດຂໍ້ມູນໃນແຕ່ລະຖັນ."
+
+#. k4iPb
+#: chart2/uiconfig/ui/tp_DataLabel.ui:77
+msgctxt "tp_DataLabel|CB_CATEGORY"
+msgid "_Category"
+msgstr "_ໝວດໝູ່"
+
+#. EZXZX
+#: chart2/uiconfig/ui/tp_DataLabel.ui:85
+msgctxt "tp_DataLabel|extended_tip|CB_CATEGORY"
+msgid "Shows the data point text labels."
+msgstr "ສະແດງປ້າຍກຳກັບຂໍ້ຄວາມຂອງຈຸດຂໍ້ມູນ."
+
+#. Y6NXz
+#: chart2/uiconfig/ui/tp_DataLabel.ui:96
+msgctxt "tp_DataLabel|CB_SYMBOL"
+msgid "_Legend key"
+msgstr "_ສັນຍະລັກຄຳອະທິບາຍ"
+
+#. Bm8gp
+#: chart2/uiconfig/ui/tp_DataLabel.ui:104
+msgctxt "tp_DataLabel|extended_tip|CB_SYMBOL"
+msgid "Displays the legend icons next to each data point label."
+msgstr "ສະແດງໄອຄອນຄຳອະທິບາຍຖັດຈາກແຕ່ລະປ້າຍກຳກັບຈຸດຂໍ້ມູນ."
+
+#. K3uFN
+#: chart2/uiconfig/ui/tp_DataLabel.ui:115
+msgctxt "tp_DataLabel|CB_WRAP_TEXT"
+msgid "Auto text _wrap"
+msgstr "_ຫຸ້ມໜັງສືອັດຕະໂນມັດ"
+
+#. tgNDD
+#: chart2/uiconfig/ui/tp_DataLabel.ui:129
+msgctxt "tp_DataLabel|PB_NUMBERFORMAT"
+msgid "Number _format..."
+msgstr "ຮູບແ_ບບຕົວເລກ..."
+
+#. nzq24
+#: chart2/uiconfig/ui/tp_DataLabel.ui:137
+msgctxt "tp_DataLabel|extended_tip|PB_NUMBERFORMAT"
+msgid "Opens a dialog to select the number format."
+msgstr "ເປີດກ່ອງໂຕ້ຕອບເພື່ອເລືອກຮູບແບບຕົວເລກ."
+
+#. PYC2b
+#: chart2/uiconfig/ui/tp_DataLabel.ui:148
+msgctxt "tp_DataLabel|PB_PERCENT_NUMBERFORMAT"
+msgid "Percentage f_ormat..."
+msgstr "_ຮູບແບບເປີເຊັນ..."
+
+#. 3wD3x
+#: chart2/uiconfig/ui/tp_DataLabel.ui:156
+msgctxt "tp_DataLabel|extended_tip|PB_PERCENT_NUMBERFORMAT"
+msgid "Opens a dialog to select the percentage format."
+msgstr "ເປີດກ່ອງໂຕ້ຕອບເພື່ອເລືອກຮູບແບບເປີເຊັນ."
+
+#. gFELD
+#: chart2/uiconfig/ui/tp_DataLabel.ui:169
+msgctxt "tp_DataLabel|CT_LABEL_DIAL"
+msgid "ABCD"
+msgstr "ABCD"
+
+#. PNGYD
+#: chart2/uiconfig/ui/tp_DataLabel.ui:182
+msgctxt "tp_DataLabel|STR_DLG_NUMBERFORMAT_FOR_PERCENTAGE_VALUE"
+msgid "Number Format for Percentage Value"
+msgstr "ຮູບແບບຕົວເລກສຳລັບເປີເຊັນ"
+
+#. hxBUr
+#: chart2/uiconfig/ui/tp_DataLabel.ui:191
+msgctxt "tp_DataLabel|CB_DATA_SERIES_NAME"
+msgid "_Series name"
+msgstr "_ຊື່ຊຸດຂໍ້ມູນ"
+
+#. 3tWYv
+#: chart2/uiconfig/ui/tp_DataLabel.ui:199
+msgctxt "tp_DataLabel|extended_tip|CB_DATA_SERIES_NAME"
+msgid "Shows the data series name in the label."
+msgstr "ສະແດງຊື່ຊຸດຂໍ້ມູນໃນປ້າຍກຳກັບ."
+
+#. 3BZrx
+#: chart2/uiconfig/ui/tp_DataLabel.ui:220
+msgctxt "tp_DataLabel|label1"
+msgid "Text Attributes"
+msgstr "ຄຸນສົມບັດຂໍ້ຄວາມ"
+
+#. 2MNGz
+#: chart2/uiconfig/ui/tp_DataLabel.ui:254
+msgctxt "tp_DataLabel|FT_LABEL_PLACEMENT"
+msgid "Place_ment"
+msgstr "ການຈັດ_ວາງ"
+
+#. L2MYb
+#: chart2/uiconfig/ui/tp_DataLabel.ui:270
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Best fit"
+msgstr "ພໍດີ"
+
+#. ba7eW
+#: chart2/uiconfig/ui/tp_DataLabel.ui:271
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Center"
+msgstr "ທາງກາງ"
+
+#. nW5vs
+#: chart2/uiconfig/ui/tp_DataLabel.ui:272
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Above"
+msgstr "ຂ້າງເທິງ"
+
+#. gW9Aa
+#: chart2/uiconfig/ui/tp_DataLabel.ui:273
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Top left"
+msgstr "ຊ້າຍເທິງ"
+
+#. UQBcJ
+#: chart2/uiconfig/ui/tp_DataLabel.ui:274
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Left"
+msgstr "ຊ້າຍ"
+
+#. CVw6x
+#: chart2/uiconfig/ui/tp_DataLabel.ui:275
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Bottom left"
+msgstr "ລຸ່ມຊ້າຍ"
+
+#. EF7Qb
+#: chart2/uiconfig/ui/tp_DataLabel.ui:276
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Below"
+msgstr "ຂ້າງລຸ່ມ"
+
+#. bdAYf
+#: chart2/uiconfig/ui/tp_DataLabel.ui:277
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Bottom right"
+msgstr "ລຸ່ມຂວາ"
+
+#. kHGEs
+#: chart2/uiconfig/ui/tp_DataLabel.ui:278
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Right"
+msgstr "ຂວາ"
+
+#. GFkmP
+#: chart2/uiconfig/ui/tp_DataLabel.ui:279
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Top right"
+msgstr "ຂວາເທິງ"
+
+#. KFZhx
+#: chart2/uiconfig/ui/tp_DataLabel.ui:280
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Inside"
+msgstr "ພາຍໃນ"
+
+#. BJm6w
+#: chart2/uiconfig/ui/tp_DataLabel.ui:281
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Outside"
+msgstr "ດ້ານນອກ"
+
+#. XGkMi
+#: chart2/uiconfig/ui/tp_DataLabel.ui:282
+msgctxt "tp_DataLabel|liststorePLACEMENT"
+msgid "Near origin"
+msgstr "ໃກ້ຈຸດກຳເນີດ"
+
+#. vq2Bf
+#: chart2/uiconfig/ui/tp_DataLabel.ui:286
+msgctxt "tp_DataLabel|extended_tip|LB_LABEL_PLACEMENT"
+msgid "Selects the placement of data labels relative to the objects."
+msgstr "ເລືອກການຈັດວາງຂອງປ້າຍກຳກັບຂໍ້ມູນທີ່ກ່ຽວຂ້ອງກັບວັດຖຸ."
+
+#. GqA8C
+#: chart2/uiconfig/ui/tp_DataLabel.ui:299
+msgctxt "tp_DataLabel|FT_TEXT_SEPARATOR"
+msgid "_Separator"
+msgstr "ຕົວແ_ບ່ງ"
+
+#. oPhGH
+#: chart2/uiconfig/ui/tp_DataLabel.ui:315
+msgctxt "tp_DataLabel|liststoreSEPARATOR"
+msgid "Space"
+msgstr "ຊ່ອງວ່າງ"
+
+#. fR4fG
+#: chart2/uiconfig/ui/tp_DataLabel.ui:316
+msgctxt "tp_DataLabel|liststoreSEPARATOR"
+msgid "Comma"
+msgstr "ເຄື່ອງໝາຍຈຸດ"
+
+#. 5baF4
+#: chart2/uiconfig/ui/tp_DataLabel.ui:317
+msgctxt "tp_DataLabel|liststoreSEPARATOR"
+msgid "Semicolon"
+msgstr "ຈ້ຳຈຸດ"
+
+#. 8MGkQ
+#: chart2/uiconfig/ui/tp_DataLabel.ui:318
+msgctxt "tp_DataLabel|liststoreSEPARATOR"
+msgid "New line"
+msgstr "ເສັ້ນໃໝ່"
+
+#. bpmiF
+#: chart2/uiconfig/ui/tp_DataLabel.ui:319
+msgctxt "tp_DataLabel|liststoreSEPARATOR"
+msgid "Period"
+msgstr "ເຄື່ອງໝາຍຈຳ້"
+
+#. jjR8u
+#: chart2/uiconfig/ui/tp_DataLabel.ui:323
+msgctxt "tp_DataLabel|extended_tip|LB_TEXT_SEPARATOR"
+msgid "Selects the separator between multiple text strings for the same object."
+msgstr "ເລືອກຕົວແບ່ງລະຫວ່າງຂໍ້ຄວາມຫຼາຍອັນສຳລັບວັດຖຸດຽວກັນ."
+
+#. mFEKm
+#: chart2/uiconfig/ui/tp_DataLabel.ui:338
+msgctxt "tp_DataLabel|label1"
+msgid "Attribute Options"
+msgstr "ຕົວເລືອກຄຸນລັກສະນະ"
+
+#. avLCL
+#: chart2/uiconfig/ui/tp_DataLabel.ui:390
+msgctxt "tp_DataLabel|extended_tip|CT_DIAL"
+msgid "Click in the dial to set the text orientation for the data labels."
+msgstr "ຄລິກໃນໜ້າປັດເພື່ອຕັ້ງທິດທາງຂໍ້ຄວາມສຳລັບປ້າຍກຳກັບຂໍ້ມູນ."
+
+#. eKwUH
+#: chart2/uiconfig/ui/tp_DataLabel.ui:411
+msgctxt "tp_DataLabel|extended_tip|NF_LABEL_DEGREES"
+msgid "Enter the counterclockwise rotation angle for the data labels."
+msgstr "ປ້ອນມຸມການໝູນທວນເຂັມໂມງສຳລັບປ້າຍກຳກັບຂໍ້ມູນ."
+
+#. VArif
+#: chart2/uiconfig/ui/tp_DataLabel.ui:425
+msgctxt "tp_DataLabel|FT_LABEL_DEGREES"
+msgid "_Degrees"
+msgstr "_ອົງສາ"
+
+#. zdP7E
+#: chart2/uiconfig/ui/tp_DataLabel.ui:450
+msgctxt "tp_DataLabel|FT_LABEL_TEXTDIR"
+msgid "Te_xt direction"
+msgstr "ທິດທາງ_ຂໍ້ຄວາມ"
+
+#. MYXZo
+#: chart2/uiconfig/ui/tp_DataLabel.ui:467
+msgctxt "tp_DataLabel|extended_tip|LB_LABEL_TEXTDIR"
+msgid "Specify the text direction for a paragraph that uses complex text layout (CTL). This feature is only available if complex text layout support is enabled."
+msgstr "ລະບຸທິດທາງຂໍ້ຄວາມສຳລັບຫຍໍ້ໜ້າທີ່ໃຊ້ການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນ (CTL). ຄຸນສົມບັດນີ້ສາມາດໃຊ້ໄດ້ກໍຕໍ່ເມື່ອມີການເປີດໃຊ້ການຮອງຮັບການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນເທົັ້ນນັ້ນ."
+
+#. PKnKk
+#: chart2/uiconfig/ui/tp_DataLabel.ui:490
+msgctxt "tp_DataLabel|label2"
+msgid "Rotate Text"
+msgstr "ໝູນຂໍ້ຄວາມ"
+
+#. wBzcx
+#: chart2/uiconfig/ui/tp_DataLabel.ui:519
+msgctxt "tp_DataLabel|CB_CUSTOM_LEADER_LINES"
+msgid "_Connect displaced data labels to data points"
+msgstr "_ເຊື່ອມຕໍ່ປ້າຍກຳກັບຂໍ້ມູນທີ່ຖືກຍ້າຍໄປຫາຈຸດຂໍ້ມູນ"
+
+#. BXobT
+#: chart2/uiconfig/ui/tp_DataLabel.ui:527
+msgctxt "tp_DataLabel|extended_tip|CB_CUSTOM_LEADER_LINES"
+msgid "Draws a line connecting the data labels to the data points"
+msgstr "ແຕ້ມເສັ້ນເຊື່ອມຕໍ່ປ້າຍກຳກັບຂໍ້ມູນໄປຫາຈຸດຂໍ້ມູນ"
+
+#. MBFBB
+#: chart2/uiconfig/ui/tp_DataLabel.ui:543
+msgctxt "tp_DataLabel|label3"
+msgid "Leader Lines"
+msgstr "ເສັ້ນຊ່ວຍແນະນຳ"
+
+#. iDheE
+#: chart2/uiconfig/ui/tp_DataLabel.ui:573
+msgctxt "tp_DataLabel|extended_tip|tp_DataLabel"
+msgid "Opens the Data Labels dialog, which enables you to set the data labels."
+msgstr "ເປີດກ່ອງໂຕ້ຕອບປ້າຍກຳກັບຂໍ້ມູນ, ເຊິ່ງຊ່ວຍໃຫ້ທ່ານສາມາດຕັ້ງຄ່າປ້າຍກຳກັບຂໍ້ມູນໄດ້."
+
+#. rXE7B
+#: chart2/uiconfig/ui/tp_DataPointOption.ui:37
+msgctxt "tp_DataPointOption|CB_LEGEND_ENTRY_HIDDEN"
+msgid "Hide legend entry"
+msgstr "ເຊື່ອງລາຍການຄຳອະທິບາຍ"
+
+#. k2s9H
+#: chart2/uiconfig/ui/tp_DataPointOption.ui:45
+msgctxt "tp_DataPointOption|extended_tip|CB_LEGEND_ENTRY_HIDDEN"
+msgid "Do not show legend entry for the selected data series or data point."
+msgstr "ບໍ່ສະແດງລາຍການຄຳອະທິບາຍສຳລັບຊຸດຂໍ້ມູນ ຫຼື ຈຸດຂໍ້ມູນທີ່ເລືອກ."
+
+#. DUQwA
+#: chart2/uiconfig/ui/tp_DataPointOption.ui:61
+msgctxt "tp_DataPointOption|label1"
+msgid "Legend Entry"
+msgstr "ລາຍການຄຳອະທິບາຍ"
+
+#. A2dFx
+#: chart2/uiconfig/ui/tp_DataSource.ui:18
+msgctxt "tp_DataSource|imageIMB_RANGE_CAT|tooltip_text"
+msgid "Select data range"
+msgstr "ເລືອກຂອບເຂດຂໍ້ມູນ"
+
+#. kEnRN
+#: chart2/uiconfig/ui/tp_DataSource.ui:24
+msgctxt "tp_DataSource|imageIMB_RANGE_MAIN|tooltip_text"
+msgid "Select data range"
+msgstr "ເລືອກຂອບເຂດຂໍ້ມູນ"
+
+#. 2iNp6
+#: chart2/uiconfig/ui/tp_DataSource.ui:73
+msgctxt "tp_DataSource|FT_SERIES"
+msgid "Data _series:"
+msgstr "_ຊຸດຂໍ້ມູນ:"
+
+#. oFoeg
+#: chart2/uiconfig/ui/tp_DataSource.ui:116
+msgctxt "tp_DataSource|extended_tip|LB_SERIES"
+msgid "Shows a list of all data series in the chart. Click an entry to view and edit that data series. Click Add to insert a new series into the list after the selected entry."
+msgstr "ສະແດງລາຍຊື່ຂອງຊຸດຂໍ້ມູນທັງໝົດໃນແຜນວາດ. ຄລິກທີ່ລາຍການເພື່ອເບິ່ງ ແລະ ແກ້ໄຂຊຸດຂໍ້ມູນນັ້ນ. ຄລິກ \"ເພີ່ມ\" ເພື່ອແຊກຊຸດຂໍ້ມູນໃໝ່ລົງໃນລາຍຊື່ຫຼັງຈາກລາຍການທີ່ເລືອກ."
+
+#. rqABh
+#: chart2/uiconfig/ui/tp_DataSource.ui:137
+msgctxt "tp_DataSource|BTN_ADD"
+msgid "_Add"
+msgstr "ເ_ພີ່ມ"
+
+#. AExBB
+#: chart2/uiconfig/ui/tp_DataSource.ui:145
+msgctxt "tp_DataSource|extended_tip|BTN_ADD"
+msgid "Adds a new entry below the current entry in the Data Series list. If an entry is selected, the new data series gets the same chart type."
+msgstr "ເພີ່ມລາຍການໃໝ່ຢູ່ລຸ່ມລາຍການປັດຈຸບັນໃນລາຍຊື່ຊຸດຂໍ້ມູນ. ຖ້າເລືອກລາຍການໃດໜຶ່ງ, ຊຸດຂໍ້ມູນໃໝ່ຈະໄດ້ຮັບປະເພດແຜນວາດດຽວກັນ."
+
+#. dCyXA
+#: chart2/uiconfig/ui/tp_DataSource.ui:163
+msgctxt "tp_DataSource|BTN_UP-atkobject"
+msgid "Up"
+msgstr "ຂຶ້ນ"
+
+#. GTEK3
+#: chart2/uiconfig/ui/tp_DataSource.ui:164
+msgctxt "tp_DataSource|extended_tip|BTN_UP"
+msgid "Moves up the selected entry in the Data Series list."
+msgstr "ເລື່ອນລາຍການທີ່ເລືອກຂຶ້ນໃນລາຍຊື່ຊຸດຂໍ້ມູນ."
+
+#. 3v9x2
+#: chart2/uiconfig/ui/tp_DataSource.ui:175
+msgctxt "tp_DataSource|BTN_REMOVE"
+msgid "_Remove"
+msgstr "_ຍ້າຍອອກ"
+
+#. BDDwm
+#: chart2/uiconfig/ui/tp_DataSource.ui:183
+msgctxt "tp_DataSource|extended_tip|BTN_REMOVE"
+msgid "Removes the selected entry from the Data Series list."
+msgstr "ລົບລາຍການທີ່ເລືອກອອກຈາກລາຍຊື່ຊຸດຂໍ້ມູນ."
+
+#. MkZNf
+#: chart2/uiconfig/ui/tp_DataSource.ui:201
+msgctxt "tp_DataSource|BTN_DOWN-atkobject"
+msgid "Down"
+msgstr "ລົງ"
+
+#. 558EK
+#: chart2/uiconfig/ui/tp_DataSource.ui:202
+msgctxt "tp_DataSource|extended_tip|BTN_DOWN"
+msgid "Moves down the selected entry in the Data Series list."
+msgstr "ເລື່ອນລາຍການທີ່ເລືອກລົງໃນລາຍຊື່ຊຸດຂໍ້ມູນ."
+
+#. mC5Ge
+#: chart2/uiconfig/ui/tp_DataSource.ui:244
+msgctxt "tp_DataSource|FT_ROLE"
+msgid "_Data ranges:"
+msgstr "_ຂອບເຂດຂໍ້ມູນ:"
+
+#. ZB6Dv
+#: chart2/uiconfig/ui/tp_DataSource.ui:297
+msgctxt "tp_DataSource|extended_tip|LB_ROLE"
+msgid "Shows all the data ranges used by the data series that is selected in the Data Series list box. Each data range shows the role name and the source range address."
+msgstr "ສະແດງຂອບເຂດຂໍ້ມູນທັງໝົດທີ່ໃຊ້ໂດຍຊຸດຂໍ້ມູນທີ່ຖືກເລືອກໃນກ່ອງລາຍຊື່ຊຸດຂໍ້ມູນ. ແຕ່ລະຂອບເຂດຂໍ້ມູນຈະສະແດງຊື່ໜ້າທີ່ ແລະ ທີ່ຢູ່ຂອບເຂດແຫຼ່ງຂໍ້ມູນ."
+
+#. qRMfs
+#: chart2/uiconfig/ui/tp_DataSource.ui:312
+msgctxt "tp_DataSource|FT_RANGE"
+msgid "Ran_ge for %VALUETYPE"
+msgstr "_ຂອບເຂດສຳລັບ %VALUETYPE"
+
+#. M2BSw
+#: chart2/uiconfig/ui/tp_DataSource.ui:338
+msgctxt "tp_DataSource|extended_tip|EDT_RANGE"
+msgid "Shows the source range address from the second column of the Data Range list box. You can change the range in the text box or by dragging in the document. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+msgstr "ສະແດງທີ່ຢູ່ຂອບເຂດແຫຼ່ງຂໍ້ມູນຈາກຖັນທີສອງຂອງກ່ອງລາຍຊື່ຂອບເຂດຂໍ້ມູນ. ທ່ານສາມາດປ່ຽນຂອບເຂດໃນກ່ອງຂໍ້ຄວາມ ຫຼື ໂດຍການລາກໃນເອກະສານ. ເພື່ອຫຍໍ້ກ່ອງໂຕ້ຕອບນີ້ໃນຂະນະທີ່ທ່ານເລືອກຂອບເຂດຂໍ້ມູນໃນ Calc, ໃຫ້ຄລິກປຸ່ມ \"ເລືອກຂອບເຂດຂໍ້ມູນ\"."
+
+#. CwKet
+#: chart2/uiconfig/ui/tp_DataSource.ui:356
+msgctxt "tp_DataSource|extended_tip|IMB_RANGE_MAIN"
+msgid "Shows the source range address from the second column of the Data Range list box. You can change the range in the text box or by dragging in the document. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+msgstr "ສະແດງທີ່ຢູ່ຂອບເຂດແຫຼ່ງຂໍ້ມູນຈາກຖັນທີສອງຂອງກ່ອງລາຍຊື່ຂອບເຂດຂໍ້ມູນ. ທ່ານສາມາດປ່ຽນຂອບເຂດໃນກ່ອງຂໍ້ຄວາມ ຫຼື ໂດຍການລາກໃນເອກະສານ. ເພື່ອຫຍໍ້ກ່ອງໂຕ້ຕອບນີ້ໃນຂະນະທີ່ທ່ານເລືອກຂອບເຂດຂໍ້ມູນໃນ Calc, ໃຫ້ຄລິກປຸ່ມ \"ເລືອກຂອບເຂດຂໍ້ມູນ\"."
+
+#. FX2CF
+#: chart2/uiconfig/ui/tp_DataSource.ui:381
+msgctxt "tp_DataSource|FT_CATEGORIES"
+msgid "_Categories"
+msgstr "_ໝວດໝູ່"
+
+#. EiwXn
+#: chart2/uiconfig/ui/tp_DataSource.ui:395
+msgctxt "tp_DataSource|FT_DATALABELS"
+msgid "Data _labels"
+msgstr "_ປ້າຍກຳກັບຂໍ້ມູນ"
+
+#. ogTbE
+#: chart2/uiconfig/ui/tp_DataSource.ui:427
+msgctxt "tp_DataSource|extended_tip|EDT_CATEGORIES"
+msgid "Shows the source range address of the categories (the texts you can see on the x-axis of a category chart). For an XY-chart, the text box contains the source range of the data labels which are displayed for the data points. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+msgstr "ສະແດງທີ່ຢູ່ຂອບເຂດແຫຼ່ງຂໍ້ມູນຂອງໝວດໝູ່ (ຂໍ້ຄວາມທີ່ທ່ານເຫັນໃນແກນ X ຂອງແຜນວາດໝວດໝູ່). ສຳລັບແຜນວາດ XY, ກ່ອງຂໍ້ຄວາມຈະມີຂອບເຂດແຫຼ່ງຂໍ້ມູນຂອງປ້າຍກຳກັບຂໍ້ມູນທີ່ສະແດງສຳລັບຈຸດຂໍ້ມູນ. ເພື່ອຫຍໍ້ກ່ອງໂຕ້ຕອບນີ້ໃນຂະນະທີ່ທ່ານເລືອກຂອບເຂດຂໍ້ມູນໃນ Calc, ໃຫ້ຄລິກປຸ່ມ \"ເລືອກຂອບເຂດຂໍ້ມູນ\"."
+
+#. EYFEo
+#: chart2/uiconfig/ui/tp_DataSource.ui:445
+msgctxt "tp_DataSource|extended_tip|IMB_RANGE_CAT"
+msgid "Shows the source range address of the categories (the texts you can see on the x-axis of a category chart). For an XY-chart, the text box contains the source range of the data labels which are displayed for the data points. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+msgstr "ສະແດງທີ່ຢູ່ຂອບເຂດແຫຼ່ງຂໍ້ມູນຂອງໝວດໝູ່ (ຂໍ້ຄວາມທີ່ທ່ານເຫັນໃນແກນ X ຂອງແຜນວາດໝວດໝູ່). ສຳລັບແຜນວາດ XY, ກ່ອງຂໍ້ຄວາມຈະມີຂອບເຂດແຫຼ່ງຂໍ້ມູນຂອງປ້າຍກຳກັບຂໍ້ມູນທີ່ສະແດງສຳລັບຈຸດຂໍ້ມູນ. ເພື່ອຫຍໍ້ກ່ອງໂຕ້ຕອບນີ້ໃນຂະນະທີ່ທ່ານເລືອກຂອບເຂດຂໍ້ມູນໃນ Calc, ໃຫ້ຄລິກປຸ່ມ \"ເລືອກຂອບເຂດຂໍ້ມູນ\"."
+
+#. YwALA
+#: chart2/uiconfig/ui/tp_DataSource.ui:482
+msgctxt "tp_DataSource|FT_CAPTION_FOR_WIZARD"
+msgid "Customize Data Ranges for Individual Data Series"
+msgstr "ກຳນົດຂອບເຂດຂໍ້ມູນສຳລັບຊຸດຂໍ້ມູນແຕ່ລະຊຸດ"
+
+#. JGgFh
+#: chart2/uiconfig/ui/tp_DataTable.ui:33
+msgctxt "tp_DataTable|horizontalBorderCB"
+msgid "Show horizontal border"
+msgstr "ສະແດງຂອບລີດຂວາງ"
+
+#. EzGM5
+#: chart2/uiconfig/ui/tp_DataTable.ui:49
+msgctxt "tp_DataTable|verticalBorderCB"
+msgid "Show vertical border"
+msgstr "ສະແດງຂອບລີດຕັ້ງ"
+
+#. ZTAZY
+#: chart2/uiconfig/ui/tp_DataTable.ui:65
+msgctxt "tp_DataTable|outlineCB"
+msgid "Show outline"
+msgstr "ສະແດງເສັ້ນຂອບນອກ"
+
+#. kPDNa
+#: chart2/uiconfig/ui/tp_DataTable.ui:81
+msgctxt "tp_DataTable|keysCB"
+msgid "Show keys"
+msgstr "ສະແດງສັນຍະລັກ"
+
+#. fybMv
+#: chart2/uiconfig/ui/tp_DataTable.ui:101
+msgctxt "tp_axisLabel|textflowL"
+msgid "Data Table Properties"
+msgstr "ຄຸນສົມບັດຕາຕະລາງຂໍ້ມູນ"
+
+#. tGqhN
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:53
+msgctxt "tp_ErrorBars|RB_NONE"
+msgid "_None"
+msgstr "_ບໍ່ມີ"
+
+#. YVhm9
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:64
+msgctxt "tp_ErrorBars|extended_tip|RB_NONE"
+msgid "Does not show any error bars."
+msgstr "ບໍ່ສະແດງແຖບຂໍ້ຜິດພາດໃດໆ."
+
+#. Cq44D
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:76
+msgctxt "tp_ErrorBars|RB_CONST"
+msgid "_Constant Value"
+msgstr "_ຄ່າຄົງທີ່"
+
+#. Aetuh
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:87
+msgctxt "tp_ErrorBars|extended_tip|RB_CONST"
+msgid "Displays constant values that you specify in the Parameters area."
+msgstr "ສະແດງຄ່າຄົງທີ່ທີ່ທ່ານລະບຸໃນສ່ວນຕົວຊີ້ວັດ."
+
+#. Njqok
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:99
+msgctxt "tp_ErrorBars|RB_PERCENT"
+msgid "_Percentage"
+msgstr "_ເປີເຊັນ"
+
+#. kqgrm
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:110
+msgctxt "tp_ErrorBars|extended_tip|RB_PERCENT"
+msgid "Displays a percentage. The display refers to the corresponding data point. Set the percentage in the Parameters area."
+msgstr "ສະແດງເປັນເປີເຊັນ. ການສະແດງຜົນຈະອ້າງອີງເຖິງຈຸດຂໍ້ມູນທີ່ກ່ຽວຂ້ອງ. ຕັ້ງຄ່າເປີເຊັນໃນສ່ວນຕົວຊີ້ວັດ."
+
+#. qCQY8
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:137
+msgctxt "tp_ErrorBars|extended_tip|RB_FUNCTION"
+msgid "Select a function to calculate the error bars."
+msgstr "ເລືອກຟັງຊັນເພື່ອຄຳນວນແຖບຂໍ້ຜິດພາດ."
+
+#. GnXao
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:152
+msgctxt "tp_ErrorBars|liststoreFUNCTION"
+msgid "Standard Error"
+msgstr "ມາດຕະຖານການບົກຜ່ອງ"
+
+#. SQ3rE
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:153
+msgctxt "tp_ErrorBars|liststoreFUNCTION"
+msgid "Standard Deviation"
+msgstr "ສ່ວນແຕກຕ່າງມາດຕະຖານ"
+
+#. GagXt
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:154
+msgctxt "tp_ErrorBars|liststoreFUNCTION"
+msgid "Variance"
+msgstr "ຕົວແປ"
+
+#. Siyxd
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:155
+msgctxt "tp_ErrorBars|liststoreFUNCTION"
+msgid "Error Margin"
+msgstr "ຂອບຂໍ້ຜິດພາດ"
+
+#. j6oTg
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:159
+msgctxt "tp_ErrorBars|extended_tip|LB_FUNCTION"
+msgid "Select a function to calculate the error bars."
+msgstr "ເລືອກຟັງຊັນເພື່ອຄຳນວນແຖບຂໍ້ຜິດພາດ."
+
+#. AbhAQ
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:178
+msgctxt "tp_ErrorBars|RB_RANGE"
+msgid "Cell _Range"
+msgstr "_ຂອບເຂດເຊວ"
+
+#. x3uW3
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:189
+msgctxt "tp_ErrorBars|extended_tip|RB_RANGE"
+msgid "Click Cell Range and then specify a cell range from which to take the positive and negative error bar values."
+msgstr "ຄລິກ \"ຂອບເຂດເຊວ\" ແລ້ວລະບຸຂອບເຂດເຊວທີ່ຈະເອົາຄ່າແຖບຂໍ້ຜິດພາດຄ່າບວກ ແລະ ຄ່າລົບ."
+
+#. 9Y8Vo
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:205
+msgctxt "tp_ErrorBars|label1"
+msgid "Error Category"
+msgstr "ປະເພດຂໍ້ຜິດພາດ"
+
+#. q8qXd
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:236
+msgctxt "tp_ErrorBars|RB_BOTH"
+msgid "Positive _and Negative"
+msgstr "ຄ່າບວກ _ແລະ ຄ່າລົບ"
+
+#. LDszs
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:247
+msgctxt "tp_ErrorBars|extended_tip|RB_BOTH"
+msgid "Shows positive and negative error bars."
+msgstr "ສະແດງແຖບຂໍ້ຜິດພາດຄ່າບວກ ແລະ ຄ່າລົບ."
+
+#. 6F78D
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:258
+msgctxt "tp_ErrorBars|RB_POSITIVE"
+msgid "Pos_itive"
+msgstr "ຄ່າ_ບວກ"
+
+#. oSnnp
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:269
+msgctxt "tp_ErrorBars|extended_tip|RB_POSITIVE"
+msgid "Shows only positive error bars."
+msgstr "ສະແດງສະເພາະແຖບຂໍ້ຜິດພາດຄ່າບວກ."
+
+#. jdFbj
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:280
+msgctxt "tp_ErrorBars|RB_NEGATIVE"
+msgid "Ne_gative"
+msgstr "ຄ່າ_ລົບ"
+
+#. DvqJN
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:291
+msgctxt "tp_ErrorBars|extended_tip|RB_NEGATIVE"
+msgid "Shows only negative error bars."
+msgstr "ສະແດງສະເພາະແຖບຂໍ້ຜິດພາດຄ່າລົບ."
+
+#. D4Aou
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:339
+msgctxt "tp_ErrorBars|label2"
+msgid "Error Indicator"
+msgstr "ຕົວບົ່ງບອກຂໍ້ຜິດພາດ"
+
+#. haTNd
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:383
+msgctxt "tp_ErrorBars|FT_POSITIVE"
+msgid "P_ositive (+)"
+msgstr "ຄ່າ_ບວກ (+)"
+
+#. 7bDeP
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:402
+msgctxt "tp_ErrorBars|extended_tip|MF_POSITIVE"
+msgid "Enter the value to add to the displayed value as the positive error value."
+msgstr "ປ້ອນຄ່າທີ່ຈະເພີ່ມເຂົ້າໃນຄ່າທີ່ສະແດງເປັນຄ່າຂໍ້ຜິດພາດຄ່າບວກ."
+
+#. D5XCD
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:421
+msgctxt "tp_ErrorBars|extended_tip|ED_RANGE_POSITIVE"
+msgid "Enter the address range from where to get the positive error values. Use the Shrink button to select the range from a sheet."
+msgstr "ປ້ອນທີ່ຢູ່ຂອບເຂດທີ່ຈະເອົາຄ່າຂໍ້ຜິດພາດຄ່າບວກມາໃຊ້. ໃຊ້ປຸ່ມຫຍໍ້ເພື່ອເລືອກຂອບເຂດຈາກແຜ່ນງານ."
+
+#. rGBRC
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:436
+msgctxt "tp_ErrorBars|IB_RANGE_POSITIVE|tooltip_text"
+msgid "Select data range"
+msgstr "ເລືອກຂອບເຂດຂໍ້ມູນ"
+
+#. QYRko
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:441
+msgctxt "tp_ErrorBars|extended_tip|IB_RANGE_POSITIVE"
+msgid "Click a button to shrink the dialog, then use the mouse to select the cell range in the spreadsheet. Click the button again to restore the dialog to full size."
+msgstr "ຄລິກປຸ່ມເພື່ອຫຍໍ້ກ່ອງໂຕ້ຕອບ, ຈາກນັ້ນໃຊ້ເມົາສ໌ເພື່ອເລືອກຂອບເຂດເຊວໃນສະເປຣດຊີດ. ຄລິກປຸ່ມອີກຄັ້ງເພື່ອຄືນຄ່າກ່ອງໂຕ້ຕອບໃຫ້ມີຂະໜາດເຕັມ."
+
+#. C5ZdQ
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:467
+msgctxt "tp_ErrorBars|FT_NEGATIVE"
+msgid "_Negative (-)"
+msgstr "ຄ່າ_ລົບ (-)"
+
+#. TAAD2
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:486
+msgctxt "tp_ErrorBars|extended_tip|MF_NEGATIVE"
+msgid "Enter the value to subtract from the displayed value as the negative error value."
+msgstr "ປ້ອນຄ່າທີ່ຈະລົບອອກຈາກຄ່າທີ່ສະແດງເປັນຄ່າຂໍ້ຜິດພາດຄ່າລົບ."
+
+#. S8d3Y
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:504
+msgctxt "tp_ErrorBars|extended_tip|ED_RANGE_NEGATIVE"
+msgid "Enter the address range from where to get the negative error values. Use the Shrink button to select the range from a sheet."
+msgstr "ປ້ອນທີ່ຢູ່ຂອບເຂດທີ່ຈະເອົາຄ່າຂໍ້ຜິດພາດຄ່າລົບມາໃຊ້. ໃຊ້ປຸ່ມຫຍໍ້ເພື່ອເລືອກຂອບເຂດຈາກແຜ່ນງານ."
+
+#. EVG7h
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:519
+msgctxt "tp_ErrorBars|IB_RANGE_NEGATIVE|tooltip_text"
+msgid "Select data range"
+msgstr "ເລືອກຂອບເຂດຂໍ້ມູນ"
+
+#. oEACZ
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:524
+msgctxt "tp_ErrorBars|extended_tip|IB_RANGE_NEGATIVE"
+msgid "Click a button to shrink the dialog, then use the mouse to select the cell range in the spreadsheet. Click the button again to restore the dialog to full size."
+msgstr "ຄລິກປຸ່ມເພື່ອຫຍໍ້ກ່ອງໂຕ້ຕອບ, ຈາກນັ້ນໃຊ້ເມົາສ໌ເພື່ອເລືອກຂອບເຂດເຊວໃນສະເປຣດຊີດ. ຄລິກປຸ່ມອີກຄັ້ງເພື່ອຄືນຄ່າກ່ອງໂຕ້ຕອບໃຫ້ມີຂະໜາດເຕັມ."
+
+#. wdsax
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:543
+msgctxt "tp_ErrorBars|CB_SYN_POS_NEG"
+msgid "Same value for both"
+msgstr "ຄ່າດຽວກັນສຳລັບທັງສອງ"
+
+#. DvgLw
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:551
+msgctxt "tp_ErrorBars|extended_tip|CB_SYN_POS_NEG"
+msgid "Enable to use the positive error values also as negative error values. You can only change the value of the \"Positive (+)\" box. That value gets copied to the \"Negative (-)\" box automatically."
+msgstr "ເປີດໃຊ້ງານເພື່ອໃຊ້ຄ່າຂໍ້ຜິດພາດຄ່າບວກເປັນຄ່າຂໍ້ຜິດພາດຄ່າລົບນຳ. ທ່ານສາມາດປ່ຽນໄດ້ສະເພາະຄ່າໃນກ່ອງ \"ຄ່າບວກ (+)\". ຄ່ານັ້ນຈະຖືກຄັດລອກໄປທີ່ກ່ອງ \"ຄ່າລົບ (-)\" ໂດຍອັດຕະໂນມັດ."
+
+#. BEj3C
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:567
+msgctxt "tp_ErrorBars|label3"
+msgid "Parameters"
+msgstr "ຕົວຊີ້ວັດ"
+
+#. XxRKD
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:584
+msgctxt "tp_ErrorBars|STR_DATA_SELECT_RANGE_FOR_POSITIVE_ERRORBARS"
+msgid "Select Range for Positive Error Bars"
+msgstr "ເລືອກຂອບເຂດສໍາລັບແຖບຂໍ້ຜິດພາດຄ່າບວກ"
+
+#. FXjsk
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:595
+msgctxt "tp_ErrorBars|STR_DATA_SELECT_RANGE_FOR_NEGATIVE_ERRORBARS"
+msgid "Select Range for Negative Error Bars"
+msgstr "ເລືອກຂອບເຂດສໍາລັບແຖບຂໍ້ຜິດພາດຄ່າລົບ"
+
+#. AAfgS
+#: chart2/uiconfig/ui/tp_ErrorBars.ui:606
+msgctxt "tp_ErrorBars|STR_CONTROLTEXT_ERROR_BARS_FROM_DATA"
+msgid "From Data Table"
+msgstr "ຈາກຕາຕະລາງຂໍ້ມູນ"
+
+#. C9QvS
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:27
+msgctxt "tp_LegendPosition|left"
+msgid "_Left"
+msgstr "_ຊ້າຍ"
+
+#. 98N4N
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:36
+msgctxt "tp_LegendPosition|extended_tip|left"
+msgid "Positions the legend at the left of the chart."
+msgstr "ວາງຕຳແໜ່ງຄຳອະທິບາຍໄວ້ທາງຊ້າຍຂອງແຜນວາດ."
+
+#. WGGa8
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:47
+msgctxt "tp_LegendPosition|right"
+msgid "_Right"
+msgstr "_ຂວາ"
+
+#. BgNsc
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:56
+msgctxt "tp_LegendPosition|extended_tip|right"
+msgid "Positions the legend at the right of the chart."
+msgstr "ວາງຕຳແໜ່ງຄຳອະທິບາຍໄວ້ທາງຂວາຂອງແຜນວາດ."
+
+#. aURZs
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:67
+msgctxt "tp_LegendPosition|top"
+msgid "_Top"
+msgstr "_ເທິງ"
+
+#. GppCU
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:76
+msgctxt "tp_LegendPosition|extended_tip|top"
+msgid "Positions the legend at the top of the chart."
+msgstr "ວາງຕຳແໜ່ງຄຳອະທິບາຍໄວ້ທາງເທິງຂອງແຜນວາດ."
+
+#. 9WgFV
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:87
+msgctxt "tp_LegendPosition|bottom"
+msgid "_Bottom"
+msgstr "_ລຸ່ມ"
+
+#. dvBdX
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:96
+msgctxt "tp_LegendPosition|extended_tip|bottom"
+msgid "Positions the legend at the bottom of the chart."
+msgstr "ວາງຕຳແໜ່ງຄຳອະທິບາຍໄວ້ທາງລຸ່ມຂອງແຜນວາດ."
+
+#. z84pQ
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:111
+msgctxt "tp_LegendPosition|TXT_POSITION"
+msgid "Position"
+msgstr "ຕຳແໜ່ງ"
+
+#. 6teoB
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:142
+msgctxt "tp_LegendPosition|FT_LEGEND_TEXTDIR"
+msgid "Te_xt direction"
+msgstr "ທິດທາງ_ຂໍ້ຄວາມ"
+
+#. PSPoQ
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:158
+msgctxt "tp_LegendPosition|extended_tip|LB_LEGEND_TEXTDIR"
+msgid "Specify the text direction for a paragraph that uses complex text layout (CTL). This feature is only available if complex text layout support is enabled."
+msgstr "ລະບຸທິດທາງຂໍ້ຄວາມສຳລັບຫຍໍ້ໜ້າທີ່ໃຊ້ການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນ (CTL). ຄຸນສົມບັດນີ້ສາມາດໃຊ້ໄດ້ກໍຕໍ່ເມື່ອມີການເປີດໃຊ້ການຮອງຮັບການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນເທົ່ານັ້ນ."
+
+#. sUDkC
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:174
+msgctxt "tp_LegendPosition|TXT_ORIENTATION"
+msgid "Text Orientation"
+msgstr "ທິດຂອງຂໍ້ຄວາມ"
+
+#. VsH8A
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:203
+msgctxt "tp_LegendPosition|CB_NO_OVERLAY"
+msgid "Show the legend without overlapping the chart"
+msgstr "ສະແດງຄຳອະທິບາຍໂດຍບໍ່ໃຫ້ເລື່ອມທັບແຜນວາດ"
+
+#. yi8AX
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:211
+msgctxt "tp_LegendPosition|extended_tip|CB_NO_OVERLAY"
+msgid "Specifies whether the legend should overlap the chart."
+msgstr "ລະບຸວ່າຄຳອະທິບາຍຄວນເລື່ອມທັບແຜນວາດຫຼືບໍ່."
+
+#. 82yue
+#: chart2/uiconfig/ui/tp_LegendPosition.ui:227
+msgctxt "tp_LegendPosition|TXT_OVERLAY"
+msgid "Overlay"
+msgstr "ເລື່ອມທັບ"
+
+#. 8783D
+#: chart2/uiconfig/ui/tp_PolarOptions.ui:24
+msgctxt "tp_PolarOptions|CB_CLOCKWISE"
+msgid "_Clockwise direction"
+msgstr "ທິດທາງ_ຕາມເຂັມໂມງ"
+
+#. GikR7
+#: chart2/uiconfig/ui/tp_PolarOptions.ui:34
+msgctxt "tp_PolarOptions|extended_tip|CB_CLOCKWISE"
+msgid "The default direction in which the pieces of a pie chart are ordered is counterclockwise. Enable the Clockwise direction checkbox to draw the pieces in opposite direction."
+msgstr "ທິດທາງເລີ່ມຕົ້ນຂອງຊິ້ນສ່ວນແຜນວາດຮູບວົງມົນແມ່ນທວນເຂັມໂມງ. ເປີດໃຊ້ກ່ອງເລືອກ \"ທິດທາງຕາມເຂັມໂມງ\" ເພື່ອແຕ້ມຊິ້ນສ່ວນໃນທິດທາງກົງກັນຂ້າມ."
+
+#. ATHCu
+#: chart2/uiconfig/ui/tp_PolarOptions.ui:43
+msgctxt "tp_PolarOptions|label1"
+msgid "Orientation"
+msgstr "ກຳນົດທິດທາງ"
+
+#. mEJCE
+#: chart2/uiconfig/ui/tp_PolarOptions.ui:79
+msgctxt "tp_PolarOptions|extended_tip|CT_ANGLE_DIAL"
+msgid "Drag the small dot along the circle or click any position on the circle to set the starting angle of a pie or donut chart. The starting angle is the mathematical angle position where the first piece is drawn. The value of 90 degrees draws the first piece at the 12 o'clock position. A value of 0 degrees starts at the 3 o'clock position."
+msgstr "ລາກຈຸດນ້ອຍໆຕາມວົງມົນ ຫຼື ຄລິກຕຳແໜ່ງໃດໜຶ່ງໃນວົງມົນເພື່ອຕັ້ງມຸມເລີ່ມຕົ້ນຂອງແຜນວາດຮູບວົງມົນ ຫຼື ຮູບໂດນັດ. ມຸມເລີ່ມຕົ້ນແມ່ນຕຳແໜ່ງມຸມທາງຄະນິດສາດທີ່ຊິ້ນສ່ວນທຳອິດຖືກແຕ້ມ. ຄ່າ 90 ອົງສາຈະແຕ້ມຊິ້ນສ່ວນທຳອິດຢູ່ທີ່ຕຳແໜ່ງ 12 ໂມງ. ຄ່າ 0 ອົງສາຈະເລີ່ມຕົ້ນຢູ່ທີ່ຕຳແໜ່ງ 3 ໂມງ."
+
+#. EEVTg
+#: chart2/uiconfig/ui/tp_PolarOptions.ui:99
+msgctxt "tp_PolarOptions|extended_tip|NF_STARTING_ANGLE"
+msgid "Enter the starting angle between 0 and 359 degrees. You can also click the arrows to change the displayed value."
+msgstr "ປ້ອນມຸມເລີ່ມຕົ້ນລະຫວ່າງ 0 ຫາ 359 ອົງສາ. ທ່ານຍັງສາມາດຄລິກທີ່ລູກສອນເພື່ອປ່ຽນຄ່າທີ່ສະແດງ."
+
+#. prqEa
+#: chart2/uiconfig/ui/tp_PolarOptions.ui:113
+msgctxt "tp_PolarOptions|FT_ROTATION_DEGREES"
+msgid "_Degrees"
+msgstr "_ອົງສາ"
+
+#. iHLKn
+#: chart2/uiconfig/ui/tp_PolarOptions.ui:130
+msgctxt "tp_PolarOptions|label2"
+msgid "Starting Angle"
+msgstr "ມຸມເລີ່ມຕົ້ນ"
+
+#. 5zEew
+#: chart2/uiconfig/ui/tp_PolarOptions.ui:152
+msgctxt "tp_PolarOptions|CB_INCLUDE_HIDDEN_CELLS_POLAR"
+msgid "Include _values from hidden cells"
+msgstr "ລວມເອົາ_ຄ່າຈາກເຊວທີ່ເຊື່ອງໄວ້"
+
+#. F5FTp
+#: chart2/uiconfig/ui/tp_PolarOptions.ui:166
+msgctxt "tp_PolarOptions|label3"
+msgid "Plot Options"
+msgstr "ຕົວເລືອກ Plot"
+
+#. tHATu
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:8
+msgctxt "tp_RangeChooser|imageIB_RANGE|tooltip_text"
+msgid "Select data range"
+msgstr "ເລືອກຂອບເຂດຂໍ້ມູນ"
+
+#. 4zh42
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:28
+msgctxt "tp_RangeChooser|FT_CAPTION_FOR_WIZARD"
+msgid "Choose a Data Range"
+msgstr "ເລືອກຂອບເຂດຂໍ້ມູນ"
+
+#. g2XVd
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:50
+msgctxt "tp_RangeChooser|FT_RANGE"
+msgid "_Data range:"
+msgstr "_ຂອບເຂດຂໍ້ມູນ:"
+
+#. WKLi7
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:69
+msgctxt "tp_RangeChooser|extended_tip|ED_RANGE"
+msgid "Enter the data range that you want to include in your chart. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+msgstr "ປ້ອນຂອບເຂດຂໍ້ມູນທີ່ທ່ານຕ້ອງການລວມໄວ້ໃນແຜນວາດຂອງທ່ານ. ເພື່ອຫຍໍ້ກ່ອງໂຕ້ຕອບນີ້ໃນຂະນະທີ່ທ່ານເລືອກຂອບເຂດຂໍ້ມູນໃນ Calc, ໃຫ້ຄລິກປຸ່ມ \"ເລືອກຂອບເຂດຂໍ້ມູນ\"."
+
+#. FyVoD
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:83
+msgctxt "tp_RangeChooser|IB_RANGE|tooltip_text"
+msgid "Select data range"
+msgstr "ເລືອກຂອບເຂດຂໍ້ມູນ"
+
+#. FVivY
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:88
+msgctxt "tp_RangeChooser|extended_tip|IB_RANGE"
+msgid "Enter the data range that you want to include in your chart. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+msgstr "ປ້ອນຂອບເຂດຂໍ້ມູນທີ່ທ່ານຕ້ອງການລວມໄວ້ໃນແຜນວາດຂອງທ່ານ. ເພື່ອຫຍໍ້ກ່ອງໂຕ້ຕອບນີ້ໃນຂະນະທີ່ທ່ານເລືອກຂອບເຂດຂໍ້ມູນໃນ Calc, ໃຫ້ຄລິກປຸ່ມ \"ເລືອກຂອບເຂດຂໍ້ມູນ\"."
+
+#. RGGHE
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:105
+msgctxt "tp_RangeChooser|RB_DATAROWS"
+msgid "Data series in _rows"
+msgstr "ຊຸດຂໍ້ມູນໃນແ_ຖວ"
+
+#. w6DuB
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:114
+msgctxt "tp_RangeChooser|extended_tip|RB_DATAROWS"
+msgid "Data series get their data from consecutive rows in the selected range. For scatter charts, the first data series will contain x-values for all series. All other data series are used as y-values, one for each series."
+msgstr "ຊຸດຂໍ້ມູນໄດ້ຮັບຂໍ້ມູນຈາກແຖວທີ່ຢູ່ຕິດກັນໃນຂອບເຂດທີ່ເລືອກ. ສຳລັບແຜນວາດການກະຈາຍ, ຊຸດຂໍ້ມູນທຳອິດຈະປະກອບດ້ວຍຄ່າ X ສຳລັບທຸກຊຸດ. ຊຸດຂໍ້ມູນອື່ນໆທັງໝົດຈະຖືກໃຊ້ເປັນຄ່າ Y, ໜຶ່ງອັນສຳລັບແຕ່ລະຊຸດ."
+
+#. wSDqF
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:125
+msgctxt "tp_RangeChooser|RB_DATACOLS"
+msgid "Data series in _columns"
+msgstr "ຊຸດຂໍ້ມູນໃນ_ຖັນ"
+
+#. RfFZF
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:134
+msgctxt "tp_RangeChooser|extended_tip|RB_DATACOLS"
+msgid "Data series get their data from consecutive columns in the selected range. For scatter charts, the first data column will contain x-values for all series. All other data columns are used as y-values, one for each series."
+msgstr "ຊຸດຂໍ້ມູນໄດ້ຮັບຂໍ້ມູນຈາກຖັນທີ່ຢູ່ຕິດກັນໃນຂອບເຂດທີ່ເລືອກ. ສຳລັບແຜນວາດການກະຈາຍ, ຖັນຂໍ້ມູນທຳອິດຈະປະກອບດ້ວຍຄ່າ X ສຳລັບທຸກຊຸດ. ຖັນຂໍ້ມູນອື່ນໆທັງໝົດຈະຖືກໃຊ້ເປັນຄ່າ Y, ໜຶ່ງອັນສຳລັບແຕ່ລະຊຸດ."
+
+#. CExLY
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:145
+msgctxt "tp_RangeChooser|CB_FIRST_ROW_ASLABELS"
+msgid "_First row as label"
+msgstr "ແຖວ_ທຳອິດເປັນປ້າຍ"
+
+#. HviBv
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:153
+msgctxt "tp_RangeChooser|extended_tip|CB_FIRST_ROW_ASLABELS"
+msgid "For data series in columns: The first row in the range is used as names for data series. For data series in rows: The first row in the range is used as categories. The remaining rows comprise the data series. If this check box is not selected, all rows are data series."
+msgstr "ສຳລັບຊຸດຂໍ້ມູນໃນຖັນ: ແຖວທຳອິດໃນຂອບເຂດຈະຖືກໃຊ້ເປັນຊື່ສຳລັບຊຸດຂໍ້ມູນ. ສຳລັບຊຸດຂໍ້ມູນໃນແຖວ: ແຖວທຳອິດໃນຂອບເຂດຈະຖືກໃຊ້ເປັນໝວດໝູ່. ແຖວທີ່ເຫຼືອຈະປະກອບເປັນຊຸດຂໍ້ມູນ. ຖ້າບໍ່ໄດ້ເລືອກກ່ອງເລືອກນີ້, ທຸກແຖວຈະເປັນຊຸດຂໍ້ມູນ."
+
+#. ER2D7
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:164
+msgctxt "tp_RangeChooser|CB_FIRST_COLUMN_ASLABELS"
+msgid "F_irst column as label"
+msgstr "ຖັນທຳ_ອິດເປັນປ້າຍ"
+
+#. tTAhH
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:172
+msgctxt "tp_RangeChooser|extended_tip|CB_FIRST_COLUMN_ASLABELS"
+msgid "For data series in columns: The first column in the range is used as names for data series. For data series in rows: The first column in the range is used as categories. The remaining columns comprise the data columns. If this check box is not selected, all columns are data columns."
+msgstr "ສຳລັບຊຸດຂໍ້ມູນໃນຖັນ: ຖັນທຳອິດໃນຂອບເຂດຈະຖືກໃຊ້ເປັນຊື່ສຳລັບຊຸດຂໍ້ມູນ. ສຳລັບຊຸດຂໍ້ມູນໃນແຖວ: ຖັນທຳອິດໃນຂອບເຂດຈະຖືກໃຊ້ເປັນໝວດໝູ່. ຖັນທີ່ເຫຼືອຈະປະກອບເປັນຖັນຂໍ້ມູນ. ຖ້າບໍ່ໄດ້ເລືອກກ່ອງເລືອກນີ້, ທຸກຖັນຈະເປັນຖັນຂໍ້ມູນ."
+
+#. k9TMD
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:193
+msgctxt "tp_RangeChooser|CB_TIME_BASED"
+msgid "Time based charting"
+msgstr "ແຜນວາດຖານເວລາ"
+
+#. iuxE5
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:244
+msgctxt "tp_RangeChooser|label1"
+msgid "Start Table Index"
+msgstr "ເລີ່ມຕົ້ນດັດສະນີຕາຕະລາງ"
+
+#. dnmDQ
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:257
+msgctxt "tp_RangeChooser|label2"
+msgid "End Table Index"
+msgstr "ດັດສະນີຕາຕະລາງສິ້ນສຸດ"
+
+#. FcYeD
+#: chart2/uiconfig/ui/tp_RangeChooser.ui:275
+msgctxt "tp_RangeChooser|STR_PAGE_DATA_RANGE"
+msgid "Data Range"
+msgstr "ຂອບເຂດຂໍ້ມູນ"
+
+#. YfF4A
+#: chart2/uiconfig/ui/tp_Scale.ui:55
+msgctxt "tp_Scale|CBX_REVERSE"
+msgid "_Reverse direction"
+msgstr "_ຍ້ອນກັບທິດທາງ"
+
+#. DNJFK
+#: chart2/uiconfig/ui/tp_Scale.ui:63
+msgctxt "tp_Scale|extended_tip|CBX_REVERSE"
+msgid "Defines where the lower and where the higher values are displayed at the axis. The unchecked state is the mathematical direction."
+msgstr "ກຳນົດບ່ອນທີ່ຈະສະແດງຄ່າທີ່ຕໍ່າກວ່າ ແລະ ຄ່າທີ່ສູງກວ່າຢູ່ທີ່ແກນ. ສະຖານະທີ່ບໍ່ໄດ້ໝາຍເລືອກແມ່ນທິດທາງທາງຄະນິດສາດ."
+
+#. qBbBL
+#: chart2/uiconfig/ui/tp_Scale.ui:75
+msgctxt "tp_Scale|CBX_LOGARITHM"
+msgid "_Logarithmic scale"
+msgstr "ຂະໜາດຂອງ_ໂຄງສ້າງຂໍ້ມູນ"
+
+#. 3wDMa
+#: chart2/uiconfig/ui/tp_Scale.ui:83
+msgctxt "tp_Scale|extended_tip|CBX_LOGARITHM"
+msgid "Specifies that you want the axis to be subdivided logarithmically."
+msgstr "ລະບຸວ່າທ່ານຕ້ອງການໃຫ້ແກນຖືກແບ່ງຍ່ອຍແບບລໍກາຣິດ."
+
+#. 2B5CL
+#: chart2/uiconfig/ui/tp_Scale.ui:102
+msgctxt "tp_Scale|TXT_AXIS_TYPE"
+msgid "T_ype"
+msgstr "_ຊະນິດ"
+
+#. D6Bre
+#: chart2/uiconfig/ui/tp_Scale.ui:118
+msgctxt "tp_Scale|LB_AXIS_TYPE"
+msgid "Automatic"
+msgstr "ອັດຕະໂນມັດ"
+
+#. TCiZu
+#: chart2/uiconfig/ui/tp_Scale.ui:119
+msgctxt "tp_Scale|LB_AXIS_TYPE"
+msgid "Text"
+msgstr "ຂໍ້ຄວາມ"
+
+#. vAAUB
+#: chart2/uiconfig/ui/tp_Scale.ui:120
+msgctxt "tp_Scale|LB_AXIS_TYPE"
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. 8YZhv
+#: chart2/uiconfig/ui/tp_Scale.ui:124
+msgctxt "tp_Scale|extended_tip|LB_AXIS_TYPE"
+msgid "For some types of axes, you can select to format an axis as text or date, or to detect the type automatically."
+msgstr "ສຳລັບແກນບາງປະເພດ, ທ່ານສາມາດເລືອກຮູບແບບແກນເປັນຂໍ້ຄວາມ ຫຼື ວັນທີ, ຫຼື ໃຫ້ກວດຫາປະເພດໂດຍອັດຕະໂນມັດ."
+
+#. Vf7vB
+#: chart2/uiconfig/ui/tp_Scale.ui:159
+msgctxt "tp_Scale|TXT_MIN"
+msgid "_Minimum"
+msgstr "_ນ້ອຍສຸດ"
+
+#. XUKzj
+#: chart2/uiconfig/ui/tp_Scale.ui:173
+msgctxt "tp_Scale|TXT_MAX"
+msgid "Ma_ximum"
+msgstr "_ໃຫຍ່ສຸດ"
+
+#. 4jRuB
+#: chart2/uiconfig/ui/tp_Scale.ui:185
+msgctxt "tp_Scale|CBX_AUTO_MIN"
+msgid "_Automatic"
+msgstr "_ອັດຕະໂນມັດ"
+
+#. Bx5Co
+#: chart2/uiconfig/ui/tp_Scale.ui:199
+msgctxt "tp_Scale|CBX_AUTO_MAX"
+msgid "A_utomatic"
+msgstr "_ອັດຕະໂນມັດ"
+
+#. 2Kb67
+#: chart2/uiconfig/ui/tp_Scale.ui:221
+msgctxt "tp_Scale|extended_tip|EDT_MIN"
+msgid "Defines the minimum value for the beginning of the axis."
+msgstr "ກຳນົດຄ່ານ້ອຍສຸດສຳລັບຈຸດເລີ່ມຕົ້ນຂອງແກນ."
+
+#. AvhE9
+#: chart2/uiconfig/ui/tp_Scale.ui:240
+msgctxt "tp_Scale|extended_tip|EDT_MAX"
+msgid "Defines the maximum value for the end of the axis."
+msgstr "ກຳນົດຄ່າໃຫຍ່ສຸດສຳລັບຈຸດສິ້ນສຸດຂອງແກນ."
+
+#. TsHtd
+#: chart2/uiconfig/ui/tp_Scale.ui:265
+msgctxt "tp_Scale|TXT_TIME_RESOLUTION"
+msgid "R_esolution"
+msgstr "ຄວາມ_ລະອຽດ"
+
+#. DwrAu
+#: chart2/uiconfig/ui/tp_Scale.ui:281
+msgctxt "tp_Scale|DATE-RESOLUTION"
+msgid "Days"
+msgstr "ມື້"
+
+#. NL9uN
+#: chart2/uiconfig/ui/tp_Scale.ui:282
+msgctxt "tp_Scale|DATE-RESOLUTION"
+msgid "Months"
+msgstr "ເດືອນ"
+
+#. BfyLg
+#: chart2/uiconfig/ui/tp_Scale.ui:283
+msgctxt "tp_Scale|DATE-RESOLUTION"
+msgid "Years"
+msgstr "ປີ"
+
+#. WUANc
+#: chart2/uiconfig/ui/tp_Scale.ui:287
+msgctxt "tp_Scale|extended_tip|LB_TIME_RESOLUTION"
+msgid "Resolution can be set to show days, months, or years as interval steps."
+msgstr "ຄວາມລະອຽດສາມາດຕັ້ງຄ່າເພື່ອສະແດງເປັນມື້, ເດືອນ, ຫຼື ປີ ເປັນຂັ້ນຕອນຂອງຊ່ວງເວລາ."
+
+#. ezN7c
+#: chart2/uiconfig/ui/tp_Scale.ui:299
+msgctxt "tp_Scale|CBX_AUTO_TIME_RESOLUTION"
+msgid "Automat_ic"
+msgstr "_ອັດຕະໂນມັດ"
+
+#. DbJt9
+#: chart2/uiconfig/ui/tp_Scale.ui:328
+msgctxt "tp_Scale|TXT_STEP_MAIN"
+msgid "Ma_jor interval"
+msgstr "ຊ່ວງເວລາ_ຫຼັກ"
+
+#. AtZ6D
+#: chart2/uiconfig/ui/tp_Scale.ui:358
+msgctxt "tp_Scale|extended_tip|MT_MAIN_DATE_STEP"
+msgid "Major interval can be set to show a certain number of days, months, or years."
+msgstr "ຊ່ວງເວລາຫຼັກສາມາດຕັ້ງຄ່າເພື່ອສະແດງຈຳນວນມື້, ເດືອນ, ຫຼື ປີ ທີ່ແນ່ນອນ."
+
+#. yyPFB
+#: chart2/uiconfig/ui/tp_Scale.ui:373 chart2/uiconfig/ui/tp_Scale.ui:515
+msgctxt "tp_Scale|liststoreDATE"
+msgid "Days"
+msgstr "ມື້"
+
+#. 8xKtE
+#: chart2/uiconfig/ui/tp_Scale.ui:374 chart2/uiconfig/ui/tp_Scale.ui:516
+msgctxt "tp_Scale|liststoreDATE"
+msgid "Months"
+msgstr "ເດືອນ"
+
+#. WRUy8
+#: chart2/uiconfig/ui/tp_Scale.ui:375 chart2/uiconfig/ui/tp_Scale.ui:517
+msgctxt "tp_Scale|liststoreDATE"
+msgid "Years"
+msgstr "ປີ"
+
+#. BD5BE
+#: chart2/uiconfig/ui/tp_Scale.ui:379
+msgctxt "tp_Scale|extended_tip|LB_MAIN_TIME_UNIT"
+msgid "Major interval can be set to show a certain number of days, months, or years."
+msgstr "ຊ່ວງເວລາຫຼັກສາມາດຕັ້ງຄ່າເພື່ອສະແດງຈຳນວນມື້, ເດືອນ, ຫຼື ປີ ທີ່ແນ່ນອນ."
+
+#. a2Gjv
+#: chart2/uiconfig/ui/tp_Scale.ui:406
+msgctxt "tp_Scale|extended_tip|EDT_STEP_MAIN"
+msgid "Defines the interval for the main division of the axes."
+msgstr "ກຳນົດຊ່ວງເວລາສຳລັບການແບ່ງຫຼັກຂອງແກນ."
+
+#. UMEd3
+#: chart2/uiconfig/ui/tp_Scale.ui:425
+msgctxt "tp_Scale|CBX_AUTO_STEP_MAIN"
+msgid "Au_tomatic"
+msgstr "_ອັດຕະໂນມັດ"
+
+#. Pv5GU
+#: chart2/uiconfig/ui/tp_Scale.ui:459
+msgctxt "tp_Scale|TXT_STEP_HELP"
+msgid "Minor inter_val"
+msgstr "ຊ່ວງ_ຮອງ"
+
+#. WMGqg
+#: chart2/uiconfig/ui/tp_Scale.ui:473
+msgctxt "tp_Scale|TXT_STEP_HELP_COUNT"
+msgid "Minor inter_val count"
+msgstr "ຈຳນວນຊ່ວງ_ຮອງ"
+
+#. c9m8j
+#: chart2/uiconfig/ui/tp_Scale.ui:500
+msgctxt "tp_Scale|extended_tip|MT_STEPHELP"
+msgid "Defines the interval for the subdivision of the axes."
+msgstr "ກຳນົດຊ່ວງເວລາສຳລັບການແບ່ງຍ່ອຍຂອງແກນ."
+
+#. snFL6
+#: chart2/uiconfig/ui/tp_Scale.ui:521
+msgctxt "tp_Scale|extended_tip|LB_HELP_TIME_UNIT"
+msgid "Minor interval can be set to show a certain number of days, months, or years."
+msgstr "ຊ່ວງເວລາຮອງສາມາດຕັ້ງຄ່າເພື່ອສະແດງຈຳນວນມື້, ເດືອນ, ຫຼື ປີ ທີ່ແນ່ນອນ."
+
+#. X8FAK
+#: chart2/uiconfig/ui/tp_Scale.ui:533
+msgctxt "tp_Scale|CBX_AUTO_STEP_HELP"
+msgid "Aut_omatic"
+msgstr "_ອັດຕະໂນມັດ"
+
+#. GAKPN
+#: chart2/uiconfig/ui/tp_Scale.ui:562
+msgctxt "tp_Scale|TXT_ORIGIN"
+msgid "Re_ference value"
+msgstr "ຄ່າ_ອ້າງອີງ"
+
+#. HbRqw
+#: chart2/uiconfig/ui/tp_Scale.ui:582
+msgctxt "tp_Scale|extended_tip|EDT_ORIGIN"
+msgid "Specifies at which position to display the values along the axis."
+msgstr "ລະບຸຕຳແໜ່ງທີ່ຈະສະແດງຄ່າຕາມແນວແກນ."
+
+#. Dj9GB
+#: chart2/uiconfig/ui/tp_Scale.ui:594
+msgctxt "tp_Scale|CBX_AUTO_ORIGIN"
+msgid "Automat_ic"
+msgstr "_ອັດຕະໂນມັດ"
+
+#. Z35M3
+#: chart2/uiconfig/ui/tp_Scale.ui:602
+msgctxt "tp_Scale|extended_tip|CBX_AUTO_ORIGIN"
+msgid "You must first deselect the Automatic option in order to modify the values."
+msgstr "ທ່ານຕ້ອງຍົກເລີກການເລືອກຕົວເລືອກ \"ອັດຕະໂນມັດ\" ກ່ອນເພື່ອແກ້ໄຂຄ່າຕ່າງໆ."
+
+#. wqR5C
+#: chart2/uiconfig/ui/tp_Scale.ui:625
+msgctxt "tp_Scale|FL_SCALE"
+msgid "Scale"
+msgstr "ມາດຕາສ່ວນ"
+
+#. YK66G
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:38
+msgctxt "tp_SeriesToAxis|RBT_OPT_AXIS_1"
+msgid "Primary Y axis"
+msgstr "ແກນຫຼັກ Y"
+
+#. ApXPx
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:47
+msgctxt "tp_SeriesToAxis|extended_tip|RBT_OPT_AXIS_1"
+msgid "This option is active as default. All data series are aligned to the primary Y axis."
+msgstr "ຕົວເລືອກນີ້ຖືກເປີດໃຊ້ງານເປັນຄ່າເລີ່ມຕົ້ນ. ຊຸດຂໍ້ມູນທັງໝົດຈະຖືກຈັດລຽງຕາມແກນ Y ຫຼັກ."
+
+#. aZ7G8
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:59
+msgctxt "tp_SeriesToAxis|RBT_OPT_AXIS_2"
+msgid "Secondary Y axis"
+msgstr "ແກນ Y ທີ 2"
+
+#. nTQUy
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:68
+msgctxt "tp_SeriesToAxis|extended_tip|RBT_OPT_AXIS_2"
+msgid "Changes the scaling of the Y axis. This axis is only visible when at least one data series is assigned to it and the axis view is active."
+msgstr "ປ່ຽນການປັບຂະໜາດຂອງແກນ Y. ແກນນີ້ຈະສະແດງໃຫ້ເຫັນກໍຕໍ່ເມື່ອມີຢ່າງໜ້ອຍໜຶ່ງຊຸດຂໍ້ມູນຖືກກຳນົດໃຫ້ມັນ ແລະ ມູມມອງແກນຖືກເປີດໃຊ້ງານ."
+
+#. hV3cT
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:84
+msgctxt "tp_SeriesToAxis|label1"
+msgid "Align Data Series to"
+msgstr "ຈັດຮຽງຊຸດຂໍ້ມູນໄປທີ່"
+
+#. GAF6S
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:123
+msgctxt "tp_SeriesToAxis|FT_GAP"
+msgid "_Spacing"
+msgstr "_ໄລຍະຫ່າງ"
+
+#. 27wWb
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:136
+msgctxt "tp_SeriesToAxis|FT_OVERLAP"
+msgid "_Overlap"
+msgstr "ເ_ລື່ອມກັນ"
+
+#. NKaBT
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:153
+msgctxt "tp_SeriesToAxis|extended_tip|MT_GAP"
+msgid "Defines the spacing between the columns in percent."
+msgstr "ກຳນົດໄລຍະຫ່າງລະຫວ່າງຖັນເປັນເປີເຊັນ."
+
+#. 8E3zD
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:170
+msgctxt "tp_SeriesToAxis|extended_tip|MT_OVERLAP"
+msgid "Defines the necessary settings for overlapping data series."
+msgstr "ກຳນົດການຕັ້ງຄ່າທີ່ຈຳເປັນສຳລັບຊຸດຂໍ້ມູນທີ່ເລື້ອມທັບກັນ."
+
+#. uV5Dn
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:188
+msgctxt "tp_SeriesToAxis|CB_BARS_SIDE_BY_SIDE"
+msgid "Show _bars side by side"
+msgstr "ສະແດງແ_ຖບຄຽງຂ້າງກັນ"
+
+#. U5ruY
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:197
+msgctxt "tp_SeriesToAxis|extended_tip|CB_BARS_SIDE_BY_SIDE"
+msgid "The bars from different data series are shown as if they were attached only to one axis."
+msgstr "ແຖບຈາກຊຸດຂໍ້ມູນທີ່ແຕກຕ່າງກັນຈະຖືກສະແດງຄືກັບວ່າພວກມັນຖືກຕິດຢູ່ກັບແກນດຽວເທົ່ານັ້ນ."
+
+#. b7cbo
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:209
+msgctxt "tp_SeriesToAxis|CB_CONNECTOR"
+msgid "Connection lines"
+msgstr "ເສັ້ນການເຊື່ອມຕໍ່"
+
+#. 42zFb
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:218
+msgctxt "tp_SeriesToAxis|extended_tip|CB_CONNECTOR"
+msgid "For \"stacked\" and \"percent\" column (vertical bar) charts, mark this check box to connect the column layers that belong together with lines."
+msgstr "ສຳລັບແຜນວາດຖັນ (ແຖບຕັ້ງ) ແບບ \"ຕັ້ງຊ້ອນ\" ແລະ \"ເປີເຊັນ\", ໃຫ້ໝາຍໃສ່ກ່ອງເລືອກນີ້ເພື່ອເຊື່ອມຕໍ່ຊັ້ນຂອງຖັນທີ່ເປັນກຸ່ມດຽວກັນດ້ວຍເສັ້ນ."
+
+#. VHcU3
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:234
+msgctxt "tp_SeriesToAxis|label2"
+msgid "Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. zaB5V
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:272
+msgctxt "tp_SeriesToAxis|FT_MISSING_VALUES"
+msgid "Plot missing values"
+msgstr "Plot ທີ່ຄ່າທີ່ຫາຍໄປ"
+
+#. fqYSM
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:282
+msgctxt "tp_SeriesToAxis|RB_DONT_PAINT"
+msgid "_Leave gap"
+msgstr "_ຄົງທີ່ຊ່ອງວ່າງ"
+
+#. CFmcS
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:291
+msgctxt "tp_SeriesToAxis|extended_tip|RB_DONT_PAINT"
+msgid "For a missing value, no data will be shown. This is the default for chart types Column, Bar, Line, Net."
+msgstr "ສຳລັບຄ່າທີ່ຫາຍໄປ, ຈະບໍ່ມີຂໍ້ມູນສະແດງໃຫ້ເຫັນ. ນີ້ແມ່ນຄ່າເລີ່ມຕົ້ນສຳລັບປະເພດແຜນວາດ ຖັນ, ແຖບ, ເສັ້ນ, ແລະ ຕາໜ່າງ."
+
+#. ZvtoD
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:302
+msgctxt "tp_SeriesToAxis|RB_ASSUME_ZERO"
+msgid "_Assume zero"
+msgstr "_ສົມມຸດວ່າເປັນສູນ"
+
+#. y6EGH
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:311
+msgctxt "tp_SeriesToAxis|extended_tip|RB_ASSUME_ZERO"
+msgid "For a missing value, the y-value will be shown as zero. This is the default for chart type Area."
+msgstr "ສຳລັບຄ່າທີ່ຫາຍໄປ, ຄ່າ Y ຈະຖືກສະແດງເປັນສູນ. ນີ້ແມ່ນຄ່າເລີ່ມຕົ້ນສຳລັບປະເພດແຜນວາດ ພື້ນທີ່."
+
+#. 8rLB4
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:322
+msgctxt "tp_SeriesToAxis|RB_CONTINUE_LINE"
+msgid "_Continue line"
+msgstr "_ລາກເສັ້ນຕໍ່"
+
+#. 2HArG
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:331
+msgctxt "tp_SeriesToAxis|extended_tip|RB_CONTINUE_LINE"
+msgid "For a missing value, the interpolation from the neighbor values will be shown. This is the default for chart type XY."
+msgstr "ສຳລັບຄ່າທີ່ຫາຍໄປ, ການປະມານຄ່າຈາກຄ່າຂ້າງຄຽງຈະຖືກສະແດງໃຫ້ເຫັນ. ນີ້ແມ່ນຄ່າເລີ່ມຕົ້ນສຳລັບປະເພດແຜນວາດ XY."
+
+#. Nw9LX
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:355
+msgctxt "tp_SeriesToAxis|CB_INCLUDE_HIDDEN_CELLS"
+msgid "Include _values from hidden cells"
+msgstr "ລວມເອົາ_ຄ່າຈາກເຊວທີ່ເຊື່ອງໄວ້"
+
+#. vEDHo
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:364
+msgctxt "tp_SeriesToAxis|extended_tip|CB_INCLUDE_HIDDEN_CELLS"
+msgid "Check to also show values of currently hidden cells within the source cell range."
+msgstr "ໝາຍເລືອກເພື່ອສະແດງຄ່າຂອງເຊວທີ່ຖືກເຊື່ອງໄວ້ໃນປັດຈຸບັນພາຍໃນຂອບເຂດເຊວແຫຼ່ງຂໍ້ມູນນຳ."
+
+#. LvZ8x
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:380
+msgctxt "tp_SeriesToAxis|label3"
+msgid "Plot Options"
+msgstr "ຕົວເລືອກ Plot"
+
+#. gRgPX
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:409
+msgctxt "tp_SeriesToAxis|CB_LEGEND_ENTRY_HIDDEN"
+msgid "Hide legend entry"
+msgstr "ເຊື່ອງລາຍການຄຳອະທິບາຍ"
+
+#. GFmDA
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:417
+msgctxt "tp_SeriesToAxis|extended_tip|CB_LEGEND_ENTRY_HIDDEN"
+msgid "Do not show legend entry for the selected data series or data point."
+msgstr "ບໍ່ສະແດງລາຍການຄຳອະທິບາຍສຳລັບຊຸດຂໍ້ມູນ ຫຼື ຈຸດຂໍ້ມູນທີ່ເລືອກ."
+
+#. q8CTC
+#: chart2/uiconfig/ui/tp_SeriesToAxis.ui:433
+msgctxt "tp_SeriesToAxis|label4"
+msgid "Legend Entry"
+msgstr "ລາຍການຄຳອະທິບາຍ"
+
+#. FsWAE
+#: chart2/uiconfig/ui/tp_Trendline.ui:56
+msgctxt "tp_Trendline|linear"
+msgid "_Linear"
+msgstr "_ຕາມເສັ້ນ"
+
+#. jir3B
+#: chart2/uiconfig/ui/tp_Trendline.ui:65
+msgctxt "tp_Trendline|extended_tip|linear"
+msgid "A linear trend line is shown."
+msgstr "ເສັ້ນແນວໂນ້ມແບບເສັ້ນຊື່ຈະຖືກສະແດງ."
+
+#. u3nKx
+#: chart2/uiconfig/ui/tp_Trendline.ui:76
+msgctxt "tp_Trendline|logarithmic"
+msgid "L_ogarithmic"
+msgstr "_ລໍກາຣິດ"
+
+#. AZT5a
+#: chart2/uiconfig/ui/tp_Trendline.ui:85
+msgctxt "tp_Trendline|extended_tip|logarithmic"
+msgid "A logarithmic trend line is shown."
+msgstr "ເສັ້ນແນວໂນ້ມແບບລໍກາຣິດຈະຖືກສະແດງ."
+
+#. fPNok
+#: chart2/uiconfig/ui/tp_Trendline.ui:96
+msgctxt "tp_Trendline|exponential"
+msgid "_Exponential"
+msgstr "_ເລກກຳລັງ"
+
+#. gufBS
+#: chart2/uiconfig/ui/tp_Trendline.ui:105
+msgctxt "tp_Trendline|extended_tip|exponential"
+msgid "An exponential trend line is shown."
+msgstr "ເສັ້ນແນວໂນ້ມແບບເລກກຳລັງຈະຖືກສະແດງ."
+
+#. a6FDp
+#: chart2/uiconfig/ui/tp_Trendline.ui:116
+msgctxt "tp_Trendline|power"
+msgid "Po_wer"
+msgstr "_ຍົກກຳລັງ"
+
+#. sU36A
+#: chart2/uiconfig/ui/tp_Trendline.ui:125
+msgctxt "tp_Trendline|extended_tip|power"
+msgid "A power trend line is shown."
+msgstr "ເສັ້ນແນວໂນ້ມແບບຍົກກຳລັງຈະຖືກສະແດງ."
+
+#. QCeGG
+#: chart2/uiconfig/ui/tp_Trendline.ui:191
+msgctxt "tp_Trendline|polynomial"
+msgid "_Polynomial"
+msgstr "_ພະຫຸນາມ"
+
+#. f9EeD
+#: chart2/uiconfig/ui/tp_Trendline.ui:200
+msgctxt "tp_Trendline|extended_tip|polynomial"
+msgid "A polynomial trend line is shown with a given degree."
+msgstr "ເສັ້ນແນວໂນ້ມແບບພະຫຸນາມຈະຖືກສະແດງຕາມລະດັບທີ່ກຳນົດ."
+
+#. mGkUE
+#: chart2/uiconfig/ui/tp_Trendline.ui:213
+msgctxt "tp_Trendline|label3"
+msgid "Degree"
+msgstr "ອົງສາ"
+
+#. HwBsk
+#: chart2/uiconfig/ui/tp_Trendline.ui:218
+msgctxt "tp_Trendline|extended_tip|label3"
+msgid "Degree of polynomial trend line."
+msgstr "ລະດັບຂອງເສັ້ນແນວໂນ້ມແບບພະຫຸນາມ."
+
+#. EAkKg
+#: chart2/uiconfig/ui/tp_Trendline.ui:236
+msgctxt "tp_Trendline|extended_tip|degree"
+msgid "Degree of polynomial trend line."
+msgstr "ລະດັບຂອງເສັ້ນແນວໂນ້ມແບບພະຫຸນາມ."
+
+#. BkiE2
+#: chart2/uiconfig/ui/tp_Trendline.ui:258
+msgctxt "tp_Trendline|movingAverage"
+msgid "_Moving Average"
+msgstr "ຄ່າສະເລ່ຍເ_ຄື່ອນທີ່"
+
+#. F5WMz
+#: chart2/uiconfig/ui/tp_Trendline.ui:267
+msgctxt "tp_Trendline|extended_tip|movingAverage"
+msgid "A moving average trend line is shown with a given period."
+msgstr "ເສັ້ນແນວໂນ້ມຄ່າສະເລ່ຍເຄື່ອນທີ່ຈະຖືກສະແດງຕາມໄລຍະເວລາທີ່ກຳນົດ."
+
+#. ZvFov
+#: chart2/uiconfig/ui/tp_Trendline.ui:280
+msgctxt "tp_Trendline|label4"
+msgid "Period"
+msgstr "ໄລຍະເວລາ"
+
+#. akCwy
+#: chart2/uiconfig/ui/tp_Trendline.ui:285
+msgctxt "tp_Trendline|extended_tip|label4"
+msgid "Number of points to calculate average of moving average trend line."
+msgstr "ຈຳນວນຈຸດເພື່ອຄຳນວນຄ່າສະເລ່ຍຂອງເສັ້ນແນວໂນ້ມຄ່າສະເລ່ຍເຄື່ອນທີ່."
+
+#. g3mex
+#: chart2/uiconfig/ui/tp_Trendline.ui:304
+msgctxt "tp_Trendline|extended_tip|period"
+msgid "Number of points to calculate average of moving average trend line."
+msgstr "ຈຳນວນຈຸດເພື່ອຄຳນວນຄ່າສະເລ່ຍຂອງເສັ້ນແນວໂນ້ມຄ່າສະເລ່ຍເຄື່ອນທີ່."
+
+#. QLnAh
+#: chart2/uiconfig/ui/tp_Trendline.ui:317
+msgctxt "tp_Trendline|label10"
+msgid "_Type"
+msgstr "_ຊະນິດ"
+
+#. P6TjC
+#: chart2/uiconfig/ui/tp_Trendline.ui:322
+msgctxt "tp_Trendline|extended_tip|label10"
+msgid "How the trend line is calculated."
+msgstr "ວິທີການຄຳນວນເສັ້ນແນວໂນ້ມ."
+
+#. GWKEC
+#: chart2/uiconfig/ui/tp_Trendline.ui:336
+msgctxt "tp_Trendline|liststore_moving_type"
+msgid "Prior"
+msgstr "ກ່ອນໜ້າ"
+
+#. ZxUZe
+#: chart2/uiconfig/ui/tp_Trendline.ui:337
+msgctxt "tp_Trendline|liststore_moving_type"
+msgid "Central"
+msgstr "ສູນກາງ"
+
+#. 4CBxe
+#: chart2/uiconfig/ui/tp_Trendline.ui:338
+msgctxt "tp_Trendline|liststore_moving_type"
+msgid "Averaged Abscissa"
+msgstr "ຄ່າສະເລ່ຍແກນນອນ (Abscissa)"
+
+#. ptaCA
+#: chart2/uiconfig/ui/tp_Trendline.ui:379
+msgctxt "tp_Trendline|label1"
+msgid "Regression Type"
+msgstr "ປະເພດຂອງການຖົດຖອຍ"
+
+#. mNh7m
+#: chart2/uiconfig/ui/tp_Trendline.ui:412
+msgctxt "tp_Trendline|label7"
+msgid "Extrapolate Forward"
+msgstr "ຄາດຄະເນໄປຂ້າງໜ້າ"
+
+#. 4HshA
+#: chart2/uiconfig/ui/tp_Trendline.ui:418
+msgctxt "tp_Trendline|extended_tip|label7"
+msgid "Trend line is extrapolated for higher x-values."
+msgstr "ເສັ້ນແນວໂນ້ມຖືກຄາດຄະເນສຳລັບຄ່າ X ທີ່ສູງຂຶ້ນ."
+
+#. tUrKr
+#: chart2/uiconfig/ui/tp_Trendline.ui:431
+msgctxt "tp_Trendline|label8"
+msgid "Extrapolate Backward"
+msgstr "ຄາດຄະເນໄປຂ້າງຫຼັງ"
+
+#. tEfNE
+#: chart2/uiconfig/ui/tp_Trendline.ui:437
+msgctxt "tp_Trendline|extended_tip|label8"
+msgid "Trend line is extrapolated for lower x-values."
+msgstr "ເສັ້ນແນວໂນ້ມຖືກຄາດຄະເນສຳລັບຄ່າ X ທີ່ຕໍ່າລົງ."
+
+#. BGkFJ
+#: chart2/uiconfig/ui/tp_Trendline.ui:476
+msgctxt "tp_Trendline|setIntercept"
+msgid "Force _Intercept"
+msgstr "ບັງຄັບ_ຈຸດຕັດແກນ"
+
+#. ZJUti
+#: chart2/uiconfig/ui/tp_Trendline.ui:487
+msgctxt "tp_Trendline|extended_tip|setIntercept"
+msgid "For linear, polynomial and exponential trend lines, intercept value is forced to a given value."
+msgstr "ສຳລັບເສັ້ນແນວໂນ້ມແບບເສັ້ນຊື່, ພະຫຸນາມ, ແລະ ເລກກຳລັງ, ຄ່າຈຸດຕັດຈະຖືກບັງຄັບໃຫ້ເປັນຄ່າທີ່ກຳນົດ."
+
+#. CSHNm
+#: chart2/uiconfig/ui/tp_Trendline.ui:498
+msgctxt "tp_Trendline|showEquation"
+msgid "Show E_quation"
+msgstr "ສະແດງ_ສົມຜົນ"
+
+#. nXrm7
+#: chart2/uiconfig/ui/tp_Trendline.ui:506
+msgctxt "tp_Trendline|extended_tip|showEquation"
+msgid "Shows the trend line equation next to the trend line."
+msgstr "ສະແດງສົມຜົນເສັ້ນແນວໂນ້ມຖັດຈາກເສັ້ນແນວໂນ້ມ."
+
+#. cA58s
+#: chart2/uiconfig/ui/tp_Trendline.ui:518
+msgctxt "tp_Trendline|showCorrelationCoefficient"
+msgid "Show _Coefficient of Determination (R²)"
+msgstr "ສະແດງ_ສຳປະສິດການຕັດສິນໃຈ (R²)"
+
+#. CCyCH
+#: chart2/uiconfig/ui/tp_Trendline.ui:526
+msgctxt "tp_Trendline|extended_tip|showCorrelationCoefficient"
+msgid "Shows the coefficient of determination next to the trend line."
+msgstr "ສະແດງສຳປະສິດການຕັດສິນໃຈຖັດຈາກເສັ້ນແນວໂນ້ມ."
+
+#. 2S6og
+#: chart2/uiconfig/ui/tp_Trendline.ui:540
+msgctxt "tp_Trendline|label5"
+msgid "Trendline _Name"
+msgstr "_ຊື່ເສັ້ນແນວໂນ້ມ"
+
+#. GasKo
+#: chart2/uiconfig/ui/tp_Trendline.ui:546
+msgctxt "tp_Trendline|extended_tip|label5"
+msgid "Name of trend line in legend."
+msgstr "ຊື່ຂອງເສັ້ນແນວໂນ້ມໃນຄຳອະທິບາຍ."
+
+#. FBT3Y
+#: chart2/uiconfig/ui/tp_Trendline.ui:563
+msgctxt "tp_Trendline|extended_tip|entry_name"
+msgid "Name of trend line in legend."
+msgstr "ຊື່ຂອງເສັ້ນແນວໂນ້ມໃນຄຳອະທິບາຍ."
+
+#. C4C6e
+#: chart2/uiconfig/ui/tp_Trendline.ui:586
+msgctxt "tp_Trendline|extended_tip|interceptValue"
+msgid "Value of intercept if it is forced."
+msgstr "ຄ່າຂອງຈຸດຕັດຫາກຖືກບັງຄັບ."
+
+#. GEKL2
+#: chart2/uiconfig/ui/tp_Trendline.ui:599
+msgctxt "tp_Trendline|label6"
+msgid "_X Variable Name"
+msgstr "ຊື່ຕົວແປ _X"
+
+#. 99kQL
+#: chart2/uiconfig/ui/tp_Trendline.ui:605
+msgctxt "tp_Trendline|extended_tip|label6"
+msgid "Name of X variable in trend line equation."
+msgstr "ຊື່ຂອງຕົວແປ X ໃນສົມຜົນເສັ້ນແນວໂນ້ມ."
+
+#. Fz8b3
+#: chart2/uiconfig/ui/tp_Trendline.ui:622
+msgctxt "tp_Trendline|extended_tip|entry_Xname"
+msgid "Name of X variable in trend line equation."
+msgstr "ຊື່ຂອງຕົວແປ X ໃນສົມຜົນເສັ້ນແນວໂນ້ມ."
+
+#. GDQuF
+#: chart2/uiconfig/ui/tp_Trendline.ui:635
+msgctxt "tp_Trendline|label9"
+msgid "_Y Variable Name"
+msgstr "ຊື່ຕົວແປ _Y"
+
+#. 2PBW3
+#: chart2/uiconfig/ui/tp_Trendline.ui:641
+msgctxt "tp_Trendline|extended_tip|label9"
+msgid "Name of Y variable in trend line equation."
+msgstr "ຊື່ຂອງຕົວແປ Y ໃນສົມຜົນເສັ້ນແນວໂນ້ມ."
+
+#. WHNXu
+#: chart2/uiconfig/ui/tp_Trendline.ui:658
+msgctxt "tp_Trendline|extended_tip|entry_Yname"
+msgid "Name of Y variable in trend line equation."
+msgstr "ຊື່ຂອງຕົວແປ Y ໃນສົມຜົນເສັ້ນແນວໂນ້ມ."
+
+#. 9WeUe
+#: chart2/uiconfig/ui/tp_Trendline.ui:679
+msgctxt "tp_Trendline|label2"
+msgid "Options"
+msgstr "ຕົວເລືອກ"
+
+#. ntcUA
+#: chart2/uiconfig/ui/tp_axisLabel.ui:19
+msgctxt "tp_axisLabel|showlabelsCB"
+msgid "Sho_w labels"
+msgstr "_ສະແດງປ້າຍກຳກັບ"
+
+#. Xr5zw
+#: chart2/uiconfig/ui/tp_axisLabel.ui:28
+msgctxt "tp_axisLabel|extended_tip|showlabelsCB"
+msgid "Specifies whether to show or hide the axis labels."
+msgstr "ລະບຸວ່າຈະສະແດງ ຫຼື ເເຊື່ອງປ້າຍກຳກັບແກນ."
+
+#. HFhGL
+#: chart2/uiconfig/ui/tp_axisLabel.ui:62
+msgctxt "tp_axisLabel|tile"
+msgid "_Tile"
+msgstr "ລຽງແບບ_ກະເບື້ອງ"
+
+#. cmjFi
+#: chart2/uiconfig/ui/tp_axisLabel.ui:71
+msgctxt "tp_axisLabel|extended_tip|tile"
+msgid "Arranges numbers on the axis side by side."
+msgstr "ຈັດວາງຕົວເລກເທິງແກນຄຽງຂ້າງກັນ."
+
+#. tHrCD
+#: chart2/uiconfig/ui/tp_axisLabel.ui:83
+msgctxt "tp_axisLabel|odd"
+msgid "St_agger odd"
+msgstr "ວາງສະຫຼັບເລກຄີກ"
+
+#. Q8h6B
+#: chart2/uiconfig/ui/tp_axisLabel.ui:92
+msgctxt "tp_axisLabel|extended_tip|odd"
+msgid "Staggers numbers on the axis, even numbers lower than odd numbers."
+msgstr "ວາງຕົວເລກເທິງແກນແບບສະຫຼັບ, ຕົວເລກຄູ່ຕໍ່າກວ່າຕົວເລກຄີກ."
+
+#. tByen
+#: chart2/uiconfig/ui/tp_axisLabel.ui:104
+msgctxt "tp_axisLabel|even"
+msgid "Stagger _even"
+msgstr "ວາງສະຫຼັບເລກຄູ່"
+
+#. a6qBM
+#: chart2/uiconfig/ui/tp_axisLabel.ui:113
+msgctxt "tp_axisLabel|extended_tip|even"
+msgid "Stagger numbers on the axis, odd numbers lower than even numbers."
+msgstr "ວາງຕົວເລກເທິງແກນແບບສະຫຼັບ, ຕົວເລກຄີກຕໍ່າກວ່າຕົວເລກຄູ່."
+
+#. 2JwY3
+#: chart2/uiconfig/ui/tp_axisLabel.ui:125
+msgctxt "tp_axisLabel|auto"
+msgid "A_utomatic"
+msgstr "_ອັດຕະໂນມັດ"
+
+#. fj3Rq
+#: chart2/uiconfig/ui/tp_axisLabel.ui:134
+msgctxt "tp_axisLabel|extended_tip|auto"
+msgid "Automatically arranges numbers on the axis."
+msgstr "ຈັດວາງຕົວເລກເທິງແກນໂດຍອັດຕະໂນມັດ."
+
+#. bFH6L
+#: chart2/uiconfig/ui/tp_axisLabel.ui:150
+msgctxt "tp_axisLabel|orderL"
+msgid "Order"
+msgstr "ລຳດັບ"
+
+#. GMtbb
+#: chart2/uiconfig/ui/tp_axisLabel.ui:181
+msgctxt "tp_axisLabel|overlapCB"
+msgid "O_verlap"
+msgstr "_ເລື່ອມທັບ"
+
+#. zwgui
+#: chart2/uiconfig/ui/tp_axisLabel.ui:189
+msgctxt "tp_axisLabel|extended_tip|overlapCB"
+msgid "Specifies that the text in cells may overlap other cells."
+msgstr "ລະບຸວ່າຂໍ້ຄວາມໃນເຊວອາດຈະເລື່ອມທັບເຊວອື່ນ."
+
+#. AYpQ8
+#: chart2/uiconfig/ui/tp_axisLabel.ui:201
+msgctxt "tp_axisLabel|breakCB"
+msgid "_Break"
+msgstr "ແ_ບ່ງ"
+
+#. eBwTo
+#: chart2/uiconfig/ui/tp_axisLabel.ui:209
+msgctxt "tp_axisLabel|extended_tip|breakCB"
+msgid "Allows a text break."
+msgstr "ອະນຸຍາດໃຫ້ຕັດຂໍ້ຄວາມ."
+
+#. 4EwR7
+#: chart2/uiconfig/ui/tp_axisLabel.ui:225
+msgctxt "tp_axisLabel|textflowL"
+msgid "Text Flow"
+msgstr "ການໄຫຼຂໍ້ຄວາມ"
+
+#. exWTH
+#: chart2/uiconfig/ui/tp_axisLabel.ui:281
+msgctxt "tp_axisLabel|extended_tip|OrientDegree"
+msgid "Allows you to manually enter the orientation angle."
+msgstr "ຊ່ວຍໃຫ້ທ່ານສາມາດປ້ອນມຸມທິດທາງໄດ້ດ້ວຍຕົນເອງ."
+
+#. 5teDt
+#: chart2/uiconfig/ui/tp_axisLabel.ui:295
+msgctxt "tp_axisLabel|degreeL"
+msgid "_Degrees"
+msgstr "_ອົງສາ"
+
+#. jFKoF
+#: chart2/uiconfig/ui/tp_axisLabel.ui:330
+msgctxt "tp_axisLabel|stackedCB"
+msgid "Ve_rtically stacked"
+msgstr "ຊ້ອນກັນຕາມແນວຕັ້ງ"
+
+#. ra62A
+#: chart2/uiconfig/ui/tp_axisLabel.ui:339
+msgctxt "tp_axisLabel|extended_tip|stackedCB"
+msgid "Assigns vertical text orientation for cell contents."
+msgstr "ກຳນົດທິດທາງຂໍ້ຄວາມຕາມແນວຕັ້ງສຳລັບເນື້ອໃນໃນເຊວ."
+
+#. JBz5H
+#: chart2/uiconfig/ui/tp_axisLabel.ui:351
+msgctxt "tp_axisLabel|labelABCD"
+msgid "ABCD"
+msgstr "ABCD"
+
+#. PE6RQ
+#: chart2/uiconfig/ui/tp_axisLabel.ui:368
+msgctxt "tp_axisLabel|textdirL"
+msgid "Te_xt direction:"
+msgstr "ທິດທາງ_ຂໍ້ຄວາມ:"
+
+#. YUAjA
+#: chart2/uiconfig/ui/tp_axisLabel.ui:382
+msgctxt "tp_axisLabel|extended_tip|textdirLB"
+msgid "Specify the text direction for a paragraph that uses complex text layout (CTL). This feature is only available if complex text layout support is enabled."
+msgstr "ລະບຸທິດທາງຂໍ້ຄວາມສຳລັບຫຍໍ້ໜ້າທີ່ໃຊ້ການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນ (CTL). ຄຸນສົມບັດນີ້ສາມາດໃຊ້ໄດ້ກໍຕໍ່ເມື່ອມີການເປີດໃຊ້ການຮອງຮັບການຈັດວາງຂໍ້ຄວາມແບບຊັບຊ້ອນເທົ່ານັ້ນ."
+
+#. NxsBh
+#: chart2/uiconfig/ui/tp_axisLabel.ui:401
+msgctxt "tp_axisLabel|extended_tip|dialCtrl"
+msgid "Clicking anywhere on the wheel defines the variable text orientation."
+msgstr "ຄລິກບ່ອນໃດກໍໄດ້ເທິງວົງລໍ້ເພື່ອມັກກຳນົດທິດທາງຂໍ້ຄວາມ."
+
+#. 3WhzS
+#: chart2/uiconfig/ui/tp_axisLabel.ui:416
+msgctxt "tp_axisLabel|labelTextOrient"
+msgid "Text Orientation"
+msgstr "ທິດຂອງຂໍ້ຄວາມ"
+
+#. tCfsY
+#: chart2/uiconfig/ui/wizelementspage.ui:40
+msgctxt "wizelementspage|labelPrimaryXaxis"
+msgid "_X axis"
+msgstr "ແກນ _X"
+
+#. LtEdA
+#: chart2/uiconfig/ui/wizelementspage.ui:54
+msgctxt "wizelementspage|labelPrimaryYaxis"
+msgid "_Y axis"
+msgstr "ແກນ _Y"
+
+#. tVeNC
+#: chart2/uiconfig/ui/wizelementspage.ui:68
+msgctxt "wizelementspage|labelPrimaryZaxis"
+msgid "_Z axis"
+msgstr "ແກນ _Z"
+
+#. 7qRfe
+#: chart2/uiconfig/ui/wizelementspage.ui:87
+msgctxt "wizelementspage|extended_tip|primaryXaxis"
+msgid "Enter a label for the x-axis (horizontal)."
+msgstr "ປ້ອນປ້າຍກຳກັບສຳລັບແກນ X (ແນວນອນ)."
+
+#. 4vThc
+#: chart2/uiconfig/ui/wizelementspage.ui:105
+msgctxt "wizelementspage|extended_tip|primaryYaxis"
+msgid "Enter a label for the y-axis (vertical)."
+msgstr "ປ້ອນປ້າຍກຳກັບສຳລັບແກນ Y (ແນວຕັ້ງ)."
+
+#. 7zPH5
+#: chart2/uiconfig/ui/wizelementspage.ui:123
+msgctxt "wizelementspage|extended_tip|primaryZaxis"
+msgid "Enter a label for the z-axis. This option is only available for three-dimensional charts."
+msgstr "ປ້ອນປ້າຍກຳກັບສຳລັບແກນ Z. ຕົວເລືອກນີ້ສາມາດໃຊ້ໄດ້ສະເພາະກັບແຜນວາດສາມມິຕິເທົ່ານັ້ນ."
+
+#. Qpj9H
+#: chart2/uiconfig/ui/wizelementspage.ui:136
+msgctxt "wizelementspage|labelMainTitle"
+msgid "_Title"
+msgstr "_ຫົວຂໍ້"
+
+#. nPAjY
+#: chart2/uiconfig/ui/wizelementspage.ui:150
+msgctxt "wizelementspage|labelSubTitle"
+msgid "_Subtitle"
+msgstr "_ຫົວຂໍ້ຍ່ອຍ"
+
+#. CWmMQ
+#: chart2/uiconfig/ui/wizelementspage.ui:169
+msgctxt "wizelementspage|extended_tip|maintitle"
+msgid "Enter a title for your chart."
+msgstr "ປ້ອນຫົວຂໍ້ສຳລັບແຜນວາດຂອງທ່ານ."
+
+#. eNDvd
+#: chart2/uiconfig/ui/wizelementspage.ui:187
+msgctxt "wizelementspage|extended_tip|subtitle"
+msgid "Enter a subtitle for your chart."
+msgstr "ປ້ອນຫົວຂໍ້ຍ່ອຍສຳລັບແຜນວາດຂອງທ່ານ."
+
+#. GJ7pJ
+#: chart2/uiconfig/ui/wizelementspage.ui:200
+msgctxt "wizelementspage|labelSecondaryXAxis"
+msgid "X _axis"
+msgstr "ແກນ _X"
+
+#. bBRgE
+#: chart2/uiconfig/ui/wizelementspage.ui:214
+msgctxt "wizelementspage|labelSecondaryYAxis"
+msgid "Y ax_is"
+msgstr "ແກນ _Y"
+
+#. NGoMT
+#: chart2/uiconfig/ui/wizelementspage.ui:233
+msgctxt "wizelementspage|extended_tip|secondaryXaxis"
+msgid "Enter a label for the secondary x-axis. This option is only available for charts that support a secondary x-axis."
+msgstr "ປ້ອນປ້າຍກຳກັບສຳລັບແກນ X ທີສອງ. ຕົວເລືອກນີ້ສາມາດໃຊ້ໄດ້ສະເພາະກັບແຜນວາດທີ່ຮອງຮັບແກນ X ທີສອງເທົ່ານັ້ນ."
+
+#. E6Y7y
+#: chart2/uiconfig/ui/wizelementspage.ui:269
+msgctxt "wizelementspage|show"
+msgid "_Display legend"
+msgstr "_ສະແດງຄຳອະທິບາຍ"
+
+#. QWAen
+#: chart2/uiconfig/ui/wizelementspage.ui:277
+msgctxt "wizelementspage|extended_tip|show"
+msgid "Specifies whether to display a legend for the chart."
+msgstr "ລະບຸວ່າຈະສະແດງຄຳອະທິບາຍສຳລັບແຜນວາດຫຼືບໍ່."
+
+#. ejdzz
+#: chart2/uiconfig/ui/wizelementspage.ui:295
+msgctxt "wizelementspage|left"
+msgid "_Left"
+msgstr "_ຊ້າຍ"
+
+#. tGgc2
+#: chart2/uiconfig/ui/wizelementspage.ui:304
+msgctxt "wizelementspage|extended_tip|left"
+msgid "Positions the legend at the left of the chart."
+msgstr "ວາງຕຳແໜ່ງຄຳອະທິບາຍໄວ້ທາງຊ້າຍຂອງແຜນວາດ."
+
+#. EjE6h
+#: chart2/uiconfig/ui/wizelementspage.ui:315
+msgctxt "wizelementspage|right"
+msgid "_Right"
+msgstr "_ຂວາ"
+
+#. rvAN8
+#: chart2/uiconfig/ui/wizelementspage.ui:324
+msgctxt "wizelementspage|extended_tip|right"
+msgid "Positions the legend at the right of the chart."
+msgstr "ວາງຕຳແໜ່ງຄຳອະທິບາຍໄວ້ທາງຂວາຂອງແຜນວາດ."
+
+#. LnxgC
+#: chart2/uiconfig/ui/wizelementspage.ui:335
+msgctxt "wizelementspage|top"
+msgid "_Top"
+msgstr "_ເທິງ"
+
+#. Ehv3g
+#: chart2/uiconfig/ui/wizelementspage.ui:344
+msgctxt "wizelementspage|extended_tip|top"
+msgid "Positions the legend at the top of the chart."
+msgstr "ວາງຕຳແໜ່ງຄຳອະທິບາຍໄວ້ທາງເທິງຂອງແຜນວາດ."
+
+#. GD2qS
+#: chart2/uiconfig/ui/wizelementspage.ui:355
+msgctxt "wizelementspage|bottom"
+msgid "_Bottom"
+msgstr "_ລຸ່ມ"
+
+#. NCp3E
+#: chart2/uiconfig/ui/wizelementspage.ui:364
+msgctxt "wizelementspage|extended_tip|bottom"
+msgid "Positions the legend at the bottom of the chart."
+msgstr "ວາງຕຳແໜ່ງຄຳອະທິບາຍໄວ້ທາງລຸ່ມຂອງແຜນວາດ."
+
+#. REBEt
+#: chart2/uiconfig/ui/wizelementspage.ui:391
+msgctxt "wizelementspage|Axe"
+msgid "Choose Titles, Legend, and Grid Settings"
+msgstr "ເລືອກຫົວຂໍ້, ຄຳອະທິບາຍ, ແລະ ການຕັ້ງຄ່າຕາໜ່າງ"
+
+#. wp2DC
+#: chart2/uiconfig/ui/wizelementspage.ui:421
+msgctxt "wizelementspage|x"
+msgid "X axis"
+msgstr "ແກນ X"
+
+#. KbejV
+#: chart2/uiconfig/ui/wizelementspage.ui:429
+msgctxt "wizelementspage|extended_tip|x"
+msgid "Displays grid lines that are perpendicular to the x-axis."
+msgstr "ສະແດງເສັ້ນຕາໜ່າງທີ່ຕັ້ງສາກກັບແກນ X."
+
+#. KPGMU
+#: chart2/uiconfig/ui/wizelementspage.ui:440
+msgctxt "wizelementspage|y"
+msgid "Y ax_is"
+msgstr "ແກນ _Y"
+
+#. Nivye
+#: chart2/uiconfig/ui/wizelementspage.ui:448
+msgctxt "wizelementspage|extended_tip|y"
+msgid "Displays grid lines that are perpendicular to the y-axis."
+msgstr "ສະແດງເສັ້ນຕາໜ່າງທີ່ຕັ້ງສາກກັບແກນ Y."
+
+#. G65v4
+#: chart2/uiconfig/ui/wizelementspage.ui:459
+msgctxt "wizelementspage|z"
+msgid "Z axi_s"
+msgstr "ແກນ _Z"
+
+#. uVwTv
+#: chart2/uiconfig/ui/wizelementspage.ui:467
+msgctxt "wizelementspage|extended_tip|z"
+msgid "Displays grid lines that are perpendicular to the z-axis. This option is only available for three-dimensional charts."
+msgstr "ສະແດງເສັ້ນຕາໜ່າງທີ່ຕັ້ງສາກກັບແກນ Z. ຕົວເລືອກນີ້ສາມາດໃຊ້ໄດ້ສະເພາະກັບແຜນວາດສາມມິຕິເທົ່ານັ້ນ."
+
+#. wNqwZ
+#: chart2/uiconfig/ui/wizelementspage.ui:482
+msgctxt "wizelementspage|label2"
+msgid "Display Grids"
+msgstr "ສະແດງຕາໜ່າງ"

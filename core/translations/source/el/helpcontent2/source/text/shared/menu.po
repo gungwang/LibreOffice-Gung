@@ -1,0 +1,1187 @@
+#. extracted from helpcontent2/source/text/shared/menu
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2024-06-03 12:06+0200\n"
+"PO-Revision-Date: 2024-06-26 09:45+0000\n"
+"Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
+"Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-master/textsharedmenu/el/>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.4.3\n"
+"X-POOTLE-MTIME: 1464593729.000000\n"
+
+#. 4dDYy
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"tit\n"
+"help.text"
+msgid "File Menu"
+msgstr "Μενού Αρχείο"
+
+#. 6W8BF
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"hd_id881705934083852\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/menu/PickList.xhp\">File</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/menu/PickList.xhp\">Αρχείο</link></variable>"
+
+#. WAmKT
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id231705934083854\n"
+"help.text"
+msgid "Opens the File menu."
+msgstr "Ανοίγει το μενού Αρχείο."
+
+#. CCTq8
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id3147352\n"
+"help.text"
+msgid "<ahelp hid=\".\">These commands apply to the current document, create a document, open an existing document, or close the application.</ahelp>"
+msgstr "<ahelp hid=\".\">Αυτές οι εντολές εφαρμόζονται στο τρέχον έγγραφο, δημιουργούν ένα έγγραφο, ανοίγουν ένα υπάρχον έγγραφο ή κλείνουν την εφαρμογή.</ahelp>"
+
+#. 9EvAu
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id3151112\n"
+"help.text"
+msgid "<ahelp hid=\".\">These commands apply to the current spreadsheet, create a spreadsheet, open an existing spreadsheet, or close the application.</ahelp>"
+msgstr "<ahelp hid=\".\">Αυτές οι εντολές εφαρμόζονται στο τρέχον υπολογιστικό φύλλο, δημιουργούν ένα υπολογιστικό φύλλο, ανοίγουν ένα υπάρχον υπολογιστικό φύλλο ή κλείνουν την εφαρμογή.</ahelp>"
+
+#. C5giA
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id3154321\n"
+"help.text"
+msgid "<ahelp hid=\".\">These commands apply to the current presentation, create a presentation, open an existing presentation, or close the application.</ahelp>"
+msgstr "<ahelp hid=\".\">Αυτές οι εντολές ισχύουν για την τρέχουσα παρουσίαση, δημιουργούν μια παρουσίαση, ανοίγουν μια υπάρχουσα παρουσίαση ή κλείνουν την εφαρμογή.</ahelp>"
+
+#. fpugy
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id3150868\n"
+"help.text"
+msgid "This menu contains general commands for working with Draw documents, such as create, open, close and print. To close $[officename] Draw, click <emph>Exit</emph>."
+msgstr "Αυτό το μενού περιέχει γενικές εντολές για εργασία με έγγραφα Draw, όπως δημιουργία, άνοιγμα, κλείσιμο και εκτύπωση. Για να κλείσετε το $[officename] Draw, πατήστε <emph>Έξοδος</emph>."
+
+#. BoATR
+#: PickList.xhp
+msgctxt ""
+"PickList.xhp\n"
+"par_id681705934190383\n"
+"help.text"
+msgid "Choose <menuitem>File</menuitem>."
+msgstr "Επιλέξτε <menuitem>Αρχείο</menuitem>."
+
+#. kAYUQ
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Comments Menu"
+msgstr "Μενού σχολίων"
+
+#. iAF2Y
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id381685980724188\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/menu/comment_menu.xhp\">Comments Menu</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/menu/comment_menu.xhp\">Μενού σχολίων</link></variable>"
+
+#. nxWrC
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id941603125587454\n"
+"help.text"
+msgid "Shows a submenu that gives options to reply to comments from other users, resolve and delete comments."
+msgstr "Εμφανίζει ένα υπομενού που παρέχει επιλογές για απάντηση σε σχόλια άλλων χρηστών, επίλυση και διαγραφή σχολίων."
+
+#. ZpC2v
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id771685982803183\n"
+"help.text"
+msgid "Reply Comment"
+msgstr "Απάντηση σε σχόλιο"
+
+#. Gvcr8
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id491685993001013\n"
+"help.text"
+msgid "Inserts a new comment adjacent to the comment to which you want to reply. The comment anchor is the same for all comments in the thread."
+msgstr "Εισάγει ένα νέο σχόλιο δίπλα στο σχόλιο στο οποίο θέλετε να απαντήσετε. Η άγκυρα σχολίων είναι η ίδια για όλα τα σχόλια στο νήμα."
+
+#. rcW2w
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id341685992961744\n"
+"help.text"
+msgid "<image src=\"cmd/lc_replycomment.svg\" id=\"img_id911685992961745\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id541685992961746\">Icon Reply Comment</alt></image>"
+msgstr "<image src=\"cmd/lc_replycomment.svg\" id=\"img_id911685992961745\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id541685992961746\">Εικονίδιο απάντησης σε σχόλιο</alt></image>"
+
+#. DBxGw
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id661685992961748\n"
+"help.text"
+msgid "Reply Comment"
+msgstr "Απάντηση σε σχόλιο"
+
+#. z6sGj
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id931685994600871\n"
+"help.text"
+msgid "Replying a comment creates a comment thread."
+msgstr "Η απάντηση σε ένα σχόλιο δημιουργεί ένα νήμα σχολίων."
+
+#. ihDxZ
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id951685982807912\n"
+"help.text"
+msgid "Resolve / Unresolve"
+msgstr "Επιλυμένο / Ανεπίλυτο"
+
+#. M6x5n
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id751685993265436\n"
+"help.text"
+msgid "Marks the comment as <emph>Resolved</emph> (or <emph>Unresolved</emph>). When you mark the comment resolved, the word <emph>Resolved</emph> is inserted under the date in the comment box. When marking unresolved, the word <emph>Resolved</emph> is removed."
+msgstr "Επισημαίνει το σχόλιο ως <emph>Επιλυμένο</emph> (ή <emph>Ανεπίλυτο</emph>). Όταν επισημαίνετε το σχόλιο ως επιλυμένο, η λέξη <emph>Επιλυμένο</emph> εισάγεται κάτω από την ημερομηνία στο πλαίσιο σχολίων. Κατά την επισήμανση ως ανεπίλυτο, η λέξη <emph>Επιλύθηκε</emph> αφαιρείται."
+
+#. EfGUV
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id541685982812304\n"
+"help.text"
+msgid "Resolve Thread"
+msgstr "Επίλυση νήματος"
+
+#. LvCLG
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id171685994484069\n"
+"help.text"
+msgid "Marks the comment thread as <emph>Resolved</emph> (or <emph>Unresolved</emph>). All comments in the thread are marked <emph>Resolved</emph> (or <emph>Unresolved)</emph>."
+msgstr "Επισημαίνει το νήμα σχολίων ως <emph>Επιλυμένο</emph> (ή <emph>Ανεπίλυτο</emph>). Όλα τα σχόλια στο νήμα επισημαίνονται ως <emph>Επιλυμένα</emph> (ή <emph>Ανεπίλυτα)</emph>."
+
+#. 4bSUA
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id811685982816727\n"
+"help.text"
+msgid "Delete Comment"
+msgstr "Διαγραφή σχολίου"
+
+#. rJq6j
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id241685994046592\n"
+"help.text"
+msgid "Deletes the comment."
+msgstr "Διαγράφει το σχόλιο."
+
+#. 9vvEv
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id721685994175303\n"
+"help.text"
+msgid "<image src=\"cmd/lc_deleteannotation.svg\" id=\"img_id161685994175304\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id751685994175306\">Icon Delete Comment</alt></image>"
+msgstr "<image src=\"cmd/lc_deleteannotation.svg\" id=\"img_id161685994175304\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id751685994175306\">Εικονίδιο διαγραφής σχολίου</alt></image>"
+
+#. gi9Xt
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id641685994175307\n"
+"help.text"
+msgid "Delete Comment"
+msgstr "Διαγραφή σχολίου"
+
+#. 6DKqG
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id411685982821640\n"
+"help.text"
+msgid "Delete Comment Thread"
+msgstr "Διαγραφή νήματος σχολίων"
+
+#. w7wTC
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id941685994231483\n"
+"help.text"
+msgid "Deletes all comments of the same thread."
+msgstr "Διαγράφει όλα τα σχόλια του ίδιου νήματος."
+
+#. AKAAD
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id801685982825543\n"
+"help.text"
+msgid "Delete Comment By"
+msgstr "Διαγραφή σχολίου από"
+
+#. tfGAA
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id631685994308029\n"
+"help.text"
+msgid "Deletes all comments of the same author."
+msgstr "Διαγράφει όλα τα σχόλια του ίδιου συντάκτη."
+
+#. J5FWB
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id321685982829794\n"
+"help.text"
+msgid "Delete All Comments"
+msgstr "Διαγραφή όλων των σχολίων"
+
+#. zmziK
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id131685994324823\n"
+"help.text"
+msgid "Deletes all comments of the document."
+msgstr "Διαγράφει όλα τα σχόλια του εγγράφου."
+
+#. mnSiZ
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id881685994350879\n"
+"help.text"
+msgid "<image src=\"cmd/lc_deleteallannotation.svg\" id=\"img_id501685994350880\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id131685994350881\">Icon Delete All Comments</alt></image>"
+msgstr "<image src=\"cmd/lc_deleteallannotation.svg\" id=\"img_id501685994350880\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id131685994350881\">Εικονίδιο διαγραφής όλων των σχολίων</alt></image>"
+
+#. 5wMSG
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id371685994350883\n"
+"help.text"
+msgid "Delete All Comments"
+msgstr "Διαγραφή όλων των σχολίων"
+
+#. 3ijYG
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"hd_id701685995308264\n"
+"help.text"
+msgid "Format All Comments"
+msgstr "Μορφοποίηση όλων των σχολίων"
+
+#. WBBq9
+#: comment_menu.xhp
+msgctxt ""
+"comment_menu.xhp\n"
+"par_id481685995582479\n"
+"help.text"
+msgid "Opens the <link href=\"text/shared/01/05020000.xhp\">Format Character</link> dialog to set font, font effects, position and highlighting of all comments text."
+msgstr "Ανοίγει το παράθυρο διαλόγου <link href=\"text/shared/01/05020000.xhp\">Μορφοποίηση χαρακτήρα</link> για να ορίσετε τη γραμματοσειρά, τα εφέ γραμματοσειράς, τη θέση και την επισήμανση όλων των κειμένων των σχολίων."
+
+#. rxCQJ
+#: forms.xhp
+msgctxt ""
+"forms.xhp\n"
+"tit\n"
+"help.text"
+msgid "Forms submenu"
+msgstr "Υπομενού Φόρμες"
+
+#. zwjCw
+#: forms.xhp
+msgctxt ""
+"forms.xhp\n"
+"hd_id491647289210348\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/menu/forms.xhp\">Forms Submenu</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/menu/forms.xhp\">Υπομενού Φόρμες</link></variable>"
+
+#. kbBmz
+#: insert_form_control.xhp
+msgctxt ""
+"insert_form_control.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Control Menu"
+msgstr "Μενού ελέγχου φόρμας"
+
+#. fxAGy
+#: insert_form_control.xhp
+msgctxt ""
+"insert_form_control.xhp\n"
+"hd_id030720160611303537\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/insert_form_control.xhp\">Form Control</link>"
+msgstr "<link href=\"text/shared/menu/insert_form_control.xhp\">Στοιχείο ελέγχου φόρμας</link>"
+
+#. exnvH
+#: insert_form_control.xhp
+msgctxt ""
+"insert_form_control.xhp\n"
+"par_id03072016061205929\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu contains form controls like a textbox, checkbox, option button, and listbox that can be inserted into the document.</ahelp>"
+msgstr "<ahelp hid=\".\">Αυτό το υπομενού περιέχει στοιχεία ελέγχου φόρμας όπως πλαίσιο κειμένου, πλαίσιο ελέγχου, κουμπί επιλογής και πλαίσιο καταλόγου που μπορούν να εισαχθούν στο έγγραφο.</ahelp>"
+
+#. GmbEB
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"tit\n"
+"help.text"
+msgid "Insert Shape"
+msgstr "Εισαγωγή σχήματος"
+
+#. PvcFc
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id07684081706272\n"
+"help.text"
+msgid "<variable id=\"insert_h1\"><link href=\"text/shared/menu/insert_shape.xhp\">Insert</link></variable>"
+msgstr "<variable id=\"insert_h1\"><link href=\"text/shared/menu/insert_shape.xhp\">Εισαγωγή</link></variable>"
+
+#. MHwAt
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id030420161043484643\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/insert_shape.xhp\">Shape</link>"
+msgstr "<link href=\"text/shared/menu/insert_shape.xhp\">Σχήμα</link>"
+
+#. 9QTsN
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030420161051456436\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu contains common shapes like a line, circle, triangle, and square, or a symbol shape like a smiley face, heart, and flower that can be inserted into the document.</ahelp>"
+msgstr "<ahelp hid=\".\">Αυτό το υπομενού περιέχει κοινά σχήματα όπως, γραμμή, κύκλος, τρίγωνο και τετράγωνο, ή ένα σχήμα συμβόλου όπως χαμογελαστό πρόσωπο, καρδιά και άνθος που μπορούν να εισαχθούν στο έγγραφο.</ahelp>"
+
+#. v9tGR
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id261716922857055\n"
+"help.text"
+msgid "Choose <menuitem>Shape - Insert</menuitem>."
+msgstr "Επιλέξτε <menuitem>Σχήμα - Εισαγωγή</menuitem>."
+
+#. vcXma
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id371689419860375\n"
+"help.text"
+msgid "Choose <menuitem>Insert - Shape</menuitem>."
+msgstr "Επιλέξτε <menuitem>Εισαγωγή - Σχήμα</menuitem>."
+
+#. 5prSD
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id221689420180556\n"
+"help.text"
+msgid "Choose <menuitem>Home</menuitem>."
+msgstr "Επιλέξτε <menuitem>Αρχική σελίδα</menuitem>."
+
+#. tuTUD
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id51689420185288\n"
+"help.text"
+msgid "Choose <menuitem>Insert</menuitem>."
+msgstr "Επιλέξτε <menuitem>Εισαγωγή</menuitem>."
+
+#. UFRsP
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id801689420619159\n"
+"help.text"
+msgid "<image src=\"cmd/lc_graphic.svg\" id=\"img_id831689420619160\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id681689420619161\">Icon Insert Shape</alt></image>"
+msgstr "<image src=\"cmd/lc_graphic.svg\" id=\"img_id831689420619160\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id681689420619161\">Εικονίδιο εισαγωγής σχήματος</alt></image>"
+
+#. RKMoV
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id321689420619163\n"
+"help.text"
+msgid "Insert Shape"
+msgstr "Εισαγωγή σχήματος"
+
+#. MWkRP
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id451689424666075\n"
+"help.text"
+msgid "Open the <menuitem>Shapes</menuitem> deck."
+msgstr "Άνοιγμα της προσάρτησης <menuitem>Σχήματα</menuitem>."
+
+#. 7fziz
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id71689424658656\n"
+"help.text"
+msgid "Open the <menuitem>Shapes</menuitem> deck."
+msgstr "Άνοιγμα της προσάρτησης <menuitem>Σχήματα</menuitem>."
+
+#. Um3uD
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160629548185\n"
+"help.text"
+msgid "Line"
+msgstr "Γραμμή"
+
+#. nsXTj
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160640091844\n"
+"help.text"
+msgid "<ahelp hid=\".\">This submenu contains straight, freeform, curved and polygon line shapes.</ahelp>"
+msgstr "<ahelp hid=\".\">Αυτό το υπομενού περιέχει σχήματα γραμμών όπως ευθείες, ελεύθερου σχήματος, καμπύλες και πολυγωνικές.</ahelp>"
+
+#. kzkBD
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160629546864\n"
+"help.text"
+msgid "Basic Shapes"
+msgstr "Βασικά σχήματα"
+
+#. 8CEvF
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160644597415\n"
+"help.text"
+msgid "This submenu contains basic shapes like rectangles, circles, triangles, pentagon, hexagon, octagon, cylinder, and cube."
+msgstr "Αυτό το υπομενού περιέχει βασικά σχήματα όπως ορθογώνια, κύκλους, τρίγωνα, πεντάγωνα, εξάγωνα, οκτάγωνα, κυλίνδρους και κύβους."
+
+#. PXhah
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160629547675\n"
+"help.text"
+msgid "Symbol Shapes"
+msgstr "Σχήματα συμβόλων"
+
+#. GCKeF
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id030720160644595417\n"
+"help.text"
+msgid "This submenu contains symbols shapes like smiley face, heart, sun, moon, flower, puzzle, beveled shapes, and brackets."
+msgstr "Αυτό το υπομενού περιέχει σχήματα συμβόλων όπως χαρούμενο πρόσωπο, καρδιά, ήλιο, σελήνη, άνθος, γρίφος, λοξά σχήματα και παρενθέσεις."
+
+#. vNTVM
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id611689426279512\n"
+"help.text"
+msgid "Block Arrows"
+msgstr "Βέλη μπλοκ"
+
+#. BPnWg
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id41689426765628\n"
+"help.text"
+msgid "This submenu contains block arrow shapes like right arrow, split arrow, circular arrow and more."
+msgstr "Αυτό το υπομενού περιέχει σχήματα μπλοκ βέλους όπως δεξί βέλος, διαιρεμένο βέλος, κυκλικό βέλος και άλλα."
+
+#. GfbGc
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id271689426283831\n"
+"help.text"
+msgid "Flowchart"
+msgstr "Διάγραμμα ροής"
+
+#. 6QCkL
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id631689426759732\n"
+"help.text"
+msgid "This submenu contains flowchart shapes like process, decision, data, document, terminator and more."
+msgstr "Αυτό το υπομενού περιέχει σχήματα διαγράμματος ροής όπως διαδικασία, απόφαση, δεδομένα, έγγραφο, τερματισμός και άλλα."
+
+#. tmYcp
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id371689426288479\n"
+"help.text"
+msgid "Callout Shapes"
+msgstr "Σχήματα επεξήγησης"
+
+#. FR72i
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id291689426754707\n"
+"help.text"
+msgid "This submenu contains callout shapes like rectangular, rounded rectangular, round, cloud and more."
+msgstr "Αυτό το υπομενού περιέχει σχήματα επεξήγησης όπως ορθογώνιο, στρογγυλεμένο ορθογώνιο, στρογγυλό, σύννεφο και άλλα."
+
+#. Xxjvu
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"hd_id731689426292776\n"
+"help.text"
+msgid "Stars and Banners"
+msgstr "Αστέρια και λάβαρα"
+
+#. 7L864
+#: insert_shape.xhp
+msgctxt ""
+"insert_shape.xhp\n"
+"par_id461689426746716\n"
+"help.text"
+msgid "This submenu contains star and banners shapes like multi ray stars, scrolls and more."
+msgstr "Αυτό το υπομενού περιέχει σχήματα αστεριών και λάβαρα όπως αστέρια πολλαπλών ακτίνων, κύλινδροι και άλλα."
+
+#. et6tw
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"tit\n"
+"help.text"
+msgid "Save Image"
+msgstr "Αποθήκευση εικόνας"
+
+#. sn5hM
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"bm_id561566144886972\n"
+"help.text"
+msgid "<bookmark_value>page;save background image</bookmark_value>        <bookmark_value>slide;save background image</bookmark_value>        <bookmark_value>page background image;save</bookmark_value>        <bookmark_value>slide background image;save</bookmark_value>"
+msgstr "<bookmark_value>σελίδα;αποθήκευση εικόνας παρασκηνίου</bookmark_value><bookmark_value>διαφάνεια;αποθήκευση εικόνας παρασκηνίου</bookmark_value><bookmark_value>εικόνα παρασκηνίου σελίδας;αποθήκευση</bookmark_value><bookmark_value>εικόνα παρασκηνίου διαφάνειας;αποθήκευση</bookmark_value>"
+
+#. 6cP5z
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"hd_id881566143431255\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/save_image.xhp\">Save Background Image</link>"
+msgstr "<link href=\"text/shared/menu/save_image.xhp\">Αποθήκευση εικόνας παρασκηνίου</link>"
+
+#. qWmcs
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"par_id121566143431256\n"
+"help.text"
+msgid "<variable id=\"variable name\"><ahelp hid=\".uno:SaveBackground\">Saves the background image of the current <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">slide</caseinline><defaultinline>page</defaultinline></switchinline>.</ahelp></variable>"
+msgstr "<variable id=\"variable name\"><ahelp hid=\".uno:SaveBackground\">Αποθηκεύει την εικόνα παρασκηνίου της τρέχουσας <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">σελίδας</caseinline><defaultinline>διαφάνειας</defaultinline></switchinline>.</ahelp></variable>"
+
+#. Y5Mt5
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"par_id91566150694760\n"
+"help.text"
+msgid "Choose <switchinline select=\"appl\"><caseinline select=\"IMPRESS\"><menuitem>Slide</menuitem></caseinline><defaultinline><menuitem>Page</menuitem></defaultinline></switchinline> - <menuitem>Save Background Image</menuitem>."
+msgstr "Επιλέξτε <switchinline select=\"appl\"><caseinline select=\"IMPRESS\"><menuitem>Διαφάνεια</menuitem></caseinline><defaultinline><menuitem>Σελίδα</menuitem></defaultinline></switchinline> - <menuitem>Αποθήκευση εικόνας παρασκηνίου</menuitem>."
+
+#. V2Dps
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"par_id291566144541584\n"
+"help.text"
+msgid "Opens the <emph>Export Image</emph> dialog to save the background image of the current <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">slide</caseinline><defaultinline>page</defaultinline></switchinline>. Select the image file format in the Filter box, enter a file name for the image and click <emph>Save</emph>."
+msgstr "Ανοίγει τον διάλογο <emph>Εξαγωγή εικόνας</emph> για να αποθηκεύσει την εικόνα παρασκηνίου της τρέχουσας <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">σελίδας</caseinline><defaultinline>διαφάνειας</defaultinline></switchinline>. Επιλέξτε τη μορφή αρχείου εικόνας στο πλαίσιο φίλτρο, εισάγετε όνομα αρχείου για την εικόνα και πατήστε <emph>Αποθήκευση</emph>."
+
+#. LJVBr
+#: save_image.xhp
+msgctxt ""
+"save_image.xhp\n"
+"par_id841566144548379\n"
+"help.text"
+msgid "Depending on the file format chosen, a dialog appears to set the image format properties."
+msgstr "Ανάλογα με την επιλεγμένη μορφή αρχείου, εμφανίζεται διάλογος ορισμού ιδιοτήτων μορφής εικόνας."
+
+#. QZF9R
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"tit\n"
+"help.text"
+msgid "Set Image Background"
+msgstr "Ορισμός παρασκηνίου εικόνας"
+
+#. Pyf3s
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"bm_id561566144886972\n"
+"help.text"
+msgid "<bookmark_value>page;set background image</bookmark_value><bookmark_value>slide;set background image</bookmark_value><bookmark_value>page background image;set</bookmark_value><bookmark_value>slide background image;set</bookmark_value>"
+msgstr "<bookmark_value>σελίδα;ορισμός εικόνας παρασκηνίου</bookmark_value><bookmark_value>διαφάνεια;ορισμός εικόνας παρασκηνίου</bookmark_value><bookmark_value>εικόνα παρασκηνίου σελίδας;ορισμός</bookmark_value><bookmark_value>εικόνα παρασκηνίου διαφάνειας;ορισμός</bookmark_value>"
+
+#. jnYeL
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"hd_id881566143431255\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/set_image_background.xhp\">Set Background Image</link>"
+msgstr "<link href=\"text/shared/menu/set_image_background.xhp\">Ορισμός εικόνας παρασκηνίου</link>"
+
+#. B8FvH
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"par_id121566143431256\n"
+"help.text"
+msgid "<variable id=\"setimagebackground\"><ahelp hid=\".uno:SelectBackground\">Set the image background of the <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">slide</caseinline><defaultinline>page</defaultinline></switchinline>.</ahelp></variable>"
+msgstr "<variable id=\"setimagebackground\"><ahelp hid=\".uno:SelectBackground\">Ορισμός παρασκηνίου εικόνας της <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">σελίδας</caseinline><defaultinline>διαφάνειας</defaultinline></switchinline>.</ahelp></variable>"
+
+#. j4B9R
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"par_id91566150694760\n"
+"help.text"
+msgid "Choose <switchinline select=\"appl\"><caseinline select=\"IMPRESS\"><menuitem>Slide</menuitem></caseinline><defaultinline><menuitem>Page</menuitem></defaultinline></switchinline> - <menuitem>Set Background Image</menuitem>."
+msgstr "Επιλέξτε <switchinline select=\"appl\"><caseinline select=\"IMPRESS\"><menuitem>Διαφάνεια</menuitem></caseinline><defaultinline><menuitem>Σελίδα</menuitem></defaultinline></switchinline> - <menuitem>Ορισμός εικόνας παρασκηνίου</menuitem>."
+
+#. 4wqBR
+#: set_image_background.xhp
+msgctxt ""
+"set_image_background.xhp\n"
+"par_id291566144541584\n"
+"help.text"
+msgid "Opens the <emph>Set Image Background</emph> dialog to set the background image of the current <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">slide</caseinline><defaultinline>page</defaultinline></switchinline>. Select an image file and click <emph>Open</emph>."
+msgstr "Ανοίγει το παράθυρο διαλόγου <emph>Ορισμός παρασκηνίου εικόνας</emph> για να ορίσετε την εικόνα παρασκηνίου της τρέχουσας σελίδας <switchinline select=\"appl\"><caseinline select=\"IMPRESS\">διαφάνειας</caseinline><defaultinline></defaultinline> </switchinline>. Επιλέξτε ένα αρχείο εικόνας και πατήστε στο <emph>Άνοιγμα</emph>."
+
+#. W7R4s
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Styles (menu)"
+msgstr "Τεχνοτροπίες (μενού)"
+
+#. bwUC5
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/style_menu.xhp\">Styles</link>"
+msgstr "<link href=\"text/shared/menu/style_menu.xhp\">Τεχνοτροπίες</link>"
+
+#. tqez2
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_idN10563\n"
+"help.text"
+msgid "<ahelp hid=\".\">Contains commands to apply, create, edit, update, load, and manage <link href=\"text/swriter/01/05130000.xhp\">styles</link> in a text document.</ahelp>"
+msgstr "<ahelp hid=\".\">Περιέχει εντολές για εφαρμογή, δημιουργία, επεξεργασία, ενημέρωση, φόρτωση και διαχείριση <link href=\"text/swriter/01/05130000.xhp\">τεχνοτροπιών</link> σε ένα έγγραφο κειμένου.</ahelp>"
+
+#. EMXiA
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id951701984989443\n"
+"help.text"
+msgid "<ahelp hid=\".\">Contains commands to apply, create, edit, update, load, and manage styles in a spreadsheet document.</ahelp>"
+msgstr "<ahelp hid=\".\">Περιέχει εντολές για εφαρμογή, δημιουργία, επεξεργασία, ενημέρωση, φόρτωση και διαχείριση τεχνοτροπιών σε ένα έγγραφο υπολογιστικού φύλλου.</ahelp>"
+
+#. tgkBx
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id191713460859953\n"
+"help.text"
+msgid "Contains commands to create, edit, update, and manage styles in a presentation document."
+msgstr "Περιέχει εντολές για τη δημιουργία, επεξεργασία, ενημέρωση και διαχείριση τεχνοτροπιών σε ένα έγγραφο παρουσίασης."
+
+#. Enc6m
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id991713461213944\n"
+"help.text"
+msgid "Choose <menuitem>Format - Styles</menuitem>."
+msgstr "Επιλέξτε <menuitem>Μορφή - Τεχνοτροπίες</menuitem>."
+
+#. y8Gxg
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id811713461480734\n"
+"help.text"
+msgid "Choose <menuitem>Format - Styles</menuitem>."
+msgstr "Επιλέξτε <menuitem>Μορφή - Τεχνοτροπίες</menuitem>."
+
+#. BssPU
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id71693522443488\n"
+"help.text"
+msgid "Choose <menuitem>Styles</menuitem>."
+msgstr "Επιλέξτε <menuitem>Τεχνοτροπίες</menuitem>."
+
+#. fK84v
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"hd_id121529878513674\n"
+"help.text"
+msgid "Text styles entries"
+msgstr "Καταχωρήσεις τεχνοτροπιών κειμένου"
+
+#. ouDxU
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id411529878520742\n"
+"help.text"
+msgid "The entries includes most common paragraph, character and list styles. Click on the style to apply."
+msgstr "Οι καταχωρίσεις περιλαμβάνουν τις πιο συνηθισμένες τεχνοτροπίες παραγράφου, χαρακτήρων και καταλόγων. Πατήστε στην τεχνοτροπία για εφαρμογή."
+
+#. 9WH7A
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id811701985858003\n"
+"help.text"
+msgid "Cell styles entries"
+msgstr "Καταχωρίσεις τεχνοτροπιών κελιών"
+
+#. R8yuC
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id31701985198261\n"
+"help.text"
+msgid "The entries includes most common cell styles. Click on the style to apply."
+msgstr "Οι καταχωρήσεις περιλαμβάνουν τις πιο συνηθισμένες τεχνοτροπίες κελιών. Πατήστε στην τεχνοτροπία για εφαρμογή."
+
+#. 7FPtK
+#: style_menu.xhp
+msgctxt ""
+"style_menu.xhp\n"
+"par_id451529878529005\n"
+"help.text"
+msgid "You can customize the list of styles entries using menu <link href=\"text/shared/01/06140100.xhp\"><emph>Tools - Customize</emph></link>. Because custom styles belongs to the actual document, remember to store the customized menu in the document scope."
+msgstr "Μπορείτε να προσαρμόσετε τον κατάλογο με τις καταχωρήσεις τεχνοτροπιών χρησιμοποιώντας το μενού <link href=\"text/shared/01/06140100.xhp\"><emph>Εργαλεία - Προσαρμογή</emph></link>. Επειδή οι προσαρμοσμένες τεχνοτροπίες ανήκουν στο πραγματικό έγγραφο, θυμηθείτε να αποθηκεύσετε το προσαρμοσμένο μενού στο εύρος του εγγράφου."
+
+#. izuQf
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"tit\n"
+"help.text"
+msgid "Image"
+msgstr "Εικόνα"
+
+#. WEo9P
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id411816022675979\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/submenu_image.xhp\">Image</link>"
+msgstr "<link href=\"text/shared/menu/submenu_image.xhp\">Εικόνα</link>"
+
+#. PXKMS
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"par_id398855439580084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu where you can choose commands to manipulate images.</ahelp>"
+msgstr "<ahelp hid=\".\">Ανοίγει ένα υπομενού όπου μπορείτε να επιλέξετε εντολές για χειρισμό εικόνων.</ahelp>"
+
+#. F7WSB
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"par_id321690379868876\n"
+"help.text"
+msgid "Choose <menuitem>Format - Image</menuitem>"
+msgstr "Επιλέξτε <menuitem>Μορφή - Εικόνα</menuitem>"
+
+#. FFzA8
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id471690383078695\n"
+"help.text"
+msgid "Original Size"
+msgstr "Αρχικό μέγεθος"
+
+#. Xjhs9
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"par_id711690383088371\n"
+"help.text"
+msgid "Restores the original size of the selected image."
+msgstr "Επαναφέρει το αρχικό μέγεθος της επιλεγμένης εικόνας."
+
+#. ZYu8G
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id11692743945980\n"
+"help.text"
+msgid "Fit to cell size"
+msgstr "Προσαρμογή στο μέγεθος του κελιού"
+
+#. 6uumw
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id341690402790136\n"
+"help.text"
+msgid "<link href=\"text/shared/02/24010000.xhp\">Filter</link>"
+msgstr "<link href=\"text/shared/02/24010000.xhp\">Φίλτρο</link>"
+
+#. DiNQt
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"par_id181690402800547\n"
+"help.text"
+msgid "Opens a submenu with several filters that can be applied to the selected image."
+msgstr "Ανοίγει ένα υπομενού με πολλά φίλτρα που μπορούν να εφαρμοστούν στην επιλεγμένη εικόνα."
+
+#. xEepr
+#: submenu_image.xhp
+msgctxt ""
+"submenu_image.xhp\n"
+"hd_id281692741932662\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/05060000.xhp\">Properties</link>"
+msgstr "<link href=\"text/swriter/01/05060000.xhp\">Ιδιότητες</link>"
+
+#. UofYA
+#: submenu_lists.xhp
+msgctxt ""
+"submenu_lists.xhp\n"
+"tit\n"
+"help.text"
+msgid "Lists"
+msgstr "Κατάλογοι"
+
+#. BEEuG
+#: submenu_lists.xhp
+msgctxt ""
+"submenu_lists.xhp\n"
+"hd_id411816022675979\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/submenu_lists.xhp\">Lists</link>"
+msgstr "<link href=\"text/shared/menu/submenu_lists.xhp\">Κατάλογοι</link>"
+
+#. HWyDE
+#: submenu_lists.xhp
+msgctxt ""
+"submenu_lists.xhp\n"
+"par_id398855439580084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu where you can choose commands to create and work on lists.</ahelp>"
+msgstr "<ahelp hid=\".\">Ανοίγει ένα υπομενού όπου μπορείτε να επιλέξετε εντολές για δημιουργία και εργασία σε καταλόγους.</ahelp>"
+
+#. M2gWP
+#: submenu_lists.xhp
+msgctxt ""
+"submenu_lists.xhp\n"
+"par_id321690379868876\n"
+"help.text"
+msgid "Choose <menuitem>Format - Lists</menuitem>"
+msgstr "Επιλέξτε <menuitem>Μορφή - Κατάλογοι</menuitem>"
+
+#. zeHPg
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"tit\n"
+"help.text"
+msgid "Rotate or Flip"
+msgstr "Περιστροφή ή Αναστροφή"
+
+#. TFgHu
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"hd_id661693064275326\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/menu/submenu_rotateflip.xhp\">Rotate or Flip</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/menu/submenu_rotateflip.xhp\">Περιστροφή ή αναστροφή</link></variable>"
+
+#. SxrTz
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id561602978499640\n"
+"help.text"
+msgid "Opens a submenu where you can rotate or flip a selected shape or image. Text boxes can only be rotated."
+msgstr "Ανοίγει ένα υπομενού όπου μπορείτε να περιστρέψετε ή να αναστρέψετε ένα επιλεγμένο σχήμα ή εικόνα. Τα πλαίσια κειμένου μπορούν μόνο να περιστραφούν."
+
+#. rVWwL
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id41693064459459\n"
+"help.text"
+msgid "Choose <menuitem>Format - Rotate or Flip</menuitem>."
+msgstr "Επιλέξτε <menuitem>Μορφοποίηση - Περιστροφή ή αναστροφή</menuitem>."
+
+#. HN4P4
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id801693065302337\n"
+"help.text"
+msgid "Choose <menuitem>Rotate or Flip</menuitem>."
+msgstr "Επιλέξτε <menuitem>Περιστροφή ή αναστροφή</menuitem>."
+
+#. CCKoF
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id751693066303787\n"
+"help.text"
+msgid "<image src=\"cmd/lc_rotateleft.svg\" id=\"img_id651693066303788\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id651693066303789\">Icon Rotate or Flip</alt></image>"
+msgstr "<image src=\"cmd/lc_rotateleft.svg\" id=\"img_id651693066303788\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id651693066303789\">Εικονίδιο περιστροφής ή αναστροφής</alt></image>"
+
+#. 9o3U8
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id771693066303791\n"
+"help.text"
+msgid "Rotate or Flip"
+msgstr "Περιστροφή ή αναστροφή"
+
+#. pkF4D
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"hd_id491693087845438\n"
+"help.text"
+msgid "Reset Rotation"
+msgstr "Επαναφορά περιστροφής"
+
+#. 5zhDT
+#: submenu_rotateflip.xhp
+msgctxt ""
+"submenu_rotateflip.xhp\n"
+"par_id751693088211586\n"
+"help.text"
+msgid "Set the object rotation to zero degrees."
+msgstr "Ρυθμίστε την περιστροφή του αντικειμένου σε μηδέν μοίρες."
+
+#. fGrZx
+#: submenu_spacing.xhp
+msgctxt ""
+"submenu_spacing.xhp\n"
+"tit\n"
+"help.text"
+msgid "Spacing"
+msgstr "Διάστημα"
+
+#. ehPgj
+#: submenu_spacing.xhp
+msgctxt ""
+"submenu_spacing.xhp\n"
+"hd_id411816022675979\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/submenu_spacing.xhp\">Spacing</link>"
+msgstr "<link href=\"text/shared/menu/submenu_spacing.xhp\">Διάστημα</link>"
+
+#. 22dPh
+#: submenu_spacing.xhp
+msgctxt ""
+"submenu_spacing.xhp\n"
+"par_id398855439580084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu where you can choose text spacing commands.</ahelp>"
+msgstr "<ahelp hid=\".\">Ανοίγει ένα υπομενού όπου μπορείτε να επιλέξετε εντολές απόστασης κειμένου.</ahelp>"
+
+#. MVHBc
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"tit\n"
+"help.text"
+msgid "Text"
+msgstr "Κείμενο"
+
+#. wA9Xa
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id411816022675978\n"
+"help.text"
+msgid "<link href=\"text/shared/menu/submenu_text.xhp\">Text</link>"
+msgstr "<link href=\"text/shared/menu/submenu_text.xhp\">Κείμενο</link>"
+
+#. UdmfU
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id398855439580083\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu where you can choose text formatting commands.</ahelp>"
+msgstr "<ahelp hid=\".\">Ανοίγει ένα υπομενού όπου μπορείτε να επιλέξετε εντολές μορφοποίησης κειμένου.</ahelp>"
+
+#. br5DC
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id207025326941609\n"
+"help.text"
+msgid "Wrap Text"
+msgstr "Αναδίπλωση κειμένου"
+
+#. jBc2E
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id302484503842787\n"
+"help.text"
+msgid "<ahelp hid=\".\">Break text automatically at the right edges of the selected cells.</ahelp>"
+msgstr "<ahelp hid=\".\">Αποκοπή κειμένου αυτόματα στις δεξιές άκρες των επιλεγμένων κελιών.</ahelp>"
+
+#. zo6cE
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id3155392\n"
+"help.text"
+msgid "Half-width"
+msgstr "Μισό πλάτος"
+
+#. SEpmw
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id3147088\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ChangeCaseToHalfWidth\">Changes the selected Asian characters to half-width characters.</ahelp>"
+msgstr "<ahelp hid=\".uno:ChangeCaseToHalfWidth\">Αλλάζει τους επιλεγμένους ασιατικούς χαρακτήρες σε χαρακτήρες μισού πλάτους.</ahelp>"
+
+#. rA2DG
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id3156113\n"
+"help.text"
+msgid "Full Width"
+msgstr "Πλήρες πλάτος"
+
+#. Ep24G
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ChangeCaseToFullWidth\">Changes the selected Asian characters to full-width characters.</ahelp>"
+msgstr "<ahelp hid=\".uno:ChangeCaseToFullWidth\">Αλλάζει τους επιλεγμένους ασιατικούς χαρακτήρες σε χαρακτήρες πλήρους πλάτους.</ahelp>"
+
+#. dZCcC
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id3152996\n"
+"help.text"
+msgid "Hiragana"
+msgstr "Χιραγκάνα"
+
+#. AB6ta
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id3156156\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ChangeCaseToHiragana\">Changes the selected Asian characters to Hiragana characters.</ahelp>"
+msgstr "<ahelp hid=\".uno:ChangeCaseToHiragana\">Αλλάζει τους επιλεγμένους ασιατικούς χαρακτήρες σε χαρακτήρες Χιραγκάνα.</ahelp>"
+
+#. LNQLS
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"hd_id3154173\n"
+"help.text"
+msgid "Katakana"
+msgstr "Κατακάνα"
+
+#. QSxUp
+#: submenu_text.xhp
+msgctxt ""
+"submenu_text.xhp\n"
+"par_id3146137\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ChangeCaseToKatakana\">Changes the selected Asian characters to Katakana characters.</ahelp>"
+msgstr "<ahelp hid=\".uno:ChangeCaseToKatakana\">Αλλάζει τους επιλεγμένους ασιατικούς χαρακτήρες σε χαρακτήρες κατακάνα.</ahelp>"

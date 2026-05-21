@@ -1,0 +1,2681 @@
+#. extracted from helpcontent2/source/text/shared
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-09-18 11:33+0200\n"
+"PO-Revision-Date: 2026-02-06 09:48+0000\n"
+"Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
+"Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textshared/bg/>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1547224396.000000\n"
+
+#. zRW8E
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"tit\n"
+"help.text"
+msgid "View"
+msgstr "Изглед"
+
+#. Xhrhi
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3147233\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main0103.xhp\">View</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/main0103.xhp\">Изглед</link></variable>"
+
+#. VjZcs
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id3147249\n"
+"help.text"
+msgid "<ahelp hid=\".\">This menu contains commands to control the on-screen display of the document, change the user interface and access the sidebar panels.</ahelp>"
+msgstr "<ahelp hid=\".\">Това меню съдържа команди, с които можете да управлявате изобразяването на документа върху екрана, да променяте потребителския интерфейс и да извиквате панелите на страничната лента.</ahelp>"
+
+#. KqRGM
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3147265\n"
+"help.text"
+msgid "<link href=\"text/shared/01/03010000.xhp\">Zoom</link>"
+msgstr "<link href=\"text/shared/01/03010000.xhp\">Мащаб</link>"
+
+#. 95G2n
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720150908397549\n"
+"help.text"
+msgid "<link href=\"text/shared/01/gallery.xhp\">Gallery</link>"
+msgstr "<link href=\"text/shared/01/gallery.xhp\">Галерия</link>"
+
+#. sbbhw
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id110120150549176280\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/03120000.xhp\">Handout</link>"
+msgstr "<link href=\"text/simpress/01/03120000.xhp\">Листовка</link>"
+
+#. wa6UF
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151244263489\n"
+"help.text"
+msgid "Object Moving Helplines"
+msgstr "Помощни линии при местене"
+
+#. wgqff
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151246522815\n"
+"help.text"
+msgid "Comments"
+msgstr "Коментари"
+
+#. AHrm9
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id102720150112252443\n"
+"help.text"
+msgid "Show or hide a presentation's annotations."
+msgstr "Скрива или показва анотациите на презентацията."
+
+#. KxCDt
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151246523444\n"
+"help.text"
+msgid "Master Background"
+msgstr "Фон от образеца"
+
+#. DXFhq
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id102720150112257941\n"
+"help.text"
+msgid "Toggle the visibility of a master slide's background to be used as the background of the current slide."
+msgstr "Превключва показването на фона от кадъра образец като фон на текущия кадър."
+
+#. zrUk5
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151246521837\n"
+"help.text"
+msgid "Master Objects"
+msgstr "Обекти от образеца"
+
+#. pXaYF
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id102720150112256473\n"
+"help.text"
+msgid "Toggle the visibility of a master slide's objects to appear on the current slide."
+msgstr "Превключва показването на обектите от кадъра образец в текущия кадър."
+
+#. izgDw
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id61725310664343\n"
+"help.text"
+msgid "<link href=\"text/shared/01/gallery.xhp\">Clip Art Gallery</link>"
+msgstr "<link href=\"text/shared/01/gallery.xhp\">Галерия</link>"
+
+#. dCeyT
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3149121\n"
+"help.text"
+msgid "<link href=\"text/shared/01/03010000.xhp\">Zoom</link>"
+msgstr "<link href=\"text/shared/01/03010000.xhp\">Мащаб</link>"
+
+#. X7bcB
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_idN105AB\n"
+"help.text"
+msgid "Normal"
+msgstr "Нормален"
+
+#. cEdVL
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_idN105AF\n"
+"help.text"
+msgid "Switch to normal view of the page."
+msgstr "Превключва към нормалния изглед на страницата."
+
+#. ncfYE
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_idN105B2\n"
+"help.text"
+msgid "Master"
+msgstr "Образец"
+
+#. eSnQZ
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_idN105B6\n"
+"help.text"
+msgid "Switch to the master view."
+msgstr "Превключва към изгледа на образеца."
+
+#. fVFKG
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id221605492986383\n"
+"help.text"
+msgid "<link href=\"text/shared/01/notebook_bar.xhp\">User Interface</link>"
+msgstr "<link href=\"text/shared/01/notebook_bar.xhp\">Потребителски интерфейс</link>"
+
+#. tYxbF
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id761605493042236\n"
+"help.text"
+msgid "Opens dialog box for selecting layout of user interface."
+msgstr "Отваря диалогов прозорец за избор на оформление на потребителския интерфейс."
+
+#. JChXS
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151746522815\n"
+"help.text"
+msgid "Comments"
+msgstr "Коментари"
+
+#. XjZkS
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id102720150112252143\n"
+"help.text"
+msgid "Show or hide annotations on the page."
+msgstr "Показва или скрива анотациите на страницата."
+
+#. Y3uKu
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id961605560845125\n"
+"help.text"
+msgid "Shift"
+msgstr "Изместване"
+
+#. 3Eaeo
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id301605560855098\n"
+"help.text"
+msgid "Use to shift the position of the page in the window. When enabled, the appearance of the mouse pointer changes. Click the page and drag to desired position."
+msgstr "Използвайте този режим, за да премествате страницата в прозореца. Когато е включен, формата на показалеца на мишката се сменя. Щракнете върху страницата и я плъзнете до желаната позиция."
+
+#. DifEy
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3149666\n"
+"help.text"
+msgid "<link href=\"text/shared/01/03010000.xhp\">Zoom</link>"
+msgstr "<link href=\"text/shared/01/03010000.xhp\">Мащаб</link>"
+
+#. 4C4gL
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3150205\n"
+"help.text"
+msgid "<link href=\"text/shared/01/03010000.xhp\">Zoom</link>"
+msgstr "<link href=\"text/shared/01/03010000.xhp\">Мащаб</link>"
+
+#. Dp7mC
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"tit\n"
+"help.text"
+msgid "Insert"
+msgstr "Вмъкване"
+
+#. kGJYv
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3155341\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main0104.xhp\">Insert</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/main0104.xhp\">Вмъкване</link></variable>"
+
+#. 6TVAk
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id3155358\n"
+"help.text"
+msgid "<ahelp hid=\".\">The Insert menu contains commands for inserting new elements in your document. This includes images, media, charts, objects from other applications, hyperlinks, comments, symbols, footnotes, and sections.</ahelp>"
+msgstr "<ahelp hid=\".\">Менюто „Вмъкване“ съдържа команди за вмъкване на нови елементи в документа. Това включва изображения, видео и звук, диаграми, обекти от други приложения, хипервръзки, коментари, символи, бележки под линия и раздели.</ahelp>"
+
+#. paR8F
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id030420160850525240\n"
+"help.text"
+msgid "Page Break"
+msgstr "Нова страница"
+
+#. 8z5Gv
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id030420160850533104\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InsertPagebreak\">Inserts a manual page break at the current cursor position and places the cursor at the beginning of the next page.</ahelp>"
+msgstr "<ahelp hid=\".uno:InsertPagebreak\">Вмъква ръчен знак за нова страница в текущата позиция на курсора и премества курсора в началото на следващата страница.</ahelp>"
+
+#. Bj8mG
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3147788\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04020000.xhp\">Section</link>"
+msgstr "<link href=\"text/swriter/01/04020000.xhp\">Раздел</link>"
+
+#. f3j54
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3149428\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04190000.xhp\">Text from File</link>"
+msgstr "<link href=\"text/swriter/01/04190000.xhp\">Текст от файл</link>"
+
+#. GFNXQ
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3147281\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04040000.xhp\">Bookmark</link>"
+msgstr "<link href=\"text/swriter/01/04040000.xhp\">Показалец</link>"
+
+#. Bed3E
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id030420161125315689\n"
+"help.text"
+msgid "Horizontal Line"
+msgstr "Хоризонтална линия"
+
+#. 7pGUa
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id030420161125315647\n"
+"help.text"
+msgid "Inserts a horizontal line at the current cursor position."
+msgstr "Вмъква хоризонтална линия в позицията на курсора"
+
+#. N6J2x
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3149865\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04070000.xhp\">Envelope</link>"
+msgstr "<link href=\"text/swriter/01/04070000.xhp\">Плик за писмо</link>"
+
+#. 2stQM
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3146918\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Диаграма</link>"
+
+#. QKdUC
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id0302200904002496\n"
+"help.text"
+msgid "Inserts a chart."
+msgstr "Вмъква диаграма."
+
+#. YqHfD
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3147003\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04160500.xhp\">Floating Frame</link>"
+msgstr "<link href=\"text/shared/01/04160500.xhp\">Плаваща рамка</link>"
+
+#. mSQgW
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3156285\n"
+"help.text"
+msgid "<link href=\"text/shared/02/09070000.xhp\">Hyperlink</link>"
+msgstr "<link href=\"text/shared/02/09070000.xhp\">Хипервръзка</link>"
+
+#. XNGME
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3163726\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04100000.xhp\">Special Character</link>"
+msgstr "<link href=\"text/shared/01/04100000.xhp\">Специален знак</link>"
+
+#. JdPCK
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_idN105C7\n"
+"help.text"
+msgid "Slide Number"
+msgstr "Номер на кадър"
+
+#. qfU4b
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_idN10609\n"
+"help.text"
+msgid "Adds the slide number."
+msgstr "Добавя номера на кадъра."
+
+#. VK4Bx
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3156918\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Диаграма</link>"
+
+#. PF63q
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id271725376992806\n"
+"help.text"
+msgid "Inserts a chart."
+msgstr "Вмъква диаграма."
+
+#. 9XtSB
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3152285\n"
+"help.text"
+msgid "<link href=\"text/shared/02/09070000.xhp\">Hyperlink</link>"
+msgstr "<link href=\"text/shared/02/09070000.xhp\">Хипервръзка</link>"
+
+#. pjnna
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id581725377282403\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04100000.xhp\">Special Character</link>"
+msgstr "<link href=\"text/shared/01/04100000.xhp\">Специален знак</link>"
+
+#. 2wK8f
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id291725377274115\n"
+"help.text"
+msgid "Page Number"
+msgstr "Номер на страница"
+
+#. xTBsj
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id281725377270013\n"
+"help.text"
+msgid "Adds the page number."
+msgstr "Добавя номера на страницата."
+
+#. KRfJh
+#: main0107.xhp
+msgctxt ""
+"main0107.xhp\n"
+"tit\n"
+"help.text"
+msgid "Window"
+msgstr "Прозорец"
+
+#. GKfCv
+#: main0107.xhp
+msgctxt ""
+"main0107.xhp\n"
+"hd_id3153770\n"
+"help.text"
+msgid "<link href=\"text/shared/main0107.xhp\">Window</link>"
+msgstr "<link href=\"text/shared/main0107.xhp\">Прозорец</link>"
+
+#. kPAHW
+#: main0107.xhp
+msgctxt ""
+"main0107.xhp\n"
+"par_id3147435\n"
+"help.text"
+msgid "<ahelp hid=\".uno:WindowList\">Contains commands for manipulating and displaying document windows.</ahelp>"
+msgstr "<ahelp hid=\".uno:WindowList\">Съдържа команди за манипулиране и показване на прозорците с документи.</ahelp>"
+
+#. yEKhT
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"tit\n"
+"help.text"
+msgid "Help"
+msgstr "Помощ"
+
+#. xvsDi
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id3155364\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main0108.xhp#help\">Help</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/main0108.xhp#help\">Помощ</link></variable>"
+
+#. 2BAjw
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id3153990\n"
+"help.text"
+msgid "<ahelp hid=\".uno:HelpMenu\">The Help menu allows you to start and control the $[officename] Help system.</ahelp>"
+msgstr "<ahelp hid=\".uno:HelpMenu\">Менюто Помощ ви позволява да стартирате и управлявате справочната система на $[officename].</ahelp>"
+
+#. qpCaX
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id3147399\n"
+"help.text"
+msgid "$[officename] Help"
+msgstr "Помощ за $[officename]"
+
+#. Bm7BG
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id3147576\n"
+"help.text"
+msgid "<ahelp hid=\".uno:HelpIndex\">Opens the main page of the $[officename] Help for the current application.</ahelp> You can scroll through the Help pages and you can search for index terms or any text."
+msgstr "<ahelp hid=\".uno:HelpIndex\">Отваря главната страница на помощта на $[officename] за текущото приложение.</ahelp> Можете да разглеждате страниците на помощта и да търсите термини от указателя или произволен текст."
+
+#. gE5WX
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_idN1064A\n"
+"help.text"
+msgid "<image id=\"img_id1619006\" src=\"cmd/lc_helpindex.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id1619006\">Icon Help</alt></image>"
+msgstr "<image id=\"img_id1619006\" src=\"cmd/lc_helpindex.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id1619006\">Икона за помощ</alt></image>"
+
+#. iPjUH
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_idN10667\n"
+"help.text"
+msgid "%PRODUCTNAME Help"
+msgstr "Помощ за %PRODUCTNAME"
+
+#. bhHQM
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id230120170827187813\n"
+"help.text"
+msgid "User Guides"
+msgstr "Ръководства за потребители"
+
+#. iGDAE
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id230120170827189453\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Documentation\">Opens the documentation page in the web browser, where users can download, read or purchase %PRODUCTNAME user guides, written by the community.</ahelp>"
+msgstr "<ahelp hid=\".uno:Documentation\">Отваря в уеббраузъра страницата за документация, където потребителите могат да изтеглят, четат или купуват ръководства за %PRODUCTNAME, писани от общността.</ahelp>"
+
+#. APWDa
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id230120170827196253\n"
+"help.text"
+msgid "Get Help Online"
+msgstr "Получаване на помощ онлайн"
+
+#. bRvuD
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id230120170827196850\n"
+"help.text"
+msgid "<ahelp hid=\".uno:QuestionAnswers\">Opens the community support page in the web browser.</ahelp> Use this page to ask questions on using %PRODUCTNAME. For professional support with service level agreement, refer to the <link href=\"https://www.documentfoundation.org/gethelp/support/\"><emph>page of professional %PRODUCTNAME support</emph></link>."
+msgstr "<ahelp hid=\".uno:QuestionAnswers\">Отваря в уеббраузъра страницата за техническа помощ от общността.</ahelp> В нея можете да задавате въпроси относно работата с %PRODUCTNAME. За професионална поддръжка, уредена с договор, вижте <link href=\"https://www.documentfoundation.org/gethelp/support/\"><emph>страницата за професионална поддръжка на %PRODUCTNAME</emph></link>."
+
+#. mTBuv
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id2752763\n"
+"help.text"
+msgid "Send Feedback"
+msgstr "Изпращане на отзив"
+
+#. BSzm2
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id443534340\n"
+"help.text"
+msgid "<ahelp hid=\".uno:SendFeedback\">Opens a feedback form in the web browser, where users can report software bugs.</ahelp>"
+msgstr "<ahelp hid=\".uno:SendFeedback\">Отваря в уеббраузъра формуляр за отзив, чрез който потребителите могат да съобщават за дефекти в софтуера.</ahelp>"
+
+#. 4BvDS
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id561629934889067\n"
+"help.text"
+msgid "Get Involved"
+msgstr "Включване в разработката"
+
+#. B4y6k
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id501629934998665\n"
+"help.text"
+msgid "Opens the <link href=\"https://www.libreoffice.org/community/get-involved/\">community Get Involved page</link> in the web browser. The page describe areas of interest where you can collaborate with the %PRODUCTNAME community."
+msgstr "Отваря в уеббраузъра <link href=\"https://www.libreoffice.org/community/get-involved/\">страницата Get Involved</link>. В нея са описани областите, в които можете да си сътрудничите с общността на %PRODUCTNAME."
+
+#. YrMYp
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id431629934866702\n"
+"help.text"
+msgid "Donate to %PRODUCTNAME"
+msgstr "Дарение за %PRODUCTNAME"
+
+#. xoFgE
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id691629934873388\n"
+"help.text"
+msgid "%PRODUCTNAME is Free Software and is made available free of charge."
+msgstr "%PRODUCTNAME е свободен софтуер и се предоставя безплатно."
+
+#. GAMwn
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id651629934878405\n"
+"help.text"
+msgid "Your donation, which is purely optional, supports our worldwide community."
+msgstr "Дарението ви, което е изцяло по ваш избор, подкрепя нашата световна общност."
+
+#. vDfYC
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id611629934882669\n"
+"help.text"
+msgid "If you like the software, <link href=\"https://www.libreoffice.org/donate/\">please consider a donation</link>."
+msgstr "Ако харесвате софтуера, <link href=\"https://www.libreoffice.org/donate/\">моля, обмислете възможността да направите дарение</link>."
+
+#. sWFkG
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id4153881\n"
+"help.text"
+msgid "License Information"
+msgstr "Лицензионна информация"
+
+#. NagBg
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id4144510\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ShowLicense\">Displays the <emph>Licensing and Legal information</emph> dialog.</ahelp>"
+msgstr "<ahelp hid=\".uno:ShowLicense\">Показва диалоговия прозорец <emph>Лицензионна и правна информация</emph>.</ahelp>"
+
+#. hzz6B
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id5153881\n"
+"help.text"
+msgid "%PRODUCTNAME Credits"
+msgstr "%PRODUCTNAME – благодарности"
+
+#. 26xSB
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id5144510\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ShowLicense\">Displays the <emph>CREDITS.odt</emph> document which lists the names of individuals who have contributed to OpenOffice.org source code (and whose contributions were imported into %PRODUCTNAME) or %PRODUCTNAME since 2010-09-28.</ahelp>"
+msgstr "<ahelp hid=\".uno:ShowLicense\">Показва документа <emph>CREDITS.odt</emph> с имената на сътрудниците, които са допринесли с програмен код за OpenOffice.org (и чиито приноси са включени в %PRODUCTNAME) или %PRODUCTNAME от 2010-09-28 нататък.</ahelp>"
+
+#. F8BFu
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id2926419\n"
+"help.text"
+msgid "<link href=\"text/shared/01/online_update.xhp\">Check for Updates</link>"
+msgstr "<link href=\"text/shared/01/online_update.xhp\">Проверка за обновяване</link>"
+
+#. XejZc
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id2783898\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enable an Internet connection for %PRODUCTNAME. If you need a Proxy, check the %PRODUCTNAME Proxy settings in <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - Internet</emph>. Then choose <emph>Check for Updates</emph> to check for the availability of a newer version of your office suite.</ahelp>"
+msgstr "<ahelp hid=\".\">Осигурете на %PRODUCTNAME връзка с Интернет. Ако е необходимо прокси, проверете настройките на %PRODUCTNAME за прокси в <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Инструменти - Настройки</emph></defaultinline></switchinline><emph> - Интернет</emph>. После изберете <emph>Проверка за обновяване</emph>, за да проверите за наличие на по-нова версия на офис пакета.</ahelp>"
+
+#. JCKb7
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id3153881\n"
+"help.text"
+msgid "About $[officename]"
+msgstr "Относно $[officename]"
+
+#. nSkgE
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id3144510\n"
+"help.text"
+msgid "<ahelp hid=\".uno:About\">Displays general program information such as version number and copyrights.</ahelp>"
+msgstr "<ahelp hid=\".uno:About\">Показва обща информация за програмата, например номер на версия и авторски права.</ahelp>"
+
+#. MT8bF
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"tit\n"
+"help.text"
+msgid "Standard Bar"
+msgstr "Лента Стандартни"
+
+#. YMneF
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"hd_id3154186\n"
+"help.text"
+msgid "<link href=\"text/shared/main0201.xhp\">Standard Bar</link>"
+msgstr "<link href=\"text/shared/main0201.xhp\">Лента Стандартни</link>"
+
+#. 7CoDc
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_id3145136\n"
+"help.text"
+msgid "<ahelp hid=\"RID_ENVTOOLBOX\">The <emph>Standard</emph> bar is available in every $[officename] application.</ahelp>"
+msgstr "<ahelp hid=\"RID_ENVTOOLBOX\">Лентата <emph>Стандартни</emph> е достъпна във всяко от приложенията на $[officename].</ahelp>"
+
+#. FHN8A
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"hd_id3166460\n"
+"help.text"
+msgid "<link href=\"text/shared/01/01020000.xhp\">Open File</link>"
+msgstr "<link href=\"text/shared/01/01020000.xhp\">Отваряне на файл</link>"
+
+#. qCdSB
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10661\n"
+"help.text"
+msgid "<link href=\"text/shared/01/01070000.xhp\">Save As</link>"
+msgstr "<link href=\"text/shared/01/01070000.xhp\">Записване като</link>"
+
+#. 9WEoa
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN106A5\n"
+"help.text"
+msgid "<link href=\"text/shared/01/06010000.xhp\">Spelling</link>"
+msgstr "<link href=\"text/shared/01/06010000.xhp\">Правопис</link>"
+
+#. ZVSLP
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN1086E\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Insert Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Вмъкване на диаграма</link>"
+
+#. MgdL8
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_id4964445\n"
+"help.text"
+msgid "Creates a chart in the current document."
+msgstr "Създава диаграма в текущия документ."
+
+#. 9jAur
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN1088E\n"
+"help.text"
+msgid "<link href=\"text/scalc/01/12030100.xhp\">Sort Descending / Sort Ascending</link>"
+msgstr "<link href=\"text/scalc/01/12030100.xhp\">Низходящо сортиране/Възходящо сортиране</link>"
+
+#. bzxXw
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108B1\n"
+"help.text"
+msgid "Sorts the selection from the highest to the lowest value, or from the lowest to the highest value using the column that contains the cursor."
+msgstr "Сортира избраното от най-високата към най-ниската или от най-ниската към най-високата стойност в колоната, съдържаща курсора."
+
+#. nBBsD
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108BE\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Диаграма</link>"
+
+#. mH28o
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108EA\n"
+"help.text"
+msgid "Creates a chart in the current document."
+msgstr "Създава диаграма в текущия документ."
+
+#. JEF2H
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108C4\n"
+"help.text"
+msgid "<link href=\"text/shared/02/01171200.xhp\">Display Grid</link>"
+msgstr "<link href=\"text/shared/02/01171200.xhp\">Показване на мрежата</link>"
+
+#. JHY4h
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108D7\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Диаграма</link>"
+
+#. kzRJC
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10976\n"
+"help.text"
+msgid "Creates a chart in the current document."
+msgstr "Създава диаграма в текущия документ."
+
+#. DexEu
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN107D8\n"
+"help.text"
+msgid "<image id=\"img_id3153070\" src=\"cmd/sc_zoom.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153070\">Icon</alt></image>"
+msgstr "<image id=\"img_id3153070\" src=\"cmd/sc_zoom.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153070\">Икона</alt></image>"
+
+#. wcCfo
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN107F5\n"
+"help.text"
+msgid "Zoom"
+msgstr "Мащаб"
+
+#. zYZRw
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10818\n"
+"help.text"
+msgid "What’s This?"
+msgstr "Какво е това?"
+
+#. UDDTK
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN1081E\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enables extended help tips under the mouse pointer until the next click.</ahelp>"
+msgstr "<ahelp hid=\".\">Разрешава разширените подсказки за обектите под курсора на мишката до следващото щракване.</ahelp>"
+
+#. Hvhxs
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10855\n"
+"help.text"
+msgid "<image id=\"img_id3174230\" src=\"cmd/sc_extendedhelp.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3174230\">Icon “What’s This?”</alt></image>"
+msgstr "<image id=\"img_id3174230\" src=\"cmd/sc_extendedhelp.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3174230\">Икона „Какво е това?“</alt></image>"
+
+#. KPZBD
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10873\n"
+"help.text"
+msgid "What’s This?"
+msgstr "Какво е това?"
+
+#. Xtuxp
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"tit\n"
+"help.text"
+msgid "Table Bar"
+msgstr "Лента Таблица"
+
+#. Cu754
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id3145587\n"
+"help.text"
+msgid "<link href=\"text/shared/main0204.xhp\">Table Bar</link>"
+msgstr "<link href=\"text/shared/main0204.xhp\">Лента Таблица</link>"
+
+#. WByv5
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"par_id3154252\n"
+"help.text"
+msgid "<ahelp hid=\".\">The <emph>Table</emph> Bar contains functions you need when working with tables. It appears when you move the cursor into a table.</ahelp>"
+msgstr "<ahelp hid=\".\">Лентата <emph>Таблица</emph> съдържа функциите, от които имате нужда при работа с таблици. Тя се появява, когато преместите курсора в таблица.</ahelp>"
+
+#. eCSur
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id319945759\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05210100.xhp\">Area Style / Filling</link>"
+msgstr "<link href=\"text/shared/01/05210100.xhp\">Стил/запълване на област</link>"
+
+#. GsoVm
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id3147592\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05100100.xhp\">Merge Cells</link>"
+msgstr "<link href=\"text/shared/01/05100100.xhp\">Сливане на клетки</link>"
+
+#. RhSva
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id3134447820\n"
+"help.text"
+msgid "Table Design"
+msgstr "Дизайн на таблица"
+
+#. BufED
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"par_id16200812240344\n"
+"help.text"
+msgid "<ahelp hid=\".uno:TableDesign\">Opens the Table Design. Double-click a preview to format the table.</ahelp>"
+msgstr "<ahelp hid=\".uno:TableDesign\">Отваря раздела Дизайн на таблица. Щракнете двукратно върху мостра, за да форматирате таблицата.</ahelp>"
+
+#. P72mU
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"par_id3153752\n"
+"help.text"
+msgid "<image id=\"img_id3147292\" src=\"cmd/sc_tabledesign.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147292\">Icon</alt></image>"
+msgstr "<image id=\"img_id3147292\" src=\"cmd/sc_tabledesign.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147292\">Икона</alt></image>"
+
+#. hVE8L
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"par_id3156429\n"
+"help.text"
+msgid "Table Design"
+msgstr "Дизайн на таблица"
+
+#. hCDEC
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id947820\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/05090000m.xhp\">Table Properties</link>"
+msgstr "<link href=\"text/simpress/01/05090000m.xhp\">Свойства на таблица</link>"
+
+#. usfD4
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"tit\n"
+"help.text"
+msgid "Status Bar in $[officename] Basic Documents"
+msgstr "Лента на състоянието в документи на $[officename] Basic"
+
+#. PUnxS
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"hd_id3148520\n"
+"help.text"
+msgid "<link href=\"text/shared/main0208.xhp\">Status Bar in $[officename] Basic Documents</link>"
+msgstr "<link href=\"text/shared/main0208.xhp\">Лента на състоянието в документи на $[officename] Basic</link>"
+
+#. TMY8Z
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"par_id3154136\n"
+"help.text"
+msgid "The <emph>Status</emph> Bar displays information about the current $[officename] Basic document."
+msgstr "Лентата <emph>Състояние</emph> показва информация за текущия документ на $[officename] Basic."
+
+#. gDTEb
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"tit\n"
+"help.text"
+msgid "Table Data Bar"
+msgstr "Лента Данни от таблица"
+
+#. 8uZqF
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"hd_id3147102\n"
+"help.text"
+msgid "<link href=\"text/shared/main0212.xhp\">Table Data Bar</link>"
+msgstr "<link href=\"text/shared/main0212.xhp\">Лента Данни от таблица</link>"
+
+#. 2HEsY
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3153394\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the Table Data bar to control the data view. </ahelp>"
+msgstr "<ahelp hid=\".\">В лентата за данни от таблица можете да управлявате изгледа на данните. </ahelp>"
+
+#. LyuDB
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "The filtered data view is active until you change or cancel the sorting or filtering criteria. If a filter is active, the <emph>Apply Filter</emph> icon on the <emph>Table Data</emph> bar is activated."
+msgstr "Филтрираният изглед на данните е активен, докато промените или отмените критериите за сортиране или филтриране. Ако има активен филтър, иконата <emph>Филтриране</emph> в лентата <emph>Данни от таблица</emph> е включена."
+
+#. CcwiY
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3147303\n"
+"help.text"
+msgid "<image id=\"img_id3153896\" src=\"cmd/sc_recsave.png\" width=\"0.222in\" height=\"0.222in\"><alt id=\"alt_id3153896\">Icon</alt></image>"
+msgstr "<image id=\"img_id3153896\" src=\"cmd/sc_recsave.png\" width=\"0.222in\" height=\"0.222in\"><alt id=\"alt_id3153896\">Икона</alt></image>"
+
+#. fzc6F
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3153360\n"
+"help.text"
+msgid "Save Record"
+msgstr "Запазване на запис"
+
+#. 6ZrhE
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3145173\n"
+"help.text"
+msgid "<image id=\"img_id3154123\" src=\"cmd/sc_recundo.png\" width=\"0.222in\" height=\"0.222in\"><alt id=\"alt_id3154123\">Icon</alt></image>"
+msgstr "<image id=\"img_id3154123\" src=\"cmd/sc_recundo.png\" width=\"0.222in\" height=\"0.222in\"><alt id=\"alt_id3154123\">Икона</alt></image>"
+
+#. EzvWw
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3151382\n"
+"help.text"
+msgid "Undo: Data Input"
+msgstr "Отмяна: Въвеждане на данни"
+
+#. fYxNc
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_idN10744\n"
+"help.text"
+msgid "<link href=\"text/shared/02/12070000.xhp\">Data to Text</link>"
+msgstr "<link href=\"text/shared/02/12070000.xhp\">Данни към текст</link>"
+
+#. WLT8r
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_idN10753\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts all fields of the marked record into the current document at the cursor position.</ahelp>"
+msgstr "<ahelp hid=\".\">Вмъква всички полета от маркирания запис в текущия документ на позицията на курсора.</ahelp>"
+
+#. 7e4xM
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_idN10780\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/mailmerge00.xhp\">Mail Merge</link>"
+msgstr "<link href=\"text/swriter/01/mailmerge00.xhp\">Циркулярни писма</link>"
+
+#. DcDEf
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_idN1078F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the Mail Merge Wizard to create form letters.</ahelp>"
+msgstr "<ahelp hid=\".\">Стартира помощника за създаване на циркулярни писма.</ahelp>"
+
+#. 7wCKo
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Navigation Bar"
+msgstr "Лента „Навигация за формуляр“"
+
+#. cniHC
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"bm_id3157896\n"
+"help.text"
+msgid "<bookmark_value>toolbars; Form Navigation bar</bookmark_value><bookmark_value>Navigation bar;forms</bookmark_value><bookmark_value>sorting; data in forms</bookmark_value><bookmark_value>data; sorting in forms</bookmark_value><bookmark_value>forms;sorting data</bookmark_value>"
+msgstr "<bookmark_value>ленти с инструменти; Навигация за формуляр</bookmark_value><bookmark_value>Навигация, лента;формуляри</bookmark_value><bookmark_value>сортиране; данни във формуляри</bookmark_value><bookmark_value>данни; сортиране във формуляри</bookmark_value><bookmark_value>формуляри;сортиране на данни</bookmark_value>"
+
+#. AJsK5
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3157896\n"
+"help.text"
+msgid "<link href=\"text/shared/main0213.xhp\">Form Navigation Bar</link>"
+msgstr "<link href=\"text/shared/main0213.xhp\">Лента „Навигация за формуляр“</link>"
+
+#. WUXQ3
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3154751\n"
+"help.text"
+msgid "The <emph>Form Navigation</emph> bar contains icons to edit a database table or to control the data view. The bar is displayed at the bottom of a document that contains fields that are linked to a database."
+msgstr "Лентата <emph>Навигация за формуляр</emph> съдържа икони за редактиране на таблици в бази от данни и за управление на представянето на данните. Тя се показва в долната част на документа, който съдържа свързани с база от данни полета."
+
+#. GSUgn
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3157958\n"
+"help.text"
+msgid "You can use the <emph>Form Navigation</emph> bar to move within records as well as to insert and to delete records. If data is saved in a form, the changes are transferred to the database. The <emph>Form Navigation</emph> bar also contains sort, filter, and search functions for data records."
+msgstr "С лентата <emph>Навигация за формуляр</emph> можете да преминавате между записите, както и да вмъквате и изтривате записи. Ако данните се запазят във формуляра, промените се прехвърлят в базата от данни. Лентата <emph>Навигация за формуляр</emph> съдържа и функции за сортиране, филтриране и търсене на записи с данни."
+
+#. nLEDn
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_idN10717\n"
+"help.text"
+msgid "You can use the Navigation bar icon on the <link href=\"text/shared/02/01170000.xhp\">More Controls </link> bar to add a Navigation bar to a form."
+msgstr "За да добавите лента за навигация във формуляра, използвайте иконата „Лента Навигация“ от лентата <link href=\"text/shared/02/01170000.xhp\">Още контроли</link>."
+
+#. qrGJo
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3157910\n"
+"help.text"
+msgid "The Navigation bar is only visible for forms connected to a database. In the <link href=\"text/sdatabase/04030000.xhp\">Design view</link> of a form, the Navigation bar is not available. See also <link href=\"text/shared/main0212.xhp\">Table Data bar</link>."
+msgstr "Лентата „Навигация“ се вижда само за формуляри, свързани с база от данни. В <link href=\"text/sdatabase/04030000.xhp\">изглед „Проектиране“</link> на формуляра лентата „Навигация“ е недостъпна. Вижте също <link href=\"text/shared/main0212.xhp\">лентата „Данни от таблица“</link>."
+
+#. tqTbR
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3153880\n"
+"help.text"
+msgid "You can control the view of data with the sorting and filtering functions. Original tables are not changed."
+msgstr "Можете да управлявате изгледа на данните с функциите за сортиране и филтриране. Оригиналните таблици не се променят."
+
+#. X4S8m
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3153062\n"
+"help.text"
+msgid "The current sort order or filter is saved with the current document. If a filter is set, the <emph>Apply Filter</emph> icon on the <emph>Navigation</emph> bar is activated. Sorting and filtering features in the document can also be configured in the <emph>Form Properties</emph> dialog. (Choose <emph>Form Properties - Data</emph> - properties <link href=\"text/shared/02/01170203.xhp\"><emph>Sort</emph></link> and <link href=\"text/shared/02/01170203.xhp\"><emph>Filter</emph></link>)."
+msgstr "Текущото сортиране или филтриране се запазва заедно с текущия документ. Ако е зададен филтър, иконата <emph>Филтриране</emph> в лентата <emph>Навигация</emph> е включена. Възможностите за сортиране и филтриране в документ могат да се настройват с диалоговия прозорец <emph>Свойства на формуляр</emph>. (Изберете <emph>Свойства на формуляр - Данни</emph> - свойства <link href=\"text/shared/02/01170203.xhp\"><emph>Сортиране</emph></link> и <link href=\"text/shared/02/01170203.xhp\"><emph>Филтриране</emph></link>)."
+
+#. ABJo3
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3149810\n"
+"help.text"
+msgid "If an SQL statement is the basis for a form (see <emph>Form Properties</emph> - tab <emph>Data</emph> - <link href=\"text/shared/02/01170203.xhp\"><emph>Data Source</emph></link>), then the filter and sort functions are only available when the SQL statement refers to only one table and is not written in the native SQL mode."
+msgstr "Ако формулярът е базиран върху заявка на SQL (вижте <emph>Свойства на формуляр</emph> - раздел <emph>Данни</emph> - <link href=\"text/shared/02/01170203.xhp\"><emph>Източник на данни</emph></link>), функциите за филтриране и сортиране са достъпни само когато командата на SQL ползва само една таблица и не е написана в режим „native SQL“."
+
+#. CcBXr
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3156448\n"
+"help.text"
+msgid "<link href=\"text/shared/02/12100200.xhp\">Find Record</link>"
+msgstr "<link href=\"text/shared/02/12100200.xhp\">Търсене на запис</link>"
+
+#. daKA6
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3153192\n"
+"help.text"
+msgid "Absolute Record"
+msgstr "Абсолютен запис"
+
+#. j8vng
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3146922\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AbsoluteRecord\">Shows the number of the current record. Enter a number to go to the corresponding record.</ahelp>"
+msgstr "<ahelp hid=\".uno:AbsoluteRecord\">Показва номера на текущия запис. Въведете номер, за да преминете към съответния запис.</ahelp>"
+
+#. Ld8nZ
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3153573\n"
+"help.text"
+msgid "First Record"
+msgstr "Първи запис"
+
+#. 4VXqZ
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3154013\n"
+"help.text"
+msgid "<image id=\"img_id3150010\" src=\"cmd/lc_firstrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150010\">Icon First Record</alt></image>"
+msgstr "<image id=\"img_id3150010\" src=\"cmd/lc_firstrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150010\">Икона за първи запис</alt></image>"
+
+#. VCqM6
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3155308\n"
+"help.text"
+msgid "<ahelp hid=\".uno:FirstRecord\">Takes you to the first record.</ahelp>"
+msgstr "<ahelp hid=\".uno:FirstRecord\">Предизвиква преход към първия запис.</ahelp>"
+
+#. aNBTD
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3154792\n"
+"help.text"
+msgid "Previous Record"
+msgstr "Предишен запис"
+
+#. AgQb3
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3145647\n"
+"help.text"
+msgid "<image id=\"img_id3147394\" src=\"cmd/lc_prevrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147394\">Icon Previous Record</alt>                        </image>"
+msgstr "<image id=\"img_id3147394\" src=\"cmd/lc_prevrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147394\">Икона за предишен запис</alt></image>"
+
+#. gitqo
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3157846\n"
+"help.text"
+msgid "<ahelp hid=\".uno:PrevRecord\">Takes you to the previous record.</ahelp>"
+msgstr "<ahelp hid=\".uno:PrevRecord\">Предизвиква преход към предишния запис.</ahelp>"
+
+#. AJswu
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3149121\n"
+"help.text"
+msgid "Next Record"
+msgstr "Следващ запис"
+
+#. ShvmR
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3146913\n"
+"help.text"
+msgid "<image id=\"img_id3150753\" src=\"cmd/lc_nextrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150753\">Icon Next Record</alt></image>"
+msgstr "<image id=\"img_id3150753\" src=\"cmd/lc_nextrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150753\">Икона за следващ запис</alt></image>"
+
+#. BJBj8
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3148914\n"
+"help.text"
+msgid "<ahelp hid=\".uno:NextRecord\">Takes you to the next record.</ahelp>"
+msgstr "<ahelp hid=\".uno:NextRecord\">Предизвиква преход към следващия запис.</ahelp>"
+
+#. 6dE4g
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3148997\n"
+"help.text"
+msgid "Last Record"
+msgstr "Последен запис"
+
+#. up7uJ
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3155337\n"
+"help.text"
+msgid "<image id=\"img_id3163808\" src=\"cmd/lc_lastrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3163808\">Icon Last Record</alt></image>"
+msgstr "<image id=\"img_id3163808\" src=\"cmd/lc_lastrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3163808\">Икона за последен запис</alt></image>"
+
+#. 65BvC
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3151248\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LastRecord\">Takes you to the last record.</ahelp>"
+msgstr "<ahelp hid=\".uno:LastRecord\">Предизвиква преход към последния запис.</ahelp>"
+
+#. aKiBF
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3149967\n"
+"help.text"
+msgid "New Record"
+msgstr "Нов запис"
+
+#. D8UvX
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3149735\n"
+"help.text"
+msgid "<image id=\"img_id3155578\" src=\"cmd/lc_newrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155578\">Icon New Record</alt></image>"
+msgstr "<image id=\"img_id3155578\" src=\"cmd/lc_newrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155578\">Икона за нов запис</alt></image>"
+
+#. e4GJo
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3148460\n"
+"help.text"
+msgid "<ahelp hid=\".uno:NewRecord\">Creates a new record.</ahelp>"
+msgstr "<ahelp hid=\".uno:NewRecord\">Създава нов запис.</ahelp>"
+
+#. xhXB3
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3145231\n"
+"help.text"
+msgid "Save Record"
+msgstr "Запазване на запис"
+
+#. aLCSc
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3150647\n"
+"help.text"
+msgid "<image id=\"img_id3150941\" src=\"cmd/lc_recsave.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150941\">Icon</alt></image>"
+msgstr "<image id=\"img_id3150941\" src=\"cmd/lc_recsave.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150941\">Икона</alt></image>"
+
+#. Dbdf5
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3146808\n"
+"help.text"
+msgid "<ahelp hid=\".uno:RecSave\">Saves a new data entry. The change is registered in the database.</ahelp>"
+msgstr "<ahelp hid=\".uno:RecSave\">Запазва въведени нови данни. Промяната се отразява в базата от данни.</ahelp>"
+
+#. pc8vm
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3158446\n"
+"help.text"
+msgid "Undo: Data entry"
+msgstr "Отмяна: въвеждане на данни"
+
+#. AbFTp
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3166423\n"
+"help.text"
+msgid "<image id=\"img_id3156138\" src=\"cmd/lc_recundo.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156138\">Icon Undo Data Entry</alt></image>"
+msgstr "<image id=\"img_id3156138\" src=\"cmd/lc_recundo.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156138\">Икона за отмяна на въвеждане на данни</alt></image>"
+
+#. GAZ7t
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3151276\n"
+"help.text"
+msgid "<ahelp hid=\".uno:RecUndo\">Allows you to undo a data entry.</ahelp>"
+msgstr "<ahelp hid=\".uno:RecUndo\">Позволява ви да отмените въвеждането на данни.</ahelp>"
+
+#. BEGSZ
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3153659\n"
+"help.text"
+msgid "Delete Record"
+msgstr "Изтриване на запис"
+
+#. QiWg2
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3145584\n"
+"help.text"
+msgid "<image id=\"img_id3166434\" src=\"cmd/lc_deleterecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3166434\">Icon Delete Record</alt></image>"
+msgstr "<image id=\"img_id3166434\" src=\"cmd/lc_deleterecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3166434\">Икона за изтриване на запис</alt></image>"
+
+#. noMmE
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3148817\n"
+"help.text"
+msgid "<ahelp hid=\".uno:DeleteRecord\">Deletes a record. A query needs to be confirmed before deleting.</ahelp>"
+msgstr "<ahelp hid=\".uno:DeleteRecord\">Изтрива запис. Изисква потвърждение преди самото изтриване.</ahelp>"
+
+#. oon6s
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id161647003427601\n"
+"help.text"
+msgid "Refresh Control"
+msgstr "Опресняване на контрола"
+
+#. zuPjH
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id861647005853278\n"
+"help.text"
+msgid "<image src=\"cmd/lc_refreshformcontrol.svg\" id=\"img_id901647005853278\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id581647005853278\">Icon Refresh Control</alt></image>"
+msgstr "<image src=\"cmd/lc_refreshformcontrol.svg\" id=\"img_id901647005853278\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id581647005853278\">Икона за опресняване на контрола</alt></image>"
+
+#. 8RmLu
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id811647005853278\n"
+"help.text"
+msgid "Refresh current control"
+msgstr "Опресняване на текущата контрола"
+
+#. AqwfH
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3148599\n"
+"help.text"
+msgid "<link href=\"text/shared/02/12100100.xhp\">Sort</link>"
+msgstr "<link href=\"text/shared/02/12100100.xhp\">Сортиране</link>"
+
+#. oSJoq
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"tit\n"
+"help.text"
+msgid "Query Design Bar"
+msgstr "Лента Проектиране на заявка"
+
+#. Q6Prc
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"hd_id3159176\n"
+"help.text"
+msgid "<link href=\"text/shared/main0214.xhp\">Query Design Bar</link>"
+msgstr "<link href=\"text/shared/main0214.xhp\">Лента Проектиране на заявка</link>"
+
+#. YwUQD
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"par_id3150085\n"
+"help.text"
+msgid "<ahelp hid=\".\">When creating or editing an SQL query, use the icons in the <emph>Query Design</emph> Bar to control the display of data.</ahelp>"
+msgstr "<ahelp hid=\".\">Когато създавате или редактирате заявка на SQL, ползвайте иконите от лентата <emph>Проектиране на заявка</emph>, за да управлявате изобразяването на данните.</ahelp>"
+
+#. VXp6T
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"par_id3150276\n"
+"help.text"
+msgid "Depending on whether you have created the query or view in the <emph>Design</emph> or <emph>SQL</emph> tab page, the following icons appear:"
+msgstr "Според това дали сте създали заявката или виртуалната таблица в раздела <emph>Проектиране</emph> или <emph>SQL</emph>, се виждат следните икони:"
+
+#. 56jjt
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"hd_id3151384\n"
+"help.text"
+msgid "<link href=\"text/shared/02/14020100.xhp\">Add Tables</link>"
+msgstr "<link href=\"text/shared/02/14020100.xhp\">Добавяне на таблици</link>"
+
+#. FZFsy
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"par_id3151041\n"
+"help.text"
+msgid "The following icon is on the <emph>SQL</emph> tab page:"
+msgstr "Следната икона се намира в раздела <emph>SQL</emph>:"
+
+#. uHP9A
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Design Toolbar"
+msgstr "Лента Проектиране на формуляр"
+
+#. BMAxN
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"hd_id3148520\n"
+"help.text"
+msgid "<link href=\"text/shared/main0226.xhp\">Form Design Toolbar</link>"
+msgstr "<link href=\"text/shared/main0226.xhp\">Лента Проектиране на формуляр</link>"
+
+#. r7rXm
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"par_id3155364\n"
+"help.text"
+msgid "The Form Design toolbar becomes visible as soon as you select a form object when working in the design mode."
+msgstr "Лентата за проектиране на формуляр се появява, когато изберете обект от формуляр в режим Проектиране."
+
+#. YJDCw
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"hd_id3163802\n"
+"help.text"
+msgid "<link href=\"text/shared/02/01170400.xhp\">Add Field</link>"
+msgstr "<link href=\"text/shared/02/01170400.xhp\">Добавяне на поле</link>"
+
+#. vStBU
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"hd_id3146815\n"
+"help.text"
+msgid "<variable id=\"automaticcontrolfocus\"><link href=\"text/shared/main0226.xhp#automatic_control_focus\">Automatic Control Focus</link></variable>"
+msgstr "<variable id=\"automaticcontrolfocus\"><link href=\"text/shared/main0226.xhp#automatic_control_focus\">Автоматично фокусиране на контролите</link></variable>"
+
+#. gg2Ag
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"par_id3150261\n"
+"help.text"
+msgid "<image id=\"img_id3149351\" src=\"cmd/sc_autocontrolfocus.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149351\">Icon</alt></image>"
+msgstr "<image id=\"img_id3149351\" src=\"cmd/sc_autocontrolfocus.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149351\">Икона</alt></image>"
+
+#. 5WaEw
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"par_id3109848\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AutoControlFocus\">If <emph>Automatic Control Focus</emph> is activated, the first form control will be selected when you open the document. If the button is not activated, the text will be selected after opening. The <link href=\"text/shared/02/01170300.xhp\">Tab Order</link> that you have specified determines which is the first form control.</ahelp>"
+msgstr "<ahelp hid=\".uno:AutoControlFocus\">Ако е включен режимът <emph>Автоматично фокусиране на контролите</emph>, при отварянето на документа ще бъде избрана първата контрола във формуляра. Ако бутонът не е включен, след отварянето ще бъде избран текстът. Коя е първата контрола във формуляра се задава чрез командата <link href=\"text/shared/02/01170300.xhp\">Ред на активиране</link>.</ahelp>"
+
+#. VWNKD
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"hd_id3148920\n"
+"help.text"
+msgid "<link href=\"text/shared/02/01171400.xhp\">Helplines While Moving</link>"
+msgstr "<link href=\"text/shared/02/01171400.xhp\">Помощни линии при местене</link>"
+
+#. 94V64
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"tit\n"
+"help.text"
+msgid "Edit Points Bar"
+msgstr "Лента Редактиране по възли"
+
+#. VSwqX
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"bm_id3149987\n"
+"help.text"
+msgid "<bookmark_value>lines; editing points</bookmark_value><bookmark_value>curves; editing points</bookmark_value><bookmark_value>Edit Points bar</bookmark_value>"
+msgstr "<bookmark_value>линии; редактиране по възли</bookmark_value><bookmark_value>криви, редактиране по възли</bookmark_value><bookmark_value>лента Редактиране по възли</bookmark_value>"
+
+#. U3Nwu
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3149987\n"
+"help.text"
+msgid "<variable id=\"edit_points_bar_h1\"><link href=\"text/shared/main0227.xhp\">Edit Points Bar</link></variable>"
+msgstr "<variable id=\"edit_points_bar_h1\"><link href=\"text/shared/main0227.xhp\">Лента „Редактиране по възли“</link></variable>"
+
+#. N5vQq
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3150402\n"
+"help.text"
+msgid "The <emph>Edit Points </emph>Bar appears when you select a polygon object and click <emph>Edit Points</emph>."
+msgstr "Лентата <emph>Редактиране по възли</emph> се появява, когато изберете многоъгълник и щракнете върху <emph>Редактиране по възли</emph>."
+
+#. SCdbw
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3144762\n"
+"help.text"
+msgid "The functions provided allow you to edit the points of a curve or an object converted to a curve. The following icons are available:"
+msgstr "Предоставяните функции ви позволяват да редактирате възлите от крива или обект, преобразуван до крива. Налице са следните икони:"
+
+#. GtMer
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3145366\n"
+"help.text"
+msgid "<image id=\"img_id3153951\" src=\"cmd/lc_toggleobjectbeziermode.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153951\">Icon Edit Points</alt></image>"
+msgstr "<image id=\"img_id3153951\" src=\"cmd/lc_toggleobjectbeziermode.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153951\">Икона за редактиране по възли</alt></image>"
+
+#. wNGCc
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3150105\n"
+"help.text"
+msgid "Edit Points"
+msgstr "Редактиране по възли"
+
+#. tj2MY
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3146976\n"
+"help.text"
+msgid "Move Points"
+msgstr "Местене на възли"
+
+#. FGTDm
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3147435\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierMove\">Activates a mode in which you can move points.</ahelp> The mouse pointer displays a small empty square when resting on a point. Drag that point to another location. The curve on both sides of the point follows the movement; the section of the curve between the next points changes shape."
+msgstr "<ahelp hid=\".uno:BezierMove\">Включва режим, в който можете да местите възли.</ahelp> Когато поставите показалеца на мишката върху възел, до него се появява малко празно квадратче. Плъзнете възела на друго място. Кривата от двете страни на възела ще следва движението, като отрязъкът от кривата между съседните възли ще променя формата си."
+
+#. aAAN6
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3149481\n"
+"help.text"
+msgid "Point at the curve between two points or within a closed curve and drag the mouse to shift the entire curve without distorting the form."
+msgstr "Посочете кривата между два възела или вътрешността на затворена крива и плъзнете с мишката, за да преместите цялата крива, без да я деформирате."
+
+#. 2FrPH
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3154096\n"
+"help.text"
+msgid "<image id=\"img_id3149377\" src=\"cmd/lc_beziermove.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149377\">Icon Move Points</alt></image>"
+msgstr "<image id=\"img_id3149377\" src=\"cmd/lc_beziermove.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149377\">Икона за местене на възли</alt></image>"
+
+#. BFM7Z
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3147397\n"
+"help.text"
+msgid "Move Points"
+msgstr "Местене на възли"
+
+#. bmQbX
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3150115\n"
+"help.text"
+msgid "Insert Points"
+msgstr "Вмъкване на възли"
+
+#. iDD7a
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3160478\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierInsert\">Activates the insert mode. This mode allows you to insert points.</ahelp> You can also move points, just as in the move mode. If, however, you click at the curve between two points and move the mouse a little while holding down the mouse button you insert a new point. The point is a smooth point, and the lines to the control points are parallel and remain so when moved."
+msgstr "<ahelp hid=\".uno:BezierInsert\">Включва режима на вмъкване, който ви позволява да вмъквате възли.</ahelp> Също така можете да местите възли, както в режима за местене. Ако обаче щракнете върху крива между два възела и преместите леко мишката с натиснат бутон, ще вмъкнете нов възел. Възелът ще бъде гладък и линиите към контролните точки ще бъдат успоредни и ще остават успоредни при местене."
+
+#. xbFcA
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3157846\n"
+"help.text"
+msgid "If you wish to create a corner point you must first insert either a smooth or a symmetrical point which is then converted to a corner point by using <emph>Corner Point</emph>."
+msgstr "Ако желаете да създадете ъглов възел, трябва да вмъкнете гладък или симетричен възел, след което да го преобразувате в ъглов чрез иконата <emph>Ъглов възел</emph>."
+
+#. N35P4
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153838\n"
+"help.text"
+msgid "<image id=\"img_id3146969\" src=\"cmd/lc_bezierinsert.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146969\">Icon Insert Points</alt></image>"
+msgstr "<image id=\"img_id3146969\" src=\"cmd/lc_bezierinsert.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146969\">Икона за вмъкване на възли</alt></image>"
+
+#. Dfg35
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153710\n"
+"help.text"
+msgid "Insert Points"
+msgstr "Вмъкване на възли"
+
+#. CcGFU
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3149020\n"
+"help.text"
+msgid "Delete Points"
+msgstr "Изтриване на възли"
+
+#. EifkN
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148917\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierDelete\">Use the <emph>Delete Points</emph> icon to delete one or several selected points. If you wish to select several points click the appropriate points while holding down the Shift key.</ahelp>"
+msgstr "<ahelp hid=\".uno:BezierDelete\">Иконата <emph>Изтриване на възли</emph> служи за изтриване на един или няколко избрани възела. Ако желаете да изберете няколко възела, щракайте върху тях със задържан клавиш Shift.</ahelp>"
+
+#. tWtYC
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153766\n"
+"help.text"
+msgid "First select the points to be deleted, and then click this icon, or press Del."
+msgstr "Първо изберете възлите за изтриване, след това щракнете върху този бутон или натиснете Del."
+
+#. 5FFCM
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3147321\n"
+"help.text"
+msgid "<image id=\"img_id3146920\" src=\"cmd/lc_bezierdelete.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146920\">Icon Delete Points</alt></image>"
+msgstr "<image id=\"img_id3146920\" src=\"cmd/lc_bezierdelete.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146920\">Икона за изтриване на възли</alt></image>"
+
+#. 6i377
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3155961\n"
+"help.text"
+msgid "Delete Points"
+msgstr "Изтриване на възли"
+
+#. DEFBD
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3147361\n"
+"help.text"
+msgid "Split Curve"
+msgstr "Разделяне на крива"
+
+#. xJMxs
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3151248\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierCutLine\">The<emph> Split Curve </emph>icon splits a curve. Select the point or points where you want to split the curve, then click the icon</ahelp>."
+msgstr "<ahelp hid=\".uno:BezierCutLine\">Иконата <emph>Разделяне на крива</emph> разделя крива на две. Изберете възела или възлите, в които желаете да разделите кривата, след което щракнете върху иконата</ahelp>."
+
+#. pHdF6
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153788\n"
+"help.text"
+msgid "<image id=\"img_id3148489\" src=\"cmd/lc_beziercutline.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148489\">Icon Split Curve</alt></image>"
+msgstr "<image id=\"img_id3148489\" src=\"cmd/lc_beziercutline.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148489\">Икона за разделяне на крива</alt></image>"
+
+#. vmsiD
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3152581\n"
+"help.text"
+msgid "Split Curve"
+msgstr "Разделяне на крива"
+
+#. cBVZs
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3150345\n"
+"help.text"
+msgid "Convert To Curve"
+msgstr "Преобразуване в крива"
+
+#. DNKmR
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148420\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierConvert\">Converts a curve into a straight line or converts a straight line into a curve.</ahelp> If you select a single point, the curve before the point will be converted. If two points are selected, the curve between both points will be converted. If you select more than two points, each time you click this icon, a different portion of the curve will be converted. If necessary, round points are converted into corner points and corner points are converted into round points."
+msgstr "<ahelp hid=\".uno:BezierConvert\">Преобразува крива в права линия или обратно.</ahelp> Ако изберете само един възел, се преобразува кривата преди него. Ако изберете два възела, се преобразува кривата между тях. Ако изберете повече от два възела, при всяко щракване върху иконата ще бъде преобразуван различен отрязък от кривата. Ако е нужно, гладките възли се преобразуват в ъглови или обратно."
+
+#. 57eED
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3150304\n"
+"help.text"
+msgid "If a certain section of the curve is straight, the end points of the line have a maximum of one control point each. They cannot be modified to round points unless the straight line is converted back to a curve."
+msgstr "Ако даден сегмент от кривата е прав, крайните му възли имат максимум по една контролна точка. Те не могат да бъдат преобразувани в гладки, освен ако правата линия бъде превърната обратно в крива."
+
+#. L7FMu
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3158212\n"
+"help.text"
+msgid "<image id=\"img_id3149036\" src=\"cmd/lc_bezierconvert.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149036\">Icon Convert to Curve</alt></image>"
+msgstr "<image id=\"img_id3149036\" src=\"cmd/lc_bezierconvert.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149036\">Икона за преобразуване в крива</alt></image>"
+
+#. PtsWF
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3158445\n"
+"help.text"
+msgid "Convert To Curve"
+msgstr "Преобразуване в крива"
+
+#. GJN2S
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3153199\n"
+"help.text"
+msgid "Corner Point"
+msgstr "Ъглов възел"
+
+#. UmXZR
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148460\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierEdge\">Converts the selected point or points into corner points.</ahelp> Corner points have two movable control points, which are independent from each other. A curved line, therefore, does not go straight through a corner point, but forms a corner."
+msgstr "<ahelp hid=\".uno:BezierEdge\">Преобразува избрания възел или възли в ъглови.</ahelp> Ъгловите възли имат по две подвижни контролни точки, независими една от друга. Затова кривите линии не преминават направо през възела, а оформят чупка."
+
+#. nGTf9
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3154576\n"
+"help.text"
+msgid "<image id=\"img_id3154201\" src=\"cmd/lc_bezieredge.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154201\">Icon Corner Point</alt></image>"
+msgstr "<image id=\"img_id3154201\" src=\"cmd/lc_bezieredge.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154201\">Икона за ъглов възел</alt></image>"
+
+#. eLuKD
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3166429\n"
+"help.text"
+msgid "Corner Point"
+msgstr "Ъглов възел"
+
+#. qvsQR
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3166436\n"
+"help.text"
+msgid "Smooth Transition"
+msgstr "Гладък преход"
+
+#. LVrmB
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3155510\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierSmooth\">Converts a corner point or symmetrical point into a smooth point.</ahelp> Both control points of the corner point are aligned in parallel, and can only be moved simultaneously. The control points may differentiate in length, allowing you to vary the degree of curvature."
+msgstr "<ahelp hid=\".uno:BezierSmooth\">Преобразува ъглов или симетричен възел в гладък.</ahelp> Двете контролни точки на ъгловия възел се поставят една срещу друга и могат да се местят само едновременно. Разстоянията между възела и двете контролни точки може да са различни, което ви позволява да регулирате кривината на линията."
+
+#. DAXKE
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148813\n"
+"help.text"
+msgid "<image id=\"img_id3151183\" src=\"cmd/lc_beziersmooth.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151183\">Icon Smooth Transition</alt></image>"
+msgstr "<image id=\"img_id3151183\" src=\"cmd/lc_beziersmooth.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151183\">Икона за гладък преход</alt></image>"
+
+#. MLk9o
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3154258\n"
+"help.text"
+msgid "Smooth Transition"
+msgstr "Гладък преход"
+
+#. Q9GqB
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3159622\n"
+"help.text"
+msgid "Symmetric Transition"
+msgstr "Симетричен преход"
+
+#. fGgjS
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3155812\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierSymmetric\">This icon converts a corner point or a smooth point into a symmetrical point.</ahelp> Both control points of the corner point are aligned in parallel and have the same length. They can only be moved simultaneously and the degree of curvature is the same in both directions."
+msgstr "<ahelp hid=\".uno:BezierSymmetric\">Тази икона преобразува ъглов или гладък възел в симетричен.</ahelp> Двете контролни точки на ъгловия възел се поставят една срещу друга, на равни разстояния от възела. Те могат да се местят само едновременно и кривината е еднаква и в двете посоки."
+
+#. DAqSZ
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153818\n"
+"help.text"
+msgid "<image id=\"img_id3159218\" src=\"cmd/lc_beziersymmetric.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3159218\">Icon Symmetric Transition</alt></image>"
+msgstr "<image id=\"img_id3159218\" src=\"cmd/lc_beziersymmetric.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3159218\">Икона за симетричен преход</alt></image>"
+
+#. 2Byoz
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3146866\n"
+"help.text"
+msgid "Symmetric Transition"
+msgstr "Симетричен преход"
+
+#. DAS5H
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3146786\n"
+"help.text"
+msgid "Close Bézier"
+msgstr "Затваряне на крива на Безие"
+
+#. L7eHE
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3156032\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierClose\">Closes a line or a curve.</ahelp> A line is closed by connecting the last point with the first point, indicated by an enlarged square."
+msgstr "<ahelp hid=\".uno:BezierClose\">Затваря начупена или крива линия.</ahelp> Затварянето става чрез свързване на последната точка с първата (отбелязана с по-голямо квадратче)."
+
+#. evNGB
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3154344\n"
+"help.text"
+msgid "<image id=\"img_id3148607\" src=\"cmd/lc_bezierclose.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148607\">Icon Close Bézier</alt></image>"
+msgstr "<image id=\"img_id3148607\" src=\"cmd/lc_bezierclose.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148607\">Икона за затваряне на крива на Безие</alt></image>"
+
+#. 29q2Q
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3147070\n"
+"help.text"
+msgid "Close Bézier"
+msgstr "Затваряне на крива на Безие"
+
+#. RCPw8
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148970\n"
+"help.text"
+msgid "<image id=\"img_id3155385\" src=\"cmd/lc_beziereliminatepoints.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155385\">Icon Eliminate Points</alt></image>"
+msgstr "<image id=\"img_id3155385\" src=\"cmd/lc_beziereliminatepoints.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155385\">Икона за елиминиране на възли</alt></image>"
+
+#. vHE4T
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3152869\n"
+"help.text"
+msgid "Eliminate Points"
+msgstr "Елиминиране на възли"
+
+#. 8AFz5
+#: main0400.xhp
+msgctxt ""
+"main0400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Shortcut Keys"
+msgstr "Клавишни комбинации"
+
+#. 7fYZK
+#: main0400.xhp
+msgctxt ""
+"main0400.xhp\n"
+"hd_id3149495\n"
+"help.text"
+msgid "<link href=\"text/shared/main0400.xhp\">Shortcut Keys</link>"
+msgstr "<link href=\"text/shared/main0400.xhp\">Клавишни комбинации</link>"
+
+#. WPGJg
+#: main0400.xhp
+msgctxt ""
+"main0400.xhp\n"
+"par_id3150040\n"
+"help.text"
+msgid "This section contains descriptions of frequently used shortcut keys in $[officename]."
+msgstr "Този раздел съдържа описание на често използваните клавишни комбинации в $[officename]."
+
+#. 8Fk6L
+#: main0500.xhp
+msgctxt ""
+"main0500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Glossaries"
+msgstr "Речници на понятия"
+
+#. CDvUF
+#: main0500.xhp
+msgctxt ""
+"main0500.xhp\n"
+"hd_id3156183\n"
+"help.text"
+msgid "<link href=\"text/shared/main0500.xhp\">Glossaries</link>"
+msgstr "<link href=\"text/shared/main0500.xhp\">Речници на понятия</link>"
+
+#. dziDW
+#: main0500.xhp
+msgctxt ""
+"main0500.xhp\n"
+"par_id3157898\n"
+"help.text"
+msgid "This section provides a general glossary of technical terms used in $[officename], along with a list of Internet terms."
+msgstr "Този раздел съдържа общ речник на техническите термини, използвани в $[officename], както и списък на термини, свързани с Интернет."
+
+#. vAUtX
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"tit\n"
+"help.text"
+msgid "Java Platform Support"
+msgstr "Поддръжка на платформата Java"
+
+#. Cwsus
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"hd_id3153089\n"
+"help.text"
+msgid "<link href=\"text/shared/main0650.xhp\">Java Platform Support</link>"
+msgstr "<link href=\"text/shared/main0650.xhp\">Поддръжка на платформата Java</link>"
+
+#. dPzDx
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3152363\n"
+"help.text"
+msgid "$[officename] supports the Java platform for running applications and components based on the JavaBeans architecture."
+msgstr "$[officename] поддържа платформата Java за изпълнение на приложения и компоненти, базирани на архитектурата JavaBeans."
+
+#. Bwg5V
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3154751\n"
+"help.text"
+msgid "For $[officename] to support the Java platform, you must install the Java 2 Runtime Environment software. When you installed $[officename], you automatically received the option to install these files if they were not yet installed. You can also install these files now if required."
+msgstr "За да работи поддръжката на $[officename] за Java, трябва първо да инсталирате средата за изпълнение Java 2 Runtime Environment. При инсталирането на $[officename] сте получили автоматична подкана да инсталирате тези файлове, ако те все още не са били инсталирани. Ако е нужно, можете да ги инсталирате и сега."
+
+#. wFYWg
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "The Java platform support needs to be activated under $[officename] to run Java applications."
+msgstr "За да се изпълняват приложения на Java, поддръжката на платформата трябва да бъде активирана в $[officename]."
+
+#. H2Vk4
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3155892\n"
+"help.text"
+msgid "Enable Java platform support by choosing <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - </emph><link href=\"text/shared/optionen/java.xhp\"><emph>$[officename] - Advanced</emph></link>."
+msgstr "Активирайте поддръжката на платформата за Java, като изберете <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Инструменти - Настройки</emph></defaultinline></switchinline><emph> - </emph><link href=\"text/shared/optionen/java.xhp\"><emph>$[officename] - Разширени</emph></link>."
+
+#. NcDL4
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id9116183\n"
+"help.text"
+msgid "Before you can use a JDBC driver, you need to add its class path. Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - %PRODUCTNAME - Advanced, and click the Class Path button. After you add the path information, restart %PRODUCTNAME."
+msgstr "Преди да можете да използвате драйвера за JDBC, трябва да добавите пътя до класовете му. Изберете <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Инструменти - Настройки</defaultinline></switchinline> - %PRODUCTNAME - Разширени и натиснете бутона „Път за класове“. След като добавите информацията за пътя, рестартирайте %PRODUCTNAME."
+
+#. 9YUwB
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3153822\n"
+"help.text"
+msgid "Your modifications at the <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - $[officename] - Advanced</emph> tab page will be used even if the Java Virtual Machine (JVM) has been started already. After any modifications to the ClassPath you must restart $[officename]. The same is true for modifications under <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - Internet - Proxy</emph>. Only the boxes \"HTTP Proxy\" and their ports do not require a restart—they will be evaluated when you click <emph>OK</emph>."
+msgstr "Промените в раздела <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Инструменти - Настройки</emph></defaultinline></switchinline><emph> - $[officename] - Разширени</emph> ще влязат в сила дори ако виртуалната машина на Java вече е стартирана. След промени в параметъра ClassPath трябва да рестартирате $[officename]. Същото важи за промени в раздела <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Инструменти - Настройки</emph></defaultinline></switchinline><emph> - Интернет - Прокси</emph>. Само полетата „Прокси за HTTP“ и съответните портове не изискват рестартиране – те се обработват, когато натиснете <emph>OK</emph>."
+
+#. rFknA
+#: main0800.xhp
+msgctxt ""
+"main0800.xhp\n"
+"tit\n"
+"help.text"
+msgid "$[officename] and the Internet"
+msgstr "$[officename] и Интернет"
+
+#. QrCDK
+#: main0800.xhp
+msgctxt ""
+"main0800.xhp\n"
+"hd_id3153089\n"
+"help.text"
+msgid "<link href=\"text/shared/main0800.xhp\">$[officename] and the Internet</link>"
+msgstr "<link href=\"text/shared/main0800.xhp\">$[officename] и Интернет</link>"
+
+#. C7HK8
+#: main0800.xhp
+msgctxt ""
+"main0800.xhp\n"
+"par_id3155150\n"
+"help.text"
+msgid "This section provides information on the subject of the Internet. An <link href=\"text/shared/00/00000002.xhp\">Internet glossary</link> explains the most important terms."
+msgstr "Този раздел съдържа информация относно Интернет. Най-важните понятия са обяснени в <link href=\"text/shared/00/00000002.xhp\">речника на понятия, свързани с Интернет</link>."
+
+#. SjyhY
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"tit\n"
+"help.text"
+msgid "Edit"
+msgstr "Редактиране"
+
+#. x6XnX
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id121748531799432\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main_edit.xhp\">Edit</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/main_edit.xhp\">Редактиране</link></variable>"
+
+#. xHRUz
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_id3154758\n"
+"help.text"
+msgid "<ahelp hid=\".\">This menu contains commands for editing the contents of the current document.</ahelp>"
+msgstr "<ahelp hid=\".\">Менюто съдържа команди за редактиране съдържанието на текущия документ.</ahelp>"
+
+#. aMY3b
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_id521748534330686\n"
+"help.text"
+msgid "Choose <menuitem>Edit</menuitem>."
+msgstr "Изберете <menuitem>Редактиране</menuitem>."
+
+#. Pq83E
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id0914201501170124\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/02140000.xhp\">Fields</link>"
+msgstr "<link href=\"text/swriter/01/02140000.xhp\">Полета</link>"
+
+#. FzjXf
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id3147005\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/02120000.xhp\">Duplicate</link>"
+msgstr "<link href=\"text/simpress/01/02120000.xhp\">Дублиране</link>"
+
+#. h9TZc
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id3150205\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/02150000.xhp\">Cross-fading</link>"
+msgstr "<link href=\"text/simpress/01/02150000.xhp\">Преливане</link>"
+
+#. z2ikf
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id3153683\n"
+"help.text"
+msgid "Edit"
+msgstr "Редактиране"
+
+#. A2Nmz
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_id3147209\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a window where you can edit the selected table, query, form, or report.</ahelp>"
+msgstr "<ahelp hid=\".\">Отваря прозорец, в който можете да редактирате избраната таблица, заявка, формуляр или справка.</ahelp>"
+
+#. 3P96n
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id3145315\n"
+"help.text"
+msgid "Delete"
+msgstr "Изтриване"
+
+#. G4RSC
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_id3153666\n"
+"help.text"
+msgid "<ahelp hid=\".\">Deletes the selected table, query, form, or report.</ahelp>"
+msgstr "<ahelp hid=\".\">Изтрива избраната таблица, заявка, формуляр или справка.</ahelp>"
+
+#. Xnhv9
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN1057C\n"
+"help.text"
+msgid "Rename"
+msgstr "Преименуване"
+
+#. kThwN
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN10580\n"
+"help.text"
+msgid "<ahelp hid=\".\">Renames the selected object. Depending on the database, some names, characters, and name length might be invalid.</ahelp>"
+msgstr "<ahelp hid=\".\">Преименува избрания обект. В зависимост от базата от данни някои имена, знаци и дължини на името може да са невалидни.</ahelp>"
+
+#. BFo3d
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN1058A\n"
+"help.text"
+msgid "Open"
+msgstr "Отваряне"
+
+#. Smjoz
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN1058E\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens the selected object in the last saved state.</ahelp>"
+msgstr "<ahelp hid=\".\">Отваря избрания обект в последното му записано състояние.</ahelp>"
+
+#. E83oC
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN10591\n"
+"help.text"
+msgid "Create as View"
+msgstr "Създаване като виртуална таблица"
+
+#. g79dd
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105A7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts the selected query to a view. The original query remains in your database file and an additional view is generated on the database server. You must have write permission to add a view to a database.</ahelp>"
+msgstr "<ahelp hid=\".\">Преобразува избраната заявка до виртуална таблица. Оригиналната заявка остава във файла на базата от данни, а в сървъра на базата се генерира нова виртуална таблица. За да добавите виртуална таблица към база от данни, трябва да имате разрешение за писане в нея.</ahelp>"
+
+#. DYVVR
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105AA\n"
+"help.text"
+msgid "Most databases use queries to filter or to sort database tables to display records on your computer. Views offer the same functionality as queries, but on the server side. If your database is on a server that supports views, you can use views to filter the records on the server to speed up the display time."
+msgstr "В повечето бази от данни филтрирането или сортирането на данните за показване на екрана се извършва чрез заявки. Виртуалните таблици предлагат същата функционалност, както заявките, но от страната на сървъра. Ако базата от данни е в сървър, който поддържа виртуални таблици, чрез тях можете да филтрирате записите още в сървъра – така ще ускорите показването им."
+
+#. JzyC6
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105AD\n"
+"help.text"
+msgid "Form Wizard"
+msgstr "Помощник за формуляри"
+
+#. Ytj8X
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105B1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the <link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link> for the selected table, query, or view.</ahelp>"
+msgstr "<ahelp hid=\".\">Стартира <link href=\"text/shared/autopi/01090000.xhp\">помощника за формуляри</link> за избраната таблица, заявка или виртуална таблица.</ahelp>"
+
+#. 5Wvqs
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105C2\n"
+"help.text"
+msgid "Report Wizard"
+msgstr "Помощник за справка"
+
+#. m5zGb
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105C6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the <link href=\"text/shared/autopi/01100000.xhp\">Report Wizard</link> for the selected table, query, or view.</ahelp>"
+msgstr "<ahelp hid=\".\">Стартира <link href=\"text/shared/autopi/01100000.xhp\">помощника за справки</link> за избраната таблица, заявка или виртуална таблица.</ahelp>"
+
+#. MYHnQ
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Database"
+msgstr "Бази от данни"
+
+#. vaEwd
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu.</ahelp>"
+msgstr "<ahelp hid=\".\">Отваря подменю.</ahelp>"
+
+#. VWEk6
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Properties"
+msgstr "Свойства"
+
+#. eqzaF
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens the Database Properties dialog.</ahelp>"
+msgstr "<ahelp hid=\".\">Отваря диалоговия прозорец „Свойства на базата от данни“.</ahelp>"
+
+#. tFXmZ
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Connection Type"
+msgstr "Тип на връзката"
+
+#. NBQ5h
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens the Connection Type Wizard.</ahelp>"
+msgstr "<ahelp hid=\".\">Отваря помощника за тип на връзката.</ahelp>"
+
+#. XNxGG
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "Advanced Properties"
+msgstr "Разширени свойства"
+
+#. k7Ys3
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105F7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens the Advanced Properties dialog.</ahelp>"
+msgstr "<ahelp hid=\".\">Отваря диалоговия прозорец „Разширени свойства“.</ahelp>"
+
+#. XiyED
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"tit\n"
+"help.text"
+msgid "Format"
+msgstr "Форматиране"
+
+#. jQp48
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"hd_id911748544026656\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main_format.xhp\">Format</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/main_format.xhp\">Форматиране</link></variable>"
+
+#. AaEcr
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"par_id3147218\n"
+"help.text"
+msgid "Contains commands for formatting the layout and the contents of your document."
+msgstr "Съдържа команди за форматиране на оформлението и съдържанието на документа."
+
+#. 3Bhnn
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"hd_id201602976343046\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05020000.xhp\">Comments</link>"
+msgstr "<link href=\"text/shared/01/05020000.xhp\">Коментари</link>"
+
+#. DCDdF
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"par_id61602976356685\n"
+"help.text"
+msgid "When comments are present, the character dialog is presented. Changes to font and font formatting are applied to all comments."
+msgstr "Когато са налице коментари, се показва диалоговият прозорец за знаци. Промените в шрифта и шрифтовото форматиране се прилагат върху всички коментари."
+
+#. p295g
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"hd_id851701617819857\n"
+"help.text"
+msgid "Chart - Export as Image"
+msgstr "Диаграма - Експортиране като изображение"
+
+#. F5dx8
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"par_id791701617919079\n"
+"help.text"
+msgid "Exports directly the chart as image. Select the image file type in the Save dialog."
+msgstr "Експортира директно диаграмата като изображение. Изберете типа на файла с изображението в диалога „Записване“."
+
+#. 4YhEH
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"tit\n"
+"help.text"
+msgid "Main Tools Menu"
+msgstr "Главно меню „Инструменти“"
+
+#. 7jd7X
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"hd_id931695907853611\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main_tools.xhp\">Tools</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/main_tools.xhp\">Инструменти</link></variable>"
+
+#. 9Gkzv
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id3147258\n"
+"help.text"
+msgid "<ahelp hid=\".\">Contains spelling tools, redact options, mail merge wizard, macros, development tools, extension manager, as well as tools for configuring and customizing menus, and setting program preferences.</ahelp>"
+msgstr "<ahelp hid=\".\">Съдържа инструменти за правопис, възможности за заличаване на информация, помощник за циркулярни писма, инструменти за разработчици, управление на разширения, както и инструменти за конфигуриране и персонализиране на менюта и задаване на предпочитания за програмата.</ahelp>"
+
+#. Cqcd2
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id3150440\n"
+"help.text"
+msgid "<ahelp hid=\".\">The <emph>Tools</emph> menu contains commands to check spelling, to trace sheet references, to find mistakes and to define scenarios, as well as tools for configuring menus, and setting program preferences.</ahelp>"
+msgstr "<ahelp hid=\".\">Менюто <emph>Инструменти</emph> съдържа команди за проверка на правописа, проследяване на обръщенията в лист, намиране на грешки и дефиниране на сценарии, както и такива за конфигуриране на менютата и задаване настройките на програмата.</ahelp>"
+
+#. 8RKCG
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id3155064\n"
+"help.text"
+msgid "<ahelp hid=\".\">Contains spelling tools, media player, color replacer, presentation minimizer and tools for configuring menus, and setting program preferences.</ahelp>"
+msgstr "<ahelp hid=\".\">Съдържа инструменти за проверка на правописа, мултимедиен плейър, инструмент за замяна на цветове, минимизатор на презентации и инструменти за конфигуриране на менютата и задаване настройките на програмата.</ahelp>"
+
+#. RVeBo
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id3156443\n"
+"help.text"
+msgid "This menu provides tools for $[officename] Draw as well as access to language and system settings."
+msgstr "Менюто съдържа инструменти на $[officename] Draw и предоставя достъп до езиковите и системните настройки."
+
+#. iRaXX
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id31695910499529\n"
+"help.text"
+msgid "Choose <menuitem>Tools</menuitem>."
+msgstr "Изберете <menuitem>Инструменти</menuitem>."
+
+#. CVXfa
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"hd_id841755868691902\n"
+"help.text"
+msgid "Automatic Accessibility Checking"
+msgstr "Автоматична проверка за достъпност"
+
+#. qCvdD
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id611755868819970\n"
+"help.text"
+msgid "Checks common accessibility problems in the document automatically."
+msgstr "Автоматично проверява документа за често срещани проблеми с достъпността."
+
+#. NJGJa
+#: need_help.xhp
+msgctxt ""
+"need_help.xhp\n"
+"tit\n"
+"help.text"
+msgid "We Need Your Help"
+msgstr "Необходима ни е вашата помощ"
+
+#. Pw8Hr
+#: need_help.xhp
+msgctxt ""
+"need_help.xhp\n"
+"hd_id1000010\n"
+"help.text"
+msgid "This help page needs further work for correctness and completion. Please join the LibreOffice project and help us out to write the missing information. Visit our <link href=\"https://documentation.libreoffice.org/en/join-community/update-help-contents\"><emph>web page on writing Help contents</emph></link>."
+msgstr "Необходима е още работа по правилността и пълнотата на тази страница. Моля, присъединете се към проекта LibreOffice и ни помогнете да попълним липсващата информация. Посетете <link href=\"https://documentation.libreoffice.org/en/join-community/update-help-contents\"><emph>уебстраницата ни относно създаването на съдържание за помощта</emph></link>."

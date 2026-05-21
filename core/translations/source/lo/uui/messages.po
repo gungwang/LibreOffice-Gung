@@ -1,0 +1,1369 @@
+#. extracted from uui/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-11-18 17:39+0100\n"
+"PO-Revision-Date: 2026-05-04 16:31+0000\n"
+"Last-Translator: NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translations.documentfoundation.org/projects/libo_ui-master/uuimessages/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1522252565.000000\n"
+
+#. DLY8p
+#: uui/inc/ids.hrc:33
+msgctxt "RID_UUI_ERRHDL"
+msgid "The operation executed on $(ARG1) was aborted."
+msgstr "ການປະຕິບັດງານຢູ່ $(ARG1) ຖືກຍົກເລີກ."
+
+#. Q448y
+#: uui/inc/ids.hrc:35
+msgctxt "RID_UUI_ERRHDL"
+msgid "Access to $(ARG1) was denied."
+msgstr "ການເຂົ້າເຖິງ $(ARG1) ຖືກປະຕິເສດ."
+
+#. w6rpp
+#: uui/inc/ids.hrc:37
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) already exists."
+msgstr "$(ARG1) ມີຢູ່ແລ້ວ."
+
+#. a6BBm
+#: uui/inc/ids.hrc:39
+msgctxt "RID_UUI_ERRHDL"
+msgid "Target already exists."
+msgstr "ເປົ້າໝາຍມີຢູ່ແລ້ວ."
+
+#. m4G3E
+#: uui/inc/ids.hrc:41
+msgctxt "RID_UUI_ERRHDL"
+msgid ""
+"You are saving a password protected Basic library containing the following large module(s): \n"
+"$(ARG1)\n"
+"Storing those large module(s) in binary format, which is necessary for password protection, makes them unreadable in versions older than LibreOffice 5.0.3. If you want to avoid this please split the module into smaller pieces."
+msgstr ""
+"ທ່ານກຳລັງບັນທຶກໄລບຣາຣີ Basic ທີ່ປ້ອງກັນດ້ວຍລະຫັດຜ່ານ ເຊິ່ງມີໂມດູນຂະໜາດໃຫຍ່: \n"
+"$(ARG1)\n"
+"ການຈັດເກັບໂມດູນເຫຼົ່ານັ້ນໃນຮູບແບບໄບນາຣີ ເຊິ່ງຈຳເປັນສຳລັບການປ້ອງກັນລະຫັດຜ່ານ ຈະເຮັດໃຫ້ບໍ່ສາມາດອ່ານໄດ້ໃນ LibreOffice ລຸ້ນຕ່ຳກວ່າ 5.0.3. ຖ້າທ່ານຕ້ອງການຫຼີກລ່ຽງບັນຫານີ້ ກະລຸນາແຍກໂມດູນອອກເປັນສ່ວນຍ່ອຍໆ."
+
+#. 3rNDF
+#: uui/inc/ids.hrc:43
+msgctxt "RID_UUI_ERRHDL"
+msgid ""
+"Beware!\n"
+"\n"
+"You are about to load a very unusual sort of file ($(ARG2)) from the URL:\n"
+"\n"
+"$(ARG1)\n"
+"\n"
+"Are you certain that this file is a legacy document created many years ago?"
+msgstr ""
+"ລະວັງ!\n"
+"\n"
+"ທ່ານກຳລັງຈະໂຫຼດແຟ້ມປະເພດທີ່ບໍ່ປົກກະຕິ ($(ARG2)) ຈາກ URL:\n"
+"\n"
+"$(ARG1)\n"
+"\n"
+"ທ່ານແນ່ໃຈບໍ່ວ່າແຟ້ມນີ້ແມ່ນເອກະສານແບບເກົ່າທີ່ສ້າງຂຶ້ນເມື່ອຫຼາຍປີກ່ອນ?"
+
+#. v6bPE
+#: uui/inc/ids.hrc:45
+msgctxt "RID_UUI_ERRHDL"
+msgid "The data from $(ARG1) has an incorrect checksum."
+msgstr "ຂໍ້ມູນຈາກ $(ARG1) ມີຄ່າກວດສອບ (checksum) ບໍ່ຖືກຕ້ອງ."
+
+#. AGF5W
+#: uui/inc/ids.hrc:47
+msgctxt "RID_UUI_ERRHDL"
+msgid "The object $(ARG1) cannot be created in directory $(ARG2)."
+msgstr "ບໍ່ສາມາດສ້າງວັດຖຸ $(ARG1) ໃນໂຟນເດີ $(ARG2) ໄດ້."
+
+#. Dw4Ff
+#: uui/inc/ids.hrc:49
+msgctxt "RID_UUI_ERRHDL"
+msgid "Data of $(ARG1) could not be read."
+msgstr "ບໍ່ສາມາດອ່ານຂໍ້ມູນຂອງ $(ARG1)."
+
+#. Qc4E9
+#: uui/inc/ids.hrc:51
+msgctxt "RID_UUI_ERRHDL"
+msgid "The seek operation on $(ARG1) could not be performed."
+msgstr "ບໍ່ສາມາດດຳເນີນການຄົ້ນຫາ (seek) ໃນ $(ARG1)."
+
+#. CD7zU
+#: uui/inc/ids.hrc:53
+msgctxt "RID_UUI_ERRHDL"
+msgid "The tell operation on $(ARG1) could not be performed."
+msgstr "ບໍ່ສາມາດດຳເນີນການບອກຕຳແໜ່ງ (tell) ໃນ $(ARG1)."
+
+#. AkGXL
+#: uui/inc/ids.hrc:55
+msgctxt "RID_UUI_ERRHDL"
+msgid "Data for $(ARG1) could not be written."
+msgstr "ບໍ່ສາມາດຂຽນຂໍ້ມູນສຳລັບ $(ARG1)."
+
+#. ndib2
+#: uui/inc/ids.hrc:57
+msgctxt "RID_UUI_ERRHDL"
+msgid "Action impossible: $(ARG1) is the current directory."
+msgstr "ບໍ່ສາມາດປະຕິບັດໄດ້: $(ARG1) ແມ່ນໂຟນເດີປັດຈຸບັນ."
+
+#. wWVF2
+#: uui/inc/ids.hrc:59
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) is not ready."
+msgstr "$(ARG1) ຍັງບໍ່ພ້ອມໃຊ້ງານ."
+
+#. C7iGB
+#: uui/inc/ids.hrc:61
+msgctxt "RID_UUI_ERRHDL"
+msgid "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)."
+msgstr "ບໍ່ສາມາດປະຕິບັດໄດ້: $(ARG1) ແລະ $(ARG2) ແມ່ນອຸປະກອນ (ໄດຣຟ໌) ຄົນລະອັນ."
+
+#. ic2pB
+#: uui/inc/ids.hrc:63
+msgctxt "RID_UUI_ERRHDL"
+msgid "General input/output error while accessing $(ARG1)."
+msgstr "ເກີດຂໍ້ຜິດພາດການນຳເຂົ້າ/ສົ່ງອອກທົ່ວໄປ ຂະນະເຂົ້າເຖິງ $(ARG1)."
+
+#. r6GVi
+#: uui/inc/ids.hrc:65
+msgctxt "RID_UUI_ERRHDL"
+msgid "An attempt was made to access $(ARG1) in an invalid way."
+msgstr "ມີຄວາມພະຍາຍາມເຂົ້າເຖິງ $(ARG1) ໃນວິທີທີ່ບໍ່ຖືກຕ້ອງ."
+
+#. Y6bwq
+#: uui/inc/ids.hrc:67
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) contains invalid characters."
+msgstr "$(ARG1) ມີຕົວອັກສອນທີ່ໃຊ້ບໍ່ໄດ້."
+
+#. 5HEak
+#: uui/inc/ids.hrc:69
+msgctxt "RID_UUI_ERRHDL"
+msgid "The device (drive) $(ARG1) is invalid."
+msgstr "ອຸປະກອນ (ໄດຣຟ໌) $(ARG1) ບໍ່ຖືກຕ້ອງ."
+
+#. Ykhp2
+#: uui/inc/ids.hrc:71
+msgctxt "RID_UUI_ERRHDL"
+msgid "The data from $(ARG1) has an invalid length."
+msgstr "ຂໍ້ມູນຈາກ $(ARG1) ມີຄວາມຍາວບໍ່ຖືກຕ້ອງ."
+
+#. CbZfa
+#: uui/inc/ids.hrc:73
+msgctxt "RID_UUI_ERRHDL"
+msgid "The operation on $(ARG1) was started with an invalid parameter."
+msgstr "ການປະຕິບັດງານໃນ $(ARG1) ເລີ່ມຕົ້ນດ້ວຍພາລາມິເຕີທີ່ບໍ່ຖືກຕ້ອງ."
+
+#. fEQmj
+#: uui/inc/ids.hrc:75
+msgctxt "RID_UUI_ERRHDL"
+msgid "The operation cannot be performed because $(ARG1) contains wildcards."
+msgstr "ບໍ່ສາມາດປະຕິບັດງານໄດ້ ເພາະ $(ARG1) ມີຕົວອັກສອນແທນ (wildcards)."
+
+#. v2dLh
+#: uui/inc/ids.hrc:77
+msgctxt "RID_UUI_ERRHDL"
+msgid "Error during shared access to $(ARG1)."
+msgstr "ຜິດພາດໃນຊ່ວງຮ່ວມກັນເຂົ້າເຖິງ $(ARG1)."
+
+#. AEtU6
+#: uui/inc/ids.hrc:79
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) contains misplaced characters."
+msgstr "$(ARG1) ມີຕົວອັກສອນທີ່ວາງຜິດບ່ອນ."
+
+#. fD986
+#: uui/inc/ids.hrc:81
+msgctxt "RID_UUI_ERRHDL"
+msgid "The name $(ARG1) contains too many characters."
+msgstr "ຊື່ $(ARG1) ມີຕົວອັກສອນຫຼາຍເກີນໄປ."
+
+#. U3tMN
+#: uui/inc/ids.hrc:83
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) does not exist."
+msgstr "ບໍ່ມີ $(ARG1) ຢູ່."
+
+#. nB6UA
+#: uui/inc/ids.hrc:85
+msgctxt "RID_UUI_ERRHDL"
+msgid "The path $(ARG1) does not exist."
+msgstr "ບໍ່ມີເສັ້ນທາງ $(ARG1) ຢູ່."
+
+#. FMV9Y
+#: uui/inc/ids.hrc:87
+msgctxt "RID_UUI_ERRHDL"
+msgid "The operation on $(ARG1) is not supported on this operating system."
+msgstr "ລະບົບປະຕິບັດການນີ້ບໍ່ຮອງຮັບການປະຕິບັດງານໃນ $(ARG1)."
+
+#. zzACo
+#: uui/inc/ids.hrc:89
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) is not a directory."
+msgstr "$(ARG1) ບໍ່ແມ່ນໂຟນເດີ."
+
+#. YW5vM
+#: uui/inc/ids.hrc:91
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) is not a file."
+msgstr "$(ARG1) ບໍ່ແມ່ນແຟ້ມ."
+
+#. khxN3
+#: uui/inc/ids.hrc:93
+msgctxt "RID_UUI_ERRHDL"
+msgid "There is no space left on device $(ARG1)."
+msgstr "ບໍ່ມີພື້ນທີ່ເຫຼືອໃນອຸປະກອນ $(ARG1)."
+
+#. zehX6
+#: uui/inc/ids.hrc:95
+msgctxt "RID_UUI_ERRHDL"
+msgid "The operation on $(ARG1) cannot be performed because too many files are already open."
+msgstr "ບໍ່ສາມາດປະຕິບັດງານໃນ $(ARG1) ໄດ້ ເພາະມີແຟ້ມເປີດຢູ່ຫຼາຍເກີນໄປ."
+
+#. ctFbB
+#: uui/inc/ids.hrc:97
+msgctxt "RID_UUI_ERRHDL"
+msgid "The operation on $(ARG1) cannot be performed because there is no more memory available."
+msgstr "ບໍ່ສາມາດປະຕິບັດງານໃນ $(ARG1) ໄດ້ ເພາະໜ່ວຍຄວາມຈຳໝົດ."
+
+#. jpzJG
+#: uui/inc/ids.hrc:99
+msgctxt "RID_UUI_ERRHDL"
+msgid "The operation on $(ARG1) cannot continue because more data is pending."
+msgstr "ການປະຕິບັດງານໃນ $(ARG1) ບໍ່ສາມາດສືບຕໍ່ໄດ້ ເພາະຍັງມີຂໍ້ມູນຄ້າງຢູ່."
+
+#. 6DVTU
+#: uui/inc/ids.hrc:101
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) cannot be copied into itself."
+msgstr "ບໍ່ສາມາດສຳເນົາ $(ARG1) ໃສ່ໃນຕົວມັນເອງໄດ້."
+
+#. zyCVE
+#: uui/inc/ids.hrc:103
+msgctxt "RID_UUI_ERRHDL"
+msgid "Unknown input/output error while accessing $(ARG1)."
+msgstr "ເກີດຂໍ້ຜິດພາດການນຳເຂົ້າ/ສົ່ງອອກທີ່ບໍ່ຮູ້ຈັກ ຂະນະເຂົ້າເຖິງ $(ARG1)."
+
+#. cVa9F
+#: uui/inc/ids.hrc:105
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) is write protected."
+msgstr "$(ARG1) ຖືກປ້ອງກັນການຂຽນທັບ."
+
+#. JARZx
+#: uui/inc/ids.hrc:107
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) is not in the correct format."
+msgstr "$(ARG1) ບໍ່ຢູ່ໃນຮູບແບບທີ່ຖືກຕ້ອງ."
+
+#. NJNyn
+#: uui/inc/ids.hrc:109
+msgctxt "RID_UUI_ERRHDL"
+msgid "The version of $(ARG1) is not correct."
+msgstr "ລຸ້ນຂອງ $(ARG1) ບໍ່ຖືກຕ້ອງ."
+
+#. uBqiR
+#: uui/inc/ids.hrc:111
+msgctxt "RID_UUI_ERRHDL"
+msgid "Drive $(ARG1) does not exist."
+msgstr "ບໍ່ມີໄດຣຟ໌ $(ARG1) ຢູ່."
+
+#. zemAv
+#: uui/inc/ids.hrc:113
+msgctxt "RID_UUI_ERRHDL"
+msgid "Folder $(ARG1) does not exist."
+msgstr "ບໍ່ມີໂຟນເດີ $(ARG1) ຢູ່."
+
+#. aRCFc
+#: uui/inc/ids.hrc:115
+msgctxt "RID_UUI_ERRHDL"
+msgid "The installed Java version is not supported."
+msgstr "ລຸ້ນ Java ທີ່ຕິດຕັ້ງໄວ້ບໍ່ຮອງຮັບ."
+
+#. DbH3p
+#: uui/inc/ids.hrc:117
+msgctxt "RID_UUI_ERRHDL"
+msgid "The installed Java version $(ARG1) is not supported."
+msgstr "ລຸ້ນ Java $(ARG1) ທີ່ຕິດຕັ້ງໄວ້ບໍ່ຮອງຮັບ."
+
+#. 7NCGk
+#: uui/inc/ids.hrc:119
+msgctxt "RID_UUI_ERRHDL"
+msgid "The installed Java version is not supported, at least version $(ARG1) is required."
+msgstr "ລຸ້ນ Java ທີ່ຕິດຕັ້ງໄວ້ບໍ່ຮອງຮັບ, ຕ້ອງການຢ່າງໜ້ອຍລຸ້ນ $(ARG1)."
+
+#. bNWmn
+#: uui/inc/ids.hrc:121
+msgctxt "RID_UUI_ERRHDL"
+msgid "The installed Java version $(ARG1) is not supported, at least version $(ARG2) is required."
+msgstr "ລຸ້ນ Java $(ARG1) ທີ່ຕິດຕັ້ງໄວ້ບໍ່ຮອງຮັບ, ຕ້ອງການຢ່າງໜ້ອຍລຸ້ນ $(ARG2)."
+
+#. 5MfGQ
+#: uui/inc/ids.hrc:123
+msgctxt "RID_UUI_ERRHDL"
+msgid "The data associated with the partnership is corrupted."
+msgstr "ຂໍ້ມູນທີ່ກ່ຽວພັນກັບຫຸ້ນສ່ວນແມ່ນຖືກເສຍ"
+
+#. fKMdA
+#: uui/inc/ids.hrc:125
+msgctxt "RID_UUI_ERRHDL"
+msgid "The data associated with the partnership $(ARG1) is corrupted."
+msgstr "ຂໍ້ມູນທີ່ກ່ຽວພັນກັບຫຸ້ນສ່ວນ $(ARG1) ແມ່ນຖືກເສຍ"
+
+#. sBGBF
+#: uui/inc/ids.hrc:127
+msgctxt "RID_UUI_ERRHDL"
+msgid "Volume $(ARG1) is not ready."
+msgstr "ໂວນລຸມ $(ARG1) ຍັງບໍ່ພ້ອມໃຊ້ງານ."
+
+#. yKKd9
+#: uui/inc/ids.hrc:129
+msgctxt "RID_UUI_ERRHDL"
+msgid "$(ARG1) is not ready; please insert a storage medium."
+msgstr "$(ARG1) ຍັງບໍ່ພ້ອມ; ກະລຸນາໃສ່ສື່ບັນທຶກຂໍ້ມູນ."
+
+#. RogFv
+#: uui/inc/ids.hrc:131
+msgctxt "RID_UUI_ERRHDL"
+msgid "Volume $(ARG1) is not ready; please insert a storage medium."
+msgstr "ໂວນລຸມ $(ARG1) ຍັງບໍ່ພ້ອມ; ກະລຸນາໃສ່ສື່ບັນທຶກຂໍ້ມູນ."
+
+#. AqFh4
+#: uui/inc/ids.hrc:133
+msgctxt "RID_UUI_ERRHDL"
+msgid "Please insert disk $(ARG1)."
+msgstr "ກະລຸນາໃສ່ແຜ່ນດິດ $(ARG1)."
+
+#. WbB7f
+#: uui/inc/ids.hrc:135
+msgctxt "RID_UUI_ERRHDL"
+msgid "The object cannot be created in directory $(ARG1)."
+msgstr "ບໍ່ສາມາດສ້າງວັດຖຸໃນໂຟນເດີ $(ARG1)."
+
+#. cSCj6
+#: uui/inc/ids.hrc:137
+msgctxt "RID_UUI_ERRHDL"
+msgid "%PRODUCTNAME cannot keep files from being overwritten when this transmission protocol is used. Do you want to continue anyway?"
+msgstr "%PRODUCTNAME ບໍ່ສາມາດປ້ອງກັນແຟ້ມຈາກການຖືກຂຽນທັບໄດ້ ເມື່ອໃຊ້ໂປຣໂຕຄໍການສົ່ງຂໍ້ມູນນີ້. ທ່ານຕ້ອງການສືບຕໍ່ບໍ່?"
+
+#. CUbSR
+#: uui/inc/ids.hrc:139
+msgctxt "RID_UUI_ERRHDL"
+msgid ""
+"The file '$(ARG1)' is corrupt and therefore cannot be opened. %PRODUCTNAME can try to repair the file.\n"
+"\n"
+"The corruption could be the result of document manipulation or of structural document damage due to data transmission.\n"
+"\n"
+"We recommend that you do not trust the content of the repaired document.\n"
+"Execution of macros is disabled for this document.\n"
+"\n"
+"Should %PRODUCTNAME repair the file?\n"
+msgstr ""
+"ແຟ້ມ '$(ARG1)' ເສຍຫາຍເປີດບໍ່ໄດ້. %PRODUCTNAME ສາມາດພະຍາຍາມສ້ອມແປງແຟ້ມ.\n"
+"\n"
+"ຄວາມເສຍຫາຍອາດເກີດມາຈາກການຈັດການເອກະສານ ຫຼື ຈາກຄວາມເສຍຫາຍທາງໂຄງສ້າງຂອງເອກະສານເນື່ອງຈາກການຮັບສົ່ງຂໍ້ມູນ.\n"
+"\n"
+"ຂໍ້ແນະນຳວ່າທ່ານຢ່າເຊື່ອຖືໃນເນື້ອໃນຂອງເອກະສານທີ່ສ້ອມແປງແລ້ວ.\n"
+"ການເຮັດວຽກຂອງມາໂຄຣຈະຖືກປິດໄວ້ສຳລັບເອກະສານນີ້.\n"
+"\n"
+"ຕ້ອງການໃຫ້ %PRODUCTNAME ສ້ອມແປງແຟ້ມ ຫຼື ບໍ່?\n"
+
+#. KeFss
+#: uui/inc/ids.hrc:141
+msgctxt "RID_UUI_ERRHDL"
+msgid "The file '$(ARG1)' could not be repaired and therefore cannot be opened."
+msgstr "ແຟ້ມ '$(ARG1)' ບໍ່ສາມາດຖືກແປງແລະເພາະສະນັ້ນຈິງບໍ່ສາມາດຖືກເປີດ."
+
+#. JCpTn
+#: uui/inc/ids.hrc:143
+msgctxt "RID_UUI_ERRHDL"
+msgid ""
+"Configuration data in '$(ARG1)' is corrupted. Without this data some functions may not operate correctly.\n"
+"Do you want to continue startup of %PRODUCTNAME without the corrupted configuration data?"
+msgstr ""
+"ຂໍ້ມູນການຕັ້ງຄ່າໃນ '$(ARG1)' ເສຍຫາຍ. ຖ້າບໍ່ມີຂໍ້ມູນນີ້ ບາງຟັງຊັນອາດເຮັດວຽກບໍ່ຖືກຕ້ອງ.\n"
+"ທ່ານຕ້ອງການສືບຕໍ່ເປີດ %PRODUCTNAME ໂດຍບໍ່ມີຂໍ້ມູນການຕັ້ງຄ່າທີ່ເສຍຫາຍນີ້ບໍ່?"
+
+#. QCACp
+#: uui/inc/ids.hrc:145
+msgctxt "RID_UUI_ERRHDL"
+msgid ""
+"The personal configuration file '$(ARG1)' is corrupted and must be deleted to continue. Some of your personal settings may be lost.\n"
+"Do you want to continue startup of %PRODUCTNAME without the corrupted configuration data?"
+msgstr ""
+"ແຟ້ມການຕັ້ງຄ່າສ່ວນຕົວ '$(ARG1)' ເສຍຫາຍ ແລະ ຕ້ອງລຶບອອກເພື່ອສືບຕໍ່. ການຕັ້ງຄ່າສ່ວນຕົວບາງຢ່າງຂອງທ່ານອາດຈະເສຍໄປ.\n"
+"ທ່ານຕ້ອງການສືບຕໍ່ເປີດ %PRODUCTNAME ໂດຍບໍ່ມີຂໍ້ມູນການຕັ້ງຄ່າທີ່ເສຍຫາຍນີ້ບໍ່?"
+
+#. e5Rft
+#: uui/inc/ids.hrc:147
+msgctxt "RID_UUI_ERRHDL"
+msgid "The configuration data source '$(ARG1)' is unavailable. Without this data some functions may not operate correctly."
+msgstr "ແຫຼ່ງຂໍ້ມູນການຕັ້ງຄ່າ '$(ARG1)' ບໍ່ສາມາດໃຊ້ງານໄດ້. ຖ້າບໍ່ມີຂໍ້ມູນນີ້ ບາງຟັງຊັນອາດເຮັດວຽກບໍ່ຖືກຕ້ອງ."
+
+#. 4gRCA
+#: uui/inc/ids.hrc:149
+msgctxt "RID_UUI_ERRHDL"
+msgid ""
+"The configuration data source '$(ARG1)' is unavailable. Without this data some functions may not operate correctly.\n"
+"Do you want to continue startup of %PRODUCTNAME without the missing configuration data?"
+msgstr ""
+"ແຫຼ່ງຂໍ້ມູນການຕັ້ງຄ່າ '$(ARG1)' ບໍ່ສາມາດໃຊ້ງານໄດ້. ຖ້າບໍ່ມີຂໍ້ມູນນີ້ ບາງຟັງຊັນອາດເຮັດວຽກບໍ່ຖືກຕ້ອງ.\n"
+"ທ່ານຕ້ອງການສືບຕໍ່ເປີດ %PRODUCTNAME ໂດຍບໍ່ມີຂໍ້ມູນການຕັ້ງຄ່າທີ່ຂາດຫາຍໄປນີ້ບໍ່?"
+
+#. DAUhe
+#: uui/inc/ids.hrc:151
+msgctxt "RID_UUI_ERRHDL"
+msgid "The form contains invalid data. Do you still want to continue?"
+msgstr "ແບບຟອມບັນຈຸຂໍ້ມູນທີ່ໃຊ້ບໍ່ໄດ້. ເຈົ້າຍັງຄົງຕ້ອງການສືບຕໍ່ບໍ່?"
+
+#. DSoD4
+#: uui/inc/ids.hrc:153
+msgctxt "RID_UUI_ERRHDL"
+msgid "The file $(ARG1) is locked by another user. Currently, another write access to this file cannot be granted."
+msgstr "ແຟ້ມ $(ARG1) ຖືກລັອກໂດຍຜູ້ໃຊ້ອື່ນ. ປະຈຸບັນ ບໍ່ສາມາດອະນຸຍາດໃຫ້ຂຽນທັບແຟ້ມນີ້ໄດ້ອີກ."
+
+#. k6aHT
+#: uui/inc/ids.hrc:155
+msgctxt "RID_UUI_ERRHDL"
+msgid "The file $(ARG1) is locked by yourself. Currently, another write access to this file cannot be granted."
+msgstr "ແຟ້ມ $(ARG1) ຖືກລັອກໂດຍຕົວທ່ານເອງ. ປະຈຸບັນ ບໍ່ສາມາດອະນຸຍາດໃຫ້ຂຽນທັບແຟ້ມນີ້ໄດ້ອີກ."
+
+#. ZoUzb
+#: uui/inc/ids.hrc:157
+msgctxt "RID_UUI_ERRHDL"
+msgid "The file $(ARG1) is currently not locked by yourself."
+msgstr "ແຟ້ມ $(ARG1) ບໍ່ໄດ້ຖືກລັອກໂດຍຕົວທ່ານເອງໃນຂະນະນີ້."
+
+#. L9PCQ
+#: uui/inc/ids.hrc:159
+msgctxt "RID_UUI_ERRHDL"
+msgid ""
+"The previously obtained lock for file $(ARG1) has expired.\n"
+"This can happen due to problems on the server managing the file lock. It cannot be guaranteed that write operations on this file will not overwrite changes done by other users!"
+msgstr ""
+"ການລັອກແຟ້ມ $(ARG1) ທີ່ໄດ້ຮັບກ່ອນໜ້ານີ້ໝົດອາຍຸແລ້ວ.\n"
+"ສິ່ງນີ້ອາດເກີດຂຶ້ນເນື່ອງຈາກບັນຫາຢູ່ເຊີບເວີທີ່ຈັດການການລັອກແຟ້ມ. ບໍ່ສາມາດຮັບປະກັນໄດ້ວ່າການຂຽນແຟ້ມນີ້ຈະບໍ່ຂຽນທັບການປ່ຽນແປງທີ່ເຮັດໂດຍຜູ້ໃຊ້ອື່ນ!"
+
+#. gZzEy
+#: uui/inc/ids.hrc:161
+msgctxt "RID_UUI_ERRHDL"
+msgid ""
+"Component cannot be loaded, possibly broken or incomplete installation.\n"
+"Full error message:\n"
+"\n"
+" $(ARG1)."
+msgstr ""
+"ບໍ່ສາມາດໂຫຼດອົງປະກອບໄດ້, ອາດເປັນໄປໄດ້ວ່າການຕິດຕັ້ງເສຍຫາຍ ຫຼື ບໍ່ສົມບູນ.\n"
+"ຂໍ້ຄວາມຜິດພາດເຕັມ:\n"
+"\n"
+" $(ARG1)."
+
+#. vHe5t
+#: uui/inc/ids.hrc:166
+msgctxt "STR_UUI_UNKNOWNAUTH_UNTRUSTED"
+msgid ""
+"Unable to verify the identity of $(ARG1) site.\n"
+"\n"
+"Before accepting this certificate, you should examine this site's certificate carefully. Are you willing to accept this certificate for the purpose of identifying the Web site $(ARG1)?"
+msgstr ""
+"ບໍ່ສາມາດກວດສອບຕົວຕົນຂອງເວັບໄຊ $(ARG1).\n"
+"\n"
+"ກ່ອນຍອມຮັບໃບຢັ້ງຢືນນີ້, ທ່ານຄວນກວດສອບໃບຢັ້ງຢືນຂອງເວັບໄຊນີ້ຢ່າງລະອຽດ. ທ່ານເຕັມໃຈທີ່ຈະຍອມຮັບໃບຢັ້ງຢືນນີ້ເພື່ອລະຸບຸຕົວຕົນເວັບໄຊ $(ARG1) ບໍ່?"
+
+#. kBZVn
+#: uui/inc/ids.hrc:167
+msgctxt "STR_UUI_SSLWARN_EXPIRED"
+msgid ""
+"$(ARG1) is a site that uses a security certificate to encrypt data during transmission, but its certificate expired on $(ARG2).\n"
+"\n"
+"You should check to make sure that your computer's time is correct."
+msgstr ""
+"$(ARG1) ແມ່ນເວັບໄຊທີ່ໃຊ້ໃບຢັ້ງຢືນຄວາມປອດໄພເພື່ອເຂົ້າລະຫັດຂໍ້ມູນລະຫວ່າງການສົ່ງ, ແຕ່ໃບຢັ້ງຢືນຂອງມັນໝົດອາຍຸເມື່ອ $(ARG2).\n"
+"\n"
+"ທ່ານຄວນກວດສອບໃຫ້ແນ່ໃຈວ່າເວລາໃນຄອມພິວເຕີຂອງທ່ານຖືກຕ້ອງ."
+
+#. 8GuAn
+#: uui/inc/ids.hrc:168
+msgctxt "STR_UUI_SSLWARN_EXPIRED_TITLE"
+msgid "Security Warning: Server Certificate Invalid"
+msgstr "ຄຳເຕືອນຄວາມປອດໄພ: ໃບຢັ້ງຢືນຂອງເຊີບເວີບໍ່ຖືກຕ້ອງ"
+
+#. iyR2A
+#: uui/inc/ids.hrc:169
+msgctxt "STR_UUI_SSLWARN_DOMAINMISMATCH"
+msgid ""
+"You have attempted to establish a connection with $(ARG1). However, the security certificate presented belongs to $(ARG2). It is possible, though unlikely, that someone may be trying to intercept your communication with this web site.\n"
+"\n"
+"If you suspect the certificate shown does not belong to $(ARG1), please cancel the connection and notify the site administrator.\n"
+"\n"
+"Would you like to continue anyway?"
+msgstr ""
+"ທ່ານພະຍາຍາມເຊື່ອມຕໍ່ກັບ $(ARG1). ແຕ່ໃບຢັ້ງຢືນຄວາມປອດໄພທີ່ສະແດງນັ້ນເປັນຂອງ $(ARG2). ເປັນໄປໄດ້ວ່າ (ເຖິງຈະບໍ່ຄ່ອຍເກີດຂຶ້ນ) ອາດມີຄົນພະຍາຍາມດັກຈັບການສື່ສານຂອງທ່ານກັບເວັບໄຊນີ້.\n"
+"\n"
+"ຖ້າທ່ານສົງໄສວ່າໃບຢັ້ງຢືນທີ່ສະແດງບໍ່ແມ່ນຂອງ $(ARG1), ກະລຸນາຍົກເລີກການເຊື່ອມຕໍ່ ແລະ ແຈ້ງຜູ້ເບິ່ງແຍງເວັບໄຊ.\n"
+"\n"
+"ທ່ານຕ້ອງການສືບຕໍ່ຫຼືບໍ່?"
+
+#. q6DM2
+#: uui/inc/ids.hrc:170
+msgctxt "STR_UUI_SSLWARN_DOMAINMISMATCH_TITLE"
+msgid "Security Warning: Server Certificate Expired"
+msgstr "ຄຳເຕືອນຄວາມປອດໄພ: ໃບຢັ້ງຢືນຂອງເຊີບເວີໝົດອາຍຸ"
+
+#. zd5oX
+#: uui/inc/ids.hrc:171
+msgctxt "STR_UUI_SSLWARN_INVALID"
+msgid ""
+"The certificate could not be validated. You should examine this site's certificate carefully.\n"
+"\n"
+"If you suspect the certificate shown, please cancel the connection and notify the site administrator."
+msgstr ""
+"ບໍ່ສາມາດກວດສອບໃບຢັ້ງຢືນໄດ້. ທ່ານຄວນກວດສອບໃບຢັ້ງຢືນຂອງເວັບໄຊນີ້ຢ່າງລະອຽດ.\n"
+"\n"
+"ຖ້າທ່ານສົງໄສກ່ຽວກັບໃບຢັ້ງຢືນທີ່ສະແດງ, ກະລຸນາຍົກເລີກການເຊື່ອມຕໍ່ ແລະ ແຈ້ງຜູ້ເບິ່ງແຍງເວັບໄຊ."
+
+#. Aj227
+#: uui/inc/ids.hrc:172
+msgctxt "STR_UUI_SSLWARN_INVALID_TITLE"
+msgid "Security Warning: Domain Name Mismatch"
+msgstr "ຄຳເຕືອນຄວາມປອດໄພ: ຊື່ໂດເມນບໍ່ກົງກັນ"
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "_ເພີ່ມ"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "_ນຳໃຊ້"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "_ຍົກເລີກ"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "_ປິດ"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_ລຶບ"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "_ແກ້ໄຂ"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "_ວິທີໃຊ້"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "_ໃໝ່"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "_ບໍ່"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_ຕົກລົງ"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "_ເອົາອອກ"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "_ຄືນຄ່າ"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "_ແມ່ນ"
+
+#. 7Ua8k
+#: uui/inc/strings.hrc:24
+msgctxt "STR_ENTER_PASSWORD_TO_OPEN"
+msgid "The file “%s” is password-protected."
+msgstr "ແຟ້ມ “%s” ຖືກປ້ອງກັນດ້ວຍລະຫັດຜ່ານ."
+
+#. BVofP
+#: uui/inc/strings.hrc:25
+msgctxt "STR_ENTER_SIMPLE_PASSWORD"
+msgid "Enter password: "
+msgstr "ປ້ອນລະຫັດຜ່ານ: "
+
+#. UTuR2
+#: uui/inc/strings.hrc:26
+msgctxt "STR_CONFIRM_SIMPLE_PASSWORD"
+msgid "Confirm password: "
+msgstr "ຢືນຢັນລະຫັດຜ່ານ: "
+
+#. wydLC
+#: uui/inc/strings.hrc:27
+msgctxt "STR_TITLE_CREATE_PASSWORD"
+msgid "Set Password"
+msgstr "ຕັ້ງລະຫັດຜ່ານ"
+
+#. 8fcsq
+#: uui/inc/strings.hrc:28
+msgctxt "STR_TITLE_ENTER_PASSWORD"
+msgid "Enter Password"
+msgstr "ປ້ອນລະຫັດຜ່ານ"
+
+#. U8JGN
+#. : %TITLE is the base dialog title, %FILENAME is the document's filename, %PRODUCTNAME is the application name (e.g. "LibreOfficeDev")
+#: uui/inc/strings.hrc:30
+msgctxt "STR_TITLE_FULL_FORMAT"
+msgid "%TITLE - %FILENAME - %PRODUCTNAME"
+msgstr "%TITLE - %FILENAME - %PRODUCTNAME"
+
+#. hggFL
+#: uui/inc/strings.hrc:31
+msgctxt "STR_PASSWORD_MISMATCH"
+msgid "The confirmation password did not match the password. Set the password again by entering the same password in both boxes."
+msgstr "ລະຫັດຜ່ານຢືນຢັນບໍ່ກົງກັບລະຫັດຜ່ານ. ຕັ້ງລະຫັດຜ່ານໃໝ່ໂດຍການປ້ອນລະຫັດຜ່ານດຽວກັນໃສ່ທັງສອງຊ່ອງ."
+
+#. sdbEf
+#: uui/inc/strings.hrc:33
+msgctxt "STR_ALREADYOPEN_TITLE"
+msgid "Document in Use"
+msgstr "ເອກະສານກຳລັງຖືກໃຊ້ງານ"
+
+#. QU4jD
+#: uui/inc/strings.hrc:34
+msgctxt "STR_ALREADYOPEN_MSG"
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different system since $(ARG2)\n"
+"\n"
+"Open document read-only, or ignore own file locking and open the document for editing.\n"
+"Select Notify to open read-only and get notified when the document becomes editable."
+msgstr ""
+"ແຟ້ມເອກະສານ '$(ARG1)' ຖືກລັອກເພື່ອແກ້ໄຂໂດຍຕົວທ່ານເອງໃນລະບົບອື່ນຕັ້ງແຕ່ $(ARG2)\n"
+"\n"
+"ເປີດເອກະສານແບບອ່ານໄດ້ຢ່າງດຽວ, ຫຼື ບໍ່ສົນໃຈການລັອກແຟ້ມຂອງທ່ານເອງ ແລະ ເປີດເອກະສານເພື່ອແກ້ໄຂ.\n"
+"ເລືອກ ແຈ້ງເຕືອນ ເພື່ອເປີດແບບອ່ານໄດ້ຢ່າງດຽວ ແລະ ຮັບການແຈ້ງເຕືອນເມື່ອເອກະສານສາມາດແກ້ໄຂໄດ້."
+
+#. 8mKMg
+#: uui/inc/strings.hrc:35
+msgctxt "STR_ALREADYOPEN_READONLY_BTN"
+msgid "Open ~Read-Only"
+msgstr "ເປີດແບບ~ອ່ານໄດ້ຢ່າງດຽວ"
+
+#. FqhkL
+#: uui/inc/strings.hrc:36
+msgctxt "STR_ALREADYOPEN_READONLY_NOTIFY_BTN"
+msgid "~Notify"
+msgstr "~ແຈ້ງເຕືອນ"
+
+#. ThAZk
+#: uui/inc/strings.hrc:37
+msgctxt "STR_ALREADYOPEN_OPEN_BTN"
+msgid "~Open"
+msgstr "~ເປີດ"
+
+#. uFhJT
+#: uui/inc/strings.hrc:38
+msgctxt "STR_ALREADYOPEN_SAVE_MSG"
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different system since $(ARG2)\n"
+"\n"
+"Close document on other system and retry saving or ignore own file locking and save current document."
+msgstr ""
+"ແຟ້ມເອກະສານ '$(ARG1)' ຖືກລັອກເພື່ອແກ້ໄຂໂດຍຕົວທ່ານເອງໃນລະບົບອື່ນຕັ້ງແຕ່ $(ARG2)\n"
+"\n"
+"ປິດເອກະສານໃນລະບົບອື່ນ ແລະ ລອງບັນທຶກໃໝ່ ຫຼື ບໍ່ສົນໃຈການລັອກແຟ້ມຂອງທ່ານເອງ ແລະ ບັນທຶກເອກະສານປັດຈຸບັນ."
+
+#. ZCJGW
+#: uui/inc/strings.hrc:39
+msgctxt "STR_ALREADYOPEN_RETRY_SAVE_BTN"
+msgid "~Retry Saving"
+msgstr "~ລອງບັນທຶກໃໝ່"
+
+#. EVEQx
+#: uui/inc/strings.hrc:40
+msgctxt "STR_ALREADYOPEN_SAVE_BTN"
+msgid "~Save"
+msgstr "~ບັນທຶກ"
+
+#. SZb7E
+#: uui/inc/strings.hrc:42
+msgctxt "RID_KEEP_PASSWORD"
+msgid "~Remember password until end of session"
+msgstr "~ຈື່ລະຫັດຈົນຈົບຊ່ວງ"
+
+#. 7HtCZ
+#: uui/inc/strings.hrc:43
+msgctxt "RID_SAVE_PASSWORD"
+msgid "~Remember password"
+msgstr "~ຈື່ລະຫັດ"
+
+#. CV6Ci
+#: uui/inc/strings.hrc:44
+msgctxt "STR_WARNING_INCOMPLETE_ENCRYPTION_TITLE"
+msgid "Non-Encrypted Streams"
+msgstr "ສະຕຣີມທີ່ບໍ່ໄດ້ເຂົ້າລະຫັດ"
+
+#. P7Bd8
+#: uui/inc/strings.hrc:46
+msgctxt "STR_LOCKFAILED_TITLE"
+msgid "Document Could Not Be Locked"
+msgstr "ບໍ່ສາມາດລັອກເອກະສານໄດ້"
+
+#. hJ55V
+#: uui/inc/strings.hrc:47
+msgctxt "STR_LOCKFAILED_MSG"
+msgid ""
+"The lock file could not be created for exclusive access by %PRODUCTNAME, due to missing permission to create a lock file on that file location or lack of free disk space.\n"
+"\n"
+"Select Notify to open read-only and get notified when the document becomes editable."
+msgstr ""
+"ບໍ່ສາມາດສ້າງແຟ້ມລັອກສຳລັບການເຂົ້າເຖິງສະເພາະໂດຍ %PRODUCTNAME, ເນື່ອງຈາກບໍ່ມີສິດໃນການສ້າງແຟ້ມລັອກໃນທີ່ຢູ່ແຟ້ມນັ້ນ ຫຼື ພື້ນທີ່ດິດບໍ່ພຽງພໍ.\n"
+"\n"
+"ເລືອກ ແຈ້ງເຕືອນ ເພື່ອເປີດແບບອ່ານໄດ້ຢ່າງດຽວ ແລະ ຮັບການແຈ້ງເຕືອນເມື່ອເອກະສານສາມາດແກ້ໄຂໄດ້."
+
+#. CaBXF
+#: uui/inc/strings.hrc:48
+msgctxt "STR_LOCKFAILED_OPENREADONLY_BTN"
+msgid "Open ~Read-Only"
+msgstr "ເປີດແບບ~ອ່ານໄດ້ຢ່າງດຽວ"
+
+#. Wuw4K
+#: uui/inc/strings.hrc:49
+msgctxt "STR_LOCKFAILED_OPENREADONLY_NOTIFY_BTN"
+msgid "~Notify"
+msgstr "~ແຈ້ງເຕືອນ"
+
+#. q5Dhj
+#: uui/inc/strings.hrc:51
+msgctxt "STR_OPENLOCKED_HIDDEN_DATA"
+msgid ""
+"Document Name: $(ARG1)\n"
+"User Name: $(ARG2)"
+msgstr ""
+"ຊື່ເອກະສານ: $(ARG1)\n"
+"ຊື່ຜູ້ໃຊ້: $(ARG2)"
+
+#. EXAAf
+#: uui/inc/strings.hrc:52
+msgctxt "STR_UNKNOWNUSER"
+msgid "Unknown User"
+msgstr "ຜູ້ໃຊ້ທີ່ບໍ່ຮູ້ຈັກ"
+
+#. PFEwD
+#: uui/inc/strings.hrc:54
+msgctxt "STR_FILECHANGED_TITLE"
+msgid "Document Has Been Changed by Others"
+msgstr "ເອກະສານຖືກປ່ຽນແປງໂດຍຜູ້ອື່ນ"
+
+#. umCKE
+#: uui/inc/strings.hrc:55
+msgctxt "STR_FILECHANGED_MSG"
+msgid ""
+"The file has been changed since it was opened for editing in %PRODUCTNAME. Saving your version of the document will overwrite changes made by others.\n"
+"\n"
+"Do you want to save anyway?"
+msgstr ""
+"ແຟ້ມຖືກປ່ຽນແປງຕັ້ງແຕ່ມັນຖືກເປີດແກ້ໄຂໃນ %PRODUCTNAME. ການບັນທຶກເອກະສານລຸ້ນຂອງທ່ານຈະຂຽນທັບການປ່ຽນແປງທີ່ຜູ້ອື່ນເຮັດໄວ້.\n"
+"\n"
+"ທ່ານຍັງຕ້ອງການບັນທຶກຫຼືບໍ່?"
+
+#. DGYmK
+#: uui/inc/strings.hrc:56
+msgctxt "STR_FILECHANGED_SAVEANYWAY_BTN"
+msgid "~Save Anyway"
+msgstr "~ບັນທຶກຕໍ່ໄປ"
+
+#. YBz5F
+#: uui/inc/strings.hrc:58
+msgctxt "STR_TRYLATER_TITLE"
+msgid "Document in Use"
+msgstr "ເອກະສານກຳລັງຖືກໃຊ້ງານ"
+
+#. 4Fimj
+#: uui/inc/strings.hrc:59
+msgctxt "STR_TRYLATER_MSG"
+msgid ""
+"Document file '$(ARG1)' is locked for editing by:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Try again later to save document or save a copy of that document."
+msgstr ""
+"ແຟ້ມເອກະສານ '$(ARG1)' ຖືກລັອກເພື່ອແກ້ໄຂໂດຍ:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"ລອງບັນທຶກເອກະສານໃໝ່ພາຍຫຼັງ ຫຼື ບັນທຶກສຳເນົາຂອງເອກະສານນັ້ນ."
+
+#. b3UBG
+#: uui/inc/strings.hrc:60
+msgctxt "STR_OVERWRITE_IGNORELOCK_MSG"
+msgid ""
+"Document file '$(ARG1)' is locked for editing by:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"You may try to ignore the file locking and overwrite the existing document."
+msgstr ""
+"ແຟ້ມເອກະສານ '$(ARG1)' ຖືກລັອກເພື່ອແກ້ໄຂໂດຍ:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"ທ່ານອາດຈະລອງບໍ່ສົນໃຈການລັອກແຟ້ມ ແລະ ຂຽນທັບເອກະສານທີ່ມີຢູ່."
+
+#. 8JFLZ
+#: uui/inc/strings.hrc:61
+msgctxt "STR_TRYLATER_RETRYSAVING_BTN"
+msgid "~Retry Saving"
+msgstr "~ລອງບັນທຶກໃໝ່"
+
+#. 6iCzM
+#: uui/inc/strings.hrc:62
+msgctxt "STR_TRYLATER_SAVEAS_BTN"
+msgid "~Save As..."
+msgstr "~ບັນທຶກເປັນ..."
+
+#. nqrvC
+#: uui/inc/strings.hrc:64
+msgctxt "STR_RENAME_OR_REPLACE"
+msgid ""
+"A file with the name \"%NAME\" already exists in the location \"%FOLDER\".\n"
+"Choose Replace to overwrite the existing file or provide a new name."
+msgstr ""
+"ມີແຟ້ມຊື່ \"%NAME\" ຢູ່ໃນ \"%FOLDER\" ແລ້ວ.\n"
+"ເລືອກ ແທນທີ່ ເພື່ອຂຽນທັບແຟ້ມທີ່ມີຢູ່ ຫຼື ຕັ້ງຊື່ໃໝ່."
+
+#. 3bJvA
+#: uui/inc/strings.hrc:65
+msgctxt "STR_NAME_CLASH_RENAME_ONLY"
+msgid ""
+"A file with the name \"%NAME\" already exists in the location \"%FOLDER\".\n"
+"Please enter a new name."
+msgstr ""
+"ມີແຟ້ມຊື່ \"%NAME\" ຢູ່ໃນ \"%FOLDER\" ແລ້ວ.\n"
+"ກະລຸນາປ້ອນຊື່ໃໝ່."
+
+#. Bapqc
+#: uui/inc/strings.hrc:66
+msgctxt "STR_SAME_NAME_USED"
+msgid "Please provide a different file name!"
+msgstr "ກະລຸນາໃສ່ຊື່ແຟ້ມທີ່ແຕກຕ່າງ!"
+
+#. BsaWY
+#: uui/inc/strings.hrc:68
+msgctxt "STR_ERROR_PASSWORD_TO_OPEN_WRONG"
+msgid "The password is incorrect. The file cannot be opened."
+msgstr "ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ. ບໍ່ສາມາດເປີດແຟ້ມໄດ້."
+
+#. WQbYF
+#: uui/inc/strings.hrc:69
+msgctxt "STR_ERROR_PASSWORD_TO_MODIFY_WRONG"
+msgid "The password is incorrect. The file cannot be modified."
+msgstr "ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ. ບໍ່ສາມາດແກ້ໄຂແຟ້ມໄດ້."
+
+#. Gq9FJ
+#: uui/inc/strings.hrc:70
+msgctxt "STR_ERROR_MASTERPASSWORD_WRONG"
+msgid "The master password is incorrect."
+msgstr "ລະຫັດຜ່ານຫຼັກບໍ່ຖືກຕ້ອງ."
+
+#. pRwHM
+#: uui/inc/strings.hrc:71
+msgctxt "STR_ERROR_SIMPLE_PASSWORD_WRONG"
+msgid "The password is incorrect."
+msgstr "ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ."
+
+#. DwdJn
+#: uui/inc/strings.hrc:72
+msgctxt "STR_ERROR_PASSWORDS_NOT_IDENTICAL"
+msgid "The password confirmation does not match."
+msgstr "ລະຫັດບໍ່ເຂົ້າກັນ.ກະລຸນາໃສ່ລະຫັດອີກຄັ້ງ."
+
+#. dwGow
+#: uui/inc/strings.hrc:74
+msgctxt "STR_LOCKCORRUPT_TITLE"
+msgid "Lock file is corrupted"
+msgstr "ແຟ້ມລັອກເສຍຫາຍ"
+
+#. nkUGA
+#: uui/inc/strings.hrc:75
+msgctxt "STR_LOCKCORRUPT_MSG"
+msgid ""
+"The lock file is corrupted and probably empty. Opening the document read-only and closing it again removes the corrupted lock file.\n"
+"\n"
+"Select Notify to open read-only and get notified when the document becomes editable."
+msgstr ""
+"ແຟ້ມລັອກເສຍຫາຍ ແລະ ອາດຈະວ່າງເປົ່າ. ການເປີດເອກະສານແບບອ່ານໄດ້ຢ່າງດຽວ ແລະ ປິດມັນອີກຄັ້ງຈະລຶບແຟ້ມລັອກທີ່ເສຍຫາຍອອກ.\n"
+"\n"
+"ເລືອກ ແຈ້ງເຕືອນ ເພື່ອເປີດແບບອ່ານໄດ້ຢ່າງດຽວ ແລະ ຮັບການແຈ້ງເຕືອນເມື່ອເອກະສານສາມາດແກ້ໄຂໄດ້."
+
+#. fKEYB
+#: uui/inc/strings.hrc:76
+msgctxt "STR_LOCKCORRUPT_OPENREADONLY_BTN"
+msgid "Open ~Read-Only"
+msgstr "ເປີດແບບ~ອ່ານໄດ້ຢ່າງດຽວ"
+
+#. qRAcY
+#: uui/inc/strings.hrc:77
+msgctxt "STR_LOCKCORRUPT_OPENREADONLY_NOTIFY_BTN"
+msgid "~Notify"
+msgstr "~ແຈ້ງເຕືອນ"
+
+#. rBAR3
+#: uui/inc/strings.hrc:79
+msgctxt "STR_RELOADEDITABLE_TITLE"
+msgid "Document is now editable"
+msgstr "ເອກະສານສາມາດແກ້ໄຂໄດ້ແລ້ວ"
+
+#. cVZuC
+#: uui/inc/strings.hrc:80
+msgctxt "STR_RELOADEDITABLE_MSG"
+msgid ""
+"Document file '$(ARG1)' is now editable \n"
+"\n"
+"Reload this document for editing?"
+msgstr ""
+"ແຟ້ມເອກະສານ '$(ARG1)' ສາມາດແກ້ໄຂໄດ້ແລ້ວ \n"
+"\n"
+"ໂຫຼດເອກະສານນີ້ຄືນໃໝ່ເພື່ອແກ້ໄຂບໍ່?"
+
+#. vynDE
+#: uui/inc/strings.hrc:81
+msgctxt "STR_RELOADEDITABLE_BTN"
+msgid "~Reload"
+msgstr "~ໂຫຼດຄືນໃໝ່"
+
+#. QCVhW
+#: uui/inc/strings.hrc:82
+msgctxt "STR_LOADREADONLY_MSG"
+msgid "The author would like you to open '$(ARG1)' as read-only unless you need to make changes. Open as read-only?"
+msgstr "ຜູ້ຂຽນຕ້ອງການໃຫ້ທ່ານເປີດ '$(ARG1)' ແບບອ່ານໄດ້ຢ່າງດຽວ ຍົກເວັ້ນທ່ານຈຳເປັນຕ້ອງປ່ຽນແປງ. ເປີດແບບອ່ານໄດ້ຢ່າງດຽວບໍ່?"
+
+#. CjJ2y
+#: uui/inc/strings.hrc:83
+msgctxt "STR_VERIFY_CERT"
+msgid "You need to view the certificate first."
+msgstr "ທ່ານຈຳເປັນຕ້ອງເບິ່ງໃບຢັ້ງຢືນກ່ອນ."
+
+#. 7MFsT
+#: uui/inc/strings.hrc:85
+msgctxt "STR_READONLY_FONT_TITLE"
+msgid "Font Disallows Editing"
+msgstr "ຟອນບໍ່ອະນຸຍາດໃຫ້ແກ້ໄຂ"
+
+#. YRahp
+#: uui/inc/strings.hrc:86
+msgctxt "STR_READONLY_FONT_MSG"
+msgid ""
+"One or more fonts embedded in the document have no editing permission.\n"
+"Open document in read-only mode?\n"
+"Pressing [ No ] will drop these fonts from the document:\n"
+"$(ARG1)"
+msgstr ""
+"ໜຶ່ງ ຫຼື ຫຼາຍຟອນທີ່ຝັງໃນເອກະສານບໍ່ມີສິດໃນການແກ້ໄຂ.\n"
+"ເປີດເອກະສານໃນໂໝດອ່ານໄດ້ຢ່າງດຽວບໍ່?\n"
+"ການກົດ [ ບໍ່ ] ຈະເອົາຟອນເຫຼົ່ານີ້ອອກຈາກເອກະສານ:\n"
+"$(ARG1)"
+
+#. 45x3T
+#: uui/uiconfig/ui/authfallback.ui:8
+msgctxt "authfallback|AuthFallbackDlg"
+msgid "Authentication Code"
+msgstr "ລະຫັດຢືນຢັນຕົວຕົນ"
+
+#. oHHac
+#: uui/uiconfig/ui/authfallback.ui:113
+msgctxt "authfallback|label1"
+msgid "Enter the 6 digit PIN:"
+msgstr "ປ້ອນລະຫັດ PIN 6 ຕົວເລກ:"
+
+#. vkXiS
+#: uui/uiconfig/ui/filterselect.ui:16
+msgctxt "filterselect|FilterSelectDialog"
+msgid "Filter Selection"
+msgstr "ການເລືອກຕົວກອງ"
+
+#. HoJXz
+#: uui/uiconfig/ui/filterselect.ui:137
+msgctxt "filterselect|extended_tip|filters"
+msgid "Select the import filter for the file that you want to open."
+msgstr "ເລືອກຕົວກອງການນຳເຂົ້າສຳລັບແຟ້ມທີ່ທ່ານຕ້ອງການເປີດ."
+
+#. 8o9Bq
+#: uui/uiconfig/ui/logindialog.ui:8
+msgctxt "logindialog|LoginDialog"
+msgid "Authentication Required"
+msgstr "ຕ້ອງການການຢືນຢັນຕົວຕົນ"
+
+#. SjxPP
+#: uui/uiconfig/ui/logindialog.ui:84
+msgctxt "logindialog|syscreds"
+msgid "_Use system credentials"
+msgstr "_ໃຊ້ຂໍ້ມູນການເຂົ້າເຖິງຂອງລະບົບ"
+
+#. AASJx
+#: uui/uiconfig/ui/logindialog.ui:99
+msgctxt "logindialog|remember"
+msgid "_Remember credentials"
+msgstr "_ຈື່ຂໍ້ມູນການເຂົ້າເຖິງ"
+
+#. pryAC
+#: uui/uiconfig/ui/logindialog.ui:129
+msgctxt "logindialog|accountft"
+msgid "A_ccount:"
+msgstr "_ບັນຊີ:"
+
+#. QccHg
+#: uui/uiconfig/ui/logindialog.ui:143
+msgctxt "logindialog|passwordft"
+msgid "Pass_word:"
+msgstr "_ລະຫັດຜ່ານ:"
+
+#. NF3CG
+#: uui/uiconfig/ui/logindialog.ui:184
+msgctxt "logindialog|nameft"
+msgid "_User name:"
+msgstr "_ຊື່ຜູ້ໃຊ້:"
+
+#. mD36F
+#: uui/uiconfig/ui/logindialog.ui:198
+msgctxt "logindialog|loginrealm"
+msgid ""
+"Enter user name and password for:\n"
+"“%2” on %1"
+msgstr ""
+"ປ້ອນຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານສຳລັບ:\n"
+"“%2” ໃນ %1"
+
+#. kRDiF
+#: uui/uiconfig/ui/logindialog.ui:212
+msgctxt "logindialog|wrongloginrealm"
+msgid ""
+"Wrong user name and password for:\n"
+"“%2” on %1"
+msgstr ""
+"ຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງສຳລັບ:\n"
+"“%2” ໃນ %1"
+
+#. ARsSU
+#: uui/uiconfig/ui/logindialog.ui:226
+msgctxt "logindialog|wrongrequestinfo"
+msgid ""
+"Wrong user name and password for:\n"
+"%1"
+msgstr ""
+"ຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງສຳລັບ:\n"
+"%1"
+
+#. WJkga
+#: uui/uiconfig/ui/logindialog.ui:240
+msgctxt "logindialog|requestinfo"
+msgid ""
+"Enter user name and password for:\n"
+"%1"
+msgstr ""
+"ປ້ອນຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານສຳລັບ:\n"
+"%1"
+
+#. FGAvy
+#: uui/uiconfig/ui/logindialog.ui:254
+msgctxt "logindialog|errorft"
+msgid "Message from server:"
+msgstr "ຂໍ້ຄວາມຈາກເຊີບເວີ:"
+
+#. Q7Cb9
+#: uui/uiconfig/ui/macrowarnmedium.ui:7
+msgctxt "macrowarnmedium|MacroWarnMedium"
+msgid "%PRODUCTNAME - Security Warning"
+msgstr "%PRODUCTNAME - ຄຳເຕືອນຄວາມປອດໄພ"
+
+#. xCZst
+#: uui/uiconfig/ui/macrowarnmedium.ui:13
+msgctxt "macrowarnmedium|descr2Label"
+msgid ""
+"The document contains document macros.\n"
+"\n"
+"Macros may contain viruses. Disabling macros for a document is always safe. If you disable macros you may lose functionality provided by the document macros."
+msgstr ""
+"ເອກະສານມີມາໂຄຣເອກະສານ.\n"
+"\n"
+"ມາໂຄຣອາດຈະມີໄວຣັດ. ການປິດມາໂຄຣສຳລັບເອກະສານແມ່ນປອດໄພສະເໝີ. ຖ້າທ່ານປິດມາໂຄຣ ທ່ານອາດຈະສູນເສຍຟັງຊັນທີ່ມາໂຄຣຂອງເອກະສານຈັດກຽມໄວ້ໃຫ້."
+
+#. svTn6
+#: uui/uiconfig/ui/macrowarnmedium.ui:27
+msgctxt "macrowarnmedium|cancel"
+msgid "_Disable Macros"
+msgstr "_ປິດການໃຊ້ງານມາໂຄຣ"
+
+#. o4c9e
+#: uui/uiconfig/ui/macrowarnmedium.ui:43
+msgctxt "macrowarnmedium|ok"
+msgid "_Enable Macros"
+msgstr "_ເປີດການໃຊ້ງານມາໂຄຣ"
+
+#. tYAFs
+#: uui/uiconfig/ui/macrowarnmedium.ui:89
+msgctxt "macrowarnmedium|descr1Label"
+msgid "The document contains document macros signed by:"
+msgstr "ເອກະສານມີມາໂຄຣເອກະສານທີ່ລົງລາຍເຊັນໂດຍ:"
+
+#. SBMFJ
+#: uui/uiconfig/ui/macrowarnmedium.ui:98
+msgctxt "macrowarnmedium|alwaysTrustCheckbutton"
+msgid "_Always trust macros from this source"
+msgstr "_ເຊື່ອຖືມາໂຄຣຈາກແຫຼ່ງນີ້ສະເໝີ"
+
+#. ZYQ7j
+#: uui/uiconfig/ui/macrowarnmedium.ui:128
+msgctxt "macrowarnmedium|viewSignsButton"
+msgid "_Show Signatures…"
+msgstr "_ສະແດງລາຍເຊັນ…"
+
+#. fCrAW
+#: uui/uiconfig/ui/macrowarnmedium.ui:145
+msgctxt "macrowarnmedium|viewCertButton"
+msgid "_Show Certificate…"
+msgstr "_ສະແດງໃບຢັ້ງຢືນ…"
+
+#. sd5Xp
+#: uui/uiconfig/ui/macrowarnmedium.ui:171
+msgctxt "macrowarnmedium|certNoLongerValidLabel"
+msgid "Warning: The certificate is no longer valid."
+msgstr "ຄຳເຕືອນ: ໃບຢັ້ງຢືນບໍ່ຖືກຕ້ອງອີກຕໍ່ໄປ."
+
+#. K2umf
+#: uui/uiconfig/ui/macrowarnmedium.ui:183
+msgctxt "macrowarnmedium|certNotYetValidLabel"
+msgid "Warning: The certificate is not yet valid."
+msgstr "ຄຳເຕືອນ: ໃບຢັ້ງຢືນຍັງບໍ່ທັນມີຜົນ."
+
+#. BABeG
+#: uui/uiconfig/ui/masterpassworddlg.ui:8
+msgctxt "masterpassworddlg|MasterPasswordDialog"
+msgid "Enter Master Password"
+msgstr "ປ້ອນລະຫັດຜ່ານຫຼັກ"
+
+#. REFvG
+#: uui/uiconfig/ui/masterpassworddlg.ui:87
+msgctxt "masterpassworddlg|label1"
+msgid "_Enter password:"
+msgstr "_ປ້ອນລະຫັດຜ່ານ:"
+
+#. bRcP4
+#: uui/uiconfig/ui/masterpassworddlg.ui:110
+msgctxt "masterpassworddlg|extended_tip|password"
+msgid "Type a password. A password is case sensitive."
+msgstr "ພິມລະຫັດຜ່ານ. ລະຫັດຜ່ານຕ້ອງຂຽນຕົວພິມໃຫຍ່-ນ້ອຍໃຫ້ຖືກຕ້ອງ."
+
+#. Twvfe
+#: uui/uiconfig/ui/masterpassworddlg.ui:136
+msgctxt "extended_tip|MasterPasswordDialog"
+msgid "Enter the master password to continue."
+msgstr "ປ້ອນລະຫັດຜ່ານຫຼັກເພື່ອສືບຕໍ່."
+
+#. 339XH
+#: uui/uiconfig/ui/password.ui:18
+msgctxt "password|PasswordDialog"
+msgid "Password Protection"
+msgstr "ການປ້ອງກັນດ້ວຍລະຫັດຜ່ານ"
+
+#. GqWfa
+#: uui/uiconfig/ui/password.ui:103
+msgctxt "password|label"
+msgid "The file \"%s\" is password-protected."
+msgstr "ແຟ້ມ \"%s\" ຖືກປ້ອງກັນດ້ວຍລະຫັດຜ່ານ."
+
+#. xteyX
+#: uui/uiconfig/ui/password.ui:126
+msgctxt "password|label"
+msgid "_Enter password:"
+msgstr "_ປ້ອນລະຫັດຜ່ານ:"
+
+#. iH3WK
+#: uui/uiconfig/ui/password.ui:136
+msgctxt "password|label"
+msgid "_Enter password to edit:"
+msgstr "_ປ້ອນລະຫັດຜ່ານເພື່ອແກ້ໄຂ:"
+
+#. XDzCT
+#: uui/uiconfig/ui/password.ui:163
+msgctxt "password|extended_tip|newpassEntry"
+msgid "Type a password. A password is case sensitive."
+msgstr "ພິມລະຫັດຜ່ານ. ລະຫັດຜ່ານຕ້ອງຂຽນຕົວພິມໃຫຍ່-ນ້ອຍໃຫ້ຖືກຕ້ອງ."
+
+#. G9hkG
+#: uui/uiconfig/ui/password.ui:181
+msgctxt "password|togglebt1-atkobject"
+msgid "Show Characters"
+msgstr "ສະແດງຕົວອັກສອນ"
+
+#. rQrpP
+#: uui/uiconfig/ui/password.ui:182
+msgctxt "password|extended_tip|togglebt1"
+msgid "Show or Hide password characters"
+msgstr "ສະແດງ ຫຼື ເຊື່ອງຕົວອັກສອນລະຫັດຜ່ານ"
+
+#. FbdYx
+#: uui/uiconfig/ui/password.ui:202
+msgctxt "password|label"
+msgid "Reenter password"
+msgstr "ປ້ອນລະຫັດຜ່ານອີກຄັ້ງ"
+
+#. QbKd2
+#: uui/uiconfig/ui/password.ui:227
+msgctxt "password|extended_tip|confirmpassEntry"
+msgid "Re-enter the password."
+msgstr "ປ້ອນລະຫັດຜ່ານອີກຄັ້ງ."
+
+#. FRfH6
+#: uui/uiconfig/ui/password.ui:245
+msgctxt "password|togglebt2-atkobject"
+msgid "Show Characters"
+msgstr "ສະແດງຕົວອັກສອນ"
+
+#. 3DHHi
+#: uui/uiconfig/ui/password.ui:246
+msgctxt "password|extended_tip|togglebt2"
+msgid "Show or Hide password characters"
+msgstr "ສະແດງ ຫຼື ເຊື່ອງຕົວອັກສອນລະຫັດຜ່ານ"
+
+#. ioiyr
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:8
+msgctxt "setmasterpassworddlg|SetMasterPasswordDialog"
+msgid "Set Master Password"
+msgstr "ຕັ້ງລະຫັດຜ່ານຫຼັກ"
+
+#. eBpmB
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:86
+msgctxt "setmasterpassworddlg|label1"
+msgid "Passwords for web connections are protected by a master password. You will be asked to enter it once per session, if %PRODUCTNAME retrieves a password from the protected password list."
+msgstr "ລະຫັດຜ່ານສຳລັບການເຊື່ອມຕໍ່ເວັບຖືກປ້ອງກັນໂດຍລະຫັດຜ່ານຫຼັກ. ທ່ານຈະຖືກຖາມໃຫ້ປ້ອນມັນໜຶ່ງຄັ້ງຕໍ່ຊ່ວງການໃຊ້ງານ, ຖ້າ %PRODUCTNAME ດຶງລະຫັດຜ່ານຈາກລາຍການລະຫັດຜ່ານທີ່ຖືກປ້ອງກັນ."
+
+#. G2dce
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:111
+msgctxt "setmasterpassworddlg|label2"
+msgid "_Enter password:"
+msgstr "_ປ້ອນລະຫັດຜ່ານ:"
+
+#. AG7BG
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:151
+msgctxt "extended_tip|password1"
+msgid "Enter the master password."
+msgstr "ປ້ອນລະຫັດຜ່ານຫຼັກ."
+
+#. 7EACD
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:165
+msgctxt "setmasterpassworddlg|password1levelbar"
+msgid "Bar that displays password strength visually."
+msgstr "ແຖບທີ່ສະແດງຄວາມປອດໄພຂອງລະຫັດຜ່ານ."
+
+#. yaAhh
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:177
+msgctxt "setmasterpassworddlg|label3"
+msgid "_Reenter password:"
+msgstr "_ປ້ອນລະຫັດຜ່ານອີກຄັ້ງ:"
+
+#. HjihJ
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:198
+msgctxt "extended_tip|password2"
+msgid "Enter the master password again."
+msgstr "ປ້ອນລະຫັດຜ່ານຫຼັກອີກຄັ້ງ."
+
+#. aNzdJ
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:213
+msgctxt "setmasterpassworddlg|label4"
+msgid "Caution: If you forget the master password, you will be unable to access any of the information protected by it. Passwords are case sensitive."
+msgstr "ຂໍ້ຄວນລະວັງ: ຖ້າທ່ານລືມລະຫັດຜ່ານຫຼັກ, ທ່ານຈະບໍ່ສາມາດເຂົ້າເຖິງຂໍ້ມູນໃດໆທີ່ຖືກປ້ອງກັນໂດຍມັນໄດ້. ລະຫັດຜ່ານຕ້ອງຂຽນຕົວພິມໃຫຍ່-ນ້ອຍໃຫ້ຖືກຕ້ອງ."
+
+#. BHvee
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:243
+msgctxt "setmasterpassworddlg|extended_tip|SetMasterPasswordDialog"
+msgid "Assign a master password to protect the access to a saved password."
+msgstr "ກຳນົດລະຫັດຜ່ານຫຼັກເພື່ອປ້ອງກັນການເຂົ້າເຖິງລະຫັດຜ່ານທີ່ບັນທຶກໄວ້."
+
+#. dAeLu
+#: uui/uiconfig/ui/simplenameclash.ui:8
+msgctxt "simplenameclash|SimpleNameClashDialog"
+msgid "File Exists"
+msgstr "ມີແຟ້ມຢູ່ແລ້ວ"
+
+#. tCDZh
+#: uui/uiconfig/ui/simplenameclash.ui:39
+msgctxt "simplenameclash|replace"
+msgid "Replace"
+msgstr "ແທນທີ່"
+
+#. j4y9t
+#: uui/uiconfig/ui/simplenameclash.ui:52
+msgctxt "simplenameclash|rename"
+msgid "Rename"
+msgstr "ປ່ຽນຊື່"
+
+#. iX6rE
+#: uui/uiconfig/ui/sslwarndialog.ui:8
+msgctxt "sslwarndialog|SSLWarnDialog"
+msgid "Security Warning: "
+msgstr "ຄຳເຕືອນຄວາມປອດໄພ: "
+
+#. e7vJt
+#: uui/uiconfig/ui/sslwarndialog.ui:25
+msgctxt "sslwarndialog|ok"
+msgid "Continue"
+msgstr "ສືບຕໍ່"
+
+#. e2CMr
+#: uui/uiconfig/ui/sslwarndialog.ui:39
+msgctxt "sslwarndialog|cancel"
+msgid "Cancel Connection"
+msgstr "ຍົກເລີກການເຊື່ອມຕໍ່"
+
+#. jMfYF
+#: uui/uiconfig/ui/sslwarndialog.ui:53
+msgctxt "sslwarndialog|view"
+msgid "View Certificate"
+msgstr "ເບິ່ງໃບຢັ້ງຢືນ"
+
+#. rrW2e
+#: uui/uiconfig/ui/unknownauthdialog.ui:8
+msgctxt "unknownauthdialog|UnknownAuthDialog"
+msgid "Website Certified by an Unknown Authority"
+msgstr "ເວັບໄຊໄດ້ຮັບການຢັ້ງຢືນໂດຍຜູ້ອອກໃບຢັ້ງຢືນທີ່ບໍ່ຮູ້ຈັກ"
+
+#. incLD
+#: uui/uiconfig/ui/unknownauthdialog.ui:82
+msgctxt "unknownauthdialog|accept"
+msgid "Accept this certificate temporarily for this session"
+msgstr "ຍອມຮັບໃບຢັ້ງຢືນນີ້ຊົ່ວຄາວສຳລັບຊ່ວງການໃຊ້ງານນີ້"
+
+#. fGDzR
+#: uui/uiconfig/ui/unknownauthdialog.ui:97
+msgctxt "unknownauthdialog|reject"
+msgid "Do not accept this certificate and do not connect to this Web site"
+msgstr "ບໍ່ຍອມຮັບໃບຢັ້ງຢືນນີ້ ແລະ ບໍ່ເຊື່ອມຕໍ່ກັບເວັບໄຊນີ້"
+
+#. LWUhA
+#: uui/uiconfig/ui/unknownauthdialog.ui:112
+msgctxt "unknownauthdialog|examine"
+msgid "Examine Certificate…"
+msgstr "ກວດສອບໃບຢັ້ງຢືນ…"

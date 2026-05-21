@@ -1,0 +1,1295 @@
+#. extracted from helpcontent2/source/text/smath/guide
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2022-12-07 19:22+0100\n"
+"PO-Revision-Date: 2026-04-14 02:02+0000\n"
+"Last-Translator: NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translations.documentfoundation.org/projects/libo_help-master/textsmathguide/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1494389028.000000\n"
+
+#. P9FEQ
+#: align.xhp
+msgctxt ""
+"align.xhp\n"
+"tit\n"
+"help.text"
+msgid "Manually Aligning Formula Parts"
+msgstr "ການຈັດວາງແຖວສ່ວນປະກອບຂອງສູດດ້ວຍຕົນເອງ"
+
+#. Dc94G
+#: align.xhp
+msgctxt ""
+"align.xhp\n"
+"bm_id3156384\n"
+"help.text"
+msgid "<bookmark_value>aligning; characters in %PRODUCTNAME Math</bookmark_value><bookmark_value>formula parts; manually aligning</bookmark_value>"
+msgstr "<bookmark_value>ການຈັດວາງແຖວ; ຕົວອັກສອນໃນ %PRODUCTNAME Math</bookmark_value><bookmark_value>ສ່ວນປະກອບຂອງສູດ; ການຈັດວາງແຖວດ້ວຍຕົນເອງ</bookmark_value>"
+
+#. Yt2Lw
+#: align.xhp
+msgctxt ""
+"align.xhp\n"
+"hd_id3156384\n"
+"help.text"
+msgid "<variable id=\"align\"><link href=\"text/smath/guide/align.xhp\">Manually Aligning Formula Parts</link></variable>"
+msgstr "<variable id=\"align\"><link href=\"text/smath/guide/align.xhp\">ການຈັດວາງແຖວສ່ວນປະກອບຂອງສູດດ້ວຍຕົນເອງ</link></variable>"
+
+#. eUZmq
+#: align.xhp
+msgctxt ""
+"align.xhp\n"
+"hd_id3154657\n"
+"help.text"
+msgid "How do you align characters in $[officename] Math quickly and easily?"
+msgstr "ທ່ານຈະຈັດວາງແຖວຕົວອັກສອນໃນ $[officename] Math ໃຫ້ໄວ ແລະ ງ່າຍດາຍໄດ້ແນວໃດ?"
+
+#. EJ2GY
+#: align.xhp
+msgctxt ""
+"align.xhp\n"
+"par_id3150249\n"
+"help.text"
+msgid "To accomplish this, you must define empty groups and character strings. They do not require any space, but carry information that helps in the alignment process."
+msgstr "ເພື່ອເຮັດສິ່ງນີ້, ທ່ານຕ້ອງກຳນົດກຸ່ມວ່າງ ແລະ ຊຸດຕົວອັກສອນ. ພວກມັນບໍ່ຕ້ອງການບ່ອນວ່າງໃດໆ, ແຕ່ຈະບັນຈຸຂໍ້ມູນທີ່ຊ່ວຍໃນຂະບວນການຈັດວາງແຖວ."
+
+#. BLcvk
+#: align.xhp
+msgctxt ""
+"align.xhp\n"
+"par_id3153912\n"
+"help.text"
+msgid "To create empty groups, enter curly brackets <emph>{}</emph> in the Commands window. In the following example, the goal is to achieve a line break so that the plus signs are beneath one another, even though one less character is entered in the upper line:"
+msgstr "ເພື່ອສ້າງກຸ່ມວ່າງ, ໃຫ້ປ້ອນວົງເລັບປີກກາ <emph>{}</emph> ໃນປ່ອງຢ້ຽມຄຳສັ່ງ. ໃນຕົວຢ່າງຕໍ່ໄປນີ້, ຈຸດປະສົງແມ່ນເພື່ອຂຶ້ນແຖວໃໝ່ ເພື່ອໃຫ້ເຄື່ອງໝາຍບວກຢູ່ຊື່ກັນ, ເຖິງແມ່ນວ່າຈະມີຕົວອັກສອນໜ້ອຍກວ່າໃນແຖວເທິງກໍຕາມ:"
+
+#. wDfhJ
+#: align.xhp
+msgctxt ""
+"align.xhp\n"
+"par_id3143229\n"
+"help.text"
+msgid "Empty character strings are a simple way to ensure that texts and formulas are left-aligned. They are defined using double inverted commas \"\" . Make sure you do not use any typographic inverted commas. Example:"
+msgstr "ຊຸດຕົວອັກສອນວ່າງແມ່ນວິທີທີ່ງ່າຍເພື່ອໃຫ້ແນ່ໃຈວ່າຂໍ້ຄວາມ ແລະ ສູດຖືກຈັດວາງຊ້າຍ. ພວກມັນຖືກກຳນົດໂດຍໃຊ້ເຄື່ອງໝາຍຄຳເວົ້າຄູ່ \"\" . ໃຫ້ແນ່ໃຈວ່າທ່ານບໍ່ໄດ້ໃຊ້ເຄື່ອງໝາຍຄຳເວົ້າແບບ typographic. ຕົວຢ່າງ:"
+
+#. C6Ky9
+#: align.xhp
+msgctxt ""
+"align.xhp\n"
+"par_id3153809\n"
+"help.text"
+msgid "\"A further example.\" newline a+b newline \"\"c-d"
+msgstr "\"ຕົວຢ່າງເພີ່ມເຕີມ.\" newline a+b newline \"\"c-d"
+
+#. WA2Pc
+#: attributes.xhp
+msgctxt ""
+"attributes.xhp\n"
+"tit\n"
+"help.text"
+msgid "Changing Default Attributes"
+msgstr "ການປ່ຽນແປງຄຸນລັກສະນະເລີ່ມຕົ້ນ"
+
+#. 4DrY6
+#: attributes.xhp
+msgctxt ""
+"attributes.xhp\n"
+"bm_id3145792\n"
+"help.text"
+msgid "<bookmark_value>attributes; changing in $[officename] Math</bookmark_value><bookmark_value>font attributes;changing defaults</bookmark_value><bookmark_value>formatting;changing default attributes</bookmark_value><bookmark_value>defaults;changing default formatting</bookmark_value><bookmark_value>changing;default formatting</bookmark_value>"
+msgstr "<bookmark_value>ຄຸນລັກສະນະ; ການປ່ຽນແປງໃນ $[officename] Math</bookmark_value><bookmark_value>ຄຸນລັກສະນະຕົວອັກສອນ; ການປ່ຽນແປງຄ່າເລີ່ມຕົ້ນ</bookmark_value><bookmark_value>ການຈັດຮູບແບບ; ການປ່ຽນແປງຄຸນລັກສະນະເລີ່ມຕົ້ນ</bookmark_value><bookmark_value>ຄ່າເລີ່ມຕົ້ນ; ການປ່ຽນແປງການຈັດຮູບແບບເລີ່ມຕົ້ນ</bookmark_value><bookmark_value>ການປ່ຽນແປງ; ການຈັດຮູບແບບເລີ່ມຕົ້ນ</bookmark_value>"
+
+#. tFymM
+#: attributes.xhp
+msgctxt ""
+"attributes.xhp\n"
+"hd_id3145792\n"
+"help.text"
+msgid "<variable id=\"attributes\"><link href=\"text/smath/guide/attributes.xhp\">Changing Default Attributes</link></variable>"
+msgstr "<variable id=\"attributes\"><link href=\"text/smath/guide/attributes.xhp\">ການປ່ຽນແປງຄຸນລັກສະນະເລີ່ມຕົ້ນ</link></variable>"
+
+#. gAHnh
+#: attributes.xhp
+msgctxt ""
+"attributes.xhp\n"
+"hd_id3154484\n"
+"help.text"
+msgid "Can default formats in $[officename] Math be modified?"
+msgstr "ສາມາດປັບປ່ຽນຮູບແບບເລີ່ມຕົ້ນໃນ $[officename] Math ໄດ້ຫຼືບໍ່?"
+
+#. k9ADA
+#: attributes.xhp
+msgctxt ""
+"attributes.xhp\n"
+"par_id3148870\n"
+"help.text"
+msgid "Some parts of formulas are always formatted bold or italic by default."
+msgstr "ບາງສ່ວນຂອງສູດຈະຖືກຈັດຮູບແບບເປັນຕົວໜາ ຫຼື ຕົວເນີ້ງສະເໝີໂດຍຄ່າເລີ່ມຕົ້ນ."
+
+#. 7A7Vi
+#: attributes.xhp
+msgctxt ""
+"attributes.xhp\n"
+"par_id3150210\n"
+"help.text"
+msgid "You can remove these attributes using \"nbold\" and \"nitalic\". Example:"
+msgstr "ທ່ານສາມາດເອົາຄຸນລັກສະນະເຫຼົ່ານີ້ອອກໄດ້ໂດຍໃຊ້ \"nbold\" ແລະ \"nitalic\". ຕົວຢ່າງ:"
+
+#. MCJxc
+#: attributes.xhp
+msgctxt ""
+"attributes.xhp\n"
+"par_id3149872\n"
+"help.text"
+msgid "In the second formula, the a is not italic. The b is bold. You cannot change the plus sign by this method."
+msgstr "ໃນສູດທີສອງ, ຕົວ a ບໍ່ແມ່ນຕົວເນີ້ງ. ຕົວ b ແມ່ນຕົວໜາ. ທ່ານບໍ່ສາມາດປ່ຽນເຄື່ອງໝາຍບວກດ້ວຍວິທີນີ້ໄດ້."
+
+#. oPuAE
+#: brackets.xhp
+msgctxt ""
+"brackets.xhp\n"
+"tit\n"
+"help.text"
+msgid "Merging Formula Parts in Brackets"
+msgstr "ການຮວມສ່ວນປະກອບຂອງສູດໃນວົງເລັບ"
+
+#. bDPkX
+#: brackets.xhp
+msgctxt ""
+"brackets.xhp\n"
+"bm_id3152596\n"
+"help.text"
+msgid "<bookmark_value>brackets; merging formula parts</bookmark_value><bookmark_value>formula parts; merging</bookmark_value><bookmark_value>fractions in formulas</bookmark_value><bookmark_value>merging;formula parts</bookmark_value>"
+msgstr "<bookmark_value>ວົງເລັບ; ການຮວມສ່ວນປະກອບສູດ</bookmark_value><bookmark_value>ສ່ວນປະກອບສູດ; ການຮວມ</bookmark_value><bookmark_value>ເລກເສດສ່ວນໃນສູດ</bookmark_value><bookmark_value>ການຮວມ; ສ່ວນປະກອບສູດ</bookmark_value>"
+
+#. vAkzZ
+#: brackets.xhp
+msgctxt ""
+"brackets.xhp\n"
+"hd_id3152596\n"
+"help.text"
+msgid "<variable id=\"brackets\"><link href=\"text/smath/guide/brackets.xhp\">Merging Formula Parts in Brackets</link></variable>"
+msgstr "<variable id=\"brackets\"><link href=\"text/smath/guide/brackets.xhp\">ການຮວມສ່ວນປະກອບຂອງສູດໃນວົງເລັບ</link></variable>"
+
+#. z6zop
+#: brackets.xhp
+msgctxt ""
+"brackets.xhp\n"
+"hd_id3154511\n"
+"help.text"
+msgid "Inserting fractions into formulas"
+msgstr "ການແຊກເລກເສດສ່ວນລົງໃນສູດ"
+
+#. jPtfJ
+#: brackets.xhp
+msgctxt ""
+"brackets.xhp\n"
+"par_id3146971\n"
+"help.text"
+msgid "In the case of a fraction whose numerator and denominator consist of a product, a sum, and so on, the values that belong together must be bracketed together."
+msgstr "ໃນກໍລະນີຂອງເລກເສດສ່ວນທີ່ຕົວເສດ ແລະ ຕົວສ່ວນປະກອບດ້ວຍຜົນຄູນ, ຜົນບວກ, ແລະ ອື່ນໆ, ຄ່າທີ່ຢູ່ຮ່ວມກັນຕ້ອງຖືກໃສ່ວົງເລັບໄວ້ນຳກັນ."
+
+#. 4bWFt
+#: brackets.xhp
+msgctxt ""
+"brackets.xhp\n"
+"par_id3149021\n"
+"help.text"
+msgid "Use the following syntax:"
+msgstr "ໃຊ້ໄວຍາກອນຕໍ່ໄປນີ້:"
+
+#. FX6mw
+#: brackets.xhp
+msgctxt ""
+"brackets.xhp\n"
+"par_id3154703\n"
+"help.text"
+msgid "or"
+msgstr "ຫຼື"
+
+#. x9te9
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"tit\n"
+"help.text"
+msgid "Applying Color to Formula Parts"
+msgstr "ການໃສ່ສີໃຫ້ກັບສ່ວນປະກອບຂອງສູດ"
+
+#. F9aE8
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"bm_id3156384\n"
+"help.text"
+msgid "<bookmark_value>Color in formulas</bookmark_value>"
+msgstr "<bookmark_value>ສີໃນສູດ</bookmark_value>"
+
+#. dBGoG
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"hd_id601641846107898\n"
+"help.text"
+msgid "<variable id=\"color\"><link href=\"text/smath/guide/color.xhp\">Applying Color to Formula Parts</link></variable>"
+msgstr "<variable id=\"color\"><link href=\"text/smath/guide/color.xhp\">ການໃສ່ສີໃຫ້ກັບສ່ວນປະກອບຂອງສູດ</link></variable>"
+
+#. ckGgG
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id481641846189425\n"
+"help.text"
+msgid "Use the command <literal>color</literal> to apply color to the subsequent formula part."
+msgstr "ໃຊ້ຄຳສັ່ງ <literal>color</literal> ເພື່ອໃສ່ສີໃຫ້ກັບສ່ວນປະກອບຂອງສູດທີ່ຕາມມາ."
+
+#. BnqGh
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id141641846432331\n"
+"help.text"
+msgid "The example below creates a formula where <emph>a</emph> is shown using the default color (black) and <emph>b</emph> is shown in red."
+msgstr "ຕົວຢ່າງຂ້າງລຸ່ມນີ້ສ້າງສູດທີ່ <emph>a</emph> ຖືກສະແດງໂດຍໃຊ້ສີເລີ່ມຕົ້ນ (ສີດຳ) ແລະ <emph>b</emph> ຖືກສະແດງເປັນສີແດງ."
+
+#. QBxDL
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id211641848286949\n"
+"help.text"
+msgid "Be aware that the <literal>color</literal> command only changes the color of the formula part that comes immediately after it. For example, in the formula below only <emph>b</emph> will be shown in red, whereas <emph>c</emph> will be shown in black."
+msgstr "ໝາຍເຫດວ່າຄຳສັ່ງ <literal>color</literal> ຈະປ່ຽນແປງສະເພາະສີຂອງສ່ວນປະກອບສູດທີ່ຕາມມາທັນທີເທົ່ານັ້ນ. ຕົວຢ່າງ, ໃນສູດຂ້າງລຸ່ມນີ້ ຈະມີພຽງແຕ່ <emph>b</emph> ເທົ່ານັ້ນທີ່ສະແດງເປັນສີແດງ, ໃນຂະນະທີ່ <emph>c</emph> ຈະສະແດງເປັນສີດຳ."
+
+#. hLeFX
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641848475043\n"
+"help.text"
+msgid "Use braces to apply color to more parts of the formula. In the following example, <emph>b</emph> and <emph>c</emph> are shown in red."
+msgstr "ໃຊ້ວົງເລັບປີກກາເພື່ອໃສ່ສີໃຫ້ກັບສ່ວນປະກອບອື່ນໆຂອງສູດ. ໃນຕົວຢ່າງຕໍ່ໄປນີ້, <emph>b</emph> ແລະ <emph>c</emph> ຈະສະແດງເປັນສີແດງ."
+
+#. gLttS
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id651641851485699\n"
+"help.text"
+msgid "A list with predefined color names is available <link href=\"text/smath/guide/color.xhp#PredefinedColors\">here</link>."
+msgstr "ລາຍຊື່ສີທີ່ກຳນົດໄວ້ລ່ວໜ້າແມ່ນມີໃຫ້ເບິ່ງ <link href=\"text/smath/guide/color.xhp#PredefinedColors\">ຢູ່ບ່ອນນີ້</link>."
+
+#. gQn7y
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"bm_id521641858375937\n"
+"help.text"
+msgid "<bookmark_value>RGB colors</bookmark_value>"
+msgstr "<bookmark_value>ສີ RGB</bookmark_value>"
+
+#. beAyt
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"hd_id831641851472401\n"
+"help.text"
+msgid "Using RGB colors"
+msgstr "ການໃຊ້ສີ RGB"
+
+#. tj2xF
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id701641851641673\n"
+"help.text"
+msgid "Use the command <literal>color rgb</literal> to apply colors using RGB (Red, Green, Blue) values."
+msgstr "ໃຊ້ຄຳສັ່ງ <literal>color rgb</literal> ເພື່ອໃສ່ສີໂດຍໃຊ້ຄ່າ RGB (ແດງ, ຂຽວ, ຟ້າ)."
+
+#. eYWCg
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id941641851779414\n"
+"help.text"
+msgid "RGB values range between 0 and 255."
+msgstr "ຄ່າ RGB ຢູ່ລະຫວ່າງ 0 ຫາ 255."
+
+#. EFXpV
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"bm_id521641858372217\n"
+"help.text"
+msgid "<bookmark_value>Hex colors</bookmark_value>"
+msgstr "<bookmark_value>ສີ Hex</bookmark_value>"
+
+#. mdvQM
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"hd_id901641851813499\n"
+"help.text"
+msgid "Using hex notation"
+msgstr "ການໃຊ້ຮູບແບບເລກຖານສິບຫົກ"
+
+#. zLQWy
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id271641851832464\n"
+"help.text"
+msgid "Use the command <literal>color hex</literal> to apply colors using the hexadecimal notation."
+msgstr "ໃຊ້ຄຳສັ່ງ <literal>color hex</literal> ເພື່ອໃສ່ສີໂດຍໃຊ້ຮູບແບບເລກຖານສິບຫົກ."
+
+#. rPHnc
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"hd_id121641851982125\n"
+"help.text"
+msgid "Combining color with other commands"
+msgstr "ການຮວມສີເຂົ້າກັບຄຳສັ່ງອື່ນໆ"
+
+#. WiZz8
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id321641852002469\n"
+"help.text"
+msgid "It is possible to combine the color command with other commands as <literal>bold</literal>, <literal>italic</literal> or <literal>size</literal>."
+msgstr "ມັນເປັນໄປໄດ້ທີ່ຈະຮວມຄຳສັ່ງສີເຂົ້າກັບຄຳສັ່ງອື່ນໆ ເຊັ່ນ <literal>bold</literal>, <literal>italic</literal> ຫຼື <literal>size</literal>."
+
+#. qDEtC
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id521641852051767\n"
+"help.text"
+msgid "The example below writes <emph>var</emph> in bold blue:"
+msgstr "ຕົວຢ່າງຂ້າງລຸ່ມນີ້ຂຽນ <emph>var</emph> ເປັນຕົວໜາສີຟ້າ:"
+
+#. vSVUb
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id21641852173099\n"
+"help.text"
+msgid "To change color and font size, use <literal>color</literal> in combination with <literal>size</literal> and the desired font size."
+msgstr "ເພື່ອປ່ຽນສີ ແລະ ຂະໜາດຕົວອັກສອນ, ໃຫ້ໃຊ້ <literal>color</literal> ຮ່ວມກັບ <literal>size</literal> ແລະ ຂະໜາດຕົວອັກສອນທີ່ຕ້ອງການ."
+
+#. wEhmU
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"bm_id52164185802587\n"
+"help.text"
+msgid "<bookmark_value>List of predefined colors</bookmark_value>"
+msgstr "<bookmark_value>ລາຍຊື່ສີທີ່ກຳນົດໄວ້ລ່ວງໜ້າ</bookmark_value>"
+
+#. wbRDh
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"hd_id621641846264365\n"
+"help.text"
+msgid "Predefined color names"
+msgstr "ຊື່ສີທີ່ກຳນົດໄວ້ລ່ວງໜ້າ"
+
+#. FGJS8
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id911641846282038\n"
+"help.text"
+msgid "%PRODUCTNAME provides a set of predefined color names that can be used along with the <literal>color</literal> command."
+msgstr "%PRODUCTNAME ມີຊຸດຊື່ສີທີ່ກຳນົດໄວ້ລ່ວງໜ້າ ເຊິ່ງສາມາດໃຊ້ຮ່ວມກັບຄຳສັ່ງ <literal>color</literal> ໄດ້."
+
+#. auAPG
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id871641846833413\n"
+"help.text"
+msgid "Markup language"
+msgstr "ພາສາ Markup"
+
+#. Qf5tX
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id661641846833413\n"
+"help.text"
+msgid "Color"
+msgstr "ສີ"
+
+#. Y4DMa
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id741641846833413\n"
+"help.text"
+msgid "Hex value"
+msgstr "ຄ່າເລກຖານສິບຫົກ"
+
+#. 3kWLW
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id741641846833014\n"
+"help.text"
+msgid "RGB values"
+msgstr "ຄ່າ RGB"
+
+#. 4Vu7A
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id951641846833413\n"
+"help.text"
+msgid "<literal>aqua</literal> or <literal>cyan</literal>"
+msgstr "<literal>aqua</literal> ຫຼື <literal>cyan</literal>"
+
+#. xcaVa
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846833413\n"
+"help.text"
+msgid "Aqua"
+msgstr "ສີຟ້າຂຽວ"
+
+#. D73X6
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846830036\n"
+"help.text"
+msgid "Black"
+msgstr "ສີດຳ"
+
+#. iGEDP
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846320113\n"
+"help.text"
+msgid "Blue"
+msgstr "ສີຟ້າ"
+
+#. Umsp6
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846833363\n"
+"help.text"
+msgid "Coral"
+msgstr "ສີປະການັງ"
+
+#. YcrNE
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846833014\n"
+"help.text"
+msgid "Crimson"
+msgstr "ສີແດງເຂັ້ມ"
+
+#. G6mfq
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id951641846830853\n"
+"help.text"
+msgid "<literal>fuchsia</literal> or <literal>magenta</literal>"
+msgstr "<literal>fuchsia</literal> ຫຼື <literal>magenta</literal>"
+
+#. DD2RU
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846800325\n"
+"help.text"
+msgid "Fuchsia"
+msgstr "ສີບົວມ່ວງ"
+
+#. WSeur
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id951641846830213\n"
+"help.text"
+msgid "<literal>gray</literal> or <literal>grey</literal>"
+msgstr "<literal>gray</literal> ຫຼື <literal>grey</literal>"
+
+#. gdQ5j
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846896513\n"
+"help.text"
+msgid "Gray"
+msgstr "ສີເທົາ"
+
+#. YCrBe
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846830214\n"
+"help.text"
+msgid "Green"
+msgstr "ສີຂຽວ"
+
+#. Zqix6
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846836253\n"
+"help.text"
+msgid "Hot pink"
+msgstr "ສີບົວສົດ"
+
+#. 9oHjZ
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846812385\n"
+"help.text"
+msgid "Indigo"
+msgstr "ສີຄາມ"
+
+#. X4Y45
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846835521\n"
+"help.text"
+msgid "Lavender"
+msgstr "ສີມ່ວງອ່ອນ"
+
+#. g5GKD
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846036523\n"
+"help.text"
+msgid "Lime"
+msgstr "ສີຂຽວໝາກນາວ"
+
+#. kAo5q
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846833649\n"
+"help.text"
+msgid "Maroon"
+msgstr "ສີແດງໝາກເມີນ"
+
+#. n7uXk
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846837653\n"
+"help.text"
+msgid "Midnight"
+msgstr "ສີມ່ວງດຳ"
+
+#. Ymn82
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846867458\n"
+"help.text"
+msgid "Navy"
+msgstr "ສີກົມມະທ່າ"
+
+#. aedBY
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846837663\n"
+"help.text"
+msgid "Olive"
+msgstr "ສີຂຽວໝາກກອກ"
+
+#. pNCBH
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846838053\n"
+"help.text"
+msgid "Orange"
+msgstr "ສີສົ້ມ"
+
+#. BGG7c
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846836041\n"
+"help.text"
+msgid "Orange red"
+msgstr "ສີສົ້ມແດງ"
+
+#. opiDJ
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846833063\n"
+"help.text"
+msgid "Purple"
+msgstr "ສີມ່ວງ"
+
+#. 42wFB
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846833902\n"
+"help.text"
+msgid "Red"
+msgstr "ສີແດງ"
+
+#. p5ox4
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846836613\n"
+"help.text"
+msgid "Sea green"
+msgstr "ສີຂຽວນ້ຳທະເລ"
+
+#. AF8R7
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641840569413\n"
+"help.text"
+msgid "Silver"
+msgstr "ສີເງິນ"
+
+#. 8XVN7
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846896587\n"
+"help.text"
+msgid "Teal"
+msgstr "ສີຂຽວນົກເປັດນ້ຳ"
+
+#. KejUr
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846006745\n"
+"help.text"
+msgid "Violet"
+msgstr "ສີມ່ວງອ່ອນ"
+
+#. pXf2z
+#: color.xhp
+msgctxt ""
+"color.xhp\n"
+"par_id841641846837556\n"
+"help.text"
+msgid "Yellow"
+msgstr "ສີເຫຼືອງ"
+
+#. 3UYoM
+#: comment.xhp
+msgctxt ""
+"comment.xhp\n"
+"tit\n"
+"help.text"
+msgid "Entering Comments"
+msgstr "ການປ້ອນຄຳເຫັນ"
+
+#. EpAyX
+#: comment.xhp
+msgctxt ""
+"comment.xhp\n"
+"bm_id3155961\n"
+"help.text"
+msgid "<bookmark_value>comments; entering in $[officename] Math</bookmark_value><bookmark_value>inserting;comments in $[officename] Math</bookmark_value>"
+msgstr "<bookmark_value>ຄຳເຫັນ; ການປ້ອນໃນ $[officename] Math</bookmark_value><bookmark_value>ການແຊກ; ຄຳເຫັນໃນ $[officename] Math</bookmark_value>"
+
+#. A9Yfc
+#: comment.xhp
+msgctxt ""
+"comment.xhp\n"
+"hd_id3155961\n"
+"help.text"
+msgid "<variable id=\"comment\"><link href=\"text/smath/guide/comment.xhp\">Entering Comments</link></variable>"
+msgstr "<variable id=\"comment\"><link href=\"text/smath/guide/comment.xhp\">ການປ້ອນຄຳເຫັນ</link></variable>"
+
+#. CA8hE
+#: comment.xhp
+msgctxt ""
+"comment.xhp\n"
+"hd_id3154657\n"
+"help.text"
+msgid "How does one attach comments that don't appear in the document to a formula?"
+msgstr "ຈະແນບຄຳເຫັນທີ່ບໍ່ປະກົດໃນເອກະສານໃສ່ໃນສູດໄດ້ແນວໃດ?"
+
+#. sj3Gt
+#: comment.xhp
+msgctxt ""
+"comment.xhp\n"
+"par_id3149499\n"
+"help.text"
+msgid "A comment begins with a double percent sign <emph>%%</emph>, and extends to the next line-end character (Enter key). Everything that lies in between is ignored and is not printed out. If there are percent signs in the text, they are treated as part of the text."
+msgstr "ຄຳເຫັນເລີ່ມຕົ້ນດ້ວຍເຄື່ອງໝາຍເປີເຊັນຄູ່ <emph>%%</emph>, ແລະ ສິ້ນສຸດຢູ່ຕົວອັກສອນທ້າຍແຖວ (ປຸ່ມ Enter). ທຸກຢ່າງທີ່ຢູ່ລະຫວ່າງນັ້ນຈະຖືກລະເລີຍ ແລະ ບໍ່ຖືກພິມອອກມາ. ຖ້າມີເຄື່ອງໝາຍເປີເຊັນໃນຂໍ້ຄວາມ, ພວກມັນຈະຖືກປະຕິບັດຄືກັບສ່ວນໜຶ່ງຂອງຂໍ້ຄວາມ."
+
+#. 27yBP
+#: comment.xhp
+msgctxt ""
+"comment.xhp\n"
+"par_idN105D0\n"
+"help.text"
+msgid "Example:"
+msgstr "ຕົວຢ່າງ:"
+
+#. CMAYs
+#: comment.xhp
+msgctxt ""
+"comment.xhp\n"
+"par_idN105D3\n"
+"help.text"
+msgid "a^2+b^2=c^2 %% Pythagorean theorem."
+msgstr "a^2+b^2=c^2 %% Pythagorean theorem."
+
+#. PZSB7
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"tit\n"
+"help.text"
+msgid "Shortcuts ($[officename] Math Accessibility)"
+msgstr "ທາງລັດ (ການເຂົ້າເຖິງ $[officename] Math)"
+
+#. rsGdv
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"bm_id3149018\n"
+"help.text"
+msgid "<bookmark_value>accessibility; $[officename] Math shortcuts</bookmark_value>"
+msgstr "<bookmark_value>ການເຂົ້າເຖິງ; ທາງລັດ $[officename] Math</bookmark_value>"
+
+#. pq9cU
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"hd_id3149018\n"
+"help.text"
+msgid "<variable id=\"keyboard\"><link href=\"text/smath/guide/keyboard.xhp\">Shortcuts ($[officename] Math Accessibility)</link></variable>"
+msgstr "<variable id=\"keyboard\"><link href=\"text/smath/guide/keyboard.xhp\">ທາງລັດ (ການເຂົ້າເຖິງ $[officename] Math)</link></variable>"
+
+#. ZkpGA
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"par_id3150298\n"
+"help.text"
+msgid "You can control $[officename] Math without a mouse."
+msgstr "ທ່ານສາມາດຄວບຄຸມ $[officename] Math ໄດ້ໂດຍບໍ່ຕ້ອງໃຊ້ເມົາສ໌."
+
+#. dNEFC
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"hd_id3150343\n"
+"help.text"
+msgid "Inserting a Formula Directly"
+msgstr "ການແຊກສູດໂດຍກົງ"
+
+#. 3ztDF
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"par_id3154659\n"
+"help.text"
+msgid "If you want to insert a formula into a text document, and you already know the correct writing, you can proceed as follows:"
+msgstr "ຖ້າທ່ານຕ້ອງການແຊກສູດລົງໃນເອກະສານຂໍ້ຄວາມ, ແລະ ທ່ານຮູ້ວິທີຂຽນທີ່ຖືກຕ້ອງແລ້ວ, ທ່ານສາມາດດຳເນີນການໄດ້ດັ່ງນີ້:"
+
+#. qoVM4
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"par_id3153818\n"
+"help.text"
+msgid "Write the formula into your text"
+msgstr "ຂຽນສູດລົງໃນຂໍ້ຄວາມຂອງທ່ານ"
+
+#. dmJc9
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"par_id3153915\n"
+"help.text"
+msgid "Select the formula"
+msgstr "ເລືອກສູດ"
+
+#. F2ipo
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"par_id3150213\n"
+"help.text"
+msgid "Choose the command <menuitem>Insert - OLE Object - Formula Object</menuitem>."
+msgstr "ເລືອກຄຳສັ່ງ <menuitem>ແຊກ - ວັດຖຸ OLE - ວັດຖຸສູດ</menuitem>."
+
+#. aowxC
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"hd_id3154767\n"
+"help.text"
+msgid "Inserting a Formula using a Window"
+msgstr "ການແຊກສູດໂດຍໃຊ້ປ່ອງຢ້ຽມ"
+
+#. Jvobx
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"par_id3149875\n"
+"help.text"
+msgid "If you want to use the $[officename] Math interface to edit a formula, choose the command <menuitem>Insert - OLE Object - Formula Object</menuitem> without any text selected."
+msgstr "ຖ້າທ່ານຕ້ອງການໃຊ້ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ $[officename] Math ເພື່ອແກ້ໄຂສູດ, ໃຫ້ເລືອກຄຳສັ່ງ <menuitem>ແຊກ - ວັດຖຸ OLE - ວັດຖຸສູດ</menuitem> ໂດຍບໍ່ຕ້ອງເລືອກຂໍ້ຄວາມໃດໆ."
+
+#. sEBBM
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"par_id3150391\n"
+"help.text"
+msgid "The cursor waits in the Commands window and you can type the formula."
+msgstr "ເຄີເຊີຈະລໍຖ້າຢູ່ໃນປ່ອງຢ້ຽມຄຳສັ່ງ ແລະ ທ່ານສາມາດພິມສູດໄດ້."
+
+#. rvzhp
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"par_id3150537\n"
+"help.text"
+msgid "You can compose formulas using the Elements pane. Open it with the menu <emph>View - Elements</emph> if it is not already open."
+msgstr "ທ່ານສາມາດປະກອບສູດໂດຍໃຊ້ແຖບລາຍການ. ເປີດມັນດ້ວຍເມນູ <emph>ມຸມມອງ - ລາຍການ</emph> ຖ້າມັນຍັງບໍ່ທັນໄດ້ເປີດ."
+
+#. tfpCC
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"par_id3155625\n"
+"help.text"
+msgid "If the Elements pane is open, use F6 to switch from the Commands window to the Elements pane and back."
+msgstr "ຖ້າແຖບລາຍການເປີດຢູ່, ໃຫ້ໃຊ້ F6 ເພື່ອສະຫຼັບຈາກປ່ອງຢ້ຽມຄຳສັ່ງໄປຫາແຖບລາຍການ ແລະ ກັບຄືນ."
+
+#. PxwLi
+#: keyboard.xhp
+msgctxt ""
+"keyboard.xhp\n"
+"hd_id3154554\n"
+"help.text"
+msgid "Elements pane"
+msgstr "ແຖບລາຍການ"
+
+#. iKfcF
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"tit\n"
+"help.text"
+msgid "Working with Limits"
+msgstr "ການເຮັດວຽກກັບຂີດຈຳກັດ"
+
+#. 6WSEC
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"bm_id8404492\n"
+"help.text"
+msgid "<bookmark_value>limits;in sums/integrals</bookmark_value><bookmark_value>integral limits</bookmark_value>"
+msgstr "<bookmark_value>ຂີດຈຳກັດ; ໃນຜົນບວກ/ອິນເຕກຣານ</bookmark_value><bookmark_value>ຂີດຈຳກັດອິນເຕກຣານ</bookmark_value>"
+
+#. jCWYY
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"hd_id1892147\n"
+"help.text"
+msgid "<variable id=\"limits\"><link href=\"text/smath/guide/limits.xhp\">Working with Limits</link></variable>"
+msgstr "<variable id=\"limits\"><link href=\"text/smath/guide/limits.xhp\">ການເຮັດວຽກກັບຂີດຈຳກັດ</link></variable>"
+
+#. Gtt8e
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"hd_id9881893\n"
+"help.text"
+msgid "How can I define the limits in a Sum or Integral formula?"
+msgstr "ຂ້ອຍຈະກຳນົດຂີດຈຳກັດໃນສູດຜົນບວກ ຫຼື ອິນເຕກຣານໄດ້ແນວໃດ?"
+
+#. kFrLC
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id6504409\n"
+"help.text"
+msgid "You want to insert a summation formula like \"summation of s^k from k = 0 to n\" at the cursor in a Writer text document."
+msgstr "ທ່ານຕ້ອງການແຊກສູດຜົນບວກ ເຊັ່ນ \"ຜົນບວກຂອງ s^k ຈາກ k = 0 ຫາ n\" ຢູ່ບ່ອນເຄີເຊີໃນເອກະສານຂໍ້ຄວາມ Writer."
+
+#. qAFch
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id1276589\n"
+"help.text"
+msgid "You see the Math input window and the Elements pane on the left."
+msgstr "ທ່ານຈະເຫັນປ່ອງຢ້ຽມປ້ອນຂໍ້ມູນ Math ແລະ ແຖບລາຍການຢູ່ທາງຊ້າຍ."
+
+#. DZW2c
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id3283791\n"
+"help.text"
+msgid "From the list on the upper part of the Elements pane, select the <emph>Operators</emph> item."
+msgstr "ຈາກລາຍການຢູ່ສ່ວນເທິງຂອງແຖບລາຍການ, ໃຫ້ເລືອກລາຍການ <emph>ຕົວດຳເນີນການ</emph>."
+
+#. r8sVG
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id9734794\n"
+"help.text"
+msgid "In the lower part of the Elements pane, click the <emph>Sum</emph> icon."
+msgstr "ໃນສ່ວນລຸ່ມຂອງແຖບລາຍການ, ໃຫ້ຄລິກໄອຄອນ <emph>ຜົນບວກ</emph>."
+
+#. erGA9
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id9641712\n"
+"help.text"
+msgid "To enable lower and upper limits, click additionally the <emph>Upper and Lower Limits</emph> icon."
+msgstr "ເພື່ອເປີດໃຊ້ຂີດຈຳກັດລຸ່ມ ແລະ ເທິງ, ໃຫ້ຄລິກເພີ່ມເຕີມທີ່ໄອຄອນ <emph>ຂີດຈຳກັດເທິງ ແລະ ລຸ່ມ</emph>."
+
+#. YxM8C
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id3304239\n"
+"help.text"
+msgid "In the input window, the first placeholder or marker is selected, and you can start to enter the lower limit:"
+msgstr "ໃນປ່ອງຢ້ຽມປ້ອນຂໍ້ມູນ, ຕົວສຳຮອງ ຫຼື ເຄື່ອງໝາຍທຳອິດຈະຖືກເລືອກ, ແລະ ທ່ານສາມາດເລີ່ມປ້ອນຂີດຈຳກັດລຸ່ມໄດ້:"
+
+#. szLNG
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id8471327\n"
+"help.text"
+msgid "Press F4 to advance to the next marker, and enter the upper limit:"
+msgstr "ກົດ F4 ເພື່ອໄປຫາເຄື່ອງໝາຍຖັດໄປ, ແລະ ປ້ອນຂີດຈຳກັດເທິງ:"
+
+#. Wh4vB
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id759300\n"
+"help.text"
+msgid "Press F4 to advance to the next marker, and enter the summand:"
+msgstr "ກົດ F4 ເພື່ອໄປຫາເຄື່ອງໝາຍຖັດໄປ, ແລະ ປ້ອນຕົວບວກ:"
+
+#. dJvvn
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id6756187\n"
+"help.text"
+msgid "Now the formula is complete. Click into your text document outside the formula to leave the formula editor."
+msgstr "ຕອນນີ້ສູດສຳເລັດແລ້ວ. ຄລິກໃສ່ເອກະສານຂໍ້ຄວາມຂອງທ່ານຢູ່ນອກສູດເພື່ອອອກຈາກຕົວແກ້ໄຂສູດ."
+
+#. bFFkA
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id9406414\n"
+"help.text"
+msgid "In the same way, you can enter an Integral formula with limits. When you click an icon from the Elements pane, the assigned text command is inserted in the input window. If you know the text commands, you can enter the commands directly in the input window."
+msgstr "ໃນທຳນອງດຽວກັນ, ທ່ານສາມາດປ້ອນສູດອິນເຕກຣານທີ່ມີຂີດຈຳກັດ. ເມື່ອທ່ານຄລິກໄອຄອນຈາກແຖບລາຍການ, ຄຳສັ່ງຂໍ້ຄວາມທີ່ຖືກກຳນົດຈະຖືກແຊກເຂົ້າໃນປ່ອງຢ້ຽມປ້ອນຂໍ້ມູນ. ຖ້າທ່ານຮູ້ຄຳສັ່ງຂໍ້ຄວາມ, ທ່ານສາມາດປ້ອນຄຳສັ່ງໂດຍກົງໃນປ່ອງຢ້ຽມປ້ອນຂໍ້ມູນໄດ້."
+
+#. VAoyi
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id1965697\n"
+"help.text"
+msgid "Click in the input window and enter the following line:"
+msgstr "ຄລິກໃນປ່ອງຢ້ຽມປ້ອນຂໍ້ມູນ ແລະ ປ້ອນແຖວຕໍ່ໄປນີ້:"
+
+#. 7rRJW
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id4651020\n"
+"help.text"
+msgid "A small gap exists between f(x) and dx, which you can also enter using the Elements pane: select the <emph>Formats</emph> item from the list on the top, then the <emph>Small Gap</emph> icon."
+msgstr "ມີຊ່ອງຫວ່າງນ້ອຍໆລະຫວ່າງ f(x) ແລະ dx, ເຊິ່ງທ່ານຍັງສາມາດປ້ອນໄດ້ໂດຍໃຊ້ແຖບລາຍການ: ເລືອກລາຍການ <emph>ຮູບແບບ</emph> ຈາກລາຍການທາງເທິງ, ຈາກນັ້ນເລືອກໄອຄອນ <emph>ຊ່ອງຫວ່າງນ້ອຍ</emph>."
+
+#. FSWqq
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id3877071\n"
+"help.text"
+msgid "If you don't like the font of the letters f and x, choose <item type=\"menuitem\">Format - Fonts</item> and select other fonts. Click the <emph>Default</emph> button to use the new fonts as default from now on."
+msgstr "ຖ້າທ່ານບໍ່ມັກຕົວອັກສອນ f ແລະ x, ໃຫ້ເລືອກ <item type=\"menuitem\">ຮູບແບບ - ຕົວອັກສອນ</item> ແລະ ເລືອກຕົວອັກສອນອື່ນໆ. ຄລິກປຸ່ມ <emph>ເລີ່ມຕົ້ນ</emph> ເພື່ອໃຊ້ຕົວອັກສອນໃໝ່ເປັນຄ່າເລີ່ມຕົ້ນນັບແຕ່ຕອນນີ້ເປັນຕົ້ນໄປ."
+
+#. KBUXj
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id3021332\n"
+"help.text"
+msgid "If you need the formula within a line of text, the limits increase the line height. You can choose <item type=\"menuitem\">Format - Text Mode</item> to place the limits besides the Sum or Integral symbol, which reduces the line height."
+msgstr "ຖ້າທ່ານຕ້ອງການສູດພາຍໃນແຖວຂໍ້ຄວາມ, ຂີດຈຳກັດຈະເພີ່ມຄວາມສູງຂອງແຖວ. ທ່ານສາມາດເລືອກ <item type=\"menuitem\">ຮູບແບບ - ໂໝດຂໍ້ຄວາມ</item> ເພື່ອວາງຂີດຈຳກັດໄວ້ຂ້າງເຄື່ອງໝາຍຜົນບວກ ຫຼື ອິນເຕກຣານ, ເຊິ່ງຈະຊ່ວຍຫຼຸດຄວາມສູງຂອງແຖວລົງ."
+
+#. FMfHG
+#: limits.xhp
+msgctxt ""
+"limits.xhp\n"
+"par_id260322\n"
+"help.text"
+msgid "<link href=\"text/smath/01/03090909.xhp\">Example of Integral and Sum ranges</link>"
+msgstr "<link href=\"text/smath/01/03090909.xhp\">ຕົວຢ່າງຂອງຊ່ວງອິນເຕກຣານ ແລະ ຜົນບວກ</link>"
+
+#. tfPe4
+#: main.xhp
+msgctxt ""
+"main.xhp\n"
+"tit\n"
+"help.text"
+msgid "Instructions for Using $[officename] Math"
+msgstr "ຄຳແນະນຳສຳລັບການໃຊ້ $[officename] Math"
+
+#. FfhxL
+#: main.xhp
+msgctxt ""
+"main.xhp\n"
+"bm_id3147341\n"
+"help.text"
+msgid "<bookmark_value>$[officename] Math;general instructions</bookmark_value><bookmark_value>instructions; $[officename] Math</bookmark_value><bookmark_value>Equation Editor, see $[officename] Math</bookmark_value>"
+msgstr "<bookmark_value>$[officename] Math; ຄຳແນະນຳທົ່ວໄປ</bookmark_value><bookmark_value>ຄຳແນະນຳ; $[officename] Math</bookmark_value><bookmark_value>ຕົວແກ້ໄຂສົມຜົນ, ເບິ່ງ $[officename] Math</bookmark_value>"
+
+#. 4VuXB
+#: main.xhp
+msgctxt ""
+"main.xhp\n"
+"hd_id3147341\n"
+"help.text"
+msgid "<variable id=\"main\"><link href=\"text/smath/guide/main.xhp\">Instructions for Using $[officename] Math</link></variable>"
+msgstr "<variable id=\"main\"><link href=\"text/smath/guide/main.xhp\">ຄຳແນະນຳສຳລັບການໃຊ້ $[officename] Math</link></variable>"
+
+#. ArDuV
+#: main.xhp
+msgctxt ""
+"main.xhp\n"
+"hd_id3150199\n"
+"help.text"
+msgid "Entering and Editing Formulas"
+msgstr "ການປ້ອນ ແລະ ການແກ້ໄຂສູດ"
+
+#. 74qEh
+#: newline.xhp
+msgctxt ""
+"newline.xhp\n"
+"tit\n"
+"help.text"
+msgid "Entering Line Breaks"
+msgstr "ການປ້ອນການຂຶ້ນແຖວໃໝ່"
+
+#. S8pTx
+#: newline.xhp
+msgctxt ""
+"newline.xhp\n"
+"bm_id1295205\n"
+"help.text"
+msgid "<bookmark_value>line breaks; in formulas</bookmark_value><bookmark_value>formulas;line breaks</bookmark_value><bookmark_value>wrapping text;in formulas</bookmark_value>"
+msgstr "<bookmark_value>ການຂຶ້ນແຖວໃໝ່; ໃນສູດ</bookmark_value><bookmark_value>ສູດ; ການຂຶ້ນແຖວໃໝ່</bookmark_value><bookmark_value>ການຕັດຄຳຂໍ້ຄວາມ; ໃນສູດ</bookmark_value>"
+
+#. HD6CM
+#: newline.xhp
+msgctxt ""
+"newline.xhp\n"
+"hd_id3146970\n"
+"help.text"
+msgid "<variable id=\"newline\"><link href=\"text/smath/guide/newline.xhp\">Entering Line Breaks</link></variable>"
+msgstr "<variable id=\"newline\"><link href=\"text/smath/guide/newline.xhp\">ການປ້ອນການຂຶ້ນແຖວໃໝ່</link></variable>"
+
+#. gLLUF
+#: newline.xhp
+msgctxt ""
+"newline.xhp\n"
+"hd_id3147339\n"
+"help.text"
+msgid "How to write formulas in $[officename] Math over two lines (with manual line break):"
+msgstr "ວິທີການຂຽນສູດໃນ $[officename] Math ໃຫ້ກາຍເປັນສອງແຖວ (ດ້ວຍການຂຶ້ນແຖວໃໝ່ດ້ວຍຕົນເອງ):"
+
+#. hYDBe
+#: newline.xhp
+msgctxt ""
+"newline.xhp\n"
+"par_id3154702\n"
+"help.text"
+msgid "Create a line break by using the \"newline\" command. Everything coming after the line break is placed on the next line."
+msgstr "ສ້າງການຂຶ້ນແຖວໃໝ່ໂດຍໃຊ້ຄຳສັ່ງ \"newline\". ທຸກຢ່າງທີ່ຕາມຫຼັງການຂຶ້ນແຖວໃໝ່ຈະຖືກວາງໄວ້ໃນແຖວຖັດໄປ."
+
+#. fhtKa
+#: parentheses.xhp
+msgctxt ""
+"parentheses.xhp\n"
+"tit\n"
+"help.text"
+msgid "Inserting Brackets"
+msgstr "ການແຊກວົງເລັບ"
+
+#. CeDFE
+#: parentheses.xhp
+msgctxt ""
+"parentheses.xhp\n"
+"bm_id3153415\n"
+"help.text"
+msgid "<bookmark_value>brackets; inserting in %PRODUCTNAME Math</bookmark_value><bookmark_value>inserting;brackets</bookmark_value><bookmark_value>distances between brackets</bookmark_value>"
+msgstr "<bookmark_value>ວົງເລັບ; ການແຊກໃນ %PRODUCTNAME Math</bookmark_value><bookmark_value>ການແຊກ; ວົງເລັບ</bookmark_value><bookmark_value>ໄລຍະຫ່າງລະຫວ່າງວົງເລັບ</bookmark_value>"
+
+#. AsaCy
+#: parentheses.xhp
+msgctxt ""
+"parentheses.xhp\n"
+"hd_id3153415\n"
+"help.text"
+msgid "<variable id=\"parentheses\"><link href=\"text/smath/guide/parentheses.xhp\">Inserting Brackets</link></variable>"
+msgstr "<variable id=\"parentheses\"><link href=\"text/smath/guide/parentheses.xhp\">ການແຊກວົງເລັບ</link></variable>"
+
+#. cAGdF
+#: parentheses.xhp
+msgctxt ""
+"parentheses.xhp\n"
+"hd_id3150751\n"
+"help.text"
+msgid "In <item type=\"productname\">%PRODUCTNAME</item> Math, can brackets be shown separately so that the distance between them is freely definable?"
+msgstr "ໃນ <item type=\"productname\">%PRODUCTNAME</item> Math, ສາມາດສະແດງວົງເລັບແຍກກັນເພື່ອໃຫ້ສາມາດກຳນົດໄລຍະຫ່າງລະຫວ່າງພວກມັນໄດ້ຢ່າງອິດສະຫຼະຫຼືບໍ່?"
+
+#. L2fFP
+#: parentheses.xhp
+msgctxt ""
+"parentheses.xhp\n"
+"par_id3083281\n"
+"help.text"
+msgid "You can set individual brackets using \"left\" and \"right\", but the distance between the brackets will not be fixed, as they adapt to the argument. Nevertheless, there is a way to display brackets so that the distance between them is fixed. To accomplish this, place a \"\\\" (backslash) before the normal brackets. These brackets now behave like any other symbol and the alignment is the same as with other symbols:"
+msgstr "ທ່ານສາມາດກຳນົດວົງເລັບແຕ່ລະອັນໄດ້ໂດຍໃຊ້ \"left\" ແລະ \"right\", ແຕ່ໄລຍະຫ່າງລະຫວ່າງວົງເລັບຈະບໍ່ຄົງທີ່, ເນື່ອງຈາກພວກມັນປັບຕາມອາກິວເມນ. ຢ່າງໃດກໍຕາມ, ຍັງມີວິທີສະແດງວົງເລັບເພື່ອໃຫ້ໄລຍະຫ່າງລະຫວ່າງພວກມັນຄົງທີ່. ເພື່ອເຮັດສິ່ງນີ້, ໃຫ້ວາງ \"\\\" (backslash) ໄວ້ທາງໜ້າວົງເລັບທຳມະດາ. ວົງເລັບເຫຼົ່ານີ້ຈະເຮັດວຽກຄືກັບສັນຍະລັກອື່ນໆ ແລະ ການຈັດວາງກໍຈະຄືກັນກັບສັນຍະລັກອື່ນໆ:"
+
+#. AECF4
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"tit\n"
+"help.text"
+msgid "Entering Text"
+msgstr "ການປ້ອນຂໍ້ຄວາມ"
+
+#. FGbj6
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"bm_id3155962\n"
+"help.text"
+msgid "<bookmark_value>text strings; entering in $[officename] Math</bookmark_value><bookmark_value>direct text; entering in $[officename] Math</bookmark_value><bookmark_value>inserting;text in $[officename] Math</bookmark_value>"
+msgstr "<bookmark_value>ຊຸດຂໍ້ຄວາມ; ການປ້ອນໃນ $[officename] Math</bookmark_value><bookmark_value>ຂໍ້ຄວາມໂດຍກົງ; ການປ້ອນໃນ $[officename] Math</bookmark_value><bookmark_value>ການແຊກ; ຂໍ້ຄວາມໃນ $[officename] Math</bookmark_value>"
+
+#. 5ZHGm
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"hd_id5676442\n"
+"help.text"
+msgid "<variable id=\"text\"><link href=\"text/smath/guide/text.xhp\">Entering Text</link></variable>"
+msgstr "<variable id=\"text\"><link href=\"text/smath/guide/text.xhp\">ການປ້ອນຂໍ້ຄວາມ</link></variable>"
+
+#. FGjG4
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"hd_id8509170\n"
+"help.text"
+msgid "How to enter direct text strings that do not get interpreted?"
+msgstr "ວິທີການປ້ອນຊຸດຂໍ້ຄວາມໂດຍກົງທີ່ບໍ່ຖືກຕີຄວາມໝາຍ?"
+
+#. 8AWkB
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"par_id337229\n"
+"help.text"
+msgid "Some text strings get interpreted as operators automatically. Sometimes this is not what you want. If you want to write W<emph>*</emph> (a letter with a superscripted asterisk), the asterisk will be interpreted as a multiplication operator. Enclose the direct text within double quotes or add spaceholders."
+msgstr "ບາງຊຸດຂໍ້ຄວາມຈະຖືກຕີຄວາມໝາຍວ່າເປັນຕົວດຳເນີນການໂດຍອັດຕະໂນມັດ. ບາງຄັ້ງນີ້ບໍ່ແມ່ນສິ່ງທີ່ທ່ານຕ້ອງການ. ຖ້າທ່ານຕ້ອງການຂຽນ W<emph>*</emph> (ຕົວອັກສອນທີ່ມີດອກຈັນຢູ່ເທິງ), ດອກຈັນຈະຖືກຕີຄວາມໝາຍວ່າເປັນຕົວດຳເນີນການຄູນ. ໃຫ້ໃສ່ຂໍ້ຄວາມໂດຍກົງໄວ້ໃນເຄື່ອງໝາຍຄຳເວົ້າຄູ່ ຫຼື ເພີ່ມຕົວວາງຕຳແໜ່ງ."
+
+#. HCpMB
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"par_idN105D0\n"
+"help.text"
+msgid "Examples:"
+msgstr "ຕົວຢ່າງ:"
+
+#. aKbTy
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"par_id521866\n"
+"help.text"
+msgid "An imported MathType formula contains the following string"
+msgstr "ສູດ MathType ທີ່ນຳເຂົ້າປະກອບດ້ວຍຂໍ້ຄວາມຕໍ່ໄປນີ້"
+
+#. pgDrE
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"par_id755943\n"
+"help.text"
+msgid "If you have set up Math to convert imported MathType formulas (in <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - Load/Save - Microsoft Office), you see the formula with a placeholder instead of the asterisk."
+msgstr "ຖ້າທ່ານໄດ້ຕັ້ງຄ່າ Math ເພື່ອແປງສູດ MathType ທີ່ນຳເຂົ້າ (ໃນ <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - ຄ່າກຳນົດ</caseinline><defaultinline>ເຄື່ອງມື - ຕົວເລືອກ</defaultinline></switchinline> - ໂຫຼດ/ບັນທຶກ - Microsoft Office), ທ່ານຈະເຫັນສູດທີ່ມີຕົວວາງຕຳແໜ່ງແທນເຄື່ອງໝາຍດອກຈັນ."
+
+#. VXaga
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"par_id5988952\n"
+"help.text"
+msgid "Change {*} to {} * {} as in the following formula:"
+msgstr "ປ່ຽນ {*} ເປັນ {} * {} ຄືໃນສູດຕໍ່ໄປນີ້:"
+
+#. HGq8j
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"par_id4941557\n"
+"help.text"
+msgid "You can also use W^\"*\" to enter the character as direct text."
+msgstr "ທ່ານຍັງສາມາດໃຊ້ W^\"*\" ເພື່ອປ້ອນຕົວອັກສອນເປັນຂໍ້ຄວາມໂດຍກົງ."
+
+#. qELLZ
+#: text.xhp
+msgctxt ""
+"text.xhp\n"
+"par_id9961851\n"
+"help.text"
+msgid "Some formulas start with an = sign. Use \"=\" to enter that character as direct text."
+msgstr "ບາງສູດເລີ່ມຕົ້ນດ້ວຍເຄື່ອງໝາຍ =. ໃຫ້ໃຊ້ \"=\" ເພື່ອປ້ອນຕົວອັກສອນນັ້ນເປັນຂໍ້ຄວາມໂດຍກົງ."

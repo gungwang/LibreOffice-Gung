@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+    <!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+  <meta>
+    <topic id="textsharedsub_spacingxml" indexer="include">
+      <title id="tit">Lists</title>
+      <filename>/text/shared/menu/submenu_lists.xhp</filename>
+    </topic>
+  </meta>
+
+  <body>
+      <bookmark branch="hid/.uno:FormatBulletsMenu" id="bm_id335519659183789" localize="false"/>
+    <section id="submenu_lists">
+      <h1 id="hd_id411816022675979">
+        <link href="text/shared/menu/submenu_lists.xhp">Lists</link>
+      </h1>
+      <paragraph role="paragraph" id="par_id398855439580084">
+        <ahelp hid=".">Opens a submenu where you can choose commands to create and work on lists.</ahelp>
+      </paragraph>
+    </section>
+    <section id="howtoget">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id321690379868876">Choose <menuitem>Format - Lists</menuitem></paragraph>
+    </section>
+
+    <switch select="appl">
+      <case select="WRITER">
+        <embed href="text/swriter/02/06040000.xhp#nolist"/>
+      </case>
+    </switch>
+
+    <embed href="text/shared/02/06120000.xhp#toggle_bullets"/>
+    <embed href="text/swriter/02/02110000.xhp#numbering"/>
+    <embed href="text/shared/02/06050000.xhp#demote_one_level"/>
+    <embed href="text/shared/02/06060000.xhp#promote_one_level"/>
+
+    <switch select="appl">
+      <case select="WRITER">
+        <embed href="text/swriter/02/06070000.xhp#demote_one_level_with_subpoints"/>
+        <embed href="text/swriter/02/06080000.xhp#promote_one_level_with_subpoints"/>
+      </case>
+    </switch>
+    <embed href="text/shared/02/06110000.xhp#move_down"/>
+    <embed href="text/shared/02/06100000.xhp#move_up"/>
+    <switch select="appl">
+      <case select="WRITER">
+        <embed href="text/swriter/02/06130000.xhp#move_down_with_subpoints"/>
+        <embed href="text/swriter/02/06120000.xhp#move_up_with_subpoints"/>
+        <embed href="text/swriter/02/06090000.xhp#insert_unnumbered_entry"/>
+        <embed href="text/swriter/02/06140000.xhp#restart_numbering"/>
+        <embed href="text/swriter/02/06150000.xhp#add_to_list"/>
+        <embed href="text/swriter/02/06160000.xhp#to_next_para"/>
+        <embed href="text/swriter/02/06170000.xhp#to_prev_para"/>
+      </case>
+    </switch>
+    </body>
+</helpdocument>

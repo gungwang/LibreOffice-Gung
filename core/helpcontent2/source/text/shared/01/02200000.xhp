@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textshared0102200000xml" indexer="include" status="PUBLISH">
+    <title id="tit">OLE Object (Edit)</title>
+    <filename>/text/shared/01/02200000.xhp</filename>
+  </topic>
+</meta>
+<body>
+<bookmark branch="hid/.uno:ObjectMenue" id="bm_id4538964" localize="false"/>
+<bookmark branch="hid/.uno:ObjectMenue?VerbID:short=-1" id="bm_id861755808881102" localize="false"/>
+<section id="object">
+<h1 id="hd_id3146959"><link href="text/shared/01/02200000.xhp">OLE Object</link></h1>
+<paragraph id="par_id3154840" role="paragraph"><variable id="object_text"><ahelp hid=".uno:ObjectMenue">Lets you edit a selected OLE object that you inserted from the <menuitem>Insert - OLE Object</menuitem> submenu.</ahelp></variable></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/shared/00/edit_menu.xhp#edit1"/>
+</section>
+<embed href="text/shared/01/02200100.xhp#edit"/>
+
+<h2 id="hd_id231686147317950">Save Copy as</h2>
+<paragraph role="paragraph" id="par_id871686147463891">Opens the <link href="text/shared/01/01060002.xhp">Save as</link> dialog to save a copy of the object in a file. The file extension suggested depends on the type of the OLE object.</paragraph>
+<section id="relatedtopics">
+<paragraph id="par_id3153551" role="paragraph" localize="false"><embedvar href="text/shared/01/04150000.xhp#oleobjecth1"/></paragraph>
+</section>
+<paragraph id="par_id1717886" role="paragraph"><ahelp hid="." visibility="hidden">Resizes the object to the original size.</ahelp></paragraph>
+</body>
+</helpdocument>

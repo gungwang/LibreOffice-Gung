@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textscalc0000000402xml" indexer="exclude" status="PUBLISH">
+    <title id="tit">Edit Menu</title>
+    <filename>/text/scalc/00/00000402.xhp</filename>
+  </topic>
+</meta>
+<body>
+<h1 id="hd_id3147303">Edit Menu</h1>
+<section id="selectmenu">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id661697474090143">Choose <menuitem>Edit - Select</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id121697473927566">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id131697473927567" role="paragraph"><image src="cmd/lc_selecttables.svg" id="img_id501697473927568" width="1cm" height="1cm"><alt id="alt_id121697473927569">Icon Select</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id611697473927571" role="paragraph">Select</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+<section id="tableselectall">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id261697492871523">Choose <menuitem>Edit - Select - Select all Sheets</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_sheet_bar"/>
+  <paragraph role="paragraph" id="par_id961697496077471">Open context menu of a sheet tab, choose <menuitem>Select all Sheets</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id341697495544816">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id271697495544817" role="paragraph"><image src="cmd/lc_tableselectall.svg" id="img_id321697495544818" width="1cm" height="1cm"><alt id="alt_id131697495544819">Icon Select all Sheets</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id801697495544821" role="paragraph">Select all Sheets</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="selecttables">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id821697495109787">Choose <menuitem>Edit - Select - Select Sheets</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id321697495708770">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id481697495708771" role="paragraph"><image src="cmd/lc_selecttables.svg" id="img_id751697495708772" width="1cm" height="1cm"><alt id="alt_id841697495708773">Icon Select Sheets</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id521697495708775" role="paragraph">Select Sheets</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="jum2nextsheetsel">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id161697505868298">Choose <menuitem>Edit - Select - Select to Next Sheet</menuitem>.</paragraph>
+</section>
+
+<section id="jum2prevsheetsel">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id341697505913056">Choose <menuitem>Edit - Select - Select to Previous Sheet</menuitem>.</paragraph>
+</section>
+<section id="selectrow">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id131697543729327">Choose <menuitem>Edit - Select - Select Row</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id801697544973540">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Select Row</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id751697544995896">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id371697544995897" role="paragraph"><image src="cmd/lc_entirerow.svg" id="img_id591697544995898" width="1cm" height="1cm"><alt id="alt_id411697544995899">Icon Select Row</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id451697544995901" role="paragraph">Select Row</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id571697545173893"><keycode>Shift + Space</keycode></paragraph>
+</section>
+
+<section id="selectcolumn">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id471697545255067">Choose <menuitem>Edit - Select - Select Column</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id91697545315343">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Select Column</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id391697545337469">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id171697545337470" role="paragraph"><image src="cmd/lc_entirecolumn.svg" id="img_id821697545337471" width="1cm" height="1cm"><alt id="alt_id111697545337472">Icon Select Column</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id341697545337474" role="paragraph">Select Column</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id641697545402329"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Space</keycode></paragraph>
+</section>
+<section id="selectdataarea">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id391697547370340">Choose <menuitem>Edit - Select - Select Data Area</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id81697547878841">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Select Data Area</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id791697547448431">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id611697547448432" role="paragraph"><image src="cmd/lc_selectdb.svg" id="img_id691697547448433" width="1cm" height="1cm"><alt id="alt_id891697547448434">Icon Select Data Area</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id581697547448436" role="paragraph">Select Data Area</paragraph>
+      </tablecell>
+    </tablerow>
+    </table>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id611697547563412"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + *</keycode> (asterisk)</paragraph>
+</section>
+<section id="selectunprotectedcells">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id891697551686832">Choose <menuitem>Edit - Select - Select Unprotected Cells</menuitem>.</paragraph>
+</section>
+<section id="selectvisiblerows">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id461697551778402">Choose <menuitem>Edit - Select - Select Visible Rows</menuitem>.</paragraph>
+</section>
+<section id="selectvisiblecolumns">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id821697551802937">Choose <menuitem>Edit - Select - Select Visible Columns</menuitem>.</paragraph>
+</section>
+<section id="celleditmode">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id761697569873060">Choose <menuitem>Edit - Cell Edit Mode</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id131697569897269" localize="false"><keycode>F2</keycode></paragraph>
+</section>
+
+<section id="fill_cells">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3150443" role="paragraph"><variable id="bausfullen">Choose <emph>Sheet - Fill Cells</emph>.</variable></paragraph>
+</section>
+
+<section id="fill_down">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3143267" role="paragraph"><variable id="bausunten">Choose <menuitem>Sheet - Fill Cells - Fill Down</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id51702423479153">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id381702423479154" role="paragraph"><image src="cmd/lc_filldown.svg" id="img_id231702423479155" width="1cm"  height="1cm"><alt id="alt_id61702423479156">Icon Fill Down</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id681702423479158" role="paragraph">Fill Down</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id101702423551507"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + D</keycode></paragraph>
+</section>
+
+<section id="fill_right">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3153880" role="paragraph"><variable id="bausrechts">Choose <menuitem>Sheet - Fill Cells - Fill Right</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id921702423952473">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id701702423952474" role="paragraph"><image src="cmd/lc_fillright.svg" id="img_id401702423952475" width="1cm"  height="1cm"><alt id="alt_id141702423952476">Icon Fill Right</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id731702423952478" role="paragraph">Fill Right</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="fill_up">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3151245" role="paragraph"><variable id="bausoben">Choose <menuitem>Sheet - Fill Cells - Fill Up</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id731702424038216">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id931702424038217" role="paragraph"><image src="cmd/lc_fillup.svg" id="img_id681702424038218" width="1cm" height="1cm"><alt id="alt_id861702424038219">Icon Fill Up</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id601702424038221" role="paragraph">Fill Up</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="fill_left">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3145068" role="paragraph"><variable id="bauslinks">Choose <menuitem>Sheet - Fill Cells - Fill  Left</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id831702424217650">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id601702424217651" role="paragraph"><image src="cmd/lc_fillleft.svg" id="img_id691702424217653" width="1cm"  height="1cm"><alt id="alt_id311702424217654">Icon Fill Left</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id321702424217655" role="paragraph">Fill Left</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="fill_sheet">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3150400" role="paragraph"><variable id="baustab">Choose <menuitem>Sheet - Fill Cells - Fill Sheets</menuitem>.</variable></paragraph>
+</section>
+
+<section id="fill_series">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3154910" role="paragraph"><variable id="bausreihe">Choose <menuitem>Sheet - Fill Cells - Fill Series</menuitem>.</variable></paragraph>
+</section>
+
+<section id="fill_random">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id2308201415500176457" role="paragraph">Choose <menuitem>Sheet - Fill Cells - Fill Random Number</menuitem></paragraph>
+</section>
+
+<section id="clear_cells">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3154123" role="paragraph">Choose <emph>Sheet - Clear Cells</emph>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id281702417873169">Choose <menuitem>Clear Contents</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id291702417761204">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id461702417761205" role="paragraph"><image src="cmd/lc_delete.svg" id="img_id371702417761206" width="1cm"  height="1cm"><alt id="alt_id181702417761207">Icon Clear Cells</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id831702417761209" role="paragraph">Clear Cells</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph id="par_id3145785" role="paragraph"><keycode>Backspace</keycode></paragraph>
+</section>
+
+<section id="delete_cells">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3150011" role="paragraph"><variable id="bzelo">Choose <emph>Sheet - Delete Cells</emph>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id971702164002432">Choose <menuitem>Delete Cells</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id191702164105095">On the <menuitem>Layout</menuitem> menu of the <menuitem>Layout</menuitem> tab, choose <menuitem>Delete</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id81702164263028">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id211702164263029" role="paragraph"><image src="cmd/lc_deletecell.svg" id="img_id711702164263030" width="1cm"  height="1cm"><alt id="alt_id411702164263031">Icon Delete Cells</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id451702164263033" role="paragraph">Delete Cells</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id641702163984154"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + "-"</keycode></paragraph>
+</section>
+
+<section id="cellprotection">
+    <paragraph role="paragraph" id="par_id831619443265443">Choose <menuitem>Edit - Cell Protection</menuitem> to activate sheet protection with current cell protection settings.</paragraph>
+</section>
+</body>
+</helpdocument>

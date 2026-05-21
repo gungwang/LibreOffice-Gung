@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textswriter0000000402xml" indexer="exclude" status="PUBLISH">
+<title id="tit">Edit Menu</title>
+<filename>/text/swriter/00/00000402.xhp</filename>
+</topic>
+</meta>
+<body>
+<h1 id="hd_id3150344">Edit Menu</h1>
+<section id="howtoget">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<embed href="text/shared/00/00000004.xhp#from_context"/>
+	<embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+	<embed href="text/shared/00/00000004.xhp#from_sheet_bar"/>
+	<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+	<embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+	<embed href="text/shared/00/00000004.xhp#from_startcenter"/>
+	<embed href="text/shared/00/00000004.xhp#from_statusbar"/>
+	<embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+</section>
+<section id="autotext">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3154485">Choose <emph>Tools - AutoText</emph></paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+	<paragraph role="paragraph" id="par_id411696026065940">Choose <menuitem>Insert - AutoText</menuitem>.</paragraph>
+	<paragraph role="paragraph" id="par_id431696026154970">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>AutoText</menuitem>.</paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+	<section id="syautotext">
+		<table id="tbl_id3153808">
+			<tablerow>
+				<tablecell>
+					<paragraph role="paragraph" id="par_id3149048"><image id="img_id3156418" src="cmd/lc_editglossary.svg" width="1cm" height="1cm"><alt id="alt_id3156418">Icon AutoText</alt></image></paragraph>
+				</tablecell>
+				<tablecell>
+					<paragraph role="paragraph" id="par_id3150536">AutoText</paragraph>
+				</tablecell>
+			</tablerow>
+		</table>
+	</section>
+	<embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+	<paragraph role="paragraph" id="par_id3151243"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline> + <keycode>F3</keycode></paragraph>
+</section>
+<section id="datenaust">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3149349">Choose <menuitem>Edit - Exchange Database</menuitem></paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+	<paragraph role="paragraph" id="par_id91686150276637">Choose <menuitem>Tools</menuitem>, open menu button and select  <menuitem>Exchange Database</menuitem>.</paragraph>
+</section>
+
+<section id="feldbefehl">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id3146316">Choose <menuitem>Edit - Fields</menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id601686084207673">Choose <menuitem>Insert - Fields</menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id621686084297019">Choose <menuitem>Insert - Cross-reference</menuitem>.</paragraph>
+<embed href="text/shared/00/00000004.xhp#from_context"/>
+<paragraph role="paragraph" id="par_id261686084354397"><menuitem>Edit Field</menuitem></paragraph>
+<embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+<paragraph role="paragraph" id="par_id241686084284027">Choose <menuitem>Insert - Fields</menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id671686084291318">Choose <menuitem>Insert - Cross-reference</menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id761686084998093">Choose <menuitem>References - Fields</menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id571686085013340">Choose <menuitem>References - Cross-references</menuitem>.</paragraph>
+<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+<table id="tab_id311686084424317">
+	<tablerow>
+		<tablecell>
+			<paragraph id="par_id211686084424319" role="paragraph">
+				<image src="cmd/lc_insertreferencefield.svg" id="img_id501686084424320" width="1cm"  height="1cm"><alt id="alt_id741686084424321">Icon Cross-Reference</alt></image>
+			</paragraph>
+		</tablecell>
+		<tablecell>
+			<paragraph id="par_id921686084424323" role="paragraph">Cross-Reference</paragraph>
+		</tablecell>
+	</tablerow>
+</table>
+<table id="tab_id471686084496203">
+	<tablerow>
+		<tablecell>
+			<paragraph id="par_id911686084496205" role="paragraph">
+				<image src="cmd/lc_addfield.svg" id="img_id871686084496206" width="1cm"  height="1cm"><alt id="alt_id621686084496207">Icon Insert Field</alt></image>
+			</paragraph>
+		</tablecell>
+		<tablecell>
+			<paragraph id="par_id481686084496209" role="paragraph">Insert Field</paragraph>
+		</tablecell>
+	</tablerow>
+	</table>
+<embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+<paragraph role="paragraph" id="par_id161686084056231"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + F2</keycode></paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3154505"><variable id="fussnote">Choose <emph>Edit - Reference - Footnote or Endnote</emph>
+</variable></paragraph>
+
+<section id="index_entry">
+<paragraph role="paragraph" id="par_id3153737">Place the cursor in front of the index field, then choose <emph>Edit - Reference - Index Entry...</emph>
+</paragraph>
+<paragraph role="paragraph" id="par_id3150928">or right-click to open context menu - choose <menuitem>Edit Index Entry</menuitem>
+</paragraph>
+</section>
+
+<section id="sections">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3148769"><variable id="bereiche">Choose <emph>Format - Sections</emph></variable></paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_statusbar"/>
+	<paragraph role="paragraph" id="par_id321692739764058">Click on the <menuitem>Object Info</menuitem> area.</paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+	<paragraph role="paragraph" id="par_id491692740252611">On the <menuitem>Navigation</menuitem> panel, open the context menu of the selected section, choose <menuitem>Edit</menuitem>.</paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3155990"><variable id="autotextum">Choose <emph>Tools - AutoText - AutoText - Rename</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3147168"><variable id="lit">Choose <emph>Edit - Bibliography Entry</emph>
+</variable></paragraph>
+
+
+<section id="selection_mode">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3973204">Choose <menuitem>Edit - Selection Mode</menuitem></paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_statusbar"/>
+	<paragraph role="paragraph" id="par_id491685970640972">Click the <menuitem>Selection</menuitem> area.</paragraph>
+</section>
+<section id="select_text">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id761685972500574">Choose <menuitem>Edit - Select Text</menuitem>.</paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id571685973272593">Choose <menuitem>Select Text</menuitem>.</paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+	<paragraph role="paragraph" id="par_id51685972424605"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + I</keycode></paragraph>
+</section>
+
+<section id="direct_cursor">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id3973244">Choose <menuitem>Edit - Direct Cursor Mode</menuitem></paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+	<paragraph role="paragraph" id="par_id981686150796467">Choose <menuitem>Home - Home</menuitem> menu <menuitem> - Direct Cursor Mode</menuitem>.</paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+	<table id="tab_id131686150907806">
+		<tablerow>
+			<tablecell>
+				<paragraph id="par_id531686150907807" role="paragraph"><image src="cmd/lc_shadowcursor.svg" id="img_id901686150907808" width="1cm"  height="1cm"><alt id="alt_id31686150907809">Icon Toggle Direct Cursor Mode</alt></image></paragraph>
+			</tablecell>
+			<tablecell>
+				<paragraph id="par_id141686150907811" role="paragraph">Toggle Direct Cursor Mode</paragraph>
+			</tablecell>
+		</tablerow>
+	</table>
+</section>
+
+<section id="goto">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id601685977093827">Choose <menuitem>Edit - Go to Page</menuitem>.</paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+	<paragraph role="paragraph" id="par_id931685977488251">Choose <menuitem>Home tab menu - Go to Page</menuitem>.</paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+	<table id="tab_id891685977342892">
+		<tablerow>
+			<tablecell>
+				<paragraph id="par_id961685977342894" role="paragraph"><image src="cmd/lc_gotopage.svg" id="img_id321685977342895" width="1cm"  height="1cm"><alt id="alt_id901685977342896">Icon Go to Page</alt></image></paragraph>
+			</tablecell>
+			<tablecell>
+				<paragraph id="par_id191685977342898" role="paragraph">Go to Page</paragraph>
+			</tablecell>
+		</tablerow>
+	</table>
+	<embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+	<paragraph role="paragraph" id="par_id651685976992603"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + G</keycode></paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_statusbar"/>
+	<paragraph role="paragraph" id="par_id551685977289618">Click on the <emph>Page number</emph> area.</paragraph>
+</section>
+</body>
+</helpdocument>

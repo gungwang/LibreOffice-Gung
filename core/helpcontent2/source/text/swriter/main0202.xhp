@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+      <topic id="textswritermain0202xml" indexer="include" status="PUBLISH">
+         <title id="tit">Formatting Bar</title>
+         <filename>/text/swriter/main0202.xhp</filename>
+      </topic>
+   </meta>
+   <body>
+     <bookmark branch="hid/.uno:AvailableToolbars?Toolbar:string=textobjectbar" id="bm_id631690936585399" localize="false"/>
+      <section id="formatting_bar">
+<h1 id="hd_id3154270"><link href="text/swriter/main0202.xhp">Formatting Bar</link></h1>
+         <paragraph id="par_id3147762" role="paragraph">The Formatting bar contains several text formatting functions.</paragraph>
+      </section>
+      <embed href="text/shared/02/01230000.xhp#stylist"/>
+      <embed href="text/shared/00/00040500.xhp#systylist"/>
+      <embed href="text/shared/02/02010000.xhp#paragraph_style"/>
+      <embed href="text/shared/02/02010000.xhp#syparagraph_style"/>
+      <embed href="text/shared/02/02020000.xhp#font_name"/>
+      <embed href="text/shared/02/02020000.xhp#syfont_name"/>
+      <embed href="text/shared/02/02030000.xhp#font_size"/>
+      <embed href="text/shared/02/02030000.xhp#syfont_size"/>
+      <embed href="text/shared/01/05110100.xhp#bold"/>
+      <embed href="text/shared/00/00040502.xhp#sybold"/>
+      <embed href="text/shared/01/05110200.xhp#italic"/>
+      <embed href="text/shared/00/00040502.xhp#syitalic"/>
+      <embed href="text/shared/01/05110300.xhp#underline"/>
+      <embed href="text/shared/00/00040502.xhp#syunderline"/>
+      <embed href="text/shared/01/05080100.xhp#left"/>
+      <embed href="text/shared/00/00040502.xhp#syalign_left"/>
+      <embed href="text/shared/01/05080300.xhp#center"/>
+      <embed href="text/shared/00/00040502.xhp#sycenter"/>
+      <embed href="text/shared/01/05080200.xhp#right"/>
+      <embed href="text/shared/00/00040502.xhp#syalign_right"/>
+      <embed href="text/shared/01/05080400.xhp#block"/>
+      <embed href="text/shared/00/00040502.xhp#syblocksatz"/>
+      <embed href="text/swriter/02/02110000.xhp#numbering"/>
+      <embed href="text/swriter/02/02110000.xhp#synumbering"/>
+      <embed href="text/shared/02/06120000.xhp#toggle_bullets"/>
+      <embed href="text/shared/02/06120000.xhp#sytoggle_bullets"/>
+      <embed href="text/swriter/02/06040000.xhp#nolist"/>
+      <embed href="text/swriter/02/06040000.xhp#synolist"/>
+      <embed href="text/shared/02/02130000.xhp#indentdecrease"/>
+      <embed href="text/shared/00/00040502.xhp#sydecrease_ident"/>
+      <embed href="text/shared/02/02140000.xhp#indentincrease"/>
+      <embed href="text/shared/00/00040502.xhp#syincrease_ident"/>
+      <embed href="text/shared/01/05020200.xhp#FontColor"/>
+      <embed href="text/shared/00/00000004.xhp#syfont_color"/>
+      <embed href="text/shared/02/02160000.xhp#character_highlight"/>
+      <embed href="text/shared/02/02160000.xhp#sycharacter_highlight"/>
+      <embed href="text/shared/02/02170000.xhp#background_color"/>
+      <embed href="text/shared/02/02170000.xhp#sybackground_color"/>
+      <h2 id="hd_id3149887">Additional icons</h2>
+<h2 id="hd_id0122200903085320">Increase Font</h2>
+<section id="increasesize">
+      <paragraph id="par_id0122200903085371" role="paragraph"><ahelp hid=".">Increases the font size of the selected text.</ahelp></paragraph>
+</section>
+<h2 id="hd_id012220090308532">Reduce Font</h2>
+<section id="decreasesize">
+      <paragraph id="par_id0122200903085351" role="paragraph"><ahelp hid=".">Reduces the font size of the selected text.</ahelp></paragraph>
+</section>
+<paragraph id="par_id3149900" role="paragraph">If <link href="text/shared/00/00000005.xhp#ctl">CTL</link> support is enabled, two additional icons are visible.</paragraph>
+
+<embed href="text/shared/01/LeftToRight.xhp#lefttoright"/>
+<embed href="text/shared/01/LeftToRight.xhp#sy_lefttoright"/>
+<embed href="text/shared/01/RightToLeft.xhp#righttoleft"/>
+<embed href="text/shared/01/RightToLeft.xhp#sy_righttoleft"/>
+   </body>
+</helpdocument>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+    <!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+    <meta>
+        <topic id="textsharedsub_textxml" indexer="include">
+            <title id="tit">Text</title>
+            <filename>/text/shared/menu/submenu_text.xhp</filename>
+        </topic>
+</meta>
+<body>
+<bookmark branch="hid/.uno:FormatTextMenu" id="bm_id335519659183788" localize="false"/>
+<section id="submenu_text">
+    <h1 id="hd_id411816022675978"><link href="text/shared/menu/submenu_text.xhp">Text</link></h1>
+    <paragraph role="paragraph" id="par_id398855439580083"><ahelp hid=".">Opens a submenu where you can choose text formatting commands.</ahelp></paragraph>
+</section>
+<section id="howtoget">
+    <embed href="text/shared/00/00040500.xhp#submenu_text"/>
+</section>
+<embed href="text/shared/01/05110100.xhp#bold"/>
+<embed href="text/shared/01/05110200.xhp#italic"/>
+<embed href="text/shared/01/05110300.xhp#single_underline"/>
+<embed href="text/shared/01/05110300.xhp#double_underline"/>
+<embed href="text/shared/01/05110400.xhp#strikethrough"/>
+<embed href="text/shared/01/Overline.xhp#overline"/>
+<embed href="text/shared/01/05110700.xhp#hoch"/>
+<embed href="text/shared/01/05110800.xhp#subscript"/>
+<embed href="text/shared/01/05110500.xhp#shadows"/>
+<embed href="text/shared/01/OutlineFont.xhp#outline_font"/>
+
+<switch select="appl">
+    <case select="CALC">
+        <bookmark branch="hid/.uno:WrapText" id="bm_id538777107912257" localize="false"/>
+        <h2 id="hd_id207025326941609">Wrap Text</h2>
+        <paragraph role="paragraph" id="par_id302484503842787">
+            <ahelp hid=".">Break text automatically at the right edges of the selected cells.</ahelp>
+        </paragraph>
+    </case>
+    <case select="BASE"></case>
+    <case select="MATH"></case>
+    <default>
+        <embed href="text/shared/01/Grow.xhp#grow"/>
+        <embed href="text/shared/01/Shrink.xhp#shrink"/>
+    </default>
+</switch>
+<embed href="text/shared/01/ChangeCaseToUpper.xhp#to_upper"/>
+<embed href="text/shared/01/ChangeCaseToLower.xhp#to_lower"/>
+<embed href="text/shared/01/ChangeCaseRotateCase.xhp#cycle_case"/>
+<embed href="text/shared/01/ChangeCaseToSentenceCase.xhp#sentence_case"/>
+<embed href="text/shared/01/ChangeCaseToTitleCase.xhp#capitalize"/>
+<embed href="text/shared/01/ChangeCaseToToggleCase.xhp#toggle_case"/>
+
+<switch select="appl">
+    <case select="CALC"></case>
+    <case select="MATH"></case>
+    <case select="BASE"></case>
+    <default>
+        <embed href="text/shared/01/SmallCaps.xhp#smallcaps"/>
+    </default>
+</switch>
+<embed href="text/shared/00/00000007.xhp#asia"/>
+<bookmark branch="hid/.uno:ChangeCaseToHalfWidth" id="bm_id3154288" localize="false"/>
+<h2 id="hd_id3155392">Half-width</h2>
+<paragraph role="paragraph" id="par_id3147088">
+    <ahelp hid=".uno:ChangeCaseToHalfWidth">Changes the selected Asian characters to half-width characters.</ahelp>
+</paragraph>
+<bookmark branch="hid/.uno:ChangeCaseToFullWidth" id="bm_id3147242" localize="false"/>
+<h2 id="hd_id3156113">Full Width</h2>
+<paragraph role="paragraph" id="par_id3154749">
+    <ahelp hid=".uno:ChangeCaseToFullWidth">Changes the selected Asian characters to full-width characters.</ahelp>
+</paragraph>
+<bookmark branch="hid/.uno:ChangeCaseToHiragana" id="bm_id3147275" localize="false"/>
+<h2 id="hd_id3152996">Hiragana</h2>
+<paragraph role="paragraph" id="par_id3156156">
+    <ahelp hid=".uno:ChangeCaseToHiragana">Changes the selected Asian characters to Hiragana characters.</ahelp>
+</paragraph>
+<bookmark branch="hid/.uno:ChangeCaseToKatakana" id="bm_id3155449" localize="false"/>
+<h2 id="hd_id3154173">Katakana</h2>
+<paragraph role="paragraph" id="par_id3146137">
+    <ahelp hid=".uno:ChangeCaseToKatakana">Changes the selected Asian characters to Katakana characters.</ahelp>
+</paragraph>
+    </body>
+</helpdocument>

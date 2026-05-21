@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textscalc0218010000xml" indexer="include" status="PUBLISH">
+<title id="tit">Insert</title>
+<filename>/text/scalc/02/18010000.xhp</filename>
+</topic>
+</meta>
+<body>
+<section id="insert">
+<bookmark branch="index" id="bm_id3156329"><bookmark_value>inserting; objects, toolbar icon</bookmark_value>
+</bookmark>
+
+<h1 id="hd_id3156329"><link href="text/scalc/02/18010000.xhp">Insert</link></h1>
+    <section id="syinsert">
+        <table id="tbl_id3150032">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3145594"><image id="img_id3144764" src="cmd/lc_insertgraphic.svg" width="1cm" height="1cm"><alt id="alt_id3144764">Icon Insert Object</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3149960">Insert</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+</section>
+<paragraph role="paragraph" id="par_id3153188">The Insert toolbar let you select the following commands:</paragraph>
+<embed href="text/shared/01/04100000.xhp#special_char"/>
+<embed href="text/shared/00/00000404.xhp#syspecial_char"/>
+
+<embed href="text/shared/01/04140000.xhp#insertimageh1"/>
+<embed href="text/shared/00/00000404.xhp#syimage"/>
+
+<embed href="text/shared/01/moviesound.xhp#moviesound"/>
+<embed href="text/shared/00/00000404.xhp#symoviesound"/>
+
+<embed href="text/shared/01/04160300.xhp#starmath"/>
+<embed href="text/shared/00/00000404.xhp#systarmath"/>
+
+<embed href="text/schart/01/wiz_chart_type.xhp#chartype"/>
+<embed href="text/shared/00/00000404.xhp#systarchart"/>
+
+<embed href="text/shared/01/04150100.xhp#ole"/>
+<embed href="text/shared/00/00000404.xhp#syole"/>
+</body>
+</helpdocument>

@@ -1,0 +1,1942 @@
+#. extracted from basctl/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2026-02-24 15:00+0100\n"
+"PO-Revision-Date: 2026-05-04 16:30+0000\n"
+"Last-Translator: NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translations.documentfoundation.org/projects/libo_ui-master/basctlmessages/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1518091655.000000\n"
+
+#. fniWp
+#: basctl/inc/strings.hrc:25
+msgctxt "RID_STR_FILTER_ALLFILES"
+msgid "<All>"
+msgstr "<ທັງໝົດ>"
+
+#. S2GR5
+#: basctl/inc/strings.hrc:26
+msgctxt "RID_STR_NOMODULE"
+msgid "< No Module >"
+msgstr "< ບໍ່ມີໂມດູນ >"
+
+#. XoGeT
+#: basctl/inc/strings.hrc:27
+msgctxt "RID_STR_WRONGPASSWORD"
+msgid "Incorrect Password"
+msgstr "ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ"
+
+#. LGqtN
+#: basctl/inc/strings.hrc:28
+msgctxt "RID_STR_NOLIBINSTORAGE"
+msgid "The file does not contain any BASIC libraries"
+msgstr "ແຟ້ມຂໍ້ມູນບໍ່ມີຊຸດຄຳສັ່ງ BASIC ໃດໆ"
+
+#. 3UEnC
+#: basctl/inc/strings.hrc:29
+msgctxt "RID_STR_BADSBXNAME"
+msgid "Invalid Name"
+msgstr "ຊື່ບໍ່ຖືກຕ້ອງ"
+
+#. tYTFm
+#: basctl/inc/strings.hrc:30
+msgctxt "RID_STR_LIBNAMETOLONG"
+msgid "A library name can have up to 30 characters."
+msgstr "ຊື່ຊຸດຄຳສັ່ງສາມາດມີໄດ້ສູງສຸດ 30 ຕົວອັກສອນ."
+
+#. hGBUF
+#: basctl/inc/strings.hrc:31
+msgctxt "RID_STR_ERRORCHOOSEMACRO"
+msgid "Macros from other documents are not accessible."
+msgstr "ບໍ່ສາມາດເຂົ້າເຖິງມາໂຄຣຈາກເອກະສານອື່ນໄດ້."
+
+#. nqQPr
+#: basctl/inc/strings.hrc:32
+msgctxt "RID_STR_LIBISREADONLY"
+msgid "This library is read-only."
+msgstr "ຊຸດຄຳສັ່ງນີ້ໃຫ້ອ່ານຢ່າງດຽວ."
+
+#. 8DoDR
+#: basctl/inc/strings.hrc:33
+msgctxt "RID_STR_REPLACELIB"
+msgid "'XX' cannot be replaced."
+msgstr "'XX' ບໍ່ສາມາດແທນທີ່ໄດ້."
+
+#. ZrC8a
+#: basctl/inc/strings.hrc:34
+msgctxt "RID_STR_IMPORTNOTPOSSIBLE"
+msgid "'XX' cannot be added."
+msgstr "'XX' ບໍ່ສາມາດເພີ່ມເຂົ້າໄດ້."
+
+#. HEGQB
+#: basctl/inc/strings.hrc:35
+msgctxt "RID_STR_NOIMPORT"
+msgid "'XX' was not added."
+msgstr "'XX' ບໍ່ໄດ້ຖືກເພີ່ມເຂົ້າ."
+
+#. BEk6F
+#: basctl/inc/strings.hrc:36
+msgctxt "RID_STR_ENTERPASSWORD"
+msgid "Enter password for 'XX'"
+msgstr "ປ້ອນລະຫັດຜ່ານສຳລັບ 'XX'"
+
+#. kQpnq
+#: basctl/inc/strings.hrc:37
+msgctxt "RID_STR_SBXNAMEALLREADYUSED"
+msgid "Name already exists"
+msgstr "ມີຊື່ນີ້ແລ້ວ"
+
+#. JWDCy
+#: basctl/inc/strings.hrc:38
+msgctxt "RID_STR_SIGNED"
+msgid "(Signed)"
+msgstr "(ລົງນາມແລ້ວ)"
+
+#. 6ubXB
+#: basctl/inc/strings.hrc:39
+msgctxt "RID_STR_SBXNAMEALLREADYUSED2"
+msgid "Object with same name already exists"
+msgstr "ມີວັດຖຸທີ່ມີຊື່ດຽວກັນນີ້ຢູ່ແລ້ວ"
+
+#. Gnb5H
+#: basctl/inc/strings.hrc:40
+msgctxt "RID_STR_CANNOTRUNMACRO"
+msgid ""
+"For security reasons, you cannot run this macro.\n"
+"\n"
+"For more information, check the security settings."
+msgstr ""
+"ຍ້ອນເຫດຜົນດ້ານຄວາມປອດໄພ, ທ່ານບໍ່ສາມາດເອີ້ນໃຊ້ມາໂຄຣນີ້ໄດ້.\n"
+"\n"
+"ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ໃຫ້ກວດສອບການຕັ້ງຄ່າຄວາມປອດໄພ."
+
+#. FGWLw
+#: basctl/inc/strings.hrc:41
+msgctxt "RID_STR_SEARCHNOTFOUND"
+msgid "Search key not found"
+msgstr "ບໍ່ພົບຄຳທີ່ຄົ້ນຫາ"
+
+#. ZJgvX
+#: basctl/inc/strings.hrc:42
+msgctxt "RID_STR_SEARCHFROMSTART"
+msgid "Search to last module complete. Continue at first module?"
+msgstr "ຄົ້ນຫາຈົນເຖິງໂມດູນສຸດທ້າຍສຳເລັດແລ້ວ. ຕ້ອງການສືບຕໍ່ຢູ່ໂມດູນທຳອິດບໍ່?"
+
+#. 4yDcC
+#: basctl/inc/strings.hrc:43
+msgctxt "RID_STR_SEARCHREPLACES"
+msgid "Search key replaced XX times"
+msgstr "ແທນທີ່ຄຳທີ່ຄົ້ນຫາໄປແລ້ວ XX ຄັ້ງ"
+
+#. 85z2z
+#: basctl/inc/strings.hrc:44
+msgctxt "RID_STR_COULDNTREAD"
+msgid "The file could not be read"
+msgstr "ບໍ່ສາມາດອ່ານແຟ້ມຂໍ້ມູນໄດ້"
+
+#. VSAAi
+#: basctl/inc/strings.hrc:45
+msgctxt "RID_STR_COULDNTWRITE"
+msgid "The file could not be saved"
+msgstr "ບໍ່ສາມາດບັນທຶກແຟ້ມຂໍ້ມູນໄດ້"
+
+#. qgd4b
+#: basctl/inc/strings.hrc:46
+msgctxt "RID_STR_CANNOTCHANGENAMESTDLIB"
+msgid "The name of the default library cannot be changed."
+msgstr "ບໍ່ສາມາດປ່ຽນຊື່ຂອງຊຸດຄຳສັ່ງເລີ່ມຕົ້ນໄດ້."
+
+#. EobDV
+#: basctl/inc/strings.hrc:47
+msgctxt "RID_STR_GENERATESOURCE"
+msgid "Generating source"
+msgstr "ກຳລັງສ້າງແຫຼ່ງຂໍ້ມູນ"
+
+#. Re6Gc
+#: basctl/inc/strings.hrc:48
+msgctxt "RID_STR_FILENAME"
+msgid "File name:"
+msgstr "ຊື່ແຟ້ມ:"
+
+#. zYyVi
+#: basctl/inc/strings.hrc:49
+msgctxt "RID_STR_APPENDLIBS"
+msgid "Import Libraries"
+msgstr "ນຳເຂົ້າຊຸດຄຳສັ່ງ"
+
+#. tasV7
+#: basctl/inc/strings.hrc:50
+msgctxt "RID_STR_QUERYDELMACRO"
+msgid "Do you want to delete the macro XX?"
+msgstr "ທ່ານຕ້ອງການລຶບມາໂຄຣ XX ບໍ່?"
+
+#. Nw7mk
+#: basctl/inc/strings.hrc:51
+msgctxt "RID_STR_QUERYDELDIALOG"
+msgid "Do you want to delete the XX dialog?"
+msgstr "ທ່ານຕ້ອງການລຶບກອບສົນທະນາ XX ບໍ່?"
+
+#. 3Vw9F
+#: basctl/inc/strings.hrc:52
+msgctxt "RID_STR_QUERYDELLIB"
+msgid "Do you want to delete the XX library?"
+msgstr "ທ່ານຕ້ອງການລຶບຊຸດຄຳສັ່ງ XX ບໍ່?"
+
+#. x2D9Y
+#: basctl/inc/strings.hrc:53
+msgctxt "RID_STR_QUERYDELLIBREF"
+msgid "Do you want to delete the reference to the XX library?"
+msgstr "ທ່ານຕ້ອງການລຶບການອ້າງອີງໄປຫາຊຸດຄຳສັ່ງ XX ບໍ່?"
+
+#. oUGKc
+#: basctl/inc/strings.hrc:54
+msgctxt "RID_STR_QUERYDELMODULE"
+msgid "Do you want to delete the XX module?"
+msgstr "ທ່ານຕ້ອງການລຶບໂມດູນ XX ບໍ່?"
+
+#. Ctsr7
+#: basctl/inc/strings.hrc:55
+msgctxt "RID_STR_BASIC"
+msgid "BASIC"
+msgstr "BASIC"
+
+#. WMcJq
+#. Abbreviation for 'line'
+#: basctl/inc/strings.hrc:57
+msgctxt "RID_STR_LINE"
+msgid "Ln"
+msgstr "ແຖວ"
+
+#. pKEQb
+#. Abbreviation for 'column'
+#: basctl/inc/strings.hrc:59
+msgctxt "RID_STR_COLUMN"
+msgid "Col"
+msgstr "ຖັນ"
+
+#. 86aZY
+#: basctl/inc/strings.hrc:60
+msgctxt "RID_STR_CANNOTCLOSE"
+msgid "The window cannot be closed while BASIC is running."
+msgstr "ບໍ່ສາມາດປິດໜ້າຕ່າງໄດ້ໃນຂະນະທີ່ BASIC ກຳລັງເຮັດວຽກ."
+
+#. CUG7C
+#: basctl/inc/strings.hrc:61
+msgctxt "RID_STR_REPLACESTDLIB"
+msgid "The default library cannot be replaced."
+msgstr "ບໍ່ສາມາດແທນທີ່ຊຸດຄຳສັ່ງເລີ່ມຕົ້ນໄດ້."
+
+#. eWwfN
+#: basctl/inc/strings.hrc:62
+msgctxt "RID_STR_REFNOTPOSSIBLE"
+msgid "Reference to 'XX' not possible."
+msgstr "ບໍ່ສາມາດອ້າງອີງຫາ 'XX' ໄດ້."
+
+#. A7sSq
+#: basctl/inc/strings.hrc:63
+msgctxt "RID_STR_WATCHNAME"
+msgid "Watch"
+msgstr "ເຝົ້າເບິ່ງ"
+
+#. 84TYn
+#: basctl/inc/strings.hrc:64
+msgctxt "RID_STR_STACKNAME"
+msgid "Call Stack"
+msgstr "ລຳດັບການຮຽກໃຊ້ (Stack)"
+
+#. DBfyu
+#: basctl/inc/strings.hrc:65
+msgctxt "RID_STR_STDDIALOGNAME"
+msgid "Dialog"
+msgstr "ກອບສົນທະນາ"
+
+#. hUHfi
+#: basctl/inc/strings.hrc:66
+msgctxt "RID_STR_NEWLIB"
+msgid "New Library"
+msgstr "ຊຸດຄຳສັ່ງໃໝ່"
+
+#. kisd2
+#: basctl/inc/strings.hrc:67
+msgctxt "RID_STR_NEWMOD"
+msgid "New Module"
+msgstr "ໂມດູນໃໝ່"
+
+#. YeULe
+#: basctl/inc/strings.hrc:68
+msgctxt "RID_STR_NEWDLG"
+msgid "New Dialog"
+msgstr "ກອບສົນທະນາໃໝ່"
+
+#. jYa97
+#: basctl/inc/strings.hrc:69
+msgctxt "RID_STR_ALL"
+msgid "All"
+msgstr "ທັງໝົດ"
+
+#. yF2LY
+#: basctl/inc/strings.hrc:70
+msgctxt "RID_STR_PAGE"
+msgid "Page"
+msgstr "ໜ້າ"
+
+#. DHuFN
+#: basctl/inc/strings.hrc:71
+msgctxt "RID_STR_WILLSTOPPRG"
+msgid ""
+"You will have to restart the program after this edit.\n"
+"Continue?"
+msgstr ""
+"ທ່ານຈະຕ້ອງເລີ່ມໂປຣແກຣມໃໝ່ຫຼັງຈາກການແກ້ໄຂນີ້.\n"
+"ສືບຕໍ່ບໍ່?"
+
+#. 4qWED
+#: basctl/inc/strings.hrc:72
+msgctxt "RID_STR_SEARCHALLMODULES"
+msgid "Do you want to replace the text in all active modules?"
+msgstr "ທ່ານຕ້ອງການແທນທີ່ຂໍ້ຄວາມໃນໂມດູນທີ່ກຳລັງໃຊ້ງານຢູ່ທັງໝົດບໍ່?"
+
+#. FFBmA
+#: basctl/inc/strings.hrc:73
+msgctxt "RID_STR_REMOVEWATCH"
+msgid "Watch:"
+msgstr "ເຝົ້າເບິ່ງ:"
+
+#. ndtng
+#: basctl/inc/strings.hrc:74
+msgctxt "RID_STR_STACK"
+msgid "Calls: "
+msgstr "ການຮຽກໃຊ້: "
+
+#. wwfg3
+#: basctl/inc/strings.hrc:75
+msgctxt "RID_STR_USERMACROS"
+msgid "My Macros"
+msgstr "ມາໂຄຣຂອງຂ້ອຍ"
+
+#. XenwN
+#: basctl/inc/strings.hrc:76
+msgctxt "RID_STR_USERDIALOGS"
+msgid "My Dialogs"
+msgstr "ກອບສົນທະນາຂອງຂ້ອຍ"
+
+#. Mwj7u
+#: basctl/inc/strings.hrc:77
+msgctxt "RID_STR_USERMACROSDIALOGS"
+msgid "My Macros & Dialogs"
+msgstr "ມາໂຄຣ ແລະ ກອບສົນທະນາຂອງຂ້ອຍ"
+
+#. ej2KL
+#: basctl/inc/strings.hrc:78
+msgctxt "RID_STR_SHAREMACROS"
+msgid "Application Macros"
+msgstr "ມາໂຄຣຂອງແອັບພລິເຄຊັນ"
+
+#. YcXKS
+#: basctl/inc/strings.hrc:79
+msgctxt "RID_STR_SHAREDIALOGS"
+msgid "Application Dialogs"
+msgstr "ກອບສົນທະນາຂອງແອັບພລິເຄຊັນ"
+
+#. GFbe5
+#: basctl/inc/strings.hrc:80
+msgctxt "RID_STR_SHAREMACROSDIALOGS"
+msgid "Application Macros & Dialogs"
+msgstr "ມາໂຄຣ ແລະ ກອບສົນທະນາຂອງແອັບພລິເຄຊັນ"
+
+#. BAMA5
+#: basctl/inc/strings.hrc:81
+msgctxt "RID_STR_REMOVEWATCHTIP"
+msgid "Remove Watch"
+msgstr "ເອົາການເຝົ້າເບິ່ງອອກ"
+
+#. oUqF6
+#: basctl/inc/strings.hrc:82
+msgctxt "RID_STR_QUERYREPLACEMACRO"
+msgid "Do you want to overwrite the XX macro?"
+msgstr "ທ່ານຕ້ອງການຂຽນທັບມາໂຄຣ XX ບໍ່?"
+
+#. Tho9k
+#: basctl/inc/strings.hrc:83
+msgctxt "RID_STR_TRANSLATION_NOTLOCALIZED"
+msgid "<Not localized>"
+msgstr "<ບໍ່ມີການແປສະເພາະທ້ອງຖິ່ນ>"
+
+#. xQyRD
+#: basctl/inc/strings.hrc:84
+msgctxt "RID_STR_TRANSLATION_DEFAULT"
+msgid "[Default Language]"
+msgstr "[ພາສາເລີ່ມຕົ້ນ]"
+
+#. PqDTe
+#: basctl/inc/strings.hrc:85
+msgctxt "RID_STR_DOCUMENT_OBJECTS"
+msgid "Document Objects"
+msgstr "ວັດຖຸເອກະສານ"
+
+#. N3DE8
+#: basctl/inc/strings.hrc:86
+msgctxt "RID_STR_USERFORMS"
+msgid "Forms"
+msgstr "ຟອມ"
+
+#. SKVhK
+#: basctl/inc/strings.hrc:87
+msgctxt "RID_STR_MACRO_FROM"
+msgid "Macro From"
+msgstr "ມາໂຄຣຈາກ"
+
+#. fRFkA
+#: basctl/inc/strings.hrc:88
+msgctxt "RID_STR_SAVE_MACRO_IN"
+msgid "Save Macro In"
+msgstr "ບັນທຶກມາໂຄຣໄວ້ໃນ"
+
+#. 4dGqP
+#: basctl/inc/strings.hrc:89
+msgctxt "RID_STR_NORMAL_MODULES"
+msgid "Modules"
+msgstr "ໂມດູນ"
+
+#. u87jq
+#: basctl/inc/strings.hrc:90
+msgctxt "RID_STR_CLASS_MODULES"
+msgid "Class Modules"
+msgstr "ໂມດູນຄລາສ"
+
+#. 8gC8E
+#: basctl/inc/strings.hrc:91
+msgctxt "RID_STR_DLGIMP_CLASH_RENAME"
+msgid "Rename"
+msgstr "ປ່ຽນຊື່"
+
+#. FCqSS
+#: basctl/inc/strings.hrc:92
+msgctxt "RID_STR_DLGIMP_CLASH_REPLACE"
+msgid "Replace"
+msgstr "ແທນທີ່"
+
+#. 5EucM
+#: basctl/inc/strings.hrc:93
+msgctxt "RID_STR_DLGIMP_CLASH_TITLE"
+msgid "Dialog Import - Name already used"
+msgstr "ການນຳເຂົ້າກອບສົນທະນາ - ມີຊື່ນີ້ແລ້ວ"
+
+#. pkAvQ
+#: basctl/inc/strings.hrc:94
+msgctxt "RID_STR_DLGIMP_CLASH_TEXT"
+msgid ""
+"The library already contains a dialog with the name:\n"
+"\n"
+"$(ARG1)\n"
+"\n"
+"Choose “Rename” to give the imported dialog a new automatic name, or “Replace” to overwrite the existing dialog completely.\n"
+" "
+msgstr ""
+"ຊຸດຄຳສັ່ງມີກອບສົນທະນາທີ່ໃຊ້ຊື່ນີ້ຢູ່ແລ້ວ:\n"
+"\n"
+"$(ARG1)\n"
+"\n"
+"ເລືອກ “ປ່ຽນຊື່” ເພື່ອຕັ້ງຊື່ໃໝ່ໃຫ້ກອບສົນທະນາທີ່ນຳເຂົ້າໂດຍອັດຕະໂນມັດ ຫຼື “ແທນທີ່” ເພື່ອຂຽນທັບກອບສົນທະນາທີ່ມີຢູ່ແລ້ວທັງໝົດ.\n"
+" "
+
+#. FRQSJ
+#: basctl/inc/strings.hrc:95
+msgctxt "RID_STR_DLGIMP_MISMATCH_ADD"
+msgid "Add"
+msgstr "ເພີ່ມ"
+
+#. inETw
+#: basctl/inc/strings.hrc:96
+msgctxt "RID_STR_DLGIMP_MISMATCH_OMIT"
+msgid "Omit"
+msgstr "ລະເວັ້ນ"
+
+#. 227xE
+#: basctl/inc/strings.hrc:97
+msgctxt "RID_STR_DLGIMP_MISMATCH_TITLE"
+msgid "Dialog Import - Language Mismatch"
+msgstr "ການນຳເຂົ້າກອບສົນທະນາ - ພາສາບໍ່ກົງກັນ"
+
+#. zcJw8
+#: basctl/inc/strings.hrc:98
+msgctxt "RID_STR_DLGIMP_MISMATCH_TEXT"
+msgid ""
+"The dialog to be imported supports other languages than the target library.\n"
+"\n"
+"Add these languages to the library to keep additional language resources provided by the dialog or omit them to stay with the current library languages.\n"
+"\n"
+"Note: For languages not supported by the dialog the resources of the dialog's default language will be used.\n"
+" "
+msgstr ""
+"ກອບສົນທະນາທີ່ຈະນຳເຂົ້າຮອງຮັບພາສາອື່ນທີ່ບໍ່ແມ່ນຊຸດຄຳສັ່ງເປົ້າໝາຍ.\n"
+"\n"
+"ເພີ່ມພາສາເຫຼົ່ານີ້ເຂົ້າໃນຊຸດຄຳສັ່ງເພື່ອເກັບຮັກສາແຫຼ່ງຂໍ້ມູນພາສາທີ່ມາກັບກອບສົນທະນາ ຫຼື ລະເວັ້ນເພື່ອໃຊ້ພຽງແຕ່ພາສາຂອງຊຸດຄຳສັ່ງປັດຈຸບັນ.\n"
+"\n"
+"ໝາຍເຫດ: ສຳລັບພາສາທີ່ກອບສົນທະນາບໍ່ຮອງຮັບ, ຈະມີການໃຊ້ແຫຼ່ງຂໍ້ມູນຂອງພາສາເລີ່ມຕົ້ນແທນ.\n"
+" "
+
+#. FcvDu
+#: basctl/inc/strings.hrc:99
+msgctxt "RID_STR_PRINTDLG_PAGES"
+msgid "Pages:"
+msgstr "ໜ້າ:"
+
+#. 4AR5D
+#: basctl/inc/strings.hrc:100
+msgctxt "RID_STR_PRINTDLG_PRINTALLPAGES"
+msgid "All ~Pages"
+msgstr "~ທຸກໜ້າ"
+
+#. xfLXi
+#: basctl/inc/strings.hrc:101
+msgctxt "RID_STR_PRINTDLG_PRINTPAGES"
+msgid "Pa~ges:"
+msgstr "~ໜ້າ:"
+
+#. dALHq
+#: basctl/inc/strings.hrc:102
+msgctxt "RID_STR_CHOOSE"
+msgid "Choose"
+msgstr "ເລືອກ"
+
+#. edPrX
+#: basctl/inc/strings.hrc:103
+msgctxt "RID_STR_RUN"
+msgid "Run"
+msgstr "ເອີ້ນໃຊ້"
+
+#. DJbpA
+#: basctl/inc/strings.hrc:104
+msgctxt "RID_STR_RECORD"
+msgid "~Save"
+msgstr "~ບັນທຶກ"
+
+#. DFDEv
+#: basctl/inc/strings.hrc:105
+msgctxt "RID_STR_OBJECT_BROWSER"
+msgid "Object Browser"
+msgstr "ຕົວທ່ອງເວັບວັດຖຸ"
+
+#. fpn5Z
+#: basctl/inc/strings.hrc:106
+msgctxt "RID_STR_OB_DOCS_ERROR_TITLE"
+msgid "Documentation Error"
+msgstr "ຂໍ້ຜິດພາດຂອງເອກະສານຄູ່ມື"
+
+#. kEYQ2
+#: basctl/inc/strings.hrc:107
+msgctxt "RID_STR_OB_BROWSER_LAUNCH_FAILED"
+msgid "Could not open the documentation in an external web browser."
+msgstr "ບໍ່ສາມາດເປີດເອກະສານຄູ່ມືໃນຕົວທ່ອງເວັບພາຍນອກໄດ້."
+
+#. NaMEU
+#: basctl/inc/strings.hrc:108
+msgctxt "RID_STR_OB_GROUP_PROPERTIES"
+msgid "Properties"
+msgstr "ຄຸນສົມບັດ"
+
+#. Ra8qj
+#: basctl/inc/strings.hrc:109
+msgctxt "RID_STR_OB_GROUP_METHODS"
+msgid "Methods"
+msgstr "ເມທອດ (Methods)"
+
+#. Je3Pf
+#: basctl/inc/strings.hrc:110
+msgctxt "RID_STR_OB_GROUP_FIELDS"
+msgid "Fields"
+msgstr "ຟິວ (Fields)"
+
+#. jCCbm
+#: basctl/inc/strings.hrc:111
+msgctxt "RID_STR_OB_GROUP_MEMBERS"
+msgid "Members"
+msgstr "ສະມາຊິກ"
+
+#. iR8tk
+#: basctl/inc/strings.hrc:112
+msgctxt "RID_STR_OB_GROUP_PROCEDURES"
+msgid "Procedures"
+msgstr "ໂປຣຊິດເຈີ (Procedures)"
+
+#. zVZAq
+#: basctl/inc/strings.hrc:113
+msgctxt "RID_STR_OB_SCOPE_ALL"
+msgid "All Libraries"
+msgstr "ທຸກຊຸດຄຳສັ່ງ"
+
+#. hgKH6
+#: basctl/inc/strings.hrc:114
+msgctxt "RID_STR_OB_SCOPE_CURRENT"
+msgid "Current Document"
+msgstr "ເອກະສານປັດຈຸບັນ"
+
+#. Jehg7
+#: basctl/inc/strings.hrc:115
+msgctxt "RID_STR_OB_GROUP_FUNCTIONS"
+msgid "Functions"
+msgstr "ຟັງຊັນ"
+
+#. asghU
+#: basctl/inc/strings.hrc:116
+msgctxt "RID_STR_OB_GROUP_OTHER"
+msgid "Other"
+msgstr "ອື່ນໆ"
+
+#. Z38Ha
+#: basctl/inc/strings.hrc:117
+msgctxt "RID_STR_OB_NO_DOCUMENTATION"
+msgid "No documentation link is available for the selected item."
+msgstr "ບໍ່ມີລິ້ງເອກະສານຄູ່ມືສຳລັບລາຍການທີ່ເລືອກ."
+
+#. QHmMr
+#: basctl/inc/strings.hrc:118
+msgctxt "RID_STR_OB_SEARCH_PLACEHOLDER"
+msgid "Search objects and members..."
+msgstr "ຄົ້ນຫາວັດຖຸ ແລະ ສະມາຊິກ..."
+
+#. 7ksFF
+#: basctl/inc/strings.hrc:119
+msgctxt "RID_STR_OB_BACK_BUTTON"
+msgid "Back"
+msgstr "ກັບຄືນ"
+
+#. 8sApQ
+#: basctl/inc/strings.hrc:120
+msgctxt "RID_STR_OB_FORWARD_BUTTON"
+msgid "Forward"
+msgstr "ໄປໜ້າ"
+
+#. 6eZnt
+#. For Details Pane Formatting and Symbol Types
+#: basctl/inc/strings.hrc:122
+msgctxt "RID_STR_OB_AS"
+msgid " As "
+msgstr " ເປັນ "
+
+#. UWrzC
+#: basctl/inc/strings.hrc:123
+msgctxt "RID_STR_OB_OPTIONAL"
+msgid "Optional"
+msgstr "ທາງເລືອກ (Optional)"
+
+#. zAhKT
+#: basctl/inc/strings.hrc:124
+msgctxt "RID_STR_OB_BYREF"
+msgid "ByRef"
+msgstr "ByRef"
+
+#. 2iVpg
+#: basctl/inc/strings.hrc:125
+msgctxt "RID_STR_OB_OUT_PARAM"
+msgid "[out]"
+msgstr "[ອອກ]"
+
+#. upx7A
+#: basctl/inc/strings.hrc:126
+msgctxt "RID_STR_OB_INOUT_PARAM"
+msgid "[inout]"
+msgstr "[ເຂົ້າອອກ]"
+
+#. VQKXh
+#: basctl/inc/strings.hrc:127
+msgctxt "RID_STR_OB_ACCESS"
+msgid "Access: "
+msgstr "ການເຂົ້າເຖິງ: "
+
+#. LD7oB
+#: basctl/inc/strings.hrc:128
+msgctxt "RID_STR_OB_RETURNS"
+msgid "Returns: "
+msgstr "ສົ່ງຄືນ: "
+
+#. RWVR7
+#: basctl/inc/strings.hrc:129
+msgctxt "RID_STR_OB_TYPE"
+msgid "Type: "
+msgstr "ປະເພດ: "
+
+#. CSjgL
+#: basctl/inc/strings.hrc:130
+msgctxt "RID_STR_OB_PARAMETERS"
+msgid ""
+"\n"
+"Parameters:\n"
+msgstr ""
+"\n"
+"ພາລາມິເຕີ:\n"
+
+#. qj5A2
+#: basctl/inc/strings.hrc:131
+msgctxt "RID_STR_OB_LOCATION_HEADER"
+msgid ""
+"\n"
+"Location\n"
+msgstr ""
+"\n"
+"ທີ່ຕັ້ງ\n"
+
+#. Gi5hT
+#: basctl/inc/strings.hrc:132
+msgctxt "RID_STR_OB_MEMBER_OF"
+msgid "Member of: "
+msgstr "ເປັນສະມາຊິກຂອງ: "
+
+#. BSAYz
+#: basctl/inc/strings.hrc:133
+msgctxt "RID_STR_OB_LIBRARY"
+msgid "Library: "
+msgstr "ຊຸດຄຳສັ່ງ: "
+
+#. e4E7b
+#: basctl/inc/strings.hrc:134
+msgctxt "RID_STR_OB_DOCUMENT"
+msgid "Document: "
+msgstr "ເອກະສານ: "
+
+#. UE4Bg
+#: basctl/inc/strings.hrc:135
+msgctxt "RID_STR_OB_LINE"
+msgid "Line: "
+msgstr "ແຖວ: "
+
+#. jKzGE
+#: basctl/inc/strings.hrc:136
+msgctxt "RID_STR_OB_FULLNAME_HEADER"
+msgid ""
+"\n"
+"Full Name\n"
+msgstr ""
+"\n"
+"ຊື່ເຕັມ\n"
+
+#. p7frC
+#: basctl/inc/strings.hrc:137
+msgctxt "RID_STR_OB_CONTENTS_HEADER"
+msgid "Contents\n"
+msgstr "ເນື້ອໃນ\n"
+
+#. 6FCjd
+#: basctl/inc/strings.hrc:138
+msgctxt "RID_STR_OB_TOTAL_MEMBERS"
+msgid "Total members: "
+msgstr "ສະມາຊິກທັງໝົດ: "
+
+#. XcrPC
+#: basctl/inc/strings.hrc:139
+msgctxt "RID_STR_OB_CONTAINS_ITEMS"
+msgid "Contains %1 items"
+msgstr "ບັນຈຸ %1 ລາຍການ"
+
+#. bzmSw
+#. For Access Modifiers
+#: basctl/inc/strings.hrc:141
+msgctxt "RID_STR_OB_ACCESS_PUBLIC"
+msgid "Public"
+msgstr "ສາທາລະນະ (Public)"
+
+#. LHYrs
+#: basctl/inc/strings.hrc:142
+msgctxt "RID_STR_OB_ACCESS_PRIVATE"
+msgid "Private"
+msgstr "ສ່ວນຕົວ (Private)"
+
+#. kxyiA
+#. For Status Bar
+#: basctl/inc/strings.hrc:144
+msgctxt "RID_STR_OB_MEMBERS_COUNT"
+msgid "%1 members"
+msgstr "%1 ສະມາຊິກ"
+
+#. YU3ph
+#: basctl/inc/strings.hrc:145
+msgctxt "RID_STR_OB_ITEMS_COUNT"
+msgid "%1 items"
+msgstr "%1 ລາຍການ"
+
+#. JEfJC
+#: basctl/inc/strings.hrc:146
+msgctxt "RID_STR_OB_READY"
+msgid "Ready"
+msgstr "ພ້ອມແລ້ວ"
+
+#. KFa6C
+#: basctl/inc/strings.hrc:147
+msgctxt "RID_STR_OB_READY_LOADED"
+msgid "✅ Ready (loaded in %1s)"
+msgstr "✅ ພ້ອມແລ້ວ (ໂຫຼດໃນ %1 ວິນາທີ)"
+
+#. SCm54
+#. For Symbol Type Names
+#: basctl/inc/strings.hrc:149
+msgctxt "RID_STR_OB_TYPE_UNO_APIS_ROOT"
+msgid "UNO APIs Root"
+msgstr "ຮາກຂອງ UNO APIs"
+
+#. wU83g
+#: basctl/inc/strings.hrc:150
+msgctxt "RID_STR_OB_TYPE_APP_LIBS"
+msgid "Application Libraries"
+msgstr "ຊຸດຄຳສັ່ງແອັບພລິເຄຊັນ"
+
+#. 92R7e
+#: basctl/inc/strings.hrc:151
+msgctxt "RID_STR_OB_TYPE_DOC_LIBS"
+msgid "Document Libraries"
+msgstr "ຊຸດຄຳສັ່ງເອກະສານ"
+
+#. LBHCA
+#: basctl/inc/strings.hrc:152
+msgctxt "RID_STR_OB_TYPE_LIBRARY"
+msgid "Library"
+msgstr "ຊຸດຄຳສັ່ງ"
+
+#. yCWju
+#: basctl/inc/strings.hrc:153
+msgctxt "RID_STR_OB_TYPE_MODULE"
+msgid "Module"
+msgstr "ໂມດູນ"
+
+#. 4LHq8
+#: basctl/inc/strings.hrc:154
+msgctxt "RID_STR_OB_TYPE_CLASS_MODULE"
+msgid "Class Module"
+msgstr "ໂມດູນຄລາສ"
+
+#. VSNXc
+#: basctl/inc/strings.hrc:155
+msgctxt "RID_STR_OB_TYPE_NAMESPACE"
+msgid "Namespace"
+msgstr "ເນມສະເປສ (Namespace)"
+
+#. s5Pdz
+#: basctl/inc/strings.hrc:156
+msgctxt "RID_STR_OB_TYPE_INTERFACE"
+msgid "Interface"
+msgstr "ອິນເຕີເຟສ (Interface)"
+
+#. JbKw6
+#: basctl/inc/strings.hrc:157
+msgctxt "RID_STR_OB_TYPE_SERVICE"
+msgid "Service"
+msgstr "ເຊີວິດ (Service)"
+
+#. f3BvH
+#: basctl/inc/strings.hrc:158
+msgctxt "RID_STR_OB_TYPE_STRUCT"
+msgid "Struct"
+msgstr "ສະຕຣັກ (Struct)"
+
+#. 4EuF6
+#: basctl/inc/strings.hrc:159
+msgctxt "RID_STR_OB_TYPE_ENUM"
+msgid "Enumeration"
+msgstr "ອິນິວເມີເຣຊັນ (Enumeration)"
+
+#. CRfZM
+#: basctl/inc/strings.hrc:160
+msgctxt "RID_STR_OB_TYPE_CONSTANTS"
+msgid "Constants"
+msgstr "ຄ່າຄົງທີ່ (Constants)"
+
+#. wtyEh
+#: basctl/inc/strings.hrc:161
+msgctxt "RID_STR_OB_TYPE_EXCEPTION"
+msgid "Exception"
+msgstr "ຂໍ້ຍົກເວັ້ນ (Exception)"
+
+#. B89gJ
+#: basctl/inc/strings.hrc:162
+msgctxt "RID_STR_OB_TYPE_TYPEDEF"
+msgid "Typedef"
+msgstr "Typedef"
+
+#. QinVc
+#: basctl/inc/strings.hrc:163
+msgctxt "RID_STR_OB_TYPE_METHOD"
+msgid "Method"
+msgstr "ເມທອດ (Method)"
+
+#. U8NNn
+#: basctl/inc/strings.hrc:164
+msgctxt "RID_STR_OB_TYPE_PROPERTY"
+msgid "Property"
+msgstr "ຄຸນສົມບັດ (Property)"
+
+#. PUVBF
+#: basctl/inc/strings.hrc:165
+msgctxt "RID_STR_OB_TYPE_FIELD"
+msgid "Field"
+msgstr "ຟິວ (Field)"
+
+#. ENKXj
+#: basctl/inc/strings.hrc:166
+msgctxt "RID_STR_OB_TYPE_SUB"
+msgid "Subroutine"
+msgstr "ຊັບຣູທິນ (Subroutine)"
+
+#. f4mbZ
+#: basctl/inc/strings.hrc:167
+msgctxt "RID_STR_OB_TYPE_FUNCTION"
+msgid "Function"
+msgstr "ຟັງຊັນ"
+
+#. K87C4
+#: basctl/inc/strings.hrc:168
+msgctxt "RID_STR_OB_TYPE_ENUM_MEMBER"
+msgid "Enum Member"
+msgstr "ສະມາຊິກ Enum"
+
+#. KDkpw
+#: basctl/inc/strings.hrc:169
+msgctxt "RID_STR_OB_TYPE_ITEM"
+msgid "Item"
+msgstr "ລາຍການ"
+
+#. 7Gzqz
+#: basctl/inc/strings.hrc:170
+msgctxt "RID_BASICIDE_OBJCAT"
+msgid "Object Catalog"
+msgstr "ແຄັດຕາລັອກວັດຖຸ"
+
+#. NtqMk
+#. Property Browser Headline ----------------------------------------------------------------
+#: basctl/inc/strings.hrc:172
+msgctxt "RID_STR_BRWTITLE_PROPERTIES"
+msgid "Properties: "
+msgstr "ຄຸນສົມບັດ: "
+
+#. FnkAZ
+#: basctl/inc/strings.hrc:173
+msgctxt "RID_STR_BRWTITLE_NO_PROPERTIES"
+msgid "No Control marked"
+msgstr "ບໍ່ມີຕົວຄວບຄຸມທີ່ຖືກໝາຍໄວ້"
+
+#. aeAPC
+#: basctl/inc/strings.hrc:174
+msgctxt "RID_STR_BRWTITLE_MULTISELECT"
+msgid "Multiselection"
+msgstr "ການເລືອກຫຼາຍລາຍການ"
+
+#. GNZHF
+#: basctl/inc/strings.hrc:175
+msgctxt "RID_STR_DEF_LANG"
+msgid "[Default Language]"
+msgstr "[ພາສາເລີ່ມຕົ້ນ]"
+
+#. uf3Kt
+#: basctl/inc/strings.hrc:176
+msgctxt "RID_STR_CREATE_LANG"
+msgid "<Press 'Add' to create language resources>"
+msgstr "<ກົດ 'ເພີ່ມ' ເພື່ອສ້າງແຫຼ່ງຂໍ້ມູນພາສາ>"
+
+#. jnJoF
+#: basctl/inc/strings.hrc:177
+msgctxt "RID_STR_EXPORTPACKAGE"
+msgid "Export library as extension"
+msgstr "ສົ່ງອອກຊຸດຄຳສັ່ງເປັນສ່ວນຂະຫຍາຍ"
+
+#. SnKF3
+#: basctl/inc/strings.hrc:178
+msgctxt "RID_STR_EXPORTBASIC"
+msgid "Export as BASIC library"
+msgstr "ສົ່ງອອກເປັນຊຸດຄຳສັ່ງ BASIC"
+
+#. G6SqW
+#: basctl/inc/strings.hrc:179
+msgctxt "RID_STR_PACKAGE_BUNDLE"
+msgid "Extension"
+msgstr "ສ່ວນຂະຫຍາຍ"
+
+#. N7AFg
+#: basctl/inc/strings.hrc:180
+msgctxt "RID_STR_READONLY"
+msgid "Read-only"
+msgstr "ອ່ານຢ່າງດຽວ"
+
+#. GJEts
+#: basctl/inc/strings.hrc:181
+msgctxt "RID_STR_READONLY_WARNING"
+msgid "This module is read-only and cannot be edited."
+msgstr "ໂມດູນນີ້ໃຫ້ອ່ານຢ່າງດຽວ ແລະ ບໍ່ສາມາດແກ້ໄຂໄດ້."
+
+#. omG33
+#: basctl/inc/strings.hrc:182
+msgctxt "RID_STR_READONLY_WARNING"
+msgid "This dialog is read-only and cannot be edited."
+msgstr "ກອບສົນທະນານີ້ໃຫ້ອ່ານຢ່າງດຽວ ແລະ ບໍ່ສາມາດແກ້ໄຂໄດ້."
+
+#. 56TVo
+#: basctl/inc/strings.hrc:183
+msgctxt "RID_LINE_STATUS_CONTROL"
+msgid "Current line and character. Click to open 'Go to Line' dialog."
+msgstr "ແຖວ ແລະ ຕົວອັກສອນປັດຈຸບັນ. ກົດເພື່ອເປີດກອບສົນທະນາ 'ໄປຫາແຖວ'."
+
+#. KCUDA
+#: basctl/inc/strings.hrc:184
+msgctxt "RID_VARIABLE_TOO_LARGE_TO_DISPLAY"
+msgid "Variable too large to display in debugger"
+msgstr "ຕົວປ່ຽນມີຂະໜາດໃຫຍ່ເກີນໄປທີ່ຈະສະແດງໃນຕົວດີບັກ (Debugger)"
+
+#. ErHVd
+#. Color scheme names
+#: basctl/inc/strings.hrc:187
+msgctxt "RID_STR_COLORSCHEME_DEFAULT"
+msgid "Default"
+msgstr "ເລີ່ມຕົ້ນ"
+
+#. q4Gvv
+#: basctl/inc/strings.hrc:188
+msgctxt "RID_STR_COLORSCHEME_LIGHT"
+msgid "%PRODUCTNAME Light"
+msgstr "%PRODUCTNAME ແບບແຈ້ງ"
+
+#. eFZzs
+#: basctl/inc/strings.hrc:189
+msgctxt "RID_STR_COLORSCHEME_DARK"
+msgid "%PRODUCTNAME Dark"
+msgstr "%PRODUCTNAME ແບບມືດ"
+
+#. KdGGY
+#: basctl/inc/strings.hrc:190
+msgctxt "RID_STR_COLORSCHEME_BREEZE_LIGHT"
+msgid "Breeze Light"
+msgstr "Breeze ແບບແຈ້ງ"
+
+#. 6BvWp
+#: basctl/inc/strings.hrc:191
+msgctxt "RID_STR_COLORSCHEME_BREEZE_DARK"
+msgid "Breeze Dark"
+msgstr "Breeze ແບບມືດ"
+
+#. gDC7e
+#: basctl/inc/strings.hrc:192
+msgctxt "RID_STR_COLORSCHEME_SOLARIZED_DARK"
+msgid "Solarized Dark"
+msgstr "Solarized ແບບມືດ"
+
+#. xE2PU
+#: basctl/inc/strings.hrc:193
+msgctxt "RID_STR_COLORSCHEME_SOLARIZED_LIGHT"
+msgid "Solarized Light"
+msgstr "Solarized ແບບແຈ້ງ"
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "_ເພີ່ມ"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "_ນຳໃຊ້"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "_ຍົກເລີກ"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "_ປິດ"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_ລຶບ"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "_ແກ້ໄຂ"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "_ວິທີໃຊ້"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "_ໃໝ່"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "_ບໍ່"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_ຕົກລົງ"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "_ເອົາອອກ"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "_ຄືນຄ່າ"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "_ແມ່ນ"
+
+#. PuxWj
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:26
+msgctxt "basicmacrodialog|BasicMacroDialog"
+msgid "BASIC Macros"
+msgstr "ມາໂຄຣ BASIC"
+
+#. tFg7s
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:43
+msgctxt "basicmacrodialog|run"
+msgid "Run"
+msgstr "ເອີ້ນໃຊ້"
+
+#. gokwe
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:52
+msgctxt "basicmacrodialog|extended_tip|ok"
+msgid "Runs or saves the current macro."
+msgstr "ເອີ້ນໃຊ້ ຫຼື ບັນທຶກມາໂຄຣປັດຈຸບັນ."
+
+#. 6SWBt
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:156
+msgctxt "basicmacrodialog|extended_tip|macros"
+msgid "Lists the macros that are contained in the module selected in the Macro from list."
+msgstr "ສະແດງລາຍຊື່ມາໂຄຣທີ່ມີຢູ່ໃນໂມດູນທີ່ເລືອກຈາກລາຍການ 'ມາໂຄຣຈາກ'."
+
+#. 5TRqv
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:167
+msgctxt "basicmacrodialog|existingmacrosft"
+msgid "Existing Macros In:"
+msgstr "ມາໂຄຣທີ່ມີຢູ່ແລ້ວໃນ:"
+
+#. 8Bfcg
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:230
+msgctxt "basicmacrodialog|extended_tip|libraries"
+msgid "Lists the libraries and the modules where you can open or save your macros. To save a macro with a particular document, open the document, and then open this dialog."
+msgstr "ສະແດງລາຍຊື່ຊຸດຄຳສັ່ງ ແລະ ໂມດູນທີ່ທ່ານສາມາດເປີດ ຫຼື ບັນທຶກມາໂຄຣໄດ້. ເພື່ອບັນທຶກມາໂຄຣໄວ້ໃນເອກະສານໃດໜຶ່ງ, ໃຫ້ເປີດເອກະສານນັ້ນກ່ອນ ແລ້ວຈຶ່ງເປີດກອບສົນທະນານີ້."
+
+#. AjFTi
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:269
+msgctxt "basicmacrodialog|extended_tip|macronameedit"
+msgid "Displays the name of the selected macro. To create or to change the name of a macro, enter a name here."
+msgstr "ສະແດງຊື່ຂອງມາໂຄຣທີ່ເລືອກ. ເພື່ອສ້າງ ຫຼື ປ່ຽນຊື່ມາໂຄຣ, ໃຫ້ປ້ອນຊື່ໃສ່ບ່ອນນີ້."
+
+#. BpDb6
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:278
+msgctxt "basicmacrodialog|libraryft1"
+msgid "Macro Name"
+msgstr "ຊື່ມາໂຄຣ"
+
+#. izDZr
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:300
+msgctxt "basicmacrodialog|assign"
+msgid "Assign..."
+msgstr "ກຳນົດ..."
+
+#. qEaMG
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:307
+msgctxt "basicmacrodialog|extended_tip|assign"
+msgid "Opens the Customize dialog, where you can assign the selected macro to a menu command, a toolbar, or an event."
+msgstr "ເປີດກອບສົນທະນາການປັບແຕ່ງ, ເຊິ່ງທ່ານສາມາດກຳນົດມາໂຄຣທີ່ເລືອກໃຫ້ກັບຄຳສັ່ງເມນູ, ແຖບເຄື່ອງມື ຫຼື ເຫດການໃດໜຶ່ງ."
+
+#. dxu7W
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:319
+msgctxt "basicmacrodialog|edit"
+msgid "Edit"
+msgstr "ແກ້ໄຂ"
+
+#. zrPXg
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:326
+msgctxt "basicmacrodialog|extended_tip|edit"
+msgid "Starts the Basic editor and opens the selected macro or dialog for editing."
+msgstr "ເລີ່ມຕົວແກ້ໄຂ Basic ແລະ ເປີດມາໂຄຣ ຫຼື ກອບສົນທະນາທີ່ເລືອກເພື່ອແກ້ໄຂ."
+
+#. 9Uhec
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:338
+msgctxt "basicmacrodialog|delete"
+msgid "_Delete"
+msgstr "_ລຶບ"
+
+#. Mxvv8
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:345
+msgctxt "basicmacrodialog|extended_tip|delete"
+msgid "Creates a new macro, creates a new module or deletes the selected macro or selected module."
+msgstr "ສ້າງມາໂຄຣໃໝ່, ສ້າງໂມດູນໃໝ່ ຫຼື ລຶບມາໂຄຣ/ໂມດູນທີ່ເລືອກ."
+
+#. XkqFC
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:357
+msgctxt "basicmacrodialog|new"
+msgid "_New"
+msgstr "_ໃໝ່"
+
+#. GN5Ft
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:364
+msgctxt "basicmacrodialog|extended_tip|new"
+msgid "Creates a new library."
+msgstr "ສ້າງຊຸດຄຳສັ່ງໃໝ່."
+
+#. Gh52t
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:376
+msgctxt "basicmacrodialog|organize"
+msgid "Organizer..."
+msgstr "ຕົວຈັດການ..."
+
+#. 3L2hk
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:383
+msgctxt "basicmacrodialog|extended_tip|organize"
+msgid "Opens the Macro Organizer dialog, where you can add, edit, or delete existing macro modules, dialogs, and libraries."
+msgstr "ເປີດກອບສົນທະນາຕົວຈັດການມາໂຄຣ, ເຊິ່ງທ່ານສາມາດເພີ່ມ, ແກ້ໄຂ ຫຼື ລຶບໂມດູນມາໂຄຣ, ກອບສົນທະນາ ແລະ ຊຸດຄຳສັ່ງທີ່ມີຢູ່ແລ້ວໄດ້."
+
+#. wAJj2
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:395
+msgctxt "basicmacrodialog|newlibrary"
+msgid "New Library"
+msgstr "ຊຸດຄຳສັ່ງໃໝ່"
+
+#. E5rdD
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:402
+msgctxt "basicmacrodialog|extended_tip|newlibrary"
+msgid "Saves the recorded macro in a new library."
+msgstr "ບັນທຶກມາໂຄຣທີ່ບັນທຶກໄວ້ເຂົ້າໃນຊຸດຄຳສັ່ງໃໝ່."
+
+#. 2xdsE
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:414
+msgctxt "basicmacrodialog|newmodule"
+msgid "New Module"
+msgstr "ໂມດູນໃໝ່"
+
+#. BrAwG
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:421
+msgctxt "basicmacrodialog|extended_tip|newmodule"
+msgid "Saves the recorded macro in a new module."
+msgstr "ບັນທຶກມາໂຄຣທີ່ບັນທຶກໄວ້ເຂົ້າໃນໂມດູນໃໝ່."
+
+#. gMDg9
+#: basctl/uiconfig/basicide/ui/basicmacrodialog.ui:466
+msgctxt "basicmacrodialog|extended_tip|BasicMacroDialog"
+msgid "Opens a dialog to organize macros."
+msgstr "ເປີດກອບສົນທະນາເພື່ອຈັດການມາໂຄຣ."
+
+#. MDBgX
+#: basctl/uiconfig/basicide/ui/breakpointmenus.ui:12
+msgctxt "breakpointmenus|manage"
+msgid "Manage Breakpoints..."
+msgstr "ຈັດການຈຸດຢຸດ (Breakpoints)..."
+
+#. 2ZNKn
+#: basctl/uiconfig/basicide/ui/breakpointmenus.ui:15
+msgctxt "breakpointmenus|extended_tip|manage"
+msgid "Specifies the options for breakpoints."
+msgstr "ກຳນົດຕົວເລືອກສຳລັບຈຸດຢຸດ."
+
+#. faXzj
+#: basctl/uiconfig/basicide/ui/breakpointmenus.ui:28
+msgctxt "breakpointmenus|active"
+msgid "_Active"
+msgstr "_ເປີດໃຊ້"
+
+#. GD2Yz
+#: basctl/uiconfig/basicide/ui/breakpointmenus.ui:32
+msgctxt "breakpointmenus|extended_tip|active"
+msgid "Activates or deactivates the current breakpoint."
+msgstr "ເປີດ ຫຼື ປິດການໃຊ້ງານຈຸດຢຸດປັດຈຸບັນ."
+
+#. FhiYE
+#: basctl/uiconfig/basicide/ui/breakpointmenus.ui:47
+msgctxt "breakpointmenus|properties"
+msgid "_Properties..."
+msgstr "_ຄຸນສົມບັດ..."
+
+#. GEknG
+#: basctl/uiconfig/basicide/ui/breakpointmenus.ui:51
+msgctxt "breakpointmenus|extended_tip|properties"
+msgid "Specifies the options for breakpoints."
+msgstr "ກຳນົດຕົວເລືອກສຳລັບຈຸດຢຸດ."
+
+#. nFYGC
+#: basctl/uiconfig/basicide/ui/colorscheme.ui:16
+msgctxt "colorscheme|ColorSchemeDialog"
+msgid "Color Scheme"
+msgstr "ຮູບແບບສີ"
+
+#. Znw4K
+#: basctl/uiconfig/basicide/ui/colorscheme.ui:91
+msgctxt "colorscheme|opt_appcolors"
+msgid "Use Application Colors"
+msgstr "ໃຊ້ສີຂອງແອັບພລິເຄຊັນ"
+
+#. F3QuC
+#: basctl/uiconfig/basicide/ui/colorscheme.ui:106
+msgctxt "colorscheme|opt_usescheme"
+msgid "Choose Color Scheme"
+msgstr "ເລືອກຮູບແບບສີ"
+
+#. CovmZ
+#: basctl/uiconfig/basicide/ui/colorscheme.ui:125
+msgctxt "colorscheme|lb_title"
+msgid "Basic IDE Color Options"
+msgstr "ຕົວເລືອກສີຂອງ Basic IDE"
+
+#. oLXRN
+#: basctl/uiconfig/basicide/ui/colorscheme.ui:186
+msgctxt "colorscheme|lb_schemes"
+msgid "Color Schemes"
+msgstr "ຮູບແບບສີ"
+
+#. G55tN
+#: basctl/uiconfig/basicide/ui/defaultlanguage.ui:30
+msgctxt "defaultlanguage|DefaultLanguageDialog"
+msgid "Set Default User Interface Language"
+msgstr "ຕັ້ງຄ່າພາສາເລີ່ມຕົ້ນສຳລັບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້"
+
+#. xYz56
+#: basctl/uiconfig/basicide/ui/defaultlanguage.ui:116
+msgctxt "defaultlanguage|defaultlabel"
+msgid "Default language:"
+msgstr "ພາສາເລີ່ມຕົ້ນ:"
+
+#. C9ruF
+#: basctl/uiconfig/basicide/ui/defaultlanguage.ui:222
+msgctxt "defaultlanguage|checkedlabel"
+msgid "Available languages:"
+msgstr "ພາສາທີ່ມີໃຫ້ໃຊ້:"
+
+#. fBZNF
+#: basctl/uiconfig/basicide/ui/defaultlanguage.ui:260
+msgctxt "defaultlanguage|defined"
+msgid "Select a language to define the default user interface language. All currently present strings will be assigned to the resources created for the selected language."
+msgstr "ເລືອກພາສາເພື່ອຕັ້ງເປັນພາສາເລີ່ມຕົ້ນຂອງສ່ວນຕິດຕໍ່ຜູ້ໃຊ້. ຂໍ້ຄວາມທັງໝົດທີ່ມີຢູ່ປັດຈຸບັນຈະຖືກກຳນົດໃຫ້ກັບແຫຼ່ງຂໍ້ມູນທີ່ສ້າງຂຶ້ນສຳລັບພາສາທີ່ເລືອກ."
+
+#. pk7Wj
+#: basctl/uiconfig/basicide/ui/defaultlanguage.ui:275
+msgctxt "defaultlanguage|added"
+msgid "Select languages to be added. Resources for these languages will be created in the library. Strings of the current default user interface language will be copied to these new resources by default."
+msgstr "ເລືອກພາສາທີ່ຈະເພີ່ມເຂົ້າ. ແຫຼ່ງຂໍ້ມູນສຳລັບພາສາເຫຼົ່ານີ້ຈະຖືກສ້າງຂຶ້ນໃນຊຸດຄຳສັ່ງ. ຂໍ້ຄວາມຂອງພາສາເລີ່ມຕົ້ນປັດຈຸບັນຈະຖືກສຳເນົາໄປຍັງແຫຼ່ງຂໍ້ມູນໃໝ່ເຫຼົ່ານີ້ໂດຍອັດຕະໂນມັດ."
+
+#. QWxzi
+#: basctl/uiconfig/basicide/ui/defaultlanguage.ui:290
+msgctxt "defaultlanguage|alttitle"
+msgid "Add User Interface Languages"
+msgstr "ເພີ່ມພາສາສ່ວນຕິດຕໍ່ຜູ້ໃຊ້"
+
+#. GCNcE
+#: basctl/uiconfig/basicide/ui/deletelangdialog.ui:7
+msgctxt "deletelangdialog|DeleteLangDialog"
+msgid "Delete Language Resources"
+msgstr "ລຶບແຫຼ່ງຂໍ້ມູນພາສາ"
+
+#. Upj8a
+#: basctl/uiconfig/basicide/ui/deletelangdialog.ui:14
+msgctxt "deletelangdialog|DeleteLangDialog"
+msgid "Do you want to delete the resources of the selected language(s)?"
+msgstr "ທ່ານຕ້ອງການລຶບແຫຼ່ງຂໍ້ມູນຂອງພາສາທີ່ເລືອກບໍ່?"
+
+#. CThUw
+#: basctl/uiconfig/basicide/ui/deletelangdialog.ui:15
+msgctxt "deletelangdialog|DeleteLangDialog"
+msgid "You are about to delete the resources for the selected language(s). All user interface strings for this language(s) will be deleted."
+msgstr "ທ່ານກຳລັງຈະລຶບແຫຼ່ງຂໍ້ມູນສຳລັບພາສາທີ່ເລືອກ. ຂໍ້ຄວາມສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ທັງໝົດຂອງພາສານີ້ຈະຖືກລຶບ."
+
+#. gErRZ
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:41
+msgctxt "dialogpage|label1"
+msgid "Dialog:"
+msgstr "ກອບສົນທະນາ:"
+
+#. ECCc3
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:95
+msgctxt "dialogpage|extended_tip|library"
+msgid "Deletes the selected element or elements after confirmation."
+msgstr "ລຶບອົງປະກອບທີ່ເລືອກຫຼັງຈາກມີການຢືນຢັນ."
+
+#. XAJ3E
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:128
+msgctxt "dialogpage|extended_tip|edit"
+msgid "Opens the Basic editor so that you can modify the selected library."
+msgstr "ເປີດຕົວແກ້ໄຂ Basic ເພື່ອໃຫ້ທ່ານສາມາດປັບປ່ຽນຊຸດຄຳສັ່ງທີ່ເລືອກໄດ້."
+
+#. n9VLU
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:140
+msgctxt "dialogpage|newmodule"
+msgid "_New..."
+msgstr "_ໃໝ່..."
+
+#. hfkr2
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:147
+msgctxt "dialogpage|extended_tip|newmodule"
+msgid "Opens the editor and creates a new module."
+msgstr "ເປີດຕົວແກ້ໄຂ ແລະ ສ້າງໂມດູນໃໝ່."
+
+#. kBzSW
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:160
+msgctxt "dialogpage|newdialog"
+msgid "_New..."
+msgstr "_ໃໝ່..."
+
+#. JR2oJ
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:182
+msgctxt "dialogpage|extended_tip|delete"
+msgid "Deletes the selected element or elements without requiring confirmation."
+msgstr "ລຶບອົງປະກອບທີ່ເລືອກໂດຍບໍ່ຕ້ອງມີການຢືນຢັນ."
+
+#. k64f4
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:195
+msgctxt "dialogpage|password"
+msgid "_Password..."
+msgstr "_ລະຫັດຜ່ານ..."
+
+#. FeCu5
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:202
+msgctxt "dialogpage|extended_tip|password"
+msgid "Assigns or edits the password for the selected library."
+msgstr "ກຳນົດ ຫຼື ແກ້ໄຂລະຫັດຜ່ານສຳລັບຊຸດຄຳສັ່ງທີ່ເລືອກ."
+
+#. sHS7f
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:214
+msgctxt "dialogpage|import"
+msgid "_Import..."
+msgstr "_ນຳເຂົ້າ..."
+
+#. JAYC9
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:221
+msgctxt "dialogpage|extended_tip|import"
+msgid "Locate the Basic library that you want to add to the current list, and then click Open."
+msgstr "ຊອກຫາຊຸດຄຳສັ່ງ Basic ທີ່ທ່ານຕ້ອງການເພີ່ມເຂົ້າໃນລາຍການປັດຈຸບັນ ແລ້ວກົດ 'ເປີດ'."
+
+#. ubE5G
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:233
+msgctxt "dialogpage|export"
+msgid "_Export..."
+msgstr "_ສົ່ງອອກ..."
+
+#. weDhB
+#: basctl/uiconfig/basicide/ui/dialogpage.ui:259
+msgctxt "dialogpage|extended_tip|DialogPage"
+msgid "Lists the existing modules or dialogs."
+msgstr "ສະແດງລາຍຊື່ໂມດູນ ຫຼື ກອບສົນທະນາທີ່ມີຢູ່."
+
+#. EGyCn
+#: basctl/uiconfig/basicide/ui/dockingwatch.ui:113
+msgctxt "dockingwatch|RID_STR_WATCHVARIABLE"
+msgid "Variable"
+msgstr "ຕົວປ່ຽນ"
+
+#. QUHSf
+#: basctl/uiconfig/basicide/ui/dockingwatch.ui:125
+msgctxt "dockingwatch|RID_STR_WATCHVALUE"
+msgid "Value"
+msgstr "ຄ່າ"
+
+#. ik3CG
+#: basctl/uiconfig/basicide/ui/dockingwatch.ui:139
+msgctxt "dockingwatch|RID_STR_WATCHTYPE"
+msgid "Type"
+msgstr "ປະເພດ"
+
+#. worE9
+#: basctl/uiconfig/basicide/ui/exportdialog.ui:8
+msgctxt "exportdialog|ExportDialog"
+msgid "Export Basic library"
+msgstr "ສົ່ງອອກຊຸດຄຳສັ່ງ Basic"
+
+#. hvm9y
+#: basctl/uiconfig/basicide/ui/exportdialog.ui:87
+msgctxt "exportdialog|extension"
+msgid "Export as _extension"
+msgstr "ສົ່ງອອກເປັນ_ສ່ວນຂະຫຍາຍ"
+
+#. pK9mG
+#: basctl/uiconfig/basicide/ui/exportdialog.ui:102
+msgctxt "exportdialog|basic"
+msgid "Export as BASIC library"
+msgstr "ສົ່ງອອກເປັນຊຸດຄຳສັ່ງ BASIC"
+
+#. foHKi
+#: basctl/uiconfig/basicide/ui/gotolinedialog.ui:8
+msgctxt "gotolinedialog|GotoLineDialog"
+msgid "Go to Line"
+msgstr "ໄປຫາແຖວ"
+
+#. GbpSc
+#: basctl/uiconfig/basicide/ui/gotolinedialog.ui:73
+msgctxt "gotolinedialog|area"
+msgid "_Line number:"
+msgstr "ໝາຍເລກ_ແຖວ:"
+
+#. mAxtP
+#: basctl/uiconfig/basicide/ui/gotolinedialog.ui:98
+msgctxt "gotolinedialog|line_count"
+msgid "of $1"
+msgstr "ຈາກ $1"
+
+#. C6VgC
+#: basctl/uiconfig/basicide/ui/importlibdialog.ui:22
+msgctxt "importlibdialog|ImportLibDialog"
+msgid "Import Libraries"
+msgstr "ນຳເຂົ້າຊຸດຄຳສັ່ງ"
+
+#. C8ny7
+#: basctl/uiconfig/basicide/ui/importlibdialog.ui:114
+msgctxt "importlibdialog|ref"
+msgid "Insert as reference (read-only)"
+msgstr "ແຊກເປັນການອ້າງອີງ (ອ່ານຢ່າງດຽວ)"
+
+#. iHJcm
+#: basctl/uiconfig/basicide/ui/importlibdialog.ui:122
+msgctxt "importlibdialog|extended_tip|ref"
+msgid "Adds the selected library as a read-only file. The library is reloaded each time you start the office suite."
+msgstr "ເພີ່ມຊຸດຄຳສັ່ງທີ່ເລືອກເປັນແຟ້ມແບບອ່ານຢ່າງດຽວ. ຊຸດຄຳສັ່ງຈະຖືກໂຫຼດໃໝ່ທຸກຄັ້ງທີ່ທ່ານເລີ່ມໂປຣແກຣມ."
+
+#. B9N7w
+#: basctl/uiconfig/basicide/ui/importlibdialog.ui:133
+msgctxt "importlibdialog|replace"
+msgid "Replace existing libraries"
+msgstr "ແທນທີ່ຊຸດຄຳສັ່ງທີ່ມີຢູ່ແລ້ວ"
+
+#. AyUpF
+#: basctl/uiconfig/basicide/ui/importlibdialog.ui:141
+msgctxt "importlibdialog|extended_tip|replace"
+msgid "Replaces a library that has the same name with the current library."
+msgstr "ແທນທີ່ຊຸດຄຳສັ່ງທີ່ມີຊື່ດຽວກັນກັບຊຸດຄຳສັ່ງປັດຈຸບັນ."
+
+#. GGb7Q
+#: basctl/uiconfig/basicide/ui/importlibdialog.ui:156
+msgctxt "importlibdialog|label1"
+msgid "Options"
+msgstr "ຕົວເລືອກ"
+
+#. 7ZFMZ
+#: basctl/uiconfig/basicide/ui/importlibdialog.ui:263
+msgctxt "importlibdialog|extended_tip|ImportLibDialog"
+msgid "Enter a name or the path to the library that you want to append. You can also select a library from the list."
+msgstr "ປ້ອນຊື່ ຫຼື ເສັ້ນທາງໄປຫາຊຸດຄຳສັ່ງທີ່ທ່ານຕ້ອງການເພີ່ມ. ທ່ານຍັງສາມາດເລືອກຊຸດຄຳສັ່ງຈາກລາຍການໄດ້."
+
+#. XdZ7e
+#: basctl/uiconfig/basicide/ui/libpage.ui:44
+msgctxt "libpage|label1"
+msgid "L_ocation:"
+msgstr "ທີ່_ຕັ້ງ:"
+
+#. JAxWt
+#: basctl/uiconfig/basicide/ui/libpage.ui:61
+msgctxt "libpage|extended_tip|location"
+msgid "Select the application or the document containing the macro libraries that you want to organize."
+msgstr "ເລືອກແອັບພລິເຄຊັນ ຫຼື ເອກະສານທີ່ບັນຈຸຊຸດຄຳສັ່ງມາໂຄຣທີ່ທ່ານຕ້ອງການຈັດການ."
+
+#. C4mjh
+#: basctl/uiconfig/basicide/ui/libpage.ui:89
+msgctxt "libpage|lingudictsft"
+msgid "_Library:"
+msgstr "_ຊຸດຄຳສັ່ງ:"
+
+#. fFyuF
+#: basctl/uiconfig/basicide/ui/libpage.ui:124
+msgctxt "libpage|treeviewcolumn1"
+msgid "Name"
+msgstr "ຊື່"
+
+#. aA3m7
+#: basctl/uiconfig/basicide/ui/libpage.ui:144
+msgctxt "libpage|treeviewcolumn2"
+msgid "Location"
+msgstr "ທີ່ຕັ້ງ"
+
+#. T2NUa
+#: basctl/uiconfig/basicide/ui/libpage.ui:155
+msgctxt "libpage|extended_tip|library"
+msgid "Deletes the selected element or elements after confirmation."
+msgstr "ລຶບອົງປະກອບທີ່ເລືອກຫຼັງຈາກມີການຢືນຢັນ."
+
+#. EjFxw
+#: basctl/uiconfig/basicide/ui/libpage.ui:188
+msgctxt "libpage|extended_tip|edit"
+msgid "Opens the Basic editor so that you can modify the selected library."
+msgstr "ເປີດຕົວແກ້ໄຂ Basic ເພື່ອໃຫ້ທ່ານສາມາດປັບປ່ຽນຊຸດຄຳສັ່ງທີ່ເລືອກໄດ້."
+
+#. AjENj
+#: basctl/uiconfig/basicide/ui/libpage.ui:200
+msgctxt "libpage|password"
+msgid "_Password..."
+msgstr "_ລະຫັດຜ່ານ..."
+
+#. m79WV
+#: basctl/uiconfig/basicide/ui/libpage.ui:207
+msgctxt "libpage|extended_tip|password"
+msgid "Assigns or edits the password for the selected library."
+msgstr "ກຳນົດ ຫຼື ແກ້ໄຂລະຫັດຜ່ານສຳລັບຊຸດຄຳສັ່ງທີ່ເລືອກ."
+
+#. bzX6x
+#: basctl/uiconfig/basicide/ui/libpage.ui:219
+msgctxt "libpage|new"
+msgid "_New..."
+msgstr "_ໃໝ່..."
+
+#. Af6Jv
+#: basctl/uiconfig/basicide/ui/libpage.ui:226
+msgctxt "libpage|extended_tip|new"
+msgid "Creates a new library."
+msgstr "ສ້າງຊຸດຄຳສັ່ງໃໝ່."
+
+#. EBVPe
+#: basctl/uiconfig/basicide/ui/libpage.ui:239
+msgctxt "libpage|import"
+msgid "_Import..."
+msgstr "_ນຳເຂົ້າ..."
+
+#. hSWdE
+#: basctl/uiconfig/basicide/ui/libpage.ui:246
+msgctxt "libpage|extended_tip|import"
+msgid "Locate the Basic library that you want to add to the current list, and then click Open."
+msgstr "ຊອກຫາຊຸດຄຳສັ່ງ Basic ທີ່ທ່ານຕ້ອງການເພີ່ມເຂົ້າໃນລາຍການປັດຈຸບັນ ແລ້ວກົດ 'ເປີດ'."
+
+#. GhHRH
+#: basctl/uiconfig/basicide/ui/libpage.ui:259
+msgctxt "libpage|export"
+msgid "_Export..."
+msgstr "_ສົ່ງອອກ..."
+
+#. hMRJK
+#: basctl/uiconfig/basicide/ui/libpage.ui:281
+msgctxt "libpage|extended_tip|delete"
+msgid "Deletes the selected element or elements without requiring confirmation."
+msgstr "ລຶບອົງປະກອບທີ່ເລືອກໂດຍບໍ່ຕ້ອງມີການຢືນຢັນ."
+
+#. dfZKj
+#: basctl/uiconfig/basicide/ui/libpage.ui:307
+msgctxt "libpage|extended_tip|LibPage"
+msgid "Select the application or the document containing the macro libraries that you want to organize."
+msgstr "ເລືອກແອັບພລິເຄຊັນ ຫຼື ເອກະສານທີ່ບັນຈຸຊຸດຄຳສັ່ງມາໂຄຣທີ່ທ່ານຕ້ອງການຈັດການ."
+
+#. zrJTt
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:16
+msgctxt "managebreakpoints|ManageBreakpointsDialog"
+msgid "Manage Breakpoints"
+msgstr "ຈັດການຈຸດຢຸດ (Breakpoints)"
+
+#. TvBmF
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:40
+msgctxt "managebreakpoints|extended_tip|new"
+msgid "Creates a breakpoint on the line number specified."
+msgstr "ສ້າງຈຸດຢຸດໃນໝາຍເລກແຖວທີ່ກຳນົດ."
+
+#. CCDEi
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:60
+msgctxt "managebreakpoints|extended_tip|delete"
+msgid "Deletes the selected breakpoint."
+msgstr "ລຶບຈຸດຢຸດທີ່ເລືອກ."
+
+#. PcuyN
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:143
+msgctxt "managebreakpoints|active"
+msgid "Active"
+msgstr "ເປີດໃຊ້"
+
+#. fqCCT
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:151
+msgctxt "managebreakpoints|extended_tip|active"
+msgid "Activates or deactivates the current breakpoint."
+msgstr "ເປີດ ຫຼື ປິດການໃຊ້ງານຈຸດຢຸດປັດຈຸບັນ."
+
+#. MUMSv
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:216
+msgctxt "managebreakpoints|extended_tip|entries"
+msgid "Enter the line number for a new breakpoint, then click New."
+msgstr "ປ້ອນໝາຍເລກແຖວສຳລັບຈຸດຢຸດໃໝ່ ແລ້ວກົດ 'ໃໝ່'."
+
+#. RVBS5
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:245
+msgctxt "managebreakpoints|extended_tip|pass"
+msgid "Specify the number of loops to perform before the breakpoint takes effect."
+msgstr "ກຳນົດຈຳນວນຮອບການເຮັດວຽກກ່ອນທີ່ຈຸດຢຸດຈະມີຜົນ."
+
+#. VDCwR
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:258
+msgctxt "managebreakpoints|label2"
+msgid "Pass count:"
+msgstr "ຈຳນວນການຜ່ານ:"
+
+#. 5dExG
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:279
+msgctxt "managebreakpoints|label1"
+msgid "Breakpoints"
+msgstr "ຈຸດຢຸດ"
+
+#. FGsQQ
+#: basctl/uiconfig/basicide/ui/managebreakpoints.ui:306
+msgctxt "managebreakpoints|extended_tip|ManageBreakpointsDialog"
+msgid "Specifies the options for breakpoints."
+msgstr "ກຳນົດຕົວເລືອກສຳລັບຈຸດຢຸດ."
+
+#. M2Sx2
+#: basctl/uiconfig/basicide/ui/managelanguages.ui:16
+msgctxt "managelanguages|ManageLanguagesDialog"
+msgid "Manage User Interface Languages [$1]"
+msgstr "ຈັດການພາສາສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ [$1]"
+
+#. h23XK
+#: basctl/uiconfig/basicide/ui/managelanguages.ui:78
+msgctxt "managelanguages|label1"
+msgid "Present languages:"
+msgstr "ພາສາທີ່ມີຢູ່ປັດຈຸບັນ:"
+
+#. eDZBN
+#: basctl/uiconfig/basicide/ui/managelanguages.ui:92
+msgctxt "managelanguages|label2"
+msgid "The default language is used if no localization for a user interface locale is present. Furthermore all strings from the default language are copied to resources of newly added languages."
+msgstr "ພາສາເລີ່ມຕົ້ນຈະຖືກນຳໃຊ້ ຖ້າບໍ່ມີການແປສະເພາະທ້ອງຖິ່ນສຳລັບສ່ວນຕິດຕໍ່ຜູ້ໃຊ້. ນອກຈາກນັ້ນ, ຂໍ້ຄວາມທັງໝົດຂອງພາສາເລີ່ມຕົ້ນຈະຖືກສຳເນົາໄປຍັງແຫຼ່ງຂໍ້ມູນຂອງພາສາທີ່ເພີ່ມເຂົ້າໃໝ່."
+
+#. WE7kt
+#: basctl/uiconfig/basicide/ui/managelanguages.ui:122
+msgctxt "managelanguages|add"
+msgid "Add..."
+msgstr "ເພີ່ມ..."
+
+#. MqU2f
+#: basctl/uiconfig/basicide/ui/managelanguages.ui:150
+msgctxt "managelanguages|default"
+msgid "Default"
+msgstr "ເລີ່ມຕົ້ນ"
+
+#. aMjkJ
+#: basctl/uiconfig/basicide/ui/modulepage.ui:41
+msgctxt "modulepage|label1"
+msgid "M_odule:"
+msgstr "ໂ_ມດູນ:"
+
+#. fpUvr
+#: basctl/uiconfig/basicide/ui/modulepage.ui:95
+msgctxt "modulepage|extended_tip|library"
+msgid "Lists the existing macro libraries for the current application and any open documents."
+msgstr "ສະແດງລາຍຊື່ຊຸດຄຳສັ່ງມາໂຄຣທີ່ມີຢູ່ສຳລັບແອັບພລິເຄຊັນປັດຈຸບັນ ແລະ ເອກະສານທີ່ເປີດຢູ່."
+
+#. C4ns2
+#: basctl/uiconfig/basicide/ui/modulepage.ui:128
+msgctxt "modulepage|extended_tip|edit"
+msgid "Opens the Basic editor so that you can modify the selected library."
+msgstr "ເປີດຕົວແກ້ໄຂ Basic ເພື່ອໃຫ້ທ່ານສາມາດປັບປ່ຽນຊຸດຄຳສັ່ງທີ່ເລືອກໄດ້."
+
+#. KjBGM
+#: basctl/uiconfig/basicide/ui/modulepage.ui:140
+msgctxt "modulepage|newmodule"
+msgid "_New..."
+msgstr "_ໃໝ່..."
+
+#. SGQMi
+#: basctl/uiconfig/basicide/ui/modulepage.ui:147
+msgctxt "modulepage|extended_tip|newmodule"
+msgid "Opens the editor and creates a new module."
+msgstr "ເປີດຕົວແກ້ໄຂ ແລະ ສ້າງໂມດູນໃໝ່."
+
+#. RakoP
+#: basctl/uiconfig/basicide/ui/modulepage.ui:160
+msgctxt "modulepage|newdialog"
+msgid "_New..."
+msgstr "_ໃໝ່..."
+
+#. AvaAy
+#: basctl/uiconfig/basicide/ui/modulepage.ui:167
+msgctxt "modulepage|extended_tip|newdialog"
+msgid "Lets you manage the macro libraries."
+msgstr "ຊ່ວຍໃຫ້ທ່ານຈັດການຊຸດຄຳສັ່ງມາໂຄຣ."
+
+#. LeigB
+#: basctl/uiconfig/basicide/ui/modulepage.ui:187
+msgctxt "modulepage|extended_tip|delete"
+msgid "Creates a new macro, or deletes the selected macro."
+msgstr "ສ້າງມາໂຄຣໃໝ່ ຫຼື ລຶບມາໂຄຣທີ່ເລືອກ."
+
+#. 5FC8g
+#: basctl/uiconfig/basicide/ui/modulepage.ui:200
+msgctxt "modulepage|password"
+msgid "_Password..."
+msgstr "_ລະຫັດຜ່ານ..."
+
+#. apZrB
+#: basctl/uiconfig/basicide/ui/modulepage.ui:207
+msgctxt "modulepage|extended_tip|password"
+msgid "Assigns or edits the password for the selected library."
+msgstr "ກຳນົດ ຫຼື ແກ້ໄຂລະຫັດຜ່ານສຳລັບຊຸດຄຳສັ່ງທີ່ເລືອກ."
+
+#. EgCDE
+#: basctl/uiconfig/basicide/ui/modulepage.ui:219
+msgctxt "modulepage|import"
+msgid "_Import..."
+msgstr "_ນຳເຂົ້າ..."
+
+#. PEoED
+#: basctl/uiconfig/basicide/ui/modulepage.ui:226
+msgctxt "modulepage|extended_tip|import"
+msgid "Locate the Basic library that you want to add to the current list, and then click Open."
+msgstr "ຊອກຫາຊຸດຄຳສັ່ງ Basic ທີ່ທ່ານຕ້ອງການເພີ່ມເຂົ້າໃນລາຍການປັດຈຸບັນ ແລ້ວກົດ 'ເປີດ'."
+
+#. GAYBh
+#: basctl/uiconfig/basicide/ui/modulepage.ui:238
+msgctxt "modulepage|export"
+msgid "_Export..."
+msgstr "_ສົ່ງອອກ..."
+
+#. 9Z2WP
+#: basctl/uiconfig/basicide/ui/modulepage.ui:264
+msgctxt "modulepage|extended_tip|ModulePage"
+msgid "Lists the existing modules or dialogs."
+msgstr "ສະແດງລາຍຊື່ໂມດູນ ຫຼື ກອບສົນທະນາທີ່ມີຢູ່."
+
+#. rCNTN
+#: basctl/uiconfig/basicide/ui/newlibdialog.ui:32
+msgctxt "newlibdialog|extended_tip|ok"
+msgid "Runs or saves the current macro."
+msgstr "ເອີ້ນໃຊ້ ຫຼື ບັນທຶກມາໂຄຣປັດຈຸບັນ."
+
+#. Skwd5
+#: basctl/uiconfig/basicide/ui/newlibdialog.ui:92
+msgctxt "newlibdialog|area"
+msgid "_Name:"
+msgstr "_ຊື່:"
+
+#. FWXXE
+#: basctl/uiconfig/basicide/ui/newlibdialog.ui:133
+msgctxt "newlibdialog|extended_tip|NewLibDialog"
+msgid "Enter a name for the new library or module."
+msgstr "ປ້ອນຊື່ສຳລັບຊຸດຄຳສັ່ງ ຫຼື ໂມດູນໃໝ່."
+
+#. QWu67
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:61
+msgctxt "objectbrowser|FilterBox"
+msgid "Search objects and members..."
+msgstr "ຄົ້ນຫາວັດຖຸ ແລະ ສະມາຊິກ..."
+
+#. hhVb5
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:75
+msgctxt "objectbrowser|ClearSearchButton"
+msgid "Clear Search"
+msgstr "ລຶບລ້າງການຄົ້ນຫາ"
+
+#. 4CvyZ
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:78
+msgctxt "objectbrowser|extended_tip|ClearSearchButton"
+msgid "Clears the existing search."
+msgstr "ລຶບລ້າງການຄົ້ນຫາທີ່ມີຢູ່."
+
+#. cFZCZ
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:108
+msgctxt "objectbrowser|ScopeSelectorLabel"
+msgid "Scope:"
+msgstr "ຂອບເຂດ:"
+
+#. TD2BL
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:152
+msgctxt "objectbrowser|BackButtonTip"
+msgid "Back in Navigation History"
+msgstr "ກັບຄືນໃນປະຫວັດການນຳທາງ"
+
+#. pKeQm
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:157
+msgctxt "objectbrowser|extended_tip|BackButton"
+msgid "Go to the previous entry in navigation history."
+msgstr "ໄປຫາລາຍການກ່ອນໜ້າໃນປະຫວັດການນຳທາງ."
+
+#. 5TH27
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:173
+msgctxt "objectbrowser|ForwardButtonTip"
+msgid "Forward in Navigation History"
+msgstr "ໄປໜ້າໃນປະຫວັດການນຳທາງ"
+
+#. SnW5G
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:177
+msgctxt "objectbrowser|extended_tip|ForwardButton"
+msgid "Go to the next entry in navigation history."
+msgstr "ໄປຫາລາຍການຖັດໄປໃນປະຫວັດການນຳທາງ."
+
+#. fAtob
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:225
+msgctxt "objectbrowser|LeftPaneLabel"
+msgid "Objects"
+msgstr "ວັດຖຸ"
+
+#. Nnkr8
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:256
+msgctxt "ObjectBrowserPanel"
+msgid "Objects"
+msgstr "ວັດຖຸ"
+
+#. PCBw5
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:303
+msgctxt "objectbrowser|RightPaneHeaderLabel"
+msgid "Members"
+msgstr "ສະມາຊິກ"
+
+#. PCjCR
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:334
+msgctxt "ObjectBrowserMembers"
+msgid "Members"
+msgstr "ສະມາຊິກ"
+
+#. xQiGu
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:387
+msgctxt "objectbrowser|DetailPaneLabel"
+msgid "Details"
+msgstr "ລາຍລະອຽດ"
+
+#. WAaGi
+#: basctl/uiconfig/basicide/ui/objectbrowser.ui:449
+msgctxt "objectbrowser|StatusLabel"
+msgid "Ready"
+msgstr "ພ້ອມແລ້ວ"
+
+#. uVgXz
+#: basctl/uiconfig/basicide/ui/organizedialog.ui:8
+msgctxt "organizedialog|OrganizeDialog"
+msgid "Basic Macro Organizer"
+msgstr "ຕົວຈັດການມາໂຄຣ Basic"
+
+#. 7cVSj
+#: basctl/uiconfig/basicide/ui/organizedialog.ui:84
+msgctxt "organizedialog|modules"
+msgid "Modules"
+msgstr "ໂມດູນ"
+
+#. fXFQr
+#: basctl/uiconfig/basicide/ui/organizedialog.ui:107
+msgctxt "organizedialog|dialogs"
+msgid "Dialogs"
+msgstr "ກອບສົນທະນາ"
+
+#. f7Wxa
+#: basctl/uiconfig/basicide/ui/organizedialog.ui:131
+msgctxt "organizedialog|libraries"
+msgid "Libraries"
+msgstr "ຊຸດຄຳສັ່ງ"
+
+#. gsjtC
+#: basctl/uiconfig/basicide/ui/sortmenu.ui:12
+msgctxt "sortmenu|macrosort"
+msgid "_Sorting"
+msgstr "ການ_ຈັດລຽງ"
+
+#. GCbAJ
+#: basctl/uiconfig/basicide/ui/sortmenu.ui:22
+msgctxt "sortmenu|alphabetically"
+msgid "_Alphabetically"
+msgstr "ຕາມ_ຕົວອັກສອນ"
+
+#. PBmML
+#: basctl/uiconfig/basicide/ui/sortmenu.ui:31
+msgctxt "sortmenu|properorder"
+msgid "_Proper order"
+msgstr "ຕາມ_ລຳດັບທີ່ເໝາະສົມ"

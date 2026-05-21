@@ -1,0 +1,818 @@
+#. extracted from swext/mediawiki/help
+msgid ""
+msgstr ""
+"Project-Id-Version: help\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2019-07-11 18:38+0200\n"
+"PO-Revision-Date: 2026-05-08 10:23+0000\n"
+"Last-Translator: Alyaksandr Koshal <alkos85@proton.me>\n"
+"Language-Team: Belarusian <https://translations.documentfoundation.org/projects/libo_ui-master/swextmediawikihelp/be/>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1542022560.000000\n"
+
+#. 7EFBE
+#: help.tree
+msgctxt ""
+"help.tree\n"
+"02\n"
+"help_section.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#. E2gyu
+#: help.tree
+msgctxt ""
+"help.tree\n"
+"0224\n"
+"node.text"
+msgid "MediaWiki"
+msgstr "МедыяВікі"
+
+#. qUKTw
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"tit\n"
+"help.text"
+msgid "Wiki Publisher"
+msgstr "Wikі Publisher"
+
+#. FJwZh
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"bm_id3154408\n"
+"help.text"
+msgid "<bookmark_value>Wiki;Wiki Publisher</bookmark_value><bookmark_value>Wiki Publisher</bookmark_value><bookmark_value>extensions;MediaWiki</bookmark_value>"
+msgstr "<bookmark_value>Wiki;Wiki Publisher</bookmark_value><bookmark_value>Wiki Publisher</bookmark_value><bookmark_value>пашырэнні;MediaWiki</bookmark_value>"
+
+#. AQP9D
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"hd_id5993530\n"
+"help.text"
+msgid "Wiki Publisher"
+msgstr "Wikі Publisher"
+
+#. Cn2Za
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id9647511\n"
+"help.text"
+msgid "<ahelp hid=\".\">By using the Wiki Publisher you can upload your current Writer text document to a MediaWiki server. After uploading, all wiki users can read your document on the wiki.</ahelp>"
+msgstr "<ahelp hid=\".\">З дапамогай Wiki Publisher можна пакласці дакументWriter на сервер MediaWiki. Пасля такога ўкладання ўсе карыстальнікі вікі ўбачаць гэты дакумент.</ahelp>"
+
+#. CJbT6
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id6468703\n"
+"help.text"
+msgid "<ahelp hid=\".\">Choose <item type=\"menuitem\">File - Send - To MediaWiki</item> to upload the current Writer document to a MediaWiki server.</ahelp>"
+msgstr "<ahelp hid=\".\">Выберыце <item type=\"menuitem\">Файл - Адаслаць - У MediaWiki</item>, каб укласці бягучы дакумент Writer-а на сервер MediaWiki.</ahelp>"
+
+#. GWuG5
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"hd_id4554582\n"
+"help.text"
+msgid "System Requirements"
+msgstr "Патрабаванні да сістэмы"
+
+#. Qu7zC
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id9340495\n"
+"help.text"
+msgid "Java Runtime Environment"
+msgstr "Jаva Runtime Environment"
+
+#. TpDDo
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id7387615\n"
+"help.text"
+msgid "A wiki account on a supported <link href=\"https://www.mediawiki.org/wiki/MediaWiki\">MediaWiki</link> server"
+msgstr "Уліковы запіс вікі на серверы што падтрліваецца <link href=\"https://www.mediawiki.org/wiki/MediaWiki\">MediaWiki</link>"
+
+#. XCFLj
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"hd_id8047120\n"
+"help.text"
+msgid "Installing Wiki Publisher"
+msgstr "Устаноўка Wiki Publisher"
+
+#. a43c7
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id4277169\n"
+"help.text"
+msgid "Before you use the Wiki Publisher, ensure that %PRODUCTNAME uses a Java Runtime Environment (JRE). To check the status of the JRE, choose <item type=\"menuitem\">Tools - Options - %PRODUCTNAME - Advanced</item>. Ensure that “Use a Java runtime environment” is checked and that a Java runtime folder is selected in the big listbox. If no JRE was activated, then activate a JRE of version 1.4 or later and restart %PRODUCTNAME."
+msgstr "Перад тым, як карыстацца кампанентам Wiki Publisher, праверце, што %PRODUCTNAME выкарыстоўвае хоць адно асяроддзе выканання Явы (JRE). Каб праверыць гэта, выберыце <item type=\"menuitem\">Прылады - Параметры - %PRODUCTNAME - Складаныя*</item>. Праверце, ці выбраны пункт \"Ужываць асяроддзе выканання Явы\", і ці ёсць у спісе каталог гэтага асяроддзя. Калі гэтага няма, то пакажыце ў параметрах на месца JRE версіі 1.4 ці навейшай і пусціце %PRODUCTNAME ізноў."
+
+#. AgmN5
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"hd_id5316019\n"
+"help.text"
+msgid "To Connect to a Wiki"
+msgstr "Каб далучыцца да вікі-пляцоўкі"
+
+#. v3JN9
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id2381969\n"
+"help.text"
+msgid "Note: You can store your user name and password for all respective dialogs inside %PRODUCTNAME. The password will be stored in a secure way, where access is maintained by a master password. To enable the master password, choose <item type=\"menuitem\">Tools - Options - %PRODUCTNAME - Security</item>."
+msgstr "Заўвага: Вы можаце захоўваць сваё імя карыстальніка і пароль для ўсіх адпаведных дыялогаў у %PRODUCTNAME. Пароль будзе захоўвацца ў бяспечным рэжыме, дзе доступ забяспечваецца галоўным паролем. Каб уключыць галоўны пароль, абярыце <item type=\"menuitem\">Інструменты - Параметры - %PRODUCTNAME - Бяспека</item>."
+
+#. 5xi4b
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id3751640\n"
+"help.text"
+msgid "Note: If you connect to the web using a proxy server, enter the proxy information to <item type=\"menuitem\">Tools - Options - Internet - Proxy</item>, and restart the software."
+msgstr "Заўвага: Калі вы падключаецеся да Інтэрнэту з дапамогай проксі-сервера, увядзіце інфармацыю пра проксі-сервер у <item type=\"menuitem\">Інструменты - Параметры - Інтэрнэт - Проксі-сервер</item> і перазапусціце праграму."
+
+#. CCnbF
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id9533677\n"
+"help.text"
+msgid "Open a Writer document, and choose <item type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>."
+msgstr "Адкрыйце дакумент Writer і выберыце <item type=\"menuitem\">Інструменты - Параметры - Інтэрнэт - MediaWiki</item>."
+
+#. fGcyZ
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id368968\n"
+"help.text"
+msgid "In the <link href=\"com.sun.wiki-publisher/wikisettings.xhp\"><emph>Options</emph></link> dialog, click <emph>Add</emph>."
+msgstr "У дыялогавым акне <link href=\"com.sun.wiki-publisher/wikisettings.xhp\"><emph>Параметры</emph></link> націсніце <emph>Дадаць</emph>."
+
+#. pkAFV
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id6962187\n"
+"help.text"
+msgid "In the <link href=\"com.sun.wiki-publisher/wikiaccount.xhp\"><emph>MediaWiki</emph></link> dialog, enter the account information for the wiki."
+msgstr "У дыялогу <link href=\"com.sun.wiki-publisher/wikiaccount.xhp\"><emph>MediaWiki</emph></link> увядзіце інфармацыю аб уліковым запісе для вікі."
+
+#. L5NjG
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id5328836\n"
+"help.text"
+msgid "In the <emph>URL</emph> text box, enter the address of a wiki that you want to connect to."
+msgstr "У тэкставым полі <emph>URL</emph> увядзіце адрас вікі-старонкі, да якой вы жадаеце падключыцца."
+
+#. xc4AX
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id389416\n"
+"help.text"
+msgid "You can copy the URL from a web browser and paste it into the textbox."
+msgstr "Адрас URL можна скапіраваць з вэб-браўзера і ўставіць у тэкставае поле."
+
+#. HKsED
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id5906552\n"
+"help.text"
+msgid "In the <emph>Username</emph> box, enter your user ID for your wiki account."
+msgstr "У полі <emph>Імя карыстальніка</emph> увядзіце ідэнтыфікатар карыстальніка для вашага вікі-акаўнта."
+
+#. RRpwP
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id9297158\n"
+"help.text"
+msgid "If the wiki allows anonymous write access, you can leave the Username and Password boxes empty."
+msgstr "Калі вікі дазваляе ананімны доступ да запісу, вы можаце пакінуць палі імя карыстальніка і пароль пустымі."
+
+#. JvYgU
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id8869594\n"
+"help.text"
+msgid "In the Password box, enter the password for your wiki account, then click <emph>OK</emph>."
+msgstr "У полі «Пароль» увядзіце пароль для вашага вікі-акаўнта, а затым націсніце <emph>ОК</emph>."
+
+#. 5c9bL
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id292062\n"
+"help.text"
+msgid "Optionally enable “Save password” to save the password between sessions. A master password is used to maintain access to all saved passwords. Choose <item type=\"menuitem\">Tools - Options - %PRODUCTNAME - Security</item> to enable the master password. “Save password” is unavailable when the master password is not enabled."
+msgstr "Па жаданні, уключыце функцыю “Захоўваць пароль” для запамінання паролю між сеансамі. Майстар-пароль забяспечвае доступ да ўсіх запісаных пароляў. Выберыце <item type=\"menuitem\">Прылады - Параметры - %PRODUCTNAME - Бяспека</item> для ўключэння майстар-пароля. Калі майстар-пароль не ўключаны, функцыя “Захоўваць пароль” недаступна."
+
+#. Afp56
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"hd_id7044892\n"
+"help.text"
+msgid "To Create a New Wiki Page"
+msgstr "Каб стварыць новую вікі-старонку"
+
+#. rWxKE
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id3514206\n"
+"help.text"
+msgid "Open a Writer document."
+msgstr "Адкрыйце новы дакумент."
+
+#. VNAGB
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id944853\n"
+"help.text"
+msgid "Write the content of the wiki page. You can use formatting such as text formats, headings, footnotes, and more. See the <link href=\"com.sun.wiki-publisher/wikiformats.xhp\">list of supported formats</link>."
+msgstr "Напішыце змест вікі-старонкі. Вы можаце выкарыстоўваць фарматаванне, такое як тэкставыя фарматы, загалоўкі, зноскі і іншае. Глядзіце <link href=\"com.sun.wiki-publisher/wikiformats.xhp\">спіс падтрымоўваных фарматаў</link>."
+
+#. sqvcC
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id4566484\n"
+"help.text"
+msgid "Choose <item type=\"menuitem\">File - Send - To MediaWiki</item>."
+msgstr "Абярыце <item type=\"menuitem\">Файл - Адправіць - У MediaWiki</item>."
+
+#. 6jREj
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id228278\n"
+"help.text"
+msgid "In the <link href=\"com.sun.wiki-publisher/wikisend.xhp\"><emph>Send to MediaWiki</emph></link> dialog, specify the settings for your entry."
+msgstr "У дыялогавым акне <link href=\"com.sun.wiki-publisher/wikisend.xhp\"><emph>Адправіць у MediaWiki</emph></link> задайце налады для вашага запісу."
+
+#. i7MPF
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id2564165\n"
+"help.text"
+msgid "<emph>MediaWiki server</emph>: Select the wiki."
+msgstr "<emph>Сервер MediaWiki</emph>: выберыце wiki."
+
+#. Vghfw
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id5566576\n"
+"help.text"
+msgid "<emph>Title</emph>: Type the title of your page. Type the title of an existing page to overwrite the page with your current text document. Type a new title to create a new page on the wiki."
+msgstr "<emph>Назва</emph>: Увядзіце назву вашай старонкі. Увядзіце назву існуючай старонкі, каб перазапісаць яе бягучым тэкставым дакументам. Увядзіце новую назву, каб стварыць новую старонку ў вікі."
+
+#. AAS4F
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id9688711\n"
+"help.text"
+msgid "<emph>Summary</emph>: Enter an optional short summary of your page."
+msgstr "<emph>Кароткі змест</emph>: Увядзіце кароткі змест вашай старонкі (па жаданні)."
+
+#. QidFi
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id4123661\n"
+"help.text"
+msgid "<emph>This is a minor edit</emph>: Check this box to mark the uploaded page as a minor edit of the already existing page with the same title."
+msgstr "<emph>Дробная праўка</emph>: Выберыце гэты параметр, каб пазначаць укладзеныя старонкі як дробныя праўкі ў наяўнай старонцы з такой назвай."
+
+#. 6qSqt
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id452284\n"
+"help.text"
+msgid "<emph>Show in web browser</emph>: Check this box to open your system web browser and show the uploaded wiki page."
+msgstr "<emph>Паказаць у вэб-браўзеры</emph>: Пазначце гэты параметр, каб адкрыць сістэмны вэб-браўзер і паказаць укладзеную вікі-старонку."
+
+#. Ehnz2
+#: wiki.xhp
+msgctxt ""
+"wiki.xhp\n"
+"par_id8346812\n"
+"help.text"
+msgid "Click <emph>Send</emph>."
+msgstr "Націсніце <emph>Адправіць</emph>."
+
+#. JoNcG
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"tit\n"
+"help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#. MQ3NB
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"hd_id960722\n"
+"help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#. kXBwS
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"par_id4571672\n"
+"help.text"
+msgid "Use the <emph>MediaWiki</emph> dialog to add or edit your MediaWiki account settings."
+msgstr "Выкарыстоўвайце дыялогавае акно <emph>MediaWiki</emph>, каб дадаць або змяніць налады ўліковага запісу MediaWiki."
+
+#. F32QW
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"par_id7631458\n"
+"help.text"
+msgid "<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, starting with \"https://\".</ahelp>"
+msgstr "<ahelp hid=\".\" visibility=\"hidden\">Увядзіце URL-адрас сервера MediaWiki, пачынаючы з «https://».</ahelp>"
+
+#. PiGDX
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"par_id7862483\n"
+"help.text"
+msgid "<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki server. Leave empty for anonymous access.</ahelp>"
+msgstr "<ahelp hid=\".\" visibility=\"hidden\">Увядзіце сваё імя карыстальніка на серверы MediaWiki. Пакіньце поле пустым для ананімнага доступу.</ahelp>"
+
+#. FSKfy
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"par_id1113010\n"
+"help.text"
+msgid "<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki server. Leave empty for anonymous access.</ahelp>"
+msgstr "<ahelp hid=\".\" visibility=\"hidden\">Увядзіце свой пароль на серверы MediaWiki. Пакіньце поле пустым для ананімнага доступу.</ahelp>"
+
+#. zLCx7
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"par_id656758\n"
+"help.text"
+msgid "<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between sessions. The master password must be enabled; see <item type=\"menuitem\">Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
+msgstr "<ahelp hid=\".\" visibility=\"hidden\">Уключыце, каб захоўваць пароль паміж сеансамі. Галоўны пароль павінен быць уключаны; гл. <item type=\"menuitem\">Інструменты - Параметры - %PRODUCTNAME - Бяспека</item>.</ahelp>"
+
+#. EDeV9
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"par_id3112582\n"
+"help.text"
+msgid "Enter the Internet address of a wiki server in a format like “https://wiki.documentfoundation.org” or copy the URL from a web browser."
+msgstr "Увядзіце інтэрнэт-адрас вікі-сервера ў фармаце, напрыклад, «https://wiki.documentfoundation.org», або скапіруйце URL-адрас з вэб-браўзера."
+
+#. boKaA
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"par_id628070\n"
+"help.text"
+msgid "If the wiki allows anonymous access, you can leave the account text boxes empty. Else enter your user name and password."
+msgstr "Калі вікі дазваляе ананімны доступ, вы можаце пакінуць тэкставыя палі ўліковага запісу пустымі. У адваротным выпадку ўвядзіце сваё імя карыстальніка і пароль."
+
+#. M6uYF
+#: wikiaccount.xhp
+msgctxt ""
+"wikiaccount.xhp\n"
+"par_id9046601\n"
+"help.text"
+msgid "If you have enabled the master password feature on the <emph>Security</emph> tab page of the <item type=\"menuitem\">Tools - Options - %PRODUCTNAME</item> dialog, then the software can store your password and automatically insert the data where necessary. Enable the <emph>Save password</emph> checkbox to store your password."
+msgstr "Калі вы ўключылі функцыю галоўнага пароля на ўкладцы <emph>Бяспека</emph> дыялогавага акна <item type=\"menuitem\">Інструменты - Параметры - %PRODUCTNAME</item>, праграма можа захоўваць ваш пароль і аўтаматычна ўстаўляць дадзеныя там, дзе гэта неабходна. Усталюйце сцяжок <emph>Захаваць пароль</emph>, каб захаваць свой пароль."
+
+#. TpaPN
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"tit\n"
+"help.text"
+msgid "MediaWiki Formats"
+msgstr "Фарматы MediaWiki"
+
+#. C6oUL
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id3743095\n"
+"help.text"
+msgid "MediaWiki Formats"
+msgstr "Фарматы MediaWiki"
+
+#. sKvY6
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id8654133\n"
+"help.text"
+msgid "The following list gives an overview of the text formats that the Wiki Publisher can upload to the wiki server."
+msgstr "У наступным спісе прыведзены агляд тэкставых фарматаў, якія @WIKIEXTENSIONPRODUCTNAME@ можа загружаць на сервер Wiki."
+
+#. wC6T7
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id5630664\n"
+"help.text"
+msgid "The OpenDocument format used by Writer and the MediaWiki format are quite different. Only a subset of all features can be transformed from one format to the other."
+msgstr "Фармат OpenDocument, які выкарыстоўваецца Writer, і фармат MediaWiki даволі адрозніваюцца. Толькі падмноства ўсіх функцый можна пераўтварыць з аднаго фармату ў іншы."
+
+#. R74Ai
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id7178868\n"
+"help.text"
+msgid "Headings"
+msgstr "Загалоўкі"
+
+#. 5nuqC
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id508133\n"
+"help.text"
+msgid "Apply a heading paragraph style to the headings in your Writer document. The wiki will show the heading styles of the same outline level, formatted as defined by the wiki engine."
+msgstr "Прымяніце стыль загалоўка к загалоўку тэкставага дакумента Writer. Вікі будзе паказваць стылі загалоўкаў адпаведнага узроўню, фарматаваныя ў адпаведнасці з правіламі вікі."
+
+#. YAjYW
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id7217627\n"
+"help.text"
+msgid "Hyperlinks"
+msgstr "Сеціўныя спасылкі"
+
+#. u3Gky
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id3735465\n"
+"help.text"
+msgid "Native OpenDocument hyperlinks are transformed into “external” wiki links. Therefore, the built-in linking facility of OpenDocument should only be used to create links that point to other sites outside the wiki web. For creating wiki links that point to other subjects of the same wiki domain, use wiki links."
+msgstr "Убудаваныя гіперспасылкі OpenDocument пераўтвараюцца ў «знешнія» вікі-спасылкі. Таму ўбудаваную функцыю спасылак OpenDocument варта выкарыстоўваць толькі для стварэння спасылак, якія паказваюць на іншыя сайты па-за межамі вікі-сеткі. Для стварэння вікі-спасылак, якія паказваюць на іншыя тэмы таго ж вікі-дамена, выкарыстоўвайце вікі-спасылкі."
+
+#. ULYGr
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id941190\n"
+"help.text"
+msgid "Lists"
+msgstr "Спісы"
+
+#. Cah9p
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id8942838\n"
+"help.text"
+msgid "Lists can be exported reliably when the whole list uses a consistent list style. Use the Numbering or Bullets icon to generate a list in Writer. If you need a list without numbering or bullets, use <emph>Format - Bullets and Numbering</emph> to define and apply the respective list style."
+msgstr "Спісы можна надзейна экспартаваць, калі ўвесь спіс выкарыстоўвае адзіны стыль спісу. Выкарыстоўвайце значок «Нумарацыя» або «Маркіраваныя спісы», каб стварыць спіс у Writer. Калі вам патрэбны спіс без нумарацыі або маркіраваных спісаў, выкарыстоўвайце <emph>Фармат - Маркіраваныя Спісы і Нумарацыя</emph>, каб вызначыць і прымяніць адпаведны стыль спісу."
+
+#. GJaHG
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id7026886\n"
+"help.text"
+msgid "Paragraphs"
+msgstr "Абзацы"
+
+#. LBFtS
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id4436475\n"
+"help.text"
+msgid "Alignment"
+msgstr "Раўнаванне"
+
+#. Gdu22
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id376598\n"
+"help.text"
+msgid "Explicit text alignment should not be used in wiki articles. Nevertheless, text alignment is supported for left, centered, and right alignment of text."
+msgstr "У вікі-артыкулах нельга выкарыстоўваць відавочнае выраўноўванне тэксту. Тым не менш, падтрымліваецца выраўноўванне тэксту па левым краі, па цэнтры і па правым краі."
+
+#. gUGmf
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id7486190\n"
+"help.text"
+msgid "Pre-formatted text"
+msgstr "Фарматаваны тэкст"
+
+#. Luezz
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id1459395\n"
+"help.text"
+msgid "A paragraph style with a fixed-width font is transformed as pre-formatted text. Pre-formatted text is shown on the wiki with a border around the text."
+msgstr "Стыль абзаца з фіксаванай шырынёй шрыфта пераўтвараецца ў папярэдне адфарматаваны тэкст. Папярэдне адфарматаваны тэкст адлюстроўваецца ў вікі з рамкай вакол тэксту."
+
+#. 22nLD
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id4834131\n"
+"help.text"
+msgid "Character styles"
+msgstr "Стылі знакаў"
+
+#. fvYKL
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id6397595\n"
+"help.text"
+msgid "Character styles modify the appearance of parts of a paragraph. The transformation supports bold, italics, bold/italics, subscript and superscript. All fixed-width fonts are transformed into the wiki typewriter style."
+msgstr "Стылі сімвалаў змяняюць знешні выгляд частак абзаца. Пераўтварэнне падтрымлівае паўтлусты шрыфт, курсіў, паўтлусты/курсіўны, ніжні і верхні індэкс. Усе шрыфты фіксаванай шырыні пераўтвараюцца ў стыль друкарскай машынкі вікі."
+
+#. uhHcL
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id9405499\n"
+"help.text"
+msgid "Images"
+msgstr "Відарысы"
+
+#. G3qA6
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id3541673\n"
+"help.text"
+msgid "Images cannot be exported by a transformation producing a single file of wiki text. However, if the image is already uploaded to the target wiki domain (e. g., Wikimedia Commons), then the transformation produces a valid image tag that includes the image. Image captions are also supported."
+msgstr "Выявы нельга экспартаваць шляхам пераўтварэння, якое стварае адзіны файл вікі-тэксту. Аднак, калі выява ўжо загружана на мэтавы вікі-дамен (напрыклад, Wikimedia Commons), то пераўтварэнне стварае сапраўдны тэг выявы, які ўключае выяву. Таксама падтрымліваюцца подпісы да малюнкаў."
+
+#. nGuGG
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id2162236\n"
+"help.text"
+msgid "Tables"
+msgstr "Табліцы"
+
+#. w8BUf
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id3037202\n"
+"help.text"
+msgid "Simple tables are supported well. Table headers are translated into corresponding wiki-style table headers. However, custom formatting of table borders, column sizes and background colors is ignored."
+msgstr "Простыя табліцы падтрымліваюцца добра. Загалоўкі табліц пераўтвараюцца ў адпаведныя загалоўкі табліц у вікі-стылі. Аднак, адмысловае фарматаванне межаў табліцы, памеры калонак і фонавыя колеры ігнаруюцца."
+
+#. DF3o9
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id2954496\n"
+"help.text"
+msgid "Joined Cells"
+msgstr "Аб'яднаныя Ячэйкі"
+
+#. b3CZe
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id8253730\n"
+"help.text"
+msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells."
+msgstr "OpenDocument і асабліва OpenOffice.org прадстаўляюць табліцы, якія маюць аб'яднаныя ячэйкі, што ахопліваюць радкі, як табліцы з укладзенымі табліцамі. У адрозненне ад гэтага, вікі-мадэль табліцы заключаецца ў аб'яўленні дыяпазонаў слупкоў і радкоў для такіх аб'яднаных ячэек."
+
+#. vn3bR
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id8163090\n"
+"help.text"
+msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."
+msgstr "Калі аб'ядноўваюцца толькі слупкі аднаго радка, вынік пераўтварэння вельмі нагадвае зыходны дакумент."
+
+#. DCjAG
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id425122\n"
+"help.text"
+msgid "Borders"
+msgstr "Межы"
+
+#. GXBsK
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id1831110\n"
+"help.text"
+msgid "Irrespective of custom table styles for border and background, a table is always exported as “prettytable,” which renders in the wiki engine with simple borders and bold header."
+msgstr "Незалежна ад карыстальніцкіх стыляў для абрамлення і фону, табліца заўжды экспартуецца як “prettytable,” якія выводзяцца ў вікі з простай аблямоўкай і цёмным загалоўкам."
+
+#. kDcRS
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"hd_id6255073\n"
+"help.text"
+msgid "Character set and special characters"
+msgstr "Знаказбор і адмысловыя знакі"
+
+#. zv83m
+#: wikiformats.xhp
+msgctxt ""
+"wikiformats.xhp\n"
+"par_id8216193\n"
+"help.text"
+msgid "The character set of the transformation result is fixed to UTF-8. Depending on your system, this might not be the default character set. This might cause “special characters” to look broken when viewed with default settings. However, you can switch your editor to UTF-8 encoding to fix this. If your editor does not support switching the encoding, you can display the result of the transformation in the Firefox browser and switch the encoding to UTF-8 there. Now, you can copy and paste the transformation result to your program of choice."
+msgstr "Набор сімвалаў выніку пераўтварэння фіксаваны на UTF-8. У залежнасці ад вашай сістэмы, гэта можа не быць наборам сімвалаў па змаўчанні. З-за гэтага «спецыяльныя сімвалы» могуць выглядаць няправільна пры праглядзе з наладамі па змаўчанні. Аднак вы можаце пераключыць рэдактар на кадаванне UTF-8, каб выправіць гэта. Калі ваш рэдактар не падтрымлівае пераключэнне кадавання, вы можаце адлюстраваць вынік пераўтварэння ў браўзеры Firefox і там пераключыць кадаванне на UTF-8. Цяпер вы можаце скапіяваць і ўставіць вынік пераўтварэння ў абраную вамі праграму."
+
+#. CTEdB
+#: wikisend.xhp
+msgctxt ""
+"wikisend.xhp\n"
+"tit\n"
+"help.text"
+msgid "Send to MediaWiki"
+msgstr "Send to MediaWiki"
+
+#. Uomdh
+#: wikisend.xhp
+msgctxt ""
+"wikisend.xhp\n"
+"hd_id108340\n"
+"help.text"
+msgid "Send to MediaWiki"
+msgstr "Адаслаць у MediaWiki"
+
+#. F4YJF
+#: wikisend.xhp
+msgctxt ""
+"wikisend.xhp\n"
+"par_id1743827\n"
+"help.text"
+msgid "In the <emph>Send to MediaWiki</emph> dialog, specify the settings for your current wiki upload."
+msgstr "У дыялогавым акне <emph>Адправіць у MediaWiki</emph> задайце параметры для бягучай загрузкі вікі-файла."
+
+#. KmSsg
+#: wikisend.xhp
+msgctxt ""
+"wikisend.xhp\n"
+"par_id664082\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the MediaWiki server where you want to publish your document. Click <emph>Add</emph> to add a new server to the list.</ahelp>"
+msgstr "<ahelp hid=\".\">Выберыце сервер MediaWiki, на якім вы жадаеце апублікаваць свой дакумент. Націсніце <emph>Дадаць</emph>, каб дадаць новы сервер у спіс.</ahelp>"
+
+#. D9EhE
+#: wikisend.xhp
+msgctxt ""
+"wikisend.xhp\n"
+"par_id2794885\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the title of your wiki entry. This is the top heading of your wiki entry. For a new entry, the title must be unique on this wiki. If you enter an existing title, your upload will overwrite the existing wiki entry.</ahelp>"
+msgstr "<ahelp hid=\".\">Увядзіце назву вашага вікі-артыкула. Гэта будзе ягоны загаловак. Для новага артыкула, загаловак мусіць быць унікальным у гэтай вікі. Калі ўпісаць загаловак, які ўжо ёсць, ваша укладанне перапіша наяўную старонку.</ahelp>"
+
+#. ACh6X
+#: wikisend.xhp
+msgctxt ""
+"wikisend.xhp\n"
+"par_id2486342\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter an optional short summary or comment.</ahelp> See <link href=\"https://meta.wikimedia.org/wiki/Help:Edit_summary\"><emph>https://meta.wikimedia.org/wiki/Help:Edit_summary</emph></link>."
+msgstr "<ahelp hid=\".\">Увядзіце кароткі змест або каментарый (неабавязкова).</ahelp> Глядзіце <link href=\"https://meta.wikimedia.org/wiki/Help:Edit_summary\"><emph>https://meta.wikimedia.org/wiki/Help:Edit_summary</emph></link>."
+
+#. 6dCeT
+#: wikisend.xhp
+msgctxt ""
+"wikisend.xhp\n"
+"par_id823999\n"
+"help.text"
+msgid "<emph>This is a minor edit</emph>: <ahelp hid=\".\">Check this box to mark the uploaded page as a minor edit of the already existing page with the same title.</ahelp>"
+msgstr "<emph>Дробная праўка</emph>: <ahelp hid=\".\">Выберыце гэты параметр, каб пазначаць укладзеныя старонкі як дробныя праўкі ў наяўнай старонцы з такой назвай.</ahelp>"
+
+#. KF3qq
+#: wikisend.xhp
+msgctxt ""
+"wikisend.xhp\n"
+"par_id6592913\n"
+"help.text"
+msgid "<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open your system web browser and show the uploaded wiki page.</ahelp>"
+msgstr "<emph>Паказаць у вэб-браўзеры</emph>: <ahelp hid=\".\">Пазначце гэты параметр, каб адкрыць сістэмны вэб-браўзер і паказаць укладзеную вікі-старонку.</ahelp>"
+
+#. rt8Df
+#: wikisettings.xhp
+msgctxt ""
+"wikisettings.xhp\n"
+"tit\n"
+"help.text"
+msgid "MediaWiki Options"
+msgstr "MediaWiki Options"
+
+#. R7RVE
+#: wikisettings.xhp
+msgctxt ""
+"wikisettings.xhp\n"
+"hd_id6425672\n"
+"help.text"
+msgid "MediaWiki Options"
+msgstr "Параметры MediaWiki"
+
+#. 39jox
+#: wikisettings.xhp
+msgctxt ""
+"wikisettings.xhp\n"
+"par_id1188390\n"
+"help.text"
+msgid "You can add, edit and remove MediaWiki servers. Open the options dialog by going to <item type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>."
+msgstr "Вы можаце дадаваць, правіць і сціраць серверы MediaWiki. Адкрыйце дыялогавае акно параметраў, перайшоўшы <item type=\"menuitem\">Прылады - Параметры - Інтэрнэт - MediaWiki</item>."
+
+#. 44myu
+#: wikisettings.xhp
+msgctxt ""
+"wikisettings.xhp\n"
+"par_id300607\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click Add to add a new wiki server.<br/>Select an entry and click Edit to edit the account settings.<br/>Select an entry and click Remove to remove the entry from the list.</ahelp>"
+msgstr "<ahelp hid=\".\">Націсніце «Дадаць», каб дадаць новы вікі-сервер.<br/>Выберыце запіс і націсніце «Рэдагаваць», каб змяніць налады ўліковага запісу.<br/>Выберыце запіс і націсніце «Выдаліць», каб выдаліць яго са спісу.</ahelp>"
+
+#. 5JhsD
+#: wikisettings.xhp
+msgctxt ""
+"wikisettings.xhp\n"
+"par_id9786065\n"
+"help.text"
+msgid "<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a new entry to the list.</ahelp>"
+msgstr "<ahelp hid=\".\" visibility=\"hidden\">Адкрывае дыялогавае акно MediaWiki для дадавання новага запісу ў спіс.</ahelp>"
+
+#. Q2kSq
+#: wikisettings.xhp
+msgctxt ""
+"wikisettings.xhp\n"
+"par_id3386333\n"
+"help.text"
+msgid "<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit the selected entry.</ahelp>"
+msgstr "<ahelp hid=\".\" visibility=\"hidden\">Адкрывае дыялогавае акно MediaWiki для рэдагавання выбранага запісу.</ahelp>"
+
+#. GCH8n
+#: wikisettings.xhp
+msgctxt ""
+"wikisettings.xhp\n"
+"par_id7285073\n"
+"help.text"
+msgid "<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the list.</ahelp>"
+msgstr "<ahelp hid=\".\" visibility=\"hidden\">Выдаляе выбраны запіс са спісу.</ahelp>"
+
+#. mi2NR
+#: wikisettings.xhp
+msgctxt ""
+"wikisettings.xhp\n"
+"par_id1029084\n"
+"help.text"
+msgid "When you click Add or Edit, the <link href=\"com.sun.wiki-publisher/wikiaccount.xhp\">MediaWiki</link> dialog opens."
+msgstr "Па націсканні на Дадаць або Правіць з'явіцца дыялогавае акно <link href=\"com.sun.wiki-publisher/wikiaccount.xhp\">MediaWiki</link>."

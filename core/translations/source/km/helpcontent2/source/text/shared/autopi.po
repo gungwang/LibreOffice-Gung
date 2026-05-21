@@ -1,0 +1,6453 @@
+#. extracted from helpcontent2/source/text/shared/autopi
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2023-09-28 12:40+0200\n"
+"PO-Revision-Date: 2019-08-09 08:19+0000\n"
+"Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-Language: km-KH\n"
+"X-POOTLE-MTIME: 1565338761.000000\n"
+
+#. hCAzG
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Wizard"
+msgstr "អ្នក​ជំនួយ​ការ​​"
+
+#. 27Ect
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"bm_id3152551\n"
+"help.text"
+msgid "<bookmark_value>wizards; overview</bookmark_value><bookmark_value>AutoPilots, see wizards</bookmark_value>"
+msgstr "<bookmark_value>អ្នក​ជំនួយ​ការ​; ទិដ្ឋភាពទូទៅ</bookmark_value><bookmark_value>អ្នកជំនួយការ​; មើល​អ្នក​ជំនួយការ</bookmark_value>"
+
+#. qP9Fu
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3152551\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01000000.xhp\">Wizards</link>"
+msgstr "<link href=\"text/shared/autopi/01000000.xhp\">អ្នក​ជំនួយការ</link>"
+
+#. miGFD
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"par_id3153527\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AutoPilotMenu\">Guides you through creating business and personal letters, faxes, agendas, and more.</ahelp>"
+msgstr ""
+
+#. dAcHA
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3154750\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010000.xhp\">Letter</link>"
+msgstr "<link href=\"text/shared/autopi/01010000.xhp\">សំបុត្រ​</link>"
+
+#. 38xQF
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3153662\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020000.xhp\">Fax</link>"
+msgstr "<link href=\"text/shared/autopi/01020000.xhp\">ទូរ​សារ​</link>"
+
+#. SG8Tp
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3153561\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040000.xhp\">Agenda</link>"
+msgstr "<link href=\"text/shared/autopi/01040000.xhp\">របៀប​វារៈ​</link>"
+
+#. zjitK
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3147530\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130000.xhp\">Document Converter</link>"
+msgstr "<link href=\"text/shared/autopi/01130000.xhp\">​កម្មវិធី​បម្លែង​ឯកសារ​​</link>"
+
+#. Z9ju7
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3147303\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01150000.xhp\">Euro Converter</link>"
+msgstr "<link href=\"text/shared/autopi/01150000.xhp\">កម្មវិធី​បម្លែង​អឺរ៉ូ</link>"
+
+#. eAGW4
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard"
+msgstr "អ្នក​ជំនួយការ​សំបុត្រ"
+
+#. PFxuA
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"bm_id3151100\n"
+"help.text"
+msgid "<bookmark_value>wizards; letters</bookmark_value><bookmark_value>Letter Wizard</bookmark_value><bookmark_value>templates;letters</bookmark_value>"
+msgstr "<bookmark_value>អ្នក​ជំនួយការ សំបុត្រ</bookmark_value><bookmark_value>សំបុត្រ អ្នកជំនួយការ</bookmark_value><bookmark_value>ពុម្ព សំបុត្រ</bookmark_value>"
+
+#. 96DDV
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3151100\n"
+"help.text"
+msgid "Letter Wizard"
+msgstr "អ្នក​ជំនួយការ​សំបុត្រ"
+
+#. 6BFCi
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3093440\n"
+"help.text"
+msgid "<variable id=\"brief\"><ahelp hid=\".uno:AutoPilotLetter\">Starts the wizard for a letter template.</ahelp></variable> You can use this template for both business and personal correspondence."
+msgstr "<variable id=\"brief\"><ahelp hid=\".uno:AutoPilotLetter\">ចាប់​ផ្តើម​អ្នកជំនួយ​ការ​​សម្រាប់​ពុម្ព​សំបុត្រ​មួយ​ ។ </ahelp></variable> អ្នកអាច​ប្រើ​ពុម្ព​នេះ​សម្រាប់​ទាំង​ការ​ទាក់ទង​ផ្ទាល់ខ្លួន​ និង ពាណិជ្ជកម្ម ។"
+
+#. 7uF5N
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3149178\n"
+"help.text"
+msgid "$[officename] comes with sample templates for personal or business letters, which you can customize to your own needs with the help of the wizard. The wizard leads you step-by-step in creating a document template and offers numerous layout and design options. The preview gives you an impression of how the finished letter will appear according to the settings you choose."
+msgstr "$[officename] ចេញ​មក​ជាមួយ​ពុម្ព​គំរូ​សម្រាប់សំបុត្រ​ពាណិជ្ជកម្ម​ និង ផ្ទាល់ខ្លួន​ ដែល​អ្នក​អាច​ប្តូរ​តម្រូវ​ការ​របស់អ្នក​ផ្ទាល់​តាមបំណង​ជាមួយ​នឹង​ជំនួយ​របស់​អ្នកជំនួយ​ការ​ ។ អ្នកជំនួយ​ការ​នាំ​​អ្នក​ម្តង​មួយ​ជំហាន​ៗ​ក្នុង​ការ​បង្កើត​ពុម្ព​ឯកសារ​ និង ផ្តល់​នូវ​ប្លង់ និង ជម្រើស​ការ​រចនា​​ជាច្រើន​​ ។ ការ​មើល​ជាមុន​ផ្តល់​ឲ្យ​អ្នក​នូវ​ការ​ចាប់​អារម្មណ៍​នៃ​វិធី​ដែល​សំបុត្រ​បាន​បញ្ចប់​នឹង​បង្ហាញ​ដោយ​យោង​តាម​ការ​កំណត់​ដែលអ្នកជ្រើស ។"
+
+#. yqgt8
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153748\n"
+"help.text"
+msgid "Within the wizard, you can modify your entries and options at any time. You may also skip an entire page or even all the wizard pages, in which case the current (or default) settings will remain in effect."
+msgstr "នៅ​ក្នុង​​អ្នកជំនួយ​ការ​ អ្នក​អាច​កែប្រែ​ធាតុ​​ និង ជ្រើស​របស់​ក្នុង​ពេល​តែ​មួយ​ ។ អ្នក​ក៍​អាច​រំលង​ទំព័រ​ធាតុ​​ទាំង​មូល​ ឬ ​​ទំព័រ​អ្នក​ជំនួយ​ការ​​ទាំង​អស់​ដែល​ក្នុង​ករណី​ការ​កំណត់​បច្ចុប្បន្ន​ (លំនាំដើម)​​នៅ​តែ​មាន​ប្រសិទ្ធិ​ភាព ។​"
+
+#. oHQpt
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153824\n"
+"help.text"
+msgid "If you are creating a business letter, you can select a variety of elements to include in your document, which usually do not apply to personal letters, such as a subject line. If you choose the <emph>Personal</emph> letter option, some pages which contain elements specific to business letters will not be included in the wizard dialog."
+msgstr "ប្រសិន​បើ​អ្នក​កំពុង​បង្កើត​​សំបុត្រ​ពាណិជ្ជកម្ម​មួយ​ អ្នកអាច​ជ្រើស​ធាតុ​ជាច្រើន​ដើម្បី​បញ្ចូល​ក្នុង​ឯកសារ​របស់អ្នក​ ដែល​តាម​ធម្មតា​មិន​អនុវត្ត​ទៅ​សំបុត្រ​ផ្ទាល់ខ្លួន​ ដូច​ជា​បន្ទាត់​ប្រធាន​បទ​ ។ ប្រសិន​បើ​អ្នក​​​​ជ្រើស​ជម្រើស​សំបុត្រ​ <emph>ផ្ទាល់ខ្លូន</emph> ទំព័រ​មួយ​ចំនួន​ដែល​មាន​ធាតុ​​ចំពោះ​សំបុត្រ​ពាណិជ្ជកម្ម​នឹង​មិន​ត្រូវ​បាន​បញ្ចូល​ក្នុង​ប្រអប់អ្នកជំនួយ​ការ​ទេ ។"
+
+#. Baf5u
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3159176\n"
+"help.text"
+msgid "Back"
+msgstr "ថយ​ក្រោយ"
+
+#. CBTWx
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153543\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_BACK\">Allows you to view the selections that you made on the previous steps.</ahelp> The current settings will be saved."
+msgstr "<ahelp hid=\"HID_LTRWIZARD_BACK\">អនុញ្ញាត​ឲ្យ​អ្នក​មើល​ជម្រើស​ដែល​អ្នក​បាន​ធ្វើ​លើ​ជំហាន​មុន​ ។ </ahelp> ការ​កំណត់​បច្ចុប្បន្ន​​នឹង​ត្រូវ​បាន​រក្សាទុក​ ។"
+
+#. cNLgv
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3150254\n"
+"help.text"
+msgid "Next"
+msgstr "បន្ទាប់"
+
+#. uz8uA
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3155923\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_NEXT\">Saves the current settings and continues to the next page.</ahelp>"
+msgstr "<ahelp hid=\"HID_LTRWIZARD_NEXT\">រក្សា​ទុក​ការ​កំណត់​បច្ចុប្បន្ន​​ និង បន្ត​ទៅ​ទំព័រ​បន្ទាប់ ។</ahelp>"
+
+#. RTbvH
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3148944\n"
+"help.text"
+msgid "Finish"
+msgstr "បញ្ចប់"
+
+#. TT8KQ
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3149669\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_CREATE\">According to your selections, the wizard creates a new document template and saves it on your hard disk.</ahelp> $[officename] creates a new document based on the existing templates with the \"Untitled X\" name (X stands for the consecutive numbering) and displays it on the work area."
+msgstr "<ahelp hid=\"HID_LTRWIZARD_CREATE\">ដោយ​យោង​ទៅតាម​ជម្រើស​របស់អ្នក​​​ អ្នកជំនួយ​ការ​បង្កើត​ពុម្ព​ឯកសារ​ថ្មី​មួយ​​ និង រក្សា​ទុក​វា​នៅ​លើ​ថាស​រឹង​របស់អ្នក​ ។</ahelp> $[officename] បង្កើត​ឯកសារ​ថ្មី​មួយ​ដែល​មាន​មូលដ្ឋាន​លើ​ពុម្ព​ដែល​​មាន​ស្រាប់​ ដែល​មានឈ្មោះ​ថា \"គ្មាន​ចំណង​ជើង​ X\"  (X តំណាង​ឲ្យ​​លេខ​រៀង​តៗគ្នា​)​ និង បង្ហាញ​វា​នៅលើ​ផ្ទៃ​ការ​ងារ ។"
+
+#. k2a98
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3144433\n"
+"help.text"
+msgid "$[officename] saves the current settings in the wizard according to the chosen template. These settings are used as the default settings the next time you activate the wizard."
+msgstr "$[officename] រក្សា​ទុក​ការ​កំនត់​បច្ចុប្បន្ន​ក្នុង​អ្នកជំនួយ​ការ​ ដោយ​យោង​តាម​ពុម្ព​ដែល​​បានជ្រើស​ ។ ការ​កំណត់​​ទាំងនេះ​ត្រូវ​បាន​ប្រើ​ជា​ការ​កំណត់​លំនាំ​ដើម​ពេល​ក្រោយ​ ដែល​អ្នក​ធ្វើ​ឲ្យ​អ្នក​ជំនួយ​ការ​សកម្ម​ ។"
+
+#. HCxtN
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Page design"
+msgstr "អ្នក​ជំនួយការ​សំបុត្រ - រចនា​ទំព័រ"
+
+#. wGb3D
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3147102\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010100.xhp\">Letter Wizard - Page design</link>"
+msgstr "<link href=\"text/shared/autopi/01010100.xhp\">អ្នក​ជំនួយ​ការ​សំបុត្រ - រចនា​ទំព័រ</link>"
+
+#. jBVzZ
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3147226\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether you want to create a personal or a business letter.</ahelp> The available options on the following pages vary depending on your choice."
+msgstr ""
+
+#. mq5gE
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3149183\n"
+"help.text"
+msgid "Please choose the type of letter and page design"
+msgstr "សូម​ជ្រើស​​ប្រភេទ​សំបុត្រ​ និង ការ​រចនាទំព័រ"
+
+#. aaq7E
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3145346\n"
+"help.text"
+msgid "Specify whether you want to create a business or personal letter template."
+msgstr ""
+
+#. nFnBc
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3155941\n"
+"help.text"
+msgid "Business letter"
+msgstr "សំបុត្រពាណិជ្ជកម្ម"
+
+#. NQaEB
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a business letter template.</ahelp>"
+msgstr ""
+
+#. GFA2A
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN10616\n"
+"help.text"
+msgid "Formal personal letter"
+msgstr "សំបុត្រ​ផ្ទាល់ខ្លូន​ផ្លូវ​ការ"
+
+#. 6CCEY
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN1061D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a formal personal letter.</ahelp>"
+msgstr ""
+
+#. EjdWv
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3147275\n"
+"help.text"
+msgid "Personal letter"
+msgstr "សំបុត្រ​​ផ្ទាល់ខ្លូន"
+
+#. q2EJE
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3148538\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a personal letter.</ahelp>"
+msgstr ""
+
+#. UG6M2
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3155628\n"
+"help.text"
+msgid "Page design"
+msgstr "ការ​រចនា​ទំព័រ"
+
+#. XJVC5
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3149415\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the design for your letter template.</ahelp>"
+msgstr ""
+
+#. BBUGY
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN106A7\n"
+"help.text"
+msgid "Use letterhead paper with pre-printed elements"
+msgstr "ប្រើ​ក្រដាស​ក្បាល​លិខិត​ជាមួយ​ធាតុ​ដែល​​បោះពុម្ព​ជាមុន"
+
+#. 8dkJA
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN106AB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether paper is used that already contains an imprinted logo, address, or footer line. The Wizard shows the Letterhead layout page next.</ahelp>"
+msgstr ""
+
+#. QREhA
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3150254\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010200.xhp\">Go to Letter Wizard - Letterhead layout</link>"
+msgstr "<link href=\"text/shared/autopi/01010200.xhp\">ទៅកាន់​អ្នក​ជំនួយការ​សំបុត្រ - ប្លង់ក្បាល​សំបុត្រ</link>"
+
+#. ma7Nd
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Letterhead layout"
+msgstr "អ្នក​ជំនួយការ​សំបុត្រ - ប្លង់​ក្បាល​សំបុត្រ"
+
+#. AEnQz
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3155354\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010200.xhp\">Letter Wizard - Letterhead layout</link>"
+msgstr "<link href=\"text/shared/autopi/01010200.xhp\">អ្នក​ជំនួយការ​សំបុត្រ - ប្លង់​ក្បាល​សំបុត្រ</link>"
+
+#. 9ZLVJ
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3146856\n"
+"help.text"
+msgid "<ahelp hid=\".\">Allows you to specify the elements that are already imprinted on your letterhead paper.</ahelp> Those elements are not printed, and the space they occupy is left blank by the printer."
+msgstr ""
+
+#. a7zJK
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3156211\n"
+"help.text"
+msgid "Specify items already on your letterhead paper"
+msgstr "បញ្ជាក់​​ធាតុ​ដែល​មាន​ស្រាប់នៅ​លើ​​ក្រដាស​ក្បាល​លិខិត​​របស់​អ្នក"
+
+#. KXGUp
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3149549\n"
+"help.text"
+msgid "Logo"
+msgstr "រូបសញ្ញា"
+
+#. 5dJ2i
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3154186\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that a logo is already printed on your letterhead paper. %PRODUCTNAME does not print a logo.</ahelp>"
+msgstr ""
+
+#. d4G5o
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3151245\n"
+"help.text"
+msgid "Height"
+msgstr "កម្ពស់"
+
+#. YdKBc
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3148944\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the height of the object.</ahelp>"
+msgstr ""
+
+#. bxDB8
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3149415\n"
+"help.text"
+msgid "Width"
+msgstr "ទទឹង"
+
+#. DKTET
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3156192\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the width of the object.</ahelp>"
+msgstr ""
+
+#. GZSW3
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3152922\n"
+"help.text"
+msgid "Spacing to left margin"
+msgstr "គម្លាត​ទៅ​រឹម​ខាង​ឆ្វេង"
+
+#. cTiMt
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3149766\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sets the object distance from the left page margin.</ahelp>"
+msgstr ""
+
+#. y76AK
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3150449\n"
+"help.text"
+msgid "Spacing to top margin"
+msgstr "គម្លាត​ទៅ​រឹម​ទំព័រ​កំពូល"
+
+#. cW3AQ
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3156423\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sets the object distance from the top page margin.</ahelp>"
+msgstr ""
+
+#. EMVxG
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106CB\n"
+"help.text"
+msgid "Own address"
+msgstr "អាសយដ្ឋាន​ផ្ទាល់ខ្លួន"
+
+#. N5YAU
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106CF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that an address is already printed on your letterhead paper. %PRODUCTNAME does not print an address.</ahelp>"
+msgstr ""
+
+#. 6DLwm
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D2\n"
+"help.text"
+msgid "Return address in envelope window"
+msgstr "ត្រឡប់​អាសយដ្ឋាន​ក្នុង​បង្អួច​ស្រោម​សំបុត្រ"
+
+#. EbYY5
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that your own address is already imprinted in small size above the area of the recipient's address. %PRODUCTNAME does not print an address in small size.</ahelp>"
+msgstr ""
+
+#. 3HBwc
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D9\n"
+"help.text"
+msgid "Footer"
+msgstr "បាតកថា​"
+
+#. 8c4td
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106DD\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that a footer area is already printed on your letterhead paper. %PRODUCTNAME does not print a footer.</ahelp>"
+msgstr ""
+
+#. EPJJw
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106E0\n"
+"help.text"
+msgid "Height"
+msgstr "កម្ពស់"
+
+#. JAwHF
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106E4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the height of the footer area that is already imprinted on your letterhead paper. %PRODUCTNAME does not print in that area.</ahelp>"
+msgstr ""
+
+#. URpme
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3153367\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010300.xhp\">Go to Letter Wizard - Printed items</link>"
+msgstr "<link href=\"text/shared/autopi/01010300.xhp\">ទៅកាន់​អ្នក​ជំនួយ​ការ​សំបុត្រ - ធាតុ​ដែល​បាន​បោះពុម្ព</link>"
+
+#. hPVFU
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Printed items"
+msgstr "អ្នក​ជំនួយការ​សំបុត្រ - ធាតុ​ដែល​បាន​បោះពុម្ព"
+
+#. LfRYv
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"hd_id3148520\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010300.xhp\">Letter Wizard - Printed items</link>"
+msgstr "<link href=\"text/shared/autopi/01010300.xhp\">អ្នក​ជំនួយ​ការ​សំបុត្រ - ធាតុ​ដែល​បាន​បោះពុម្ព</link>"
+
+#. wnxmZ
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_id3152594\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the items to be included in the letter template.</ahelp>"
+msgstr ""
+
+#. bbREk
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Logo"
+msgstr "រូបសញ្ញា"
+
+#. SPm2h
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN105FE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a logo on the letter template.</ahelp>"
+msgstr ""
+
+#. iACsf
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10615\n"
+"help.text"
+msgid "Return address in envelope window"
+msgstr "ត្រឡប់​អាសយដ្ឋាន​ក្នុង​បង្អួច​ស្រោម​សំបុត្រ"
+
+#. GWKbG
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10619\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a small size return address on the letter template.</ahelp>"
+msgstr ""
+
+#. BZKw8
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10630\n"
+"help.text"
+msgid "Letter signs"
+msgstr "សញ្ញា​សំបុត្រ"
+
+#. jMGHL
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10634\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a line with references to a business letter on the letter template.</ahelp>"
+msgstr ""
+
+#. 3G2Ua
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1064B\n"
+"help.text"
+msgid "Subject line"
+msgstr "បន្ទាត់​ប្រធានបទ"
+
+#. r7iGS
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1064F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a subject line on the letter template.</ahelp>"
+msgstr ""
+
+#. YCuyF
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1066E\n"
+"help.text"
+msgid "Salutation"
+msgstr "វន្ទនាការ"
+
+#. C8Qod
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10672\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a salutation on the letter template. Select the salutation from the list box.</ahelp>"
+msgstr ""
+
+#. zaPU8
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10689\n"
+"help.text"
+msgid "Fold marks"
+msgstr "ចំណុច​របត់"
+
+#. Kyc8o
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1068D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes fold marks on the letter template.</ahelp>"
+msgstr ""
+
+#. EHXeE
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106AC\n"
+"help.text"
+msgid "Complimentary close"
+msgstr "បញ្ចប់ដោយគួរសម"
+
+#. CyBFN
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106B0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a complimentary close on the letter template. Select the text from the list box.</ahelp>"
+msgstr ""
+
+#. hsSZh
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106C7\n"
+"help.text"
+msgid "Footer"
+msgstr "បាតកថា​"
+
+#. nfwuD
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106CB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a footer on the letter template.</ahelp>"
+msgstr ""
+
+#. 6D8fE
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_id3149666\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010400.xhp\">Go to Letter Wizard - Recipient and sender</link>"
+msgstr "<link href=\"text/shared/autopi/01010400.xhp\">ទៅកាន់​អ្នក​ជំនួយ​ការ​សំបុត្រ - អ្នក​ទទួល និង​អ្នក​ផ្ញើ</link>"
+
+#. EYFFV
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Recipient and sender"
+msgstr "អ្នក​ជំនួយការ​សំបុត្រ - អ្នក​ទទួល និង​អ្នក​ផ្ញើ"
+
+#. ENbsV
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"hd_id3154288\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010400.xhp\">Letter Wizard - Recipient and sender</link>"
+msgstr "<link href=\"text/shared/autopi/01010400.xhp\">អ្នក​ជំនួយ​ការ​សំបុត្រ - អ្នក​ទទួល និង​អ្នក​ផ្ញើ</link>"
+
+#. ZFzrE
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_id3159233\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the sender and recipient information.</ahelp>"
+msgstr ""
+
+#. wFHpK
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Sender's address"
+msgstr "អាសយដ្ឋាន​អ្នក​ផ្ញើ"
+
+#. 22bkt
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Specifies your address information."
+msgstr ""
+
+#. 8ezXK
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "Use user data for return address"
+msgstr "ប្រើ​ទិន្នន័យ​អ្នក​ប្រើ​សម្រាប់​អាសយដ្ឋាន​ត្រឡប់"
+
+#. cuFFc
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the address data from %PRODUCTNAME - User Data in the Options dialog box.</ahelp>"
+msgstr ""
+
+#. DxHmG
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10603\n"
+"help.text"
+msgid "New sender address"
+msgstr "អាសយដ្ឋាន​អ្នក​ផ្ញើ​ថ្មី"
+
+#. 9fMBY
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10606\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the address data from the following text boxes.</ahelp>"
+msgstr ""
+
+#. ooQkP
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1061D\n"
+"help.text"
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+#. zQzeZ
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10620\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the sender.</ahelp>"
+msgstr ""
+
+#. fUoud
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10637\n"
+"help.text"
+msgid "Street"
+msgstr "ផ្លូវ"
+
+#. mvNzb
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1063A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the street address of the sender.</ahelp>"
+msgstr ""
+
+#. UGDXD
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10661\n"
+"help.text"
+msgid "Postcode/State/City"
+msgstr "លេខ​កូដ​ប្រៃ​សណី​/​រដ្ឋ/​ទីក្រុង"
+
+#. MVHBf
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10664\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the address data of the sender.</ahelp>"
+msgstr ""
+
+#. KkM7F
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10673\n"
+"help.text"
+msgid "Recipient's address"
+msgstr "អាសយដ្ឋាន​​របស់​អ្នក​ទទួល"
+
+#. ZVkei
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10677\n"
+"help.text"
+msgid "Specifies the recipient's address information."
+msgstr "បញ្ជាក់​​ព័ត៌​អាសយដ្ឋាន​​របស់​អ្នក​ទទួល​ ។"
+
+#. JJEb6
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10682\n"
+"help.text"
+msgid "Use placeholders for recipient's address"
+msgstr "ប្រើ​កន្លែង​ដាក់​សម្រាប់​អាសយ​ដ្ឋាន​របស់​អ្នក​​​​ទទួល"
+
+#. Dp9fM
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10685\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that placeholder fields are inserted into the letter template.</ahelp>"
+msgstr ""
+
+#. 3wABv
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1069C\n"
+"help.text"
+msgid "Use address database for mail merge"
+msgstr "ប្រើ​​មូលដ្ឋាន​អាសយដ្ឋាន​​សម្រាប់​សំបុត្រ​សំណុំ​បែបបទ"
+
+#. ewNqt
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1069F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Address database fields are inserted into the letter template.</ahelp>"
+msgstr ""
+
+#. PWjGD
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_id3154365\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010500.xhp\">Go to Letter Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01010500.xhp\">ទៅកាន់​អ្នក​ជំនួយ​ការ​សំបុត្រ - បាត​កថា</link>"
+
+#. P7eTT
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Footer"
+msgstr "អ្នក​ជំនួយ​ការ​សំបុត្រ - បាត​កថា"
+
+#. 7UQEB
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"hd_id3143281\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010500.xhp\">Letter Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01010500.xhp\">អ្នក​ជំនួយ​ការ​សំបុត្រ - បាត​កថា</link>"
+
+#. kNGXK
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3147834\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the information to include in the footer space.</ahelp>"
+msgstr ""
+
+#. 5Lwz9
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105DF\n"
+"help.text"
+msgid "Footer"
+msgstr "បាតកថា​"
+
+#. LsLdw
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the text for the footer lines.</ahelp>"
+msgstr ""
+
+#. k8UGa
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Include only on second and following pages"
+msgstr "ដាក់​បញ្ចូល​តែ​ទំព័រ​ទី២ និង​ទំព័រ​បន្តបន្ទាប់"
+
+#. Bd4Le
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN10600\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to suppress the footer on the first page.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ដើម្បី​បង្ហាប់​បាតកថា​នៅ​លើ​ទំព័រ​ទី ១ ។</ahelp>"
+
+#. W8CTM
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"hd_id3153093\n"
+"help.text"
+msgid "Include page numbers"
+msgstr "ដាក់​បញ្ចូល​លេខ​ទំព័រ"
+
+#. oMyXY
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3155414\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes page numbers in your letter template.</ahelp>"
+msgstr ""
+
+#. UDwLE
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3154988\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010600.xhp\">Go to Letter Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01010600.xhp\">ទៅកាន់​អ្នក​ជំនួយ​ការ​សំបុត្រ - ឈ្មោះ និង​ទីតាំង</link>"
+
+#. sbinu
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Name and Location"
+msgstr "អ្នក​ជំនួយ​ការ​សំបុត្រ - ឈ្មោះ និង​ទីតាំង"
+
+#. jFU9s
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3150355\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010600.xhp\">Letter Wizard - Name and Location</link>"
+msgstr "<link href=\"text/shared/autopi/01010600.xhp\">អ្នក​ជំនួយ​ការ​សំបុត្រ - ឈ្មោះ និង​ទីតាំង</link>"
+
+#. Bf2pC
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_id3152996\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies where and under which name you want to save the document and template.</ahelp>"
+msgstr ""
+
+#. MG999
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3154047\n"
+"help.text"
+msgid "Template name"
+msgstr "ឈ្មោះ​ពុម្ព"
+
+#. EjgjE
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_id3159157\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title of the document template.</ahelp>"
+msgstr ""
+
+#. 8cKNZ
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3151043\n"
+"help.text"
+msgid "Path"
+msgstr "ផ្លូវ"
+
+#. kFkEp
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN1061A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the path and file name for the template, or click the <emph>...</emph> button to select the path and file name.</ahelp>"
+msgstr ""
+
+#. WExSE
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10639\n"
+"help.text"
+msgid "Create a letter from this template"
+msgstr "បង្កើត​​សំបុត្រ​មួយ​ពី​ពុម្ព​នេះ"
+
+#. ADCT6
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN1063C\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves and closes the template, and then opens a new untitled document based on the template.</ahelp>"
+msgstr ""
+
+#. XDEVG
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10653\n"
+"help.text"
+msgid "Make manual changes to this letter template"
+msgstr "ធ្វើ​ការ​ផ្លាស់​ប្តូរ​ដោយ​ដៃ​​នូវ​ពុម្ព​សំបុត្រ​នេះ"
+
+#. 6LRY8
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10656\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the template and keeps it open for editing.</ahelp>"
+msgstr ""
+
+#. rZMX9
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10665\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010000.xhp\">Letter Wizard overview</link>"
+msgstr "<link href=\"text/shared/autopi/01010000.xhp\">ទិដ្ឋភាព​ទូទៅ​នៃ​អ្នកជំនួយ​ការ​សំបុត្រ</link>"
+
+#. Fdhin
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard"
+msgstr "អ្នកជំនួយ​ការ​ទូរសារ"
+
+#. Le26A
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"bm_id3150445\n"
+"help.text"
+msgid "<bookmark_value>wizards;faxes</bookmark_value><bookmark_value>faxes;wizards</bookmark_value><bookmark_value>templates;faxes</bookmark_value>"
+msgstr "<bookmark_value>អ្នកជំនួយការ​; ទូរសារ</bookmark_value><bookmark_value>ទូរសារ;​ អ្នកជំនួយការ​</bookmark_value><bookmark_value>ពុម្ព; ទូរសារ</bookmark_value>"
+
+#. 3EVBG
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3150445\n"
+"help.text"
+msgid "Fax Wizard"
+msgstr "អ្នកជំនួយ​ការ​ទូរសារ"
+
+#. mZvnG
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3153394\n"
+"help.text"
+msgid "<variable id=\"fax\"><ahelp hid=\".uno:AutoPilotFax\">Opens the wizard for faxes.</ahelp> The wizard can help you create document templates for fax documents. You can then print the fax documents to a printer or to a fax machine, if fax driver software is available. </variable>"
+msgstr "<variable id=\"fax\"><ahelp hid=\".uno:AutoPilotFax\">បើក​អ្នក​ជំនួយ​ការ​សម្រាប់​ទូរសារ ។</ahelp> អ្នក​ជំនួយ​ការ​អាច​ជួយ​អ្នក​បង្កើត​ពុម្ព​ឯកសារ​សម្រាប់​ឯកសារ​ទូរសារ​ ។ បន្ទាប់​អ្នកអាច​​បោះពុម្ព​ឯកសារ​ទូរសារ​ទៅ​ម៉ាស៊ីន​បោះពុម្ព​ ឬ ទៅ​ម៉ាស៊ីន​ទូរសារ​ ប្រសិន​បើ​កម្មវិធី​បញ្ជា​ទូរសារ​អាច​ប្រើ​បាន ។ </variable>"
+
+#. TiVAB
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3154824\n"
+"help.text"
+msgid "$[officename] comes with a template for fax documents, which you can modify with the wizard to suit your own needs. The wizard leads you step-by-step in creating a document template, and offers numerous layout and design options. The document preview gives you an impression of how the finished fax will appear."
+msgstr "$[officename] មក​ជាមួយ​ពុម្ព​សម្រាប់​ឯកសារ​ទូរសារ​ ដែល​អ្នក​អាច​កែប្រែ​​ក្នុង​អ្នក​ជំនួយ​ការ​ដើម្បី​ឲ្យ​សម​នឹង​តម្រូវ​ការ​ផ្ទាល់របស់អ្នក​ ។ អ្នកជំនួយ​ការ​នាំ​អ្នក​ម្តង​មួយ​ជំហានៗ​ក្នុង​​ការ​បង្កើត​ពុម្ព​ឯកសារ​ និង ផ្តល់​ប្លង់​ និង ជម្រើស​រចនា​ជាច្រើន​​ ។ ការ​មើល​ឯកសារ​ជាមុន​ផ្តល់​ឲ្យអ្ន​ក​នូវ​ការ​ចាប់​អារម្មណ៍​នៃ​វិធី​ដែល​ទូរសារ​បាន​បញ្ចប់​នឹង​បង្ហាញ​ឡើង ។"
+
+#. HcBVT
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3147088\n"
+"help.text"
+msgid "Within the dialog you can modify your entries and options at any time. You can also skip an entire page or even all the wizard pages, in which case the current (or default) settings will remain in effect."
+msgstr "នៅ​ក្នុង​ប្រអប់​ អ្នក​​អាច​កែប្រែ​​ធាតុ​ និង ជម្រើស​របស់​អ្នក​នៅ​ពេល​តែ​មួយ ។ អ្នក​ក៍​អាច​រំលង​ទំព័រ​ទាំង​មូល​ ឬ ​ទំព័រ​អ្នកជំនួយ​ការ​ទាំងអស់​ ក្នុង​ករណី​ដែល​ការ​កំណត់​បច្ចុប្បន្ន​ (លំនាំដើម)​ នៅ​តែ​មាន​ប្រសិទ្ធិភាព ។"
+
+#. cJRx9
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3156156\n"
+"help.text"
+msgid "Back"
+msgstr "ថយ​ក្រោយ"
+
+#. vMGxd
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3155628\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click the<emph> Back </emph>button to view the settings chosen on the previous page. The current settings will not be modified or deleted if you click this button.<emph> Back </emph>will be active from the second page onwards.</ahelp>"
+msgstr "<ahelp hid=\".\">ចុចប៊ូតុង<emph> ថយក្រោយ </emph> ដើម្បី​មើល​ការកំណត់​ដែលបានជ្រើស​នៅលើ​ទំព័រ​មុន ។ ការកំណត់​បច្ចុប្បន្ន នឹង​មិនត្រូវបាន​កែប្រែ ឬ លុបទេ ប្រសិនបើអ្នក​ចុច​លើ​ប៊ូតុងនេះ ។<emph> ថយក្រោយ </emph>នឹង​មាន​សកម្មភាព​ពី ប៉ុន្មាន​វិនាទី​ដែលទៅកាន់​ទំព័រ​ថ្មី ។</ahelp>"
+
+#. 9QWoC
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3147335\n"
+"help.text"
+msgid "Next"
+msgstr "បន្ទាប់"
+
+#. EEAfC
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3156117\n"
+"help.text"
+msgid "<ahelp hid=\".\">The wizard saves the current settings and goes to the next page. The<emph> Next </emph>button will become inactive once you have reached the last page.</ahelp>"
+msgstr "<ahelp hid=\".\">អ្នកជំនួយការ​រក្សាទុក​ការកំណត់​បច្ចុប្បន្ន និង ទៅកាន់​ទំព័រ​បន្ទាត់ ។ ប៊ូតុង <emph> បន្ទាប់ </emph> នឹង​អសកម្ម​នៅពេល​ដែលអ្នក​បានមកដល់​ទំព័រ​ចុងក្រោយ ។</ahelp>"
+
+#. EYyfx
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3152350\n"
+"help.text"
+msgid "Finish"
+msgstr "បញ្ចប់"
+
+#. gBkCQ
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3146948\n"
+"help.text"
+msgid "<ahelp hid=\".\">According to your selections, the wizard creates a document template and saves it. A new document based on the template appears in the work area, with the filename \"UntitledX\".</ahelp>"
+msgstr "<ahelp hid=\".\">ដោយយោង​ទៅតាម ការជ្រើសរើស​របស់អ្នក អ្នកជំនួយការ​បង្កើត​ពុម្ពឯកសារ ហើយ​រក្សាវាទុក ។ ឯកសារ​ថ្មី បានពឹងផ្អែកលើ​ពុម្ព ដែលកើតឡើងនៅក្នុង​តំបន់ធ្វើការ ដែលមានឈ្មោះឯកសារ \"UntitledX\" ។</ahelp>"
+
+#. DAFAP
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Page Design"
+msgstr "អ្នក​ជំនួយការ​ទូរសារ - រចនា​ទំព័រ"
+
+#. ZFqNt
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020100.xhp\">Fax Wizard - Page Design</link>"
+msgstr "<link href=\"text/shared/autopi/01020100.xhp\">អ្នកជំនួយការ​ទូរសារ - រចនា​ទំព័រ</link>"
+
+#. hNAfN
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id3156027\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE1\">Defines the style of your fax document.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE1\">កំណត់​រចនាប័ទ្ម​នៃ​ឯកសារ​ទូរសារ​របស់អ្នក​ ។</ahelp>"
+
+#. eTqZA
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Business Fax"
+msgstr "ទូរសារ​ពាណិជ្ជកម្ម"
+
+#. RBvyc
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a fax template for a business-style fax.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្កើត​ពុម្ពទូរសារ​មួយ​សម្រាប់​ទូរសារ​រចនាប័ទ្ម​​​ពាណិជ្ជកម្ម ។</ahelp>"
+
+#. Ti5G4
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Style"
+msgstr "រចនាប័ទ្ម"
+
+#. v8xTd
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the predefined style.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​រចនាប័ទ្ម​​ដែល​បាន​កំណត់ជាមុន ។</ahelp>"
+
+#. FsnaG
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Private Fax"
+msgstr "ទូរសារ​​ឯកសារ​"
+
+#. gNnwo
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a fax template for a private fax.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្កើត​ពុម្ព​ទូរសារ​មួយ​សម្រាប់​ទូរសារ​ផ្ទាល់ខ្លួន ។</ahelp>"
+
+#. YgFdG
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Style"
+msgstr "រចនាប័ទ្ម"
+
+#. gR87P
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the predefined style.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​រចនាប័ទ្ម​​ដែល​បាន​កំណត់ជាមុន ។</ahelp>"
+
+#. LN6vy
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id3156002\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020200.xhp\">Go to Fax Wizard - Items to include</link>"
+msgstr "<link href=\"text/shared/autopi/01020200.xhp\">ទៅកាន់​អ្នកជំនួយការ​ទូរសារ - ធាតុ​ដែលត្រូវ​រួមបញ្ចូល</link>"
+
+#. fdj9N
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Items to include"
+msgstr "អ្នកជំនួយការ​ទូរសារ - ធាតុ​ដែល​ត្រូវ​រួមបញ្ចូល"
+
+#. YWenL
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"hd_id3157898\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020200.xhp\">Fax Wizard - Items to include</link>"
+msgstr "<link href=\"text/shared/autopi/01020200.xhp\">អ្នកជំនួយការ​ទូរសារ - ធាតុ​ដែល​ត្រូវ​រួមបញ្ចូល</link>"
+
+#. gA627
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_id3147571\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE2\">Specifies the fax elements to be printed.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE2\">បញ្ជាក់​​ធាតុ​ទូរសារ​ដែល​ត្រូវ​បោះពុម្ព ។</ahelp>"
+
+#. YzQ7x
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Logo"
+msgstr "រូបសញ្ញា"
+
+#. qeR9J
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a company logo.</ahelp>"
+msgstr "<ahelp hid=\".\">ដាក់​បញ្ចូល​​រូបសញ្ញា​ក្រុម​ហ៊ុន​មួយ ។</ahelp>"
+
+#. vrcqF
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Date"
+msgstr "កាល​​បរិច្ឆេទ"
+
+#. pNCdC
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a date field.</ahelp>"
+msgstr "<ahelp hid=\".\">ដាក់​បញ្ចូល​វាល​កាលបរិច្ឆេទ​មួយ ។</ahelp>"
+
+#. 5kHar
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Type of message"
+msgstr "ប្រភេទសារ"
+
+#. pK47y
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a communication type line. Select the line from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ដាក់​បញ្ចូល​​បន្ទាត់​ប្រភេទ​ការ​តភ្ជាប់​ ។ ជ្រើស​បន្ទាត់​ពី​ប្រអប់​បញ្ជី ។</ahelp>"
+
+#. biohR
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Subject line"
+msgstr "បន្ទាត់​ប្រធានបទ"
+
+#. NyHR8
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a subject line.</ahelp>"
+msgstr "<ahelp hid=\".\">ដាក់​បញ្ចូល​បន្ទាត់​ប្រធាន​បទ​មួយ ។</ahelp>"
+
+#. Gkh2u
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "Salutation"
+msgstr "វន្ទនាការ"
+
+#. 2GMEC
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a salutation. Select the salutation from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ដាក់​បញ្ចូល​វន្ទនាការ​មួយ​​​ ។ ជ្រើស​វន្ទនាការ​ពី​ប្រអប់​បញ្ជី ។</ahelp>"
+
+#. tDEDH
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Complimentary close"
+msgstr "បញ្ចប់ដោយគួរសម"
+
+#. cx5zi
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105FE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a greeting. Select the greeting from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ដាក់បញ្ចូល​បដិសណ្ឋារកិច្ច​​មួយ​ ។ ជ្រើស​បដិសណ្ឋារកិច្ច​​​​​​​ពី​ប្រអប់​បញ្ជី ។</ahelp>"
+
+#. RP8EW
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN10601\n"
+"help.text"
+msgid "Footer"
+msgstr "បាតកថា​"
+
+#. vfysy
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN10605\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a footer.</ahelp>"
+msgstr "<ahelp hid=\".\">ដាក់​បញ្ចូល​បាតកថា​មួយ ។</ahelp>"
+
+#. V9gQW
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_id3148491\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020300.xhp\">Go to Fax Wizard - Sender and Recipient</link>"
+msgstr "<link href=\"text/shared/autopi/01020300.xhp\">ទៅកាន់​អ្នកជំនួយការ​ទូរសារ - អ្នកផ្ញើ និង អ្នកទទួល</link>"
+
+#. KqE4C
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Sender and Recipient"
+msgstr "អ្នកជំនួយការ​ទូរសារ - អ្នកផ្ញើ និង អ្នកទទួល"
+
+#. hTjUX
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"hd_id3155934\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020300.xhp\">Fax Wizard - Sender and Recipient</link>"
+msgstr "<link href=\"text/shared/autopi/01020300.xhp\">អ្នកជំនួយការ​ទូរសារ - អ្នកផ្ញើ និង អ្នកទទួល</link>"
+
+#. 9wCnR
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3150808\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE3\">Specifies the receiver and sender information for the fax.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE3\">បញ្ជាក់លម្អិត​ព័ត៌​មាន​អ្នក​ទទួល​ និង អ្នក​ផ្ញើ​សម្រាប់​ទូរសារ ។</ahelp>"
+
+#. BFGGE
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Use user data for return address"
+msgstr "ប្រើ​ទិន្នន័យ​អ្នក​ប្រើ​សម្រាប់​អាសយដ្ឋាន​ត្រឡប់"
+
+#. FEmwq
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts placeholders for the address on the fax template. Later in the fax document, click the placeholder to enter the actual data.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ចូល​កន្លែង​ដាក់​សម្រាប់​អាសយដ្ឋា​ននៅ​លើ​ពុម្ព​ទូរសារ​ បន្ទាប់​មក​នៅ​ក្នុង​ឯកសារ​ទូរសារ​ ចុច​កន្លែង​ដាក់​ដើម្បី​បញ្ចូល​ទិន្នន័យ​ពិតប្រាកដ ។</ahelp>"
+
+#. fpiE7
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "New return address"
+msgstr "អាសយដ្ឋាន​ត្រឡប់ថ្មី"
+
+#. GwDe4
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to enter the address data in the following text boxes. The data is inserted as normal text in the fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ដើម្បី​បញ្ចូល​ទិន្នន័យ​អាសយដ្ឋាន​ក្នុង​ប្រអប់​អត្ថបទ​ដូច​ខាង​ក្រោម ។ ទិន្នន័យ​ត្រូវ​បាន​បញ្ចូល​ជា​អត្ថបទ​ធម្មតា​ក្នុង​ឯកសារ​ទូរសារ​ ។</ahelp>"
+
+#. AVUEL
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "(Address data fields)"
+msgstr "(វាល​ទិន្នន័យ​អាសយដ្ឋាន)"
+
+#. opQMn
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the sender address data.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ចូល​ទិន្នន័យ​​អាសយដ្ឋាន​អ្នក​ផ្ញើ​ ។</ahelp>"
+
+#. yJ5BB
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105F9\n"
+"help.text"
+msgid "Use placeholders as receiver address"
+msgstr "ប្រើ​កន្លែង​ដាក់​ជា​អាសយដ្ឋាន​អ្នក​ទទួល​​"
+
+#. CHEfg
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105FD\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts placeholders for the address on the fax template. Later in the fax document, click the placeholder to enter the actual data.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ចូល​កន្លែង​ដាក់​សម្រាប់​អាសយដ្ឋា​ននៅ​លើ​ពុម្ព​ទូរសារ​ បន្ទាប់​មក​នៅ​ក្នុង​ឯកសារ​ទូរសារ​ ចុច​កន្លែង​ដាក់​ដើម្បី​បញ្ចូល​ទិន្នន័យ​ពិតប្រាកដ ។</ahelp>"
+
+#. GvA5M
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN10600\n"
+"help.text"
+msgid "Use address database for mail merge"
+msgstr "ប្រើ​​មូលដ្ឋាន​អាសយដ្ឋាន​​សម្រាប់​សំបុត្រ​សំណុំ​បែបបទ"
+
+#. UZfBc
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN10604\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts database fields for a later mail merge with the fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ចូល​វាល​មូលដ្ឋាន​ទិន្នន័យ​សម្រាប់​សំបុត្រ​សំណុំបែប​បទ​​​ពេល​ក្រោយ​​ជាមួយ​ឯកសារ​ទូរសារ​ ។</ahelp>"
+
+#. ESAKo
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3154938\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020400.xhp\">Go to Fax Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01020400.xhp\">ទៅកាន់​អ្នកជំនួយការ​ទូរសារ - បាតកថា</link>"
+
+#. q69hP
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Footer"
+msgstr "អ្នកជំនួយការ​ទូរសារ - បាតកថា"
+
+#. NdRZx
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"hd_id3147143\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020400.xhp\">Fax Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01020400.xhp\">អ្នកជំនួយការ​ទូរសារ - បាតកថា</link>"
+
+#. moG7a
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE4\">Specifies the footer data.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE4\">​បញ្ជាក់​ទិន្នន័យ​បាតកថា ។</ahelp>"
+
+#. SGdS8
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Footer"
+msgstr "បាតកថា​"
+
+#. cB5yW
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the text to be printed in the footer area.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​អត្ថបទ​ដែល​ត្រូវ​បោះពុម្ព​​ក្នុង​ផ្ទៃ​បាត​កថា ។</ahelp>"
+
+#. AhtwT
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Include only on second and following pages"
+msgstr "ដាក់​បញ្ចូល​តែ​ទំព័រ​ទី២ និង​ទំព័រ​បន្តបន្ទាប់"
+
+#. 9tppz
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Suppresses the footer on the first page of a multipage fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្ហាប់​បាតកថា​នៅ​លើ​ទំព័រ​ដំបូង​នៃ​ឯកសារ​ទូរសារ​ច្រើន​ទំព័រ​ ។</ahelp>"
+
+#. VdMcV
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E4\n"
+"help.text"
+msgid "Include page number"
+msgstr "ដាក់​បញ្ចូល​លេខ​ទំព័រ​"
+
+#. CDAW4
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Prints a page number in the footer area.</ahelp>"
+msgstr "<ahelp hid=\".\">បោះពុម្ព​លេខ​ទំព័រ​ក្នុង​ផ្ទៃ​បាត​កថា ។</ahelp>"
+
+#. ULEDC
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_id3152812\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020500.xhp\">Go to Fax Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01020500.xhp\">ទៅកាន់​អ្នកជំនួយការ​ទូរសារ - ឈ្មោះ និង ទីតាំង</link>"
+
+#. 5GTDj
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Name and location"
+msgstr "អ្នកជំនួយការ​ទូរសារ - ឈ្មោះ និង ទីតាំង"
+
+#. LV9gq
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"hd_id3150247\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020500.xhp\">Fax Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01020500.xhp\">អ្នកជំនួយការ​ទូរសារ - ឈ្មោះ និង ទីតាំង</link>"
+
+#. 9MJNj
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_id3155552\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE5\">Defines the template name and location.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE5\">កំណត់​ឈ្មោះ​ពុម្ព​ និង ទីតាំង ។</ahelp>"
+
+#. DmUvk
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Template name"
+msgstr "ឈ្មោះ​ពុម្ព"
+
+#. c9MRS
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the name of the fax template.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ចូល​ឈ្មោះ​របស់ពុម្ព​ទូរសារ ។</ahelp>"
+
+#. Wo6cf
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. v4s8X
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to enter or select the complete path, including the file name of the fax template.</ahelp>"
+msgstr "<ahelp hid=\".\">ចុច ដើម្បី​បញ្ចូល ឬ ជ្រើស​ផ្លូវពេញលេញ ដោយរួមមាន​ឈ្មោះឯកសារ​របស់ ពុម្ព​ទូរសារ ។</ahelp>"
+
+#. kFST8
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Create a fax from this template"
+msgstr "បង្កើតទូរសារ ពី​ពុម្ពនេះ"
+
+#. e2GKo
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the fax template, then opens a new fax document based on that template.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្កើត​ និង រក្សា​ទុក​ពុម្ព​ទូរសារ​ បន្ទាប់​មក​បើក​ឯកសារ​ទូរសារ​​ថ្មី​មួយ​​ដែល​មាន​មូលដ្ឋាន​លើ​​ពុម្ព​នោះ ។</ahelp>"
+
+#. FbyeK
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Make manual changes to this fax template"
+msgstr "ធ្វើ​ការ​ផ្លាស់​ប្តូរ​ពុម្ពទូរសារ​​នេះ​ដោយ​ដៃ"
+
+#. ENcNh
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the fax template, then opens the template for further editing.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្កើត​ និង រក្សា​ទុក​ពុម្ព​ទូរសារ​ បន្ទាប់​មក​បើក​ពុម្ព​ដើម្បី​កែសម្រួល​បន្ត ។</ahelp>"
+
+#. fETJG
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_id3151119\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020000.xhp\">Go to Fax Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01020000.xhp\">ទៅកាន់​អ្នក​ជំនួយការទូរសារ</link>"
+
+#. sRsoY
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard"
+msgstr "អ្នក​ជំនួយការ​របៀប​វារៈ"
+
+#. D3wGn
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"bm_id3149031\n"
+"help.text"
+msgid "<bookmark_value>wizards;agendas</bookmark_value><bookmark_value>Agenda Wizard</bookmark_value><bookmark_value>templates;agendas</bookmark_value>"
+msgstr "<bookmark_value>អ្នក​ជំនួយការ​; របៀប​វារៈ</bookmark_value><bookmark_value>អ្នកជំនួយ​ការ​របៀបវារៈ​</bookmark_value><bookmark_value>ពុម្ព; របៀប​វារៈ</bookmark_value>"
+
+#. s5qJR
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3149031\n"
+"help.text"
+msgid "Agenda Wizard"
+msgstr "អ្នក​ជំនួយការ​របៀប​វារៈ"
+
+#. rVtcF
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "<variable id=\"agenda\"><ahelp hid=\".uno:AutoPilotAgenda\">Starts the wizard to help you create an agenda template.</ahelp></variable> You can use an agenda to specify discussion topics for conferences and meetings."
+msgstr "<variable id=\"agenda\"><ahelp hid=\".uno:AutoPilotAgenda\">ចាប់ផ្តើម​អ្នក​ជំនួយ​ការ​ដើម្បីជួយ​អ្នក​បង្កើត​ពុម្ព​របៀប​វារៈ​មួយ​ ។ </ahelp></variable> អ្នក​អាច​ប្រើ​របៀប​វារៈ​មួយ​ដើម្បី​បញ្ជាក់លម្អិត​ប្រធានបទ​ពិភាក្សា​សម្រាប់​សនិសិទ្ធិ​ និង កិច្ច​ប្រជុំ ។"
+
+#. HJ9w2
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156414\n"
+"help.text"
+msgid "$[officename] comes with a sample template for agendas that you can modify to suit your own needs. The wizard offers numerous layout and design options for creating document templates. The preview gives you an impression of how the finished agenda will appear."
+msgstr "$[officename] មក​ជាមួយ​ពុម្ព​គំរូ​មួយ​សម្រាប់​របៀប​វារៈ​ដែល​អ្នក​អាច​កែប្រែ​ឲ្យ​សម​នឹង​តម្រូវ​ការ​ផ្ទាល់ខ្លួន​របស់អ្នក​ ។ អ្នក​ជំនួយ​ការ​ផ្តល់​ឲ្យ​អ្នកនូវ​ប្លង់ និង ជម្រើស​រចនាបជាច្រើន​សម្រាប់​បង្កើត​ពុម្ព​ឯកសារ​ ។ ការ​មើល​ជាមុន​ផ្តល់​ឲ្យអ្នក​នូវ​ការ​ចាប់អារម្មណ៍​នៃ​វិធី​ដែល​របៀប​វារៈ​បាន​បញ្ចប់​នឹង​បង្ហាញ​ឡើង​ ។"
+
+#. a9sZA
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3147571\n"
+"help.text"
+msgid "Within the wizard, you can modify your entries at any time. You may also skip an entire page or even all the pages, in which case the current (or default) settings remain in effect."
+msgstr "ក្នុង​អ្នកជំនួយ​ការ​ អ្នកអាច​កែប្រែ​ធាតុ​របស់អ្នក​នៅ​ពេល​តែ​​មួយ​ ។ អ្នកក៍អាច​រំលង​ទំព័រ​ទាំង​មូល​ ឬ ទំព័រ​ទាំងអស់​ ក្នុង​ករណី​ដែល​ការ​កំណត់​បច្ចុប្បន្ន​ (​លំនាំដើម)​ នៅ​តែ​មាន​ប្រសិទ្ធិភាព ។"
+
+#. MkDYV
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3147088\n"
+"help.text"
+msgid "Back"
+msgstr "ថយ​ក្រោយ"
+
+#. LKGRk
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3149177\n"
+"help.text"
+msgid "Returns to the selections made on the previous page. The current settings remain in effect. This button only becomes active after the first page."
+msgstr "ត្រឡប់​​ទៅ​របៀប​ដែល​បានធ្វើឡើង​លើ​ទំព័រ​មុន​ ។ ការ​កំណត់​បច្ចុប្បន្ន​នៅ​តែ​មាន​ប្រសិទ្ធិ​ភាព​ ។ ប៊ូតុង​នេះ​សកម្ម​តែ​បន្ទាប់​ពី​ទំព័រ​ដំបូង​ប៉ុណ្ណោះ ។​"
+
+#. FZ2oT
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3155391\n"
+"help.text"
+msgid "Next"
+msgstr "បន្ទាប់"
+
+#. TExdC
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156426\n"
+"help.text"
+msgid "The wizard saves the current settings and goes to the next page. Once you reach the last page, this button will become inactive."
+msgstr "អ្នក​ជំនួយ​ការ​រក្សា​ទុក​ការ​កំណត់បច្ចុប្បន្ន​ និង ទៅ​ទំព័រ​បន្ទាប់​ ។ ម្តង​នោះ​អ្នក​ឈានដល់​ទំព័រ​ចុង​ក្រោយ​ ប៊ូតុង​នេះ​នឹង​អសកម្ម ។"
+
+#. oA55U
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3145382\n"
+"help.text"
+msgid "Finish"
+msgstr "បញ្ចប់"
+
+#. Df3HR
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156346\n"
+"help.text"
+msgid "According to your selections, the wizard creates a document template and saves it on your hard disk. A new document based on the template appears in the work area, with the filename \"UntitledX\" (X stands for an automatic number)."
+msgstr "ដោយ​យោង​ទៅតាម​ជម្រើស​របស់​អ្នក​ អ្នកជំនួយ​ការ​បង្កើត​ពុម្ព​ឯកសារ​មួយ​ និង រក្សា​ទុក​វា​នៅលើ​ថាស​រឹង​របស់អ្នក​ ។ ឯកសារ​ថ្មី​មួយ​ដែល​មាន​មូលដ្ឋាន​លើ​ពុម្ព​នឹង​បង្ហាញ​ក្នុង​ផ្ទៃ​ការ​ងារ​នេះ ដែល​មាន​ឈ្មោះ​ឯកសារ​ \"គ្មាន​ចំណង​ជើង X\" (X ជំនួស​ឲ្យ​លេខ​ដោយ​ស្វ័យ​ប្រវត្តិ​មួយ) ។"
+
+#. BRhRd
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3149235\n"
+"help.text"
+msgid "$[officename] saves the current settings in the wizard according to the selected document template. These will be used as the default settings the next time you activate the wizard."
+msgstr "$[officename] រក្សា​ទុក​ការ​កំណត់​បច្ចុប្បន្ន​ក្នុង​អ្នក​ជំនួយ​ការ​ ដោយ​យោង​តាម​ពុម្ព​ឯកសារ​ដែល​បានជ្រើស ។ ទាំងនេះ​នឹង​ត្រូវ​បាន​ប្រើ​ជា​ការ​កំណត់​​លំនាំដើមពេល​ក្រោយ​ ដែល​អ្នក​ធ្វើ​ឲ្យ​អ្នកជំនួយ​ការ​សកម្ម ។"
+
+#. Ga2ET
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Page Design"
+msgstr "អ្នក​ជំនួយការ​របៀបវារៈ - ការ​រចនា​ទំព័រ"
+
+#. kefJn
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"hd_id3151100\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040100.xhp\">Agenda Wizard - Page Design</link>"
+msgstr "<link href=\"text/shared/autopi/01040100.xhp\">អ្នក​ជំនួយការ​របៀប​វារៈ - រចនា​ទំព័រ</link>"
+
+#. fPTHx
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_id3152594\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE1\">Specifies a page design for the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE1\">បញ្ជាក់លម្អិត​ការ​រចនា​ទំព័រ​សម្រាប់​របៀប​វារៈ ។</ahelp>"
+
+#. DvnTS
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Page design"
+msgstr "ការ​រចនា​ទំព័រ"
+
+#. 4yNMX
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the page design from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ការ​រចនា​ទំព័រ​ពី​ប្រអប់​បញ្ជី ។</ahelp>"
+
+#. QLiPz
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Include form for recording minutes"
+msgstr "ដាក់​បញ្ចូល​សំណុំ​បែប​បទ​សម្រាប់​កត់ត្រា​កំណត់​ហេតុ"
+
+#. eMAzz
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Prints out a page on which you can write down the minutes during the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">បោះពុម្ព​សន្លឹក​មួយ​ដែល​​អ្នក​អាច​សរសេរ​កំណត់​ហេតុ​​​កំឡុង​ពេល​ប្រជុំ ។</ahelp>"
+
+#. f7afU
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_id3153087\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040200.xhp\">Go to Agenda Wizard - General information</link>"
+msgstr "<link href=\"text/shared/autopi/01040200.xhp\">ទៅកាន់​អ្នក​ជំនួយការ​របៀបវារៈ - ព័ត៌មាន​ទូទៅ</link>"
+
+#. WGmzy
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - General Information"
+msgstr "​អ្នក​ជំនួយការ​របៀបវារៈ - ព័ត៌មាន​ទូទៅ"
+
+#. TZ7iE
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3150247\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040200.xhp\">Agenda Wizard - General Information</link>"
+msgstr "<link href=\"text/shared/autopi/01040200.xhp\">អ្នក​ជំនួយការ​របៀបវារៈ - ព័ត៌មាន​ទូទៅ</link>"
+
+#. eLECH
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3150616\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE2\">Specifies the date, time, title, and location of the meeting.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE2\">បញ្ជាក់​​កាលបរិច្ឆេទ ពេលវេលា ចំណង​ជើង និង​ទីតាំង​​​ប្រជុំ ។</ahelp>"
+
+#. 4FFjn
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3153748\n"
+"help.text"
+msgid "Date"
+msgstr "កាល​​បរិច្ឆេទ"
+
+#. HnhbG
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3153311\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_DATE\">Specifies the date of the meeting.</ahelp>"
+msgstr ""
+
+#. A6udC
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3154749\n"
+"help.text"
+msgid "Time"
+msgstr "ពេល​វេលា"
+
+#. 7pUwh
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3166460\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_TIME\">Specifies the time of the meeting.</ahelp>"
+msgstr ""
+
+#. huAt8
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_idN10625\n"
+"help.text"
+msgid "Title"
+msgstr "ចំណងជើង"
+
+#. Z4KWB
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_idN10629\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title of the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​ចំណង​ជើង​នៃ​កិច្ចប្រជុំ ។</ahelp>"
+
+#. AuoCJ
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3150355\n"
+"help.text"
+msgid "Location"
+msgstr "ទីតាំង"
+
+#. v4Q2M
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3159400\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_LOCATION\">Specifies the location of the meeting.</ahelp>"
+msgstr ""
+
+#. FUWpn
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3148946\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040300.xhp\">Go to Agenda Wizard - Headings to include</link>"
+msgstr "<link href=\"text/shared/autopi/01040300.xhp\">ទៅកាន់​អ្នក​ជំនួយការ​របៀបវារៈ - បឋមកថា​ដែលត្រូវ​រួមបញ្ចូល</link>"
+
+#. Q5JDB
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Headings to include"
+msgstr "អ្នក​ជំនួយការ​របៀបវារៈ - បឋមកថា​ដែលត្រូវ​រួមបញ្ចូល"
+
+#. sS3Ai
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040300.xhp\">Agenda Wizard - Headings to include</link>"
+msgstr "<link href=\"text/shared/autopi/01040300.xhp\">អ្នក​ជំនួយការ​របៀបវារៈ - បឋមកថា​ដែលត្រូវ​រួមបញ្ចូល</link>"
+
+#. yBn6A
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_id3157898\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE3\">Specifies the headings that you want to include in the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE3\">បញ្ជាក់​​ក្បាល​ដែល​អ្នក​ចង់​​បញ្ចូល​ក្នុង​របៀប​វារៈ ។</ahelp>"
+
+#. GdA4w
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Type of meeting"
+msgstr "ប្រភេទ​កិច្ចប្រជុំ"
+
+#. RF7Bc
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print the type of meeting line.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​ថាតើ​ត្រូវ​បោះពុម្ព​​ប្រភេទ​នៃ​បន្ទាត់​ប្រជុំ​ឬទេ ។</ahelp>"
+
+#. uENde
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Please read"
+msgstr "សូម​អាន"
+
+#. grxGw
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Please read line.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថា​តើ​ត្រូវ​បោះពុម្ព​បន្ទាត់​ សូម​អាន​ ។</ahelp>"
+
+#. DxEWX
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Please bring"
+msgstr "សូម​យក​មក"
+
+#. sxFqg
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Please bring line.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថាតើ​ត្រូវ​បោះពុម្ព​​​​បន្ទាត់​ សូម​នាំយក​ ។</ahelp>"
+
+#. FJa3j
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Notes"
+msgstr "ចំណាំ"
+
+#. wAJ3E
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Notes line.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថា​តើ​ត្រូវ​បោះពុម្ព​បន្ទាត់​ ការ​ចំណាំ ។</ahelp>"
+
+#. qPJUT
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040400.xhp\">Go to Agenda Wizard - Names</link>"
+msgstr "<link href=\"text/shared/autopi/01040400.xhp\">ទៅកាន់​អ្នក​ជំនួយការ​របៀប​វារៈ - ឈ្មោះ</link>"
+
+#. zECC7
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Names"
+msgstr "អ្នក​ជំនួយការ​របៀប​វារៈ - ឈ្មោះ"
+
+#. LLyji
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"hd_id3143284\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040400.xhp\">Agenda Wizard - Names</link>"
+msgstr "<link href=\"text/shared/autopi/01040400.xhp\">អ្នក​ជំនួយការ​របៀបវារៈ - ឈ្មោះ</link>"
+
+#. emLhT
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_id3152363\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE4\">Specifies the names to be printed on the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE4\">បញ្ជាក់លម្អិត​ឈ្មោះ​ត្រូវ​បោះពុម្ព​​លើ​របៀប​វារៈ ។</ahelp>"
+
+#. 8aXPP
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Meeting called by"
+msgstr "កិច្ច​ប្រជុំ​ត្រូវ​បាន​កោះហៅ​ដោយ"
+
+#. XV5jU
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the person who called the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថាតើ​ត្រូវ​បោះពុម្ព​បន្ទាត់​មួយ​ ដែល​អ្នកអាច​បញ្ចូល​​មនុស្ស​ដែល​បាន​​ហៅ​ចូល​ក្នុង​កិច្ចប្រជុំ ។</ahelp>"
+
+#. Zs7oS
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Chairperson"
+msgstr "ប្រធាន"
+
+#. g2ENf
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the chairperson.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​ថា​តើ​ត្រូវ​បោះពុម្ព​បន្ទាត់​មួយ​ ដែល​អ្នក​អាច​បញ្ចូល​ប្រធាន ។</ahelp>"
+
+#. sCW9u
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Minute keeper"
+msgstr "អ្នក​កត់ត្រា"
+
+#. fCEm5
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the minute keeper.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​ថាតើ​​ត្រូវ​បោះពុម្ព​បន្ទាត់​មួយ​ដែល​អ្នក​អាច​បញ្ចូល​​អ្នក​កត់ត្រា​ឬ​អត់។</ahelp>"
+
+#. FFnFU
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Moderator"
+msgstr "អ្នក​អនុម័ត"
+
+#. xteNq
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the moderator.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថា​តើ​ត្រូវ​បោះពុម្ព​បន្ទាត់​មួយ​ដែល​អ្នក​អាច​បញ្ចូល​អ្នក​អនុម័ត​ឬអត់ ។</ahelp>"
+
+#. 5GWEM
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105F6\n"
+"help.text"
+msgid "Attendees"
+msgstr "អ្នកចូល​រួម"
+
+#. 8AmH5
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the attendees.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថាតើ​ត្រូវ​បោះពុម្ព​បន្ទាត់​មួយ​ដែល​អ្នក​អាច​បញ្ចូល​អ្នកចូលរួម ។</ahelp>"
+
+#. wUrJw
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105FD\n"
+"help.text"
+msgid "Observers"
+msgstr "អ្នក​សង្កេត​ការណ៍"
+
+#. AXc3C
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10601\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the observers.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថា​តើ​ត្រូវ​បោះពុម្ព​បន្ទាត់​មួយ​ ដែល​អ្នក​អាច​បញ្ចូល​អ្នក​សង្កេត​ការណ៍ ។</ahelp>"
+
+#. wDRLD
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10604\n"
+"help.text"
+msgid "Facility personnel"
+msgstr "អ្នក​សម្រប​សម្រួល"
+
+#. TwjCN
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10608\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the facility personnel.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថាតើ​ត្រូវ​បោះពុម្ព​បន្ទាត់​មួយ​ ដែល​អ្នក​អាច​បញ្ចូល​អ្នក​សម្រប​សម្រួល​ ។</ahelp>"
+
+#. aGeGK
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_id3150275\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040500.xhp\">Go to Agenda Wizard - Agenda Items</link>"
+msgstr "<link href=\"text/shared/autopi/01040500.xhp\">ទៅកាន់​អ្នក​ជំនួយការ​របៀប​វារៈ - ធាតុ​របៀប​វារៈ</link>"
+
+#. STCc4
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Agenda Items"
+msgstr "អ្នក​ជំនួយការ​របៀប​វារៈ - ធាតុ​របៀប​វារៈ"
+
+#. BRFWD
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"hd_id3159224\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040500.xhp\">Agenda Wizard - Agenda Items</link>"
+msgstr "<link href=\"text/shared/autopi/01040500.xhp\">អ្នក​ជំនួយការ​របៀប​វារៈ - ធាតុ​របៀប​វារៈ</link>"
+
+#. BDRvF
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_id3147143\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE5\">Specifies the topics to be printed on the agenda template.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE5\">បញ្ជាក់លម្អិត​ប្រធាន​បទ​ដែល​ត្រូវ​បោះពុម្ព​នៅ​លើ​ពុម្ព​របៀប​វារៈ ។</ahelp>"
+
+#. 9fX5B
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Topics"
+msgstr "ប្រធាន​បទ"
+
+#. 4WUYv
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the agenda topics. Use the Move up and Move down buttons to sort the topics.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ចូល​ប្រធាន​បទ​របៀប​វារៈ​ ។ ប្រើ​ប៊ូតុង​ផ្លាស់ទី​ឡើង​លើ​ ឬ ចុះ​ក្រោម​ដើម្បី​តម្រៀប​ប្រធាន​បទ ។</ahelp>"
+
+#. GwCL3
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105DD\n"
+"help.text"
+msgid "Insert"
+msgstr "បញ្ចូល"
+
+#. ZUpjc
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts a new empty topic row above the current row.</ahelp>"
+msgstr "<ahelp hid=\".\">​បញ្ចូល​ជួរ​ដេក​ប្រធាន​បទ​ទទេ​មួយ​ខាង​លើ​ជួរ​ដេក​បច្ចុប្បន្ន ។</ahelp>"
+
+#. eQ47V
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "Remove"
+msgstr "យក​ចេញ"
+
+#. GT2qp
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Removes the current topic row.</ahelp>"
+msgstr "<ahelp hid=\".\">យក​​ជួរ​ដេក​ប្រធាន​បទ​បច្ចុប្បន្ន​ចេញ ។</ahelp>"
+
+#. swdtC
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "Move up"
+msgstr "ផ្លាស់ទី​ឡើង​លើ"
+
+#. 4qETi
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Moves the current topic row up.</ahelp>"
+msgstr "<ahelp hid=\".\">ផ្លាស់​ទី​ប្រធាន​បទ​បច្ចុប្បន្ន​ឡើង​លើ​មួយ​ជួរ​ដេក ។</ahelp>"
+
+#. YRUBi
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Move down"
+msgstr "ផ្លាស់ទី​ចុះ​ក្រោម"
+
+#. Na8AX
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105F2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Moves the current topic row down.</ahelp>"
+msgstr "<ahelp hid=\".\">ផ្លាស់ទី​ប្រធាន​បទ​បច្ចុប្បន្ន​ចុះ​ក្រោម​មួយជួរដេក ។</ahelp>"
+
+#. 92RXq
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_id3146798\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040600.xhp\">Go to Agenda Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01040600.xhp\">​ទៅកាន់អ្នក​ជំនួយការ​របៀប​វារៈ - ឈ្មោះ និង​ទីតាំង</link>"
+
+#. H9Wbq
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Name and Location"
+msgstr "អ្នក​ជំនួយការ​របៀប​វារៈ - ឈ្មោះ និង​ទីតាំង"
+
+#. DJrxQ
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"hd_id3144740\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040600.xhp\">Agenda Wizard - Name and Location</link>"
+msgstr "<link href=\"text/shared/autopi/01040600.xhp\">អ្នក​ជំនួយការ​របៀប​វារៈ - ឈ្មោះ និង​ទីតាំង</link>"
+
+#. viGf3
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE6\">Choose the title and location for the agenda template.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE6\">ជ្រើស​ចំណង​ជើង​ និងទីតាំង​សម្រាប់​​ពុម្ព​របៀបវារៈ ។</ahelp>"
+
+#. zdHND
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Template title"
+msgstr "ពុម្ព​ចំណង​ជើង"
+
+#. SdS6f
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the agenda template.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ឈ្មោះ​របស់​ពុម្ព​របៀបវារៈ ។</ahelp>"
+
+#. kToFw
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Path"
+msgstr "ផ្លូវ"
+
+#. iDkAF
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the complete path, including the file name of the agenda template.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ផ្លូវ​ពេញលេញ​ រួម​មាន​ឈ្មោះ​ឯកសារ​របស់​ពុម្ព​របៀបវារៈ ។</ahelp>"
+
+#. rLKcW
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Create an agenda from this template"
+msgstr "បង្កើត​របៀប​វារៈ​ពី​ពុម្ព​នេះ"
+
+#. fLXtF
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the agenda template, then opens a new agenda document based on that template.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្កើត​ និង រក្សា​ទុក​ពុម្ព​របៀប​វារៈ​ បន្ទាប់​មក​បើក​ឯកសារ​របៀប​វារៈ​ថ្មី​​មួយ​ដែល​មាន​មូលដ្ឋាន​លើ​ពុម្ព​នោះ ។</ahelp>"
+
+#. Ai5bf
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Make manual changes to this template"
+msgstr "ធ្វើ​ការ​ផ្លាស់​ប្តូរ​ពុម្ព​នេះ​ដោយ​ដៃ"
+
+#. 4PFkD
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the agenda template, then opens the template for further editing.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្កើត​ និង រក្សា​ទុក​ពុម្ព​របៀប​វារៈ​ បន្ទាប់​មក​បើក​ពុម្ព​សម្រាប់​កែសម្រួល​បន្ត​ទៀត ។</ahelp>"
+
+#. 8PBRB
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105F6\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040000.xhp\">Go to Agenda Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01040000.xhp\">ទៅកាន់​អ្នក​ជំនួយការ​របៀប​វារៈ</link>"
+
+#. 4DsCG
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard"
+msgstr "អ្នក​ជំនួយការ​សំណុំ​បែបបទ"
+
+#. XGnsy
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"bm_id9834894\n"
+"help.text"
+msgid "<bookmark_value>forms;wizards</bookmark_value><bookmark_value>wizards;forms</bookmark_value>"
+msgstr "<bookmark_value>សំណុំ​បែប​បទ; អ្នក​ជំនួយ​ការ</bookmark_value><bookmark_value>អ្នក​ជំនួយការ;​ សំណុំ​បែប​បទ</bookmark_value>"
+
+#. 6y3yt
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "Form Wizard"
+msgstr "អ្នក​ជំនួយការ​សំណុំ​បែបបទ"
+
+#. xPnbC
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_id3150247\n"
+"help.text"
+msgid "<variable id=\"formular\"><ahelp hid=\"HID_DLGFORM_DIALOG\">Activates the Wizard for creating forms.</ahelp></variable>"
+msgstr "<variable id=\"formular\"><ahelp hid=\"HID_DLGFORM_DIALOG\">ធ្វើ​ឲ្យ​អ្នក​ជំនួយ​ការ​សកម្ម​ សម្រាប់​បង្កើត​សំណុំ​បែបបទ​ ។​</ahelp></variable>"
+
+#. uGE5s
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_id3152801\n"
+"help.text"
+msgid "Select the form properties using the following steps:"
+msgstr "ជ្រើស​លក្ខណសម្បត្តិ​សំណុំ​បែប​បទ​ ដោយ​ប្រើ​ជំហាន​ដូច​ខាង​ក្រោម​នេះ​ ៖"
+
+#. WHBV8
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_idN10686\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to create the form without answering further pages.</ahelp>"
+msgstr "<ahelp hid=\".\">ចុច ដើម្បី​បង្កើត​សំណុំ​បែបបទ​ដោយ​មិន​ចាំបាច់​ឆ្លើយ​សំណួរ​នៅ​ទំព័រ​បន្ត​ទៀត ។</ahelp>"
+
+#. uDz4j
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Field Selection"
+msgstr "អ្នកជំនួយ​ការ​សំណុំ​បែប​បទ - ជម្រើស​វាល"
+
+#. dhmCd
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090100.xhp\">Form Wizard - Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01090100.xhp\">អ្នក​ជំនួយការ​សំណុំ​បែបបទ - ជម្រើស​វាល</link>"
+
+#. q2PHa
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3150445\n"
+"help.text"
+msgid "On this page of the <link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link>, you can specify the table or query that you need to create the form as well as the fields that you want to include in the form."
+msgstr ""
+
+#. yohes
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3153750\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "តារាង ឬ​សំណួរ"
+
+#. Dm9se
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3147399\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the table or query that you want to create the form for.</ahelp>"
+msgstr ""
+
+#. A74SN
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3153527\n"
+"help.text"
+msgid "Available fields"
+msgstr "វាល​​ដែល​មាន​"
+
+#. 5ttQz
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3149095\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the names of the data base fields in the selected table or query.</ahelp> Click to select a field or hold down the Shift or the <switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while you click to select more than one field."
+msgstr ""
+
+#. 783iE
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3150443\n"
+"help.text"
+msgid ">"
+msgstr ">"
+
+#. jAh8F
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3148538\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. mkvek
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3154142\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. 8PpZf
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3145121\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. WXSxV
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3155419\n"
+"help.text"
+msgid "<"
+msgstr "<"
+
+#. emTFp
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3149763\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. SnCSD
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3159399\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. EBDCd
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3156329\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. SsZdG
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN1074A\n"
+"help.text"
+msgid "^"
+msgstr "^"
+
+#. FCjSo
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN1074E\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field up one entry in the list.</ahelp>"
+msgstr "<ahelp hid=\".\">ចុច​ដើម្បី​ផ្លាស់ទី​វាល​ដែល​បាន​ជ្រើ​ស​​ឡើង​លើ​មួយ​ធាតុ​ក្នុង​បញ្ជី ។</ahelp>"
+
+#. hVfmg
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN10751\n"
+"help.text"
+msgid "v"
+msgstr "v"
+
+#. A3Vcv
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN10755\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field down one entry in the list.</ahelp>"
+msgstr "<ahelp hid=\".\">ចុច​ដើម្បី​ផ្លាស់ទី​វាល​ដែល​បាន​ជ្រើស​ចុះ​ក្រោម​មួយ​ធាតុ​ក្នុង​បញ្ជី ។</ahelp>"
+
+#. VBmtN
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3147618\n"
+"help.text"
+msgid "Fields in the form"
+msgstr "វាល​ក្នុង​សំណុំ​បែប​បទ"
+
+#. REATC
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3156194\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the fields that are in the new form.</ahelp>"
+msgstr ""
+
+#. zPdeU
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3150398\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090200.xhp\">Form Wizard - Set up a subform</link>"
+msgstr "<link href=\"text/shared/autopi/01090200.xhp\">អ្នក​ជំនួយការ​សំណុំ​បែបបទ - ដំឡើងសំណុំបែបបទ​រង</link>"
+
+#. fwpB4
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set up a Subform"
+msgstr "អ្នក​ជំនួយ​កា​រសំណុំ​បែប​បទ - ដំឡើង​សំណុំ​បែប​បទ​រង​មួយ"
+
+#. aDCAa
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090200.xhp\">Form Wizard - Set up a Subform</link>"
+msgstr "<link href=\"text/shared/autopi/01090200.xhp\">អ្នក​ជំនួយការ​សំណុំ​បែប​បទ - ដំឡើង​សំណុំ​បែប​បទ​មួយ</link>"
+
+#. 2n64M
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specify if you want to use a subform and enter the subform's properties. A subform is a form that is inserted in another form."
+msgstr "បញ្ជាក់លម្អិត​ ប្រសិន​បើ​អ្នក​ចង់​​ប្រើ​សំណុំ​បែប​បទ​រង​មួយ​​ និង បញ្ចូល​លក្ខណសម្បត្តិ​របស់​សំណុំ​បែប​បទ​រង​ ។ សំណុំ​បែប​បទ​រង​គឺ​ជា​សំណុំ​បែបបទ​ដែល​ត្រូវ​បាន​បញ្ចូល​ក្នុង​សំណុំ​បែបបទ​ដទៃ​ទៀត ។"
+
+#. kPtFb
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Add subform"
+msgstr "បន្ថែម​សំណុំ​បែប​បទ"
+
+#. SnVCG
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105B4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to add a subform.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ដើម្បី​បន្ថែម​សំណុំ​បែប​បទ​រង​មួយ ។</ahelp>"
+
+#. Y6FNL
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "Sub form based on existing relation"
+msgstr "សំណុំ​បែប​បទ​រង​មាន​មូលដ្ឋាន​លើ​ទំនាក់​ទំនង​ដែល​មាន​ស្រាប់"
+
+#. 5GTNB
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to add a subform based on an existing relation.</ahelp>"
+msgstr "<ahelp hid=\".\">ចុច​ដើម្បី​បន្ថែម​សំណុំ​បែប​បទ​​រង​មួយ​ដែល​មាន​មូលដ្ឋាន​លើ​ទំនាក់ទំនង​ដែល​លមាន​ស្រាប់មួយ ។</ahelp>"
+
+#. h4Dpj
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN1055E\n"
+"help.text"
+msgid "Which relation do you want to add?"
+msgstr "តើ​ទំនាក់​ទំនង​ណាមួយ​ដែល​អ្នក​ចង់​បន្ថែម ?"
+
+#. tB7nj
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the relation on which the subform is based.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ទំនាក់ទំនង​ ថាតើ​មាន​មូលដ្ឋាន​លើ​សំណុំ​បែប​បទ​ណាមួយ​ ។</ahelp>"
+
+#. NTiTM
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105D1\n"
+"help.text"
+msgid "Sub form based on manual selection of fields"
+msgstr "សំណុំ​បែប​បទ​រង​មាន​មូលដ្ឋាន​លើ​ជម្រើស​ប្រភេទ​ដោយ​ដៃ"
+
+#. qqGFs
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105DF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to add a subform based on a manual selection of fields. </ahelp>"
+msgstr "<ahelp hid=\".\">ចុច​ដើម្បី​បន្ថែម​សំណុំ​បែប​បទ​រង​មួយ​ដែល​មាន​មូលដ្ឋាន​លើ​ជម្រើសវាល​​ដោយ​ដៃ ។ </ahelp>"
+
+#. Japf2
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090210.xhp\">Form Wizard - Add subform fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090210.xhp\">អ្នក​ជំនួយការ​សំណុំ​បែបបទ - បន្ថែម​វាល​សំណុំ​បែបបទ​រង</link>"
+
+#. pRjtt
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Add Subform Fields"
+msgstr "អ្នក​ជំនួយការ​សំណុំ​បែប​បទ​រង - បន្ថែម​វាល​សំណុំ​បែប​បទ​រង"
+
+#. GFBi4
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10546\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090210.xhp\">Form Wizard - Add Subform Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090210.xhp\">អ្នក​ជំនួយ​ការ​សំណុំ​បែប​បទ - បន្ថែម​វាល​សំណុំ​បែប​បទ​រង</link>"
+
+#. 72CSC
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Specify the table or query you need to create the subform, and which fields you wish to include in the subform."
+msgstr "បញ្ជាក់​តារាង​ ឬ សំណួរ​ ដែល​អ្នក​ត្រូវ​បង្កើត​​សំណុំ​បែប​បទ​រង​ និង​វាល​មួយ​ដែល​អ្នក​​មាន​បំណង​បញ្ចូល​​ក្នុង​សំណុំ​បែបបទ​រង​ ។"
+
+#. hRCY6
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10559\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "តារាង ឬ​សំណួរ"
+
+#. ztKcK
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the table or query for which the subform is to be created.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​តារាង​ ឬ​សំណួរ​សម្រាប់​​បង្កើត​សំណុំ​បែប​បទ​​ណា​មួយ ។</ahelp>"
+
+#. TSkRs
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10590\n"
+"help.text"
+msgid "Fields in my subform"
+msgstr "វាល​ក្នុង​សំណុំ​បែប​បទ​រង​របស់ខ្ញុំ"
+
+#. ZgoQx
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10594\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays all fields that will be included in the new subform.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្ហាញ​វាល​ទាំងអស់​ដែល​នឹង​ត្រូវ​បាន​បញ្ចូល​ក្នុង​សំណុំ​បែប​បទ​ថ្មី​ ។</ahelp>"
+
+#. hM6Xf
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10597\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090220.xhp\">Form Wizard - Get joined fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090220.xhp\">អ្នក​ជំនួយការ​សំណុំបែបបទ - យកវាល​ដែល​រួម</link>"
+
+#. 6F3Mi
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Get Joined Fields"
+msgstr "អ្នកជំនួយ​កា​រសំណុំ​បែបបទ​ - ត្រូវ​បានភ្ជាប់​វាល"
+
+#. jTMsz
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090220.xhp\">Form Wizard - Get Joined Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090220.xhp\">អ្នកជំនួយ​ការ​សំណុំ​បែប​បទ - ត្រូវ​បានភ្ជាប់​វាល</link>"
+
+#. GwQwB
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "If you chose in step 2 to set up a subform based on manual selection of fields, you can select the joined fields on this wizard page."
+msgstr "ប្រសិន​បើ​អ្នក​បាន​ជ្រើស​​​ក្នុង​ជំហាន​ទី២​ ដើម្បី​ដំឡើង​សំណុំ​បែបបទ​រង​មួយ​ដែល​មាន​មូលដ្ឋានលើ​ជម្រើស​វាល​ដោយ​ដៃ​ អ្នក​អាច​ជ្រើស​វាល​ដែល​បាន​ភ្ជាប់​នៅ​លើ​ទំព័រ​អ្នក​ជំនួយ​ការ​នេះ ។"
+
+#. uLL8F
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "First joined subform field"
+msgstr "វាល​សំណុំ​បែប​បទ​រង​ដែល​បាន​ភ្ជាប់​ដំបូង​"
+
+#. cZFUw
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105B4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​វាល​សំណុំ​បែបបទ​រង​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទៅ​វាលសំណុំ​បែប​បទ​មេ​ ដែល​អ្នក​ជ្រើស​ក្នុង​ប្រអប់​បញ្ជី​នៅ​ជាប់​នឹង​ប្រអប់​បញ្ជី​នេះ ។</ahelp>"
+
+#. bDvEk
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105B9\n"
+"help.text"
+msgid "First joined main form field"
+msgstr "វាល​សំណុំ​បែប​បទ​​មេ​ដែល​បាន​ភ្ជាប់ដំបូង"
+
+#. TC65e
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105BF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​វាល​សំណុំ​បែប​បទ​មេ​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទៅ​វាល​សំណុំ​បែបប​ទ​រង​ ដែល​អ្នក​ជ្រើស​ក្នុង​ប្រអប់​បញ្ជី​​នៅ​ជាប់​នឹង​ប្រអប់​បញ្ជី​នេះ ។</ahelp>"
+
+#. 3JBGE
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105CE\n"
+"help.text"
+msgid "Second joined subform field"
+msgstr "វាល​សំណុំ​បែប​បទ​រង​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទី២"
+
+#. SLyVM
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​វាល​សំណុំ​បែបបទ​រង​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទៅ​វាលសំណុំ​បែប​បទ​មេ​ ដែល​អ្នក​ជ្រើស​ក្នុង​ប្រអប់​បញ្ជី​នៅ​ជាប់​នឹង​ប្រអប់​បញ្ជី​នេះ ។</ahelp>"
+
+#. SL3kU
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D5\n"
+"help.text"
+msgid "Second joined main form field"
+msgstr "វាល​សំណុំ​បែប​បទ​មេ​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទី២"
+
+#. FZGFD
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​វាល​សំណុំ​បែប​បទ​មេ​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទៅ​វាល​សំណុំ​បែបប​ទ​រង​ ដែល​អ្នក​ជ្រើស​ក្នុង​ប្រអប់​បញ្ជី​​នៅ​ជាប់​នឹង​ប្រអប់​បញ្ជី​នេះ ។</ahelp>"
+
+#. hgafV
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105DC\n"
+"help.text"
+msgid "Third joined subform field"
+msgstr "វាល​សំណុំ​បែប​បទ​រង​ដែល​បាន​ភ្ជាប់​ទី៣"
+
+#. HGBBJ
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​វាល​សំណុំ​បែបបទ​រង​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទៅ​វាលសំណុំ​បែប​បទ​មេ​ ដែល​អ្នក​ជ្រើស​ក្នុង​ប្រអប់​បញ្ជី​នៅ​ជាប់​នឹង​ប្រអប់​បញ្ជី​នេះ ។</ahelp>"
+
+#. ARbDE
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "Third joined main form field"
+msgstr "វាល​សំណុំ​បែប​បទ​មេ​​ដែល​បាន​ភ្ជាប់​ទី៣"
+
+#. GsVHD
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​វាល​សំណុំ​បែប​បទ​មេ​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទៅ​វាល​សំណុំ​បែបប​ទ​រង​ ដែល​អ្នក​ជ្រើស​ក្នុង​ប្រអប់​បញ្ជី​​នៅ​ជាប់​នឹង​ប្រអប់​បញ្ជី​នេះ ។</ahelp>"
+
+#. Aemww
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105EA\n"
+"help.text"
+msgid "Fourth joined subform field"
+msgstr "វាល​សំណុំ​បែប​បទ​រង​ដែល​បាន​ភ្ជាប់​ទី៤"
+
+#. PDajP
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105EE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​វាល​សំណុំ​បែបបទ​រង​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទៅ​វាលសំណុំ​បែប​បទ​មេ​ ដែល​អ្នក​ជ្រើស​ក្នុង​ប្រអប់​បញ្ជី​នៅ​ជាប់​នឹង​ប្រអប់​បញ្ជី​នេះ ។</ahelp>"
+
+#. ByQB8
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F1\n"
+"help.text"
+msgid "Fourth joined main form field"
+msgstr "វាល​សំណុំ​បែប​បទ​មេ​ដែល​បាន​ភ្ជាប់​ទី៤"
+
+#. o9LHc
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​វាល​សំណុំ​បែប​បទ​មេ​ដែល​ត្រូវ​បាន​ភ្ជាប់​ទៅ​វាល​សំណុំ​បែបប​ទ​រង​ ដែល​អ្នក​ជ្រើស​ក្នុង​ប្រអប់​បញ្ជី​​នៅ​ជាប់​នឹង​ប្រអប់​បញ្ជី​នេះ ។</ahelp>"
+
+#. PEfee
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F8\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090300.xhp\">Form Wizard - Arrange controls</link>"
+msgstr "<link href=\"text/shared/autopi/01090300.xhp\">អ្នក​ជំនួយការ​សំណុំ​បែបបទ - រៀបចំ​វត្ថុ​បញ្ជា</link>"
+
+#. oKc93
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Arrange Controls"
+msgstr "អ្នក​ជំនួយ​ការ​សំណុំ​បែប​បទ - រៀបចំ​វត្ថុ​បញ្ជា"
+
+#. vpSXC
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3163829\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090300.xhp\">Form Wizard - Arrange Controls</link>"
+msgstr "<link href=\"text/shared/autopi/01090300.xhp\">អ្នក​ជំនួយ​ការ​សំណុំ​បែប​បទ - រៀបចំ​វត្ថុ​បញ្ជា</link>"
+
+#. T3rtu
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3153539\n"
+"help.text"
+msgid "On this page of the Wizard, you can select the layout of the created form."
+msgstr "នៅ​លើ​ទំព័ររបស់​អ្នក​ជំនួយ​ការ​​នេះ​​​ អ្នក​អាច​ជ្រើស​ប្លង់​របស់​សំណុំ​បែបបទ​ដែ​ល​បាន​បង្កើត​ ។"
+
+#. FjjD4
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3150791\n"
+"help.text"
+msgid "Label placement"
+msgstr "ការ​ជំនួស​ស្លាក"
+
+#. dD3py
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3153379\n"
+"help.text"
+msgid "Align left"
+msgstr "តម្រឹម​ឆ្វេង"
+
+#. Ah2Er
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3151210\n"
+"help.text"
+msgid "<ahelp hid=\".\">The labels are left-aligned.</ahelp>"
+msgstr ""
+
+#. ZvFED
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3149169\n"
+"help.text"
+msgid "Align right"
+msgstr "តម្រឹម​ស្តាំ"
+
+#. ZAjqi
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3148672\n"
+"help.text"
+msgid "<ahelp hid=\".\">The labels are right-aligned.</ahelp>"
+msgstr ""
+
+#. vabKg
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3153682\n"
+"help.text"
+msgid "Arrangement of the main form"
+msgstr "ការ​រៀបចំ​សំណុំ​បែប​បទ​មេ"
+
+#. jQH2t
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3155892\n"
+"help.text"
+msgid "Columnar - Labels Left"
+msgstr "រាង​ជួរ​ឈរ - ស្លាក​ឆ្វេង"
+
+#. uibgW
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3149388\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp>"
+msgstr ""
+
+#. XPabr
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3145345\n"
+"help.text"
+msgid "Columnar - Labels on Top"
+msgstr "រាង​ជួឈរ - ស្លាក​នៅ​លើ​កំពូល"
+
+#. x9drS
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3150355\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels above the field.</ahelp>"
+msgstr ""
+
+#. yVG3V
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3147209\n"
+"help.text"
+msgid "As Data Sheet"
+msgstr "ជា​សន្លឹក​ទិន្នន័យ"
+
+#. SCSyA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3153824\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields in a tabular form.</ahelp>"
+msgstr ""
+
+#. BHFyA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3154897\n"
+"help.text"
+msgid "In Blocks - Labels Above"
+msgstr "ជា​បណ្តុំ - ស្លាក​ខាង​លើ"
+
+#. EQENe
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3155421\n"
+"help.text"
+msgid "<ahelp hid=\".\">Arranges the labels above the corresponding data.</ahelp>"
+msgstr ""
+
+#. AxksA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106C9\n"
+"help.text"
+msgid "Arrangement of the subform"
+msgstr "ការ​រៀបចំ​សំណុំ​បែប​បទ​រង​"
+
+#. BB8bH
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106D5\n"
+"help.text"
+msgid "Columnar - Labels Left"
+msgstr "រាង​ជួរ​ឈរ - ស្លាក​ឆ្វេង"
+
+#. ixMpR
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106D9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp>"
+msgstr "<ahelp hid=\".\">តម្រឹម​វាល​មូលដ្ឋាន​ទិន្នន័យ​តាម​ជួរឈរ​ជាមួយ​ស្លាក​ទៅ​ខាង​ឆ្វេង​វាល ។</ahelp>"
+
+#. 6Asyj
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106DC\n"
+"help.text"
+msgid "Columnar - Labels on Top"
+msgstr "រាង​ជួឈរ - ស្លាក​នៅ​លើ​កំពូល"
+
+#. AbtoY
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels above the field.</ahelp>"
+msgstr "<ahelp hid=\".\">តម្រឹម​វាល​មូលដ្ឋានទិន្នន័យ​តាមជួរឈរ​ជាមួយ​ស្លាក​ខាង​លើ​វាល ។</ahelp>"
+
+#. xPC4F
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E3\n"
+"help.text"
+msgid "As Data Sheet"
+msgstr "ជា​សន្លឹក​ទិន្នន័យ"
+
+#. RD3L8
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields in a tabular form.</ahelp>"
+msgstr "<ahelp hid=\".\">តម្រឹម​វាល​មូលដ្ឋានទិន្នន័យ​​ក្នុង​សំណុំ​បែប​បទ​ជា​តារាង ។</ahelp>"
+
+#. kTVuc
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106EA\n"
+"help.text"
+msgid "In Blocks - Labels Above"
+msgstr "ជា​បណ្តុំ - ស្លាក​ខាង​លើ"
+
+#. CkQkF
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106EE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Arranges the labels above the corresponding data.</ahelp>"
+msgstr "<ahelp hid=\".\">រៀប​ចំ​ស្លាក​ខាង​លើ​ទិន្នន័យ​ដែល​ទាក់ទង ។</ahelp>"
+
+#. bF3EF
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106F3\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090400.xhp\">Form Wizard - Set data entry</link>"
+msgstr "<link href=\"text/shared/autopi/01090400.xhp\">អ្នក​ជំនួយ​ការ​សំណុំ​បែប​បទ - កំណត់ធាតុ​ទិន្នន័យ</link>"
+
+#. R3iBH
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set Data Entry"
+msgstr "អ្នក​ជំនួយ​ការ​សំណុំ​បែប​បទ - កំណត់ធាតុ​ទិន្នន័យ"
+
+#. pEQKk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090400.xhp\">Form Wizard - Set Data Entry</link>"
+msgstr "<link href=\"text/shared/autopi/01090400.xhp\">អ្នក​ជំនួយការ​សំណុំ​បែប​បទ - កំណត់​ធាតុ​ទិន្នន័យ</link>"
+
+#. cmcmk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the data handling mode for the new form."
+msgstr "បញ្ជាក់រ​បៀប​ដោះ​ស្រាយ​ទិន្នន័យ​សម្រាប់​សំណុំ​បែប​បទ​ថ្មី ។"
+
+#. PaTFE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10558\n"
+"help.text"
+msgid "The form is to be used for entering new data only. Existing data will not be displayed"
+msgstr "សំណុំ​បែប​ត្រូវ​បាន​ប្រើ​សម្រាប់​បញ្ចូល​ទិន្នន័យ​ថ្មី​តែ​ប៉ុណ្ណោះ ។ ទិន្នន័យ​ដែល​មាន​ស្រាប់​នឹង​មិន​ត្រូវ​បាន​បង្ហាញ​ទេ ។"
+
+#. ST8HC
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105B6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a form that is only used for entering new data.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្កើត​សំណុំ​បែប​បទ​មួយ​ដែល​ត្រូវ​បាន​ប្រើ​​សម្រាប់​តែ​ការ​បញ្ចូល​​ទិន្នន័យ​ថ្មី​ប៉ុណ្ណោះ ។</ahelp>"
+
+#. 9xAvT
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105BB\n"
+"help.text"
+msgid "The form is to display all data"
+msgstr "សំណុំ​បែប​បទ​ត្រូវ​​បង្ហាញ​​ទិន្នន័យ​ទាំង​អស់"
+
+#. aD8tt
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105C1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a form that can be used to display existing data and to enter new data.</ahelp>"
+msgstr "<ahelp hid=\".\">បង្កើត​សំណុំ​បែប​បទ​មួយ​ដែល​អាច​ត្រូវ​បាន​ប្រើ​ដើម្បី​បង្ហាញ​ទិន្នន័យ​ដែល​មាន​ស្រាប់​ និង ដើម្បី​បញ្ចូល​ទិន្នន័យ​ថ្មី ។</ahelp>"
+
+#. hrXuE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN1055C\n"
+"help.text"
+msgid "Do not allow modification of existing data"
+msgstr "មិន​អនុញ្ញាត​ឲ្យ​កែប្រែ​ទិន្នន័យ​ដែល​មាន​ស្រាប់"
+
+#. gUETD
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow editing data.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ដើម្បី​មិន​អនុញ្ញាត​ឲ្យ​​កែសម្រួល​ទិន្នន័យ ។</ahelp>"
+
+#. CkGkM
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105DD\n"
+"help.text"
+msgid "Do not allow deletion of existing data"
+msgstr "មិន​អនុញ្ញាត​ឲ្យ​លុប​ទិន្នន័យ​ដែល​មាន​ស្រាប់"
+
+#. oWDvk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow deleting data.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ដើម្បី​មិនអនុញ្ញាត​ឲ្យ​លុប​ទិន្នន័យ ។</ahelp>"
+
+#. FU3KE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E6\n"
+"help.text"
+msgid "Do not allow addition of new data"
+msgstr "មិន​អនុញ្ញាត​ឲ្យ​បន្ថែម​ទិន្នន័យ​ថ្មី"
+
+#. fGtoB
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow adding new data.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ដើម្បី​មិន​អនុញ្ញាត​​​ឲ្យ​បន្ថែម​ទិន្នន័យ​ថ្មី ។</ahelp>"
+
+#. SqRNq
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E4\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090500.xhp\">Form Wizard - Apply styles</link>"
+msgstr "<link href=\"text/shared/autopi/01090500.xhp\">អ្នក​ជំនួយ​ការ​សំណុំ​បែប​បទ - អនុវត្ត​រចនាប័ទ្ម</link>"
+
+#. ZDqNF
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Apply Styles"
+msgstr "អ្នក​ជំនួយ​ការ​សំណុំ​បែប​បទ - អនុវត្ត​រចនាប័ទ្ម"
+
+#. r5BGE
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090500.xhp\">Form Wizard - Apply Styles</link>"
+msgstr "<link href=\"text/shared/autopi/01090500.xhp\">អ្នក​ជំនួយ​ការ​សំណុំ​បែប​បទ - អនុវត្ត​រចនាប័ទ្ម</link>"
+
+#. gfLGt
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the form style."
+msgstr "បញ្ជាក់រ​ចនាប័ទ្ម​សំណុំ​បែប​បទ ។"
+
+#. c7yFt
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Apply styles"
+msgstr "អនុវត្ត​រចនាប័ទ្ម"
+
+#. HM2Xs
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the page style for the form.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​រចនាប័ទ្ម​ទំព័រ​សម្រាប់​សំណុំ​បែប​បទ ។</ahelp>"
+
+#. CD52v
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "Field border"
+msgstr "ស៊ុម​វាល"
+
+#. u7WYC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10561\n"
+"help.text"
+msgid "Specifies the field border style."
+msgstr ""
+
+#. ktcNg
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10564\n"
+"help.text"
+msgid "No border"
+msgstr "គ្មាន​ស៊ុម"
+
+#. LDYVC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10568\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the fields have no border.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថា​វាល​គ្មាន​ស៊ុម ។</ahelp>"
+
+#. ogq9S
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1056B\n"
+"help.text"
+msgid "3D look"
+msgstr "រាង​​ត្រីមាត្រ"
+
+#. 8yTjp
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1056F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the field borders have a 3D look.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថា​ស៊ុម​វាល​មាន​រាង​ត្រីមាត្រ ។</ahelp>"
+
+#. fGEET
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10572\n"
+"help.text"
+msgid "Flat"
+msgstr "រាប​ស្មើ"
+
+#. 3LvLa
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10576\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the field borders look flat.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ថា​ស៊ុម​វាល​​មាន​រាង​រាបស្មើ ។</ahelp>"
+
+#. FtrrC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10579\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090600.xhp\">Form Wizard - Set name</link>"
+msgstr "<link href=\"text/shared/autopi/01090600.xhp\">អ្នក​ជំនួយការ​សំណុំ​បែប​បទ - កំណត់​ឈ្មោះ</link>"
+
+#. kFiaa
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set Name"
+msgstr "អ្នក​ជំនួយការ​សំណុំ​បែប​បទ - កំណត់​ឈ្មោះ"
+
+#. 83jJk
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090600.xhp\">Form Wizard - Set Name</link>"
+msgstr "<link href=\"text/shared/autopi/01090600.xhp\">អ្នក​ជំនួយ​ការ​សំណុំ​បែបប​ទ - កំណត់ឈ្មោះ</link>"
+
+#. kuq7q
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the name of the form and how to proceed."
+msgstr ""
+
+#. ydyFn
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Name of the form"
+msgstr "ឈ្មោះ​របស់​សំណុំ​បែប​បទ"
+
+#. 2kzEM
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the form.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​ឈ្មោះ​របស់​សំណុំ​បែប​បទ ។</ahelp>"
+
+#. yMPCS
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "Work with the form"
+msgstr "ធ្វើ​ការ​ជាមួយ​សំណុំ​បែប​បទ"
+
+#. zDoPU
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the form, and opens it as a form document to enter and display data.</ahelp>"
+msgstr "<ahelp hid=\".\">រក្សា​ទុក​សំណុំ​បែប​បទ និង បើក​វា​ជា​ឯកសារ​សំណុំ​បែប​បទ​មួយ​ដើម្បី​បញ្ចូល​ និង បង្ហាញ​ទិន្នន័យ ។</ahelp>"
+
+#. DVqM9
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10563\n"
+"help.text"
+msgid "Modify the form"
+msgstr "កែប្រែ​សំណុំ​បែប​បទ"
+
+#. hSQZP
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the form, and opens it in edit mode to change the layout.</ahelp>"
+msgstr "<ahelp hid=\".\">រក្សា​ទុក​សំណុំ​បែប​បទ និង បើក​វា​ក្នុង​របៀប​កែសម្រួល​ដើម្បី​ផ្លាស់​ប្តូរ​ប្លង់ ។</ahelp>"
+
+#. qDmWk
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10569\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01090000.xhp\">អ្នក​ជំនួយការ​សំណុំ​បែបបទ</link>"
+
+#. 9GEmD
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard"
+msgstr "អ្នក​ជំនួយការ របាយការណ៍"
+
+#. Ljpsw
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"hd_id3150499\n"
+"help.text"
+msgid "Report Wizard"
+msgstr "អ្នក​ជំនួយការ របាយការណ៍"
+
+#. Wxizv
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"par_id3145071\n"
+"help.text"
+msgid "<variable id=\"report\"><ahelp hid=\".\">Activates the wizard for creating reports.</ahelp></variable>"
+msgstr ""
+
+#. JBzBF
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"par_id3152780\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the report properties.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​លក្ខណៈ​សម្បិត្តិ​របាយការណ៍ ។</ahelp>"
+
+#. jjzfj
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Field Selection"
+msgstr "អ្នកជំនួយ​ការ​របាយការណ៍ - ជម្រើស​វាល"
+
+#. Adyxy
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100100.xhp\">Report Wizard - Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01100100.xhp\">អ្នក​ជំនួយការ​របាយការណ៍ - ជម្រើស​វាល</link>"
+
+#. k9HWM
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150476\n"
+"help.text"
+msgid "Specifies the table or query for which you are creating the report, and which fields you wish to include in the report."
+msgstr ""
+
+#. UFBD8
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3156136\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "តារាង ឬ​សំណួរ"
+
+#. tM6DC
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3147043\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the table or query for which the report is to be created.</ahelp>"
+msgstr ""
+
+#. CbuDf
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3147008\n"
+"help.text"
+msgid "Available fields"
+msgstr "វាល​​ដែល​មាន​"
+
+#. uK9gE
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the names of the data base fields in the selected table or query.</ahelp> Click to select a field or press the Shift or <switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while clicking to select multiple fields."
+msgstr ""
+
+#. TbTWD
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3153031\n"
+"help.text"
+msgid "Fields in report"
+msgstr "វាល​​​ក្នុង​​របាយ​ការណ៍"
+
+#. FXTGe
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3147275\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays all fields that are included in the new report.</ahelp>"
+msgstr ""
+
+#. bYCJA
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3147209\n"
+"help.text"
+msgid ">"
+msgstr ">"
+
+#. XFRnY
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3152350\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. H3BpD
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3159269\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. erhB6
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3149784\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. kFZoZ
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3153146\n"
+"help.text"
+msgid "<"
+msgstr "<"
+
+#. VoFm5
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150275\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. DHsy3
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3149233\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. fZExB
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. ebFt7
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3145609\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100150.xhp\">More about Report Wizard - Labeling Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01100150.xhp\">អ្វីៗ​ផ្សេង​ទៀត​អំពី​អ្នក​ជំនួយ​ការ​របាយការណ៍ - ការ​ដាក់​ស្លាកវាល​​​</link>"
+
+#. CU6F5
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Labeling Fields"
+msgstr "អ្នកជំនួយ​ការ​របាយការណ៍​ - ការ​ដាក់​ស្លាក​​វាល​"
+
+#. w745A
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"hd_id3144415\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100150.xhp\">Report Wizard - Labeling Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01100150.xhp\">អ្នកជំនួយ​ការ​របាយការណ៍​ - ការ​ដាក់​ស្លាក​​វាល​</link>"
+
+#. GsVRi
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "Specifies how you want to label the fields."
+msgstr ""
+
+#. FbLt4
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"hd_id3155805\n"
+"help.text"
+msgid "Field list"
+msgstr "បញ្ជីវាល​"
+
+#. cyewr
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3150774\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the names of the fields to be included in the report. At the right you can enter a label for each field that will be printed in the report.</ahelp>"
+msgstr ""
+
+#. 3ZFEY
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3153748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100200.xhp\">More about Report Wizard - Grouping</link>"
+msgstr "<link href=\"text/shared/autopi/01100200.xhp\">អ្វីៗ​ផ្សេង​ទៀត​អំពី​អ្នក​ជំនួយ​ការ​របាយការណ៍​ - ការ​ដាក់​ជាក្រុម​</link>"
+
+#. BUhYd
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Grouping"
+msgstr "អ្នក​ជំនួយ​ការ​របាយការណ៍​ - ការ​ដាក់​ជា​ក្រុម"
+
+#. zPKjm
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3147000\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100200.xhp\">Report Wizard - Grouping</link>"
+msgstr "<link href=\"text/shared/autopi/01100200.xhp\">អ្នក​ជំនួយ​ការ​របាយការណ៍​ - ការ​ដាក់​ជា​ក្រុម​</link>"
+
+#. UURLb
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3163829\n"
+"help.text"
+msgid "You can group records in a report based on the values in one or more fields. Select the fields by which the resulting report will be grouped. You can group up to four fields in a report. When you group more than one field, $[officename] nests the groups according to their group level."
+msgstr ""
+
+#. 8NNsd
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3149760\n"
+"help.text"
+msgid "Fields"
+msgstr "វាល"
+
+#. hbLB2
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the fields from your selection on the previous page of the Wizard. To group the report by a field, select the field name, then click the <emph>></emph> button. You may select up to four levels of grouping.</ahelp>"
+msgstr ""
+
+#. 2Sj4h
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3155552\n"
+"help.text"
+msgid "Groupings"
+msgstr "ដាក់​​ជា​​ក្រុម"
+
+#. 6WbLz
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3155892\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the fields by which the report will be grouped. To remove one level of grouping, select the field name, then click the <emph><</emph> button. You may select up to four levels of grouping.</ahelp>"
+msgstr ""
+
+#. wWSqE
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3154289\n"
+"help.text"
+msgid ">"
+msgstr ">"
+
+#. bedJG
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3157958\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. jVAxH
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3154823\n"
+"help.text"
+msgid "<"
+msgstr "<"
+
+#. oEZnJ
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. uTa48
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3150355\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100300.xhp\">More about Report Wizard - Sort Options</link>"
+msgstr "<link href=\"text/shared/autopi/01100300.xhp\">អ្វីៗ​ផ្សេង​ទៀត​អំពី​អ្នក​ជំនួយ​ការ​របាយការណ៍​ - ជម្រើស​តម្រៀប​</link>"
+
+#. HPGPg
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Sort Options"
+msgstr "អ្នក​ជំនួយ​ការ​របាយការណ៍​ - ជម្រើស​តម្រៀប​"
+
+#. VzFbG
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3148668\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100300.xhp\">Report Wizard - Sort Options</link>"
+msgstr "<link href=\"text/shared/autopi/01100300.xhp\">អ្នក​ជំនួយ​ការ​របាយការណ៍​ - ជម្រើស​តម្រៀប​</link>"
+
+#. RSArv
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3148520\n"
+"help.text"
+msgid "Select the fields by which to sort the report. Fields can be sorted by up to four levels, each either ascending or descending. Grouped fields can only be sorted within each group."
+msgstr ""
+
+#. uDGaD
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3149205\n"
+"help.text"
+msgid "Sort by"
+msgstr "តម្រៀប​​តាម"
+
+#. ECFCo
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3155555\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the first field by which to sort the report.</ahelp>"
+msgstr ""
+
+#. resUF
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3154751\n"
+"help.text"
+msgid "Then by"
+msgstr "បន្ទាប់​មក​តាម"
+
+#. FcTDC
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3149182\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select an additional field by which to sort the report.</ahelp>"
+msgstr ""
+
+#. yiwfs
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3146957\n"
+"help.text"
+msgid "Ascending"
+msgstr "លំដាប់​ឡើង"
+
+#. Cvpkb
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sorts the field contents in ascending order.</ahelp>"
+msgstr ""
+
+#. EoPCs
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3147653\n"
+"help.text"
+msgid "Descending"
+msgstr "លំដាប់​ចុះ"
+
+#. A25vE
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3156113\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sorts the field contents in descending order.</ahelp>"
+msgstr ""
+
+#. aT4Eu
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3156329\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100400.xhp\">More about Report Wizard - Choose Layout</link>"
+msgstr "<link href=\"text/shared/autopi/01100400.xhp\">​អ្វីៗ​ផ្សេង​ទៀត​អំពី​អ្នក​ជំនួយ​ការ​របាយការណ៍ - ជ្រើស​ប្លង់​​</link>"
+
+#. 8Gkxm
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Choose Layout"
+msgstr "អ្នក​ជំនួយ​ការ​របាយការណ៍​ - ជ្រើស​ប្លង់​"
+
+#. 3d3Bi
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3148668\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100400.xhp\">Report Wizard - Choose Layout</link>"
+msgstr "<link href=\"text/shared/autopi/01100400.xhp\">អ្នក​ជំនួយ​ការ​របាយការណ៍​ - ជ្រើស​ប្លង់​​</link>"
+
+#. aPVFq
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154894\n"
+"help.text"
+msgid "Choose the layout from different templates and styles, and choose landscape or portrait page orientation."
+msgstr ""
+
+#. QmVbY
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3145345\n"
+"help.text"
+msgid "Layout of data"
+msgstr "ប្លង់​​ទិន្នន័យ"
+
+#. xFhp9
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines a set of styles for the report. The styles assign fonts, indents, table background, and more.</ahelp>"
+msgstr ""
+
+#. ZNEUQ
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3145071\n"
+"help.text"
+msgid "Layout of headers and footers"
+msgstr "ប្លង់​​ បឋមកថា និង បាតកថា"
+
+#. cJ5Sk
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3152551\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines a page layout for the report. The page layouts are loaded from template files, which assign a header, footer, and page background.</ahelp>"
+msgstr ""
+
+#. gRJX6
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3152996\n"
+"help.text"
+msgid "Orientation"
+msgstr "ទិស"
+
+#. D4ZfK
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "Choose the page orientation for the report."
+msgstr "ជ្រើស​ទិស​ទំព័រ​សម្រាប់​របាយការណ៍​ ។"
+
+#. BrBYq
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3156347\n"
+"help.text"
+msgid "Landscape"
+msgstr "ផ្ដេក"
+
+#. mVVHx
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3145382\n"
+"help.text"
+msgid "<ahelp hid=\".\">Selects a landscape page orientation for the report.</ahelp>"
+msgstr ""
+
+#. M8S4j
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3149233\n"
+"help.text"
+msgid "Portrait"
+msgstr "បពា្ឈរ​"
+
+#. 2GXYz
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154285\n"
+"help.text"
+msgid "<ahelp hid=\".\">Selects a portrait page orientation for the report.</ahelp>"
+msgstr ""
+
+#. CwwC2
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3148491\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100500.xhp\">More about Report Wizard - Create Report</link>"
+msgstr "<link href=\"text/shared/autopi/01100500.xhp\">អ្វីៗ​ផ្សេង​ទៀត​អំពី​អ្នក​ជំនួយ​ការ​របាយការណ៍​ - បង្កើត​​របាយការណ៍​</link>"
+
+#. KwNon
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Create Report"
+msgstr "អ្នក​ជំនួយរបាយការណ៍ - ​បង្កើត​របាយការណ៍"
+
+#. DBGWP
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3156211\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100500.xhp\">Report Wizard - Create Report</link>"
+msgstr "<link href=\"text/shared/autopi/01100500.xhp\">អ្នក​ជំនួយ​ការ​របាយការណ៍​ - បង្កើត​​របាយការណ៍​​</link>"
+
+#. G5N3i
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3159224\n"
+"help.text"
+msgid "You can create the report as a static or dynamic report. When you open a dynamic report, it will display with the current data contents. When you open a static report, it will always display the same data from the time when the static report was created."
+msgstr ""
+
+#. TEwgC
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3145669\n"
+"help.text"
+msgid "Title of report"
+msgstr "ចំណងជើង​​របាយការណ៍"
+
+#. FvqnT
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3156136\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title that is printed at the title line of each page.</ahelp>"
+msgstr ""
+
+#. HmVap
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3157910\n"
+"help.text"
+msgid "Static report"
+msgstr "របាយការណ៍​​ឋិតិវន្ត"
+
+#. LDxSX
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3149580\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the report as a static report. When you open a static report, it will always display the data from the time the report was created.</ahelp>"
+msgstr ""
+
+#. TtnAs
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3154751\n"
+"help.text"
+msgid "Dynamic report"
+msgstr "​របាយការណ៍​ថាមវន្ត"
+
+#. EQjod
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the report as a template. When you open a dynamic report, it will display with the current data contents.</ahelp>"
+msgstr ""
+
+#. FEAko
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3148538\n"
+"help.text"
+msgid "Modify report layout"
+msgstr "កែ​ប្រែ​​ប្លង់​របាយការណ៍"
+
+#. UvDe7
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<ahelp hid=\".\">When you click <emph>Finish</emph>, the report will be saved and opened for edit.</ahelp>"
+msgstr ""
+
+#. 58YBL
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3153127\n"
+"help.text"
+msgid "Create report now"
+msgstr "បង្កើត​របាយការណ៍​ឥឡូវ"
+
+#. GwGyH
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3156194\n"
+"help.text"
+msgid "<ahelp hid=\".\">When you click <emph>Finish</emph>, the report will be saved.</ahelp>"
+msgstr ""
+
+#. CEeC5
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard"
+msgstr "អ្នក​​ជំនួយ​​ការ​​ធាតុ​​របស់​​ក្រុម​​"
+
+#. bt2jX
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"hd_id3149031\n"
+"help.text"
+msgid "Group Element Wizard"
+msgstr "អ្នក​​ជំនួយ​​ការ​​ធាតុ​​របស់​​ក្រុម​​"
+
+#. LZVXR
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"par_id3151097\n"
+"help.text"
+msgid "The Group Element Wizard starts automatically when you insert a <link href=\"text/shared/02/01170000.xhp\">Group Box</link> into a document."
+msgstr "អ្នក​ជំនួយ​​ធាតុ​ក្រុម​ចាប់​ផ្តើម​ដោយ​ស្វ័យ​ប្រវត្តិ​ពេល​អ្នក​បញ្ចូល​ <link href=\"text/shared/02/01170000.xhp\">ប្រអប់ក្រុម​​</link>​ ទៅ ក្នុង​ឯកសារ​មួយ​ ។"
+
+#. 5ftFD
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"hd_id3145071\n"
+"help.text"
+msgid "Create"
+msgstr "បង្កើត"
+
+#. SrWfY
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LISTWIZARD_FINISH\">Creates the object.</ahelp>"
+msgstr "<ahelp hid=\"HID_LISTWIZARD_FINISH\">បង្កើត​វត្ថុ ។</ahelp>"
+
+#. M8QEd
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Data"
+msgstr "អ្នក​ជំនួយ​ការ​ធាតុ​ក្រុម​ ៖ ទិន្នន័យ"
+
+#. xgNjY
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120100.xhp\">Group Element Wizard: Data</link>"
+msgstr "<link href=\"text/shared/autopi/01120100.xhp\">អ្នក​ជំនួយការ​ធាតុ​របស់​ក្រុម ៖ ទិន្នន័យ</link>"
+
+#. jS7JL
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154894\n"
+"help.text"
+msgid "Specifies which option fields are contained inside the group box."
+msgstr "បញ្ជាក់​​វាល​​ជម្រើស​ណាមួយ​ ​ដែល​មាន​នៅ​ក្នុង​ប្រអប់​ក្រុម​ ។"
+
+#. DFFfh
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3153894\n"
+"help.text"
+msgid "Which names do you want to give the option fields?"
+msgstr "តើ​ឈ្មោះ​ណា​មួយ​ ដែល​អ្នក​ចង់​ដាក់​ឲ្យ​​វាល​​ជម្រើស ?"
+
+#. RMqcA
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154673\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiolabels\" visibility=\"visible\">Specifies the respective label for each option field. You will see the label of the option field in the form.</ahelp> This entry corresponds to the <link href=\"text/shared/02/01170101.xhp\">Label</link> property of the option field."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiolabels\" visibility=\"visible\">បញ្ជាក់​ស្លាក​មួយៗ​សម្រាប់​វាល​​ជម្រើស​នីមួយៗ​ ។ អ្នក​នឹង​ឃើញ​ស្លា​របស់​​​វាល​​ជម្រើស​ក្នុង​សំណុំ​បែប​បទ​ ។​</ahelp> ​ធាតុ​នេះ​ត្រូវ​គ្នា​​នឹង​ <link href=\"text/shared/02/01170101.xhp\">ស្លាក​​</link> លក្ខណសម្បត្តិ​របស់​​វាល​​ជម្រើស​ ។​"
+
+#. ZExvE
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3155805\n"
+"help.text"
+msgid "Accept"
+msgstr "យល់​ព្រម"
+
+#. 7XPNw
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3147008\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. TEzQK
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3153345\n"
+"help.text"
+msgid "<ahelp visibility=\"visible\" hid=\"modules/sabpilot/ui/groupradioselectionpage/toright\">Confirms the current label and copies the label to the <emph>Option fields</emph> list.</ahelp>"
+msgstr ""
+
+#. UFmvH
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "Enter the label for each option field of the group that you want to create and copy the label to the list by clicking the arrow button. Repeat this procedure until all the option fields are defined."
+msgstr "បញ្ចូល​ស្លាក​សម្រាប់​​វាល​​ជម្រើស​នីមួយៗ​នៃ​ក្រុម​ ដែល​​អ្នក​ចង់​បង្កើត​ និង ចម្លង​ស្លាក​ទៅ​ក្នុង​បញ្ជី​ ដោយ​ចុច​ប៊ូតុង​ព្រួញ​ ។ ធ្វើ​បែប​បទ​នេះ​ម្តង​ទៀត​រហូត​ដល់​​វាល​​ជម្រើស​ត្រូវ​បាន​កំណត់​ ។"
+
+#. iNRfq
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3150443\n"
+"help.text"
+msgid "Option fields"
+msgstr "វាល​​​​ជម្រើស"
+
+#. qWPvJ
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3152996\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiobuttons\" visibility=\"visible\">Displays all option fields which have to be included in the group box.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiobuttons\" visibility=\"visible\">បង្ហាញ​ស្លា​ក​ជម្រើស​ទាំង​អស់​ ដែល​ត្រូវ​រួម​បញ្ចូល​ក្នុង​ប្រអប់​ក្រុម​ ។​</ahelp>"
+
+#. fDsAQ
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3146949\n"
+"help.text"
+msgid "Remove"
+msgstr "យក​ចេញ"
+
+#. ABcDi
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3153561\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. CJoAh
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3159157\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/toleft\" visibility=\"visible\">Removes the selected option fields from the list.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/toleft\" visibility=\"visible\">​យក​​វាល​​ជម្រើស​ដែល​បាន​ជ្រើស​ចេញ​ពី​បញ្ជី​ ។​</ahelp>"
+
+#. M3CGF
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Default Field Selection"
+msgstr "ដាក់ជា​ក្រុម​នូវ​អ្នក​ជំនួយ​ការ​ធាតុ​ ៖ ជម្រើស​វាល​​លំនាំ​ដើម"
+
+#. 3f4Rt
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3151299\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120200.xhp\">Group Element Wizard: Default Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01120200.xhp\">អ្នក​ជំនួយការ​ធាតុ​របស់​ក្រុម ៖ ជម្រើស​វាល​លំនាំដើម</link>"
+
+#. jbMoc
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3144740\n"
+"help.text"
+msgid "Determines that you want one option field to be selected as the default choice."
+msgstr "កំណត់​ថា​ អ្នក​ចង់​ឲ្យ​វាល​​ជម្រើស​មួយ ​ត្រូវ​បាន​ជ្រើស​ជា​ជម្រើស​លំនាំ​ដើម​ ។"
+
+#. NF68U
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3154094\n"
+"help.text"
+msgid "The default settings will be accepted if you open the form in the user mode. With these settings you determine the control property <link href=\"text/shared/02/01170101.xhp\">Default Status</link>."
+msgstr "ការ​កំណត់​លំនាំ​ដើម​នឹង​ត្រូវ​បាន​ទទួល​យក​ ប្រសិន​អ្នក​បើក​សំណុំ​បែបបទ​ក្នុង​របៀប​អ្នក​ប្រើ​ ។​ ជាមួយ​ការ​កំណត់​ទាំង​នេះ​ អ្នក​កំណត់​លក្ខណសម្បត្តិ​វត្ថុ​បញ្ជា​ <link href=\"text/shared/02/01170101.xhp\">ស្ថាន​ភាព​លំនាំ​ដើម</link> ។"
+
+#. 5Bk7d
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3157896\n"
+"help.text"
+msgid "Should one option field be selected as a default?"
+msgstr "តើ​​​វាល​​​​ជម្រើស​​​មួយ​ ​​គួរ​​តែ​​​ត្រូវ​​​បាន​​​ជ្រើស​​​ជា​​​លំនាំ​ដើម​​​ ឬទេ ?​"
+
+#. n8eDM
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "Specifies whether you want to set default settings for the option box."
+msgstr "បញ្ជាក់​​​ថា​អ្នក​ចង់​​កំណត់​ ការ​កំណត់​​​លំនាំ​សម្រាប់​ប្រអប់​ជម្រើស​ ។"
+
+#. QDuNC
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3147226\n"
+"help.text"
+msgid "Yes, the following:"
+msgstr "បាទ ដូច​​ខាង​​ក្រោម ៖"
+
+#. 4M3qj
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3150774\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionyes\" visibility=\"visible\">Specifies that you want an option field to be selected as a default after opening the form.</ahelp> Choose the option field from the box."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionyes\" visibility=\"visible\">បញ្ជាក់​ថា​ អ្នក​ចង់​ឲ្យ​វាល​​ជម្រើស​មួយ​ត្រូវ​បាន​ជ្រើស​ជា​លំនាំ​ដើម​ បន្ទាប់​ពី​បើក​សំណុំ​បែប​បទ​​ ។​</ahelp> ជ្រើស​វាល​​ជម្រើស​ពី​ប្រអប់ ។"
+
+#. 8FPkc
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3153345\n"
+"help.text"
+msgid "List box"
+msgstr "ប្រអប់​បញ្ជី"
+
+#. CJsPp
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3146957\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defselectionfield\" visibility=\"visible\">Select the option field that you want to have as the default when opening the form.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defselectionfield\" visibility=\"visible\">ជ្រើស​​វាល​​ជម្រើស​ដែល​អ្នក​ចង់​ឲ្យ​មាន​លំនាំ​ដើម​ ពេល​​បើក​សំណុំបែប​បទ​ ។​</ahelp>"
+
+#. BoGAr
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3147242\n"
+"help.text"
+msgid "No, one particular field is not going to be selected"
+msgstr "ទេ​​ ​គ្មានវាល​​​​ពិសេស​​​ណា​​មួយ​​ ​នឹង​​​ត្រូវ​​​បាន​​​ជ្រើស​​​ឡើយ​ ។​​"
+
+#. uEAAP
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionno\" visibility=\"visible\">Specifies that you do not want any option field to be the default choice.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionno\" visibility=\"visible\">បញ្ជាក់​ថា​ អ្នក​មិន​ចង់​ឲ្យ​​វាល​​ជម្រើស​ណាមួយ​ជា​ជម្រើស​លំនាំដើម ។​</ahelp>"
+
+#. HKDPk
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Field Values"
+msgstr "ដាក់​ជា​ក្រុម​នូវ​អ្នកជំនួយ​ការ​ធាតុ​ ៖ តម្លៃ​វាល​"
+
+#. oTfsy
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3151097\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120300.xhp\">Group Element Wizard: Field Values</link>"
+msgstr "<link href=\"text/shared/autopi/01120300.xhp\">អ្នក​ជំនួយការ​ធាតុ​របស់​ក្រុម ៖ តម្លៃ​របស់​វាល</link>"
+
+#. mVBx2
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3151100\n"
+"help.text"
+msgid "Assigns a reference value to each option field."
+msgstr "ផ្តល់​​តម្លៃ​​យោង​​ទៅ​ឲ្យ​វាល​​ជម្រើស​នីមួយៗ ។"
+
+#. o2nxm
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3153323\n"
+"help.text"
+msgid "Select a field from the option fields list and enter the corresponding <link href=\"text/shared/02/01170101.xhp\">reference value</link>."
+msgstr "ជ្រើស​វាល​​មួយ​ពី​បញ្ជី​​វាល​​ជម្រើស​​ និង បញ្ចូល​ <link href=\"text/shared/02/01170101.xhp\">តម្លៃ​យោង​​</link>​ ដែលត្រូវ​គ្នា​ ។"
+
+#. e8DgD
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3152594\n"
+"help.text"
+msgid "Which value do you want to assign to each option?"
+msgstr "តើ​​តម្លៃ​​ណា​​មួយ​ ដែល​​អ្នក​​ចង់​​ផ្តល់​ទៅ​​​ឲ្យ​ជម្រើស​​នីមួយៗ​ ?"
+
+#. 47Fhy
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3152425\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/optionvalue\" visibility=\"visible\">Select a number or a text as a reference value for the selected option field.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/optionvalue\" visibility=\"visible\">ជ្រើស​លេខ​​មួយ​ ឬ​ អត្ថបទ​មួយ​ ជា​តម្លៃ​យោង​សម្រាប់​វាល​​ជម្រើស​​ដែល​បានជ្រើស​ ។​</ahelp>"
+
+#. 64wRq
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3155555\n"
+"help.text"
+msgid "Option fields"
+msgstr "វាល​​​​ជម្រើស"
+
+#. jx2Ha
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3155941\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/radiobuttons\" visibility=\"visible\">Select the option field for which you want to assign the reference value.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/radiobuttons\" visibility=\"visible\">ជ្រើស​វាល​​ជម្រើស​​ ដែល​អ្នក​ចង់​ផ្តល់​ឲ្យ​តម្លៃ​យោង​ ។​</ahelp>"
+
+#. CTA76
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Database Field"
+msgstr "ដាក់​ជា​ក្រុម​នូវ​អ្នក​​ជំនួយ​ការ​ធាតុ​ ៖ វាល​​មូល​ដ្ឋាន​ទិន្នន័យ​"
+
+#. BKpyH
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120400.xhp\">Group Element Wizard: Database Field</link>"
+msgstr "<link href=\"text/shared/autopi/01120400.xhp\">អ្នក​ជំនួយការ​ធាតុ​របស់​ក្រុម ៖ វាល​មូលដ្ឋាន​ទិន្នន័យ</link>"
+
+#. yTnES
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3154094\n"
+"help.text"
+msgid "This page is only visible if the document is linked to a database. It specifies whether the reference values should be saved in the database."
+msgstr "ទំព័រ​នេះ​អាច​មើល​ឃើញ​ក្នុង​ករណី​ដែល​ឯកសារ​ត្រូវ​បាន​តភ្ជាប់​ទៅ​មូល​ដ្ឋាន​ទិន្នន័យ​ ។ វា​បញ្ជាក់​ថា​តើ​តម្លៃ​​​យោង​គួរ​ត្រូវ​បាន​រក្សា​ទុក​ក្នុង​មូល​ដ្ឋាន​ទិន្នន័យ​ដែរទេ​ ។"
+
+#. FwS4J
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3153255\n"
+"help.text"
+msgid "Indicate where to save the <link href=\"text/shared/02/01170101.xhp\">reference values</link>. A reference value can represent the current state of the group box in a database."
+msgstr "ចង្អុល​បង្ហាញ​កន្លែង​ដែល​ត្រូវ​រក្សា​ទុក​ <link href=\"text/shared/02/01170101.xhp\">តម្លៃ​យោង​​</link> ។ តម្លៃ​យោង​អាច​បង្ហាញ​លក្ខណៈ​បច្ចុប្បន្ន​របស់​ប្រអប់​ក្រុម​ក្នុង​មូល​ដ្ឋាន​ទិន្នន័យ ។"
+
+#. EQAQC
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3149828\n"
+"help.text"
+msgid "This page is only displayed if the document is already linked to a database."
+msgstr "ទំព័រ​នេះ​បង្ហាញ​តែ​ក្នុង​ករណី​ ដែល​ឯកសារ​ត្រូវ​បាន​តភ្ជាប់​ទៅ​មូល​ដ្ឋាន​ទិន្នន័យ​រួច​រាល់​ប៉ុណ្ណោះ ។"
+
+#. mHGFo
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3152551\n"
+"help.text"
+msgid "Do you want to save the value in a database field?"
+msgstr "តើ​​អ្នក​​ចង់​​រ​ក្សា​ទុក​​តម្លៃ​ ​ក្នុង​​វាល​​​មូលដ្ឋាន​​​ទិន្នន័យ​​ ឬទេ ?"
+
+#. QExFj
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3154823\n"
+"help.text"
+msgid "Yes, I want to save it in the following database field:"
+msgstr "បាទ​ ខ្ញុំ​ចង់​រក្សា​វា​ទុក​ក្នុង​វាល​​មូល​ដ្ឋាន​ទិន្នន័យ​ដូច​ខាង​ក្រោម​នេះ ៖"
+
+#. 5XkEg
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3156346\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/yesRadiobutton\">Specifies that you want to save the reference values in a database.</ahelp> The values are written in the data field selected in the list box. The list box displays all the field names from the database table that the form is linked to."
+msgstr ""
+
+#. DbbcG
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3145382\n"
+"help.text"
+msgid "List box"
+msgstr "ប្រអប់​បញ្ជី"
+
+#. 8ba8P
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3149398\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/storeInFieldCombobox\" visibility=\"hidden\">Select the data field in which the reference values have to be saved.</ahelp>"
+msgstr ""
+
+#. j7eCU
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3153881\n"
+"help.text"
+msgid "No, I only want to save the value in the form."
+msgstr "ទេ ខ្ញុំ​​ចង់​​​តែ​រក្សា​ទុក​​តម្លៃ​​​ក្នុង​​សំណុំ​​បែបបទ​ប៉ុណ្ណោះ​ ។"
+
+#. LWkZN
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3153146\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/noRadiobutton\">Specifies that you want to save the reference values in the form only, and not in the database.</ahelp>"
+msgstr ""
+
+#. VbSgR
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Create Option Group"
+msgstr "អ្នក​ជំនួយ​ការ​ដាក់​ធាតុ​ជា​ក្រុម ៖ បង្កើត​ក្រុម​ជម្រើស"
+
+#. Xcfm7
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"hd_id3143206\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120500.xhp\">Group Element Wizard: Create Option Group</link>"
+msgstr "<link href=\"text/shared/autopi/01120500.xhp\">អ្នក​ជំនួយការ​ធាតុ​របស់​ក្រុម ៖ បង្កើត​ក្រុម​ជម្រើស</link>"
+
+#. erbEs
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"par_id3154812\n"
+"help.text"
+msgid "Specifies a label for the option group."
+msgstr "បញ្ជាក់ស្លាក​មួយ​សម្រាប់​ក្រុម​ជម្រើស​ ។"
+
+#. cAQMg
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"hd_id3144415\n"
+"help.text"
+msgid "Which caption is to be given to your option group?"
+msgstr "តើ​​ចំណង​​​ជើង​​ណា​​មួយ​ ដែល​​​​​ត្រូវ​​ផ្តល់ទៅ​​ឲ្យ​​ក្រុម​​ជម្រើស​​របស់​​អ្នក ?"
+
+#. 4fkc8
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"par_id3163829\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionsfinalpage/nameit\" visibility=\"visible\">Specifies the label for the option box. You will see the label of the group box displayed in the form.</ahelp> The text you enter here will correspond to the <link href=\"text/shared/02/01170101.xhp\">Label</link> property of the group box."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionsfinalpage/nameit\" visibility=\"visible\">បញ្ជាក់​ស្លាក​សម្រាប់ប្រអប់ជម្រើស​ ។​ អ្នក​នឹង​ឃើញ​ស្លាក​របស់​ប្រអប់​ក្រុម​ដែល​បាន​បង្ហាញ​ក្នុង​សំណុំ​បែបបទ​ ។ </ahelp> អត្ថបទ​ដែល​អ្នក​បញ្ចូល​នៅ​ទីនេះ​​ ត្រូវ​គ្នា​នឹងលក្ខណសម្បត្តិ​​ <link href=\"text/shared/02/01170101.xhp\">ស្លាក​</link> របស់​ប្រអប់​ក្រុម​ ។"
+
+#. QbUG5
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document Converter"
+msgstr "កម្មវិធី​បម្លែង​ឯកសារ"
+
+#. szRb9
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"hd_id3149798\n"
+"help.text"
+msgid "Document Converter"
+msgstr "កម្មវិធី​បម្លែង​ឯកសារ"
+
+#. v5SJh
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "<variable id=\"ms\"><ahelp hid=\".\">Copies and converts documents into the OpenDocument XML format used by $[officename].</ahelp></variable>"
+msgstr "<variable id=\"ms\"><ahelp hid=\".\">ចម្លង និង​បម្លែង​ឯកសារ​ទៅ​ជា​ទ្រង់ទ្រាយ​ OpenDocument XML ដែល​ត្រូវ​បាន​ប្រើ​ដោយ $[officename] ។</ahelp></variable>"
+
+#. nidaA
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3150775\n"
+"help.text"
+msgid "The wizard converts documents from Microsoft Word, Excel and PowerPoint. The source files are only read, not edited. New target files are written with the new file name extension in the same or a new folder."
+msgstr "អ្នកជំនួយការ​បម្លែង​ឯកសារ​ពី Microsoft Word, Excel និង PowerPoint ។ ឯកសារ​ប្រភព​គឺ​បានតែ​អាន មិន​អាច​កែសម្រួល​បាន​ទេ។ ឯកសារ​គោលដៅ​ថ្មី​ត្រូវ​បាន​សរសេរ​ជាមួយ​ឈ្មោះ​ឯកសារ​បន្ថែម​ថ្មី​នៅ​ក្នុង​ថត​ដូចគ្នា ឬ​ថត​ថ្មី។"
+
+#. CCGV9
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3156410\n"
+"help.text"
+msgid "The Document Converter Wizard contains the following pages:"
+msgstr "អ្នក​ជំនួយ​ការ​កម្មវិធី​បម្លែង​ឯកសារ​​មាន​ទំព័រ​ដូច​តទៅ​នេះ ៖"
+
+#. 9CQNJ
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"hd_id3154318\n"
+"help.text"
+msgid "Document Converter Summary"
+msgstr "ការ​សង្ខេប​កម្មវិធី​បម្លែង​ឯកសារ​"
+
+#. 3qZPc
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3145313\n"
+"help.text"
+msgid "Displays a summary which shows what will be converted when you click <emph>Convert</emph>."
+msgstr "បង្ហាញ​ការ​សង្ខេប​ ដែល​បង្ហាញ​អ្វី​ដែល​នឹង​ត្រូវ​បម្លែង​ ពេល​អ្នក​ចុច​ <emph>បម្លែង​</emph> ។"
+
+#. hQ8ZW
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document Converter Page 1"
+msgstr "កម្មវិធី​បម្លែង​ឯកសារ​ទំព័រទី​ ១"
+
+#. 3ukbt
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3151299\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130100.xhp\">Document Converter Page 1</link>"
+msgstr "<link href=\"text/shared/autopi/01130100.xhp\">កម្មវិធី​បម្លែង​ឯកសារ​ទំព័រ​ទី​ ១​</link>"
+
+#. G7Zgn
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150445\n"
+"help.text"
+msgid "Specifies the type of Microsoft Office documents that will be converted."
+msgstr "បញ្ជាក់​ប្រភេទ​ឯកសារ Microsoft Office ដែល​នឹង​ត្រូវ​បម្លែង។"
+
+#. XBD3E
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3166410\n"
+"help.text"
+msgid "Microsoft Office"
+msgstr "Microsoft Office"
+
+#. ByPJh
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150771\n"
+"help.text"
+msgid "Converts Microsoft Office documents into the OpenDocument format."
+msgstr "បម្លែងឯកសារ Microsoft Officeទៅ​ជា​ទ្រង់ទ្រាយ OpenDocument ។"
+
+#. Z8xAg
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3150984\n"
+"help.text"
+msgid "Word documents"
+msgstr "ឯកសារ Word"
+
+#. 6iGtB
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150255\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKWORD\">Converts documents in Microsoft Word format *.doc into OpenDocument *.odt documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKWORD\">បម្លែង​ឯកសារ​ក្នុង​ទ្រង់ទ្រាយ Microsoft Word  *.doc ទៅ​ជា​ឯកសារ​ OpenDocument *.odt ។</ahelp>"
+
+#. DGuJT
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3155421\n"
+"help.text"
+msgid "Excel documents"
+msgstr "ឯកសារ Excel"
+
+#. LaFwN
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3155630\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKEXCEL\">Converts documents in Microsoft Excel format *.xls into OpenDocument *.ods documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKEXCEL\">បម្លែង​ឯកសារ​ក្នុង​ទ្រង់ទ្រាយ​ Microsoft Excel  *.xls ទៅ​ជាឯកសារ​ OpenDocument *.ods ។</ahelp>"
+
+#. 7eruC
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3153127\n"
+"help.text"
+msgid "PowerPoint documents"
+msgstr "ឯកសារ PowerPoint"
+
+#. ZSqCh
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149786\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKPOWERPOINT\">Converts documents in Microsoft PowerPoint format *.ppt into OpenDocument *.odp documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKPOWERPOINT\">បម្លែងឯកសារក្នុង​​ទ្រង់ទ្រាយ Microsoft PowerPoint  *.ppt ទៅ​ជា​ឯកសារ OpenDocument *.odp  ។</ahelp>"
+
+#. pBEKc
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3153088\n"
+"help.text"
+msgid "Create Log file"
+msgstr "បង្កើត​ឯកសារ​កំណត់​ហេតុ"
+
+#. EB93X
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149797\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_0_CHKLOGFILE\">Creates a log file in your work directory showing which documents have been converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_0_CHKLOGFILE\">បង្កើត​ឯកសារ​កំណត់​ហេតុ​មួយ​ក្នុង​ថត​ការ​ងារ​របស់​អ្នក​ ដោយ​បង្ហាញ​ឯកសារ​មួយ​ណា​ត្រូវ​បាន​បម្លែង ។</ahelp>"
+
+#. tg5JD
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149578\n"
+"help.text"
+msgid "Continue to the next page of the <link href=\"text/shared/autopi/01130200.xhp\">Document Converter</link>."
+msgstr "បន្ត​ទៅ​ទំព័រ​បន្ទាប់​របស់​​​ <link href=\"text/shared/autopi/01130200.xhp\">កម្មវិធី​បម្លែង​ឯកសារ​</link> ។"
+
+#. 58vGa
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document converter continuation pages"
+msgstr "កម្មវិធី​បម្លែង​ឯកសារ​ទំព័រ​បន្ត​"
+
+#. QMuxr
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130200.xhp\">Document converter continuation pages</link>"
+msgstr "<link href=\"text/shared/autopi/01130200.xhp\">កម្មវិធី​បម្លែង​​ឯកសារ​​ទំព័រ​បន្ត​</link>"
+
+#. Ve7Wv
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3147143\n"
+"help.text"
+msgid "Specifies, for each template type and document type, the directory to be read from and the directory to be written to."
+msgstr "បញ្ជាក់​​ សម្រាប់​ប្រភេទ​ពុម្ព​និមួយ​ៗ​ និង ប្រភេទ​ឯកសារ​ ថត​ដែល​ត្រូវ​អានពី​ និង​ ថត​ដែល​ត្រូវ​សរសេរ​ទៅ​កាន់​ ។"
+
+#. cDEcm
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3156027\n"
+"help.text"
+msgid "Templates"
+msgstr "ពុម្ព​"
+
+#. NcsGh
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "Determines whether templates are to be converted, and how they are converted."
+msgstr "កំណត់​ថា​តើ​ពុម្ព​ទាំង​នេះ​​ត្រូវ​បាន​បម្លែង​ និង​ វិធី​ដែល​ពួក​វា​ត្រូវ​បម្លែង​ ។"
+
+#. 7Lai8
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3146957\n"
+"help.text"
+msgid "Text templates"
+msgstr "ពុម្ព​​អត្ថបទ"
+
+#. SizJe
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153345\n"
+"help.text"
+msgid "Note that the \"Text templates\" label can change, depending on the selections from the previous page. For example, if Microsoft Word documents have been selected, the label reads \"Word templates\"."
+msgstr "ចំណាំ​ថា​ស្លាក​ \"ពុម្ព​អត្ថបទ​​\" អាច​​ផ្លាស់​ប្តូរ​​ អាស្រ័យ​លើ​ជម្រើស​ពី​ទំព័រ​មុន​ ។ ជា​ឧទាហរណ៍​ ប្រសិន​បើ​ឯកសារ​របស់​ Microsoft Word ​ត្រូវ​បាន​ជ្រើស​ ស្លាក​អាន​  \"ពុម្ព​ពាក្យ​\" ។"
+
+#. yQ3K9
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3149182\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBTEMPLATE\">Specifies that templates are to be converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBTEMPLATE\">បញ្ជាក់​​ថា​ ពុម្ព​ត្រូវ​បាន​បម្លែង​ ។</ahelp>"
+
+#. fnBXC
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3153683\n"
+"help.text"
+msgid "Including subdirectories"
+msgstr "រួម​​បញ្ចូល​​​ទាំង​​​ថត​​​រង"
+
+#. 4VYYb
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENTRECURSE\">Indicates that the subdirectories of the selected directory are also searched for matching files.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENTRECURSE\">​ចង្អុល​បង្ហាញ​ថត​រង​​របស់​ថត​ដែល​បាន​ជ្រើស​ ក៏​ត្រូវ​បាន​ស្វែង​រក​ផង​ដែរ​​សម្រាប់​ផ្គូរ​ផ្គង​ឯកសារ​ ។</ahelp>"
+
+#. BFX2N
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3159269\n"
+"help.text"
+msgid "Import from"
+msgstr "នាំ​ចូល​ពី​​"
+
+#. X9j5Q
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153821\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_LBDOCUMENTPATH\">Specifies the directory containing the source files. </ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_LBDOCUMENTPATH\">បញ្ជាក់​​ថត​ដែល​មាន​ឯកសារ​ប្រភព ។. </ahelp>"
+
+#. Dgbm5
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149732\n"
+"help.text"
+msgid "Save to"
+msgstr "រក្សាទុក​ទៅ​"
+
+#. Sx3Bm
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3155449\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_EDDOCUMENTPATH\">Specifies the directory to which the destination files are written.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_EDDOCUMENTPATH\">​បញ្ជាក់​​ថត​​ ដែល​ឯកសារ​គោល​ដៅ​ត្រូវ​បាន​សរសេរ​ ។</ahelp>"
+
+#. EesvY
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3153126\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. zfQQ7
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3155388\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CMDDOCUMENTPATHSELECT\">Opens a dialog to select the desired path.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CMDDOCUMENTPATHSELECT\">​បើក​ប្រអប់​ដើម្បី​ជ្រើស​ផ្លូវ​ដែល​ចង់បាន​ ។</ahelp>"
+
+#. i6Kah
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149416\n"
+"help.text"
+msgid "Documents"
+msgstr "ឯកសារ"
+
+#. 8cKND
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3159176\n"
+"help.text"
+msgid "Determines whether and how documents are converted."
+msgstr "កំណត់​វិធី​ដែល​ឯកសារ​ត្រូវ​បាន​បម្លែង​ ។"
+
+#. rRiuu
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149236\n"
+"help.text"
+msgid "Text documents"
+msgstr "ឯកសារ​អត្ថបទ"
+
+#. t59oX
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3148564\n"
+"help.text"
+msgid "Note that the \"Text documents\" label can change, depending on the selections from the previous page. For example, if Microsoft Word documents have been selected, the label reads \"Word documents\"."
+msgstr "ចំណាំថា​ស្លាក​ \"ឯកសារ​អត្ថបទ\" អាច​ផ្លាស់​ប្តូរ​ អាស្រ័យ​លើ​ជម្រើស​ពី​ទំព័រ​មុន​ ។ ជា​ឧទាហរណ៍​ ប្រសិន​ឯកសារ​របស់​ Microsoft Word ត្រូវ​បាន​ជ្រើស​ ស្លាក​អាន​ \"ឯកសារ​ពាក្យ​\" ។"
+
+#. oqwC5
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3148944\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENT\">Indicates that the documents are to be converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENT\">ចង្អុល​បង្ហាញ​​ ឯកសារ​ដែល​ត្រូវ​បម្លែង​ ។</ahelp>"
+
+#. YDwV9
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3156344\n"
+"help.text"
+msgid "Here you can return to the main page of the <link href=\"text/shared/autopi/01130000.xhp\">Document Converter Wizard</link>."
+msgstr "នៅ​ទី​នេះ​អ្នកអាច​ត្រឡប់​ទៅ​ទំព័រ​មេ​របស់​​​ <link href=\"text/shared/autopi/01130000.xhp\">អ្នក​ជំនួយ​ការ​កម្មវិធី​បម្លែង​ឯកសារ​​</link> ។​"
+
+#. ELq8D
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Euro Converter Wizard"
+msgstr "អ្នក​ជំនួយ​ការ​កម្មវិធី​បម្លែង​អឺរ៉ូ​"
+
+#. EKHAB
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"bm_id3154840\n"
+"help.text"
+msgid "<bookmark_value>Euro; Euro Converter Wizard</bookmark_value><bookmark_value>wizards; Euro Converter</bookmark_value><bookmark_value>converters; Euro converter</bookmark_value><bookmark_value>currencies; converters</bookmark_value>"
+msgstr "<bookmark_value>អឺរ៉ូ​; អ្នក​ជំនួយ​ការ​កម្មវិធី​បម្លែង​អឺរ៉ូ</bookmark_value><bookmark_value>អ្នក​ជំនួយ​ការ;​ កម្មវិធី​បម្លែង​អឺរ៉ូ​​</bookmark_value><bookmark_value>កម្មវិធី​បម្លែង;​ កម្មវិធី​បម្លែង​អឺរ៉ូ​​</bookmark_value><bookmark_value>រូបិយវត្ថុ​; កម្មវិធី​បម្លែង​</bookmark_value>"
+
+#. ERtPD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3154840\n"
+"help.text"
+msgid "Euro Converter Wizard"
+msgstr "អ្នក​ជំនួយ​ការ​កម្មវិធី​បម្លែង​អឺរ៉ូ​"
+
+#. uwNbS
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3149140\n"
+"help.text"
+msgid "<variable id=\"eurokonv\"><ahelp hid=\".\">Converts the currency amounts found in $[officename] Calc documents and in fields and tables of $[officename] Writer documents into euros.</ahelp></variable>"
+msgstr ""
+
+#. 9JFzG
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3145669\n"
+"help.text"
+msgid "Only closed files are converted. It is possible, however, to use the Euro Converter in an open $[officename] Calc document. In this case, a separate dialog opens. This dialog is described <link href=\"text/shared/autopi/01150000.xhp\">at the end of this section</link>."
+msgstr "មានតែ​ឯកសារ​ដែល​បិទ​ប៉ុណ្ណោះ​ដែល​ត្រូវ​បាន​បម្លែង​ ។ ទោះ​ជាយ៉ាង​ណាក៏​ដោយ​ វា​អាច​ប្រើ​កម្មវិធី​បម្លែង​អឺរ៉ូ​​ក្នុង​ឯកសារ​ដែលបើក​របស់​ $[officename]  ។ ក្នុង​ករណី​នេះ​ ប្រអប់​បំបែក​នឹង​បើក​ ។ ប្រអប់​នេះ​ត្រូវ​បាន​ពិពណ៌នា​ <link href=\"text/shared/autopi/01150000.xhp\">នៅ​ខាង​ចុង​នៃ​​​ភាគ​នេះ​ ។​</link>"
+
+#. qBXtJ
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147275\n"
+"help.text"
+msgid "Only the currencies of the countries participating in the European Monetary Union are converted."
+msgstr "មាន​តែ​រូបិយវត្ថុ​របស់​បណ្តា​ប្រទេស​ដែល​ចូល​រួម​ក្នុង​សហគម​រូបិយវត្ថុ​អឺរ៉ុប​ប៉ណ្ណោះ​ត្រូវ​បាន​បម្លែង​ ។"
+
+#. ayFSS
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156152\n"
+"help.text"
+msgid "Extent"
+msgstr "វិសាលភាព"
+
+#. FNztD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156155\n"
+"help.text"
+msgid "Single $[officename] Calc document"
+msgstr "ឯកសារ​តែ​មួយ​របស់​ $[officename] Calc"
+
+#. BELnK
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155420\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts a single $[officename] Calc file.</ahelp> To convert fields and tables in $[officename] Writer, first mark the <emph>Also convert fields and tables in text documents </emph>check box."
+msgstr ""
+
+#. h5BYq
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153541\n"
+"help.text"
+msgid "Complete Directory"
+msgstr "ថតពេញលេញ"
+
+#. dMZQs
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150670\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts all $[officename] Calc and $[officename] Writer documents and templates in the selected directory.</ahelp>"
+msgstr ""
+
+#. i4GGG
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3149516\n"
+"help.text"
+msgid "Currencies"
+msgstr "រូបិយវត្ថុ​"
+
+#. MF4uh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3156002\n"
+"help.text"
+msgid "Specifies the currency to be converted into euros."
+msgstr ""
+
+#. WXetC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3150275\n"
+"help.text"
+msgid "Source directory / Source Document"
+msgstr "ថត​ប្រភព​/​ឯកសារ​ប្រភព​"
+
+#. r6grs
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154898\n"
+"help.text"
+msgid "<ahelp hid=\".\">Indicates the directory or the name of the single document to be converted.</ahelp>"
+msgstr ""
+
+#. ncDhB
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3151385\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. Ecwmi
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147264\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog to select the desired directory or document.</ahelp>"
+msgstr ""
+
+#. AoRar
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3147560\n"
+"help.text"
+msgid "Including Subfolders"
+msgstr "រួម​បញ្ចូល​ទាំង​ថត​រង"
+
+#. FsG9U
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3152771\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether all subfolders of the selected directory are included.</ahelp>"
+msgstr ""
+
+#. 8ZEme
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3150542\n"
+"help.text"
+msgid "Also convert fields and tables in text documents"
+msgstr "បម្លែង​វាល​ និង​តារាង​ជា​ឯកសារ​អត្ថបទ​ផង​ដែរ​"
+
+#. PYHYz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150398\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts currency amounts found in fields and tables of $[officename] Writer documents.</ahelp>"
+msgstr ""
+
+#. yvDAz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3148453\n"
+"help.text"
+msgid "Values in the text document that are not in fields or tables are not converted."
+msgstr "តម្លៃ​ក្នុង​ឯកសារ​អត្ថបទ​ ដែល​មិន​នៅ​ក្នុង​វាល​​ ឬ​ តារាង​មិន​ត្រូវ​បាន​បម្លែង​ទេ​ ។"
+
+#. AxFBW
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3151382\n"
+"help.text"
+msgid "Temporarily unprotect sheet without query"
+msgstr "មិន​ការពារ​សន្លឹក​ដែល​គ្មាន​សំណួរ​ជា​បណ្តោះ​អាសន្ន​"
+
+#. N2hUD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153192\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that sheet protection will be disabled during conversion and thereafter re-enabled. If sheet protection is covered by a password, you will see a dialog for entering the password.</ahelp>"
+msgstr ""
+
+#. NDAMC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3147288\n"
+"help.text"
+msgid "Target Directory"
+msgstr "ថត​គោលដៅ"
+
+#. iAJop
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153771\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the folder and path in which the converted files are to be saved.</ahelp>"
+msgstr ""
+
+#. gzfBf
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154151\n"
+"help.text"
+msgid "<emph>...</emph>"
+msgstr "<emph>...</emph>"
+
+#. YMDjh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147427\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog in which you can select a directory to hold the converted files.</ahelp>"
+msgstr ""
+
+#. ULUG4
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155854\n"
+"help.text"
+msgid "Cancel"
+msgstr "បោះបង់"
+
+#. bT4oP
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153190\n"
+"help.text"
+msgid "<ahelp hid=\".\">Closes the Euro Converter.</ahelp>"
+msgstr ""
+
+#. gFZDz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3154986\n"
+"help.text"
+msgid "Help"
+msgstr "ជំនួយ"
+
+#. GDiFH
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155413\n"
+"help.text"
+msgid "<ahelp hid=\".\">Activates the help for the dialog.</ahelp>"
+msgstr ""
+
+#. 5uzLq
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3148616\n"
+"help.text"
+msgid "Convert"
+msgstr "បម្លែង"
+
+#. LHvH2
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150011\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the conversion.</ahelp>"
+msgstr ""
+
+#. JLBGT
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3146975\n"
+"help.text"
+msgid "During conversion, a page showing the progress status is displayed."
+msgstr "កំឡុង​ពេល​បម្លែង​​ ទំព័រ​មួយ​កំពុង​បង្ហាញ​ស្ថានភាព​វឌ្ឍន​ភាព ​ដែល​ត្រូវ​បាន​បង្ហាញ​ ។"
+
+#. JP7s8
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155308\n"
+"help.text"
+msgid "Back"
+msgstr "ថយ​ក្រោយ"
+
+#. RGPAV
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153953\n"
+"help.text"
+msgid "<ahelp hid=\".\">Returns to the first page of the Euro Converter.</ahelp>"
+msgstr ""
+
+#. GD48d
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154640\n"
+"help.text"
+msgid "If the current document is a $[officename] Calc document or template, you can call up the Euro Converter using the corresponding icon in the Tools bar. This icon is hidden by default. To display the Euro Converter icon, click the arrow at the end of the Tools bar, select the <emph>Visible Buttons</emph> command and activate the <emph>Euro Converter</emph> icon."
+msgstr ""
+
+#. tBweT
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155415\n"
+"help.text"
+msgid "<image id=\"img_id3150417\" src=\"cmd/sc_euroconverter.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150417\">Icon</alt></image>"
+msgstr "<image id=\"img_id3150417\" src=\"cmd/sc_euroconverter.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150417\">រូបតំណាង</alt></image>"
+
+#. B3FT7
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3149418\n"
+"help.text"
+msgid "Euro Converter"
+msgstr "កម្ម​វិធី​បម្លែង​ជា​អឺរ៉ូ"
+
+#. cq2Dh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3144766\n"
+"help.text"
+msgid "The <emph>Euro Converter</emph> dialog contains the following functions:"
+msgstr "ប្រអប់​ <emph>កម្មវិធី​បម្លែង​អឺរ៉ូ​​</emph> មានអនុគមន៍​ដូច​ខាង​ក្រោម​នេះ ៖"
+
+#. DRxvg
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3148387\n"
+"help.text"
+msgid "Entire document"
+msgstr "ឯកសារ​ទាំងមូល"
+
+#. jkLfd
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150113\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts the entire document.</ahelp>"
+msgstr ""
+
+#. FFBCA
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3159110\n"
+"help.text"
+msgid "Currencies"
+msgstr "រូបិយវត្ថុ​"
+
+#. AcEzX
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3148834\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the currency to be converted into euros.</ahelp>"
+msgstr ""
+
+#. uon72
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155084\n"
+"help.text"
+msgid "Selection"
+msgstr "ជម្រើស"
+
+#. cmdme
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3152999\n"
+"help.text"
+msgid "Select the cells you want to convert in this range, if you did not mark the <emph>Entire document</emph> check box. Select an option and then click the desired entries in the <emph>Templates</emph> / <emph>Currency ranges</emph> field. The selected range will be visible as such in the document. Click <emph>Convert</emph> to carry out the conversion."
+msgstr "ជ្រើស​ក្រឡា​ដែល​អ្នក​ចង់​បម្លែង​ក្នុង​ជួរ​នេះ​ ប្រសិន​អ្នក​មិន​បាន​ធី​ ប្រអប់ធីក​​​ <emph>​ឯកសារ​ទាំង​មូល​​​​</emph> ។ ជ្រើស​​ជម្រើស​មួយ​ និង ចុច​ធាតុ​ដែល​ចង់​បាន​ក្នុង​​ <emph>ពុម្ព​</emph> / វាល​​<emph>ជួរ​រូបិយវត្ថុ​​</emph>  ។  ជួរ​ដែល​បាន​ជ្រើស​នឹង​មើល​ឃើញ​ដូច​ក្នុង​ឯកសារ​ ។ ចុច​​ <emph>បម្លែង​</emph> ដើម្បី​អនុវត្ត​ការ​បម្លែង​ ។"
+
+#. pH3eL
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153950\n"
+"help.text"
+msgid "Cell Styles"
+msgstr "រចនាប័ទ្ម​ក្រឡា"
+
+#. XigoC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3145162\n"
+"help.text"
+msgid "<ahelp hid=\".\">All cells with the selected Cell Styles are converted.</ahelp>"
+msgstr ""
+
+#. ASWK8
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3152974\n"
+"help.text"
+msgid "Currency cells in the current sheet"
+msgstr "ក្រឡា​រូបិយវត្ថុ​ ក្នុង​សន្លឹក​បច្ចុប្បន្ន"
+
+#. GQCTN
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154479\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the active spreadsheet will be converted.</ahelp>"
+msgstr ""
+
+#. jUZLF
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156276\n"
+"help.text"
+msgid "Currency cells in the entire document"
+msgstr "ក្រឡា​ទទឹង​រូបិយវត្ថុ​ ក្នុង​ឯកសារ​ទាំង​មូល"
+
+#. 2aiVu
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3146912\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the active document will be converted.</ahelp>"
+msgstr ""
+
+#. RDBDD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155444\n"
+"help.text"
+msgid "Selected range"
+msgstr "ជួរ​​ដែល​​​បាន​​ជ្រើស"
+
+#. 6dm7F
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153736\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the range selected before the converter was called will be converted.</ahelp> All cells must have the same format so that they can be recognized as a selected range."
+msgstr ""
+
+#. JfTz9
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153927\n"
+"help.text"
+msgid "Templates / Currency ranges"
+msgstr "ពុម្ព​/​ជួរ​រូបិយ​វត្ថុ​"
+
+#. nCBWu
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154756\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the ranges to be converted from the list.</ahelp>"
+msgstr ""
+
+#. zm6iT
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Address Data Source"
+msgstr "​ប្រភព​​ទិន្នន័យ​អាសយដ្ឋាន​"
+
+#. UdqCV
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3147285\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170000.xhp\">Address Data Source</link>"
+msgstr "<link href=\"text/shared/autopi/01170000.xhp\">ប្រភព​​ទិន្នន័យ​អាស័យ​ដ្ឋាន​​</link>"
+
+#. BEBQU
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3153910\n"
+"help.text"
+msgid "<ahelp hid=\".\">This wizard registers an existing address book as a data source in $[officename].</ahelp>"
+msgstr "<ahelp hid=\".\">កម្មវិធី​ជំនួយ​នេះ​ចុះឈ្មោះ​សៀវភៅ​អាស័យដ្ឋានដែលមាន​រួច​មួយ ជា​ប្រភព​ទិន្នន័យ​នៅក្នុង $[officename] ។</ahelp>"
+
+#. SbPAF
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3151226\n"
+"help.text"
+msgid "You can register address data and other data sources in $[officename] at any time:"
+msgstr "អ្នកអាច​ចុះឈ្មោះ​ទិន្នន័យ​អាសយដ្ឋាន និង ប្រភពទិន្នន័យ​ផ្សេងទៀត នៅក្នុង $[officename] នៅពេលណាមួយ ៖"
+
+#. RQrEJ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3153527\n"
+"help.text"
+msgid "Please select the type of your external address book"
+msgstr "សូម​​​ជ្រើស​​ប្រភេទ​​សៀវភៅ​​អាសយ​ដ្ឋាន​​ខាង​ក្រៅ​​របស់​អ្នក"
+
+#. 6XszA
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id5782036\n"
+"help.text"
+msgid "Not all types are available on all systems."
+msgstr "មិន​មែន​មាន​គ្រប់​ប្រភេទ​ទាំងអស់​នៅ​លើ​ប្រព័ន្ធ​ទេ ។"
+
+#. Ux9cU
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3895382\n"
+"help.text"
+msgid "Thunderbird"
+msgstr ""
+
+#. vaHTD
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6709494\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Thunderbird or Icedove.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ជម្រើស​នេះ ប្រសិនបើ​អ្នក​ប្រើ​សៀវភៅ​អាសយដ្ឋាន​នេះ​រួចហើយ​ក្នុង Thunderbird ឬ Icedove ។</ahelp>"
+
+#. MDJ87
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id9215979\n"
+"help.text"
+msgid "KDE Address book"
+msgstr "សៀវភៅ​អាសយដ្ឋាន KDE"
+
+#. cWAyw
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id585650\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in KDE Address book.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ជម្រើស​នេះ បើ​អ្នក​ប្រើ​សៀវភៅ​អាសយដ្ឋាន​រួច​ហើយ​ក្នុង​សៀវភៅ​អាសយដ្ឋាន KDE ។</ahelp>"
+
+#. yMyJB
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4791405\n"
+"help.text"
+msgid "macOS Address book"
+msgstr ""
+
+#. ehrbJ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6873683\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in macOS Address book.</ahelp>"
+msgstr ""
+
+#. diDWW
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4517654\n"
+"help.text"
+msgid "Evolution"
+msgstr "ការ​ផ្លាស់ប្ដូរ"
+
+#. aQAVp
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id4368724\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Evolution.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ជម្រើស​នេះ បើ​អ្នក​ប្រើ​សៀវភៅ​អាសយដ្ឋាន​ក្នុង Evolution រួច​ហើយ ។</ahelp>"
+
+#. qw2A9
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4218268\n"
+"help.text"
+msgid "Evolution LDAP"
+msgstr "Evolution LDAP"
+
+#. 2zmtZ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6269112\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Evolution LDAP.</ahelp>"
+msgstr "<ahelp hid=\".\">ជម្រើស​ជម្រើស​នេះ បើ​អ្នក​ប្រើ​សៀវភៅ​អាសយដ្ឋាន​ក្នុង Evolution LDAP រួច​ហើយ ។</ahelp>"
+
+#. duPBr
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id8174382\n"
+"help.text"
+msgid "Groupwise"
+msgstr "Groupwise"
+
+#. ooRzZ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id5294045\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Groupwise.</ahelp>"
+msgstr "<ahelp hid=\".\">ជ្រើស​ជម្រើស​នេះ បើ​អ្នក​ចង់​ប្រើ​សៀវភៅ​បញ្ជី​ក្នុង Groupwise ។</ahelp>"
+
+#. HWNER
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3150976\n"
+"help.text"
+msgid "Other external data source"
+msgstr "ប្រភព​​​​ទិន្នន័យ​​​​​ខាង​​ក្រៅ​​​​​ផ្សេង​​​​​​​ទៀត​​"
+
+#. BWaJb
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3156192\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/selecttypepage/other\">Select this option if you want to register another data source as address book in $[officename].</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/selecttypepage/other\">ជ្រើស​ជម្រើស​នេះ​​ ប្រសិន​អ្នក​​ចង់​ចុះ​ឈ្មោះ​ប្រភព​ទិន្នន័យ​ផ្សេង​​ទៀត​ ជា​សៀវភៅ​អាស័យ​ដ្ឋាន​ក្នុង​ $[officename] ។​</ahelp>"
+
+#. 8uMDB
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3145674\n"
+"help.text"
+msgid "Cancel"
+msgstr "បោះបង់"
+
+#. vb6Vy
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3154306\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_CANCEL\">Exits the wizard without implementing any changes.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_CANCEL\">ចេញ​ពី​អ្នក​ជំនួយ​​ការ​ដោយ​មិន​អនុវត្ត​ការ​ផ្លាស់​ប្តូរ​ណា​មួយ​ ។​</ahelp>"
+
+#. qGp5U
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3148943\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_PREVIOUS\" visibility=\"hidden\">Go to previous step.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_PREVIOUS\" visibility=\"hidden\">ទៅ​ជំហាន​មុន ។</ahelp>"
+
+#. YwCDw
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3148946\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_NEXT\" visibility=\"hidden\">Go to next step.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_NEXT\" visibility=\"hidden\">ទៅ​ជំហាន​បន្ទាប់​ ។​</ahelp>"
+
+#. NVj5A
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3147303\n"
+"help.text"
+msgid "Create"
+msgstr "បង្កើត"
+
+#. GcKDS
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3149795\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_FINISH\">Establishes the connection to the data source and closes the dialog.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_FINISH\">បង្កើត​ការ​តភ្ជាប់​ទៅ​ប្រភព​ទិន្នន័យ​ និង បិទ​ប្រអប់​ ។​</ahelp>"
+
+#. SK6BS
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Additional Settings"
+msgstr "ការ​កំណត់​បន្ថែម"
+
+#. SAEvC
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"hd_id3154094\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170200.xhp\">Additional Settings</link>"
+msgstr "<link href=\"text/shared/autopi/01170200.xhp\">ការ​កំណត់​បន្ថែម​​</link>"
+
+#. DFBck
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"par_id3143281\n"
+"help.text"
+msgid "<ahelp hid=\".\">Allows you to enter additional settings for other external data sources.</ahelp>"
+msgstr ""
+
+#. zrAAW
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"hd_id3155555\n"
+"help.text"
+msgid "Settings"
+msgstr "ការកំណត់"
+
+#. TNLzG
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"par_id3153311\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/invokeadminpage/settings\">Calls a dialog in which you can enter additional settings.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/invokeadminpage/settings\">ហៅ​ប្រអប់​មួយ​ ដែល​​អ្នក​អាច​បញ្ចូល​ការ​កំណត់​បន្ថែម​ ។</ahelp>"
+
+#. 5e2zp
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Select Table"
+msgstr "ជ្រើស​​តារាង"
+
+#. TUPDb
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170300.xhp\">Select Table</link>"
+msgstr "<link href=\"text/shared/autopi/01170300.xhp\">ជ្រើស​តារាង​</link>"
+
+#. pQydK
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3156211\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies a table from the Seamonkey / Netscape address book source that is used as the address book in $[officename].</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​តារាង​ពី​ប្រភព​សៀវភៅ​អាសយដ្ឋាន Seamonkey / Netscape ដែល​ត្រូវ​បាន​ប្រើ​ជា​សៀវភៅ​អាសយដ្ឋាន​នៅ​ក្នុង $[officename] ។</ahelp>"
+
+#. Eu86p
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3155150\n"
+"help.text"
+msgid "All tables from the first user profile will be registered for this data source in $[officename]. You must specify one as the table that will be used in the $[officename] templates."
+msgstr "តារាង​ទាំង​អស់​ពី​​ទម្រង់​អ្នក​ប្រើ​ដំបូង​នឹង​ត្រូវ​បាន​ចុះ​ឈ្មោះ​សម្រាប់​ប្រភព​ទិន្នន័យ​នេះ​ក្នុង​ $[officename] ។ អ្នក​ត្រូវ​តែ​បញ្ជាក់​​មួយ​ជា​តារាង​ដែល​នឹង​ត្រូវ​បាន​ប្រើ​ក្នុង​ពុម្ព​ $[officename] ។"
+
+#. HEARC
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"hd_id3154927\n"
+"help.text"
+msgid "List box"
+msgstr "ប្រអប់​បញ្ជី"
+
+#. DsQYX
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3147043\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/selecttablepage/table\">Specifies the table that is to serve as the address book for the $[officename] templates.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/selecttablepage/table\">បញ្ជាក់​​តារាង​ ដែល​ត្រូវ​​​ប្រើ​ជា​សៀវ​ភៅ​អាស័យ​ដ្ឋាន​សម្រាប់​ពុម្ព​  $[officename] ។​</ahelp>"
+
+#. zzChA
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3152801\n"
+"help.text"
+msgid "You can make changes to the templates and documents at a later time by choosing <emph>Edit - Exchange Database</emph>."
+msgstr "អ្នក​អាច​បង្កើត​ការ​ផ្លាស់​ប្តូរ​ទៅ​ពុម្ព​ និង ឯកសារ​នៅ​ពេល​ក្រោយ​ដោយ​ជ្រើស​ <emph>កែសម្រួល​ - ផ្លាស់​ប្តូរ​មូល​ដ្ឋាន​ទិន្នន័យ</emph> ។​"
+
+#. cGFhu
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Data Source Title"
+msgstr ""
+
+#. BsQPs
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"hd_id3147000\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170400.xhp\">Data Source Title</link>"
+msgstr ""
+
+#. CKBwu
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_id3144740\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies a location for the address book file and a name under which the data source will be listed in the data source explorer.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​ទីតាំង​សម្រាប់​ឯកសារសៀវភៅ​អាសយដ្ឋាន និង ឈ្មោះ​នៅក្រោម​ទីតាំងណា​មួយ​ដែល​ប្រភពទិន្នន័យ​ដែលនឹងត្រូវបានរាយ​នៅក្នុង​​​កម្មវិធី​រុករក​ប្រភព​ទិន្នន័យ ។</ahelp>"
+
+#. gSJGW
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105B7\n"
+"help.text"
+msgid "Location"
+msgstr "ទីតាំង"
+
+#. bEA2A
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105BB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the location of the database file.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់លម្អិត​ទីតាំង​របស់​ឯកសារ​មូលដ្ឋាន​ទិន្នន័យ ។</ahelp>"
+
+#. TBChn
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105BE\n"
+"help.text"
+msgid "Browse"
+msgstr "រកមើល"
+
+#. 3256N
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the location using a file dialog.</ahelp>"
+msgstr "<ahelp hid=\".\">បញ្ជាក់​​លម្អិត​ទីតាំង​ដោយ​ប្រើ​ប្រអប់​ឯកសារ​មួយ ។</ahelp>"
+
+#. i7z3t
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "Make this address book available to all modules in %PRODUCTNAME"
+msgstr "ធ្វើ​ឲ្យ​សៀវភៅ​អាសយដ្ឋាន​នេះ​ប្រើ​បាន​គ្រប់ម៉ូឌុល​ក្នុង​ %PRODUCTNAME"
+
+#. pFkuF
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Registers the newly created database file in %PRODUCTNAME. The database will then be listed in the Data sources pane (<switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+Shift+F4). If this check box is cleared, the database will be available only by opening the database file.</ahelp>"
+msgstr ""
+
+#. 7MbQ5
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"hd_id3144436\n"
+"help.text"
+msgid "Address book name"
+msgstr "ឈ្មោះ​សៀវភៅ​អាសយដ្ឋាន"
+
+#. SfdpW
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_id3154673\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/datasourcepage/name\">Specifies the data source name.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/datasourcepage/name\">បញ្ជាក់លម្អិត​ឈ្មោះ​ប្រភព​ទិន្នន័យ ។</ahelp>"
+
+#. BKrWA
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Field Assignment"
+msgstr "ការ​ផ្តល់​​​តម្លៃ​​​ឲ្យ​​​វាល​"
+
+#. Zq2BM
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"hd_id3147588\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170500.xhp\">Field Assignment</link>"
+msgstr "<link href=\"text/shared/autopi/01170500.xhp\">ការ​ផ្តល់​តម្លៃ​ឲ្យ​វាល​​</link>"
+
+#. yEkbV
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"par_id3143284\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog that allows you to specify the field assignment.</ahelp>"
+msgstr "<ahelp hid=\".\">បើក​ប្រអប់​មួយ​ ដែល​អនុញ្ញាត​ឲ្យ​អ្នក​បញ្ជាក់​​​ការ​ផ្តល់​ឲ្យ​វាល​​ ។​</ahelp>"
+
+#. PhHdF
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"hd_id3152372\n"
+"help.text"
+msgid "Field Assignment"
+msgstr "ការ​ផ្តល់​​​តម្លៃ​​​ឲ្យ​​​វាល​"
+
+#. HrTyA
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"par_id3149549\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/fieldassignpage/assign\">Opens the <link href=\"text/shared/01/01110101.xhp\">Templates: Address Book Assignment</link> dialog.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/fieldassignpage/assign\">បើកប្រអប់​ <link href=\"text/shared/01/01110101.xhp\">ពុម្ព ៖ ការ​ផ្តល់​តម្លៃ​ឲ្យ​សៀវភៅ​អាស័យ​ដ្ឋាន</link> ។</ahelp>"

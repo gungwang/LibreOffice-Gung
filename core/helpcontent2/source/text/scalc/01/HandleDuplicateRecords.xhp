@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+-->
+
+<meta>
+  <topic id="textscalc01HandleDuplicateRecordsxhp" indexer="include" status="PUBLISH">
+    <title id="tit">Handle Duplicate Records</title>
+    <filename>/text/scalc/01/HandleDuplicateRecords.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+  <bookmark branch="hid/.uno:HandleDuplicateRecords" id="bm_id471726085794815" localize="false"/>
+  <bookmark branch="hid/modules/scalc/ui/duplicaterecordsdlg/@@nowidget@@" id="bm_id651726085647181" localize="false"/>
+  <bookmark branch="index" id="bm_id461725984310739">
+<bookmark_value>duplicates;remove</bookmark_value>
+<bookmark_value>remove duplicated records</bookmark_value>
+<bookmark_value>duplicates;select</bookmark_value>
+  </bookmark>
+
+  <section id="handleduplicaterecords">
+    <h1 id="hd_id1001725905576766"><variable id="handleduplicaterecordsheading"><link href="text/scalc/01/HandleDuplicateRecords.xhp">Handle Duplicate Records</link></variable></h1>
+  </section>
+
+  <paragraph role="paragraph" id="par_id681725905689582">Selects or removes the duplicate rows or columns from the selection. The duplicate records dialog has various options.</paragraph>
+  <section id="howtoget">
+    <embed href="text/scalc/00/00000412.xhp#handleduplicaterecords"/>
+  </section>
+
+  <section id="description">
+    <paragraph role="paragraph" id="par_id151725960913414"><emph>Compare:</emph> specifies whether to compare rows or columns.</paragraph>
+    <paragraph role="paragraph" id="par_id991725961010287"><emph>Header:</emph> specifies if the selected data includes table headers. If checked, the table headers (the first row or column) are ignored.</paragraph>
+    <paragraph role="paragraph" id="par_id61725963172527"><emph>Compare by:</emph> specifies which fields to compare (and which to ignore) when determining whether two rows or columns are duplicates or not.</paragraph>
+    <paragraph role="paragraph" id="par_id741725979527610"><emph>Action:</emph> specifies whether to select or remove the duplicate rows or columns.</paragraph>
+  </section>
+  <note id="par_id781742303337461">When duplicate records are removed, the entire rows or columns in the range containing those duplicates are deleted. This action causes the surrounding cells to shift and fill the empty spaces left behind. If the comparison is conducted along the rows, the cells below the removed duplicates will shift upward. Conversely, if the comparison is done along the columns, the cells to the right of the deleted duplicates will move leftward.</note>
+</body>
+</helpdocument>
+

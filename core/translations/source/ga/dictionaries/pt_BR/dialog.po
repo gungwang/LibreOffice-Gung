@@ -1,0 +1,532 @@
+#. extracted from dictionaries/pt_BR/dialog
+msgid ""
+msgstr ""
+"Project-Id-Version: LO\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2024-04-20 14:12+0200\n"
+"PO-Revision-Date: 2025-11-16 15:41+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@yahoo.com>\n"
+"Language-Team: Irish <https://translations.documentfoundation.org/projects/libo_ui-master/dictionaries/dictionariespt_brdialog/ga/>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1551876615.000000\n"
+
+#. Hf44z
+#: OptionsDialog.xcu
+msgctxt ""
+"OptionsDialog.xcu\n"
+"..OptionsDialog.Nodes.LanguageSettings\n"
+"Label\n"
+"value.text"
+msgid "Languages and Locales"
+msgstr "Teangacha agus Logánuithe"
+
+#. BnABt
+#: OptionsDialog.xcu
+msgctxt ""
+"OptionsDialog.xcu\n"
+"..OptionsDialog.Nodes.LanguageSettings.Leaves.org.openoffice.lightproof.pt_BR\n"
+"Label\n"
+"value.text"
+msgid "Grammar Checking (Portuguese)"
+msgstr "Seiceáil ghramadaí (Portaingéilis)"
+
+#. UbDte
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spelling\n"
+"property.text"
+msgid "Grammar checking"
+msgstr "Seiceáil gramadaí"
+
+#. Y3GdR
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_grammar\n"
+"property.text"
+msgid "Identify use of grave accent"
+msgstr "Aithin úsáid an bhéim throm"
+
+#. y47wU
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"grammar\n"
+"property.text"
+msgid "Grave accent"
+msgstr "Comhartha graibh"
+
+#. KTKVL
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_cap\n"
+"property.text"
+msgid "Check missing capitalization of sentences."
+msgstr "Seiceáil an bhfuil litreacha móra in easnamh i bhfrásaí."
+
+#. czHGi
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"cap\n"
+"property.text"
+msgid "Capitalization"
+msgstr "Caipitliú"
+
+#. 6q87h
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_dup\n"
+"property.text"
+msgid "Check repeated words."
+msgstr "Seiceáil focail athdhéanta."
+
+#. vFbJC
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"dup\n"
+"property.text"
+msgid "Word duplication"
+msgstr "Dúbláil focal"
+
+#. CkE8A
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_pair\n"
+"property.text"
+msgid "Check missing or extra parentheses and quotation marks."
+msgstr "Seiceáil lúibíní agus comharthaí athfhriotail atá ar iarraidh nó breise."
+
+#. DWaBt
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"pair\n"
+"property.text"
+msgid "Parentheses"
+msgstr "Lúibíní"
+
+#. EJA3T
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"punctuation\n"
+"property.text"
+msgid "Punctuation"
+msgstr "Poncaíocht"
+
+#. GfJce
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_spaces\n"
+"property.text"
+msgid "Check single spaces between words."
+msgstr "Seiceáil spásanna aonair idir focail."
+
+#. 2Cz8d
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spaces\n"
+"property.text"
+msgid "Word spacing"
+msgstr "Spásáil focal"
+
+#. jh9qT
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_mdash\n"
+"property.text"
+msgid "Force unspaced em dash instead of spaced en dash."
+msgstr "Fórsaigh fleasc em neamhspásáilte in ionad fleasc en spásáilte."
+
+#. QUZwx
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"mdash\n"
+"property.text"
+msgid "Em-dash"
+msgstr "Em-fleasc"
+
+#. ijU9H
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_ndash\n"
+"property.text"
+msgid "Force spaced en dash instead of unspaced em dash."
+msgstr "Fórsaigh en-fleasc spásáilte in ionad em-fleasc gan spásáil."
+
+#. tyEkH
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"ndash\n"
+"property.text"
+msgid "En-dash"
+msgstr "En-fleasc"
+
+#. ZQhno
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_quotation\n"
+"property.text"
+msgid "Check double quotation marks: \"x\" → “x”"
+msgstr "Seiceáil comharthaí athfhriotail dúbailte: \"x\" → “x”"
+
+#. bC8RD
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"quotation\n"
+"property.text"
+msgid "Quotation marks"
+msgstr "Comharthaí athfhriotail"
+
+#. CARTv
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_times\n"
+"property.text"
+msgid "Check true multiplication sign: 5x5 → 5×5"
+msgstr "Seiceáil an comhartha iolraithe fíor: 5x5 → 5×5"
+
+#. Y5eQr
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"times\n"
+"property.text"
+msgid "Multiplication sign"
+msgstr "Comhartha iolrúcháin"
+
+#. ykeAk
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_spaces2\n"
+"property.text"
+msgid "Check single spaces between sentences."
+msgstr "Seiceáil spásanna aonair idir abairtí."
+
+#. uHT7U
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spaces2\n"
+"property.text"
+msgid "Sentence spacing"
+msgstr "Spásáil abairtí"
+
+#. WEAJJ
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_spaces3\n"
+"property.text"
+msgid "Check more than two extra space characters between words and sentences."
+msgstr "Seiceáil níos mó ná dhá charachtar spáis bhreise idir focail agus abairtí."
+
+#. XbDmT
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spaces3\n"
+"property.text"
+msgid "More spaces"
+msgstr "Tuilleadh spásanna"
+
+#. Fthsx
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_minus\n"
+"property.text"
+msgid "Change hyphen characters to real minus signs."
+msgstr "Athraigh carachtair fleiscíní go comharthaí lúide fíor."
+
+#. VNuhF
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"minus\n"
+"property.text"
+msgid "Minus sign"
+msgstr "Comhartha lúide"
+
+#. nvi9G
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_apostrophe\n"
+"property.text"
+msgid "Change typewriter apostrophe, single quotation marks and correct double primes."
+msgstr "Athraigh apostroph clóscríbhneora, comharthaí athfhriotail aonair agus ceartaigh príomhuimhreacha dúbailte."
+
+#. Daynz
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"apostrophe\n"
+"property.text"
+msgid "Apostrophes"
+msgstr "Asphaltaí"
+
+#. 5qDDv
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_ellipsis\n"
+"property.text"
+msgid "Replace three dots with ellipsis."
+msgstr "Cuir eilipsis in ionad trí phointe."
+
+#. ngM8A
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"ellipsis\n"
+"property.text"
+msgid "Ellipsis"
+msgstr "Eilipsis"
+
+#. 5dkwv
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"others\n"
+"property.text"
+msgid "Others"
+msgstr "Eile"
+
+#. ifGmB
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_metric\n"
+"property.text"
+msgid "Identify redundant terms: \"criar novo\", \"subir para cima\", \"beco sem saída\", \"regra geral\"."
+msgstr "Sainaithin téarmaí iomarcacha: \"criar novo\", \"subir para cima\", \"beco sem saída\", \"regra geral\"."
+
+#. EgY9b
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"metric\n"
+"property.text"
+msgid "Pleonasms"
+msgstr "Pleonasms"
+
+#. wAFVA
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_gerund\n"
+"property.text"
+msgid "Inadequate use of gerund: \"estarei trabalhando\", \"vou estar fazendo\"."
+msgstr "Úsáid neamhleor a bhaint as gerund: \"estarei trabalhando\", \"vou estar fazendo\"."
+
+#. 3cDKm
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"gerund\n"
+"property.text"
+msgid "Gerundisms"
+msgstr "Gerundisms"
+
+#. eJcDX
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_nonmetric\n"
+"property.text"
+msgid "Ugly or unpleasant sound: \"por cada\"."
+msgstr "Fuaim ghránna nó míthaitneamhach: \"por cada\"."
+
+#. Bidr9
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"nonmetric\n"
+"property.text"
+msgid "Cacophonous sound"
+msgstr "Fuaim chacafónach"
+
+#. funWi
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_paronimo\n"
+"property.text"
+msgid "Words that are pronounced or written in a similar way but which have different lexical meanings."
+msgstr "Focail a fhuaimnítear nó a scríobhtar ar bhealach cosúil ach a bhfuil bríonna foclóireachta difriúla acu."
+
+#. ua58D
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"paronimo\n"
+"property.text"
+msgid "Paronyms"
+msgstr "Parainmneacha"
+
+#. nJ4AT
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_composto\n"
+"property.text"
+msgid "Compound words written separatedly: \"auto escola\", \"sub contratado\"."
+msgstr "Focail chomhchodacha scríofa ar leithligh: \"auto escola\", \"sub contratado\"."
+
+#. 5TS3y
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"composto\n"
+"property.text"
+msgid "Compound terms"
+msgstr "Téarmaí comhcheangailte"
+
+#. RM535
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_malmau\n"
+"property.text"
+msgid "Use of \"mal\" or \"mau\"."
+msgstr "Úsáid \"mal\" nó \"mau\"."
+
+#. SwvCV
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"malmau\n"
+"property.text"
+msgid "\"Mal\" or \"Mau\""
+msgstr "\"Mal\" nó \"Mau\""
+
+#. pC8xk
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_aha\n"
+"property.text"
+msgid "Use of há or a."
+msgstr "Úsáid há nó a."
+
+#. HGVSj
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"aha\n"
+"property.text"
+msgid "\"Há\" or \"a\""
+msgstr "\"Há\" nó \"a\""
+
+#. cBTLG
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_meiameio\n"
+"property.text"
+msgid "Use of \"meia\" or \"meio\"."
+msgstr "Úsáid \"meia\" nó \"meio\"."
+
+#. RxzDW
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"meiameio\n"
+"property.text"
+msgid "\"Meia\" or \"meio\""
+msgstr "\"Meia\" nó \"meio\""
+
+#. bNA4x
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_verbo\n"
+"property.text"
+msgid "Check verbal agreement."
+msgstr "Seiceáil comhaontú ó bhéal."
+
+#. Ekweu
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"verbo\n"
+"property.text"
+msgid "Verbal agreement"
+msgstr "Comhaontú ó bhéal"
+
+#. wRBb9
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_pronominal\n"
+"property.text"
+msgid "Position that personal pronouns occupy in relation to the verb."
+msgstr "An seasamh a bhíonn ag forainmneacha pearsanta i gcomparáid leis an mbriathar."
+
+#. FHPjP
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"pronominal\n"
+"property.text"
+msgid "Pronominal placement"
+msgstr "Suíomh forainmneach"
+
+#. iiTDb
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_pronome\n"
+"property.text"
+msgid "Use of pronoun."
+msgstr "Úsáid forainm."
+
+#. ETD6e
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"pronome\n"
+"property.text"
+msgid "Use of pronouns"
+msgstr "Úsáid forainmneacha"
+
+#. szSVE
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_porque\n"
+"property.text"
+msgid "Check for \"porque\", \"por que\", \"porquê\" and \"por quê\"."
+msgstr "Seiceáil le haghaidh \"porque\", \"por que\", \"porquê\" agus \"por quê\"."
+
+#. 7QjsH
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"porque\n"
+"property.text"
+msgid "Use of \"porquê\""
+msgstr "Úsáid \"porquê\""

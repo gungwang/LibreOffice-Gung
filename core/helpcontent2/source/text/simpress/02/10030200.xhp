@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+  <topic id="textsimpress0210030200xml" indexer="include">
+    <title id="tit">Gluepoints Bar</title>
+    <filename>/text/simpress/02/10030200.xhp</filename>
+  </topic>
+</meta>
+<body>
+<bookmark branch="index" id="bm_id3149948"><bookmark_value>object bars; editing gluepoints</bookmark_value>
+</bookmark>
+<section id="gluepoints">
+  <h1 id="hd_id3149948"><variable id="gluepointsbar"><link href="text/simpress/02/10030200.xhp">Gluepoints Bar</link></variable></h1>
+<paragraph role="paragraph" id="par_id3159206"><ahelp hid=".">Insert or modify the properties of a gluepoint. A gluepoint is a point where you can attach a <link href="text/simpress/02/10100000.xhp">connector</link> line. </ahelp></paragraph>
+  </section>
+<paragraph role="paragraph" id="par_id381748539489834">By default, %PRODUCTNAME automatically places a gluepoint at the center of each side of the bounding rectangle for every object you create.</paragraph>
+  <section id="howtoget">
+    <embed href="text/simpress/00/00000402.xhp#gluebar"/>
+    <embed href="text/simpress/00/00000402.xhp#syeditgluepoints"/>
+  </section>
+
+<bookmark branch="hid/.uno:GlueInsertPoint" id="bm_id5848317" localize="false"/>
+<h2 id="hd_id3149876">Insert Gluepoint</h2>
+<paragraph role="paragraph" id="par_id3150393"><ahelp hid=".uno:GlueInsertPoint">Inserts a gluepoint where you click in an object.</ahelp></paragraph>
+  <table id="tbl_id3147407">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3157876"><image id="img_id3150650" src="cmd/lc_glueinsertpoint.svg" width="1cm" height="1cm"><alt id="alt_id3150650">Icon Insert Gluepoint</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3148729">Insert Point</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueEscapeDirectionLeft" id="bm_id2438250" localize="false"/>
+<h2 id="hd_id3153933">Exit Direction Left</h2>
+<paragraph role="paragraph" id="par_id3150864"><ahelp hid=".uno:GlueEscapeDirectionLeft">Connector attaches to the left edge of the selected gluepoint.</ahelp></paragraph>
+  <table id="tbl_id3155261">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3145165"><image id="img_id3153567" src="cmd/lc_glueescapedirectionleft.svg" width="1cm" height="1cm"><alt id="alt_id3153567">Icon Exit Direction Left</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3150019">Exit Direction Left</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueEscapeDirectionTop" id="bm_id193286" localize="false"/>
+<h2 id="hd_id3149881">Exit Direction Top</h2>
+<paragraph role="paragraph" id="par_id3147370"><ahelp hid=".uno:GlueEscapeDirectionTop">Connector attaches to the top edge of the selected gluepoint.</ahelp></paragraph>
+  <table id="tbl_id3145246">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3153042"><image id="img_id3148386" src="cmd/lc_glueescapedirectiontop.svg" width="1cm" height="1cm"><alt id="alt_id3148386">Icon Exit Direction Top</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3150929">Exit Direction Top</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueEscapeDirectionRight" id="bm_id2959816" localize="false"/>
+<h2 id="hd_id3150265">Exit Direction Right</h2>
+<paragraph role="paragraph" id="par_id3149030"><ahelp hid=".uno:GlueEscapeDirectionRight">Connector attaches to the right edge of the selected gluepoint.</ahelp></paragraph>
+  <table id="tbl_id3147541">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3155401"><image id="img_id3156256" src="cmd/lc_glueescapedirectionright.svg" width="1cm" height="1cm"><alt id="alt_id3156256">Icon Exit Direction Right</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3153716">Exit Direction Right</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueEscapeDirectionBottom" id="bm_id5611028" localize="false"/>
+<h2 id="hd_id3147173">Exit Direction Bottom</h2>
+<paragraph role="paragraph" id="par_id3149710"><ahelp hid=".uno:GlueEscapeDirectionBottom">Connector attaches to the bottom edge of the selected gluepoint.</ahelp></paragraph>
+  <table id="tbl_id3149447">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3145204"><image id="img_id3150756" src="cmd/lc_glueescapedirectionbottom.svg" width="1cm" height="1cm"><alt id="alt_id3150756">Icon Exit Direction Bottom</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3153218">Exit Direction Bottom</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GluePercent" id="bm_id8979968" localize="false"/>
+<h2 id="hd_id3150875">Gluepoint Relative</h2>
+<paragraph role="paragraph" id="par_id3147571"><ahelp hid=".uno:GluePercent">Maintains the relative position of a selected gluepoint when you resize an object.</ahelp></paragraph>
+  <table id="tbl_id3155850">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3153622"><image id="img_id3153149" src="cmd/lc_gluepercent.svg" width="1cm" height="1cm"><alt id="alt_id3153149">Icon Gluepoint Relative</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3149286">Gluepoint Relative</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueHorzAlignLeft" id="bm_id3118101" localize="false"/>
+<h2 id="hd_id3149755">Gluepoint Horizontal Left</h2>
+<paragraph role="paragraph" id="par_id3147252"><ahelp hid=".uno:GlueHorzAlignLeft">When the object is resized, the current gluepoint remains fixed to the left edge of the object.</ahelp></paragraph>
+  <table id="tbl_id3151176">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3154934"><image id="img_id3148829" src="cmd/lc_gluehorzalignleft.svg" width="1cm" height="1cm"><alt id="alt_id3148829">Icon Gluepoint Horizontal Left</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3158405">Gluepoint Horizontal Left</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueHorzAlignCenter" id="bm_id4926781" localize="false"/>
+<h2 id="hd_id3154214">Gluepoint Horizontal Center</h2>
+<paragraph role="paragraph" id="par_id3147510"><ahelp hid=".uno:GlueHorzAlignCenter">When the object is resized, the current gluepoint remains fixed to the center of the object.</ahelp></paragraph>
+  <table id="tbl_id3153583">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3148910"><image id="img_id3148919" src="cmd/lc_gluehorzaligncenter.svg" width="1cm" height="1cm"><alt id="alt_id3148919">Icon Gluepoint Horizontal Center</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3150706">Gluepoint Horizontal Center</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueHorzAlignRight" id="bm_id8396997" localize="false"/>
+<h2 id="hd_id3153748">Gluepoint Horizontal Right</h2>
+<paragraph role="paragraph" id="par_id3154096"><ahelp hid=".uno:GlueHorzAlignRight">When the object is resized, the current gluepoint remains fixed to the right edge of the object.</ahelp></paragraph>
+  <table id="tbl_id3152945">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3148627"><image id="img_id3149808" src="cmd/lc_gluehorzalignright.svg" width="1cm" height="1cm"><alt id="alt_id3149808">Icon Gluepoint Horizontal Right</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3154799">Gluepoint Horizontal Right</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueVertAlignTop" id="bm_id7693264" localize="false"/>
+<h2 id="hd_id3153540">Gluepoint Vertical Top</h2>
+<paragraph role="paragraph" id="par_id3149930"><ahelp hid=".uno:GlueVertAlignTop">When the object is resized, the current gluepoint remains fixed to the top edge of the object.</ahelp></paragraph>
+  <table id="tbl_id3148693">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3154481"><image id="img_id3154571" src="cmd/lc_gluevertaligntop.svg" width="1cm" height="1cm"><alt id="alt_id3154571">Icon Gluepoint Vertical Top</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3148681">Gluepoint Vertical Top</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueVertAlignCenter" id="bm_id4116647" localize="false"/>
+<h2 id="hd_id3153678">Gluepoint Vertical Center</h2>
+<paragraph role="paragraph" id="par_id3151310"><ahelp hid=".uno:GlueVertAlignCenter">When the object is resized, the current gluepoint remains fixed to the vertical center of the object.</ahelp></paragraph>
+  <table id="tbl_id3153780">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3150996"><image id="img_id3151106" src="cmd/lc_gluevertaligncenter.svg" width="1cm" height="1cm"><alt id="alt_id3151106">Icon Gluepoint Vertical Center</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3146130">Gluepoint Vertical Center</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+<bookmark branch="hid/.uno:GlueVertAlignBottom" id="bm_id7499485" localize="false"/>
+<h2 id="hd_id3147529">Gluepoint Vertical Bottom</h2>
+<paragraph role="paragraph" id="par_id3148397"><ahelp hid=".uno:GlueVertAlignBottom">When the object is resized, the current gluepoint remains fixed to the bottom edge of the object.</ahelp></paragraph>
+  <table id="tbl_id3150832">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3150644"><image id="img_id3154192" src="cmd/lc_gluevertalignbottom.svg" width="1cm" height="1cm"><alt id="alt_id3154192">Icon Gluepoint Vertical Bottom</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3156204">Gluepoint Vertical Bottom</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <section id="relatedtopics">
+      <embed href="text/simpress/guide/orgchart.xhp#orgchart"/>
+  </section>
+</body>
+</helpdocument>

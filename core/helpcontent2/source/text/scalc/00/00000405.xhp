@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+  <topic id="textscalc0000000405xml" indexer="exclude" status="PUBLISH">
+    <title id="tit">Format Menu</title>
+    <filename>/text/scalc/00/00000405.xhp</filename>
+  </topic>
+  <history>
+    <created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+  </history>
+</meta>
+<body>
+<h1 id="hd_id3150769">Format Menu</h1>
+<section id="formatsparklinemenu">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id321701545027940">Choose <menuitem>Format - Sparklines</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id491701553926646">In a cell with sparklines, choose <menuitem>Sparklines</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id21701561553735">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Sparklines</menuitem>.</paragraph>
+</section>
+<section id="themes">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id81701536119142">Choose <menuitem>Format - Spreadsheet Themes</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id611701536216717">Choose <menuitem>Layout - Spreadsheet Themes</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="sythemes">
+    <table id="tbl_id3153968">
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3155132" xml-lang="en-US">
+            <image id="img_id3145785" src="cmd/lc_choosedesign.svg" width="1cm" height="1cm"><alt id="alt_id3145785">Icon Themes</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3153953">Choose Themes</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+</section>
+<section id="numberformat">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id181698927976688">Choose <menuitem>Format - Number Format</menuitem>.</paragraph>
+  <section id="number_aux">
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id301698928319097">Choose <menuitem>Home</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph role="paragraph" id="par_id721698928559289">Access the <menuitem>Number Format</menuitem> panel of the <menuitem>Properties deck</menuitem>.</paragraph>
+  </section>
+</section>
+<section id="format_cells">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3154685">Choose <menuitem>Format - Cells</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_context"/>
+    <paragraph role="paragraph" id="par_id361700498438435">Choose <menuitem>Format Cells</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id61593556839601">Press <switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+1</keycode>.</paragraph>
+</section>
+
+<section id="protect_cells">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3153194"><variable id="fozelstz">Choose <emph>Format - Cells - Cell Protection</emph> tab.</variable></paragraph>
+  <paragraph role="paragraph" id="par_id961755806503012">Choose <menuitem>Edit - Cell Protection</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id631755807126293">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id541755807126296" role="paragraph"><image src="cmd/lc_protect.svg" id="img_id241755807126298" width="1cm"  height="1cm"><alt id="alt_id41755807126301">Icon Cell Protection</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id451755807126305" role="paragraph">Cell Protection</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="rowsopr">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3155854"><variable id="fozei">Choose <emph>Format - Rows</emph>.</variable></paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3150012"><variable id="fozeiophoe">Choose <emph>Format - Rows - Optimal Height</emph>.</variable></paragraph>
+<section id="hide">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3148645">Choose <emph>Format - Rows - Hide</emph>.</paragraph>
+  <paragraph role="paragraph" id="par_id3153728">Choose <emph>Format - Columns - Hide</emph>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id831700513819432">Click on the rows headers to select, choose <menuitem>Hide Rows</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id321700513823426">Click on the columns headers to select, choose <menuitem>Hide Columns</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id671700514153401">Choose <menuitem>Home - Rows - Hide Rows</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id191700514157898">Choose <menuitem>Home - Columns - Hide Columns</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id411700514162075">Choose <menuitem>Layout - Rows - Hide Rows</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id861700514166156">Choose <menuitem>Layout - Columns - Hide Columns</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id771700513853263">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id481700513853264" role="paragraph"><image src="cmd/lc_hiderow.svg" id="img_id281700513853265" width="1cm" height="1cm"><alt id="alt_id701700513853266">Icon Hide Rows</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id271700513853268" role="paragraph">Hide Rows</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <table id="tab_id631700513860256">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id991700513860257" role="paragraph"><image src="cmd/lc_hidecolumn.svg" id="img_id901700513860258" width="1cm" height="1cm"><alt id="alt_id661700513860259">Icon Hide Columns</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id911700513860261" role="paragraph">Hide Columns</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+<section id="show">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3148576">Choose <emph>Format - Rows - Show</emph>.</paragraph>
+  <paragraph role="paragraph" id="par_id3156286">Choose <emph>Format - Columns - Show</emph>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id701700515229874">Click on the rows headers to select, choose <menuitem>Show Rows</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id271700515233843">Click on the columns headers to select, choose <menuitem>Show Columns</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id451700515369771">Choose <menuitem>Home - Rows - Show Rows</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id261700515372556">Choose <menuitem>Home - Columns - Show Columns</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id221700515375420">Choose <menuitem>Layout - Rows - Show Rows</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id521700515378076">Choose <menuitem>Layout - Columns - Show Columns</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id461700515398518">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id651700515398519" role="paragraph"><image src="cmd/lc_showrow.svg" id="img_id611700515398520" width="1cm"  height="1cm"><alt id="alt_id821700515398521">Icon Show Rows</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id41700515398523" role="paragraph">Show Rows</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <table id="tab_id331700515405882">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id111700515405883" role="paragraph"><image src="cmd/lc_showcolumn.svg" id="img_id271700515405884" width="1cm"  height="1cm"><alt id="alt_id861700515405885">Icon Show Columns</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id301700515405886" role="paragraph">Show Columns</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<paragraph role="paragraph" id="par_id3145645"><variable id="fospa">Choose <emph>Format - Columns</emph>.</variable></paragraph>
+<section id="optimal_column_width">
+<paragraph role="paragraph" id="par_id3145252">Choose <emph>Format - Columns - Optimal Width</emph>.</paragraph>
+<paragraph role="paragraph" id="par_id3146971">Double-click right column separator in column headers.</paragraph>
+</section>
+<paragraph role="paragraph" id="par_id3147362"><variable id="fot">Choose <emph>Sheet</emph>.</variable></paragraph>
+
+
+<paragraph role="paragraph" id="par_idN1077A"><variable id="foste">Choose <emph>Format - Page Style</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3155508"><variable id="fostel">Choose <emph>Format - Page Style - Sheet</emph> tab.</variable></paragraph>
+<section id="printranges">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3150883"><variable id="fodrbe">Choose <emph>Format - Print Ranges</emph>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id661700524225883">Choose <menuitem>Layout</menuitem> tab.</paragraph>
+  <paragraph role="paragraph" id="par_id231700521865773">On the <menuitem>Layout</menuitem> menu of the <menuitem>Layout</menuitem> tab, choose <menuitem>Print Ranges</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id951700524311206">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id251700524311207" role="paragraph"><image src="cmd/lc_defineprintarea.svg" id="img_id51700524311208" width="1cm"  height="1cm"><alt id="alt_id231700524311209">Icon Print Ranges</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id561700524311211" role="paragraph">Print Ranges</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+<section id="defineprintrange">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3156448"><variable id="fodrfe">Choose <emph>Format - Print Ranges - Define</emph>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id191700524851592">Choose <menuitem>Layout - Print Area</menuitem> tab.</paragraph>
+  <paragraph role="paragraph" id="par_id881700524946114">On the <menuitem>Layout</menuitem> menu of the <menuitem>Layout</menuitem> tab, choose <menuitem>Print Ranges - Define</menuitem></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id501700525060552">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id211700525060553" role="paragraph"><image src="cmd/lc_defineprintarea.svg" id="img_id881700525060554" width="1cm"  height="1cm"><alt id="alt_id221700525060556">Icon Define Print Area</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id951700525060557" role="paragraph">Define Print Area</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+<section id="addprintrange">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3156290"><variable id="fodrhin">Choose <emph>Format - Print Ranges - Add</emph>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id421700526081438">Choose <menuitem>Layout - Add Print Ranges</menuitem> tab.</paragraph>
+  <paragraph role="paragraph" id="par_id231700526084582">On the <menuitem>Layout</menuitem> menu of the <menuitem>Layout</menuitem> tab, choose <menuitem>Print Ranges - Add</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id691700526048361">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id931700526048362" role="paragraph"><image src="cmd/lc_addprintarea.svg" id="img_id371700526048363" width="1cm"  height="1cm"><alt id="alt_id611700526048364">Icon Add Print Area</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id481700526048365" role="paragraph">Add Print Area</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+<section id="clearprintrange">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3155812"><variable id="fodbah">Choose <emph>Format - Print Ranges - Clear</emph>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id991700526162503">Choose <menuitem>Layout - Clear Print Ranges</menuitem> tab.</paragraph>
+  <paragraph role="paragraph" id="par_id931700526168487">On the <menuitem>Layout</menuitem> menu of the <menuitem>Layout</menuitem> tab, choose <menuitem>Print Ranges - Clear</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id451700525434546">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id931700525434547" role="paragraph"><image src="cmd/lc_deleteprintarea.svg" id="img_id41700525434548" width="1cm"  height="1cm"><alt id="alt_id891700525434549">Icon Clear Print Ranges  </alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id251700525434551" role="paragraph">Clear Print Ranges</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+<section id="editprintrange">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3153307"><variable id="fodbbe">Choose <emph>Format - Print Ranges - Edit</emph>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id161700525483226">Choose <menuitem>Layout - Edit</menuitem> tab.</paragraph>
+  <paragraph role="paragraph" id="par_id381700525487691">On the <menuitem>Layout</menuitem> menu of the <menuitem>Layout</menuitem> tab, choose <menuitem>Print Ranges - Edit</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id161700525855094">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id611700525855095" role="paragraph"><image src="cmd/lc_editprintarea.svg" id="img_id231700525855096" width="1cm"  height="1cm"><alt id="alt_id271700525855097">Icon Edit Print Ranges</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id901700525855099" role="paragraph">Edit Print Ranges</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+<section id="s_conditionalcondition">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3154618"><variable id="bedingte">Choose <menuitem>Format - Conditional - Condition</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id741700682477729">Choose <menuitem>Home - Conditional - Condition</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id771663540244129">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id1001663540244130" role="paragraph">
+          <image src="cmd/lc_conditionalformatdialog.svg" id="img_id461663540244131" width="1cm" height="1cm"><alt id="alt_id201663540244132">Icon Conditional Format - Condition</alt></image>
+        </paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id151663540244134" role="paragraph">Conditional Format</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="s_conditionalcolorscale">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id31663542115011"><variable id="conditionalcolorscale">Choose <menuitem>Format - Conditional - Color Scale</menuitem></variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id201700683098791">Choose <menuitem>Home - Conditional - Color Scale</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id281663540719712">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id431663540719713" role="paragraph">
+          <image src="cmd/lc_colorscaleformatdialog.svg" id="img_id551663540719714" width="1cm" height="1cm"><alt id="alt_id381663540719715">Icon Color Scale</alt></image>
+        </paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id841663540719717" role="paragraph">Color Scale</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="s_conditionaldatabar">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id491663542108169"><variable id="conditionaldatabar">Choose <menuitem>Format - Conditional - Data Bar</menuitem></variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id631700683863203">Choose <menuitem>Home - Conditional - Data Bar</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id441663541161942">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id301663541161943" role="paragraph">
+          <image src="cmd/lc_databarformatdialog.svg" id="img_id601663541161944" width="1cm" height="1cm"><alt id="alt_id21663541161945">Icon Data Bar</alt></image>
+        </paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id101663541161947" role="paragraph">Data Bar</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="s_conditionaliconset">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id851663542093712"><variable id="conditionaliconset">Choose <menuitem>Format - Conditional - Icon Set</menuitem></variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id951700683459372">Choose <menuitem>Home - Conditional - Icon Set</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id621663541228727">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id51663541228728" role="paragraph">
+          <image src="cmd/lc_iconsetformatdialog.svg" id="img_id511663541228729" width="1cm" height="1cm"><alt id="alt_id261663541228730">Icon Icon Set</alt></image>
+        </paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id61663541228732" role="paragraph">Icon Set</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="s_conditionaldate">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id391663542070705"><variable id="conditionaldate">Choose <menuitem>Format - Conditional - Date</menuitem></variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id291700683578336">Choose <menuitem>Home - Conditional - Date</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id951663541317146">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id371663541317147" role="paragraph">
+          <image src="cmd/lc_conddateformatdialog.svg" id="img_id61663541317148" width="1cm" height="1cm"><alt id="alt_id641663541317149">Icon Date</alt></image>
+        </paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id121663541317151" role="paragraph">Date</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="s_conditionalmanage">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id641663542045446"><variable id="conditionalmanage">Choose <menuitem>Format - Conditional - Manage</menuitem></variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id801700683657730">Choose <menuitem>Home - Conditional - Manage</menuitem>.</paragraph>
+</section>
+</body>
+</helpdocument>

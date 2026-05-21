@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textscalc0104020000xml" indexer="include" status="PUBLISH">
+<title id="tit">Insert Cells</title>
+<filename>/text/scalc/01/04020000.xhp</filename>
+</topic>
+</meta>
+<body>
+<bookmark branch="index" id="bm_id3156023"><bookmark_value>spreadsheets; inserting cells</bookmark_value>
+<bookmark_value>cells; inserting</bookmark_value>
+<bookmark_value>inserting; cells</bookmark_value>
+</bookmark>
+<bookmark branch="hid/.uno:InsertCell" id="bm_id6503296" localize="false"/>
+<bookmark branch="hid/modules/scalc/ui/insertcells/InsertCellsDialog" id="bm_id3147264" localize="false"/>
+
+<section id="insert_cells">
+    <h1 id="hd_id3156023"><variable id="h1"><link href="text/scalc/01/04020000.xhp">Insert Cells</link></variable></h1>
+    <paragraph role="paragraph" id="par_id3150542"><variable id="zelleneinfuegentext"><ahelp hid=".uno:InsertCell">Opens the <emph>Insert Cells</emph> dialog, in which you can insert new cells according to the options that you specify.</ahelp></variable></paragraph>
+</section>
+<paragraph role="paragraph" id="par_id851702164980152">You can delete cells by choosing <link href="text/scalc/01/02160000.xhp"><emph>Sheet - Delete Cells</emph></link>.</paragraph>
+<section id="howtoget">
+  <embed href="text/scalc/00/00000404.xhp#insert_cells"/>
+</section>
+<h2 id="hd_id3153768">Selection</h2>
+<paragraph role="paragraph" id="par_id3149262">This area contains the options available for inserting cells into a sheet. The cell quantity and position is defined by selecting a cell range in the sheet beforehand.</paragraph>
+
+<bookmark branch="hid/.uno:InsertCellsDown" id="bm_id6210706" localize="false"/>
+<bookmark branch="hid/modules/scalc/ui/insertcells/down" id="bm_id3152578" localize="false"/>
+<h3 id="hd_id3146120">Shift cells down</h3>
+<paragraph role="paragraph" id="par_id3152596"><variable id="zellenuntentext"><ahelp hid="modules/scalc/ui/insertcells/down">Inserts cells and moves the contents of the selected range downward.</ahelp>
+</variable></paragraph>
+
+<bookmark branch="hid/.uno:InsertCellsRight" id="bm_id7689959" localize="false"/>
+<bookmark branch="hid/modules/scalc/ui/insertcells/right" id="bm_id3147348" localize="false"/>
+<h3 id="hd_id3147434">Shift cells right</h3>
+<paragraph role="paragraph" id="par_id3144764"><variable id="zellenrechtstext"><ahelp hid="modules/scalc/ui/insertcells/right">Inserts cells and moves the contents of the selected range to the right.</ahelp>
+</variable></paragraph>
+
+<bookmark branch="hid/modules/scalc/ui/insertcells/rows" id="bm_id3154731" localize="false"/><h3 id="hd_id3153877">Entire row</h3>
+<paragraph role="paragraph" id="par_id3155417"><variable id="zeilenganzetext"><ahelp hid="modules/scalc/ui/insertcells/rows">Inserts an entire row. The position of the row is determined by the selection on the sheet.</ahelp>
+</variable> The number of rows inserted depends on how many rows are selected. The contents of the original rows are moved downward.</paragraph>
+<tip id="par_id581702131982105">This command is equivalent to <embedvar href="text/shared/01/InsertRowsBefore.xhp#h1" markup="ignore"/>.</tip>
+
+<bookmark branch="hid/modules/scalc/ui/insertcells/cols" id="bm_id3150750" localize="false"/><h3 id="hd_id3146971">Entire column</h3>
+<paragraph role="paragraph" id="par_id3155068"><variable id="spaltenganzetext"><ahelp hid="modules/scalc/ui/insertcells/cols">Inserts an entire column. The number of columns to be inserted is determined by the selected number of columns.</ahelp></variable> The contents of the original columns are shifted to the right.</paragraph>
+<tip id="par_id311702131990711">This command is equivalent to <embedvar href="text/shared/01/InsertColumnsBefore.xhp#h1" markup="ignore"/>.</tip>
+</body>
+</helpdocument>

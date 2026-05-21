@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textshared0105290100xml" indexer="include" status="PUBLISH">
+<title id="tit">Group</title>
+<filename>/text/shared/01/05290100.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+
+<bookmark branch="hid/.uno:FormatGroup" id="bm_id3150502" localize="false"/>
+<bookmark branch="index" id="bm_id301693143730683">
+<bookmark_value>group;objects</bookmark_value>
+<bookmark_value>objects;grouping</bookmark_value>
+</bookmark>
+<section id="group">
+<h1 id="hd_id3152823"><link href="text/shared/01/05290100.xhp">Group</link></h1>
+<paragraph role="paragraph" id="par_id3154689"><variable id="gruppierentext"><ahelp hid=".uno:FormatGroup" visibility="visible">Groups the selected objects, so that they can be moved as a single object.</ahelp></variable></paragraph>
+</section>
+
+  <section id="howtoget">
+  <embed href="text/shared/00/00040502.xhp#group"/>
+</section>
+  <paragraph role="paragraph" id="par_id3150008">The properties of individual objects are maintained even after you group the objects. You can nest groups, that is, you can have a group within a group.</paragraph>
+  <section id="relatedtopics">
+    <paragraph role="paragraph" id="par_id3153124" localize="false" ><embedvar href="text/shared/01/05290000.xhp#h1" markup="ignore"/></paragraph>
+    </section>
+ </body>
+</helpdocument>

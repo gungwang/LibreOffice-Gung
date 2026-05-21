@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+  <topic id="textsimpress0210020000xml" indexer="include" status="PUBLISH">
+    <title id="tit">Zoom</title>
+    <filename>/text/simpress/02/10020000.xhp</filename>
+  </topic>
+  <history>
+    <created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+  </history>
+</meta>
+<body>
+  <section id="zoom">
+<bookmark branch="index" id="bm_id3159153"><bookmark_value>increasing sizes of views</bookmark_value>
+<bookmark_value>views; display sizes</bookmark_value>
+<bookmark_value>decreasing sizes of views</bookmark_value>
+<bookmark_value>zooming; in presentations</bookmark_value>
+<bookmark_value>views; shift function</bookmark_value>
+<bookmark_value>hand icon for moving slides</bookmark_value>
+</bookmark>
+<bookmark branch="hid/.uno:ZoomToolBox" id="bm_id2780843" localize="false"/>
+<h1 id="hd_id3159153"><link href="text/simpress/02/10020000.xhp">Zoom</link></h1>
+<paragraph role="paragraph" id="par_id3147339"><ahelp hid=".uno:ZoomToolBox">Reduces or enlarges the screen display of the current document. Click the arrow next to the icon to open the <emph>Zoom</emph> toolbar.</ahelp></paragraph>
+  </section>
+  <section id="syzoom">
+  <table id="tbl_id3146313">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3148569"><image id="img_id3150205" src="cmd/lc_zoompage.svg" width="1cm" height="1cm"><alt id="alt_id3150205">Icon Zoom</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3153246">Zoom</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  </section>
+  <section id="syzoom_impress">
+    <table id="tbl_id3150046">
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3145113"><image id="img_id3153070" src="cmd/lc_zoom.svg" width="1cm" height="1cm"><alt id="alt_id3153070">Icon Zoom ($[officename] Impress in Outline and Slide View)</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3150397">Zoom ($[officename] Impress in Outline and Slide View)</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+
+  <embed href="text/shared/01/ZoomPlus.xhp#zoomplus"/>
+  <paragraph role="paragraph" id="par_id3145822">You can also select the <link href="text/shared/01/ZoomMode.xhp">Zoom &amp; Pan</link> tool and drag a rectangular frame around the area you want to enlarge.</paragraph>
+  <embed href="text/shared/00/00000403.xhp#sy_zoomin"/>
+  <embed href="text/shared/01/ZoomMinus.xhp#zoomminus"/>
+  <embed href="text/shared/00/00000403.xhp#sy_zoomout"/>
+
+<h2 id="hd_id3156060">Zoom 100%</h2>
+<paragraph role="paragraph" id="par_id3149031"><ahelp hid=".uno:Zoom100Percent">Displays the slide at its actual size.</ahelp></paragraph>
+  <table id="tbl_id3154872">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3155410"><image id="img_id3155988" src="cmd/lc_zoom100percent.svg" width="1cm" height="1cm"><alt id="alt_id3155988">Icon Zoom 100%</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id3083450">Zoom 100%</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+
+  <embed href="text/shared/01/ZoomPrevious.xhp#zoomprevious"/>
+  <embed href="text/shared/00/00000403.xhp#sy_zoomprevious"/>
+  <embed href="text/shared/01/ZoomNext.xhp#zoomnext"/>
+  <embed href="text/shared/00/00000403.xhp#sy_zoomnext"/>
+  <embed href="text/shared/01/ZoomPage.xhp#zoomentirepage"/>
+  <embed href="text/shared/00/00000403.xhp#sy_zoompage"/>
+  <embed href="text/shared/01/ZoomPageWidth.xhp#zoompagewidth"/>
+  <embed href="text/shared/00/00000403.xhp#sy_zoompagewidth"/>
+  <embed href="text/shared/01/ZoomOptimal.xhp#zoomoptimal"/>
+  <embed href="text/shared/00/00000403.xhp#sy_zoomoptimal"/>
+  <embed href="text/shared/01/ZoomObjects.xhp#zoomobjects"/>
+  <embed href="text/shared/00/00000403.xhp#sy_zoomobjects"/>
+  <embed href="text/shared/01/ZoomPanning.xhp#zoompanning"/>
+  <embed href="text/shared/00/00000403.xhp#sy_zoompanning"/>
+
+</body>
+</helpdocument>

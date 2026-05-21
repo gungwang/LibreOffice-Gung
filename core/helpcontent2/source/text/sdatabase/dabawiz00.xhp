@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+
+<meta>
+<topic id="textsharedexplorerdatabasedabawiz00xml" indexer="include">
+<title id="tit" xml-lang="en-US">Database Wizard</title>
+<filename>/text/sdatabase/dabawiz00.xhp</filename>
+</topic>
+</meta>
+<body>
+<section id="dabawiz00">
+<bookmark xml-lang="en-US" branch="index" id="bm_id2026429">
+<bookmark_value>wizards;databases (Base)</bookmark_value>
+<bookmark_value>Database Wizard (Base)</bookmark_value>
+<bookmark_value>databases; formats (Base)</bookmark_value>
+<bookmark_value>MySQL databases (Base)</bookmark_value>
+<bookmark_value>MariaDB databases (Base)</bookmark_value>
+<bookmark_value>dBASE; database settings (Base)</bookmark_value>
+<bookmark_value>jdbc; database settings (Base)</bookmark_value>
+<bookmark_value>odbc; database settings (Base)</bookmark_value>
+<bookmark_value>Firebird; database settings (Base)</bookmark_value>
+<bookmark_value>PostgreSQL; database settings (Base)</bookmark_value>
+<bookmark_value>spreadsheets;as databases (Base)</bookmark_value>
+</bookmark><comment>mw added "(Base)" to all entries</comment>
+<bookmark xml-lang="en-US" branch="hid/dbaccess/ui/generalpagewizard/PageGeneral" id="bm_id3952452" localize="false"/>
+<bookmark xml-lang="en-US" branch="hid/dbaccess/ui/generalpagewizard/@@nowidget@@" id="bm_id4952452" localize="false"/>
+<bookmark xml-lang="en-US" branch="hid/DBACCESS_HID_DBWIZ_ROADMAP" id="bm_id651663793407710" localize="false"/>
+<h1 id="par_idN105B4"><variable id="databasewizardh1"><link href="text/sdatabase/dabawiz00.xhp">Database Wizard</link></variable></h1>
+<paragraph role="paragraph" id="par_id9856563" xml-lang="en-US">The Database Wizard creates a <link href="text/sdatabase/dabadoc.xhp">database file</link> that contains information about a database.</paragraph>
+</section>
+<paragraph role="paragraph" id="par_idN105D5" xml-lang="en-US">Depending on the type of operation and the type of database, the Database Wizard consists of a varying number of steps.</paragraph>
+<paragraph role="paragraph" id="par_idN105DB" xml-lang="en-US">If you create a new database file, the wizard contains two steps.</paragraph>
+<embed href="text/sdatabase/dabawiz01.xhp#dabaselection"/>
+<embed href="text/sdatabase/dabawiz02.xhp#nextsteps"/>
+<embed href="text/sdatabase/dabawiz02connection.xhp#conn_settings"/>
+<section id="connection_types">
+    <embed href="text/sdatabase/dabawiz02odbc.xhp#odbc"/>
+    <embed href="text/sdatabase/dabawiz02text.xhp#text"/>
+    <embed href="text/sdatabase/dabawiz02access.xhp#access"/>
+    <embed href="text/sdatabase/dabawiz02ado.xhp#ado"/>
+    <embed href="text/sdatabase/dabawiz02dbase.xhp#dbase"/>
+    <embed href="text/sdatabase/dabawiz02firebird.xhp#h1"/>
+    <embed href="text/sdatabase/dabawiz02jdbc.xhp#jdbc"/>
+    <embed href="text/sdatabase/dabawiz02oracle.xhp#Oracle"/>
+    <embed href="text/sdatabase/dabawiz02mysql.xhp#mysql"/>
+    <embed href="text/sdatabase/dabawiz02pgsql.xhp#pgsqlh1"/>
+    <embed href="text/sdatabase/dabawiz02spreadsheet.xhp#spreadsheet"/>
+</section>
+<embed href="text/shared/00/00000001.xhp#back"/>
+<embed href="text/shared/00/00000001.xhp#next"/>
+<embed href="text/shared/00/00000001.xhp#finish"/>
+<embed href="text/shared/00/00000001.xhp#cancel"/>
+</body>
+</helpdocument>

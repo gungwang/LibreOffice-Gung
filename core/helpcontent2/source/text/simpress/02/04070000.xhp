@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textsimpress0204070000xml" indexer="include" status="PUBLISH">
+<title id="tit">Rehearse Timings</title>
+<filename>/text/simpress/02/04070000.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<section id="rehearse_timings">
+<bookmark branch="hid/.uno:RehearseTimings" id="bm_id194363" localize="false"/>
+<h1 id="hd_id3150010"><link href="text/simpress/02/04070000.xhp">Rehearse Timings</link></h1>
+<paragraph role="paragraph" id="par_id3154491"><ahelp hid=".uno:RehearseTimings">Starts a slide show with a timer in the lower left corner.</ahelp></paragraph>
+</section>
+<section id="syrehearse_timings">
+<table id="tbl_id3155064">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3156385">
+<image id="img_id3155962" src="cmd/lc_rehearsetimings.svg" width="1cm" height="1cm"><alt id="alt_id3155962">Icon Rehearse Timings</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3150298">Rehearse Timings</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+<section id="relatedtopics">
+	<embed href="text/simpress/guide/rehearse_timings.xhp#rehearse_timings"/>
+<paragraph role="paragraph" id="par_id3152994"><link href="text/simpress/01/06080000.xhp">Slide Show Settings</link></paragraph>
+</section>
+</body>
+</helpdocument>

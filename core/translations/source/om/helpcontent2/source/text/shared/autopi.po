@@ -1,0 +1,6451 @@
+#. extracted from helpcontent2/source/text/shared/autopi
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2023-09-28 12:40+0200\n"
+"PO-Revision-Date: 2018-04-24 11:52+0000\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: om\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1524570728.000000\n"
+
+#. hCAzG
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Wizard"
+msgstr "Masaka"
+
+#. 27Ect
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"bm_id3152551\n"
+"help.text"
+msgid "<bookmark_value>wizards; overview</bookmark_value><bookmark_value>AutoPilots, see wizards</bookmark_value>"
+msgstr "<bookmark_value>masakoota; ibsa gabaaba</bookmark_value><bookmark_value>ofumaan fixirsiisa , Masakaa ilaali</bookmark_value>"
+
+#. qP9Fu
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3152551\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01000000.xhp\">Wizards</link>"
+msgstr "<link href=\"text/shared/autopi/01000000.xhp\">Masaka</link>"
+
+#. miGFD
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"par_id3153527\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AutoPilotMenu\">Guides you through creating business and personal letters, faxes, agendas, and more.</ahelp>"
+msgstr ""
+
+#. dAcHA
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3154750\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010000.xhp\">Letter</link>"
+msgstr "<link href=\"text/shared/autopi/01010000.xhp\">Xalayaa</link>"
+
+#. 38xQF
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3153662\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020000.xhp\">Fax</link>"
+msgstr "<link href=\"text/shared/autopi/01020000.xhp\">Faaksii</link>"
+
+#. SG8Tp
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3153561\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040000.xhp\">Agenda</link>"
+msgstr "<link href=\"text/shared/autopi/01040000.xhp\">Ajandaa</link>"
+
+#. zjitK
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3147530\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130000.xhp\">Document Converter</link>"
+msgstr "<link href=\"text/shared/autopi/01130000.xhp\">Galmee jijjiirtuu</link>"
+
+#. Z9ju7
+#: 01000000.xhp
+msgctxt ""
+"01000000.xhp\n"
+"hd_id3147303\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01150000.xhp\">Euro Converter</link>"
+msgstr "<link href=\"text/shared/autopi/01150000.xhp\">Euroo jijjiirtuu</link>"
+
+#. eAGW4
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard"
+msgstr "Masakaa Xalayaa"
+
+#. PFxuA
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"bm_id3151100\n"
+"help.text"
+msgid "<bookmark_value>wizards; letters</bookmark_value><bookmark_value>Letter Wizard</bookmark_value><bookmark_value>templates;letters</bookmark_value>"
+msgstr "<bookmark_value>masakoota; xalayaalee</bookmark_value><bookmark_value>Masakaa Xalayaa</bookmark_value><bookmark_value>qajojiiwwan;xalayaalee</bookmark_value>"
+
+#. 96DDV
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3151100\n"
+"help.text"
+msgid "Letter Wizard"
+msgstr "Masakaa Xalayaa"
+
+#. 6BFCi
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3093440\n"
+"help.text"
+msgid "<variable id=\"brief\"><ahelp hid=\".uno:AutoPilotLetter\">Starts the wizard for a letter template.</ahelp></variable> You can use this template for both business and personal correspondence."
+msgstr "<variable id=\"brief\"><ahelp hid=\".uno:AutoPilotLetter\">Qajojii xalayaatif masakaa jalqabsiisa.</ahelp></variable> Qajojii kana xalayaa hojiifis ta'ee xalayaa firaaf fayyadamuu dandeessa."
+
+#. 7uF5N
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3149178\n"
+"help.text"
+msgid "$[officename] comes with sample templates for personal or business letters, which you can customize to your own needs with the help of the wizard. The wizard leads you step-by-step in creating a document template and offers numerous layout and design options. The preview gives you an impression of how the finished letter will appear according to the settings you choose."
+msgstr "$[officename]`n xalayaalee hojiitif ykn firaatif naamunaa qajojii waliin dhufa, gargaarsa masakatin fedhii mataa keetii maamileessu dandeessa. Masakiichi sadarkaa sadarkaadhaan qajojii galmee uumuu fi teessuma hedduu kennuuni fi saxaxa dirqalaati si geessa. Mul'inni jalqabaa kun akkaataa xumuri xalayaa filtee itti qindaa'u irraati gamachuu si kena."
+
+#. yqgt8
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153748\n"
+"help.text"
+msgid "Within the wizard, you can modify your entries and options at any time. You may also skip an entire page or even all the wizard pages, in which case the current (or default) settings will remain in effect."
+msgstr "Masaka keessatti, galfatootaa fi dirqaloota yeroo barbaadeetti fooyyeessuu dandeessa. Fuuloota hunda ykn fuuloota masakaa maraa dhiisu dandeessa, yeroo kana qindanootni ammaa (ykn durtii) ni hojjatuu jechuudha."
+
+#. oHQpt
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153824\n"
+"help.text"
+msgid "If you are creating a business letter, you can select a variety of elements to include in your document, which usually do not apply to personal letters, such as a subject line. If you choose the <emph>Personal</emph> letter option, some pages which contain elements specific to business letters will not be included in the wizard dialog."
+msgstr "Yoo xalayaa hojii uumte, miseensota adda addaa galmee kee keessaati hammachuuf filuu ni dandeessa, kan yeroo bayyee xalayaa firaatif hin fayyadamtu, kan akka sarara dhimmaa. Yoo dirqalaa xalayaa <emph>firichaa</emph> filtee, fuulootni xiqqoon miseensota xalayaa hojii ta'ee, qaaqa masakaa keessati hin hammataman."
+
+#. Baf5u
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3159176\n"
+"help.text"
+msgid "Back"
+msgstr "Duuba"
+
+#. CBTWx
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3153543\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_BACK\">Allows you to view the selections that you made on the previous steps.</ahelp> The current settings will be saved."
+msgstr "<ahelp hid=\"HID_LTRWIZARD_BACK\">Filannoo gulantaa duraa keessati uumte akka ilaaltu sii hayyama.</ahelp> Qindaa'inootni ammaa ni ol kaa'amu."
+
+#. cNLgv
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3150254\n"
+"help.text"
+msgid "Next"
+msgstr "Kan itti aanu"
+
+#. uz8uA
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3155923\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_NEXT\">Saves the current settings and continues to the next page.</ahelp>"
+msgstr "<ahelp hid=\"HID_LTRWIZARD_NEXT\">Qindaa'inoota ammaa ol kaa'un gara fuula itti aanuti fufa.</ahelp>"
+
+#. RTbvH
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"hd_id3148944\n"
+"help.text"
+msgid "Finish"
+msgstr "Xumuri"
+
+#. TT8KQ
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3149669\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LTRWIZARD_CREATE\">According to your selections, the wizard creates a new document template and saves it on your hard disk.</ahelp> $[officename] creates a new document based on the existing templates with the \"Untitled X\" name (X stands for the consecutive numbering) and displays it on the work area."
+msgstr "<ahelp hid=\"HID_LTRWIZARD_CREATE\">Akkaata filannoo keetitin, qajojiichi galmee haaraa uumuun baxxee jabaa irra ol kaa'a.</ahelp> $[officename]'n maqaa \"Untitled X\" (X'n lakkaawwii waliti aananif dhaabbata) fi iddoo dalagaa irrati mul'isa."
+
+#. k2a98
+#: 01010000.xhp
+msgctxt ""
+"01010000.xhp\n"
+"par_id3144433\n"
+"help.text"
+msgid "$[officename] saves the current settings in the wizard according to the chosen template. These settings are used as the default settings the next time you activate the wizard."
+msgstr "$[officename]'n qindaa'inoota ammaa akkaataa qajojii galmee filatameen maskiicha keessatti olkaa'a. Yemmuu masakiicha yeroo lammaffaaf ka'aa taasistuu kunnen immoo akka qindaa'inoota durtiitti fayyaduu."
+
+#. HCxtN
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Page design"
+msgstr "Xalayaa Masakaa - Fuula saxaxaa"
+
+#. wGb3D
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3147102\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010100.xhp\">Letter Wizard - Page design</link>"
+msgstr "<link href=\"text/shared/autopi/01010100.xhp\">Xalayaa Masakaa - Fuula saxaxaa</link>"
+
+#. jBVzZ
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3147226\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether you want to create a personal or a business letter.</ahelp> The available options on the following pages vary depending on your choice."
+msgstr ""
+
+#. mq5gE
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3149183\n"
+"help.text"
+msgid "Please choose the type of letter and page design"
+msgstr "Maaloo akaakuu xalayaa fi fuula saxaxa fili"
+
+#. aaq7E
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3145346\n"
+"help.text"
+msgid "Specify whether you want to create a business or personal letter template."
+msgstr ""
+
+#. nFnBc
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3155941\n"
+"help.text"
+msgid "Business letter"
+msgstr "Xalayaaa hojii"
+
+#. NQaEB
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a business letter template.</ahelp>"
+msgstr ""
+
+#. GFA2A
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN10616\n"
+"help.text"
+msgid "Formal personal letter"
+msgstr "Xalayaa firaa unkanawaa"
+
+#. 6CCEY
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN1061D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a formal personal letter.</ahelp>"
+msgstr ""
+
+#. EjdWv
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3147275\n"
+"help.text"
+msgid "Personal letter"
+msgstr "Xalayaa firaa"
+
+#. q2EJE
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3148538\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that you want to create a personal letter.</ahelp>"
+msgstr ""
+
+#. UG6M2
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"hd_id3155628\n"
+"help.text"
+msgid "Page design"
+msgstr "Saxaxa fuulaa"
+
+#. XJVC5
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3149415\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the design for your letter template.</ahelp>"
+msgstr ""
+
+#. BBUGY
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN106A7\n"
+"help.text"
+msgid "Use letterhead paper with pre-printed elements"
+msgstr "Waraqaa mata xalayaa miseensota waliin duraan maxxanffaman fayyadami"
+
+#. 8dkJA
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_idN106AB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether paper is used that already contains an imprinted logo, address, or footer line. The Wizard shows the Letterhead layout page next.</ahelp>"
+msgstr ""
+
+#. QREhA
+#: 01010100.xhp
+msgctxt ""
+"01010100.xhp\n"
+"par_id3150254\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010200.xhp\">Go to Letter Wizard - Letterhead layout</link>"
+msgstr "<link href=\"text/shared/autopi/01010200.xhp\">Gara Masakaa Xalayaati Deemi - Teessuma Mata Xalayaa</link>"
+
+#. ma7Nd
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Letterhead layout"
+msgstr "Masakaa Xalayaa - Teessuma Mata Xalayaa"
+
+#. AEnQz
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3155354\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010200.xhp\">Letter Wizard - Letterhead layout</link>"
+msgstr "<link href=\"text/shared/autopi/01010200.xhp\">Masakaa Xalayaa - Teessuma Mata Xalayaa</link>"
+
+#. 9ZLVJ
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3146856\n"
+"help.text"
+msgid "<ahelp hid=\".\">Allows you to specify the elements that are already imprinted on your letterhead paper.</ahelp> Those elements are not printed, and the space they occupy is left blank by the printer."
+msgstr ""
+
+#. a7zJK
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3156211\n"
+"help.text"
+msgid "Specify items already on your letterhead paper"
+msgstr "Maalimopta mata duree xalayaa kan waraqaa keetirratti argaman murteessi"
+
+#. KXGUp
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3149549\n"
+"help.text"
+msgid "Logo"
+msgstr "Asxaa"
+
+#. 5dJ2i
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3154186\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that a logo is already printed on your letterhead paper. %PRODUCTNAME does not print a logo.</ahelp>"
+msgstr ""
+
+#. d4G5o
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3151245\n"
+"help.text"
+msgid "Height"
+msgstr "Hojjaa"
+
+#. YdKBc
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3148944\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the height of the object.</ahelp>"
+msgstr ""
+
+#. bxDB8
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3149415\n"
+"help.text"
+msgid "Width"
+msgstr "Yabbina"
+
+#. DKTET
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3156192\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the width of the object.</ahelp>"
+msgstr ""
+
+#. GZSW3
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3152922\n"
+"help.text"
+msgid "Spacing to left margin"
+msgstr "Gara mudana bitaati adaan fageessuu"
+
+#. cTiMt
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3149766\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sets the object distance from the left page margin.</ahelp>"
+msgstr ""
+
+#. y76AK
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"hd_id3150449\n"
+"help.text"
+msgid "Spacing to top margin"
+msgstr "Addan fageenya mudana gama olii qabu"
+
+#. cW3AQ
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3156423\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sets the object distance from the top page margin.</ahelp>"
+msgstr ""
+
+#. EMVxG
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106CB\n"
+"help.text"
+msgid "Own address"
+msgstr "Teessoo ofii"
+
+#. N5YAU
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106CF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that an address is already printed on your letterhead paper. %PRODUCTNAME does not print an address.</ahelp>"
+msgstr ""
+
+#. 6DLwm
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D2\n"
+"help.text"
+msgid "Return address in envelope window"
+msgstr "Teessoo fooddaalee batargaa keessatti deebiisuu"
+
+#. EbYY5
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that your own address is already imprinted in small size above the area of the recipient's address. %PRODUCTNAME does not print an address in small size.</ahelp>"
+msgstr ""
+
+#. 3HBwc
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106D9\n"
+"help.text"
+msgid "Footer"
+msgstr "Jalaantoo"
+
+#. 8c4td
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106DD\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that a footer area is already printed on your letterhead paper. %PRODUCTNAME does not print a footer.</ahelp>"
+msgstr ""
+
+#. EPJJw
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106E0\n"
+"help.text"
+msgid "Height"
+msgstr "Hojjaa"
+
+#. JAwHF
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_idN106E4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the height of the footer area that is already imprinted on your letterhead paper. %PRODUCTNAME does not print in that area.</ahelp>"
+msgstr ""
+
+#. URpme
+#: 01010200.xhp
+msgctxt ""
+"01010200.xhp\n"
+"par_id3153367\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010300.xhp\">Go to Letter Wizard - Printed items</link>"
+msgstr "<link href=\"text/shared/autopi/01010300.xhp\">Gara xalayaa masakaatti deemi - Maalimoota maxxanffaman</link>"
+
+#. hPVFU
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Printed items"
+msgstr "Xalayaa Maskaa - Maalimoota Maxxanffaman"
+
+#. LfRYv
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"hd_id3148520\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010300.xhp\">Letter Wizard - Printed items</link>"
+msgstr "<link href=\"text/shared/autopi/01010300.xhp\">Xalayaa Maskaa - Maalimoota Maxxanffaman</link>"
+
+#. wnxmZ
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_id3152594\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines the items to be included in the letter template.</ahelp>"
+msgstr ""
+
+#. bbREk
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Logo"
+msgstr "Asxaa"
+
+#. SPm2h
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN105FE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a logo on the letter template.</ahelp>"
+msgstr ""
+
+#. iACsf
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10615\n"
+"help.text"
+msgid "Return address in envelope window"
+msgstr "Teessoo fooddaalee batargaa keessatti deebiisuu"
+
+#. GWKbG
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10619\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a small size return address on the letter template.</ahelp>"
+msgstr ""
+
+#. BZKw8
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10630\n"
+"help.text"
+msgid "Letter signs"
+msgstr "Mallattoolee xalayaa"
+
+#. jMGHL
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10634\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a line with references to a business letter on the letter template.</ahelp>"
+msgstr ""
+
+#. 3G2Ua
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1064B\n"
+"help.text"
+msgid "Subject line"
+msgstr "Sarara dhimaa"
+
+#. r7iGS
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1064F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a subject line on the letter template.</ahelp>"
+msgstr ""
+
+#. YCuyF
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1066E\n"
+"help.text"
+msgid "Salutation"
+msgstr "Nagaa"
+
+#. C8Qod
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10672\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a salutation on the letter template. Select the salutation from the list box.</ahelp>"
+msgstr ""
+
+#. zaPU8
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN10689\n"
+"help.text"
+msgid "Fold marks"
+msgstr "Mallattoolee dachaa"
+
+#. Kyc8o
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN1068D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes fold marks on the letter template.</ahelp>"
+msgstr ""
+
+#. EHXeE
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106AC\n"
+"help.text"
+msgid "Complimentary close"
+msgstr "Cufiinsa galateeffannaa"
+
+#. CyBFN
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106B0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a complimentary close on the letter template. Select the text from the list box.</ahelp>"
+msgstr ""
+
+#. hsSZh
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106C7\n"
+"help.text"
+msgid "Footer"
+msgstr "Jalaantoo"
+
+#. nfwuD
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_idN106CB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a footer on the letter template.</ahelp>"
+msgstr ""
+
+#. 6D8fE
+#: 01010300.xhp
+msgctxt ""
+"01010300.xhp\n"
+"par_id3149666\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010400.xhp\">Go to Letter Wizard - Recipient and sender</link>"
+msgstr "<link href=\"text/shared/autopi/01010400.xhp\">Gara Xalayaa Maskaatti Deemi - Fudhataa fi Ergaa</link>"
+
+#. EYFFV
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Recipient and sender"
+msgstr "Xalayaa Masakaa - Fudhataa fi Ergaa"
+
+#. ENbsV
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"hd_id3154288\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010400.xhp\">Letter Wizard - Recipient and sender</link>"
+msgstr "<link href=\"text/shared/autopi/01010400.xhp\">Xalayaa Masakaa - Fudhataa fi Ergaa</link>"
+
+#. ZFzrE
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_id3159233\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the sender and recipient information.</ahelp>"
+msgstr ""
+
+#. wFHpK
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Sender's address"
+msgstr "Teessoo ergaa"
+
+#. 22bkt
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Specifies your address information."
+msgstr ""
+
+#. 8ezXK
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "Use user data for return address"
+msgstr "Teessoo deebi'adhaaf deetaa fayyadamaa fayyadami"
+
+#. cuFFc
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the address data from %PRODUCTNAME - User Data in the Options dialog box.</ahelp>"
+msgstr ""
+
+#. DxHmG
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10603\n"
+"help.text"
+msgid "New sender address"
+msgstr "Teessoo ergaa haaraa"
+
+#. 9fMBY
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10606\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the address data from the following text boxes.</ahelp>"
+msgstr ""
+
+#. ooQkP
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1061D\n"
+"help.text"
+msgid "Name"
+msgstr "Maqaa"
+
+#. zQzeZ
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10620\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the sender.</ahelp>"
+msgstr ""
+
+#. fUoud
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10637\n"
+"help.text"
+msgid "Street"
+msgstr "Xurree"
+
+#. mvNzb
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1063A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the street address of the sender.</ahelp>"
+msgstr ""
+
+#. UGDXD
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10661\n"
+"help.text"
+msgid "Postcode/State/City"
+msgstr "Lakkaddaadirbaasi/Biyya/Magaalaa"
+
+#. MVHBf
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10664\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the address data of the sender.</ahelp>"
+msgstr ""
+
+#. KkM7F
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10673\n"
+"help.text"
+msgid "Recipient's address"
+msgstr "Teessoo fudhataa"
+
+#. ZVkei
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10677\n"
+"help.text"
+msgid "Specifies the recipient's address information."
+msgstr "Odeeffannoo teessoo fudhataa ifteessa."
+
+#. JJEb6
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10682\n"
+"help.text"
+msgid "Use placeholders for recipient's address"
+msgstr "Teessoo fudhataaf iddooqoota fayyadami"
+
+#. Dp9fM
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN10685\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that placeholder fields are inserted into the letter template.</ahelp>"
+msgstr ""
+
+#. 3wABv
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1069C\n"
+"help.text"
+msgid "Use address database for mail merge"
+msgstr "Makiinsa ergannoof, teessoo kuusaa deetaa fayyadami"
+
+#. ewNqt
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_idN1069F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Address database fields are inserted into the letter template.</ahelp>"
+msgstr ""
+
+#. PWjGD
+#: 01010400.xhp
+msgctxt ""
+"01010400.xhp\n"
+"par_id3154365\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010500.xhp\">Go to Letter Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01010500.xhp\">Gara Xalayaa Maskaatti Deemi - Jalaantoo</link>"
+
+#. P7eTT
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Footer"
+msgstr "Xalayaa Maskaa - jalaantoo"
+
+#. 7UQEB
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"hd_id3143281\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010500.xhp\">Letter Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01010500.xhp\">Xalayaa Maskaa - Jalaantoo</link>"
+
+#. kNGXK
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3147834\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the information to include in the footer space.</ahelp>"
+msgstr ""
+
+#. 5Lwz9
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105DF\n"
+"help.text"
+msgid "Footer"
+msgstr "Jalaantoo"
+
+#. LsLdw
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the text for the footer lines.</ahelp>"
+msgstr ""
+
+#. k8UGa
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Include only on second and following pages"
+msgstr "Fuula lammaffaa qofarratti fi fuuloota ittiaanan irratti dabali"
+
+#. Bd4Le
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_idN10600\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to suppress the footer on the first page.</ahelp>"
+msgstr "<ahelp hid=\".\">Fuula tokkoffaa irratti jalaantoo hacuucuuf fili.</ahelp>"
+
+#. W8CTM
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"hd_id3153093\n"
+"help.text"
+msgid "Include page numbers"
+msgstr "Lakkoofsoota fuulaa hammachuu"
+
+#. oMyXY
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3155414\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes page numbers in your letter template.</ahelp>"
+msgstr ""
+
+#. UDwLE
+#: 01010500.xhp
+msgctxt ""
+"01010500.xhp\n"
+"par_id3154988\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010600.xhp\">Go to Letter Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01010600.xhp\">Gara Xalayaa Masakaati Deemi - Maqaa fi Iddoo</link>"
+
+#. sbinu
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Letter Wizard - Name and Location"
+msgstr "Xalayaa Maskaa - Maqaa fi Iddoo"
+
+#. jFU9s
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3150355\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010600.xhp\">Letter Wizard - Name and Location</link>"
+msgstr "<link href=\"text/shared/autopi/01010600.xhp\">Xalayaa Maskaa - Maqaa fi Iddoo</link>"
+
+#. Bf2pC
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_id3152996\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies where and under which name you want to save the document and template.</ahelp>"
+msgstr ""
+
+#. MG999
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3154047\n"
+"help.text"
+msgid "Template name"
+msgstr "Maqaa qajojii"
+
+#. EjgjE
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_id3159157\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title of the document template.</ahelp>"
+msgstr ""
+
+#. 8cKNZ
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"hd_id3151043\n"
+"help.text"
+msgid "Path"
+msgstr "Xurree"
+
+#. kFkEp
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN1061A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the path and file name for the template, or click the <emph>...</emph> button to select the path and file name.</ahelp>"
+msgstr ""
+
+#. WExSE
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10639\n"
+"help.text"
+msgid "Create a letter from this template"
+msgstr "Qajojii kana keessaa xalayaa uumi"
+
+#. ADCT6
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN1063C\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves and closes the template, and then opens a new untitled document based on the template.</ahelp>"
+msgstr ""
+
+#. XDEVG
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10653\n"
+"help.text"
+msgid "Make manual changes to this letter template"
+msgstr "Qajojii xalayaa kanaaf jijjiiramoota hujeeka taasiisu"
+
+#. 6LRY8
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10656\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the template and keeps it open for editing.</ahelp>"
+msgstr ""
+
+#. rZMX9
+#: 01010600.xhp
+msgctxt ""
+"01010600.xhp\n"
+"par_idN10665\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01010000.xhp\">Letter Wizard overview</link>"
+msgstr "<link href=\"text/shared/autopi/01010000.xhp\">Ibsa Gababaa Xalayaa Maskaa</link>"
+
+#. Fdhin
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard"
+msgstr "Masakaa Fakasii"
+
+#. Le26A
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"bm_id3150445\n"
+"help.text"
+msgid "<bookmark_value>wizards;faxes</bookmark_value><bookmark_value>faxes;wizards</bookmark_value><bookmark_value>templates;faxes</bookmark_value>"
+msgstr "<bookmark_value>masakoota;faaksoota</bookmark_value><bookmark_value>faaksoota;masakoota</bookmark_value><bookmark_value>qajojiiwwan;faaksoota</bookmark_value>"
+
+#. 3EVBG
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3150445\n"
+"help.text"
+msgid "Fax Wizard"
+msgstr "Masakaa Fakasii"
+
+#. mZvnG
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3153394\n"
+"help.text"
+msgid "<variable id=\"fax\"><ahelp hid=\".uno:AutoPilotFax\">Opens the wizard for faxes.</ahelp> The wizard can help you create document templates for fax documents. You can then print the fax documents to a printer or to a fax machine, if fax driver software is available. </variable>"
+msgstr "<variable id=\"fax\"><ahelp hid=\".uno:AutoPilotFax\">Faaksootaaf masakiicha bana.</ahelp> Galmee qajojiiwwani, galmeelee faaksiiti akka umtuu sigargaara. Yoo faaksiin ooftuu softiweerii jiraatee, kana booda galmeelee faaksii gara maxxafamuu. </variable>"
+
+#. TiVAB
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3154824\n"
+"help.text"
+msgid "$[officename] comes with a template for fax documents, which you can modify with the wizard to suit your own needs. The wizard leads you step-by-step in creating a document template, and offers numerous layout and design options. The document preview gives you an impression of how the finished fax will appear."
+msgstr "$[officename]'n qajojiilee faaksii galmeewwani, kan fedhii keetif akka sif toluutti masakiichaan foyyeessuudandeessuu kunneen waliin mul'ata. Masakiichii sadarkaa sadarkaadhaan galma qajojii akka uumtu si gargaara akkasuma steessumootaa, fi saxaxi dirqaloota si laata. Galmeen dusrsa ilaalii faaksii argame akkamitti akka xumurtu siif ibsa."
+
+#. HcBVT
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3147088\n"
+"help.text"
+msgid "Within the dialog you can modify your entries and options at any time. You can also skip an entire page or even all the wizard pages, in which case the current (or default) settings will remain in effect."
+msgstr "Qaaqa keessatti galfatootaa fi dirqaloota yeroo barbaadeetti fooyyeessuu dandeessa. Fuuloota hunda ykn fuuloota masakaa maraa dhiisu dandeessa, yeroo kana qindanootni ammaa (ykn durtii) ni hojjatuu jechuudha."
+
+#. cJRx9
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3156156\n"
+"help.text"
+msgid "Back"
+msgstr "Duuba"
+
+#. vMGxd
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3155628\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click the<emph> Back </emph>button to view the settings chosen on the previous page. The current settings will not be modified or deleted if you click this button.<emph> Back </emph>will be active from the second page onwards.</ahelp>"
+msgstr "<ahelp hid=\".\">Qindaa'innota fuula duraani irraa filataman mul'isuuf<emph> qabduu duubaa </emph> cuqaasi. Qabduu kana yoo cuqaastee, qindaa'innotni amaa hin foyyeffaman ykn hin haqaman. <emph>Duubni</emph> kan ka'a ta,uu fuulaa lammaffaa irraa egaleetti.</ahelp>"
+
+#. 9QWoC
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3147335\n"
+"help.text"
+msgid "Next"
+msgstr "Kan itti aanu"
+
+#. EEAfC
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3156117\n"
+"help.text"
+msgid "<ahelp hid=\".\">The wizard saves the current settings and goes to the next page. The<emph> Next </emph>button will become inactive once you have reached the last page.</ahelp>"
+msgstr "<ahelp hid=\".\">Masakiichii qindaa'inoota ammaa olkaa'eeti gara fuula itti aanuti darba. Erga fuula dhuumaa irra geessee booda qabduun <emph> Itti Aanu </emph> hin si'oftu.</ahelp>"
+
+#. EYyfx
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"hd_id3152350\n"
+"help.text"
+msgid "Finish"
+msgstr "Xumuri"
+
+#. gBkCQ
+#: 01020000.xhp
+msgctxt ""
+"01020000.xhp\n"
+"par_id3146948\n"
+"help.text"
+msgid "<ahelp hid=\".\">According to your selections, the wizard creates a document template and saves it. A new document based on the template appears in the work area, with the filename \"UntitledX\".</ahelp>"
+msgstr "<ahelp hid=\".\">Filannoo keetirrtti hundaa'uun masakiichii galmee qajojii uumeeti olkaa'a. Qajojiicha irraatti hundaa'un galmeen harofni maqaa faayilii waliin iddoo hojii keessatti mul'ata.\"UntitledX\".</ahelp>"
+
+#. DAFAP
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Page Design"
+msgstr "Faaksii Masakaa - Fuula Saxaxaa"
+
+#. ZFqNt
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020100.xhp\">Fax Wizard - Page Design</link>"
+msgstr "<link href=\"text/shared/autopi/01020100.xhp\">Faaksii Masakaa - Fuula Saxaxaa</link>"
+
+#. hNAfN
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id3156027\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE1\">Defines the style of your fax document.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE1\">Haalata faaksi galmee keeti qindeessa.</ahelp>"
+
+#. eTqZA
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Business Fax"
+msgstr "Faaksii Hojii"
+
+#. RBvyc
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a fax template for a business-style fax.</ahelp>"
+msgstr "<ahelp hid=\".\">Faaksii haalata - hojiitif qajojii faaksii uuma.</ahelp>"
+
+#. Ti5G4
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Style"
+msgstr "Haalata"
+
+#. v8xTd
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the predefined style.</ahelp>"
+msgstr "<ahelp hid=\".\">Haalata durmutaawaa murteessa.</ahelp>"
+
+#. FsnaG
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Private Fax"
+msgstr "Faaksii Dhunfaa"
+
+#. gNnwo
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a fax template for a private fax.</ahelp>"
+msgstr "<ahelp hid=\".\">Faaksii dhunfaadhaaf qajojii faaksii uuma.</ahelp>"
+
+#. YgFdG
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Style"
+msgstr "Haalata"
+
+#. gR87P
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the predefined style.</ahelp>"
+msgstr "<ahelp hid=\".\">Haalata durmutaawaa murteessa.</ahelp>"
+
+#. LN6vy
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id3156002\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020200.xhp\">Go to Fax Wizard - Items to include</link>"
+msgstr "<link href=\"text/shared/autopi/01020200.xhp\">Gara Faaksii Masakaati - Maalimoota hammataman</link>"
+
+#. fdj9N
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Items to include"
+msgstr "Faaksii Masakaa - Maalimoota Hammataman"
+
+#. YWenL
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"hd_id3157898\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020200.xhp\">Fax Wizard - Items to include</link>"
+msgstr "<link href=\"text/shared/autopi/01020200.xhp\">Faaksii Masakaa - Maalimoota Hammataman</link>"
+
+#. gA627
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_id3147571\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE2\">Specifies the fax elements to be printed.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE2\">Maalimoota faaksi maxxanffamu qaban murteessa.</ahelp>"
+
+#. YzQ7x
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Logo"
+msgstr "Asxaa"
+
+#. qeR9J
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a company logo.</ahelp>"
+msgstr "<ahelp hid=\".\">Asxaa kuubbaaniyaa hammata.</ahelp>"
+
+#. vrcqF
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Date"
+msgstr "Bara"
+
+#. pNCdC
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a date field.</ahelp>"
+msgstr "<ahelp hid=\".\">Dirree bara hammata.</ahelp>"
+
+#. 5kHar
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Type of message"
+msgstr "Akaakuu dhaamsaa"
+
+#. pK47y
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a communication type line. Select the line from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sarara gosa qunnamti hammata. Sarariicha sanduuqa tarree keessaa fili.</ahelp>"
+
+#. biohR
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Subject line"
+msgstr "Sarara dhimaa"
+
+#. NyHR8
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a subject line.</ahelp>"
+msgstr "<ahelp hid=\".\">Sarara dhimaa hammata.</ahelp>"
+
+#. Gkh2u
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "Salutation"
+msgstr "Nagaa"
+
+#. 2GMEC
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105F7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a salutation. Select the salutation from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Nagaa hammata. Sanduuqcha tarree keessaa fili.</ahelp>"
+
+#. tDEDH
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "Complimentary close"
+msgstr "Cufiinsa galateeffannaa"
+
+#. cx5zi
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN105FE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a greeting. Select the greeting from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Nagaa gaafacha hammata. Nagaa gafaacha tarree sanduuqicha keessaa fili.</ahelp>"
+
+#. RP8EW
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN10601\n"
+"help.text"
+msgid "Footer"
+msgstr "Jalaantoo"
+
+#. vfysy
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_idN10605\n"
+"help.text"
+msgid "<ahelp hid=\".\">Includes a footer.</ahelp>"
+msgstr "<ahelp hid=\".\">Jalaantoo hammata.</ahelp>"
+
+#. V9gQW
+#: 01020200.xhp
+msgctxt ""
+"01020200.xhp\n"
+"par_id3148491\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020300.xhp\">Go to Fax Wizard - Sender and Recipient</link>"
+msgstr "<link href=\"text/shared/autopi/01020300.xhp\">Gara Faaksii Masakaati Deemi - Ergaa fi fudhataa</link>"
+
+#. KqE4C
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Sender and Recipient"
+msgstr "Gara Faaksii Masakaati Deemi - Ergaa fi fudhataa"
+
+#. hTjUX
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"hd_id3155934\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020300.xhp\">Fax Wizard - Sender and Recipient</link>"
+msgstr "<link href=\"text/shared/autopi/01020300.xhp\">Faaksii Masakaat - Ergaa fi fudhataa</link>"
+
+#. 9wCnR
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3150808\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE3\">Specifies the receiver and sender information for the fax.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE3\">Faaksiichaaf odeeffannoo fudhataa fi ergaa ifteessi.</ahelp>"
+
+#. BFGGE
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Use user data for return address"
+msgstr "Teessoo deebi'adhaaf deetaa fayyadamaa fayyadami"
+
+#. FEmwq
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts placeholders for the address on the fax template. Later in the fax document, click the placeholder to enter the actual data.</ahelp>"
+msgstr "<ahelp hid=\".\">Qajojii faaksichaa irratti, teessoodhaaf iddooqoota saaga. Booddee, galmee qajojii keessatti, deetaa dhugaa galchuuf iddooqicha cuqaasi.</ahelp>"
+
+#. fpiE7
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "New return address"
+msgstr "Teessoo deebi'aa haaraa"
+
+#. GwDe4
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to enter the address data in the following text boxes. The data is inserted as normal text in the fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">Deetaa teessoo sanduuqoota barruu itti anan keessa saaguuf filadhuu. Deetiichiis akka barruu baratamootti galmee faaksiichaa keessatti sagama.</ahelp>"
+
+#. AVUEL
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "(Address data fields)"
+msgstr "(Teessoo deetaa dirreewwanii)"
+
+#. opQMn
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the sender address data.</ahelp>"
+msgstr "<ahelp hid=\".\">Deetaa teessoo ergaa galchi.</ahelp>"
+
+#. yJ5BB
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105F9\n"
+"help.text"
+msgid "Use placeholders as receiver address"
+msgstr "Iddooqoota akka teessoo fudhataatti fayyadami"
+
+#. CHEfg
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN105FD\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts placeholders for the address on the fax template. Later in the fax document, click the placeholder to enter the actual data.</ahelp>"
+msgstr "<ahelp hid=\".\">Qajojii faaksichaa irratti, teessoodhaaf iddooqoota saaga. Booddee, galmee qajojii keessatti, deetaa dhugaa galchuuf iddooqicha cuqaasi.</ahelp>"
+
+#. GvA5M
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN10600\n"
+"help.text"
+msgid "Use address database for mail merge"
+msgstr "Makiinsa ergannoof, teessoo kuusaa deetaa fayyadami"
+
+#. UZfBc
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_idN10604\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts database fields for a later mail merge with the fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">Makiinsa erganoo booddeeraa kan galmee faaksiichaa waliini sanif dirreewwan kuusaa deetaa saaga.</ahelp>"
+
+#. ESAKo
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3154938\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020400.xhp\">Go to Fax Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01020400.xhp\">Gara Faaksii Masakaati - Jaalantoo</link>"
+
+#. q69hP
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Footer"
+msgstr "Faaksii Masakaa - Jaalantoo"
+
+#. NdRZx
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"hd_id3147143\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020400.xhp\">Fax Wizard - Footer</link>"
+msgstr "<link href=\"text/shared/autopi/01020400.xhp\">Faaksii Masakaa - Jaalantoo</link>"
+
+#. moG7a
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE4\">Specifies the footer data.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE4\">Deetaa jalaantoo murteessii.</ahelp>"
+
+#. SGdS8
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Footer"
+msgstr "Jalaantoo"
+
+#. cB5yW
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the text to be printed in the footer area.</ahelp>"
+msgstr "<ahelp hid=\".\">Barreeffamiicha iddoo jalaantoo keessatti maxxanffamuu qabuu murteessa.</ahelp>"
+
+#. AhtwT
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Include only on second and following pages"
+msgstr "Fuula lammaffaa qofarratti fi fuuloota ittiaanan irratti dabali"
+
+#. 9tppz
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Suppresses the footer on the first page of a multipage fax document.</ahelp>"
+msgstr "<ahelp hid=\".\">Jalaanticha,fuula tokkoffaa galmee faaksi ful-baayyee irratti argamu hacuuca.</ahelp>"
+
+#. VdMcV
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E4\n"
+"help.text"
+msgid "Include page number"
+msgstr "Lakkoofsa fuulaa dabali"
+
+#. CDAW4
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_idN105E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Prints a page number in the footer area.</ahelp>"
+msgstr "<ahelp hid=\".\">Iddoo jalaantoo keessatti lakkoofsa fuulaa maxxansa.</ahelp>"
+
+#. ULEDC
+#: 01020400.xhp
+msgctxt ""
+"01020400.xhp\n"
+"par_id3152812\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020500.xhp\">Go to Fax Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01020500.xhp\">Gara Faaksii Masakaatti Deemi - Maqaa fi Iddoo</link>"
+
+#. 5GTDj
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Fax Wizard - Name and location"
+msgstr "Faaksii Masakaa - Maqaa fi Iddoo"
+
+#. LV9gq
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"hd_id3150247\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020500.xhp\">Fax Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01020500.xhp\">Faaksii Masakaa - Maqaa fi Iddoo</link>"
+
+#. 9MJNj
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_id3155552\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FAX_PAGE5\">Defines the template name and location.</ahelp>"
+msgstr "<ahelp hid=\"HID_FAX_PAGE5\">Maqaa fi iddoo qajojiicha hiika.</ahelp>"
+
+#. DmUvk
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Template name"
+msgstr "Maqaa qajojii"
+
+#. c9MRS
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the name of the fax template.</ahelp>"
+msgstr "<ahelp hid=\".\">Maqaa qajojii faaksiichaa galchi.</ahelp>"
+
+#. Wo6cf
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. v4s8X
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to enter or select the complete path, including the file name of the fax template.</ahelp>"
+msgstr "<ahelp hid=\".\">Xurree waligaalaa, maqaa faayiliicha kan qajojii faaksichaa dabalatee galchuuf ykn filachuuf cuqaasi.</ahelp>"
+
+#. kFST8
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Create a fax from this template"
+msgstr "Qajojii kana irraa faaksii uumi"
+
+#. e2GKo
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the fax template, then opens a new fax document based on that template.</ahelp>"
+msgstr "<ahelp hid=\".\">Qajojii faaksiichaa ni uuma akkasumaas olkaa'a, kana booda qajojii kanarratti hundaa'un galmee faaksii haaraa bana.</ahelp>"
+
+#. FbyeK
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Make manual changes to this fax template"
+msgstr "Qajojii faaksii kanaatiif jijjiiramoota hujeekaa godhi"
+
+#. ENcNh
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the fax template, then opens the template for further editing.</ahelp>"
+msgstr "<ahelp hid=\".\">Qajojii faaksichaa bani akkasumaas olkaa'i, kan booda gulaala dabalataaf qajoojiicha bani.</ahelp>"
+
+#. fETJG
+#: 01020500.xhp
+msgctxt ""
+"01020500.xhp\n"
+"par_id3151119\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01020000.xhp\">Go to Fax Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01020000.xhp\">Gara Faaksii masakaati Deemi</link>"
+
+#. sRsoY
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard"
+msgstr "Masaka Ajandaa"
+
+#. D3wGn
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"bm_id3149031\n"
+"help.text"
+msgid "<bookmark_value>wizards;agendas</bookmark_value><bookmark_value>Agenda Wizard</bookmark_value><bookmark_value>templates;agendas</bookmark_value>"
+msgstr "<bookmark_value>masakoota;Ajandaa</bookmark_value><bookmark_value>Masaka Ajandaa</bookmark_value><bookmark_value>Qajojiiwwan;Ajendaawwaan</bookmark_value>"
+
+#. s5qJR
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3149031\n"
+"help.text"
+msgid "Agenda Wizard"
+msgstr "Masaka Ajandaa"
+
+#. rVtcF
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "<variable id=\"agenda\"><ahelp hid=\".uno:AutoPilotAgenda\">Starts the wizard to help you create an agenda template.</ahelp></variable> You can use an agenda to specify discussion topics for conferences and meetings."
+msgstr "<variable id=\"agenda\"><ahelp hid=\".uno:AutoPilotAgenda\">Masakiicha jalqabuun akka qajojii ajendaa uumtuu si gargaara.</ahelp></variable> Walgahi fi mariidhaaf matadureewwan marii murteessuuf agandaa fayyadamuu dandeessa."
+
+#. HJ9w2
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156414\n"
+"help.text"
+msgid "$[officename] comes with a sample template for agendas that you can modify to suit your own needs. The wizard offers numerous layout and design options for creating document templates. The preview gives you an impression of how the finished agenda will appear."
+msgstr "$[officename]'n fakkeenya qajojii ajendootaa kan akka feedhii keetif toluutti foyyeessuu dandeessu waliin masakiichii, qajojiiwwan galmee kan uuman teessummtaa fi saxaxi dirqootoota baayyee si laata. $[officename]'n qajojiilee faaksii galmeewwani, kan fedhii keetif akka sif toluutti masakiichaan foyyeessuudandeessuu kunneen waliin mul'ata. Galmeen dusrsa ilaalii faaksii argame akkamitti akka xumurtu siif ibsa."
+
+#. a9sZA
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3147571\n"
+"help.text"
+msgid "Within the wizard, you can modify your entries at any time. You may also skip an entire page or even all the pages, in which case the current (or default) settings remain in effect."
+msgstr "Masakiicha keessatti, galfata kankee yeroo barbaadeetti fooyyeessuu dandeessa. Fuuloota mara ykn fuuloota kana hunda dhisuu dandeessa, yeroo kana, qindaa'ini amma (durtii) hojii irra jira."
+
+#. MkDYV
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3147088\n"
+"help.text"
+msgid "Back"
+msgstr "Duuba"
+
+#. LKGRk
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3149177\n"
+"help.text"
+msgid "Returns to the selections made on the previous page. The current settings remain in effect. This button only becomes active after the first page."
+msgstr "Fillannota fuula duraani irrati filataman irratti deebisa. Qindaa'inni amma ni hojata. Qabduun kun fuula tokkooffaan booddatti qofa ka'aa ta'a."
+
+#. FZ2oT
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3155391\n"
+"help.text"
+msgid "Next"
+msgstr "Kan itti aanu"
+
+#. TExdC
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156426\n"
+"help.text"
+msgid "The wizard saves the current settings and goes to the next page. Once you reach the last page, this button will become inactive."
+msgstr "Masakiichii qindaa'inoota ammaa olkaa'tte gara fuula itti aanuuti darba. Erga fuula maayyii geessen boodatti, qabduun kun hin si'awu."
+
+#. oA55U
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"hd_id3145382\n"
+"help.text"
+msgid "Finish"
+msgstr "Xumuri"
+
+#. Df3HR
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3156346\n"
+"help.text"
+msgid "According to your selections, the wizard creates a document template and saves it on your hard disk. A new document based on the template appears in the work area, with the filename \"UntitledX\" (X stands for an automatic number)."
+msgstr "Filannoolee keetirratti hundaa`uun, masakiichii galmee qajojii uumeetti baxxee jabaa keetirratti olkaa'a. Qajojiicha irratti hundaa'uun galmeen haarofni iddoo hojii keessatti mul'ata, maqaa faayiliichaa jedhuu waliin \"UntitledX\"'n (lakkoofsa ofumaa kan jedhu bakka bu'a)."
+
+#. BRhRd
+#: 01040000.xhp
+msgctxt ""
+"01040000.xhp\n"
+"par_id3149235\n"
+"help.text"
+msgid "$[officename] saves the current settings in the wizard according to the selected document template. These will be used as the default settings the next time you activate the wizard."
+msgstr "$[officename]'n qindaa'inoota ammaa akkaataa qajojii galmee filatameen maskiicha keessatti olkaa'a. Yemmuu masakiicha yeroo lammaffaaf ka'aa taasistuu kunnen immoo akka qindaa'inoota durtiitti fayyaduu."
+
+#. Ga2ET
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Page Design"
+msgstr "Ajendaa Masakaa - Fuula Saxaxi"
+
+#. kefJn
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"hd_id3151100\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040100.xhp\">Agenda Wizard - Page Design</link>"
+msgstr "<link href=\"text/shared/autopi/01040100.xhp\">Ajendaa Masakaa - Fuula Saxaxi</link>"
+
+#. fPTHx
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_id3152594\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE1\">Specifies a page design for the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE1\">Ajandiichaaf saxaxii fuulaa qindeessa.</ahelp>"
+
+#. DvnTS
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Page design"
+msgstr "Saxaxa fuulaa"
+
+#. 4yNMX
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105DB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the page design from the list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sanduuqiicha tarree keessaa saxaxiicha fuulaa fili.</ahelp>"
+
+#. QLiPz
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Include form for recording minutes"
+msgstr "Daqiqoota galmeeffamanif unkaa dabalii"
+
+#. eMAzz
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Prints out a page on which you can write down the minutes during the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">Yeroo walgahichaa, wanta daqiqoota irratti barreessuu dandeessrratti, fuula maxxansee baasa.</ahelp>"
+
+#. f7afU
+#: 01040100.xhp
+msgctxt ""
+"01040100.xhp\n"
+"par_id3153087\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040200.xhp\">Go to Agenda Wizard - General information</link>"
+msgstr "<link href=\"text/shared/autopi/01040200.xhp\">Gara Ajendaa Masakaatti Deemi - Odeeffannoo Waligalaa</link>"
+
+#. WGmzy
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - General Information"
+msgstr "Ajendaa masakaa - Odeeffannoo Waligalaa"
+
+#. TZ7iE
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3150247\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040200.xhp\">Agenda Wizard - General Information</link>"
+msgstr "<link href=\"text/shared/autopi/01040200.xhp\">Ajendaa masakaa - Odeeffannoo Waligalaa</link>"
+
+#. eLECH
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3150616\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE2\">Specifies the date, time, title, and location of the meeting.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE2\">Bara, guyyaa sa'atii,mataduree fi iddoo walgahichaa murteessa.</ahelp>"
+
+#. 4FFjn
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3153748\n"
+"help.text"
+msgid "Date"
+msgstr "Bara"
+
+#. HnhbG
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3153311\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_DATE\">Specifies the date of the meeting.</ahelp>"
+msgstr ""
+
+#. A6udC
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3154749\n"
+"help.text"
+msgid "Time"
+msgstr "Sa'ati"
+
+#. 7pUwh
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3166460\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_TIME\">Specifies the time of the meeting.</ahelp>"
+msgstr ""
+
+#. huAt8
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_idN10625\n"
+"help.text"
+msgid "Title"
+msgstr "Mataduree"
+
+#. Z4KWB
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_idN10629\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title of the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">Mataduree walgahichaa murteessa.</ahelp>"
+
+#. AuoCJ
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"hd_id3150355\n"
+"help.text"
+msgid "Location"
+msgstr "Iddoo"
+
+#. v4Q2M
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3159400\n"
+"help.text"
+msgid "<ahelp hid=\"WIZARDS_HID_AGWIZ_2_TXT_LOCATION\">Specifies the location of the meeting.</ahelp>"
+msgstr ""
+
+#. FUWpn
+#: 01040200.xhp
+msgctxt ""
+"01040200.xhp\n"
+"par_id3148946\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040300.xhp\">Go to Agenda Wizard - Headings to include</link>"
+msgstr "<link href=\"text/shared/autopi/01040300.xhp\">Gara Ajandaa Masakatti Deemi - Irrantoowwan hammatamuu qaban</link>"
+
+#. Q5JDB
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Headings to include"
+msgstr "Ajandaa Masakaa - Irrantoowwan hammatamuu qaban"
+
+#. sS3Ai
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040300.xhp\">Agenda Wizard - Headings to include</link>"
+msgstr "<link href=\"text/shared/autopi/01040300.xhp\">Ajandaa Masakaa - Irrantoowwan hammatamuu qaban</link>"
+
+#. yBn6A
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_id3157898\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE3\">Specifies the headings that you want to include in the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE3\">Irraantoowwan ajandaa keessa barbaaduu ifteessa.</ahelp>"
+
+#. GdA4w
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Type of meeting"
+msgstr "Gosa walgahi"
+
+#. RF7Bc
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print the type of meeting line.</ahelp>"
+msgstr "<ahelp hid=\".\">Sarari gosa walgahi akka maxxanfamuu qabuu murtessa.</ahelp>"
+
+#. uENde
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Please read"
+msgstr "Maaloo duubbissi"
+
+#. grxGw
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Please read line.</ahelp>"
+msgstr "<ahelp hid=\".\">Sarara maaloo dubbissi jedhamuu akka maxxansituu ifteessa.</ahelp>"
+
+#. DxEWX
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Please bring"
+msgstr "Maaloo keeni"
+
+#. sxFqg
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Please bring line.</ahelp>"
+msgstr "<ahelp hid=\".\">Sarara maaloo keeni jedhamuu akka maxxansituu ifteessa.</ahelp>"
+
+#. FJa3j
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Notes"
+msgstr "Yadannoo"
+
+#. wAJ3E
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a Notes line.</ahelp>"
+msgstr "<ahelp hid=\".\">sarari yadannoo akka maxxansffamuu qabuu murteessa.</ahelp>"
+
+#. qPJUT
+#: 01040300.xhp
+msgctxt ""
+"01040300.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040400.xhp\">Go to Agenda Wizard - Names</link>"
+msgstr "<link href=\"text/shared/autopi/01040400.xhp\">Gara Ajandaa Masakaati - Maqoota</link>"
+
+#. zECC7
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Names"
+msgstr "Ajandaa Masakaa - Maqoota"
+
+#. LLyji
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"hd_id3143284\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040400.xhp\">Agenda Wizard - Names</link>"
+msgstr "<link href=\"text/shared/autopi/01040400.xhp\">Ajandaa Masakaa - Maqoota</link>"
+
+#. emLhT
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_id3152363\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE4\">Specifies the names to be printed on the agenda.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE4\">Maqoota ajandaa irratti maxxanffamuu qaban murteessa.</ahelp>"
+
+#. 8aXPP
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Meeting called by"
+msgstr "Walgahi ebaluun yamame"
+
+#. XV5jU
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the person who called the meeting.</ahelp>"
+msgstr "<ahelp hid=\".\">Iddoo namtiicha walgahicha yaame itti galchiituu sanatti yaada sararii maxxanfamuu qaba jedhuu murteessa.</ahelp>"
+
+#. Zs7oS
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Chairperson"
+msgstr "Hogganaa"
+
+#. g2ENf
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the chairperson.</ahelp>"
+msgstr "<ahelp hid=\".\">Iddoo hogganaa itti galchiitutti sararii akka maxxanfamuu qabuu ifteessa.</ahelp>"
+
+#. sCW9u
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Minute keeper"
+msgstr "Egduu daqiqaa"
+
+#. fCEm5
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the minute keeper.</ahelp>"
+msgstr "<ahelp hid=\".\">Iddoo egduu daqiqaa itti galchuu dandeessutti sarara akka maxxansitu murteessa.</ahelp>"
+
+#. FFnFU
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Moderator"
+msgstr "Gaggeessaa walga'ii"
+
+#. xteNq
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the moderator.</ahelp>"
+msgstr "<ahelp hid=\".\">Iddoo gaggeessaa walga'ii itti galchuu dandeesstti akka sarara maxxansitu murteessa.</ahelp>"
+
+#. 5GWEM
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105F6\n"
+"help.text"
+msgid "Attendees"
+msgstr "Hirmaatoota"
+
+#. 8AmH5
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105FA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the attendees.</ahelp>"
+msgstr "<ahelp hid=\".\">Iddoo hirmatoot itti galchuu dandeessutti akka sarara maxxansitu murteessa.</ahelp>"
+
+#. wUrJw
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN105FD\n"
+"help.text"
+msgid "Observers"
+msgstr "Daawwatoota"
+
+#. AXc3C
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10601\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the observers.</ahelp>"
+msgstr "<ahelp hid=\".\">Iddoo dtoota galchuu dandeessuutti sarara akka maxxansituu murteessa.</ahelp>"
+
+#. wDRLD
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10604\n"
+"help.text"
+msgid "Facility personnel"
+msgstr "Haala mijjeessitoota"
+
+#. TwjCN
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_idN10608\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether to print a line where you can enter the facility personnel.</ahelp>"
+msgstr "<ahelp hid=\".\">Iddoo haala mijjeessitoota itti galchuu dandeessutti akka sarara maxxansitu murteessa.</ahelp>"
+
+#. aGeGK
+#: 01040400.xhp
+msgctxt ""
+"01040400.xhp\n"
+"par_id3150275\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040500.xhp\">Go to Agenda Wizard - Agenda Items</link>"
+msgstr "<link href=\"text/shared/autopi/01040500.xhp\">Gara ajandaa Masakaati Deemi - Maalimoota Ajandaa - Agenda Items</link>"
+
+#. STCc4
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Agenda Items"
+msgstr "Ajandaa Masakaa - Maalimoota Ajandaa"
+
+#. BRFWD
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"hd_id3159224\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040500.xhp\">Agenda Wizard - Agenda Items</link>"
+msgstr "<link href=\"text/shared/autopi/01040500.xhp\">Ajandaa Masakaa - Maalimoota Ajandaa</link>"
+
+#. BDRvF
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_id3147143\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE5\">Specifies the topics to be printed on the agenda template.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE5\">Qajojiicha ajandaa irratti matadureewwan maxxanffamuu qaban murteessa.</ahelp>"
+
+#. 9fX5B
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105D7\n"
+"help.text"
+msgid "Topics"
+msgstr "Matadureewwan"
+
+#. 4WUYv
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the agenda topics. Use the Move up and Move down buttons to sort the topics.</ahelp>"
+msgstr "<ahelp hid=\".\">Matadureewwan ajandaa galchi. Matadureewwan fo'uuf qabduu olsiqsi fi gadsiqsi fayyadami.</ahelp>"
+
+#. GwCL3
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105DD\n"
+"help.text"
+msgid "Insert"
+msgstr "Saagi"
+
+#. ZUpjc
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts a new empty topic row above the current row.</ahelp>"
+msgstr "<ahelp hid=\".\">Tarree mataduree haaraa duwwaa gubbaa tarriichaa ammaatti saaga.</ahelp>"
+
+#. eQ47V
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "Remove"
+msgstr "Haqi"
+
+#. GT2qp
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Removes the current topic row.</ahelp>"
+msgstr "<ahelp hid=\".\">Tarree mataduree ammaa haaqa.</ahelp>"
+
+#. swdtC
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "Move up"
+msgstr "Ol siqsi"
+
+#. 4qETi
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Moves the current topic row up.</ahelp>"
+msgstr "<ahelp hid=\".\">Taree mataduree ammaa ol siqsa.</ahelp>"
+
+#. YRUBi
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Move down"
+msgstr "Gadi siqsi"
+
+#. Na8AX
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_idN105F2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Moves the current topic row down.</ahelp>"
+msgstr "<ahelp hid=\".\">Taree mataduree ammaa gadi siqsa.</ahelp>"
+
+#. 92RXq
+#: 01040500.xhp
+msgctxt ""
+"01040500.xhp\n"
+"par_id3146798\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040600.xhp\">Go to Agenda Wizard - Name and location</link>"
+msgstr "<link href=\"text/shared/autopi/01040600.xhp\">Gara Ajandaa Masakaati Deemi - Maaqa fi Iddoo</link>"
+
+#. H9Wbq
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Agenda Wizard - Name and Location"
+msgstr "Ajandaa Masakaa - Maaqa fi Iddoo"
+
+#. DJrxQ
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"hd_id3144740\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040600.xhp\">Agenda Wizard - Name and Location</link>"
+msgstr "<link href=\"text/shared/autopi/01040600.xhp\">Ajandaa Masakaa - Maaqa fi Iddoo</link>"
+
+#. viGf3
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "<ahelp hid=\"HID_AGENDA_PAGE6\">Choose the title and location for the agenda template.</ahelp>"
+msgstr "<ahelp hid=\"HID_AGENDA_PAGE6\">Qajojiicha ajandaatiif mataduriichaa fi iddoo fili.</ahelp>"
+
+#. zdHND
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "Template title"
+msgstr "Mataduree qajojii"
+
+#. SdS6f
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the agenda template.</ahelp>"
+msgstr "<ahelp hid=\".\">Qajojii maqiicha ajandaa murteessa.</ahelp>"
+
+#. kToFw
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E1\n"
+"help.text"
+msgid "Path"
+msgstr "Xurree"
+
+#. iDkAF
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the complete path, including the file name of the agenda template.</ahelp>"
+msgstr "<ahelp hid=\".\">Xurree guutuu, maqaa qajojii ajandiichaa dabalatee ifteessa.</ahelp>"
+
+#. rLKcW
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105E8\n"
+"help.text"
+msgid "Create an agenda from this template"
+msgstr "Qajojii kana irraa ajandaa uuma"
+
+#. fLXtF
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the agenda template, then opens a new agenda document based on that template.</ahelp>"
+msgstr "<ahelp hid=\".\">Qajojii ajandaa uumun olkaa'a,kana booda, qajojiicha irratti hundaa,un galmee ajandaa haaraa bana.</ahelp>"
+
+#. Ai5bf
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105EF\n"
+"help.text"
+msgid "Make manual changes to this template"
+msgstr "Qajojii kanarratti jijjiramoota hujeekaa taasiisi"
+
+#. 4PFkD
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates and saves the agenda template, then opens the template for further editing.</ahelp>"
+msgstr "<ahelp hid=\".\">Qajojii ajandiicha ni uuma akkasumaas ol kaa'a, kana booda gulaala dabalataaf qajojiicha bana.</ahelp>"
+
+#. 8PBRB
+#: 01040600.xhp
+msgctxt ""
+"01040600.xhp\n"
+"par_idN105F6\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01040000.xhp\">Go to Agenda Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01040000.xhp\">Gara Ajandaa Masakaati Deemi</link>"
+
+#. 4DsCG
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard"
+msgstr "Unkaa Masakaa"
+
+#. XGnsy
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"bm_id9834894\n"
+"help.text"
+msgid "<bookmark_value>forms;wizards</bookmark_value><bookmark_value>wizards;forms</bookmark_value>"
+msgstr "<bookmark_value>unkaalee;masakoota</bookmark_value><bookmark_value>masakoota;unkaalee</bookmark_value>"
+
+#. 6y3yt
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"hd_id3109850\n"
+"help.text"
+msgid "Form Wizard"
+msgstr "Unkaa Masakaa"
+
+#. xPnbC
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_id3150247\n"
+"help.text"
+msgid "<variable id=\"formular\"><ahelp hid=\"HID_DLGFORM_DIALOG\">Activates the Wizard for creating forms.</ahelp></variable>"
+msgstr "<variable id=\"formular\"><ahelp hid=\"HID_DLGFORM_DIALOG\">Unkaalee uumuf masakiicha si'eessa.</ahelp></variable>"
+
+#. uGE5s
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_id3152801\n"
+"help.text"
+msgid "Select the form properties using the following steps:"
+msgstr "Sadarkaalee itti annan fayyadamuun amaloota unkaa fili:"
+
+#. WHBV8
+#: 01090000.xhp
+msgctxt ""
+"01090000.xhp\n"
+"par_idN10686\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to create the form without answering further pages.</ahelp>"
+msgstr "<ahelp hid=\".\">Osoo fuuloota dabalataa hin deebisin unkiicha uumuuf cuqaasi.</ahelp>"
+
+#. uDz4j
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Field Selection"
+msgstr "Unkaa Masakaa - Filannoo Dirree"
+
+#. dhmCd
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090100.xhp\">Form Wizard - Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01090100.xhp\">Unkaa Masakaa - Filannoo Dirree</link>"
+
+#. q2PHa
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3150445\n"
+"help.text"
+msgid "On this page of the <link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link>, you can specify the table or query that you need to create the form as well as the fields that you want to include in the form."
+msgstr ""
+
+#. yohes
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3153750\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "Gabateewwan yookin gaafatalee"
+
+#. Dm9se
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3147399\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the table or query that you want to create the form for.</ahelp>"
+msgstr ""
+
+#. A74SN
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3153527\n"
+"help.text"
+msgid "Available fields"
+msgstr "Dirreewwan argaman"
+
+#. 5ttQz
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3149095\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the names of the data base fields in the selected table or query.</ahelp> Click to select a field or hold down the Shift or the <switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while you click to select more than one field."
+msgstr ""
+
+#. 783iE
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3150443\n"
+"help.text"
+msgid ">"
+msgstr ""
+
+#. jAh8F
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3148538\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. mkvek
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3154142\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. 8PpZf
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3145121\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. WXSxV
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3155419\n"
+"help.text"
+msgid "<"
+msgstr ""
+
+#. emTFp
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3149763\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. SnCSD
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3159399\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. EBDCd
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3156329\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. SsZdG
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN1074A\n"
+"help.text"
+msgid "^"
+msgstr ""
+
+#. FCjSo
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN1074E\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field up one entry in the list.</ahelp>"
+msgstr "<ahelp hid=\".\">Dirree filatamee galfata tokkoo ol tarriicha keessa sochoosuf cuqaasi.</ahelp>"
+
+#. hVfmg
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN10751\n"
+"help.text"
+msgid "v"
+msgstr ""
+
+#. A3Vcv
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_idN10755\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field down one entry in the list.</ahelp>"
+msgstr "<ahelp hid=\".\">Dirree filatamee galfata tokkoo gadi tarriicha keessa sochoosuf cuqaasi.</ahelp>"
+
+#. VBmtN
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"hd_id3147618\n"
+"help.text"
+msgid "Fields in the form"
+msgstr "Dirreewwan unkaa keessaa"
+
+#. REATC
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3156194\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the fields that are in the new form.</ahelp>"
+msgstr ""
+
+#. zPdeU
+#: 01090100.xhp
+msgctxt ""
+"01090100.xhp\n"
+"par_id3150398\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090200.xhp\">Form Wizard - Set up a subform</link>"
+msgstr "<link href=\"text/shared/autopi/01090200.xhp\">Unkaa masakaa - Unkaa xiqqaa ijaari</link>"
+
+#. fwpB4
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set up a Subform"
+msgstr "Unkaa masakaa - Unkaa xiqqaa ijaari"
+
+#. aDCAa
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090200.xhp\">Form Wizard - Set up a Subform</link>"
+msgstr "<link href=\"text/shared/autopi/01090200.xhp\">Unkaa masakaa - Unkaa xiqqaa ijaari</link>"
+
+#. 2n64M
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specify if you want to use a subform and enter the subform's properties. A subform is a form that is inserted in another form."
+msgstr "Yoo unkaa xiqqaa fayyadamuu barbaadde fi amaloota unkaa xiqqaa galchuu barbaaddee ifteessi. Unkaa xiqqaan unkaa unkaalee biroo keessatti saagamuu dha."
+
+#. kPtFb
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Add subform"
+msgstr "Unkaa xiqqaa dabali"
+
+#. SnVCG
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105B4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to add a subform.</ahelp>"
+msgstr "<ahelp hid=\".\">Unkaa xiqqaa dabaluuf filadhuu.</ahelp>"
+
+#. Y6FNL
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "Sub form based on existing relation"
+msgstr "Unkaa xiqqaa qunnamti amma jiru irrtti hundaa'ee"
+
+#. 5GTNB
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to add a subform based on an existing relation.</ahelp>"
+msgstr "<ahelp hid=\".\">Unkaa xiqqaa qunnamti amma jiru irrtti hundaa'ee dabaluuf cuqaasi.</ahelp>"
+
+#. h4Dpj
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN1055E\n"
+"help.text"
+msgid "Which relation do you want to add?"
+msgstr "Qunnamti kam dabaluu barbaada?"
+
+#. tB7nj
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the relation on which the subform is based.</ahelp>"
+msgstr "<ahelp hid=\".\">Qunnamtiicha unkaan xiqqaan irratti hundaa'ee fili.</ahelp>"
+
+#. NTiTM
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105D1\n"
+"help.text"
+msgid "Sub form based on manual selection of fields"
+msgstr "Unkaa xiqqaa filannoo hujeeka dirreewwani irratti hundaa'ee fili"
+
+#. qqGFs
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105DF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to add a subform based on a manual selection of fields. </ahelp>"
+msgstr "<ahelp hid=\".\">Unkaa xiqqaa filannoo hujeeka dirreewwani irratti hundaa`ee dabaluuf cuqaasi.</ahelp>"
+
+#. Japf2
+#: 01090200.xhp
+msgctxt ""
+"01090200.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090210.xhp\">Form Wizard - Add subform fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090210.xhp\">Unkaa Masakaa - Unkaa xiqqaa dirreewwanii dabali</link>"
+
+#. pRjtt
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Add Subform Fields"
+msgstr "Unkaa Masakaa - Unkaa xiqqaa dirreewwani dabali"
+
+#. GFBi4
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10546\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090210.xhp\">Form Wizard - Add Subform Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090210.xhp\">Unkaa Masakaa - Unkaa xiqqaa dirreewwani daba</link>"
+
+#. 72CSC
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Specify the table or query you need to create the subform, and which fields you wish to include in the subform."
+msgstr "Gabatiichi ykn gaafatni barbaadduu akka unkaa xiqqaa uumuu fi qunnamtii dirree kamfa'aa akka unkaa xiqqaa keessuu barbaadduu ifteessi."
+
+#. hRCY6
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10559\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "Gabateewwan yookin gaafatalee"
+
+#. ztKcK
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the table or query for which the subform is to be created.</ahelp>"
+msgstr "<ahelp hid=\".\">Gabatiicha ykn gaafata unkaan xiqqaan uumamuufi qabu murteesaa.</ahelp>"
+
+#. TSkRs
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10590\n"
+"help.text"
+msgid "Fields in my subform"
+msgstr "Dirreewwan unkaa xiqqaa kiyya keessaa"
+
+#. ZgoQx
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10594\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays all fields that will be included in the new subform.</ahelp>"
+msgstr "<ahelp hid=\".\">Dirreewwan xiqqaa haaraa hunda mul'isa.</ahelp>"
+
+#. hM6Xf
+#: 01090210.xhp
+msgctxt ""
+"01090210.xhp\n"
+"par_idN10597\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090220.xhp\">Form Wizard - Get joined fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090220.xhp\">Unkaa Masakaa - dirreewwan wal qabatan argadhu</link>"
+
+#. 6F3Mi
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Get Joined Fields"
+msgstr "Unkaa Masakaa - dirreewwan wal qabatan argadhu"
+
+#. jTMsz
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090220.xhp\">Form Wizard - Get Joined Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01090220.xhp\">Unkaa Masakaa - dirreewwan wal qabatan argadhu</link>"
+
+#. GwQwB
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "If you chose in step 2 to set up a subform based on manual selection of fields, you can select the joined fields on this wizard page."
+msgstr "Sadarkaa 2ffaa irratti, unkaa xiqqaa filannoo hujeeka dirreewwani irratti hundaa'un ijaaruuf yoo filatee turtee, dirreewwan walitti hidhaman fuula masaka kanarraa filachuu. dandeessa."
+
+#. uLL8F
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "First joined subform field"
+msgstr "Dirree unkaa xiqqaa jalqaba walqabate"
+
+#. cZFUw
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105B4\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sanduuqa tarree filateetti aane jiru keessa sanduuqa tarree dirree unkaa xiqqa kan dirree unkaa ijoon walqabate filadhu.</ahelp>"
+
+#. bDvEk
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105B9\n"
+"help.text"
+msgid "First joined main form field"
+msgstr "Unkaa dirree ijoo jalqaba walqabate"
+
+#. TC65e
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105BF\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sanduuqa tarree filateetti aane jiru keessa sanduuqa tarree dirree unkaa ijoo kan dirree unka xiqqaan walqabate filadhu.</ahelp>"
+
+#. 3JBGE
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105CE\n"
+"help.text"
+msgid "Second joined subform field"
+msgstr "Dirree unkaa xiqqaa lammaffaati walqabate"
+
+#. SLyVM
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sanduuqa tarree filateetti aane jiru keessa sanduuqa tarree dirree unkaa xiqqa kan dirree unkaa ijoon walqabate filadhu.</ahelp>"
+
+#. SL3kU
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D5\n"
+"help.text"
+msgid "Second joined main form field"
+msgstr "Dirree unka ijoo lammaffaati walqabate"
+
+#. FZGFD
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105D9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sanduuqa tarree filateetti aane jiru keessa sanduuqa tarree dirree unkaa ijoo kan dirree unka xiqqaan walqabate filadhu.</ahelp>"
+
+#. hgafV
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105DC\n"
+"help.text"
+msgid "Third joined subform field"
+msgstr "Dirree unkaa xiqqaa sadaaffaati walqabate"
+
+#. HGBBJ
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sanduuqa tarree filateetti aane jiru keessa sanduuqa tarree dirree unkaa xiqqa kan dirree unkaa ijoon walqabate filadhu.</ahelp>"
+
+#. ARbDE
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "Third joined main form field"
+msgstr "Unkaa dirree ijoo sadaaffaati walqabate"
+
+#. GsVHD
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sanduuqa tarree filateetti aane jiru keessa sanduuqa tarree dirree unkaa ijoo kan dirree unka xiqqaan walqabate filadhu.</ahelp>"
+
+#. Aemww
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105EA\n"
+"help.text"
+msgid "Fourth joined subform field"
+msgstr "Dirree unka xiqqaa arfaffaati waqabate"
+
+#. PDajP
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105EE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the subform field that is joined to the main form field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sanduuqa tarree filateetti aane jiru keessa sanduuqa tarree dirree unkaa xiqqa kan dirree unkaa ijoon walqabate filadhu.</ahelp>"
+
+#. ByQB8
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F1\n"
+"help.text"
+msgid "Fourth joined main form field"
+msgstr "Dirree unka ijoo arfaffaati walqabate"
+
+#. o9LHc
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the main form field that is joined to the subform field, which you select in the list box next to this list box.</ahelp>"
+msgstr "<ahelp hid=\".\">Sanduuqa tarree filateetti aane jiru keessa sanduuqa tarree dirree unkaa ijoo kan dirree unka xiqqaan walqabate filadhu.</ahelp>"
+
+#. PEfee
+#: 01090220.xhp
+msgctxt ""
+"01090220.xhp\n"
+"par_idN105F8\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090300.xhp\">Form Wizard - Arrange controls</link>"
+msgstr "<link href=\"text/shared/autopi/01090300.xhp\">Unka Masakaa - To'annoowwan Qindeessi</link>"
+
+#. oKc93
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Arrange Controls"
+msgstr "Unka Masakaa - To'annoowwan Qindeessi"
+
+#. vpSXC
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3163829\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090300.xhp\">Form Wizard - Arrange Controls</link>"
+msgstr "<link href=\"text/shared/autopi/01090300.xhp\">Unka Masakaa - To'annoowwan Qindeessi</link>"
+
+#. T3rtu
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3153539\n"
+"help.text"
+msgid "On this page of the Wizard, you can select the layout of the created form."
+msgstr "Fuula masakaa kanarra, unka teessuma uumame filachu dandeessa."
+
+#. FjjD4
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3150791\n"
+"help.text"
+msgid "Label placement"
+msgstr "Teessuma moggaasaa"
+
+#. dD3py
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3153379\n"
+"help.text"
+msgid "Align left"
+msgstr "Bitaatti hiriirsuu"
+
+#. Ah2Er
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3151210\n"
+"help.text"
+msgid "<ahelp hid=\".\">The labels are left-aligned.</ahelp>"
+msgstr ""
+
+#. ZvFED
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3149169\n"
+"help.text"
+msgid "Align right"
+msgstr "Mirgatti hiriirsuu"
+
+#. ZAjqi
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3148672\n"
+"help.text"
+msgid "<ahelp hid=\".\">The labels are right-aligned.</ahelp>"
+msgstr ""
+
+#. vabKg
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3153682\n"
+"help.text"
+msgid "Arrangement of the main form"
+msgstr "Qindeeffama unka ijoo"
+
+#. jQH2t
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3155892\n"
+"help.text"
+msgid "Columnar - Labels Left"
+msgstr "Tarjawaa - asxaawwan bitaa"
+
+#. uibgW
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3149388\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp>"
+msgstr ""
+
+#. XPabr
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3145345\n"
+"help.text"
+msgid "Columnar - Labels on Top"
+msgstr "Tarjawaa - asxaawwan Gubbarra"
+
+#. x9drS
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3150355\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels above the field.</ahelp>"
+msgstr ""
+
+#. yVG3V
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3147209\n"
+"help.text"
+msgid "As Data Sheet"
+msgstr "Akka wardii deetaati"
+
+#. SCSyA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3153824\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields in a tabular form.</ahelp>"
+msgstr ""
+
+#. BHFyA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"hd_id3154897\n"
+"help.text"
+msgid "In Blocks - Labels Above"
+msgstr "Garreewwan Keessa - Asxaalee armaan olii"
+
+#. EQENe
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_id3155421\n"
+"help.text"
+msgid "<ahelp hid=\".\">Arranges the labels above the corresponding data.</ahelp>"
+msgstr ""
+
+#. AxksA
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106C9\n"
+"help.text"
+msgid "Arrangement of the subform"
+msgstr "Qindaayina unkaa xiqaa"
+
+#. BB8bH
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106D5\n"
+"help.text"
+msgid "Columnar - Labels Left"
+msgstr "Tarjawaa - asxaawwan bitaa"
+
+#. ixMpR
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106D9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels to the left of the fields.</ahelp>"
+msgstr "<ahelp hid=\".\">Dirreewwan kuusaa deetaa haala tarjaawwa ta'een asxaalee waliingara bitaa dirreewwanitti hiriirsa.</ahelp>"
+
+#. 6Asyj
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106DC\n"
+"help.text"
+msgid "Columnar - Labels on Top"
+msgstr "Tarjawaa - asxaawwan Gubbarra"
+
+#. AbtoY
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields column-wise with the labels above the field.</ahelp>"
+msgstr "<ahelp hid=\".\">Dirreewwan kuusaa deetaa haala tarjaawaa ta'een asxaalee waliin gubbaa dirreewwanitti hirirsa.</ahelp>"
+
+#. xPC4F
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E3\n"
+"help.text"
+msgid "As Data Sheet"
+msgstr "Akka wardii deetaati"
+
+#. RD3L8
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106E7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Aligns the database fields in a tabular form.</ahelp>"
+msgstr "<ahelp hid=\".\">Dirreewwan kuusaa deetaa haala gabateetin hiriirsa.</ahelp>"
+
+#. kTVuc
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106EA\n"
+"help.text"
+msgid "In Blocks - Labels Above"
+msgstr "Garreewwan Keessa - Asxaalee armaan olii"
+
+#. CkQkF
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106EE\n"
+"help.text"
+msgid "<ahelp hid=\".\">Arranges the labels above the corresponding data.</ahelp>"
+msgstr "<ahelp hid=\".\">Asxaaleee gubbaa deetaaleeti hiriirsi.</ahelp>"
+
+#. bF3EF
+#: 01090300.xhp
+msgctxt ""
+"01090300.xhp\n"
+"par_idN106F3\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090400.xhp\">Form Wizard - Set data entry</link>"
+msgstr "<link href=\"text/shared/autopi/01090400.xhp\">Unkaa Masakaa - Galfata deetaa qindeessi</link>"
+
+#. R3iBH
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set Data Entry"
+msgstr "Unkaa Masakaa - Galfata deetaa qindeessi"
+
+#. pEQKk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090400.xhp\">Form Wizard - Set Data Entry</link>"
+msgstr "<link href=\"text/shared/autopi/01090400.xhp\">Unkaa Masakaa - Galfata deetaa qindeessi</link>"
+
+#. cmcmk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the data handling mode for the new form."
+msgstr "Unkaa haaraatiif qabinsa halata deetaa adda baasa."
+
+#. PaTFE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN10558\n"
+"help.text"
+msgid "The form is to be used for entering new data only. Existing data will not be displayed"
+msgstr "Inkichi deetaa haaraa galchuu qofaaf fayyada. Deetaan amma hin muliffamuu"
+
+#. ST8HC
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105B6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a form that is only used for entering new data.</ahelp>"
+msgstr "<ahelp hid=\".\">Unkaa deetaa haaraa galchuuf fayyadu qofa uuma.</ahelp>"
+
+#. 9xAvT
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105BB\n"
+"help.text"
+msgid "The form is to display all data"
+msgstr "Unkichi deetaa hunda mul'isuuf"
+
+#. aD8tt
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105C1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Creates a form that can be used to display existing data and to enter new data.</ahelp>"
+msgstr "<ahelp hid=\".\">Unka deetaa amma jiru mul'isa akkasuumas deetaa haaraa galchuuf fayyadu uuma.</ahelp>"
+
+#. hrXuE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN1055C\n"
+"help.text"
+msgid "Do not allow modification of existing data"
+msgstr "Fooyya'insa deetaa amma jiruuu hin hayyamiin"
+
+#. gUETD
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105DA\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow editing data.</ahelp>"
+msgstr "<ahelp hid=\".\">Gulaalinsi deetaa akka hin hayyamamne gochuuf fili.</ahelp>"
+
+#. CkGkM
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105DD\n"
+"help.text"
+msgid "Do not allow deletion of existing data"
+msgstr "Haqinsa deetaa akka hin hayyamamne gochuuf fili"
+
+#. oWDvk
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E3\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow deleting data.</ahelp>"
+msgstr "<ahelp hid=\".\">Haqinsa deetaa akka hin hayyamamneef fili.</ahelp>"
+
+#. FU3KE
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E6\n"
+"help.text"
+msgid "Do not allow addition of new data"
+msgstr "Dabalata deetaa haaraa hin hayyamiin"
+
+#. fGtoB
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select to disallow adding new data.</ahelp>"
+msgstr "<ahelp hid=\".\">Deetaa haaraa dabaluun akka hin hayyamamne gochuuf fili.</ahelp>"
+
+#. SqRNq
+#: 01090400.xhp
+msgctxt ""
+"01090400.xhp\n"
+"par_idN105E4\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090500.xhp\">Form Wizard - Apply styles</link>"
+msgstr "<link href=\"text/shared/autopi/01090500.xhp\">Unkaa Masakaa - Haalatoota fayyadami</link>"
+
+#. ZDqNF
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Apply Styles"
+msgstr "Unkaa Masakaa - Haalatoota fayyadami"
+
+#. r5BGE
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090500.xhp\">Form Wizard - Apply Styles</link>"
+msgstr "<link href=\"text/shared/autopi/01090500.xhp\">Unkaa Masakaa - Haalatoota fayyadami</link>"
+
+#. gfLGt
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the form style."
+msgstr "Haalata unkichaa ifteessa."
+
+#. c7yFt
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Apply styles"
+msgstr "Haalatoota fayyadami"
+
+#. HM2Xs
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the page style for the form.</ahelp>"
+msgstr "<ahelp hid=\".\">Unkichaaf fuula haalataa ifteessa.</ahelp>"
+
+#. CD52v
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "Field border"
+msgstr "Handaara dirree"
+
+#. u7WYC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10561\n"
+"help.text"
+msgid "Specifies the field border style."
+msgstr ""
+
+#. ktcNg
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10564\n"
+"help.text"
+msgid "No border"
+msgstr "Handaarri hin jiru"
+
+#. LDYVC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10568\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the fields have no border.</ahelp>"
+msgstr "<ahelp hid=\".\">Dirrichi akka handaara hin qabne ifteessa.</ahelp>"
+
+#. ogq9S
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1056B\n"
+"help.text"
+msgid "3D look"
+msgstr "3D ilaalcha"
+
+#. 8yTjp
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN1056F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the field borders have a 3D look.</ahelp>"
+msgstr "<ahelp hid=\".\">Handaarri dirrichaa akka ilaalcha 3D qabu ifteessa.</ahelp>"
+
+#. fGEET
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10572\n"
+"help.text"
+msgid "Flat"
+msgstr "Baakkuu"
+
+#. 3LvLa
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10576\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that the field borders look flat.</ahelp>"
+msgstr "<ahelp hid=\".\">Handaarri dirrichaa baakkuu akka fakkaatu ifteessa.</ahelp>"
+
+#. FtrrC
+#: 01090500.xhp
+msgctxt ""
+"01090500.xhp\n"
+"par_idN10579\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090600.xhp\">Form Wizard - Set name</link>"
+msgstr "<link href=\"text/shared/autopi/01090600.xhp\">Unka Masakaa - Maqaa Qindeessi</link>"
+
+#. kFiaa
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Wizard - Set Name"
+msgstr "Unka Masakaa - Maqaa Qindeessi"
+
+#. 83jJk
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10543\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090600.xhp\">Form Wizard - Set Name</link>"
+msgstr "<link href=\"text/shared/autopi/01090600.xhp\">Unka Masakaa - Maqaa Qindeessi</link>"
+
+#. kuq7q
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10553\n"
+"help.text"
+msgid "Specifies the name of the form and how to proceed."
+msgstr ""
+
+#. ydyFn
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10556\n"
+"help.text"
+msgid "Name of the form"
+msgstr "Maqaa unkichaa"
+
+#. 2kzEM
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN1055A\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the name of the form.</ahelp>"
+msgstr "<ahelp hid=\".\">Maqaa unkichaa ifteessa.</ahelp>"
+
+#. yMPCS
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN1055D\n"
+"help.text"
+msgid "Work with the form"
+msgstr "unkicha waliin hojjedhu"
+
+#. zDoPU
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the form, and opens it as a form document to enter and display data.</ahelp>"
+msgstr "<ahelp hid=\".\">Deetaa galchuu fi mul'isuuf unkicha ol kaaya akkasumas akka unka galmeetti bana.</ahelp>"
+
+#. DVqM9
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10563\n"
+"help.text"
+msgid "Modify the form"
+msgstr "Unkicha fooyyessi"
+
+#. hSQZP
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN105D2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the form, and opens it in edit mode to change the layout.</ahelp>"
+msgstr "<ahelp hid=\".\">Teessuma jijjiiruuf unkicha ol kaaya akkasumas gulaala halata keessatti isa bana.</ahelp>"
+
+#. qDmWk
+#: 01090600.xhp
+msgctxt ""
+"01090600.xhp\n"
+"par_idN10569\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link>"
+msgstr "<link href=\"text/shared/autopi/01090000.xhp\">Masakaa unkaa</link>"
+
+#. 9GEmD
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard"
+msgstr "Masaka Gabaasaa"
+
+#. Ljpsw
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"hd_id3150499\n"
+"help.text"
+msgid "Report Wizard"
+msgstr "Masaka Gabaasaa"
+
+#. Wxizv
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"par_id3145071\n"
+"help.text"
+msgid "<variable id=\"report\"><ahelp hid=\".\">Activates the wizard for creating reports.</ahelp></variable>"
+msgstr ""
+
+#. JBzBF
+#: 01100000.xhp
+msgctxt ""
+"01100000.xhp\n"
+"par_id3152780\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the report properties.</ahelp>"
+msgstr "<ahelp hid=\".\">Amaloota gabaasaa filadhu.</ahelp>"
+
+#. jjzfj
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Field Selection"
+msgstr "Masaka gabaasaa - filannoo dirree"
+
+#. Adyxy
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100100.xhp\">Report Wizard - Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01100100.xhp\">Masaka gabaasaa - filannoo dirree</link>"
+
+#. k9HWM
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150476\n"
+"help.text"
+msgid "Specifies the table or query for which you are creating the report, and which fields you wish to include in the report."
+msgstr ""
+
+#. UFBD8
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3156136\n"
+"help.text"
+msgid "Tables or queries"
+msgstr "Gabateewwan yookin gaafatalee"
+
+#. tM6DC
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3147043\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the table or query for which the report is to be created.</ahelp>"
+msgstr ""
+
+#. CbuDf
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3147008\n"
+"help.text"
+msgid "Available fields"
+msgstr "Dirreewwan argaman"
+
+#. uK9gE
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the names of the data base fields in the selected table or query.</ahelp> Click to select a field or press the Shift or <switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while clicking to select multiple fields."
+msgstr ""
+
+#. TbTWD
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3153031\n"
+"help.text"
+msgid "Fields in report"
+msgstr "Gabaasa dirreewwan keessaa"
+
+#. FXTGe
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3147275\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays all fields that are included in the new report.</ahelp>"
+msgstr ""
+
+#. bYCJA
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3147209\n"
+"help.text"
+msgid ">"
+msgstr ""
+
+#. XFRnY
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3152350\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. H3BpD
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3159269\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. erhB6
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3149784\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. kFZoZ
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3153146\n"
+"help.text"
+msgid "<"
+msgstr ""
+
+#. VoFm5
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150275\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field(s) to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. DHsy3
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"hd_id3149233\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. fZExB
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3150084\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move all fields to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. ebFt7
+#: 01100100.xhp
+msgctxt ""
+"01100100.xhp\n"
+"par_id3145609\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100150.xhp\">More about Report Wizard - Labeling Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01100150.xhp\">Waa'ee Masaka gabasaa Dabalataa - Dirreewwan Asxeessuu</link>"
+
+#. CU6F5
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Labeling Fields"
+msgstr "Masaka gabaasa - Dirreewwan Asxeessuu"
+
+#. w745A
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"hd_id3144415\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100150.xhp\">Report Wizard - Labeling Fields</link>"
+msgstr "<link href=\"text/shared/autopi/01100150.xhp\">Masaka gabaasa - Dirreewwan Asxeessuu</link>"
+
+#. GsVRi
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3147102\n"
+"help.text"
+msgid "Specifies how you want to label the fields."
+msgstr ""
+
+#. FbLt4
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"hd_id3155805\n"
+"help.text"
+msgid "Field list"
+msgstr "Tarree dirree"
+
+#. cyewr
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3150774\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the names of the fields to be included in the report. At the right you can enter a label for each field that will be printed in the report.</ahelp>"
+msgstr ""
+
+#. 3ZFEY
+#: 01100150.xhp
+msgctxt ""
+"01100150.xhp\n"
+"par_id3153748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100200.xhp\">More about Report Wizard - Grouping</link>"
+msgstr "<link href=\"text/shared/autopi/01100200.xhp\">Waa'ee Masaka gabaasaa daran - Gurmeessuu</link>"
+
+#. BUhYd
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Grouping"
+msgstr "Masaka Gabaasa - Gurmeessuu"
+
+#. zPKjm
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3147000\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100200.xhp\">Report Wizard - Grouping</link>"
+msgstr "<link href=\"text/shared/autopi/01100200.xhp\">Masaka Gabaasa - Gurmeessuu</link>"
+
+#. UURLb
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3163829\n"
+"help.text"
+msgid "You can group records in a report based on the values in one or more fields. Select the fields by which the resulting report will be grouped. You can group up to four fields in a report. When you group more than one field, $[officename] nests the groups according to their group level."
+msgstr ""
+
+#. 8NNsd
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3149760\n"
+"help.text"
+msgid "Fields"
+msgstr "Dirreewwan"
+
+#. hbLB2
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the fields from your selection on the previous page of the Wizard. To group the report by a field, select the field name, then click the <emph>></emph> button. You may select up to four levels of grouping.</ahelp>"
+msgstr ""
+
+#. 2Sj4h
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3155552\n"
+"help.text"
+msgid "Groupings"
+msgstr "Gurmeeffamoota"
+
+#. 6WbLz
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3155892\n"
+"help.text"
+msgid "<ahelp hid=\".\">Lists the fields by which the report will be grouped. To remove one level of grouping, select the field name, then click the <emph><</emph> button. You may select up to four levels of grouping.</ahelp>"
+msgstr ""
+
+#. wWSqE
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3154289\n"
+"help.text"
+msgid ">"
+msgstr ""
+
+#. bedJG
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3157958\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. jVAxH
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"hd_id3154823\n"
+"help.text"
+msgid "<"
+msgstr ""
+
+#. oEZnJ
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\".\">Click to move the selected field to the box that the arrow is pointing to.</ahelp>"
+msgstr ""
+
+#. uTa48
+#: 01100200.xhp
+msgctxt ""
+"01100200.xhp\n"
+"par_id3150355\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100300.xhp\">More about Report Wizard - Sort Options</link>"
+msgstr "<link href=\"text/shared/autopi/01100300.xhp\">Waa'ee Masaka gabaasa Daran - Dirqaloota foo'i</link>"
+
+#. HPGPg
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Sort Options"
+msgstr "Masaka Gabaasaa - dirqaloota Foo'i"
+
+#. VzFbG
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3148668\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100300.xhp\">Report Wizard - Sort Options</link>"
+msgstr "<link href=\"text/shared/autopi/01100300.xhp\">Masaka Gabaasaa - dirqaloota Foo'i</link>"
+
+#. RSArv
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3148520\n"
+"help.text"
+msgid "Select the fields by which to sort the report. Fields can be sorted by up to four levels, each either ascending or descending. Grouped fields can only be sorted within each group."
+msgstr ""
+
+#. uDGaD
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3149205\n"
+"help.text"
+msgid "Sort by"
+msgstr "Ittiin foo'i"
+
+#. ECFCo
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3155555\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select the first field by which to sort the report.</ahelp>"
+msgstr ""
+
+#. resUF
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3154751\n"
+"help.text"
+msgid "Then by"
+msgstr "Kana booda"
+
+#. FcTDC
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3149182\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select an additional field by which to sort the report.</ahelp>"
+msgstr ""
+
+#. yiwfs
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3146957\n"
+"help.text"
+msgid "Ascending"
+msgstr "Dabaluu"
+
+#. Cvpkb
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sorts the field contents in ascending order.</ahelp>"
+msgstr ""
+
+#. EoPCs
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"hd_id3147653\n"
+"help.text"
+msgid "Descending"
+msgstr "Hir'achuu"
+
+#. A25vE
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3156113\n"
+"help.text"
+msgid "<ahelp hid=\".\">Sorts the field contents in descending order.</ahelp>"
+msgstr ""
+
+#. aT4Eu
+#: 01100300.xhp
+msgctxt ""
+"01100300.xhp\n"
+"par_id3156329\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100400.xhp\">More about Report Wizard - Choose Layout</link>"
+msgstr "<link href=\"text/shared/autopi/01100400.xhp\">Waa'ee Masakaa gabaasaa daran - Teessuma Filadhu</link>"
+
+#. 8Gkxm
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Choose Layout"
+msgstr "Masaka Gabaasaa - Teessuma Filadhu"
+
+#. 3d3Bi
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3148668\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100400.xhp\">Report Wizard - Choose Layout</link>"
+msgstr "<link href=\"text/shared/autopi/01100400.xhp\">Masaka Gabaasaa - Teessuma Filadhu</link>"
+
+#. aPVFq
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154894\n"
+"help.text"
+msgid "Choose the layout from different templates and styles, and choose landscape or portrait page orientation."
+msgstr ""
+
+#. QmVbY
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3145345\n"
+"help.text"
+msgid "Layout of data"
+msgstr "Teessuma deetaa"
+
+#. xFhp9
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines a set of styles for the report. The styles assign fonts, indents, table background, and more.</ahelp>"
+msgstr ""
+
+#. ZNEUQ
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3145071\n"
+"help.text"
+msgid "Layout of headers and footers"
+msgstr "Teessuma irraantoo fi jalaantoo"
+
+#. cJ5Sk
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3152551\n"
+"help.text"
+msgid "<ahelp hid=\".\">Defines a page layout for the report. The page layouts are loaded from template files, which assign a header, footer, and page background.</ahelp>"
+msgstr ""
+
+#. gRJX6
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3152996\n"
+"help.text"
+msgid "Orientation"
+msgstr "Qajeelfama"
+
+#. D4ZfK
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "Choose the page orientation for the report."
+msgstr "Gabaasichaaf fuula qajeelfamaa filadhu."
+
+#. BrBYq
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3156347\n"
+"help.text"
+msgid "Landscape"
+msgstr "Teessuma Lafa"
+
+#. mVVHx
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3145382\n"
+"help.text"
+msgid "<ahelp hid=\".\">Selects a landscape page orientation for the report.</ahelp>"
+msgstr ""
+
+#. M8S4j
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"hd_id3149233\n"
+"help.text"
+msgid "Portrait"
+msgstr "Fakkii"
+
+#. 2GXYz
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3154285\n"
+"help.text"
+msgid "<ahelp hid=\".\">Selects a portrait page orientation for the report.</ahelp>"
+msgstr ""
+
+#. CwwC2
+#: 01100400.xhp
+msgctxt ""
+"01100400.xhp\n"
+"par_id3148491\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100500.xhp\">More about Report Wizard - Create Report</link>"
+msgstr "<link href=\"text/shared/autopi/01100500.xhp\">Waa'ee Maska Gabaasaa Daran - Gabaasa uumi</link>"
+
+#. KwNon
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Report Wizard - Create Report"
+msgstr "Masaka Gabaasa - Gabaasa Uumi"
+
+#. DBGWP
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3156211\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01100500.xhp\">Report Wizard - Create Report</link>"
+msgstr "<link href=\"text/shared/autopi/01100500.xhp\">Masaka Gabaasa - Gabaasa Uumi</link>"
+
+#. G5N3i
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3159224\n"
+"help.text"
+msgid "You can create the report as a static or dynamic report. When you open a dynamic report, it will display with the current data contents. When you open a static report, it will always display the same data from the time when the static report was created."
+msgstr ""
+
+#. TEwgC
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3145669\n"
+"help.text"
+msgid "Title of report"
+msgstr "Mata duree gabaasa"
+
+#. FvqnT
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3156136\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the title that is printed at the title line of each page.</ahelp>"
+msgstr ""
+
+#. HmVap
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3157910\n"
+"help.text"
+msgid "Static report"
+msgstr "Gabaasa dhaabataa"
+
+#. LDxSX
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3149580\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the report as a static report. When you open a static report, it will always display the data from the time the report was created.</ahelp>"
+msgstr ""
+
+#. TtnAs
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3154751\n"
+"help.text"
+msgid "Dynamic report"
+msgstr "Gabaasa jijjiiramaa"
+
+#. EQjod
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3155805\n"
+"help.text"
+msgid "<ahelp hid=\".\">Saves the report as a template. When you open a dynamic report, it will display with the current data contents.</ahelp>"
+msgstr ""
+
+#. FEAko
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3148538\n"
+"help.text"
+msgid "Modify report layout"
+msgstr "Gabaasa teessumaa fooyyeessi"
+
+#. UvDe7
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<ahelp hid=\".\">When you click <emph>Finish</emph>, the report will be saved and opened for edit.</ahelp>"
+msgstr ""
+
+#. 58YBL
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"hd_id3153127\n"
+"help.text"
+msgid "Create report now"
+msgstr "Gabaasa amma uumi"
+
+#. GwGyH
+#: 01100500.xhp
+msgctxt ""
+"01100500.xhp\n"
+"par_id3156194\n"
+"help.text"
+msgid "<ahelp hid=\".\">When you click <emph>Finish</emph>, the report will be saved.</ahelp>"
+msgstr ""
+
+#. CEeC5
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard"
+msgstr "Masaka Miseensa Garee"
+
+#. bt2jX
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"hd_id3149031\n"
+"help.text"
+msgid "Group Element Wizard"
+msgstr "Masaka Miseensa Garee"
+
+#. LZVXR
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"par_id3151097\n"
+"help.text"
+msgid "The Group Element Wizard starts automatically when you insert a <link href=\"text/shared/02/01170000.xhp\">Group Box</link> into a document."
+msgstr "Masakichi Miseensa Garee ofmaa jalqaba yommuu <link href=\"text/shared/02/01170000.xhp\">Group Box</link> galmee keessatti saagdu."
+
+#. 5ftFD
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"hd_id3145071\n"
+"help.text"
+msgid "Create"
+msgstr "Uumi"
+
+#. SrWfY
+#: 01120000.xhp
+msgctxt ""
+"01120000.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\"HID_LISTWIZARD_FINISH\">Creates the object.</ahelp>"
+msgstr "<ahelp hid=\"HID_LISTWIZARD_FINISH\">Wanta uuma.</ahelp>"
+
+#. M8QEd
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Data"
+msgstr "Masaka Miseensa Garee: Deetaa"
+
+#. xgNjY
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3155599\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120100.xhp\">Group Element Wizard: Data</link>"
+msgstr "<link href=\"text/shared/autopi/01120100.xhp\">Masaka Miseensa Garee: Deetaa</link>"
+
+#. jS7JL
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154894\n"
+"help.text"
+msgid "Specifies which option fields are contained inside the group box."
+msgstr "Dirroota dirqala kamtu saanduqa garee keessaati qabame ifteessa."
+
+#. DFFfh
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3153894\n"
+"help.text"
+msgid "Which names do you want to give the option fields?"
+msgstr "Maqoota kam dirroota dirqalaf kennuu barbaaddaa?"
+
+#. RMqcA
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154673\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiolabels\" visibility=\"visible\">Specifies the respective label for each option field. You will see the label of the option field in the form.</ahelp> This entry corresponds to the <link href=\"text/shared/02/01170101.xhp\">Label</link> property of the option field."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiolabels\" visibility=\"visible\">Moggaasa tokko tokkoo dirqala dirreef akka dhahametti ifteessa. Moggaasa dirqala dirree unka keessatti ilaalta.</ahelp> Galfanni kun amala <link href=\"text/shared/02/01170101.xhp\">Label</link> filannnoo dirreetiin walitti dhufa."
+
+#. ZExvE
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3155805\n"
+"help.text"
+msgid "Accept"
+msgstr "Fudhu"
+
+#. 7XPNw
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3147008\n"
+"help.text"
+msgid ">>"
+msgstr ">>"
+
+#. TEzQK
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3153345\n"
+"help.text"
+msgid "<ahelp visibility=\"visible\" hid=\"modules/sabpilot/ui/groupradioselectionpage/toright\">Confirms the current label and copies the label to the <emph>Option fields</emph> list.</ahelp>"
+msgstr ""
+
+#. UFmvH
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3154749\n"
+"help.text"
+msgid "Enter the label for each option field of the group that you want to create and copy the label to the list by clicking the arrow button. Repeat this procedure until all the option fields are defined."
+msgstr "Moggaasa tokko tokkoo dirree dirqalaaf kan garee kan uumuu barbaaddu saagi. Moggaasicha gara tarreetti garagalchi xiyya qabduu cuqaasuun."
+
+#. iNRfq
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3150443\n"
+"help.text"
+msgid "Option fields"
+msgstr "Dirreewwan dirqala"
+
+#. qWPvJ
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3152996\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiobuttons\" visibility=\"visible\">Displays all option fields which have to be included in the group box.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/radiobuttons\" visibility=\"visible\">Dirreewwan dirqala kan saanduqa garee keessatti dhuunfatame agarsiisi.</ahelp>"
+
+#. fDsAQ
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"hd_id3146949\n"
+"help.text"
+msgid "Remove"
+msgstr "Haqi"
+
+#. ABcDi
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3153561\n"
+"help.text"
+msgid "<<"
+msgstr "<<"
+
+#. CJoAh
+#: 01120100.xhp
+msgctxt ""
+"01120100.xhp\n"
+"par_id3159157\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/toleft\" visibility=\"visible\">Removes the selected option fields from the list.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/groupradioselectionpage/toleft\" visibility=\"visible\">Dirreewwan dirqala filatame tarree irraa haqi.</ahelp>"
+
+#. M3CGF
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Default Field Selection"
+msgstr "Masaka Miseensa Garee: Filannoo Dirree Durtii"
+
+#. 3f4Rt
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3151299\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120200.xhp\">Group Element Wizard: Default Field Selection</link>"
+msgstr "<link href=\"text/shared/autopi/01120200.xhp\">Masaka Miseensa Garee: Filannoo Dirree Durtii</link>"
+
+#. jbMoc
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3144740\n"
+"help.text"
+msgid "Determines that you want one option field to be selected as the default choice."
+msgstr "Dirreen dirqalaa tokko akka filannoo durtiitti akka filatamu barbaaduu siif murteessa."
+
+#. NF68U
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3154094\n"
+"help.text"
+msgid "The default settings will be accepted if you open the form in the user mode. With these settings you determine the control property <link href=\"text/shared/02/01170101.xhp\">Default Status</link>."
+msgstr "Yoo unka haalata fayyadamaatiin bante, qindaa'inootni durtii ni fudhatamu. Qindaa'inoota kanaan amala to'annaa<link href=\"text/shared/02/01170101.xhp\">Haalojii Durtii</link> murteessita."
+
+#. 5Bk7d
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3157896\n"
+"help.text"
+msgid "Should one option field be selected as a default?"
+msgstr "Dirreen dirqalaa tokko akka durtiitti filatamuu qabaa?"
+
+#. n8eDM
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "Specifies whether you want to set default settings for the option box."
+msgstr "Saanduqa dirqalaatiif, qindaa'inoota durtii qindeessuu barbaaduu fi dhiisuu kee ifteessa."
+
+#. QDuNC
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3147226\n"
+"help.text"
+msgid "Yes, the following:"
+msgstr "Eeyyee, kan armaan gadii:"
+
+#. 4M3qj
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3150774\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionyes\" visibility=\"visible\">Specifies that you want an option field to be selected as a default after opening the form.</ahelp> Choose the option field from the box."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionyes\" visibility=\"visible\">Erga unka bantee booda dirree dirqalaa akka durtiitti akka filatamu barbaaduu kee ifteessa.</ahelp> Saanduqa irraa dirree dirqalaa filadhu."
+
+#. 8FPkc
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3153345\n"
+"help.text"
+msgid "List box"
+msgstr "Saanduqa tarree"
+
+#. CJsPp
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3146957\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defselectionfield\" visibility=\"visible\">Select the option field that you want to have as the default when opening the form.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defselectionfield\" visibility=\"visible\">Yeroo unka bantu, dirree dirqalaa akka durtiitti qabaachuu qabdu filadhu.</ahelp>"
+
+#. BoGAr
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"hd_id3147242\n"
+"help.text"
+msgid "No, one particular field is not going to be selected"
+msgstr "Lakki, dirreen tokko qofaan filatamuuf hin ta'u"
+
+#. uEAAP
+#: 01120200.xhp
+msgctxt ""
+"01120200.xhp\n"
+"par_id3163802\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionno\" visibility=\"visible\">Specifies that you do not want any option field to be the default choice.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/defaultfieldselectionpage/defaultselectionno\" visibility=\"visible\">Dirreen dirqalaa kamiyyuu filannoo durtii akka hin taane barbaaduu kee ifteessa.</ahelp>"
+
+#. HKDPk
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Field Values"
+msgstr "Maalimaa Masakaa Gurmeessi: Gatiiwwan Dirree"
+
+#. oTfsy
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3151097\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120300.xhp\">Group Element Wizard: Field Values</link>"
+msgstr "<link href=\"text/shared/autopi/01120300.xhp\">Group Element Wizard: Field Values</link>"
+
+#. mVBx2
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3151100\n"
+"help.text"
+msgid "Assigns a reference value to each option field."
+msgstr "Tokko tokkoon dirree dirqalaatti gatii wabii ramada."
+
+#. o2nxm
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3153323\n"
+"help.text"
+msgid "Select a field from the option fields list and enter the corresponding <link href=\"text/shared/02/01170101.xhp\">reference value</link>."
+msgstr "Tarree dirreewwan dirqalaarraa dirree filiitii<link href=\"text/shared/02/01170101.xhp\">gatii wabii</link> barbaachisu galchi."
+
+#. e8DgD
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3152594\n"
+"help.text"
+msgid "Which value do you want to assign to each option?"
+msgstr "Gatii kam tokko tokkoo dirqalatiif ramaduu barbaadda?"
+
+#. 47Fhy
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3152425\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/optionvalue\" visibility=\"visible\">Select a number or a text as a reference value for the selected option field.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/optionvalue\" visibility=\"visible\">Dirree dirqalaa filatameef, lakkoofsa ykn barruu akka gatii wabiitti fili.</ahelp>"
+
+#. 64wRq
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"hd_id3155555\n"
+"help.text"
+msgid "Option fields"
+msgstr "Dirreewwan dirqala"
+
+#. jx2Ha
+#: 01120300.xhp
+msgctxt ""
+"01120300.xhp\n"
+"par_id3155941\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/radiobuttons\" visibility=\"visible\">Select the option field for which you want to assign the reference value.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionvaluespage/radiobuttons\" visibility=\"visible\">Dirree dirqalaa kan gatii wabii isaatiif ramaduu barbaadduu fili.</ahelp>"
+
+#. CTA76
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Database Field"
+msgstr "Maalimaa Masakaa Gurmeessi: Dirree Deetaa beezii"
+
+#. BKpyH
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120400.xhp\">Group Element Wizard: Database Field</link>"
+msgstr "<link href=\"text/shared/autopi/01120400.xhp\">Maalimaa Masakaa Gurmeessi: Dirree Deetaa beezii</link>"
+
+#. yTnES
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3154094\n"
+"help.text"
+msgid "This page is only visible if the document is linked to a database. It specifies whether the reference values should be saved in the database."
+msgstr "Fuulli kun kan mul'atu yoo galmeen deetaa beezii wajjin walidhate qofaa dha. Deetaa beeziirratti olkaa'amuu qabaachuu fi dhiisuu gatiiwwan wabii ifteessa."
+
+#. FwS4J
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3153255\n"
+"help.text"
+msgid "Indicate where to save the <link href=\"text/shared/02/01170101.xhp\">reference values</link>. A reference value can represent the current state of the group box in a database."
+msgstr "Iddoo <link href=\"text/shared/02/01170101.xhp\">gatiiwwan wabii</link> itti olkaa'aman agarsiisa. Deetaa beezii keessatti, gatiin wabii haalojii ammee saanduqa gurmuu bakka bu'uu ni danda'a."
+
+#. EQAQC
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3149828\n"
+"help.text"
+msgid "This page is only displayed if the document is already linked to a database."
+msgstr "Fuulli kun kan mul'atu yoo galmeen deetaa beezii wajjin walqabate qofaadha."
+
+#. mHGFo
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3152551\n"
+"help.text"
+msgid "Do you want to save the value in a database field?"
+msgstr "Gaticha dirree deetaa beezii keessa olkaa'uu barbaaddaa?"
+
+#. QExFj
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3154823\n"
+"help.text"
+msgid "Yes, I want to save it in the following database field:"
+msgstr "Eeyyee, Dirree deetaa beezii armaan gadii keessattin olkaa'uu barbaada:"
+
+#. 5XkEg
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3156346\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/yesRadiobutton\">Specifies that you want to save the reference values in a database.</ahelp> The values are written in the data field selected in the list box. The list box displays all the field names from the database table that the form is linked to."
+msgstr ""
+
+#. DbbcG
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3145382\n"
+"help.text"
+msgid "List box"
+msgstr "Saanduqa tarree"
+
+#. 8ba8P
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3149398\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/storeInFieldCombobox\" visibility=\"hidden\">Select the data field in which the reference values have to be saved.</ahelp>"
+msgstr ""
+
+#. j7eCU
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"hd_id3153881\n"
+"help.text"
+msgid "No, I only want to save the value in the form."
+msgstr "Lakki, gaticha unka keessa olkaa'uu qofaan barbaada."
+
+#. LWkZN
+#: 01120400.xhp
+msgctxt ""
+"01120400.xhp\n"
+"par_id3153146\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optiondbfieldpage/noRadiobutton\">Specifies that you want to save the reference values in the form only, and not in the database.</ahelp>"
+msgstr ""
+
+#. VbSgR
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Group Element Wizard: Create Option Group"
+msgstr "Maalimaa Masakaa Gurmeessi: Gurmuu Dirqalaa Uumi"
+
+#. Xcfm7
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"hd_id3143206\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01120500.xhp\">Group Element Wizard: Create Option Group</link>"
+msgstr "<link href=\"text/shared/autopi/01120500.xhp\">Maalimaa Masakaa Gurmeessi: Gurmuu Dirqalaa Uumi</link>"
+
+#. erbEs
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"par_id3154812\n"
+"help.text"
+msgid "Specifies a label for the option group."
+msgstr "Gurmuu dirqalaatiif asxaa ifteessa."
+
+#. cAQMg
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"hd_id3144415\n"
+"help.text"
+msgid "Which caption is to be given to your option group?"
+msgstr "Qabii kamtu gurmuu dirqalaa keetiif kennamaa?"
+
+#. 4fkc8
+#: 01120500.xhp
+msgctxt ""
+"01120500.xhp\n"
+"par_id3163829\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/optionsfinalpage/nameit\" visibility=\"visible\">Specifies the label for the option box. You will see the label of the group box displayed in the form.</ahelp> The text you enter here will correspond to the <link href=\"text/shared/02/01170101.xhp\">Label</link> property of the group box."
+msgstr "<ahelp hid=\"modules/sabpilot/ui/optionsfinalpage/nameit\" visibility=\"visible\">Sanduuqa dirqalaatiif asxaa ifteessa. Asxaa sanduuqa gurmuu unka keessatti mul'ifaman gara fuulduraatti ni argita.</ahelp> Barruun ati asitti galchite amala <link href=\"text/shared/02/01170101.xhp\">Asxaa</link> sanduuqa gurmuu wajjin walqabata."
+
+#. QbUG5
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document Converter"
+msgstr "Jijjiirtuu Galmee"
+
+#. szRb9
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"hd_id3149798\n"
+"help.text"
+msgid "Document Converter"
+msgstr "Jijjiirtuu Galmee"
+
+#. v5SJh
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "<variable id=\"ms\"><ahelp hid=\".\">Copies and converts documents into the OpenDocument XML format used by $[officename].</ahelp></variable>"
+msgstr "<variable id=\"ms\"><ahelp hid=\".\"> Galmeewwan gara dhangii OpenDocument XML, $[officename] dhaan fayyadameetti garagalchuudhaan galmicha jijjiira.</ahelp></variable>"
+
+#. nidaA
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3150775\n"
+"help.text"
+msgid "The wizard converts documents from Microsoft Word, Excel and PowerPoint. The source files are only read, not edited. New target files are written with the new file name extension in the same or a new folder."
+msgstr ""
+
+#. CCGV9
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3156410\n"
+"help.text"
+msgid "The Document Converter Wizard contains the following pages:"
+msgstr "Masakaan jijjiirtuu galmee fuulota armaan gadii of keessatti qabata:"
+
+#. 9CQNJ
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"hd_id3154318\n"
+"help.text"
+msgid "Document Converter Summary"
+msgstr "Goolaba jijjiirtuu galmee"
+
+#. 3qZPc
+#: 01130000.xhp
+msgctxt ""
+"01130000.xhp\n"
+"par_id3145313\n"
+"help.text"
+msgid "Displays a summary which shows what will be converted when you click <emph>Convert</emph>."
+msgstr "Yommuu <emph>Jijjiiri</emph> cuqaaste, goolaba jijjiiramuuf ta'uu galmee agarsiisu mul'isa."
+
+#. hQ8ZW
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document Converter Page 1"
+msgstr "Jijjiirtuu Galmee fuula 1"
+
+#. 3ukbt
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3151299\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130100.xhp\">Document Converter Page 1</link>"
+msgstr "<link href=\"text/shared/autopi/01130100.xhp\">Jijjiirtuu Galmee fuula 1</link>"
+
+#. G7Zgn
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150445\n"
+"help.text"
+msgid "Specifies the type of Microsoft Office documents that will be converted."
+msgstr ""
+
+#. XBD3E
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3166410\n"
+"help.text"
+msgid "Microsoft Office"
+msgstr "Maayikiroosoofti oofis"
+
+#. ByPJh
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150771\n"
+"help.text"
+msgid "Converts Microsoft Office documents into the OpenDocument format."
+msgstr "Galmeewwan maayikiroosoofti oofis gara dhangii OpenDocument tti jijjiira."
+
+#. Z8xAg
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3150984\n"
+"help.text"
+msgid "Word documents"
+msgstr "Galmeewwan jecha"
+
+#. 6iGtB
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3150255\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKWORD\">Converts documents in Microsoft Word format *.doc into OpenDocument *.odt documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKWORD\"> Galmeewwan dhangii maayikiroosoofti woordii *.doc keessaa gara galmeewwan OpenDocument *.odt tti jijjiira.</ahelp>"
+
+#. DGuJT
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3155421\n"
+"help.text"
+msgid "Excel documents"
+msgstr "Galmeewwan ekseelii"
+
+#. LaFwN
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3155630\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKEXCEL\">Converts documents in Microsoft Excel format *.xls into OpenDocument *.ods documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKEXCEL\"> Galmeewwan dhangii ekseelii maayikiroosoofti *.xls keessaa gara galmeewwan OpenDocument *.ods tti jijjiira.</ahelp>"
+
+#. 7eruC
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3153127\n"
+"help.text"
+msgid "PowerPoint documents"
+msgstr "Galmeewwan paawor poo'eenti"
+
+#. ZSqCh
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149786\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CHKPOWERPOINT\">Converts documents in Microsoft PowerPoint format *.ppt into OpenDocument *.odp documents.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CHKPOWERPOINT\">Galmeewwan dhangii Maayikiroosoofti paawor poo'inti *.ppt keessaa gara galmeewwan OpenDocument *.odp tti jijjiira.</ahelp>"
+
+#. pBEKc
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"hd_id3153088\n"
+"help.text"
+msgid "Create Log file"
+msgstr "Faayila Dilbaa Uumi"
+
+#. EB93X
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149797\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_0_CHKLOGFILE\">Creates a log file in your work directory showing which documents have been converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_0_CHKLOGFILE\">Galmeewwan jijjiiraman agarsiisuudhaan ,galeeloo hojii kee keessatti, faayilii dilbaa uuma.</ahelp>"
+
+#. tg5JD
+#: 01130100.xhp
+msgctxt ""
+"01130100.xhp\n"
+"par_id3149578\n"
+"help.text"
+msgid "Continue to the next page of the <link href=\"text/shared/autopi/01130200.xhp\">Document Converter</link>."
+msgstr "Gara fuula itti aanaa<link href=\"text/shared/autopi/01130200.xhp\">jijjiirtuu galmeetti</link> darbi."
+
+#. 58vGa
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Document converter continuation pages"
+msgstr "Fuulota itti fufiinsa jijjiirtuu galmee"
+
+#. QMuxr
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01130200.xhp\">Document converter continuation pages</link>"
+msgstr "<link href=\"text/shared/autopi/01130200.xhp\">Fuulota Itti fufiinsa jijjiirtuu galmee</link>"
+
+#. Ve7Wv
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3147143\n"
+"help.text"
+msgid "Specifies, for each template type and document type, the directory to be read from and the directory to be written to."
+msgstr "Akaakuu qajojii fi akaakuu galmee hundaaf, galeeloo irratti barreeffamuu fi irraa barreeffamu ifteessa."
+
+#. cDEcm
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3156027\n"
+"help.text"
+msgid "Templates"
+msgstr "Qajojiiwwan"
+
+#. NcsGh
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153681\n"
+"help.text"
+msgid "Determines whether templates are to be converted, and how they are converted."
+msgstr "Jijjiiramuu dhiisuu fi qabaachuu qajojiiwwanii fi haala itti jijjiiraman murteessa."
+
+#. 7Lai8
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3146957\n"
+"help.text"
+msgid "Text templates"
+msgstr "Qajojiiwwan barruu"
+
+#. SizJe
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153345\n"
+"help.text"
+msgid "Note that the \"Text templates\" label can change, depending on the selections from the previous page. For example, if Microsoft Word documents have been selected, the label reads \"Word templates\"."
+msgstr "Filannoowwan fuula darbee irratti hundaa'uudhaan, asxaan \"Text templates\" jijjiiramuu akka danda'u hubadhu. Fakkeenyaaf, Yoo Galmeewwan Microsoft Word filataman, asxaan \"Text templates\" dubbisa."
+
+#. yQ3K9
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3149182\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBTEMPLATE\">Specifies that templates are to be converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBTEMPLATE\">Qajojiiwwan jijjiiramuuf ta'an ifteessa.</ahelp>"
+
+#. fnBXC
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3153683\n"
+"help.text"
+msgid "Including subdirectories"
+msgstr "Galeeloo xiqqaa dabalatee"
+
+#. 4VYYb
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3149811\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENTRECURSE\">Indicates that the subdirectories of the selected directory are also searched for matching files.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENTRECURSE\">Faayiloota walitti firoomaniif barbaaddamuu galeeloo xiqqaa galeeloo filatamee agarsiisa.</ahelp>"
+
+#. BFX2N
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3159269\n"
+"help.text"
+msgid "Import from"
+msgstr "Irraa alaagi"
+
+#. X9j5Q
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3153821\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_LBDOCUMENTPATH\">Specifies the directory containing the source files. </ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_LBDOCUMENTPATH\">Galeeloo faayiloota ofkeessatti qabate ifteessa.</ahelp>"
+
+#. Dgbm5
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149732\n"
+"help.text"
+msgid "Save to"
+msgstr "irra olkaa'i"
+
+#. Sx3Bm
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3155449\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_EDDOCUMENTPATH\">Specifies the directory to which the destination files are written.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_EDDOCUMENTPATH\">Galeeloo faayilootni  ga'uumsaa itti maxxanfaman ifteessa.</ahelp>"
+
+#. EesvY
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3153126\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. zfQQ7
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3155388\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CMDDOCUMENTPATHSELECT\">Opens a dialog to select the desired path.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CMDDOCUMENTPATHSELECT\">Xurree barbaaddame banuuf qaaqa bana.</ahelp>"
+
+#. i6Kah
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149416\n"
+"help.text"
+msgid "Documents"
+msgstr "Galmeewwan"
+
+#. 8cKND
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3159176\n"
+"help.text"
+msgid "Determines whether and how documents are converted."
+msgstr "Jijjiiramuu dhiisuu fi qabaachuu galmeewwanii fi haala itti jijjiiraman murteessa."
+
+#. rRiuu
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"hd_id3149236\n"
+"help.text"
+msgid "Text documents"
+msgstr "Galmeewwan barruu"
+
+#. t59oX
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3148564\n"
+"help.text"
+msgid "Note that the \"Text documents\" label can change, depending on the selections from the previous page. For example, if Microsoft Word documents have been selected, the label reads \"Word documents\"."
+msgstr "Filannoowwan fuula darbee irratti hundaa'uudhaan, asxaan \"Text documents\" jijjiiramuu akka danda'u hubadhu. Fakkeenyaaf, Yoo Galmeewwan Microsoft Word filataman, asxaan \"Word documents\" dubbisa."
+
+#. oqwC5
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3148944\n"
+"help.text"
+msgid "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENT\">Indicates that the documents are to be converted.</ahelp>"
+msgstr "<ahelp hid=\"HID_DLGIMPORT_2_CBDOCUMENT\">Galmeewwan jijjiramuuf ta'uu isaanii agarsiisa.</ahelp>"
+
+#. YDwV9
+#: 01130200.xhp
+msgctxt ""
+"01130200.xhp\n"
+"par_id3156344\n"
+"help.text"
+msgid "Here you can return to the main page of the <link href=\"text/shared/autopi/01130000.xhp\">Document Converter Wizard</link>."
+msgstr "Asitti, gara Fuula Duraa masaka jijjiirtuu galmeetti <link href=\"text/shared/autopi/01130000.xhp\"> deebi'uu ni dandeessa</link>."
+
+#. ELq8D
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Euro Converter Wizard"
+msgstr "Masaka jijjiirtuu Euro"
+
+#. EKHAB
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"bm_id3154840\n"
+"help.text"
+msgid "<bookmark_value>Euro; Euro Converter Wizard</bookmark_value><bookmark_value>wizards; Euro Converter</bookmark_value><bookmark_value>converters; Euro converter</bookmark_value><bookmark_value>currencies; converters</bookmark_value>"
+msgstr "<bookmark_value>Euro; Masaka jijjiirtuu Euro</bookmark_value><bookmark_value>Masakaalee;Jijjiirtuu Euro</bookmark_value><bookmark_value>Jijjiirtuuwwan;Jijjiirtuu Euro</bookmark_value><bookmark_value>Maallaqa; Jijjiirtuuwwan</bookmark_value>"
+
+#. ERtPD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3154840\n"
+"help.text"
+msgid "Euro Converter Wizard"
+msgstr "Masaka jijjiirtuu Euro"
+
+#. uwNbS
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3149140\n"
+"help.text"
+msgid "<variable id=\"eurokonv\"><ahelp hid=\".\">Converts the currency amounts found in $[officename] Calc documents and in fields and tables of $[officename] Writer documents into euros.</ahelp></variable>"
+msgstr ""
+
+#. 9JFzG
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3145669\n"
+"help.text"
+msgid "Only closed files are converted. It is possible, however, to use the Euro Converter in an open $[officename] Calc document. In this case, a separate dialog opens. This dialog is described <link href=\"text/shared/autopi/01150000.xhp\">at the end of this section</link>."
+msgstr "Faayiloota cufaman qofaatu jijjiiramu. Galmee $[officename] Calc banaa keessatti jijjiirtuu Euro fayyadamuun ni danda'ama. Haala kana keessatti, qaaqni adda ba'aan ni banama. Qaaqni kun xumura kutaa kanaarratti <link href=\"text/shared/autopi/01150000.xhp\">ibsameera</link>."
+
+#. qBXtJ
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147275\n"
+"help.text"
+msgid "Only the currencies of the countries participating in the European Monetary Union are converted."
+msgstr "Maalaqa Biyyoota gamtaa maallaqa awurooppaa keessatti hirmaatanii qofaatu jijjiirama."
+
+#. ayFSS
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156152\n"
+"help.text"
+msgid "Extent"
+msgstr "Bal'ina"
+
+#. FNztD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156155\n"
+"help.text"
+msgid "Single $[officename] Calc document"
+msgstr "Galmee $[officename] Calc qeenxee"
+
+#. BELnK
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155420\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts a single $[officename] Calc file.</ahelp> To convert fields and tables in $[officename] Writer, first mark the <emph>Also convert fields and tables in text documents </emph>check box."
+msgstr ""
+
+#. h5BYq
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153541\n"
+"help.text"
+msgid "Complete Directory"
+msgstr "Galeeloo guutuu"
+
+#. dMZQs
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150670\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts all $[officename] Calc and $[officename] Writer documents and templates in the selected directory.</ahelp>"
+msgstr ""
+
+#. i4GGG
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3149516\n"
+"help.text"
+msgid "Currencies"
+msgstr "Maallaqa"
+
+#. MF4uh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3156002\n"
+"help.text"
+msgid "Specifies the currency to be converted into euros."
+msgstr ""
+
+#. WXetC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3150275\n"
+"help.text"
+msgid "Source directory / Source Document"
+msgstr "Galeeloo maddaa / galmee maddaa"
+
+#. r6grs
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154898\n"
+"help.text"
+msgid "<ahelp hid=\".\">Indicates the directory or the name of the single document to be converted.</ahelp>"
+msgstr ""
+
+#. ncDhB
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3151385\n"
+"help.text"
+msgid "..."
+msgstr "..."
+
+#. Ecwmi
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147264\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog to select the desired directory or document.</ahelp>"
+msgstr ""
+
+#. AoRar
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3147560\n"
+"help.text"
+msgid "Including Subfolders"
+msgstr "Cita ukaankaa dabalatee"
+
+#. FsG9U
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3152771\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies whether all subfolders of the selected directory are included.</ahelp>"
+msgstr ""
+
+#. 8ZEme
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3150542\n"
+"help.text"
+msgid "Also convert fields and tables in text documents"
+msgstr "Dirreewwanii fi gabateewwan galmeewwan barruu keessaa dabalataan jijjiira"
+
+#. PYHYz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150398\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts currency amounts found in fields and tables of $[officename] Writer documents.</ahelp>"
+msgstr ""
+
+#. yvDAz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3148453\n"
+"help.text"
+msgid "Values in the text document that are not in fields or tables are not converted."
+msgstr "Gatiiwwan galmee barruu keessaa kanneen dirreewwan ykn gabateewwan keessa hin jirre , hin jijjiiraman."
+
+#. AxFBW
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3151382\n"
+"help.text"
+msgid "Temporarily unprotect sheet without query"
+msgstr "Gaafataa malee waraqaa yeroodhaaf hin eegu"
+
+#. N2hUD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153192\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies that sheet protection will be disabled during conversion and thereafter re-enabled. If sheet protection is covered by a password, you will see a dialog for entering the password.</ahelp>"
+msgstr ""
+
+#. NDAMC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3147288\n"
+"help.text"
+msgid "Target Directory"
+msgstr "Galeeloo qiyyeeffannoo"
+
+#. iAJop
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153771\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the folder and path in which the converted files are to be saved.</ahelp>"
+msgstr ""
+
+#. gzfBf
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154151\n"
+"help.text"
+msgid "<emph>...</emph>"
+msgstr "<emph>...</emph>"
+
+#. YMDjh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3147427\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog in which you can select a directory to hold the converted files.</ahelp>"
+msgstr ""
+
+#. ULUG4
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155854\n"
+"help.text"
+msgid "Cancel"
+msgstr "Dhiisi"
+
+#. bT4oP
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153190\n"
+"help.text"
+msgid "<ahelp hid=\".\">Closes the Euro Converter.</ahelp>"
+msgstr ""
+
+#. gFZDz
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3154986\n"
+"help.text"
+msgid "Help"
+msgstr "Gargaarsa"
+
+#. GDiFH
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155413\n"
+"help.text"
+msgid "<ahelp hid=\".\">Activates the help for the dialog.</ahelp>"
+msgstr ""
+
+#. 5uzLq
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3148616\n"
+"help.text"
+msgid "Convert"
+msgstr "Jijjiiri"
+
+#. LHvH2
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150011\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the conversion.</ahelp>"
+msgstr ""
+
+#. JLBGT
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3146975\n"
+"help.text"
+msgid "During conversion, a page showing the progress status is displayed."
+msgstr "Yeroo jijjiirraa, fuulli agarsiistuu itti fufiinsaa ni mul'ifama."
+
+#. JP7s8
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155308\n"
+"help.text"
+msgid "Back"
+msgstr "Duuba"
+
+#. RGPAV
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153953\n"
+"help.text"
+msgid "<ahelp hid=\".\">Returns to the first page of the Euro Converter.</ahelp>"
+msgstr ""
+
+#. GD48d
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154640\n"
+"help.text"
+msgid "If the current document is a $[officename] Calc document or template, you can call up the Euro Converter using the corresponding icon in the Tools bar. This icon is hidden by default. To display the Euro Converter icon, click the arrow at the end of the Tools bar, select the <emph>Visible Buttons</emph> command and activate the <emph>Euro Converter</emph> icon."
+msgstr ""
+
+#. tBweT
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3155415\n"
+"help.text"
+msgid "<image id=\"img_id3150417\" src=\"cmd/sc_euroconverter.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150417\">Icon</alt></image>"
+msgstr "<image id=\"img_id3150417\" src=\"cmd/sc_euroconverter.png\" width=\"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3150417\">Sajoo</alt></image>"
+
+#. B3FT7
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3149418\n"
+"help.text"
+msgid "Euro Converter"
+msgstr "Jijjiirtuu euro"
+
+#. cq2Dh
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3144766\n"
+"help.text"
+msgid "The <emph>Euro Converter</emph> dialog contains the following functions:"
+msgstr "Qaaqni <emph>Euro jijjiiru</emph> faankishinoota armaan gadii of keessaa qaba:"
+
+#. DRxvg
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3148387\n"
+"help.text"
+msgid "Entire document"
+msgstr "Galmee guutuu"
+
+#. jkLfd
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3150113\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts the entire document.</ahelp>"
+msgstr ""
+
+#. FFBCA
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3159110\n"
+"help.text"
+msgid "Currencies"
+msgstr "Maallaqa"
+
+#. AcEzX
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3148834\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the currency to be converted into euros.</ahelp>"
+msgstr ""
+
+#. uon72
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155084\n"
+"help.text"
+msgid "Selection"
+msgstr "Filannoo"
+
+#. cmdme
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3152999\n"
+"help.text"
+msgid "Select the cells you want to convert in this range, if you did not mark the <emph>Entire document</emph> check box. Select an option and then click the desired entries in the <emph>Templates</emph> / <emph>Currency ranges</emph> field. The selected range will be visible as such in the document. Click <emph>Convert</emph> to carry out the conversion."
+msgstr "Hangii kana keessatti mandheewwan jijjiiruu barbaaddu fili, yoo halojii <emph>galmee mara </emph> keessaa mallatteessuu baatte. Dirqala filiitii galtuuwwan <emph>qajojiiwwan</emph>dirree/ <emph>hangiiwwan maallaqaa</emph> keessaa barbaachisoo cuqaasi. Hangii filatamaan akkuma galmee keessaatti mul'atu. Jijjiirraa raawwachuuf <emph>jijjiiri</emph>cuqaasi."
+
+#. pH3eL
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153950\n"
+"help.text"
+msgid "Cell Styles"
+msgstr "Haalatawwan mandhee"
+
+#. XigoC
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3145162\n"
+"help.text"
+msgid "<ahelp hid=\".\">All cells with the selected Cell Styles are converted.</ahelp>"
+msgstr ""
+
+#. ASWK8
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3152974\n"
+"help.text"
+msgid "Currency cells in the current sheet"
+msgstr "Mandheewwan maallaqaa waraqaa ammee keessaa"
+
+#. GQCTN
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154479\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the active spreadsheet will be converted.</ahelp>"
+msgstr ""
+
+#. jUZLF
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3156276\n"
+"help.text"
+msgid "Currency cells in the entire document"
+msgstr "Man'eewwan maallaqaa galmee guutuu keessaa"
+
+#. 2aiVu
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3146912\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the active document will be converted.</ahelp>"
+msgstr ""
+
+#. RDBDD
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3155444\n"
+"help.text"
+msgid "Selected range"
+msgstr "Hangii filatame"
+
+#. 6dm7F
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3153736\n"
+"help.text"
+msgid "<ahelp hid=\".\">All currency cells in the range selected before the converter was called will be converted.</ahelp> All cells must have the same format so that they can be recognized as a selected range."
+msgstr ""
+
+#. JfTz9
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"hd_id3153927\n"
+"help.text"
+msgid "Templates / Currency ranges"
+msgstr "Qajojiiwwan / Hangiiwwan mallaqaa"
+
+#. nCBWu
+#: 01150000.xhp
+msgctxt ""
+"01150000.xhp\n"
+"par_id3154756\n"
+"help.text"
+msgid "<ahelp hid=\".\">Displays the ranges to be converted from the list.</ahelp>"
+msgstr ""
+
+#. zm6iT
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Address Data Source"
+msgstr "Teessoo madda deetaa"
+
+#. UdqCV
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3147285\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170000.xhp\">Address Data Source</link>"
+msgstr "<link href=\"text/shared/autopi/01170000.xhp\">Teessoo madda deetaa</link>"
+
+#. BEBQU
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3153910\n"
+"help.text"
+msgid "<ahelp hid=\".\">This wizard registers an existing address book as a data source in $[officename].</ahelp>"
+msgstr "<ahelp hid=\".\"> Masakaan kun yaadannoo teessoo jiru $[officename] keessatti akka madda deetaatti galmeessa.</ahelp>"
+
+#. SbPAF
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3151226\n"
+"help.text"
+msgid "You can register address data and other data sources in $[officename] at any time:"
+msgstr "Yeroo kamiyyuu, deetaa teessoo fi maddoolee deetaa biroo $[officename] keessatti galmeessuu ni dandeessa:"
+
+#. RQrEJ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3153527\n"
+"help.text"
+msgid "Please select the type of your external address book"
+msgstr "Maaloo| akaakuu yaadannoo teessoo kee filadhu"
+
+#. 6XszA
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id5782036\n"
+"help.text"
+msgid "Not all types are available on all systems."
+msgstr "Akaakuuwwan marti sirnoota mararratti hin argaman."
+
+#. Ux9cU
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3895382\n"
+"help.text"
+msgid "Thunderbird"
+msgstr ""
+
+#. vaHTD
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6709494\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Thunderbird or Icedove.</ahelp>"
+msgstr "<ahelp hid=\".\">Yoo yaadannoo teessoo gurmuudhaan itti fayyadamaa jiraatte, dirqala kana filadhu.</ahelp>"
+
+#. MDJ87
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id9215979\n"
+"help.text"
+msgid "KDE Address book"
+msgstr "Yaadannoo teessoo KDE"
+
+#. cWAyw
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id585650\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in KDE Address book.</ahelp>"
+msgstr "<ahelp hid=\".\">Yoo yaadannoo teessoo, yaadannoo teessoo KDE keessaatti fayyadamaa jiraatte, dirqala kana filadhu.</ahelp>"
+
+#. yMyJB
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4791405\n"
+"help.text"
+msgid "macOS Address book"
+msgstr ""
+
+#. ehrbJ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6873683\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in macOS Address book.</ahelp>"
+msgstr ""
+
+#. diDWW
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4517654\n"
+"help.text"
+msgid "Evolution"
+msgstr "Jijjiirama suutawaa"
+
+#. aQAVp
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id4368724\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Evolution.</ahelp>"
+msgstr "<ahelp hid=\".\">Yoo yaadannoo teessoo akka jijjiirama suutawaatti fayyadamaa jiraatte, dirqala kana filadhu.</ahelp>"
+
+#. qw2A9
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id4218268\n"
+"help.text"
+msgid "Evolution LDAP"
+msgstr "Jijjiirama suutawaa LDAP"
+
+#. 2zmtZ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id6269112\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Evolution LDAP.</ahelp>"
+msgstr "<ahelp hid=\".\">Yoo yaadannoo teessoo akka jijjiirama suutawaa LDAP'tti fayyadamaa jiraatte, dirqala kana filadhu.</ahelp>"
+
+#. duPBr
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id8174382\n"
+"help.text"
+msgid "Groupwise"
+msgstr "Gurmuudhaan"
+
+#. ooRzZ
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id5294045\n"
+"help.text"
+msgid "<ahelp hid=\".\">Select this option if you already use an address book in Groupwise.</ahelp>"
+msgstr "<ahelp hid=\".\">Yoo yaadannoo teessoo gurmuudhaan itti fayyadamaa jiraatte, dirqala kana filadhu.</ahelp>"
+
+#. HWNER
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3150976\n"
+"help.text"
+msgid "Other external data source"
+msgstr "Madda deetaa alaantoo biroo"
+
+#. BWaJb
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3156192\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/selecttypepage/other\">Select this option if you want to register another data source as address book in $[officename].</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/selecttypepage/other\">$[officename] keessatti madda deetaa biroo akka yaadannoo teessootti galmeessuu yoo barbaadde, dirqala kana filadhu.</ahelp>"
+
+#. 8uMDB
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3145674\n"
+"help.text"
+msgid "Cancel"
+msgstr "Dhiisi"
+
+#. vb6Vy
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3154306\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_CANCEL\">Exits the wizard without implementing any changes.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_CANCEL\">Exits the wizard without implementing any changes.</ahelp>"
+
+#. qGp5U
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3148943\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_PREVIOUS\" visibility=\"hidden\">Go to previous step.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_PREVIOUS\" visibility=\"hidden\">Gara sadarkaa duraanitti deemi.</ahelp>"
+
+#. YwCDw
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3148946\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_NEXT\" visibility=\"hidden\">Go to next step.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_NEXT\" visibility=\"hidden\">Gara sadarkaa itti aanuu deemi.</ahelp>"
+
+#. NVj5A
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"hd_id3147303\n"
+"help.text"
+msgid "Create"
+msgstr "Uumi"
+
+#. GcKDS
+#: 01170000.xhp
+msgctxt ""
+"01170000.xhp\n"
+"par_id3149795\n"
+"help.text"
+msgid "<ahelp hid=\"HID_ABSPILOT_FINISH\">Establishes the connection to the data source and closes the dialog.</ahelp>"
+msgstr "<ahelp hid=\"HID_ABSPILOT_FINISH\">Walindhaa madda deetaa wajjin uumeet qaaqa cufa.</ahelp>"
+
+#. SK6BS
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Additional Settings"
+msgstr "Qindaa'inoota Dabalataa"
+
+#. SAEvC
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"hd_id3154094\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170200.xhp\">Additional Settings</link>"
+msgstr "<link href=\"text/shared/autopi/01170200.xhp\">Qindaa'inoota Dabalataa</link>"
+
+#. DFBck
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"par_id3143281\n"
+"help.text"
+msgid "<ahelp hid=\".\">Allows you to enter additional settings for other external data sources.</ahelp>"
+msgstr ""
+
+#. zrAAW
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"hd_id3155555\n"
+"help.text"
+msgid "Settings"
+msgstr "Qindaa'inoota"
+
+#. TNLzG
+#: 01170200.xhp
+msgctxt ""
+"01170200.xhp\n"
+"par_id3153311\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/invokeadminpage/settings\">Calls a dialog in which you can enter additional settings.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/invokeadminpage/settings\">Qaaqa qindaa'inoota dabalataa keessatti galchitu waama.</ahelp>"
+
+#. 5e2zp
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"tit\n"
+"help.text"
+msgid "Select Table"
+msgstr "Gabatee fili"
+
+#. TUPDb
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"hd_id3149748\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170300.xhp\">Select Table</link>"
+msgstr "<link href=\"text/shared/autopi/01170300.xhp\">Gabatee fili</link>"
+
+#. pQydK
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3156211\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies a table from the Seamonkey / Netscape address book source that is used as the address book in $[officename].</ahelp>"
+msgstr "<ahelp hid=\".\">Madda yaadannoo teessoo Mozilla / Netscape 6.x kan $[officename] keessatti akka yaadannoo teessootti tajaajilu irraa gabatee ifteessa.</ahelp>"
+
+#. Eu86p
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3155150\n"
+"help.text"
+msgid "All tables from the first user profile will be registered for this data source in $[officename]. You must specify one as the table that will be used in the $[officename] templates."
+msgstr "Gabateewwan danaa fayyadamaa jalqabaa madda deetaa marti $[officename] keessatti galmeeffamu. Qajojii $[officename] keessatti tokko akka gabateetti dirqama ifteessuu qabda."
+
+#. HEARC
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"hd_id3154927\n"
+"help.text"
+msgid "List box"
+msgstr "Saanduqa tarree"
+
+#. DsQYX
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3147043\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/selecttablepage/table\">Specifies the table that is to serve as the address book for the $[officename] templates.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/selecttablepage/table\">Gabatee qajojii $[officename]'tiif akka yaadannoo teessootti tajaajilu ifteessa.</ahelp>"
+
+#. zzChA
+#: 01170300.xhp
+msgctxt ""
+"01170300.xhp\n"
+"par_id3152801\n"
+"help.text"
+msgid "You can make changes to the templates and documents at a later time by choosing <emph>Edit - Exchange Database</emph>."
+msgstr "<emph>Gulaalii - Waljala jijjiirraa Kuusdeetaa</emph> filachuudhaan, sa'aa murtaa'e booda, qajojiilee fi galmeewwan irratti jijjiirama raawwachuu ni dandeessa."
+
+#. cGFhu
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Data Source Title"
+msgstr ""
+
+#. BsQPs
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"hd_id3147000\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170400.xhp\">Data Source Title</link>"
+msgstr ""
+
+#. CKBwu
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_id3144740\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies a location for the address book file and a name under which the data source will be listed in the data source explorer.</ahelp>"
+msgstr "<ahelp hid=\".\">Teessoo faayila yaadannoo teessootiif fi aloolaa madda deetaa keessatti maqaa maddi deetaa ittiin tarreeffaman ifteessa.</ahelp>"
+
+#. gSJGW
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105B7\n"
+"help.text"
+msgid "Location"
+msgstr "Iddoo"
+
+#. bEA2A
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105BB\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the location of the database file.</ahelp>"
+msgstr "<ahelp hid=\".\">Teessoo faayila deetaa beezii ifteessa.</ahelp>"
+
+#. TBChn
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105BE\n"
+"help.text"
+msgid "Browse"
+msgstr "Iyya'i"
+
+#. 3256N
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Specifies the location using a file dialog.</ahelp>"
+msgstr "<ahelp hid=\".\">Qaaqa faayilaatti fayyadamuun teessoo ifteessa.</ahelp>"
+
+#. i7z3t
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C5\n"
+"help.text"
+msgid "Make this address book available to all modules in %PRODUCTNAME"
+msgstr "Yaadannoo teessoo kana moojuliiwwan %PRODUCTNAME keessaa maraaf dhiyeessi"
+
+#. pFkuF
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_idN105C9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Registers the newly created database file in %PRODUCTNAME. The database will then be listed in the Data sources pane (<switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+Shift+F4). If this check box is cleared, the database will be available only by opening the database file.</ahelp>"
+msgstr ""
+
+#. 7MbQ5
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"hd_id3144436\n"
+"help.text"
+msgid "Address book name"
+msgstr "Maqaa yaadannoo teessoo"
+
+#. SfdpW
+#: 01170400.xhp
+msgctxt ""
+"01170400.xhp\n"
+"par_id3154673\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/datasourcepage/name\">Specifies the data source name.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/datasourcepage/name\">Maqaa madda deetaa ifteessa.</ahelp>"
+
+#. BKrWA
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Field Assignment"
+msgstr "Ramaddii Dirree"
+
+#. Zq2BM
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"hd_id3147588\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01170500.xhp\">Field Assignment</link>"
+msgstr "<link href=\"text/shared/autopi/01170500.xhp\">Ramaddii Dirree</link>"
+
+#. yEkbV
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"par_id3143284\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a dialog that allows you to specify the field assignment.</ahelp>"
+msgstr "<ahelp hid=\"\">Qaaqa ramaddii dirree akka ibsitu siif eeyyamu bana.</ahelp>"
+
+#. PhHdF
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"hd_id3152372\n"
+"help.text"
+msgid "Field Assignment"
+msgstr "Ramaddii Dirree"
+
+#. HrTyA
+#: 01170500.xhp
+msgctxt ""
+"01170500.xhp\n"
+"par_id3149549\n"
+"help.text"
+msgid "<ahelp hid=\"modules/sabpilot/ui/fieldassignpage/assign\">Opens the <link href=\"text/shared/01/01110101.xhp\">Templates: Address Book Assignment</link> dialog.</ahelp>"
+msgstr "<ahelp hid=\"modules/sabpilot/ui/fieldassignpage/assign\">Qaaqa<link href=\"text/shared/01/01110101.xhp\">qajojiiwwan: Ramaddii yaadannoo teessoo</link> bana.</ahelp>"

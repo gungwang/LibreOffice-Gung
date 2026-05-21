@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textsimpress0210120000xml" indexer="include" status="PUBLISH">
+<title id="tit">Lines and Arrows</title>
+<filename>/text/simpress/02/10120000.xhp</filename>
+</topic>
+</meta>
+<body>
+<bookmark branch="index" id="bm_id3145799"><bookmark_value>lines;inserting</bookmark_value>
+<bookmark_value>arrows; inserting</bookmark_value>
+<bookmark_value>inserting; lines</bookmark_value>
+<bookmark_value>inserting; arrows</bookmark_value>
+<bookmark_value>dimension lines; drawing</bookmark_value>
+</bookmark>
+<bookmark branch="hid/.uno:ArrowsToolbox" id="bm_id4119521" localize="false"/>
+
+<section id="arrows">
+    <h1 id="hd_id3145799"><variable id="lines_and_arrows_h1"><link href="text/simpress/02/10120000.xhp">Lines and Arrows</link></variable></h1>
+    <paragraph role="paragraph" id="par_id3145790"><ahelp hid=".uno:ArrowsToolbox">Open the <variable id="lines_and_arrows_menu"><menuitem>Lines and Arrows</menuitem></variable> toolbar, where you can add straight lines, lines with arrows, and dimension lines to the current slide or page.</ahelp></paragraph>
+</section>
+
+<tip id="par_idN1071F">If you want, you can add an arrow after you draw a line by choosing Format - Line, and then selecting an arrow style from the Style box.</tip>
+
+<section id="insertline">
+<h2 id="hd_id3153811"><variable id="Lineh1"><link href="text/simpress/02/10120000.xhp">Line</link></variable></h2>
+<paragraph role="paragraph" id="par_id3145114">Draws a straight line where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</paragraph>
+<table id="tbl_id3149875">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3147405">
+<image id="img_id3147299" src="cmd/lc_line.svg" width="1cm" height="1cm"><alt id="alt_id3147299">Icon Line</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3157906">Line</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+
+<bookmark branch="hid/.uno:LineArrowEnd" id="bm_id67434" localize="false"/>
+<h2 id="hd_id3148725">Line Ends with Arrow</h2>
+<paragraph role="paragraph" id="par_id3153034"><ahelp hid=".uno:LineArrowEnd">Draws a straight line that ends with an arrow where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp></paragraph>
+<table id="tbl_id3153934">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3145590">
+<image id="img_id3145596" src="cmd/lc_linearrowend.svg" width="1cm" height="1cm"><alt id="alt_id3145596">Icon Line Ends with Arrow</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3153733">Line Ends with Arrow</paragraph>
+</tablecell>
+</tablerow>
+</table>
+<bookmark branch="hid/.uno:LineArrowCircle" id="bm_id7672082" localize="false"/>
+<h2 id="hd_id3149881">Line with Arrow/Circle</h2>
+<paragraph role="paragraph" id="par_id3147370"><ahelp hid=".uno:LineArrowCircle">Draws a straight line that starts with an arrow and ends with a circle where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp></paragraph>
+<table id="tbl_id3155442">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3156060">
+<image id="img_id3156066" src="cmd/lc_linearrowcircle.svg" width="1cm" height="1cm"><alt id="alt_id3156066">Icon Line with Arrow/Circle</alt> </image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3145297">Line with Arrow/Circle</paragraph>
+</tablecell>
+</tablerow>
+</table>
+<bookmark branch="hid/.uno:LineArrowSquare" id="bm_id5852166" localize="false"/>
+<h2 id="hd_id3149024">Line with Arrow/Square</h2>
+<paragraph role="paragraph" id="par_id3154873"><ahelp hid=".uno:LineArrowSquare">Draws a straight line that starts with an arrow and ends with a square where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp></paragraph>
+<table id="tbl_id3155984">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3155402">
+<image id="img_id3155409" src="cmd/lc_linearrowsquare.svg" width="1cm" height="1cm"><alt id="alt_id3155409">Icon Line with Arrow/Square</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3149446">Line with Arrow/Square</paragraph>
+</tablecell>
+</tablerow>
+</table>
+<bookmark branch="hid/.uno:Line_Diagonal" id="bm_id2983516" localize="false"/>
+<h2 id="hd_id3150967">Line (45°)</h2>
+<paragraph role="paragraph" id="par_id3152929"><ahelp hid=".uno:Line_Diagonal">Draws a straight line that is constrained by angles of 45 degrees.</ahelp></paragraph>
+<table id="tbl_id3147564">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3145202">
+<image id="img_id3145209" src="cmd/lc_line_diagonal.svg" width="1cm" height="1cm"><alt id="alt_id3145209">Icon Line (45°)</alt> </image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3153151">Line (45°)</paragraph>
+</tablecell>
+</tablerow>
+</table>
+<bookmark branch="hid/.uno:LineArrowStart" id="bm_id244870" localize="false"/>
+<h2 id="hd_id3150256">Line Starts with Arrow</h2>
+<paragraph role="paragraph" id="par_id3143236"><ahelp hid=".uno:LineArrowStart">Draws a straight line that starts with an arrow where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp></paragraph>
+<table id="tbl_id3149759">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3151172">
+<image id="img_id3151178" src="cmd/lc_linearrowstart.svg" width="1cm" height="1cm"><alt id="alt_id3151178">Icon Line Starts with Arrow</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3148830">Line Starts with Arrow</paragraph>
+</tablecell>
+</tablerow>
+</table>
+<bookmark branch="hid/.uno:LineCircleArrow" id="bm_id639243" localize="false"/>
+<h2 id="hd_id3154295">Line with Circle/Arrow</h2>
+<paragraph role="paragraph" id="par_id3158403"><ahelp hid=".uno:LineCircleArrow">Draws a straight line that starts with a circle and ends with an arrow where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp></paragraph>
+<table id="tbl_id3147506">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3154276">
+<image id="img_id3149152" src="cmd/lc_linecirclearrow.svg" width="1cm" height="1cm"><alt id="alt_id3149152">Icon Line with Circle/Arrow</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3154100">Line with Circle/Arrow</paragraph>
+</tablecell>
+</tablerow>
+</table>
+<bookmark branch="hid/.uno:LineSquareArrow" id="bm_id9212422" localize="false"/>
+<h2 id="hd_id3153688">Line with Square/Arrow</h2>
+<paragraph role="paragraph" id="par_id3149800"><ahelp hid=".uno:LineSquareArrow">Draws a straight line that starts with a square and ends with an arrow where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp></paragraph>
+<table id="tbl_id3154607">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3153538">
+<image id="img_id3149931" src="cmd/lc_linesquarearrow.svg" width="1cm" height="1cm"><alt id="alt_id3149931">Icon Line with Square/Arrow</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3150975">Line with Square/Arrow</paragraph>
+</tablecell>
+</tablerow>
+</table>
+<bookmark branch="hid/.uno:MeasureLine" id="bm_id8363048" localize="false"/>
+<h2 id="hd_id3154477">Dimension Line</h2>
+<paragraph role="paragraph" id="par_id3146124"><ahelp hid=".uno:MeasureLine">Draws a line that displays the dimension length bounded by guides.</ahelp> Dimension lines automatically calculate and display linear dimensions. To draw a dimension line, open the <emph>Arrows</emph> toolbar, and click the <emph>Dimension Line</emph> icon. Move your pointer to where you want the line to start and drag to draw the dimension line. Release when finished.</paragraph>
+<tip id="par_id3148407">If you want the dimension line to be the same length as the side of a nearby object, hold down the <switchinline select="sys"><caseinline select="MAC">Command
+</caseinline><defaultinline>Ctrl</defaultinline></switchinline> key while dragging. To constrain the dimension line to 45 degrees, hold down the Shift key while dragging.</tip>
+<paragraph role="paragraph" id="par_id3148986">In %PRODUCTNAME Draw, a dimension line is always inserted on the <link href="text/sdraw/guide/layer_tipps.xhp">layer</link> called <emph>Dimension Lines</emph>. If you set that layer to invisible, you will not see any dimension line in your drawing.</paragraph>
+<embed href="text/simpress/00/00000405.xhp#sydimension_line"/>
+<bookmark branch="hid/.uno:LineArrows" id="bm_id6715830" localize="false"/>
+<h2 id="hd_id3149784">Line with Arrows</h2>
+<paragraph role="paragraph" id="par_id3156350"><ahelp hid=".uno:LineArrows">Draws a straight line with arrows at both ends where you drag in the current document. To constrain the line to 45 degrees, hold down Shift while you drag.</ahelp></paragraph>
+<table id="tbl_id3148975">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3147218">
+<image id="img_id3147224" src="cmd/lc_linearrows.svg" width="1cm" height="1cm"><alt id="alt_id3147224">Icon Line with Arrows</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3149435">Line with Arrows</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</body>
+</helpdocument>

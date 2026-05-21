@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textscalc0104070000xml" indexer="include" status="PUBLISH">
+<title id="tit">Named Ranges and Expressions</title>
+<filename>/text/scalc/01/04070000.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<bookmark branch="hid/.uno:NamesMenu" id="bm_id2043214" localize="false"/>
+<section id="namen">
+<h1 id="hd_id3153951"><link href="text/scalc/01/04070000.xhp">Named Ranges and Expressions</link></h1>
+<paragraph role="paragraph" id="par_id3145801"><ahelp hid=".">Allows you to name the different sections of your spreadsheet document.</ahelp> By naming the different sections, you can easily <link href="text/shared/01/navigator.xhp">navigate</link> through the spreadsheet documents and find specific information.</paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/scalc/00/00000404.xhp#names"/>
+</section>
+
+<embed href="text/scalc/01/04070100.xhp#definenames"/>
+<embed href="text/scalc/01/ManageNames.xhp#manage_names"/>
+<embed href="text/scalc/01/04070200.xhp#insertname"/>
+<embed href="text/scalc/01/04070300.xhp#create_names"/>
+<embed href="text/scalc/01/04070400.xhp#define_label_range"/>
+
+</body>
+</helpdocument>

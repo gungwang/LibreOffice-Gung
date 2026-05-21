@@ -1,0 +1,532 @@
+#. extracted from dictionaries/pt_BR/dialog
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2024-04-20 14:12+0200\n"
+"PO-Revision-Date: 2023-10-17 14:31+0000\n"
+"Last-Translator: Saroj Dhakal <lotusnagarkot@gmail.com>\n"
+"Language-Team: Nepali <https://translations.documentfoundation.org/projects/libo_ui-master/dictionariespt_brdialog/ne/>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1389977349.000000\n"
+
+#. Hf44z
+#: OptionsDialog.xcu
+msgctxt ""
+"OptionsDialog.xcu\n"
+"..OptionsDialog.Nodes.LanguageSettings\n"
+"Label\n"
+"value.text"
+msgid "Languages and Locales"
+msgstr ""
+
+#. BnABt
+#: OptionsDialog.xcu
+msgctxt ""
+"OptionsDialog.xcu\n"
+"..OptionsDialog.Nodes.LanguageSettings.Leaves.org.openoffice.lightproof.pt_BR\n"
+"Label\n"
+"value.text"
+msgid "Grammar Checking (Portuguese)"
+msgstr "व्याकरण जाँच (पोर्चुगिज)"
+
+#. UbDte
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spelling\n"
+"property.text"
+msgid "Grammar checking"
+msgstr "व्याकरण जाँच"
+
+#. Y3GdR
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_grammar\n"
+"property.text"
+msgid "Identify use of grave accent"
+msgstr "गम्भीर उच्चारणको प्रयोग पहिचान गर्नुहोस्"
+
+#. y47wU
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"grammar\n"
+"property.text"
+msgid "Grave accent"
+msgstr "ग्रेभ अक्षरिक"
+
+#. KTKVL
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_cap\n"
+"property.text"
+msgid "Check missing capitalization of sentences."
+msgstr "वाक्यहरूको हराइरहेको क्यापिटलाइजेशन जाँच गर्नुहोस्।"
+
+#. czHGi
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"cap\n"
+"property.text"
+msgid "Capitalization"
+msgstr "क्यापिटलाइजेशन"
+
+#. 6q87h
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_dup\n"
+"property.text"
+msgid "Check repeated words."
+msgstr "दोहोर्याइएको शब्दहरू जाँच गर्नुहोस्।"
+
+#. vFbJC
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"dup\n"
+"property.text"
+msgid "Word duplication"
+msgstr "दोहोरिएका शब्द"
+
+#. CkE8A
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_pair\n"
+"property.text"
+msgid "Check missing or extra parentheses and quotation marks."
+msgstr "छुटेको वा अतिरिक्त कोष्ठक र उद्धरण चिन्हहरू जाँच गर्नुहोस्।"
+
+#. DWaBt
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"pair\n"
+"property.text"
+msgid "Parentheses"
+msgstr "कोष्ठकहरू"
+
+#. EJA3T
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"punctuation\n"
+"property.text"
+msgid "Punctuation"
+msgstr "विराम चिह्न"
+
+#. GfJce
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_spaces\n"
+"property.text"
+msgid "Check single spaces between words."
+msgstr "शब्दहरू बीच एकल स्पेस जाँच गर्नुहोस्।"
+
+#. 2Cz8d
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spaces\n"
+"property.text"
+msgid "Word spacing"
+msgstr "शब्द स्पेसिङ"
+
+#. jh9qT
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_mdash\n"
+"property.text"
+msgid "Force unspaced em dash instead of spaced en dash."
+msgstr "स्पेससहितको en dash (–) को सट्टा स्पेसबिनाको em dash (—) को प्रयोगमा जोड दिनुहोस।"
+
+#. QUZwx
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"mdash\n"
+"property.text"
+msgid "Em-dash"
+msgstr "Em-dash"
+
+#. ijU9H
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_ndash\n"
+"property.text"
+msgid "Force spaced en dash instead of unspaced em dash."
+msgstr ""
+
+#. tyEkH
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"ndash\n"
+"property.text"
+msgid "En-dash"
+msgstr "एम-ड्यास"
+
+#. ZQhno
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_quotation\n"
+"property.text"
+msgid "Check double quotation marks: \"x\" → “x”"
+msgstr "दोहोरो उद्धरण चिन्हहरू जाँच गर्नुहोस्: \"x\" → \"x\""
+
+#. bC8RD
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"quotation\n"
+"property.text"
+msgid "Quotation marks"
+msgstr "उद्धरण चिन्हहरू"
+
+#. CARTv
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_times\n"
+"property.text"
+msgid "Check true multiplication sign: 5x5 → 5×5"
+msgstr "सही गुणन चिन्ह जाँच गर्नुहोस्: ५x५ → ५×५"
+
+#. Y5eQr
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"times\n"
+"property.text"
+msgid "Multiplication sign"
+msgstr "गुणन चिन्ह"
+
+#. ykeAk
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_spaces2\n"
+"property.text"
+msgid "Check single spaces between sentences."
+msgstr "वाक्यहरू बीच एकल स्पेस जाँच गर्नुहोस्।"
+
+#. uHT7U
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spaces2\n"
+"property.text"
+msgid "Sentence spacing"
+msgstr "वाक्य स्पेसिङ"
+
+#. WEAJJ
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_spaces3\n"
+"property.text"
+msgid "Check more than two extra space characters between words and sentences."
+msgstr "शब्दहरू र वाक्यहरू बीच दुई भन्दा बढी अतिरिक्त स्पेस वर्णहरू जाँच गर्नुहोस्।"
+
+#. XbDmT
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spaces3\n"
+"property.text"
+msgid "More spaces"
+msgstr "थप ठाउँहरू"
+
+#. Fthsx
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_minus\n"
+"property.text"
+msgid "Change hyphen characters to real minus signs."
+msgstr "हाइफन क्यारेक्टरहरूलाई वास्तविक माइनस चिन्हहरूमा परिवर्तन गर्नुहोस्।"
+
+#. VNuhF
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"minus\n"
+"property.text"
+msgid "Minus sign"
+msgstr "माइनस चिन्ह"
+
+#. nvi9G
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_apostrophe\n"
+"property.text"
+msgid "Change typewriter apostrophe, single quotation marks and correct double primes."
+msgstr "टाइपराइटर एपोस्ट्रोफी, एकल उद्धरण चिन्हहरू र दोहोरो प्राइमहरू परिवर्तन गर्नुहोस्।"
+
+#. Daynz
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"apostrophe\n"
+"property.text"
+msgid "Apostrophes"
+msgstr "अपोस्ट्रोफ"
+
+#. 5qDDv
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_ellipsis\n"
+"property.text"
+msgid "Replace three dots with ellipsis."
+msgstr "तीनवटा थोप्लाहरूलाई एलिपसिसले बदल्नुहोस्।"
+
+#. ngM8A
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"ellipsis\n"
+"property.text"
+msgid "Ellipsis"
+msgstr "बाँकी दुई डट"
+
+#. 5dkwv
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"others\n"
+"property.text"
+msgid "Others"
+msgstr "अन्य"
+
+#. ifGmB
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_metric\n"
+"property.text"
+msgid "Identify redundant terms: \"criar novo\", \"subir para cima\", \"beco sem saída\", \"regra geral\"."
+msgstr ""
+
+#. EgY9b
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"metric\n"
+"property.text"
+msgid "Pleonasms"
+msgstr "प्लेओनास्म"
+
+#. wAFVA
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_gerund\n"
+"property.text"
+msgid "Inadequate use of gerund: \"estarei trabalhando\", \"vou estar fazendo\"."
+msgstr ""
+
+#. 3cDKm
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"gerund\n"
+"property.text"
+msgid "Gerundisms"
+msgstr "जेरन्डिजम"
+
+#. eJcDX
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_nonmetric\n"
+"property.text"
+msgid "Ugly or unpleasant sound: \"por cada\"."
+msgstr "कुरूप वा अप्रिय आवाज: \"por cada\"।"
+
+#. Bidr9
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"nonmetric\n"
+"property.text"
+msgid "Cacophonous sound"
+msgstr "क्याकोफोनस ध्वनि"
+
+#. funWi
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_paronimo\n"
+"property.text"
+msgid "Words that are pronounced or written in a similar way but which have different lexical meanings."
+msgstr "शब्दहरू जुन बोल्दा र लेख्दा उस्तै हुन्छन् तर शाब्दिक अर्थ भने भिन्न हुन सक्छन।"
+
+#. ua58D
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"paronimo\n"
+"property.text"
+msgid "Paronyms"
+msgstr ""
+
+#. nJ4AT
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_composto\n"
+"property.text"
+msgid "Compound words written separatedly: \"auto escola\", \"sub contratado\"."
+msgstr ""
+
+#. 5TS3y
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"composto\n"
+"property.text"
+msgid "Compound terms"
+msgstr "मिश्रित सर्तहरू"
+
+#. RM535
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_malmau\n"
+"property.text"
+msgid "Use of \"mal\" or \"mau\"."
+msgstr "\"mal\" वा \"mau\" को प्रयोग।"
+
+#. SwvCV
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"malmau\n"
+"property.text"
+msgid "\"Mal\" or \"Mau\""
+msgstr "\"Mal\" वा \"Mau\""
+
+#. pC8xk
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_aha\n"
+"property.text"
+msgid "Use of há or a."
+msgstr "há वा a को प्रयोग।"
+
+#. HGVSj
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"aha\n"
+"property.text"
+msgid "\"Há\" or \"a\""
+msgstr "\"Há\" वा \"a\""
+
+#. cBTLG
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_meiameio\n"
+"property.text"
+msgid "Use of \"meia\" or \"meio\"."
+msgstr "\"meia\" वा \"meio\" को प्रयोग।"
+
+#. RxzDW
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"meiameio\n"
+"property.text"
+msgid "\"Meia\" or \"meio\""
+msgstr "\"Meia\" वा \"meio\""
+
+#. bNA4x
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_verbo\n"
+"property.text"
+msgid "Check verbal agreement."
+msgstr "मौखिक सम्झौता जाँच।"
+
+#. Ekweu
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"verbo\n"
+"property.text"
+msgid "Verbal agreement"
+msgstr "मौखिक सम्झौता"
+
+#. wRBb9
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_pronominal\n"
+"property.text"
+msgid "Position that personal pronouns occupy in relation to the verb."
+msgstr "क्रियाको सम्बन्धमा व्यक्तिगत सर्वनामहरूले ओगटेको स्थिति।"
+
+#. FHPjP
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"pronominal\n"
+"property.text"
+msgid "Pronominal placement"
+msgstr "सर्वनाम प्लेसमेंट"
+
+#. iiTDb
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_pronome\n"
+"property.text"
+msgid "Use of pronoun."
+msgstr "सर्वनाम को प्रयोग।"
+
+#. ETD6e
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"pronome\n"
+"property.text"
+msgid "Use of pronouns"
+msgstr "सर्वनामको प्रयोग।"
+
+#. szSVE
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_porque\n"
+"property.text"
+msgid "Check for \"porque\", \"por que\", \"porquê\" and \"por quê\"."
+msgstr ""
+
+#. 7QjsH
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"porque\n"
+"property.text"
+msgid "Use of \"porquê\""
+msgstr ""

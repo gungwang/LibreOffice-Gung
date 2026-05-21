@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+
+		<helpdocument version="1.0">
+<meta>
+<topic id="textsimpressmain0113xml" indexer="include" status="PUBLISH">
+<title id="tit" xml-lang="en-US">Modify</title>
+<filename>/text/simpress/main0113.xhp</filename>
+</topic>
+</meta>
+<body>
+<section id="modify">
+<bookmark xml-lang="en-US" branch="hid/.uno:ModifyMenu" id="bm_id1189001" localize="false"/><h1 id="hd_id3154020"><link href="text/simpress/main0113.xhp">Modify</link></h1>
+<paragraph role="paragraph" id="par_id3154321" xml-lang="en-US"><ahelp hid=".">Contains commands for modifying objects in your document.</ahelp></paragraph>
+</section>
+<h2 id="hd_id3153188"><link href="text/shared/02/05090000.xhp">Rotate</link></h2>
+<paragraph role="paragraph" id="par_id3149378" xml-lang="en-US">Rotates the selected object(s).</paragraph>
+<embed href="text/shared/01/05240000.xhp#flip"/>
+<embed href="text/simpress/01/13050000.xhp#convert"/>
+<embed href="text/simpress/01/05250000.xhp#arrange"/>
+<embed href="text/shared/01/05070000.xhp#alignment"/>
+<embed href="text/shared/01/05360000.xhp#distribute_selection"/>
+<h2 id="hd_id3153966"><link href="text/shared/01/05190000.xhp">Name Object</link></h2>
+<embed href="text/shared/01/05190000.xhp#name"/>
+<h2 id="hd_id3154656"><link href="text/shared/01/05290100.xhp">Group</link></h2>
+<embed href="text/shared/01/05290100.xhp#gruppierentext"/>
+<h2 id="hd_id3153484"><link href="text/shared/01/05290200.xhp">Ungroup</link></h2>
+<embed href="text/shared/01/05290200.xhp#aufhebentext"/>
+<h2 id="hd_id3148870"><link href="text/shared/01/05290300.xhp">Enter Group</link></h2>
+<embed href="text/shared/01/05290300.xhp#betretentext"/>
+<h2 id="hd_id3143233"><link href="text/shared/01/05290400.xhp">Exit Group</link></h2>
+<embed href="text/shared/01/05290400.xhp#verlassentext"/>
+<embed href="text/simpress/01/13140000.xhp#combine"/>
+<embed href="text/simpress/01/13150000.xhp#split"/>
+<embed href="text/simpress/01/13180000.xhp#shapes"/>
+<embed href="text/simpress/01/13160000.xhp#connect"/>
+<embed href="text/simpress/01/13170000.xhp#break"/>
+</body>
+</helpdocument>

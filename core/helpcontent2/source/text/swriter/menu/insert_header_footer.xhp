@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textswritermenuinsert_header_footerxml" indexer="include" status="PUBLISH">
+    <title id="tit">Header and Footer</title>
+    <filename>/text/swriter/menu/insert_header_footer.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+
+<section id="header_and_footer_submenu">
+<bookmark branch="hid/.uno:InsertHeaderFooterMenu" id="bm_id030720160442349015" localize="false"/>
+
+<h1 id="hd_id030720160441573285"><link href="text/swriter/menu/insert_header_footer.xhp">Header and Footer</link></h1>
+<paragraph id="par_id030720160442296603" role="paragraph"><ahelp hid=".">This submenu includes commands to add and remove page headers and footers.</ahelp></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id421690025310002">Choose <menuitem>Insert - Header and Footer</menuitem>.</paragraph>
+</section>
+<embed href="text/swriter/01/04220000.xhp#header"/>
+<embed href="text/swriter/01/04230000.xhp#footer"/>
+</body>
+
+</helpdocument>

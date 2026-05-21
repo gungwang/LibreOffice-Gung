@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textswriter0101160400xml" indexer="include" status="PUBLISH">
+<title id="tit">AutoAbstract to Presentation</title>
+<filename>/text/swriter/01/01160400.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<comment>The dialog abstractdialog.ui is used by command Create autoabstract as well. (OH)</comment>
+<bookmark branch="hid/.uno:SendAbstractToStarImpress" id="bm_id3149288" localize="false"/>
+<bookmark branch="index" id="bm_id31749230428547">
+<bookmark_value>autoabstract to presentation</bookmark_value>
+<bookmark_value>send;autoabstract to presentation</bookmark_value>
+</bookmark>
+<section id="autoabstract_to_presentation">
+<h1 id="hd_id3151183"><link href="text/swriter/01/01160400.xhp">AutoAbstract to Presentation</link></h1>
+<paragraph role="paragraph" id="par_id3145412"><ahelp hid=".uno:SendAbstractToStarImpress">Opens the current document as a $[officename] Impress presentation. The current document must contain at least one predefined heading paragraph style.</ahelp></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/swriter/00/00000401.xhp#sendenpraeser"/>
+</section>
+<h2 id="hd_id3149801">Included Outline Levels</h2>
+<paragraph role="paragraph" id="par_id3153667">Enter the number of outline levels to include in the new presentation. For example, if you choose one level, only the paragraphs that follow the "Heading 1" paragraph style are included.</paragraph>
+<h2 id="hd_id3154478">Paragraphs per Level</h2>
+<paragraph role="paragraph" id="par_id3145580">Enter the number of paragraphs that you want to include below each outline level (heading). </paragraph>
+</body>
+</helpdocument>

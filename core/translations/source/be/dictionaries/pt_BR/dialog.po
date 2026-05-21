@@ -1,0 +1,532 @@
+#. extracted from dictionaries/pt_BR/dialog
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2024-04-20 14:12+0200\n"
+"PO-Revision-Date: 2025-11-30 08:56+0000\n"
+"Last-Translator: Alyaksandr Koshal <alkos85@proton.me>\n"
+"Language-Team: Belarusian <https://translations.documentfoundation.org/projects/libo_ui-master/dictionaries/dictionariespt_brdialog/be/>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1493572943.000000\n"
+
+#. Hf44z
+#: OptionsDialog.xcu
+msgctxt ""
+"OptionsDialog.xcu\n"
+"..OptionsDialog.Nodes.LanguageSettings\n"
+"Label\n"
+"value.text"
+msgid "Languages and Locales"
+msgstr "Мовы і лакалі"
+
+#. BnABt
+#: OptionsDialog.xcu
+msgctxt ""
+"OptionsDialog.xcu\n"
+"..OptionsDialog.Nodes.LanguageSettings.Leaves.org.openoffice.lightproof.pt_BR\n"
+"Label\n"
+"value.text"
+msgid "Grammar Checking (Portuguese)"
+msgstr "Граматыка (Партугальскі)"
+
+#. UbDte
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spelling\n"
+"property.text"
+msgid "Grammar checking"
+msgstr "Праверка граматыкі"
+
+#. Y3GdR
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_grammar\n"
+"property.text"
+msgid "Identify use of grave accent"
+msgstr "Вызначаць выкарыстанне гравісу"
+
+#. y47wU
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"grammar\n"
+"property.text"
+msgid "Grave accent"
+msgstr "Гравіс"
+
+#. KTKVL
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_cap\n"
+"property.text"
+msgid "Check missing capitalization of sentences."
+msgstr "Правяраць адсутнасць вялікай літары ў сказах."
+
+#. czHGi
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"cap\n"
+"property.text"
+msgid "Capitalization"
+msgstr "Загалоўныя літары"
+
+#. 6q87h
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_dup\n"
+"property.text"
+msgid "Check repeated words."
+msgstr "Правяраць паўтарэнні слоў."
+
+#. vFbJC
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"dup\n"
+"property.text"
+msgid "Word duplication"
+msgstr "Паўторы словаў"
+
+#. CkE8A
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_pair\n"
+"property.text"
+msgid "Check missing or extra parentheses and quotation marks."
+msgstr "Выяўляць адсутныя або залішнія дужкі і двукоссі."
+
+#. DWaBt
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"pair\n"
+"property.text"
+msgid "Parentheses"
+msgstr "Дужкі"
+
+#. EJA3T
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"punctuation\n"
+"property.text"
+msgid "Punctuation"
+msgstr "Знакі прыпынку"
+
+#. GfJce
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_spaces\n"
+"property.text"
+msgid "Check single spaces between words."
+msgstr "Правяраць адзінарны прабел паміж словамі."
+
+#. 2Cz8d
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spaces\n"
+"property.text"
+msgid "Word spacing"
+msgstr "Міжслоўныя прагалы"
+
+#. jh9qT
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_mdash\n"
+"property.text"
+msgid "Force unspaced em dash instead of spaced en dash."
+msgstr "Доўгія працяжнікі без прагалаў замест кароткіх з прагаламі."
+
+#. QUZwx
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"mdash\n"
+"property.text"
+msgid "Em-dash"
+msgstr "Доўгі працяжнік"
+
+#. ijU9H
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_ndash\n"
+"property.text"
+msgid "Force spaced en dash instead of unspaced em dash."
+msgstr "Кароткія працяжнікі з прагаламі замест доўгіх без прагалаў."
+
+#. tyEkH
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"ndash\n"
+"property.text"
+msgid "En-dash"
+msgstr "Кароткі працяжнік"
+
+#. ZQhno
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_quotation\n"
+"property.text"
+msgid "Check double quotation marks: \"x\" → “x”"
+msgstr "Праверыць двукоссі: \"x\" → “x”"
+
+#. bC8RD
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"quotation\n"
+"property.text"
+msgid "Quotation marks"
+msgstr "Двукоссі"
+
+#. CARTv
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_times\n"
+"property.text"
+msgid "Check true multiplication sign: 5x5 → 5×5"
+msgstr "Праверыць стандартны знак множання: 5x5 → 5×5"
+
+#. Y5eQr
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"times\n"
+"property.text"
+msgid "Multiplication sign"
+msgstr "Знак множання"
+
+#. ykeAk
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_spaces2\n"
+"property.text"
+msgid "Check single spaces between sentences."
+msgstr "Правяраць адзінарны прабел паміж сказамі."
+
+#. uHT7U
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spaces2\n"
+"property.text"
+msgid "Sentence spacing"
+msgstr "Прагал між сказамі"
+
+#. WEAJJ
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_spaces3\n"
+"property.text"
+msgid "Check more than two extra space characters between words and sentences."
+msgstr "Выяўляць больш за два прабелы паміж словамі і сказамі."
+
+#. XbDmT
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"spaces3\n"
+"property.text"
+msgid "More spaces"
+msgstr "Дадатковыя прабелы"
+
+#. Fthsx
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_minus\n"
+"property.text"
+msgid "Change hyphen characters to real minus signs."
+msgstr "Замяніць знакі пераносу на дэфісы."
+
+#. VNuhF
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"minus\n"
+"property.text"
+msgid "Minus sign"
+msgstr "Знак мінус"
+
+#. nvi9G
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_apostrophe\n"
+"property.text"
+msgid "Change typewriter apostrophe, single quotation marks and correct double primes."
+msgstr "Замяняць апостраф, адзінарныя лапкі, выпраўляць простыя падвойныя."
+
+#. Daynz
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"apostrophe\n"
+"property.text"
+msgid "Apostrophes"
+msgstr "Апострафы"
+
+#. 5qDDv
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_ellipsis\n"
+"property.text"
+msgid "Replace three dots with ellipsis."
+msgstr "Замяняць тры кропкі шматкроп'ем."
+
+#. ngM8A
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"ellipsis\n"
+"property.text"
+msgid "Ellipsis"
+msgstr "Шматкроп'е"
+
+#. 5dkwv
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"others\n"
+"property.text"
+msgid "Others"
+msgstr "Іншыя"
+
+#. ifGmB
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_metric\n"
+"property.text"
+msgid "Identify redundant terms: \"criar novo\", \"subir para cima\", \"beco sem saída\", \"regra geral\"."
+msgstr "Вызначце лішнія тэрміны: «criar novo», «subir para cima», «beco sem saída», «regra geral»."
+
+#. EgY9b
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"metric\n"
+"property.text"
+msgid "Pleonasms"
+msgstr "Плеаназмы"
+
+#. wAFVA
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_gerund\n"
+"property.text"
+msgid "Inadequate use of gerund: \"estarei trabalhando\", \"vou estar fazendo\"."
+msgstr "Неадэкватнае выкарыстанне герундыя: «estarei trabalhando», «vou estar fazendo»."
+
+#. 3cDKm
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"gerund\n"
+"property.text"
+msgid "Gerundisms"
+msgstr "Герундзізмы"
+
+#. eJcDX
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_nonmetric\n"
+"property.text"
+msgid "Ugly or unpleasant sound: \"por cada\"."
+msgstr "Брыдкі або непрыемны гук: «por cada»."
+
+#. Bidr9
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"nonmetric\n"
+"property.text"
+msgid "Cacophonous sound"
+msgstr "Неблагагучнасць"
+
+#. funWi
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_paronimo\n"
+"property.text"
+msgid "Words that are pronounced or written in a similar way but which have different lexical meanings."
+msgstr "Словы, якія вымаўляюцца ці пішуцца аднолькава, але маюць рознае лексічнае значэнне."
+
+#. ua58D
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"paronimo\n"
+"property.text"
+msgid "Paronyms"
+msgstr "Паронімы"
+
+#. nJ4AT
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_composto\n"
+"property.text"
+msgid "Compound words written separatedly: \"auto escola\", \"sub contratado\"."
+msgstr "Састаўныя словы, напісаныя раздзельна: «auto escola», «sub contratado»."
+
+#. 5TS3y
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"composto\n"
+"property.text"
+msgid "Compound terms"
+msgstr "Састаўныя тэрміны"
+
+#. RM535
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_malmau\n"
+"property.text"
+msgid "Use of \"mal\" or \"mau\"."
+msgstr "Выкарыстанне \"mal\" або \"mau\"."
+
+#. SwvCV
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"malmau\n"
+"property.text"
+msgid "\"Mal\" or \"Mau\""
+msgstr "\"Mal\" або \"Mau\""
+
+#. pC8xk
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_aha\n"
+"property.text"
+msgid "Use of há or a."
+msgstr "Выкарыстанне há або a."
+
+#. HGVSj
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"aha\n"
+"property.text"
+msgid "\"Há\" or \"a\""
+msgstr "\"Há\" або \"a\""
+
+#. cBTLG
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_meiameio\n"
+"property.text"
+msgid "Use of \"meia\" or \"meio\"."
+msgstr "Выкарыстанне \"meia\" або \"meio\"."
+
+#. RxzDW
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"meiameio\n"
+"property.text"
+msgid "\"Meia\" or \"meio\""
+msgstr "\"Meia\" або \"meio\""
+
+#. bNA4x
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_verbo\n"
+"property.text"
+msgid "Check verbal agreement."
+msgstr "Праверце вусную згоду."
+
+#. Ekweu
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"verbo\n"
+"property.text"
+msgid "Verbal agreement"
+msgstr "Вусная згода"
+
+#. wRBb9
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_pronominal\n"
+"property.text"
+msgid "Position that personal pronouns occupy in relation to the verb."
+msgstr "Становішча, якое займаюць асабовыя займеннікі ў адносінах да дзеяслова."
+
+#. FHPjP
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"pronominal\n"
+"property.text"
+msgid "Pronominal placement"
+msgstr "Размяшчэнне займеннікаў"
+
+#. iiTDb
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_pronome\n"
+"property.text"
+msgid "Use of pronoun."
+msgstr "Выкарыстанне займенніка."
+
+#. ETD6e
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"pronome\n"
+"property.text"
+msgid "Use of pronouns"
+msgstr "Выкарыстанне займеннікаў"
+
+#. szSVE
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"hlp_porque\n"
+"property.text"
+msgid "Check for \"porque\", \"por que\", \"porquê\" and \"por quê\"."
+msgstr "Правяраць \"porque\", \"por que\", \"porquê\" and \"por quê\"."
+
+#. 7QjsH
+#: pt_BR_en_US.properties
+msgctxt ""
+"pt_BR_en_US.properties\n"
+"porque\n"
+"property.text"
+msgid "Use of \"porquê\""
+msgstr "Выкарыстанне \"porquê\""

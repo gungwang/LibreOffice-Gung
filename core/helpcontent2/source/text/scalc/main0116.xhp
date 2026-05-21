@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textscalcmain0116xml" indexer="include" status="PUBLISH">
+    <title id="tit">Sheet</title>
+    <filename>/text/scalc/main0116.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+
+<section id="sheet">
+<bookmark branch="hid/.uno:SheetMenu" id="bm_id0906201507425254" localize="false"/>
+
+<h1 id="hd_id0906201507390173"><link href="text/scalc/main0116.xhp">Sheet</link></h1>
+<paragraph id="par_id0906201507414091" role="paragraph"><ahelp hid=".">This menu contains commands to modify and manage a sheet and its elements.</ahelp></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/scalc/00/sheet_menu.xhp#sheetmenu"/>
+</section>
+<embed href="text/scalc/01/04020000.xhp#insert_cells"/>
+<embed href="text/scalc/01/04030000.xhp#insert_rows"/>
+<embed href="text/scalc/01/04040000.xhp#insert_columns"/>
+<embed href="text/scalc/01/04010000.xhp#ins_page_break"/>
+<embed href="text/scalc/01/02160000.xhp#del_cells"/>
+<embed href="text/shared/01/DeleteRows.xhp#delete_rows"/>
+<embed href="text/shared/01/DeleteColumns.xhp#delete_columns"/>
+<embed href="text/scalc/01/02190000.xhp#del_page_break"/>
+<embed href="text/scalc/01/04050000.xhp#insertsheet"/>
+<embed href="text/scalc/01/Add.xhp#addatend"/>
+<embed href="text/scalc/01/04050100.xhp#sheetfromfile"/>
+<embed href="text/scalc/01/04090000.xhp#extdata"/>
+<embed href="text/scalc/01/02170000.xhp#deletesheet"/>
+<embed href="text/scalc/01/02150000.xhp#del_contents"/>
+<embed href="text/scalc/01/ToggleRelative.xhp#cycle_types"/>
+<embed href="text/scalc/01/02140000.xhp#fill"/>
+<embed href="text/scalc/01/04070000.xhp#namen"/>
+<embed href="text/scalc/01/04070000.xhp#namen"/>
+<embed href="text/scalc/01/SheetCommentMenu.xhp#comment_menu"/>
+<embed href="text/scalc/01/05050100.xhp#renamesheet"/>
+<embed href="text/scalc/01/hide_sheet.xhp#hide_sheet"/>
+<embed href="text/scalc/01/05050300.xhp#show_sheet"/>
+<embed href="text/scalc/01/NavigateMenu.xhp#navigate_menu"/>
+<embed href="text/scalc/01/sheet_tab_color.xhp#sheet_tab_color"/>
+<embed href="text/scalc/01/events_sheet.xhp#sheetevents"/>
+</body>
+
+</helpdocument>

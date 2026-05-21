@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+
+<meta>
+<topic id="textshared0000000401xml" indexer="exclude">
+<title id="tit">File Menu</title>
+<filename>/text/shared/00/00000401.xhp</filename>
+</topic>
+</meta>
+<body>
+<h1 id="hd_id3149976">File Menu</h1>
+
+<section id="webhtml">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id389416">Choose <menuitem>File - Preview in Web Browser</menuitem>.</paragraph>
+</section>
+
+<section id="new">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3154812">Choose <menuitem>File - New</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id231685288647753">Choose <menuitem>File - New</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id631696600350892">On the top right menu (☰), choose <menuitem>New</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="newtextdoc">
+        <table id="tbl_id3149741">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3150127">
+                        <switchinline select="appl">
+                            <caseinline select="CALC"><image id="img_id3156050" src="res/lx03250.svg" width="1cm" height="1cm"><alt id="alt_id3156053">Icon New</alt></image></caseinline>
+                            <caseinline select="IMPRESS"><image id="img_id3156049" src="res/lx03249.svg" width="1cm" height="1cm"><alt id="alt_id3156053">Icon New</alt></image></caseinline>
+                            <caseinline select="DRAW"><image id="img_id3156046" src="res/lx03246.svg" width="1cm" height="1cm"><alt id="alt_id3156053">Icon New</alt></image></caseinline>
+                            <caseinline select="BASE"><image id="img_id3156045" src="res/lx03245.svg" width="1cm" height="1cm"><alt id="alt_id3156053">Icon New</alt></image></caseinline>
+                            <caseinline select="MATH"><image id="img_id3156047" src="res/lx03247.svg" width="1cm" height="1cm"><alt id="alt_id3156053">Icon New</alt></image></caseinline>
+                            <defaultinline><image id="img_id3156051" src="res/lx03251.svg" width="1cm" height="1cm"><alt id="alt_id3156053">Icon New</alt></image></defaultinline>
+                        </switchinline>
+                    </paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3154232">New document</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_startcenter"/>
+    <paragraph role="paragraph" id="par_id181685301914520">Click on the corresponding document type icon.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3154894"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+N</keycode></paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3157898">Menu <menuitem>File - New - Templates</menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id3149140">Key <keycode>Shift+</keycode><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+N</keycode></paragraph>
+
+<section id="etiketten">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3149798">Choose <emph>File - New - Labels</emph>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id371739743502831">On the <menuitem>File</menuitem> tab, long click on the <menuitem>New</menuitem> icon, choose <menuitem>Labels</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id371739743508159">On the application menu (on the right), choose <menuitem>New - Labels</menuitem></paragraph>
+    <paragraph role="paragraph" id="par_id51739743513119">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>New - Labels</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id461739741789602">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id461739741789602" role="paragraph"><image src="res/lx03255.svg" id="img_id501739741789602" width="1cm"  height="1cm"><alt id="alt_id151739741789602">Icon Labels</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id721739741789602" role="paragraph">Labels</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="etikettenein">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3147226">Choose <menuitem>File - New - Labels - Labels</menuitem> tab.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id741739741517711">On the <menuitem>File</menuitem> tab, long click on the <menuitem>New</menuitem> icon, choose <menuitem>Labels - Labels</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id461739741765727">On the application menu (on the right), choose <menuitem>New - Labels - Labels</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id931739741682659">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>New - Labels - Labels</menuitem> tab.</paragraph>
+</section>
+
+<section id="labels_format">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3154522">Choose <emph>File - New - Labels - Format</emph> tab.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id541739745900074">On the <menuitem>File</menuitem> tab, long click on the <menuitem>New</menuitem> icon, choose <menuitem>Labels - Format</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id821739745904674">On the application menu (on the right), choose <menuitem>New - Labels - Format</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id391739745911162">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>New - Labels - Format</menuitem> tab.</paragraph>
+</section>
+
+<section id="labels_options">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id3157958">Choose <emph>File - New - Labels - Options</emph> tab.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id441739747124285">On the <menuitem>File</menuitem> tab, long click on the <menuitem>New</menuitem> icon, choose <menuitem>Labels - Options</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id151739747127157">On the application menu (on the right), choose <menuitem>New - Labels - Options</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id841739747129885">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>New - Labels - Options</menuitem> tab.</paragraph>
+</section>
+
+<section id="visikart">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3152780">Choose <emph>File - New - Business Cards</emph>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id791739747616138">On the <menuitem>File</menuitem> tab, long click on the <menuitem>New</menuitem> icon, choose <menuitem>Business Cards</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id631739747625497">On the application menu (on the right), choose <menuitem>New - Business Cards</menuitem></paragraph>
+    <paragraph role="paragraph" id="par_id671739747631985">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>New - Business Cards</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id901739747647756">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id251739747647756" role="paragraph"><image src="res/lx03255.svg" id="img_id491739747647756" width="1cm"  height="1cm"><alt id="alt_id921739747647756">Icon Business Cards</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id571739747647756" role="paragraph">Business Cards</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="visikartform">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id291739749742399">Choose <menuitem>File - New - Business Cards - Labels</menuitem> tab.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id271739748445693">On the <menuitem>File</menuitem> tab, long click on the <menuitem>New</menuitem> icon, choose <menuitem>Business Cards - Labels</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id161739748448390">On the application menu (on the right), choose <menuitem>New - Business Cards - Labels</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id371739748451525">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>New - Business Cards - Labels</menuitem> tab.</paragraph>
+</section>
+
+<section id="viskartinhalt">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id581739749663801">Choose <menuitem>File - New - Business Cards - Business Cards</menuitem> tab.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id691739748682224">On the <menuitem>File</menuitem> tab, long click on the <menuitem>New</menuitem> icon, choose <menuitem>Business Cards - Business Cards</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id21739748685496">On the application menu (on the right), choose <menuitem>New - Business Cards - Business Cards</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id911739748688672">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>New - Business Cards - Business Cards</menuitem> tab.</paragraph>
+</section>
+
+<section id="viskartpriv">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3149819">Choose <menuitem>File - New - Business Cards - Private</menuitem> tab.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id971739748866908">On the <menuitem>File</menuitem> tab, long click on the <menuitem>New</menuitem> icon, choose <menuitem>Business Cards - Private</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id831739748869795">On the application menu (on the right), choose <menuitem>New - Business Cards - Private</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id651739748872683">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>New - Business Cards - Private</menuitem> tab.</paragraph>
+</section>
+
+<section id="viskartgesch">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3154897">Choose <menuitem>File - New - Business Cards - Business</menuitem> tab.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id441739749044671">On the <menuitem>File</menuitem> tab, long click on the <menuitem>New</menuitem> icon, choose <menuitem>Business Cards - Business</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id841739749048327">On the application menu (on the right), choose <menuitem>New - Business Cards - Business</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id61739749052111">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>New - Business Cards - Business</menuitem> tab.</paragraph>
+</section>
+
+<section id="open">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3146137">Choose <menuitem>File - Open</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id111685287307185">Choose <menuitem>File - Open</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_startcenter"/>
+    <paragraph role="paragraph" id="par_id301685301348275"><menuitem>Open File</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syopen">
+        <table id="tbl_id3150117">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3155419">
+                        <image id="img_id3149415" src="cmd/lc_open.svg" width="1cm" height="1cm"><alt id="alt_id3149415">Icon Open</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3156003">Open File</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3152944"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+O</keycode></paragraph>
+</section>
+
+<section id="openremote">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id611513629210220" xml-lang="en-US">Choose <menuitem>File - Open Remote</menuitem>.</paragraph>
+<embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+<paragraph role="paragraph" id="par_id131685300899494">Choose <menuitem>File</menuitem>, then long-click on the <menuitem>Open</menuitem> icon, and select <menuitem>Open Remote File</menuitem>.</paragraph>
+<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+<table id="tab_id781685300960343">
+    <tablerow>
+        <tablecell>
+            <paragraph id="par_id301685300960344" role="paragraph">
+                <image src="cmd/lc_openremote.svg" id="img_id281685300960345" width="1cm"  height="1cm"><alt id="alt_id511685300960346">Icon Open Remote</alt></image>
+            </paragraph>
+        </tablecell>
+        <tablecell>
+            <paragraph id="par_id1001685300960348" role="paragraph">Open Remote</paragraph>
+        </tablecell>
+    </tablerow>
+</table>
+<embed href="text/shared/00/00000004.xhp#from_startcenter"/>
+<paragraph role="paragraph" id="par_id711685301050091"><menuitem>Remote Files</menuitem>.</paragraph>
+</section>
+
+<section id="recentdocs">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id361685302818286">Choose <menuitem>File - Recent Documents</menuitem>.</paragraph>
+<embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+<paragraph role="paragraph" id="par_id241685302835857">Choose <menuitem>File</menuitem>, then long-click on the <menuitem>Open</menuitem> icon. A list of recent documents will display.</paragraph>
+
+<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+<table id="tab_id381685302920063">
+    <tablerow>
+        <tablecell>
+            <paragraph id="par_id771685302920064" role="paragraph">
+                <image src="cmd/lc_recentfilelist.svg" id="img_id101685302920065" width="1cm"  height="1cm"><alt id="alt_id601685302920066">Icon Recent Documents</alt></image>
+            </paragraph>
+        </tablecell>
+        <tablecell>
+            <paragraph id="par_id801685302920068" role="paragraph">Recent Documents</paragraph>
+        </tablecell>
+    </tablerow>
+    </table>
+<embed href="text/shared/00/00000004.xhp#from_startcenter"/>
+<paragraph role="paragraph" id="par_id41685303016725"><menuitem>Recent Documents</menuitem>.</paragraph>
+</section>
+
+<section id="ascii">
+<paragraph role="paragraph" id="par_id3155388">Menu <menuitem>File - Open</menuitem>, File type <emph>Text Encoded</emph> selected.</paragraph>
+<paragraph role="paragraph" id="par_id3154174">Menu <menuitem>File - Save As</menuitem>, File type <emph>Text Encoded</emph> selected.</paragraph>
+</section>
+<paragraph role="paragraph" id="par_id3145609"><variable id="autobrief">Choose <emph>File - Wizards</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3149245"><variable id="autopilotbrief">Choose <emph>File - Wizards - Letter</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3154758"><variable id="autopilotbrief1">Choose <emph>File - Wizards - Letter - Page Design</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3152360"><variable id="autopilotbrief2">Choose <emph>File - Wizards - Letter - Letterhead Layout</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3159413"><variable id="autopilotbrief3">Choose <emph>File - Wizards - Letter - Printed Items</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3152771"><variable id="autopilotbrief4">Choose <emph>File - Wizards - Letter - Recipient and Sender</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3153524"><variable id="autopilotbrief5">Choose <emph>File - Wizards - Letter - Footer</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3154224"><variable id="autopilotbrief6">Choose <emph>File - Wizards - Letter - Name and Location</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3144760"><variable id="autopilotfax">Choose <emph>File - Wizards - Fax</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3147085"><variable id="autopilotfax1">Choose <emph>File - Wizards - Fax - Page Design</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3151042"><variable id="autopilotfax2">Choose <emph>File - Wizards - Fax - Items to include</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3154330"><variable id="autopilotfax3">Choose <emph>File - Wizards - Fax - Sender and Recipient</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3150651"><variable id="autopilotfax4">Choose <emph>File - Wizards - Fax - Footer</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3154685"><variable id="autopilotfax5">Choose <emph>File - Wizards - Fax - Name and Location</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3153190"><variable id="autopilotagenda">Choose <emph>File - Wizards - Agenda</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3155860"><variable id="autopilotagenda1">Choose <emph>File - Wizards - Agenda - Page Design</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3146906"><variable id="autopilotagenda2">Choose <emph>File - Wizards - Agenda - General information</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3152578"><variable id="autopilotagenda3">Choose <emph>File - Wizards - Agenda - Headings to include</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3155368"><variable id="autopilotagenda4">Choose <emph>File - Wizards - Agenda - Names</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3146923"><variable id="autopilotagenda5">Choose <emph>File - Wizards - Agenda - Agenda items</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3149066"><variable id="autopilotagenda6">Choose <emph>File - Wizards - Agenda - Name and Location</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_idN10C46"><variable id="autopilotformular">Click <emph>Use Wizard to Create Form</emph> in a database file window.</variable></paragraph>
+<paragraph role="paragraph" id="par_idN10C5F"><variable id="autopilotreport">Click <emph>Use Wizard to Create Report</emph> in a database file window.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3154064"><variable id="gruppen">In form design, click the <emph>Group Box</emph> icon on the toolbar<br/>and use the mouse to create a frame.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3152807"><variable id="gruppen1">In form design, click the <emph>Group Box</emph> icon on the toolbar<br/>and use the mouse to create a frame - Wizards page 1.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3150571"><variable id="gruppen2">In form design, click the <emph>Group Box</emph> icon on the toolbar<br/>and use the mouse to create a frame - Wizards page 2.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3145251"><variable id="gruppen3">In form design, click the <emph>Group Box</emph> icon on the toolbar<br/>and use the mouse to create a frame - Wizards page 3.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3156109"><variable id="gruppen4">In form design, click the <emph>Group Box</emph> icon on the toolbar<br/>and use the mouse to create a frame - Wizards page 4, there must be a database connection.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3159347"><variable id="gruppen5">In form design, click the <emph>Group Box</emph> icon on the toolbar<br/>and use the mouse to create a frame - Last page of wizards.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3153417"><variable id="autopilotmsimport">Choose <emph>File - Wizards - Document Converter</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3150715"><variable id="autopilotmsimport1">Choose <emph>File - Wizards - Document Converter</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3154274"><variable id="autopilotmsimport2">Choose <emph>File - Wizards - Document Converter</emph>.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3146912"><variable id="euro">Choose <emph>File - Wizards - Euro Converter</emph>.</variable></paragraph>
+<section id="addressimport1">
+<paragraph role="paragraph" id="par_id3152962">Menu <emph>File - Wizards - Address Data Source</emph>.</paragraph>
+</section>
+<paragraph role="paragraph" id="par_id3145206"><variable id="addressimport2"><emph>Address Data Source Wizards - Additional settings</emph></variable></paragraph>
+<paragraph role="paragraph" id="par_id3154756"><variable id="addressimport3"><emph>Address Data Source Wizards - Table selection</emph></variable></paragraph>
+<paragraph role="paragraph" id="par_id3153924"><variable id="addressimport4"><emph>Address Data Source Wizards - Data source title</emph></variable></paragraph>
+<paragraph role="paragraph" id="par_id3148995"><variable id="addressimport5"><emph>Address Data Source Wizards - Field assignment</emph></variable></paragraph>
+
+<section id="close">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3147338">Choose <menuitem>File - Close</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id11685310541040">Choose <menuitem>File - Close</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id301696601166240">On the top right menu (☰), choose <menuitem>Close</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id541685310572299">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id131685310572300" role="paragraph">
+                    <image src="cmd/lc_closedoc.svg" id="img_id461685310572301" width="1cm"  height="1cm"><alt id="alt_id781685310572302">Icon Close</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id621685310572304" role="paragraph">Close</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+<section id="templates">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_01110001">Select <menuitem>File - Templates</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_01110002">Choose <menuitem>File - Templates</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id51685707180575">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id671685707180577" role="paragraph">
+                    <image src="cmd/lc_templatemanager.svg" id="img_id101685707180578" width="1cm"  height="1cm"><alt id="alt_id701685707180579">Icon Template Manager</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id141685707180581" role="paragraph">Templates</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id541685707253310"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + N</keycode></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_startcenter"/>
+    <paragraph role="paragraph" id="par_id151685707338424">Click on the <menuitem>Templates</menuitem> button.</paragraph>
+</section>
+
+<section id="dvergl">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3153224">Choose <menuitem>File - Compare Document</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id271773254369118">Choose <menuitem>Review - Compare</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id641773254423003">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id901773254423003" role="paragraph"><image src="cmd/lc_comparedocuments.svg" id="img_id151773254423003" width="1cm"  height="1cm"><alt id="alt_id651773254423003">Icon Compare</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id541773254423003" role="paragraph">Compare</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="einfuegen">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id561773257991347">Choose <menuitem>File - Merge Document</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id291773258030971">Choose <menuitem>Review - Merge</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id301773258048561">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id631773258048561" role="paragraph"><image src="cmd/lc_mergedocuments.svg" id="img_id581773258048561" width="1cm"  height="1cm"><alt id="alt_id331773258048561">Icon Merge</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id961773258048561" role="paragraph">Merge</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="save">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3156717">Choose <menuitem>File - Save</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id241685288178987">Choose <menuitem>File - Save</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="sysave">
+        <table id="tbl_id3150120">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3156712">
+                        <image id="img_id3155939" src="cmd/lc_save.svg" width="1cm" height="1cm"><alt id="alt_id3155939">Icon Save</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3149109">Save</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3147533"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+S</keycode></paragraph>
+</section>
+
+<section id="saveas">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3152479">Choose <menuitem>File - Save As</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id921685290226058">Choose <menuitem>File</menuitem>, then long-click on the <menuitem>Save</menuitem> icon, and select <menuitem>Save As</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="sysaveas">
+        <table id="tab_id831649342786696">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_idN10F11">
+                        <image id="img_id8276619" src="cmd/lc_saveas.svg" width="1cm" height="1cm"><alt id="alt_id8276619">Icon Save as</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_idN10F2E">Save As</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id671685290327197"><switchinline select="sys"><caseinline select="MAC">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+Shift+S.</paragraph>
+</section>
+
+<section id="savecopy">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id701513472080716">Choose <menuitem>File - Save a Copy</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id271685315422253">Choose <menuitem>File</menuitem>, long click on <menuitem>Save</menuitem> then choose <menuitem>Save a Copy</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id801685315253494">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id551685315253495" role="paragraph">
+                    <image src="cmd/lc_saveacopy.svg" id="img_id301685315253496" width="1cm"  height="1cm"><alt id="alt_id291685315253497">Icon Save a Copy</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id711685315253499" role="paragraph">Save a Copy</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="saveremote">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id611513629430220">Choose <menuitem>File - Save Remote</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id281685704731179">Choose <menuitem>File</menuitem>, then long-click on the <menuitem>Save</menuitem> icon, and select <menuitem>Save Remote File</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <paragraph role="paragraph" id="par_id431513629862558">Long-click on the <emph>Save</emph> icon and select <emph>Save Remote File</emph>.</paragraph>
+    <table id="tab_id741685704766725">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id991685704766726" role="paragraph">
+                    <image src="cmd/lc_saveasremote.svg" id="img_id101685704766727" width="1cm" height="1cm"><alt id="alt_id951685704766728">Icon Save Remote</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id531685704766729" role="paragraph">Save Remote</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<paragraph role="paragraph" id="par_id3150300"><variable id="htmlspeichern">$[officename] Draw or $[officename] Impress menu <emph>File - Export</emph>, select <emph>HTML Document</emph> file type. The dialog opens automatically.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3153387"><variable id="htmlspeichern1">$[officename] Draw or $[officename] Impress menu <emph>File - Export</emph>, select <emph>HTML</emph> file type, page 1 of the wizard.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3154021"><variable id="htmlspeichern2">$[officename] Draw or $[officename] Impress menu <emph>File - Export</emph>, select <emph>HTML</emph> file type, page 2 of the wizard.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3147246"><variable id="htmlspeichern3">$[officename] Draw or $[officename] Impress menu <emph>File - Export</emph>, select <emph>HTML</emph> file type, page 3 of the wizard.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3145131"><variable id="htmlspeichern4">$[officename] Draw or $[officename] Impress menu <emph>File - Export</emph>, select <emph>HTML</emph> file type, page 4 of the wizard.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3150235"><variable id="htmlspeichern5">$[officename] Draw or $[officename] Impress menu <emph>File - Export</emph>, select <emph>HTML</emph> file type, page 5 of the wizard.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3145762"><variable id="htmlspeichern6">$[officename] Draw or $[officename] Impress menu <emph>File - Export</emph>, select <emph>HTML</emph> file type, page 6 of the wizard.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3149735"><variable id="exportgraphic">Choose <menuitem>File - Export</menuitem>, select a graphics file type. The dialog opens after you click <widget>Save</widget>.</variable></paragraph>
+
+<section id="saveall">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id3154901"><variable id="saveall">Choose <menuitem>File - Save All</menuitem>.</variable></paragraph>
+<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+<table id="tab_id301685311203819">
+    <tablerow>
+        <tablecell>
+            <paragraph id="par_id351685311203820" role="paragraph">
+                <image src="cmd/lc_saveall.svg" id="img_id671685311203821" width="1cm"  height="1cm"><alt id="alt_id161685311203822">Icon Save All</alt></image>
+            </paragraph>
+        </tablecell>
+        <tablecell>
+            <paragraph id="par_id621685311203823" role="paragraph">Save All</paragraph>
+        </tablecell>
+    </tablerow>
+    </table>
+</section>
+
+<section id="last">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id3148392">Choose <menuitem>File - Reload</menuitem>.</paragraph>
+<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+<table id="tab_id721685315949460">
+    <tablerow>
+        <tablecell>
+            <paragraph id="par_id811685315949461" role="paragraph">
+                <image src="cmd/lc_reload.svg" id="img_id621685315949462" width="1cm" height="1cm"><alt id="alt_id871685315949463">Icon Reload</alt></image>
+            </paragraph>
+        </tablecell>
+        <tablecell>
+            <paragraph id="par_id461685315949465" role="paragraph">Reload</paragraph>
+        </tablecell>
+    </tablerow>
+    </table>
+</section>
+
+<section id="info1">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3166425">Choose <menuitem>File - Properties</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id181685706381820">Choose <menuitem>File - Properties</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id971685706400575">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id451685706400576" role="paragraph">
+                    <image src="cmd/lc_setdocumentproperties.svg" id="img_id721685706400577" width="1cm"  height="1cm"><alt id="alt_id401685706400578">Icon Document Properties</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id921685706400580" role="paragraph">Document Properties</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<paragraph role="paragraph" id="par_id3150381"><variable id="info2">Choose <menuitem>File - Properties - General</menuitem> tab.</variable></paragraph>
+
+<section id="digitalsignexistingpdf">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id181526424294565">Choose <menuitem>File - Digital Signatures - Sign Existing PDF</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id151696979496544">Choose <menuitem>File - Sign Existing PDF</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id401696979691108">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>Sign Existing PDF</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id101696979591662">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id111696979591663" role="paragraph"><image src="cmd/lc_signpdf.svg" id="img_id211696979591664" width="1cm"  height="1cm"><alt id="alt_id941696979591665">Icon Sign Existing PDF</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id61696979591667" role="paragraph">Sign Existing PDF</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="certificatepath">
+    <paragraph role="paragraph" id="par_id971594767600402">Choose <switchinline select="sys"><caseinline select="MAC"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME - Security</menuitem> and, in the <emph>Certificate Path</emph> area, click <menuitem>Certificate</menuitem>.</paragraph>
+</section>
+
+<section id="digitalsig">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_idN11163">Choose <menuitem>File - Digital Signatures - Digital Signatures</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_idN11156">Choose <menuitem>File - Properties - General</menuitem> tab, click <emph>Digital Signatures</emph> button.</paragraph>
+    <paragraph role="paragraph" id="par_idN11168">Choose <menuitem>Tools - Macros - Digital Signature</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id881685708186380">Choose <menuitem>File - Digital Signatures</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id461685708203106">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id341685708203107" role="paragraph">
+                    <image src="cmd/lc_signature.svg" id="img_id651685708203108" width="1cm" height="1cm"><alt id="alt_id931685708203109">Icon Digital Signature</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id791685708203111" role="paragraph">Digital Signature</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    <embed href="text/shared/00/00000004.xhp#from_statusbar"/>
+    <paragraph role="paragraph" id="par_idN1117E">Click the <emph>Signature</emph> field on the <emph>Status</emph> bar.</paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_idN11173"><variable id="digitalsigsel">Choose <menuitem>File - Properties - General</menuitem> tab, press <emph>Digital Signatures</emph> button, then click <emph>Sign Document</emph> button.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3150662"><variable id="info3">Choose <menuitem>File - Properties - Description</menuitem> tab.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3153792"><variable id="info4">Choose <menuitem>File - Properties - Custom Properties</menuitem> tab.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3153701"><variable id="info5">Choose <menuitem>File - Properties - Statistics</menuitem> tab.</variable></paragraph>
+<paragraph role="paragraph" id="par_id315370199"><variable id="infosec">Choose <menuitem>File - Properties - Security</menuitem> tab.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3149570"><variable id="info6">Choose <menuitem>File - Properties - CMIS Properties</menuitem> tab.</variable></paragraph>
+
+<section id="properties_fonts">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3150382"><variable id="info7">Choose <menuitem>File - Properties - Font</menuitem> tab.</variable></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id181713385557802" localize="false"><embedvar href="text/shared/00/00000401.xhp#info7" markup="keep"/></paragraph>
+    <paragraph role="paragraph" id="par_id531713385655322">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>Properties - Fonts</menuitem>.</paragraph>
+</section>
+
+<section id="view">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3154930">Menu <menuitem>File - Print Preview</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id851685378189711">Choose <menuitem>File - Print Preview</menuitem></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id541685378796714"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + O</keycode></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syprint_preview">
+        <table id="tab_id61649342795496">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_idN11366">
+                        <image id="img_id2603534" src="cmd/lc_printpreview.svg" width="1cm" height="1cm"><alt id="alt_id2603534">Icon Print preview</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_idN11384">Print Preview</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+</section>
+<section id="printer_settings">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3163722">Choose <menuitem>File - Printer Settings</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id101685380106232">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id361685380106233" role="paragraph">
+                    <image src="cmd/lc_printersetup.svg" id="img_id761685380106234" width="1cm"  height="1cm"><alt id="alt_id541685380106235">Icon Printer Settings</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id901685380106237" role="paragraph">Printer Settings</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="senden">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id3155529">Menu <menuitem>File - Send</menuitem>.</paragraph>
+</section>
+
+<section id="sendmail">
+<paragraph role="paragraph" id="par_id3145386">Choose <menuitem>File - Send - Email Document</menuitem>.</paragraph>
+<section id="sysendmail">
+<table id="tab_id231649342812577">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_idN113AB">
+<image id="img_id4044007" src="cmd/sc_sendmail.png" width="1cm" height="1cm"><alt id="alt_id4044007">Icon Email Document</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_idN113C8">Email Document</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+</section>
+
+<section id="export">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3145269">Choose <menuitem>File - Export</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id541685311732981">Choose <menuitem>File - Export</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id591685311794935">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id211685311794936" role="paragraph">
+                    <image src="cmd/lc_exportto.svg" id="img_id31685311794937" width="1cm"  height="1cm"><alt id="alt_id301685311794938">Icon Export</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id411685311794940" role="paragraph">Export</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="exportas">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id971513634212601">Choose <menuitem>File - Export As</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id751685314803589">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id641685314803590" role="paragraph">
+                    <image src="cmd/lc_exportto.svg" id="img_id851685314803591" width="1cm"  height="1cm"><alt id="alt_id781685314803592">Icon Export As</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id551685314803593" role="paragraph">Export As</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="epub01">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id621525017637963">Choose <menuitem>File - Export As - Export as EPUB</menuitem>.</paragraph>
+<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+   <table id="tab_id381525017874627">
+       <tablerow>
+           <tablecell>
+               <paragraph role="paragraph" id="par_id121525017890767">
+                   <image src="cmd/lc_exportdirecttoepub.svg" id="img_id291525017890767" width="1cm" height="1cm"><alt id="alt_id51525017890767">Icon Export as EPUB</alt></image>
+               </paragraph>
+           </tablecell>
+           <tablecell>
+               <paragraph id="par_id421525017874627" role="tablecontent">Export as EPUB</paragraph>
+           </tablecell>
+       </tablerow>
+   </table>
+</section>
+
+<section id="exportsignedpdf">
+    <paragraph role="paragraph" id="par_id3163421">Choose <menuitem>File - Export As - Export as PDF - Digital Signatures</menuitem> tab.</paragraph>
+</section>
+<section id="exportpdfsecurity">
+    <paragraph role="paragraph" id="par_id671574090639995">Choose <menuitem>File - Export As - Export as PDF - Security</menuitem> tab.</paragraph>
+</section>
+<section id="exportpdfgeneral">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id211574090645188">Choose <menuitem>File - Export As - Export as PDF - General</menuitem> tab.</paragraph>
+    <paragraph role="paragraph" id="par_id791736279057621">Choose <menuitem>File - Export</menuitem>, then select <emph>PDF</emph> as file format, click <menuitem>Export</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id841736279430563">In the <menuitem>File</menuitem> tab, choose <menuitem>Export</menuitem> , then select <emph>PDF</emph> as file format, click <menuitem>Export</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id971736278761378">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>Export as PDF</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id881736279211784">On the <menuitem>File</menuitem> menu of the <menuitem>File</menuitem> tab, choose <menuitem>Export</menuitem>, then select file format as <emph>PDF</emph>, click <menuitem>Export</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id151736279956106">
+    <tablerow>
+        <tablecell>
+            <paragraph id="par_id81736279956106" role="paragraph"><image src="cmd/lc_exportdirecttopdf.svg" id="img_id911736279956106" width="1cm"  height="1cm"><alt id="alt_id361736279956106">Icon Export as PDF</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+            <paragraph id="par_id801736279956106" role="paragraph">Export as PDF</paragraph>
+        </tablecell>
+    </tablerow>
+</table>
+</section>
+<section id="exportpdfinitialview">
+    <paragraph role="paragraph" id="par_id601574090650587">Choose <menuitem>File - Export As - Export as PDF - Initial View</menuitem> tab.</paragraph>
+</section>
+<section id="exportpdflinks">
+    <paragraph role="paragraph" id="par_id51574090655835">Choose <menuitem>File - Export As - Export as PDF - Links</menuitem> tab.</paragraph>
+</section>
+<section id="exportpdfuserinterface">
+    <paragraph role="paragraph" id="par_id541574090661437">Choose <menuitem>File - Export As - Export as PDF - User Interface</menuitem> tab.</paragraph>
+</section>
+
+<section id="exportpdf">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3166421">Choose <menuitem>File - Export As - Export as PDF</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id991685312843539">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id341685312843540" role="paragraph">
+                    <image src="cmd/lc_exportdirecttopdf.svg" id="img_id821685312843541" width="1cm"  height="1cm"><alt id="alt_id941685312843542">Icon Export as PDF</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id11685312843543" role="paragraph">Export as PDF</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="syexportpdf">
+<table id="tbl_id3154992">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3150521">
+<image id="img_id3147306" src="cmd/sc_exportdirecttopdf.png" width="1cm" height="1cm"><alt id="alt_id3147306">Icon Export Directly as PDF</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3155763">Export Directly as PDF</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+<section id="pdf">
+<paragraph role="paragraph" id="par_id3145410">Choose <menuitem>File - Send - Email as PDF</menuitem>.</paragraph>
+</section>
+<paragraph role="paragraph" id="par_id3159160"><variable id="glo">Choose <menuitem>File - Send - Create Master Document</menuitem>.</variable></paragraph>
+
+<section id="print">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3149951">Choose <menuitem>File - Print</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id621685379245660">Choose <menuitem>File - Print</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3155259"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+P</keycode></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syprint">
+        <table id="tbl_id3152889">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3155187">
+                        <image id="img_id3153318" src="cmd/lc_print.svg" width="1cm" height="1cm"><alt id="alt_id3153318">Print Icon</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3151268">Print</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+</section>
+
+<section id="exit">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3155869">Choose <menuitem>File - Exit %PRODUCTNAME</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id741685709082164">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id281685709082165" role="paragraph">
+                    <image src="cmd/lc_quit.svg" id="img_id871685709082167" width="1cm"  height="1cm"><alt id="alt_id651685709082168">Icon Exit</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id451685709082170" role="paragraph">Exit</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id3152382"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+Q</keycode></paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3149328"><variable id="neuglobal">Choose <menuitem>File - New - Master Document</menuitem>.</variable></paragraph>
+<section id="textimport">
+<paragraph role="paragraph" id="par_id3145827">Choose <menuitem>File - Open - File type</menuitem>, select <emph>Text CSV</emph>.</paragraph>
+<paragraph role="paragraph" id="par_id6071352">Choose <menuitem>Data - Text to Columns</menuitem> (Calc).</paragraph>
+<paragraph role="paragraph" id="par_id161656944575459">Copy data to clipboard, then choose <menuitem>Edit - Paste Special - Paste Special</menuitem> (Calc).</paragraph>
+</section>
+<paragraph role="paragraph" id="par_id3148608"><variable id="epsexport">Choose <menuitem>File - Export</menuitem>, if EPS is selected as file type, this dialog opens automatically.</variable></paragraph>
+<paragraph role="paragraph" id="par_id3150107"><variable id="pbmppmpgm">Choose <menuitem>File - Export</menuitem>, if PBM, PPM or PGM is selected as file type, the dialog opens automatically.</variable></paragraph>
+
+<section id="versionen">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3145305">Choose <menuitem>File - Versions</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id991685316828252">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id601685316828253" role="paragraph">
+                    <image src="cmd/lc_versiondialog.svg" id="img_id571685316828254" width="1cm"  height="1cm"><alt id="alt_id231685316828255">Icon Versions</alt></image>
+                </paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id821685316828257" role="paragraph">Versions</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+</body>
+</helpdocument>

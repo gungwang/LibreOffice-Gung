@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textshared0000040500xml" indexer="exclude">
+    <title id="tit">Format Menu</title>
+    <filename>/text/shared/00/00040500.xhp</filename>
+  </topic>
+</meta>
+<body>
+<comment>This listing is split over the files 00040500, 00040501, 00040502 and 00040503.</comment>
+<h1 id="hd_id3150347">Format Menu</h1>
+
+<comment>The next seven sections are commands to optimize table row width and column height.
+  Writer has special "Table" menu.  Draw/Impress use "Format", so all the command and icons
+  are collected here.</comment>
+
+<section id="OpenOptimizeSize">
+  <switch select="appl">
+    <case select="WRITER">
+      <paragraph role="paragraph" id="par_id3156426">Open <link href="text/shared/02/04210000.xhp"><menuitem>Optimize Size</menuitem></link> dropdown menu from <link href="text/swriter/main0204.xhp"><menuitem>Table</menuitem></link> bar, click</paragraph>
+    </case>
+    <case select="CALC"/>
+    <default>
+      <paragraph role="paragraph" id="par_id481655731478873">Open <link href="text/shared/02/04210000.xhp"><menuitem>Optimize Size</menuitem></link> dropdown menu from <menuitem>Table</menuitem> bar, click</paragraph>
+    </default>
+  </switch>
+</section>
+
+<section id="minimal_row_height">
+  <switch select="appl">
+    <case select="WRITER">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id271654223353638">Choose <menuitem>Table - Size - Minimal Row Height</menuitem>.</paragraph>
+    </case>
+    <case select="CALC"/>
+    <default>
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id151655731003155">Choose <menuitem>Table - Size - Minimal Row Height</menuitem>.</paragraph>
+    </default>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id451655738489793">Choose <menuitem>Size - Minimal Row Height</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id11693929230193">Choose <menuitem>Table - Optimize Size - Minimal Row Height</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id51693929384475">On the <menuitem>Table</menuitem> menu of the <menuitem>Table</menuitem> tab, choose <menuitem>Minimal Row Height</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="syminimal_row_height">
+    <table id="tab_id791654222949632">
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id751654222949632"><image src="cmd/lc_setminimalrowheight.svg" id="img_id731654222949632" width="1cm" height="1cm"><alt id="alt_id541654222949632">Icon Minimal Row Height</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id961654222949632" role="paragraph">Minimal Row Height</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph role="paragraph" id="par_id611693929325585">Choose <menuitem>Properties - Table - Minimal Row Height</menuitem>.</paragraph>
+</section>
+
+<section id="optimal_row_height">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <switch select="appl">
+    <case select="WRITER">
+      <paragraph id="par_id3155536" role="paragraph">Choose <menuitem>Table - Size - Optimal Row Height</menuitem>.</paragraph>
+    </case>
+    <case select="CALC">
+      <paragraph role="paragraph" id="par_id591693950959018">Choose <menuitem>Format - Rows - Optimal Height</menuitem>.</paragraph>
+    </case>
+    <default>
+      <paragraph role="paragraph" id="par_id621655731074115">Choose <menuitem>Format - Table - Optimal Row Height</menuitem>.</paragraph>
+    </default>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <switch select="appl">
+    <case select="WRITER">
+      <paragraph role="paragraph" id="par_id381693934159575">Choose <menuitem>Size - Optimal Row Height</menuitem>.</paragraph>
+    </case>
+    <case select="CALC">
+      <paragraph role="paragraph" id="par_id91693951086194">Select row, choose <menuitem>Optimal Height</menuitem>.</paragraph>
+    </case>
+  </switch>
+
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <switch select="appl">
+    <case select="WRITER">
+      <paragraph role="paragraph" id="par_id331693934199624">Choose <menuitem>Table - Optimize Size - Optimal Row Height</menuitem>.</paragraph>
+      <paragraph role="paragraph" id="par_id631693934202201">On the <menuitem>Table</menuitem> menu of the <menuitem>Table</menuitem> tab, choose <menuitem>Optimal Row Height</menuitem>.</paragraph>
+    </case>
+    <case select="CALC">
+      <paragraph role="paragraph" id="par_id681693951206742">Choose <menuitem>Layout - Row - Optimal Height</menuitem>.</paragraph>
+      <paragraph role="paragraph" id="par_id781693951209917">Choose <menuitem>Home - Row - Optimal Height</menuitem>.</paragraph>
+    </case>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="syoptimal_row_height">
+    <table id="tbl_id3150845">
+      <tablerow>
+        <tablecell>
+          <paragraph id="par_id3145222" role="paragraph"><image id="img_id3145228" src="cmd/lc_setoptimalrowheight.svg" width="1cm" height="1cm"><alt id="alt_id3145228">Icon Optimal Row Height</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id3153545" role="paragraph">Optimal Row Height</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+  <switch select="appl">
+    <case select="WRITER">
+      <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+      <paragraph role="paragraph" id="par_id231693934077822">Choose <menuitem>Properties - Table - Optimal Row Height</menuitem>.</paragraph>
+    </case>
+  </switch>
+</section>
+
+<section id="distribute_rows_evenly">
+  <switch select="appl">
+    <case select="WRITER">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph id="par_id3153569" role="paragraph">Choose <menuitem>Table - Size - Distribute Rows Evenly</menuitem>.</paragraph>
+    </case>
+    <case select="CALC"/>
+    <default>
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id701655731168178">Choose <menuitem>Format - Table - Distribute Rows Evenly</menuitem>.</paragraph>
+    </default>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id801655738379330">Select rows in table, right-click, choose <menuitem>Size - Distribute Rows Evenly</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id871693934883186">Choose <menuitem>Table - Optimize Size - Distribute Rows Evenly</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id71693934886355">On the <menuitem>Table</menuitem> menu of the <menuitem>Table</menuitem> tab, choose <menuitem>Distribute Rows Evenly</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="sydistribute_rows_evenly">
+    <table id="tbl_id3154064">
+      <tablerow>
+        <tablecell>
+          <paragraph id="par_id3145297" role="paragraph"><image id="img_id3155994" src="cmd/lc_distributerows.svg" width="1cm" height="1cm"><alt id="alt_id3155994">Icon Distribute Rows Evenly</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id3153206" role="paragraph">Distribute Rows Evenly</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph role="paragraph" id="par_id601693934906521">Choose <menuitem>Properties - Table - Distribute Rows Evenly</menuitem>.</paragraph>
+</section>
+
+<section id="minimal_column_width">
+  <switch select="appl">
+    <case select="WRITER">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id51654220677297">Choose <menuitem>Table - Size - Minimal Column Width</menuitem>.</paragraph>
+    </case>
+    <case select="CALC"/>
+    <default>
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id691655731247050">Choose <menuitem>Format - Table - Minimal Column Width</menuitem>.</paragraph>
+    </default>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id941655738180090">Choose <menuitem>Size - Minimal Column Width</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id951693929823714">Choose <menuitem>Table - Optimize Size - Minimal Column Width</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id401693929850221">On the <menuitem>Table</menuitem> menu of the <menuitem>Table</menuitem> tab, choose <menuitem>Minimal Column Width</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="syminimal_column_width">
+    <table id="tab_id711654222599271">
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id11654222599271"><image src="cmd/lc_setminimalcolumnwidth.svg" id="img_id541654222599271" width="1cm" height="1cm"><alt id="alt_id451654222599271">Icon Minimal Column Width</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id161654222599272" role="paragraph">Minimal Column Width</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph role="paragraph" id="par_id621693929897206">Choose <menuitem>Properties - Table - Minimal Column Width</menuitem>.</paragraph>
+</section>
+
+<section id="optimal_column_width">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <switch select="appl">
+    <case select="WRITER">
+      <paragraph id="par_id3154752" role="paragraph">Choose <menuitem>Table - Size - Optimal Column Width</menuitem>.</paragraph>
+    </case>
+    <case select="CALC">
+      <paragraph role="paragraph" id="par_id3145252" xml-lang="en-US">Choose <emph>Format - Columns - Optimal Width</emph>.</paragraph>
+    </case>
+    <default>
+      <paragraph role="paragraph" id="par_id471655731343905">Choose <menuitem>Format - Table - Optimal Column Width</menuitem>.</paragraph>
+    </default>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <switch select="appl">
+    <case select="WRITER">
+      <paragraph role="paragraph" id="par_id701655738103242">Choose <menuitem>Size - Optimal Column Width</menuitem>.</paragraph>
+    </case>
+    <case select="CALC">
+      <paragraph role="paragraph" id="par_id701693944048858">Select column, choose <menuitem>Optimal Width</menuitem>.</paragraph>
+      <paragraph role="paragraph" id="par_id3146971" xml-lang="en-US">Double-click right column separator in column headers.</paragraph>
+    </case>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <switch select="appl">
+    <case select="WRITER">
+      <paragraph role="paragraph" id="par_id811693933748238">Choose <menuitem>Table - Optimize Size - Optimal Column Width</menuitem>.</paragraph>
+      <paragraph role="paragraph" id="par_id21693933751244">On the <menuitem>Table</menuitem> menu of the <menuitem>Table</menuitem> tab, choose <menuitem>Optimal Column Width</menuitem>.</paragraph>
+    </case>
+    <case select="CALC">
+      <paragraph role="paragraph" id="par_id181693944353293">Choose <menuitem>Layout - Column - Optimal Width</menuitem>.</paragraph>
+      <paragraph role="paragraph" id="par_id161693944357133">Choose <menuitem>Home - Column - Optimal Width</menuitem>.</paragraph>
+    </case>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="syoptimal_column_width">
+    <table id="tbl_id3156030">
+      <tablerow>
+        <tablecell>
+          <paragraph id="par_id3157881" role="paragraph"><image id="img_id3157888" src="cmd/lc_setoptimalcolumnwidth.svg" width="1cm" height="1cm"><alt id="alt_id3157888">Icon Optimal Column Width</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id3150524" role="paragraph">Optimal Column Width</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+  <switch select="appl">
+    <case select="WRITER">
+      <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+      <paragraph role="paragraph" id="par_id191693933756189">Choose <menuitem>Properties - Table - Optimal Column Width</menuitem>.</paragraph>
+    </case>
+  </switch>
+</section>
+
+<section id="distribute_columns_evenly">
+  <switch select="appl">
+    <case select="WRITER">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph id="par_id3159219" role="paragraph">Choose <menuitem>Table - Size - Distribute Columns Evenly</menuitem>.</paragraph>
+    </case>
+    <case select="CALC"/>
+    <default>
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id991655731434331">Choose <menuitem>Format - Table - Distribute Columns Evenly</menuitem>.</paragraph>
+    </default>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id151654212978990"><variable id="RightClickSize">Select columns in table, right-click, choose <menuitem>Size - Distribute Columns Evenly</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id251693935084102">Choose <menuitem>Table - Optimize Size - Distribute Columns Evenly</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id71693935087159">On the <menuitem>Table</menuitem> menu of the <menuitem>Table</menuitem> tab, choose <menuitem>Distribute Columns Evenly</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="sydistribute_columns_evenly">
+    <table id="tbl_id3148462">
+      <tablerow>
+        <tablecell>
+          <paragraph id="par_id3145179" role="paragraph"><image id="img_id3145186" src="cmd/lc_distributecolumns.svg" width="1cm" height="1cm"><alt id="alt_id3145186">Icon Distribute Columns Evenly</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id3151364" role="paragraph">Distribute Columns Evenly</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph role="paragraph" id="par_id191693935125855">Choose <menuitem>Properties - Table - Distribute Columns Evenly</menuitem>.</paragraph>
+</section>
+
+<section id="standard">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3145356" role="paragraph">Choose <menuitem>Format - Clear Direct Formatting</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id881690131939934">Choose <menuitem>Home - Clear</menuitem>.</paragraph>
+  <switch select="appl">
+    <case select="DRAW">
+      <paragraph role="paragraph" id="par_id631690132081669">Choose <menuitem>Draw - Clear</menuitem> (object selected).</paragraph>
+    </case>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="standard_icon">
+    <table id="tab_id561690132142121">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id741690132142121" role="paragraph"><image src="cmd/lc_resetattributes.svg" id="img_id621690132142122" width="1cm"  height="1cm"><alt id="alt_id21690132142123">Icon Clear Direct Formatting</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id281690132142125" role="paragraph">Clear Direct Formatting</paragraph>
+      </tablecell>
+    </tablerow>
+    </table>
+  </section>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id71690131881708"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + M</keycode></paragraph>
+</section>
+
+<section id="character">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3153244" role="paragraph">Choose <menuitem>Format - Character</menuitem>.</paragraph>
+  <switch select="appl">
+    <case select="WRITER">
+      <embed href="text/shared/00/00000004.xhp#from_context"/>
+      <paragraph role="paragraph" id="par_id561690149044585">Select text, choose <menuitem>Character - Character</menuitem> (automatic spell checking must be disabled).</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+      <paragraph role="paragraph" id="par_id11690146845549">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Character</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+      <paragraph id="par_id3151381" role="paragraph">Open the <menuitem>Styles</menuitem> deck, select a paragraph style, open context menu and choose <menuitem>New</menuitem> or <menuitem>Edit Style</menuitem>.</paragraph>
+    </case>
+    <case select="IMPRESS">
+      <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+      <paragraph role="paragraph" id="par_id641690149070500">Select a text object, choose <menuitem>Character</menuitem>.</paragraph>
+      <paragraph role="paragraph" id="par_id11690147845549">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Character</menuitem>.</paragraph>
+    </case>
+    <case select="DRAW">
+      <embed href="text/shared/00/00000004.xhp#from_context"/>
+      <paragraph role="paragraph" id="par_id741690149075667">Select a text object, choose <menuitem>Character</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+      <paragraph role="paragraph" id="par_id11690145845549">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>Character</menuitem>.</paragraph>
+    </case>
+    <case select="CALC">
+      <embed href="text/shared/00/00000004.xhp#from_context"/>
+      <paragraph role="paragraph" id="par_id741691149075667">Select text when editing a cell, choose <menuitem>Character</menuitem>.</paragraph>
+    </case>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="sycharacter">
+    <table id="tbl_id3150008">
+      <tablerow>
+        <tablecell>
+          <paragraph id="par_id3148998" role="paragraph"> <image id="img_id3154894" src="cmd/lc_fontdialog.svg" width="1cm" height="1cm"><alt id="alt_id3154894">Icon Character</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id3149999" role="paragraph">Character</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+</section>
+
+<section id="font">
+  <switch select="appl">
+    <case select="CALC">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph id="par_id3154749" role="paragraph">Choose <menuitem>Format - Cells - Font</menuitem> tab.</paragraph>
+      <paragraph id="par_id3156306" role="paragraph">Menu <menuitem>Format - Page Style - Header/Footer</menuitem> - <emph>Edit</emph> button.</paragraph>
+    </case>
+    <case select="CHART">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph id="par_id3150355" role="paragraph">Choose <emph>Format - Title - Character</emph> tab.</paragraph>
+      <paragraph id="par_id3149812" role="paragraph">Choose <emph>Format - Legend - Character</emph> tab.</paragraph>
+      <paragraph id="par_id3153717" role="paragraph">Choose <emph>Format - Axis - Character</emph> tab.</paragraph>
+    </case>
+    <default>
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph id="par_id3153935" role="paragraph">Choose <menuitem>Format - Character - Font</menuitem> tab.</paragraph>
+    </default>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph role="paragraph" id="par_id211690148229365">Select the <menuitem>Styles</menuitem> deck, open context menu of a style, choose <menuitem>Edit Style - Font</menuitem> tab.</paragraph>
+</section>
+
+<section id="font_effects">
+<paragraph id="par_id3155829" role="paragraph">Choose <emph>Format - Character - Font Effects</emph> tab.</paragraph>
+<paragraph id="par_id3149819" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - Font Effects</menuitem> tab.</paragraph>
+<switch select="appl">
+<case select="CALC">
+<paragraph id="par_id3159176" role="paragraph">Menu <emph>Format - Page Style - Header/Footer</emph> - <emph>Edit</emph> button (spreadsheets).</paragraph>
+</case>
+</switch>
+</section>
+<section id="position">
+<paragraph id="par_id3153541" role="paragraph">Choose <emph>Format - Character - Position</emph> tab.</paragraph>
+<paragraph id="par_id3159256" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and click <menuitem>New/Edit Style - Alignment</menuitem> tab.</paragraph>
+<switch select="appl">
+<case select="CALC">
+<paragraph id="par_id3151385" role="paragraph">Menu <emph>Format - Page Style - Header/Footer</emph> - <emph>Edit</emph> button (spreadsheets).</paragraph>
+</case>
+</switch>
+</section>
+<section id="asilayout">
+<paragraph id="par_id3148550" role="paragraph">Choose <emph>Format - Character - Asian Layout</emph> tab</paragraph>
+<paragraph id="par_id3152811" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and click <menuitem>New/Edit Style - Asian Layout</menuitem> tab.</paragraph>
+</section>
+<section id="asitypo">
+<paragraph id="par_id3153524" role="paragraph">Choose <emph>Format - Paragraph - Asian Typography</emph> tab (not in HTML).</paragraph>
+<paragraph id="par_id3154366" role="paragraph"><switchinline select="appl"><caseinline select="CALC">Choose <emph>Format - Cells - Asian Typography</emph> tab.</caseinline></switchinline></paragraph>
+<paragraph id="par_id3148742" role="paragraph">Choose <emph>View - Styles</emph> - open context menu of an entry and click <emph>New/Edit Style - Asian Typography</emph> tab.</paragraph>
+</section>
+<section id="hyperl">
+<paragraph id="par_id3148922" role="paragraph">Choose <emph>Format - Character - Hyperlink</emph> tab.</paragraph>
+</section>
+
+<section id="paragraph">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3149169" role="paragraph">Choose <emph>Format - Paragraph</emph>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id131690634671867">Place cursor in paragraph, choose <menuitem>Paragraph - Paragraph</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id221690634561129">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, select <menuitem>Paragraph</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph id="par_id3152381" role="paragraph">Open the <menuitem>Styles</menuitem> deck, select a paragraph style, open context menu and choose <menuitem>New</menuitem> or <menuitem>Edit Style</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="syparagraph">
+    <table id="tbl_id3150652">
+      <tablerow>
+        <tablecell>
+          <paragraph id="par_id3155995" role="paragraph"> <image id="img_id3150495" src="cmd/sc_paragraphdialog.svg" width="1cm" height="1cm"><alt id="alt_id3150495">Icon Paragraph</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id3147299" role="paragraph">Paragraph</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+</section>
+
+<section id="alignment">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3147289" role="paragraph">Choose <emph>Format - Paragraph - Alignment</emph> tab.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id811764276241289">On the <menuitem>Home</menuitem> tab, choose one of the alignments buttons.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph id="par_id3147352" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - Alignment</menuitem> tab.</paragraph>
+</section>
+<section id="indents">
+<paragraph id="par_id3154640" role="paragraph">Choose <emph>Format - Paragraph - Indents &amp; Spacing</emph> tab.</paragraph>
+<paragraph id="par_id3152463" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - Indents &amp; Spacing</menuitem> tab.</paragraph>
+</section>
+<section id="tabs">
+<paragraph id="par_id3154319" role="paragraph">Choose <emph>Format - Paragraph - Tabs</emph> tab.</paragraph>
+<paragraph id="par_id3154833" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - Tabs</menuitem> tab.</paragraph>
+<paragraph id="par_id3159155" role="paragraph">Double-click the ruler</paragraph>
+</section>
+<section id="borders">
+<paragraph id="par_idN109E2" role="paragraph">(all options only in Writer or Calc)</paragraph>
+<paragraph id="par_id3156105" role="paragraph">Choose <emph>Format - Paragraph - Borders</emph> tab.</paragraph>
+<paragraph id="par_id3154149" role="paragraph">Choose <emph>Format - Image - Properties - Borders</emph> tab.</paragraph>
+<paragraph id="par_id3163822" role="paragraph">Choose <emph>Format - Frame and Object - Properties - Borders</emph> tab.</paragraph>
+<paragraph id="par_id3150048" role="paragraph">Choose <emph>Format - Page - Borders</emph> tab.</paragraph>
+<paragraph id="par_id3151148" role="paragraph">Choose <emph>Format - Character - Borders</emph> tab.</paragraph>
+<paragraph id="par_id3149911" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - Borders</menuitem> tab.</paragraph>
+<paragraph id="par_id3150094" role="paragraph">Choose <emph>Format - Page - Header - More</emph> button.</paragraph>
+<paragraph id="par_id3154501" role="paragraph">Choose <emph>Format - Page - Footer - More</emph> button.</paragraph>
+<paragraph id="par_id3148455" role="paragraph"><switchinline select="appl"><caseinline select="CALC">Choose <emph>Format - Cells - Borders</emph> tab.</caseinline></switchinline></paragraph>
+</section>
+<section id="border_padding">
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph id="par_id3155915" role="paragraph">Menu <emph>Format - Paragraph</emph> - <emph>Border</emph> tab - <emph>Padding</emph>.</paragraph>
+        </case>
+        <case select="CALC">
+            <paragraph id="par_id3159130" role="paragraph">Menu <emph>Format - Page Style - Border - Padding</emph>.</paragraph>
+        </case>
+    </switch>
+</section>
+<section id="background">
+<paragraph id="par_id3155853" role="paragraph">Choose <emph>Format - Paragraph - Background</emph> tab.</paragraph>
+<paragraph id="par_id3147330" role="paragraph">Choose <emph>Format - Character - Highlighting</emph> tab.</paragraph>
+<paragraph id="par_id3149486" role="paragraph">Choose <emph>Format - Image - Background</emph> tab.</paragraph>
+<paragraph id="par_id3150592" role="paragraph">Choose <emph>Format - Frame and Object - Properties - Area</emph> tab.</paragraph>
+<paragraph id="par_id3151321" role="paragraph">Choose <emph>Format - Page Style - Background</emph> tab.</paragraph>
+<paragraph id="par_id3154510" role="paragraph">Choose <emph>Format - Page Style - Header - More</emph> button.</paragraph>
+<paragraph id="par_id3159110" role="paragraph">Choose <emph>Format - Page Style - Footer - More</emph> button.</paragraph>
+<paragraph id="par_id3153532" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - Background</menuitem> tab.</paragraph>
+<paragraph id="par_id3144747" role="paragraph">Choose <emph>Insert/Edit - Section - Background</emph> tab</paragraph>
+<paragraph id="par_id3146900" role="paragraph"><switchinline select="appl"><caseinline select="CALC">Choose <emph>Format - Cells - Background</emph> tab.</caseinline></switchinline></paragraph>
+</section>
+<section id="page_organizer">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph id="par_id3146791" role="paragraph">Choose <menuitem>Format - Page Style - General</menuitem> tab.</paragraph>
+<paragraph id="par_id7146791" role="paragraph">Choose <menuitem>Styles - Edit Style - General</menuitem> tab.</paragraph>
+<embed href="text/shared/00/00000004.xhp#from_context"/>
+<paragraph role="paragraph" id="par_id631579002848692">Choose <menuitem>Styles - Manage Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - General</menuitem> tab.</paragraph>
+<embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+<paragraph role="paragraph" id="par_id41725563918565"><switchinline select="sys"><caseinline select="MAC"><keycode>Option</keycode></caseinline><defaultinline><keycode>Alt</keycode></defaultinline></switchinline><keycode> + Shift + P</keycode></paragraph>
+</section>
+<section id="Calc_page_organizer">
+<paragraph id="par_id3146788" role="paragraph"><variable id="Calcseiteverwaltenh1">Choose <menuitem>Format - Page Style - General</menuitem> tab.</variable></paragraph>
+<paragraph role="paragraph" id="par_id961579003607432">Choose <menuitem>Styles - Manage Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - General</menuitem> tab.</paragraph>
+</section>
+<section id="Draw_page_organizer">
+<paragraph id="par_id3123788" role="paragraph"><variable id="Drawseiteverwaltenh1">Choose <menuitem>Format - Styles - Edit Style - General</menuitem> tab.</variable></paragraph>
+<paragraph role="paragraph" id="par_id111579003773016">Choose <menuitem>Format - Styles - Manage Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - General</menuitem> tab.</paragraph>
+</section>
+<section id="Impress_page_organizer">
+<paragraph id="par_id3149388" role="paragraph"><variable id="Impressseiteverwaltenh1">Choose <menuitem>Slide - Properties - Page</menuitem> tab.</variable></paragraph>
+</section>
+<section id="organize_all">
+<paragraph id="par_id3154482" role="paragraph">Choose <menuitem>View - Styles</menuitem> <switchinline select="sys"><caseinline select="MAC"><keycode>(Command+T)</keycode></caseinline>
+<defaultinline><keycode>(F11)</keycode></defaultinline></switchinline> - open context menu of an entry and choose <menuitem>New/Edit Style - General</menuitem> tab.</paragraph>
+</section>
+<section id="page">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<switch select="appl">
+<case select="IMPRESS">
+<paragraph id="par_id3149323" role="paragraph">Choose <menuitem>Slide - Properties - Slide</menuitem> tab</paragraph>
+</case>
+<case select="DRAW">
+<paragraph id="par_id3154972" role="paragraph">Choose <menuitem>Page - Properties - Page</menuitem> tab.</paragraph>
+</case>
+<case select="CALC">
+<paragraph role="paragraph" id="par_id731601602622257">Choose <menuitem>Format - Page Style - Page</menuitem> tab.</paragraph>
+<paragraph id="par_id3154362" role="paragraph">Choose <menuitem>View - Styles</menuitem> <switchinline select="sys"><caseinline select="MAC"><keycode>(Command+T)</keycode></caseinline>
+<defaultinline><keycode>(F11)</keycode></defaultinline></switchinline> - open context menu of a page style entry and choose <menuitem>New/Edit Style - Page</menuitem> tab.</paragraph>
+</case>
+<case select="WRITER">
+<paragraph id="par_id3153357" role="paragraph">Choose <menuitem>Format - Page Style - Page</menuitem> tab.</paragraph>
+<paragraph id="par_id31543624680" role="paragraph">Choose <menuitem>View - Styles</menuitem> <switchinline select="sys"><caseinline select="MAC"><keycode>(Command+T)</keycode></caseinline>
+<defaultinline><keycode>(F11)</keycode></defaultinline></switchinline>  - open context menu of a page style entry and choose <menuitem>New/Edit Style - Page</menuitem> tab.</paragraph>
+</case>
+<default>
+<paragraph id="par_id3133357" role="paragraph">Choose <menuitem>Format - Page Style - Page</menuitem> tab (Writer).</paragraph>
+</default>
+</switch>
+</section>
+<section id="header">
+<paragraph id="par_id3155515" role="paragraph">Choose <emph>Format - Page Style - Header</emph> tab.</paragraph>
+<paragraph id="par_id3148405" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of a page style entry and choose <menuitem>New/Edit Style - Header</menuitem> tab.</paragraph>
+</section>
+<section id="footer">
+<paragraph id="par_id3145618" role="paragraph">Choose <emph>Format - Page Style - Footer</emph> tab.</paragraph>
+<paragraph id="par_id3155175" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - Footer</menuitem> tab.</paragraph>
+</section>
+
+<section id="stylewindow">
+  <switch select="appl">
+    <case select="WRITER">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph id="par_id3147854" role="paragraph">Choose <menuitem>Styles - Manage Styles</menuitem>.</paragraph>
+      <paragraph id="par_id3147855" role="paragraph"><variable id="viewstyles">Choose <menuitem>View - Styles</menuitem>.</variable></paragraph>
+    </case>
+    <case select="IMPRESS">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id51687040050444" localize="false"><embedvar href="text/shared/00/00040500.xhp#viewstyles" markup="ignore"/></paragraph>
+      <paragraph id="par_id2847164" role="paragraph">Choose <menuitem>Format - Styles - Manage Styles</menuitem>.</paragraph>
+    </case>
+    <case select="DRAW">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id471687040069166" localize="false"><embedvar href="text/shared/00/00040500.xhp#viewstyles" markup="ignore"/></paragraph>
+      <paragraph id="par_id3147164" role="paragraph">Choose <menuitem>Format - Styles - Manage Styles</menuitem>.</paragraph>
+    </case>
+    <case select="CALC">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id931687040093766" localize="false"><embedvar href="text/shared/00/00040500.xhp#viewstyles" markup="ignore"/></paragraph>
+      <paragraph id="par_id3192854" role="paragraph">Choose <menuitem>Styles - Manage Styles</menuitem>.</paragraph>
+    </case>
+  </switch>
+  <switch select="appl">
+    <case select="MATH"/>
+    <case select="BASE"/>
+    <default>
+      <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+      <section id="systylist">
+      <table id="tbl_id3163807">
+        <tablerow>
+          <tablecell>
+            <paragraph id="par_id3148533" role="paragraph"><image id="img_id3149568" src="cmd/lc_designerdialog.svg" width="1cm" height="1cm"><alt id="alt_id3149568">Icon Styles</alt></image></paragraph>
+          </tablecell>
+          <tablecell>
+            <paragraph id="par_id3153534" role="paragraph">Styles</paragraph>
+          </tablecell>
+        </tablerow>
+      </table>
+    </section>
+      <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+      <paragraph id="par_id3166447" role="paragraph"><switchinline select="sys"><caseinline select="MAC"><keycode>Command + T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline></paragraph>
+    </default>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <embed href="text/shared/00/00040500.xhp#systylist"/>
+</section>
+
+<section id="3d">
+    <switch select="appl">
+        <case select="CHART">
+        </case>
+        <case select="CALC">
+        </case>
+        <case select="WRITER">
+        </case>
+        <case select="MATH">
+        </case>
+        <default>
+            <paragraph id="par_id3159313" role="paragraph">On the <emph>Drawing</emph> bar, click</paragraph>
+        </default>
+    </switch>
+<section id="sy3d">
+<table id="tbl_id3150297">
+  <tablerow>
+    <tablecell>
+        <paragraph id="par_id3109845" role="paragraph"><image id="img_id3159236" src="cmd/sc_window3d.svg" width="1cm" height="1cm"><alt id="alt_id3159236">Icon 3d window</alt></image></paragraph>
+    </tablecell>
+    <tablecell>
+      <paragraph id="par_id3152498" role="paragraph">3D Effects</paragraph>
+    </tablecell>
+  </tablerow>
+</table>
+</section>
+</section>
+<paragraph id="par_id3145256" role="paragraph"><variable id="3dgeometrie">Open the context menu of the 3D object, choose <emph>3D Effects - Geometry</emph> tab.</variable></paragraph>
+<paragraph id="par_id3154203" role="paragraph"><variable id="3ddarstellung">Open the context menu of the 3D object, choose <emph>3D Effects - Shading</emph> tab.</variable></paragraph>
+<paragraph id="par_id3151284" role="paragraph"><variable id="3dbeleuchtung">Open the context menu of the 3D object, choose <emph>3D Effects - Illumination</emph> tab.</variable></paragraph>
+<paragraph id="par_id3152475" role="paragraph"><variable id="3dtexturen">Open the context menu of the 3D object, choose <emph>3D Effects - Textures</emph> tab.</variable></paragraph>
+<paragraph id="par_id3154572" role="paragraph"><variable id="3dmaterial">Open the context menu of the 3D object, choose <emph>3D Effects - Material</emph> tab.</variable></paragraph>
+
+<section id="bullets_and_numbering">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3145220" role="paragraph">Choose <menuitem>Format - Bullets and Numbering</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id761616160771224">Choose <menuitem>List - Bullets and Numbering</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <switch select="appl">
+    <case select="DRAW">
+      <paragraph role="paragraph" id="par_id51690931786955">Choose <menuitem>Text</menuitem> - long click on bullet, numbering and outline icons, choose <menuitem>Customize</menuitem>.</paragraph>
+    </case>
+    <default>
+      <paragraph role="paragraph" id="par_id761690931793457">Choose <menuitem>Home</menuitem> - long click on bullet, numbering and outline icons, choose <menuitem>Customize</menuitem>.</paragraph>
+      <paragraph role="paragraph" id="par_id741690929264495">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Bullets and Numbering</menuitem>.</paragraph>
+    </default>
+  </switch>
+  <embed href="text/shared/00/00000004.xhp#from_statusbar"/>
+  <paragraph role="paragraph" id="par_id571690928716928">Place cursor on a heading, click on the <menuitem>Outline</menuitem> area.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="sybullets_and_numbering">
+    <table id="tbl_id3152774">
+      <tablerow>
+        <tablecell>
+          <paragraph id="par_id3149445" role="paragraph"><image id="img_id3149964" src="cmd/lc_bulletsandnumberingdialog.svg" width="1cm" height="1cm"><alt id="alt_id3149964">Bullets and Numbering dialog Icon</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id3157970" role="paragraph">Bullets and Numbering</paragraph>
+        </tablecell>
+      </tablerow>
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id101690929527350"><image src="cmd/lc_defaultbullet.svg" id="img_id711690929527351" width="1cm" height="1cm"><alt id="alt_id921690929527352">Default bullet</alt></image> <image src="cmd/lc_defaultnumbering.svg" id="img_id141690929565394" width="1cm" height="1cm"><alt id="alt_id311690929565395">Default numbering</alt></image> <switchinline select="appl"><caseinline select="WRITER"><image src="cmd/lc_setoutline.svg" id="img_id111690929576033" width="1cm" height="1cm"><alt id="alt_id821690929576034">Set outline</alt></image></caseinline></switchinline></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id861690929510655" role="paragraph">Long click and select <menuitem>Customize</menuitem>.</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+</section>
+
+<section id="numCustomize">
+    <paragraph id="par_id3149735" role="paragraph">Choose <menuitem>Format - Bullets and Numbering</menuitem>. <switchinline select="appl"><caseinline select="WRITER">Open <emph>Customize</emph> tab page.</caseinline></switchinline></paragraph>
+    <switch select="appl">
+        <case select="IMPRESS">
+            <paragraph id="par_id3150785" role="paragraph">Open <menuitem>Styles - Presentation Styles</menuitem> - context menu of an Outline Style - choose <menuitem>New/Edit Style</menuitem>.</paragraph>
+        </case>
+        <case select="WRITER">
+            <paragraph id="par_id3148420" role="paragraph">Open <menuitem>Styles - List Styles</menuitem> - context menu of an entry - choose <menuitem>New/Edit Style</menuitem>.</paragraph>
+        </case>
+    </switch>
+</section>
+
+<section id="numbullets">
+  <paragraph role="paragraph" id="par_id701692447925387">Open the <link href="text/shared/01/06050000.xhp"><menuitem>Bullets and Numbering</menuitem></link> dialog, select <menuitem>Unordered</menuitem>.</paragraph>
+    <switch select="appl">
+        <case select="IMPRESS">
+          <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+          <paragraph id="par_id3149917" role="paragraph">Open <menuitem>Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem> - Presentation Styles</menuitem> - context menu of an outline style - choose <menuitem>Edit Styles - Bullets</menuitem> tab.</paragraph>
+        </case>
+        <case select="WRITER">
+          <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+          <paragraph role="paragraph" id="par_id541692447574919">Open <menuitem>Format - Paragraph - Outline &amp; List</menuitem>, click on <widget>Edit Style</widget> - <menuitem>Unordered</menuitem> tab.</paragraph>
+          <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+          <paragraph id="par_id3154930" role="paragraph">Open <menuitem>Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem>- List Styles</menuitem> - context menu of an entry - choose <menuitem>New/Edit Style - Unordered</menuitem> tab.</paragraph>
+          <paragraph role="paragraph" id="par_id581692448797689">Open <menuitem>Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem>- Paragraph Styles</menuitem>, context menu of an entry - choose <menuitem>New/Edit Style - Outline &amp; List</menuitem>, click on <widget>Edit Style</widget> - <menuitem>Unordered</menuitem> tab.</paragraph>
+        </case>
+    </switch>
+</section>
+
+<section id="numberingtype">
+  <paragraph role="paragraph" id="par_id751692451544221">Open the <link href="text/shared/01/06050000.xhp"><menuitem>Bullets and Numbering</menuitem></link> dialog, select <menuitem>Ordered</menuitem>.</paragraph>
+    <switch select="appl">
+        <case select="IMPRESS">
+          <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+          <paragraph id="par_id461692451557838" role="paragraph">Open <menuitem>Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem>- Presentation Styles</menuitem> - context menu of an outline style - choose <menuitem>Edit Styles - Numbering</menuitem> tab.</paragraph>
+        </case>
+        <case select="WRITER">
+          <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+          <paragraph role="paragraph" id="par_id441692451564694">Open <menuitem>Format - Paragraph - Outline &amp; List</menuitem>, click on <widget>Edit Style</widget> - <menuitem>Ordered</menuitem> tab.</paragraph>
+          <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+          <paragraph id="par_id561692451570660" role="paragraph">Open <menuitem>Styles</menuitem>(<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem>- List Styles</menuitem> - context menu of an entry - choose <menuitem>New/Edit Style - Ordered</menuitem> tab.</paragraph>
+          <paragraph role="paragraph" id="par_id831692451574766">Open <menuitem>Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem>- Paragraph Styles</menuitem>, context menu of an entry - choose <menuitem>New/Edit Style - Outline &amp; List</menuitem>, click on <widget>Edit Style</widget> - <menuitem>Ordered</menuitem> tab.</paragraph>
+        </case>
+    </switch>
+</section>
+
+<section id="graphics">
+  <paragraph role="paragraph" id="par_id461692538170299">Open the <link href="text/shared/01/06050000.xhp"><menuitem>Bullets and Numbering</menuitem></link> dialog, select <menuitem>Image</menuitem>.</paragraph>
+  <switch select="appl">
+    <case select="IMPRESS"><comment>Will review later. OH</comment></case>
+    <case select="DRAW"><comment>Will review later. OH</comment></case>
+    <case select="WRITER">
+      <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+      <paragraph id="par_id951692538295900" role="paragraph">Open <menuitem>Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem>- List Styles</menuitem> - context menu of an entry - choose <menuitem>New/Edit Style - Ordered</menuitem> tab.</paragraph>
+      <paragraph role="paragraph" id="par_id1001692538299731">Open <menuitem>Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem>- Paragraph Styles</menuitem>, context menu of an entry - choose <menuitem>New/Edit Style - Outline &amp; List</menuitem>, click on <widget>Edit Style</widget> - <menuitem>Ordered</menuitem> tab.</paragraph>
+    </case>
+  </switch>
+</section>
+
+<section id="outlining">
+  <paragraph role="paragraph" id="par_id351692452437726">Open the <link href="text/shared/01/06050000.xhp"><menuitem>Bullets and Numbering</menuitem></link> dialog, select <menuitem>Outline</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id551692453786548">Open <menuitem>Format - Paragraph - Outline &amp; List</menuitem>, click on <widget>Edit Style</widget> - <menuitem>Outline</menuitem> tab.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="syoutline">
+    <table id="tab_id421725046439984">
+    <tablerow>
+      <tablecell>
+        <paragraph role="paragraph" id="par_id851725046439984">
+          <image src="cmd/lc_setoutline.svg" id="img_id441725046439984" width="1cm" height="1cm"><alt id="alt_id471725046439985">Icon Outline Style</alt></image>
+        </paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id601725046439985" role="paragraph">Select Outline Style</paragraph>
+      </tablecell>
+    </tablerow>
+    </table>
+  </section>
+  <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+  <paragraph id="par_id521692453821157" role="paragraph">Open <menuitem>Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem>- List Styles</menuitem> - context menu of an entry - choose <menuitem>New/Edit Style - Outline</menuitem> tab.</paragraph>
+  <paragraph role="paragraph" id="par_id61692453824913">Open <menuitem>Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) <menuitem>- Paragraph Styles</menuitem>, context menu of an entry - choose <menuitem>New/Edit Style - Outline &amp; List</menuitem>, click on <widget>Edit Style</widget> - <menuitem>Outline</menuitem> tab.</paragraph>
+</section>
+
+<section id="numposition">
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph id="par_id3156658" role="paragraph">Choose <menuitem>Format - Bullets and Numbering</menuitem> - <emph>Position</emph> tab.</paragraph>
+            <paragraph id="par_id3153812" role="paragraph">Choose <menuitem>View - Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) - choose List Styles - context menu of an entry - choose <menuitem>New/Edit Style</menuitem> - <emph>Position</emph> tab.</paragraph>
+            <paragraph id="par_id3153899" role="paragraph">Choose <menuitem>Styles - Manage Styles</menuitem> - choose List Styles - context menu of an entry - choose <menuitem>New/Edit Style</menuitem> - <emph>Position</emph> tab.</paragraph>
+            <paragraph id="par_id3156170" role="paragraph">Choose <menuitem>Tools - Heading Numbering - Position</menuitem> tab.</paragraph>
+        </case>
+    </switch>
+</section>
+<section id="crop">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id181692821721184">Choose <menuitem>Format - Image - Crop</menuitem>.</paragraph>
+  <paragraph id="par_id3151332" role="paragraph">Menu <emph>Format - Image - Properties - Crop</emph> tab.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id611692821136322">Choose <menuitem>Crop</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id911692821238429">Choose <menuitem>Image - Crop</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id421692821243144">On the <menuitem>Image</menuitem> menu of the <menuitem>Image</menuitem> tab, choose <menuitem>Crop</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="sycrop">
+    <table id="tbl_id3154374">
+      <tablerow>
+        <tablecell>
+          <paragraph id="par_id3149953" role="paragraph"><image id="img_id3155092" src="cmd/lc_crop.svg" width="1cm" height="1cm"><alt id="alt_id3155092">Icon Crop</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id3153695" role="paragraph">Crop</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+</section>
+
+<section id="submenu_text">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3151254" role="paragraph">Choose <menuitem>Format - Text</menuitem>.</paragraph>
+</section>
+
+<section id="submenu_spacing">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3151255" role="paragraph">Choose <menuitem>Format - Spacing</menuitem>.</paragraph>
+</section>
+
+<section id="ruby">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph id="par_id3153579" role="paragraph">Choose <emph>Format - Asian Phonetic Guide</emph>.</paragraph>
+</section>
+</body>
+</helpdocument>

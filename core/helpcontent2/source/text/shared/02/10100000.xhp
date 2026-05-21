@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+  <topic id="textshared0210100000xml" indexer="include" status="PUBLISH">
+    <title id="tit">Close Window</title>
+    <filename>/text/shared/02/10100000.xhp</filename>
+  </topic>
+</meta>
+<body>
+<bookmark branch="hid/.uno:CloseWin" id="bm_id8159155" localize="false"/>
+<section id="close">
+<h1 id="hd_id3152895"><link href="text/shared/02/10100000.xhp">Close Window</link></h1>
+<description id="par_id3155934"><ahelp hid=".uno:CloseWin">Closes the current window. If additional views of the current document are open, this command will close only the current view.</ahelp>
+</description>
+<section id="howtoget">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id141762892592380">Choose <emph>Window - Close Window</emph>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id391762892672005">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id331762892672005" role="paragraph"><image src="cmd/lc_closepreview.svg" id="img_id461762892672005" width="1cm"  height="1cm"><alt id="alt_id281762892672005">Icon Close Window</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id911762892672005" role="paragraph">Close Window</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id1001762892582028">Press <switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline>+<keycode>W</keycode>.</paragraph>
+</section>
+<note id="par_id851762892953331">In the print preview of $[officename] Writer and Calc, you can close the current window by clicking the <emph>Close Preview</emph> button.</note>
+</section>
+<section id="relatedtopics">
+<paragraph role="paragraph" id="par_id3153910"><link href="text/shared/01/01050000.xhp">Close the current document</link></paragraph>
+</section>
+</body>
+</helpdocument>

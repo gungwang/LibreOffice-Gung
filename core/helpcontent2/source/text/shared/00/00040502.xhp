@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+    <!--
+    * This file is part of the LibreOffice project.
+    *
+    * This Source Code Form is subject to the terms of the Mozilla Public
+    * License, v. 2.0. If a copy of the MPL was not distributed with this
+    * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+    *
+    * This file incorporates work covered by the following license notice:
+    *
+    *   Licensed to the Apache Software Foundation (ASF) under one or more
+    *   contributor license agreements. See the NOTICE file distributed
+    *   with this work for additional information regarding copyright
+    *   ownership. The ASF licenses this file to you under the Apache
+    *   License, Version 2.0 (the "License"); you may not use this file
+    *   except in compliance with the License. You may obtain a copy of
+    *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+    -->
+
+    <meta>
+        <topic id="textshared0000040502xml" indexer="exclude">
+            <title id="tit">Format Menu</title>
+            <filename>/text/shared/00/00040502.xhp</filename>
+        </topic>
+    </meta>
+    <body>
+    <comment>This listing is split over the files 00040500, 00040501, 00040502 and 00040503.</comment>
+    <h1 id="hd_id3149741">Format Menu</h1>
+    <section id="line1">
+        <paragraph id="par_id3146857" role="paragraph">Choose <menuitem>Format - Line</menuitem> (Impress and Draw).</paragraph><comment>i64150</comment>
+        <paragraph id="par_id366527" role="paragraph">Choose <menuitem>Format - Text Box and Shape - Line</menuitem> (Writer).</paragraph>
+        <paragraph id="par_id3835261" role="paragraph">Choose <menuitem>Format - Object - Line</menuitem> (Calc).</paragraph>
+        <paragraph id="par_id3148668" role="paragraph">On <emph>Line and Filling</emph> bar, click</paragraph>
+        <section id="syline">
+            <table id="tbl_id3145160">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3148889" role="paragraph"><image id="img_id3150669" src="cmd/lc_formatline.svg" width="1cm" height="1cm"><alt id="alt_id3150669">Icon Line</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3159147" role="paragraph">Line</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+    </section>
+    <section id="line2">
+      <switch select="appl">
+      <case select="WRITER">
+        <paragraph id="par_id3154285" role="paragraph">Choose <menuitem>Format - Text Box and Shape - Line - Line</menuitem> tab.</paragraph>
+      </case>
+      <case select="CALC">
+        <paragraph id="par_id3153596" role="paragraph">Choose <menuitem>Format - Object - Line - Line</menuitem> tab.</paragraph>
+      </case>
+      <case select="CHART">
+        <paragraph id="par_id3156023" role="paragraph">Choose <menuitem>Format - Title - Borders</menuitem> tab (charts).</paragraph>
+        <paragraph id="par_id3153061" role="paragraph">Choose <menuitem>Format - Legend - Borders</menuitem> tab (charts).</paragraph>
+        <paragraph id="par_id3155922" role="paragraph">Choose <menuitem>Format - Axis - Line</menuitem> tab (charts).</paragraph>
+        <paragraph id="par_id3147559" role="paragraph">Choose <menuitem>Format - Grid - Line</menuitem> tab (charts).</paragraph>
+        <paragraph id="par_id3154758" role="paragraph">Choose <menuitem>Format - Chart Wall - Borders</menuitem> tab (charts).</paragraph>
+        <paragraph id="par_id3153960" role="paragraph">Choose <menuitem>Format - Chart Floor - Borders</menuitem> tab (charts).</paragraph>
+        <paragraph id="par_id3154939" role="paragraph">Choose <menuitem>Format - Chart Area - Borders</menuitem> tab (charts).</paragraph>
+      </case>
+      <case select="IMPRESS">
+        <paragraph id="par_id3147335" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu and choose <menuitem>New/Edit Style - Line</menuitem> tab (presentation documents).</paragraph>
+      </case>
+      </switch>
+    </section>
+    <paragraph id="par_id3151293" role="paragraph"><variable id="linienstile">Choose <menuitem>Format - </menuitem><switchinline select="appl"><caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem>
+    </caseinline><caseinline select="CALC"><menuitem>Object - </menuitem></caseinline></switchinline><menuitem>Line - Line Styles</menuitem> tab.</variable></paragraph>
+
+<section id="ArrowStyle">
+   <switch select="appl">
+     <case select="DRAW">
+       <paragraph role="paragraph" id="par_id811654761854632">Choose <menuitem>Format - Line</menuitem></paragraph>
+     </case>
+     <default>
+       <paragraph id="par_id3149317" role="paragraph"><variable id="lineend">Choose <menuitem>Format - Text Box and Shape - Line - Arrow Styles</menuitem> tab.</variable></paragraph>
+     </default>
+   </switch>
+   <paragraph role="paragraph" id="par_id631649991449892"><variable id="right-click-arrowhead">Right-click a selected object - choose <menuitem>Line - Arrow Styles</menuitem> tab.</variable></paragraph>
+   <switch select="appl">
+     <case select="WRITER">
+       <paragraph role="paragraph" id="par_id641654762186921">On the <menuitem>Drawing Object Properties</menuitem> bar, choose <menuitem>Arrow Styles</menuitem> tab, after clicking</paragraph>
+     </case>
+     <case select="CALC">
+       <paragraph role="paragraph" id="par_id331654762248984">On the <menuitem>Drawing Object Properties</menuitem> bar or <menuitem>Image</menuitem> bar, choose <menuitem>Arrow Styles</menuitem> tab, after clicking</paragraph>
+     </case>
+     <default>
+       <paragraph role="paragraph" id="par_id411654762306808">On the <menuitem>Image</menuitem> bar or <menuitem>Line and Filling</menuitem> bar, choose <menuitem>Arrow Styles</menuitem> tab, after clicking</paragraph>
+     </default>
+  </switch>
+  <embed href="text/shared/00/00040502.xhp#syline"/>
+</section>
+
+     <section id="area1">
+        <paragraph id="par_id3156082" role="paragraph">Choose <menuitem>Format - </menuitem><switchinline select="appl"><caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem>
+                    </caseinline><caseinline select="CALC"><menuitem>Object - </menuitem></caseinline></switchinline><menuitem>Area</menuitem>.</paragraph>
+        <paragraph id="par_id3148922" role="paragraph">On <emph>Line and Filling</emph> bar, click</paragraph>
+        <section id="syarea">
+            <table id="tbl_id3145174">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3156424" role="paragraph"><image id="img_id3150868" src="cmd/lc_backgroundcolor.svg" width="1cm" height="1cm"><alt id="alt_id3150868">Icon Area</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3150393" role="paragraph">Area</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+    </section>
+    <section id="area2">
+        <switch select="appl">
+            <case select="WRITER">
+                <section id="areawriter">
+                <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+                <paragraph role="paragraph" id="par_id511592159765396">Choose <menuitem>View - Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) - choose Paragraph, Frame or Page style - open context menu - choose <menuitem>New/Edit Style - Area</menuitem> tab.</paragraph>
+                <paragraph role="paragraph" id="par_id841527083135387">Choose <menuitem>Table - Properties - Background</menuitem> tab. Select the table object - Cell, Row or Table - which background area is to be filled.</paragraph>
+                <paragraph role="paragraph" id="par_id821578662265845">Choose <menuitem>Format - Page Style - Area</menuitem> tab.</paragraph>
+                <paragraph role="paragraph" id="par_id901592158395353">Choose <menuitem>Format - Text Box and Shape - Area - Area</menuitem></paragraph>
+            </section>
+            </case>
+            <case select="CALC">
+                <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+                <paragraph role="paragraph" id="par_id1001592157774069">Choose <menuitem>Styles - Manage Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>) - choose Cell or Page style - open context menu - choose <menuitem>New/Edit Style - Background</menuitem> tab.</paragraph>
+                <paragraph role="paragraph" id="par_id771592156369992">Choose <menuitem>Format - Page Style - Background</menuitem> tab</paragraph>
+                <paragraph role="paragraph" id="par_id431578737397995">Choose <menuitem>Format - Cells - Background</menuitem> tab</paragraph>
+                <paragraph role="paragraph" id="par_id881592158156157">Choose <menuitem>Format - Object - Area - Area</menuitem> tab.</paragraph>
+            </case>
+            <case select="IMPRESS">
+                <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+                <paragraph role="paragraph" id="par_id951592158682096">Choose <menuitem>Format - Style - Edit Style - Area</menuitem> tab</paragraph>
+                <paragraph role="paragraph" id="par_id11592158856626">Choose <menuitem>Slide - Properties - Background</menuitem> tab</paragraph>
+                <paragraph role="paragraph" id="par_id891592159117695">Choose <menuitem>Format - Styles - Manage Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>), choose Drawing or Presentation style - open context menu - choose <menuitem>New/Edit Style - Area</menuitem> tab.</paragraph>
+                <paragraph role="paragraph" id="par_id741592159264211">Choose <menuitem>Format - Object and Shape - Area - Area</menuitem> tab</paragraph>
+            </case>
+            <case select="DRAW">
+                <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+                <paragraph role="paragraph" id="par_id271592159552714">Choose <menuitem>Format - Style - Edit Style - Area</menuitem> tab</paragraph>
+                <paragraph role="paragraph" id="par_id161592159449638">Choose <menuitem>Format - Styles - Manage Styles</menuitem> (<switchinline select="sys"><caseinline select="MAC"><keycode>Command+T</keycode></caseinline><defaultinline><keycode>F11</keycode></defaultinline></switchinline>), choose Drawing style - open context menu - choose <menuitem>New/Edit Style - Area</menuitem> tab.</paragraph>
+                <paragraph id="par_id9149694" role="paragraph">Choose <menuitem>Page - Properties - Background</menuitem> tab.</paragraph>
+                <paragraph role="paragraph" id="par_id471592158481451">Choose <menuitem>Format - Area - Area</menuitem> tab</paragraph>
+            </case>
+            <case select="CHART">
+                <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+                <paragraph id="par_id3152922" role="paragraph">Choose <menuitem>Format - Title - Area</menuitem> tab.</paragraph>
+                <paragraph id="par_id3157894" role="paragraph">Choose <menuitem>Format - Legend - Area</menuitem> tab.</paragraph>
+                <paragraph id="par_id3144444" role="paragraph">Choose <menuitem>Format - Chart Wall - Area</menuitem> tab.</paragraph>
+                <paragraph id="par_id3156543" role="paragraph">Choose <menuitem>Format - Chart Floor - Area</menuitem>.</paragraph>
+                <paragraph id="par_id3150685" role="paragraph">Choose <menuitem>Format - Chart Area - Area</menuitem>.</paragraph>
+            </case>
+            <case select="BASE">
+                <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+                <paragraph role="paragraph" id="par_id901592160809757">When editing a form:</paragraph>
+                <embed href="text/shared/00/00040502.xhp#areawriter"/>
+                <paragraph role="paragraph" id="par_id201592161190323">When editing a report:</paragraph>
+                <paragraph role="paragraph" id="par_id591592161180508">Choose <menuitem>Format - Page - Background</menuitem> tab.</paragraph>
+            </case>
+            <default>
+                <embed href="text/shared/00/00040502.xhp#areawriter"/>
+            </default>
+      </switch>
+    </section>
+    <section id="trans">
+        <paragraph id="par_id3154985" role="paragraph">Choose <menuitem>Format - Area - Transparency</menuitem> tab (drawing documents).</paragraph>
+        <paragraph id="par_id3145365" role="paragraph">Choose <menuitem>Format - Object and Shape - Area - Transparency</menuitem> tab (presentation documents).</paragraph>
+        <paragraph id="par_id3151117" role="paragraph">Choose <menuitem>Format - Chart Wall - Transparency</menuitem> tab (chart documents).</paragraph>
+        <paragraph id="par_id3147326" role="paragraph">Choose <menuitem>Format - Chart Area - Transparency</menuitem> tab (chart documents).</paragraph>
+        <paragraph id="par_id3154920" role="paragraph">Choose <menuitem>Format - Chart Floor - Transparency</menuitem> tab (chart documents).</paragraph>
+        <paragraph id="par_id3145591" role="paragraph">Choose <menuitem>Format - Title - All Titles - Transparency</menuitem> tab (chart documents).</paragraph>
+        <paragraph id="par_id3145750" role="paragraph">Choose <menuitem>Format - Title - Main Title - Transparency </menuitem>tab (chart documents).</paragraph>
+        <paragraph id="par_id3148556" role="paragraph">Choose <menuitem>Format - Title - Subtitle - Transparency</menuitem> tab (chart documents).</paragraph>
+        <paragraph id="par_id3163710" role="paragraph">Choose <menuitem>Format - Title - Title (X Axis) - Transparency</menuitem> tab (chart documents).</paragraph>
+        <paragraph id="par_id3150487" role="paragraph">Choose <menuitem>Format - Title - Title (Y Axis) - Transparency</menuitem> tab (chart documents).</paragraph>
+        <paragraph id="par_id3154320" role="paragraph">Choose <menuitem>Format - Title - Title (Z Axis) - Transparency</menuitem> tab (chart documents)</paragraph>
+        <paragraph id="par_id3151113" role="paragraph">Choose <menuitem>Format - Object Properties - Data Point - Transparency</menuitem> - tab (chart documents).</paragraph>
+        <paragraph id="par_id3149266" role="paragraph">Choose <menuitem>Format - Object Properties - Data Series - Transparency</menuitem> tab (chart documents).</paragraph>
+    </section>
+    <section id="paratrans">
+    <paragraph id="par_id3147189" role="paragraph">Choose <menuitem>Format - Paragraph - Transparency</menuitem> tab.</paragraph>
+    <paragraph id="par_id3144352" role="paragraph">Choose <menuitem>View - Styles</menuitem> - open context menu of an entry and choose <menuitem>New/Edit Style - Transparency</menuitem> tab.</paragraph>
+    </section>
+    <paragraph id="par_id3150011" role="paragraph"><variable id="schatte">Choose <menuitem>Format - </menuitem><switchinline select="appl"><caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem></caseinline><caseinline select="CALC"><menuitem>Object - </menuitem></caseinline></switchinline><menuitem>Area - Shadow</menuitem> tab.</variable></paragraph>
+    <paragraph id="par_id3147441" role="paragraph"><variable id="verlauf">Choose <menuitem>Format - </menuitem><switchinline select="appl"><caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem></caseinline><caseinline select="CALC"><menuitem>Object - </menuitem></caseinline></switchinline><menuitem>Area - Gradients</menuitem> tab.</variable></paragraph>
+    <paragraph id="par_id3155308" role="paragraph">
+        <variable id="schraffur">Choose <menuitem>Format - </menuitem>
+            <switchinline select="appl">
+                <caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem></caseinline>
+                <caseinline select="CALC"><menuitem>Object - </menuitem></caseinline>
+                <caseinline select="IMPRESS"><menuitem>Object and Shape - </menuitem></caseinline>
+            </switchinline>
+            <menuitem>Area - Hatch</menuitem> tab.
+        </variable>
+    </paragraph>
+    <paragraph id="par_id3155314" role="paragraph">
+        <variable id="page_hatch">
+            <switchinline select="appl">
+                <caseinline select="WRITER">Choose <menuitem>Format - Page Style - Area</menuitem></caseinline>
+                <caseinline select="DRAW">Choose <menuitem>Page - Properties - Background</menuitem></caseinline>
+                <caseinline select="IMPRESS">Choose <menuitem>Slide - Properties - Background</menuitem></caseinline>
+            </switchinline>
+            <emph> - Hatch</emph> tab.
+        </variable>
+    </paragraph>
+    <paragraph id="par_id3145800" role="paragraph"><variable id="image">Choose <menuitem>Format - </menuitem><switchinline select="appl"><caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem></caseinline><caseinline select="CALC"><menuitem>Object - </menuitem></caseinline></switchinline><menuitem>Area - Image</menuitem> tab.</variable></paragraph>
+
+    <section id="formattext">
+        <paragraph role="paragraph" id="par_id251750094565285"><variable id="selectthedrawingobj">Select the drawing object, then:</variable></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3145251" role="paragraph">Choose <menuitem>Format - Text Box and Shape - </menuitem><switchinline select="appl"><caseinline select="CALC"><menuitem>Text</menuitem></caseinline><defaultinline><menuitem>Text Attributes</menuitem></defaultinline></switchinline>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph id="par_id901750094988476" role="paragraph">Choose <switchinline select="appl"><caseinline select="CALC"><menuitem>Text</menuitem></caseinline><defaultinline><menuitem>Text Attributes</menuitem></defaultinline></switchinline>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id721750077057532">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id601750077057534" role="paragraph"><image src="cmd/lc_fontdialog.svg" id="img_id881750077057537" width="1cm"  height="1cm"><alt id="alt_id981750077057539">Icon Text Attributes</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id311750077057544" role="paragraph">Text Attributes</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+
+    <section id="text">
+        <paragraph role="paragraph" id="par_id231750095888715" localize="false"><embedvar href="text/shared/00/00040502.xhp#selectthedrawingobj" markup="ignore"/></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id161750095654740" role="paragraph">Choose <menuitem>Format - Text Box and Shape - </menuitem><switchinline select="appl"><caseinline select="CALC"><menuitem>Text</menuitem></caseinline><defaultinline><menuitem>Text Attributes</menuitem></defaultinline></switchinline><menuitem> - Text</menuitem> tab.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph id="par_id241750095658108" role="paragraph">Choose <switchinline select="appl"><caseinline select="CALC"><menuitem>Text</menuitem></caseinline><defaultinline><menuitem>Text Attributes</menuitem></defaultinline></switchinline><menuitem> - Text</menuitem> tab.</paragraph>
+    </section>
+
+    <section id="laufext">
+        <paragraph role="paragraph" id="par_id751750095929236" localize="false"><embedvar href="text/shared/00/00040502.xhp#selectthedrawingobj" markup="ignore"/></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3151060" role="paragraph">Choose <menuitem>Format - Text Box and Shape - </menuitem><switchinline select="appl"><caseinline select="CALC"><menuitem>Text</menuitem></caseinline><defaultinline><menuitem>Text Attributes</menuitem></defaultinline></switchinline><menuitem> - Text Animation</menuitem> tab.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph id="par_id471750096310877" role="paragraph">Choose <switchinline select="appl"><caseinline select="CALC"><menuitem>Text</menuitem></caseinline><defaultinline><menuitem>Text Attributes</menuitem></defaultinline></switchinline><menuitem> - Text Animation</menuitem> tab.</paragraph>
+    </section>
+
+    <section id="position1">
+        <paragraph id="par_id3149911" role="paragraph">Choose <menuitem>Format - </menuitem><switchinline select="appl"><caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem></caseinline><caseinline select="CALC"><menuitem>Object - </menuitem></caseinline></switchinline><menuitem>Position and Size</menuitem>.</paragraph>
+        <paragraph id="par_id3156286" role="paragraph"><switchinline select="appl"><caseinline select="DRAW"><keycode>F4</keycode> key</caseinline><caseinline select="IMPRESS"><keycode>F4</keycode> key</caseinline></switchinline></paragraph>
+    </section>
+    <section id="syposition">
+        <table id="Table1">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id3153052" role="paragraph"><image id="img_id3150965" src="cmd/lc_transformdialog.svg" width="1cm" height="1cm"><alt id="alt_id3150965">Icon Position and Size</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id3149938" role="paragraph">Position and Size<comment>UFI: in Form Design toolbar</comment></paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <section id="textcolumns">
+        <paragraph role="paragraph" id="par_id841750095941853" localize="false"><embedvar href="text/shared/00/00040502.xhp#selectthedrawingobj" markup="ignore"/></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id661750096260453" role="paragraph">Choose <menuitem>Format - Text Box and Shape - </menuitem><switchinline select="appl"><caseinline select="CALC"><menuitem>Text</menuitem></caseinline><defaultinline><menuitem>Text Attributes</menuitem></defaultinline></switchinline><menuitem> - Text Columns</menuitem> tab.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph id="par_id551750096268405" role="paragraph">Choose <switchinline select="appl"><caseinline select="CALC"><menuitem>Text</menuitem></caseinline><defaultinline><menuitem>Text Attributes</menuitem></defaultinline></switchinline><menuitem> - Text Columns</menuitem> tab.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id771750077385094">Choose <menuitem>Columns</menuitem> panel in the <menuitem>Properties</menuitem> deck.</paragraph>
+    </section>
+
+    <section id="name">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id741692887382896">Choose <menuitem>Format - Name</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph id="par_id3148833" role="paragraph">Choose <menuitem>Name</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id951692887528644">On the <menuitem>Image</menuitem> menu of the <menuitem>Image</menuitem> tab, choose <menuitem>Name</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id891692887523881">On the <menuitem>Object</menuitem> menu of the <menuitem>Object</menuitem> tab, choose <menuitem>Name</menuitem>.</paragraph>
+    </section>
+
+    <section id="descript">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id571692887675738">Choose <menuitem>Format - Alt Text</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id811692887686506">On the <menuitem>Image</menuitem> menu of the <menuitem>Image</menuitem> tab, choose <menuitem>Alt Text</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id221692887689963">On the <menuitem>Object</menuitem> menu of the <menuitem>Object</menuitem> tab, choose <menuitem>Alt Text</menuitem>.</paragraph>
+    </section>
+<section id="Shape_PositionSize">
+<paragraph role="paragraph" id="par_id921602059453828">Click on textbox or shape to select, then...</paragraph>
+<paragraph id="par_id3153099" role="paragraph"><variable id="position2">Choose <menuitem>Format - </menuitem><switchinline select="appl">
+  <caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem></caseinline>
+  <caseinline select="CALC"><menuitem>Object - </menuitem></caseinline>
+  <caseinline select="IMPRESS"><menuitem>Object and Shape - </menuitem> </caseinline></switchinline>
+   <menuitem>Position and Size - Position and Size</menuitem> tab.</variable>
+ </paragraph>
+<paragraph role="paragraph" id="par_id361602065556003">Open context menu for selected object - choose <menuitem>Position and Size</menuitem> - <emph>Position and Size</emph> tab.</paragraph>
+<table id="tab_id591602337542349">
+    <tablerow>
+        <tablecell>
+            <paragraph role="paragraph" id="par_id371602337542349">
+<image id="img_id3150965" src="cmd/sc_transformdialog.svg" width="1cm" height="1cm"><alt id="alt_id3150965">Icon Position and Size</alt></image>
+            </paragraph>
+       </tablecell>
+             <tablecell>
+           <paragraph id="par_id841602337832667" role="tablecontent">Position and Size menu icon</paragraph>
+       </tablecell>
+
+         </tablerow>
+</table>
+<switch select="appl">
+<case select="CALC"></case>
+<case select="WRITER"></case>
+<default>
+<tip id="par_id971602065138382">Press <keycode>F4</keycode> after selection to open the tab directly.</tip>
+</default>
+</switch>
+</section>
+    <section id="rotation">
+        <paragraph id="par_id3152973" role="paragraph">Choose <menuitem>Format - </menuitem><switchinline select="appl"><caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem>
+                    </caseinline><caseinline select="CALC"><menuitem>Object - </menuitem></caseinline></switchinline><menuitem>Position and Size - Rotation</menuitem> tab.</paragraph>
+        <table id="tbl_id3147496">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id3148495" role="paragraph"><image id="img_id3146898" src="cmd/sc_toggleobjectrotatemode.svg" width="1cm" height="1cm"><alt id="alt_id3146898">Icon Rotate</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id3146790" role="paragraph">Rotate</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <paragraph id="par_id3145666" role="paragraph"><variable id="ecke">Choose <menuitem>Format - </menuitem><switchinline select="appl"><caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem>
+                    </caseinline><caseinline select="CALC"><menuitem>Object - </menuitem></caseinline></switchinline><menuitem>Position and Size - Slant &amp; Corner Radius</menuitem> tab.</variable></paragraph>
+    <paragraph id="par_id3146081" role="paragraph"><variable id="legende">Choose <menuitem>Format - </menuitem><switchinline select="appl"><caseinline select="WRITER"><menuitem>Text Box and Shape - </menuitem>
+                    </caseinline><caseinline select="CALC"><menuitem>Object - </menuitem></caseinline></switchinline><menuitem>Position and Size - Callout</menuitem> tab. This is only available for textbox callouts, not for custom shapes callouts.</variable></paragraph>
+
+    <section id="edit_points">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3083283" role="paragraph">Choose <menuitem>Edit - Toggle Point Edit Mode</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph id="par_id3145642" role="paragraph"><menuitem>Toggle Point Edit Mode</menuitem></paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id591698169791803">Choose <menuitem>Draw - Toggle Point Edit Mode</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id781698169857382">On the <menuitem>Draw</menuitem> menu of the <menuitem>Draw</menuitem> tab, choose <menuitem>Toggle Point Edit Mode</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syedit_points">
+            <table id="tbl_id3145618">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3150044" role="paragraph"><image id="img_id3147100" src="cmd/lc_toggleobjectbeziermode.svg" width="1cm" height="1cm"><alt id="alt_id3147100">Icon Toggle Point Edit Mode</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3153966" role="paragraph">Toggle Point Edit Mode</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <switch select="appl">
+            <case select="IMPRESS">
+                <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+                <paragraph role="paragraph" id="par_id751698169581803" localize="false"><keycode>F8</keycode></paragraph>
+            </case>
+            <case select="DRAW">
+                <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+                <paragraph role="paragraph" id="par_id991698169586128" localize="false"><keycode>F8</keycode></paragraph>
+            </case>
+        </switch>
+    </section>
+
+    <section id="character">
+        <paragraph id="par_id3151248" role="paragraph">Choose <menuitem>Format - Character</menuitem> (drawing functions).</paragraph>
+        <paragraph id="par_id3145229" role="paragraph">Open context menu - choose <menuitem>Character</menuitem>.</paragraph>
+    </section>
+    <section id="size">
+        <paragraph id="par_id3151342" role="paragraph">Open context menu - choose <menuitem>Size</menuitem>.</paragraph>
+    </section>
+    <section id="style">
+        <paragraph id="par_id3149255" role="paragraph">Open context menu - choose <menuitem>Style</menuitem>.</paragraph>
+    </section>
+
+    <section id="bold">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id461705688434315">Choose <menuitem>Format - Text - Bold</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id491705688639825">Choose <menuitem>Text - Bold</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id241705867256860">Choose <menuitem>Home - Bold</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="sybold">
+            <table id="tbl_id3147252">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3145766" role="paragraph"><image id="img_id3156558" src="cmd/lc_bold.svg" width="1cm" height="1cm" localize="true"><alt id="alt_id3156558">Icon Bold</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3147001" role="paragraph">Bold</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id781705751225979">Choose <menuitem>Properties - Character - Bold</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id731705688600269"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + B</keycode></paragraph>
+    </section>
+    <section id="italic">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id961705688702203">Choose <menuitem>Format - Text - Italic</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id971705867305591">Choose <menuitem>Text - Italic</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id791705867308126">Choose <menuitem>Home - Italic</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syitalic">
+            <table id="tbl_id3144416">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3159091" role="paragraph"><image id="img_id3155578" src="cmd/lc_italic.svg" width="1cm" height="1cm" localize="true"><alt id="alt_id3155578">Icon Italic</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3150234" role="paragraph">Italic</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id111705751216168">Choose <menuitem>Properties - Character - Italic</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id661705688773313"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + I</keycode></paragraph>
+    </section>
+    <section id="underline">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id621705688955471">Choose <menuitem>Format - Text - Underline</menuitem>.</paragraph>
+        <paragraph role="paragraph" id="par_id681705688958256">Choose <menuitem>Format - Text - Double Underline</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id731705867357373">Choose <menuitem>Text - Underline</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id411705867359806">Choose <menuitem>Home - Underline</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syunderline">
+            <table id="tbl_id3148875">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3145223" role="paragraph"><image id="img_id3151068" src="cmd/lc_underline.svg" width="1cm" height="1cm" localize="true"><alt id="alt_id3151068">Icon Underline</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3154715" role="paragraph">Underline</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id811705751102347">Choose <menuitem>Properties - Character - Underline</menuitem>.</paragraph>
+        <switch select="appl">
+            <case select="WRITER">
+                <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+                <paragraph role="paragraph" id="par_id741705689373452"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + D</keycode> (Double underline).</paragraph>
+            </case>
+        </switch>
+    </section>
+    <section id="strikethrough">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id151705688005157">Choose <menuitem>Format - Text - Strikethrough</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id171705859935421">Choose <menuitem>Text - Strikethrough</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id991705694473835">Choose <menuitem>Home - Strikethrough</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="systrikethrough">
+            <table id="tab_id51705688262089">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id831705688262090" role="paragraph"><image src="cmd/lc_strikeout.svg" id="img_id911705688262091" width="1cm"  height="1cm"><alt id="alt_id331705688262092">Icon Strikethrough</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id421705688262094" role="paragraph">Strikethrough</paragraph>
+                </tablecell>
+            </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id941705751040940">Choose <menuitem>Properties - Character - Strikethrough</menuitem>.</paragraph>
+    </section>
+    <section id="overline">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id941705691638411">Choose <menuitem>Format - Text - Overline</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id481705865889186">Choose <menuitem>Text - Overline</menuitem>.</paragraph>
+                <paragraph role="paragraph" id="par_id131705865893530">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>Overline</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id91705865896722">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Overline</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id5170568832089">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id981705691727282" role="paragraph"><image src="cmd/lc_overline.svg" id="img_id911705638262091" width="1cm"  height="1cm"><alt id="alt_id331805688262092">Icon Overline</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id221705691762615" role="paragraph">Overline</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <section id="shadow">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id971705694470475">Choose <menuitem>Format - Text - Shadow</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id741705867452331">Choose <menuitem>Text - Shadow</menuitem>.</paragraph>
+                <paragraph role="paragraph" id="par_id781705859882650">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>Shadow</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id921705867068944">Choose <menuitem>Home - Shadow</menuitem>.</paragraph>
+                <paragraph role="paragraph" id="par_id451705867479004">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Shadow</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id5170518832089">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id191705694565536" role="paragraph"><image src="cmd/lc_shadowed.svg" id="img_id911705638262291" width="1cm"  height="1cm"><alt id="alt_id334805688262092">Icon Shadow</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id901705694591767" role="paragraph">Shadow</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id21705751300996">Choose <menuitem>Properties - Character - Shadow</menuitem>.</paragraph>
+    </section>
+    <section id="contour">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id981705695076708">Choose <menuitem>Format - Text - Outline Font Effect</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id271705861753479">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>Outline Font Effect</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id111705695080378">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Outline Font Effect</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id5170518832089">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id241705695084100" role="paragraph"><image src="cmd/lc_outlinefont.svg" id="img_id911705638262281" width="1cm"  height="1cm"><alt id="alt_id334805688262082">Icon Outline Font Effect</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id861705695089570" role="paragraph">Outline Font Effect</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <section id="superscript">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id361705692370836">Choose <menuitem>Format - Text - Superscript.</menuitem></paragraph>
+        <switch select="appl">
+            <case select="WRITER">
+                <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+                <paragraph role="paragraph" id="par_id341705692492218">Choose <menuitem>Home - Superscript</menuitem>.</paragraph>
+            </case>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id501705692599468">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id941705692599469" role="paragraph"><image src="cmd/lc_superscript.svg" id="img_id111705692599470" width="1cm"  height="1cm"><alt id="alt_id41705692599471">Icon Superscript</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id541705692599473" role="paragraph">Superscript</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id241705750936720">Choose <menuitem>Properties - Character - Superscript</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id271705692619625"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + P</keycode></paragraph>
+    </section>
+    <section id="subscript">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id511705692798669">Choose <menuitem>Format - Text - Subscript</menuitem>.</paragraph>
+        <switch select="appl">
+            <case select="WRITER">
+                <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+                <paragraph role="paragraph" id="par_id761705692807142">Choose <menuitem>Home - Subscript</menuitem>.</paragraph>
+            </case>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id501708692599468">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id811705692825844" role="paragraph"><image src="cmd/lc_subscript.svg" id="img_id121705692599470" width="1cm"  height="1cm"><alt id="alt_id41703692599471">Icon Subscript</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id301705692837868" role="paragraph">Subscript</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id931705750891793">Choose <menuitem>Properties - Character - Subscript</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id741705692841292"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + B</keycode></paragraph>
+    </section>
+    <section id="grow">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id691705750142955">Choose <menuitem>Format - Text - Increase Size</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id991705858925203">Choose <menuitem>Text - Increase Size</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id461705750288760">Choose <menuitem>Home - Increase Size</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="sygrow">
+            <table id="tab_id811705750160229">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id321705750160230" role="paragraph"><image src="cmd/lc_grow.svg" id="img_id221705750160231" width="1cm"  height="1cm"><alt id="alt_id961705750160232">Icon Increase Size</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id151705750160234" role="paragraph">Increase Size</paragraph>
+                </tablecell>
+            </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id741705750852400">Choose <menuitem>Properties - Character - Increase Size</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id991705750125979"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + ]</keycode></paragraph>
+    </section>
+    <section id="shrink">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id401705751444509">Choose <menuitem>Format - Text - Decrease Size</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id41705858770983">Choose <menuitem>Text - Decrease Size</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id961705751448823">Choose <menuitem>Home - Decrease Size</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+       <section id="syshrink">
+             <table id="tab_id811715750160229">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id891705751501356" role="paragraph"><image src="cmd/lc_shrink.svg" id="img_id221705750260231" width="1cm"  height="1cm"><alt id="alt_id961735750160232">Icon Decrease Size</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id361705751505755" role="paragraph">Decrease Size</paragraph>
+                </tablecell>
+            </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id371705751529874">Choose <menuitem>Properties - Character - Decrease Size</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id511705751533780"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + [</keycode></paragraph>
+    </section>
+    <section id="to_upper">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id991705754969096">Choose <menuitem>Format - Text - UPPERCASE</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id711705857589489">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>UPPERCASE</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id261705754974308">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>UPPERCASE</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id511705754663102">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id941705754889123" role="paragraph"><image src="cmd/lc_changecasetoupper.svg" id="img_id251705754663104" width="1cm"  height="1cm"><alt id="alt_id721705754663105">Icon UPPERCASE</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id491705754663107" role="paragraph">UPPERCASE</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <section id="to_lower">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id751705754951815">Choose <menuitem>Format - Text - lowercase</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id451705754958366">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>lowercase</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id991705858513959">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>lowercase</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id511705754663102">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id211705754663103" role="paragraph"><image src="cmd/lc_changecasetolower.svg" id="img_id251705354663104" width="1cm"  height="1cm"><alt id="alt_id721725754663105">Icon lowercase</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id721705754904672" role="paragraph">lowercase</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <section id="cycle_case">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id21705849310781">Choose <menuitem>Format - Text - Cycle Case</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id761705849949121">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>Cycle Case</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id771705854047693">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Cycle Case</menuitem>.</paragraph>
+                <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+                <paragraph role="paragraph" id="par_id21705854140100"><keycode>Shift + F3</keycode></paragraph>
+            </default>
+        </switch>
+    </section>
+    <section id="sentence_case">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id331705888386454">Choose <menuitem>Format - Text - Sentence case</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id691705888319240">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>Sentence Case</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id231705888330093">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Sentence Case</menuitem>.</paragraph>
+            </default>
+        </switch>
+    </section>
+    <section id="capitalize">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id441705888817805">Choose <menuitem>Format - Text - Capitalize Every Word</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id601705888820669">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>Capitalize Every Word</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id761705888823309">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>Capitalize Every Word</menuitem>.</paragraph>
+            </default>
+        </switch>
+    </section>
+    <section id="toggle_case">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id461705889208659">Choose <menuitem>Format - Text - tOGGLE cASE</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph role="paragraph" id="par_id501705889211499">On the <menuitem>Text</menuitem> menu of the <menuitem>Text</menuitem> tab, choose <menuitem>tOGGLE cASE</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id331705889214563">On the <menuitem>Home</menuitem> menu of the <menuitem>Home</menuitem> tab, choose <menuitem>tOGGLE cASE</menuitem>.</paragraph>
+            </default>
+        </switch>
+    </section>
+    <section id="small_caps">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id111705924730030">Choose <menuitem>Format - Text - Small Capitals</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id911705924585991">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id371705924585992" role="paragraph"><image src="cmd/lc_smallcaps.svg" id="img_id861705924585993" width="1cm"  height="1cm"><alt id="alt_id71705924585994">Icon Small Capitals</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id521705924585996" role="paragraph">Small Capitals</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id111705924648381"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + K</keycode></paragraph>
+    </section>
+    <section id="line_spacing">
+        <paragraph id="par_id3155377" role="paragraph">Choose <menuitem>Format - Spacing</menuitem>.</paragraph>
+    </section>
+    <section id="line_spacing_single">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3154475" role="paragraph">Choose <menuitem>Format - Spacing - Line Spacing: 1</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id221706208496545">Choose <menuitem>Home - Line Spacing - Line Spacing: 1</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id741706208522876">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id621706208522877" role="paragraph"><image src="cmd/lc_spacepara1.svg" id="img_id491706208522878" width="1cm"  height="1cm"><alt id="alt_id211706208522879">Icon Line Spacing: 1</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id761706208522880" role="paragraph">Line Spacing: 1</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id471706208695170">On the <menuitem>Paragraph</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Line Spacing: 1</menuitem>.</paragraph>
+    </section>
+    <section id="line_spacing_1.15">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id941706227532806" role="paragraph">Choose <menuitem>Format - Spacing - Line Spacing: 1.15</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id471706227538701">Choose <menuitem>Home - Line Spacing - Line Spacing: 1.15</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id741706204542876">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id881706227542983" role="paragraph"><image src="cmd/lc_spacepara1.svg" id="img_id491206208522871" width="1cm"  height="1cm"><alt id="alt_id211706908512879">Icon Line Spacing: 1.15</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id211706227546357" role="paragraph">Line Spacing: 1.15</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id551706227550461">On the <menuitem>Paragraph</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Line Spacing: 1.15</menuitem>.</paragraph>
+    </section>
+    <section id="line_spacing_one_point_five">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3150478" role="paragraph">Choose <menuitem>Format - Spacing - Line Spacing: 1.5</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id631706209159370">Choose <menuitem>Home - Line Spacing - Line Spacing: 1.5</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id741706208542876">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id91706209168115" role="paragraph"><image src="cmd/lc_spacepara15.svg" id="img_id491706208522871" width="1cm"  height="1cm"><alt id="alt_id211706208512879">Icon Line Spacing: 1.5</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id421706209173994" role="paragraph">Line Spacing: 1.5</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id301706209178266">On the <menuitem>Paragraph</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Line Spacing: 1.5</menuitem>.</paragraph>
+    </section>
+    <section id="line_spacing_double">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3147167" role="paragraph">Choose <menuitem>Format - Spacing - Line Spacing: 2</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id681706209328430">Choose <menuitem>Home - Line Spacing - Line Spacing: 2</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <table id="tab_id741706208822876">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id521706209338607" role="paragraph"><image src="cmd/lc_spacepara1.svg" id="img_id491706208512878" width="1cm"  height="1cm"><alt id="alt_id211746208522879">Icon Line Spacing: 2</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id351706209357125" role="paragraph">Line Spacing: 2</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id81706209360460">On the <menuitem>Paragraph</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Line Spacing: 2</menuitem>.</paragraph>
+    </section>
+    <section id="increase_spacing">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id581706230116720">Choose <menuitem>Format - Spacing - Increase Paragraph Spacing</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id141706230468450">Choose <menuitem>Home - Line Spacing - Increase Paragraph Spacing</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syincrease_spacing">
+            <table id="tbl_id3159201">
+                <tablerow>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id3150178"><image id="img_id3152425" src="cmd/lc_paraspaceincrease.svg" width="1cm" height="1cm"><alt id="alt_id3152425">Icon Increase Paragraph Spacing</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id3156411">Increase Paragraph Spacing</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id741706230519570">On the <menuitem>Paragraph</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Increase Paragraph Spacing</menuitem>.</paragraph>
+    </section>
+    <section id="decrease_spacing">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph role="paragraph" id="par_id371706230985621">Choose <menuitem>Format - Spacing - Decrease Paragraph Spacing</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id451706231015709">Choose <menuitem>Home - Line Spacing - Decrease Paragraph Spacing</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="sydecrease_spacing">
+            <table id="tbl_id3159211">
+                <tablerow>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id451706230642430"><image id="img_id4152425" src="cmd/lc_paraspacedecrease.svg" width="1cm" height="1cm"><alt id="alt_id3152625">Icon Decrease Paragraph Spacing</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph role="paragraph" id="par_id21706230595303">Decrease Paragraph Spacing</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <paragraph role="paragraph" id="par_id171706230657581">On the <menuitem>Paragraph</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Decrease Paragraph Spacing</menuitem>.</paragraph>
+    </section>
+    <section id="increase_indent">
+        <switch select="appl">
+            <case select="CALC"></case>
+            <default>
+                <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+                <paragraph role="paragraph" id="par_id161706232102567">Choose <menuitem>Format - Spacing - Increase Indent</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id51706232106648">Choose <menuitem>Home - Increase Indent</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syincrease_ident">
+        <table id="tbl_id3157211">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id631706232112808"><image id="img_id3452425" src="cmd/lc_incrementindent.svg" width="1cm" height="1cm"><alt id="alt_id3102625">Icon Increase Indent</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id221706232116831">Increase Indent</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <switch select="appl">
+            <case select="CALC">
+                <paragraph role="paragraph" id="par_id651706232120175">On the <menuitem>Alignment</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Increase Indent</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id271706233153311">On the <menuitem>Paragraph</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Increase Indent</menuitem>.</paragraph>
+            </default>
+        </switch>
+    </section>
+    <section id="decrease_indent">
+        <switch select="appl">
+            <case select="CALC"></case>
+            <default>
+                <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+                <paragraph role="paragraph" id="par_id761706233216932">Choose <menuitem>Format - Spacing - Decrease Indent</menuitem>.</paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id801706232175030">Choose <menuitem>Home - Decrease Indent</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="sydecrease_ident">
+        <table id="tbl_id3157211">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id61706232180085"><image id="img_id3452425" src="cmd/lc_decrementindent.svg" width="1cm" height="1cm"><alt id="alt_id3102625">Icon Decrease Indent</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id151706232182974">Decrease Indent</paragraph>
+                </tablecell>
+            </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+        <switch select="appl">
+            <case select="CALC">
+                <paragraph role="paragraph" id="par_id481706233143789">On the <menuitem>Alignment</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Decrease Indent</menuitem>.</paragraph>
+            </case>
+            <default>
+                <paragraph role="paragraph" id="par_id221706233146253">On the <menuitem>Paragraph</menuitem> panel of the <menuitem>Properties</menuitem> deck, choose <menuitem>Decrease Indent</menuitem>.</paragraph>
+            </default>
+        </switch>
+    </section>
+
+    <section id="align_left">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3146978" role="paragraph">Choose <menuitem>Format - Align Text - Left</menuitem>.</paragraph>
+        <section id="align_aux">
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id341690123708435">Choose <switchinline select="appl"><caseinline select="DRAW"><menuitem>Text</menuitem> (text selected).</caseinline><defaultinline><menuitem>Home</menuitem></defaultinline></switchinline></paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+            <paragraph role="paragraph" id="par_id291690123819273">Select <menuitem>Properties</menuitem> - <switchinline select="appl"><caseinline select="CALC"><menuitem>Alignment</menuitem></caseinline><defaultinline><menuitem>Paragraph</menuitem></defaultinline></switchinline> deck.</paragraph>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syalign_left">
+            <table id="tbl_id3152453">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3147310" role="paragraph"><image id="img_id3155370" src="cmd/lc_alignleft.svg" width="1cm" height="1cm"><alt id="alt_id3155370">Icon Align Start</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3151336" role="paragraph">Align Start</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id251690124456625"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + L</keycode></paragraph>
+    </section>
+    <section id="align_right">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3155823" role="paragraph">Choose <menuitem>Format - Align Text - Right</menuitem>.</paragraph>
+        <embed href="text/shared/00/00040502.xhp#align_aux"/>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syalign_right">
+            <table id="tbl_id3149949">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3149408" role="paragraph"><image id="img_id3154421" src="cmd/lc_alignright.svg" width="1cm" height="1cm"><alt id="alt_id3154421">Icon Align End</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3153607" role="paragraph">Align End</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id841690124520536"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + R</keycode></paragraph>
+    </section>
+    <section id="center">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3149189" role="paragraph">Choose <menuitem>Format - Align Text - Centered</menuitem>.</paragraph>
+        <embed href="text/shared/00/00040502.xhp#align_aux"/>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="sycenter">
+            <table id="tbl_id3151270">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3153815" role="paragraph"><image id="img_id3149757" src="cmd/lc_alignhorizontalcenter.svg" width="1cm" height="1cm"><alt id="alt_id3149757">Icon Centered</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3153076" role="paragraph"><switchinline select="appl"><caseinline select="CALC">Align Center Horizontally</caseinline><defaultinline>Centered</defaultinline></switchinline></paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id41690124561788"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + C</keycode></paragraph>
+    </section>
+    <section id="blocktext">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3146151" role="paragraph">Choose <menuitem>Format - Align Text - Justified</menuitem>.</paragraph>
+        <embed href="text/shared/00/00040502.xhp#align_aux"/>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syblocksatz">
+            <table id="tbl_id3154828">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3156189" role="paragraph"><image id="img_id3145308" src="cmd/lc_alignblock.svg" width="1cm" height="1cm"><alt id="alt_id3145308">Icon Justified</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3153131" role="paragraph">Justified</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+        <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+        <paragraph role="paragraph" id="par_id131690124640644"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + J</keycode></paragraph>
+    </section>
+    <paragraph id="par_id3150527" role="paragraph"><variable id="font">Click <emph>Fontwork</emph> icon on <emph>Drawing</emph> bar.</variable></paragraph>
+
+    <section id="format_group">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <paragraph id="par_id3144503" role="paragraph">Choose <menuitem>Format - Group Shapes</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph id="par_id3154854" role="paragraph">Choose <menuitem>Group</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id201693140317965">Choose <menuitem>Draw</menuitem> tab.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <embed href="text/shared/00/00040502.xhp#sygroup"/>
+    </section>
+
+    <section id="group">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+        <switch select="appl">
+            <case select="DRAW">
+                <paragraph id="par_id3157980" role="paragraph">Choose <menuitem>Shape - Group - Group</menuitem></paragraph>
+            </case>
+            <default>
+                <paragraph id="par_id3157985" role="paragraph">Choose <menuitem>Format - Group Shapes - Group</menuitem></paragraph>
+            </default>
+        </switch>
+        <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph id="par_id3149508" role="paragraph">Choose <menuitem>Group</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id981693141070590">Choose <menuitem>Draw - Group</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="sygroup">
+            <table id="tbl_id3143218">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3146858" role="paragraph"><image id="img_id3154344" src="cmd/lc_formatgroup.svg" width="1cm" height="1cm"><alt id="alt_id3154344">Icon Group</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3149593" role="paragraph">Group</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+    </section>
+
+    <section id="ungroup">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <switch select="appl">
+        <case select="DRAW">
+           <paragraph id="par_id3163378" role="paragraph">Choose <menuitem>Shape - Group Shapes - Ungroup</menuitem>.</paragraph>
+        </case>
+        <default>
+          <paragraph id="par_id3153023" role="paragraph">Choose <menuitem>Format - Group Shapes - Ungroup</menuitem>.</paragraph>
+        </default>
+      </switch>
+      <embed href="text/shared/00/00000004.xhp#from_context"/>
+      <paragraph id="par_id3156038" role="paragraph">Choose <menuitem>Ungroup</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+      <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syungroup">
+            <table id="tbl_id3149971">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3151300" role="paragraph"><image id="img_id3150831" src="cmd/lc_formatungroup.svg" width="1cm" height="1cm"><alt id="alt_id3150831">Icon Ungroup</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3146894" role="paragraph">Ungroup</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+    </section>
+    <section id="exit_group">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <switch select="appl">
+        <case select="DRAW">
+          <paragraph id="par_id3145678" role="paragraph">Choose <menuitem>Shape - Group Shapes - Exit Group</menuitem>.</paragraph>
+        </case>
+        <default>
+          <paragraph id="par_id3153109" role="paragraph">Choose <menuitem>Format - Group Shapes - Exit Group</menuitem>.</paragraph>
+        </default>
+      </switch>
+      <embed href="text/shared/00/00000004.xhp#from_context"/>
+      <paragraph id="par_id3152367" role="paragraph">Choose <menuitem>Exit Group</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+      <paragraph role="paragraph" id="par_id1001693142359112">Choose <menuitem>Draw - Exit Group</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+      <section id="syexit_group">
+            <table id="tbl_id3152538">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3158402" role="paragraph"><image id="img_id3149422" src="cmd/lc_leavegroup.svg" width="1cm" height="1cm"><alt id="alt_id3149422">Icon Exit Group</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3155347" role="paragraph">Exit Group</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+    </section>
+    <section id="enter_group">
+        <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <switch select="appl">
+        <case select="DRAW">
+          <paragraph id="par_id3145354" role="paragraph">Choose <menuitem>Shape - Group Shapes - Enter Group</menuitem>.</paragraph>
+        </case>
+        <default>
+          <paragraph id="par_id3149129" role="paragraph">Choose <menuitem>Format - Group Shapes - Enter Group</menuitem>.</paragraph>
+        </default>
+      </switch>
+      <embed href="text/shared/00/00000004.xhp#from_context"/>
+        <paragraph id="par_id3149946" role="paragraph">Choose <menuitem>Enter Group</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+        <paragraph role="paragraph" id="par_id61693142385885">Choose <menuitem>Draw - Enter Group</menuitem>.</paragraph>
+        <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="syenter_group">
+            <table id="tbl_id3149546">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id3152388" role="paragraph"><image id="img_id3149900" src="cmd/lc_entergroup.svg" width="1cm" height="1cm"><alt id="alt_id3149900">Icon Enter Group</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id3152547" role="paragraph">Enter Group</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </section>
+    </section>
+
+</body>
+</helpdocument>

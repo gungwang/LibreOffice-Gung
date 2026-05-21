@@ -1,0 +1,1238 @@
+#. extracted from desktop/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-11-18 17:38+0100\n"
+"PO-Revision-Date: 2026-05-08 10:23+0000\n"
+"Last-Translator: Alyaksandr Koshal <alkos85@proton.me>\n"
+"Language-Team: Belarusian <https://translations.documentfoundation.org/projects/libo_ui-master/desktopmessages/be/>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1535974956.000000\n"
+
+#. v2iwK
+#: desktop/inc/strings.hrc:24
+msgctxt "RID_STR_COPYING_PACKAGE"
+msgid "Copying: "
+msgstr "Капіраванне: "
+
+#. 2dzDt
+#: desktop/inc/strings.hrc:25
+msgctxt "RID_STR_ERROR_WHILE_ADDING"
+msgid "Error while adding: "
+msgstr "Памылка пры дадаванні: "
+
+#. CUrtD
+#: desktop/inc/strings.hrc:26
+msgctxt "RID_STR_ERROR_WHILE_REMOVING"
+msgid "Error while removing: "
+msgstr "Памылка пры выдаленні: "
+
+#. XyESz
+#: desktop/inc/strings.hrc:27
+msgctxt "RID_STR_PACKAGE_ALREADY_ADDED"
+msgid "Extension has already been added: "
+msgstr "Такое пашырэнне ўжо было ўсталявана: "
+
+#. cuydq
+#: desktop/inc/strings.hrc:28
+msgctxt "RID_STR_NO_SUCH_PACKAGE"
+msgid "There is no such extension deployed: "
+msgstr "Такое пашырэнне не ўсталявана: "
+
+#. wzGYv
+#: desktop/inc/strings.hrc:29
+msgctxt "RID_STR_SYNCHRONIZING_REPOSITORY"
+msgid "Synchronizing repository for %NAME extensions"
+msgstr "Сінхранізуецца сховішча прыставак %NAME"
+
+#. dp8bf
+#: desktop/inc/strings.hrc:31
+msgctxt "RID_STR_REGISTERING_PACKAGE"
+msgid "Enabling: "
+msgstr "Актывуем: "
+
+#. xBysg
+#: desktop/inc/strings.hrc:32
+msgctxt "RID_STR_REVOKING_PACKAGE"
+msgid "Disabling: "
+msgstr "Адключэнне: "
+
+#. HDgpp
+#: desktop/inc/strings.hrc:33
+msgctxt "RID_STR_CANNOT_DETECT_MEDIA_TYPE"
+msgid "Cannot detect media-type: "
+msgstr "Немагчыма вызначыць тып зместу: "
+
+#. QfGM7
+#: desktop/inc/strings.hrc:34
+msgctxt "RID_STR_UNSUPPORTED_MEDIA_TYPE"
+msgid "This media-type is not supported: "
+msgstr "Гэты тып зместу не падтрымліваецца: "
+
+#. VHcMc
+#: desktop/inc/strings.hrc:35
+msgctxt "RID_STR_ERROR_WHILE_REGISTERING"
+msgid "An error occurred while enabling: "
+msgstr "Памылка пры актывацыі: "
+
+#. BqmAM
+#: desktop/inc/strings.hrc:36
+msgctxt "RID_STR_ERROR_WHILE_REVOKING"
+msgid "An error occurred while disabling: "
+msgstr "Памылка пры выключэнні: "
+
+#. Avii2
+#: desktop/inc/strings.hrc:38
+msgctxt "RID_STR_CONF_SCHEMA"
+msgid "Configuration Schema"
+msgstr "Схема канфігурацыі"
+
+#. cL9MC
+#: desktop/inc/strings.hrc:39
+msgctxt "RID_STR_CONF_DATA"
+msgid "Configuration Data"
+msgstr "Дадзеныя канфігурацыі"
+
+#. S8Pj8
+#: desktop/inc/strings.hrc:41
+msgctxt "RID_STR_BASIC_LIB"
+msgid "Basic Library"
+msgstr "Бібліятэка BASIC"
+
+#. Tnphj
+#: desktop/inc/strings.hrc:42
+msgctxt "RID_STR_DIALOG_LIB"
+msgid "Dialog Library"
+msgstr "Бібіліятэка дыялогаў"
+
+#. ThJQm
+#: desktop/inc/strings.hrc:43
+msgctxt "RID_STR_CANNOT_DETERMINE_LIBNAME"
+msgid "The library name could not be determined."
+msgstr "Не ўдалося вызначыць назву бібліятэкі."
+
+#. G6SqW
+#: desktop/inc/strings.hrc:45
+msgctxt "RID_STR_PACKAGE_BUNDLE"
+msgid "Extension"
+msgstr "Пашырэнне"
+
+#. o6NBi
+#: desktop/inc/strings.hrc:46
+msgctxt "RID_STR_PACKAGE_BUNDLE"
+msgid "All supported files"
+msgstr "Усе файлы, якія падтрымліваюцца"
+
+#. 5TAZB
+#: desktop/inc/strings.hrc:48
+msgctxt "RID_STR_DYN_COMPONENT"
+msgid "UNO Dynamic Library Component"
+msgstr "Кампанент дынамічнай бібліятэкі UNO"
+
+#. SK5Ay
+#: desktop/inc/strings.hrc:49
+msgctxt "RID_STR_JAVA_COMPONENT"
+msgid "UNO Java Component"
+msgstr "Кампанент UNO Java"
+
+#. a7o4C
+#: desktop/inc/strings.hrc:50
+msgctxt "RID_STR_PYTHON_COMPONENT"
+msgid "UNO Python Component"
+msgstr "Кампанент UNO Python"
+
+#. QyN3F
+#: desktop/inc/strings.hrc:51
+msgctxt "RID_STR_COMPONENTS"
+msgid "UNO Components"
+msgstr "Кампаненты UNO"
+
+#. G6LCn
+#: desktop/inc/strings.hrc:52
+msgctxt "RID_STR_RDB_TYPELIB"
+msgid "UNO RDB Type Library"
+msgstr "Бібліятэка тыпаў UNO RDB"
+
+#. KcXfh
+#: desktop/inc/strings.hrc:53
+msgctxt "RID_STR_JAVA_TYPELIB"
+msgid "UNO Java Type Library"
+msgstr "Бібліятэка тыпаў UNO Java"
+
+#. wBhDU
+#: desktop/inc/strings.hrc:55
+msgctxt "RID_STR_SFWK_LIB"
+msgid "%MACROLANG Library"
+msgstr "Бібліятэка %MACROLANG"
+
+#. k2PBJ
+#: desktop/inc/strings.hrc:57
+msgctxt "RID_STR_HELP"
+msgid "Help"
+msgstr "Даведка"
+
+#. wPwGt
+#: desktop/inc/strings.hrc:58
+msgctxt "RID_STR_HELPPROCESSING_GENERAL_ERROR"
+msgid "The extension cannot be installed because:\n"
+msgstr "Немагчыма ўстанавіць прыстаўку, таму што:\n"
+
+#. PBXkt
+#: desktop/inc/strings.hrc:59
+msgctxt "RID_STR_HELPPROCESSING_XMLPARSING_ERROR"
+msgid "The extension will not be installed because an error occurred in the Help files:\n"
+msgstr "Не ўдалося ўстанавіць прыстаўку, таму што ў файлах Даведкі здарылася памылка:\n"
+
+#. u3kcb
+#: desktop/inc/strings.hrc:61
+msgctxt "RID_STR_ADD_PACKAGES"
+msgid "Add Extension(s)"
+msgstr "Устанавіць прыстаўку(-і)"
+
+#. DDxFn
+#: desktop/inc/strings.hrc:62
+msgctxt "RID_CTX_ITEM_REMOVE"
+msgid "~Remove"
+msgstr "Выдаліць"
+
+#. s6iho
+#: desktop/inc/strings.hrc:63
+msgctxt "RID_CTX_ITEM_ENABLE"
+msgid "~Enable"
+msgstr "~Уключыць"
+
+#. CeKUw
+#: desktop/inc/strings.hrc:64
+msgctxt "RID_CTX_ITEM_DISABLE"
+msgid "~Disable"
+msgstr "~Адключыць"
+
+#. Z7G4r
+#: desktop/inc/strings.hrc:65
+msgctxt "RID_CTX_ITEM_CHECK_UPDATE"
+msgid "~Update..."
+msgstr "~Абнавіць..."
+
+#. iFBQd
+#: desktop/inc/strings.hrc:66
+msgctxt "RID_STR_ADDING_PACKAGES"
+msgid "Adding %EXTENSION_NAME"
+msgstr "Дадаецца %EXTENSION_NAME"
+
+#. J5KAU
+#: desktop/inc/strings.hrc:67
+msgctxt "RID_STR_REMOVING_PACKAGES"
+msgid "Removing %EXTENSION_NAME"
+msgstr "Выдаленне %EXTENSION_NAME"
+
+#. A6AzC
+#: desktop/inc/strings.hrc:68
+msgctxt "RID_STR_ENABLING_PACKAGES"
+msgid "Enabling %EXTENSION_NAME"
+msgstr "Уключэнне %EXTENSION_NAME"
+
+#. Mh7ag
+#: desktop/inc/strings.hrc:69
+msgctxt "RID_STR_DISABLING_PACKAGES"
+msgid "Disabling %EXTENSION_NAME"
+msgstr "Адключэнне %EXTENSION_NAME"
+
+#. GjgyB
+#: desktop/inc/strings.hrc:70
+msgctxt "RID_STR_ACCEPT_LICENSE"
+msgid "Accept license for %EXTENSION_NAME"
+msgstr "Прыняць ліцэнзію %EXTENSION_NAME"
+
+#. buqgv
+#: desktop/inc/strings.hrc:71
+msgctxt "RID_STR_ERROR_UNKNOWN_STATUS"
+msgid "Error: The status of this extension is unknown"
+msgstr "Памылка: статус гэтага пашырэння невядомы"
+
+#. H6NGb
+#: desktop/inc/strings.hrc:72
+msgctxt "RID_STR_CLOSE_BTN"
+msgid "Close"
+msgstr "Закрыць"
+
+#. T9Gqg
+#: desktop/inc/strings.hrc:73
+msgctxt "RID_STR_EXIT_BTN"
+msgid "Quit"
+msgstr "Выйсці"
+
+#. AEv5h
+#: desktop/inc/strings.hrc:74
+msgctxt "RID_STR_NO_ADMIN_PRIVILEGE"
+msgid ""
+"%PRODUCTNAME has been updated to a new version. Some shared %PRODUCTNAME extensions are not compatible with this version and need to be updated before %PRODUCTNAME can be started.\n"
+"\n"
+"Updating of shared extension requires administrator privileges. Contact your system administrator to update the following shared extensions:"
+msgstr ""
+"%PRODUCTNAME быў абноўлены. Некаторыя абагуленыя пашырэнні %PRODUCTNAME несумяшчальны з гэтай версіяй і іх неабходна абнавіць да таго, як %PRODUCTNAME будзе запушчаны.\n"
+"\n"
+"Абнаўленне абагуленых пашырэнняў патрабуе правы адміністратара. Звярніцеся да свайго сістэмнага адміністратара, каб абнавіць наступныя абагуленыя пашырэнні:"
+
+#. mQAQ9
+#: desktop/inc/strings.hrc:77
+msgctxt "RID_STR_ERROR_MISSING_DEPENDENCIES"
+msgid "The extension cannot be enabled as the following system dependencies are not fulfilled:"
+msgstr "Немагчыма ўключыць пашырэнне з прычыны нявыкананых патрабаванняў сістэмных залежнасцей:"
+
+#. X4uSy
+#: desktop/inc/strings.hrc:78
+msgctxt "RID_STR_ERROR_MISSING_LICENSE"
+msgid "This extension is disabled because you haven't accepted the license yet.\n"
+msgstr "Гэта пашырэнне адключана, бо вы яшчэ не прынялі ліцэнзію.\n"
+
+#. ky6LA
+#: desktop/inc/strings.hrc:79
+msgctxt "RID_STR_SHOW_LICENSE_CMD"
+msgid "Show license"
+msgstr "Паказаць ліцэнзію"
+
+#. xyCf9
+#: desktop/inc/strings.hrc:80
+msgctxt "RID_STR_WARNING_INSTALL_EXTENSION"
+msgid ""
+"You are about to install the extension '%NAME'.\n"
+"Click 'OK' to proceed with the installation.\n"
+"Click 'Cancel' to stop the installation."
+msgstr ""
+"Вы збіраецеся ўсталяваць пашырэнне «%NAME».\n"
+"Націсніце «ОК», каб пачаць усталяванне пашырэння.\n"
+"Націсніце «Скасаваць», каб спыніць усталяванне пашырэння."
+
+#. Y4EHy
+#: desktop/inc/strings.hrc:83
+msgctxt "RID_STR_WARNING_INSTALL_EXTENSION_DISABLED"
+msgid "Extension installation is currently disabled. Please consult your system administrator for more information."
+msgstr "Усталяванне пашырэнняў у цяперашні час адключана. Звярніцеся да свайго сістэмнага адміністратара для атрымання дадатковых звестак."
+
+#. JiEFG
+#: desktop/inc/strings.hrc:85
+msgctxt "RID_STR_WARNING_REMOVE_EXTENSION_DISABLED"
+msgid "Extension removal is currently disabled. Please consult your system administrator for more information."
+msgstr "Выдаленне пашырэнняў у цяперашні час адключана. Звярніцеся да свайго сістэмнага адміністратара для атрымання дадатковых звестак."
+
+#. LncbY
+#: desktop/inc/strings.hrc:87
+msgctxt "RID_STR_WARNING_REMOVE_EXTENSION"
+msgid ""
+"You are about to remove the extension '%NAME'.\n"
+"Click 'OK' to remove the extension.\n"
+"Click 'Cancel' to stop removing the extension."
+msgstr ""
+"Вы збіраецеся выдаліць пашырэнне «%NAME».\n"
+"Націсніце «ОК», каб выдаліць пашырэнне.\n"
+"Націсніце «Скасаваць», каб спыніць выдаленне пашырэння."
+
+#. fiYMH
+#: desktop/inc/strings.hrc:90
+msgctxt "RID_STR_WARNING_REMOVE_SHARED_EXTENSION"
+msgid ""
+"Make sure that no further users are working with the same %PRODUCTNAME, when changing shared extensions in a multi user environment.\n"
+"Click 'OK' to remove the extension.\n"
+"Click 'Cancel' to stop removing the extension."
+msgstr ""
+"Пераканайце, што іншыя карыстальнікі не працуюць з тым жа %PRODUCTNAME пры змене абагуленага пашырэння ў шматкарыстальніцкім асяроддзі. \n"
+"Націсніце «OK», каб выдаліць пашырэнне.\n"
+"Націсніце «Скасаваць», каб спыніць выдаленне пашырэння."
+
+#. bQ675
+#: desktop/inc/strings.hrc:94
+msgctxt "RID_STR_WARNING_ENABLE_SHARED_EXTENSION"
+msgid ""
+"Make sure that no further users are working with the same %PRODUCTNAME, when changing shared extensions in a multi user environment.\n"
+"Click 'OK' to enable the extension.\n"
+"Click 'Cancel' to stop enabling the extension."
+msgstr ""
+"Пераканайце, што іншыя карыстальнікі не працуюць з тым жа %PRODUCTNAME пры змене абагуленага пашырэння ў шматкарыстальніцкім асяроддзі. \n"
+"Націсніце «OK», каб уключыць пашырэнне.\n"
+"Націсніце «Скасаваць», каб спыніць уключэнне пашырэння."
+
+#. zEGzE
+#: desktop/inc/strings.hrc:98
+msgctxt "RID_STR_WARNING_DISABLE_SHARED_EXTENSION"
+msgid ""
+"Make sure that no further users are working with the same %PRODUCTNAME, when changing shared extensions in a multi user environment.\n"
+"Click 'OK' to disable the extension.\n"
+"Click 'Cancel' to stop disabling the extension."
+msgstr ""
+"Пераканайце, што іншыя карыстальнікі не працуюць з тым жа %PRODUCTNAME пры змене абагуленага пашырэння ў шматкарыстальніцкім асяроддзі. \n"
+"Націсніце «OK», каб адключыць пашырэнне.\n"
+"Націсніце «Скасаваць», каб спыніць адключэнне пашырэння."
+
+#. bfdYH
+#: desktop/inc/strings.hrc:102
+msgctxt "RID_STR_UNSUPPORTED_PLATFORM"
+msgid "The extension '%Name' does not work on this computer."
+msgstr "Праца пашырэння «%Name» немагчыма на гэтым камп'ютары."
+
+#. cGEv7
+#: desktop/inc/strings.hrc:104
+msgctxt "RID_DLG_UPDATE_INSTALL_INSTALLING"
+msgid "Installing extensions..."
+msgstr "Усталёўваем пашырэнні..."
+
+#. TP9Jx
+#: desktop/inc/strings.hrc:105
+msgctxt "RID_DLG_UPDATE_INSTALL_FINISHED"
+msgid "Installation finished"
+msgstr "Усталяванне завершана"
+
+#. vga5X
+#: desktop/inc/strings.hrc:106
+msgctxt "RID_DLG_UPDATE_INSTALL_NO_ERRORS"
+msgid "No errors."
+msgstr "Без памылак."
+
+#. GtBF5
+#: desktop/inc/strings.hrc:107
+msgctxt "RID_DLG_UPDATE_INSTALL_ERROR_DOWNLOAD"
+msgid "Error while downloading extension %NAME. "
+msgstr "Памылка пры спампоўванні пашырэння %NAME. "
+
+#. 8wV4e
+#: desktop/inc/strings.hrc:108
+msgctxt "RID_DLG_UPDATE_INSTALL_THIS_ERROR_OCCURRED"
+msgid "The error message is: "
+msgstr "Паведамленне аб памылцы: "
+
+#. vAP5D
+#: desktop/inc/strings.hrc:109
+msgctxt "RID_DLG_UPDATE_INSTALL_ERROR_INSTALLATION"
+msgid "Error while installing extension %NAME. "
+msgstr "Памылка пры ўстанаўленні пашырэння %NAME. "
+
+#. DNwGS
+#: desktop/inc/strings.hrc:110
+msgctxt "RID_DLG_UPDATE_INSTALL_ERROR_LIC_DECLINED"
+msgid "The license agreement for extension %NAME was refused. "
+msgstr "Ліцэнзійнае пагадненне для пашырэння %NAME было адхілена. "
+
+#. q4fDv
+#: desktop/inc/strings.hrc:111
+msgctxt "RID_DLG_UPDATE_INSTALL_EXTENSION_NOINSTALL"
+msgid "The extension will not be installed."
+msgstr "Пашырэнне не будзе ўсталявана."
+
+#. 2yEGV
+#: desktop/inc/strings.hrc:113
+msgctxt "RID_DEPLOYMENT_DEPENDENCIES_UNKNOWN"
+msgid "Unknown"
+msgstr "Невядома"
+
+#. kGwZa
+#: desktop/inc/strings.hrc:114
+msgctxt "RID_DEPLOYMENT_DEPENDENCIES_OOO_MIN"
+msgid "Extension requires at least OpenOffice.org reference version %VERSION"
+msgstr "Пашырэнне будзе працаваць з версіяй OpenOffice.org %VERSION або больш новай"
+
+#. rcfFe
+#: desktop/inc/strings.hrc:115
+msgctxt "RID_DEPLOYMENT_DEPENDENCIES_OOO_MAX"
+msgid "Extension does not support OpenOffice.org reference versions greater than %VERSION"
+msgstr "Пашырэнне не падтрымлівае эталонныя версіі OpenOffice.org вышэй за %VERSION"
+
+#. 776kM
+#: desktop/inc/strings.hrc:116
+msgctxt "RID_DEPLOYMENT_DEPENDENCIES_LO_MIN"
+msgid "Extension requires at least %PRODUCTNAME version %VERSION"
+msgstr "Пашырэнне будзе працаваць з версіяй OpenOffice.org %VERSION або больш новай"
+
+#. P4pgb
+#: desktop/inc/strings.hrc:117
+msgctxt "RID_DEPLOYMENT_DEPENDENCIES_LO_MAX"
+msgid "Extension does not support %PRODUCTNAME versions greater than %VERSION"
+msgstr "Пашырэнне не падтрымлівае версіі %PRODUCTNAME вышэй за %VERSION"
+
+#. dNBtG
+#: desktop/inc/strings.hrc:119
+msgctxt "RID_STR_WARNING_VERSION_LESS"
+msgid ""
+"You are about to install version $NEW of the extension '$NAME'.\n"
+"The newer version $DEPLOYED is already installed.\n"
+"Click 'OK' to replace the installed extension.\n"
+"Click 'Cancel' to stop the installation."
+msgstr ""
+"Вы збіраецеся ўсталяваць версію $NEW пашырэння «$NAME».\n"
+"Больш новая версія $DEPLOYED ужо ўсталявана.\n"
+"Націсніце «ОК» для замены ўсталяванага пашырэння.\n"
+"Націсніце «Скасаваць», каб спыніць усталяванне."
+
+#. TmQCx
+#: desktop/inc/strings.hrc:123
+msgctxt "RID_STR_WARNINGBOX_VERSION_LESS_DIFFERENT_NAMES"
+msgid ""
+"You are about to install version $NEW of the extension '$NAME'.\n"
+"The newer version $DEPLOYED, named '$OLDNAME', is already installed.\n"
+"Click 'OK' to replace the installed extension.\n"
+"Click 'Cancel' to stop the installation."
+msgstr ""
+"Вы збіраецеся ўсталяваць версію $NEW пашырэння «$NAME».\n"
+"Больш новая версія $DEPLOYED з назвай «$OLDNAME» ужо ўсталявана ў вашай сістэме.\n"
+"Націсніце «ОК» для замены ўсталяванага пашырэння.\n"
+"Націсніце «Скасаваць», каб спыніць усталяванне."
+
+#. AMTBi
+#: desktop/inc/strings.hrc:127
+msgctxt "RID_STR_WARNING_VERSION_EQUAL"
+msgid ""
+"You are about to install version $NEW of the extension '$NAME'.\n"
+"That version is already installed.\n"
+"Click 'OK' to replace the installed extension.\n"
+"Click 'Cancel' to stop the installation."
+msgstr ""
+"Вы збіраецеся ўсталяваць версію $NEW пашырэння «$NAME».\n"
+"Гэта версія ўжо ўсталявана.\n"
+"Націсніце «ОК» для замены ўсталяванага пашырэння.\n"
+"Націсніце «Скасаваць», каб спыніць усталяванне."
+
+#. 5TDnT
+#: desktop/inc/strings.hrc:131
+msgctxt "RID_STR_WARNINGBOX_VERSION_EQUAL_DIFFERENT_NAMES"
+msgid ""
+"You are about to install version $NEW of the extension '$NAME'.\n"
+"That version, named '$OLDNAME', is already installed.\n"
+"Click 'OK' to replace the installed extension.\n"
+"Click 'Cancel' to stop the installation."
+msgstr ""
+"Вы збіраецеся ўсталяваць версію $NEW пашырэння «$NAME».\n"
+"Версія з назвай «$OLDNAME» ужо ўсталявана ў вашай сістэме.\n"
+"Націсніце «ОК» для замены ўсталяванага пашырэння.\n"
+"Націсніце «Скасаваць», каб спыніць усталяванне."
+
+#. 9wcAB
+#: desktop/inc/strings.hrc:135
+msgctxt "RID_STR_WARNING_VERSION_GREATER"
+msgid ""
+"You are about to install version $NEW of the extension '$NAME'.\n"
+"The older version $DEPLOYED is already installed.\n"
+"Click 'OK' to replace the installed extension.\n"
+"Click 'Cancel' to stop the installation."
+msgstr ""
+"Вы збіраецеся ўсталяваць версію $NEW пашырэння «$NAME».\n"
+"Больш старая версія $DEPLOYED ужо ўсталявана ў вашай сістэме.\n"
+"Націсніце «ОК» для замены ўсталяванага пашырэння.\n"
+"Націсніце «Скасаваць», каб спыніць усталяванне."
+
+#. 2WQJk
+#: desktop/inc/strings.hrc:139
+msgctxt "RID_STR_WARNINGBOX_VERSION_GREATER_DIFFERENT_NAMES"
+msgid ""
+"You are about to install version $NEW of the extension '$NAME'.\n"
+"The older version $DEPLOYED, named '$OLDNAME', is already installed.\n"
+"Click 'OK' to replace the installed extension.\n"
+"Click 'Cancel' to stop the installation."
+msgstr ""
+"Вы збіраецеся ўсталяваць версію $NEW пашырэння «$NAME».\n"
+"Больш старая версія $DEPLOYED з назвай «$OLDNAME» ужо ўсталявана ў вашай сістэме.\n"
+"Націсніце «ОК» для замены ўсталяванага пашырэння.\n"
+"Націсніце «Скасаваць», каб спыніць усталяванне."
+
+#. J2X2b
+#: desktop/inc/strings.hrc:144
+msgctxt "RID_DLG_UPDATE_NONE"
+msgid "No new updates are available."
+msgstr "У вас апошняя версія праграмы."
+
+#. y7gVg
+#: desktop/inc/strings.hrc:145
+msgctxt "RID_DLG_UPDATE_NOINSTALLABLE"
+msgid "No installable updates are available. To see ignored or disabled updates, mark the check box 'Show all updates'."
+msgstr "У вас апошняя версія праграмы. Пазначце птушкай «Паказаць усе абнаўленні» для прагляду праігнараваныя або адключаныя абнаўленні."
+
+#. rq2Co
+#: desktop/inc/strings.hrc:146
+msgctxt "RID_DLG_UPDATE_FAILURE"
+msgid "An error occurred:"
+msgstr "Адбылася памылка:"
+
+#. 77Hco
+#: desktop/inc/strings.hrc:147
+msgctxt "RID_DLG_UPDATE_UNKNOWNERROR"
+msgid "Unknown error."
+msgstr "Невядомая памылка."
+
+#. 7xdom
+#: desktop/inc/strings.hrc:148
+msgctxt "RID_DLG_UPDATE_NODESCRIPTION"
+msgid "No more details are available for this update."
+msgstr "Адсутнічаюць падрабязнасці для гэтага абнаўлення."
+
+#. NECjC
+#: desktop/inc/strings.hrc:149
+msgctxt "RID_DLG_UPDATE_NOINSTALL"
+msgid "The extension cannot be updated because:"
+msgstr "Прычына, па якой немагчыма абнавіць пашырэнне:"
+
+#. BstEF
+#: desktop/inc/strings.hrc:150
+msgctxt "RID_DLG_UPDATE_NODEPENDENCY"
+msgid "Required %PRODUCTNAME version doesn't match:"
+msgstr "Патрэбная версія %PRODUCTNAME не адпавядае:"
+
+#. fz5C3
+#: desktop/inc/strings.hrc:151
+msgctxt "RID_DLG_UPDATE_NODEPENDENCY_CUR_VER"
+msgid "You have %PRODUCTNAME %VERSION"
+msgstr "У вас усталявана %PRODUCTNAME %VERSION"
+
+#. ofeoD
+#: desktop/inc/strings.hrc:152
+msgctxt "RID_DLG_UPDATE_BROWSERBASED"
+msgid "browser based update"
+msgstr "абнаўленне з дапамогай браўзера"
+
+#. 4NJkE
+#: desktop/inc/strings.hrc:153
+msgctxt "RID_DLG_UPDATE_VERSION"
+msgid "Version"
+msgstr "Версія"
+
+#. JRSnS
+#: desktop/inc/strings.hrc:154
+msgctxt "RID_DLG_UPDATE_IGNORED_UPDATE"
+msgid "This update will be ignored.\n"
+msgstr "Гэта абнаўленне будзе праігнаравана.\n"
+
+#. Ea8Mi
+#: desktop/inc/strings.hrc:156
+msgctxt "STR_BOOTSTRAP_ERR_CANNOT_START"
+msgid "The application cannot be started. "
+msgstr "Немагчыма запусціць праграму. "
+
+#. STFHr
+#: desktop/inc/strings.hrc:157
+msgctxt "STR_BOOTSTRAP_ERR_DIR_MISSING"
+msgid "The configuration directory \"$1\" could not be found."
+msgstr "Немагчыма знайсці каталог канфігурацыі «$1»."
+
+#. bGWux
+#: desktop/inc/strings.hrc:158
+msgctxt "STR_BOOTSTRAP_ERR_PATH_INVALID"
+msgid "The installation path is invalid."
+msgstr "Памылковы шлях усталявання."
+
+#. kdZLA
+#: desktop/inc/strings.hrc:159
+msgctxt "STR_BOOTSTRAP_ERR_INTERNAL"
+msgid "An internal error occurred."
+msgstr "Адбылася ўнутраная памылка."
+
+#. yGBza
+#: desktop/inc/strings.hrc:160
+msgctxt "STR_BOOTSTRAP_ERR_FILE_CORRUPT"
+msgid "The configuration file \"$1\" is corrupt."
+msgstr "Файл канфігурацыі «$1» пашкоджаны."
+
+#. CP9Qk
+#: desktop/inc/strings.hrc:161
+msgctxt "STR_BOOTSTRAP_ERR_FILE_MISSING"
+msgid "The configuration file \"$1\" was not found."
+msgstr "Файл канфігурацыі «$1» не знойдзены."
+
+#. maapb
+#: desktop/inc/strings.hrc:162
+msgctxt "STR_BOOTSTRAP_ERR_NO_SUPPORT"
+msgid "The configuration file \"$1\" does not support the current version."
+msgstr "Файл канфігурацыі «$1» не падтрымлівае бягучую версію."
+
+#. q2F59
+#: desktop/inc/strings.hrc:163
+msgctxt "STR_BOOTSTRAP_ERR_LANGUAGE_MISSING"
+msgid "The user interface language cannot be determined."
+msgstr "Немагчыма вызначыць мову інтэрфейсу карыстальніка."
+
+#. UTKHa
+#: desktop/inc/strings.hrc:164
+msgctxt "STR_BOOTSTRAP_ERR_USERINSTALL_FAILED"
+msgid "User installation could not be completed. "
+msgstr "Немагчыма завяршыць усталяванне для карыстальніка. "
+
+#. dgxZP
+#: desktop/inc/strings.hrc:165
+msgctxt "STR_BOOTSTRAP_ERR_NO_CFG_SERVICE"
+msgid "The configuration service is not available."
+msgstr "Сэрвіс канфігурацыі недаступны."
+
+#. BYShb
+#: desktop/inc/strings.hrc:166
+msgctxt "STR_BOOTSTRAP_ERR_2NDOFFICE_WITHCAT"
+msgid "There is already another %PRODUCTNAME instance running.  Please close all %PRODUCTNAME processes before running with the '--cat' or '--script-cat' option."
+msgstr "Ужо запушчаны іншы экзэмпляр %PRODUCTNAME. Закрыйце ўсе працэсы %PRODUCTNAME перад запускам з параметрам '--cat' або '--script-cat'."
+
+#. wbj4W
+#: desktop/inc/strings.hrc:167
+msgctxt "STR_ASK_START_SETUP_MANUALLY"
+msgid "Start the setup application to repair the installation from the CD or the folder containing the installation packages."
+msgstr "Запусціце праграму наладкі для выпраўлення ўсталявання з CD-дыска або папкі, якая змяшчае пакет усталявання."
+
+#. d3or5
+#: desktop/inc/strings.hrc:168
+msgctxt "STR_CONFIG_ERR_ACCESS_GENERAL"
+msgid "A general error occurred while accessing your central configuration. "
+msgstr "Адбылася агульная памылка пры доступе да цэнтральнай канфігурацыі. "
+
+#. zBSDM
+#: desktop/inc/strings.hrc:169
+msgctxt "STR_LO_MUST_BE_RESTARTED"
+msgid "%PRODUCTNAME must unfortunately be manually restarted once after installation or update."
+msgstr "На жаль, пасля ўсталявання або абнаўлення неабходна ўручную перазапусціць %PRODUCTNAME."
+
+#. NBTfi
+#: desktop/inc/strings.hrc:170
+msgctxt "STR_QUERY_USERDATALOCKED"
+msgid ""
+"Either another instance of %PRODUCTNAME is accessing your personal settings or your personal settings are locked.\n"
+"Simultaneous access can lead to inconsistencies in your personal settings. Before continuing, you should make sure user '$u' closes %PRODUCTNAME on host '$h'.\n"
+"\n"
+"Do you really want to continue?"
+msgstr ""
+"У цяперашні час вашы асабістыя налады заблакіраваны. Магчыма, што яны выкарыстоўваюцца іншым экзэмплярам %PRODUCTNAME, або доступ да іх адсутнічае.\n"
+"Адначасовы доступ можа прывесці да няўзгодненасці ў вашых асабістых наладах. Пераканайцеся ў тым, што карыстальнік «$u» завяршыў працу з %PRODUCTNAME на «$h».\n"
+"\n"
+"Вы сапраўды хочаце працягнуць?"
+
+#. EB6Yf
+#: desktop/inc/strings.hrc:171
+msgctxt "STR_TITLE_USERDATALOCKED"
+msgid "%PRODUCTNAME %PRODUCTVERSION"
+msgstr "%PRODUCTNAME %PRODUCTVERSION"
+
+#. GiCJZ
+#: desktop/inc/strings.hrc:172
+msgctxt "STR_ERR_PRINTDISABLED"
+msgid "Printing is disabled. No documents can be printed."
+msgstr "Друк адключаны. Друк дакументаў немагчымы."
+
+#. VxBTE
+#: desktop/inc/strings.hrc:173
+msgctxt "STR_BOOTSTRAP_ERR_NO_PATHSET_SERVICE"
+msgid "The path manager is not available.\n"
+msgstr "Недаступны менеджар шляхоў.\n"
+
+#. Cy4Wz
+#: desktop/inc/strings.hrc:174
+msgctxt "STR_BOOTSTRAP_ERR_NOTENOUGHDISKSPACE"
+msgid ""
+"%PRODUCTNAME user installation could not be completed due to insufficient free disk space. Please free more disc space at the following location and restart %PRODUCTNAME:\n"
+"\n"
+msgstr ""
+"Карыстальніцкае ўсталяванне %PRODUCTNAME немагчыма завяршыць, бо на дыску не хапае вольнай прасторы. Выдаліце непатрэбныя файлы і перазапусціце %PRODUCTNAME:\n"
+"\n"
+
+#. 2o5XG
+#: desktop/inc/strings.hrc:175
+msgctxt "STR_BOOTSTRAP_ERR_NOACCESSRIGHTS"
+msgid ""
+"%PRODUCTNAME user installation could not be processed due to missing access rights. Please make sure that you have sufficient access rights for the following location and restart %PRODUCTNAME:\n"
+"\n"
+msgstr ""
+"Карыстальніцкая ўсталяванне %PRODUCTNAME немагчыма завяршыць, бо адсутнічаюць неабходныя правы доступу. Пераканайцеся, што ў вас дастаткова правоў доступу для наступнага размяшчэння і перазапусціце %PRODUCTNAME:\n"
+"\n"
+
+#. uigQN
+#: desktop/inc/strings.hrc:177
+msgctxt "RID_STR_UNOPKG_ACCEPT_LIC_1"
+msgid "Extension Software License Agreement of $NAME:"
+msgstr "Ліцэнзійнае пагадненне пашырэння $NAME:"
+
+#. DEkAo
+#: desktop/inc/strings.hrc:178
+msgctxt "RID_STR_UNOPKG_ACCEPT_LIC_2"
+msgid "Read the complete License Agreement displayed above. Accept the License Agreement by typing \"yes\" on the console then press the Return key. Type \"no\" to decline and to abort the extension setup."
+msgstr "Цалкам прачытайце ліцэнзійнае пагадненне вышэй. Увядзіце «yes» у кансолі і націсніце Enter, каб прыняць умовы ліцэнзійнага пагаднення. Увядзіце «no», каб скасаваць усталяванне пашырэння і выйсці."
+
+#. wANiC
+#: desktop/inc/strings.hrc:182
+msgctxt "RID_STR_UNOPKG_ACCEPT_LIC_3"
+msgid "[Enter \"yes\" or \"no\"]:"
+msgstr "[Увядзіце «yes» або «no»]:"
+
+#. wEFn2
+#: desktop/inc/strings.hrc:183
+msgctxt "RID_STR_UNOPKG_ACCEPT_LIC_4"
+msgid "Your input was not correct. Please enter \"yes\" or \"no\":"
+msgstr "Няправільны ўвод. Увядзіце «yes» або «no»:"
+
+#. A9CdG
+#: desktop/inc/strings.hrc:184
+msgctxt "RID_STR_UNOPKG_ACCEPT_LIC_YES"
+msgid "YES"
+msgstr "YES"
+
+#. HLETc
+#: desktop/inc/strings.hrc:185
+msgctxt "RID_STR_UNOPKG_ACCEPT_LIC_Y"
+msgid "Y"
+msgstr "Y"
+
+#. SQ6jd
+#: desktop/inc/strings.hrc:186
+msgctxt "RID_STR_UNOPKG_ACCEPT_LIC_NO"
+msgid "NO"
+msgstr "NO"
+
+#. 6LgGA
+#: desktop/inc/strings.hrc:187
+msgctxt "RID_STR_UNOPKG_ACCEPT_LIC_N"
+msgid "N"
+msgstr "N"
+
+#. aCY73
+#: desktop/inc/strings.hrc:188
+msgctxt "RID_STR_CONCURRENTINSTANCE"
+msgid "unopkg cannot be started. The lock file indicates it is already running. If this does not apply, delete the lock file at:"
+msgstr "Немагчыма запусціць unopkg. Файл блакіроўкі паказвае, што запушчана іншая копія unopkg. Выдаліце файл блакіроўкі, калі гэта не так:"
+
+#. MLhHo
+#: desktop/inc/strings.hrc:190
+msgctxt "RID_STR_UNOPKG_ERROR"
+msgid "ERROR: "
+msgstr "ПАМЫЛКА: "
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "_Дадаць"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "_Прымяніць"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "_Скасаваць"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "_Закрыць"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_Выдаліць"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "_Рэдагаваць"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "Да_ведка"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "_Новы"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "_Не"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_OK"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "_Выдаліць"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "_Скінуць"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "_Так"
+
+#. Qcv5A
+#: desktop/uiconfig/ui/dependenciesdialog.ui:18
+msgctxt "dependenciesdialog|Dependencies"
+msgid "System dependencies check"
+msgstr "Праверка сістэмных залежнасцей"
+
+#. JNnsh
+#: desktop/uiconfig/ui/dependenciesdialog.ui:73
+msgctxt "dependenciesdialog|label1"
+msgid "The extension cannot be installed as the following system dependencies are not fulfilled:"
+msgstr "Немагчыма ўсталяваць пашырэнне з прычыны таго, што сістэмныя залежнасці не выконваюцца:"
+
+#. dKqR8
+#: desktop/uiconfig/ui/extensionmanager.ui:8
+msgctxt "extensionmanager|ExtensionManagerDialog"
+msgid "Extensions"
+msgstr "Пашырэнні"
+
+#. gjCkd
+#: desktop/uiconfig/ui/extensionmanager.ui:81
+msgctxt "extensionmanager|shared"
+msgid "Installed for all users"
+msgstr "Усталявана для ўсіх карыстальнікаў"
+
+#. pnXoG
+#: desktop/uiconfig/ui/extensionmanager.ui:90
+msgctxt "extensionmanager|extended_tip|shared"
+msgid "Filter extensions available for all users of this computer."
+msgstr "Пашырэнні фільтраў даступны для ўсіх карыстальнікаў гэтага камп'ютара."
+
+#. zhqZT
+#: desktop/uiconfig/ui/extensionmanager.ui:101
+msgctxt "extensionmanager|user"
+msgid "Installed for current user"
+msgstr "Усталявана для бягучага карыстальніка"
+
+#. QbHCi
+#: desktop/uiconfig/ui/extensionmanager.ui:110
+msgctxt "extensionmanager|extended_tip|user"
+msgid "Filter extensions only available for the currently logged in user."
+msgstr "Пашырэнні фільтраў даступны толькі для карыстальніка, які ўвайшоў у сістэму."
+
+#. 6wBVk
+#: desktop/uiconfig/ui/extensionmanager.ui:121
+msgctxt "extensionmanager|bundled"
+msgid "Bundled with %PRODUCTNAME"
+msgstr "У камплекце з %PRODUCTNAME"
+
+#. nF4rD
+#: desktop/uiconfig/ui/extensionmanager.ui:130
+msgctxt "extensionmanager|extended_tip|bundled"
+msgid "Bundled extensions are installed by the system administrator using the operating system specific installer packages. These can not be installed, updated or removed here."
+msgstr "Пашырэнні ў камплекце ўсталёўваюцца сістэмным адміністратарам з дапамогай спецыяльных пакетаў устаноўкі аперацыйнай сістэмы. Іх нельга ўсталяваць, абнавіць або выдаліць тут."
+
+#. T8BGR
+#: desktop/uiconfig/ui/extensionmanager.ui:145
+msgctxt "extensionmanager|label1"
+msgid "Display Extensions"
+msgstr "Паказваць прыстаўкі"
+
+#. WREKY
+#: desktop/uiconfig/ui/extensionmanager.ui:163
+msgctxt "extensionmanager|search"
+msgid "Search..."
+msgstr "Пошук..."
+
+#. BAVdg
+#: desktop/uiconfig/ui/extensionmanager.ui:192
+msgctxt "extensionmanager|extended_tip|extensions"
+msgid "Select the extension that you want to remove, enable, or disable. For some extensions, you can also open an Options dialog."
+msgstr "Выберыце пашырэнне, якое вы хочаце выдаліць, уключыць або адключыць. Для некаторых пашырэнняў вы таксама можаце адкрыць дыялогавае акно Параметры."
+
+#. DLME5
+#: desktop/uiconfig/ui/extensionmanager.ui:214
+msgctxt "extensionmanager|optionsbtn"
+msgid "_Options"
+msgstr "_Параметры"
+
+#. DbuQS
+#: desktop/uiconfig/ui/extensionmanager.ui:221
+msgctxt "extensionmanager|extended_tip|optionsbtn"
+msgid "Select an installed extension, then click to open the Options dialog for the extension."
+msgstr "Выберыце ўсталяванае пашырэнне, а потым націсніце для адкрыцця дыялогавага акна «Параметры» для пашырэння."
+
+#. ieiF4
+#: desktop/uiconfig/ui/extensionmanager.ui:233
+msgctxt "extensionmanager|updatebtn"
+msgid "Check for _Updates"
+msgstr "Праверыць наяўнасць абнаўленняў"
+
+#. rirpA
+#: desktop/uiconfig/ui/extensionmanager.ui:240
+msgctxt "extensionmanager|extended_tip|updatebtn"
+msgid "Click to check for online updates of all installed extensions. To check for updates of the selected extension only, choose the Update command from the context menu. The check for availability of updates starts immediately."
+msgstr "Націсніце, каб праверыць абнаўленні ўсіх усталяваных пашырэнняў. Выберыце ў кантэкстным меню каманду «Абнавіць», каб праверыць абнаўленне толькі выбранага пашырэння. Праверка абнаўлення пачнецца неадкладна."
+
+#. GehiB
+#: desktop/uiconfig/ui/extensionmanager.ui:253
+msgctxt "extensionmanager|addbtn"
+msgid "_Add"
+msgstr "Дадаць"
+
+#. MuigK
+#: desktop/uiconfig/ui/extensionmanager.ui:262
+msgctxt "extensionmanager|extended_tip|addbtn"
+msgid "Click Add to add an extension."
+msgstr "Каб дадаць пашырэнне, націсніце «Дадаць»."
+
+#. wNCAw
+#: desktop/uiconfig/ui/extensionmanager.ui:275
+msgctxt "extensionmanager|removebtn"
+msgid "_Remove"
+msgstr "Сцерці"
+
+#. AGoX7
+#: desktop/uiconfig/ui/extensionmanager.ui:282
+msgctxt "extensionmanager|extended_tip|removebtn"
+msgid "Select the extension that you want to remove, and then click Remove."
+msgstr "Выберыце пашырэнне, якое вы хочаце выдаліць, і націсніце «Выдаліць»."
+
+#. qHMdq
+#: desktop/uiconfig/ui/extensionmanager.ui:295
+msgctxt "extensionmanager|enablebtn"
+msgid "_Enable"
+msgstr "_Уключыць"
+
+#. vz3Ti
+#: desktop/uiconfig/ui/extensionmanager.ui:325
+msgctxt "extensionmanager|progressft"
+msgid "Adding %EXTENSION_NAME"
+msgstr "Дадаем %EXTENSION_NAME"
+
+#. A33SB
+#: desktop/uiconfig/ui/extensionmanager.ui:360
+msgctxt "extensionmanager|getextensions"
+msgid "Get more extensions online..."
+msgstr "Атрымаць іншыя прыстаўкі..."
+
+#. FBvRd
+#: desktop/uiconfig/ui/extensionmanager.ui:368
+msgctxt "extensionmanager|extended_tip|getextensions"
+msgid "You can find a collection of extensions on the Web."
+msgstr "Вы можаце знайсці калекцыю пашырэнняў у Інтэрнэце."
+
+#. LFF2R
+#: desktop/uiconfig/ui/extensionmanager.ui:400
+msgctxt "extensionmanager|extended_tip|ExtensionManagerDialog"
+msgid "The Extension Manager adds, removes, disables, enables, and updates extensions."
+msgstr "Кіраўнік Пашырэннямі дадае, выдаляе, адключае, уключае і абнаўляе пашырэнні."
+
+#. EGwkP
+#: desktop/uiconfig/ui/installforalldialog.ui:12
+msgctxt "installforalldialog|InstallForAllDialog"
+msgid "For whom do you want to install the extension?"
+msgstr "Для каго ўстанавіць прыстаўку?"
+
+#. bFbLc
+#: desktop/uiconfig/ui/installforalldialog.ui:13
+msgctxt "installforalldialog|InstallForAllDialog"
+msgid "Make sure that no further users are working with the same %PRODUCTNAME, when installing an extension for all users in a multi user environment."
+msgstr "Праверце, ці ніхто больш не працуе з тым самым асобнікам %PRODUCTNAME, калі ставіце прыстаўку для ўсіх карыстальнікаў у шматкарыстальніцкім асяроддзі."
+
+#. urmUy
+#: desktop/uiconfig/ui/installforalldialog.ui:24
+msgctxt "installforalldialog|no"
+msgid "_For all users"
+msgstr "Для ўсіх карыстальнікаў"
+
+#. nPnM4
+#: desktop/uiconfig/ui/installforalldialog.ui:38
+msgctxt "installforalldialog|yes"
+msgid "_Only for me"
+msgstr "Толькі для мяне"
+
+#. feAcg
+#: desktop/uiconfig/ui/licensedialog.ui:8
+msgctxt "licensedialog|LicenseDialog"
+msgid "Extension Software License Agreement"
+msgstr "Ліцэнзійнае пагадненне праграмнага забеспячэння"
+
+#. Q6dKY
+#: desktop/uiconfig/ui/licensedialog.ui:24
+msgctxt "licensedialog|accept"
+msgid "Accept"
+msgstr "Прыняць"
+
+#. zXBFv
+#: desktop/uiconfig/ui/licensedialog.ui:39
+msgctxt "licensedialog|decline"
+msgid "Decline"
+msgstr "Адхіліць"
+
+#. rvo9y
+#: desktop/uiconfig/ui/licensedialog.ui:70
+msgctxt "licensedialog|head"
+msgid "Please follow these steps to proceed with the installation of the extension:"
+msgstr "Зрабіце наступныя крокі, каб працягваць устаноўку гэтай прыстаўкі:"
+
+#. tEDSx
+#: desktop/uiconfig/ui/licensedialog.ui:92
+msgctxt "licensedialog|label2"
+msgid "1."
+msgstr "1."
+
+#. NyS5E
+#: desktop/uiconfig/ui/licensedialog.ui:105
+msgctxt "licensedialog|label3"
+msgid "2."
+msgstr "2."
+
+#. 5h4GZ
+#: desktop/uiconfig/ui/licensedialog.ui:143
+msgctxt "licensedialog|label4"
+msgid "Read the complete License Agreement. Use the scroll bar or the 'Scroll Down' button in this dialog to view the entire license text."
+msgstr "Прачытайце ўвесь тэкст Ліцэнзійнага Пагаднення. Каб убачыць тэкст цалкам, скарыстайце стужку-працяжнік або кнопку 'Пракруціць уніз' з гэтага дыялогу."
+
+#. oyoCK
+#: desktop/uiconfig/ui/licensedialog.ui:160
+msgctxt "licensedialog|label5"
+msgid "Accept the License Agreement for the extension by pressing the 'Accept' button."
+msgstr "Прыміце ліцэнзійнае пагадненне для прыстаўкі, націснуўшы кнопку 'Прыняць'."
+
+#. ydBcE
+#: desktop/uiconfig/ui/licensedialog.ui:173
+msgctxt "licensedialog|down"
+msgid "_Scroll Down"
+msgstr "Пракруціць уніз"
+
+#. qquCs
+#: desktop/uiconfig/ui/showlicensedialog.ui:8
+msgctxt "showlicensedialog|ShowLicenseDialog"
+msgid "Extension Software License Agreement"
+msgstr "Ліцэнзійнае пагадненне праграмнага забеспячэння"
+
+#. x4PCF
+#: desktop/uiconfig/ui/showlicensedialog.ui:76
+msgctxt "showlicensedialog|extended_tip|ShowLicenseDialog"
+msgid "Read the license. Click the Scroll Down button to scroll down if necessary. Click Accept to continue the installation of the extension."
+msgstr "Прачытайце ліцэнзію. Пры неабходнасці націсніце кнопку «Пракруціць ўніз», каб пракруціць ўніз. Націсніце \"Прыняць\", каб працягнуць устаноўку пашырэння."
+
+#. GX3k2
+#: desktop/uiconfig/ui/updatedialog.ui:24
+msgctxt "updatedialog|UpdateDialog"
+msgid "Extension Update"
+msgstr "Абнаўленне прыстаўкі"
+
+#. DmHy5
+#: desktop/uiconfig/ui/updatedialog.ui:55
+msgctxt "updatedialog|INSTALL"
+msgid "_Install"
+msgstr "Устанавіць"
+
+#. 3bJwo
+#: desktop/uiconfig/ui/updatedialog.ui:122
+msgctxt "updatedialog|UPDATE_LABEL"
+msgid "_Available extension updates"
+msgstr "Наяўныя абнаўленні прыставак"
+
+#. 3mtLC
+#: desktop/uiconfig/ui/updatedialog.ui:135
+msgctxt "updatedialog|UPDATE_CHECKING"
+msgid "Checking..."
+msgstr "Праверка..."
+
+#. WkYgi
+#: desktop/uiconfig/ui/updatedialog.ui:219
+msgctxt "updatedialog|UPDATE_ALL"
+msgid "_Show all updates"
+msgstr "Паказаць усе абнаўленні"
+
+#. ihAhY
+#: desktop/uiconfig/ui/updatedialog.ui:228
+msgctxt "updatedialog|extended_tip|UPDATE_ALL"
+msgid "By default, only the downloadable extensions are shown in the dialog. Mark Show all Updates to see also other extensions and error messages."
+msgstr "Па ўмаўчанні ў дыялогавым акне паказваюцца толькі пашырэнні, якія можна спампаваць. Адзначце Паказаць усе абнаўленні, каб убачыць таксама іншыя пашырэнні і паведамленні пра памылкі."
+
+#. BriDD
+#: desktop/uiconfig/ui/updatedialog.ui:257
+msgctxt "updatedialog|DESCRIPTION_LABEL"
+msgid "Description"
+msgstr "Апісанне"
+
+#. 7DTtA
+#: desktop/uiconfig/ui/updatedialog.ui:276
+msgctxt "updatedialog|PUBLISHER_LABEL"
+msgid "Publisher:"
+msgstr "Выдавец:"
+
+#. iaD89
+#: desktop/uiconfig/ui/updatedialog.ui:287
+msgctxt "updatedialog|PUBLISHER_LINK"
+msgid "button"
+msgstr "кнопка"
+
+#. kgLHP
+#: desktop/uiconfig/ui/updatedialog.ui:303
+msgctxt "updatedialog|RELEASE_NOTES_LABEL"
+msgid "What is new:"
+msgstr "Што новага:"
+
+#. JqHGH
+#: desktop/uiconfig/ui/updatedialog.ui:314
+msgctxt "updatedialog|RELEASE_NOTES_LINK"
+msgid "Release notes"
+msgstr "Заўвагі да выпуску"
+
+#. UEHCd
+#: desktop/uiconfig/ui/updatedialog.ui:352
+msgctxt "updatedialog|extended_tip|DESCRIPTIONS"
+msgid "While checking for updates, you see a progress indicator. Wait for some messages to show up in the dialog, or click Cancel to abort the update check."
+msgstr "Падчас праверкі абнаўленняў вы бачыце індыкатар прагрэсу. Пачакайце, пакуль некаторыя паведамленні з'явяцца ў дыялогавым акне, або націсніце «Адмена», каб спыніць праверку абнаўленняў."
+
+#. c5FG9
+#: desktop/uiconfig/ui/updatedialog.ui:386
+msgctxt "updatedialog|extended_tip|UpdateDialog"
+msgid "Click the Check for Updates button in the Extension Manager to check for online updates for all installed extensions. To check for online updates for only the selected extension, right-click to open the context menu, then choose Update."
+msgstr "Націсніце кнопку «Праверыць абнаўленні» ў «Менеджары пашырэнняў», каб праверыць наяўнасць абнаўленняў для ўсіх усталяваных пашырэнняў. Націсніце правай кнопкай мышы для выкліку кантэкстнага меню і выберыце «Абнавіць», каб праверыць абнаўленні толькі выбраных пашырэнняў."
+
+#. YEhMN
+#: desktop/uiconfig/ui/updateinstalldialog.ui:8
+msgctxt "updateinstalldialog|UpdateInstallDialog"
+msgid "Download and Installation"
+msgstr "Іманне і ўстанаўленне"
+
+#. t9MoN
+#: desktop/uiconfig/ui/updateinstalldialog.ui:87
+msgctxt "updateinstalldialog|DOWNLOADING"
+msgid "Downloading extensions..."
+msgstr "Бярэм прыстаўкі..."
+
+#. 3AFnH
+#: desktop/uiconfig/ui/updateinstalldialog.ui:125
+msgctxt "updateinstalldialog|RESULTS"
+msgid "Result"
+msgstr "Вынік"
+
+#. vg6DP
+#: desktop/uiconfig/ui/updateinstalldialog.ui:178
+msgctxt "updateinstalldialog|extended_tip|UpdateInstallDialog"
+msgid "Click the Check for Updates button in the Extensions dialog to check for online updates for all installed extensions. To check for online updates for only the selected extension, right-click to open the context menu, then choose Update."
+msgstr "Націсніце кнопку «Праверыць абнаўленні» ў «Менеджары пашырэнняў», каб праверыць наяўнасць абнаўленняў для ўсіх усталяваных пашырэнняў. Націсніце правай кнопкай мышы для выкліку кантэкстнага меню і выберыце «Абнавіць», каб праверыць абнаўленні толькі выбраных пашырэнняў."
+
+#. Kfhc4
+#: desktop/uiconfig/ui/updaterequireddialog.ui:8
+msgctxt "updaterequireddialog|UpdateRequiredDialog"
+msgid "Extension Update Required"
+msgstr "Патрэбнае абнаўленне прыстаўкі"
+
+#. bp47k
+#: desktop/uiconfig/ui/updaterequireddialog.ui:27
+msgctxt "updaterequireddialog|check"
+msgid "Check for _Updates..."
+msgstr "Праверыць наяўнасць абнаўленняў..."
+
+#. 9S2f3
+#: desktop/uiconfig/ui/updaterequireddialog.ui:43
+msgctxt "updaterequireddialog|disable"
+msgid "Disable all"
+msgstr "Не дазваляць усе"
+
+#. VYnoR
+#: desktop/uiconfig/ui/updaterequireddialog.ui:102
+msgctxt "updaterequireddialog|updatelabel"
+msgid "%PRODUCTNAME has been updated to a new version. Some installed %PRODUCTNAME extensions are not compatible with this version and need to be updated before they can be used."
+msgstr "%PRODUCTNAME быў абноўлены. Некаторыя з устаноўленых прыставак %PRODUCTNAME несумяшчальныя з абноўленай версіяй, і самі павінны быць абноўлены, каб імі можна было карыстацца."
+
+#. FXDEw
+#: desktop/uiconfig/ui/updaterequireddialog.ui:153
+msgctxt "updaterequireddialog|progresslabel"
+msgid "Adding %EXTENSION_NAME"
+msgstr "Дадаем %EXTENSION_NAME"

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+    <!--
+    * This file is part of the LibreOffice project.
+    *
+    * This Source Code Form is subject to the terms of the Mozilla Public
+    * License, v. 2.0. If a copy of the MPL was not distributed with this
+    * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+    *
+    -->
+
+<meta>
+<topic id="writerformmenu" indexer="include" status="PUBLISH">
+<title id="tit">Form Menu</title>
+<filename>/text/swriter/main0120.xhp</filename>
+</topic>
+</meta>
+<body>
+
+<bookmark id="bm_id601529755027114" branch="hid/.uno:FormMenu" localize="false"/>
+<bookmark branch="hid/.uno:FormatFormMenu" id="bm_id491695850223423" localize="false"/>
+<section id="form">
+<h1 id="hd_id111529755027117"><link href="text/swriter/main0120.xhp">Form</link></h1>
+<paragraph id="par_id991529755027118" role="paragraph"><variable id="form_intro"><ahelp hid=".">Contains commands for activate form design mode, enable/disable control wizards and insert form controls in your document.</ahelp></variable></paragraph>
+</section>
+<section id="howtoget">
+    <embed href="text/shared/00/00040501.xhp#form_menu"/>
+</section>
+<section id="form_design_mode">
+<embed href="text/shared/02/01170500.xhp#designmodus"/>
+</section>
+
+<section id="form_control_wizard">
+<embed href="text/shared/02/01171100.xhp#wizards_on_off"/>
+</section>
+
+<embed href="text/shared/02/01170000.xhp#labelfield"/>
+<embed href="text/shared/02/01170000.xhp#textbox"/>
+<embed href="text/shared/02/01170000.xhp#checkbox"/>
+<embed href="text/shared/02/01170000.xhp#optionbutton"/>
+<embed href="text/shared/02/01170000.xhp#listbox"/>
+<embed href="text/shared/02/01170000.xhp#combobox"/>
+<embed href="text/shared/02/01170000.xhp#pushbutton"/>
+<embed href="text/shared/02/01170000.xhp#imagebutton"/>
+<embed href="text/shared/02/01170000.xhp#formattedfield"/>
+
+<h2 id="hd_id571529784049416">More fields</h2>
+<paragraph role="paragraph" id="par_id951529784060420">Date, time, numerical, currency and pattern form fields.</paragraph>
+<embed href="text/shared/02/01170000.xhp#groupbox"/>
+<embed href="text/shared/02/01170000.xhp#imagecontrol"/>
+<embed href="text/shared/02/01170000.xhp#fileselection"/>
+<embed href="text/shared/02/01170000.xhp#tablecontrol"/>
+<embed href="text/shared/02/01170000.xhp#navigationbar"/>
+<embed href="text/shared/02/01170100.xhp#control"/>
+<embed href="text/shared/02/01170200.xhp#form_properties"/>
+<embed href="text/shared/02/01170600.xhp#form_navigator"/>
+<embed href="text/shared/02/01170300.xhp#taborder"/>
+<embed href="text/shared/02/01171000.xhp#open_in_design_mode"/>
+
+<section id="activation_order">
+<h2 id="par_id521695852912519" localize="false"><embedvar href="text/shared/main0226.xhp#automaticcontrolfocus" markup="ignore"/></h2>
+</section>
+<embed href="text/swriter/menu/contentcontrol_submenu.xhp#contentcontrol_submenu"/>
+</body>
+</helpdocument>

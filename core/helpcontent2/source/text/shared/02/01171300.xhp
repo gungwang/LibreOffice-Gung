@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textshared0201171300xml" indexer="include" status="PUBLISH">
+<title id="tit" xml-lang="en-US">Snap to Grid</title>
+<filename>/text/shared/02/01171300.xhp</filename>
+</topic>
+</meta>
+<body>
+<bookmark branch="hid/.uno:GridUse" id="bm_id571686516768822" localize="false"/>
+<section id="snap2grid">
+<h1 id="hd_id3151262"><link href="text/shared/02/01171300.xhp">Snap to Grid</link></h1>
+    <embed href="text/shared/optionen/01050100.xhp#snap_to_grid"/>
+</section>
+<paragraph id="par_idN10589" role="paragraph">Automatically aligns objects to vertical and horizontal grid lines.</paragraph>
+<section id="howtoget">
+    <embed href="text/shared/00/00000004.xhp#snaptogrid"/>
+</section>
+<paragraph role="paragraph" id="par_id321683472243875">To override this feature, hold down the <switchinline select="sys"><caseinline select="MAC"><keycode>Option</keycode></caseinline><defaultinline><keycode>Alt</keycode></defaultinline></switchinline> key when you drag an object.</paragraph>
+</body>
+</helpdocument>

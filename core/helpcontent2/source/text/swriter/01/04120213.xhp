@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+<topic id="textswriter0104120213xml" indexer="include" status="PUBLISH">
+<title id="tit">Index (table of figures)</title>
+<filename>/text/swriter/01/04120213.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<h1 id="hd_id3147570"><link href="text/swriter/01/04120213.xhp">Index (table of figures)</link></h1>
+<paragraph role="paragraph" id="par_id3145415">
+<variable id="verzeichnis">The following options are available when you select <emph>Table of Figures</emph> as the <link href="text/swriter/01/04120210.xhp">index</link> type.</variable></paragraph>
+<section id="howtoget">
+  <embed href="text/swriter/00/00000404.xhp#verz23"/>
+</section>
+<embed href="text/swriter/01/04120211.xhp#type_and_title"/>
+<embed href="text/swriter/01/04120211.xhp#create_index_for"/>
+<section id="create_from">
+<h2 id="hd_id3153534">Create from</h2>
+<paragraph role="paragraph" id="par_id3151315">Specify the information to be combined to form an index.</paragraph>
+<bookmark branch="hid/modules/swriter/ui/tocindexpage/captions" id="bm_id3153671" localize="false"/>
+<h3 id="hd_id3154478">Captions</h3>
+<paragraph role="paragraph" id="par_id3153677"><ahelp hid="modules/swriter/ui/tocindexpage/captions">Creates index entries from object captions.</ahelp> To add a caption to an object, select the object, and then choose <emph>Insert - Caption</emph>.</paragraph>
+<bookmark branch="hid/modules/swriter/ui/tocindexpage/category" id="bm_id3155903" localize="false"/>
+<h3 id="hd_id3154576">Category</h3>
+<paragraph role="paragraph" id="par_id3149687"><ahelp hid="modules/swriter/ui/tocindexpage/category">Select the caption category that you want to use for the index entries.</ahelp></paragraph>
+<bookmark branch="hid/modules/swriter/ui/tocindexpage/display" id="bm_id3155179" localize="false"/>
+<h3 id="hd_id3154195">Display</h3>
+<paragraph role="paragraph" id="par_id3155186"><ahelp hid="modules/swriter/ui/tocindexpage/display">Select the part of the caption that you want to display in the index entries.</ahelp> The following table illustrates the options that can be selected, based on the caption “Figure 24: The Sun”, where “Figure 24” was generated automatically when the caption was inserted, while “The Sun” is the caption text added by the user.</paragraph>
+<table id="tbl_id3149490" name="tbl_id3149490">
+<tablerow>
+<tablecell>
+<paragraph role="tablehead" id="par_id3151260">Selections in the Display list box</paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="tablehead" id="par_id3148972">Entry in the Index</paragraph>
+</tablecell>
+</tablerow>
+<tablerow>
+<tablecell>
+<paragraph role="tablecontent" id="par_id3147213">Reference</paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="tablecontent" id="par_id3153636">Figure 24: The Sun</paragraph>
+</tablecell>
+</tablerow>
+<tablerow>
+<tablecell>
+<paragraph role="tablecontent" id="par_id3152768">Category and Number</paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="tablecontent" id="par_id3155145">Figure 24</paragraph>
+</tablecell>
+</tablerow>
+<tablerow>
+<tablecell>
+<paragraph role="tablecontent" id="par_id3149168">Caption Text</paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="tablecontent" id="par_id3145781">The Sun</paragraph>
+</tablecell>
+</tablerow>
+</table>
+
+<paragraph role="paragraph" id="par_id3155915">If you select “Caption Text”, the punctuation and the space at the beginning of the caption are not included in the index entry.</paragraph>
+<bookmark branch="hid/modules/swriter/ui/tocindexpage/objnames" id="bm_id3155857" localize="false"/>
+<h3 id="hd_id3151378">Object names</h3>
+<paragraph role="paragraph" id="par_id3155863"><ahelp hid="modules/swriter/ui/tocindexpage/objnames">Creates index entries from object names.</ahelp> You can view object names in the Navigator, for example, and change them in the context menu.</paragraph>
+</section>
+</body>
+</helpdocument>

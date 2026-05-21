@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textshared0000000404xml" indexer="exclude" status="PUBLISH">
+<title id="tit">Insert Menu</title>
+<filename>/text/shared/00/00000404.xhp</filename>
+</topic>
+</meta>
+<body>
+<h1 id="hd_id3156324">Insert Menu</h1>
+<section id="formattingmark">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id11698854332603">Choose <menuitem>Insert - Formatting Mark</menuitem>.</paragraph>
+</section>
+<section id="drawtext">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id931698849059781">Choose <menuitem>Insert - Text Box</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id61698849086409">Choose <menuitem>Insert - Text Box</menuitem>.</paragraph>
+    <paragraph role="paragraph" id="par_id671698849081876">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Text Box</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id261698848907253">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id71698848907254" role="paragraph"><image src="cmd/lc_text.svg" id="img_id211698848907255" width="1cm"  height="1cm"><alt id="alt_id761698848907256">Icon Text Box</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id591698848907258" role="paragraph">Text Box</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+<section id="insert_rows_before">
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id741693664840476">Choose <menuitem>Table - Insert - Rows Above</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id281693664844219">Choose <menuitem>Sheet - Insert Rows - Rows Above</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id721702132891571">Choose <menuitem>Sheet - Insert Cells - Entire Row</menuitem>.</paragraph>
+        </case>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_context"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id631693665294555">Choose <menuitem>Insert - Rows Above</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id941693665025455">Select one or more rows, choose <menuitem>Insert Rows Above</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id621702132993942">Select one or more cells, choose <menuitem>Insert - Entire Row</menuitem>.</paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id381693665134720">Choose <menuitem>Insert - Insert Row Above</menuitem>.</paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id501693665887523">Choose <menuitem>Table - Insert Rows Above</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id191693665909021">Choose <menuitem>Home - Insert Rows Above</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id991693665913844">Choose <menuitem>Layout - Row - Insert Rows Above</menuitem>.</paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id631693666024919">Choose <menuitem>Table - Insert Row Above.</menuitem></paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+       <section id="icon_insert_row_above">
+            <table id="tab_id51693666125575">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id521693666125576" role="paragraph"><image src="cmd/lc_insertrowsbefore.svg" id="img_id951693666125577" width="1cm"  height="1cm"><alt id="alt_id131693666125578">Icon Insert Rows Above</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id51693666125580" role="paragraph">Insert Rows Above</paragraph>
+            </tablecell>
+        </tablerow>
+        </table>
+    </section>
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+            <paragraph role="paragraph" id="par_id531693666407473">Choose <menuitem>Properties - Table - Insert Rows Above</menuitem>.</paragraph>
+        </case>
+    </switch>
+</section>
+<section id="insert_columns_before">
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id741693670642142">Choose <menuitem>Table - Insert - Columns Before</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id91693670645006">Choose <menuitem>Sheet - Insert Columns - Columns Before</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id491702133119921">Choose <menuitem>Sheet - Insert Cells - Entire column</menuitem>.</paragraph>
+        </case>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_context"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id501693670647869">Choose <menuitem>Insert - Columns Before</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id391693670651093">Select one or more columns, choose <menuitem>Insert Columns Before</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id241702133110586">Select one or more cells, choose <menuitem>Insert - Entire column</menuitem>.</paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id781693670653910">Choose <menuitem>Insert - Insert Column Before</menuitem>.</paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id911693670657174">Choose <menuitem>Table - Insert Columns Before</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id531693670660167">Choose <menuitem>Home - Insert Columns Before</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id91693670662902">Choose <menuitem>Layout - Column - Insert Columns Before</menuitem>.</paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id481693670666862">Choose <menuitem>Table - Insert Column Before</menuitem>.</paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+        <section id="icon_insert_column_before">
+        <table id="tab_id51693666125575">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id821693670669999" role="paragraph"><image src="cmd/lc_insertcolumnsbefore.svg" id="img_id951693666325577" width="1cm"  height="1cm"><alt id="alt_id131693666425578">Icon Insert Columns Before</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id961693670681629" role="paragraph">Insert Column Before</paragraph>
+            </tablecell>
+        </tablerow>
+        </table>
+        </section>
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+            <paragraph role="paragraph" id="par_id351693670685870">Choose <menuitem>Properties - Table - Insert Columns Before</menuitem>.</paragraph>
+        </case>
+    </switch>
+</section>
+<section id="insert_rows_after">
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id371693666896646">Choose <menuitem>Table - Insert - Rows Below</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id141693666899390">Choose <menuitem>Sheet - Insert Rows - Rows Below</menuitem>.</paragraph>
+        </case>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_context"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id571693666903007">Choose <menuitem>Insert - Rows Below</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id41693666905575">Select one or more rows, choose <menuitem>Insert Rows Below</menuitem>.</paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id691693666908487">Choose <menuitem>Insert - Insert Row Below</menuitem>.</paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id701693666911783">Choose <menuitem>Table - Insert Rows Below</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id161693666914474">Choose <menuitem>Home - Insert Rows Below</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id1001693666917119">Choose <menuitem>Layout - Row - Insert Rows Below</menuitem>.</paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id11693666920455">Choose <menuitem>Table - Insert Row Below.</menuitem></paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="icon_insert_row_below">
+    <table id="tab_id51693666125575">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id61693666923256" role="paragraph"><image src="cmd/lc_insertrowsafter.svg" id="img_id951693666125577" width="1cm"  height="1cm"><alt id="alt_id131793666125578">Icon Insert Rows Below</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id881693666935094" role="paragraph">Insert Rows Below</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+    </section>
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+            <paragraph role="paragraph" id="par_id891693666938552">Choose <menuitem>Properties - Table - Insert Rows Below</menuitem>.</paragraph>
+        </case>
+    </switch>
+</section>
+<section id="insert_columns_after">
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id31693670367399">Choose <menuitem>Table - Insert - Columns After</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id171693670370502">Choose <menuitem>Sheet - Insert Columns - Columns After</menuitem>.</paragraph>
+        </case>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_context"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id371693670373535">Choose <menuitem>Insert - Columns After</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id991693670376279">Select one or more columns, choose <menuitem>Insert Columns After</menuitem>.</paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id681693670379023">Choose <menuitem>Insert - Insert Column After</menuitem>.</paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id491693670381967">Choose <menuitem>Table - Insert Columns After</menuitem>.</paragraph>
+        </case>
+        <case select="CALC">
+            <paragraph role="paragraph" id="par_id801693670386399">Choose <menuitem>Home - Insert Columns After</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id791693670392295">Choose <menuitem>Layout - Column - Insert Columns After</menuitem>.</paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id721693670396271">Choose <menuitem>Table - Insert Column After.</menuitem></paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="icon_insert_column_after">
+        <table id="tab_id51693666125545">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id411693670408184" role="paragraph"><image src="cmd/lc_insertcolumnsafter.svg" id="img_id951693666125577" width="1cm"  height="1cm"><alt id="alt_id131293666125578">Icon Insert Columns After</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id471693670416847" role="paragraph">Insert Columns After</paragraph>
+            </tablecell>
+        </tablerow>
+        </table>
+    </section>
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+            <paragraph role="paragraph" id="par_id431693670421943">Choose <menuitem>Properties - Table - Insert Columns After</menuitem>.</paragraph>
+        </case>
+    </switch>
+</section>
+
+<section id="annotation">
+    <switch select="appl">
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id3153808"><variable id="notiz">Choose <menuitem>Insert - Comment</menuitem>.</variable></paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id841689472443824">Choose <menuitem>Review - Insert Comment</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id11689501613616">Choose <menuitem>Home - Insert Comment</menuitem>.</paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_context"/>
+            <paragraph role="paragraph" id="par_id211689472213113" localize="false"><embedvar href="text/shared/00/00000404.xhp#notiz" markup="keep"/></paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+            <paragraph role="paragraph" id="par_id3253808"><variable id="notizkbd"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode>+<keycode>Option</keycode></caseinline><defaultinline><keycode>Ctrl</keycode> + <keycode>Alt</keycode></defaultinline></switchinline> + <keycode>C</keycode>.</variable></paragraph>
+        </case>
+        <case select="CALC">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id371702933232002">On a cell with no comment, choose <menuitem>Insert - Comment</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id311702929340458">On a cell with existing comment, choose <menuitem>Sheet - Cell Comments - Edit Comment</menuitem>.</paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id901702953197565">On a cell with no comment, choose <menuitem>Review - Comment</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id431702929426265">On a cell with existing comment, choose <menuitem>Review - Edit Comment</menuitem>.</paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_context"/>
+            <paragraph role="paragraph" id="par_id671702933301253">On a cell with existing comment, choose <menuitem>Edit Comment</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id21702933306128">On a cell with no comment, choose <menuitem>Insert Comment</menuitem>.</paragraph>
+            <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+            <paragraph role="paragraph" id="par_id731702933940903">To insert a comment in a cell: <switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode>+<keycode>Option</keycode></caseinline><defaultinline><keycode>Ctrl</keycode> + <keycode>Alt</keycode></defaultinline></switchinline> + <keycode>M</keycode>.</paragraph>
+            <paragraph role="paragraph" id="par_id351702934106068">To edit a comment in a cell: <switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode>+<keycode>Option</keycode></caseinline><defaultinline><keycode>Ctrl</keycode> + <keycode>Alt</keycode></defaultinline></switchinline> + <keycode>C</keycode>.</paragraph>
+        </case>
+        <case select="IMPRESS">
+        </case>
+        <case select="DRAW">
+        </case>
+        <default>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <switch select="appl">
+        <case select="CALC">
+            <table id="tab_id21702935879037">
+                <tablerow>
+                    <tablecell>
+                        <paragraph id="par_id561702935879038" role="paragraph"><image src="cmd/lc_editannotation.svg" id="img_id381702935879039" width="1cm"  height="1cm"><alt id="alt_id261702935879040">Icon Edit Comment</alt></image></paragraph>
+                    </tablecell>
+                    <tablecell>
+                        <paragraph id="par_id471702935879042" role="paragraph">Edit Comment</paragraph>
+                    </tablecell>
+                </tablerow>
+            </table>
+        </case>
+    </switch>
+    <table id="tab_id701689471839958">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id131689471839959" role="paragraph"><image src="cmd/lc_shownote.svg" id="img_id531689471839960" width="1cm" height="1cm"><alt id="alt_id211689471839961">Icon Insert Comment</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id191689471839963" role="paragraph">Insert Comment</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="scan">
+<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+<paragraph role="paragraph" id="par_id3155619">Choose <menuitem>Insert - Media - Scan</menuitem>.</paragraph>
+</section>
+
+<section id="source">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3150502">Choose <menuitem>Insert - Media - Scan - Select Source</menuitem>.</paragraph>
+    <switch select="appl">
+        <case select="CALC"/>
+        <case select="MATH"/>
+        <case select="BASE"/>
+        <default>
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id221687380259939">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Select Source</menuitem>. </paragraph>
+        </default>
+    </switch>
+</section>
+
+<section id="request">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3155934">Choose <menuitem>Insert - Media - Scan - Request</menuitem>.</paragraph>
+</section>
+
+<section id="special_char">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3143281">Choose <menuitem>Insert - Special Character</menuitem>.</paragraph>
+    <switch select="appl">
+        <case select="DRAW">
+            <paragraph role="paragraph" id="par_id541689714752335">Choose <menuitem>Format - Bullets and Numbering - Customize - Character</menuitem> button</paragraph>
+        </case>
+        <case select="IMPRESS">
+            <paragraph role="paragraph" id="par_id791689714758450">Choose <menuitem>Format - Bullets and Numbering - Customize - Character</menuitem> button</paragraph>
+        </case>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id281689714155381">Choose <menuitem>Home - Insert Special Characters</menuitem>.</paragraph>
+        </case>
+    </switch>
+    <paragraph role="paragraph" id="par_id261689714170093">Choose <menuitem>Insert - Symbol</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syspecial_char">
+        <table id="tbl_id3149388">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3153527">
+                        <image id="img_id3153748" src="cmd/lc_insertsymbol.svg" width="1cm" height="1cm"><alt id="alt_id3153748">Icon Special character</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3149751">Special Character</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+</section>
+
+<section id="moviesound">
+    <switch select="appl">
+        <case select="MATH"/>
+        <case select="BASE"/>
+        <case select="IMPRESS">
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_id861687390607136">Choose <menuitem>Insert - Audio or Video.</menuitem></paragraph>
+        </case>
+        <default>
+            <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+            <paragraph role="paragraph" id="par_idN107CD">Choose <menuitem>Insert - Media - Audio or Video</menuitem>.</paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id861687390321085">Choose <menuitem>Insert - Media</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="symoviesound">
+        <table id="tab_id711687390399223">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id641687390399224" role="paragraph"><image src="cmd/lc_avmediaplayer.svg" id="img_id231687390399225" width="1cm"  height="1cm"><alt id="alt_id901687390399226">Icon Media</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id381687390399228" role="paragraph">Media / Audio or Video</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+</section>
+
+<section id="insert_objects">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3147242">Choose <menuitem>Insert - OLE Object</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id261687440040872">Choose <menuitem>Insert - Insert OLE Object</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id591687440102731">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id151687440102732" role="paragraph"><image src="cmd/lc_insertobject.svg" id="img_id151687440102733" width="1cm" height="1cm"><alt id="alt_id251687440102734">Icon Insert OLE Object</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id411687440102736" role="paragraph">Insert OLE Object</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+
+<section id="ole_object">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3152996">Choose <menuitem>Insert - OLE Object - OLE Object</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id261697440040872">Choose <menuitem>Insert - Insert OLE Object</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syole">
+        <table id="tbl_id3153348">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3150254">
+                        <image id="img_id3156305" src="cmd/lc_insertobject.svg" width="1cm" height="1cm"><alt id="alt_id3156305">Icon OLE object</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3145417">OLE Object</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+</section>
+
+<section id="qrcode">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id761566316165430">Choose <menuitem>Insert - OLE Object - QR and Barcode</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id51687443038152">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>QR and Barcode</menuitem>.</paragraph>
+</section>
+
+<section id="math">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3150393"><variable id="insert_formula">Choose <menuitem>Insert - OLE Object - Formula Object</menuitem>.</variable></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id761687440588022">Choose <menuitem>Insert - Formula Object</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="systarmath">
+        <table id="tab_id901687440647192">
+            <tablerow>
+                <tablecell>
+                    <paragraph id="par_id951687440647194" role="paragraph"><image src="cmd/lc_insertmath.svg" id="img_id91687440647195" width="1cm"  height="1cm"><alt id="alt_id61687440647196">Icon Insert Formula Object</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph id="par_id301687440647198" role="paragraph">Insert Formula Object</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id191687440753064"><switchinline select="sys"><caseinline select="MAC"><keycode>Option</keycode></caseinline><defaultinline><keycode>Alt</keycode></defaultinline></switchinline><keycode> + Shift + E</keycode></paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3153144">Choose <emph>Format - Chart Type</emph>.</paragraph>
+<paragraph role="paragraph" id="par_id3147578">Choose <menuitem>Insert - Chart </menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id3154011">Choose <emph>Format - Chart Type</emph>.</paragraph>
+<paragraph role="paragraph" id="par_id3153573">Choose <menuitem>Insert Chart</menuitem>.</paragraph>
+<paragraph role="paragraph" id="par_id3159179">Choose <emph>Format - Chart Type</emph>.</paragraph>
+<paragraph role="paragraph" id="par_id3159196">Choose <menuitem>Insert - Chart</menuitem>.</paragraph>
+
+<section id="chart">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id391687290602711">Choose <menuitem>Insert - Chart</menuitem>.</paragraph>
+    <switch select="appl">
+        <case select="BASE"/>
+        <case select="MATH"/>
+        <case select="DRAW">
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id481687292947011"><menuitem>Home - Insert Chart</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id611687292960477"><menuitem>Insert - Chart</menuitem>.</paragraph>
+        </case>
+        <default>
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id21687293634109"><menuitem>Insert - Chart</menuitem>.</paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="systarchart">
+        <table id="tbl_id3147441">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3156005">
+                        <image id="img_id3153739" src="cmd/lc_drawchart.svg" width="1cm" height="1cm"><alt id="alt_id3153739">Icon Chart</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3145749">Chart</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+</section>
+
+<section id="image">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id3155513">Choose <menuitem>Insert - Image</menuitem>.</paragraph>
+    <switch select="appl">
+        <case select="MATH"/>
+        <case select="BASE"/>
+        <case select="WRITER">
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id641687288060105">Choose <menuitem>Home - Image</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id611687288063905">Choose <menuitem>Insert - Insert Image</menuitem>.</paragraph>
+        </case>
+        <case select="DRAW">
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id741687288060105">Choose <menuitem>Home - Insert Image</menuitem>.</paragraph>
+            <paragraph role="paragraph" id="par_id811687288063905">Choose <menuitem>Insert - Image</menuitem>.</paragraph>
+        </case>
+        <default>
+            <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+            <paragraph role="paragraph" id="par_id421687288040247">Choose <menuitem>Insert - Image</menuitem>.</paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syimage">
+        <table id="tbl_id3150032">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3145594"><image id="img_id3144764" src="cmd/lc_insertgraphic.svg" width="1cm" height="1cm"><alt id="alt_id3144764">Icon Image</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_id3149960">Image</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+</section>
+
+<section id="floatingframe">
+<switch select="appl">
+<case select="WRITER">
+<paragraph role="paragraph" id="par_id671614345792991">Choose <menuitem>Insert - Frame - Floating Frame</menuitem></paragraph>
+</case>
+<default>
+<paragraph role="paragraph" id="par_id3150037">Choose <emph>Insert - Floating Frame</emph>.</paragraph>
+</default>
+</switch>
+<paragraph role="paragraph" id="par_id3083281">On the <emph>Insert</emph> bar, click</paragraph>
+<section id="syframe">
+<table id="tbl_id3153743">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3168607">
+<image id="img_id3147482" src="cmd/lc_insertobjectfloatingframe.svg" width="1cm" height="1cm"><alt id="alt_id3147482">Icon Floating frame</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3148588">Floating Frame</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+</section>
+<paragraph role="paragraph" id="par_id3150396"><variable id="filterauswahl">Open a file of a type that is unknown to %PRODUCTNAME and that is no text file.</variable></paragraph>
+
+<section id="insertmenufontwork">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id521577299133097">Choose <menuitem>Insert - Fontwork</menuitem></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <switch select="appl">
+        <case select="CALC"/>
+        <case select="BASE"/>
+        <case select="MATH"/>
+        <default>
+            <paragraph role="paragraph" id="par_id991689505094763">Choose <menuitem>Insert - Insert Fontwork</menuitem>.</paragraph>
+        </default>
+    </switch>
+    <paragraph role="paragraph" id="par_id551689505106097">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Fontwork</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="syfontworkgallery">
+        <table id="tbl_id14038">
+            <tablerow>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_idN10DDC">
+                        <image id="Graphic2" src="cmd/lc_fontworkgalleryfloater.svg" width="1cm" height="1cm"><alt id="alt_fontwork">Icon Fontwork</alt></image></paragraph>
+                </tablecell>
+                <tablecell>
+                    <paragraph role="paragraph" id="par_idN10DD1">Fontwork Gallery</paragraph>
+                </tablecell>
+            </tablerow>
+        </table>
+    </section>
+</section>
+<section id="sybasicshapes">
+<table id="">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10EA9">
+<image id="Graphic3" src="cmd/lc_basicshapes.diamond.svg" width="1cm" height="1cm"><alt id="alt_basicshapes">Icon Basic shapes</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10ED8">Basic Shapes</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+<section id="sysymbolshapes">
+<table id="">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10EEE">
+<image id="Graphic4" src="cmd/lc_symbolshapes.svg" width="1cm" height="1cm"><alt id="alt_symbolshapes">Icon Symbol Shapes</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10F1D">Symbol Shapes</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+<section id="syblockarrows">
+<table id="">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10F33">
+<image id="Graphic41" src="cmd/lc_arrowshapes.svg" width="1cm" height="1cm"><alt id="alt_blockarrows">Icon Block arrows</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10F62">Block Arrows</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+<section id="syflowcharts">
+<table id="">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10F78">
+<image id="Graphic5" src="cmd/lc_flowchartshapes.svg" width="1cm" height="1cm"><alt id="alt_flowcharts">Icon Flowcharts</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10FA7">Flowcharts</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+<section id="sycallouts">
+<table id="">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10FBD">
+<image id="Graphic6" src="cmd/lc_calloutshapes.svg" width="1cm" height="1cm"><alt id="alt_callouts">Icon Callouts</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_idN10FEC">Callouts</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+<section id="systars">
+<table id="">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_idN11002">
+<image id="Graphic7" src="cmd/lc_starshapes.svg" width="1cm" height="1cm"><alt id="alt_stars">Icon Stars</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_idN11031">Stars</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+<section id="signatureline">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph role="paragraph" id="par_id81526422144005">Choose <menuitem>Insert - Signature Line</menuitem></paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id181690028131825">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Signature Line</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id231690028186655">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id661690028186656" role="paragraph"><image src="cmd/lc_signaturelinedialog.svg" id="img_id911690028186657" width="1cm"  height="1cm"><alt id="alt_id951690028186659">Icon Insert Signature Line</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id371690028186660" role="paragraph">Insert Signature Line</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+<section id="insertauthor">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id171726519211615">Choose <menuitem>Insert - Field - First Author</menuitem></paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id981726519216208">Choose <menuitem>Insert - Field - Author</menuitem></paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <switch select="appl">
+        <case select="WRITER">
+            <paragraph role="paragraph" id="par_id711726519940155">Choose <menuitem>Insert - Field - First Author</menuitem></paragraph>
+        </case>
+        <default>
+            <paragraph role="paragraph" id="par_id821726519943521">Choose <menuitem>Insert - Field - Author</menuitem></paragraph>
+        </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <table id="tab_id581726519783330">
+        <tablerow>
+            <tablecell>
+                <paragraph id="par_id581726519783331" role="paragraph"><image src="cmd/lc_dbviewaliases.svg" id="img_id111726519783332" width="1cm"  height="1cm"><alt id="alt_id941726519783333">Icon Insert Author</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+                <paragraph id="par_id21726519783335" role="paragraph">Insert Author</paragraph>
+            </tablecell>
+        </tablerow>
+    </table>
+</section>
+</body>
+</helpdocument>

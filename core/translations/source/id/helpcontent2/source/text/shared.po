@@ -1,0 +1,2681 @@
+#. extracted from helpcontent2/source/text/shared
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-09-18 11:33+0200\n"
+"PO-Revision-Date: 2026-05-07 09:31+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <https://translations.documentfoundation.org/projects/libo_help-master/textshared/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1547223729.000000\n"
+
+#. zRW8E
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"tit\n"
+"help.text"
+msgid "View"
+msgstr "Tilik"
+
+#. Xhrhi
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3147233\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main0103.xhp\">View</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/main0103.xhp\">Tilik</link></variable>"
+
+#. VjZcs
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id3147249\n"
+"help.text"
+msgid "<ahelp hid=\".\">This menu contains commands to control the on-screen display of the document, change the user interface and access the sidebar panels.</ahelp>"
+msgstr "<ahelp hid=\".\">Menu ini memuat perintah untuk mengendalikan tampilan dokumen pada layar, mengubah antar muka pengguna, dan mengakses panel bilah sisi.</ahelp>"
+
+#. KqRGM
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3147265\n"
+"help.text"
+msgid "<link href=\"text/shared/01/03010000.xhp\">Zoom</link>"
+msgstr "<link href=\"text/shared/01/03010000.xhp\">Zum</link>"
+
+#. 95G2n
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720150908397549\n"
+"help.text"
+msgid "<link href=\"text/shared/01/gallery.xhp\">Gallery</link>"
+msgstr "<link href=\"text/shared/01/gallery.xhp\">Galeri</link>"
+
+#. sbbhw
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id110120150549176280\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/03120000.xhp\">Handout</link>"
+msgstr ""
+
+#. wa6UF
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151244263489\n"
+"help.text"
+msgid "Object Moving Helplines"
+msgstr "Garis Bantu Gerak Objek"
+
+#. wgqff
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151246522815\n"
+"help.text"
+msgid "Comments"
+msgstr "Komentar"
+
+#. AHrm9
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id102720150112252443\n"
+"help.text"
+msgid "Show or hide a presentation's annotations."
+msgstr "Tampilkan atau sembunyikan anotasi presentasi."
+
+#. KxCDt
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151246523444\n"
+"help.text"
+msgid "Master Background"
+msgstr "Latar Belakang Induk"
+
+#. DXFhq
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id102720150112257941\n"
+"help.text"
+msgid "Toggle the visibility of a master slide's background to be used as the background of the current slide."
+msgstr "Menjungkitkan kenampakan latar belakang induk salindia yang dipakai sebagai latar belakang salindia saat ini."
+
+#. zrUk5
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151246521837\n"
+"help.text"
+msgid "Master Objects"
+msgstr "Objek Induk"
+
+#. pXaYF
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id102720150112256473\n"
+"help.text"
+msgid "Toggle the visibility of a master slide's objects to appear on the current slide."
+msgstr "Menjungkitkan kenampakan objek-objek induk salindia pada salindia saat ini."
+
+#. izgDw
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id61725310664343\n"
+"help.text"
+msgid "<link href=\"text/shared/01/gallery.xhp\">Clip Art Gallery</link>"
+msgstr "<link href=\"text/shared/01/gallery.xhp\">Galeri Seni Klip</link>"
+
+#. dCeyT
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3149121\n"
+"help.text"
+msgid "<link href=\"text/shared/01/03010000.xhp\">Zoom</link>"
+msgstr "<link href=\"text/shared/01/03010000.xhp\">Zum</link>"
+
+#. X7bcB
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_idN105AB\n"
+"help.text"
+msgid "Normal"
+msgstr "Normal"
+
+#. cEdVL
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_idN105AF\n"
+"help.text"
+msgid "Switch to normal view of the page."
+msgstr "Beralih ke tampilan normal halaman."
+
+#. ncfYE
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_idN105B2\n"
+"help.text"
+msgid "Master"
+msgstr "Induk"
+
+#. eSnQZ
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_idN105B6\n"
+"help.text"
+msgid "Switch to the master view."
+msgstr "Beralhi ke tampilan induk."
+
+#. fVFKG
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id221605492986383\n"
+"help.text"
+msgid "<link href=\"text/shared/01/notebook_bar.xhp\">User Interface</link>"
+msgstr "<link href=\"text/shared/01/notebook_bar.xhp\">Antarmuka Pengguna</link>"
+
+#. tYxbF
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id761605493042236\n"
+"help.text"
+msgid "Opens dialog box for selecting layout of user interface."
+msgstr "Membuka kotak dialog untuk memilih tata letak antarmuka pengguna."
+
+#. JChXS
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id102720151746522815\n"
+"help.text"
+msgid "Comments"
+msgstr "Komentar"
+
+#. XjZkS
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id102720150112252143\n"
+"help.text"
+msgid "Show or hide annotations on the page."
+msgstr "Menampilkan atau menyembunyikan anotasi pada halaman."
+
+#. Y3uKu
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id961605560845125\n"
+"help.text"
+msgid "Shift"
+msgstr "Geser"
+
+#. 3Eaeo
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"par_id301605560855098\n"
+"help.text"
+msgid "Use to shift the position of the page in the window. When enabled, the appearance of the mouse pointer changes. Click the page and drag to desired position."
+msgstr "Dipakai untuk menggeser posisi halama dalam jendela. Ketika difungsikan, penampilan dari penunjuk tetikus berubah. Klik halaman dan seret ke posisi yang diinginkan."
+
+#. DifEy
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3149666\n"
+"help.text"
+msgid "<link href=\"text/shared/01/03010000.xhp\">Zoom</link>"
+msgstr "<link href=\"text/shared/01/03010000.xhp\">Zum</link>"
+
+#. 4C4gL
+#: main0103.xhp
+msgctxt ""
+"main0103.xhp\n"
+"hd_id3150205\n"
+"help.text"
+msgid "<link href=\"text/shared/01/03010000.xhp\">Zoom</link>"
+msgstr "<link href=\"text/shared/01/03010000.xhp\">Zum</link>"
+
+#. Dp7mC
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"tit\n"
+"help.text"
+msgid "Insert"
+msgstr "Sisip"
+
+#. kGJYv
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3155341\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main0104.xhp\">Insert</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/main0104.xhp\">Sisip</link></variable>"
+
+#. 6TVAk
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id3155358\n"
+"help.text"
+msgid "<ahelp hid=\".\">The Insert menu contains commands for inserting new elements in your document. This includes images, media, charts, objects from other applications, hyperlinks, comments, symbols, footnotes, and sections.</ahelp>"
+msgstr "<ahelp hid=\".\">Menu Sisip memuat perintah untuk menyisipkan elemen-elemen baru dalam dokumen Anda. Ini termasuk citra, media, bagan, objek dari aplikasi lain, taut luar, komentar, simbol, catatan kaki, dan seksi.</ahelp>"
+
+#. paR8F
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id030420160850525240\n"
+"help.text"
+msgid "Page Break"
+msgstr "Putus Halaman"
+
+#. 8z5Gv
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id030420160850533104\n"
+"help.text"
+msgid "<ahelp hid=\".uno:InsertPagebreak\">Inserts a manual page break at the current cursor position and places the cursor at the beginning of the next page.</ahelp>"
+msgstr "<ahelp hid=\".uno:InsertPagebreak\">Menyisipkan pemutus halaman manual pada posisi kursor saat ini dan menempatkan kursor di awal halaman selanjutnya.</ahelp>"
+
+#. Bj8mG
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3147788\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04020000.xhp\">Section</link>"
+msgstr "<link href=\"text/swriter/01/04020000.xhp\">Seksi</link>"
+
+#. f3j54
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3149428\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04190000.xhp\">Text from File</link>"
+msgstr "<link href=\"text/swriter/01/04190000.xhp\">Teks dari Berkas</link>"
+
+#. GFNXQ
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3147281\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04040000.xhp\">Bookmark</link>"
+msgstr "<link href=\"text/swriter/01/04040000.xhp\">Markah</link>"
+
+#. Bed3E
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id030420161125315689\n"
+"help.text"
+msgid "Horizontal Line"
+msgstr "Garis Horizontal"
+
+#. 7pGUa
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id030420161125315647\n"
+"help.text"
+msgid "Inserts a horizontal line at the current cursor position."
+msgstr "Menyisipkan garis horizontal pada posisi kursor saat ini."
+
+#. N6J2x
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3149865\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/04070000.xhp\">Envelope</link>"
+msgstr "<link href=\"text/swriter/01/04070000.xhp\">Amplop</link>"
+
+#. 2stQM
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3146918\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Bagan</link>"
+
+#. QKdUC
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id0302200904002496\n"
+"help.text"
+msgid "Inserts a chart."
+msgstr "Menyisipkan bagan."
+
+#. YqHfD
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3147003\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04160500.xhp\">Floating Frame</link>"
+msgstr "<link href=\"text/shared/01/04160500.xhp\">Bingkai Mengambang</link>"
+
+#. mSQgW
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3156285\n"
+"help.text"
+msgid "<link href=\"text/shared/02/09070000.xhp\">Hyperlink</link>"
+msgstr "<link href=\"text/shared/02/09070000.xhp\">Pranala</link>"
+
+#. XNGME
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3163726\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04100000.xhp\">Special Character</link>"
+msgstr "<link href=\"text/shared/01/04100000.xhp\">Karakter Khusus</link>"
+
+#. JdPCK
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_idN105C7\n"
+"help.text"
+msgid "Slide Number"
+msgstr "Nomor Salindia"
+
+#. qfU4b
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_idN10609\n"
+"help.text"
+msgid "Adds the slide number."
+msgstr "Menambahkan nomor salindia."
+
+#. VK4Bx
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3156918\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Bagan</link>"
+
+#. PF63q
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id271725376992806\n"
+"help.text"
+msgid "Inserts a chart."
+msgstr "Menyisipkan bagan."
+
+#. 9XtSB
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id3152285\n"
+"help.text"
+msgid "<link href=\"text/shared/02/09070000.xhp\">Hyperlink</link>"
+msgstr "<link href=\"text/shared/02/09070000.xhp\">Pranala</link>"
+
+#. pjnna
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"hd_id581725377282403\n"
+"help.text"
+msgid "<link href=\"text/shared/01/04100000.xhp\">Special Character</link>"
+msgstr "<link href=\"text/shared/01/04100000.xhp\">Karakter Khusus</link>"
+
+#. 2wK8f
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id291725377274115\n"
+"help.text"
+msgid "Page Number"
+msgstr "Nomor Halaman"
+
+#. xTBsj
+#: main0104.xhp
+msgctxt ""
+"main0104.xhp\n"
+"par_id281725377270013\n"
+"help.text"
+msgid "Adds the page number."
+msgstr "Menambahkan nomor halaman."
+
+#. KRfJh
+#: main0107.xhp
+msgctxt ""
+"main0107.xhp\n"
+"tit\n"
+"help.text"
+msgid "Window"
+msgstr "Jendela"
+
+#. GKfCv
+#: main0107.xhp
+msgctxt ""
+"main0107.xhp\n"
+"hd_id3153770\n"
+"help.text"
+msgid "<link href=\"text/shared/main0107.xhp\">Window</link>"
+msgstr "<link href=\"text/shared/main0107.xhp\">Jendela</link>"
+
+#. kPAHW
+#: main0107.xhp
+msgctxt ""
+"main0107.xhp\n"
+"par_id3147435\n"
+"help.text"
+msgid "<ahelp hid=\".uno:WindowList\">Contains commands for manipulating and displaying document windows.</ahelp>"
+msgstr "<ahelp hid=\".uno:WindowList\">Memuat perintah untuk memanipulasi dan menampilkan jendela dokumen.</ahelp>"
+
+#. yEKhT
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"tit\n"
+"help.text"
+msgid "Help"
+msgstr "Bantuan"
+
+#. xvsDi
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id3155364\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main0108.xhp#help\">Help</link></variable>"
+msgstr "<variable id=\"h1\"><link href=\"text/shared/main0108.xhp#help\">Bantuan</link></variable>"
+
+#. 2BAjw
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id3153990\n"
+"help.text"
+msgid "<ahelp hid=\".uno:HelpMenu\">The Help menu allows you to start and control the $[officename] Help system.</ahelp>"
+msgstr "<ahelp hid=\".uno:HelpMenu\">Dengan menu Bantuan, Anda bisa memulai serta mengendalikan sistem Bantuan $[officename].</ahelp>"
+
+#. qpCaX
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id3147399\n"
+"help.text"
+msgid "$[officename] Help"
+msgstr "Bantuan $[officename]"
+
+#. Bm7BG
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id3147576\n"
+"help.text"
+msgid "<ahelp hid=\".uno:HelpIndex\">Opens the main page of the $[officename] Help for the current application.</ahelp> You can scroll through the Help pages and you can search for index terms or any text."
+msgstr "<ahelp hid=\".uno:HelpIndex\">Membuka halaman utama dari Bantuan $[officename] untuk aplikasi terkait.</ahelp> Anda bisa menjelajahi halaman Bantuan tersebut serta mencari indeks atau kata yang diinginkan."
+
+#. gE5WX
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_idN1064A\n"
+"help.text"
+msgid "<image id=\"img_id1619006\" src=\"cmd/lc_helpindex.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id1619006\">Icon Help</alt></image>"
+msgstr "<image id=\"img_id1619006\" src=\"cmd/lc_helpindex.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id1619006\">Ikon Bantuan</alt></image>"
+
+#. iPjUH
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_idN10667\n"
+"help.text"
+msgid "%PRODUCTNAME Help"
+msgstr "Bantuan %PRODUCTNAME"
+
+#. bhHQM
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id230120170827187813\n"
+"help.text"
+msgid "User Guides"
+msgstr "Panduan Pengguna"
+
+#. iGDAE
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id230120170827189453\n"
+"help.text"
+msgid "<ahelp hid=\".uno:Documentation\">Opens the documentation page in the web browser, where users can download, read or purchase %PRODUCTNAME user guides, written by the community.</ahelp>"
+msgstr "<ahelp hid=\".uno:Documentation\">Membuka halaman dokumentasi dalam peramban web, dimana pengguna dapat mengunduh, membaca, atau membeli panduan pengguna %PRODUCTNAME, yang ditulis oleh komunitas.</ahelp>"
+
+#. APWDa
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id230120170827196253\n"
+"help.text"
+msgid "Get Help Online"
+msgstr "Dapatkan Bantuan Daring"
+
+#. bRvuD
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id230120170827196850\n"
+"help.text"
+msgid "<ahelp hid=\".uno:QuestionAnswers\">Opens the community support page in the web browser.</ahelp> Use this page to ask questions on using %PRODUCTNAME. For professional support with service level agreement, refer to the <link href=\"https://www.documentfoundation.org/gethelp/support/\"><emph>page of professional %PRODUCTNAME support</emph></link>."
+msgstr "<ahelp hid=\".uno:QuestionAnswers\">Buka halaman dukungan komunitas di peramban web.</ahelp> Gunakan halaman ini untuk mengajukan pertanyaan tentang penggunaan %PRODUCTNAME. Untuk dukungan profesional dengan perjanjian tingkat layanan, lihatlah <link href=\"https://www.documentfoundation.org/gethelp/support/\"><emph>halaman dukungan %PRODUCTNAME profesional</emph></link>."
+
+#. mTBuv
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id2752763\n"
+"help.text"
+msgid "Send Feedback"
+msgstr "Kirim Saran"
+
+#. BSzm2
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id443534340\n"
+"help.text"
+msgid "<ahelp hid=\".uno:SendFeedback\">Opens a feedback form in the web browser, where users can report software bugs.</ahelp>"
+msgstr "<ahelp hid=\".uno:SendFeedback\">Buka suatu formulir saran dalam peramban web, dimana pengguna dapat melaporkan kutu perangkat lunak.</ahelp>"
+
+#. 4BvDS
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id561629934889067\n"
+"help.text"
+msgid "Get Involved"
+msgstr "Ikut Terlibat"
+
+#. B4y6k
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id501629934998665\n"
+"help.text"
+msgid "Opens the <link href=\"https://www.libreoffice.org/community/get-involved/\">community Get Involved page</link> in the web browser. The page describe areas of interest where you can collaborate with the %PRODUCTNAME community."
+msgstr ""
+
+#. YrMYp
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id431629934866702\n"
+"help.text"
+msgid "Donate to %PRODUCTNAME"
+msgstr ""
+
+#. xoFgE
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id691629934873388\n"
+"help.text"
+msgid "%PRODUCTNAME is Free Software and is made available free of charge."
+msgstr ""
+
+#. GAMwn
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id651629934878405\n"
+"help.text"
+msgid "Your donation, which is purely optional, supports our worldwide community."
+msgstr ""
+
+#. vDfYC
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id611629934882669\n"
+"help.text"
+msgid "If you like the software, <link href=\"https://www.libreoffice.org/donate/\">please consider a donation</link>."
+msgstr ""
+
+#. sWFkG
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id4153881\n"
+"help.text"
+msgid "License Information"
+msgstr "Informasi Lisensi"
+
+#. NagBg
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id4144510\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ShowLicense\">Displays the <emph>Licensing and Legal information</emph> dialog.</ahelp>"
+msgstr "<ahelp hid=\".uno:ShowLicense\">Tampilkan dialog <emph>informasi Perizinan dan Hukum</emph>.</ahelp>"
+
+#. hzz6B
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id5153881\n"
+"help.text"
+msgid "%PRODUCTNAME Credits"
+msgstr "Kredit %PRODUCTNAME"
+
+#. 26xSB
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id5144510\n"
+"help.text"
+msgid "<ahelp hid=\".uno:ShowLicense\">Displays the <emph>CREDITS.odt</emph> document which lists the names of individuals who have contributed to OpenOffice.org source code (and whose contributions were imported into %PRODUCTNAME) or %PRODUCTNAME since 2010-09-28.</ahelp>"
+msgstr ""
+
+#. F8BFu
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id2926419\n"
+"help.text"
+msgid "<link href=\"text/shared/01/online_update.xhp\">Check for Updates</link>"
+msgstr "<link href=\"text/shared/01/online_update.xhp\">Periksa Pemutakhiran</link>"
+
+#. XejZc
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id2783898\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enable an Internet connection for %PRODUCTNAME. If you need a Proxy, check the %PRODUCTNAME Proxy settings in <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - Internet</emph>. Then choose <emph>Check for Updates</emph> to check for the availability of a newer version of your office suite.</ahelp>"
+msgstr "<ahelp hid=\".\">Aktifkan koneksi Internet untuk %PRODUCTNAME. Jika anda memerlukan Proksi, periksa pengaturan Proksi %PRODUCTNAME pada <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferensi</emph></caseinline><defaultinline><emph>Perkakas - Opsi</emph></defaultinline></switchinline><emph> - Internet</emph>. Kemudian pilih <emph>Periksa Pemutakhiran</emph> untuk memeriksa ketersedian versi yang lebih baru dari aplikasi perkantoran Anda.</ahelp>"
+
+#. JCKb7
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"hd_id3153881\n"
+"help.text"
+msgid "About $[officename]"
+msgstr "Tentang $[officename]"
+
+#. nSkgE
+#: main0108.xhp
+msgctxt ""
+"main0108.xhp\n"
+"par_id3144510\n"
+"help.text"
+msgid "<ahelp hid=\".uno:About\">Displays general program information such as version number and copyrights.</ahelp>"
+msgstr "<ahelp hid=\".uno:About\">Menampilkan informasi umum mengenai program, seperti nomor versi dan hak cipta.</ahelp>"
+
+#. MT8bF
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"tit\n"
+"help.text"
+msgid "Standard Bar"
+msgstr "Baris Standar"
+
+#. YMneF
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"hd_id3154186\n"
+"help.text"
+msgid "<link href=\"text/shared/main0201.xhp\">Standard Bar</link>"
+msgstr "<link href=\"text/shared/main0201.xhp\">Baris Standar</link>"
+
+#. 7CoDc
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_id3145136\n"
+"help.text"
+msgid "<ahelp hid=\"RID_ENVTOOLBOX\">The <emph>Standard</emph> bar is available in every $[officename] application.</ahelp>"
+msgstr "<ahelp hid=\"RID_ENVTOOLBOX\">Baris <emph>Standar</emph> tersedia di seluruh aplikasi $[officename].</ahelp>"
+
+#. FHN8A
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"hd_id3166460\n"
+"help.text"
+msgid "<link href=\"text/shared/01/01020000.xhp\">Open File</link>"
+msgstr "<link href=\"text/shared/01/01020000.xhp\">Buka Berkas</link>"
+
+#. qCdSB
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10661\n"
+"help.text"
+msgid "<link href=\"text/shared/01/01070000.xhp\">Save As</link>"
+msgstr "<link href=\"text/shared/01/01070000.xhp\">Simpan Sebagai</link>"
+
+#. 9WEoa
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN106A5\n"
+"help.text"
+msgid "<link href=\"text/shared/01/06010000.xhp\">Spelling</link>"
+msgstr ""
+
+#. ZVSLP
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN1086E\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Insert Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Sisip Bagan</link>"
+
+#. MgdL8
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_id4964445\n"
+"help.text"
+msgid "Creates a chart in the current document."
+msgstr "Membuat/memasukkan bagan ke dalam dokumen."
+
+#. 9jAur
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN1088E\n"
+"help.text"
+msgid "<link href=\"text/scalc/01/12030100.xhp\">Sort Descending / Sort Ascending</link>"
+msgstr "<link href=\"text/scalc/01/12030100.xhp\">Urut Menurun / Urut Menaik</link>"
+
+#. bzxXw
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108B1\n"
+"help.text"
+msgid "Sorts the selection from the highest to the lowest value, or from the lowest to the highest value using the column that contains the cursor."
+msgstr "Mengurutkan data yang dipilih dari nilai tertinggi ke terendah, atau dari terendah ke tertinggi dengan kursor yang berada pada kolom data tersebut."
+
+#. nBBsD
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108BE\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Bagan</link>"
+
+#. mH28o
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108EA\n"
+"help.text"
+msgid "Creates a chart in the current document."
+msgstr "Membuat/memasukkan bagan ke dalam dokumen."
+
+#. JEF2H
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108C4\n"
+"help.text"
+msgid "<link href=\"text/shared/02/01171200.xhp\">Display Grid</link>"
+msgstr "<link href=\"text/shared/02/01171200.xhp\">Tampilkan Kisi</link>"
+
+#. JHY4h
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN108D7\n"
+"help.text"
+msgid "<link href=\"text/schart/01/wiz_chart_type.xhp\">Chart</link>"
+msgstr "<link href=\"text/schart/01/wiz_chart_type.xhp\">Bagan</link>"
+
+#. kzRJC
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10976\n"
+"help.text"
+msgid "Creates a chart in the current document."
+msgstr "Membuat/memasukkan bagan ke dalam dokumen."
+
+#. DexEu
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN107D8\n"
+"help.text"
+msgid "<image id=\"img_id3153070\" src=\"cmd/sc_zoom.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153070\">Icon</alt></image>"
+msgstr ""
+
+#. wcCfo
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN107F5\n"
+"help.text"
+msgid "Zoom"
+msgstr "Zum"
+
+#. zYZRw
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10818\n"
+"help.text"
+msgid "What’s This?"
+msgstr ""
+
+#. UDDTK
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN1081E\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enables extended help tips under the mouse pointer until the next click.</ahelp>"
+msgstr ""
+
+#. Hvhxs
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10855\n"
+"help.text"
+msgid "<image id=\"img_id3174230\" src=\"cmd/sc_extendedhelp.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3174230\">Icon “What’s This?”</alt></image>"
+msgstr ""
+
+#. KPZBD
+#: main0201.xhp
+msgctxt ""
+"main0201.xhp\n"
+"par_idN10873\n"
+"help.text"
+msgid "What’s This?"
+msgstr ""
+
+#. Xtuxp
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"tit\n"
+"help.text"
+msgid "Table Bar"
+msgstr "Baris Tabel"
+
+#. Cu754
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id3145587\n"
+"help.text"
+msgid "<link href=\"text/shared/main0204.xhp\">Table Bar</link>"
+msgstr "<link href=\"text/shared/main0204.xhp\">Bilah Tabel</link>"
+
+#. WByv5
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"par_id3154252\n"
+"help.text"
+msgid "<ahelp hid=\".\">The <emph>Table</emph> Bar contains functions you need when working with tables. It appears when you move the cursor into a table.</ahelp>"
+msgstr "<ahelp hid=\".\">Bilah <emph>Tabel</emph> memuat sejumlah fungsi untuk bekerja dengan tabel. Baris alat tersebut akan muncul apabila kursor berada di dalam tabel.</ahelp>"
+
+#. eCSur
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id319945759\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05210100.xhp\">Area Style / Filling</link>"
+msgstr "<link href=\"text/shared/01/05210100.xhp\">Gaya / Pengisian Wilayah</link>"
+
+#. GsoVm
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id3147592\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05100100.xhp\">Merge Cells</link>"
+msgstr "<link href=\"text/shared/01/05100100.xhp\">Gabung Sel</link>"
+
+#. RhSva
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id3134447820\n"
+"help.text"
+msgid "Table Design"
+msgstr "Desain Tabel"
+
+#. BufED
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"par_id16200812240344\n"
+"help.text"
+msgid "<ahelp hid=\".uno:TableDesign\">Opens the Table Design. Double-click a preview to format the table.</ahelp>"
+msgstr "<ahelp hid=\".uno:TableDesign\">Membuka Desain Tabel. Klik ganda suatu pratampil untuk memformat tabel.</ahelp>"
+
+#. P72mU
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"par_id3153752\n"
+"help.text"
+msgid "<image id=\"img_id3147292\" src=\"cmd/sc_tabledesign.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147292\">Icon</alt></image>"
+msgstr ""
+
+#. hVE8L
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"par_id3156429\n"
+"help.text"
+msgid "Table Design"
+msgstr "Desain Tabel"
+
+#. hCDEC
+#: main0204.xhp
+msgctxt ""
+"main0204.xhp\n"
+"hd_id947820\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/05090000m.xhp\">Table Properties</link>"
+msgstr "<link href=\"text/simpress/01/05090000m.xhp\">Properti Tabel</link>"
+
+#. usfD4
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"tit\n"
+"help.text"
+msgid "Status Bar in $[officename] Basic Documents"
+msgstr "Bilah Status di Dokumen $[officename] Basic"
+
+#. PUnxS
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"hd_id3148520\n"
+"help.text"
+msgid "<link href=\"text/shared/main0208.xhp\">Status Bar in $[officename] Basic Documents</link>"
+msgstr "<link href=\"text/shared/main0208.xhp\">Bilah Status di Dokumen $[officename] Basic</link>"
+
+#. TMY8Z
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"par_id3154136\n"
+"help.text"
+msgid "The <emph>Status</emph> Bar displays information about the current $[officename] Basic document."
+msgstr "Baris <emph>Status</emph> Bar menampilkan informasi tentang dokumen $[officename] yang sedang aktif."
+
+#. gDTEb
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"tit\n"
+"help.text"
+msgid "Table Data Bar"
+msgstr "Bilah Data Tabel"
+
+#. 8uZqF
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"hd_id3147102\n"
+"help.text"
+msgid "<link href=\"text/shared/main0212.xhp\">Table Data Bar</link>"
+msgstr "<link href=\"text/shared/main0212.xhp\">Bilah Data Tabel</link>"
+
+#. 2HEsY
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3153394\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the Table Data bar to control the data view. </ahelp>"
+msgstr "<ahelp hid=\".\">Gunakanlah bilah Data Tabel untuk mengendalikan tampilan data. </ahelp>"
+
+#. LyuDB
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3149346\n"
+"help.text"
+msgid "The filtered data view is active until you change or cancel the sorting or filtering criteria. If a filter is active, the <emph>Apply Filter</emph> icon on the <emph>Table Data</emph> bar is activated."
+msgstr "Tampilan data yang telah disaring akan aktif, hingga pada akhirnya Anda mengubah atau membatalkan kriteria pengurutan atau penyaringan. Apabila penyaring dalam kondisi aktif, maka ikon <emph>Terapkan Penyaring</emph> pada bilah <emph>Data Tabel</emph> juga akan aktif."
+
+#. CcwiY
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3147303\n"
+"help.text"
+msgid "<image id=\"img_id3153896\" src=\"cmd/sc_recsave.png\" width=\"0.222in\" height=\"0.222in\"><alt id=\"alt_id3153896\">Icon</alt></image>"
+msgstr "<image id=\"img_id3153896\" src=\"cmd/sc_recsave.png\" width=\"0.222in\" height=\"0.222in\"><alt id=\"alt_id3153896\">Ikon</alt></image>"
+
+#. fzc6F
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3153360\n"
+"help.text"
+msgid "Save Record"
+msgstr "Simpan Rekaman"
+
+#. 6ZrhE
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3145173\n"
+"help.text"
+msgid "<image id=\"img_id3154123\" src=\"cmd/sc_recundo.png\" width=\"0.222in\" height=\"0.222in\"><alt id=\"alt_id3154123\">Icon</alt></image>"
+msgstr "<image id=\"img_id3154123\" src=\"cmd/sc_recundo.png\" width=\"0.222in\" height=\"0.222in\"><alt id=\"alt_id3154123\">Ikon</alt></image>"
+
+#. EzvWw
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_id3151382\n"
+"help.text"
+msgid "Undo: Data Input"
+msgstr "Batalkan: Input Data"
+
+#. fYxNc
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_idN10744\n"
+"help.text"
+msgid "<link href=\"text/shared/02/12070000.xhp\">Data to Text</link>"
+msgstr "<link href=\"text/shared/02/12070000.xhp\">Data ke Teks</link>"
+
+#. WLT8r
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_idN10753\n"
+"help.text"
+msgid "<ahelp hid=\".\">Inserts all fields of the marked record into the current document at the cursor position.</ahelp>"
+msgstr "<ahelp hid=\".\">Memasukkan semua kolom dengan rekaman yang telah ditandai ke dalam dokumen yang pada saat itu sedang aktif pada posisi kursor.</ahelp>"
+
+#. 7e4xM
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_idN10780\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/mailmerge00.xhp\">Mail Merge</link>"
+msgstr "<link href=\"text/swriter/01/mailmerge00.xhp\">Surat Massal</link>"
+
+#. DcDEf
+#: main0212.xhp
+msgctxt ""
+"main0212.xhp\n"
+"par_idN1078F\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the Mail Merge Wizard to create form letters.</ahelp>"
+msgstr "<ahelp hid=\".\">Menjalankan Wahana Surat Massal untuk membuat surat.</ahelp>"
+
+#. 7wCKo
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Navigation Bar"
+msgstr "Baris Navigasi Formulir"
+
+#. cniHC
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"bm_id3157896\n"
+"help.text"
+msgid "<bookmark_value>toolbars; Form Navigation bar</bookmark_value><bookmark_value>Navigation bar;forms</bookmark_value><bookmark_value>sorting; data in forms</bookmark_value><bookmark_value>data; sorting in forms</bookmark_value><bookmark_value>forms;sorting data</bookmark_value>"
+msgstr "<bookmark_value>bilah alat; baris Navigasi Formulir</bookmark_value><bookmark_value>baris Navigasi;formulir</bookmark_value><bookmark_value>pengurutan; data pada formulir</bookmark_value><bookmark_value>data; pengurutan pada formulir</bookmark_value><bookmark_value>formulir;pengurutan data</bookmark_value>"
+
+#. AJsK5
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3157896\n"
+"help.text"
+msgid "<link href=\"text/shared/main0213.xhp\">Form Navigation Bar</link>"
+msgstr "<link href=\"text/shared/main0213.xhp\">Baris Navigasi Formulir</link>"
+
+#. WUXQ3
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3154751\n"
+"help.text"
+msgid "The <emph>Form Navigation</emph> bar contains icons to edit a database table or to control the data view. The bar is displayed at the bottom of a document that contains fields that are linked to a database."
+msgstr "Baris <emph>Navigasi Formulir</emph> memiliki sejumlah ikon untuk menyunting tabel basis data atau untuk mengontrol tampilan data. Baris tersebut tampil di bagian bawah dokumen dengan kolom-kolom yang bertautan dengan basis data."
+
+#. GSUgn
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3157958\n"
+"help.text"
+msgid "You can use the <emph>Form Navigation</emph> bar to move within records as well as to insert and to delete records. If data is saved in a form, the changes are transferred to the database. The <emph>Form Navigation</emph> bar also contains sort, filter, and search functions for data records."
+msgstr "Anda bisa menggunakan baris <emph>Navigasi Formulir</emph> untuk berpindah di antara rekaman, menambahkan rekaman, maupun menghapusnya. Apabila data disimpan di dalam formulir, maka perubahan itu akan dikirim ke basis data. Baris <emph>Navigasi Formulir</emph> juga memiliki fungsi pengurutan, penyaringan, serta pencarian untuk rekaman data yang tersimpan."
+
+#. nLEDn
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_idN10717\n"
+"help.text"
+msgid "You can use the Navigation bar icon on the <link href=\"text/shared/02/01170000.xhp\">More Controls </link> bar to add a Navigation bar to a form."
+msgstr "Anda bisa menggunakan ikon baris Navigasi pada baris <link href=\"text/shared/02/01170000.xhp\">Kontrol Lainnya </link> untuk menambahkan baris Navigasi pada formulir."
+
+#. qrGJo
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3157910\n"
+"help.text"
+msgid "The Navigation bar is only visible for forms connected to a database. In the <link href=\"text/sdatabase/04030000.xhp\">Design view</link> of a form, the Navigation bar is not available. See also <link href=\"text/shared/main0212.xhp\">Table Data bar</link>."
+msgstr ""
+
+#. tqTbR
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3153880\n"
+"help.text"
+msgid "You can control the view of data with the sorting and filtering functions. Original tables are not changed."
+msgstr "Anda dapat mengendalikan tampila data dengan fungsi pengurutan dan penyaringan. Tabel yang asli tidak akan diubah."
+
+#. X4S8m
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3153062\n"
+"help.text"
+msgid "The current sort order or filter is saved with the current document. If a filter is set, the <emph>Apply Filter</emph> icon on the <emph>Navigation</emph> bar is activated. Sorting and filtering features in the document can also be configured in the <emph>Form Properties</emph> dialog. (Choose <emph>Form Properties - Data</emph> - properties <link href=\"text/shared/02/01170203.xhp\"><emph>Sort</emph></link> and <link href=\"text/shared/02/01170203.xhp\"><emph>Filter</emph></link>)."
+msgstr "Susunan pengurutan atau penyaringan akan disimpan dalam dokumen terkait. Apabila penyaring dalam kondisi telah ditata, maka ikon <emph>Terapkan Penyaring</emph> pada baris <emph>Navigasi</emph> akan turut aktif. Fitur pengurutan dan penyaringan ini bisa diatur lebih lanjut melalui dialog <emph>Properti Formulir</emph>. (Klik <emph>Properti Formulir - Data</emph> - properti <link href=\"text/shared/02/01170203.xhp\"><emph>Pengurutan</emph></link> dan <link href=\"text/shared/02/01170203.xhp\"><emph>Penyaringan</emph></link>)."
+
+#. ABJo3
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3149810\n"
+"help.text"
+msgid "If an SQL statement is the basis for a form (see <emph>Form Properties</emph> - tab <emph>Data</emph> - <link href=\"text/shared/02/01170203.xhp\"><emph>Data Source</emph></link>), then the filter and sort functions are only available when the SQL statement refers to only one table and is not written in the native SQL mode."
+msgstr "Apabila sebuah pernyataan SQL menjadi basis dari formulir (lihat <emph>Properti Formulir</emph> - tab <emph>Data</emph> - <link href=\"text/shared/02/01170203.xhp\"><emph>Sumber Data</emph></link>), maka fungsi penyaring dan pengurutan data hanya tersedia apabila pernyataan SQL tersebut merujuk hanya kepada satu tabel dan tidak ditulis dalam mode SQL yang natif."
+
+#. CcBXr
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3156448\n"
+"help.text"
+msgid "<link href=\"text/shared/02/12100200.xhp\">Find Record</link>"
+msgstr "<link href=\"text/shared/02/12100200.xhp\">Cari Rekaman</link>"
+
+#. daKA6
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3153192\n"
+"help.text"
+msgid "Absolute Record"
+msgstr "Rekaman Absolut"
+
+#. j8vng
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3146922\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AbsoluteRecord\">Shows the number of the current record. Enter a number to go to the corresponding record.</ahelp>"
+msgstr "<ahelp hid=\".uno:AbsoluteRecord\">Menampilkan nomor rekaman yang sedang aktif. Masukkan nomor tertentu untuk melompat ke nomor rekaman tersebut.</ahelp>"
+
+#. Ld8nZ
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3153573\n"
+"help.text"
+msgid "First Record"
+msgstr "Rekaman Pertama"
+
+#. 4VXqZ
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3154013\n"
+"help.text"
+msgid "<image id=\"img_id3150010\" src=\"cmd/lc_firstrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150010\">Icon First Record</alt></image>"
+msgstr ""
+
+#. VCqM6
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3155308\n"
+"help.text"
+msgid "<ahelp hid=\".uno:FirstRecord\">Takes you to the first record.</ahelp>"
+msgstr "<ahelp hid=\".uno:FirstRecord\">Membawa Anda ke rekaman pertama.</ahelp>"
+
+#. aNBTD
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3154792\n"
+"help.text"
+msgid "Previous Record"
+msgstr "Rekaman Sebelumnya"
+
+#. AgQb3
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3145647\n"
+"help.text"
+msgid "<image id=\"img_id3147394\" src=\"cmd/lc_prevrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3147394\">Icon Previous Record</alt>                        </image>"
+msgstr ""
+
+#. gitqo
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3157846\n"
+"help.text"
+msgid "<ahelp hid=\".uno:PrevRecord\">Takes you to the previous record.</ahelp>"
+msgstr "<ahelp hid=\".uno:PrevRecord\">Membawa Anda ke rekaman sebelumnya.</ahelp>"
+
+#. AJswu
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3149121\n"
+"help.text"
+msgid "Next Record"
+msgstr "Rekaman Selanjutnya"
+
+#. ShvmR
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3146913\n"
+"help.text"
+msgid "<image id=\"img_id3150753\" src=\"cmd/lc_nextrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150753\">Icon Next Record</alt></image>"
+msgstr ""
+
+#. BJBj8
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3148914\n"
+"help.text"
+msgid "<ahelp hid=\".uno:NextRecord\">Takes you to the next record.</ahelp>"
+msgstr "<ahelp hid=\".uno:NextRecord\">Membawa Anda ke rekaman selanjutnya.</ahelp>"
+
+#. 6dE4g
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3148997\n"
+"help.text"
+msgid "Last Record"
+msgstr "Rekaman Terakhir"
+
+#. up7uJ
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3155337\n"
+"help.text"
+msgid "<image id=\"img_id3163808\" src=\"cmd/lc_lastrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3163808\">Icon Last Record</alt></image>"
+msgstr ""
+
+#. 65BvC
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3151248\n"
+"help.text"
+msgid "<ahelp hid=\".uno:LastRecord\">Takes you to the last record.</ahelp>"
+msgstr "<ahelp hid=\".uno:LastRecord\">Membawa Anda ke rekaman terakhir.</ahelp>"
+
+#. aKiBF
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3149967\n"
+"help.text"
+msgid "New Record"
+msgstr "Rekaman Baru"
+
+#. D8UvX
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3149735\n"
+"help.text"
+msgid "<image id=\"img_id3155578\" src=\"cmd/lc_newrecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155578\">Icon New Record</alt></image>"
+msgstr ""
+
+#. e4GJo
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3148460\n"
+"help.text"
+msgid "<ahelp hid=\".uno:NewRecord\">Creates a new record.</ahelp>"
+msgstr "<ahelp hid=\".uno:NewRecord\">Membuat rekaman baru.</ahelp>"
+
+#. xhXB3
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3145231\n"
+"help.text"
+msgid "Save Record"
+msgstr "Simpan Rekaman"
+
+#. aLCSc
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3150647\n"
+"help.text"
+msgid "<image id=\"img_id3150941\" src=\"cmd/lc_recsave.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150941\">Icon</alt></image>"
+msgstr ""
+
+#. Dbdf5
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3146808\n"
+"help.text"
+msgid "<ahelp hid=\".uno:RecSave\">Saves a new data entry. The change is registered in the database.</ahelp>"
+msgstr "<ahelp hid=\".uno:RecSave\">Menyimpan entri data yang baru. Perubahaannya akan terdaftar pada basis data.</ahelp>"
+
+#. pc8vm
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3158446\n"
+"help.text"
+msgid "Undo: Data entry"
+msgstr "Batalkan: Entri Data"
+
+#. AbFTp
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3166423\n"
+"help.text"
+msgid "<image id=\"img_id3156138\" src=\"cmd/lc_recundo.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156138\">Icon Undo Data Entry</alt></image>"
+msgstr ""
+
+#. GAZ7t
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3151276\n"
+"help.text"
+msgid "<ahelp hid=\".uno:RecUndo\">Allows you to undo a data entry.</ahelp>"
+msgstr "<ahelp hid=\".uno:RecUndo\">Dengan fungsi ini, Anda bisa membatalkan entri data.</ahelp>"
+
+#. BEGSZ
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3153659\n"
+"help.text"
+msgid "Delete Record"
+msgstr "Hapus Rekaman"
+
+#. QiWg2
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3145584\n"
+"help.text"
+msgid "<image id=\"img_id3166434\" src=\"cmd/lc_deleterecord.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3166434\">Icon Delete Record</alt></image>"
+msgstr ""
+
+#. noMmE
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id3148817\n"
+"help.text"
+msgid "<ahelp hid=\".uno:DeleteRecord\">Deletes a record. A query needs to be confirmed before deleting.</ahelp>"
+msgstr "<ahelp hid=\".uno:DeleteRecord\">Menghapus rekaman. Kueri ini perlu dikonfirmasi sebelum penghapusan.</ahelp>"
+
+#. oon6s
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id161647003427601\n"
+"help.text"
+msgid "Refresh Control"
+msgstr ""
+
+#. zuPjH
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id861647005853278\n"
+"help.text"
+msgid "<image src=\"cmd/lc_refreshformcontrol.svg\" id=\"img_id901647005853278\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id581647005853278\">Icon Refresh Control</alt></image>"
+msgstr ""
+
+#. 8RmLu
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"par_id811647005853278\n"
+"help.text"
+msgid "Refresh current control"
+msgstr ""
+
+#. AqwfH
+#: main0213.xhp
+msgctxt ""
+"main0213.xhp\n"
+"hd_id3148599\n"
+"help.text"
+msgid "<link href=\"text/shared/02/12100100.xhp\">Sort</link>"
+msgstr "<link href=\"text/shared/02/12100100.xhp\">Pengurutan</link>"
+
+#. oSJoq
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"tit\n"
+"help.text"
+msgid "Query Design Bar"
+msgstr "Bilah Desain Kueri"
+
+#. Q6Prc
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"hd_id3159176\n"
+"help.text"
+msgid "<link href=\"text/shared/main0214.xhp\">Query Design Bar</link>"
+msgstr "<link href=\"text/shared/main0214.xhp\">Bilah Desain Kueri</link>"
+
+#. YwUQD
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"par_id3150085\n"
+"help.text"
+msgid "<ahelp hid=\".\">When creating or editing an SQL query, use the icons in the <emph>Query Design</emph> Bar to control the display of data.</ahelp>"
+msgstr "<ahelp hid=\".\">Saat membuat atau menyunting kueri SQL, gunakanlah ikon pada Baris <emph>Desain Kueri</emph> untuk mengontrol tampilan data.</ahelp>"
+
+#. VXp6T
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"par_id3150276\n"
+"help.text"
+msgid "Depending on whether you have created the query or view in the <emph>Design</emph> or <emph>SQL</emph> tab page, the following icons appear:"
+msgstr "Bergantung dengan apa yang telah Anda buat, kueri atau tampilan, pada halaman tab <emph>Desain</emph> atau <emph>SQL</emph>, ikon-ikon berikut akan muncul:"
+
+#. 56jjt
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"hd_id3151384\n"
+"help.text"
+msgid "<link href=\"text/shared/02/14020100.xhp\">Add Tables</link>"
+msgstr "<link href=\"text/shared/02/14020100.xhp\">Tambah Tabel</link>"
+
+#. FZFsy
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"par_id3151041\n"
+"help.text"
+msgid "The following icon is on the <emph>SQL</emph> tab page:"
+msgstr "Ikon beriut terdapat pada halaman tab <emph>SQL</emph>:"
+
+#. uHP9A
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"tit\n"
+"help.text"
+msgid "Form Design Toolbar"
+msgstr "Bilah Alat Desain Formulir"
+
+#. BMAxN
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"hd_id3148520\n"
+"help.text"
+msgid "<link href=\"text/shared/main0226.xhp\">Form Design Toolbar</link>"
+msgstr "<link href=\"text/shared/main0226.xhp\">Baris Alat Desain Formulir</link>"
+
+#. r7rXm
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"par_id3155364\n"
+"help.text"
+msgid "The Form Design toolbar becomes visible as soon as you select a form object when working in the design mode."
+msgstr "Bilah alat Desain Formulir akan muncul ketika Anda memilih objek formulir saat bekerja dalam mode desain."
+
+#. YJDCw
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"hd_id3163802\n"
+"help.text"
+msgid "<link href=\"text/shared/02/01170400.xhp\">Add Field</link>"
+msgstr "<link href=\"text/shared/02/01170400.xhp\">Tambah Ruas</link>"
+
+#. vStBU
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"hd_id3146815\n"
+"help.text"
+msgid "<variable id=\"automaticcontrolfocus\"><link href=\"text/shared/main0226.xhp#automatic_control_focus\">Automatic Control Focus</link></variable>"
+msgstr ""
+
+#. gg2Ag
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"par_id3150261\n"
+"help.text"
+msgid "<image id=\"img_id3149351\" src=\"cmd/sc_autocontrolfocus.png\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149351\">Icon</alt></image>"
+msgstr ""
+
+#. 5WaEw
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"par_id3109848\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AutoControlFocus\">If <emph>Automatic Control Focus</emph> is activated, the first form control will be selected when you open the document. If the button is not activated, the text will be selected after opening. The <link href=\"text/shared/02/01170300.xhp\">Tab Order</link> that you have specified determines which is the first form control.</ahelp>"
+msgstr ""
+
+#. VWNKD
+#: main0226.xhp
+msgctxt ""
+"main0226.xhp\n"
+"hd_id3148920\n"
+"help.text"
+msgid "<link href=\"text/shared/02/01171400.xhp\">Helplines While Moving</link>"
+msgstr "<link href=\"text/shared/02/01171400.xhp\">Garis Bantu Saat Memindah</link>"
+
+#. 94V64
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"tit\n"
+"help.text"
+msgid "Edit Points Bar"
+msgstr "Baris Sunting Titik"
+
+#. VSwqX
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"bm_id3149987\n"
+"help.text"
+msgid "<bookmark_value>lines; editing points</bookmark_value><bookmark_value>curves; editing points</bookmark_value><bookmark_value>Edit Points bar</bookmark_value>"
+msgstr "<bookmark_value>garis; menyunting titik</bookmark_value><bookmark_value>kurva; menyunting titik</bookmark_value><bookmark_value>bilah Sunting Titik</bookmark_value>"
+
+#. U3Nwu
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3149987\n"
+"help.text"
+msgid "<variable id=\"edit_points_bar_h1\"><link href=\"text/shared/main0227.xhp\">Edit Points Bar</link></variable>"
+msgstr ""
+
+#. N5vQq
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3150402\n"
+"help.text"
+msgid "The <emph>Edit Points </emph>Bar appears when you select a polygon object and click <emph>Edit Points</emph>."
+msgstr "Bilah <emph>Sunting Titik</emph> muncul ketika Anda memilih suatu objek poligon dan mengklik <emph>Sunting Titik</emph>."
+
+#. SCdbw
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3144762\n"
+"help.text"
+msgid "The functions provided allow you to edit the points of a curve or an object converted to a curve. The following icons are available:"
+msgstr "Dengan fungsi tersebut, Anda bisa menyunting titik-titik yang terdapat pada sebuah kurva atau objek yang dikonversikan sebagai kurva. Ikon-ikon berikut tersedia:"
+
+#. GtMer
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3145366\n"
+"help.text"
+msgid "<image id=\"img_id3153951\" src=\"cmd/lc_toggleobjectbeziermode.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3153951\">Icon Edit Points</alt></image>"
+msgstr ""
+
+#. wNGCc
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3150105\n"
+"help.text"
+msgid "Edit Points"
+msgstr "Sunting Titik"
+
+#. tj2MY
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3146976\n"
+"help.text"
+msgid "Move Points"
+msgstr "Pindah Titik"
+
+#. FGTDm
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3147435\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierMove\">Activates a mode in which you can move points.</ahelp> The mouse pointer displays a small empty square when resting on a point. Drag that point to another location. The curve on both sides of the point follows the movement; the section of the curve between the next points changes shape."
+msgstr "<ahelp hid=\".uno:BezierMove\">Mengaktifkan sebuah modus, sehingga Anda bisa memindahkan titik-titik pada objek menggambar.</ahelp> Penunjuk tetikus akan menampilkan kotak kosong kecil saat berada tepat pada titik-titik tersebut. Seret titik itu ke lokasi yang lain. Kurva di kedua sisinya akan mengikuti perpindahan titik itu; bagian kurva yang berada di antara titik-titik yang lain akan berubah bentuk."
+
+#. aAAN6
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3149481\n"
+"help.text"
+msgid "Point at the curve between two points or within a closed curve and drag the mouse to shift the entire curve without distorting the form."
+msgstr "Klik pada bagian kurva yang terletak di antara dua titik atau di dalam kurva tertutup, kemudian seret tetikus untuk memindahkan kurva tanpa mengubah bentuknya."
+
+#. 2FrPH
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3154096\n"
+"help.text"
+msgid "<image id=\"img_id3149377\" src=\"cmd/lc_beziermove.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149377\">Icon Move Points</alt></image>"
+msgstr ""
+
+#. BFM7Z
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3147397\n"
+"help.text"
+msgid "Move Points"
+msgstr "Pindah Titik"
+
+#. bmQbX
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3150115\n"
+"help.text"
+msgid "Insert Points"
+msgstr "Sisip Titik"
+
+#. iDD7a
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3160478\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierInsert\">Activates the insert mode. This mode allows you to insert points.</ahelp> You can also move points, just as in the move mode. If, however, you click at the curve between two points and move the mouse a little while holding down the mouse button you insert a new point. The point is a smooth point, and the lines to the control points are parallel and remain so when moved."
+msgstr "<ahelp hid=\".uno:BezierInsert\">Mengaktifkan mode sisip. Dengan mode ini, Anda bisa menambahkan titik pada objek.</ahelp> Anda juga bisa memindahkan titik, seperti dalam mode pindah. Namun, jika Anda menklik bagian kurva yang terletak di antara dua titik dan menggeser tetikus sembari menekan tombolnya, maka Anda akan menambahkan satu titik di tempat itu. Titik yang barus saja ditambahkan adalah titik halus, sementara garis pada titik kontrol akan berada dalam posisi paralel dan akan tetap seperti itu saat dipindahkan."
+
+#. xbFcA
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3157846\n"
+"help.text"
+msgid "If you wish to create a corner point you must first insert either a smooth or a symmetrical point which is then converted to a corner point by using <emph>Corner Point</emph>."
+msgstr "Apabila Anda ingin membuat titik sudut, pertama-tama Anda harus memasukkan sebuah titik halus atau simetris yang kemudian dikonversi ke titik sudut dengan fungsi <emph>Titik Sudut</emph>."
+
+#. N35P4
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153838\n"
+"help.text"
+msgid "<image id=\"img_id3146969\" src=\"cmd/lc_bezierinsert.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146969\">Icon Insert Points</alt></image>"
+msgstr ""
+
+#. Dfg35
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153710\n"
+"help.text"
+msgid "Insert Points"
+msgstr "Sisip Titik"
+
+#. CcGFU
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3149020\n"
+"help.text"
+msgid "Delete Points"
+msgstr "Hapus Titik"
+
+#. EifkN
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148917\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierDelete\">Use the <emph>Delete Points</emph> icon to delete one or several selected points. If you wish to select several points click the appropriate points while holding down the Shift key.</ahelp>"
+msgstr "<ahelp hid=\".uno:BezierDelete\">Gunakan ikon <emph>Hapus Titik</emph> untuk menghapus satu atau sejumlah titik yang telah dipilih. Apabika Anda ingin memilih sejumlah titik, klik titik-titik yang diinginkan sembari menahn tombol Shift.</ahelp>"
+
+#. tWtYC
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153766\n"
+"help.text"
+msgid "First select the points to be deleted, and then click this icon, or press Del."
+msgstr "Pertama-tama, pilih titik-titik yang hendak dihapus, kemudian klik ikon ini, atau tekan tombol Del."
+
+#. 5FFCM
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3147321\n"
+"help.text"
+msgid "<image id=\"img_id3146920\" src=\"cmd/lc_bezierdelete.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3146920\">Icon Delete Points</alt></image>"
+msgstr ""
+
+#. 6i377
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3155961\n"
+"help.text"
+msgid "Delete Points"
+msgstr "Hapus Titik"
+
+#. DEFBD
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3147361\n"
+"help.text"
+msgid "Split Curve"
+msgstr "Belah Kurva"
+
+#. xJMxs
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3151248\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierCutLine\">The<emph> Split Curve </emph>icon splits a curve. Select the point or points where you want to split the curve, then click the icon</ahelp>."
+msgstr "<ahelp hid=\".uno:BezierCutLine\">Ikon <emph>Belah Kurva</emph> akan membagi kurva. Pilih satu atau beberapa titik yang hendak dibelah, kemudian klik ikon tersebut</ahelp>."
+
+#. pHdF6
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153788\n"
+"help.text"
+msgid "<image id=\"img_id3148489\" src=\"cmd/lc_beziercutline.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148489\">Icon Split Curve</alt></image>"
+msgstr ""
+
+#. vmsiD
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3152581\n"
+"help.text"
+msgid "Split Curve"
+msgstr "Belah Kurva"
+
+#. cBVZs
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3150345\n"
+"help.text"
+msgid "Convert To Curve"
+msgstr "Konversi ke Kurva"
+
+#. DNKmR
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148420\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierConvert\">Converts a curve into a straight line or converts a straight line into a curve.</ahelp> If you select a single point, the curve before the point will be converted. If two points are selected, the curve between both points will be converted. If you select more than two points, each time you click this icon, a different portion of the curve will be converted. If necessary, round points are converted into corner points and corner points are converted into round points."
+msgstr "<ahelp hid=\".uno:BezierConvert\">Mengubah kurva ke bentuk garis lurus atau sebaliknya.</ahelp> Apabila Anda memilih satu titik saja, kurva sebelum titik tersebut akan dikonversi. Apabila dua titik yang dipilih, maka kurva di antara kedua titik itu yang akan dikonversi. Apabila Anda memilih lebih dari dua titik, tiap kali ikon tersebut diklik, bagian-bagian berbeda dari kurva akan dikonversi. Apabila perlu, titik membulat akan diubah menjadi titik sudut dan sebaliknya."
+
+#. 57eED
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3150304\n"
+"help.text"
+msgid "If a certain section of the curve is straight, the end points of the line have a maximum of one control point each. They cannot be modified to round points unless the straight line is converted back to a curve."
+msgstr "Apabila bagian tertentu dari kurva berada dalam bentuk garis lurus, titik ujung garis tersebut memiliki maksimal satu titik kontrol. Titik itu tidak bisa diubah menjadi titik bulat, kecuali garis lurus tersebut diubah kembali menjadi kurva."
+
+#. L7FMu
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3158212\n"
+"help.text"
+msgid "<image id=\"img_id3149036\" src=\"cmd/lc_bezierconvert.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3149036\">Icon Convert to Curve</alt></image>"
+msgstr ""
+
+#. PtsWF
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3158445\n"
+"help.text"
+msgid "Convert To Curve"
+msgstr "Konversi ke Kurva"
+
+#. GJN2S
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3153199\n"
+"help.text"
+msgid "Corner Point"
+msgstr "Titik Sudut"
+
+#. UmXZR
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148460\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierEdge\">Converts the selected point or points into corner points.</ahelp> Corner points have two movable control points, which are independent from each other. A curved line, therefore, does not go straight through a corner point, but forms a corner."
+msgstr "<ahelp hid=\".uno:BezierEdge\">Mengubah satu atau lebih titik menjadi titik sudut.</ahelp> Titik sudut memiliki dua titik kontrol yang bisa dipindah-pindah, serta tidak saling berkait antara keduanya. Maka garis lengkung, tidak akan langsung melalui suatu titik sudut, melainkan membentuk sudut."
+
+#. nGTf9
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3154576\n"
+"help.text"
+msgid "<image id=\"img_id3154201\" src=\"cmd/lc_bezieredge.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3154201\">Icon Corner Point</alt></image>"
+msgstr ""
+
+#. eLuKD
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3166429\n"
+"help.text"
+msgid "Corner Point"
+msgstr "Titik Sudut"
+
+#. qvsQR
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3166436\n"
+"help.text"
+msgid "Smooth Transition"
+msgstr "Transisi Halus"
+
+#. LVrmB
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3155510\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierSmooth\">Converts a corner point or symmetrical point into a smooth point.</ahelp> Both control points of the corner point are aligned in parallel, and can only be moved simultaneously. The control points may differentiate in length, allowing you to vary the degree of curvature."
+msgstr "<ahelp hid=\".uno:BezierSmooth\">Mengubah titik sudut atau titik dimetris menjadi titik halus.</ahelp> Kedua titik kontrol pada titik sudut berada dalam posisi paralel, dan hanya bisa digeser bersamaan. Titik kontrol tersebut bisa diubah kepanjangannya, untuk memudahkan dalam mengatur derajat kurvatur."
+
+#. DAXKE
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148813\n"
+"help.text"
+msgid "<image id=\"img_id3151183\" src=\"cmd/lc_beziersmooth.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3151183\">Icon Smooth Transition</alt></image>"
+msgstr ""
+
+#. MLk9o
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3154258\n"
+"help.text"
+msgid "Smooth Transition"
+msgstr "Transisi Halus"
+
+#. Q9GqB
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3159622\n"
+"help.text"
+msgid "Symmetric Transition"
+msgstr "Transisi Simetris"
+
+#. fGgjS
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3155812\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierSymmetric\">This icon converts a corner point or a smooth point into a symmetrical point.</ahelp> Both control points of the corner point are aligned in parallel and have the same length. They can only be moved simultaneously and the degree of curvature is the same in both directions."
+msgstr "<ahelp hid=\".uno:BezierSymmetric\">Ikon ini mengubah titik sudut atau titik halus menjadi titik simetris.</ahelp> Kedua titik kontrol pada titik sudut berada dalam posisi paralel dan memiliki panjang yang sama. Kedua titik kontrol itu hanya bisa digeser bersamaan dan memiliki derajat kurvatur yang sama di kedua arah."
+
+#. DAqSZ
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3153818\n"
+"help.text"
+msgid "<image id=\"img_id3159218\" src=\"cmd/lc_beziersymmetric.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3159218\">Icon Symmetric Transition</alt></image>"
+msgstr ""
+
+#. 2Byoz
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3146866\n"
+"help.text"
+msgid "Symmetric Transition"
+msgstr "Transisi Simetris"
+
+#. DAS5H
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"hd_id3146786\n"
+"help.text"
+msgid "Close Bézier"
+msgstr "Tutup Bézier"
+
+#. L7eHE
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3156032\n"
+"help.text"
+msgid "<ahelp hid=\".uno:BezierClose\">Closes a line or a curve.</ahelp> A line is closed by connecting the last point with the first point, indicated by an enlarged square."
+msgstr "<ahelp hid=\".uno:BezierClose\">Menutup garis atau kurva.</ahelp> Sebuah garis akan ditutup dengan menghubungkan titik terakhir dengan titik pertama, yang ditunjukkan oleh sebuah kotak besar."
+
+#. evNGB
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3154344\n"
+"help.text"
+msgid "<image id=\"img_id3148607\" src=\"cmd/lc_bezierclose.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3148607\">Icon Close Bézier</alt></image>"
+msgstr ""
+
+#. 29q2Q
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3147070\n"
+"help.text"
+msgid "Close Bézier"
+msgstr "Tutup Bézier"
+
+#. RCPw8
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3148970\n"
+"help.text"
+msgid "<image id=\"img_id3155385\" src=\"cmd/lc_beziereliminatepoints.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3155385\">Icon Eliminate Points</alt></image>"
+msgstr ""
+
+#. vHE4T
+#: main0227.xhp
+msgctxt ""
+"main0227.xhp\n"
+"par_id3152869\n"
+"help.text"
+msgid "Eliminate Points"
+msgstr "Eliminasi Titik"
+
+#. 8AFz5
+#: main0400.xhp
+msgctxt ""
+"main0400.xhp\n"
+"tit\n"
+"help.text"
+msgid "Shortcut Keys"
+msgstr "Tombol Pintas"
+
+#. 7fYZK
+#: main0400.xhp
+msgctxt ""
+"main0400.xhp\n"
+"hd_id3149495\n"
+"help.text"
+msgid "<link href=\"text/shared/main0400.xhp\">Shortcut Keys</link>"
+msgstr "<link href=\"text/shared/main0400.xhp\">Tombol Pintas</link>"
+
+#. WPGJg
+#: main0400.xhp
+msgctxt ""
+"main0400.xhp\n"
+"par_id3150040\n"
+"help.text"
+msgid "This section contains descriptions of frequently used shortcut keys in $[officename]."
+msgstr "Bagian ini menyajian keterangan mengenai tombol pintas yang sering dipakai dalam $[officename]."
+
+#. 8Fk6L
+#: main0500.xhp
+msgctxt ""
+"main0500.xhp\n"
+"tit\n"
+"help.text"
+msgid "Glossaries"
+msgstr "Daftar Istilah"
+
+#. CDvUF
+#: main0500.xhp
+msgctxt ""
+"main0500.xhp\n"
+"hd_id3156183\n"
+"help.text"
+msgid "<link href=\"text/shared/main0500.xhp\">Glossaries</link>"
+msgstr "<link href=\"text/shared/main0500.xhp\">Daftar Istilah</link>"
+
+#. dziDW
+#: main0500.xhp
+msgctxt ""
+"main0500.xhp\n"
+"par_id3157898\n"
+"help.text"
+msgid "This section provides a general glossary of technical terms used in $[officename], along with a list of Internet terms."
+msgstr "Bagian ini menyajikan daftar istilah teknis yang umum digunakan pada $[officename], beserta daftar istilah dalam Internet."
+
+#. vAUtX
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"tit\n"
+"help.text"
+msgid "Java Platform Support"
+msgstr "Dukungan Platform Java"
+
+#. Cwsus
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"hd_id3153089\n"
+"help.text"
+msgid "<link href=\"text/shared/main0650.xhp\">Java Platform Support</link>"
+msgstr "<link href=\"text/shared/main0650.xhp\">Dukungan Platform Java</link>"
+
+#. dPzDx
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3152363\n"
+"help.text"
+msgid "$[officename] supports the Java platform for running applications and components based on the JavaBeans architecture."
+msgstr "$[officename] mendukung platform Java untuk menjalankan berbagai aplikasi dan komponen yang bebasis pada arsitektur JavaBeans."
+
+#. Bwg5V
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3154751\n"
+"help.text"
+msgid "For $[officename] to support the Java platform, you must install the Java 2 Runtime Environment software. When you installed $[officename], you automatically received the option to install these files if they were not yet installed. You can also install these files now if required."
+msgstr "Agar $[officename] dapat mendukung platform Java, Anda harus memasang perangkat lunak Java 2 Runtime Environment. Saat memasang $[officename], Anda akan secara otomatis menerima pilihan untuk memasang berkas-berkas tersebut jika mereka belum pernah dipasang sebelumnya. Anda juga bisa memasang berkas-berkasnya sekarang jika perlu."
+
+#. wFYWg
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3155338\n"
+"help.text"
+msgid "The Java platform support needs to be activated under $[officename] to run Java applications."
+msgstr "Dukungan terhadap platform Java harus diaktifkan pada $[officename] untuk bisa menjalankan aplikasi-aplikasi Java."
+
+#. H2Vk4
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3155892\n"
+"help.text"
+msgid "Enable Java platform support by choosing <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - </emph><link href=\"text/shared/optionen/java.xhp\"><emph>$[officename] - Advanced</emph></link>."
+msgstr "Aktifkan dukungan platform Java dengan memilih <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferensi</emph></caseinline><defaultinline><emph>Perkakas - Pilihan</emph></defaultinline></switchinline><emph> - </emph><link href=\"text/shared/optionen/java.xhp\"><emph>$[officename] - Tingkat Lanjut</emph></link>."
+
+#. NcDL4
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id9116183\n"
+"help.text"
+msgid "Before you can use a JDBC driver, you need to add its class path. Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - %PRODUCTNAME - Advanced, and click the Class Path button. After you add the path information, restart %PRODUCTNAME."
+msgstr "Sebelum Anda dapat memakai suatu penggerak JDBC, Anda perlu menambahkan path kelasnya. Pilih <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferensi</caseinline><defaultinline>Perkakas - Pilihan</defaultinline></switchinline> - %PRODUCTNAME - Tingkat Lanjut, dan klik tombol Path Kelas. Setelah Anda menambahkan informasi path, start ulang %PRODUCTNAME."
+
+#. 9YUwB
+#: main0650.xhp
+msgctxt ""
+"main0650.xhp\n"
+"par_id3153822\n"
+"help.text"
+msgid "Your modifications at the <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - $[officename] - Advanced</emph> tab page will be used even if the Java Virtual Machine (JVM) has been started already. After any modifications to the ClassPath you must restart $[officename]. The same is true for modifications under <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - Internet - Proxy</emph>. Only the boxes \"HTTP Proxy\" and their ports do not require a restart—they will be evaluated when you click <emph>OK</emph>."
+msgstr ""
+
+#. rFknA
+#: main0800.xhp
+msgctxt ""
+"main0800.xhp\n"
+"tit\n"
+"help.text"
+msgid "$[officename] and the Internet"
+msgstr "$[officename] dan Internet"
+
+#. QrCDK
+#: main0800.xhp
+msgctxt ""
+"main0800.xhp\n"
+"hd_id3153089\n"
+"help.text"
+msgid "<link href=\"text/shared/main0800.xhp\">$[officename] and the Internet</link>"
+msgstr "<link href=\"text/shared/main0800.xhp\">$[officename] dan Internet</link>"
+
+#. C7HK8
+#: main0800.xhp
+msgctxt ""
+"main0800.xhp\n"
+"par_id3155150\n"
+"help.text"
+msgid "This section provides information on the subject of the Internet. An <link href=\"text/shared/00/00000002.xhp\">Internet glossary</link> explains the most important terms."
+msgstr "Bagian ini menyediakan informasi tentang Internet. Sebuah <link href=\"text/shared/00/00000002.xhp\">daftar istilah Internet </link> menjelaskan sejumlah istilah yang penting."
+
+#. SjyhY
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"tit\n"
+"help.text"
+msgid "Edit"
+msgstr ""
+
+#. x6XnX
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id121748531799432\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main_edit.xhp\">Edit</link></variable>"
+msgstr ""
+
+#. xHRUz
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_id3154758\n"
+"help.text"
+msgid "<ahelp hid=\".\">This menu contains commands for editing the contents of the current document.</ahelp>"
+msgstr ""
+
+#. aMY3b
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_id521748534330686\n"
+"help.text"
+msgid "Choose <menuitem>Edit</menuitem>."
+msgstr ""
+
+#. Pq83E
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id0914201501170124\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/02140000.xhp\">Fields</link>"
+msgstr ""
+
+#. FzjXf
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id3147005\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/02120000.xhp\">Duplicate</link>"
+msgstr ""
+
+#. h9TZc
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id3150205\n"
+"help.text"
+msgid "<link href=\"text/simpress/01/02150000.xhp\">Cross-fading</link>"
+msgstr ""
+
+#. z2ikf
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id3153683\n"
+"help.text"
+msgid "Edit"
+msgstr ""
+
+#. A2Nmz
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_id3147209\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a window where you can edit the selected table, query, form, or report.</ahelp>"
+msgstr ""
+
+#. 3P96n
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"hd_id3145315\n"
+"help.text"
+msgid "Delete"
+msgstr ""
+
+#. G4RSC
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_id3153666\n"
+"help.text"
+msgid "<ahelp hid=\".\">Deletes the selected table, query, form, or report.</ahelp>"
+msgstr ""
+
+#. Xnhv9
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN1057C\n"
+"help.text"
+msgid "Rename"
+msgstr ""
+
+#. kThwN
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN10580\n"
+"help.text"
+msgid "<ahelp hid=\".\">Renames the selected object. Depending on the database, some names, characters, and name length might be invalid.</ahelp>"
+msgstr ""
+
+#. BFo3d
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN1058A\n"
+"help.text"
+msgid "Open"
+msgstr ""
+
+#. Smjoz
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN1058E\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens the selected object in the last saved state.</ahelp>"
+msgstr ""
+
+#. E83oC
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN10591\n"
+"help.text"
+msgid "Create as View"
+msgstr ""
+
+#. g79dd
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105A7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Converts the selected query to a view. The original query remains in your database file and an additional view is generated on the database server. You must have write permission to add a view to a database.</ahelp>"
+msgstr ""
+
+#. DYVVR
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105AA\n"
+"help.text"
+msgid "Most databases use queries to filter or to sort database tables to display records on your computer. Views offer the same functionality as queries, but on the server side. If your database is on a server that supports views, you can use views to filter the records on the server to speed up the display time."
+msgstr ""
+
+#. JzyC6
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105AD\n"
+"help.text"
+msgid "Form Wizard"
+msgstr ""
+
+#. Ytj8X
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105B1\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the <link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link> for the selected table, query, or view.</ahelp>"
+msgstr ""
+
+#. 5Wvqs
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105C2\n"
+"help.text"
+msgid "Report Wizard"
+msgstr ""
+
+#. m5zGb
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105C6\n"
+"help.text"
+msgid "<ahelp hid=\".\">Starts the <link href=\"text/shared/autopi/01100000.xhp\">Report Wizard</link> for the selected table, query, or view.</ahelp>"
+msgstr ""
+
+#. MYHnQ
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105DE\n"
+"help.text"
+msgid "Database"
+msgstr ""
+
+#. vaEwd
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105E2\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens a submenu.</ahelp>"
+msgstr ""
+
+#. VWEk6
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105E5\n"
+"help.text"
+msgid "Properties"
+msgstr ""
+
+#. eqzaF
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105E9\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens the Database Properties dialog.</ahelp>"
+msgstr ""
+
+#. tFXmZ
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105EC\n"
+"help.text"
+msgid "Connection Type"
+msgstr ""
+
+#. NBQ5h
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105F0\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens the Connection Type Wizard.</ahelp>"
+msgstr ""
+
+#. XNxGG
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105F3\n"
+"help.text"
+msgid "Advanced Properties"
+msgstr ""
+
+#. k7Ys3
+#: main_edit.xhp
+msgctxt ""
+"main_edit.xhp\n"
+"par_idN105F7\n"
+"help.text"
+msgid "<ahelp hid=\".\">Opens the Advanced Properties dialog.</ahelp>"
+msgstr ""
+
+#. XiyED
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"tit\n"
+"help.text"
+msgid "Format"
+msgstr ""
+
+#. jQp48
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"hd_id911748544026656\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main_format.xhp\">Format</link></variable>"
+msgstr ""
+
+#. AaEcr
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"par_id3147218\n"
+"help.text"
+msgid "Contains commands for formatting the layout and the contents of your document."
+msgstr ""
+
+#. 3Bhnn
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"hd_id201602976343046\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05020000.xhp\">Comments</link>"
+msgstr ""
+
+#. DCDdF
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"par_id61602976356685\n"
+"help.text"
+msgid "When comments are present, the character dialog is presented. Changes to font and font formatting are applied to all comments."
+msgstr ""
+
+#. p295g
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"hd_id851701617819857\n"
+"help.text"
+msgid "Chart - Export as Image"
+msgstr ""
+
+#. F5dx8
+#: main_format.xhp
+msgctxt ""
+"main_format.xhp\n"
+"par_id791701617919079\n"
+"help.text"
+msgid "Exports directly the chart as image. Select the image file type in the Save dialog."
+msgstr ""
+
+#. 4YhEH
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"tit\n"
+"help.text"
+msgid "Main Tools Menu"
+msgstr ""
+
+#. 7jd7X
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"hd_id931695907853611\n"
+"help.text"
+msgid "<variable id=\"h1\"><link href=\"text/shared/main_tools.xhp\">Tools</link></variable>"
+msgstr ""
+
+#. 9Gkzv
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id3147258\n"
+"help.text"
+msgid "<ahelp hid=\".\">Contains spelling tools, redact options, mail merge wizard, macros, development tools, extension manager, as well as tools for configuring and customizing menus, and setting program preferences.</ahelp>"
+msgstr ""
+
+#. Cqcd2
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id3150440\n"
+"help.text"
+msgid "<ahelp hid=\".\">The <emph>Tools</emph> menu contains commands to check spelling, to trace sheet references, to find mistakes and to define scenarios, as well as tools for configuring menus, and setting program preferences.</ahelp>"
+msgstr ""
+
+#. 8RKCG
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id3155064\n"
+"help.text"
+msgid "<ahelp hid=\".\">Contains spelling tools, media player, color replacer, presentation minimizer and tools for configuring menus, and setting program preferences.</ahelp>"
+msgstr ""
+
+#. RVeBo
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id3156443\n"
+"help.text"
+msgid "This menu provides tools for $[officename] Draw as well as access to language and system settings."
+msgstr ""
+
+#. iRaXX
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id31695910499529\n"
+"help.text"
+msgid "Choose <menuitem>Tools</menuitem>."
+msgstr ""
+
+#. CVXfa
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"hd_id841755868691902\n"
+"help.text"
+msgid "Automatic Accessibility Checking"
+msgstr ""
+
+#. qCvdD
+#: main_tools.xhp
+msgctxt ""
+"main_tools.xhp\n"
+"par_id611755868819970\n"
+"help.text"
+msgid "Checks common accessibility problems in the document automatically."
+msgstr ""
+
+#. NJGJa
+#: need_help.xhp
+msgctxt ""
+"need_help.xhp\n"
+"tit\n"
+"help.text"
+msgid "We Need Your Help"
+msgstr "Kami Perlu Bantuan Anda"
+
+#. Pw8Hr
+#: need_help.xhp
+msgctxt ""
+"need_help.xhp\n"
+"hd_id1000010\n"
+"help.text"
+msgid "This help page needs further work for correctness and completion. Please join the LibreOffice project and help us out to write the missing information. Visit our <link href=\"https://documentation.libreoffice.org/en/join-community/update-help-contents\"><emph>web page on writing Help contents</emph></link>."
+msgstr "Halaman bantuan ini membutuhkan kerja lebih lanjut untuk kebenaran dan penyelesaian. Bergabunglah dengan proyek LibreOffice dan bantu kami untuk membenarkan informasi yang salah. Kunjungi halaman web <link href=\"https://documentation.libreoffice.org/en/join-community/update-help-contents\"><emph>Halaman web tentang konten bantuan menulis</emph></link>."

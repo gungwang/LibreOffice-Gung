@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+* This file is part of the LibreOffice project.
+*
+* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this
+* file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*
+* This file incorporates work covered by the following license notice:
+*
+*   Licensed to the Apache Software Foundation (ASF) under one or more
+*   contributor license agreements. See the NOTICE file distributed
+*   with this work for additional information regarding copyright
+*   ownership. The ASF licenses this file to you under the Apache
+*   License, Version 2.0 (the "License"); you may not use this file
+*   except in compliance with the License. You may obtain a copy of
+*   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<helpdocument version="1.0">
+    <meta>
+        <topic id="textshared0105210200xml" indexer="include" status="PUBLISH">
+            <title id="tit" xml-lang="en-US">Colors</title>
+            <filename>/text/shared/01/05210200.xhp</filename>
+        </topic>
+        <history>
+            <created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+        </history>
+    </meta>
+    <body>
+    <bookmark xml-lang="en-US" branch="hid/cui/ui/colorpage/ColorPage" id="bm_id981578762093731" localize="false"/>
+    <bookmark xml-lang="en-US" branch="hid/cui/ui/colorpage/@@nowidget@@" id="bm_id981578762093731" localize="false"/>
+<bookmark xml-lang="en-US" branch="index" id="bm_id37440771">
+<bookmark_value>colors;palette</bookmark_value>
+<bookmark_value>palette;document colors</bookmark_value>
+<bookmark_value>colors;adding</bookmark_value>
+<bookmark_value>colors;delete</bookmark_value>
+<bookmark_value>document colors;palette</bookmark_value>
+</bookmark>
+    <section id="colorpagehead">
+        <h1 id="hd_id681578759272545"><variable id="colorpageh1"><link href="text/shared/01/05210200.xhp">Colors</link></variable></h1>
+        <paragraph role="paragraph" id="par_id3149119">Select a color to apply, save the current color list, or load a different color list.</paragraph>
+    </section>
+    <section id="howtoget">
+        <paragraph role="paragraph" id="par_id291578764209687">Press the <widget>Color</widget> button in one of the situations below:</paragraph>
+        <embed href="text/shared/00/00040502.xhp#area2"/>
+    </section>
+    <embed href="text/shared/06/shared_cui_screenshots.xhp#colorpage"/>
+    <h2 id="hd_id931578758906569">Colors</h2>
+
+    <section id="quickcolor">
+        <section id="palette">
+        <h3 id="hd_id551578758911321"><variable id="palette_hd">Palette</variable></h3>
+        <section id="palette_content"><paragraph role="paragraph" id="par_id411578758922329">Select the color palette in the list box to pick the color for the selected object. The palette color set displays below.</paragraph></section>
+    <note id="par_id441641431603505">The <emph>Theme colors</emph> palette shows the theme colors from the current theme, if the document has any.</note>
+    <note id="par_id441641431603506">The <emph>Document colors</emph> palette shows the colors used in the current document.</note>
+    </section>
+    <section id="recent_colors">
+        <h3 id="hd_id981578758969146"><variable id="recent_colors_hd">Recent colors</variable></h3>
+    <section id="recent_colors_content"><paragraph role="paragraph" id="par_id751578758975939">Displays the recent selected colors.</paragraph></section>
+    </section>
+        </section>
+    <section id="custom_palette">
+        <h3 id="hd_id41578758979874"><variable id="custom_palette_hd">Custom Palette</variable></h3>
+        <section id="custom_palette_content">
+            <paragraph role="paragraph" id="par_id641578758985603">Click <widget>Add</widget> to open a dialog to set a name for the custom color. The palette changes to "custom".</paragraph>
+            <paragraph role="paragraph" id="par_id191578758991563">Click <widget>Delete</widget> to delete the color from the custom palette.</paragraph>
+            <note id="par_id921578758048450">You cannot add or delete colors of the palettes provided by your installation.</note>
+        </section>
+    </section>
+
+    <section id="active">
+        <h2 id="hd_id991578758873888"><variable id="active_hd">Active</variable></h2>
+        <section id="active_content">
+            <paragraph role="paragraph" id="par_id361578758881241">Displays the current active color for the object. Red, blue and green components values and the color value in hexadecimal notation are displayed just below.</paragraph>
+        </section>
+    </section>
+    <section id="new">
+        <h2 id="hd_id801578758863952"><variable id="new_hd">New</variable></h2>
+        <section id="_content">
+            <paragraph role="paragraph" id="par_id271578758868425">Displays the new color for the object that will be applied when you click <widget>OK</widget>. </paragraph>
+        </section>
+    </section>
+    <section id="rgb">
+        <h3 id="hd_id701578758840552"><variable id="rgb_hd">R, G and B</variable></h3>
+        <section id="rgb_content">
+            <paragraph role="paragraph" id="par_id691578758845984">The values of the red, blue and green components of the new color. You can define the new color by entering the red, green and blue values in the respective <emph>R</emph>, <emph>G</emph> and <emph>B</emph> spin boxes. Allowed values are 0 to 255.</paragraph>
+        </section>
+    </section>
+    <section id="hex">
+        <h3 id="hd_id591578758836544"><variable id="hex_hd">Hex</variable></h3>
+        <section id="_content">
+            <paragraph role="paragraph" id="par_id121578758850944">The color value in hexadecimal notation. You can enter the hexadecimal value in the <emph>Hex</emph> text box.</paragraph>
+        </section>
+    </section>
+    <section id="colorpicker">
+        <h3 id="hd_id891578758832248"><variable id="colorpicker_hd">Pick</variable></h3>
+        <section id="colorpicker_content">
+            <paragraph role="paragraph" id="par_id131578758826856">Opens the <link href="text/shared/optionen/01010501.xhp">color picker dialog</link> for a graphical selection of the desired color.</paragraph>
+        </section>
+    </section>
+    <embed href="text/shared/00/00000001.xhp#reset2"/>
+    <section id="relatedtopics">
+        <embed href="text/shared/optionen/01010501.xhp#colorpickerh1"/>
+    </section>
+</body>
+</helpdocument>

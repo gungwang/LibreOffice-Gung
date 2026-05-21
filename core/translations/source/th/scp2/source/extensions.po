@@ -1,0 +1,107 @@
+#. extracted from scp2/source/extensions
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-02-12 21:43+0100\n"
+"PO-Revision-Date: 2024-03-27 13:30+0000\n"
+"Last-Translator: Theppitak Karoonboonyanan <theppitak@gmail.com>\n"
+"Language-Team: Thai <https://translations.documentfoundation.org/projects/libo_ui-master/scp2sourceextensions/th/>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1420857407.000000\n"
+
+#. AAPJH
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_EXTENSIONS\n"
+"LngText.text"
+msgid "Extensions"
+msgstr "ส่วนขยาย"
+
+#. myBG8
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_EXTENSIONS\n"
+"LngText.text"
+msgid "Useful %PRODUCTNAME extensions."
+msgstr "ส่วนขยาย %PRODUCTNAME อันเป็นประโยชน์"
+
+#. 6wjge
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_EXTENSIONS_MEDIAWIKI\n"
+"LngText.text"
+msgid "MediaWiki Publisher"
+msgstr "เครื่องมือปิดประกาศ MediaWiki"
+
+#. QKfYR
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_EXTENSIONS_MEDIAWIKI\n"
+"LngText.text"
+msgid "MediaWiki Publisher"
+msgstr "เครื่องมือปิดประกาศ MediaWiki"
+
+#. 5WGAK
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_EXTENSIONS_NLPSOLVER\n"
+"LngText.text"
+msgid "Solver for Nonlinear Programming"
+msgstr "เครื่องมือแก้โจทย์สำหรับการโปรแกรมไม่เชิงเส้น"
+
+#. EaiY8
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_EXTENSIONS_NLPSOLVER\n"
+"LngText.text"
+msgid "Solver for Nonlinear Programming"
+msgstr "เครื่องมือแก้โจทย์สำหรับการโปรแกรมไม่เชิงเส้น"
+
+#. LZweA
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_EXTENSIONS_SCRIPT_PROVIDER_FOR_BEANSHELL\n"
+"LngText.text"
+msgid "Script provider for BeanShell"
+msgstr "เครื่องมือสร้างสคริปต์สำหรับ BeanShell"
+
+#. CePGk
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_EXTENSIONS_SCRIPT_PROVIDER_FOR_BEANSHELL\n"
+"LngText.text"
+msgid "Script provider for BeanShell"
+msgstr "เครื่องมือสร้างสคริปต์สำหรับ BeanShell"
+
+#. vQJCy
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_EXTENSIONS_SCRIPT_PROVIDER_FOR_JAVASCRIPT\n"
+"LngText.text"
+msgid "Script provider for JavaScript"
+msgstr "เครื่องมือสร้างสคริปต์สำหรับ JavaScript"
+
+#. YAXrN
+#: module_extensions.ulf
+msgctxt ""
+"module_extensions.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_EXTENSIONS_SCRIPT_PROVIDER_FOR_JAVASCRIPT\n"
+"LngText.text"
+msgid "Script provider for JavaScript"
+msgstr "เครื่องมือสร้างสคริปต์สำหรับ JavaScript"

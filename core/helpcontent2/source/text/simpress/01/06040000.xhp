@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+
+		<helpdocument version="1.0">
+<meta>
+<topic id="textsimpress0106040000xml" indexer="include" status="PUBLISH">
+<title id="tit" xml-lang="en-US">Slide Transition</title>
+<filename>/text/simpress/01/06040000.xhp</filename>
+</topic>
+</meta>
+<body>
+<bookmark xml-lang="en-US" branch="index" id="bm_id3153142"><bookmark_value>slide transitions; manual</bookmark_value>
+<bookmark_value>slide transitions; sounds</bookmark_value>
+<bookmark_value>sounds; on slide transitions</bookmark_value>
+</bookmark><comment>MW transferred two index entries to the guide show.xhp.</comment>
+<bookmark xml-lang="en-US" branch="hid/.uno:SlideChangeWindow" id="bm_id8677792" localize="false"/>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/@@nowidget@@" id="bm_@@nowidget@@" localize="false"/>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/SlideTransitionsPanel" id="bm_id3146976" localize="false"/>
+<bookmark xml-lang="en-US" branch="hid/.uno:Dia" id="bm_id3150012" localize="false"/>
+<bookmark  branch="hid/SIDEBAR_SDSLIDETRANSITIONDECK" id="bm_id711703172623054" localize="false"/>
+<section id="slide_transition">
+  <h1 id="hd_id3153142"><link href="text/simpress/01/06040000.xhp">Slide Transition</link></h1>
+  <paragraph role="paragraph" id="par_id3154011" xml-lang="en-US"><ahelp hid=".">Defines the special effect that plays when you display a slide during a slide show.</ahelp></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/simpress/00/00000407.xhp#slide_transition"/>
+</section>
+<paragraph role="tip" id="par_id3154704" xml-lang="en-US">To apply the same transition effect to more than one slide, switch to the <link href="text/simpress/01/03100000.xhp">Slide Sorter</link>, select the slides, and then choose <emph>Slide - Slide Transition</emph>.</paragraph>
+
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/transitions_icons" id="bm_id9115573" localize="false"/>
+<h2 id="hd_id3149257">Slide Transition</h2>
+<paragraph role="paragraph" id="par_id3145790" xml-lang="en-US"><ahelp hid=".">Select the slide transition you want to use for the selected slides.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/variant_list" id="bm_id9115573" localize="false"/>
+<h2 id="par_idN106A5">Variant</h2>
+<paragraph role="paragraph" id="par_idN106AB" xml-lang="en-US"><ahelp hid=".">Select a variation of the transition.</ahelp> This list is only available for certain transitions.</paragraph>
+
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/transition_duration" id="bm_id1421246" localize="false"/><h3 id="hd_id3159207">Duration</h3>
+<paragraph role="paragraph" id="par_id3149048" xml-lang="en-US"><ahelp hid=".">Sets the duration of the slide transition.</ahelp></paragraph>
+
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/sound_list" id="bm_id2305673" localize="false"/><h3 id="hd_id3156304">Sound</h3>
+<paragraph role="paragraph" id="par_id3153212" xml-lang="en-US"><ahelp hid=".">Lists sounds that can played during the slide transition.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/loop_sound" id="bm_id8703573" localize="false"/><h3 id="par_idN1071E">Loop until next sound</h3>
+<paragraph role="paragraph" id="par_idN10724" xml-lang="en-US"><ahelp hid=".">Select to play the sound repeatedly until another sound starts.</ahelp></paragraph>
+<h2 id="par_idN10729">Advance slide</h2>
+<paragraph role="paragraph" id="par_idN10737" xml-lang="en-US"><ahelp hid=".">Specifies how to get the next slide.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/rb_mouse_click" id="bm_id6049684" localize="false"/><h3 id="par_idN1072F">On mouse click</h3>
+<paragraph role="paragraph" id="par_idN10744" xml-lang="en-US"><ahelp hid=".">Select to advance to the next slide on a mouse click.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/rb_auto_after" id="bm_id2219916" localize="false"/>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/auto_after_value" id="bm_id1868037" localize="false"/><h3 id="par_idN10735">Automatically after</h3>
+<paragraph role="paragraph" id="par_idN10751" xml-lang="en-US"><ahelp hid=".">Select to advance to the next slide after a number of seconds. Enter the seconds in the numerical field next to the spin button, or click the spin button.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/apply_to_all" id="bm_id714438" localize="false"/><h2 id="par_idN1073B">Apply Transition to All Slides</h2>
+<paragraph role="paragraph" id="par_idN1075E" xml-lang="en-US"><ahelp hid=".">Applies the selected slide transition to all slides in the current presentation document.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/play" id="bm_id3924985" localize="false"/><h2 id="par_idN10741">Play</h2>
+<paragraph role="paragraph" id="par_idN1076B" xml-lang="en-US"><ahelp hid=".">Shows the current slide transition as a preview.</ahelp></paragraph>
+<bookmark xml-lang="en-US" branch="hid/modules/simpress/ui/slidetransitionspanel/auto_preview" id="bm_id844141" localize="false"/><h2 id="par_idN1074D">Automatic preview</h2>
+<paragraph role="paragraph" id="par_idN10785" xml-lang="en-US"><ahelp hid=".">Select to see the slide transitions automatically in the document.</ahelp></paragraph>
+
+<section id="relatedtopics">
+  <embed href="text/simpress/guide/animated_slidechange.xhp#animated_slidechange"/>
+<embed href="text/simpress/guide/animated_objects.xhp#animated_objects"/>
+</section>
+</body>
+</helpdocument>

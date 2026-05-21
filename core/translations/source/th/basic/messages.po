@@ -1,0 +1,904 @@
+#. extracted from basic/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2024-09-16 19:50+0200\n"
+"PO-Revision-Date: 2025-09-11 12:53+0000\n"
+"Last-Translator: Aefgh3962 <aefgh3962@gmail.com>\n"
+"Language-Team: Thai <https://translations.documentfoundation.org/projects/libo_ui-master/basicmessages/th/>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1516031925.000000\n"
+
+#. CacXi
+#: basic/inc/basic.hrc:32
+msgctxt "RID_BASIC_START"
+msgid "Syntax error."
+msgstr "ไวยากรณ์ผิดพลาด"
+
+#. phEtF
+#: basic/inc/basic.hrc:33
+msgctxt "RID_BASIC_START"
+msgid "Return without Gosub."
+msgstr "Return โดยไม่มี Gosub"
+
+#. xGnDD
+#: basic/inc/basic.hrc:34
+msgctxt "RID_BASIC_START"
+msgid "Incorrect entry; please retry."
+msgstr "ป้อนข้อมูลไม่ถูกต้อง; กรุณาลองใหม่"
+
+#. SDAtt
+#: basic/inc/basic.hrc:35
+msgctxt "RID_BASIC_START"
+msgid "Invalid procedure call."
+msgstr "เรียกกระบวนคำสั่งไม่ถูกต้อง"
+
+#. ERmVC
+#: basic/inc/basic.hrc:36
+msgctxt "RID_BASIC_START"
+msgid "Overflow."
+msgstr "ค่าล้น"
+
+#. 2Cqdp
+#: basic/inc/basic.hrc:37
+msgctxt "RID_BASIC_START"
+msgid "Not enough memory."
+msgstr "หน่วยความจำไม่เพียงพอ"
+
+#. vQn2L
+#: basic/inc/basic.hrc:38
+msgctxt "RID_BASIC_START"
+msgid "Array already dimensioned."
+msgstr "อาร์เรย์ถูกกำหนดขนาดไว้แล้ว"
+
+#. iXC8S
+#: basic/inc/basic.hrc:39
+msgctxt "RID_BASIC_START"
+msgid "Index out of defined range."
+msgstr "ดัชนีเกินช่วงที่กำหนด"
+
+#. puyiQ
+#: basic/inc/basic.hrc:40
+msgctxt "RID_BASIC_START"
+msgid "Duplicate definition."
+msgstr "การนิยามซ้ำซ้อน"
+
+#. eqwCs
+#: basic/inc/basic.hrc:41
+msgctxt "RID_BASIC_START"
+msgid "Division by zero."
+msgstr "หารด้วยศูนย์"
+
+#. owjv6
+#: basic/inc/basic.hrc:42
+msgctxt "RID_BASIC_START"
+msgid "Variable not defined."
+msgstr "ตัวแปรไม่ได้นิยามไว้"
+
+#. oEA47
+#: basic/inc/basic.hrc:43
+msgctxt "RID_BASIC_START"
+msgid "Data type mismatch."
+msgstr "ชนิดข้อมูลไม่ตรงกัน"
+
+#. bFP4H
+#: basic/inc/basic.hrc:44
+msgctxt "RID_BASIC_START"
+msgid "Invalid parameter."
+msgstr "พารามิเตอร์ไม่ถูกต้อง"
+
+#. qZCrY
+#: basic/inc/basic.hrc:45
+msgctxt "RID_BASIC_START"
+msgid "Process interrupted by user."
+msgstr "โปรเซสถูกขัดจังหวะโดยผู้ใช้"
+
+#. nnqTQ
+#: basic/inc/basic.hrc:46
+msgctxt "RID_BASIC_START"
+msgid "Resume without error."
+msgstr "Resume โดยไม่ได้มีข้อผิดพลาด"
+
+#. QGuZq
+#: basic/inc/basic.hrc:47
+msgctxt "RID_BASIC_START"
+msgid "Not enough stack memory."
+msgstr "หน่วยความจำสแต็กไม่เพียงพอ"
+
+#. X8Anp
+#: basic/inc/basic.hrc:48
+msgctxt "RID_BASIC_START"
+msgid "Sub-procedure or function procedure not defined."
+msgstr "กระบวนคำสั่งหรือฟังก์ชันไม่ได้นิยามไว้"
+
+#. oF6VV
+#: basic/inc/basic.hrc:49
+msgctxt "RID_BASIC_START"
+msgid "Error loading DLL file."
+msgstr "เกิดข้อผิดพลาดขณะโหลดไฟล์ DLL"
+
+#. 9MUQ8
+#: basic/inc/basic.hrc:50
+msgctxt "RID_BASIC_START"
+msgid "Wrong DLL call convention."
+msgstr "ข้อตกลงในการเรียก DLL ไม่ถูกต้อง"
+
+#. AoHjH
+#: basic/inc/basic.hrc:51
+msgctxt "RID_BASIC_START"
+msgid "Internal error $(ARG1)."
+msgstr "ข้อผิดพลาดภายใน $(ARG1)"
+
+#. wgNZg
+#: basic/inc/basic.hrc:52
+msgctxt "RID_BASIC_START"
+msgid "Invalid file name or file number."
+msgstr "ชื่อหรือหมายเลขไฟล์ไม่ถูกต้อง"
+
+#. cdGJ5
+#: basic/inc/basic.hrc:53
+msgctxt "RID_BASIC_START"
+msgid "File not found."
+msgstr "ไม่พบไฟล์"
+
+#. RQB3i
+#: basic/inc/basic.hrc:54
+msgctxt "RID_BASIC_START"
+msgid "Incorrect file mode."
+msgstr "โหมดของไฟล์ไม่ถูกต้อง"
+
+#. 2UUYj
+#: basic/inc/basic.hrc:55
+msgctxt "RID_BASIC_START"
+msgid "File already open."
+msgstr "ไฟล์เปิดอยู่แล้ว"
+
+#. BRx4X
+#: basic/inc/basic.hrc:56
+msgctxt "RID_BASIC_START"
+msgid "Device I/O error."
+msgstr "I/O ของอุปกรณ์ผิดพลาด"
+
+#. 3wGUY
+#: basic/inc/basic.hrc:57
+msgctxt "RID_BASIC_START"
+msgid "File already exists."
+msgstr "มีไฟล์อยู่แล้ว"
+
+#. rAFCG
+#: basic/inc/basic.hrc:58
+msgctxt "RID_BASIC_START"
+msgid "Incorrect record length."
+msgstr "ความยาวของระเบียนไม่ถูกต้อง"
+
+#. EnLKw
+#: basic/inc/basic.hrc:59
+msgctxt "RID_BASIC_START"
+msgid "Disk or hard drive full."
+msgstr "ดิสก์หรือฮาร์ดไดรฟ์เต็ม"
+
+#. BFTP8
+#: basic/inc/basic.hrc:60
+msgctxt "RID_BASIC_START"
+msgid "Reading exceeds EOF."
+msgstr "อ่านเกินจุดสิ้นสุดไฟล์"
+
+#. nuyE7
+#: basic/inc/basic.hrc:61
+msgctxt "RID_BASIC_START"
+msgid "Incorrect record number."
+msgstr "หมายเลขระเบียนไม่ถูกต้อง"
+
+#. sgdJF
+#: basic/inc/basic.hrc:62
+msgctxt "RID_BASIC_START"
+msgid "Too many files."
+msgstr "เปิดไฟล์มากเกินไป"
+
+#. 3iiGy
+#: basic/inc/basic.hrc:63
+msgctxt "RID_BASIC_START"
+msgid "Device not available."
+msgstr "อุปกรณ์ไม่มีอยู่"
+
+#. k7uzP
+#: basic/inc/basic.hrc:64
+msgctxt "RID_BASIC_START"
+msgid "Access denied."
+msgstr "การเข้าถึงถูกปฏิเสธ"
+
+#. WcKob
+#: basic/inc/basic.hrc:65
+msgctxt "RID_BASIC_START"
+msgid "Disk not ready."
+msgstr "ดิสก์ไม่พร้อม"
+
+#. JgiDa
+#: basic/inc/basic.hrc:66
+msgctxt "RID_BASIC_START"
+msgid "Not implemented."
+msgstr "ยังไม่รองรับ"
+
+#. mAxmt
+#: basic/inc/basic.hrc:67
+msgctxt "RID_BASIC_START"
+msgid "Renaming on different drives impossible."
+msgstr "ไม่อาจเปลี่ยนชื่อในไดรฟ์คนละไดรฟ์ได้"
+
+#. 8gEYf
+#: basic/inc/basic.hrc:68
+msgctxt "RID_BASIC_START"
+msgid "Path/File access error."
+msgstr "เกิดข้อผิดพลาดในการเข้าถึงพาธ/ไฟล์"
+
+#. JefUT
+#: basic/inc/basic.hrc:69
+msgctxt "RID_BASIC_START"
+msgid "Path not found."
+msgstr "ไม่พบพาธ"
+
+#. QXDRW
+#: basic/inc/basic.hrc:70
+msgctxt "RID_BASIC_START"
+msgid "Object variable not set."
+msgstr "ไม่มีการกำหนดค่าตัวแปรวัตถุ"
+
+#. Y9yi3
+#: basic/inc/basic.hrc:71
+msgctxt "RID_BASIC_START"
+msgid "Invalid string pattern."
+msgstr "การบังคับรูปแบบสตริงไม่ถูกต้อง"
+
+#. K7DhF
+#: basic/inc/basic.hrc:72
+msgctxt "RID_BASIC_START"
+msgid "Use of zero not permitted."
+msgstr "ไม่อนุญาตให้ใช้ค่าศูนย์"
+
+#. cJT8h
+#: basic/inc/basic.hrc:73
+msgctxt "RID_BASIC_START"
+msgid "DDE Error."
+msgstr "ข้อผิดพลาดของ DDE"
+
+#. 6GqpS
+#: basic/inc/basic.hrc:74
+msgctxt "RID_BASIC_START"
+msgid "Awaiting response to DDE connection."
+msgstr "กำลังรอการตอบสนองการเชื่อมต่อ DDE"
+
+#. eoE3n
+#: basic/inc/basic.hrc:75
+msgctxt "RID_BASIC_START"
+msgid "No DDE channels available."
+msgstr "ไม่มีช่อง DDE ที่ใช้ได้"
+
+#. uX7nT
+#: basic/inc/basic.hrc:76
+msgctxt "RID_BASIC_START"
+msgid "No application responded to DDE connect initiation."
+msgstr "ไม่มีแอปพลิเคชันใดตอบสนองการเปิดการเชื่อมต่อ DDE"
+
+#. TNaxB
+#: basic/inc/basic.hrc:77
+msgctxt "RID_BASIC_START"
+msgid "Too many applications responded to DDE connect initiation."
+msgstr "มีแอปพลิเคชันตอบสนองการเปิดการเชื่อมต่อ DDE มากเกินไป"
+
+#. VroGT
+#: basic/inc/basic.hrc:78
+msgctxt "RID_BASIC_START"
+msgid "DDE channel locked."
+msgstr "ช่อง DDE ถูกล็อค"
+
+#. Vg79x
+#: basic/inc/basic.hrc:79
+msgctxt "RID_BASIC_START"
+msgid "External application cannot execute DDE operation."
+msgstr "แอปพลิเคชันภายนอกไม่สามารถเรียกทำงานปฏิบัติการของ DDE ได้"
+
+#. DnKBx
+#: basic/inc/basic.hrc:80
+msgctxt "RID_BASIC_START"
+msgid "Timeout while waiting for DDE response."
+msgstr "หมดเวลารอการตอบสนองทาง DDE"
+
+#. 4q3yy
+#: basic/inc/basic.hrc:81
+msgctxt "RID_BASIC_START"
+msgid "User pressed ESCAPE during DDE operation."
+msgstr "ผู้ใช้กดปุ่ม ESCAPE ระหว่างปฏิบัติการ DDE"
+
+#. 7WymF
+#: basic/inc/basic.hrc:82
+msgctxt "RID_BASIC_START"
+msgid "External application busy."
+msgstr "แอปพลิเคชันภายนอกไม่ว่าง"
+
+#. GGDRf
+#: basic/inc/basic.hrc:83
+msgctxt "RID_BASIC_START"
+msgid "DDE operation without data."
+msgstr "ปฏิบัติการ DDE ไม่มีข้อมูล"
+
+#. p7sHC
+#: basic/inc/basic.hrc:84
+msgctxt "RID_BASIC_START"
+msgid "Data are in wrong format."
+msgstr "ข้อมูลอยู่ในรูปแบบที่ไม่ถูกต้อง"
+
+#. JDnmB
+#: basic/inc/basic.hrc:85
+msgctxt "RID_BASIC_START"
+msgid "External application has been terminated."
+msgstr "แอปพลิเคชันภายนอกได้จบการทำงานแล้ว"
+
+#. VT4R2
+#: basic/inc/basic.hrc:86
+msgctxt "RID_BASIC_START"
+msgid "DDE connection interrupted or modified."
+msgstr "การเชื่อมต่อ DDE ถูกขัดจังหวะหรือปรับเปลี่ยน"
+
+#. DgSMR
+#: basic/inc/basic.hrc:87
+msgctxt "RID_BASIC_START"
+msgid "DDE method invoked with no channel open."
+msgstr "เมทอด DDE ถูกเรียกใช้โดยไม่ได้เปิดช่องเชื่อมต่อ"
+
+#. RHck4
+#: basic/inc/basic.hrc:88
+msgctxt "RID_BASIC_START"
+msgid "Invalid DDE link format."
+msgstr "รูปแบบของลิงก์ DDE ไม่ถูกต้อง"
+
+#. DUsPA
+#: basic/inc/basic.hrc:89
+msgctxt "RID_BASIC_START"
+msgid "DDE message has been lost."
+msgstr "ข้อความ DDE สูญหาย"
+
+#. FhoZY
+#: basic/inc/basic.hrc:90
+msgctxt "RID_BASIC_START"
+msgid "Paste link already performed."
+msgstr "วางลิงก์ไปแล้ว"
+
+#. SQyEF
+#: basic/inc/basic.hrc:91
+msgctxt "RID_BASIC_START"
+msgid "Link mode cannot be set due to invalid link topic."
+msgstr "ไม่สามารถกำหนดค่าโหมดของลิงก์ได้เนื่องจากหัวข้อในลิงก์ไม่ถูกต้อง"
+
+#. J2Rf3
+#: basic/inc/basic.hrc:92
+msgctxt "RID_BASIC_START"
+msgid "DDE requires the DDEML.DLL file."
+msgstr "DDE ต้องใช้ไฟล์ DDEML.DLL"
+
+#. yfBfX
+#: basic/inc/basic.hrc:93
+msgctxt "RID_BASIC_START"
+msgid "Module cannot be loaded; invalid format."
+msgstr "ไม่สามารถโหลดมอดูลได้ เนื่องจากรูปแบบไม่ถูกต้อง"
+
+#. eCEEV
+#: basic/inc/basic.hrc:94
+msgctxt "RID_BASIC_START"
+msgid "Invalid object index."
+msgstr "ดัชนีวัตถุไม่ถูกต้อง"
+
+#. GLCzx
+#: basic/inc/basic.hrc:95
+msgctxt "RID_BASIC_START"
+msgid "Object is not available."
+msgstr "วัตถุไม่พร้อมใช้งาน"
+
+#. nfXrp
+#: basic/inc/basic.hrc:96
+msgctxt "RID_BASIC_START"
+msgid "Incorrect property value."
+msgstr "ค่าคุณสมบัติไม่ถูกต้อง"
+
+#. 8qjhR
+#: basic/inc/basic.hrc:97
+msgctxt "RID_BASIC_START"
+msgid "This property is read-only."
+msgstr "คุณสมบัตินี้อ่านได้อย่างเดียว"
+
+#. ScKEy
+#: basic/inc/basic.hrc:98
+msgctxt "RID_BASIC_START"
+msgid "This property is write only."
+msgstr "คุณสมบัตินี้เขียนได้อย่างเดียว"
+
+#. kTCMC
+#: basic/inc/basic.hrc:99
+msgctxt "RID_BASIC_START"
+msgid "Invalid object reference."
+msgstr "การอ้างอิงวัตถุไม่ถูกต้อง"
+
+#. fz98J
+#: basic/inc/basic.hrc:100
+msgctxt "RID_BASIC_START"
+msgid "Property or method not found: $(ARG1)."
+msgstr "ไม่พบคุณสมบัติหรือเมทอด: $(ARG1)"
+
+#. rWwbT
+#: basic/inc/basic.hrc:101
+msgctxt "RID_BASIC_START"
+msgid "Object required."
+msgstr "ต้องการวัตถุ"
+
+#. b3XBE
+#: basic/inc/basic.hrc:102
+msgctxt "RID_BASIC_START"
+msgid "Invalid use of an object."
+msgstr "การใช้งานวัตถุไม่ถูกต้อง"
+
+#. pM7Vq
+#: basic/inc/basic.hrc:103
+msgctxt "RID_BASIC_START"
+msgid "OLE Automation is not supported by this object."
+msgstr "วัตถุนี้ไม่รองรับการทำ OLE อัตโนมัติ"
+
+#. HMAey
+#: basic/inc/basic.hrc:104
+msgctxt "RID_BASIC_START"
+msgid "This property or method is not supported by the object."
+msgstr "วัตถุไม่รองรับคุณสมบัติหรือเมทอดนี้"
+
+#. DMts6
+#: basic/inc/basic.hrc:105
+msgctxt "RID_BASIC_START"
+msgid "OLE Automation Error."
+msgstr "เกิดข้อผิดพลาดในการทำ OLE อัตโนมัติ"
+
+#. 3VsB3
+#: basic/inc/basic.hrc:106
+msgctxt "RID_BASIC_START"
+msgid "This action is not supported by given object."
+msgstr "วัตถุที่ให้มาไม่รองรับการกระทำนี้"
+
+#. vgvzF
+#: basic/inc/basic.hrc:107
+msgctxt "RID_BASIC_START"
+msgid "Named arguments are not supported by given object."
+msgstr "วัตถุที่ให้มาไม่รองรับอาร์กิวเมนต์ที่ระบุชื่อ"
+
+#. 4aZxy
+#: basic/inc/basic.hrc:108
+msgctxt "RID_BASIC_START"
+msgid "The current locale setting is not supported by the given object."
+msgstr "วัตถุที่ให้มาไม่รองรับการตั้งค่าภาษาท้องถิ่นปัจจุบัน"
+
+#. AoqGh
+#: basic/inc/basic.hrc:109
+msgctxt "RID_BASIC_START"
+msgid "Named argument not found."
+msgstr "ไม่พบอาร์กิวเมนต์ที่ระบุชื่อ"
+
+#. G2sC5
+#: basic/inc/basic.hrc:110
+msgctxt "RID_BASIC_START"
+msgid "Argument is not optional."
+msgstr "อาร์กิวเมนต์ไม่สามารถละได้"
+
+#. v78nF
+#: basic/inc/basic.hrc:111 basic/inc/basic.hrc:119
+msgctxt "RID_BASIC_START"
+msgid "Invalid number of arguments."
+msgstr "จำนวนอาร์กิวเมนต์ไม่ถูกต้อง"
+
+#. DVFF3
+#: basic/inc/basic.hrc:112
+msgctxt "RID_BASIC_START"
+msgid "Object is not a list."
+msgstr "วัตถุไม่ใช่รายการ"
+
+#. zDijP
+#: basic/inc/basic.hrc:113
+msgctxt "RID_BASIC_START"
+msgid "Invalid ordinal number."
+msgstr "เลขลำดับไม่ถูกต้อง"
+
+#. uY35B
+#: basic/inc/basic.hrc:114
+msgctxt "RID_BASIC_START"
+msgid "Specified DLL function not found."
+msgstr "ไม่พบฟังก์ชัน DLL ที่ระบุ"
+
+#. MPTAv
+#: basic/inc/basic.hrc:115
+msgctxt "RID_BASIC_START"
+msgid "Invalid clipboard format."
+msgstr "รูปแบบคลิปบอร์ดไม่ถูกต้อง"
+
+#. UC2FV
+#: basic/inc/basic.hrc:116
+msgctxt "RID_BASIC_START"
+msgid "Object does not have this property."
+msgstr "วัตถุไม่มีคุณสมบัตินี้"
+
+#. 9JEU2
+#: basic/inc/basic.hrc:117
+msgctxt "RID_BASIC_START"
+msgid "Object does not have this method."
+msgstr "วัตถุไม่มีเมทอดนี้"
+
+#. azsCo
+#: basic/inc/basic.hrc:118
+msgctxt "RID_BASIC_START"
+msgid "Required argument lacking."
+msgstr "ขาดอาร์กิวเมนต์ที่จำเป็น"
+
+#. 9WA8D
+#: basic/inc/basic.hrc:120
+msgctxt "RID_BASIC_START"
+msgid "Error executing a method."
+msgstr "เกิดข้อผิดพลาดขณะเรียกทำงานเมทอด"
+
+#. N3vcw
+#: basic/inc/basic.hrc:121
+msgctxt "RID_BASIC_START"
+msgid "Unable to set property."
+msgstr "ไม่สามารถกำหนดค่าคุณสมบัติได้"
+
+#. k82XW
+#: basic/inc/basic.hrc:122
+msgctxt "RID_BASIC_START"
+msgid "Unable to determine property."
+msgstr "ไม่สามารถอ่านค่าคุณสมบัติได้"
+
+#. 5cGpa
+#. Compiler errors. These are not runtime errors.
+#: basic/inc/basic.hrc:124
+msgctxt "RID_BASIC_START"
+msgid "Unexpected symbol: $(ARG1)."
+msgstr "พบสัญลักษณ์ที่ไม่คาดหมาย: $(ARG1)"
+
+#. SBpod
+#: basic/inc/basic.hrc:125
+msgctxt "RID_BASIC_START"
+msgid "Expected: $(ARG1)."
+msgstr "คาดหมาย: $(ARG1)"
+
+#. JBaEp
+#: basic/inc/basic.hrc:126
+msgctxt "RID_BASIC_START"
+msgid "Symbol expected."
+msgstr "คาดหมายสัญลักษณ์"
+
+#. CkAE9
+#: basic/inc/basic.hrc:127
+msgctxt "RID_BASIC_START"
+msgid "Variable expected."
+msgstr "คาดหมายตัวแปร"
+
+#. DS5cS
+#: basic/inc/basic.hrc:128
+msgctxt "RID_BASIC_START"
+msgid "Label expected."
+msgstr "คาดหมายป้ายชื่อ"
+
+#. k2myJ
+#: basic/inc/basic.hrc:129
+msgctxt "RID_BASIC_START"
+msgid "Value cannot be applied."
+msgstr "ไม่สามารถใช้ค่าที่ไม่ใช่แหล่งเก็บได้"
+
+#. oPCtL
+#: basic/inc/basic.hrc:130
+msgctxt "RID_BASIC_START"
+msgid "Variable $(ARG1) already defined."
+msgstr "มีการนิยามตัวแปร $(ARG1) ไว้แล้ว"
+
+#. WmiB6
+#: basic/inc/basic.hrc:131
+msgctxt "RID_BASIC_START"
+msgid "Sub procedure or function procedure $(ARG1) already defined."
+msgstr "มีการนิยามกระบวนคำสั่งหรือฟังก์ชัน $(ARG1) ไว้แล้ว"
+
+#. byksZ
+#: basic/inc/basic.hrc:132
+msgctxt "RID_BASIC_START"
+msgid "Label $(ARG1) already defined."
+msgstr "มีการนิยามป้ายชื่อ $(ARG1) ไว้แล้ว"
+
+#. GHdG4
+#: basic/inc/basic.hrc:133
+msgctxt "RID_BASIC_START"
+msgid "Variable $(ARG1) not found."
+msgstr "ไม่พบตัวแปร $(ARG1)"
+
+#. DksBU
+#: basic/inc/basic.hrc:134
+msgctxt "RID_BASIC_START"
+msgid "Array or procedure $(ARG1) not found."
+msgstr "ไม่พบอาร์เรย์หรือกระบวนคำสั่ง $(ARG1)"
+
+#. 7CD6B
+#: basic/inc/basic.hrc:135
+msgctxt "RID_BASIC_START"
+msgid "Procedure $(ARG1) not found."
+msgstr "ไม่พบกระบวนคำสั่ง $(ARG1)"
+
+#. GREm3
+#: basic/inc/basic.hrc:136
+msgctxt "RID_BASIC_START"
+msgid "Label $(ARG1) undefined."
+msgstr "ป้ายชื่อ $(ARG1) ไม่ได้นิยามไว้"
+
+#. 2VFZq
+#: basic/inc/basic.hrc:137
+msgctxt "RID_BASIC_START"
+msgid "Unknown data type $(ARG1)."
+msgstr "ไม่รู้จักชนิดข้อมูล $(ARG1)"
+
+#. hvsH3
+#: basic/inc/basic.hrc:138
+msgctxt "RID_BASIC_START"
+msgid "Exit $(ARG1) expected."
+msgstr "คาดหมายการออก $(ARG1)"
+
+#. 7kZX5
+#: basic/inc/basic.hrc:139
+msgctxt "RID_BASIC_START"
+msgid "Statement block still open: $(ARG1) missing."
+msgstr "บล็อคถ้อยแถลงยังเปิดอยู่: $(ARG1) หายไป"
+
+#. EysAe
+#: basic/inc/basic.hrc:140
+msgctxt "RID_BASIC_START"
+msgid "Parentheses do not match."
+msgstr "วงเล็บไม่ตรงกัน"
+
+#. tGqRY
+#: basic/inc/basic.hrc:141
+msgctxt "RID_BASIC_START"
+msgid "Symbol $(ARG1) already defined differently."
+msgstr "สัญลักษณ์ $(ARG1) ถูกนิยามเป็นอย่างอื่นไปแล้ว"
+
+#. Nvysh
+#: basic/inc/basic.hrc:142
+msgctxt "RID_BASIC_START"
+msgid "Parameters do not correspond to procedure."
+msgstr "พารามิเตอร์ไม่สอดคล้องกับกระบวนคำสั่ง"
+
+#. aLCNz
+#: basic/inc/basic.hrc:143
+msgctxt "RID_BASIC_START"
+msgid "Invalid character in number."
+msgstr "อักขระไม่ถูกต้องในตัวเลข"
+
+#. ZL3GF
+#: basic/inc/basic.hrc:144
+msgctxt "RID_BASIC_START"
+msgid "Array must be dimensioned."
+msgstr "อาร์เรย์ต้องมีการกำหนดจำนวนช่อง"
+
+#. bvzvK
+#: basic/inc/basic.hrc:145
+msgctxt "RID_BASIC_START"
+msgid "Else/Endif without If."
+msgstr "Else/Endif โดยไม่มี If"
+
+#. BPHwC
+#: basic/inc/basic.hrc:146
+msgctxt "RID_BASIC_START"
+msgid "$(ARG1) not allowed within a procedure."
+msgstr "ไม่อนุญาตให้ $(ARG1) อยู่ในกระบวนคำสั่ง"
+
+#. t4CFy
+#: basic/inc/basic.hrc:147
+msgctxt "RID_BASIC_START"
+msgid "$(ARG1) not allowed outside a procedure."
+msgstr "ไม่อนุญาตให้ $(ARG1) อยู่นอกกระบวนคำสั่ง"
+
+#. BAmBZ
+#: basic/inc/basic.hrc:148
+msgctxt "RID_BASIC_START"
+msgid "Dimension specifications do not match."
+msgstr "การระบุจำนวนช่องไม่ตรงกัน"
+
+#. kKjmy
+#: basic/inc/basic.hrc:149
+msgctxt "RID_BASIC_START"
+msgid "Unknown option: $(ARG1)."
+msgstr "ไม่รู้จักตัวเลือก: $(ARG1)"
+
+#. LCo58
+#: basic/inc/basic.hrc:150
+msgctxt "RID_BASIC_START"
+msgid "Constant $(ARG1) redefined."
+msgstr "นิยามค่าคงที่ $(ARG1) ถูกเปลี่ยน"
+
+#. Dx6YA
+#: basic/inc/basic.hrc:151
+msgctxt "RID_BASIC_START"
+msgid "Program too large."
+msgstr "โปรแกรมใหญ่เกินไป"
+
+#. aAKCD
+#: basic/inc/basic.hrc:152
+msgctxt "RID_BASIC_START"
+msgid "Strings or arrays not permitted."
+msgstr "ไม่อนุญาตให้ใช้สตริงหรืออาร์เรย์"
+
+#. gqBGJ
+#: basic/inc/basic.hrc:153
+msgctxt "RID_BASIC_START"
+msgid "An exception occurred $(ARG1)."
+msgstr "เกิดความผิดปรกติ $(ARG1)"
+
+#. YTygS
+#: basic/inc/basic.hrc:154
+msgctxt "RID_BASIC_START"
+msgid "This array is fixed or temporarily locked."
+msgstr "อาร์เรย์นี้เป็นแบบคงที่หรือถูกล็อคชั่วคราว"
+
+#. AwvaS
+#: basic/inc/basic.hrc:155
+msgctxt "RID_BASIC_START"
+msgid "Out of string space."
+msgstr "พื้นที่สตริงไม่พอ"
+
+#. VosXA
+#: basic/inc/basic.hrc:156
+msgctxt "RID_BASIC_START"
+msgid "Expression Too Complex."
+msgstr "นิพจน์ซับซ้อนเกินไป"
+
+#. fYWci
+#: basic/inc/basic.hrc:157
+msgctxt "RID_BASIC_START"
+msgid "Can't perform requested operation."
+msgstr "ไม่สามารถกระทำปฏิบัติการที่ร้องขอ"
+
+#. oGvjJ
+#: basic/inc/basic.hrc:158
+msgctxt "RID_BASIC_START"
+msgid "Too many DLL application clients."
+msgstr "มีแอปพลิเคชันเข้าใช้ DLL มากเกินไป"
+
+#. tC47t
+#: basic/inc/basic.hrc:159
+msgctxt "RID_BASIC_START"
+msgid "For loop not initialized."
+msgstr "วงวน For ไม่ได้ตั้งต้นค่า"
+
+#. DA4GN
+#: basic/inc/basic.hrc:160
+msgctxt "RID_BASIC_START"
+msgid "$(ARG1)"
+msgstr "$(ARG1)"
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "เ_พิ่ม"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "เ_ริ่มใช้"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "_ยกเลิก"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "ปิ_ด"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_ลบ"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "แ_ก้ไข"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "_วิธีใช้"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "ให_ม่"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "ไ_ม่"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_ตกลง"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "ตัด_ออก"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "_ล้างค่า"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "ใ_ช่"
+
+#. Vtc9n
+#: basic/inc/strings.hrc:24
+msgctxt "STR_BASICKEY_FORMAT_ON"
+msgid "On"
+msgstr "เปิด"
+
+#. yUCEp
+#: basic/inc/strings.hrc:25
+msgctxt "STR_BASICKEY_FORMAT_OFF"
+msgid "Off"
+msgstr "ปิด"
+
+#. iGZeR
+#: basic/inc/strings.hrc:26
+msgctxt "STR_BASICKEY_FORMAT_TRUE"
+msgid "True"
+msgstr "จริง"
+
+#. Vcbum
+#: basic/inc/strings.hrc:27
+msgctxt "STR_BASICKEY_FORMAT_FALSE"
+msgid "False"
+msgstr "เท็จ"
+
+#. wGj5U
+#: basic/inc/strings.hrc:28
+msgctxt "STR_BASICKEY_FORMAT_YES"
+msgid "Yes"
+msgstr "ใช่"
+
+#. TYgJR
+#: basic/inc/strings.hrc:29
+msgctxt "STR_BASICKEY_FORMAT_NO"
+msgid "No"
+msgstr "ไม่ใช่"
+
+#. YXUyZ
+#. format currency: do not localize decimal separators and currency symbol - that is done in code
+#: basic/inc/strings.hrc:31
+msgctxt "STR_BASICKEY_FORMAT_CURRENCY"
+msgid "@0.00 $;@(0.00 $)"
+msgstr "@0.00 $;@(0.00 $)"
+
+#. AP2X4
+#: basic/inc/strings.hrc:33
+msgctxt "IDS_SBERR_TERMINATED"
+msgid "The macro running has been interrupted"
+msgstr "การทำงานของแมโครถูกขัดจังหวะ"
+
+#. En542
+#: basic/inc/strings.hrc:34
+msgctxt "STR_ADDITIONAL_INFO"
+msgid ""
+"$ERR\n"
+"Additional information: $MSG"
+msgstr ""
+"$ERR\n"
+"ข้อมูลเพิ่มเติม: $MSG"

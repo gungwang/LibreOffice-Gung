@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+    <!--
+    * This file is part of the LibreOffice project.
+    *
+    * This Source Code Form is subject to the terms of the Mozilla Public
+    * License, v. 2.0. If a copy of the MPL was not distributed with this
+    * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+    *
+    -->
+
+    <meta>
+        <topic id="textscalc01func_xmatchxhp" indexer="include" status="PUBLISH">
+        <title id="tit">XMATCH Function</title>
+        <filename>/text/scalc/01/func_xmatch.xhp</filename>
+    </topic>
+</meta>
+<body>
+<bookmark branch="hid/SC_HID_FUNC_XMATCH_MS" id="bm_id501708280229180" localize="false"/>
+<bookmark branch="index" id="bm_id361708283183878">
+    <bookmark_value>XMATCH function</bookmark_value>
+</bookmark>
+<section id="xmatch">
+    <h1 id="hd_id821708279355736"><variable id="h1"><link href="text/scalc/01/func_xmatch.xhp">XMATCH</link></variable></h1>
+    <paragraph id="par_id581708279355738" role="paragraph">Searches for a value in a one-dimensional array and returns the relative position of the item.</paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id321716754048322">XMATCH outperforms function <link href="text/scalc/01/04060109.xhp#Section12">MATCH</link> as it allows searches according to the search mode.</paragraph>
+
+<embed href="text/scalc/01/ful_func.xhp#func_head_syntax"/>
+<paragraph role="code" id="par_id211708281649651">XMATCH(Search criterion; Search Array [; Match Mode [; Search Mode ] ] )</paragraph>
+<paragraph role="paragraph" id="par_id861708281340704"><emph>Search criterion</emph>: The value of any type to search for in <emph>Search Array</emph>.</paragraph>
+<paragraph role="paragraph" id="par_id831708281625340"><emph>Search Array</emph>: is the reference of the array or range to search.</paragraph>
+
+<paragraph role="paragraph" id="par_id121708281643207"><emph>Match Mode</emph>: (optional) specifies the match type. Values can be:</paragraph>
+<list type="unordered">
+    <listitem>
+        <paragraph id="par_id111708281542144" role="listitem"><emph>0</emph>: exact match (default). If <emph>Search criterion</emph> value is not found, then return the #N/A error.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id851708281548335" role="listitem"><emph>-1</emph>: attempt exact match. If <emph>Search criterion</emph> value is not found, then return the next smaller item.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id801708281553430" role="listitem"><emph>1</emph>: attempt exact match. If <emph>Search criterion</emph> value is not found, then return the next larger item.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id881708281558005" role="listitem"><emph>2</emph>: a <link href="text/scalc/guide/wildcards.xhp">wildcard</link> match where characters *, ?, and ~ have special meanings.</paragraph>
+    </listitem>
+    <listitem>
+    <paragraph role="listitem" id="par_id111718970605394"><emph>3</emph>: a <link href="text/shared/01/02100001.xhp">regular expression</link> match.</paragraph>
+    </listitem>
+    </list>
+<embed href="text/scalc/01/func_xlookup.xhp#searchmode"/>
+<embed href="text/scalc/01/common_func.xhp#optional_args"/>
+
+<embed href="text/scalc/01/ful_func.xhp#func_head_example"/>
+<embed href="text/scalc/01/04060109.xhp#xmpl_periodic_elements"/>
+<paragraph role="paragraph" id="par_id471716753503759"><input>=XMATCH("Atomic Number"; A1:A4)</input> returns 3, the third line of the A1:A4 array.</paragraph>
+<paragraph role="paragraph" id="par_id581716753499133"><input>=XMATCH("Li"; A2:DO2)</input> returns 4, the fourth column of the A2:DO2 array.</paragraph>
+<embed href="text/scalc/01/common_func.xhp#sectiontechinfo"/>
+<embed href="text/scalc/00/avail_release.xhp#24.8"/>
+<embed href="text/scalc/01/common_func.xhp#notODFF"/>
+<paragraph role="paragraph" id="par_id341640870986703" localize="false"><literal>COM.MICROSOFT.XMATCH</literal></paragraph>
+<section id="relatedtopics">
+    <paragraph role="paragraph" id="par_id71708365909272" localize="false"><embedvar href="text/scalc/01/func_xlookup.xhp#h1" markup="ignore"/></paragraph>
+    <tip id="par_id701677016751508"><link href="https://wiki.documentfoundation.org/Documentation/Calc_Functions/XMATCH">XMATCH wiki page</link>.</tip>
+</section>
+</body>
+</helpdocument>
+

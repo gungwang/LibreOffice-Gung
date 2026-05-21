@@ -1,0 +1,107 @@
+#. extracted from extras/source/gallery/share
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2022-12-21 18:06+0100\n"
+"PO-Revision-Date: 2026-03-03 15:43+0000\n"
+"Last-Translator: Xəyyam Qocayev <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <https://translations.documentfoundation.org/projects/libo_ui-master/extrassourcegalleryshare/az/>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1519741553.000000\n"
+
+#. 88PiB
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"arrows_name\n"
+"LngText.text"
+msgid "Arrows"
+msgstr "Oxlar"
+
+#. Fcud3
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"backgrounds_name\n"
+"LngText.text"
+msgid "Backgrounds"
+msgstr "Arxa fonlar"
+
+#. apeRs
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"bullets_name\n"
+"LngText.text"
+msgid "Bullets"
+msgstr "Markerlər"
+
+#. LddYM
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"bpmn_name\n"
+"LngText.text"
+msgid "BPMN"
+msgstr "İş prosesi modeli"
+
+#. QY2xF
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"diagrams_name\n"
+"LngText.text"
+msgid "Diagrams"
+msgstr "Diaqramlar"
+
+#. Hu7eP
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"flowchart_name\n"
+"LngText.text"
+msgid "Flow chart"
+msgstr "Axın qrafiki"
+
+#. mdGnB
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"icons_name\n"
+"LngText.text"
+msgid "Icons"
+msgstr "Nişanlar"
+
+#. oQBvV
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"network_name\n"
+"LngText.text"
+msgid "Network"
+msgstr "Şəbəkə"
+
+#. zEAoE
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"shapes_name\n"
+"LngText.text"
+msgid "Shapes"
+msgstr "Fiqurlar"
+
+#. pjF4a
+#: gallery_names.ulf
+msgctxt ""
+"gallery_names.ulf\n"
+"sounds_name\n"
+"LngText.text"
+msgid "Sounds"
+msgstr "Sәslәr"

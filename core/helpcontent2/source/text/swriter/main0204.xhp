@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+<topic id="textswritermain0204xml" indexer="include">
+<title id="tit">Table Bar</title>
+<filename>/text/swriter/main0204.xhp</filename>
+</topic>
+</meta>
+<body>
+<section id="table_bar">
+<bookmark branch="hid/HID_TABLE_TOOLBOX" id="bm_id3154243" localize="false"/>
+<bookmark branch="hid/.uno:AvailableToolbars?Toolbar:string=tableobjectbar" id="bm_id681690980530622" localize="false"/>
+<h1 id="hd_id3145587"><link href="text/swriter/main0204.xhp">Table Bar</link></h1>
+<paragraph role="paragraph" id="par_id3154252"><ahelp hid="HID_TABLE_TOOLBOX">The <emph>Table </emph>Bar contains functions you need when working with tables. It appears when you move the cursor into a table.</ahelp></paragraph>
+</section>
+
+<embed href="text/shared/01/InsertRowsAfter.xhp#insert_rows_below"/>
+<embed href="text/shared/00/00000404.xhp#icon_insert_row_below"/>
+<embed href="text/shared/01/InsertRowsBefore.xhp#insert_rows_above"/>
+<embed href="text/shared/00/00000404.xhp#icon_insert_row_above"/>
+
+<embed href="text/shared/01/InsertColumnsAfter.xhp#insert_columns_after"/>
+<embed href="text/shared/00/00000404.xhp#icon_insert_column_after"/>
+<embed href="text/shared/01/InsertColumnsBefore.xhp#insert_columns_before"/>
+<embed href="text/shared/00/00000404.xhp#icon_insert_column_before"/>
+
+<embed href="text/shared/01/DeleteRows.xhp#delete_rows"/>
+<embed href="text/swriter/00/00000405.xhp#sydelete_row"/>
+<embed href="text/shared/01/DeleteColumns.xhp#delete_columns"/>
+<embed href="text/swriter/00/00000405.xhp#sydelete_column"/>
+
+<comment>following only optional, ext.help is available: Select Table Select Column Select Row</comment>
+<h2 id="hd_id3147592"><link href="text/shared/01/05100100.xhp">Merge Cells</link></h2>
+<embed href="text/shared/01/05100100.xhp#verbindentext"/>
+<embed href="text/swriter/00/00000405.xhp#symerge_cells"/>
+<embed href="text/swriter/00/00000405.xhp#sysplit_cells"/>
+<embed href="text/shared/02/04210000.xhp#optimize"/>
+<embed href="text/shared/02/04210000.xhp#syoptimize"/>
+<embed href="text/shared/01/05100500.xhp#top"/>
+<embed href="text/shared/01/05100600.xhp#center_vertical"/>
+<embed href="text/shared/01/05100700.xhp#bottom"/>
+<embed href="text/shared/02/02170000.xhp#background_color"/>
+<embed href="text/shared/02/02170000.xhp#sybackground_color"/>
+<h2 id="hd_id943333820"><link href="text/shared/01/AutoFormat.xhp">AutoFormat</link></h2>
+<embed href="text/shared/01/AutoFormat.xhp#par_id3145367"/>
+<embed href="text/shared/00/00040503.xhp#syautoformat"/>
+<embed href="text/shared/02/03130000.xhp#borders"/>
+<embed href="text/shared/02/03130000.xhp#syborders"/>
+<embed href="text/shared/02/03140000.xhp#line_style"/>
+<embed href="text/shared/02/03140000.xhp#syline_style"/>
+<embed href="text/shared/02/03150000.xhp#border_color"/>
+<embed href="text/shared/02/03150000.xhp#syborder_color"/>
+<h2 id="hd_id94007820"><link href="text/swriter/01/06100000.xhp">Sort</link></h2>
+<embed href="text/swriter/01/06100000.xhp#sort"/>
+<embed href="text/swriter/02/04250000.xhp#sum"/>
+<embed href="text/swriter/02/04250000.xhp#sysum"/>
+<embed href="text/swriter/01/05090000.xhp#table_properties"/>
+</body>
+</helpdocument>

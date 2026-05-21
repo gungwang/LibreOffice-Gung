@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+-->
+
+<meta>
+  <topic id="SF_intro" indexer="include" status="PUBLISH">
+    <title id="tit" xml-lang="en-US">Creating Python Scripts with ScriptForge</title>
+    <filename>/text/sbasic/shared/03/sf_intro.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+  <bookmark localize="false" branch="index" id="bm_id41582391760114">
+    <bookmark_value>Python scripts with ScriptForge</bookmark_value>
+  </bookmark>
+  <h1 id="hd_id461623364876507"><variable id="title"><link href="text/sbasic/shared/03/sf_intro.xhp">Creating Python Scripts with <literal>ScriptForge</literal></link></variable></h1>
+  <h2 id="hd_id361623410405420">Differences between Basic and Python</h2>
+  <paragraph role="paragraph" id="par_id41623410443946">The <link href="text/sbasic/shared/03/lib_ScriptForge.xhp">ScriptForge library</link> is available both for Basic and Python. Most services, methods and properties work identically in both programming languages. However, due to differences in how each language works, <literal>ScriptForge</literal> users must be aware of some characteristics of the library when using Python:</paragraph>
+  <list type="unordered">
+    <listitem>
+      <paragraph id="par_id551623410718241" role="listitem"><emph>Methods and Property names:</emph> In Python, all methods and properties can be used in lowercased, ProperCased or camelCased formats.</paragraph>
+    </listitem>
+        <listitem>
+        <paragraph id="par_id741623411104308" role="listitem"><emph>Arguments:</emph> All keyword arguments passed on to methods are lowercased.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id441623411216354" role="listitem"><emph>Dates:</emph> All date objects are passed and returned as <literal>datetime.datetime</literal> native Python objects.</paragraph>
+    </listitem>
+    <listitem>
+      <paragraph id="par_id891623411367669" role="listitem"><emph>Arrays:</emph> One-dimensional arrays are passed and returned as tuples (which is an immutable object). Two-dimensional arrays are passed and returned as tuples of tuples.</paragraph>
+    </listitem>
+    <listitem>
+      <paragraph id="par_id981623411507442" role="listitem"><emph>None:</emph> Python's <literal>None</literal> keyword is equivalent to Basic's <literal>Null</literal>, <literal>Empty</literal> or <literal>Nothing</literal>.</paragraph>
+    </listitem>
+    <listitem>
+      <paragraph id="par_id21623411611447" role="listitem"><emph>UNO objects:</emph> All UNO structures are exchanged between Basic and Python without any changes.</paragraph>
+    </listitem>
+    <listitem>
+      <paragraph id="par_id651623412069496" role="listitem"><emph>Debugging:</emph> Whenever an error occurs in Python scripts that use <literal>ScriptForge</literal>, the error message provided by the Python execution stack displays the line of code that triggered the error. In Basic error messages do not display this information.</paragraph>
+    </listitem>
+  </list>
+  <tip id="par_id31623411828158">Visit <link href="text/sbasic/python/main0000.xhp#">%PRODUCTNAME Python Scripts Help</link> for more information on Python scripting using %PRODUCTNAME.</tip>
+
+  <h2 id="hd_id402623411150191">Editing Python scripts in IDEs</h2>
+  <paragraph role="paragraph" id="par_id111733745619796">Python typing hints - relating to <literal>ScriptForge</literal> services public methods and properties - can be obtained from IDEs that support such facility. Visually, while editing a user script:</paragraph>
+  <list type="unordered">
+    <listitem>
+        <paragraph id="par_id471733745941570" role="listitem">hovering an object instance, a method or a property displays its detailed description.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id631733745943026" role="listitem">a "." after an object instance displays a drop-down box listing all available interfaces.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id471733745961810" role="listitem">brackets after a method-name start code-completion by displaying its arguments.</paragraph>
+    </listitem>
+  </list>
+  <note id="par_id571733746663339">Typing hints are displayed when editing methods and properties with propercase letters.</note>
+
+  <h2 id="hd_id391623411150080">Running Python scripts on %PRODUCTNAME</h2>
+  <embed href="text/sbasic/python/running_scripts.xhp#Running"/>
+  <embed href="text/sbasic/python/running_scripts.xhp#creating"/>
+  <embed href="text/sbasic/python/running_scripts.xhp#IDErun"/>
+  <embed href="text/sbasic/python/running_scripts.xhp#installPath"/>
+
+  <section id="relatedtopics">
+    <embed href="text/sbasic/shared/03/lib_ScriptForge.xhp#ScriptForge_lib"/>
+    <embed href="text/sbasic/python/main0000.xhp#pythonscriptshelp"/>
+    <embed href="text/shared/guide/start_parameters.xhp#Title_h1"/>
+  </section>
+  </body>
+</helpdocument>

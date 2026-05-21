@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ -->
+
+<meta>
+   <topic id="saveremotefile" indexer="include" status="PUBLISH">
+     <title id="tit">Save Remote...</title>
+     <filename>/text/shared/01/SaveAsRemote.xhp</filename>
+   </topic>
+</meta>
+<body>
+<bookmark id="bm_id781513629025611" branch="hid/.uno:SaveAsRemote" localize="false"/><bookmark branch="index" id="bm_id381513636896997">
+<bookmark_value>remote file; save</bookmark_value>
+<bookmark_value>save; remote file</bookmark_value>
+</bookmark>
+<section id="saveremote">
+<h1 id="hd_id151513629025611"><link href="text/shared/01/SaveAsRemote.xhp">Save Remote...</link></h1>
+  <paragraph id="par_id771513629025613" role="paragraph"><variable id="saveremote1"><ahelp hid=".uno:SaveAsRemote">Saves a document located in a remote file service.</ahelp></variable></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/shared/00/00000401.xhp#saveremote"/>
+</section>
+<paragraph role="paragraph" id="par_id531513630220632">A remote file server is a web service that stores documents with or without checkin, checkout, version controls and backups.</paragraph>
+<section id="relatedtopics">
+  <paragraph role="paragraph" id="par_id951513629981585"><link href="text/shared/guide/cmis-remote-files.xhp">Opening and saving files in remote servers</link></paragraph>
+</section>
+</body>
+</helpdocument>

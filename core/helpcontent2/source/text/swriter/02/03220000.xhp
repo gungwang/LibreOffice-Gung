@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textswriter0203220000xml" indexer="include" status="PUBLISH">
+<title id="tit">Unlink Frames</title>
+<filename>/text/swriter/02/03220000.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<bookmark branch="index" id="bm_id3151188">
+<bookmark_value>frames;unlinking</bookmark_value>
+<bookmark_value>unlinking frames</bookmark_value>
+</bookmark>
+<bookmark branch="hid/.uno:UnhainFrames" id="bm_id5787098" localize="false"/>
+<section id="unlink_frames">
+<h1 id="hd_id3151188"><link href="text/swriter/02/03220000.xhp">Unlink Frames</link></h1>
+<paragraph role="paragraph" id="par_id3145412"><ahelp hid=".uno:UnhainFrames">Breaks the link between two frames.</ahelp> You can only break the link that extends from the selected frame to the target frame.</paragraph>
+</section>
+<section id="howtoget">
+	<embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+	<paragraph role="paragraph" id="par_id721613395973296">Choose <menuitem>Format - Frame and Object - Unlink Frames</menuitem>.</paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+	<paragraph role="paragraph" id="par_id291692884587358">Choose <menuitem>Object - Unlink Frames</menuitem>.</paragraph>
+	<embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+	<section id="syunlink_frames">
+		<table id="tbl_id3153638">
+			<tablerow>
+				<tablecell>
+					<paragraph role="paragraph" id="par_id3155903">
+						<image id="img_id3149687" src="cmd/lc_unhainframes.svg" width="1cm" height="1cm"><alt id="alt_id3149687">Icon Unlink Frames</alt></image></paragraph>
+				</tablecell>
+				<tablecell>
+					<paragraph role="paragraph" id="par_id3155628">Unlink Frames</paragraph>
+				</tablecell>
+			</tablerow>
+		</table>
+	</section>
+</section>
+
+<section id="relatedtopics">
+	<embed href="text/swriter/guide/text_frame.xhp#text_frame"/>
+	<paragraph role="paragraph" id="par_id131692884364682"><link href="text/swriter/01/format_frame.xhp">Frame and Object menu</link></paragraph>
+</section>
+</body>
+</helpdocument>

@@ -1,0 +1,5543 @@
+#. extracted from scp2/source/ooo
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2026-05-08 12:27+0200\n"
+"PO-Revision-Date: 2025-08-25 17:54+0000\n"
+"Last-Translator: Aefgh3962 <aefgh3962@gmail.com>\n"
+"Language-Team: Thai <https://translations.documentfoundation.org/projects/libo_ui-master/scp2sourceooo/th/>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1542025149.000000\n"
+
+#. CYBGJ
+#: folderitem_ooo.ulf
+msgctxt ""
+"folderitem_ooo.ulf\n"
+"STR_FI_NAME_FROMTEMPLATE\n"
+"LngText.text"
+msgid "From Template"
+msgstr "จากแม่แบบ"
+
+#. 9Fn7W
+#: folderitem_ooo.ulf
+msgctxt ""
+"folderitem_ooo.ulf\n"
+"STR_FI_NAME_OPENDOCUMENT\n"
+"LngText.text"
+msgid "Open Document"
+msgstr "เปิดเอกสาร"
+
+#. fnmjj
+#: folderitem_ooo.ulf
+msgctxt ""
+"folderitem_ooo.ulf\n"
+"STR_FI_NAME_SAFEMODE\n"
+"LngText.text"
+msgid "%PRODUCTNAME (Troubleshoot Mode)"
+msgstr ""
+
+#. sRSeW
+#: folderitem_ooo.ulf
+msgctxt ""
+"folderitem_ooo.ulf\n"
+"STR_FI_TOOLTIP_SOFFICE\n"
+"LngText.text"
+msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See https://www.documentfoundation.org"
+msgstr "LibreOffice ชุดโปรแกรมสำนักงานซึ่งจัดเตรียมโดย The Document Foundation ดูเพิ่มเติมที่ https://www.documentfoundation.org"
+
+#. Bf97K
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_ROOT_HELPPACK\n"
+"LngText.text"
+msgid "Additional help packs"
+msgstr "ชุดคู่มือวิธีใช้เพิ่มเติม"
+
+#. vaGBF
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_ROOT_HELPPACK\n"
+"LngText.text"
+msgid "Additional help packs"
+msgstr "ชุดคู่มือวิธีใช้เพิ่มเติม"
+
+#. ydqfu
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EN_US\n"
+"LngText.text"
+msgid "English (United States)"
+msgstr "อังกฤษ (สหรัฐอเมริกา)"
+
+#. Bz4jG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EN_US\n"
+"LngText.text"
+msgid "Installs English (United States) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอังกฤษ (สหรัฐอเมริกา) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. EHWAj
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_DE\n"
+"LngText.text"
+msgid "German"
+msgstr "เยอรมัน"
+
+#. RsQ3W
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_DE\n"
+"LngText.text"
+msgid "Installs German help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเยอรมันใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. GigxH
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_FR\n"
+"LngText.text"
+msgid "French"
+msgstr "ฝรั่งเศส"
+
+#. TjY3u
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_FR\n"
+"LngText.text"
+msgid "Installs French help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาฝรั่งเศสใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. qGeDg
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_IT\n"
+"LngText.text"
+msgid "Italian"
+msgstr "อิตาลี"
+
+#. zCVAe
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_IT\n"
+"LngText.text"
+msgid "Installs Italian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอิตาลีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. QG9eB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ES\n"
+"LngText.text"
+msgid "Spanish"
+msgstr "สเปน"
+
+#. cXmAd
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ES\n"
+"LngText.text"
+msgid "Installs Spanish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสเปนใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. mAjgA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SV\n"
+"LngText.text"
+msgid "Swedish"
+msgstr "สวีเดน"
+
+#. jXWC4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SV\n"
+"LngText.text"
+msgid "Installs Swedish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสวีเดนใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. wPHjA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_PT\n"
+"LngText.text"
+msgid "Portuguese"
+msgstr "โปรตุเกส"
+
+#. zxqLC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_PT\n"
+"LngText.text"
+msgid "Installs Portuguese help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาโปรตุเกสใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. NFgCe
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_PT_BR\n"
+"LngText.text"
+msgid "Portuguese (Brazil)"
+msgstr "โปรตุเกส (บราซิล)"
+
+#. YBMtr
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_PT_BR\n"
+"LngText.text"
+msgid "Installs Portuguese (Brazil) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาโปรตุเกส (บราซิล) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. Fn2Dz
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_JA\n"
+"LngText.text"
+msgid "Japanese"
+msgstr "ญึ่ปุ่น"
+
+#. xZvqM
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_JA\n"
+"LngText.text"
+msgid "Installs Japanese help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาญี่ปุ่นใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. iGE8W
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KO\n"
+"LngText.text"
+msgid "Korean"
+msgstr "เกาหลี"
+
+#. JDNfz
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KO\n"
+"LngText.text"
+msgid "Installs Korean help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเกาหลีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. NhPo7
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ZH_CN\n"
+"LngText.text"
+msgid "Chinese (simplified)"
+msgstr "จีน (ตัวย่อ)"
+
+#. Q2ArU
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ZH_CN\n"
+"LngText.text"
+msgid "Installs Chinese (simplified) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาจีน (ตัวย่อ) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. UsZM3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ZH_TW\n"
+"LngText.text"
+msgid "Chinese (traditional)"
+msgstr "จีน (ตัวเต็ม)"
+
+#. wWbGh
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ZH_TW\n"
+"LngText.text"
+msgid "Installs Chinese (traditional) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาจีน (ตัวเต็ม) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. qkugj
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NL\n"
+"LngText.text"
+msgid "Dutch"
+msgstr "ดัตช์"
+
+#. rudMC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NL\n"
+"LngText.text"
+msgid "Installs Dutch help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาดัตช์ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. f4GBX
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_HU\n"
+"LngText.text"
+msgid "Hungarian"
+msgstr "ฮังการี"
+
+#. VfDQW
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_HU\n"
+"LngText.text"
+msgid "Installs Hungarian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาฮังการีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. DQme4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_PL\n"
+"LngText.text"
+msgid "Polish"
+msgstr "โปแลนด์"
+
+#. Nbnea
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_PL\n"
+"LngText.text"
+msgid "Installs Polish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาโปแลนด์ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. YpbLq
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_RU\n"
+"LngText.text"
+msgid "Russian"
+msgstr "รัสเซีย"
+
+#. BFBgg
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_RU\n"
+"LngText.text"
+msgid "Installs Russian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษารัสเซียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. 5o5N6
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TR\n"
+"LngText.text"
+msgid "Turkish"
+msgstr "ตุรกี"
+
+#. aAiAs
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TR\n"
+"LngText.text"
+msgid "Installs Turkish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาตุรกีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. aAyip
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EL\n"
+"LngText.text"
+msgid "Greek"
+msgstr "กรีก"
+
+#. CkAz9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EL\n"
+"LngText.text"
+msgid "Installs Greek help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษากรีกใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. cuDpB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TH\n"
+"LngText.text"
+msgid "Thai"
+msgstr "ไทย"
+
+#. GGdGt
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TH\n"
+"LngText.text"
+msgid "Installs Thai help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาไทยใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. U9MW3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_CS\n"
+"LngText.text"
+msgid "Czech"
+msgstr "เช็ก"
+
+#. 5NZgF
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_CS\n"
+"LngText.text"
+msgid "Installs Czech help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเช็กใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. 2GK2k
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SK\n"
+"LngText.text"
+msgid "Slovak"
+msgstr "สโลวัก"
+
+#. L4EMC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SK\n"
+"LngText.text"
+msgid "Installs Slovak help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสโลวักใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. qoeyK
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_HR\n"
+"LngText.text"
+msgid "Croatian"
+msgstr "โครเอเชีย"
+
+#. sGB3v
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_HR\n"
+"LngText.text"
+msgid "Installs Croatian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาโครเอเชียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. isGDB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ET\n"
+"LngText.text"
+msgid "Estonian"
+msgstr "เอสโตเนีย"
+
+#. uGv5s
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ET\n"
+"LngText.text"
+msgid "Installs Estonian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเอสโตเนียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. BMt6C
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_VI\n"
+"LngText.text"
+msgid "Vietnamese"
+msgstr "เวียดนาม"
+
+#. bFGoQ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_VI\n"
+"LngText.text"
+msgid "Installs Vietnamese help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเวียดนามใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. hwVvG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BG\n"
+"LngText.text"
+msgid "Bulgarian"
+msgstr "บัลแกเรีย"
+
+#. TEx2B
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BG\n"
+"LngText.text"
+msgid "Installs Bulgarian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาบัลแกเรียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. hHEri
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KM\n"
+"LngText.text"
+msgid "Khmer"
+msgstr "เขมร"
+
+#. uCS4M
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KM\n"
+"LngText.text"
+msgid "Installs Khmer help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเขมรใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. kcEy4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_PA_IN\n"
+"LngText.text"
+msgid "Punjabi"
+msgstr "ปัญจาบี"
+
+#. mBGVR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_PA_IN\n"
+"LngText.text"
+msgid "Installs Punjabi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาปัญจาบีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. J5fRD
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TA\n"
+"LngText.text"
+msgid "Tamil"
+msgstr "ทมิฬ"
+
+#. uEKuE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TA\n"
+"LngText.text"
+msgid "Installs Tamil help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาทมิฬใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. VZDZ3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_HI\n"
+"LngText.text"
+msgid "Hindi"
+msgstr "ฮินดี"
+
+#. T73tL
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_HI\n"
+"LngText.text"
+msgid "Installs Hindi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาฮินดีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. iBo5F
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ST\n"
+"LngText.text"
+msgid "Southern Sotho (Sutu)"
+msgstr "ซูทูใต้"
+
+#. QjCFm
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ST\n"
+"LngText.text"
+msgid "Installs Southern Sotho (Sutu) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาซูทูใต้ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. 3TG74
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TL\n"
+"LngText.text"
+msgid "Tagalog"
+msgstr ""
+
+#. ioFHU
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TL\n"
+"LngText.text"
+msgid "Installs Tagalog help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr ""
+
+#. AEyYs
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TN\n"
+"LngText.text"
+msgid "Tswana"
+msgstr "เซตสวานา"
+
+#. PjdCh
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TN\n"
+"LngText.text"
+msgid "Installs Tswana help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเซตสวานาใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. Qbdyd
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_XH\n"
+"LngText.text"
+msgid "Xhosa"
+msgstr "คอซา"
+
+#. PKRxc
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_XH\n"
+"LngText.text"
+msgid "Installs Xhosa help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาคอซาใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. tECTH
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ZU\n"
+"LngText.text"
+msgid "Zulu"
+msgstr "ซูลู"
+
+#. G5iZk
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ZU\n"
+"LngText.text"
+msgid "Installs Zulu help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาซูลูใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. xDpWR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_AF\n"
+"LngText.text"
+msgid "Afrikaans"
+msgstr "แอฟริคานส์"
+
+#. M99dy
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_AF\n"
+"LngText.text"
+msgid "Installs Afrikaans help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาแอฟริคานส์ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. HBLuX
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SW_TZ\n"
+"LngText.text"
+msgid "Swahili"
+msgstr "สวาฮีลี"
+
+#. 52qW8
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SW_TZ\n"
+"LngText.text"
+msgid "Installs Swahili help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสวาฮีลีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. DYnBA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_LO\n"
+"LngText.text"
+msgid "Lao"
+msgstr "ลาว"
+
+#. ycEgR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_LO\n"
+"LngText.text"
+msgid "Installs Lao help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาลาวใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. Vz23C
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NSO\n"
+"LngText.text"
+msgid "Northern Sotho"
+msgstr "ซูทูเหนือ"
+
+#. 7tfvQ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NSO\n"
+"LngText.text"
+msgid "Installs Northern Sotho help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาซูทูเหนือใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. NvTJw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BN\n"
+"LngText.text"
+msgid "Bengali (Bangladesh)"
+msgstr "เบ็งกาลี (บังกลาเทศ)"
+
+#. sAKYL
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BN\n"
+"LngText.text"
+msgid "Installs Bengali (Bangladesh) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเบ็งกาลี (บังกลาเทศ) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. xFibU
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BN_IN\n"
+"LngText.text"
+msgid "Bengali (India)"
+msgstr "เบ็งกาลี (อินเดีย)"
+
+#. GxDPB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BN_IN\n"
+"LngText.text"
+msgid "Installs Bengali (India) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเบ็งกาลี (อินเดีย) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. F8SgH
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_OR\n"
+"LngText.text"
+msgid "Odia"
+msgstr "โอริยา"
+
+#. LyUKG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_OR\n"
+"LngText.text"
+msgid "Installs Odia help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาโอริยาใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. yyNHB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MR\n"
+"LngText.text"
+msgid "Marathi"
+msgstr "มราฐี"
+
+#. AGyN5
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MR\n"
+"LngText.text"
+msgid "Installs Marathi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษามราฐีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. deM7s
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NE\n"
+"LngText.text"
+msgid "Nepali"
+msgstr "เนปาล"
+
+#. mKmPn
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NE\n"
+"LngText.text"
+msgid "Installs Nepali help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเนปาลใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. XkJFt
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_AR\n"
+"LngText.text"
+msgid "Arabic"
+msgstr "อาหรับ"
+
+#. D5q8P
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_AR\n"
+"LngText.text"
+msgid "Installs Arabic help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอาหรับใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. wtbd7
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_CA\n"
+"LngText.text"
+msgid "Catalan"
+msgstr "คาตะลาน"
+
+#. fAwd9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_CA\n"
+"LngText.text"
+msgid "Installs Catalan help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาคาตะลานใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. cA9W3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_CA_VALENCIA\n"
+"LngText.text"
+msgid "Catalan (Valencian)"
+msgstr "ภาษาคาตะลาน (วาเลนเซีย)"
+
+#. jJ56U
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_CA_VALENCIA\n"
+"LngText.text"
+msgid "Installs Catalan (Valencian) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาคาตะลาน (วาเลนเซีย) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. vFJBH
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_DA\n"
+"LngText.text"
+msgid "Danish"
+msgstr "เดนมาร์ก"
+
+#. AGeAw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_DA\n"
+"LngText.text"
+msgid "Installs Danish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเดนมาร์กใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. QBcxa
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_FI\n"
+"LngText.text"
+msgid "Finnish"
+msgstr "ฟินแลนด์"
+
+#. dSxFo
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_FI\n"
+"LngText.text"
+msgid "Installs Finnish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาฟินแลนด์ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. mVr2U
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_HE\n"
+"LngText.text"
+msgid "Hebrew"
+msgstr "ฮีบรู"
+
+#. BQFXC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_HE\n"
+"LngText.text"
+msgid "Installs Hebrew help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาฮีบรูใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. mipqD
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_IS\n"
+"LngText.text"
+msgid "Icelandic"
+msgstr "ไอซ์แลนด์"
+
+#. axbPx
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_IS\n"
+"LngText.text"
+msgid "Installs Icelandic help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาไอซ์แลนด์ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. 7HqCw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NB\n"
+"LngText.text"
+msgid "Norwegian (Bokmål)"
+msgstr "นอร์เวย์ (บุคมอล)"
+
+#. P5FwB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NB\n"
+"LngText.text"
+msgid "Installs Norwegian (Bokmål) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษานอร์เวย์ (บุคมอล) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. uVnCW
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NN\n"
+"LngText.text"
+msgid "Norwegian (Nynorsk)"
+msgstr "นอร์เวย์ (นีนอร์สก์)"
+
+#. HrQCy
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NN\n"
+"LngText.text"
+msgid "Installs Norwegian (Nynorsk) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษานอร์เวย์ (นีนอร์สก์) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. RqU7H
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_RO\n"
+"LngText.text"
+msgid "Romanian"
+msgstr "โรมาเนีย"
+
+#. 6AM3J
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_RO\n"
+"LngText.text"
+msgid "Installs Romanian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาโรมาเนียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. ASMW5
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SQ\n"
+"LngText.text"
+msgid "Albanian"
+msgstr "แอลเบเนีย"
+
+#. FDWW4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SQ\n"
+"LngText.text"
+msgid "Installs Albanian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาแอลเบเนียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. ApYdi
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ID\n"
+"LngText.text"
+msgid "Indonesian"
+msgstr "อินโดนีเซีย"
+
+#. EhF9j
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ID\n"
+"LngText.text"
+msgid "Installs Indonesian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอินโดนีเซียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. CBBv7
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_UK\n"
+"LngText.text"
+msgid "Ukrainian"
+msgstr "ยูเครน"
+
+#. 9w8GA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_UK\n"
+"LngText.text"
+msgid "Installs Ukrainian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษายูเครนใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. wV2WJ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BE\n"
+"LngText.text"
+msgid "Belarusian"
+msgstr "เบลารุส"
+
+#. 3oEiq
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BE\n"
+"LngText.text"
+msgid "Installs Belarusian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเบลารุสใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. L4DtD
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SL\n"
+"LngText.text"
+msgid "Slovenian"
+msgstr "สโลวีเนีย"
+
+#. gQzYB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SL\n"
+"LngText.text"
+msgid "Installs Slovenian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสโลวีเนียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. pDdtc
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_LV\n"
+"LngText.text"
+msgid "Latvian"
+msgstr "ลัตเวีย"
+
+#. dCVdu
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_LV\n"
+"LngText.text"
+msgid "Installs Latvian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาลัตเวียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. SuvD6
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_LT\n"
+"LngText.text"
+msgid "Lithuanian"
+msgstr "ลิทัวเนีย"
+
+#. nHQ8d
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_LT\n"
+"LngText.text"
+msgid "Installs Lithuanian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาลิทัวเนียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. hLcFR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EU\n"
+"LngText.text"
+msgid "Basque"
+msgstr "แบ็ซค์"
+
+#. dnpFF
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EU\n"
+"LngText.text"
+msgid "Installs Basque help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาแบซค์ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. 46W2Q
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MK\n"
+"LngText.text"
+msgid "Macedonian"
+msgstr "มาซิโดเนีย"
+
+#. r5xFn
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MK\n"
+"LngText.text"
+msgid "Installs Macedonian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษามาซิโดเนียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. jfrBS
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_CY\n"
+"LngText.text"
+msgid "Welsh"
+msgstr "เวลส์"
+
+#. Zue86
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_CY\n"
+"LngText.text"
+msgid "Installs Welsh help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเวลส์ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. q2Q4i
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GL\n"
+"LngText.text"
+msgid "Galician"
+msgstr "กาลิเซีย"
+
+#. FvTDb
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GL\n"
+"LngText.text"
+msgid "Installs Galician help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษากาลิเซียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. vnBuG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SR_LATN\n"
+"LngText.text"
+msgid "Serbian (Latin)"
+msgstr "เซอร์เบีย (อักษรละติน)"
+
+#. i8SBE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SR_LATN\n"
+"LngText.text"
+msgid "Installs Serbian (Latin) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเซอร์เบีย (อักษรละติน) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. mqGg4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GA\n"
+"LngText.text"
+msgid "Irish"
+msgstr "ไอริช"
+
+#. wSeqN
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GA\n"
+"LngText.text"
+msgid "Installs Irish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาไอริชใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. rm9kd
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SR\n"
+"LngText.text"
+msgid "Serbian (Cyrillic)"
+msgstr "เซอร์เบีย (อักษรซีริลลิก)"
+
+#. vn6xG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SR\n"
+"LngText.text"
+msgid "Installs Serbian (Cyrillic) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเซอร์เบีย (อักษรซีริลลิก) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. MGEFE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BS\n"
+"LngText.text"
+msgid "Bosnian"
+msgstr "บอสเนีย"
+
+#. ERR2E
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BS\n"
+"LngText.text"
+msgid "Installs Bosnian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาบอสเนียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. YKoPE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_AST\n"
+"LngText.text"
+msgid "Asturian"
+msgstr "อัสตูเรียส"
+
+#. GhGmh
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_AST\n"
+"LngText.text"
+msgid "Installs Asturian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอัสตูเรียสใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. v9cpd
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_RW\n"
+"LngText.text"
+msgid "Kinyarwanda"
+msgstr "คินยารวันดา"
+
+#. AQ72C
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_RW\n"
+"LngText.text"
+msgid "Installs Kinyarwanda help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาคินยารวันดาใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. jxCC3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_FA\n"
+"LngText.text"
+msgid "Persian"
+msgstr "เปอร์เซีย"
+
+#. muqzV
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_FA\n"
+"LngText.text"
+msgid "Installs Persian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเปอร์เซียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. XfQPM
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TT\n"
+"LngText.text"
+msgid "Tatar"
+msgstr "ตาด"
+
+#. 3YJ8S
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TT\n"
+"LngText.text"
+msgid "Installs Tatar help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาตาดใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. LBVJ8
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TS\n"
+"LngText.text"
+msgid "Tsonga"
+msgstr "ซองกา"
+
+#. nHVDV
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TS\n"
+"LngText.text"
+msgid "Installs Tsonga help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาซองกาใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. vRzNC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BR\n"
+"LngText.text"
+msgid "Breton"
+msgstr "เบรตัน"
+
+#. yiXir
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BR\n"
+"LngText.text"
+msgid "Installs Breton help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเบรตันใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. emsat
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NR\n"
+"LngText.text"
+msgid "Ndebele South"
+msgstr "เอ็นดีเบลีใต้"
+
+#. THBEz
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NR\n"
+"LngText.text"
+msgid "Installs Ndebele South help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเอ็นดีเบลีใต้ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. 42ybw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SS\n"
+"LngText.text"
+msgid "Swazi"
+msgstr "สวาตี"
+
+#. DZvWq
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SS\n"
+"LngText.text"
+msgid "Installs Swazi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสวาตีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. wxSEg
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_VE\n"
+"LngText.text"
+msgid "Venda"
+msgstr "เวนดา"
+
+#. csFbG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_VE\n"
+"LngText.text"
+msgid "Installs Venda help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเวนดาใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. t8pQ6
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KN\n"
+"LngText.text"
+msgid "Kannada"
+msgstr "กัณณาท"
+
+#. zdNRi
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KN\n"
+"LngText.text"
+msgid "Installs Kannada help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษากัณณาทใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. 4H9D9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TG\n"
+"LngText.text"
+msgid "Tajik"
+msgstr "ทาจิกิสถาน"
+
+#. 8wJEE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TG\n"
+"LngText.text"
+msgid "Installs Tajik help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาทาจิกิสถานใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. CQxCR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KU\n"
+"LngText.text"
+msgid "Kurdish"
+msgstr "เคิร์ด"
+
+#. LxR37
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KU\n"
+"LngText.text"
+msgid "Installs Kurdish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเคิร์ดใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. TSYpW
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_DZ\n"
+"LngText.text"
+msgid "Dzongkha"
+msgstr "ภูฏาน"
+
+#. bCSQs
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_DZ\n"
+"LngText.text"
+msgid "Installs Dzongkha help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาภูฏานใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. YEBFY
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KA\n"
+"LngText.text"
+msgid "Georgian"
+msgstr "จอร์เจีย"
+
+#. LNRoQ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KA\n"
+"LngText.text"
+msgid "Installs Georgian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาจอร์เจียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. FjsKx
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EO\n"
+"LngText.text"
+msgid "Esperanto"
+msgstr "เอสเปอรันโต"
+
+#. PzgDJ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EO\n"
+"LngText.text"
+msgid "Installs Esperanto help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเอสเปอรันโตใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. VCEVj
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GU\n"
+"LngText.text"
+msgid "Gujarati"
+msgstr "คุชราตี"
+
+#. L2yoA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GU\n"
+"LngText.text"
+msgid "Installs Gujarati help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาคุชราตีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. n7QAe
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GUG\n"
+"LngText.text"
+msgid "Guarani"
+msgstr "กวารานี"
+
+#. c8cWA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GUG\n"
+"LngText.text"
+msgid "Installs Guarani help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษากวารานีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. rsekA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EN_ZA\n"
+"LngText.text"
+msgid "English (South Africa)"
+msgstr "อังกฤษ (แอฟริกาใต้)"
+
+#. c7XCn
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EN_ZA\n"
+"LngText.text"
+msgid "Installs English (South Africa) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอังกฤษ (แอฟริกาใต้) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. Qi96F
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EN_GB\n"
+"LngText.text"
+msgid "English (United Kingdom)"
+msgstr "อังกฤษ (สหราชอาณาจักร)"
+
+#. tUaM9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EN_GB\n"
+"LngText.text"
+msgid "Installs English (United Kingdom) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอังกฤษ (สหราชอาณาจักร) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. CGWCQ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_UZ\n"
+"LngText.text"
+msgid "Uzbek"
+msgstr "อุซเบกิสถาน"
+
+#. cvTRz
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_UZ\n"
+"LngText.text"
+msgid "Installs Uzbek help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอุซเบกิสถานใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. Da85C
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MN\n"
+"LngText.text"
+msgid "Mongolian"
+msgstr "มองโกเลีย"
+
+#. GREps
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MN\n"
+"LngText.text"
+msgid "Installs Mongolian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษามองโกเลียใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. CzcXG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MY\n"
+"LngText.text"
+msgid "Burmese"
+msgstr "พม่า"
+
+#. MjWDp
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MY\n"
+"LngText.text"
+msgid "Installs Burmese (Myanmar) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาพม่า (เมียนมา) ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. bV4tK
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BO\n"
+"LngText.text"
+msgid "Tibetan"
+msgstr "ทิเบต"
+
+#. Pcwm7
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BO\n"
+"LngText.text"
+msgid "Installs Tibetan help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาทิเบตใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. FJL97
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_OC\n"
+"LngText.text"
+msgid "Occitan"
+msgstr "ออกซิตัน"
+
+#. m6GrM
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_OC\n"
+"LngText.text"
+msgid "Installs Occitan help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาออกซิตันใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. A6Hed
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_OM\n"
+"LngText.text"
+msgid "Oromo"
+msgstr "ออโรโม"
+
+#. yBECM
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_OM\n"
+"LngText.text"
+msgid "Installs Oromo help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาออโรโมใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. 2a58x
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SI\n"
+"LngText.text"
+msgid "Sinhala"
+msgstr "สิงหล"
+
+#. mFE5W
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SI\n"
+"LngText.text"
+msgid "Installs Sinhala help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสิงหลใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. BcGYP
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_UG\n"
+"LngText.text"
+msgid "Uyghur"
+msgstr "อุยกูร์"
+
+#. fHxQT
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_UG\n"
+"LngText.text"
+msgid "Installs Uyghur help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอุยกูร์ใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. rrFCf
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_AS\n"
+"LngText.text"
+msgid "Assamese"
+msgstr "อัสสมี"
+
+#. EoMfP
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_AS\n"
+"LngText.text"
+msgid "Installs Assamese help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอัสสมีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. X6xDL
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BRX\n"
+"LngText.text"
+msgid "Bodo"
+msgstr "พอโฑ"
+
+#. ZasV2
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BRX\n"
+"LngText.text"
+msgid "Installs Bodo help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาพอโฑใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. 42sWG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_DGO\n"
+"LngText.text"
+msgid "Dogri"
+msgstr "โฑครี"
+
+#. tTNEB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_DGO\n"
+"LngText.text"
+msgid "Installs Dogri help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาโฑครีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. Hx2Ds
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GD\n"
+"LngText.text"
+msgid "Scottish Gaelic"
+msgstr "เกลิกสก็อต"
+
+#. 8iESE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GD\n"
+"LngText.text"
+msgid "Installs Scottish Gaelic help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเกลิกสก็อตใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. Y6kem
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KK\n"
+"LngText.text"
+msgid "Kazakh"
+msgstr "คาซัคสถาน"
+
+#. myE67
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KK\n"
+"LngText.text"
+msgid "Installs Kazakh help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาคาซัคสถานใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. x4Y6W
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KOK\n"
+"LngText.text"
+msgid "Konkani"
+msgstr "โกงกณี"
+
+#. xe7dv
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KOK\n"
+"LngText.text"
+msgid "Installs Konkani help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาโกงกณีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. jJyAc
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KS\n"
+"LngText.text"
+msgid "Kashmiri"
+msgstr "กัศมีรี"
+
+#. 3YdBG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KS\n"
+"LngText.text"
+msgid "Installs Kashmiri help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษากัศมีรีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. sKBbF
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MAI\n"
+"LngText.text"
+msgid "Maithili"
+msgstr "ไมถิลี"
+
+#. jAhts
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MAI\n"
+"LngText.text"
+msgid "Installs Maithili help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาไมถิลีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. VE3tA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ML\n"
+"LngText.text"
+msgid "Malayalam"
+msgstr "มลยาฬัม"
+
+#. KcKg5
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ML\n"
+"LngText.text"
+msgid "Installs Malayalam help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษามลยาฬัมใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. NkQSU
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MNI\n"
+"LngText.text"
+msgid "Manipuri"
+msgstr "มณีปุรี"
+
+#. dsToL
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MNI\n"
+"LngText.text"
+msgid "Installs Manipuri help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษามณีปุรีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. XFS5Q
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SA_IN\n"
+"LngText.text"
+msgid "Sanskrit (India)"
+msgstr "สันสกฤต (อินเดีย)"
+
+#. ZCTa2
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SA_IN\n"
+"LngText.text"
+msgid "Installs Sanskrit help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสันสกฤตใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. pd9kB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SAT\n"
+"LngText.text"
+msgid "Santali"
+msgstr "สันถาลี"
+
+#. P3BA9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SAT\n"
+"LngText.text"
+msgid "Installs Santali help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสันถาลีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. sApan
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SD\n"
+"LngText.text"
+msgid "Sindhi"
+msgstr "สินธี"
+
+#. Cnb7E
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SD\n"
+"LngText.text"
+msgid "Installs Sindhi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาสินธีใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. zLTCg
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TE\n"
+"LngText.text"
+msgid "Telugu"
+msgstr "เตลุคู"
+
+#. CkmfT
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TE\n"
+"LngText.text"
+msgid "Installs Telugu help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาเตลุคูใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. tosij
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SID\n"
+"LngText.text"
+msgid "Sidama"
+msgstr "ซิดามา"
+
+#. UGCDw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SID\n"
+"LngText.text"
+msgid "Installs Sidama help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาซิดามาใน %PRODUCTNAME %PRODUCTVERSION"
+
+#. MwRfA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_QTZ\n"
+"LngText.text"
+msgid "KeyID"
+msgstr "KeyID"
+
+#. WgSng
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_QTZ\n"
+"LngText.text"
+msgid "Installs English help in %PRODUCTNAME %PRODUCTVERSION with a key ID before each paragraph"
+msgstr "ติดตั้งคู่มือวิธีใช้ในภาษาอังกฤษใน %PRODUCTNAME %PRODUCTVERSION โดยมี key ID หน้าย่อหน้าทุกย่อหน้า"
+
+#. 68jze
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_ROOT_LANGPACK\n"
+"LngText.text"
+msgid "User interface languages"
+msgstr "ภาษาของส่วนติดต่อผู้ใช้"
+
+#. AzxTN
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_ROOT_LANGPACK\n"
+"LngText.text"
+msgid "User interface languages"
+msgstr "ภาษาของส่วนติดต่อผู้ใช้"
+
+#. 2FWMz
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EN_US\n"
+"LngText.text"
+msgid "English (United States)"
+msgstr "อังกฤษ (สหรัฐอเมริกา)"
+
+#. ZyT5e
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EN_US\n"
+"LngText.text"
+msgid "Installs the English (United States) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอังกฤษ (สหรัฐอเมริกา)"
+
+#. kFVo8
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DE\n"
+"LngText.text"
+msgid "German"
+msgstr "เยอรมัน"
+
+#. bfWaA
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DE\n"
+"LngText.text"
+msgid "Installs the German user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเยอรมัน"
+
+#. ibbMT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FR\n"
+"LngText.text"
+msgid "French"
+msgstr "ฝรั่งเศส"
+
+#. jyWNp
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FR\n"
+"LngText.text"
+msgid "Installs the French user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาฝรั่งเศส"
+
+#. CHSB9
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FUR\n"
+"LngText.text"
+msgid "Friulian"
+msgstr "ฟริอูเลียน"
+
+#. hj9iY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FUR\n"
+"LngText.text"
+msgid "Installs the Friulian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาฟริอูเลียน"
+
+#. FWTCS
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FY\n"
+"LngText.text"
+msgid "Frisian"
+msgstr "ฟรีเชีย"
+
+#. iQ65Q
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FY\n"
+"LngText.text"
+msgid "Installs the Frisian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาฟรีเชีย"
+
+#. bNTwU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HY\n"
+"LngText.text"
+msgid "Armenian"
+msgstr "อาร์เมเนีย"
+
+#. gHLVy
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HY\n"
+"LngText.text"
+msgid "Installs the Armenian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอาร์เมเนีย"
+
+#. 5GsEB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_IT\n"
+"LngText.text"
+msgid "Italian"
+msgstr "อิตาลี"
+
+#. kEDxi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_IT\n"
+"LngText.text"
+msgid "Installs the Italian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอิตาลี"
+
+#. fGPfo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ES\n"
+"LngText.text"
+msgid "Spanish"
+msgstr "สเปน"
+
+#. QuQfE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ES\n"
+"LngText.text"
+msgid "Installs the Spanish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสเปน"
+
+#. NreEY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SUN\n"
+"LngText.text"
+msgid "Sundanese"
+msgstr "ซุนดา"
+
+#. pa3r3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SUN\n"
+"LngText.text"
+msgid "Installs the Sundanese user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาซุนดา"
+
+#. zAWhn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SV\n"
+"LngText.text"
+msgid "Swedish"
+msgstr "สวีเดน"
+
+#. Cstsw
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SV\n"
+"LngText.text"
+msgid "Installs the Swedish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสวีเดน"
+
+#. ZaBQB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_PT\n"
+"LngText.text"
+msgid "Portuguese"
+msgstr "โปรตุเกส"
+
+#. HCX26
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_PT\n"
+"LngText.text"
+msgid "Installs the Portuguese user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาโปรตุเกส"
+
+#. adogr
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_PT_BR\n"
+"LngText.text"
+msgid "Portuguese (Brazil)"
+msgstr "โปรตุเกส (บราซิล)"
+
+#. CijWB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_PT_BR\n"
+"LngText.text"
+msgid "Installs the Brazilian Portuguese user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาโปรตุเกสบราซิล"
+
+#. zFXF5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_JA\n"
+"LngText.text"
+msgid "Japanese"
+msgstr "ญี่ปุ่น"
+
+#. EESf9
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_JA\n"
+"LngText.text"
+msgid "Installs the Japanese user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาญี่ปุ่น"
+
+#. k48KT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KAB\n"
+"LngText.text"
+msgid "Kabyle"
+msgstr "คาไบล์"
+
+#. KS3XA
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KAB\n"
+"LngText.text"
+msgid "Installs the Kabyle user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาคาไบล์"
+
+#. GGBUC
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KO\n"
+"LngText.text"
+msgid "Korean"
+msgstr "เกาหลี"
+
+#. 8SSvD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KO\n"
+"LngText.text"
+msgid "Installs the Korean user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเกาหลี"
+
+#. pejiB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ZH_CN\n"
+"LngText.text"
+msgid "Chinese (simplified)"
+msgstr "จีน (ตัวย่อ)"
+
+#. wdZdn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ZH_CN\n"
+"LngText.text"
+msgid "Installs the Chinese (simplified) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาจีน (ตัวย่อ)"
+
+#. 5hYB3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ZH_TW\n"
+"LngText.text"
+msgid "Chinese (traditional)"
+msgstr "จีน (ตัวเต็ม)"
+
+#. 38eTs
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ZH_TW\n"
+"LngText.text"
+msgid "Installs the Chinese (traditional) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาจีน (ตัวเต็ม)"
+
+#. Ha4sm
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NL\n"
+"LngText.text"
+msgid "Dutch"
+msgstr "ดัตช์"
+
+#. Mye3w
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NL\n"
+"LngText.text"
+msgid "Installs the Dutch user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาดัตช์"
+
+#. 2W3Vs
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DSB\n"
+"LngText.text"
+msgid "Lower Sorbian"
+msgstr "ซอร์บต่ำ"
+
+#. uCTAw
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DSB\n"
+"LngText.text"
+msgid "Installs the Lower Sorbian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาซอร์บต่ำ"
+
+#. 93zmP
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HSB\n"
+"LngText.text"
+msgid "Upper Sorbian"
+msgstr "ซอร์บสูง"
+
+#. kZEGX
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HSB\n"
+"LngText.text"
+msgid "Installs the Upper Sorbian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาซอร์บสูง"
+
+#. DkPdh
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HU\n"
+"LngText.text"
+msgid "Hungarian"
+msgstr "ฮังการี"
+
+#. wjc54
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HU\n"
+"LngText.text"
+msgid "Installs the Hungarian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาฮังการี"
+
+#. c8nAo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_PL\n"
+"LngText.text"
+msgid "Polish"
+msgstr "โปแลนด์"
+
+#. XChpv
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_PL\n"
+"LngText.text"
+msgid "Installs the Polish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาโปแลนด์"
+
+#. FpvMD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_RU\n"
+"LngText.text"
+msgid "Russian"
+msgstr "รัสเซีย"
+
+#. GszNS
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_RU\n"
+"LngText.text"
+msgid "Installs the Russian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษารัสเซีย"
+
+#. qoBPT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TR\n"
+"LngText.text"
+msgid "Turkish"
+msgstr "ตุรกี"
+
+#. EtHSG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TR\n"
+"LngText.text"
+msgid "Installs the Turkish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาตุรกี"
+
+#. 9D8Zn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EL\n"
+"LngText.text"
+msgid "Greek"
+msgstr "กรีก"
+
+#. Px6D7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EL\n"
+"LngText.text"
+msgid "Installs the Greek user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษากรีก"
+
+#. 4dymX
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TH\n"
+"LngText.text"
+msgid "Thai"
+msgstr "ไทย"
+
+#. 6eYYQ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TH\n"
+"LngText.text"
+msgid "Installs the Thai user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาไทย"
+
+#. NHYpD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CKB\n"
+"LngText.text"
+msgid "Central Kurdish"
+msgstr "เคิร์ดกลาง"
+
+#. NJJmC
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CKB\n"
+"LngText.text"
+msgid "Installs the Central Kurdish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเคิร์ดกลาง"
+
+#. 3CVmz
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CS\n"
+"LngText.text"
+msgid "Czech"
+msgstr "เช็ก"
+
+#. EZQUP
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CS\n"
+"LngText.text"
+msgid "Installs the Czech user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเช็ก"
+
+#. ZGQW5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SK\n"
+"LngText.text"
+msgid "Slovak"
+msgstr "สโลวัก"
+
+#. rw8g2
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SK\n"
+"LngText.text"
+msgid "Installs the Slovak user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสโลวัก"
+
+#. sG9sP
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HR\n"
+"LngText.text"
+msgid "Croatian"
+msgstr "โครเอเชีย"
+
+#. cYDC3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HR\n"
+"LngText.text"
+msgid "Installs the Croatian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาโครเอเชีย"
+
+#. x4dFF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ET\n"
+"LngText.text"
+msgid "Estonian"
+msgstr "เอสโตเนีย"
+
+#. WJs9L
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ET\n"
+"LngText.text"
+msgid "Installs the Estonian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเอสโตเนีย"
+
+#. AgZcB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_VI\n"
+"LngText.text"
+msgid "Vietnamese"
+msgstr "เวียดนาม"
+
+#. hzxLD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_VI\n"
+"LngText.text"
+msgid "Installs the Vietnamese user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเวียดนาม"
+
+#. FDaPN
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BG\n"
+"LngText.text"
+msgid "Bulgarian"
+msgstr "บัลแกเรีย"
+
+#. 8R9GE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BG\n"
+"LngText.text"
+msgid "Installs the Bulgarian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาบัลแกเรีย"
+
+#. GEohk
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KM\n"
+"LngText.text"
+msgid "Khmer"
+msgstr "เขมร"
+
+#. ntGb7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KM\n"
+"LngText.text"
+msgid "Installs the Khmer user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเขมร"
+
+#. aRAAK
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_PA_IN\n"
+"LngText.text"
+msgid "Punjabi"
+msgstr "ปัญจาบี"
+
+#. Zym8j
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_PA_IN\n"
+"LngText.text"
+msgid "Installs the Punjabi user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาปัญจาบี"
+
+#. rQF9B
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TA\n"
+"LngText.text"
+msgid "Tamil"
+msgstr "ทมิฬ"
+
+#. CHKAZ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TA\n"
+"LngText.text"
+msgid "Installs the Tamil user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาทมิฬ"
+
+#. 4wniz
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HI\n"
+"LngText.text"
+msgid "Hindi"
+msgstr "ฮินดี"
+
+#. BFGf2
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HI\n"
+"LngText.text"
+msgid "Installs the Hindi user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาฮินดี"
+
+#. mC6wm
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ST\n"
+"LngText.text"
+msgid "Southern Sotho (Sutu)"
+msgstr "ซูทูใต้"
+
+#. TCBhG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ST\n"
+"LngText.text"
+msgid "Installs the Southern Sotho (Sutu) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาซูทูใต้"
+
+#. jTL8Z
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TL\n"
+"LngText.text"
+msgid "Tagalog"
+msgstr ""
+
+#. czSWQ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TL\n"
+"LngText.text"
+msgid "Installs the Tagalog user interface"
+msgstr ""
+
+#. hEr4G
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TN\n"
+"LngText.text"
+msgid "Tswana"
+msgstr "เซตสวานา"
+
+#. MSJ8o
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TN\n"
+"LngText.text"
+msgid "Installs the Tswana user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเซตสวานา"
+
+#. xmDab
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_XH\n"
+"LngText.text"
+msgid "Xhosa"
+msgstr "คอซา"
+
+#. uE8DY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_XH\n"
+"LngText.text"
+msgid "Installs the Xhosa user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาคอซา"
+
+#. DPZWr
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ZU\n"
+"LngText.text"
+msgid "Zulu"
+msgstr "ซูลู"
+
+#. EtAZX
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ZU\n"
+"LngText.text"
+msgid "Installs the Zulu user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาซูลู"
+
+#. qsjs5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AB\n"
+"LngText.text"
+msgid "Abkhaz"
+msgstr ""
+
+#. ehMsM
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AB\n"
+"LngText.text"
+msgid "Installs the Abkhazian user interface"
+msgstr ""
+
+#. RUw6F
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AF\n"
+"LngText.text"
+msgid "Afrikaans"
+msgstr "แอฟริคานส์"
+
+#. ogEci
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AF\n"
+"LngText.text"
+msgid "Installs the Afrikaans user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาแอฟริคานส์"
+
+#. Ey8Ey
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SW_TZ\n"
+"LngText.text"
+msgid "Swahili"
+msgstr "สวาฮีลี"
+
+#. VMYrA
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SW_TZ\n"
+"LngText.text"
+msgid "Installs the Swahili user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสวาฮีลี"
+
+#. t6ayp
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_LO\n"
+"LngText.text"
+msgid "Lao"
+msgstr "ลาว"
+
+#. EHe36
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_LO\n"
+"LngText.text"
+msgid "Installs the Lao user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาลาว"
+
+#. rzyWk
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MY\n"
+"LngText.text"
+msgid "Burmese"
+msgstr "พม่า"
+
+#. XE2Yi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MY\n"
+"LngText.text"
+msgid "Installs the Burmese (Myanmar) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาพม่า (เมียนมา)"
+
+#. CtNk3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NSO\n"
+"LngText.text"
+msgid "Northern Sotho"
+msgstr "ซูทูเหนือ"
+
+#. DVnrU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NSO\n"
+"LngText.text"
+msgid "Installs the Northern Sotho user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาซูทูเหนือ"
+
+#. DS4HT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BN\n"
+"LngText.text"
+msgid "Bengali (Bangladesh)"
+msgstr "เบ็งกาลี (บังกลาเทศ)"
+
+#. Gtpvo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BN\n"
+"LngText.text"
+msgid "Installs the Bengali (Bangladesh) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเบ็งกาลี (บังกลาเทศ)"
+
+#. VFLAY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BN_IN\n"
+"LngText.text"
+msgid "Bengali (India)"
+msgstr "เบ็งกาลี (อินเดีย)"
+
+#. CG9LC
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BN_IN\n"
+"LngText.text"
+msgid "Installs the Bengali (India) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเบ็งกาลี (อินเดีย)"
+
+#. ZHDdr
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_OR\n"
+"LngText.text"
+msgid "Odia"
+msgstr "โอริยา"
+
+#. z7wxj
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_OR\n"
+"LngText.text"
+msgid "Installs the Odia user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาโอริยา"
+
+#. DyAGo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MR\n"
+"LngText.text"
+msgid "Marathi"
+msgstr "มราฐี"
+
+#. 4H9bk
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MR\n"
+"LngText.text"
+msgid "Installs the Marathi user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษามราฐี"
+
+#. EoNVG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NE\n"
+"LngText.text"
+msgid "Nepali"
+msgstr "เนปาล"
+
+#. AqMcp
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NE\n"
+"LngText.text"
+msgid "Installs the Nepali user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเนปาล"
+
+#. 4dRdD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AR\n"
+"LngText.text"
+msgid "Arabic"
+msgstr "อาหรับ"
+
+#. Xvrxe
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AR\n"
+"LngText.text"
+msgid "Installs the Arabic user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอาหรับ"
+
+#. FtvcU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CA\n"
+"LngText.text"
+msgid "Catalan"
+msgstr "คาตะลาน"
+
+#. Dvwsf
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CA\n"
+"LngText.text"
+msgid "Installs the Catalan user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาคาตะลาน"
+
+#. cqBMo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CA_VALENCIA\n"
+"LngText.text"
+msgid "Catalan (Valencian)"
+msgstr "คาตะลาน (วาเลนเซีย)"
+
+#. BZKTa
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CA_VALENCIA\n"
+"LngText.text"
+msgid "Installs the Catalan (Valencian) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาคาตะลาน (วาเลนเซีย)"
+
+#. LHRhT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DA\n"
+"LngText.text"
+msgid "Danish"
+msgstr "เดนมาร์ก"
+
+#. wxLQ5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DA\n"
+"LngText.text"
+msgid "Installs the Danish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเดนมาร์ก"
+
+#. fByyD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FI\n"
+"LngText.text"
+msgid "Finnish"
+msgstr "ฟินแลนด์"
+
+#. Z5EEn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FI\n"
+"LngText.text"
+msgid "Installs the Finnish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาฟินแลนด์"
+
+#. FtyWE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HE\n"
+"LngText.text"
+msgid "Hebrew"
+msgstr "ฮีบรู"
+
+#. 5zHmf
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HE\n"
+"LngText.text"
+msgid "Installs the Hebrew user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาฮีบรู"
+
+#. C2wG7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_IS\n"
+"LngText.text"
+msgid "Icelandic"
+msgstr "ไอซ์แลนด์"
+
+#. Tbuyy
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_IS\n"
+"LngText.text"
+msgid "Installs the Icelandic user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาไอซ์แลนด์"
+
+#. Hwos6
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NB\n"
+"LngText.text"
+msgid "Norwegian (Bokmål)"
+msgstr "นอร์เวย์ (บุคมอล)"
+
+#. Bn7Md
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NB\n"
+"LngText.text"
+msgid "Installs the Norwegian (Bokmål) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษานอร์เวย์ (บุคมอล)"
+
+#. cApSN
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NN\n"
+"LngText.text"
+msgid "Norwegian (Nynorsk)"
+msgstr "นอร์เวย์ (นีนอร์สก์)"
+
+#. HfU8r
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NN\n"
+"LngText.text"
+msgid "Installs the Norwegian (Nynorsk) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษานอร์เวย์ (นีนอร์สก์)"
+
+#. BE7zD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_RO\n"
+"LngText.text"
+msgid "Romanian"
+msgstr "โรมาเนีย"
+
+#. rhPqH
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_RO\n"
+"LngText.text"
+msgid "Installs the Romanian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาโรมาเนีย"
+
+#. 8LyUz
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SQ\n"
+"LngText.text"
+msgid "Albanian"
+msgstr "แอลเบเนีย"
+
+#. FsMJh
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SQ\n"
+"LngText.text"
+msgid "Installs the Albanian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาแอลเบเนีย"
+
+#. B4u5c
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ID\n"
+"LngText.text"
+msgid "Indonesian"
+msgstr "อินโดนีเซีย"
+
+#. FAehD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ID\n"
+"LngText.text"
+msgid "Installs the Indonesian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอินโดนีเซีย"
+
+#. cu2PD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_UK\n"
+"LngText.text"
+msgid "Ukrainian"
+msgstr "ยูเครน"
+
+#. w3CRY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_UK\n"
+"LngText.text"
+msgid "Installs the Ukrainian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษายูเครน"
+
+#. ZGNC3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BE\n"
+"LngText.text"
+msgid "Belarusian"
+msgstr "เบลารุส"
+
+#. DSkzF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BE\n"
+"LngText.text"
+msgid "Installs the Belarusian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเบลารุส"
+
+#. ukJM7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SL\n"
+"LngText.text"
+msgid "Slovenian"
+msgstr "สโลวีเนีย"
+
+#. ACFfE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SL\n"
+"LngText.text"
+msgid "Installs the Slovenian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสโลวีเนีย"
+
+#. 6DxuF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_LV\n"
+"LngText.text"
+msgid "Latvian"
+msgstr "ลัตเวีย"
+
+#. 4JeSE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_LV\n"
+"LngText.text"
+msgid "Installs the Latvian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาลัตเวีย"
+
+#. tFTVR
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_LT\n"
+"LngText.text"
+msgid "Lithuanian"
+msgstr "ลิทัวเนีย"
+
+#. cKe22
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_LT\n"
+"LngText.text"
+msgid "Installs the Lithuanian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาลิทัวเนีย"
+
+#. A4fdb
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EU\n"
+"LngText.text"
+msgid "Basque"
+msgstr "แบ็ซค์"
+
+#. 6VJvN
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EU\n"
+"LngText.text"
+msgid "Installs the Basque user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาแบ็ซค์"
+
+#. Kisg5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MK\n"
+"LngText.text"
+msgid "Macedonian"
+msgstr "มาซิโดเนีย"
+
+#. xSDAc
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MK\n"
+"LngText.text"
+msgid "Installs the Macedonian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษามาซิโดเนีย"
+
+#. Bqz7U
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CY\n"
+"LngText.text"
+msgid "Welsh"
+msgstr "เวลส์"
+
+#. cMm3B
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CY\n"
+"LngText.text"
+msgid "Installs the Welsh user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเวลส์"
+
+#. sut6n
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GL\n"
+"LngText.text"
+msgid "Galician"
+msgstr "กาลิเซีย"
+
+#. qvNvn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GL\n"
+"LngText.text"
+msgid "Installs the Galician user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษากาลิเซีย"
+
+#. eamnD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SR_LATN\n"
+"LngText.text"
+msgid "Serbian (Latin)"
+msgstr "เซอร์เบีย (อักษรละติน)"
+
+#. 6DbFi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SR_LATN\n"
+"LngText.text"
+msgid "Installs the Serbian (Latin) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเซอร์เบีย (อักษรละติน)"
+
+#. Dfqs2
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GA\n"
+"LngText.text"
+msgid "Irish"
+msgstr "ไอริช"
+
+#. TAumi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GA\n"
+"LngText.text"
+msgid "Installs the Irish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาไอริช"
+
+#. XmUCh
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SR\n"
+"LngText.text"
+msgid "Serbian (Cyrillic)"
+msgstr "เซอร์เบีย (อักษรซีริลลิก)"
+
+#. rWrcY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SR\n"
+"LngText.text"
+msgid "Installs the Serbian (Cyrillic) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเซอร์เบีย (อักษรซีริลลิก)"
+
+#. aG2Ei
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BS\n"
+"LngText.text"
+msgid "Bosnian"
+msgstr "บอสเนีย"
+
+#. W6nfT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BS\n"
+"LngText.text"
+msgid "Installs the Bosnian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาบอสเนีย"
+
+#. 8axvQ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AST\n"
+"LngText.text"
+msgid "Asturian"
+msgstr "อัสตูเรียส"
+
+#. N87e5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AST\n"
+"LngText.text"
+msgid "Installs the Asturian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอัสตูเรียส"
+
+#. dq9eu
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_RW\n"
+"LngText.text"
+msgid "Kinyarwanda"
+msgstr "คินยารวันดา"
+
+#. SzGHR
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_RW\n"
+"LngText.text"
+msgid "Installs the Kinyarwanda user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาคินยารวันดา"
+
+#. 3x8DY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FA\n"
+"LngText.text"
+msgid "Persian"
+msgstr "เปอร์เซีย"
+
+#. oC3fc
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FA\n"
+"LngText.text"
+msgid "Installs the Persian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเปอร์เซีย"
+
+#. 6qYBK
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TT\n"
+"LngText.text"
+msgid "Tatar"
+msgstr "ตาด"
+
+#. mSCtF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TT\n"
+"LngText.text"
+msgid "Installs the Tatar user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาตาด"
+
+#. v9Wwj
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TS\n"
+"LngText.text"
+msgid "Tsonga"
+msgstr "ซองกา"
+
+#. EK5FB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TS\n"
+"LngText.text"
+msgid "Installs the Tsonga user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาซองกา"
+
+#. L78sW
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BR\n"
+"LngText.text"
+msgid "Breton"
+msgstr "เบรตัน"
+
+#. XuSYK
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BR\n"
+"LngText.text"
+msgid "Installs the Breton user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเบรตัน"
+
+#. qrgoW
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NR\n"
+"LngText.text"
+msgid "Ndebele South"
+msgstr "เอ็นดีเบลีใต้"
+
+#. DgKLb
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NR\n"
+"LngText.text"
+msgid "Installs the Ndebele South user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเอ็นดีเบลีใต้"
+
+#. VM8xy
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SS\n"
+"LngText.text"
+msgid "Swazi"
+msgstr "สวาตี"
+
+#. F3Qwc
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SS\n"
+"LngText.text"
+msgid "Installs the Swazi user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสวาตี"
+
+#. PWJ4e
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_VE\n"
+"LngText.text"
+msgid "Venda"
+msgstr "เวนดา"
+
+#. gesmL
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_VE\n"
+"LngText.text"
+msgid "Installs the Venda user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเวนดา"
+
+#. zCkNG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_VEC\n"
+"LngText.text"
+msgid "Venetian"
+msgstr "วีนีเชียน"
+
+#. daNwF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_VEC\n"
+"LngText.text"
+msgid "Installs the Venetian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาวีนีเชียน"
+
+#. A8VRT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KN\n"
+"LngText.text"
+msgid "Kannada"
+msgstr "กัณณาท"
+
+#. gsKeJ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KN\n"
+"LngText.text"
+msgid "Installs the Kannada user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษากัณณาท"
+
+#. VEiMB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TG\n"
+"LngText.text"
+msgid "Tajik"
+msgstr "ทาจิกิสถาน"
+
+#. YuS5Y
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TG\n"
+"LngText.text"
+msgid "Installs the Tajik user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาทาจิกิสถาน"
+
+#. pgxMp
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KMR_LATN\n"
+"LngText.text"
+msgid "Kurdish"
+msgstr "เคิร์ด"
+
+#. vFtsD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KMR_LATN\n"
+"LngText.text"
+msgid "Installs the Kurdish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเคิร์ด"
+
+#. hL3iS
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DZ\n"
+"LngText.text"
+msgid "Dzongkha"
+msgstr "ภูฏาน"
+
+#. ZHRCx
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DZ\n"
+"LngText.text"
+msgid "Installs the Dzongkha user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาภูฏาน"
+
+#. aggDU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KA\n"
+"LngText.text"
+msgid "Georgian"
+msgstr "จอร์เจีย"
+
+#. WGiTR
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KA\n"
+"LngText.text"
+msgid "Installs the Georgian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาจอร์เจีย"
+
+#. hzkrn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EO\n"
+"LngText.text"
+msgid "Esperanto"
+msgstr "เอสเปอรันโต"
+
+#. TkTNd
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EO\n"
+"LngText.text"
+msgid "Installs the Esperanto user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเอสเปอรันโต"
+
+#. fjbXo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GU\n"
+"LngText.text"
+msgid "Gujarati"
+msgstr "คุชราตี"
+
+#. ai3Ga
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GU\n"
+"LngText.text"
+msgid "Installs the Gujarati user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาคุชราตี"
+
+#. tvtGa
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GUG\n"
+"LngText.text"
+msgid "Guarani"
+msgstr "กวารานี"
+
+#. DTeQk
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GUG\n"
+"LngText.text"
+msgid "Installs the Guarani user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษากวารานี"
+
+#. rUQhG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EN_ZA\n"
+"LngText.text"
+msgid "English (South Africa)"
+msgstr "อังกฤษ (แอฟริกาใต้)"
+
+#. iDDAw
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EN_ZA\n"
+"LngText.text"
+msgid "Installs the English (South Africa) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอังกฤษ (แอฟริกาใต้)"
+
+#. B67Fs
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EN_GB\n"
+"LngText.text"
+msgid "English (United Kingdom)"
+msgstr "อังกฤษ (สหราชอาณาจักร)"
+
+#. beJzD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EN_GB\n"
+"LngText.text"
+msgid "Installs the English (United Kingdom) user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอังกฤษ (สหราชอาณาจักร)"
+
+#. dDN6N
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_UZ\n"
+"LngText.text"
+msgid "Uzbek"
+msgstr "อุซเบกิสถาน"
+
+#. 7pcWi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_UZ\n"
+"LngText.text"
+msgid "Installs the Uzbek user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอุซเบกิสถาน"
+
+#. fKDX2
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MN\n"
+"LngText.text"
+msgid "Mongolian"
+msgstr "มองโกเลีย"
+
+#. R36Fr
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MN\n"
+"LngText.text"
+msgid "Installs the Mongolian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษามองโกเลีย"
+
+#. LVGuw
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BO\n"
+"LngText.text"
+msgid "Tibetan"
+msgstr "ทิเบต"
+
+#. ysPQ7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BO\n"
+"LngText.text"
+msgid "Installs the Tibetan user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาทิเบต"
+
+#. wJGAU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_OC\n"
+"LngText.text"
+msgid "Occitan"
+msgstr "ออกซิตัน"
+
+#. KTnAB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_OC\n"
+"LngText.text"
+msgid "Installs the Occitan user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาออกซิตัน"
+
+#. iRhub
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_OM\n"
+"LngText.text"
+msgid "Oromo"
+msgstr "ออโรโม"
+
+#. kAxA4
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_OM\n"
+"LngText.text"
+msgid "Installs the Oromo user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาออโรโม"
+
+#. kaB7L
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SI\n"
+"LngText.text"
+msgid "Sinhala"
+msgstr "สิงหล"
+
+#. 7VD5P
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SI\n"
+"LngText.text"
+msgid "Installs the Sinhala user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสิงหล"
+
+#. qm94d
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_UG\n"
+"LngText.text"
+msgid "Uyghur"
+msgstr "อุยกูร์"
+
+#. oZD6E
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_UG\n"
+"LngText.text"
+msgid "Installs the Uyghur user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอุยกูร์"
+
+#. p3jEb
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AS\n"
+"LngText.text"
+msgid "Assamese"
+msgstr "อัสสมี"
+
+#. BH3ts
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AS\n"
+"LngText.text"
+msgid "Installs the Assamese user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอัสสมี"
+
+#. 6R75J
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BRX\n"
+"LngText.text"
+msgid "Bodo"
+msgstr "พอโฑ"
+
+#. SYKb6
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BRX\n"
+"LngText.text"
+msgid "Installs the Bodo user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาพอโฑ"
+
+#. XJx2S
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DGO\n"
+"LngText.text"
+msgid "Dogri"
+msgstr "โฑครี"
+
+#. GHuAc
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DGO\n"
+"LngText.text"
+msgid "Installs the Dogri user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาโฑครี"
+
+#. Y5NVi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GD\n"
+"LngText.text"
+msgid "Scottish Gaelic"
+msgstr "เกลิกสก็อต"
+
+#. h6Xji
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GD\n"
+"LngText.text"
+msgid "Installs the Scottish Gaelic user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเกลิกสก็อต"
+
+#. zNoA6
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KK\n"
+"LngText.text"
+msgid "Kazakh"
+msgstr "คาซัคสถาน"
+
+#. XrCky
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KK\n"
+"LngText.text"
+msgid "Installs the Kazakh user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาคาซัคสถาน"
+
+#. is34S
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KOK\n"
+"LngText.text"
+msgid "Konkani"
+msgstr "โกงกณี"
+
+#. GCBFA
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KOK\n"
+"LngText.text"
+msgid "Installs the Konkani user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาโกงกณี"
+
+#. yUMGg
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KS\n"
+"LngText.text"
+msgid "Kashmiri"
+msgstr "กัศมีรี"
+
+#. EqdYH
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KS\n"
+"LngText.text"
+msgid "Installs the Kashmiri user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษากัศมีรี"
+
+#. Ja29R
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MAI\n"
+"LngText.text"
+msgid "Maithili"
+msgstr "ไมถิลี"
+
+#. A7zvB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MAI\n"
+"LngText.text"
+msgid "Installs the Maithili user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาไมถิลี"
+
+#. 3vAM4
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ML\n"
+"LngText.text"
+msgid "Malayalam"
+msgstr "มลยาฬัม"
+
+#. YUJth
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ML\n"
+"LngText.text"
+msgid "Installs the Malayalam user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษามลยาฬัม"
+
+#. w4F2a
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MNI\n"
+"LngText.text"
+msgid "Manipuri"
+msgstr "มณีปุรี"
+
+#. qDeBC
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MNI\n"
+"LngText.text"
+msgid "Installs the Manipuri user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษามณีปุรี"
+
+#. nWUhY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SA_IN\n"
+"LngText.text"
+msgid "Sanskrit (India)"
+msgstr "สันสกฤต (อินเดีย)"
+
+#. EmzAF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SA_IN\n"
+"LngText.text"
+msgid "Installs the Sanskrit user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสันสกฤต"
+
+#. rBenF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SAT\n"
+"LngText.text"
+msgid "Santali"
+msgstr "สันถาลี"
+
+#. PTFoo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SAT\n"
+"LngText.text"
+msgid "Installs the Santali user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสันถาลี"
+
+#. MBSu9
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SAT_OLCK\n"
+"LngText.text"
+msgid "Santali (Ol-Chiki)"
+msgstr ""
+
+#. Sp4BG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SAT_OLCK\n"
+"LngText.text"
+msgid "Installs the Santali (Ol-Chiki) user interface"
+msgstr ""
+
+#. RAjE3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SD\n"
+"LngText.text"
+msgid "Sindhi"
+msgstr "สินธี"
+
+#. 6x2sa
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SD\n"
+"LngText.text"
+msgid "Installs the Sindhi user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาสินธี"
+
+#. Y4YgJ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TE\n"
+"LngText.text"
+msgid "Telugu"
+msgstr "เตลุคู"
+
+#. DDEjG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TE\n"
+"LngText.text"
+msgid "Installs the Telugu user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาเตลุคู"
+
+#. QQ3f5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_LB\n"
+"LngText.text"
+msgid "Luxembourgish"
+msgstr "ลักเซมเบิร์ก"
+
+#. fxKDm
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_LB\n"
+"LngText.text"
+msgid "Installs the Luxembourgish user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาลักเซมเบิร์ก"
+
+#. qWsr6
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AM\n"
+"LngText.text"
+msgid "Amharic"
+msgstr "อัมฮาริก"
+
+#. dtExs
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AM\n"
+"LngText.text"
+msgid "Installs the Amharic user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอัมฮาริก"
+
+#. AoejF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SID\n"
+"LngText.text"
+msgid "Sidama"
+msgstr "ซิดามา"
+
+#. wYHgn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SID\n"
+"LngText.text"
+msgid "Installs the Sidama user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาซิดามา"
+
+#. qFqud
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SZL\n"
+"LngText.text"
+msgid "Silesian"
+msgstr "ไซลีเชียน"
+
+#. Erz8u
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SZL\n"
+"LngText.text"
+msgid "Installs the Silesian user interface"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาไซลีเชียน"
+
+#. wWJ9Y
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_QTZ\n"
+"LngText.text"
+msgid "KeyID"
+msgstr "KeyID"
+
+#. eV5vu
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_QTZ\n"
+"LngText.text"
+msgid "Installs the English user interface with a key ID before each UI element"
+msgstr "ติดตั้งส่วนติดต่อผู้ใช้ภาษาอังกฤษโดยมี key ID หน้าองค์ประกอบ UI ทุกตัว"
+
+#. 7iL3K
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_ROOT_OSL\n"
+"LngText.text"
+msgid "%PRODUCTNAME %PRODUCTVERSION"
+msgstr "%PRODUCTNAME %PRODUCTVERSION"
+
+#. AzNK3
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_ROOT_OSL\n"
+"LngText.text"
+msgid "%PRODUCTNAME %PRODUCTVERSION"
+msgstr "%PRODUCTNAME %PRODUCTVERSION"
+
+#. 83WCE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_PRG\n"
+"LngText.text"
+msgid "%PRODUCTNAME Program Modules"
+msgstr "มอดูลของโปรแกรม %PRODUCTNAME"
+
+#. Aknoa
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_PRG\n"
+"LngText.text"
+msgid "List of all installable %PRODUCTNAME modules."
+msgstr "รายชื่อมอดูลทั้งหมดที่ติดตั้งได้ของ %PRODUCTNAME"
+
+#. mR8gY
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_OPTIONAL\n"
+"LngText.text"
+msgid "Optional Components"
+msgstr "ส่วนประกอบเผื่อเลือก"
+
+#. izkNq
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_OPTIONAL\n"
+"LngText.text"
+msgid "Common components and additional programs shared by all %PRODUCTNAME programs."
+msgstr "ส่วนประกอบทั่วไปและโปรแกรมเสริมที่ใช้ร่วมกันโดยโปรแกรม %PRODUCTNAME ทั้งหมด"
+
+#. SCcWV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_DICTIONARIES\n"
+"LngText.text"
+msgid "Dictionaries"
+msgstr "พจนานุกรม"
+
+#. aYDSu
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_DICTIONARIES\n"
+"LngText.text"
+msgid "Spelling dictionaries, hyphenation rules, thesauri and grammar checkers."
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ อรรถาภิธาน และเครื่องมือตรวจไวยากรณ์"
+
+#. MYXBi
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_AF\n"
+"LngText.text"
+msgid "Afrikaans"
+msgstr "แอฟริคานส์"
+
+#. W3oZL
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_AF\n"
+"LngText.text"
+msgid "Afrikaans spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษาแอฟริคานส์"
+
+#. iZib4
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_AN\n"
+"LngText.text"
+msgid "Aragonese"
+msgstr "อารากอน"
+
+#. T7zQV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_AN\n"
+"LngText.text"
+msgid "Aragonese spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาอารากอน"
+
+#. qN2sF
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_AR\n"
+"LngText.text"
+msgid "Arabic"
+msgstr "อาหรับ"
+
+#. TuYuu
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_AR\n"
+"LngText.text"
+msgid "Arabic spelling dictionary, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำและอรรถาภิธานภาษาอาหรับ"
+
+#. RrDK6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BE\n"
+"LngText.text"
+msgid "Belarusian"
+msgstr "เบลารุส"
+
+#. GFGyq
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BE\n"
+"LngText.text"
+msgid "Belarusian spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาเบลารุส"
+
+#. B9iCs
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BG\n"
+"LngText.text"
+msgid "Bulgarian"
+msgstr "บัลแกเรีย"
+
+#. BBGDC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BG\n"
+"LngText.text"
+msgid "Bulgarian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาบัลแกเรีย"
+
+#. BTti9
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BN\n"
+"LngText.text"
+msgid "Bengali"
+msgstr "เบ็งกาลี"
+
+#. eK99V
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BN\n"
+"LngText.text"
+msgid "Bengali spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาเบ็งกาลี"
+
+#. qMM8i
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BO\n"
+"LngText.text"
+msgid "Classical Tibetan"
+msgstr "ทิเบตคลาสสิก"
+
+#. xXyL2
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BO\n"
+"LngText.text"
+msgid "Classical Tibetan syllable spelling dictionary"
+msgstr "พจนานุกรมการสะกดพยางค์ภาษาทิเบตคลาสสิก"
+
+#. gjKdw
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BR\n"
+"LngText.text"
+msgid "Breton"
+msgstr "เบรตัน"
+
+#. iDDXs
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BR\n"
+"LngText.text"
+msgid "Breton spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาเบรตัน"
+
+#. z3N6j
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BS\n"
+"LngText.text"
+msgid "Bosnian"
+msgstr "บอสเนีย"
+
+#. icYu4
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BS\n"
+"LngText.text"
+msgid "Bosnian spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาบอสเนีย"
+
+#. YgTuV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_CA\n"
+"LngText.text"
+msgid "Catalan"
+msgstr "คาตะลาน"
+
+#. ADAkJ
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_CA\n"
+"LngText.text"
+msgid "Catalan spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาคาตะลาน"
+
+#. CVnGE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_CKB\n"
+"LngText.text"
+msgid "Central Kurdish"
+msgstr "เคิร์ดกลาง"
+
+#. xEtQ6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_CKB\n"
+"LngText.text"
+msgid "Central Kurdish spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาเคิร์ดกลาง"
+
+#. CCE5q
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_CS\n"
+"LngText.text"
+msgid "Czech"
+msgstr "เช็ก"
+
+#. ECaT7
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_CS\n"
+"LngText.text"
+msgid "Czech spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาเช็ก"
+
+#. gS2wr
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_DA\n"
+"LngText.text"
+msgid "Danish"
+msgstr "เดนมาร์ก"
+
+#. MpqAG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_DA\n"
+"LngText.text"
+msgid "Danish spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาเดนมาร์ก"
+
+#. 7swZQ
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_DE\n"
+"LngText.text"
+msgid "German"
+msgstr "เยอรมัน"
+
+#. PwSxk
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_DE\n"
+"LngText.text"
+msgid "German (Austria, Germany, Switzerland) spelling dictionaries, hyphenation rules, and thesauri"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาเยอรมัน (ออสเตรีย, เยอรมนี, สวิตเซอร์แลนด์)"
+
+#. CkBTE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_EN\n"
+"LngText.text"
+msgid "English"
+msgstr "อังกฤษ"
+
+#. BzD6Z
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_EN\n"
+"LngText.text"
+msgid "English spelling dictionaries, hyphenation rules, thesaurus, and grammar checker"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ อรรถาภิธาน และเครื่องมือตรวจไวยากรณ์ภาษาอังกฤษ"
+
+#. 2DiA4
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_EL\n"
+"LngText.text"
+msgid "Greek"
+msgstr "กรีก"
+
+#. B67mE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_EL\n"
+"LngText.text"
+msgid "Greek spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษากรีก"
+
+#. d5cqB
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_EO\n"
+"LngText.text"
+msgid "Esperanto"
+msgstr "เอสเปอรันโต"
+
+#. kCMkK
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_EO\n"
+"LngText.text"
+msgid "Esperanto spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาเอสเปอรันโต"
+
+#. 6Mzvn
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_ES\n"
+"LngText.text"
+msgid "Spanish"
+msgstr "สเปน"
+
+#. 9QkGG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_ES\n"
+"LngText.text"
+msgid "Spanish spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาสเปน"
+
+#. KRfJz
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_ET\n"
+"LngText.text"
+msgid "Estonian"
+msgstr "เอสโตเนีย"
+
+#. BwPVk
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_ET\n"
+"LngText.text"
+msgid "Estonian spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษาเอสโตเนีย"
+
+#. ccL3Z
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_FA\n"
+"LngText.text"
+msgid "Persian"
+msgstr "เปอร์เซีย"
+
+#. FLaCv
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_FA\n"
+"LngText.text"
+msgid "Persian Spell Checking Dictionary"
+msgstr "พจนานุกรมตรวจการสะกดคำภาษาเปอร์เซีย"
+
+#. 5QqAr
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_FR\n"
+"LngText.text"
+msgid "French"
+msgstr "ฝรั่งเศส"
+
+#. MZrvF
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_FR\n"
+"LngText.text"
+msgid "French spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาฝรั่งเศส"
+
+#. gFGrA
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_GD\n"
+"LngText.text"
+msgid "Scottish Gaelic"
+msgstr "เกลิกสก็อต"
+
+#. RBdc6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_GD\n"
+"LngText.text"
+msgid "Scottish Gaelic spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาเกลิกสก็อต"
+
+#. QZv9T
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_GL\n"
+"LngText.text"
+msgid "Galician"
+msgstr "กาลิเซีย"
+
+#. SnJ62
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_GL\n"
+"LngText.text"
+msgid "Galician spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษากาลิเซีย"
+
+#. BfhaS
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_GU\n"
+"LngText.text"
+msgid "Gujarati"
+msgstr "คุชราตี"
+
+#. EJ73v
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_GU\n"
+"LngText.text"
+msgid "Gujarati spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาคุชราตี"
+
+#. TETpE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_HE\n"
+"LngText.text"
+msgid "Hebrew"
+msgstr "ฮีบรู"
+
+#. Kb7VT
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_HE\n"
+"LngText.text"
+msgid "Hebrew spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาฮีบรู"
+
+#. Bw48q
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_HI\n"
+"LngText.text"
+msgid "Hindi"
+msgstr "ฮินดี"
+
+#. yrD8a
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_HI\n"
+"LngText.text"
+msgid "Hindi spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาฮินดี"
+
+#. 9p6WB
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_HU\n"
+"LngText.text"
+msgid "Hungarian"
+msgstr "ฮังการี"
+
+#. ZgByi
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_HU\n"
+"LngText.text"
+msgid "Hungarian spelling dictionary, hyphenation rules, thesaurus, and grammar checker"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ อรรถาภิธาน และเครื่องมือตรวจไวยากรณ์ภาษาฮังการี"
+
+#. QDFn9
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_HR\n"
+"LngText.text"
+msgid "Croatian"
+msgstr "โครเอเชีย"
+
+#. A2Sit
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_HR\n"
+"LngText.text"
+msgid "Croatian spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษาโครเอเชีย"
+
+#. kfnGf
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_ID\n"
+"LngText.text"
+msgid "Indonesian"
+msgstr "อินโดนีเซีย"
+
+#. bKFJd
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_ID\n"
+"LngText.text"
+msgid "Indonesian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาอินโดนีเซีย"
+
+#. G6XKV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_IS\n"
+"LngText.text"
+msgid "Icelandic"
+msgstr "ไอซ์แลนด์"
+
+#. 2GCeD
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_IS\n"
+"LngText.text"
+msgid "Icelandic spelling dictionary and thesaurus"
+msgstr "พจนานุกรมการสะกดคำและอรรถาภิธานภาษาไอซ์แลนด์"
+
+#. eMWNC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_IT\n"
+"LngText.text"
+msgid "Italian"
+msgstr "อิตาลี"
+
+#. xmEH8
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_IT\n"
+"LngText.text"
+msgid "Italian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาอิตาลี"
+
+#. FVsWA
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_KMR_LATN\n"
+"LngText.text"
+msgid "Kurdish, Northern, Latin script"
+msgstr "เคิร์ดเหนือ อักษรละติน"
+
+#. eVdFs
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_KMR_LATN\n"
+"LngText.text"
+msgid "Kurdish, Northern, Latin script spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาเคิร์ดเหนืออักษรละติน"
+
+#. UrEiC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_KO\n"
+"LngText.text"
+msgid "Korean"
+msgstr "เกาหลี"
+
+#. EeEDH
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_KO\n"
+"LngText.text"
+msgid "Korean spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาเกาหลี"
+
+#. xuCvE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_LO\n"
+"LngText.text"
+msgid "Lao"
+msgstr "ลาว"
+
+#. sk35z
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_LO\n"
+"LngText.text"
+msgid "Lao spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาลาว"
+
+#. 3SgjJ
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_LT\n"
+"LngText.text"
+msgid "Lithuanian"
+msgstr "ลิทัวเนีย"
+
+#. EDJnu
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_LT\n"
+"LngText.text"
+msgid "Lithuanian spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษาลิทัวเนีย"
+
+#. f8VcG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_LV\n"
+"LngText.text"
+msgid "Latvian"
+msgstr "ลัตเวีย"
+
+#. 4mvRA
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_LV\n"
+"LngText.text"
+msgid "Latvian spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษาลัตเวีย"
+
+#. bPEcW
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_MN\n"
+"LngText.text"
+msgid "Mongolian"
+msgstr "มองโกเลีย"
+
+#. 54a9A
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_MN\n"
+"LngText.text"
+msgid "Mongolian spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษามองโกเลีย"
+
+#. s33jG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_NE\n"
+"LngText.text"
+msgid "Nepali"
+msgstr "เนปาล"
+
+#. zJJvz
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_NE\n"
+"LngText.text"
+msgid "Nepali spelling dictionary, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำและอรรถาภิธานภาษาเนปาล"
+
+#. QanF5
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_NL\n"
+"LngText.text"
+msgid "Dutch"
+msgstr "ดัตช์"
+
+#. DZAnE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_NL\n"
+"LngText.text"
+msgid "Dutch spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษาดัตช์"
+
+#. DJA8F
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_NO\n"
+"LngText.text"
+msgid "Norwegian"
+msgstr "นอร์เวย์"
+
+#. jRRbG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_NO\n"
+"LngText.text"
+msgid "Norwegian (Nynorsk and Bokmal) spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษานอร์เวย์ (นีนอร์สก์และบุคมอล)"
+
+#. FDCJV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_OC\n"
+"LngText.text"
+msgid "Occitan"
+msgstr "ออกซิตัน"
+
+#. hzs4i
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_OC\n"
+"LngText.text"
+msgid "Occitan spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาออกซิตัน"
+
+#. QicMe
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_PL\n"
+"LngText.text"
+msgid "Polish"
+msgstr "โปแลนด์"
+
+#. E9rKY
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_PL\n"
+"LngText.text"
+msgid "Polish spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุำกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาโปแลนด์"
+
+#. QGpSq
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_PT_BR\n"
+"LngText.text"
+msgid "Portuguese (Brazil)"
+msgstr "โปรตุเกส (บราซิล)"
+
+#. wWCfp
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_PT_BR\n"
+"LngText.text"
+msgid "Portuguese (Brazil) spelling Dictionary (1990 Spelling Agreement), and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำ (ข้อตกลงการสะกดคำปี 1990) และกฎการแทรกยัติภังค์ภาษาโปรตุเกส (บราซิล)"
+
+#. KZETs
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_PT_PT\n"
+"LngText.text"
+msgid "Portuguese"
+msgstr "โปรตุเกส"
+
+#. vKkFM
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_PT_PT\n"
+"LngText.text"
+msgid "European Portuguese spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาโปรตุเกสภาคพื้นยุโรป"
+
+#. pBzE7
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_RO\n"
+"LngText.text"
+msgid "Romanian"
+msgstr "โรมาเนีย"
+
+#. FmNsz
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_RO\n"
+"LngText.text"
+msgid "Romanian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาโรมาเนีย"
+
+#. wUTBC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_RU\n"
+"LngText.text"
+msgid "Russian"
+msgstr "รัสเซีย"
+
+#. jEuDR
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_RU\n"
+"LngText.text"
+msgid "Russian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษารัสเซีย"
+
+#. LvDHM
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SI\n"
+"LngText.text"
+msgid "Sinhala"
+msgstr "สิงหล"
+
+#. qDXQw
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SI\n"
+"LngText.text"
+msgid "Sinhala spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาสิงหล"
+
+#. DrzpP
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SK\n"
+"LngText.text"
+msgid "Slovak"
+msgstr "สโลวัก"
+
+#. t3S53
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SK\n"
+"LngText.text"
+msgid "Slovak spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาสโลวัก"
+
+#. ypzEV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SL\n"
+"LngText.text"
+msgid "Slovenian"
+msgstr "สโลวีเนีย"
+
+#. WasEv
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SL\n"
+"LngText.text"
+msgid "Slovenian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษาสโลวีเนีย"
+
+#. S7shF
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SQ\n"
+"LngText.text"
+msgid "Albanian"
+msgstr "แอลเบเนีย"
+
+#. gDEY6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SQ\n"
+"LngText.text"
+msgid "Albanian spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาแอลเบเนีย"
+
+#. DsKAH
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SR\n"
+"LngText.text"
+msgid "Serbian"
+msgstr "เซอร์เบีย"
+
+#. wm6FC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SR\n"
+"LngText.text"
+msgid "Serbian (Cyrillic and Latin) spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษาเซอร์เบีย (อักษรซีริลลิกและละติน)"
+
+#. a5sxo
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SV\n"
+"LngText.text"
+msgid "Swedish"
+msgstr "สวีเดน"
+
+#. 268M7
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SV\n"
+"LngText.text"
+msgid "Swedish spelling dictionary, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำและอรรถาภิธานภาษาสวีเดน"
+
+#. AGpUb
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SW\n"
+"LngText.text"
+msgid "Swahili"
+msgstr "สวาฮีลี"
+
+#. iHEAm
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SW\n"
+"LngText.text"
+msgid "Swahili spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาสวาฮีลี"
+
+#. Cnrv2
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_TE\n"
+"LngText.text"
+msgid "Telugu"
+msgstr "เตลุคู"
+
+#. dBCkd
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_TE\n"
+"LngText.text"
+msgid "Telugu spelling dictionary, and hyphenation rules"
+msgstr "พจนานุกรมการสะกดคำและกฎการแทรกยัติภังค์ภาษาเตลุคู"
+
+#. w2MSG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_TH\n"
+"LngText.text"
+msgid "Thai"
+msgstr "ไทย"
+
+#. ycBR6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_TH\n"
+"LngText.text"
+msgid "Thai spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาไทย"
+
+#. RTDDS
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_TR\n"
+"LngText.text"
+msgid "Turkish"
+msgstr "ตุรกี"
+
+#. ALNqi
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_TR\n"
+"LngText.text"
+msgid "Turkish spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาตุรกี"
+
+#. gyKCb
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_UK\n"
+"LngText.text"
+msgid "Ukrainian"
+msgstr "ยูเครน"
+
+#. 9WkNj
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_UK\n"
+"LngText.text"
+msgid "Ukrainian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "พจนานุกรมการสะกดคำ กฎการแทรกยัติภังค์ และอรรถาภิธานภาษายูเครน"
+
+#. azarG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_VI\n"
+"LngText.text"
+msgid "Vietnamese"
+msgstr "เวียดนาม"
+
+#. i9ESQ
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_VI\n"
+"LngText.text"
+msgid "Vietnamese spelling dictionary"
+msgstr "พจนานุกรมการสะกดคำภาษาเวียดนาม"
+
+#. fq4qC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_ZU\n"
+"LngText.text"
+msgid "Zulu"
+msgstr "ซูลู"
+
+#. MFaBx
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_ZU\n"
+"LngText.text"
+msgid "Zulu hyphenation rules"
+msgstr "กฎการแทรกยัติภังค์ภาษาซูลู"
+
+#. pxQ5u
+#: module_reportbuilder.ulf
+msgctxt ""
+"module_reportbuilder.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_REPORTDESIGN\n"
+"LngText.text"
+msgid "Report Builder"
+msgstr "เครื่องมือสร้างรายงาน"
+
+#. uzCcq
+#: module_reportbuilder.ulf
+msgctxt ""
+"module_reportbuilder.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_REPORTDESIGN\n"
+"LngText.text"
+msgid "Report Builder helps to design database reports. It requires Java."
+msgstr "เครื่องมือสร้างรายงานจะช่วยคุณออกแบบรายงานต่างๆ จากฐานข้อมูล ซึ่งตัวเครื่องมือต้องใช้ Java ในการทำงาน"
+
+#. 9vjxt
+#: module_systemint.ulf
+msgctxt ""
+"module_systemint.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_SYSTEMINTEGRATION\n"
+"LngText.text"
+msgid "Desktop integration"
+msgstr "การเชื่อมรวมกับเดสก์ท็อป"
+
+#. Wvfym
+#: module_systemint.ulf
+msgctxt ""
+"module_systemint.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_SYSTEMINTEGRATION\n"
+"LngText.text"
+msgid "Desktop integration of %PRODUCTNAME %PRODUCTVERSION."
+msgstr "การเชื่อมรวมกับเดสก์ท็อปของ %PRODUCTNAME %PRODUCTVERSION"
+
+#. tcNqY
+#: registryitem_ooo.ulf
+msgctxt ""
+"registryitem_ooo.ulf\n"
+"STR_REG_VAL_INSTALL\n"
+"LngText.text"
+msgid "&Install"
+msgstr "&ติดตั้ง"
+
+#. oZCSv
+#: registryitem_ooo.ulf
+msgctxt ""
+"registryitem_ooo.ulf\n"
+"STR_REG_VAL_SO60_CONFIGFILE\n"
+"LngText.text"
+msgid "%PRODUCTNAME Configuration File"
+msgstr "ไฟล์ค่ากำหนดของ %PRODUCTNAME"
+
+#. AjY7Q
+#: registryitem_ooo.ulf
+msgctxt ""
+"registryitem_ooo.ulf\n"
+"STR_REG_VAL_EXTENSION\n"
+"LngText.text"
+msgid "%PRODUCTNAME Extension"
+msgstr "ส่วนขยายของ %PRODUCTNAME"
+
+#. TKpXD
+#: registryitem_ooo.ulf
+msgctxt ""
+"registryitem_ooo.ulf\n"
+"STR_REG_VAL_APPCAPABILITY_DESCRIPTION_OOO\n"
+"LngText.text"
+msgid "LibreOffice"
+msgstr "LibreOffice"

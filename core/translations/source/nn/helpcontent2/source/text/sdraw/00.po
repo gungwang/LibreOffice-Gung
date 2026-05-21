@@ -1,0 +1,215 @@
+#. extracted from helpcontent2/source/text/sdraw/00
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2024-10-04 15:42+0200\n"
+"PO-Revision-Date: 2024-09-21 09:45+0000\n"
+"Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
+"Language-Team: Norwegian Nynorsk <https://translations.documentfoundation.org/projects/libo_help-master/textsdraw00/nn/>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1565283934.000000\n"
+
+#. EDSDr
+#: 00000004.xhp
+msgctxt ""
+"00000004.xhp\n"
+"tit\n"
+"help.text"
+msgid "To access this command..."
+msgstr "For å gjera dette …"
+
+#. kDZCK
+#: 00000004.xhp
+msgctxt ""
+"00000004.xhp\n"
+"hd_id3156024\n"
+"help.text"
+msgid "<variable id=\"wie\">To access this command...</variable>"
+msgstr "<variable id=\"wie\">For å gjera dette …</variable>"
+
+#. BG8mb
+#: insert_menu.xhp
+msgctxt ""
+"insert_menu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Insert Menu"
+msgstr "Set inn meny"
+
+#. UWBZA
+#: insert_menu.xhp
+msgctxt ""
+"insert_menu.xhp\n"
+"par_id3147002\n"
+"help.text"
+msgid "Choose <menuitem>Insert - Layer</menuitem>"
+msgstr "Vel <menuitem>Set inn → Lag</menuitem>"
+
+#. L9dEV
+#: insert_menu.xhp
+msgctxt ""
+"insert_menu.xhp\n"
+"par_id3154765\n"
+"help.text"
+msgid "Select the layer and choose <menuitem>Format - Layer</menuitem>."
+msgstr "Merk laget og vel <menuitem>Format → Lag</menuitem>"
+
+#. AV3WA
+#: insert_menu.xhp
+msgctxt ""
+"insert_menu.xhp\n"
+"par_id971704911334485\n"
+"help.text"
+msgid "Choose <menuitem>Insert - Insert Layer</menuitem>."
+msgstr "Vel <menuitem>Set inn → Set inn lag</menuitem>"
+
+#. AUTMW
+#: insert_menu.xhp
+msgctxt ""
+"insert_menu.xhp\n"
+"par_id3150363\n"
+"help.text"
+msgid "Open context menu of layer tabs - choose <menuitem>Insert Layer</menuitem>"
+msgstr "Opna sprettoppmenyen for lagfaner – vel <menuitem>Set inn lag</menuitem>"
+
+#. rwp8c
+#: insert_menu.xhp
+msgctxt ""
+"insert_menu.xhp\n"
+"par_id3152874\n"
+"help.text"
+msgid "Open context menu of the layer tab - choose <menuitem>Modify Layer</menuitem>."
+msgstr "Opna sprettoppmenyen for lagfana – vel <menuitem>Endra lag</menuitem>."
+
+#. FS4FK
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"tit\n"
+"help.text"
+msgid "Page Menu"
+msgstr "Sidemeny"
+
+#. h9HDn
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id561556823042778\n"
+"help.text"
+msgid "<variable id=\"frtites\">Choose <menuitem>Page - Page Properties</menuitem> and then click the <emph>Page</emph> tab    </variable>"
+msgstr "<variable id=\"frtites\">Vel <menuitem>Side → Eigenskapar</menuitem> og deretter fana <emph>Side</emph></variable>"
+
+#. 6eTqD
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id321556823043909\n"
+"help.text"
+msgid "<variable id=\"frtiteh\">Choose <menuitem>Page - Page Properties</menuitem> and then click the <emph>Background</emph> tab    </variable>"
+msgstr "<variable id=\"frtiteh\">Vel <menuitem>Side → Eigenskapar</menuitem> og deretter fana <emph>Bakgrunn</emph></variable>"
+
+#. UqCyU
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id941556823044342\n"
+"help.text"
+msgid "<variable id=\"seitenvorlage\">Choose <menuitem>Page - Master Page</menuitem>    </variable>"
+msgstr "<variable id=\"seitenvorlage\">Vel <menuitem>Side → Hovudutforming</menuitem></variable>"
+
+#. 8E7uv
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id911634055593609\n"
+"help.text"
+msgid "Choose <menuitem>Page - Master Page - Load</menuitem>"
+msgstr "Vel <menuitem>Side → Hovudside → Last inn</menuitem>"
+
+#. paRMk
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id191556823044529\n"
+"help.text"
+msgid "Choose <menuitem>Page - New Page</menuitem>"
+msgstr "Vel <menuitem>Side → Ny side</menuitem>"
+
+#. 6V85t
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id321725397381772\n"
+"help.text"
+msgid "Choose <menuitem>Insert - New Page</menuitem>."
+msgstr "Choose <menuitem>Insert - Ny side</menuitem>."
+
+#. GZWcc
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id351556823072396\n"
+"help.text"
+msgid "<image id=\"img_id381556823072396\" src=\"cmd/lc_insertpage.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id381556823072396\">Icon New Page</alt></image>"
+msgstr "<image id=\"img_id381556823072396\" src=\"cmd/lc_insertpage.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id381556823072396\">Ikon Ny side</alt></image>"
+
+#. xbkHm
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id831556823072396\n"
+"help.text"
+msgid "New Page"
+msgstr "Ny side"
+
+#. XpEgx
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id231566134395223\n"
+"help.text"
+msgid "<variable id=\"menupagerename\">Choose <menuitem>Page - Rename Page</menuitem></variable>"
+msgstr "<variable id=\"menupagerename\">Vel <menuitem>Side → Endra namn på sida</menuitem></variable>"
+
+#. D8EKG
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id311566135070776\n"
+"help.text"
+msgid "<variable id=\"contextmenurename\">Right-click on the page thumbnail and choose <menuitem>Rename Page</menuitem></variable>"
+msgstr "<variable id=\"contextmenurename\">Høgreklikk på miniatyren av sida og vel <menuitem>Gje sida nytt namn</menuitem></variable>"
+
+#. fbrxo
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id141566138212217\n"
+"help.text"
+msgid "<variable id=\"menupagedelete\">Choose <menuitem>Page - Delete Page</menuitem></variable>"
+msgstr "<variable id=\"menupagedelete\">Vel <menuitem>Side → Slett Side</menuitem></variable>"
+
+#. puE7E
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id261566138218294\n"
+"help.text"
+msgid "<variable id=\"contextmenudelete\">Right-click on the page thumbnail and choose <menuitem>Delete Page</menuitem></variable>"
+msgstr "<variable id=\"contextmenudelete\">Høgreklikk på miniatyren av sida og vel <menuitem>Slett side</menuitem></variable>"
+
+#. 4B9YP
+#: page_menu.xhp
+msgctxt ""
+"page_menu.xhp\n"
+"par_id301566157911675\n"
+"help.text"
+msgid "<variable id=\"pagenavigation\">Choose <menuitem>Page - Navigate</menuitem>.</variable>"
+msgstr "<variable id=\"pagenavigation\">Vel <menuitem>Side → Naviger</menuitem></variable>"

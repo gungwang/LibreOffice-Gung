@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+* This file is part of the LibreOffice project.
+*
+* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this
+* file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*
+* This file incorporates work covered by the following license notice:
+*
+*   Licensed to the Apache Software Foundation (ASF) under one or more
+*   contributor license agreements. See the NOTICE file distributed
+*   with this work for additional information regarding copyright
+*   ownership. The ASF licenses this file to you under the Apache
+*   License, Version 2.0 (the "License"); you may not use this file
+*   except in compliance with the License. You may obtain a copy of
+*   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+<meta>
+  <topic id="textsimpress00slidemenuxml" indexer="exclude" status="PUBLISH">
+    <title id="tit">Slide Menu</title>
+    <filename>/text/simpress/00/slide_menu.xhp</filename>
+  </topic>
+</meta>
+<body>
+    <paragraph role="paragraph" id="par_id3155530"><variable id="frtite">Choose <menuitem>Slide - Slide Properties</menuitem>.</variable></paragraph>
+    <paragraph role="paragraph" id="par_id3145386"><variable id="frtites">Choose <menuitem>Slide - Slide Properties</menuitem> and then click the <menuitem>Slide</menuitem> tab.</variable></paragraph>
+    <paragraph role="paragraph" id="par_id3148866"><variable id="frtiteh">Choose <menuitem>Slide - Slide Properties</menuitem> and then click the <menuitem>Background</menuitem> tab.</variable></paragraph>
+
+    <section id="adnsei">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id3155266">Choose <menuitem>Slide - Layout</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+      <paragraph role="paragraph" id="par_id441763643531791">On the <menuitem>Layout</menuitem> tab, choose <menuitem>Slide layout</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_sidebar"/>
+      <paragraph role="paragraph" id="par_id51763643342907">Open the <menuitem>Properties</menuitem> deck, select <menuitem>Layouts</menuitem>.</paragraph>
+      <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+      <table id="tab_id191763643606193">
+        <tablerow>
+          <tablecell>
+            <paragraph id="par_id901763643606193" role="paragraph"><image src="cmd/lc_assignlayout.svg" id="img_id321763643606193" width="1cm"  height="1cm"><alt id="alt_id11763643606193">Icon Slide Layout</alt></image></paragraph>
+          </tablecell>
+          <tablecell>
+            <paragraph id="par_id521763643606193" role="paragraph">Slide Layout</paragraph>
+          </tablecell>
+        </tablerow>
+      </table>
+    </section>
+
+    <paragraph role="paragraph" id="par_id3153012"><variable id="seitenvorlage">Choose <menuitem>Slide - Change Slide Master</menuitem>.</variable></paragraph>
+
+    <section id="loadslidedesign">
+      <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+      <paragraph role="paragraph" id="par_id911634055593609">Choose <menuitem>Slide - Change Slide Master - Load</menuitem>.</paragraph>
+    </section>
+
+  <section id="new_slide">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <paragraph id="par_id3134264" role="paragraph">Choose <menuitem>Slide - New Slide</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <paragraph role="paragraph" id="par_id151725397069382">Choose <menuitem>Insert - New Slide</menuitem>.</paragraph>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <section id="insertslide">
+      <table id="tbl_id3149334">
+        <tablerow>
+          <tablecell><paragraph id="par_id3685251" role="paragraph"><image id="img_id3183073" src="cmd/lc_insertpage.svg" width="1cm" height="1cm"><alt id="alt_id3183073">Icon New slide</alt></image></paragraph></tablecell>
+          <tablecell><paragraph id="par_id7354512" role="paragraph">New Slide</paragraph></tablecell>
+        </tablerow>
+      </table>
+    </section>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id711725397168544"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + M</keycode>.</paragraph>
+  </section>
+
+  <section id="duplicate_slide">
+    <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+    <switch select="appl">
+      <case select="IMPRESS">
+        <paragraph role="paragraph" id="par_id221726866818983">Choose <menuitem>Slide - Duplicate Slide</menuitem>.</paragraph>
+      </case>
+      <default>
+        <paragraph role="paragraph" id="par_id121726866823895">Choose <menuitem>Page - Duplicate Page</menuitem>.</paragraph>
+      </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+    <switch select="appl">
+      <case select="IMPRESS">
+        <paragraph role="paragraph" id="par_id701726866830246">Choose <menuitem>Insert - Duplicate Slide</menuitem>.</paragraph>
+      </case>
+      <default>
+        <paragraph role="paragraph" id="par_id341726866835662">Choose <menuitem>Insert - Duplicate Page</menuitem>.</paragraph>
+      </default>
+    </switch>
+    <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+    <switch select="appl">
+      <case select="IMPRESS">
+        <table id="tab_id661726866441677">
+          <tablerow>
+            <tablecell>
+              <paragraph id="par_id331726866441678" role="paragraph"><image src="cmd/lc_duplicateslide.svg" id="img_id291726866441679" width="1cm"  height="1cm"><alt id="alt_id981726866441680">Icon Duplicate Slide</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+              <paragraph id="par_id331726866441682" role="paragraph">Duplicate Slide</paragraph>
+            </tablecell>
+          </tablerow>
+        </table>
+      </case>
+      <default>
+        <table id="tab_id251726866466954">
+          <tablerow>
+            <tablecell>
+              <paragraph id="par_id351726866466955" role="paragraph"><image src="cmd/lc_duplicatepage.svg" id="img_id331726866466956" width="1cm"  height="1cm"><alt id="alt_id41726866466957">Icon Duplicate Page</alt></image></paragraph>
+            </tablecell>
+            <tablecell>
+              <paragraph id="par_id171726866466959" role="paragraph">Duplicate Page</paragraph>
+            </tablecell>
+          </tablerow>
+        </table>
+      </default>
+    </switch>
+  </section>
+
+
+  <section id="summary_slide">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id951716313892164">Choose <menuitem>Slide - Summary Slide</menuitem></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id991716313893208">Choose <menuitem>Layout</menuitem>, then in the <menuitem>Layout</menuitem> dropdown choose <menuitem>Summary Slide</menuitem></paragraph>
+  </section>
+
+  <section id="expand_slide">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id691716314144474">Choose <menuitem>Slide - Expand Slide</menuitem></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id571716314145018">Choose <menuitem>Layout</menuitem>, then in the <menuitem>Layout</menuitem> dropdown choose <menuitem>Expand Slide</menuitem></paragraph>
+  </section>
+
+</body>
+</helpdocument>

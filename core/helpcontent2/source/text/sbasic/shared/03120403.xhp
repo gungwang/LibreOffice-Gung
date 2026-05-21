@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textsbasicshared03120403xml" indexer="include" status="PUBLISH">
+    <title id="tit" xml-lang="en-US">StrComp Function</title>
+    <filename>/text/sbasic/shared/03120403.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+
+<section id="strcomp">
+<bookmark xml-lang="en-US" branch="index" id="bm_id3156027">
+  <bookmark_value>StrComp function</bookmark_value>
+</bookmark>
+
+<h1 id="hd_id3156027" xml-lang="en-US"><link href="text/sbasic/shared/03120403.xhp">StrComp Function</link></h1>
+<paragraph id="par_id3155805" role="paragraph" xml-lang="en-US">Compares two strings and returns an integer value that represents the result of the comparison.</paragraph>
+</section>
+
+<embed href="text/sbasic/shared/00000003.xhp#functsyntax"/>
+<bascode>
+<paragraph id="par_id3150503" role="bascode" xml-lang="en-US">StrComp (string1 As String, string2 As String[, Compare As Integer]) As Integer</paragraph>
+</bascode>
+
+<embed href="text/sbasic/shared/00000003.xhp#functparameters"/>
+<paragraph id="par_id3351061" role="paragraph" xml-lang="en-US"> <emph>string1</emph>: Any string expression</paragraph>
+<paragraph id="par_id3153061" role="paragraph" xml-lang="en-US"> <emph>string2</emph>: Any string expression</paragraph>
+<paragraph id="par_id3146796" role="paragraph" xml-lang="en-US"> <emph>Compare</emph>: This optional parameter sets the comparison method. If <literal>Compare</literal> = 1, the string comparison is case-sensitive. If <literal>Compare</literal> = 0, no distinction is made between uppercase and lowercase letters.</paragraph>
+
+<embed href="text/sbasic/shared/00000003.xhp#functvalue"/>
+<paragraph id="par_id3156152" localize="false" role="paragraph">Integer</paragraph>
+<list type="unordered">
+  <listitem>
+    <paragraph id="par_id3150358" role="listitem" xml-lang="en-US">If string1 &lt; string2 the function returns -1</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id3151043" role="listitem" xml-lang="en-US">If string1 = string2 the function returns 0</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id3158410" role="listitem" xml-lang="en-US">If string1 &gt; string2 the function returns 1</paragraph>
+  </listitem></list>
+<embed href="text/sbasic/shared/00000003.xhp#errorcode"/>
+<embed href="text/sbasic/shared/00000003.xhp#err5"/>
+
+<embed href="text/sbasic/shared/00000003.xhp#functexample"/>
+<bascode>
+<paragraph id="par_idm1341100656" role="bascode" localize="false">Sub ExampleStrComp</paragraph>
+<paragraph id="par_idm1341099424" role="bascode" localize="false">Dim iVar As Single</paragraph>
+<paragraph id="par_idm1341098192" role="bascode" localize="false">Dim sVar As String</paragraph>
+<paragraph id="par_idm1341096960" role="bascode" localize="false">    iVar = 123.123</paragraph>
+<paragraph id="par_idm1341095728" role="bascode" localize="false">    sVar = Str$(iVar)</paragraph>
+<paragraph id="par_idm1341094496" role="bascode" localize="false">    MsgBox strcomp(sVar , Str$(iVar),1)</paragraph>
+<paragraph id="par_idm1341093248" role="bascode" localize="false">End Sub</paragraph>
+</bascode>
+</body>
+
+</helpdocument>

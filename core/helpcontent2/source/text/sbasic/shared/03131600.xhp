@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+<meta>
+  <topic id="textsbasicshared03131600xml" indexer="include" status="PUBLISH">
+    <title id="tit" xml-lang="en-US">CreateUnoService Function</title>
+    <filename>/text/sbasic/shared/03131600.xhp</filename>
+  </topic>
+</meta>
+<body>
+  <section id="createunoservice">
+    <bookmark xml-lang="en-US" branch="index" id="bm_id3150682">
+      <bookmark_value>CreateUnoService function</bookmark_value>
+      <bookmark_value>API;FilePicker</bookmark_value>
+      <bookmark_value>API;SimpleFileAccess</bookmark_value>
+    </bookmark>
+    <h1 id="hd_id3150682"><variable id="createunoserviceh1"><link href="text/sbasic/shared/03131600.xhp">CreateUnoService Function</link></variable></h1>
+    <paragraph id="par_id3152924" role="paragraph" xml-lang="en-US">Instantiates a Uno service with the <literal>ProcessServiceManager</literal>.</paragraph>
+  </section>
+  <embed href="text/sbasic/shared/00000003.xhp#functsyntax"/>
+  <bascode>
+    <paragraph role="bascode" localize="false" id="bas_syntax"> CreateUnoService(serviceName As String) As Object</paragraph>
+  </bascode>
+
+  <embed href="text/sbasic/shared/00000003.xhp#functvalue"/>
+  <paragraph role="paragraph" id="par_id851677925987795">Object</paragraph>
+
+  <embed href="text/sbasic/shared/00000003.xhp#functparameters"/>
+  <table id="tab_id971744666698689">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id591744666698689" role="tablehead" localize="false"><embedvar href="text/sbasic/shared/00000003.xhp#param_name" markup="ignore"/></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id611744666698689" role="tablehead" localize="false"><embedvar href="text/sbasic/shared/00000003.xhp#param_type" markup="ignore"/></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id441744666698689" role="tablehead" localize="false"><embedvar href="text/sbasic/shared/00000003.xhp#param_desc" markup="ignore"/></paragraph>
+      </tablecell>
+    </tablerow>
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id601744666698689" role="tablecontent">serviceName</paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id861744666698689" role="tablecontent" localize="false">String</paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id621744666698689" role="tablecontent">The service name.</paragraph>
+        <paragraph id="par_id921629989537850" role="tablecontent">For a list of available services, visit the <link href="https://api.libreoffice.org/docs/idl/ref/namespacecom_1_1sun_1_1star.html">com::sun::star Module</link> reference page.</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <embed href="text/sbasic/shared/00000003.xhp#functexample"/>
+  <paragraph role="paragraph" id="par_id891561653344669">The example below creates the function <literal>FileExists</literal> that uses the service <literal>com.sun.star.ucb.SimpleFileAccess</literal> to test if a given path is an existing file.</paragraph>
+  <bascode>
+    <paragraph role="bascode" localize="false" id="bas_id901629989240801">Function FileExists(sPath as String) As Boolean</paragraph>
+    <paragraph role="bascode" localize="false" id="bas_id361629989241073">    Dim svcSFA As Object</paragraph>
+    <paragraph role="bascode" localize="false" id="bas_id461629989241289">    Set svcSFA = CreateUnoService("com.sun.star.ucb.SimpleFileAccess")</paragraph>
+    <paragraph role="bascode" localize="false" id="bas_id441629989241521">    Dim bExists As Boolean : bExists = svcSFA.exists(sPath)</paragraph>
+    <paragraph role="bascode" localize="false" id="bas_id651629989241801">    Dim bIsFolder As Boolean : bIsFolder = svcSFA.IsFolder(sPath)</paragraph>
+    <paragraph role="bascode" localize="false" id="bas_id521629989242114">    FileExists = bExists And Not bIsFolder</paragraph>
+    <paragraph role="bascode" localize="false" id="bas_id211629989242416">End Function ' FileExists</paragraph>
+  </bascode>
+  <tip id="par_id351629989310797">UNO services have an extensive online documentation in the <link href="https://api.libreoffice.org/">api.libreoffice.org</link> website. Visit the <link href="https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ucb_1_1SimpleFileAccess.html">SimpleFileAccess Service</link> reference page to learn more about the methods provided by the service used in the example above.</tip>
+<embed href="text/sbasic/shared/00000003.xhp#functexample"/>
+<bookmark xml-lang="en-US" branch="index" id="bm_id8334604">
+<bookmark_value>filepicker;API service</bookmark_value>
+</bookmark>
+<paragraph id="par_idN10625" role="paragraph" xml-lang="en-US">The following code uses the service <literal>com.sun.star.ui.dialogs.FilePicker</literal> to show an open file dialog:</paragraph>
+<bascode>
+<paragraph id="par_idm1206777616" role="bascode" localize="false">Sub Main</paragraph>
+<paragraph id="par_idN1062B" role="bascode" xml-lang="en-US">   fName = FileOpenDialog ("Please select a file")</paragraph>
+<paragraph id="par_idN10630" role="bascode" xml-lang="en-US">   Print "file chosen: "+fName</paragraph>
+<paragraph id="par_idm1206774256" role="bascode" localize="false">End Sub</paragraph>
+<paragraph id="par_idm1206773152" role="bascode" localize="false"> </paragraph>
+<paragraph id="par_idm1206772000" role="bascode" localize="false">Function FileOpenDialog(title As String) As String</paragraph>
+<paragraph id="bas_id11593417954966" role="bascode" localize="false">   res = com.sun.star.ui.dialogs.ExecutableDialogResults</paragraph>
+<paragraph id="par_idm1206770832" role="bascode" localize="false">   filepicker = CreateUnoService("com.sun.star.ui.dialogs.FilePicker")</paragraph>
+<paragraph role="bascode" id="bas_id401742572452517" localize="false">   With filepicker</paragraph>
+<paragraph id="par_idm1206769648" role="bascode" localize="false">      .Title = title</paragraph>
+<paragraph id="par_idm1217869648" role="bascode" localize="false">      .MultiSelectionMode = True</paragraph>
+<paragraph role="bascode" id="bas_id41742572670238" localize="false">      .appendFilter("Calc docs","*.ods;*.csv;*.123")</paragraph>
+<paragraph role="bascode" id="bas_id531742572671843" localize="false">      .appendFilter("Writer or Base docs","*.odt;*.odb")</paragraph>
+<paragraph role="bascode" id="bas_id981742572673486" localize="false">      .appendFilter("All files","*.*")</paragraph>
+<paragraph id="par_idm1206768496" role="bascode" localize="false">       If res.OK = .execute() Then </paragraph>
+<paragraph id="par_idm1206767344" role="bascode" localize="false">          files = .getSelectedFiles()</paragraph>
+<paragraph id="par_idm1206766192" role="bascode" localize="false">          FileOpenDialog=files(0)</paragraph>
+<paragraph id="bas_id11593417954" role="bascode" localize="false">       EndIf</paragraph>
+<paragraph role="bascode" id="bas_id401742583552517" localize="false">   End With</paragraph>
+<paragraph id="par_idm1206765040" role="bascode" localize="false">End Function ' FileOpenDialog</paragraph>
+</bascode>
+<section id="relatedtopics">
+    <embed href="text/sbasic/shared/CreateUnoSvcWithArgs.xhp#UnoSvcWithArgs_h1"/>
+    <embed href="text/sbasic/shared/uno_objects.xhp#UnoObjects_h1"/>
+    <embed href="text/sbasic/shared/calc_functions.xhp#CallingCalcFunctionsh1"/>
+</section>
+</body>
+</helpdocument>

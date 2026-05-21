@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<helpdocument version="1.0">
+<meta>
+<topic id="textscalc0106030600xml" indexer="include" status="PUBLISH">
+<title id="tit">Trace Error</title>
+<filename>/text/scalc/01/06030600.xhp</filename>
+</topic>
+<history>
+<created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+</history>
+</meta>
+<body>
+<bookmark branch="index" id="bm_id3153561"><bookmark_value>cells; tracing errors</bookmark_value><bookmark_value>tracing errors</bookmark_value><bookmark_value>error tracing</bookmark_value></bookmark>
+<bookmark branch="hid/.uno:ShowErrors" id="bm_id3153541" localize="false"/>
+<bookmark branch="hid/modules/scalc/ui/notebookbar/MenuTools-ShowErrors" id="bm_id131704578452764" localize="false"/>
+<section id="trace_error">
+  <h1 id="hd_id3153561"><link href="text/scalc/01/06030600.xhp">Trace Error</link></h1>
+  <paragraph role="paragraph" id="par_id3148550"><ahelp hid=".uno:ShowErrors" visibility="visible">Draws tracer arrows to all precedent cells which cause an error value in a selected cell.</ahelp></paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/scalc/00/00000406.xhp#trace_errors"/>
+</section>
+<section id="relatedtopics">
+  <paragraph role="paragraph" id="par_id821704581444268" localize="false"><embedvar href="text/scalc/01/06030000.xhp#h1" markup="ignore"/></paragraph>
+</section>
+</body>
+</helpdocument>

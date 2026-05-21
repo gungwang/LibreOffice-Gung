@@ -1,0 +1,306 @@
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+<!--
+Version 03-Feb-2006
+  added optional localize attribute to images
+
+Version 06-Jun-2017
+  Made xml-lang optional (#IMPLIED)
+
+Version Nov 2018
+  Added extensions: H1, .. H6, menuitem, keycode, literal input, widget, note, tip, warning
+  Added extensions: pycode, sqlcode, bascode
+-->
+<!ENTITY % commonAttrs "id CDATA #REQUIRED xml-lang CDATA #IMPLIED localize CDATA #IMPLIED">
+
+<!ENTITY % hn "h1 | h2 | h3 | h4 | h5 | h6">
+
+<!ENTITY % codeContent "bascode | sqlcode | pycode">
+
+<!ENTITY % noteContent "note | tip | warning">
+
+<!ENTITY % hnContent "#PCDATA | comment | embedvar | br | emph | item | link | sub | sup | switchinline | variable | ahelp | bookmark | keycode | menuitem | input | literal | widget | help-id-missing">
+
+<!ENTITY % paraContent "%hnContent; | image | object ">
+
+<!ELEMENT ahelp (#PCDATA | embedvar | br | comment | emph | menuitem | widget | keycode | input | literal | sub | sup | item | link | switchinline | variable)*>
+<!ATTLIST ahelp
+  hid CDATA #REQUIRED
+  visibility (hidden | visible) #IMPLIED
+>
+
+<!ELEMENT alt (#PCDATA)>
+<!ATTLIST alt
+  %commonAttrs;
+>
+
+<!ELEMENT bascode (paragraph+)>
+
+<!ELEMENT pycode (paragraph+)>
+
+<!ELEMENT sqlcode (paragraph+)>
+
+
+<!ELEMENT body ( %hn; | section | paragraph | description | table | comment | bookmark | switch | embed | list | sort | %codeContent; | %noteContent;)*>
+
+<!ELEMENT bookmark (bookmark_value)*>
+<!ATTLIST bookmark
+  branch CDATA #REQUIRED
+  %commonAttrs;
+>
+
+<!ELEMENT bookmark_value (#PCDATA | embedvar)*>
+
+<!ELEMENT br EMPTY>
+
+<!ELEMENT caption (#PCDATA | embedvar | br | emph | sub | sup | item | link | switchinline | variable)*>
+<!ATTLIST caption
+  %commonAttrs;
+>
+
+<!ELEMENT case ( %hn; | %noteContent; | paragraph | table | comment | bookmark | embed | link | list | switch | section | sort | %codeContent;)*>
+<!ATTLIST case
+  select CDATA #REQUIRED
+>
+
+<!ELEMENT caseinline (#PCDATA | image | embedvar | br | emph | sub | sup | item | link | switchinline | variable | ahelp | object | keycode | menuitem | input | literal | widget)*>
+<!ATTLIST caseinline
+  select CDATA #REQUIRED
+>
+
+<!ELEMENT comment (#PCDATA)>
+
+<!ELEMENT created (#PCDATA)>
+<!ATTLIST created
+  date CDATA #REQUIRED
+>
+
+<!ELEMENT default ( %hn; | %noteContent; | paragraph | table | comment | bookmark | embed | link | list | switch | section | sort | %codeContent;)*>
+
+<!ELEMENT defaultinline (#PCDATA | image | embedvar | br | emph | sub | sup | item | link | switchinline | variable | ahelp | object | keycode | menuitem | input | literal | widget)*>
+
+<!ELEMENT embed EMPTY>
+<!ATTLIST embed
+  href CDATA #REQUIRED
+  role CDATA #IMPLIED
+  level CDATA #IMPLIED
+>
+
+<!ELEMENT embedvar EMPTY>
+<!ATTLIST embedvar
+  href CDATA #REQUIRED
+  markup (keep | ignore) #IMPLIED
+>
+
+<!ELEMENT emph (#PCDATA | item | comment | help-id-missing)*>
+
+<!ELEMENT menuitem (#PCDATA)>
+
+<!ELEMENT keycode (#PCDATA)>
+
+<!ELEMENT input (#PCDATA | help-id-missing)*>
+
+<!ELEMENT literal (#PCDATA)>
+
+<!ELEMENT widget (#PCDATA)>
+
+<!ELEMENT sub (#PCDATA | item | comment | help-id-missing)*>
+
+<!ELEMENT sup (#PCDATA | item | comment | help-id-missing)*>
+
+<!ELEMENT filename (#PCDATA)>
+
+
+<!ELEMENT h1 (%hnContent;)* >
+<!ATTLIST h1 %commonAttrs; >
+
+<!ELEMENT h2 (%hnContent;)* >
+<!ATTLIST h2 %commonAttrs; >
+
+<!ELEMENT h3 (%hnContent;)* >
+<!ATTLIST h3 %commonAttrs; >
+
+<!ELEMENT h4 (%hnContent;)* >
+<!ATTLIST h4 %commonAttrs; >
+
+<!ELEMENT h5 (%hnContent;)* >
+<!ATTLIST h5 %commonAttrs; >
+
+<!ELEMENT h6 (%hnContent;)* >
+<!ATTLIST h6 %commonAttrs; >
+
+
+<!ELEMENT helpdocument (meta, body)>
+<!ATTLIST helpdocument
+  version CDATA #REQUIRED
+>
+
+<!ELEMENT history (created)>
+
+<!ELEMENT image (caption* | alt+)?>
+<!ATTLIST image
+  src CDATA #REQUIRED
+  width CDATA #IMPLIED
+  height CDATA #IMPLIED
+  id CDATA #REQUIRED
+  localize CDATA #IMPLIED
+>
+
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+  type CDATA #REQUIRED
+>
+
+<!ELEMENT link (#PCDATA | embedvar | emph | sub | sup | item | variable | switchinline | keycode | menuitem | input | literal | widget)*>
+<!ATTLIST link
+  href CDATA #REQUIRED
+  name CDATA #IMPLIED
+  type CDATA #IMPLIED
+  target CDATA #IMPLIED
+>
+
+<!ELEMENT list (listitem | (comment)*)+>
+<!ATTLIST list
+  type CDATA #REQUIRED
+  startwith CDATA #IMPLIED
+  format (1 | i | I | a | A) #IMPLIED
+  bullet (disc | circle | square) #IMPLIED
+  sorted (asc | desc) #IMPLIED
+>
+
+<!ELEMENT listitem (comment | section | paragraph | table | switch | embed | bookmark | %noteContent;)*>
+<!ATTLIST listitem
+  format (1 | i | I | a | A) #IMPLIED
+  bullet (disc | circle | square) #IMPLIED
+	class CDATA #IMPLIED
+>
+
+<!ELEMENT meta (topic, history?)>
+
+<!ELEMENT object EMPTY>
+<!ATTLIST object
+  type CDATA #REQUIRED
+  id CDATA #REQUIRED
+  data CDATA #REQUIRED
+  height CDATA #IMPLIED
+  width CDATA #IMPLIED
+>
+
+<!ELEMENT paragraph (%paraContent;)*>
+<!ATTLIST paragraph
+  role CDATA #REQUIRED
+  level CDATA #IMPLIED
+  l10n CDATA #IMPLIED
+  oldref CDATA #IMPLIED
+  %commonAttrs;
+>
+
+<!ELEMENT section (section | %hn; | paragraph | description | table | list | comment | bookmark | embed | switch | sort | %codeContent; | %noteContent;)*>
+<!ATTLIST section
+  id CDATA #REQUIRED
+>
+
+<!ELEMENT sort (section+)>
+<!ATTLIST sort
+  order (asc | desc) #IMPLIED
+  descendant (paragraph | %hn;) #IMPLIED
+>
+
+<!ELEMENT switch ((case | comment)* | default?)*>
+<!ATTLIST switch
+  select (sys | appl | distrib | target | lang | ver) #REQUIRED
+>
+
+<!ELEMENT switchinline ((caseinline)+, (defaultinline?)?)>
+<!ATTLIST switchinline
+  select (sys | appl | distrib | target | ver | lang) #REQUIRED
+>
+
+<!ELEMENT table (caption*, tablehead*, tablerow+)>
+<!ATTLIST table
+  name CDATA #IMPLIED
+  width CDATA #IMPLIED
+  height CDATA #IMPLIED
+  unit CDATA #IMPLIED
+  class CDATA #IMPLIED
+  id CDATA #REQUIRED
+>
+
+<!ELEMENT tablecell (section | paragraph | comment | embed | bookmark | image | list | bascode | pycode | %noteContent;)*>
+<!ATTLIST tablecell
+  colspan CDATA #IMPLIED
+  rowspan CDATA #IMPLIED
+  width CDATA #IMPLIED
+  class CDATA #IMPLIED
+  unit CDATA #IMPLIED
+>
+
+<!ELEMENT tablerow (tablecell+)>
+<!ATTLIST tablerow
+  height CDATA #IMPLIED
+  class CDATA #IMPLIED
+  unit CDATA #IMPLIED
+>
+
+<!ELEMENT tablehead (tablerow+)>
+<!ATTLIST tablehead
+  class CDATA #IMPLIED
+>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+  %commonAttrs;
+>
+
+<!ELEMENT topic (title+, filename, bookmark*)>
+<!ATTLIST topic
+  id CDATA #REQUIRED
+  indexer (exclude | include) #IMPLIED
+	status (DRAFT | FINAL | PUBLISH | STALLED | DEPRECATED) #IMPLIED
+>
+
+<!ELEMENT variable (#PCDATA | ahelp | embedvar | br | emph | sub | sup | item | link | variable | image | object | switchinline | keycode | menuitem | input | literal | widget)*>
+<!ATTLIST variable
+  id CDATA #REQUIRED
+  visibility (hidden | visible) #IMPLIED
+>
+
+<!ELEMENT note (%paraContent;)*>
+<!ATTLIST note
+  l10n CDATA #IMPLIED
+  %commonAttrs;
+>
+
+<!ELEMENT tip (%paraContent;)*>
+<!ATTLIST tip
+  l10n CDATA #IMPLIED
+  %commonAttrs;
+>
+
+<!ELEMENT warning (%paraContent;)*>
+<!ATTLIST warning
+  l10n CDATA #IMPLIED
+  %commonAttrs;
+>
+
+<!ELEMENT description (%paraContent;)*>
+<!ATTLIST description
+  l10n CDATA #IMPLIED
+  %commonAttrs;
+>
+<!ELEMENT help-id-missing EMPTY>

@@ -1,0 +1,1595 @@
+#. extracted from reportdesign/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-09-18 11:33+0200\n"
+"PO-Revision-Date: 2025-03-04 21:07+0000\n"
+"Last-Translator: George Salukvadze <giosal90@gmail.com>\n"
+"Language-Team: Georgian <https://translations.documentfoundation.org/projects/libo_ui-master/reportdesignmessages/ka/>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1516044994.000000\n"
+
+#. FBVr9
+#: reportdesign/inc/stringarray.hrc:19
+msgctxt "RID_STR_FORCENEWPAGE_CONST"
+msgid "None"
+msgstr "არცერთი"
+
+#. 2VDzY
+#: reportdesign/inc/stringarray.hrc:20
+msgctxt "RID_STR_FORCENEWPAGE_CONST"
+msgid "Before Section"
+msgstr "განყოფილებამდე"
+
+#. BBUjQ
+#: reportdesign/inc/stringarray.hrc:21
+msgctxt "RID_STR_FORCENEWPAGE_CONST"
+msgid "After Section"
+msgstr "განყოფილების შემდეგ"
+
+#. FjE6T
+#: reportdesign/inc/stringarray.hrc:22
+msgctxt "RID_STR_FORCENEWPAGE_CONST"
+msgid "Before & After Section"
+msgstr "განყოფილებამდე და მის შემდეგ"
+
+#. FiMq7
+#: reportdesign/inc/stringarray.hrc:28
+msgctxt "RID_STR_GROUPKEEPTOGETHER_CONST"
+msgid "Per Page"
+msgstr "გვერდზე"
+
+#. zemtQ
+#: reportdesign/inc/stringarray.hrc:29
+msgctxt "RID_STR_GROUPKEEPTOGETHER_CONST"
+msgid "Per Column"
+msgstr "სვეტისთვის"
+
+#. PCk4E
+#: reportdesign/inc/stringarray.hrc:35
+msgctxt "RID_STR_REPORTPRINTOPTION_CONST"
+msgid "All Pages"
+msgstr "ყველა გვერდი"
+
+#. GvoGV
+#: reportdesign/inc/stringarray.hrc:36
+msgctxt "RID_STR_REPORTPRINTOPTION_CONST"
+msgid "Not With Report Header"
+msgstr "არა ანგარიშის ზედა კოლონტიტულით"
+
+#. wchYh
+#: reportdesign/inc/stringarray.hrc:37
+msgctxt "RID_STR_REPORTPRINTOPTION_CONST"
+msgid "Not With Report Footer"
+msgstr "არა ანგარიშის ქვედა კოლონტიტულით"
+
+#. uvfAP
+#: reportdesign/inc/stringarray.hrc:38
+msgctxt "RID_STR_REPORTPRINTOPTION_CONST"
+msgid "Not With Report Header/Footer"
+msgstr "არა ანგარიშის ზედა/ქვედა კოლონტიტულით"
+
+#. ZC2oS
+#: reportdesign/inc/stringarray.hrc:44
+msgctxt "RID_STR_TYPE_CONST"
+msgid "Field or Formula"
+msgstr "ველი ან ფორმულა"
+
+#. gU579
+#: reportdesign/inc/stringarray.hrc:45
+msgctxt "RID_STR_TYPE_CONST"
+msgid "Function"
+msgstr "ფუნქცია"
+
+#. BG2gK
+#: reportdesign/inc/stringarray.hrc:46
+msgctxt "RID_STR_TYPE_CONST"
+msgid "Counter"
+msgstr "მთვლელი"
+
+#. kGCKF
+#: reportdesign/inc/stringarray.hrc:47
+msgctxt "RID_STR_TYPE_CONST"
+msgid "User defined Function"
+msgstr "მომხმარებლის ფუნქცია"
+
+#. BBiHn
+#: reportdesign/inc/stringarray.hrc:53
+msgctxt "RID_STR_BOOL"
+msgid "No"
+msgstr "არა"
+
+#. rdPYV
+#: reportdesign/inc/stringarray.hrc:54
+msgctxt "RID_STR_BOOL"
+msgid "Yes"
+msgstr "დიახ"
+
+#. xUuqy
+#: reportdesign/inc/stringarray.hrc:60
+msgctxt "RID_STR_KEEPTOGETHER_CONST"
+msgid "No"
+msgstr "არა"
+
+#. TDvKY
+#: reportdesign/inc/stringarray.hrc:61
+msgctxt "RID_STR_KEEPTOGETHER_CONST"
+msgid "Whole Group"
+msgstr "მთელი ჯგუფი"
+
+#. Hc5De
+#: reportdesign/inc/stringarray.hrc:62
+msgctxt "RID_STR_KEEPTOGETHER_CONST"
+msgid "With First Detail"
+msgstr "პირველი დეტალით"
+
+#. k2yjS
+#: reportdesign/inc/stringarray.hrc:68
+msgctxt "RID_STR_VERTICAL_ALIGN_CONST"
+msgid "Top"
+msgstr "ზემოთ"
+
+#. VuRdH
+#: reportdesign/inc/stringarray.hrc:69
+msgctxt "RID_STR_VERTICAL_ALIGN_CONST"
+msgid "Middle"
+msgstr "შუა"
+
+#. 9LAvS
+#: reportdesign/inc/stringarray.hrc:70
+msgctxt "RID_STR_VERTICAL_ALIGN_CONST"
+msgid "Bottom"
+msgstr "ქვემოთ"
+
+#. fTFRa
+#: reportdesign/inc/stringarray.hrc:76
+msgctxt "RID_STR_PARAADJUST_CONST"
+msgid "Left"
+msgstr "მარცხენა"
+
+#. 5nFGk
+#: reportdesign/inc/stringarray.hrc:77
+msgctxt "RID_STR_PARAADJUST_CONST"
+msgid "Right"
+msgstr "მარჯვენა"
+
+#. Cvi3X
+#: reportdesign/inc/stringarray.hrc:78
+msgctxt "RID_STR_PARAADJUST_CONST"
+msgid "Block"
+msgstr "ბლოკი"
+
+#. zsB3C
+#: reportdesign/inc/stringarray.hrc:79
+msgctxt "RID_STR_PARAADJUST_CONST"
+msgid "Center"
+msgstr "ცენტრი"
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "_დამატება"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "_გადატარება"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "გაუ_ქმება"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "_დახურვა"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_წაშლა"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "_ჩასწორება"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "_დახმარება"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "_ახალი"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "_არა"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_დიახ"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "_წაშლა"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "ჩამოყ_რა"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "_დიახ"
+
+#. NaDFE
+#: reportdesign/inc/strings.hrc:25
+msgctxt "RID_STR_PROPPAGE_DEFAULT"
+msgid "General"
+msgstr "ზოგადი"
+
+#. TkocD
+#: reportdesign/inc/strings.hrc:26
+msgctxt "RID_STR_PROPPAGE_DATA"
+msgid "Data"
+msgstr "მონაცემები"
+
+#. 2NkGc
+#: reportdesign/inc/strings.hrc:27
+msgctxt "RID_STR_FORCENEWPAGE"
+msgid "Force New Page"
+msgstr "ახალი გვერდი"
+
+#. MHbFf
+#: reportdesign/inc/strings.hrc:28
+msgctxt "RID_STR_NEWROWORCOL"
+msgid "New Row Or Column"
+msgstr "ახალი მწკრივი ან  სვეტი"
+
+#. nCCC2
+#: reportdesign/inc/strings.hrc:29
+msgctxt "RID_STR_KEEPTOGETHER"
+msgid "Keep Together"
+msgstr "ერთად შენარჩუნება"
+
+#. pjADt
+#: reportdesign/inc/strings.hrc:30
+msgctxt "RID_STR_CANGROW"
+msgid "Can Grow"
+msgstr "გადიდებადი"
+
+#. sF9pD
+#: reportdesign/inc/strings.hrc:31
+msgctxt "RID_STR_CANSHRINK"
+msgid "Can Shrink"
+msgstr "შემცირებადი"
+
+#. CMH5i
+#: reportdesign/inc/strings.hrc:32
+msgctxt "RID_STR_REPEATSECTION"
+msgid "Repeat Section"
+msgstr "განყოფილების გამეორება"
+
+#. ZLkdY
+#: reportdesign/inc/strings.hrc:33
+msgctxt "RID_STR_PRINTREPEATEDVALUES"
+msgid "Print repeated values"
+msgstr "გამეორებული მნიშვნელობების დაბეჭდვა"
+
+#. 2BUiU
+#: reportdesign/inc/strings.hrc:34
+msgctxt "RID_STR_CONDITIONALPRINTEXPRESSION"
+msgid "Conditional Print Expression"
+msgstr "პირობითი ბეჭდვის გამოსახულება"
+
+#. FMCNM
+#: reportdesign/inc/strings.hrc:35
+msgctxt "RID_STR_STARTNEWCOLUMN"
+msgid "Start new column"
+msgstr "ახალი სვეტის დაწყება"
+
+#. kzD6C
+#: reportdesign/inc/strings.hrc:36
+msgctxt "RID_STR_STARTNEWPAGE"
+msgid "Start new page"
+msgstr "ახალი გვერდის დაწყება"
+
+#. 3ranM
+#: reportdesign/inc/strings.hrc:37
+msgctxt "RID_STR_RESETPAGENUMBER"
+msgid "Reset page number"
+msgstr "გვერდის ნომრის ჩამოყრა"
+
+#. 9vA38
+#: reportdesign/inc/strings.hrc:38
+msgctxt "RID_STR_CHARTTYPE"
+msgid "Chart type"
+msgstr "დიაგრამის ტიპი"
+
+#. ZVJoV
+#: reportdesign/inc/strings.hrc:39
+msgctxt "RID_STR_PRINTWHENGROUPCHANGE"
+msgid "Print repeated value on group change"
+msgstr "გამეორებული მნიშვნელობის დაბეჭდვა ჯგუფის ცვლილებისას"
+
+#. rh4Mf
+#: reportdesign/inc/strings.hrc:40
+msgctxt "RID_STR_VISIBLE"
+msgid "Visible"
+msgstr "ხილული"
+
+#. QKNiK
+#: reportdesign/inc/strings.hrc:41
+msgctxt "RID_STR_GROUPKEEPTOGETHER"
+msgid "Group keep together"
+msgstr "ჯგუფის ერთად შენარჩუნება"
+
+#. 8HQmJ
+#: reportdesign/inc/strings.hrc:42
+msgctxt "RID_STR_PAGEHEADEROPTION"
+msgid "Page header"
+msgstr "გვერდის ზედა კოლონტიტული"
+
+#. rzwjM
+#: reportdesign/inc/strings.hrc:43
+msgctxt "RID_STR_PAGEFOOTEROPTION"
+msgid "Page footer"
+msgstr "გვერდის ქვედა კოლონტიტული"
+
+#. eg94E
+#: reportdesign/inc/strings.hrc:44
+msgctxt "RID_STR_DEEPTRAVERSING"
+msgid "Deep traversing"
+msgstr "გამჭოლი"
+
+#. DxgFC
+#: reportdesign/inc/strings.hrc:45
+msgctxt "RID_STR_PREEVALUATED"
+msgid "Pre evaluation"
+msgstr "წინასწარი შეფასება"
+
+#. Zhqid
+#: reportdesign/inc/strings.hrc:46
+msgctxt "RID_STR_POSITIONX"
+msgid "Position X"
+msgstr "მდებარეობა ~X"
+
+#. xvAJ8
+#: reportdesign/inc/strings.hrc:47
+msgctxt "RID_STR_POSITIONY"
+msgid "Position Y"
+msgstr "მდებარეობა ~Y"
+
+#. 7CmQE
+#: reportdesign/inc/strings.hrc:48
+msgctxt "RID_STR_WIDTH"
+msgid "Width"
+msgstr "სიგანე"
+
+#. GkcPB
+#: reportdesign/inc/strings.hrc:49
+msgctxt "RID_STR_HEIGHT"
+msgid "Height"
+msgstr "სიმაღლე"
+
+#. bQvmF
+#: reportdesign/inc/strings.hrc:50
+msgctxt "RID_STR_AUTOGROW"
+msgid "Auto Grow"
+msgstr "ავტოზრდა"
+
+#. nBghq
+#: reportdesign/inc/strings.hrc:51
+msgctxt "RID_STR_INITIALFORMULA"
+msgid "Initial value"
+msgstr "საწყისი მნიშვნელობა"
+
+#. zhBwj
+#: reportdesign/inc/strings.hrc:52
+msgctxt "RID_STR_PRESERVEIRI"
+msgid "Preserve as Link"
+msgstr "ბმულად შენარჩუნება"
+
+#. 8F4y9
+#: reportdesign/inc/strings.hrc:53
+msgctxt "RID_STR_FORMULA"
+msgid "Formula"
+msgstr "ფორმულა"
+
+#. t22cv
+#: reportdesign/inc/strings.hrc:54
+msgctxt "RID_STR_DATAFIELD"
+msgid "Data field"
+msgstr "მონაცემების ველი"
+
+#. A22EF
+#: reportdesign/inc/strings.hrc:55
+msgctxt "RID_STR_FONT"
+msgid "Font"
+msgstr "ფონტი"
+
+#. AAcyy
+#: reportdesign/inc/strings.hrc:56
+msgctxt "RID_STR_BACKCOLOR"
+msgid "Background color"
+msgstr "ფონის ფერი"
+
+#. WGAAf
+#: reportdesign/inc/strings.hrc:57
+msgctxt "RID_STR_BACKTRANSPARENT"
+msgid "Background Transparent"
+msgstr "გამჭვირვალე ფონი"
+
+#. AxENf
+#: reportdesign/inc/strings.hrc:58
+msgctxt "RID_STR_CONTROLBACKGROUNDTRANSPARENT"
+msgid "Background Transparent"
+msgstr "გამჭვირვალე ფონი"
+
+#. aeQBV
+#: reportdesign/inc/strings.hrc:59
+msgctxt "RID_STR_OVERLAP_OTHER_CONTROL"
+msgid "This operation is not allowed. The control overlaps with another one."
+msgstr "ეს ოპერაცია დაშვებული არაა. მართვის ელემენტი სხვას ფარავს."
+
+#. N7AAg
+#: reportdesign/inc/strings.hrc:60
+msgctxt "RID_STR_ILLEGAL_POSITION"
+msgid "This position can not be set. It is invalid."
+msgstr "ამ მდებარეობის დაყენება შეუძლებელია. ის არასწორია."
+
+#. R4v2R
+#: reportdesign/inc/strings.hrc:61
+msgctxt "RID_STR_SCOPE_GROUP"
+msgid "Group: %1"
+msgstr "ჯგუფი: %1"
+
+#. mnJ35
+#: reportdesign/inc/strings.hrc:62
+msgctxt "RID_STR_FORMULALIST"
+msgid "Function"
+msgstr "ფუნქცია"
+
+#. pMDy2
+#: reportdesign/inc/strings.hrc:63
+msgctxt "RID_STR_SCOPE"
+msgid "Scope"
+msgstr "მხედველობის არეალი"
+
+#. ia2WH
+#: reportdesign/inc/strings.hrc:64
+msgctxt "RID_STR_TYPE"
+msgid "Data Field Type"
+msgstr "მონაცემის ველის ტიპი"
+
+#. zM78b
+#: reportdesign/inc/strings.hrc:65
+msgctxt "RID_STR_MASTERFIELDS"
+msgid "Link master fields"
+msgstr "მთავარი ველების დაკავშირება"
+
+#. 5Kkka
+#: reportdesign/inc/strings.hrc:66
+msgctxt "RID_STR_DETAILFIELDS"
+msgid "Link slave fields"
+msgstr "მეორადი ველების დაკავშირება"
+
+#. uxHZb
+#: reportdesign/inc/strings.hrc:67
+msgctxt "RID_STR_EXPLANATION"
+msgid "Charts can be used to display detailed data about the current record of the report. To do this, you can specify which columns in the chart match which columns in the report."
+msgstr "გრაფიკები ანგარიშის მიმდინარე ჩანაწერის შესახებ დეტალური ინფორმაციის საჩვენებლად გამოიყენება. ამისათვის, შეგიძლიათ, მიუთითოთ, გრაფიკის რომელიც სვეტი ანგარიშის რომელ სვეტს ემთხვევა."
+
+#. UX3NQ
+#: reportdesign/inc/strings.hrc:68
+msgctxt "RID_STR_DETAILLABEL"
+msgid "Chart"
+msgstr "დიაგრამა"
+
+#. TbV7G
+#: reportdesign/inc/strings.hrc:69
+msgctxt "RID_STR_MASTERLABEL"
+msgid "Report"
+msgstr "ანგარიში"
+
+#. h8xm6
+#: reportdesign/inc/strings.hrc:70
+msgctxt "RID_STR_PREVIEW_COUNT"
+msgid "Preview Row(s)"
+msgstr "მწკრივ(ებ)-ის მინიატურა"
+
+#. keLPS
+#: reportdesign/inc/strings.hrc:71
+msgctxt "RID_STR_AREA"
+msgid "Area"
+msgstr "ალაგი"
+
+#. AGr73
+#: reportdesign/inc/strings.hrc:72
+msgctxt "RID_STR_MIMETYPE"
+msgid "Report Output Format"
+msgstr "ანგარიშის გამოტანის ფორმატი"
+
+#. c8N5w
+#: reportdesign/inc/strings.hrc:73
+msgctxt "RID_STR_VERTICALALIGN"
+msgid "Vert. Alignment"
+msgstr "ვერტ. სწორება"
+
+#. Nm4Tr
+#: reportdesign/inc/strings.hrc:74
+msgctxt "RID_STR_PARAADJUST"
+msgid "Horz. Alignment"
+msgstr "ჰორიზ. სწორება"
+
+#. BkLfC
+#: reportdesign/inc/strings.hrc:75
+msgctxt "RID_STR_F_COUNTER"
+msgid "Counter"
+msgstr "მთვლელი"
+
+#. kAfz6
+#: reportdesign/inc/strings.hrc:76
+msgctxt "RID_STR_F_ACCUMULATION"
+msgid "Accumulation"
+msgstr "დაგროვება"
+
+#. D38SS
+#: reportdesign/inc/strings.hrc:77
+msgctxt "RID_STR_F_MINIMUM"
+msgid "Minimum"
+msgstr "მინიმუმი"
+
+#. EyGC5
+#: reportdesign/inc/strings.hrc:78
+msgctxt "RID_STR_F_MAXIMUM"
+msgid "Maximum"
+msgstr "მაქსიმუმი"
+
+#. NtqMk
+#: reportdesign/inc/strings.hrc:80
+msgctxt "RID_STR_BRWTITLE_PROPERTIES"
+msgid "Properties: "
+msgstr "თვისებები: "
+
+#. FnkAZ
+#: reportdesign/inc/strings.hrc:81
+msgctxt "RID_STR_BRWTITLE_NO_PROPERTIES"
+msgid "No Control marked"
+msgstr "მართვის ობიექტები დანიშნული არაა"
+
+#. aeAPC
+#: reportdesign/inc/strings.hrc:82
+msgctxt "RID_STR_BRWTITLE_MULTISELECT"
+msgid "Multiselection"
+msgstr "ჯგუფური არჩევანი"
+
+#. qT2Ed
+#: reportdesign/inc/strings.hrc:83
+msgctxt "RID_STR_PROPTITLE_IMAGECONTROL"
+msgid "Image Control"
+msgstr "მართვის ელემენტი 'გამოსახულება'"
+
+#. JAEb9
+#: reportdesign/inc/strings.hrc:84
+msgctxt "RID_STR_PROPTITLE_FIXEDTEXT"
+msgid "Label field"
+msgstr "ჭდის ველი"
+
+#. 2uQkB
+#: reportdesign/inc/strings.hrc:85
+msgctxt "RID_STR_PROPTITLE_FIXEDLINE"
+msgid "Line"
+msgstr "ხაზი"
+
+#. DEn9D
+#: reportdesign/inc/strings.hrc:86
+msgctxt "RID_STR_PROPTITLE_FORMATTED"
+msgid "Formatted Field"
+msgstr "დაფორმატებული ველი"
+
+#. aFQ9E
+#: reportdesign/inc/strings.hrc:87
+msgctxt "RID_STR_PROPTITLE_SHAPE"
+msgid "Shape"
+msgstr "ფიგურა"
+
+#. DEMSF
+#: reportdesign/inc/strings.hrc:88
+msgctxt "RID_STR_PROPTITLE_REPORT"
+msgid "Report"
+msgstr "ანგარიში"
+
+#. D62CY
+#: reportdesign/inc/strings.hrc:89
+msgctxt "RID_STR_PROPTITLE_SECTION"
+msgid "Section"
+msgstr "განყოფილება"
+
+#. CAy2F
+#: reportdesign/inc/strings.hrc:90
+msgctxt "RID_STR_PROPTITLE_FUNCTION"
+msgid "Function"
+msgstr "ფუნქცია"
+
+#. 3TAfY
+#: reportdesign/inc/strings.hrc:91
+msgctxt "RID_STR_PROPTITLE_GROUP"
+msgid "Group"
+msgstr "ჯგუფი"
+
+#. LyiPd
+#: reportdesign/inc/strings.hrc:92
+msgctxt "RID_STR_UNDO_CHANGEPOSITION"
+msgid "Change Object"
+msgstr "ობიექტის შეცვლა"
+
+#. uQc7r
+#: reportdesign/inc/strings.hrc:93
+msgctxt "RID_STR_UNDO_MOVE_GROUP"
+msgid "Move Group(s)"
+msgstr "ჯგუფებ)-ის გადაადგილება"
+
+#. gZiiq
+#: reportdesign/inc/strings.hrc:94
+msgctxt "RID_STR_UNDO_CONDITIONAL_FORMATTING"
+msgid "Conditional Formatting"
+msgstr "პირობითი დაფორმატება"
+
+#. o9ZV6
+#: reportdesign/inc/strings.hrc:95
+msgctxt "RID_STR_UNDO_REMOVE_REPORTHEADERFOOTER"
+msgid "Remove report header / report footer"
+msgstr "ანგარიშის ზედა/ქვედა კოლონტიტულის წაშლა"
+
+#. iHU5A
+#: reportdesign/inc/strings.hrc:96
+msgctxt "RID_STR_UNDO_ADD_REPORTHEADERFOOTER"
+msgid "Add report header / report footer"
+msgstr "ანგარიშის ზედა/ქვედა კოლონტიტულის დამატება"
+
+#. EGhDu
+#. The # character is used for replacing
+#: reportdesign/inc/strings.hrc:98
+msgctxt "RID_STR_UNDO_PROPERTY"
+msgid "Change property '#'"
+msgstr "'#' თვისების შეცვლა"
+
+#. MCQSy
+#: reportdesign/inc/strings.hrc:99
+msgctxt "RID_STR_UNDO_ADD_GROUP_HEADER"
+msgid "Add group header "
+msgstr "დაემატება ჯგუფის ზედა კოლონტიტული "
+
+#. DgPmD
+#: reportdesign/inc/strings.hrc:100
+msgctxt "RID_STR_UNDO_REMOVE_GROUP_HEADER"
+msgid "Remove group header "
+msgstr "წაიშლება ჯგუფის ზედა კოლონტიტული "
+
+#. DENjF
+#: reportdesign/inc/strings.hrc:101
+msgctxt "RID_STR_UNDO_ADD_GROUP_FOOTER"
+msgid "Add group footer "
+msgstr "დაემატება ჯგუფის ქვედა კოლონტიტული "
+
+#. 5yiAd
+#: reportdesign/inc/strings.hrc:102
+msgctxt "RID_STR_UNDO_REMOVE_GROUP_FOOTER"
+msgid "Remove group footer "
+msgstr "წაიშლება ჯგუფის ქვედა კოლონტიტული "
+
+#. nGU7F
+#: reportdesign/inc/strings.hrc:103
+msgctxt "RID_STR_UNDO_ADDFUNCTION"
+msgid "Add function"
+msgstr "ფუნქციის დამატება"
+
+#. zA6vD
+#: reportdesign/inc/strings.hrc:104
+msgctxt "STR_RPT_LABEL"
+msgid "~Report name"
+msgstr "ანგა~რიშის სახელი"
+
+#. QeVn7
+#: reportdesign/inc/strings.hrc:105
+msgctxt "RID_STR_UNDO_REMOVE_GROUP"
+msgid "Delete Group"
+msgstr "ჯგუფის წაშლა"
+
+#. V8RZq
+#: reportdesign/inc/strings.hrc:106
+msgctxt "RID_STR_UNDO_APPEND_GROUP"
+msgid "Add Group"
+msgstr "ჯგუფის დამატება"
+
+#. RWFBC
+#: reportdesign/inc/strings.hrc:107
+msgctxt "RID_STR_UNDO_REMOVE_SELECTION"
+msgid "Delete Selection"
+msgstr "მონიშნულის წაშლა"
+
+#. MBJVB
+#: reportdesign/inc/strings.hrc:108
+msgctxt "RID_STR_UNDO_REMOVE_FUNCTION"
+msgid "Delete Function"
+msgstr "ფუნქციის წაშლა"
+
+#. DuX47
+#: reportdesign/inc/strings.hrc:109
+msgctxt "RID_STR_UNDO_CHANGE_SIZE"
+msgid "Change Size"
+msgstr "ზომის შეცვლა"
+
+#. vBNE4
+#: reportdesign/inc/strings.hrc:110
+msgctxt "RID_STR_UNDO_PASTE"
+msgid "Paste"
+msgstr "ჩასმა"
+
+#. zFv2h
+#: reportdesign/inc/strings.hrc:111
+msgctxt "RID_STR_UNDO_INSERT_CONTROL"
+msgid "Insert Control"
+msgstr "მართვის ელემენტის ჩასმა"
+
+#. ParuK
+#: reportdesign/inc/strings.hrc:112
+msgctxt "RID_STR_UNDO_DELETE_CONTROL"
+msgid "Delete Control"
+msgstr "მართვის ელემენტის წაშლა"
+
+#. vRDAn
+#. Please try to avoid spaces in the name. It is used as a programmatic one.
+#: reportdesign/inc/strings.hrc:114
+msgctxt "RID_STR_GROUPHEADER"
+msgid "GroupHeader"
+msgstr "ჯგუფისთავსართი"
+
+#. LseTq
+#. Please try to avoid spaces in the name. It is used as a programmatic one.
+#: reportdesign/inc/strings.hrc:116
+msgctxt "RID_STR_GROUPFOOTER"
+msgid "GroupFooter"
+msgstr "ჯგუფისბოლოსართი"
+
+#. NZ68L
+#: reportdesign/inc/strings.hrc:117
+msgctxt "RID_STR_FIELDSELECTION"
+msgid "Add field:"
+msgstr "ველის დამატება:"
+
+#. eykyF
+#: reportdesign/inc/strings.hrc:118
+msgctxt "RID_STR_FILTER"
+msgid "Filter"
+msgstr "ფილტრი"
+
+#. WNJaK
+#: reportdesign/inc/strings.hrc:119
+msgctxt "RID_STR_UNDO_ALIGNMENT"
+msgid "Change Alignment"
+msgstr "სწორების შეცვლა"
+
+#. Jy4P6
+#. # will be replaced with a name.
+#: reportdesign/inc/strings.hrc:121
+msgctxt "RID_STR_HEADER"
+msgid "# Header"
+msgstr "# ზედა კოლონტიტული"
+
+#. 9Zu4z
+#. # will be replaced with a name.";
+#: reportdesign/inc/strings.hrc:123
+msgctxt "RID_STR_FOOTER"
+msgid "# Footer"
+msgstr "# ქვედა კოლონტიტული"
+
+#. RqygD
+#: reportdesign/inc/strings.hrc:124
+msgctxt "RID_STR_IMPORT_GRAPHIC"
+msgid "Insert graphics"
+msgstr "გამოსახულების ჩასმა"
+
+#. cT8od
+#: reportdesign/inc/strings.hrc:125
+msgctxt "RID_STR_DELETE"
+msgid "Delete"
+msgstr "წაშლა"
+
+#. J7Hz2
+#: reportdesign/inc/strings.hrc:126
+msgctxt "RID_STR_FUNCTION"
+msgid "Function"
+msgstr "ფუნქცია"
+
+#. 7asEU
+#: reportdesign/inc/strings.hrc:127
+msgctxt "RID_STR_COULD_NOT_CREATE_REPORT"
+msgid "An error occurred while creating the report."
+msgstr "შეცდომა ანგარიშის შექმნისას."
+
+#. wBbKp
+#: reportdesign/inc/strings.hrc:128
+msgctxt "RID_STR_CAUGHT_FOREIGN_EXCEPTION"
+msgid "An exception of type $type$ was caught."
+msgstr "აღმოჩენილია $type$ ტიპის გამონაკლისი."
+
+#. bdtAq
+#: reportdesign/inc/strings.hrc:129
+msgctxt "RID_STR_UNDO_CHANGEFONT"
+msgid "Change font"
+msgstr "ფონტის შეცვლა"
+
+#. TrviL
+#: reportdesign/inc/strings.hrc:130
+msgctxt "RID_STR_UNDO_CHANGEPAGE"
+msgid "Change page attributes"
+msgstr "გვერდის ატრიბუტების ძებნა"
+
+#. 4A4DL
+#: reportdesign/inc/strings.hrc:131
+msgctxt "RID_STR_PAGEHEADERFOOTER_INSERT"
+msgid "Insert Page Header/Footer"
+msgstr "გვერდის ზედა/ქვედა კოლონტიტულის ჩასმა"
+
+#. JZEaA
+#: reportdesign/inc/strings.hrc:132
+msgctxt "RID_STR_PAGEHEADERFOOTER_DELETE"
+msgid "Delete Page Header/Footer"
+msgstr "გვერდის ზედა/ქვედა კოლონტიტულის წაშლა"
+
+#. zENVV
+#: reportdesign/inc/strings.hrc:133
+msgctxt "RID_STR_REPORTHEADERFOOTER_INSERT"
+msgid "Insert Report Header/Footer"
+msgstr "ანგარიშის ზედა/ქვედა კოლონტიტულის ჩასმა"
+
+#. cF5cE
+#: reportdesign/inc/strings.hrc:134
+msgctxt "RID_STR_REPORTHEADERFOOTER_DELETE"
+msgid "Delete Report Header/Footer"
+msgstr "ანგარიშის ზედა/ქვედა კოლონტიტულის წაშლა"
+
+#. YfLKD
+#: reportdesign/inc/strings.hrc:135
+msgctxt "RID_ERR_NO_COMMAND"
+msgid "The report can not be executed unless it is bound to content."
+msgstr "ანგარიშის შესრულება შეუძლებელია, თუ მას შემცველობაზე არ მიაბამთ."
+
+#. wbP7i
+#: reportdesign/inc/strings.hrc:136
+msgctxt "RID_ERR_NO_OBJECTS"
+msgid "The report can not be executed unless at least one object has been inserted."
+msgstr "ანგარიში ვერ შესრულება, სანამ ერთ ობიექტს მაინც არ ჩასვამთ."
+
+#. bNM2S
+#: reportdesign/inc/strings.hrc:137
+msgctxt "RID_STR_UNDO_SHRINK"
+msgid "Shrink Section"
+msgstr "განყოფილების შემცირება"
+
+#. 83WqS
+#: reportdesign/inc/strings.hrc:138
+msgctxt "RID_STR_DETAIL"
+msgid "Detail"
+msgstr "დეტალები"
+
+#. 6FsBt
+#: reportdesign/inc/strings.hrc:139
+msgctxt "RID_STR_PAGE_HEADER"
+msgid "Page Header"
+msgstr "გვერდის ზედა კოლონტიტული"
+
+#. VaKUs
+#: reportdesign/inc/strings.hrc:140
+msgctxt "RID_STR_PAGE_FOOTER"
+msgid "Page Footer"
+msgstr "გვერდის ქვედა კოლონტიტული"
+
+#. yH4py
+#: reportdesign/inc/strings.hrc:141
+msgctxt "RID_STR_REPORT_HEADER"
+msgid "Report Header"
+msgstr "ანგარიშის ზედა კოლონტიტული"
+
+#. cgWUK
+#: reportdesign/inc/strings.hrc:142
+msgctxt "RID_STR_REPORT_FOOTER"
+msgid "Report Footer"
+msgstr "ანგარიშის ქვედა კოლონტიტული"
+
+#. TsJeZ
+#: reportdesign/inc/strings.hrc:144
+msgctxt "STR_NUMBERED_CONDITION"
+msgid "Condition $number$"
+msgstr "პირობა $number$"
+
+#. tpRys
+#: reportdesign/inc/strings.hrc:146
+msgctxt "STR_RPT_EXPRESSION"
+msgid "Field/Expression"
+msgstr "ველი/გამოსახულება"
+
+#. zcTFT
+#: reportdesign/inc/strings.hrc:147
+msgctxt "STR_RPT_PREFIXCHARS"
+msgid "Prefix Characters"
+msgstr "პრეფიქსის სიმბოლოები"
+
+#. AGCRW
+#: reportdesign/inc/strings.hrc:148
+msgctxt "STR_RPT_YEAR"
+msgid "Year"
+msgstr "წელი"
+
+#. fs5o2
+#: reportdesign/inc/strings.hrc:149
+msgctxt "STR_RPT_QUARTER"
+msgid "Quarter"
+msgstr "კვარტალი"
+
+#. AZuzT
+#: reportdesign/inc/strings.hrc:150
+msgctxt "STR_RPT_MONTH"
+msgid "Month"
+msgstr "თვე"
+
+#. ogzvv
+#: reportdesign/inc/strings.hrc:151
+msgctxt "STR_RPT_WEEK"
+msgid "Week"
+msgstr "კვირა"
+
+#. RGT5s
+#: reportdesign/inc/strings.hrc:152
+msgctxt "STR_RPT_DAY"
+msgid "Day"
+msgstr "დღე"
+
+#. gHUUp
+#: reportdesign/inc/strings.hrc:153
+msgctxt "STR_RPT_HOUR"
+msgid "Hour"
+msgstr "საათი"
+
+#. TEKsE
+#: reportdesign/inc/strings.hrc:154
+msgctxt "STR_RPT_MINUTE"
+msgid "Minute"
+msgstr "წუთი"
+
+#. dJxDM
+#: reportdesign/inc/strings.hrc:155
+msgctxt "STR_RPT_INTERVAL"
+msgid "Interval"
+msgstr "შუალედი"
+
+#. imASi
+#: reportdesign/inc/strings.hrc:156
+msgctxt "STR_RPT_HELP_FIELD"
+msgid "Select a field or type an expression to sort or group on."
+msgstr "აირჩიეთ ველი ან აკრიფეთ გამოსახულება დასალაგებლად ან დასაჯგუფებლად."
+
+#. c5noL
+#: reportdesign/inc/strings.hrc:157
+msgctxt "STR_RPT_HELP_HEADER"
+msgid "Display a header for this group?"
+msgstr "ვაჩვენო ზედა კოლონტიტული ამ ჯგუფისთვის?"
+
+#. 2eKET
+#: reportdesign/inc/strings.hrc:158
+msgctxt "STR_RPT_HELP_FOOTER"
+msgid "Display a footer for this group?"
+msgstr "ვაჩვენო ქვედა კოლონტიტული ამ ჯგუფისთვის?"
+
+#. DNABi
+#: reportdesign/inc/strings.hrc:159
+msgctxt "STR_RPT_HELP_GROUPON"
+msgid "Select the value or range of values that starts a new group."
+msgstr "აირჩიეთ მნიშვნელობა ან მნიშვნელობების შუალედი, რომელიც ახალ ჯგუფს იწყებს."
+
+#. Rqnf4
+#: reportdesign/inc/strings.hrc:160
+msgctxt "STR_RPT_HELP_INTERVAL"
+msgid "Interval or number of characters to group on."
+msgstr "შუალედი ან სიმბლოების რაოდენობა დასაჯგუფებლად."
+
+#. Bd8BB
+#: reportdesign/inc/strings.hrc:161
+msgctxt "STR_RPT_HELP_KEEP"
+msgid "Keep group together on one page?"
+msgstr "შევინარჩუნო დაჯგუფებული ამ გვერდზე?"
+
+#. 2FHLD
+#: reportdesign/inc/strings.hrc:162
+msgctxt "STR_RPT_HELP_SORT"
+msgid "Select ascending or descending sort order. Ascending means from A to Z or 0 to 9"
+msgstr "აირჩიეთ დალაგების აღმავალი ან დაღმავალი მიმდევრობა. აღმავალი ნიშნავს A-დან Z-მდე ან 0-დან 9-მდე"
+
+#. SwBtX
+#. The space after the word is no error. #PAGENUMBER# is a replacement and & must not be translated as well as "
+#: reportdesign/inc/strings.hrc:165
+msgctxt "STR_RPT_PN_PAGE"
+msgid "\"Page \" & #PAGENUMBER#"
+msgstr "\"გვერდი \" & #PAGENUMBER#"
+
+#. 3GWzf
+#. The space before and after the word is no error. #PAGECOUNT# is a replacement and & must not be translated  as well as "
+#: reportdesign/inc/strings.hrc:167
+msgctxt "STR_RPT_PN_PAGE_OF"
+msgid " & \" of \" & #PAGECOUNT#"
+msgstr " & \" / \" & #PAGECOUNT#"
+
+#. mhBS2
+#: reportdesign/inc/strings.hrc:169
+msgctxt "RID_STR_FUNCTIONS"
+msgid "Functions"
+msgstr "ფუნქციები"
+
+#. bfw6P
+#: reportdesign/inc/strings.hrc:170
+msgctxt "RID_STR_GROUPS"
+msgid "Groups"
+msgstr "ჯგუფები"
+
+#. rXGES
+#: reportdesign/inc/strings.hrc:172
+msgctxt "RID_STR_GROUP_HEADER"
+msgid "Group Header"
+msgstr "ჯგუფის ზედა კოლონტიტული"
+
+#. u85VE
+#: reportdesign/inc/strings.hrc:173
+msgctxt "RID_STR_GROUP_FOOTER"
+msgid "Group Footer"
+msgstr "ჯგუფის ქვედა კოლონტიტული"
+
+#. LaroG
+#: reportdesign/inc/strings.hrc:174
+msgctxt "RID_STR_ERROR_WRONG_ARGUMENT"
+msgid "You tried to set an illegal argument. Please have a look at '#1' for valid arguments."
+msgstr "სცადეთ, დაუშვებელი არგუმენტი დაგეყენებინათ. სწორი არგუმენტების სიისთვის იხილეთ '#1'."
+
+#. NcNG6
+#: reportdesign/inc/strings.hrc:175
+msgctxt "RID_STR_ARGUMENT_IS_NULL"
+msgid "The element is invalid."
+msgstr "ელემენტი არასწორია."
+
+#. DwGXm
+#: reportdesign/inc/strings.hrc:176
+msgctxt "RID_STR_FIXEDTEXT"
+msgid "Label field"
+msgstr "ჭდის ველი"
+
+#. sBC8f
+#: reportdesign/inc/strings.hrc:177
+msgctxt "RID_STR_FORMATTEDFIELD"
+msgid "Formatted field"
+msgstr "დაფორმატებული ველი"
+
+#. ktd53
+#: reportdesign/inc/strings.hrc:178
+msgctxt "RID_STR_IMAGECONTROL"
+msgid "Image control"
+msgstr "მართვის ელემენტი 'გამოსახულება'"
+
+#. nkamB
+#: reportdesign/inc/strings.hrc:179
+msgctxt "RID_STR_REPORT"
+msgid "Report"
+msgstr "ანგარიში"
+
+#. JkdAe
+#: reportdesign/inc/strings.hrc:180
+msgctxt "RID_STR_SHAPE"
+msgid "Shape"
+msgstr "ფიგურა"
+
+#. yhCqB
+#: reportdesign/inc/strings.hrc:181
+msgctxt "RID_STR_FIXEDLINE"
+msgid "Fixed line"
+msgstr "ფიქსირებული ხაზი"
+
+#. vU6ev
+#: reportdesign/uiconfig/dbreport/ui/backgrounddialog.ui:8
+msgctxt "backgrounddialog|BackgroundDialog"
+msgid "Section Setup"
+msgstr "განყოფილების მორგება"
+
+#. nvkDC
+#: reportdesign/uiconfig/dbreport/ui/chardialog.ui:8
+msgctxt "chardialog|CharDialog"
+msgid "Character Settings"
+msgstr "სიმბოლოს მორგება"
+
+#. 62SER
+#: reportdesign/uiconfig/dbreport/ui/condformatdialog.ui:10
+msgctxt "condformatdialog|CondFormat"
+msgid "Conditional Formatting"
+msgstr "პირობითი დაფორმატება"
+
+#. 4WAsE
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:53
+msgctxt "conditionwin|typeCombobox"
+msgid "Field Value Is"
+msgstr "ველის მნიშვნელობაა"
+
+#. XswwG
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:54
+msgctxt "conditionwin|typeCombobox"
+msgid "Expression Is"
+msgstr "გამოსახულებაა"
+
+#. tLz9p
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:68
+msgctxt "conditionwin|opCombobox"
+msgid "between"
+msgstr "შორის"
+
+#. QGFtw
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:69
+msgctxt "conditionwin|opCombobox"
+msgid "not between"
+msgstr "არ არის შორის"
+
+#. KCvfG
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:70
+msgctxt "conditionwin|opCombobox"
+msgid "equal to"
+msgstr "უდრის"
+
+#. XBk96
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:71
+msgctxt "conditionwin|opCombobox"
+msgid "not equal to"
+msgstr "არ უდრის"
+
+#. A8PMD
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:72
+msgctxt "conditionwin|opCombobox"
+msgid "greater than"
+msgstr "მეტი, ვიდრე"
+
+#. TxLHH
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:73
+msgctxt "conditionwin|opCombobox"
+msgid "less than"
+msgstr "ნაკლები, ვიდრე"
+
+#. pPq6D
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:74
+msgctxt "conditionwin|opCombobox"
+msgid "greater than or equal to"
+msgstr "მეტია ან ტოლია"
+
+#. a6U8p
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:75
+msgctxt "conditionwin|opCombobox"
+msgid "less than or equal to"
+msgstr "ნაკლებია ან ტოლია"
+
+#. oyAfN
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:107
+msgctxt "conditionwin|lhsButton"
+msgid "..."
+msgstr "..."
+
+#. RpKdu
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:129
+msgctxt "conditionwin|andLabel"
+msgid "and"
+msgstr "და"
+
+#. RGmoC
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:160
+msgctxt "conditionwin|rhsButton"
+msgid "..."
+msgstr "..."
+
+#. aHp52
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:214
+msgctxt "conditionwin|ToolBoxItem1"
+msgid "Bold"
+msgstr "სქელი"
+
+#. xWJCf
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:226
+msgctxt "conditionwin|ToolBoxItem2"
+msgid "Italic"
+msgstr "კურსივი"
+
+#. n9Rga
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:238
+msgctxt "conditionwin|ToolBoxItem3"
+msgid "Underline"
+msgstr "ხაზგასმა"
+
+#. XeLfz
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:260
+msgctxt "conditionwin|ToolBoxItem4"
+msgid "Background Color"
+msgstr "ფონის ფერი"
+
+#. bF2Nt
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:272
+msgctxt "conditionwin|ToolBoxItem5"
+msgid "Font Color"
+msgstr "ფონტის ფერი"
+
+#. Cr7CD
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:284
+msgctxt "conditionwin|ToolBoxItem6"
+msgid "Character Formatting"
+msgstr "სიმბოლოს დაფორმატება"
+
+#. PSCFe
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:365
+msgctxt "conditionwin|removeButton"
+msgid "-"
+msgstr "-"
+
+#. bpiWB
+#: reportdesign/uiconfig/dbreport/ui/conditionwin.ui:378
+msgctxt "conditionwin|addButton"
+msgid "+"
+msgstr "+"
+
+#. EDzgm
+#: reportdesign/uiconfig/dbreport/ui/datetimedialog.ui:8
+msgctxt "datetimedialog|DateTimeDialog"
+msgid "Date and Time"
+msgstr "თარიღი და დრო"
+
+#. XAGJR
+#: reportdesign/uiconfig/dbreport/ui/datetimedialog.ui:94
+msgctxt "datetimedialog|date"
+msgid "_Include Date"
+msgstr "თარ_იღის ჩათვლა"
+
+#. rtFMB
+#: reportdesign/uiconfig/dbreport/ui/datetimedialog.ui:113
+msgctxt "datetimedialog|datelistbox_label"
+msgid "_Format:"
+msgstr "_ფორმატი:"
+
+#. DRAAK
+#: reportdesign/uiconfig/dbreport/ui/datetimedialog.ui:125
+msgctxt "datetimedialog|time"
+msgid "Include _Time"
+msgstr "დროის ჩარ_თვა"
+
+#. jWoqY
+#: reportdesign/uiconfig/dbreport/ui/datetimedialog.ui:144
+msgctxt "datetimedialog|timelistbox_label"
+msgid "Fo_rmat:"
+msgstr "ფო_რმატი:"
+
+#. Kf2vH
+#: reportdesign/uiconfig/dbreport/ui/floatingfield.ui:16
+msgctxt "floatingfield|FloatingField"
+msgid "Sorting and Grouping"
+msgstr "დალაგება და დაჯგუფება"
+
+#. qqmgv
+#: reportdesign/uiconfig/dbreport/ui/floatingfield.ui:59
+msgctxt "floatingfield|up"
+msgid "Sort Ascending"
+msgstr "ზრდადობით დალაგება"
+
+#. BRZT9
+#: reportdesign/uiconfig/dbreport/ui/floatingfield.ui:71
+msgctxt "floatingfield|down"
+msgid "Sort Descending"
+msgstr "კლებადობით დალაგება"
+
+#. 8eQMV
+#: reportdesign/uiconfig/dbreport/ui/floatingfield.ui:83
+msgctxt "floatingfield|delete"
+msgid "Remove sorting"
+msgstr "დალაგების მოცილება"
+
+#. cC8Ep
+#: reportdesign/uiconfig/dbreport/ui/floatingfield.ui:105
+msgctxt "floatingfield|insert"
+msgid "Insert"
+msgstr "ჩასმა"
+
+#. AjmhK
+#: reportdesign/uiconfig/dbreport/ui/floatingfield.ui:165
+msgctxt "floatingfield|helptext"
+msgid "Highlight the fields to insert into the selected section of the template, then click Insert or press Enter."
+msgstr "გამოკვეთეთ ველები, რომელიც ნიმუშის მონიშნულ განყოფილებაში გნებავთ ჩასვათ, შემდეგ კი დააწკაპუნეთ ღილაკზე 'ჩასმა', ან დააჭირეთ ღილაკს 'Enter'."
+
+#. DCm75
+#: reportdesign/uiconfig/dbreport/ui/floatingnavigator.ui:19
+msgctxt "floatingnavigator|FloatingNavigator"
+msgid "Report navigator"
+msgstr "ანგარიშების ნავიგატორი"
+
+#. J7Adn
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:13
+msgctxt "floatingsort|FloatingSort"
+msgid "Sorting and Grouping"
+msgstr "დალაგება და დაჯგუფება"
+
+#. LRhtG
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:73
+msgctxt "floatingsort|label5"
+msgid "Group actions"
+msgstr "ქმედებები ჯგუფზე"
+
+#. p6yrj
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:93
+msgctxt "floatingsort|up"
+msgid "Move up"
+msgstr "აწევა"
+
+#. g5fDX
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:105
+msgctxt "floatingsort|down"
+msgid "Move down"
+msgstr "დაწევა"
+
+#. 8DZyc
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:117
+msgctxt "floatingsort|delete"
+msgid "Delete"
+msgstr "წაშლა"
+
+#. Bwg2f
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:160
+msgctxt "floatingsort|label1"
+msgid "Groups"
+msgstr "ჯგუფები"
+
+#. GwcRE
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:193
+msgctxt "floatingsort|label6"
+msgid "Sorting"
+msgstr "დალაგება"
+
+#. CJ99e
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:207
+msgctxt "floatingsort|label7"
+msgid "Group Header"
+msgstr "ჯგუფის ზედა კოლონტიტული"
+
+#. hwKPG
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:221
+msgctxt "floatingsort|label8"
+msgid "Group Footer"
+msgstr "ჯგუფის ქვედა კოლონტიტული"
+
+#. GWWsG
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:235
+msgctxt "floatingsort|label9"
+msgid "Group On"
+msgstr "დაჯგუფება ჩართ"
+
+#. uqrrE
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:249
+msgctxt "floatingsort|label10"
+msgid "Group Interval"
+msgstr "დაჯგუფების შუალედი"
+
+#. iFmvA
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:263
+msgctxt "floatingsort|label11"
+msgid "Keep Together"
+msgstr "ერთად შენარჩუნება"
+
+#. tQbGB
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:280
+msgctxt "floatingsort|sorting"
+msgid "Ascending"
+msgstr "ზრდადობით"
+
+#. QHkHZ
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:281
+msgctxt "floatingsort|sorting"
+msgid "Descending"
+msgstr "კლებადობით"
+
+#. LsRSa
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:296
+msgctxt "floatingsort|header"
+msgid "Present"
+msgstr "წარმოდგენა"
+
+#. vnGGe
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:297
+msgctxt "floatingsort|header"
+msgid "Not present"
+msgstr "არ გამოჩენა"
+
+#. xUAEz
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:312
+msgctxt "floatingsort|keep"
+msgid "No"
+msgstr "არა"
+
+#. mdUnC
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:313
+msgctxt "floatingsort|keep"
+msgid "Whole Group"
+msgstr "მთელი ჯგუფი"
+
+#. uCpDA
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:314
+msgctxt "floatingsort|keep"
+msgid "With First Detail"
+msgstr "პირველი დეტალით"
+
+#. A9ESx
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:329
+msgctxt "floatingsort|footer"
+msgid "Present"
+msgstr "წარმოდგენა"
+
+#. a5oHV
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:330
+msgctxt "floatingsort|footer"
+msgid "Not present"
+msgstr "არ გამოჩენა"
+
+#. MYqZY
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:345
+msgctxt "floatingsort|group"
+msgid "Each Value"
+msgstr "თითოეული მნიშვნელობა"
+
+#. Aey2X
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:373
+msgctxt "floatingsort|label2"
+msgid "Properties"
+msgstr "თვისებები"
+
+#. K86y3
+#: reportdesign/uiconfig/dbreport/ui/floatingsort.ui:407
+msgctxt "floatingsort|label3"
+msgid "Help"
+msgstr "დახმარება"
+
+#. R66EH
+#: reportdesign/uiconfig/dbreport/ui/groupsortmenu.ui:12
+msgctxt "groupsortmenu|delete"
+msgid "_Delete"
+msgstr "_წაშლა"
+
+#. qYJKV
+#: reportdesign/uiconfig/dbreport/ui/navigatormenu.ui:12
+msgctxt "navigatormenu|sorting"
+msgid "Sorting and Grouping..."
+msgstr "დალაგება და დაჯგუფება..."
+
+#. Sj8Wi
+#: reportdesign/uiconfig/dbreport/ui/navigatormenu.ui:26
+msgctxt "navigatormenu|page"
+msgid "Page Header/Footer..."
+msgstr "გვერდის ზედა/ქვედა კოლონტიტული..."
+
+#. dCNEo
+#: reportdesign/uiconfig/dbreport/ui/navigatormenu.ui:34
+msgctxt "navigatormenu|report"
+msgid "Report Header/Footer..."
+msgstr "ანგარიშის ზედა/ქვედა კოლონტიტული..."
+
+#. tDRkM
+#: reportdesign/uiconfig/dbreport/ui/navigatormenu.ui:48
+msgctxt "navigatormenu|function"
+msgid "New Function"
+msgstr "ახალი ფუნქცია"
+
+#. iunNU
+#: reportdesign/uiconfig/dbreport/ui/navigatormenu.ui:62
+msgctxt "navigatormenu|properties"
+msgid "Properties..."
+msgstr "თვისებები..."
+
+#. b84af
+#: reportdesign/uiconfig/dbreport/ui/navigatormenu.ui:70
+msgctxt "navigatormenu|delete"
+msgid "_Delete"
+msgstr "_წაშლა"
+
+#. 7yvyd
+#: reportdesign/uiconfig/dbreport/ui/pagedialog.ui:8
+msgctxt "pagedialog|PageDialog"
+msgid "Page Setup"
+msgstr "გვერდის მორგება"
+
+#. kKtvD
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:8
+msgctxt "pagenumberdialog|PageNumberDialog"
+msgid "Page Numbers"
+msgstr "გვერდის ნომრები"
+
+#. wt9iJ
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:99
+msgctxt "pagenumberdialog|pagen"
+msgid "_Page N"
+msgstr "გვერდი _N"
+
+#. MpNXo
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:115
+msgctxt "pagenumberdialog|pagenofm"
+msgid "Page _N of M"
+msgstr "გვერდი _N M-დან"
+
+#. 2wFXb
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:135
+msgctxt "pagenumberdialog|label1"
+msgid "Format"
+msgstr "ფორმატი"
+
+#. wMBh7
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:167
+msgctxt "pagenumberdialog|toppage"
+msgid "_Top of Page (Header)"
+msgstr "გვერდის თავში (ზედა კოლონ_ტიტული)"
+
+#. Bt5Xv
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:183
+msgctxt "pagenumberdialog|bottompage"
+msgid "_Bottom of Page (Footer)"
+msgstr "გვერდის _ბოლოში (ქვედა კოლონტიტული)"
+
+#. eLQVW
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:203
+msgctxt "pagenumberdialog|label2"
+msgid "Position"
+msgstr "მდებარეობა"
+
+#. LMkGF
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:241
+msgctxt "pagenumberdialog|alignment"
+msgid "Left"
+msgstr "მარცხენა"
+
+#. s4C48
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:242
+msgctxt "pagenumberdialog|alignment"
+msgid "Center"
+msgstr "ცენტრი"
+
+#. X9UuN
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:243
+msgctxt "pagenumberdialog|alignment"
+msgid "Right"
+msgstr "მარჯვენა"
+
+#. NRhEj
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:255
+msgctxt "pagenumberdialog|alignment_label"
+msgid "_Alignment:"
+msgstr "სწ_ორება:"
+
+#. yWyC7
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:267
+msgctxt "pagenumberdialog|shownumberonfirstpage"
+msgid "Show Number on First Page"
+msgstr "ნომრის ჩვენება პირველ გვერდზე"
+
+#. B7qwT
+#: reportdesign/uiconfig/dbreport/ui/pagenumberdialog.ui:286
+msgctxt "pagenumberdialog|label3"
+msgid "General"
+msgstr "ზოგადი"

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+  <topic id="textscalc0000000404xml" indexer="exclude" status="PUBLISH">
+    <title id="tit">Insert Menu</title>
+    <filename>/text/scalc/00/00000404.xhp</filename>
+  </topic>
+  <history>
+    <created date="2003-10-31T00:00:00">Sun Microsystems, Inc.</created>
+  </history>
+</meta>
+<body>
+<h1 id="hd_id3149346">Insert Menu</h1>
+
+<section id="headerfooter">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph id="par_id3159233" role="paragraph" xml-lang="en-US">Choose <menuitem>Insert - Headers and Footers</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id121698864831695">Choose <menuitem>Format - Page Style - Header (or Footer)</menuitem> tab, press <menuitem>Edit</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id901698865184345">Choose <menuitem>Styles - Manage Styles - Page Styles</menuitem>, open context menu of the page style, choose <menuitem>Edit Style - Header (or Footer)</menuitem> tab, press <menuitem>Edit</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id321698865421301">Choose <menuitem>Layout - Headers and Footers</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id491698864717484">Choose <menuitem>Layout - Format Page - Header (or Footer)</menuitem> tab, press <menuitem>Edit</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id171698865317844">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Headers and Footers</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id711698865451988">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id31698865451989" role="paragraph"><image src="cmd/lc_editheaderandfooter.svg" id="img_id351698865451990" width="1cm"  height="1cm"><alt id="alt_id241698865451991">Icon Headers and Footers</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id731698865451993" role="paragraph">Headers and Footers</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="fieldmenu">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id991698859519603">Choose <menuitem>Insert - Field</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id571698859523827">Choose <menuitem>Insert - Field - Date</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id821698859529924">Choose <menuitem>Insert - Field - Sheet Name</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id111698859534268">Choose <menuitem>Insert - Field - Document Title</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id881698859538595">Choose <menuitem>Insert - Field</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id501698859543375">Choose <menuitem>Insert - Field - Date</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id801698859547630">Choose <menuitem>Insert - Field - Sheet Name</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id541698859552582">Choose <menuitem>Insert - Field - Document Title</menuitem>.</paragraph>
+</section>
+
+<section id="inserttime">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id521698857081583">Choose <menuitem>Insert - Time</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id501698857084857">Choose <menuitem>Insert - Fields - Time</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id601698857088328">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Time</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id71698856461426">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id311698857095297" role="paragraph"><image src="cmd/lc_timefield.svg" id="img_id451698856461428" width="1cm"  height="1cm"><alt id="alt_id251698856461429">Icon Insert Time</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id831698857100474" role="paragraph">Insert Time</paragraph>
+      </tablecell>
+    </tablerow>
+    </table>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id441698857104573"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + Shift + ;</keycode> (semicolon)</paragraph>
+</section>
+<section id="insertdate">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id891698856307267">Choose <menuitem>Insert - Date</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id581698856407913">Choose <menuitem>Insert - Fields - Date</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id911698856281237">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Date</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id71698856461426">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id761698856461427" role="paragraph"><image src="cmd/lc_datefield.svg" id="img_id451698856461428" width="1cm"  height="1cm"><alt id="alt_id251698856461429">Icon Insert Date</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id61698856461431" role="paragraph">Insert Date</paragraph>
+      </tablecell>
+    </tablerow>
+    </table>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+    <paragraph role="paragraph" id="par_id21698856550818"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + ;</keycode> (semicolon)</paragraph>
+</section>
+
+<section id="sparklines">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id761654173486733">Choose <menuitem>Insert - Sparkline</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_context"/>
+  <paragraph role="paragraph" id="par_id701698839017306">Choose <menuitem>Sparklines - Sparklines</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id441698838681723">On the <menuitem>Data</menuitem> menu of the <menuitem>Data</menuitem> tab, choose <menuitem>Sparklines - Sparklines</menuitem>.</paragraph>
+</section>
+
+<section id="insert_cells">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3149784">Choose <menuitem>Sheet - Insert Cells</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id721702126497511">Choose <menuitem>Insert - Insert Cells</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="syinsert_cells">
+    <table id="tbl_id3148550">
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3149656">
+            <image id="img_id3154365" src="cmd/lc_inscellsctrl.svg" width="1cm" height="1cm"><alt id="alt_id3154365">Icon Insert Cells</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3151041">Insert Cells</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+
+  </section>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id681702126442763"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + "+"</keycode></paragraph>
+</section>
+
+<section id="syinsert_cells_down">
+<table id="tbl_id3159486">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3145273">
+<image id="img_id3145364" src="cmd/sc_insertcellsdown.png" width="1cm" height="1cm"><alt id="alt_id3145364">Icon</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3146985">Insert Cells Down</paragraph>
+</tablecell>
+</tablerow>
+</table>
+
+</section>
+<section id="syinsert_cells_right">
+<table id="tbl_id3148575">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3144766">
+<image id="img_id3154942" src="cmd/sc_insertcellsright.png" width="1cm" height="1cm"><alt id="alt_id3154942">Icon</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3145646">Insert Cells Right</paragraph>
+</tablecell>
+</tablerow>
+</table>
+
+</section>
+<section id="syinsert_rows">
+<table id="tbl_id3154015">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3153838">
+<image id="img_id3153710" src="cmd/sc_insertrows.png" width="1cm" height="1cm"><alt id="alt_id3153710">Icon</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3150324">Insert Rows</paragraph>
+</tablecell>
+</tablerow>
+</table>
+
+</section>
+<section id="syinsert_columns">
+<table id="tbl_id3147338">
+<tablerow>
+<tablecell>
+<paragraph role="paragraph" id="par_id3147363">
+<image id="img_id3145232" src="cmd/sc_insertcolumns.png" width="1cm" height="1cm"><alt id="alt_id3145232">Icon</alt></image></paragraph>
+</tablecell>
+<tablecell>
+<paragraph role="paragraph" id="par_id3155334">Insert Columns</paragraph>
+</tablecell>
+</tablerow>
+</table>
+</section>
+
+<section id="insertfromfile">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_idN1082F"><variable id="eitabfile">Choose <menuitem>Sheet - Insert Sheet from File</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id151702403498564">Choose <menuitem>Insert - Insert Sheet - From File</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id601702404855774">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Insert Sheet from File</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_sheet_bar"/>
+  <paragraph role="paragraph" id="par_id281702403424406">Choose <menuitem>Insert Sheet - From file</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id281702403654889">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id791702403654890" role="paragraph"><image src="cmd/lc_insert.svg" id="img_id131702403654891" width="1cm" height="1cm"><alt id="alt_id501702403654892">Icon Insert Sheet from File</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id481702403654894" role="paragraph">Insert Sheet From File</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="insert_function">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3155115">Choose <menuitem>Insert - Function</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id271698843588067">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Function</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="syfunction_wizard">
+    <table id="tbl_id3145258">
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3150515"><image id="img_id3150884" src="cmd/lc_dbviewfunctions.svg" width="1cm" height="1cm"><alt id="alt_id3150884">Icon Function Wizard</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3154370">Function Wizard</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+  <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id3152582"><switchinline select="sys"><caseinline select="MAC"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode> + F2</keycode></paragraph>
+</section>
+
+<paragraph role="paragraph" id="par_id3156288"><variable id="eikada"><emph>Insert - Function</emph> - Category <emph>Database</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3155809"><variable id="eikadaze"><emph>Insert - Function</emph> - Category <emph>Date &amp; Time</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3151334"><variable id="eikafi"><emph>Insert - Function</emph> - Category <emph>Financial</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3159222"><variable id="eikain"><emph>Insert - Function</emph> - Category <emph>Information</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3159173"><variable id="logical"><emph>Insert - Function</emph> - Category <emph>Logical</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3153914"><variable id="eikama"><emph>Insert - Function</emph> - Category <emph>Mathematical</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3150109"><variable id="eikamatrix"><emph>Insert - Function</emph> - Category <emph>Array</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3157978"><variable id="eikasta"><emph>Insert - Function</emph> - Category <emph>Statistical</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3156016"><variable id="eikatext"><emph>Insert - Function</emph> - Category <emph>Text</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3147075"><variable id="efefft"><emph>Insert - Function</emph> - Category <emph>Spreadsheet</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3154618"><variable id="addin"><emph>Insert - Function</emph> - Category <emph>Add-In</emph>
+</variable></paragraph>
+<paragraph role="paragraph" id="par_id3154059"><variable id="addinana"><emph>Insert - Function</emph> - Category <emph>Add-In</emph>
+</variable></paragraph>
+
+<section id="names">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3153250"><variable id="einamen">Choose <menuitem>Insert - Named Range or Expression</menuitem>.</variable></paragraph>
+  <paragraph role="paragraph" id="par_id61702668060030">Choose <menuitem>Sheet - Named Range or Expression</menuitem></paragraph>
+</section>
+
+<section id="extlink">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3146776"><variable id="eiextdata">Choose <menuitem>Sheet - External Links</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id561702405100757">Choose <menuitem>Data - External Links</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id21702405171182">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id631702405171183" role="paragraph"><image src="cmd/lc_insertexternaldatasource.svg" id="img_id121702405171184" width="1cm"  height="1cm"><alt id="alt_id151702405171185">Icon External Links</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id411702405171187" role="paragraph">External Links</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+</section>
+
+<section id="manage_names">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id751702675082804">Choose <menuitem>Sheet - Named Ranges and Expressions - Manage</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id301702675433245">Choose <menuitem>Insert - Manage Names</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id601702675437816">Choose <menuitem>Data - Manage Names</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id641702675445810">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Manage</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id551702675107129">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id661702675107130" role="paragraph"><image src="cmd/lc_definename.svg" id="img_id561702675107131" width="1cm"  height="1cm"><alt id="alt_id721702675107132">Icon Manage Names</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id121702675107134" role="paragraph">Manage Names</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+    <embed href="text/shared/00/00000004.xhp#from_keyboard"/>
+  <paragraph role="paragraph" id="par_id3149385"><switchinline select="sys"><caseinline select="MAC">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> + F3</paragraph>
+  <h3 id="hd_id201702761733377">Other</h3>
+  <paragraph role="paragraph" id="par_id521702676756048">On the drop-down list in the <link href="text/scalc/02/06010000.xhp"><emph>Name Box</emph></link> of the <emph>Formula Bar</emph>, select <menuitem>Manage Names</menuitem>.</paragraph>
+</section>
+
+<section id="define_name">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3143222">Choose <menuitem>Sheet - Named Ranges and Expressions - Define</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id801702661547552">Choose <menuitem>Insert - Define Name</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id601702661988059">Choose <menuitem>Data - Define Name</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id811702661629800">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Define</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id11702662103998">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id871702662103999" role="paragraph"><image src="cmd/lc_label.svg" id="img_id321702662104000" width="1cm"  height="1cm"><alt id="alt_id281702662104001">Icon Define Name</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id621702662104003" role="paragraph">Define Name</paragraph>
+      </tablecell>
+    </tablerow>
+  </table>
+  <h3 id="hd_id201702661733377">Other</h3>
+  <paragraph role="paragraph" id="par_id321702661807915">On the <link href="text/scalc/02/06010000.xhp"><emph>Name Box</emph></link> of the <emph>Formula Bar</emph>, insert a name for the selected cells range and press <keycode>Enter</keycode>.</paragraph>
+</section>
+
+<section id="insertnames">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id721698845208326">Choose <menuitem>Insert - Named Ranges and Expressions</menuitem>.</paragraph>
+  <paragraph role="paragraph" id="par_id3145214"><variable id="einaei">Choose <menuitem>Sheet - Named Ranges and Expressions - Insert</menuitem>.</variable></paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id21698845324130">On the <menuitem>Insert</menuitem> menu of the <menuitem>Insert</menuitem> tab, choose <menuitem>Named Ranges and Expressions</menuitem>.</paragraph>
+</section>
+
+<section id="create_names">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3153558"><variable id="einaueb">Choose <menuitem>Sheet - Named Ranges and Expressions - Create</menuitem>.</variable></paragraph>
+</section>
+
+<section id="define_label_range">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id3153483"><variable id="einabesch">Choose <menuitem>Sheet - Named Ranges and Expressions - Labels</menuitem>.</variable></paragraph>
+</section>
+</body>
+</helpdocument>

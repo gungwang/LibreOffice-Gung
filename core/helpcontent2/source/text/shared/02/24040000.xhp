@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+<meta>
+  <topic id="textshared0224040000xml" indexer="include" status="PUBLISH">
+    <title id="tit" >Green</title>
+    <filename>/text/shared/02/24040000.xhp</filename>
+  </topic>
+</meta>
+<body>
+<section id="green">
+<bookmark  branch="hid/.uno:GrafGreen" id="bm_id4972033" localize="false"/>
+<h1 id="hd_id3154840"><link href="text/shared/02/24040000.xhp">Green</link></h1>
+<paragraph role="paragraph" id="par_id3143284" ><ahelp hid=".uno:GrafGreen">Specifies the proportion of green RGB color components for the selected graphic object.</ahelp> Values from -100% (no green) to +100% (full green) are possible.</paragraph>
+</section>
+<section id="howtoget">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id581692822229175">Choose <menuitem>Format - Image - Color</menuitem>.</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <section id="sygreen">
+    <table id="tbl_id3150935">
+      <tablerow>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3149511"><image id="img_id3146130" src="cmd/lc_grafgreen.svg" width="1cm" height="1cm"><alt id="alt_id3146130">Icon Green</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph role="paragraph" id="par_id3147571">Green</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+  </section>
+</section>
+</body>
+</helpdocument>

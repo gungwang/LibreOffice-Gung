@@ -1,0 +1,5983 @@
+#. extracted from svtools
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2026-05-12 15:22+0200\n"
+"PO-Revision-Date: 2026-05-03 13:30+0000\n"
+"Last-Translator: Aefgh3962 <aefgh3962@gmail.com>\n"
+"Language-Team: Thai <https://translations.documentfoundation.org/projects/libo_ui-master/svtoolsmessages/th/>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1542196010.000000\n"
+
+#. fLdeV
+#. To translators: tdf#125447 use no mnemonic in this string
+#: include/svtools/strings.hrc:27
+msgctxt "STR_UNDO"
+msgid "Undo: "
+msgstr "ทำกลับ: "
+
+#. A66hr
+#. To translators: tdf#125447 use no mnemonic in this string
+#: include/svtools/strings.hrc:29
+msgctxt "STR_REDO"
+msgid "Redo: "
+msgstr "ทำซ้ำ: "
+
+#. 2utVD
+#: include/svtools/strings.hrc:30
+msgctxt "STR_REPEAT"
+msgid "~Repeat: "
+msgstr "ซ้ำ~อีกครั้ง: "
+
+#. 3DCSV
+#: include/svtools/strings.hrc:32
+msgctxt "STR_FORMAT_STRING"
+msgid "Unformatted text"
+msgstr "ข้อความไม่จัดรูปแบบ"
+
+#. FaGBp
+#: include/svtools/strings.hrc:33
+msgctxt "STR_FORMAT_ID_STRING_TSVC"
+msgid "Unformatted text (TSV-Calc)"
+msgstr "ข้อความไม่จัดรูปแบบ (TSV-Calc)"
+
+#. U29gL
+#: include/svtools/strings.hrc:34
+msgctxt "STR_FORMAT_BITMAP"
+msgid "Bitmap Image (BMP)"
+msgstr "รูปภาพบิตแมป (BMP)"
+
+#. vnBpN
+#: include/svtools/strings.hrc:35
+msgctxt "STR_FORMAT_GDIMETAFILE"
+msgid "Graphics Device Interface metafile (GDI)"
+msgstr "เมตาไฟล์ของ Graphics Device Interface (GDI)"
+
+#. xt4VZ
+#: include/svtools/strings.hrc:36
+msgctxt "STR_FORMAT_RTF"
+msgid "Rich text formatting (RTF)"
+msgstr "รูปแบบ Rich Text (RTF)"
+
+#. wwEZs
+#: include/svtools/strings.hrc:37
+msgctxt "STR_FORMAT_ID_RICHTEXT"
+msgid "Rich text formatting (Richtext)"
+msgstr "รูปแบบ Rich Text (Richtext)"
+
+#. oZgfj
+#: include/svtools/strings.hrc:38
+msgctxt "STR_FORMAT_ID_DRAWING"
+msgid "%PRODUCTNAME drawing format"
+msgstr "รูปแบบงานวาดของ %PRODUCTNAME"
+
+#. 84ABF
+#: include/svtools/strings.hrc:39
+msgctxt "STR_FORMAT_ID_SVXB"
+msgid "StarView bitmap/animation (SVXB)"
+msgstr "บิตแมป/ภาพเคลื่อนไหว StarView (SVXB)"
+
+#. CCGwi
+#: include/svtools/strings.hrc:40
+msgctxt "STR_FORMAT_ID_INTERNALLINK_STATE"
+msgid "Status Info from Svx Internal Link"
+msgstr "ข้อมูลสถานะจากลิงก์ภายในของ Svx"
+
+#. 9zJeE
+#: include/svtools/strings.hrc:41
+msgctxt "STR_FORMAT_ID_SOLK"
+msgid "%PRODUCTNAME Link (SOLK)"
+msgstr "ลิงก์ของ %PRODUCTNAME (SOLK)"
+
+#. CdJBD
+#: include/svtools/strings.hrc:42
+msgctxt "STR_FORMAT_ID_NETSCAPE_BOOKMARK"
+msgid "Netscape Bookmark"
+msgstr "ที่คั่นหน้าของ Netscape"
+
+#. 472xQ
+#: include/svtools/strings.hrc:43
+msgctxt "STR_FORMAT_ID_STARSERVER"
+msgid "Star server format"
+msgstr "รูปแบบเซิร์ฟเวอร์ Star"
+
+#. afRsn
+#: include/svtools/strings.hrc:44
+msgctxt "STR_FORMAT_ID_STAROBJECT"
+msgid "Star object format"
+msgstr "รูปแบบวัตถุ Star"
+
+#. VFT89
+#: include/svtools/strings.hrc:45
+msgctxt "STR_FORMAT_ID_APPLETOBJECT"
+msgid "Applet object"
+msgstr "วัตถุแอปเพล็ต"
+
+#. Q4uNb
+#: include/svtools/strings.hrc:46
+msgctxt "STR_FORMAT_ID_PLUGIN_OBJECT"
+msgid "Plug-in object"
+msgstr "วัตถุปลั๊กอิน"
+
+#. CnQhX
+#: include/svtools/strings.hrc:47
+msgctxt "STR_FORMAT_ID_STARWRITER_30"
+msgid "StarWriter 3.0 object"
+msgstr "วัตถุ StarWriter 3.0"
+
+#. NWNxG
+#: include/svtools/strings.hrc:48
+msgctxt "STR_FORMAT_ID_STARWRITER_40"
+msgid "StarWriter 4.0 object"
+msgstr "วัตถุ StarWriter 4.0"
+
+#. XvDZr
+#: include/svtools/strings.hrc:49
+msgctxt "STR_FORMAT_ID_STARWRITER_50"
+msgid "StarWriter 5.0 object"
+msgstr "วัตถุ StarWriter 5.0"
+
+#. hFHVx
+#: include/svtools/strings.hrc:50
+msgctxt "STR_FORMAT_ID_STARWRITERWEB_40"
+msgid "StarWriter/Web 4.0 object"
+msgstr "วัตถุ StarWriter/Web 4.0"
+
+#. DpFQA
+#: include/svtools/strings.hrc:51
+msgctxt "STR_FORMAT_ID_STARWRITERWEB_50"
+msgid "StarWriter/Web 5.0 object"
+msgstr "วัตถุ StarWriter/Web 5.0"
+
+#. Ctecy
+#: include/svtools/strings.hrc:52
+msgctxt "STR_FORMAT_ID_STARWRITERGLOB_40"
+msgid "StarWriter/Master 4.0 object"
+msgstr "วัตถุ StarWriter/Master 4.0"
+
+#. WoEVQ
+#: include/svtools/strings.hrc:53
+msgctxt "STR_FORMAT_ID_STARWRITERGLOB_50"
+msgid "StarWriter/Master 5.0 object"
+msgstr "วัตถุ StarWriter/Master 5.0"
+
+#. oGSK9
+#: include/svtools/strings.hrc:54
+msgctxt "STR_FORMAT_ID_STARDRAW"
+msgid "StarDraw object"
+msgstr "วัตถุ StarDraw"
+
+#. 9xsgg
+#: include/svtools/strings.hrc:55
+msgctxt "STR_FORMAT_ID_STARDRAW_40"
+msgid "StarDraw 4.0 object"
+msgstr "วัตถุ StarDraw 4.0"
+
+#. r5rso
+#: include/svtools/strings.hrc:56
+msgctxt "STR_FORMAT_ID_STARIMPRESS_50"
+msgid "StarImpress 5.0 object"
+msgstr "วัตถุ StarImpress 5.0"
+
+#. GTKnp
+#: include/svtools/strings.hrc:57
+msgctxt "STR_FORMAT_ID_STARDRAW_50"
+msgid "StarDraw 5.0 object"
+msgstr "วัตถุ StarDraw 5.0"
+
+#. kKApU
+#: include/svtools/strings.hrc:58
+msgctxt "STR_FORMAT_ID_STARCALC"
+msgid "StarCalc object"
+msgstr "วัตถุ StarCalc"
+
+#. jSTor
+#: include/svtools/strings.hrc:59
+msgctxt "STR_FORMAT_ID_STARCALC_40"
+msgid "StarCalc  4.0 object"
+msgstr "วัตถุ StarCalc  4.0"
+
+#. zzGDB
+#: include/svtools/strings.hrc:60
+msgctxt "STR_FORMAT_ID_STARCALC_50"
+msgid "StarCalc 5.0 object"
+msgstr "วัตถุ StarCalc 5.0"
+
+#. YVTqL
+#: include/svtools/strings.hrc:61
+msgctxt "STR_FORMAT_ID_STARCHART"
+msgid "StarChart object"
+msgstr "วัตถุ StarChart"
+
+#. C9uqt
+#: include/svtools/strings.hrc:62
+msgctxt "STR_FORMAT_ID_STARCHART_40"
+msgid "StarChart 4.0 object"
+msgstr "วัตถุ StarChart 4.0"
+
+#. TG4Mg
+#: include/svtools/strings.hrc:63
+msgctxt "STR_FORMAT_ID_STARCHART_50"
+msgid "StarChart 5.0 object"
+msgstr "วัตถุ StarChart 5.0"
+
+#. ULov2
+#: include/svtools/strings.hrc:64
+msgctxt "STR_FORMAT_ID_STARIMAGE"
+msgid "StarImage object"
+msgstr "วัตถุ StarImage"
+
+#. Wzc3p
+#: include/svtools/strings.hrc:65
+msgctxt "STR_FORMAT_ID_STARIMAGE_40"
+msgid "StarImage 4.0 object"
+msgstr "วัตถุ StarImage 4.0"
+
+#. F8CgU
+#: include/svtools/strings.hrc:66
+msgctxt "STR_FORMAT_ID_STARIMAGE_50"
+msgid "StarImage 5.0 object"
+msgstr "วัตถุ StarImage 5.0"
+
+#. 3iFHh
+#: include/svtools/strings.hrc:67
+msgctxt "STR_FORMAT_ID_STARMATH"
+msgid "StarMath object"
+msgstr "วัตถุ StarMath"
+
+#. AAzLM
+#: include/svtools/strings.hrc:68
+msgctxt "STR_FORMAT_ID_STARMATH_40"
+msgid "StarMath 4.0 object"
+msgstr "วัตถุ StarMath 4.0"
+
+#. FGSz4
+#: include/svtools/strings.hrc:69
+msgctxt "STR_FORMAT_ID_STARMATH_50"
+msgid "StarMath 5.0 object"
+msgstr "วัตถุ StarMath 5.0"
+
+#. eyCtG
+#: include/svtools/strings.hrc:70
+msgctxt "STR_FORMAT_ID_STAROBJECT_PAINTDOC"
+msgid "StarObject Paint object"
+msgstr "วัตถุ Paint ของ StarObject"
+
+#. JUZwD
+#: include/svtools/strings.hrc:71
+msgctxt "STR_FORMAT_ID_HTML"
+msgid "HyperText Markup Language (HTML)"
+msgstr "HyperText Markup Language (HTML)"
+
+#. DoLZM
+#: include/svtools/strings.hrc:72
+msgctxt "STR_FORMAT_ID_HTML_SIMPLE"
+msgid "Stripped HyperText Markup Language (Simple HTML)"
+msgstr "HyperText Markup Language ทิ้งรายละเอียด (HTML อย่างง่าย)"
+
+#. ZbYiG
+#: include/svtools/strings.hrc:73
+msgctxt "STR_FORMAT_ID_MARKDOWN"
+msgid "Markdown"
+msgstr ""
+
+#. kFsit
+#: include/svtools/strings.hrc:74
+msgctxt "STR_FORMAT_ID_BIFF_5"
+msgid "Microsoft Excel Binary Interchange Format 5.0/95 (Biff5)"
+msgstr "Binary Interchange Format 5.0/95 (Biff5) ของ Microsoft Excel"
+
+#. KozpE
+#: include/svtools/strings.hrc:75
+msgctxt "STR_FORMAT_ID_BIFF_8"
+msgid "Microsoft Excel Binary Interchange Format 97/2000/XP/2003 (Biff8)"
+msgstr "Binary Interchange Format 97/2000/XP/2003 (Biff8) ของ Microsoft Excel"
+
+#. op7FL
+#: include/svtools/strings.hrc:76
+msgctxt "STR_FORMAT_ID_BIFF_12"
+msgid "Microsoft Excel Binary Interchange Format 2007 (Biff12)"
+msgstr ""
+
+#. ujbwC
+#: include/svtools/strings.hrc:77
+msgctxt "STR_FORMAT_ID_SYLK"
+msgid "Sylk"
+msgstr "Sylk"
+
+#. L6Nn5
+#: include/svtools/strings.hrc:78
+msgctxt "STR_FORMAT_ID_LINK"
+msgid "Dynamic Data Exchange (DDE link)"
+msgstr "Dynamic Data Exchange (ลิงก์ DDE)"
+
+#. E6Ays
+#: include/svtools/strings.hrc:79
+msgctxt "STR_FORMAT_ID_DIF"
+msgid "Data Interchange Format (DIF)"
+msgstr "Data Interchange Format (DIF)"
+
+#. XTiAV
+#: include/svtools/strings.hrc:80
+msgctxt "STR_FORMAT_ID_MSWORD_DOC"
+msgid "Microsoft Word object"
+msgstr "วัตถุ Microsoft Word"
+
+#. KCUj8
+#: include/svtools/strings.hrc:81
+msgctxt "STR_FORMAT_ID_STAR_FRAMESET_DOC"
+msgid "StarFrameSet object"
+msgstr "วัตถุ StarFrameSet"
+
+#. iUmYW
+#: include/svtools/strings.hrc:82
+msgctxt "STR_FORMAT_ID_OFFICE_DOC"
+msgid "Office document object"
+msgstr "วัตถุเอกสาร Office"
+
+#. 8NToB
+#: include/svtools/strings.hrc:83
+msgctxt "STR_FORMAT_ID_NOTES_DOCINFO"
+msgid "Notes document info"
+msgstr "บันทึกข้อมูลของเอกสาร"
+
+#. ErG5N
+#: include/svtools/strings.hrc:84
+msgctxt "STR_FORMAT_ID_SFX_DOC"
+msgid "Sfx document"
+msgstr "เอกสาร Sfx"
+
+#. ZpZMn
+#: include/svtools/strings.hrc:85
+msgctxt "STR_FORMAT_ID_STARCHARTDOCUMENT_50"
+msgid "StarChart 5.0 object"
+msgstr "วัตถุ StarChart 5.0"
+
+#. Pm6K6
+#: include/svtools/strings.hrc:86
+msgctxt "STR_FORMAT_ID_GRAPHOBJ"
+msgid "Graphic object"
+msgstr "วัตถุกราฟิก"
+
+#. MFnoA
+#: include/svtools/strings.hrc:87
+msgctxt "STR_FORMAT_ID_STARWRITER_60"
+msgid "OpenOffice.org 1.0 Writer object"
+msgstr "วัตถุ Writer ของ OpenOffice.org 1.0"
+
+#. WuSEB
+#: include/svtools/strings.hrc:88
+msgctxt "STR_FORMAT_ID_STARWRITERWEB_60"
+msgid "OpenOffice.org 1.0 Writer/Web object"
+msgstr "วัตถุ Writer/Web ของ OpenOffice.org 1.0"
+
+#. GZwRa
+#: include/svtools/strings.hrc:89
+msgctxt "STR_FORMAT_ID_STARWRITERGLOB_60"
+msgid "OpenOffice.org 1.0 Writer/Master object"
+msgstr "วัตถุ Writer/Master ของ OpenOffice.org 1.0"
+
+#. iEkCL
+#: include/svtools/strings.hrc:90
+msgctxt "STR_FORMAT_ID_STARDRAW_60"
+msgid "OpenOffice.org 1.0 Draw object"
+msgstr "วัตถุ Draw ของ OpenOffice.org 1.0"
+
+#. nitPp
+#: include/svtools/strings.hrc:91
+msgctxt "STR_FORMAT_ID_STARIMPRESS_60"
+msgid "OpenOffice.org 1.0 Impress object"
+msgstr "วัตถุ Impress ของ OpenOffice.org 1.0"
+
+#. B37DU
+#: include/svtools/strings.hrc:92
+msgctxt "STR_FORMAT_ID_STARCALC_60"
+msgid "OpenOffice.org 1.0 Calc object"
+msgstr "วัตถุ Calc ของ OpenOffice.org 1.0"
+
+#. CHCYo
+#: include/svtools/strings.hrc:93
+msgctxt "STR_FORMAT_ID_STARCHART_60"
+msgid "OpenOffice.org 1.0 Chart object"
+msgstr "วัตถุ Chart ของ OpenOffice.org 1.0"
+
+#. 67SN7
+#: include/svtools/strings.hrc:94
+msgctxt "STR_FORMAT_ID_STARMATH_60"
+msgid "OpenOffice.org 1.0 Math object"
+msgstr "วัตถุ Math ของ OpenOffice.org 1.0"
+
+#. CDeqm
+#: include/svtools/strings.hrc:95
+msgctxt "STR_FORMAT_ID_WMF"
+msgid "Windows metafile"
+msgstr "เมตาไฟล์ของ Windows"
+
+#. AeDJM
+#: include/svtools/strings.hrc:96
+msgctxt "STR_FORMAT_ID_DBACCESS_QUERY"
+msgid "Data source object"
+msgstr "วัตถุแหล่งข้อมูล"
+
+#. AuVFy
+#: include/svtools/strings.hrc:97
+msgctxt "STR_FORMAT_ID_DBACCESS_TABLE"
+msgid "Data source table"
+msgstr "ตารางแหล่งข้อมูล"
+
+#. SGKi5
+#: include/svtools/strings.hrc:98
+msgctxt "STR_FORMAT_ID_DBACCESS_COMMAND"
+msgid "SQL query"
+msgstr "คิวรี SQL"
+
+#. QbFAy
+#: include/svtools/strings.hrc:99
+msgctxt "STR_FORMAT_ID_DIALOG_60"
+msgid "OpenOffice.org 1.0 dialog"
+msgstr "กล่องโต้ตอบ OpenOffice.org 1.0"
+
+#. YGTkw
+#: include/svtools/strings.hrc:100
+msgctxt "STR_FORMAT_ID_FILEGRPDESCRIPTOR"
+msgid "Link"
+msgstr "ลิงก์"
+
+#. zHkC5
+#: include/svtools/strings.hrc:101
+msgctxt "STR_FORMAT_ID_HTML_NO_COMMENT"
+msgid "HTML format without comments"
+msgstr "รูปแบบ HTML แบบไม่มีหมายเหตุ"
+
+#. 2iSXp
+#: include/svtools/strings.hrc:102
+msgctxt "STR_FORMAT_ID_PNG_BITMAP"
+msgid "Portable Network Graphics (PNG)"
+msgstr "Portable Network Graphics (PNG)"
+
+#. wDxCa
+#: include/svtools/strings.hrc:104
+msgctxt "STR_ERROR_OBJNOCREATE"
+msgid "Object % could not be inserted."
+msgstr "ไม่สามารถแทรกวัตถุ % ได้"
+
+#. zz7WG
+#: include/svtools/strings.hrc:105
+msgctxt "STR_ERROR_OBJNOCREATE_FROM_FILE"
+msgid "Object from file % could not be inserted."
+msgstr "ไม่สามารถแทรกวัตถุจากไฟล์ %"
+
+#. KXJx2
+#: include/svtools/strings.hrc:106
+msgctxt "STR_FURTHER_OBJECT"
+msgid "Further objects"
+msgstr "วัตถุอื่นๆ"
+
+#. Aoy8t
+#: include/svtools/strings.hrc:107
+msgctxt "STR_UNKNOWN_SOURCE"
+msgid "Unknown source"
+msgstr "ไม่ทราบแหล่งที่มา"
+
+#. rKnxB
+#: include/svtools/strings.hrc:109
+msgctxt "STR_SVT_BYTES"
+msgid "Bytes"
+msgstr "ไบต์"
+
+#. SDvZD
+#: include/svtools/strings.hrc:110
+msgctxt "STR_SVT_KB"
+msgid "kB"
+msgstr "kB"
+
+#. WpMzR
+#: include/svtools/strings.hrc:111
+msgctxt "STR_SVT_MB"
+msgid "MB"
+msgstr "MB"
+
+#. Gp5qG
+#: include/svtools/strings.hrc:112
+msgctxt "STR_SVT_GB"
+msgid "GB"
+msgstr "GB"
+
+#. YMfcy
+#. * resources for CollatorResource / CollatorResourceData resp.
+#. alphanumeric sorting algorithm
+#: include/svtools/strings.hrc:118
+msgctxt "STR_SVT_COLLATE_ALPHANUMERIC"
+msgid "Alphanumeric"
+msgstr "ลำดับอักษรและตัวเลข"
+
+#. nAUWx
+#. default or normal sorting algorithm
+#: include/svtools/strings.hrc:120
+msgctxt "STR_SVT_COLLATE_NORMAL"
+msgid "Normal"
+msgstr "ปกติ"
+
+#. 67hD2
+#. default or normal sorting algorithm
+#: include/svtools/strings.hrc:122
+msgctxt "STR_SVT_COLLATE_CHARSET"
+msgid "Character set"
+msgstr "ชุดอักขระ"
+
+#. PFVoE
+#. german dictionary word order / sorting
+#: include/svtools/strings.hrc:124
+msgctxt "STR_SVT_COLLATE_DICTIONARY"
+msgid "Dictionary"
+msgstr "พจนานุกรม"
+
+#. 2Qpew
+#. chinese sorting algorithm
+#: include/svtools/strings.hrc:126
+msgctxt "STR_SVT_COLLATE_PINYIN"
+msgid "Pinyin"
+msgstr "พินอิน"
+
+#. v6EtG
+#. chinese sorting algorithm
+#: include/svtools/strings.hrc:128
+msgctxt "STR_SVT_COLLATE_STROKE"
+msgid "Stroke"
+msgstr "จำนวนขีด"
+
+#. jUDEo
+#. chinese sorting algorithm
+#: include/svtools/strings.hrc:130
+msgctxt "STR_SVT_COLLATE_RADICAL"
+msgid "Radical"
+msgstr "รากคำ"
+
+#. BYGau
+#. sorting according to the unicode code point of the character
+#: include/svtools/strings.hrc:132
+msgctxt "STR_SVT_COLLATE_UNICODE"
+msgid "Unicode"
+msgstr "ยูนิโค้ด"
+
+#. GAPyc
+#. chinese sorting algorithm
+#: include/svtools/strings.hrc:134
+msgctxt "STR_SVT_COLLATE_ZHUYIN"
+msgid "Zhuyin"
+msgstr "จู้อิน"
+
+#. onJwb
+#. phone book sorting algorithm. e.g. German
+#: include/svtools/strings.hrc:136
+msgctxt "STR_SVT_COLLATE_PHONEBOOK"
+msgid "Phone book"
+msgstr "สมุดโทรศัพท์"
+
+#. FMEE2
+#: include/svtools/strings.hrc:137
+msgctxt "STR_SVT_COLLATE_PHONETIC_F"
+msgid "Phonetic (alphanumeric first)"
+msgstr "สัทอักษร (ลำดับอักษรและตัวเลขก่อน)"
+
+#. HjF8p
+#: include/svtools/strings.hrc:138
+msgctxt "STR_SVT_COLLATE_PHONETIC_L"
+msgid "Phonetic (alphanumeric last)"
+msgstr "สัทอักษร (ลำดับอักษรและตัวเลขทีหลัง)"
+
+#. hDETe
+#. alphanumeric indexentry algorithm
+#: include/svtools/strings.hrc:140
+msgctxt "STR_SVT_INDEXENTRY_ALPHANUMERIC"
+msgid "Alphanumeric"
+msgstr "ลำดับอักษรและตัวเลข"
+
+#. TBxyw
+#. korean dictionary indexentry algorithm
+#: include/svtools/strings.hrc:142
+msgctxt "STR_SVT_INDEXENTRY_DICTIONARY"
+msgid "Dictionary"
+msgstr "พจนานุกรม"
+
+#. QYpFD
+#. chinese sorting algorithm
+#: include/svtools/strings.hrc:144
+msgctxt "STR_SVT_INDEXENTRY_PINYIN"
+msgid "Pinyin"
+msgstr "พินอิน"
+
+#. NuguW
+#. chinese indexentry algorithm
+#: include/svtools/strings.hrc:146
+msgctxt "STR_SVT_INDEXENTRY_RADICAL"
+msgid "Radical"
+msgstr "รากคำ"
+
+#. VwE4Z
+#. chinese indexentry algorithm
+#: include/svtools/strings.hrc:148
+msgctxt "STR_SVT_INDEXENTRY_STROKE"
+msgid "Stroke"
+msgstr "จำนวนขีด"
+
+#. AaP7M
+#. chinese indexentry algorithm
+#: include/svtools/strings.hrc:150
+msgctxt "STR_SVT_INDEXENTRY_ZHUYIN"
+msgid "Zhuyin"
+msgstr "จู้อิน"
+
+#. 5qyCq
+#: include/svtools/strings.hrc:151
+msgctxt "STR_SVT_INDEXENTRY_PHONETIC_FS"
+msgid "Phonetic (alphanumeric first, grouped by syllables)"
+msgstr "สัทอักษร (ลำดับอักษรและตัวเลขก่อน, จัดกลุ่มตามพยางค์)"
+
+#. XZdA3
+#: include/svtools/strings.hrc:152
+msgctxt "STR_SVT_INDEXENTRY_PHONETIC_FC"
+msgid "Phonetic (alphanumeric first, grouped by consonants)"
+msgstr "สัทอักษร (ลำดับอักษรและตัวเลขก่อน, จัดกลุ่มตามพยัญชนะ)"
+
+#. cYBZQ
+#: include/svtools/strings.hrc:153
+msgctxt "STR_SVT_INDEXENTRY_PHONETIC_LS"
+msgid "Phonetic (alphanumeric last, grouped by syllables)"
+msgstr "สัทอักษร (ลำดับอักษรและตัวเลขทีหลัง, จัดกลุ่มตามพยางค์)"
+
+#. kt3PC
+#: include/svtools/strings.hrc:154
+msgctxt "STR_SVT_INDEXENTRY_PHONETIC_LC"
+msgid "Phonetic (alphanumeric last, grouped by consonants)"
+msgstr "สัทอักษร (ลำดับอักษรและตัวเลขทีหลัง, จัดกลุ่มตามพยัญชนะ)"
+
+#. KBGLa
+#: include/svtools/strings.hrc:156
+msgctxt "STR_SVT_STYLE_LIGHT"
+msgid "Light"
+msgstr "บาง"
+
+#. mZkDz
+#: include/svtools/strings.hrc:157
+msgctxt "STR_SVT_STYLE_LIGHT_ITALIC"
+msgid "Light Italic"
+msgstr "บางเอียง"
+
+#. QBxYq
+#: include/svtools/strings.hrc:158
+msgctxt "STR_SVT_STYLE_NORMAL"
+msgid "Regular"
+msgstr "ปกติ"
+
+#. u5Gop
+#: include/svtools/strings.hrc:159
+msgctxt "STR_SVT_STYLE_NORMAL_ITALIC"
+msgid "Italic"
+msgstr "เอียง"
+
+#. KcNzz
+#: include/svtools/strings.hrc:160
+msgctxt "STR_SVT_STYLE_MEDIUM"
+msgid "Medium"
+msgstr "ปานกลาง"
+
+#. xqQyA
+#: include/svtools/strings.hrc:161
+msgctxt "STR_SVT_STYLE_MEDIUM_ITALIC"
+msgid "Medium Italic"
+msgstr "ปานกลางเอียง"
+
+#. tHu3B
+#: include/svtools/strings.hrc:162
+msgctxt "STR_SVT_STYLE_BOLD"
+msgid "Bold"
+msgstr "หนา"
+
+#. cbXrP
+#: include/svtools/strings.hrc:163
+msgctxt "STR_SVT_STYLE_BOLD_ITALIC"
+msgid "Bold Italic"
+msgstr "หนาเอียง"
+
+#. yHZD2
+#: include/svtools/strings.hrc:164
+msgctxt "STR_SVT_STYLE_BLACK"
+msgid "Black"
+msgstr "ดำ"
+
+#. 4eGUH
+#: include/svtools/strings.hrc:165
+msgctxt "STR_SVT_STYLE_BLACK_ITALIC"
+msgid "Black Italic"
+msgstr "ดำเอียง"
+
+#. zhoAB
+#: include/svtools/strings.hrc:166
+msgctxt "STR_SVT_STYLE_BOOK"
+msgid "Book"
+msgstr "หนังสือ"
+
+#. sqXRb
+#: include/svtools/strings.hrc:167
+msgctxt "STR_SVT_STYLE_BOLD_OBLIQUE"
+msgid "Bold Oblique"
+msgstr "หนาเอน"
+
+#. QUBiF
+#: include/svtools/strings.hrc:168
+msgctxt "STR_SVT_STYLE_CONDENSED"
+msgid "Condensed"
+msgstr "บีบ"
+
+#. LTVdC
+#: include/svtools/strings.hrc:169
+msgctxt "STR_SVT_STYLE_CONDENSED_BOLD"
+msgid "Condensed Bold"
+msgstr "บีบหนา"
+
+#. Guayv
+#: include/svtools/strings.hrc:170
+msgctxt "STR_SVT_STYLE_CONDENSED_BOLD_ITALIC"
+msgid "Condensed Bold Italic"
+msgstr "บีบหนาเอียง"
+
+#. AoubP
+#: include/svtools/strings.hrc:171
+msgctxt "STR_SVT_STYLE_CONDENSED_BOLD_OBLIQUE"
+msgid "Condensed Bold Oblique"
+msgstr "บีบหนาเอน"
+
+#. bpDXQ
+#: include/svtools/strings.hrc:172
+msgctxt "STR_SVT_STYLE_CONDENSED_ITALIC"
+msgid "Condensed Italic"
+msgstr "บีบเอียง"
+
+#. YDMtz
+#: include/svtools/strings.hrc:173
+msgctxt "STR_SVT_STYLE_CONDENSED_OBLIQUE"
+msgid "Condensed Oblique"
+msgstr "บีบเอน"
+
+#. MouF8
+#: include/svtools/strings.hrc:174
+msgctxt "STR_SVT_STYLE_EXTRALIGHT"
+msgid "ExtraLight"
+msgstr "บางพิเศษ"
+
+#. zurf4
+#: include/svtools/strings.hrc:175
+msgctxt "STR_SVT_STYLE_EXTRALIGHT_ITALIC"
+msgid "ExtraLight Italic"
+msgstr "บางพิเศษ เอียง"
+
+#. apfoW
+#: include/svtools/strings.hrc:176
+msgctxt "STR_SVT_STYLE_OBLIQUE"
+msgid "Oblique"
+msgstr "เอน"
+
+#. TJsAw
+#: include/svtools/strings.hrc:177
+msgctxt "STR_SVT_STYLE_SEMIBOLD"
+msgid "Semibold"
+msgstr "กึ่งหนา"
+
+#. LRtri
+#: include/svtools/strings.hrc:178
+msgctxt "STR_SVT_STYLE_SEMIBOLD_ITALIC"
+msgid "Semibold Italic"
+msgstr "กึ่งหนา เอียง"
+
+#. bBXFx
+#: include/svtools/strings.hrc:179
+msgctxt "STR_SVT_FONTMAP_BOTH"
+msgid "The same font will be used on both your printer and your screen."
+msgstr "จะใช้แบบอักษรเดียวกันทั้งกับเครื่องพิมพ์และจอภาพของคุณ"
+
+#. HFBCn
+#: include/svtools/strings.hrc:180
+msgctxt "STR_SVT_FONTMAP_PRINTERONLY"
+msgid "This is a printer font. The screen image may differ."
+msgstr "นี่คือแบบอักษรสำหรับเครื่องพิมพ์ ภาพบนจอภาพอาจต่างออกไป"
+
+#. iceoL
+#: include/svtools/strings.hrc:181
+msgctxt "STR_SVT_FONTMAP_STYLENOTAVAILABLE"
+msgid "This font style will be simulated or the closest matching style will be used."
+msgstr "แบบอักษรสไตล์นี้จะถูกจำลองขึ้นหรือใช้สไตล์ที่ใกล้เคียงที่สุดแทน"
+
+#. hBbuZ
+#: include/svtools/strings.hrc:182
+msgctxt "STR_SVT_FONTMAP_NOTAVAILABLE"
+msgid "This font has not been installed. The closest available font will be used."
+msgstr "แบบอักษรนี้ยังไม่ได้ติดตั้ง จะใช้แบบอักษรที่ใกล้เคียงที่สุดแทน"
+
+#. KCmDe
+#: include/svtools/strings.hrc:184
+msgctxt "STR_TABBAR_PUSHBUTTON_MOVET0HOME"
+msgid "Move To Home"
+msgstr "เลื่อนไปตำแหน่งตั้งต้น"
+
+#. f6NAc
+#: include/svtools/strings.hrc:185
+msgctxt "STR_TABBAR_PUSHBUTTON_MOVELEFT"
+msgid "Move Left"
+msgstr "เลื่อนซ้าย"
+
+#. nrvoV
+#: include/svtools/strings.hrc:186
+msgctxt "STR_TABBAR_PUSHBUTTON_MOVERIGHT"
+msgid "Move Right"
+msgstr "เลื่อนขวา"
+
+#. ZQgUu
+#: include/svtools/strings.hrc:187
+msgctxt "STR_TABBAR_PUSHBUTTON_MOVETOEND"
+msgid "Move To End"
+msgstr "เลื่อนไปท้ายสุด"
+
+#. mZ4Ln
+#: include/svtools/strings.hrc:188
+msgctxt "STR_TABBAR_PUSHBUTTON_ADDTAB"
+msgid "Add"
+msgstr "เพิ่ม"
+
+#. mJtKL
+#: include/svtools/strings.hrc:190
+msgctxt "STR_TABBAR_HINT_MOVETOHOME_SHEETS"
+msgid "Scroll to first sheet"
+msgstr "เลื่อนไปแผ่นงานแรก"
+
+#. Vrt2v
+#: include/svtools/strings.hrc:191
+msgctxt "STR_TABBAR_HINT_MOVELEFT_SHEETS"
+msgid "Scroll to previous sheet"
+msgstr "เลื่อนไปแผ่นงานก่อนหน้า"
+
+#. AFDbv
+#: include/svtools/strings.hrc:192
+msgctxt "STR_TABBAR_HINT_MOVERIGHT_SHEETS"
+msgid "Scroll to next sheet"
+msgstr "เลื่อนไปแผ่นงานถัดไป"
+
+#. eFvNF
+#: include/svtools/strings.hrc:193
+msgctxt "STR_TABBAR_HINT_MOVETOEND_SHEETS"
+msgid "Scroll to last sheet"
+msgstr "เลื่อนไปแผ่นงานสุดท้าย"
+
+#. ynngC
+#: include/svtools/strings.hrc:194
+msgctxt "STR_TABBAR_HINT_ADDTAB_SHEETS"
+msgid "Add new sheet (right click to see all non-hidden sheets)"
+msgstr "เพิ่มแผ่นงานใหม่ (คลิกขวาเพื่อดูแผ่นงานทั้งหมดที่ไม่ได้ซ่อนไว้)"
+
+#. 4K4AF
+#: include/svtools/strings.hrc:196
+msgctxt "STR_SVT_ACC_RULER_HORZ_NAME"
+msgid "Horizontal Ruler"
+msgstr "ไม้บรรทัดแนวนอน"
+
+#. PG9qt
+#: include/svtools/strings.hrc:197
+msgctxt "STR_SVT_ACC_RULER_VERT_NAME"
+msgid "Vertical Ruler"
+msgstr "ไม้บรรทัดแนวตั้ง"
+
+#. RJDiQ
+#: include/svtools/strings.hrc:199
+msgctxt "STR_SVT_1BIT_THRESHOLD"
+msgid "1-bit threshold"
+msgstr "ขั้นสี 1 บิต"
+
+#. D5EAR
+#: include/svtools/strings.hrc:200
+msgctxt "STR_SVT_8BIT_GRAYSCALE"
+msgid "8-bit grayscale"
+msgstr "ระดับสีเทา 8 บิต"
+
+#. HFbrr
+#: include/svtools/strings.hrc:201
+msgctxt "STR_SVT_8BIT_COLOR_PALETTE"
+msgid "8-bit color"
+msgstr "สี 8 บิต"
+
+#. Rh5LR
+#: include/svtools/strings.hrc:202
+msgctxt "STR_SVT_24BIT_TRUE_COLOR"
+msgid "24-bit true color"
+msgstr "สีแท้ 24 บิต"
+
+#. LHA5t
+#: include/svtools/strings.hrc:203
+msgctxt "STR_SVT_ESTIMATED_SIZE_PIX_1"
+msgid "The image needs about %1 kB of memory."
+msgstr "รูปภาพนี้ต้องการหน่วยความจำประมาณ %1 kB"
+
+#. bVGRC
+#: include/svtools/strings.hrc:204
+msgctxt "STR_SVT_ESTIMATED_SIZE_PIX_2"
+msgid "The image needs about %1 kB of memory; the file size is %2 kB."
+msgstr "รูปภาพนี้ต้องการหน่วยความจำประมาณ %1 kB; ขนาดไฟล์คือ %2 kB"
+
+#. dAVBR
+#: include/svtools/strings.hrc:205
+msgctxt "STR_SVT_ESTIMATED_SIZE_VEC"
+msgid "The file size is %1 kB."
+msgstr "ขนาดไฟล์คือ %1 kB"
+
+#. TaCaF
+#: include/svtools/strings.hrc:206
+msgctxt "STR_SVT_HOST"
+msgid "host"
+msgstr "โฮสต์"
+
+#. ERaxD
+#: include/svtools/strings.hrc:207
+msgctxt "STR_SVT_PORT"
+msgid "port"
+msgstr "พอร์ต"
+
+#. W88Be
+#: include/svtools/strings.hrc:208
+msgctxt "STR_SVT_OTHER_CMIS"
+msgid "Other CMIS"
+msgstr "CMIS อื่น"
+
+#. E9JF5
+#: include/svtools/strings.hrc:209
+msgctxt "STR_SVT_PRNDLG_READY"
+msgid "Ready"
+msgstr "พร้อม"
+
+#. 6zER8
+#: include/svtools/strings.hrc:210
+msgctxt "STR_SVT_PRNDLG_PAUSED"
+msgid "Paused"
+msgstr "หยุดชั่วคราว"
+
+#. nqqYs
+#: include/svtools/strings.hrc:211
+msgctxt "STR_SVT_PRNDLG_PENDING"
+msgid "Pending deletion"
+msgstr "รอลบ"
+
+#. CGn9R
+#: include/svtools/strings.hrc:212
+msgctxt "STR_SVT_PRNDLG_BUSY"
+msgid "Busy"
+msgstr "ไม่ว่าง"
+
+#. nyGEq
+#: include/svtools/strings.hrc:213
+msgctxt "STR_SVT_PRNDLG_INITIALIZING"
+msgid "Initializing"
+msgstr "กำลังตั้งค่าเริ่มต้น"
+
+#. hduW4
+#: include/svtools/strings.hrc:214
+msgctxt "STR_SVT_PRNDLG_WAITING"
+msgid "Waiting"
+msgstr "กำลังรอ"
+
+#. FYGFz
+#: include/svtools/strings.hrc:215
+msgctxt "STR_SVT_PRNDLG_WARMING_UP"
+msgid "Warming up"
+msgstr "กำลังอุ่นเครื่อง"
+
+#. qntFR
+#: include/svtools/strings.hrc:216
+msgctxt "STR_SVT_PRNDLG_PROCESSING"
+msgid "Processing"
+msgstr "กำลังประมวลผล"
+
+#. tUmmx
+#: include/svtools/strings.hrc:217
+msgctxt "STR_SVT_PRNDLG_PRINTING"
+msgid "Printing"
+msgstr "กำลังพิมพ์"
+
+#. BMWJx
+#: include/svtools/strings.hrc:218
+msgctxt "STR_SVT_PRNDLG_OFFLINE"
+msgid "Offline"
+msgstr "ตัดการเชื่อมต่อ"
+
+#. drDMK
+#: include/svtools/strings.hrc:219
+msgctxt "STR_SVT_PRNDLG_ERROR"
+msgid "Error"
+msgstr "ผิดพลาด"
+
+#. FnMTQ
+#: include/svtools/strings.hrc:220
+msgctxt "STR_SVT_PRNDLG_SERVER_UNKNOWN"
+msgid "Unknown Server"
+msgstr "ไม่รู้จักเซิร์ฟเวอร์"
+
+#. vuLYa
+#: include/svtools/strings.hrc:221
+msgctxt "STR_SVT_PRNDLG_PAPER_JAM"
+msgid "Paper jam"
+msgstr "กระดาษติด"
+
+#. qG4ZG
+#: include/svtools/strings.hrc:222
+msgctxt "STR_SVT_PRNDLG_PAPER_OUT"
+msgid "Not enough paper"
+msgstr "กระดาษไม่พอ"
+
+#. bB9PC
+#: include/svtools/strings.hrc:223
+msgctxt "STR_SVT_PRNDLG_MANUAL_FEED"
+msgid "Manual feed"
+msgstr "ป้อนกระดาษด้วยมือ"
+
+#. eMZJo
+#: include/svtools/strings.hrc:224
+msgctxt "STR_SVT_PRNDLG_PAPER_PROBLEM"
+msgid "Paper problem"
+msgstr "กระดาษมีปัญหา"
+
+#. RU3Li
+#: include/svtools/strings.hrc:225
+msgctxt "STR_SVT_PRNDLG_IO_ACTIVE"
+msgid "I/O active"
+msgstr "I/O เปิดทำงาน"
+
+#. VEuAd
+#: include/svtools/strings.hrc:226
+msgctxt "STR_SVT_PRNDLG_OUTPUT_BIN_FULL"
+msgid "Output bin full"
+msgstr "ถาดกระดาษออกเต็ม"
+
+#. MinDm
+#: include/svtools/strings.hrc:227
+msgctxt "STR_SVT_PRNDLG_TONER_LOW"
+msgid "Toner low"
+msgstr "หมึกจาง"
+
+#. AjnQj
+#: include/svtools/strings.hrc:228
+msgctxt "STR_SVT_PRNDLG_NO_TONER"
+msgid "No toner"
+msgstr "ไม่มีหมึก"
+
+#. CtvCS
+#: include/svtools/strings.hrc:229
+msgctxt "STR_SVT_PRNDLG_PAGE_PUNT"
+msgid "Delete Page"
+msgstr "ลบหน้า"
+
+#. iGWiT
+#: include/svtools/strings.hrc:230
+msgctxt "STR_SVT_PRNDLG_USER_INTERVENTION"
+msgid "User intervention necessary"
+msgstr "ต้องให้ผู้ใช้ช่วยดู"
+
+#. 7xg4W
+#: include/svtools/strings.hrc:231
+msgctxt "STR_SVT_PRNDLG_OUT_OF_MEMORY"
+msgid "Insufficient memory"
+msgstr "หน่วยความจำไม่เพียงพอ"
+
+#. DcNFt
+#: include/svtools/strings.hrc:232
+msgctxt "STR_SVT_PRNDLG_DOOR_OPEN"
+msgid "Cover open"
+msgstr "ฝาเปิดอยู่"
+
+#. CHiEH
+#: include/svtools/strings.hrc:233
+msgctxt "STR_SVT_PRNDLG_POWER_SAVE"
+msgid "Power save mode"
+msgstr "โหมดประหยัดพลังงาน"
+
+#. bYbeA
+#: include/svtools/strings.hrc:234
+msgctxt "STR_SVT_PRNDLG_DEFPRINTER"
+msgid "Default printer"
+msgstr "เครื่องพิมพ์เริ่มต้น"
+
+#. 9QCL5
+#: include/svtools/strings.hrc:235
+msgctxt "STR_SVT_PRNDLG_JOBCOUNT"
+msgid "%d documents"
+msgstr "เอกสาร %d ฉบับ"
+
+#. yobGc
+#: include/svtools/strings.hrc:237
+msgctxt "STR_NO_FIELD_SELECTION"
+msgid "<none>"
+msgstr "<ไม่มี>"
+
+#. GwjrQ
+#: include/svtools/strings.hrc:238
+msgctxt "STR_FIELD_COMPANY"
+msgid "Organization"
+msgstr ""
+
+#. DdDzQ
+#: include/svtools/strings.hrc:239
+msgctxt "STR_FIELD_DEPARTMENT"
+msgid "Department"
+msgstr "แผนก"
+
+#. LXmyi
+#: include/svtools/strings.hrc:240
+msgctxt "STR_FIELD_FIRSTNAME"
+msgid "First name"
+msgstr "ชื่อ"
+
+#. 2MkxF
+#: include/svtools/strings.hrc:241
+msgctxt "STR_FIELD_LASTNAME"
+msgid "Last name"
+msgstr "นามสกุล"
+
+#. VyyM6
+#: include/svtools/strings.hrc:242
+msgctxt "STR_FIELD_STREET"
+msgid "Street"
+msgstr "ถนน"
+
+#. wUdSC
+#: include/svtools/strings.hrc:243
+msgctxt "STR_FIELD_COUNTRY"
+msgid "Country"
+msgstr "ประเทศ"
+
+#. tAg9k
+#: include/svtools/strings.hrc:244
+msgctxt "STR_FIELD_ZIPCODE"
+msgid "ZIP Code"
+msgstr "รหัสไปรษณีย์"
+
+#. UYGgj
+#: include/svtools/strings.hrc:245
+msgctxt "STR_FIELD_CITY"
+msgid "City"
+msgstr "เมือง"
+
+#. vTYyD
+#: include/svtools/strings.hrc:246
+msgctxt "STR_FIELD_TITLE"
+msgid "Title"
+msgstr "คำนำหน้าชื่อ"
+
+#. E7qqB
+#: include/svtools/strings.hrc:247
+msgctxt "STR_FIELD_POSITION"
+msgid "Position"
+msgstr "ตำแหน่ง"
+
+#. NiFzB
+#: include/svtools/strings.hrc:248
+msgctxt "STR_FIELD_ADDRFORM"
+msgid "Addr. Form"
+msgstr "แบบฟอร์มที่อยู่"
+
+#. CFDX6
+#: include/svtools/strings.hrc:249
+msgctxt "STR_FIELD_INITIALS"
+msgid "Initials"
+msgstr "ชื่อย่อ"
+
+#. 2DADo
+#: include/svtools/strings.hrc:250
+msgctxt "STR_FIELD_SALUTATION"
+msgid "Complimentary close"
+msgstr "คำลงท้ายจดหมาย"
+
+#. 8MWGd
+#: include/svtools/strings.hrc:251
+msgctxt "STR_FIELD_HOMETEL"
+msgid "Tel: Home"
+msgstr "โทร: บ้าน"
+
+#. fX9J4
+#: include/svtools/strings.hrc:252
+msgctxt "STR_FIELD_WORKTEL"
+msgid "Tel: Work"
+msgstr "โทร: ที่ทำงาน"
+
+#. Ss9vd
+#: include/svtools/strings.hrc:253
+msgctxt "STR_FIELD_FAX"
+msgid "Fax"
+msgstr "โทรสาร"
+
+#. MgbsU
+#: include/svtools/strings.hrc:254
+msgctxt "STR_FIELD_EMAIL"
+msgid "Email"
+msgstr "อีเมล"
+
+#. mvZ2v
+#: include/svtools/strings.hrc:255
+msgctxt "STR_FIELD_GENDER"
+msgid "Gender"
+msgstr ""
+
+#. aHNGY
+#: include/svtools/strings.hrc:256
+msgctxt "STR_FIELD_URL"
+msgid "URL"
+msgstr "URL"
+
+#. CGutA
+#: include/svtools/strings.hrc:257
+msgctxt "STR_FIELD_NOTE"
+msgid "Note"
+msgstr "บันทึกย่อ"
+
+#. btBDG
+#: include/svtools/strings.hrc:258
+msgctxt "STR_FIELD_USER1"
+msgid "User 1"
+msgstr "ผู้ใช้ 1"
+
+#. A4nkT
+#: include/svtools/strings.hrc:259
+msgctxt "STR_FIELD_USER2"
+msgid "User 2"
+msgstr "ผู้ใช้ 2"
+
+#. J48Kt
+#: include/svtools/strings.hrc:260
+msgctxt "STR_FIELD_USER3"
+msgid "User 3"
+msgstr "ผู้ใช้ 3"
+
+#. 3BxjF
+#: include/svtools/strings.hrc:261
+msgctxt "STR_FIELD_USER4"
+msgid "User 4"
+msgstr "ผู้ใช้ 4"
+
+#. tBBKp
+#: include/svtools/strings.hrc:262
+msgctxt "STR_FIELD_ID"
+msgid "ID"
+msgstr "รหัสประจำตัว"
+
+#. H3ygA
+#: include/svtools/strings.hrc:263
+msgctxt "STR_FIELD_STATE"
+msgid "State"
+msgstr "รัฐ"
+
+#. xP2AC
+#: include/svtools/strings.hrc:264
+msgctxt "STR_FIELD_OFFICETEL"
+msgid "Tel: Office"
+msgstr "โทร: ที่ทำงาน"
+
+#. P6Vm5
+#: include/svtools/strings.hrc:265
+msgctxt "STR_FIELD_PAGER"
+msgid "Pager"
+msgstr "เพจเจอร์"
+
+#. ayErk
+#: include/svtools/strings.hrc:266
+msgctxt "STR_FIELD_MOBILE"
+msgid "Mobile"
+msgstr "มือถือ"
+
+#. 26wjz
+#: include/svtools/strings.hrc:267
+msgctxt "STR_FIELD_TELOTHER"
+msgid "Tel: Other"
+msgstr "โทร: อื่นๆ"
+
+#. runZ4
+#: include/svtools/strings.hrc:268
+msgctxt "STR_FIELD_CALENDAR"
+msgid "Calendar"
+msgstr "ปฏิทิน"
+
+#. 7niGM
+#: include/svtools/strings.hrc:269
+msgctxt "STR_FIELD_INVITE"
+msgid "Invite"
+msgstr "เชิญ"
+
+#. 3AAP2
+#: include/svtools/strings.hrc:271
+msgctxt "STR_WARNING_ACTIVE_CONTENT_DISABLED"
+msgid "Active content is disabled."
+msgstr "เนื้อหาเชิงรุกถูกปิดใช้งานอยู่"
+
+#. YwZGA
+#: include/svtools/strings.hrc:272
+msgctxt "STR_ERROR_EXTERNAL_LINK_EDIT_DISABLED"
+msgid "It is not possible to edit external links. Active content is disabled in the security settings."
+msgstr "ไม่สามารถแก้ไขลิงก์ภายนอกได้ เนื่องจากเนื้อหาเชิงรุกถูกปิดใช้งานอยู่ในการตั้งค่าความปลอดภัย"
+
+#. Fqcgq
+#: include/svtools/strings.hrc:273
+msgctxt "STR_SVT_DEFAULT_SERVICE_LABEL"
+msgid "$user$'s $service$"
+msgstr "$service$ ของ $user$"
+
+#. CgGG3
+#: include/svtools/strings.hrc:275
+msgctxt "STR_WARNING_JAVANOTFOUND"
+msgid "%PRODUCTNAME requires a Java runtime environment (JRE) to perform this task. Please install a JRE and restart %PRODUCTNAME. %FAQLINK"
+msgstr "%PRODUCTNAME ต้องใช้ Java Runtime Environment (JRE) ในการทำงานนี้ กรุณาติดตั้ง JRE แล้วเปิดทำงาน %PRODUCTNAME ใหม่ %FAQLINK"
+
+#. SBgjA
+#: include/svtools/strings.hrc:276
+msgctxt "STR_WARNING_JAVANOTFOUND_WIN"
+msgid "%PRODUCTNAME requires a %BITNESS-bit Java runtime environment (JRE) to perform this task. Please install a JRE and restart %PRODUCTNAME. %FAQLINK"
+msgstr "%PRODUCTNAME ต้องใช้ Java Runtime Environment (JRE) แบบ %BITNESS บิตในการทำงานนี้ กรุณาติดตั้ง JRE แล้วเปิดทำงาน %PRODUCTNAME ใหม่ %FAQLINK"
+
+#. FY49S
+#: include/svtools/strings.hrc:277
+msgctxt "STR_WARNING_JAVANOTFOUND_MAC"
+msgid "%PRODUCTNAME requires Oracle's Java Development Kit (JDK) on macOS 10.10 or greater to perform this task. Please install them and restart %PRODUCTNAME. %FAQLINK"
+msgstr "%PRODUCTNAME ต้องใช้ Java Development Kit (JDK) ของออราเคิลบน macOS 10.10 ขึ้นไปในการทำงานนี้ กรุณาติดตั้ง JDK ดังกล่าวแล้วเปิดทำงาน %PRODUCTNAME ใหม่ %FAQLINK"
+
+#. 76BEm
+#: include/svtools/strings.hrc:278
+msgctxt "STR_WARNING_INVALIDJAVASETTINGS_MAC"
+msgid "The %PRODUCTNAME configuration has been changed. Under %PRODUCTNAME - Preferences - %PRODUCTNAME - Advanced, select the Java runtime environment you want to have used by %PRODUCTNAME."
+msgstr "การกำหนดค่า %PRODUCTNAME มีการเปลี่ยนแปลง โปรดไปที่เมนู %PRODUCTNAME - ค่าปรับแต่ง - %PRODUCTNAME - ขั้นสูง แล้วเลือก Java Runtime Environment ที่ต้องการใช้กับ %PRODUCTNAME"
+
+#. BZvFF
+#: include/svtools/strings.hrc:279
+msgctxt "STR_WARNING_INVALIDJAVASETTINGS"
+msgid "The %PRODUCTNAME configuration has been changed. Under Tools - Options - %PRODUCTNAME - Advanced, select the Java runtime environment you want to have used by %PRODUCTNAME."
+msgstr "การตั้งค่า %PRODUCTNAME มีการเปลี่ยนแปลง โปรดไปที่เมนู เครื่องมือ - ตัวเลือก - %PRODUCTNAME - ขั้นสูง แล้วเลือก Java Runtime Environment ที่ต้องการใช้กับ %PRODUCTNAME"
+
+#. Tunzz
+#: include/svtools/strings.hrc:280
+msgctxt "STR_ERROR_JVMCREATIONFAILED_MAC"
+msgid "%PRODUCTNAME requires a Java runtime environment (JRE) to perform this task. The selected JRE is defective. Please select another version or install a new JRE and select it under %PRODUCTNAME - Preferences - %PRODUCTNAME - Advanced."
+msgstr "%PRODUCTNAME ต้องใช้ Java Runtime Environment (JRE) เพื่อทำงานนี้ แต่ JRE ที่เลือกนั้นมีข้อบกพร่อง โปรดเลือกรุ่นอื่น หรือติดตั้ง JRE ตัวใหม่แล้วเลือกมาใช้ในเมนู %PRODUCTNAME - ค่าปรับแต่ง - %PRODUCTNAME - ขั้นสูง"
+
+#. rKxCS
+#: include/svtools/strings.hrc:281
+msgctxt "STR_ERROR_JVMCREATIONFAILED"
+msgid "%PRODUCTNAME requires a Java runtime environment (JRE) to perform this task. The selected JRE is defective. Please select another version or install a new JRE and select it under Tools - Options - %PRODUCTNAME - Advanced."
+msgstr "%PRODUCTNAME ต้องใช้ Java Runtime Environment (JRE) เพื่อทำงานนี้ แต่ JRE ที่เลือกนั้นมีข้อบกพร่อง โปรดเลือกรุ่นอื่น หรือติดตั้ง JRE ตัวใหม่แล้วเลือกมาใช้ในเมนู เครื่องมือ - ตัวเลือก - %PRODUCTNAME - ขั้นสูง"
+
+#. QPEUX
+#: include/svtools/strings.hrc:282
+msgctxt "STR_WARNING_JAVANOTFOUND_TITLE"
+msgid "JRE Required"
+msgstr "จำเป็นต้องใช้ JRE"
+
+#. XD3FG
+#: include/svtools/strings.hrc:283
+msgctxt "STR_WARNING_INVALIDJAVASETTINGS_TITLE"
+msgid "Select JRE"
+msgstr "เลือก JRE"
+
+#. WETqJ
+#: include/svtools/strings.hrc:284
+msgctxt "STR_ERROR_JVMCREATIONFAILED_TITLE"
+msgid "JRE is Defective"
+msgstr "JRE มีข้อบกพร่อง"
+
+#. gQRop
+#: include/svtools/strings.hrc:286
+msgctxt "STR_ACC_COLUMN_NUM"
+msgid "Column %COLUMNNUMBER"
+msgstr ""
+
+#. DTiAd
+#: include/svtools/strings.hrc:287
+msgctxt "STR_ACC_ROW_NUM"
+msgid "Row %ROWNUMBER"
+msgstr ""
+
+#. BAnmG
+#. accessibility descriptions that use %PRODUCTNAME, we set these explicitly because querying a11y descs
+#. in order to change %PRODUCTNAME at runtime is expensive, so limit doing that as much as possible.
+#: include/svtools/strings.hrc:291
+msgctxt "printersetupdialog|extended_tip|options"
+msgid "Opens the Printer Options dialog where you can override the global printer options set on the Tools - Options - %PRODUCTNAME Writer/Web - Print panel for the current document."
+msgstr "เปิดกล่องโต้ตอบ “ตัวเลือกสำหรับเครื่องพิมพ์” ซึ่งคุณสามารถใช้ตั้งค่าทับตัวเลือกต่างๆ ที่กำหนดไว้ในแผง เครื่องมือ - ตัวเลือก - %PRODUCTNAME Writer/Web - พิมพ์ เพื่อใช้กับเอกสารปัจจุบัน"
+
+#. q7s6f
+#: include/svtools/strings.hrc:293
+msgctxt "STR_DESCRIPTION_SOURCEFILE"
+msgid "Source code"
+msgstr "ซอร์สโค้ด"
+
+#. PZmAB
+#: include/svtools/strings.hrc:294
+msgctxt "STR_DESCRIPTION_BOOKMARKFILE"
+msgid "Bookmark file"
+msgstr "ไฟล์ที่คั่นหน้า"
+
+#. eNRzD
+#: include/svtools/strings.hrc:295
+msgctxt "STR_DESCRIPTION_GRAPHIC_DOC"
+msgid "Graphics"
+msgstr "ภาพกราฟิก"
+
+#. Enc4X
+#: include/svtools/strings.hrc:296
+msgctxt "STR_DESCRIPTION_CFGFILE"
+msgid "Configuration file"
+msgstr "ไฟล์กำหนดค่า"
+
+#. sP5AK
+#: include/svtools/strings.hrc:297
+msgctxt "STR_DESCRIPTION_APPLICATION"
+msgid "Application"
+msgstr "แอปพลิเคชัน"
+
+#. jAA7S
+#: include/svtools/strings.hrc:298
+msgctxt "STR_DESCRIPTION_DATABASE_TABLE"
+msgid "Database table"
+msgstr "ตารางฐานข้อมูล"
+
+#. CEhUy
+#: include/svtools/strings.hrc:299
+msgctxt "STR_DESCRIPTION_SYSFILE"
+msgid "System file"
+msgstr "ไฟล์ระบบ"
+
+#. E2Kzj
+#: include/svtools/strings.hrc:300
+msgctxt "STR_DESCRIPTION_WORD_DOC"
+msgid "MS Word document"
+msgstr "เอกสาร MS Word"
+
+#. BU7Pw
+#: include/svtools/strings.hrc:301
+msgctxt "STR_DESCRIPTION_HELP_DOC"
+msgid "Help file"
+msgstr "ไฟล์วิธีใช้"
+
+#. kBbwy
+#: include/svtools/strings.hrc:302
+msgctxt "STR_DESCRIPTION_HTMLFILE"
+msgid "HTML document"
+msgstr "เอกสาร HTML"
+
+#. 6W6tY
+#: include/svtools/strings.hrc:303
+msgctxt "STR_DESCRIPTION_ARCHIVFILE"
+msgid "Archive file"
+msgstr "ไฟล์จัดเก็บ"
+
+#. c9WiE
+#: include/svtools/strings.hrc:304
+msgctxt "STR_DESCRIPTION_LOGFILE"
+msgid "Log file"
+msgstr "ไฟล์ปูมบันทึก"
+
+#. gBQzN
+#: include/svtools/strings.hrc:305
+msgctxt "STR_DESCRIPTION_SDATABASE_DOC"
+msgid "StarOffice Database"
+msgstr "ฐานข้อมูล StarOffice"
+
+#. J4Pki
+#: include/svtools/strings.hrc:306
+msgctxt "STR_DESCRIPTION_GLOBALDOC"
+msgid "StarWriter 4.0 / 5.0 Master Document"
+msgstr "เอกสารเค้าโครงหลัก StarWriter 4.0 / 5.0"
+
+#. 33Dez
+#: include/svtools/strings.hrc:307
+msgctxt "STR_DESCRIPTION_SIMAGE_DOC"
+msgid "StarOffice Image"
+msgstr "รูปภาพของ StarOffice"
+
+#. pcLE6
+#: include/svtools/strings.hrc:308
+msgctxt "STR_DESCRIPTION_TEXTFILE"
+msgid "Text file"
+msgstr "ไฟล์ข้อความ"
+
+#. 7bMJT
+#: include/svtools/strings.hrc:309
+msgctxt "STR_DESCRIPTION_LINK"
+msgid "Link"
+msgstr "ลิงก์"
+
+#. hDFtd
+#: include/svtools/strings.hrc:310
+msgctxt "STR_DESCRIPTION_SOFFICE_TEMPLATE_DOC"
+msgid "StarOffice 3.0 - 5.0 Template"
+msgstr "แม่แบบ StarOffice 3.0 - 5.0"
+
+#. Xcec2
+#: include/svtools/strings.hrc:311
+msgctxt "STR_DESCRIPTION_EXCEL_DOC"
+msgid "MS Excel document"
+msgstr "เอกสาร MS Excel"
+
+#. FWiWT
+#: include/svtools/strings.hrc:312
+msgctxt "STR_DESCRIPTION_EXCEL_TEMPLATE_DOC"
+msgid "MS Excel template"
+msgstr "แม่แบบ MS Excel"
+
+#. WBsxH
+#: include/svtools/strings.hrc:313
+msgctxt "STR_DESCRIPTION_BATCHFILE"
+msgid "Batch file"
+msgstr "ไฟล์แบตช์"
+
+#. SPQtV
+#: include/svtools/strings.hrc:314
+msgctxt "STR_DESCRIPTION_FILE"
+msgid "File"
+msgstr "ไฟล์"
+
+#. Vh78a
+#: include/svtools/strings.hrc:315
+msgctxt "STR_DESCRIPTION_FOLDER"
+msgid "Folder"
+msgstr "โฟลเดอร์"
+
+#. ZK69j
+#: include/svtools/strings.hrc:316
+msgctxt "STR_DESCRIPTION_FACTORY_WRITER"
+msgid "Text Document"
+msgstr "เอกสารข้อความ"
+
+#. p2aL6
+#: include/svtools/strings.hrc:317
+msgctxt "STR_DESCRIPTION_FACTORY_CALC"
+msgid "Spreadsheet"
+msgstr "ตารางคำนวณ"
+
+#. SCtHH
+#: include/svtools/strings.hrc:318
+msgctxt "STR_DESCRIPTION_FACTORY_IMPRESS"
+msgid "Presentation"
+msgstr "งานนำเสนอ"
+
+#. 5gtdF
+#: include/svtools/strings.hrc:319
+msgctxt "STR_DESCRIPTION_FACTORY_DRAW"
+msgid "Drawing"
+msgstr "งานวาด"
+
+#. suagX
+#: include/svtools/strings.hrc:320
+msgctxt "STR_DESCRIPTION_FACTORY_WRITERWEB"
+msgid "HTML document"
+msgstr "เอกสาร HTML"
+
+#. iLqe2
+#: include/svtools/strings.hrc:321
+msgctxt "STR_DESCRIPTION_FACTORY_GLOBALDOC"
+msgid "Master document"
+msgstr "เอกสารเค้าโครงหลัก"
+
+#. FF4fa
+#: include/svtools/strings.hrc:322
+msgctxt "STR_DESCRIPTION_FACTORY_MATH"
+msgid "Formula"
+msgstr "สูตร"
+
+#. t58zy
+#: include/svtools/strings.hrc:323
+msgctxt "STR_DESCRIPTION_FACTORY_DATABASE"
+msgid "Database"
+msgstr "ฐานข้อมูล"
+
+#. DiNGB
+#: include/svtools/strings.hrc:324
+msgctxt "STR_DESCRIPTION_CALC_TEMPLATE"
+msgid "OpenOffice.org 1.0 Spreadsheet Template"
+msgstr "แม่แบบตารางคำนวน OpenOffice.org 1.0"
+
+#. FYKGV
+#: include/svtools/strings.hrc:325
+msgctxt "STR_DESCRIPTION_DRAW_TEMPLATE"
+msgid "OpenOffice.org 1.0 Drawing Template"
+msgstr "แม่แบบภาพวาด OpenOffice.org 1.0"
+
+#. CTUQg
+#: include/svtools/strings.hrc:326
+msgctxt "STR_DESCRIPTION_IMPRESS_TEMPLATE"
+msgid "OpenOffice.org 1.0 Presentation Template"
+msgstr "แม่แบบงานนำเสนอ OpenOffice.org 1.0"
+
+#. Cbvtx
+#: include/svtools/strings.hrc:327
+msgctxt "STR_DESCRIPTION_WRITER_TEMPLATE"
+msgid "OpenOffice.org 1.0 Text Document Template"
+msgstr "แม่แบบเอกสารข้อความ OpenOffice.org 1.0"
+
+#. FBCWx
+#: include/svtools/strings.hrc:328
+msgctxt "STR_DESCRIPTION_LOCALE_VOLUME"
+msgid "Local drive"
+msgstr "ไดรฟ์ในเครื่อง"
+
+#. MEF3h
+#: include/svtools/strings.hrc:329
+msgctxt "STR_DESCRIPTION_FLOPPY_VOLUME"
+msgid "Disk drive"
+msgstr "ดิสก์ไดรฟ์"
+
+#. 55Dof
+#: include/svtools/strings.hrc:330
+msgctxt "STR_DESCRIPTION_CDROM_VOLUME"
+msgid "CD-ROM drive"
+msgstr "ไดรฟ์ซีดีรอม"
+
+#. 82Acc
+#: include/svtools/strings.hrc:331
+msgctxt "STR_DESCRIPTION_REMOTE_VOLUME"
+msgid "Network connection"
+msgstr "การเชื่อมต่อเครือข่าย"
+
+#. 3CBfJ
+#: include/svtools/strings.hrc:332
+msgctxt "STR_DESCRIPTION_POWERPOINT"
+msgid "MS PowerPoint Document"
+msgstr "เอกสาร MS PowerPoint"
+
+#. DS7CP
+#: include/svtools/strings.hrc:333
+msgctxt "STR_DESCRIPTION_POWERPOINT_TEMPLATE"
+msgid "MS PowerPoint Template"
+msgstr "แม่แบบ MS PowerPoint"
+
+#. syag8
+#: include/svtools/strings.hrc:334
+msgctxt "STR_DESCRIPTION_POWERPOINT_SHOW"
+msgid "MS PowerPoint Show"
+msgstr "การแสดง MS PowerPoint"
+
+#. fHGcD
+#: include/svtools/strings.hrc:335
+msgctxt "STR_DESCRIPTION_SXMATH_DOC"
+msgid "OpenOffice.org 1.0 Formula"
+msgstr "สูตร OpenOffice.org 1.0"
+
+#. CFw78
+#: include/svtools/strings.hrc:336
+msgctxt "STR_DESCRIPTION_SXCHART_DOC"
+msgid "OpenOffice.org 1.0 Chart"
+msgstr "แผนภูมิ OpenOffice.org 1.0"
+
+#. tJhDC
+#: include/svtools/strings.hrc:337
+msgctxt "STR_DESCRIPTION_SXDRAW_DOC"
+msgid "OpenOffice.org 1.0 Drawing"
+msgstr "งานวาด OpenOffice.org 1.0"
+
+#. f9ZNL
+#: include/svtools/strings.hrc:338
+msgctxt "STR_DESCRIPTION_SXCALC_DOC"
+msgid "OpenOffice.org 1.0 Spreadsheet"
+msgstr "ตารางคำนวน OpenOffice.org 1.0"
+
+#. PCBqi
+#: include/svtools/strings.hrc:339
+msgctxt "STR_DESCRIPTION_SXIMPRESS_DOC"
+msgid "OpenOffice.org 1.0 Presentation"
+msgstr "งานนำเสนอ OpenOffice.org 1.0"
+
+#. Npija
+#: include/svtools/strings.hrc:340
+msgctxt "STR_DESCRIPTION_SXWRITER_DOC"
+msgid "OpenOffice.org 1.0 Text Document"
+msgstr "เอกสารข้อความ OpenOffice.org 1.0"
+
+#. tVnQQ
+#: include/svtools/strings.hrc:341
+msgctxt "STR_DESCRIPTION_SXGLOBAL_DOC"
+msgid "OpenOffice.org 1.0 Master Document"
+msgstr "เอกสารเค้าโครงหลัก OpenOffice.org 1.0"
+
+#. t6krU
+#: include/svtools/strings.hrc:342
+msgctxt "STR_DESCRIPTION_MATHML_DOC"
+msgid "MathML Document"
+msgstr "เอกสาร MathML"
+
+#. gGRGw
+#: include/svtools/strings.hrc:343
+msgctxt "STR_DESCRIPTION_OO_DATABASE_DOC"
+msgid "%PRODUCTNAME Database"
+msgstr "ฐานข้อมูล %PRODUCTNAME"
+
+#. ZFz7o
+#: include/svtools/strings.hrc:344
+msgctxt "STR_DESCRIPTION_OO_DRAW_DOC"
+msgid "%PRODUCTNAME Drawing"
+msgstr "งานวาด %PRODUCTNAME"
+
+#. 9JRAR
+#: include/svtools/strings.hrc:345
+msgctxt "STR_DESCRIPTION_OO_MATH_DOC"
+msgid "%PRODUCTNAME Math Formula"
+msgstr "สูตรคณิตศาสตร์ %PRODUCTNAME"
+
+#. 4F4Uo
+#: include/svtools/strings.hrc:346
+msgctxt "STR_DESCRIPTION_OO_GLOBAL_DOC"
+msgid "%PRODUCTNAME Master Document"
+msgstr "เอกสารเค้าโครงหลัก %PRODUCTNAME"
+
+#. FXCdu
+#: include/svtools/strings.hrc:347
+msgctxt "STR_DESCRIPTION_OO_IMPRESS_DOC"
+msgid "%PRODUCTNAME Impress Presentation"
+msgstr "งานนำเสนอ %PRODUCTNAME Impress"
+
+#. 3ReMe
+#: include/svtools/strings.hrc:348
+msgctxt "STR_DESCRIPTION_OO_CALC_DOC"
+msgid "%PRODUCTNAME Calc Spreadsheet"
+msgstr "ตารางคำนวณ %PRODUCTNAME Calc"
+
+#. pTYGw
+#: include/svtools/strings.hrc:349
+msgctxt "STR_DESCRIPTION_OO_WRITER_DOC"
+msgid "%PRODUCTNAME Writer Document"
+msgstr "เอกสาร %PRODUCTNAME Writer"
+
+#. m2AEw
+#: include/svtools/strings.hrc:350
+msgctxt "STR_DESCRIPTION_OO_CALC_TEMPLATE"
+msgid "%PRODUCTNAME Spreadsheet Template"
+msgstr "แม่แบบตารางคำนวณ %PRODUCTNAME"
+
+#. M65d6
+#: include/svtools/strings.hrc:351
+msgctxt "STR_DESCRIPTION_OO_DRAW_TEMPLATE"
+msgid "%PRODUCTNAME Drawing Template"
+msgstr "แม่แบบงานวาด %PRODUCTNAME"
+
+#. MrK7k
+#: include/svtools/strings.hrc:352
+msgctxt "STR_DESCRIPTION_OO_IMPRESS_TEMPLATE"
+msgid "%PRODUCTNAME Presentation Template"
+msgstr "แม่แบบงานนำเสนอ %PRODUCTNAME"
+
+#. F8icA
+#: include/svtools/strings.hrc:353
+msgctxt "STR_DESCRIPTION_OO_WRITER_TEMPLATE"
+msgid "%PRODUCTNAME Text Template"
+msgstr "แม่แบบเอกสารข้อความ %PRODUCTNAME"
+
+#. RgRyf
+#: include/svtools/strings.hrc:354
+msgctxt "STR_DESCRIPTION_EXTENSION"
+msgid "%PRODUCTNAME Extension"
+msgstr "ส่วนขยาย %PRODUCTNAME"
+
+#. b8JK6
+#: include/svtools/strings.hrc:356
+msgctxt "STR_DESCRIPTION_HUNSPELL"
+msgid "Hunspell SpellChecker"
+msgstr "เครื่องมือตรวจการสะกดคำ Hunspell"
+
+#. do26f
+#: include/svtools/strings.hrc:357
+msgctxt "STR_DESCRIPTION_LIBHYPHEN"
+msgid "Libhyphen Hyphenator"
+msgstr "เครื่องมือแทรกยัติภังค์ Libhyphen"
+
+#. aGFNy
+#: include/svtools/strings.hrc:358
+msgctxt "STR_DESCRIPTION_MYTHES"
+msgid "MyThes Thesaurus"
+msgstr "อรรถาภิธาน MyThes"
+
+#. RwS4n
+#: include/svtools/strings.hrc:359
+msgctxt "STR_DESCRIPTION_IGNOREALLLIST"
+msgid "List of Ignored Words"
+msgstr "รายชื่อของคำที่เพิกเฉย"
+
+#. eAiiA
+#: include/svtools/strings.hrc:360
+msgctxt "STR_DESCRIPTION_LANGUAGETOOL"
+msgid "LanguageTool Remote Grammar Checker"
+msgstr "เครื่องมือตรวจสอบไวยากรณ์ LanguageTool จากเครือข่าย"
+
+#. rzRGv
+#: include/svtools/strings.hrc:361
+msgctxt "STR_DESCRIPTION_SPELLING_ERROR"
+msgid "Spelling error"
+msgstr ""
+
+#. C6CBo
+#: include/svtools/strings.hrc:362
+msgctxt "STR_DESCRIPTION_GRAMMAR_ERROR_LONG"
+msgid "Grammar error"
+msgstr ""
+
+#. LnADJ
+#: include/svtools/strings.hrc:363
+msgctxt "STR_DESCRIPTION_STYLE_ERROR"
+msgid "Bad style"
+msgstr ""
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "เ_พิ่ม"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "เ_ริ่มใช้"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "_ยกเลิก"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "ปิ_ด"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_ลบ"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "แ_ก้ไข"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "_วิธีใช้"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "ให_ม่"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "ไ_ม่"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_ตกลง"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "ตัด_ออก"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "_ล้างค่า"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "ใ_ช่"
+
+#. tBGDJ
+#: svtools/inc/borderline.hrc:18
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "None"
+msgstr "ไม่มี"
+
+#. Xx4Fb
+#: svtools/inc/borderline.hrc:19
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Solid"
+msgstr "ทึบ"
+
+#. Paqxg
+#: svtools/inc/borderline.hrc:20
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Dotted"
+msgstr "จุด"
+
+#. Bucas
+#: svtools/inc/borderline.hrc:21
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Dashed"
+msgstr "เส้นประ"
+
+#. 6XEca
+#: svtools/inc/borderline.hrc:22
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Double"
+msgstr "เส้นคู่"
+
+#. fB75B
+#: svtools/inc/borderline.hrc:23
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Thin Thick, Small Gap"
+msgstr "บาง-หนา ชิดกัน"
+
+#. MwnWC
+#: svtools/inc/borderline.hrc:24
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Thin Thick, Medium Gap"
+msgstr "บาง-หนา ห่างปานกลาง"
+
+#. V2QAy
+#: svtools/inc/borderline.hrc:25
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Thin Thick, Large Gap"
+msgstr "บาง-หนา ห่างมาก"
+
+#. 4pwSe
+#: svtools/inc/borderline.hrc:26
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Thick Thin, Small Gap"
+msgstr "หนา-บาง ชิดกัน"
+
+#. PYjTF
+#: svtools/inc/borderline.hrc:27
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Thick Thin, Medium Gap"
+msgstr "หนา-บาง ห่างปานกลาง"
+
+#. EYXfK
+#: svtools/inc/borderline.hrc:28
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Thick Thin, Large Gap"
+msgstr "หนา-บาง ห่างมาก"
+
+#. 7gh6t
+#: svtools/inc/borderline.hrc:29
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Embossed"
+msgstr "เส้นนูน"
+
+#. WK8Yy
+#: svtools/inc/borderline.hrc:30
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Engraved"
+msgstr "เส้นจารึก"
+
+#. NDS6G
+#: svtools/inc/borderline.hrc:31
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Outset"
+msgstr "แท่นยกขึ้น"
+
+#. 7m7iw
+#: svtools/inc/borderline.hrc:32
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Inset"
+msgstr "หลุมยุบลง"
+
+#. F9rwV
+#: svtools/inc/borderline.hrc:33
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Fine Dashed"
+msgstr "เส้นประละเอียด"
+
+#. GyT7A
+#: svtools/inc/borderline.hrc:34
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Double Thin"
+msgstr "เส้นคู่บาง"
+
+#. FyVvE
+#: svtools/inc/borderline.hrc:35
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Dash Dot"
+msgstr "เส้นประ ขีด-จุด"
+
+#. 7yoVE
+#: svtools/inc/borderline.hrc:36
+msgctxt "RID_SVXSTR_BORDERLINE"
+msgid "Dash Dot Dot"
+msgstr "เส้นประ ขีด-จุด-จุด"
+
+#. kAGSe
+#: svtools/inc/errtxt.hrc:29
+msgctxt "RID_ERRCTX"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+#. 2DGhK
+#: svtools/inc/errtxt.hrc:30
+msgctxt "RID_ERRCTX"
+msgid "Warning"
+msgstr "คำเตือน"
+
+#. K3N24
+#: svtools/inc/errtxt.hrc:31
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) loading the template $(ARG1)"
+msgstr "$(ERR) การโหลดแม่แบบ $(ARG1)"
+
+#. 7rn79
+#: svtools/inc/errtxt.hrc:32 svtools/inc/errtxt.hrc:33
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) saving the document $(ARG1)"
+msgstr "$(ERR) การบันทึกเอกสาร $(ARG1)"
+
+#. KeE9c
+#: svtools/inc/errtxt.hrc:34
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) displaying doc. information for document $(ARG1)"
+msgstr "$(ERR) การแสดงข้อมูลเอกสารของเอกสาร $(ARG1)"
+
+#. 5irLZ
+#: svtools/inc/errtxt.hrc:35
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) writing document $(ARG1) as template"
+msgstr "$(ERR) การเขียนเอกสาร $(ARG1) เป็นแม่แบบ"
+
+#. HRZZ7
+#: svtools/inc/errtxt.hrc:36
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) copying or moving document contents"
+msgstr "$(ERR) การคัดลอกหรือย้ายเนื้อหาเอกสาร"
+
+#. FF5mJ
+#: svtools/inc/errtxt.hrc:37
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) starting the Document Manager"
+msgstr "$(ERR) การเริ่มทำงานตัวจัดการเอกสาร"
+
+#. AD6P7
+#: svtools/inc/errtxt.hrc:38
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) loading document $(ARG1)"
+msgstr "$(ERR) การโหลดเอกสาร $(ARG1)"
+
+#. iqGJT
+#: svtools/inc/errtxt.hrc:39 svtools/inc/errtxt.hrc:40
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) creating a new document"
+msgstr "$(ERR) การสร้างเอกสารใหม่"
+
+#. CAKFw
+#: svtools/inc/errtxt.hrc:41
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) expanding entry"
+msgstr "$(ERR) การขยายรายการ"
+
+#. E9BVp
+#: svtools/inc/errtxt.hrc:42
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) loading BASIC of document $(ARG1)"
+msgstr "$(ERR) การโหลดโปรแกรม BASIC ของเอกสาร $(ARG1)"
+
+#. 7pgmv
+#: svtools/inc/errtxt.hrc:43
+msgctxt "RID_ERRCTX"
+msgid "$(ERR) searching for an address"
+msgstr "$(ERR) การค้นหาที่อยู่"
+
+#. eE8XY
+#: svtools/inc/errtxt.hrc:49
+msgctxt "RID_ERRHDL"
+msgid "Abort"
+msgstr "เลิกทำ"
+
+#. cmB26
+#: svtools/inc/errtxt.hrc:50
+msgctxt "RID_ERRHDL"
+msgid "Nonexistent object"
+msgstr "ไม่มีวัตถุอยู่"
+
+#. 4srDg
+#: svtools/inc/errtxt.hrc:51
+msgctxt "RID_ERRHDL"
+msgid "Object already exists"
+msgstr "มีวัตถุอยู่แล้ว"
+
+#. tz75u
+#: svtools/inc/errtxt.hrc:52
+msgctxt "RID_ERRHDL"
+msgid "Object not accessible"
+msgstr "ไม่สามารถเข้าถึงวัตถุ"
+
+#. K8jQD
+#: svtools/inc/errtxt.hrc:53
+msgctxt "RID_ERRHDL"
+msgid "Inadmissible path"
+msgstr "พาธที่ยอมรับไม่ได้"
+
+#. ev3fM
+#: svtools/inc/errtxt.hrc:54
+msgctxt "RID_ERRHDL"
+msgid "Locking problem"
+msgstr "ปัญหาการล็อค"
+
+#. ZTK6Z
+#: svtools/inc/errtxt.hrc:55
+msgctxt "RID_ERRHDL"
+msgid "Wrong parameter"
+msgstr "พารามิเตอร์ผิด"
+
+#. y3R74
+#: svtools/inc/errtxt.hrc:56
+msgctxt "RID_ERRHDL"
+msgid "Resource exhausted"
+msgstr "ทรัพยากรหมด"
+
+#. UvBGS
+#: svtools/inc/errtxt.hrc:57
+msgctxt "RID_ERRHDL"
+msgid "Action not supported"
+msgstr "ไม่รองรับการกระทำ"
+
+#. m7KBL
+#: svtools/inc/errtxt.hrc:58
+msgctxt "RID_ERRHDL"
+msgid "Read Error"
+msgstr "อ่านผิดพลาด"
+
+#. vA6ip
+#: svtools/inc/errtxt.hrc:59
+msgctxt "RID_ERRHDL"
+msgid "Write Error"
+msgstr "เขียนผิดพลาด"
+
+#. EjqCg
+#: svtools/inc/errtxt.hrc:60
+msgctxt "RID_ERRHDL"
+msgid "unknown"
+msgstr "ไม่รู้จัก"
+
+#. YkCFr
+#: svtools/inc/errtxt.hrc:61
+msgctxt "RID_ERRHDL"
+msgid "Version Incompatibility"
+msgstr "รุ่นไม่เข้ากัน"
+
+#. Qekxo
+#: svtools/inc/errtxt.hrc:62 svtools/inc/errtxt.hrc:73
+msgctxt "RID_ERRHDL"
+msgid "General Error"
+msgstr "ข้อผิดพลาดทั่วไป"
+
+#. iCMkX
+#: svtools/inc/errtxt.hrc:63
+msgctxt "RID_ERRHDL"
+msgid "Incorrect format"
+msgstr "รูปแบบไม่ถูกต้อง"
+
+#. 4C2Re
+#: svtools/inc/errtxt.hrc:64
+msgctxt "RID_ERRHDL"
+msgid "Error creating object"
+msgstr "ผิดพลาดในการสร้างวัตถุ"
+
+#. 97NJ3
+#: svtools/inc/errtxt.hrc:65
+msgctxt "RID_ERRHDL"
+msgid "Inadmissible value or data type"
+msgstr "ค่าหรือชนิดข้อมูลที่ยอมรับไม่ได้"
+
+#. KnGEy
+#: svtools/inc/errtxt.hrc:66
+msgctxt "RID_ERRHDL"
+msgid "BASIC runtime error"
+msgstr "ข้อผิดพลาดขณะทำงานของภาษา BASIC"
+
+#. 48vBG
+#: svtools/inc/errtxt.hrc:67
+msgctxt "RID_ERRHDL"
+msgid "BASIC syntax error"
+msgstr "ไวยากรณ์ภาษา BASIC ผิดพลาด"
+
+#. GLVJG
+#: svtools/inc/errtxt.hrc:74
+msgctxt "RID_ERRHDL"
+msgid "General input/output error."
+msgstr "ข้อผิดพลาดทั่วไปเกี่ยวกับการอ่าน/เขียนข้อมูล"
+
+#. L9a4L
+#: svtools/inc/errtxt.hrc:75
+msgctxt "RID_ERRHDL"
+msgid "Invalid file name."
+msgstr "ชื่อไฟล์ไม่ถูกต้อง"
+
+#. GKKn5
+#: svtools/inc/errtxt.hrc:76
+msgctxt "RID_ERRHDL"
+msgid "Nonexistent file."
+msgstr "ไม่มีไฟล์อยู่"
+
+#. GpnZh
+#: svtools/inc/errtxt.hrc:77
+msgctxt "RID_ERRHDL"
+msgid "File already exists."
+msgstr "มีไฟล์อยู่แล้ว"
+
+#. UjPRZ
+#: svtools/inc/errtxt.hrc:78
+msgctxt "RID_ERRHDL"
+msgid "The object is not a directory."
+msgstr "วัตถุไม่ใช่ไดเรกทอรี"
+
+#. ynXA4
+#: svtools/inc/errtxt.hrc:79
+msgctxt "RID_ERRHDL"
+msgid "The object is not a file."
+msgstr "วัตถุไม่ใช่ไฟล์"
+
+#. BULFP
+#: svtools/inc/errtxt.hrc:80
+msgctxt "RID_ERRHDL"
+msgid "The specified device is invalid."
+msgstr "อุปกรณ์ที่ระบุไม่ถูกต้อง"
+
+#. vCp77
+#: svtools/inc/errtxt.hrc:81
+msgctxt "RID_ERRHDL"
+msgid ""
+"The object cannot be accessed\n"
+"due to insufficient user rights."
+msgstr ""
+"ไม่สามารถเข้าถึงวัตถุได้\n"
+"เนื่องจากสิทธิของผู้ใช้ไม่พอเพียง"
+
+#. Dj3F6
+#: svtools/inc/errtxt.hrc:82
+msgctxt "RID_ERRHDL"
+msgid "Sharing violation while accessing the object."
+msgstr "มีการละเมิดการแชร์ขณะเข้าใช้วัตถุ"
+
+#. tp2ep
+#: svtools/inc/errtxt.hrc:83
+msgctxt "RID_ERRHDL"
+msgid "No more space on device."
+msgstr "ไม่มีที่ว่างเหลือบนอุปกรณ์"
+
+#. 6wqWy
+#: svtools/inc/errtxt.hrc:84
+msgctxt "RID_ERRHDL"
+msgid ""
+"This operation cannot be run on\n"
+"files containing wildcards."
+msgstr ""
+"ไม่สามารถทำปฏิบัติการนี้กับ\n"
+"ไฟล์ที่มี wildcards"
+
+#. rFdWC
+#: svtools/inc/errtxt.hrc:85
+msgctxt "RID_ERRHDL"
+msgid "This operation is not supported on this operating system."
+msgstr "ไม่รองรับปฏิบัติการนี้บนระบบปฏิบัติการนี้"
+
+#. GqPPq
+#: svtools/inc/errtxt.hrc:86
+msgctxt "RID_ERRHDL"
+msgid "There are too many files open."
+msgstr "มีไฟล์ที่เปิดอยู่มากเกินไป"
+
+#. pwhJv
+#: svtools/inc/errtxt.hrc:87
+msgctxt "RID_ERRHDL"
+msgid "Data could not be read from the file."
+msgstr "ไม่สามารถอ่านข้อมูลจากไฟล์ได้"
+
+#. eX22x
+#: svtools/inc/errtxt.hrc:88
+msgctxt "RID_ERRHDL"
+msgid "The file could not be written."
+msgstr "ไม่สามารถเขียนไฟล์ได้"
+
+#. SHZVG
+#: svtools/inc/errtxt.hrc:89
+msgctxt "RID_ERRHDL"
+msgid "The operation could not be run due to insufficient memory."
+msgstr "ไม่สามารถทำปฏิบัติการได้เนื่องจากหน่วยความจำไม่เพียงพอ"
+
+#. QAMnZ
+#: svtools/inc/errtxt.hrc:90
+msgctxt "RID_ERRHDL"
+msgid "The seek operation could not be run."
+msgstr "ไม่สามารถทำปฏิบัติการ seek ได้"
+
+#. yjXfb
+#: svtools/inc/errtxt.hrc:91
+msgctxt "RID_ERRHDL"
+msgid "The tell operation could not be run."
+msgstr "ไม่สามารถทำปฏิบัติการ tell ได้"
+
+#. mxUE6
+#: svtools/inc/errtxt.hrc:92
+msgctxt "RID_ERRHDL"
+msgid "Incorrect file version."
+msgstr "รุ่นของไฟล์ไม่ถูกต้อง"
+
+#. Y77nr
+#: svtools/inc/errtxt.hrc:93
+msgctxt "RID_ERRHDL"
+msgid "Incorrect file format."
+msgstr "รูปแบบของไฟล์ไม่ถูกต้อง"
+
+#. BLBzD
+#: svtools/inc/errtxt.hrc:94
+msgctxt "RID_ERRHDL"
+msgid "The file name contains invalid characters."
+msgstr "ชื่อไฟล์มีอักขระที่ไม่ถูกต้อง"
+
+#. FXGgZ
+#: svtools/inc/errtxt.hrc:95
+msgctxt "RID_ERRHDL"
+msgid "An unknown I/O error has occurred."
+msgstr "เกิดข้อผิดพลาด I/O ที่ไม่ทราบสาเหตุ"
+
+#. 4BfhE
+#: svtools/inc/errtxt.hrc:96
+msgctxt "RID_ERRHDL"
+msgid "An invalid attempt was made to access the file."
+msgstr "มีความพยายามที่ไม่ถูกต้องในการเข้าใช้ไฟล์"
+
+#. Qt2G4
+#: svtools/inc/errtxt.hrc:97
+msgctxt "RID_ERRHDL"
+msgid "The file could not be created."
+msgstr "ไม่สามารถสร้างไฟล์ได้"
+
+#. sDnmC
+#: svtools/inc/errtxt.hrc:98
+msgctxt "RID_ERRHDL"
+msgid "The operation was started under an invalid parameter."
+msgstr "ปฏิบัติการเริ่มทำงานภายใต้พารามิเตอร์ที่ไม่ถูกต้อง"
+
+#. YjRnn
+#: svtools/inc/errtxt.hrc:99
+msgctxt "RID_ERRHDL"
+msgid "The operation on the file was aborted."
+msgstr "ปฏิบัติการกับไฟล์ถูกล้มเลิก"
+
+#. hsKTG
+#: svtools/inc/errtxt.hrc:100
+msgctxt "RID_ERRHDL"
+msgid "Path to the file does not exist."
+msgstr "พาธของไฟล์ไม่มีอยู่"
+
+#. hfw2A
+#: svtools/inc/errtxt.hrc:101
+msgctxt "RID_ERRHDL"
+msgid "An object cannot be copied into itself."
+msgstr "ไม่สามารถคัดลอกวัตถุทับตัวเองได้"
+
+#. YEaEF
+#: svtools/inc/errtxt.hrc:102
+msgctxt "RID_ERRHDL"
+msgid "The specified template could not be found."
+msgstr "หาแม่แบบที่ระบุไม่พบ"
+
+#. TgXUU
+#: svtools/inc/errtxt.hrc:103
+msgctxt "RID_ERRHDL"
+msgid "The file cannot be used as template."
+msgstr "ไฟล์ดังกล่าวไม่สามารถใช้เป็นแม่แบบได้"
+
+#. CBBDi
+#: svtools/inc/errtxt.hrc:104
+msgctxt "RID_ERRHDL"
+msgid "This document has already been opened for editing."
+msgstr "เอกสารนี้ได้ถูกเปิดเพื่อแก้ไขอยู่"
+
+#. NN7hU
+#: svtools/inc/errtxt.hrc:105
+msgctxt "RID_ERRHDL"
+msgid "The wrong password has been entered."
+msgstr "ป้อนรหัสผ่านไม่ถูกต้อง"
+
+#. rXj6M
+#: svtools/inc/errtxt.hrc:106
+msgctxt "RID_ERRHDL"
+msgid "Error reading file."
+msgstr "เกิดข้อผิดพลาดในการอ่านไฟล์"
+
+#. uzLTu
+#: svtools/inc/errtxt.hrc:107
+msgctxt "RID_ERRHDL"
+msgid "Document opened as read-only cannot be saved over itself."
+msgstr "เอกสารที่เปิดแบบอ่านอย่างเดียวไม่สามารถบันทึกทับตัวมันเองได้"
+
+#. kDirB
+#: svtools/inc/errtxt.hrc:108
+msgctxt "RID_ERRHDL"
+msgid "General OLE Error."
+msgstr "ข้อผิดพลาดทั่วไปเกี่ยวกับ OLE"
+
+#. HSqFr
+#: svtools/inc/errtxt.hrc:109
+msgctxt "RID_ERRHDL"
+msgid "The host name $(ARG1) could not be resolved."
+msgstr "ไม่สามารถเปิดหาที่อยู่ของชื่อโฮสต์ $(ARG1) ได้"
+
+#. nrUFF
+#: svtools/inc/errtxt.hrc:110
+msgctxt "RID_ERRHDL"
+msgid "Could not establish Internet connection to $(ARG1)."
+msgstr "ไม่สามารถสร้างการเชื่อมต่ออินเทอร์เน็ตไปยัง $(ARG1) ได้"
+
+#. eNvGa
+#: svtools/inc/errtxt.hrc:111
+msgctxt "RID_ERRHDL"
+msgid ""
+"Client error message:\n"
+"$(ARG2)"
+msgstr ""
+"ข้อความข้อผิดพลาดของลูกข่าย:\n"
+"$(ARG2)"
+
+#. DRTMX
+#: svtools/inc/errtxt.hrc:112
+msgctxt "RID_ERRHDL"
+msgid ""
+"Error reading data from the Internet.\n"
+"Server error message: $(ARG1)."
+msgstr ""
+"เกิดข้อผิดพลาดในการอ่านข้อมูลจากอินเทอร์เน็ต\n"
+"ข้อความข้อผิดพลาดจากเซิร์ฟเวอร์: $(ARG1)"
+
+#. XLR9Z
+#: svtools/inc/errtxt.hrc:113
+msgctxt "RID_ERRHDL"
+msgid ""
+"Error transferring data to the Internet.\n"
+"Server error message: $(ARG1)."
+msgstr ""
+"เกิดข้อผิดพลาดในการถ่ายโอนข้อมูลไปในอินเทอร์เน็ต\n"
+"ข้อความข้อผิดพลาดจากเซิร์ฟเวอร์: $(ARG1)"
+
+#. gdoRd
+#: svtools/inc/errtxt.hrc:114
+msgctxt "RID_ERRHDL"
+msgid "General Internet error has occurred."
+msgstr "เกิดข้อผิดพลาดทั่วไปเกี่ยวกับอินเทอร์เน็ต"
+
+#. Bxx3u
+#: svtools/inc/errtxt.hrc:115
+msgctxt "RID_ERRHDL"
+msgid "The requested Internet data is not available in the cache and cannot be transmitted as the Online mode has not be activated."
+msgstr "ข้อมูลอินเทอร์เน็ตที่ต้องการใช้ไม่มีในแคชและไม่สามารถถ่ายโอนได้ เนื่องจากยังไม่ได้เปิดใช้งานโหมดออนไลน์"
+
+#. PT9qC
+#: svtools/inc/errtxt.hrc:116
+msgctxt "RID_ERRHDL"
+msgid "The contents could not be created."
+msgstr "ไม่สามารถสร้างเนื้อหาได้"
+
+#. 5tpDB
+#: svtools/inc/errtxt.hrc:117
+msgctxt "RID_ERRHDL"
+msgid "The file name is too long for the target file system."
+msgstr "ชื่อไฟล์ยาวเกินไปสำหรับระบบไฟล์เป้าหมาย"
+
+#. MaSoJ
+#: svtools/inc/errtxt.hrc:118
+msgctxt "RID_ERRHDL"
+msgid "The input syntax is invalid."
+msgstr "ไวยากรณ์ของสิ่งที่ป้อนเข้าไม่ถูกต้อง"
+
+#. rxGnF
+#: svtools/inc/errtxt.hrc:119
+msgctxt "RID_ERRHDL"
+msgid ""
+"This document contains attributes that cannot be saved in the selected format.\n"
+"Please save the document in a %PRODUCTNAME %PRODUCTVERSION file format."
+msgstr ""
+"เอกสารนี้มีข้อมูลลักษณะประจำที่ไม่สามารถบันทึกในรูปแบบที่เลือกได้\n"
+"กรุณาบันทึกเอกสารในรูปแบบไฟล์ของ %PRODUCTNAME %PRODUCTVERSION"
+
+#. BCqFD
+#: svtools/inc/errtxt.hrc:120
+msgctxt "RID_ERRHDL"
+msgid "The maximum number of documents that can be opened at the same time has been reached. You need to close one or more documents before you can open a new document."
+msgstr "ได้มีการเปิดเอกสารจนถึงจำนวนสูงสุดของเอกสารที่สามารถเปิดพร้อมกันได้แล้ว คุณจำเป็นต้องปิดเอกสารตั้งแต่หนึ่งฉบับขึ้นไป ก่อนที่จะสามารถเปิดเอกสารใหม่ได้"
+
+#. mfmpc
+#: svtools/inc/errtxt.hrc:121
+msgctxt "RID_ERRHDL"
+msgid "Could not create backup copy."
+msgstr "ไม่สามารถสร้างสำเนาสำรอง"
+
+#. C2kk7
+#: svtools/inc/errtxt.hrc:122
+msgctxt "RID_ERRHDL"
+msgid ""
+"The encrypted document contains unexpected non-encrypted streams.\n"
+"\n"
+"This could be the result of document manipulation.\n"
+"\n"
+"We recommend that you do not trust the content of the current document.\n"
+"Execution of macros is disabled for this document.\n"
+" "
+msgstr ""
+"เอกสารเข้ารหัสลับมีกระแสข้อมูลที่ไม่ได้เข้ารหัสลับที่ไม่ได้คาดหมาย\n"
+"\n"
+"นี่อาจเป็นผลจากการดัดแปรเอกสาร\n"
+"\n"
+"ขอแนะนำว่าคุณไม่ควรเชื่อถือเนื้อหาของเอกสารปัจจุบันนี้\n"
+"และจะปิดการเรียกทำงานแมโครสำหรับเอกสารนี้\n"
+" "
+
+#. 8efKG
+#: svtools/inc/errtxt.hrc:123
+msgctxt "RID_ERRHDL"
+msgid "Invalid data length."
+msgstr "ความยาวข้อมูลไม่ถูกต้อง"
+
+#. XRpcv
+#: svtools/inc/errtxt.hrc:124
+msgctxt "RID_ERRHDL"
+msgid "Function not possible: path contains current directory."
+msgstr "ฟังก์ชันไม่อาจทำงานได้: ในพาธมีไดเรกทอรีปัจจุบัน"
+
+#. sDMmp
+#: svtools/inc/errtxt.hrc:125
+msgctxt "RID_ERRHDL"
+msgid "Function not possible: device (drive) not identical."
+msgstr "ฟังก์ชันไม่อาจทำงานได้: อุปกรณ์ (ไดรฟ์) ไม่ตรงกัน"
+
+#. ofvvG
+#: svtools/inc/errtxt.hrc:126
+msgctxt "RID_ERRHDL"
+msgid "Device (drive) not ready."
+msgstr "อุปกรณ์ (ไดรฟ์) ไม่พร้อม"
+
+#. ALGnm
+#: svtools/inc/errtxt.hrc:127
+msgctxt "RID_ERRHDL"
+msgid "Wrong checksum."
+msgstr "ผลรวมตรวจสอบไม่ถูกต้อง"
+
+#. XVTHm
+#: svtools/inc/errtxt.hrc:128
+msgctxt "RID_ERRHDL"
+msgid "Function not possible: write protected."
+msgstr "ฟังก์ชันไม่อาจทำงานได้: มีการป้องกันการเขียน"
+
+#. Jfn8d
+#: svtools/inc/errtxt.hrc:129
+msgctxt "RID_ERRHDL"
+msgid ""
+"The password of a shared spreadsheet cannot be set or changed.\n"
+"Deactivate sharing mode first."
+msgstr ""
+"ไม่สามารถตั้งหรือเปลี่ยนรหัสผ่านของตารางคำนวณที่ใช้ร่วมกันได้\n"
+"กรุณาปิดโหมดใช้งานร่วมกันก่อน"
+
+#. M4EWG
+#: svtools/inc/errtxt.hrc:130
+msgctxt "RID_ERRHDL"
+msgid "File format error found at $(ARG1)(row,col)."
+msgstr "พบข้อมูลไฟล์ผิดรูปแบบที่ $(ARG1)(row,col)"
+
+#. Di7GD
+#: svtools/inc/errtxt.hrc:131
+msgctxt "RID_ERRHDL"
+msgid "The filter for this file format is disabled in configuration. Please contact your systems administrator."
+msgstr "ตัวกรองสำหรับรูปแบบไฟล์นี้ถูกปิดใช้งานในการตั้งค่า กรุณาติดต่อผู้ดูแลระบบของคุณ"
+
+#. WZiDE
+#: svtools/inc/errtxt.hrc:137
+msgctxt "RID_ERRHDL"
+msgid "General OLE error."
+msgstr "ข้อผิดพลาดทั่วไปเกี่ยวกับ OLE"
+
+#. iB8YV
+#: svtools/inc/errtxt.hrc:139
+msgctxt "RID_ERRHDL"
+msgid "The action cannot be executed in the object's current state."
+msgstr "ไม่สามารถดำเนินการการกระทำนี้ได้ในสถานะปัจจุบันของวัตถุ"
+
+#. 2fYQF
+#: svtools/inc/errtxt.hrc:141
+msgctxt "RID_ERRHDL"
+msgid "The object does not support any actions."
+msgstr "วัตถุไม่รองรับการกระทำใดๆ"
+
+#. B4NVE
+#: svtools/inc/errtxt.hrc:143
+msgctxt "RID_ERRHDL"
+msgid "Object does not support this action."
+msgstr "วัตถุไม่รองรับการกระทำนี้"
+
+#. G5peG
+#: svtools/inc/errtxt.hrc:150
+msgctxt "RID_ERRHDL"
+msgid "$(ERR) activating object"
+msgstr "$(ERR) การเปิดใช้งานวัตถุ"
+
+#. jGYA8
+#: svtools/inc/langtab.hrc:29
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "[None]"
+msgstr "[ไม่มี]"
+
+#. AErwo
+#: svtools/inc/langtab.hrc:30
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "[Multiple]"
+msgstr "[หลายภาษา]"
+
+#. J2UFW
+#: svtools/inc/langtab.hrc:31
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "[Undetermined]"
+msgstr "[ไม่ทราบ]"
+
+#. aUWzb
+#: svtools/inc/langtab.hrc:32
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Unknown"
+msgstr "ไม่รู้จัก"
+
+#. AQgxZ
+#: svtools/inc/langtab.hrc:33 svtools/inc/langtab.hrc:34
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#. hsqmD
+#: svtools/inc/langtab.hrc:35
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Afrikaans (South Africa)"
+msgstr "แอฟริคานส์ (แอฟริกาใต้)"
+
+#. TVGco
+#: svtools/inc/langtab.hrc:36
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Albanian"
+msgstr "แอลเบเนีย"
+
+#. unNc6
+#: svtools/inc/langtab.hrc:37
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic"
+msgstr "อาหรับ"
+
+#. yStAU
+#: svtools/inc/langtab.hrc:38
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Algeria)"
+msgstr "อาหรับ (แอลจีเรีย)"
+
+#. 6GPFd
+#: svtools/inc/langtab.hrc:39
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Bahrain)"
+msgstr "อาหรับ (บาห์เรน)"
+
+#. tvtct
+#: svtools/inc/langtab.hrc:40
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Chad)"
+msgstr "อาหรับ (ชาด)"
+
+#. sAaq7
+#: svtools/inc/langtab.hrc:41
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Comoros)"
+msgstr "อาหรับ (คอโมโรส)"
+
+#. CtwpU
+#: svtools/inc/langtab.hrc:42
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Djibouti)"
+msgstr "อาหรับ (จิบูตี)"
+
+#. XgGyg
+#: svtools/inc/langtab.hrc:43
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Egypt)"
+msgstr "อารบิก (อียิปต์)"
+
+#. iwYQR
+#: svtools/inc/langtab.hrc:44
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Eritrea)"
+msgstr "อารบิก (เอริเทรีย)"
+
+#. nKF3r
+#: svtools/inc/langtab.hrc:45
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Iraq)"
+msgstr "อารบิก (อิรัก)"
+
+#. JdGNA
+#: svtools/inc/langtab.hrc:46
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Israel)"
+msgstr "อารบิก (อิสราเอล)"
+
+#. bVjMH
+#: svtools/inc/langtab.hrc:47
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Jordan)"
+msgstr "อารบิก (จอร์แดน)"
+
+#. 2tQFC
+#: svtools/inc/langtab.hrc:48
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Kuwait)"
+msgstr "อาหรับ (คูเวต)"
+
+#. EvECi
+#: svtools/inc/langtab.hrc:49
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Lebanon)"
+msgstr "อาหรับ (เลบานอน)"
+
+#. AWBGA
+#: svtools/inc/langtab.hrc:50
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Libya)"
+msgstr "อาหรับ (ลิเบีย)"
+
+#. FBSpG
+#: svtools/inc/langtab.hrc:51
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Mauritania)"
+msgstr "อาหรับ (มอริเตเนีย)"
+
+#. YmCZY
+#: svtools/inc/langtab.hrc:52
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Morocco)"
+msgstr "อาหรับ (โมร็อกโก)"
+
+#. VB6tk
+#: svtools/inc/langtab.hrc:53
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Oman)"
+msgstr "อาหรับ (โอมาน)"
+
+#. ErqSh
+#: svtools/inc/langtab.hrc:54
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Palestine)"
+msgstr "อาหรับ (ปาเลสไตน์)"
+
+#. nURdz
+#: svtools/inc/langtab.hrc:55
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Qatar)"
+msgstr "อาหรับ (กาตาร์)"
+
+#. FdyFU
+#: svtools/inc/langtab.hrc:56
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Saudi Arabia)"
+msgstr "อาหรับ (ซาอุดีอาระเบีย)"
+
+#. x8UtA
+#: svtools/inc/langtab.hrc:57
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Somalia)"
+msgstr "อาหรับ (โซมาเลีย)"
+
+#. y9ptg
+#: svtools/inc/langtab.hrc:58
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Sudan)"
+msgstr "อาหรับ (ซูดาน)"
+
+#. caDrq
+#: svtools/inc/langtab.hrc:59
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Syria)"
+msgstr "อาหรับ (ซีเรีย)"
+
+#. TqKZQ
+#: svtools/inc/langtab.hrc:60
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Tunisia)"
+msgstr "อาหรับ (ตูนิเซีย)"
+
+#. VfYi2
+#: svtools/inc/langtab.hrc:61
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (UAE)"
+msgstr "อาหรับ (สหรัฐอาหรับเอมิเรตส์)"
+
+#. f7D5o
+#: svtools/inc/langtab.hrc:62
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arabic (Yemen)"
+msgstr "อาหรับ (เยเมน)"
+
+#. vDhQJ
+#: svtools/inc/langtab.hrc:63
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Aragonese"
+msgstr "อารากอน"
+
+#. yE4TR
+#: svtools/inc/langtab.hrc:64
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Armenian, Eastern (Armenia)"
+msgstr "อาร์เมเนียตะวันออก (อาร์เมเนีย)"
+
+#. bacGJ
+#: svtools/inc/langtab.hrc:65
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Assamese"
+msgstr "อัสสมี"
+
+#. xAg9Q
+#: svtools/inc/langtab.hrc:66
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Azerbaijani Latin"
+msgstr "อาเซอร์ไบจาน อักษรละติน"
+
+#. juADB
+#: svtools/inc/langtab.hrc:67
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Azerbaijani Cyrillic"
+msgstr "อาเซอร์ไบจาน ซีริลลิก"
+
+#. C3C7G
+#: svtools/inc/langtab.hrc:68
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Basque"
+msgstr "แบ็ซค์"
+
+#. dJPsj
+#: svtools/inc/langtab.hrc:69
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bengali (India)"
+msgstr "เบ็งกาลี (อินเดีย)"
+
+#. K6cbb
+#: svtools/inc/langtab.hrc:70
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bulgarian"
+msgstr "บัลแกเรีย"
+
+#. sBBmA
+#: svtools/inc/langtab.hrc:71
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Belarusian"
+msgstr "เบลารุส"
+
+#. 3SEoJ
+#: svtools/inc/langtab.hrc:72
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Catalan"
+msgstr "คาตะลาน"
+
+#. PoUeZ
+#: svtools/inc/langtab.hrc:73
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Catalan (Valencian)"
+msgstr "คาตะลาน (วาเลนเซีย)"
+
+#. ErGw2
+#: svtools/inc/langtab.hrc:74
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Chinese (traditional)"
+msgstr "จีน (ตัวเต็ม)"
+
+#. Gbige
+#: svtools/inc/langtab.hrc:75
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Chinese (simplified)"
+msgstr "จีน (ตัวย่อ)"
+
+#. WzgGw
+#: svtools/inc/langtab.hrc:76
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Chinese (Hong Kong)"
+msgstr "จีน (ฮ่องกง)"
+
+#. Kfrv5
+#: svtools/inc/langtab.hrc:77
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Chinese (Singapore)"
+msgstr "จีน (สิงคโปร์)"
+
+#. BSHqu
+#: svtools/inc/langtab.hrc:78
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Chinese (Macau)"
+msgstr "จีน (มาเก๊า)"
+
+#. FMwd9
+#: svtools/inc/langtab.hrc:79
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Church Slavic"
+msgstr "สลาฟคริสตจักร"
+
+#. cAkoV
+#: svtools/inc/langtab.hrc:80
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Croatian"
+msgstr "โครเอเชีย"
+
+#. DjdDj
+#: svtools/inc/langtab.hrc:81
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Czech"
+msgstr "เช็ก"
+
+#. xnGM2
+#: svtools/inc/langtab.hrc:82
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Danish"
+msgstr "เดนมาร์ก"
+
+#. yMGyj
+#: svtools/inc/langtab.hrc:83
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Dutch (Netherlands)"
+msgstr "ดัตช์ (เนเธอร์แลนด์)"
+
+#. qgJE9
+#: svtools/inc/langtab.hrc:84
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Dutch (Belgium)"
+msgstr "ดัตช์ (เบลเยียม)"
+
+#. STsDT
+#: svtools/inc/langtab.hrc:85
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (USA)"
+msgstr "อังกฤษ (สหรัฐอเมริกา)"
+
+#. aCBBC
+#: svtools/inc/langtab.hrc:86
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (UK)"
+msgstr "อังกฤษ (สหราชอาณาจักร)"
+
+#. 46Cte
+#: svtools/inc/langtab.hrc:87
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English, OED spelling (UK)"
+msgstr "อังกฤษ สะกดแบบ OED (สหราชอาณาจักร)"
+
+#. XCJAF
+#: svtools/inc/langtab.hrc:88
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Australia)"
+msgstr "อังกฤษ (ออสเตรเลีย)"
+
+#. KPGdA
+#: svtools/inc/langtab.hrc:89
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Canada)"
+msgstr "อังกฤษ (แคนาดา)"
+
+#. vGWET
+#: svtools/inc/langtab.hrc:90
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (New Zealand)"
+msgstr "อังกฤษ (นิวซีแลนด์)"
+
+#. JpNB4
+#: svtools/inc/langtab.hrc:91
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Ireland)"
+msgstr "อังกฤษ (ไอร์แลนด์)"
+
+#. RYtwA
+#: svtools/inc/langtab.hrc:92
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (South Africa)"
+msgstr "อังกฤษ (แอฟริกาใต้)"
+
+#. fEWbR
+#: svtools/inc/langtab.hrc:93
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Jamaica)"
+msgstr "อังกฤษ (จาเมกา)"
+
+#. 4tDmL
+#: svtools/inc/langtab.hrc:94
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Caribbean)"
+msgstr "อังกฤษ (แคริบเบียน)"
+
+#. craLz
+#: svtools/inc/langtab.hrc:95
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Belize)"
+msgstr "อังกฤษ (เบลีซ)"
+
+#. oAnX9
+#: svtools/inc/langtab.hrc:96
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Trinidad)"
+msgstr "อังกฤษ (ตรินิแดด)"
+
+#. DbBaG
+#: svtools/inc/langtab.hrc:97
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Zimbabwe)"
+msgstr "อังกฤษ (ซิมบับเว)"
+
+#. bGuDT
+#: svtools/inc/langtab.hrc:98
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Philippines)"
+msgstr "อังกฤษ (ฟิลิปปินส์)"
+
+#. sf7j9
+#: svtools/inc/langtab.hrc:99
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (India)"
+msgstr "อังกฤษ (อินเดีย)"
+
+#. uqECc
+#: svtools/inc/langtab.hrc:100
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Estonian"
+msgstr "เอสโตเนีย"
+
+#. AGGnV
+#: svtools/inc/langtab.hrc:101
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Finnish"
+msgstr "ฟินแลนด์"
+
+#. UyH2X
+#: svtools/inc/langtab.hrc:102
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Faroese"
+msgstr "แฟโร"
+
+#. riCt7
+#: svtools/inc/langtab.hrc:103
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Persian"
+msgstr "เปอร์เซีย"
+
+#. FSxwV
+#: svtools/inc/langtab.hrc:104
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (France)"
+msgstr "ฝรั่งเศส (ฝรั่งเศส)"
+
+#. LGkgS
+#: svtools/inc/langtab.hrc:105
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Belgium)"
+msgstr "ฝรั่งเศส (เบลเยียม)"
+
+#. TFQ8G
+#: svtools/inc/langtab.hrc:106
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Canada)"
+msgstr "ฝรั่งเศส (แคนาดา)"
+
+#. 8NnQa
+#: svtools/inc/langtab.hrc:107
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Switzerland)"
+msgstr "ฝรั่งเศส (สวิตเซอร์แลนด์)"
+
+#. DkXiH
+#: svtools/inc/langtab.hrc:108
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Luxembourg)"
+msgstr "ฝรั่งเศส (ลักเซมเบิร์ก)"
+
+#. 8BeKQ
+#: svtools/inc/langtab.hrc:109
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Monaco)"
+msgstr "ฝรั่งเศส (โมนาโก)"
+
+#. DoQUZ
+#: svtools/inc/langtab.hrc:110
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Gascon"
+msgstr "กัสกอญ"
+
+#. 6m5ud
+#: svtools/inc/langtab.hrc:111
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "German (Germany)"
+msgstr "เยอรมัน (เยอรมนี)"
+
+#. bTDdf
+#: svtools/inc/langtab.hrc:112
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "German (Switzerland)"
+msgstr "เยอรมัน (สวิตเซอร์แลนด์)"
+
+#. H6rUb
+#: svtools/inc/langtab.hrc:113
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "German (Austria)"
+msgstr "เยอรมัน (ออสเตรีย)"
+
+#. EXUrT
+#: svtools/inc/langtab.hrc:114
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "German (Luxembourg)"
+msgstr "เยอรมัน (ลักเซมเบิร์ก)"
+
+#. wYXvd
+#: svtools/inc/langtab.hrc:115
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "German (Liechtenstein)"
+msgstr "เยอรมัน (ลิกเตนสไตน์)"
+
+#. yBvcg
+#: svtools/inc/langtab.hrc:116
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Greek"
+msgstr "กรีก"
+
+#. QzGHA
+#: svtools/inc/langtab.hrc:117
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Gujarati"
+msgstr "คุชราตี"
+
+#. gU5Y9
+#: svtools/inc/langtab.hrc:118
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Hebrew"
+msgstr "ฮีบรู"
+
+#. vkmai
+#: svtools/inc/langtab.hrc:119
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Hindi"
+msgstr "ฮินดี"
+
+#. FdD6d
+#: svtools/inc/langtab.hrc:120
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Hungarian"
+msgstr "ฮังการี"
+
+#. sRD2B
+#: svtools/inc/langtab.hrc:121
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Icelandic"
+msgstr "ไอซ์แลนด์"
+
+#. K95FW
+#: svtools/inc/langtab.hrc:122
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Indonesian"
+msgstr "อินโดนีเซีย"
+
+#. dshDi
+#: svtools/inc/langtab.hrc:123
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Italian (Italy)"
+msgstr "อิตาลี (อิตาลี)"
+
+#. DELVB
+#: svtools/inc/langtab.hrc:124
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Italian (Switzerland)"
+msgstr "อิตาลี (สวิตเซอร์แลนด์)"
+
+#. ruFE2
+#: svtools/inc/langtab.hrc:125
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Japanese"
+msgstr "ญี่ปุ่น"
+
+#. qFQYv
+#: svtools/inc/langtab.hrc:126
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kannada"
+msgstr "กัณณาท"
+
+#. HBG3C
+#: svtools/inc/langtab.hrc:127
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kashmiri (Kashmir)"
+msgstr "กัศมีรี (แคชเมียร์)"
+
+#. DwhmJ
+#: svtools/inc/langtab.hrc:128
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kashmiri (India)"
+msgstr "กัศมีรี (อินเดีย)"
+
+#. UMfCV
+#: svtools/inc/langtab.hrc:129
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kazakh"
+msgstr "คาซัคสถาน"
+
+#. fABxX
+#: svtools/inc/langtab.hrc:130
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Konkani"
+msgstr "โกงกณี"
+
+#. 5XXpX
+#: svtools/inc/langtab.hrc:131
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Korean (RoK)"
+msgstr "เกาหลี (เกาหลีใต้)"
+
+#. Ynb76
+#: svtools/inc/langtab.hrc:132
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Latvian"
+msgstr "ลัตเวีย"
+
+#. C4VrT
+#: svtools/inc/langtab.hrc:133
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Lithuanian"
+msgstr "ลิทัวเนีย"
+
+#. zPNto
+#: svtools/inc/langtab.hrc:134
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Macedonian"
+msgstr "มาซิโดเนีย"
+
+#. nVTHg
+#: svtools/inc/langtab.hrc:135
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Malay (Malaysia)"
+msgstr "มลายู (มาเลเซีย)"
+
+#. fwb55
+#: svtools/inc/langtab.hrc:136
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Malay (Brunei Darussalam)"
+msgstr "มลายู (บรูไนดารุสซาลาม)"
+
+#. 8niko
+#: svtools/inc/langtab.hrc:137
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Malayalam"
+msgstr "มลยาฬัม"
+
+#. wX45Q
+#: svtools/inc/langtab.hrc:138
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Manipuri"
+msgstr "มณีปุรี"
+
+#. wdBgL
+#: svtools/inc/langtab.hrc:139
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Marathi"
+msgstr "มราฐี"
+
+#. gkEEQ
+#: svtools/inc/langtab.hrc:140
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Nepali (Nepal)"
+msgstr "เนปาล (เนปาล)"
+
+#. LaDAA
+#: svtools/inc/langtab.hrc:141
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Nepali (India)"
+msgstr "เนปาล (อินเดีย)"
+
+#. 7HpyY
+#: svtools/inc/langtab.hrc:142
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Norwegian, Bokmål"
+msgstr "นอร์เวย์ (บุคมอล)"
+
+#. kCv9u
+#: svtools/inc/langtab.hrc:143
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Norwegian, Nynorsk"
+msgstr "นอร์เวย์ (นีนอร์สก์)"
+
+#. 3BNF8
+#: svtools/inc/langtab.hrc:144
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Odia"
+msgstr "โอริยา"
+
+#. KEoWD
+#: svtools/inc/langtab.hrc:145
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Polish"
+msgstr "โปแลนด์"
+
+#. yyj9v
+#: svtools/inc/langtab.hrc:146
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Portuguese (Angola)"
+msgstr "โปรตุเกส (แองโกลา)"
+
+#. hZAXE
+#: svtools/inc/langtab.hrc:147
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Portuguese (Portugal)"
+msgstr "โปรตุเกส (โปรตุเกส)"
+
+#. A5CG3
+#: svtools/inc/langtab.hrc:148
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Portuguese (Brazil)"
+msgstr "โปรตุเกส (บราซิล)"
+
+#. EGfKG
+#: svtools/inc/langtab.hrc:149
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Punjabi"
+msgstr "ปัญจาบี"
+
+#. 4ATDT
+#: svtools/inc/langtab.hrc:150
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Rhaeto-Romance"
+msgstr "รีโท-โรมานซ์"
+
+#. TLUGG
+#: svtools/inc/langtab.hrc:151
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Romanian (Romania)"
+msgstr "โรมาเนีย (โรมาเนีย)"
+
+#. uCPF7
+#: svtools/inc/langtab.hrc:152
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Romanian (Moldova)"
+msgstr "โรมาเนีย (มอลโดวา)"
+
+#. tJTih
+#: svtools/inc/langtab.hrc:153
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Russian"
+msgstr "รัสเซีย"
+
+#. Rih6F
+#: svtools/inc/langtab.hrc:154
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sanskrit"
+msgstr "สันสกฤต"
+
+#. CyZtm
+#: svtools/inc/langtab.hrc:155
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Serbian Cyrillic (Serbia and Montenegro)"
+msgstr "เซอร์เบีย ซีริลลิก (เซอร์เบียและมอนเตเนโกร)"
+
+#. sFnB8
+#: svtools/inc/langtab.hrc:156
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Serbian Latin (Serbia and Montenegro)"
+msgstr "เซอร์เบีย อักษรละติน (เซอร์เบียและมอนเตเนโกร)"
+
+#. WbsFA
+#: svtools/inc/langtab.hrc:157
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Serbian Cyrillic (Serbia)"
+msgstr "เซอร์เบีย ซีริลลิก (เซอร์เบีย)"
+
+#. WL3zM
+#: svtools/inc/langtab.hrc:158
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Serbian Latin (Serbia)"
+msgstr "เซอร์เบีย อักษรละติน (เซอร์เบีย)"
+
+#. JFnsJ
+#: svtools/inc/langtab.hrc:159
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Serbian Cyrillic (Montenegro)"
+msgstr "เซอร์เบีย ซีริลลิก (มอนเตเนโกร)"
+
+#. AHpmF
+#: svtools/inc/langtab.hrc:160
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Serbian Latin (Montenegro)"
+msgstr "เซอร์เบีย อักษรละติน (มอนเตเนโกร)"
+
+#. JcJT4
+#: svtools/inc/langtab.hrc:161
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Serbian Latin"
+msgstr "เซฮร์เบีย อักษรละติน"
+
+#. ubCyV
+#: svtools/inc/langtab.hrc:162
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sidama"
+msgstr "ซิดามา"
+
+#. 66wdH
+#: svtools/inc/langtab.hrc:163
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sindhi, Devanagari"
+msgstr "สินธี เทวนาครี"
+
+#. RF77g
+#: svtools/inc/langtab.hrc:164
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sindhi, Arabic"
+msgstr "สินธี อาหรับ"
+
+#. E8DXb
+#: svtools/inc/langtab.hrc:165
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Slovak"
+msgstr "สโลวัก"
+
+#. GS6BZ
+#: svtools/inc/langtab.hrc:166
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Slovenian"
+msgstr "สโลวีเนีย"
+
+#. bCFN3
+#: svtools/inc/langtab.hrc:167
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Spain)"
+msgstr "สเปน (สเปน)"
+
+#. AXKJF
+#: svtools/inc/langtab.hrc:168
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Mexico)"
+msgstr "สเปน (เม็กซิโก)"
+
+#. 4ExjA
+#: svtools/inc/langtab.hrc:169
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Guatemala)"
+msgstr "สเปน (กัวเตมาลา)"
+
+#. ndaNA
+#: svtools/inc/langtab.hrc:170
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Costa Rica)"
+msgstr "สเปน (คอสตาริกา)"
+
+#. rAYvf
+#: svtools/inc/langtab.hrc:171
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Panama)"
+msgstr "สเปน (ปานามา)"
+
+#. rwjDV
+#: svtools/inc/langtab.hrc:172
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Dom. Rep.)"
+msgstr "สเปน (โดมินิกัน)"
+
+#. aeV5T
+#: svtools/inc/langtab.hrc:173
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Venezuela)"
+msgstr "สเปน (เวเนซุเอลา)"
+
+#. H4CHi
+#: svtools/inc/langtab.hrc:174
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Colombia)"
+msgstr "สเปน (โคลอมเบีย)"
+
+#. NkaU2
+#: svtools/inc/langtab.hrc:175
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Peru)"
+msgstr "สเปน (เปรู)"
+
+#. 2yKQy
+#: svtools/inc/langtab.hrc:176
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Argentina)"
+msgstr "สเปน (อาร์เจนตินา)"
+
+#. cTFoB
+#: svtools/inc/langtab.hrc:177
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Ecuador)"
+msgstr "สเปน (เอกวาดอร์)"
+
+#. Q7iGB
+#: svtools/inc/langtab.hrc:178
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Chile)"
+msgstr "สเปน (ชิลี)"
+
+#. SQeC3
+#: svtools/inc/langtab.hrc:179
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Uruguay)"
+msgstr "สเปน (อุรุกวัย)"
+
+#. EmgTp
+#: svtools/inc/langtab.hrc:180
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Paraguay)"
+msgstr "สเปน (ปารากวัย)"
+
+#. T7rLH
+#: svtools/inc/langtab.hrc:181
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Bolivia)"
+msgstr "สเปน (โบลิเวีย)"
+
+#. GNG7W
+#: svtools/inc/langtab.hrc:182
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (El Salvador)"
+msgstr "สเปน (เอลซัลวาดอร์)"
+
+#. HoGhs
+#: svtools/inc/langtab.hrc:183
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Honduras)"
+msgstr "สเปน (ฮอนดูรัส)"
+
+#. KgEGv
+#: svtools/inc/langtab.hrc:184
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Nicaragua)"
+msgstr "สเปน (นิการากัว)"
+
+#. uj9QF
+#: svtools/inc/langtab.hrc:185
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Puerto Rico)"
+msgstr "สเปน (เปอร์โตริโก)"
+
+#. 3bTTE
+#: svtools/inc/langtab.hrc:186
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Swahili (Kenya)"
+msgstr "สวาฮีลี (เคนยา)"
+
+#. AFhrJ
+#: svtools/inc/langtab.hrc:187
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Swedish (Sweden)"
+msgstr "สวีเดน (สวีเดน)"
+
+#. BKF86
+#: svtools/inc/langtab.hrc:188
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Swedish (Finland)"
+msgstr "สวีเดน (ฟินแลนด์)"
+
+#. E6Ede
+#: svtools/inc/langtab.hrc:189
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tajik"
+msgstr "ทาจิกิสถาน"
+
+#. dAFTH
+#: svtools/inc/langtab.hrc:190
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tamil"
+msgstr "ทมิฬ"
+
+#. RHZbp
+#: svtools/inc/langtab.hrc:191
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tatar"
+msgstr "ตาด"
+
+#. pTFA6
+#: svtools/inc/langtab.hrc:192
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Telugu"
+msgstr "เตลุคู"
+
+#. 3xQFG
+#: svtools/inc/langtab.hrc:193
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Thai"
+msgstr "ไทย"
+
+#. 7SBCF
+#: svtools/inc/langtab.hrc:194
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Turkish"
+msgstr "ตุรกี"
+
+#. jg4Y4
+#: svtools/inc/langtab.hrc:195
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Urdu (Pakistan)"
+msgstr "อูรดู (ปากีสถาน)"
+
+#. reDrZ
+#: svtools/inc/langtab.hrc:196
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Urdu (India)"
+msgstr "อูรดู (อินเดีย)"
+
+#. AciD4
+#: svtools/inc/langtab.hrc:197
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Ukrainian"
+msgstr "ยูเครน"
+
+#. 9s6wZ
+#: svtools/inc/langtab.hrc:198
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Uzbek Latin"
+msgstr "อุซเบกิสถาน อักษรละติน"
+
+#. HrnFi
+#: svtools/inc/langtab.hrc:199
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Uzbek Cyrillic"
+msgstr "อุซเบกิสถาน ซีริลลิก"
+
+#. seQBA
+#: svtools/inc/langtab.hrc:200
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Welsh"
+msgstr "เวลส์"
+
+#. MyZMt
+#: svtools/inc/langtab.hrc:201
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Latin"
+msgstr "ละติน"
+
+#. UxE47
+#: svtools/inc/langtab.hrc:202
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Esperanto"
+msgstr "เอสเปอรันโต"
+
+#. QDEQB
+#: svtools/inc/langtab.hrc:203
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kinyarwanda (Rwanda)"
+msgstr "คินยารวันดา (รวันดา)"
+
+#. VDEdz
+#: svtools/inc/langtab.hrc:204
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Maori"
+msgstr "เมารี"
+
+#. BCRzB
+#: svtools/inc/langtab.hrc:205
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Galician"
+msgstr "กาลิเซีย"
+
+#. EJSEG
+#: svtools/inc/langtab.hrc:206
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Dhivehi"
+msgstr "ทิเวหี"
+
+#. HyrCw
+#: svtools/inc/langtab.hrc:207
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Northern Sotho"
+msgstr "ซูทูเหนือ"
+
+#. iZE5p
+#: svtools/inc/langtab.hrc:208
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Gaelic (Scotland)"
+msgstr "เกลิก (สก็อตแลนด์)"
+
+#. hUdfG
+#: svtools/inc/langtab.hrc:209
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Mongolian Cyrillic"
+msgstr "มองโกเลีย ซีริลลิก"
+
+#. XSmCF
+#: svtools/inc/langtab.hrc:210
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Mongolian Mongolian"
+msgstr "มองโกเลีย มองโกเลีย"
+
+#. SmxD2
+#: svtools/inc/langtab.hrc:211
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Interlingua"
+msgstr "อินเทอร์ลิงกวา"
+
+#. dBUa9
+#: svtools/inc/langtab.hrc:212
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bosnian"
+msgstr "บอสเนีย"
+
+#. c29GE
+#: svtools/inc/langtab.hrc:213
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bengali (Bangladesh)"
+msgstr "เบ็งกาลี (บังกลาเทศ)"
+
+#. 9CTyH
+#: svtools/inc/langtab.hrc:214
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Occitan"
+msgstr "ออกซิตัน"
+
+#. wRpTQ
+#: svtools/inc/langtab.hrc:215
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Khmer"
+msgstr "เขมร"
+
+#. 6C2PP
+#: svtools/inc/langtab.hrc:216
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kurdish, Northern (Turkey)"
+msgstr "เคิร์ดเหนือ (ตุรกี)"
+
+#. JBSdg
+#: svtools/inc/langtab.hrc:217
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kurdish, Northern (Syria)"
+msgstr "เคิร์ดเหนือ (ซีเรีย)"
+
+#. 7LmT2
+#: svtools/inc/langtab.hrc:218
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kurdish, Central (Iraq)"
+msgstr "เคิร์ดกลาง (อิรัก)"
+
+#. rzDHD
+#: svtools/inc/langtab.hrc:219
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kurdish, Central (Iran)"
+msgstr "เคิร์ดกลาง (อิหร่าน)"
+
+#. CeAFw
+#: svtools/inc/langtab.hrc:220
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kurdish, Southern (Iran)"
+msgstr "เคิร์ดใต้ (อิหร่าน)"
+
+#. epbri
+#: svtools/inc/langtab.hrc:221
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kurdish, Southern (Iraq)"
+msgstr "เคิร์ดใต้ (อิรัก)"
+
+#. 2KhAB
+#: svtools/inc/langtab.hrc:222
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sardinian"
+msgstr "ซาร์ดิเนีย"
+
+#. 3sZxr
+#: svtools/inc/langtab.hrc:223
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Dzongkha"
+msgstr "ภูฏาน"
+
+#. NdNMD
+#: svtools/inc/langtab.hrc:224
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Swahili (Tanzania)"
+msgstr "สวาฮีลี (แทนซาเนีย)"
+
+#. ywH3p
+#: svtools/inc/langtab.hrc:225
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Lao"
+msgstr "ลาว"
+
+#. HNY5w
+#: svtools/inc/langtab.hrc:226
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Irish"
+msgstr "ไอริช"
+
+#. oGuLJ
+#: svtools/inc/langtab.hrc:227
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tibetan (PR China)"
+msgstr "ทิเบต (จีน)"
+
+#. DpbUS
+#: svtools/inc/langtab.hrc:228
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Georgian"
+msgstr "จอร์เจีย"
+
+#. vXTTC
+#: svtools/inc/langtab.hrc:229
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Frisian"
+msgstr "ฟรีเชีย"
+
+#. hYSBQ
+#: svtools/inc/langtab.hrc:230
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tswana (South Africa)"
+msgstr "เซตสวานา (แอฟริกาใต้)"
+
+#. iBrft
+#: svtools/inc/langtab.hrc:231
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Zulu"
+msgstr "ซูลู"
+
+#. efx7v
+#: svtools/inc/langtab.hrc:232
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Vietnamese"
+msgstr "เวียดนาม"
+
+#. uik8N
+#: svtools/inc/langtab.hrc:233
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Breton"
+msgstr "เบรตัน"
+
+#. UuDPF
+#: svtools/inc/langtab.hrc:234
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kalaallisut"
+msgstr "กะลาลลิซุต"
+
+#. h8yi2
+#: svtools/inc/langtab.hrc:235
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Ndebele, South"
+msgstr "เอ็นดีเบลีใต้"
+
+#. GAkRJ
+#: svtools/inc/langtab.hrc:236
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Southern Sotho"
+msgstr "ซูทูใต้"
+
+#. 2beka
+#: svtools/inc/langtab.hrc:237
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Swazi"
+msgstr "สวาซี"
+
+#. GFCYC
+#: svtools/inc/langtab.hrc:238
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tsonga"
+msgstr "ซองกา"
+
+#. Fd3yC
+#: svtools/inc/langtab.hrc:239
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Venda"
+msgstr "เวนดา"
+
+#. BQkT8
+#: svtools/inc/langtab.hrc:240
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tswana (Botswana)"
+msgstr "เซตสวานา (บอตสวานา)"
+
+#. aCLs3
+#: svtools/inc/langtab.hrc:241
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Xhosa"
+msgstr "คอซา"
+
+#. 8tGkA
+#: svtools/inc/langtab.hrc:242
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sinhala"
+msgstr "สิงหล"
+
+#. MyZBb
+#: svtools/inc/langtab.hrc:243
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Moore"
+msgstr "มูรี"
+
+#. MuwMr
+#: svtools/inc/langtab.hrc:244
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bambara"
+msgstr "บัมบารา"
+
+#. ohYHE
+#: svtools/inc/langtab.hrc:245
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Akan"
+msgstr "อะคาน"
+
+#. Rpc24
+#: svtools/inc/langtab.hrc:246
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Luxembourgish"
+msgstr "ลักเซมเบิร์ก"
+
+#. TPr9P
+#: svtools/inc/langtab.hrc:247
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Friulian"
+msgstr "ฟริอูเลียน"
+
+#. XFeaU
+#: svtools/inc/langtab.hrc:248
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Fijian"
+msgstr "ฟิจิ"
+
+#. DmEsD
+#: svtools/inc/langtab.hrc:249
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Afrikaans (Namibia)"
+msgstr "แอฟริคานส์ (นามิเบีย)"
+
+#. 2dS3j
+#: svtools/inc/langtab.hrc:250
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Namibia)"
+msgstr "อังกฤษ (นามิเบีย)"
+
+#. pxpQo
+#: svtools/inc/langtab.hrc:251
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Walloon"
+msgstr "วอลลูน"
+
+#. uSw8S
+#: svtools/inc/langtab.hrc:252
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Coptic"
+msgstr "คอปติก"
+
+#. cXUkb
+#: svtools/inc/langtab.hrc:253
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tigrigna (Eritrea)"
+msgstr "ทิกริญญา (เอริเทรีย)"
+
+#. 4X4SP
+#: svtools/inc/langtab.hrc:254
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tigrigna (Ethiopia)"
+msgstr "ทิกริญญา (เอธิโอเปีย)"
+
+#. vebCw
+#: svtools/inc/langtab.hrc:255
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Amharic"
+msgstr "อัมฮาริก"
+
+#. wVfCr
+#: svtools/inc/langtab.hrc:256
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kirghiz"
+msgstr "คีร์กีซสถาน"
+
+#. zCrUd
+#: svtools/inc/langtab.hrc:257
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "German (Belgium)"
+msgstr "เยอรมัน (เบลเยียม)"
+
+#. bZjgG
+#: svtools/inc/langtab.hrc:258
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Chuvash"
+msgstr "ชูวัช"
+
+#. Hhf2V
+#: svtools/inc/langtab.hrc:259
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Burmese"
+msgstr "พม่า"
+
+#. YCarY
+#: svtools/inc/langtab.hrc:260
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Hausa (Nigeria)"
+msgstr "โฮซา (ไนจีเรีย)"
+
+#. JXCmu
+#: svtools/inc/langtab.hrc:261
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Hausa (Ghana)"
+msgstr "โฮซา (กานา)"
+
+#. 7jrGb
+#: svtools/inc/langtab.hrc:262
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Éwé"
+msgstr "เอเว"
+
+#. QWBZG
+#: svtools/inc/langtab.hrc:263
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Ghana)"
+msgstr "อังกฤษ (กานา)"
+
+#. pAEtz
+#: svtools/inc/langtab.hrc:264
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sango"
+msgstr "ซังโก"
+
+#. L9sDt
+#: svtools/inc/langtab.hrc:265
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tagalog"
+msgstr "ตากาล็อก"
+
+#. iFSZs
+#: svtools/inc/langtab.hrc:266
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Ganda"
+msgstr "แกนดา"
+
+#. Gdbhz
+#: svtools/inc/langtab.hrc:267
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Lingala"
+msgstr "ลิงกาลา"
+
+#. TnDKB
+#: svtools/inc/langtab.hrc:268
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Low German"
+msgstr "เยอรมันต่ำ"
+
+#. Yr5hK
+#: svtools/inc/langtab.hrc:269
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Hiligaynon"
+msgstr "ฮีลีไกโนน"
+
+#. nF96G
+#: svtools/inc/langtab.hrc:270
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Nyanja"
+msgstr "นยานจา"
+
+#. v4jmr
+#: svtools/inc/langtab.hrc:271
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kashubian"
+msgstr "คาชูเบียน"
+
+#. nbEp5
+#: svtools/inc/langtab.hrc:272
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Spanish (Cuba)"
+msgstr "สเปน (คิวบา)"
+
+#. CGkDF
+#: svtools/inc/langtab.hrc:273
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tetun (Indonesia)"
+msgstr "เตตุน (อินโดนีเซีย)"
+
+#. yXqvC
+#: svtools/inc/langtab.hrc:274
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Quechua (Bolivia, North)"
+msgstr "เกชัว (โบลิเวียเหนือ)"
+
+#. V3XMi
+#: svtools/inc/langtab.hrc:275
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Quechua (Bolivia, South)"
+msgstr "เกชัว (โบลิเวียใต้)"
+
+#. 3WCP7
+#: svtools/inc/langtab.hrc:276
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Somali"
+msgstr "โซมาเลีย"
+
+#. zFoBp
+#: svtools/inc/langtab.hrc:277
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Inari (Finland)"
+msgstr "ซามีอินารี (ฟินแลนด์)"
+
+#. FJAQR
+#: svtools/inc/langtab.hrc:278
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Lule (Norway)"
+msgstr "ซามีลูเล (นอร์เวย์)"
+
+#. yBxW5
+#: svtools/inc/langtab.hrc:279
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Lule (Sweden)"
+msgstr "ซามีลูเล (สวีเดน)"
+
+#. 8yPLy
+#: svtools/inc/langtab.hrc:280
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Northern (Finland)"
+msgstr "ซามีเหนือ (ฟินแลนด์)"
+
+#. SQTD9
+#: svtools/inc/langtab.hrc:281
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Northern (Norway)"
+msgstr "ซามีเหนือ (นอร์เวย์)"
+
+#. BHGpD
+#: svtools/inc/langtab.hrc:282
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Northern (Sweden)"
+msgstr "ซามีเหนือ (สวีเดน)"
+
+#. cdYkC
+#: svtools/inc/langtab.hrc:283
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Skolt (Finland)"
+msgstr "ซามีสโกลต์ (ฟินแลนด์)"
+
+#. od3Hp
+#: svtools/inc/langtab.hrc:284
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Southern (Norway)"
+msgstr "ซามีใต้ (นอร์เวย์)"
+
+#. 5Ueff
+#: svtools/inc/langtab.hrc:285
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Southern (Sweden)"
+msgstr "ซามีใต้ (สวีเดน)"
+
+#. 7x4mU
+#: svtools/inc/langtab.hrc:286
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Kildin (Russia)"
+msgstr "ซามีคิลดิน (รัสเซีย)"
+
+#. A5Crw
+#: svtools/inc/langtab.hrc:287
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Guarani (Paraguay)"
+msgstr "กวารานี (ปารากวัย)"
+
+#. ESc5d
+#: svtools/inc/langtab.hrc:288
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bodo"
+msgstr "พอโฑ"
+
+#. sSAvV
+#: svtools/inc/langtab.hrc:289
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Dogri"
+msgstr "โฑครี"
+
+#. f2nfh
+#: svtools/inc/langtab.hrc:290
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Maithili"
+msgstr "ไมถิลี"
+
+#. ZBUUb
+#: svtools/inc/langtab.hrc:291
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Santali, Devanagari"
+msgstr ""
+
+#. C7EGu
+#: svtools/inc/langtab.hrc:292
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tetun (Timor-Leste)"
+msgstr "เตตุน (ติมอร์-เลสเต)"
+
+#. JzTF8
+#: svtools/inc/langtab.hrc:293
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Turkmen"
+msgstr "เติร์กเมนิสถาน"
+
+#. XbECR
+#: svtools/inc/langtab.hrc:294
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Maltese"
+msgstr "มอลตา"
+
+#. PJ6DF
+#: svtools/inc/langtab.hrc:295
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tok Pisin"
+msgstr "ทอกพิซิน"
+
+#. kAWUo
+#: svtools/inc/langtab.hrc:296
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Shuswap"
+msgstr "ชูสวาป"
+
+#. sBWQv
+#: svtools/inc/langtab.hrc:297
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Oromo"
+msgstr "ออโรโม"
+
+#. jYDYi
+#: svtools/inc/langtab.hrc:298
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Greek, Ancient"
+msgstr "กรีกโบราณ"
+
+#. WY8GH
+#: svtools/inc/langtab.hrc:299
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Yiddish (Israel)"
+msgstr "ยิดดิช (อิสราเอล)"
+
+#. VAWnd
+#: svtools/inc/langtab.hrc:300
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Quechua (Ecuador)"
+msgstr "เกชัว (เอกวาดอร์)"
+
+#. UDB2F
+#: svtools/inc/langtab.hrc:301
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Uyghur"
+msgstr "อุยกูร์"
+
+#. XAu8x
+#: svtools/inc/langtab.hrc:302
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Asturian"
+msgstr "อัสตูเรียส"
+
+#. hwM5p
+#: svtools/inc/langtab.hrc:303
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sorbian, Upper"
+msgstr "ซอร์บสูง"
+
+#. iGTFG
+#: svtools/inc/langtab.hrc:304
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sorbian, Lower"
+msgstr "ซอร์บต่ำ"
+
+#. RvdrP
+#: svtools/inc/langtab.hrc:305
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Latgalian"
+msgstr "ลัตกาเลียน"
+
+#. 94i7A
+#: svtools/inc/langtab.hrc:306
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Maore"
+msgstr "มาออเร"
+
+#. FeuXJ
+#: svtools/inc/langtab.hrc:307
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bushi"
+msgstr "บูชิ"
+
+#. CWFtg
+#: svtools/inc/langtab.hrc:308
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tahitian"
+msgstr "ตาฮิติ"
+
+#. TDoMB
+#: svtools/inc/langtab.hrc:309
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Malagasy, Plateau"
+msgstr "มาลากาซีที่ราบสูง"
+
+#. EVG88
+#: svtools/inc/langtab.hrc:310
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Papiamentu (Netherlands Antilles)"
+msgstr "ปาเปียเมนตู (เนเธอร์แลนด์แอนทิลลิส)"
+
+#. fbGn8
+#: svtools/inc/langtab.hrc:311
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Papiamento (Aruba)"
+msgstr "ปาเปียเมนโต (อารูบา)"
+
+#. 9XBNE
+#: svtools/inc/langtab.hrc:312
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sardinian, Campidanese"
+msgstr "ซาร์ดิเนีย แคมพิดานีส"
+
+#. d2kAw
+#: svtools/inc/langtab.hrc:313
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sardinian, Gallurese"
+msgstr "ซาร์ดิเนีย แกลลูเรเซ"
+
+#. cJATX
+#: svtools/inc/langtab.hrc:314
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sardinian, Logudorese"
+msgstr "ซาร์ดิเนีย โลกูโดเรเซ"
+
+#. PJFYt
+#: svtools/inc/langtab.hrc:315
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sardinian, Sassarese"
+msgstr "ซาร์ดิเนีย ซัสซารีส"
+
+#. oDLAc
+#: svtools/inc/langtab.hrc:316
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bafia"
+msgstr "บาเฟีย"
+
+#. 598zD
+#: svtools/inc/langtab.hrc:317
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Gikuyu"
+msgstr "กิคูยู"
+
+#. PFxrW
+#: svtools/inc/langtab.hrc:318
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Yoruba"
+msgstr "โยรูบา"
+
+#. jajFo
+#: svtools/inc/langtab.hrc:319
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Rusyn (Ukraine)"
+msgstr "รูซีน (ยูเครน)"
+
+#. PpWdM
+#: svtools/inc/langtab.hrc:320
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Rusyn (Slovakia)"
+msgstr "รูซีน (สโลวะเกีย)"
+
+#. Wgo9k
+#: svtools/inc/langtab.hrc:321
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kabyle Latin"
+msgstr "คาไบล์ อักษรละติน"
+
+#. MSnHB
+#: svtools/inc/langtab.hrc:322
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Yiddish (USA)"
+msgstr "ยิดดิช (สหรัฐอเมริกา)"
+
+#. uYMRX
+#: svtools/inc/langtab.hrc:323
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Hawaiian"
+msgstr "ฮาวาย"
+
+#. DyEGX
+#: svtools/inc/langtab.hrc:324
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Limbu"
+msgstr "ลิมบู"
+
+#. 3jGCz
+#: svtools/inc/langtab.hrc:325
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Lojban"
+msgstr "โลจบาน"
+
+#. Ec3C4
+#: svtools/inc/langtab.hrc:326
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Haitian"
+msgstr "เฮติ"
+
+#. D3Xoy
+#: svtools/inc/langtab.hrc:327
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Beembe"
+msgstr "บีมเบ"
+
+#. 6Pkbr
+#: svtools/inc/langtab.hrc:328
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bekwel"
+msgstr "เบกเวล"
+
+#. 8WjqB
+#: svtools/inc/langtab.hrc:329
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kituba (Congo)"
+msgstr "คิทูบา (คองโก)"
+
+#. hCFcE
+#: svtools/inc/langtab.hrc:330
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Lari"
+msgstr "ลารี"
+
+#. KxXpB
+#: svtools/inc/langtab.hrc:331
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Mbochi"
+msgstr "อึมม์โบชี"
+
+#. 6FdTq
+#: svtools/inc/langtab.hrc:332
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Teke-Eboo"
+msgstr "เทเค-อีบู"
+
+#. FeBzA
+#: svtools/inc/langtab.hrc:333
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Teke-Ibali"
+msgstr "เทเค-อิบาลี"
+
+#. LKetF
+#: svtools/inc/langtab.hrc:334
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Teke-Tyee"
+msgstr "เทเค-ไทอี"
+
+#. DfVqj
+#: svtools/inc/langtab.hrc:335
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Vili"
+msgstr "วีลี"
+
+#. uBEkT
+#: svtools/inc/langtab.hrc:336
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "KeyID"
+msgstr "KeyID"
+
+#. maAoG
+#: svtools/inc/langtab.hrc:337
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Pali Latin"
+msgstr "บาลี อักษรละติน"
+
+#. eDDSm
+#: svtools/inc/langtab.hrc:338
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kyrgyz (China)"
+msgstr "คีร์กีซ (จีน)"
+
+#. RCmma
+#: svtools/inc/langtab.hrc:339
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Komi-Zyrian"
+msgstr "โคมิ-ไซเรียน"
+
+#. DLxCK
+#: svtools/inc/langtab.hrc:340
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Komi-Permyak"
+msgstr "โคมิ-เปอร์มีก"
+
+#. zRJy3
+#: svtools/inc/langtab.hrc:341
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Pitjantjatjara"
+msgstr "พิชันชาชารา"
+
+#. X2WLD
+#: svtools/inc/langtab.hrc:342
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Malawi)"
+msgstr "อังกฤษ (มาลาวี)"
+
+#. BNve6
+#: svtools/inc/langtab.hrc:343
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Erzya"
+msgstr "เอร์เซีย"
+
+#. bS6vy
+#: svtools/inc/langtab.hrc:344
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Mari, Meadow"
+msgstr "มารีทุ่งหญ้า"
+
+#. 2YjMT
+#: svtools/inc/langtab.hrc:345
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Papiamento (Curaçao)"
+msgstr "ปาเปียเมนโต (กูราเซา)"
+
+#. QA2V4
+#: svtools/inc/langtab.hrc:346
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Papiamento (Bonaire)"
+msgstr "ปาเปียเมนโต (โบแนเรอ)"
+
+#. vozw6
+#: svtools/inc/langtab.hrc:347
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Khanty"
+msgstr "คานที"
+
+#. MBtJM
+#: svtools/inc/langtab.hrc:348
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Livonian"
+msgstr "ลิโวเนีย"
+
+#. wNkoh
+#: svtools/inc/langtab.hrc:349
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Moksha"
+msgstr "มอกชา"
+
+#. uCDU6
+#: svtools/inc/langtab.hrc:350
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Mari, Hill"
+msgstr "มารีเนินเขา"
+
+#. JEhY4
+#: svtools/inc/langtab.hrc:351
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Nganasan"
+msgstr "งานาซัน"
+
+#. hr4pq
+#: svtools/inc/langtab.hrc:352
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Olonets"
+msgstr "โอโลเน็ตส์"
+
+#. Arpn4
+#: svtools/inc/langtab.hrc:353
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Veps"
+msgstr "เว็ปส์"
+
+#. fJ3Ss
+#: svtools/inc/langtab.hrc:354
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Võro"
+msgstr "โวโร"
+
+#. HuWCs
+#: svtools/inc/langtab.hrc:355
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Nenets"
+msgstr "เนเน็ตส์"
+
+#. 5Zxgd
+#: svtools/inc/langtab.hrc:356
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Aka (Central African Republic)"
+msgstr "อาคา (สาธารณรัฐแอฟริกากลาง)"
+
+#. oBDBe
+#: svtools/inc/langtab.hrc:357
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Aka (Congo)"
+msgstr "อาคา (คองโก)"
+
+#. GRKCD
+#: svtools/inc/langtab.hrc:358
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Dibole"
+msgstr "ดิโบล"
+
+#. cgMCr
+#: svtools/inc/langtab.hrc:359
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Doondo"
+msgstr "โดวันโด"
+
+#. FmhF6
+#: svtools/inc/langtab.hrc:360
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kaamba"
+msgstr "คามบา"
+
+#. BBf4G
+#: svtools/inc/langtab.hrc:361
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Koongo (Congo)"
+msgstr "คุงโก (คองโก)"
+
+#. HbeaC
+#: svtools/inc/langtab.hrc:362
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kunyi"
+msgstr "คุนยี"
+
+#. wLxHD
+#: svtools/inc/langtab.hrc:363
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Ngungwel"
+msgstr "Ngungwel"
+
+#. 7cvAe
+#: svtools/inc/langtab.hrc:364
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Njyem (Congo)"
+msgstr "Njyem (คองโก)"
+
+#. G2SG8
+#: svtools/inc/langtab.hrc:365
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Punu"
+msgstr "พูนู"
+
+#. WjBVL
+#: svtools/inc/langtab.hrc:366
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Suundi"
+msgstr "Suundi"
+
+#. 9nAA2
+#: svtools/inc/langtab.hrc:367
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Teke-Kukuya"
+msgstr "เทเค-คูคูยา"
+
+#. dwdUH
+#: svtools/inc/langtab.hrc:368
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tsaangi"
+msgstr "Tsaangi"
+
+#. otqzC
+#: svtools/inc/langtab.hrc:369
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Yaka (Congo)"
+msgstr "ยากา (คองโก)"
+
+#. JuMFF
+#: svtools/inc/langtab.hrc:370
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Yaka (Democratic Republic of the Congo)"
+msgstr "ยากา (สาธารณรัฐประชาธิปไตยคองโก)"
+
+#. NDjGL
+#: svtools/inc/langtab.hrc:371
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Yombe (Congo)"
+msgstr "ยอมเบ (คองโก)"
+
+#. MvwFr
+#: svtools/inc/langtab.hrc:372
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "N'ko"
+msgstr "เอ็นโก"
+
+#. WFc6C
+#: svtools/inc/langtab.hrc:373
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Udmurt"
+msgstr "อุดมูร์ต"
+
+#. hEtfX
+#: svtools/inc/langtab.hrc:374
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Tibetan (India)"
+msgstr "ทิเบต (อินเดีย)"
+
+#. Agf93
+#: svtools/inc/langtab.hrc:375
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Cornish"
+msgstr "คอร์นิช"
+
+#. EtH3H
+#: svtools/inc/langtab.hrc:376
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sami, Pite (Sweden)"
+msgstr "ซามีพิเต (สวีเดน)"
+
+#. jp6C9
+#: svtools/inc/langtab.hrc:377
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Ngäbere"
+msgstr "งอเบเร"
+
+#. 3nTLx
+#: svtools/inc/langtab.hrc:378
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kumyk"
+msgstr "คูมิค"
+
+#. c56C9
+#: svtools/inc/langtab.hrc:379
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Nogai"
+msgstr "โนไก"
+
+#. CBiiA
+#: svtools/inc/langtab.hrc:380
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Karakalpak Latin"
+msgstr "คาราคัลปัก อักษรละติน"
+
+#. CkEC7
+#: svtools/inc/langtab.hrc:381
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Ladin"
+msgstr "ละดีน"
+
+#. XAiVE
+#: svtools/inc/langtab.hrc:382
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Burkina Faso)"
+msgstr "ฝรั่งเศส (บูร์กินาฟาโซ)"
+
+#. EGzhe
+#: svtools/inc/langtab.hrc:383
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Puinave"
+msgstr "ปุยนาเว"
+
+#. HNcxe
+#: svtools/inc/langtab.hrc:384
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Maninkakan, Eastern, Latin"
+msgstr "มะนินกากันตะวันออก อักษรละติน"
+
+#. Kxi9E
+#: svtools/inc/langtab.hrc:385
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Avar"
+msgstr "อาวาร์"
+
+#. zumBa
+#: svtools/inc/langtab.hrc:386
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Cree, Plains, Latin"
+msgstr "ครีที่ราบ อักษรละติน"
+
+#. PQqU7
+#: svtools/inc/langtab.hrc:387
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Cree, Plains, Syllabics"
+msgstr "ครีที่ราบ อักษรพยางค์"
+
+#. kewgf
+#: svtools/inc/langtab.hrc:388
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Lengo"
+msgstr "เลงโก"
+
+#. KtBfE
+#: svtools/inc/langtab.hrc:389
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Côte d'Ivoire)"
+msgstr "ฝรั่งเศส (โกตดิวัวร์)"
+
+#. DTuEL
+#: svtools/inc/langtab.hrc:390
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Mali)"
+msgstr "ฝรั่งเศส (มาลี)"
+
+#. LFLk6
+#: svtools/inc/langtab.hrc:391
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Senegal)"
+msgstr "ฝรั่งเศส (เซเนกัล)"
+
+#. mSK3x
+#: svtools/inc/langtab.hrc:392
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Benin)"
+msgstr "ฝรั่งเศส (เบนิน)"
+
+#. tM6qQ
+#: svtools/inc/langtab.hrc:393
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Niger)"
+msgstr "ฝรั่งเศส (ไนเจอร์)"
+
+#. nCq6f
+#: svtools/inc/langtab.hrc:394
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Togo)"
+msgstr "ฝรั่งเศส (โตโก)"
+
+#. oCBvK
+#: svtools/inc/langtab.hrc:395
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kven Finnish"
+msgstr "คเวนฟินนิช"
+
+#. zjNcC
+#: svtools/inc/langtab.hrc:396
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Venetian"
+msgstr "วีนีเชียน"
+
+#. 8EbCs
+#: svtools/inc/langtab.hrc:397
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Gambia)"
+msgstr "อังกฤษ (แกมเบีย)"
+
+#. gEd8L
+#: svtools/inc/langtab.hrc:398
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Aranese"
+msgstr "อารานีส"
+
+#. TaEzQ
+#: svtools/inc/langtab.hrc:399
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arpitan (France)"
+msgstr "อาร์พิทัน (ฝรั่งเศส)"
+
+#. s4yFD
+#: svtools/inc/langtab.hrc:400
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arpitan (Italy)"
+msgstr "อาร์พิทัน (อิตาลี)"
+
+#. FvPLF
+#: svtools/inc/langtab.hrc:401
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Arpitan (Switzerland)"
+msgstr "อาร์พิทัน (สวิตเซอร์แลนด์)"
+
+#. GgwXq
+#: svtools/inc/langtab.hrc:402
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Botswana)"
+msgstr "อังกฤษ (บอตสวานา)"
+
+#. GZfWN
+#: svtools/inc/langtab.hrc:403
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Interlingue Occidental"
+msgstr "อินเทอร์ลิงก์ ออกซิเดนทัล"
+
+#. FFkaK
+#: svtools/inc/langtab.hrc:404
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Apatani"
+msgstr "อะปะตานี"
+
+#. EHHtS
+#: svtools/inc/langtab.hrc:405
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Mauritius)"
+msgstr "อังกฤษ (มอริเชียส)"
+
+#. atcMq
+#: svtools/inc/langtab.hrc:406
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Mauritius)"
+msgstr "ฝรั่งเศส (มอริเชียส)"
+
+#. UZ4Pn
+#: svtools/inc/langtab.hrc:407
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Silesian"
+msgstr "ไซลีเชียน"
+
+#. RJDLA
+#: svtools/inc/langtab.hrc:408
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Hungarian (Szekely-Hungarian Rovas)"
+msgstr "ฮังการี (อักษรรูนส์ฮังการี)"
+
+#. v3WK8
+#: svtools/inc/langtab.hrc:409
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Malaysia)"
+msgstr "อังกฤษ (มาเลเซีย)"
+
+#. 4sBjT
+#: svtools/inc/langtab.hrc:410
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Manchu"
+msgstr "แมนจู"
+
+#. XH3fY
+#: svtools/inc/langtab.hrc:411
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Xibe"
+msgstr "ซิเบ"
+
+#. oGNdE
+#: svtools/inc/langtab.hrc:412
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kituba (Democratic Republic of the Congo)"
+msgstr "คิทูบา (สาธารณรัฐประชาธิปไตยคองโก)"
+
+#. jQF7C
+#: svtools/inc/langtab.hrc:413
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Fon"
+msgstr "ฟอน"
+
+#. cAPXF
+#: svtools/inc/langtab.hrc:414
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Plautdietsch"
+msgstr "เพลาต์ดิตช์"
+
+#. 8LY2A
+#: svtools/inc/langtab.hrc:415
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Armenian, Eastern (Russia)"
+msgstr "อาร์เมเนียตะวันออก (รัสเซีย)"
+
+#. ieGNR
+#: svtools/inc/langtab.hrc:416
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Armenian, Eastern (Iran)"
+msgstr "อาร์เมเนียตะวันออก (อิหร่าน)"
+
+#. US8Ga
+#: svtools/inc/langtab.hrc:417
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Armenian, Western (Armenia)"
+msgstr "อาร์เมเนียตะวันตก (อาร์เมเนีย)"
+
+#. nzbrZ
+#: svtools/inc/langtab.hrc:418
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Armenian, Classical (Armenia)"
+msgstr "อาร์เมเนียคลาสสิก (อาร์เมเนีย)"
+
+#. BDKAa
+#: svtools/inc/langtab.hrc:419
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Malay Arabic (Malaysia)"
+msgstr "มลายู อักษรอาหรับ (มาเลเซีย)"
+
+#. AnrGG
+#: svtools/inc/langtab.hrc:420
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Malay Arabic (Brunei Darussalam)"
+msgstr "มลายู อักษรอาหรับ (บรูไนดารุสซาลาม)"
+
+#. utBog
+#: svtools/inc/langtab.hrc:421
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Juǀ’hoan"
+msgstr "จูทแวน"
+
+#. jPaAH
+#: svtools/inc/langtab.hrc:422
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Naro"
+msgstr "นาโร"
+
+#. mMVAF
+#: svtools/inc/langtab.hrc:423
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Iloko"
+msgstr "อีโลโก"
+
+#. AzGAy
+#: svtools/inc/langtab.hrc:424
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Zambia)"
+msgstr "อังกฤษ (แซมเบีย)"
+
+#. 7kkKy
+#: svtools/inc/langtab.hrc:425
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Sri Lanka)"
+msgstr "อังกฤษ (ศรีลังกา)"
+
+#. xFPXp
+#: svtools/inc/langtab.hrc:426
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Nigeria)"
+msgstr "อังกฤษ (ไนจีเรีย)"
+
+#. Up6ab
+#: svtools/inc/langtab.hrc:427
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Kabardian"
+msgstr "คาบาร์เดีย"
+
+#. BiDsR
+#: svtools/inc/langtab.hrc:428
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Guadeloupean Creole French"
+msgstr "ฝรั่งเศสลูกผสม กวาเดอลูป"
+
+#. 2b2P4
+#: svtools/inc/langtab.hrc:429
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Ligurian"
+msgstr "ลิกูเรีย"
+
+#. 3LvEE
+#: svtools/inc/langtab.hrc:430
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Minangkabau"
+msgstr "มีนังกาเบา"
+
+#. nDkKR
+#: svtools/inc/langtab.hrc:431
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sundanese"
+msgstr "ซุนดา"
+
+#. wGEAB
+#: svtools/inc/langtab.hrc:432
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Hong Kong)"
+msgstr "อังกฤษ (ฮ่องกง)"
+
+#. qTMB2
+#: svtools/inc/langtab.hrc:433
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Kenya)"
+msgstr "อังกฤษ (เคนยา)"
+
+#. SgQ2p
+#: svtools/inc/langtab.hrc:434
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Pali Thai"
+msgstr "บาลี อักษรไทย"
+
+#. DGeeF
+#: svtools/inc/langtab.hrc:435
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Cabécar"
+msgstr "คาเบคาร์"
+
+#. xHCtG
+#: svtools/inc/langtab.hrc:436
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Bribri"
+msgstr "บรีบรี"
+
+#. 2GFgR
+#: svtools/inc/langtab.hrc:437
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Denmark)"
+msgstr "อังกฤษ (เดนมาร์ก)"
+
+#. gmE6U
+#: svtools/inc/langtab.hrc:438
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Sesotho"
+msgstr "เซซูทู"
+
+#. BkKJX
+#: svtools/inc/langtab.hrc:439
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Klingon"
+msgstr "คลิงงอน"
+
+#. xFYhC
+#: svtools/inc/langtab.hrc:440
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Israel)"
+msgstr "อังกฤษ (อิสราเอล)"
+
+#. Bryjh
+#: svtools/inc/langtab.hrc:441
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Interslavic Latin"
+msgstr "อินเทอร์สลาวิก อักษรละติน"
+
+#. DZBAE
+#: svtools/inc/langtab.hrc:442
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Interslavic Cyrillic"
+msgstr "อินเทอร์สลาวิก อักษรซีริลลิก"
+
+#. 4eEDW
+#: svtools/inc/langtab.hrc:443
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Pennsylvania Dutch"
+msgstr "เพนซิลเวเนียดัตช์"
+
+#. vkGn5
+#: svtools/inc/langtab.hrc:444
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Portuguese (Mozambique)"
+msgstr "โปรตุเกส (โมซัมบิก)"
+
+#. gLsUC
+#: svtools/inc/langtab.hrc:445
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Saraiki"
+msgstr "ซะราอีกี"
+
+#. hnUCz
+#: svtools/inc/langtab.hrc:446
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Rohingya Hanifi"
+msgstr "โรฮีนจา อักษรฮะนีฟี"
+
+#. ywNvt
+#: svtools/inc/langtab.hrc:447
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Morisyen"
+msgstr "มอริเซียน"
+
+#. LAnhQ
+#: svtools/inc/langtab.hrc:448
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Santali, Ol Chiki"
+msgstr ""
+
+#. 8vSjE
+#: svtools/inc/langtab.hrc:449
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "French (Republic of Guinea)"
+msgstr ""
+
+#. VqBEd
+#: svtools/inc/langtab.hrc:450
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Abkhaz"
+msgstr ""
+
+#. VpFN4
+#: svtools/inc/langtab.hrc:451
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "English (Guyana)"
+msgstr ""
+
+#. sxQCH
+#: svtools/inc/langtab.hrc:452
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Gronings"
+msgstr ""
+
+#. EFDwD
+#: svtools/inc/langtab.hrc:453
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Extremaduran"
+msgstr ""
+
+#. fXSja
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:8
+msgctxt "addresstemplatedialog|AddressTemplateDialog"
+msgid "Templates: Address Book Assignment"
+msgstr "แม่แบบ: การกำหนดข้อมูลสมุดที่อยู่"
+
+#. AhGyN
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:104
+msgctxt "addresstemplatedialog|label33"
+msgid "Data source:"
+msgstr "แหล่งข้อมูล:"
+
+#. FSgAi
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:118
+msgctxt "addresstemplatedialog|label43"
+msgid "Table:"
+msgstr "ตาราง:"
+
+#. z3CHk
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:143
+msgctxt "addresstemplatedialog|extended_tip|datasource"
+msgid "Select the data source for your address book."
+msgstr "เลือกแหล่งข้อมูลของสมุดที่อยู่ของคุณ"
+
+#. UTY6t
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:167
+msgctxt "addresstemplatedialog|extended_tip|datatable"
+msgid "Select the data table for your address book."
+msgstr "เลือกตารางข้อมูลของสมุดที่อยู่ของคุณ"
+
+#. xkk5e
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:178
+msgctxt "addresstemplatedialog|admin"
+msgid "_Assign"
+msgstr "_กำหนด"
+
+#. TG8ad
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:185
+msgctxt "addresstemplatedialog|extended_tip|admin"
+msgid "Add a new data source to the Address Book Source list."
+msgstr "เพิ่มแหล่งข้อมูลใหม่ลงในรายชื่อแหล่งข้อมูลสมุดที่อยู่"
+
+#. sws8j
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:203
+msgctxt "addresstemplatedialog|label100"
+msgid "Address Book Source"
+msgstr "แหล่งข้อมูลสมุดที่อยู่"
+
+#. K4oiz
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:548
+msgctxt "addresstemplatedialog|label23"
+msgid "Field Assignment"
+msgstr "การกำหนดเขตข้อมูล"
+
+#. zEPAf
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:556
+msgctxt "addresstemplatedialog|extended_tip|assign"
+msgid "Select the field in the data table that corresponds to the address book entry."
+msgstr "เลือกเขตข้อมูลในตารางข้อมูลที่ตรงกับรายการในสมุดที่อยู่"
+
+#. qKBRS
+#: svtools/uiconfig/ui/addresstemplatedialog.ui:581
+msgctxt "addresstemplatedialog|extended_tip|AddressTemplateDialog"
+msgid "Edit the field assignments and the data source for your address book."
+msgstr "แก้ไขการกำหนดเขตข้อมูลต่างๆ และแหล่งข้อมูลของสมุดที่อยู่ของคุณ"
+
+#. 8qKyD
+#: svtools/uiconfig/ui/calendar.ui:43
+msgctxt "calendar|STR_SVT_CALENDAR_TODAY"
+msgid "Today"
+msgstr "วันนี้"
+
+#. Cr9A2
+#: svtools/uiconfig/ui/calendar.ui:58
+msgctxt "calendar|STR_SVT_CALENDAR_NONE"
+msgid "None"
+msgstr "ไม่เลือก"
+
+#. jVUd9
+#: svtools/uiconfig/ui/datewindow.ui:55
+msgctxt "datewindow|STR_SVT_CALENDAR_TODAY"
+msgid "Today"
+msgstr ""
+
+#. DdDKA
+#: svtools/uiconfig/ui/datewindow.ui:70
+msgctxt "datewindow|STR_SVT_CALENDAR_NONE"
+msgid "None"
+msgstr ""
+
+#. vrBni
+#: svtools/uiconfig/ui/fileviewmenu.ui:12
+msgctxt "fileviewmenu|delete"
+msgid "_Delete"
+msgstr "_ลบ"
+
+#. AJiPc
+#: svtools/uiconfig/ui/fileviewmenu.ui:20
+msgctxt "fileviewmenu|rename"
+msgid "_Rename"
+msgstr "เ_ปลี่ยนชื่อ"
+
+#. puJ5X
+#: svtools/uiconfig/ui/graphicexport.ui:51
+msgctxt "graphicexport|GraphicExportDialog"
+msgid "%1 Options"
+msgstr "ตัวเลือกสำหรับ %1"
+
+#. C3C7t
+#: svtools/uiconfig/ui/graphicexport.ui:141
+msgctxt "graphicexport|modifydimensionscb"
+msgid "Modify dimensions"
+msgstr "ปรับขนาด"
+
+#. pyd6J
+#: svtools/uiconfig/ui/graphicexport.ui:159
+msgctxt "graphicexport|label5"
+msgid "Width:"
+msgstr "ความกว้าง:"
+
+#. drQDY
+#: svtools/uiconfig/ui/graphicexport.ui:173
+msgctxt "graphicexport|label6"
+msgid "Height:"
+msgstr "ความสูง"
+
+#. exCyd
+#: svtools/uiconfig/ui/graphicexport.ui:184
+msgctxt "graphicexport|modifyresolutioncb"
+msgid "Modify resolution"
+msgstr "ปรับความละเอียด"
+
+#. ZWxGB
+#: svtools/uiconfig/ui/graphicexport.ui:202
+msgctxt "graphicexport|resolutionft"
+msgid "Resolution:"
+msgstr "ความละเอียด:"
+
+#. cwSZD
+#: svtools/uiconfig/ui/graphicexport.ui:222
+msgctxt "graphicexport|extended_tip|widthmf"
+msgid "Specifies the width."
+msgstr ""
+
+#. BPaB3
+#: svtools/uiconfig/ui/graphicexport.ui:242
+msgctxt "graphicexport|extended_tip|heightmf"
+msgid "Specifies the height."
+msgstr "ระบุความสูง"
+
+#. Da3fv
+#: svtools/uiconfig/ui/graphicexport.ui:262
+msgctxt "graphicexport|extended_tip|resolutionmf"
+msgid "Enter the image resolution. Select the measurement units from the list box."
+msgstr "ป้อนความละเอียดของรูปภาพ เลือกหน่วยวัดได้จากกล่องรายการ"
+
+#. S9aHs
+#: svtools/uiconfig/ui/graphicexport.ui:276
+msgctxt "graphicexport|liststore2"
+msgid "inches"
+msgstr "นิ้ว"
+
+#. dCstP
+#: svtools/uiconfig/ui/graphicexport.ui:277
+msgctxt "graphicexport|liststore2"
+msgid "cm"
+msgstr "ซม."
+
+#. X5dLV
+#: svtools/uiconfig/ui/graphicexport.ui:278
+msgctxt "graphicexport|liststore2"
+msgid "mm"
+msgstr "มม."
+
+#. 6vWVJ
+#: svtools/uiconfig/ui/graphicexport.ui:279
+msgctxt "graphicexport|liststore2"
+msgid "points"
+msgstr "พอยต์"
+
+#. ZqyAj
+#: svtools/uiconfig/ui/graphicexport.ui:280
+msgctxt "graphicexport|liststore2"
+msgid "pixels"
+msgstr "พิกเซล"
+
+#. jnajX
+#: svtools/uiconfig/ui/graphicexport.ui:284
+msgctxt "graphicexport|extended_tip|widthlb"
+msgid "Specifies the measurement units."
+msgstr ""
+
+#. kYLvv
+#: svtools/uiconfig/ui/graphicexport.ui:298
+msgctxt "graphicexport|liststore1"
+msgid "pixels/cm"
+msgstr "พิกเซล/ซม."
+
+#. zjmFd
+#: svtools/uiconfig/ui/graphicexport.ui:299
+msgctxt "graphicexport|liststore1"
+msgid "pixels/inch"
+msgstr "พิกเซล/นิ้ว"
+
+#. iMZW3
+#: svtools/uiconfig/ui/graphicexport.ui:300
+msgctxt "graphicexport|liststore1"
+msgid "pixels/meter"
+msgstr "พิกเซล/เมตร"
+
+#. ND5ki
+#: svtools/uiconfig/ui/graphicexport.ui:304
+msgctxt "graphicexport|extended_tip|resolutionlb"
+msgid "Enter the image resolution. Select the measurement units from the list box."
+msgstr "ป้อนความละเอียดของรูปภาพ เลือกหน่วยวัดได้จากกล่องรายการ"
+
+#. ENaqm
+#: svtools/uiconfig/ui/graphicexport.ui:322
+msgctxt "graphicexport|label1"
+msgid "Size"
+msgstr "ขนาด"
+
+#. Dc5fy
+#: svtools/uiconfig/ui/graphicexport.ui:348
+msgctxt "graphicexport|extended_tip|colordepthlb"
+msgid "Select the color depth from 8 bit grayscale or 24 bit true color."
+msgstr "เลือกความลึกสีตั้งแต่ระดับสีเทา 8 บิต ไปจนถึงสีจริง 24 บิต"
+
+#. hFaPC
+#: svtools/uiconfig/ui/graphicexport.ui:357
+msgctxt "graphicexport|label2"
+msgid "Color Depth"
+msgstr "ความลึกสี"
+
+#. eUi3Y
+#: svtools/uiconfig/ui/graphicexport.ui:385
+msgctxt "graphicexport|losslesscb"
+msgid "Lossless"
+msgstr "คงรายละเอียด"
+
+#. QKNme
+#: svtools/uiconfig/ui/graphicexport.ui:394
+msgctxt "graphicexport|extended_tip|losslesscb"
+msgid "Lossless images do not lose quality but result in larger files."
+msgstr "รูปภาพที่บีบอัดแบบคงรายละเอียดจะไม่เสียคุณภาพของรูปภาพ แต่จะได้ไฟล์ที่มีขนาดใหญ่"
+
+#. 5Gv5x
+#: svtools/uiconfig/ui/graphicexport.ui:413
+msgctxt "graphicexport|extended_tip|compressionjpgwebpnf"
+msgid "Sets the quality for the export. Choose from a low quality with minimal file size, up to a high quality and big file size."
+msgstr "กำหนดคุณภาพของรูปภาพที่ส่งออก โดยเลือกตั้งแต่คุณภาพต่ำโดยได้ไฟล์ขนาดเล็ก ไปจนถึงคุณภาพสูงโดยได้ไฟล์ขนาดใหญ่"
+
+#. Tk5y2
+#: svtools/uiconfig/ui/graphicexport.ui:445
+msgctxt "graphicexport|label9"
+msgid "Quality"
+msgstr "คุณภาพ"
+
+#. AHkNV
+#: svtools/uiconfig/ui/graphicexport.ui:481
+msgctxt "graphicexport|extended_tip|compressionpngnf"
+msgid "Sets the compression for the export. A high compression means a smaller, but slower to load image."
+msgstr "กำหนดระดับการบีบอัดของรูปภาพที่ส่งออก การบีบอัดที่สูงจะได้ไฟล์ที่มีขนาดเล็ก แต่การโหลดรูปภาพจะช้า"
+
+#. f4LYz
+#: svtools/uiconfig/ui/graphicexport.ui:510
+msgctxt "graphicexport|label"
+msgid "Compression"
+msgstr "การบีบอัดข้อมูล"
+
+#. hQadL
+#: svtools/uiconfig/ui/graphicexport.ui:530
+msgctxt "graphicexport|rlecb"
+msgid "RLE encoding"
+msgstr "การลงรหัส RLE"
+
+#. DqpKW
+#: svtools/uiconfig/ui/graphicexport.ui:541
+msgctxt "graphicexport|extended_tip|rlecb"
+msgid "Applies RLE (Run Length Encoding) to the BMP graphics."
+msgstr "ใช้ RLE (Run Length Encoding) กับภาพกราฟิก BMP"
+
+#. EA7BF
+#: svtools/uiconfig/ui/graphicexport.ui:550
+msgctxt "graphicexport|label3"
+msgid "Compression"
+msgstr "การบีบอัดข้อมูล"
+
+#. qiLZK
+#: svtools/uiconfig/ui/graphicexport.ui:570
+msgctxt "graphicexport|interlacedcb"
+msgid "Interlaced"
+msgstr "สอดประสาน"
+
+#. cLvu6
+#: svtools/uiconfig/ui/graphicexport.ui:581
+msgctxt "graphicexport|extended_tip|interlacedcb"
+msgid "Specifies whether the graphic is to be saved in interlaced mode."
+msgstr "ระบุว่าจะบันทึกภาพกราฟิกในแบบสอดประสานเส้นภาพหรือไม่"
+
+#. BkbD3
+#: svtools/uiconfig/ui/graphicexport.ui:590
+msgctxt "graphicexport|label12"
+msgid "Mode"
+msgstr "โหมด"
+
+#. Nhj88
+#: svtools/uiconfig/ui/graphicexport.ui:610
+msgctxt "graphicexport|savetransparencycb"
+msgid "Save transparency"
+msgstr "บันทึกความโปร่งแสง"
+
+#. kZ3uW
+#: svtools/uiconfig/ui/graphicexport.ui:621
+msgctxt "graphicexport|extended_tip|savetransparencycb"
+msgid "Specifies whether to save the background of the picture as transparent. Only objects will be visible in the GIF image. Use the Color Replacer to set the transparent color in the picture."
+msgstr "ระบุว่าจะบันทึกพื้นหลังของรูปภาพเป็นแบบโปร่งแสงหรือไม่ โดยจะทำให้รูปภาพ GIF แสดงเฉพาะตัววัตถุเท่านั้น หรือคุณอาจใช้ “เครื่องมือแทนที่สี” กำหนดสีโปร่งแสงในรูปภาพก็ได้"
+
+#. ZPmXf
+#: svtools/uiconfig/ui/graphicexport.ui:630
+msgctxt "graphicexport|labe"
+msgid "Drawing Objects"
+msgstr "วัตถุงานวาด"
+
+#. KMCxb
+#: svtools/uiconfig/ui/graphicexport.ui:657
+msgctxt "graphicexport|binarycb"
+msgid "Binary"
+msgstr "ไบนารี"
+
+#. qFTuj
+#: svtools/uiconfig/ui/graphicexport.ui:666
+msgctxt "graphicexport|extended_tip|binarycb"
+msgid "Exports the file in binary format. The resulting file is smaller than a text file."
+msgstr "ส่งออกไฟล์ในรูปแบบไบนารี ซึ่งจะทำให้ไฟล์ที่ได้มีขนาดเล็กกว่าแบบไฟล์ข้อความ"
+
+#. 8cZsH
+#: svtools/uiconfig/ui/graphicexport.ui:677
+msgctxt "graphicexport|textcb"
+msgid "Text"
+msgstr "ข้อความ"
+
+#. GFbg2
+#: svtools/uiconfig/ui/graphicexport.ui:686
+msgctxt "graphicexport|extended_tip|textcb"
+msgid "Exports the file in ASCII text format. The resulting file is larger than a binary file."
+msgstr "ส่งออกไฟล์ในรูปแบบข้อความ ASCII ซึ่งจะทำให้ไฟล์ที่ได้มีขนาดใหญ่กว่าแบบไฟล์ไบนารี"
+
+#. ECUb9
+#: svtools/uiconfig/ui/graphicexport.ui:701
+msgctxt "graphicexport|label16"
+msgid "Encoding"
+msgstr "การลงรหัส"
+
+#. aeV52
+#: svtools/uiconfig/ui/graphicexport.ui:733
+msgctxt "graphicexport|tiffpreviewcb"
+msgid "Image preview (TIFF)"
+msgstr "ภาพตัวอย่าง (TIFF)"
+
+#. H8vtD
+#: svtools/uiconfig/ui/graphicexport.ui:742
+msgctxt "graphicexport|extended_tip|tiffpreviewcb"
+msgid "Specifies whether a preview image is exported in the TIFF format together with the actual PostScript file."
+msgstr "ระบุว่าจะส่งออกภาพตัวอย่างในรูปแบบ TIFF ควบคู่กับภาพจริงในไฟล์ PostScript หรือไม่"
+
+#. AeEJu
+#: svtools/uiconfig/ui/graphicexport.ui:753
+msgctxt "graphicexport|epsipreviewcb"
+msgid "Interchange (EPSI)"
+msgstr "การแลกเปลี่ยน (EPSI)"
+
+#. gLbUQ
+#: svtools/uiconfig/ui/graphicexport.ui:761
+msgctxt "graphicexport|extended_tip|epsipreviewcb"
+msgid "Specifies whether a monochrome preview graphic in EPSI format is exported together with the PostScript file. This format only contains printable characters from the 7-bit ASCII code."
+msgstr "ระบุว่าจะส่งออกภาพตัวอย่างขาวดำในรูปแบบ EPSI ควบคู่กับไฟล์ PostScript หรือไม่ รูปแบบนี้จะใช้เฉพาะอักขระที่พิมพ์ได้จากรหัส ASCII 7 บิตเท่านั้น"
+
+#. sRbZb
+#: svtools/uiconfig/ui/graphicexport.ui:776
+msgctxt "graphicexport|label17"
+msgid "Preview"
+msgstr "ภาพตัวอย่าง"
+
+#. Jfbgx
+#: svtools/uiconfig/ui/graphicexport.ui:803
+msgctxt "graphicexport|color1rb"
+msgid "Color"
+msgstr "สี"
+
+#. LNHEi
+#: svtools/uiconfig/ui/graphicexport.ui:812
+msgctxt "graphicexport|extended_tip|color1rb"
+msgid "Exports the file in color."
+msgstr "ส่งออกไฟล์เป็นภาพสี"
+
+#. VeZFK
+#: svtools/uiconfig/ui/graphicexport.ui:823
+msgctxt "graphicexport|color2rb"
+msgid "Grayscale"
+msgstr "ระดับสีเทา"
+
+#. TWEx8
+#: svtools/uiconfig/ui/graphicexport.ui:832
+msgctxt "graphicexport|extended_tip|color2rb"
+msgid "Exports the file in grayscale tones."
+msgstr "ส่งออกไฟล์เป็นภาพไล่ระดับสีเทา"
+
+#. BbSGF
+#: svtools/uiconfig/ui/graphicexport.ui:847
+msgctxt "graphicexport|label18"
+msgid "Color Format"
+msgstr "รูปแบบสี"
+
+#. b6J7X
+#: svtools/uiconfig/ui/graphicexport.ui:874
+msgctxt "graphicexport|level1rb"
+msgid "Level 1"
+msgstr "ระดับ 1"
+
+#. pEcBC
+#: svtools/uiconfig/ui/graphicexport.ui:883
+msgctxt "graphicexport|extended_tip|level1rb"
+msgid "Compression is not available at this level. Select the Level 1 option if your PostScript printer does not offer the capabilities of Level 2."
+msgstr "ไม่สามารถใช้การบีบอัดได้ในระดับนี้ เลือกระดับ 1 ถ้าเครื่องพิมพ์ PostScript ของคุณไม่รองรับการทำงานต่างๆ ของระดับ 2"
+
+#. kuCNX
+#: svtools/uiconfig/ui/graphicexport.ui:894
+msgctxt "graphicexport|level2rb"
+msgid "Level 2"
+msgstr "ระดับ 2"
+
+#. wiWrE
+#: svtools/uiconfig/ui/graphicexport.ui:903
+msgctxt "graphicexport|extended_tip|level2rb"
+msgid "Select the Level 2 option if your output device supports colored bitmaps, palette graphics and compressed graphics."
+msgstr "เลือกระดับ 2 ถ้าอุปกรณ์ขาออกของคุณรองรับบิตแมปสี, ภาพกราฟิกแบบใช้จานสี, และภาพกราฟิกแบบบีบอัด"
+
+#. JUuBZ
+#: svtools/uiconfig/ui/graphicexport.ui:918
+msgctxt "graphicexport|label19"
+msgid "Version"
+msgstr "รุ่น"
+
+#. FjkbL
+#: svtools/uiconfig/ui/graphicexport.ui:945
+msgctxt "graphicexport|compresslzw"
+msgid "LZW encoding"
+msgstr "การลงรหัส LZW"
+
+#. 5cYFM
+#: svtools/uiconfig/ui/graphicexport.ui:954
+msgctxt "graphicexport|extended_tip|compresslzw"
+msgid "LZW compression is the compression of a file into a smaller file using a table-based lookup algorithm."
+msgstr "การบีบอัดข้อมูลแบบ LZW เป็นการบีบอัดไฟล์ให้มีขนาดเล็กลงโดยใช้อัลกอริทึมแบบเปิดตาราง"
+
+#. vXGXe
+#: svtools/uiconfig/ui/graphicexport.ui:965
+msgctxt "graphicexport|compressnone"
+msgid "None"
+msgstr "ไม่บีบอัด"
+
+#. kW3QD
+#: svtools/uiconfig/ui/graphicexport.ui:974
+msgctxt "graphicexport|extended_tip|compressnone"
+msgid "Specifies that you do not wish to use compression."
+msgstr "ระบุว่าคุณไม่ต้องการใช้การบีบอัดข้อมูล"
+
+#. ghAqZ
+#: svtools/uiconfig/ui/graphicexport.ui:989
+msgctxt "graphicexport|label20"
+msgid "Compression"
+msgstr "การบีบอัดข้อมูล"
+
+#. LmAeC
+#: svtools/uiconfig/ui/graphicexport.ui:1028
+msgctxt "graphicexport|label4"
+msgid "Information"
+msgstr "ข้อสนเทศ"
+
+#. 68xBA
+#: svtools/uiconfig/ui/javadisableddialog.ui:7
+msgctxt "javadisableddialog|JavaDisabledDialog"
+msgid "Enable JRE?"
+msgstr "เปิดใช้งาน JRE หรือไม่?"
+
+#. s9RtZ
+#: svtools/uiconfig/ui/javadisableddialog.ui:13
+msgctxt "javadisableddialog|JavaDisabledDialog"
+msgid "%PRODUCTNAME requires a Java runtime environment (JRE) to perform this task. However, use of a JRE has been disabled. Do you want to enable the use of a JRE now?"
+msgstr "%PRODUCTNAME ต้องการ Java Runtime Environment (JRE) เพื่อทำการนี้ แต่ JRE ได้ถูกปิดไว้ คุณต้องการเปิดใช้งาน JRE เลยหรือไม่?"
+
+#. 9exk9
+#: svtools/uiconfig/ui/linewindow.ui:23
+msgctxt "linewindow|none_line_button"
+msgid "None"
+msgstr "ไม่มี"
+
+#. LwyoW
+#: svtools/uiconfig/ui/placeedit.ui:18
+msgctxt "placeedit|PlaceEditDialog"
+msgid "File Services"
+msgstr "บริการไฟล์ในเครือข่าย"
+
+#. sz9uP
+#: svtools/uiconfig/ui/placeedit.ui:111
+msgctxt "placeedit|typeLabel"
+msgid "Type:"
+msgstr "ชนิด:"
+
+#. AkqhA
+#: svtools/uiconfig/ui/placeedit.ui:127
+msgctxt "placeedit|liststore1"
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#. jtCfC
+#: svtools/uiconfig/ui/placeedit.ui:128
+msgctxt "placeedit|liststore1"
+msgid "SSH"
+msgstr "SSH"
+
+#. 5aYwy
+#: svtools/uiconfig/ui/placeedit.ui:129
+msgctxt "placeedit|liststore1"
+msgid "Windows Share"
+msgstr "การเปิดใช้ร่วมของ Windows"
+
+#. NFxzA
+#: svtools/uiconfig/ui/placeedit.ui:155
+msgctxt "placeedit|hostLabel"
+msgid "Host:"
+msgstr "โฮสต์:"
+
+#. 6QfCF
+#: svtools/uiconfig/ui/placeedit.ui:188
+msgctxt "placeedit|portLabel"
+msgid "Port:"
+msgstr "พอร์ต:"
+
+#. 6xp54
+#: svtools/uiconfig/ui/placeedit.ui:223
+msgctxt "placeedit|webdavs"
+msgid "Secure connection"
+msgstr "การเชื่อมต่อแบบปลอดภัย"
+
+#. uEUaM
+#: svtools/uiconfig/ui/placeedit.ui:239
+msgctxt "placeedit|shareLabel"
+msgid "Share:"
+msgstr "จุดใช้ร่วม:"
+
+#. B8mT8
+#: svtools/uiconfig/ui/placeedit.ui:266
+msgctxt "placeedit|loginLabel"
+msgid "User:"
+msgstr "ผู้ใช้:"
+
+#. 8boor
+#: svtools/uiconfig/ui/placeedit.ui:293
+msgctxt "placeedit|passwordLabel"
+msgid "Password:"
+msgstr "รหัสผ่าน:"
+
+#. DFwBC
+#: svtools/uiconfig/ui/placeedit.ui:317
+msgctxt "placeedit|rememberPassword"
+msgid "Remember password"
+msgstr "จำรหัสผ่าน"
+
+#. xJNi8
+#: svtools/uiconfig/ui/placeedit.ui:333
+msgctxt "placeedit|repositoryLabel"
+msgid "Repository:"
+msgstr "คลัง:"
+
+#. jRt98
+#: svtools/uiconfig/ui/placeedit.ui:384
+msgctxt "placeedit|nameLabel"
+msgid "Label:"
+msgstr "ป้ายชื่อ:"
+
+#. YuAy3
+#: svtools/uiconfig/ui/placeedit.ui:411
+msgctxt "placeedit|pathLabel"
+msgid "Root:"
+msgstr "ราก:"
+
+#. AnwWt
+#: svtools/uiconfig/ui/printersetupdialog.ui:8
+msgctxt "printersetupdialog|PrinterSetupDialog"
+msgid "Printer Setup"
+msgstr "การตั้งค่าเครื่องพิมพ์"
+
+#. ZNAnC
+#: svtools/uiconfig/ui/printersetupdialog.ui:40
+msgctxt "printersetupdialog|options"
+msgid "Options..."
+msgstr "ตัวเลือก..."
+
+#. NCVY4
+#: svtools/uiconfig/ui/printersetupdialog.ui:109
+msgctxt "printersetupdialog|label2"
+msgid "Name:"
+msgstr "ชื่อ:"
+
+#. TrFGR
+#: svtools/uiconfig/ui/printersetupdialog.ui:126
+msgctxt "printersetupdialog|extended_tip|name"
+msgid "Lists the installed printers on your operating system. To change the default printer, select a printer name from the list."
+msgstr "แสดงรายชื่อเครื่องพิมพ์ที่ติดตั้งไว้ในระบบปฏิบัติการของคุณ คุณสามารถเปลี่ยนเครื่องพิมพ์เริ่มต้นได้โดยเลือกชื่อเครื่องพิมพ์จากรายชื่อนี้"
+
+#. 3uJUu
+#: svtools/uiconfig/ui/printersetupdialog.ui:137
+msgctxt "printersetupdialog|properties"
+msgid "Properties..."
+msgstr "คุณสมบัติ..."
+
+#. DFBtc
+#: svtools/uiconfig/ui/printersetupdialog.ui:143
+msgctxt "printersetupdialog|extended_tip|properties"
+msgid "Changes the printer settings of your operating system for the current document."
+msgstr "ปรับการตั้งค่าเครื่องพิมพ์ของระบบปฏิบัติการของคุณเพื่อใช้กับเอกสารปัจจุบัน"
+
+#. utGE2
+#: svtools/uiconfig/ui/printersetupdialog.ui:156
+msgctxt "printersetupdialog|label3"
+msgid "Status:"
+msgstr "สถานะ:"
+
+#. GxvkC
+#: svtools/uiconfig/ui/printersetupdialog.ui:168
+msgctxt "printersetupdialog|label4"
+msgid "Type:"
+msgstr "ชนิด:"
+
+#. amoGB
+#: svtools/uiconfig/ui/printersetupdialog.ui:180
+msgctxt "printersetupdialog|label5"
+msgid "Location:"
+msgstr "ตำแหน่ง:"
+
+#. B66Zc
+#: svtools/uiconfig/ui/printersetupdialog.ui:192
+msgctxt "printersetupdialog|label6"
+msgid "Comment:"
+msgstr "คำอธิบาย:"
+
+#. XHe8U
+#: svtools/uiconfig/ui/printersetupdialog.ui:254
+msgctxt "printersetupdialog|label1"
+msgid "Printer"
+msgstr "เครื่องพิมพ์"
+
+#. sR2LP
+#: svtools/uiconfig/ui/printersetupdialog.ui:276
+msgctxt "printersetupdialog|extended_tip|PrinterSetupDialog"
+msgid "Select the default printer for the current document."
+msgstr "เลือกเครื่องพิมพ์เริ่มต้นสำหรับเอกสารปัจจุบัน"
+
+#. psFPB
+#: svtools/uiconfig/ui/querydeletedialog.ui:7
+msgctxt "querydeletedialog|QueryDeleteDialog"
+msgid "Confirm Delete"
+msgstr "ยืนยันการลบ"
+
+#. NH24h
+#: svtools/uiconfig/ui/querydeletedialog.ui:13
+msgctxt "querydeletedialog|QueryDeleteDialog"
+msgid "Are you sure you want to delete the selected data?"
+msgstr "ยืนยันหรือไม่ว่าคุณต้องการลบข้อมูลที่เลือก?"
+
+#. dJB35
+#: svtools/uiconfig/ui/querydeletedialog.ui:14
+msgctxt "querydeletedialog|QueryDeleteDialog"
+msgid "Entry: %s"
+msgstr "รายการ: %s"
+
+#. qKVAA
+#: svtools/uiconfig/ui/querydeletedialog.ui:25
+msgctxt "querydeletedialog|yes"
+msgid "_Delete"
+msgstr "_ลบ"
+
+#. JzPix
+#: svtools/uiconfig/ui/querydeletedialog.ui:34
+msgctxt "querydeletedialog|extended_tip|yes"
+msgid "Click to delete the file with the name shown in this dialog."
+msgstr ""
+
+#. KSj3y
+#: svtools/uiconfig/ui/querydeletedialog.ui:46
+msgctxt "querydeletedialog|all"
+msgid "Delete _All"
+msgstr "ลบ_ทั้งหมด"
+
+#. aAJb2
+#: svtools/uiconfig/ui/querydeletedialog.ui:54
+msgctxt "querydeletedialog|extended_tip|all"
+msgid "Click to delete all selected files."
+msgstr ""
+
+#. JXutA
+#: svtools/uiconfig/ui/querydeletedialog.ui:66
+msgctxt "querydeletedialog|no"
+msgid "Do _Not Delete"
+msgstr "ไ_ม่ลบ"
+
+#. ogggs
+#: svtools/uiconfig/ui/querydeletedialog.ui:73
+msgctxt "querydeletedialog|extended_tip|no"
+msgid "Click to cancel deletion of the file with the name shown in this dialog."
+msgstr ""
+
+#. KtcWg
+#: svtools/uiconfig/ui/restartdialog.ui:8
+msgctxt "restartdialog|RestartDialog"
+msgid "Restart %PRODUCTNAME"
+msgstr "เริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. SGCCG
+#: svtools/uiconfig/ui/restartdialog.ui:26
+msgctxt "restartdialog|yes"
+msgid "_Restart Now"
+msgstr ""
+
+#. jQATd
+#: svtools/uiconfig/ui/restartdialog.ui:42
+msgctxt "restartdialog|no"
+msgid "Restart _Later"
+msgstr ""
+
+#. LBUvc
+#: svtools/uiconfig/ui/restartdialog.ui:72
+msgctxt "restartdialog|reason_java"
+msgid "For the selected Java runtime environment to work properly, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้ Java Runtime Environment ที่เลือกทำงานได้อย่างถูกต้อง จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. rv3cE
+#: svtools/uiconfig/ui/restartdialog.ui:87
+msgctxt "restartdialog|reason_mailmerge_install"
+msgid "For mail merge to work properly, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้เครื่องมือสร้างจดหมายเวียนทำงานได้อย่างถูกต้อง จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. DuVPb
+#: svtools/uiconfig/ui/restartdialog.ui:102
+msgctxt "restartdialog|reason_bibliography_install"
+msgid "For the bibliography to work properly, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้บรรณานุกรมทำงานได้อย่างถูกต้อง จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. WZXc9
+#: svtools/uiconfig/ui/restartdialog.ui:117
+msgctxt "restartdialog|reason_assigning_folders"
+msgid "For the assigned folders and archives to take effect, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้โฟลเดอร์และกรุต่างๆ ที่กำหนดไว้เริ่มมีผล จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. hmir5
+#: svtools/uiconfig/ui/restartdialog.ui:132
+msgctxt "restartdialog|reason_assigning_javaparameters"
+msgid "For the assigned Java parameters to take effect, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้พารามิเตอร์ต่างๆ ของ Java ที่กำหนดไว้เริ่มมีผล จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. CQyix
+#: svtools/uiconfig/ui/restartdialog.ui:147
+msgctxt "restartdialog|reason_adding_path"
+msgid "For the added path to take effect, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้พาธที่เพิ่มเริ่มมีผล จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. uXRfT
+#: svtools/uiconfig/ui/restartdialog.ui:162
+msgctxt "restartdialog|reason_language_change"
+msgid "For the updated UI language setting to take effect, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้การปรับเปลี่ยนการตั้งค่าภาษาของ UI เริ่มมีผล จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. MtNwS
+#: svtools/uiconfig/ui/restartdialog.ui:177
+msgctxt "restartdialog|reason_exp_features"
+msgid "For the modified experimental features to take effect, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้การปรับเปลี่ยนการใช้คุณลักษณะที่อยู่ระหว่างทดลองเริ่มมีผล จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. T7Cuz
+#: svtools/uiconfig/ui/restartdialog.ui:192
+msgctxt "restartdialog|reason_extension_install"
+msgid "For the extension to work properly, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้ส่วนขยายทำงานได้อย่างถูกต้อง จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. Y9MQ8
+#: svtools/uiconfig/ui/restartdialog.ui:207
+msgctxt "restartdialog|reason_theme_reload"
+msgid "To apply theme changes, %PRODUCTNAME must be restarted."
+msgstr ""
+
+#. a3GKZ
+#: svtools/uiconfig/ui/restartdialog.ui:222
+msgctxt "restartdialog|reason_calculation"
+msgid "For the Calculation settings changes to take effect, %PRODUCTNAME must be restarted."
+msgstr ""
+
+#. weAzr
+#: svtools/uiconfig/ui/restartdialog.ui:237
+msgctxt "restartdialog|label"
+msgid "Do you want to restart %PRODUCTNAME now?"
+msgstr "คุณต้องการเริ่มเปิด %PRODUCTNAME ทันทีหรือไม่?"
+
+#. fpc8k
+#: svtools/uiconfig/ui/restartdialog.ui:251
+msgctxt "restartdialog|reason_skia"
+msgid "For the Skia changes to take effect, %PRODUCTNAME must be restarted."
+msgstr "เพื่อให้การปรับเปลี่ยนของ Skia เริ่มมีผล จะต้องเริ่มเปิด %PRODUCTNAME ใหม่"
+
+#. v9FjK
+#: svtools/uiconfig/ui/thineditcontrol.ui:72
+msgctxt "thineditcontrol|button"
+msgid "Pick Date"
+msgstr "เลือกวันที่"

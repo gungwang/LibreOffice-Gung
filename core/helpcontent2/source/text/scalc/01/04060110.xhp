@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+-->
+
+<meta>
+  <topic id="textscalc0104060110xml" indexer="include">
+    <title id="tit">Text Functions</title>
+    <filename>/text/scalc/01/04060110.xhp</filename>
+  </topic>
+</meta>
+
+<body>
+
+<bookmark branch="index" id="bm_id3145389">
+  <bookmark_value>text in cells; functions</bookmark_value>
+  <bookmark_value>functions; text functions</bookmark_value>
+  <bookmark_value>Function Wizard;text</bookmark_value>
+</bookmark>
+
+
+<h1 id="hd_id3145389"><variable id="head_text"><link href="text/scalc/01/04060110.xhp">Text Functions</link></variable></h1>
+<paragraph id="par_id3152986" role="paragraph"><variable id="texttext">This section contains descriptions of the <emph>Text</emph> functions. </variable></paragraph>
+
+<section id="howtoget">
+<embed href="text/scalc/00/00000404.xhp#eikatext"/>
+</section>
+
+<section id="double_quotation_marks_in_formulas">
+<bookmark branch="index" id="bm_id331624453577057">
+  <bookmark_value>using double quotation marks in formulas</bookmark_value>
+  <bookmark_value>formulas; using double quotation marks</bookmark_value>
+</bookmark>
+
+<h2 id="hd_id291624454173529">Using double quotation marks in formulas</h2>
+
+<paragraph role="paragraph" id="par_id891624454058773">To include a text string in a formula, place the text string between two double quotation marks (") and Calc takes the characters in the string without attempting to interpret them. For example, the formula <input>="Hello world!"</input> displays the text string <literal>Hello world!</literal> in the cell, with no surrounding double quotation marks.</paragraph>
+
+<paragraph role="paragraph" id="par_id461624454425320">The more complex formula <input>=CONCATENATE("Life is really simple, "; "but we insist on making it complicated "; "(Confucius).")</input> concatenates three individual strings in double quotation marks, outputting <literal>Life is really simple, but we insist on making it complicated (Confucius).</literal></paragraph>
+
+<paragraph role="paragraph" id="par_id711624454477483">To place a literal double quotation mark within a string inside a formula, two methods can be used:</paragraph>
+
+<list type="ordered">
+    <listitem>
+        <paragraph id="par_id541624454496424" role="listitem">You can "escape" the double quotation mark with an additional double quotation mark, and Calc treats the escaped double quotation mark as a literal value. For example, the formula <input>="My name is ""John Doe""."</input> outputs the string <literal>My name is "John Doe".</literal> Another simple example is the formula <input>=UNICODE("""")</input> which returns <literal>34</literal>, the decimal value of the Unicode quotation mark character (U+0022) — here the first and fourth double quotation marks indicate the beginning and end of the string, while the second double quotation mark escapes the third.</paragraph>
+    </listitem>
+    <listitem>
+        <paragraph id="par_id21624454513641" role="listitem">You can use the CHAR function or the UNICHAR function to insert a double quotation mark. For example, the formula <input>=UNICHAR(34) &amp; "The Catcher in the Rye" &amp; UNICHAR(34) &amp; " is a famous book by J. D. Salinger."</input> displays the string <literal>"The Catcher in the Rye" is a famous book by J. D. Salinger.</literal></paragraph>
+    </listitem>
+</list>
+
+<paragraph role="paragraph" id="par_id401624454547945">Be aware that Calc's AutoCorrect function may modify double quotation marks. AutoCorrect should not change the double quotation marks within formula cells but may change those used in non-formula cells containing text. For example, if you copy a string that is surrounded by some other form of typographical double quotation marks, such as the left double quotation mark (U+201C) and the right double quotation mark (U+201D), and then paste into a formula cell, an error may result. Open the <emph>Double Quotes</emph> area of the <menuitem>Tools - AutoCorrect Options - Localized Options</menuitem> dialog to set the characters used to automatically correct the start and end typographical double quotation marks. Uncheck the <menuitem>Replace</menuitem> toggle button to disable the feature.</paragraph>
+
+</section>
+<h2 id="hd_id451721571883016">Empty string and blank cells</h2>
+<paragraph role="paragraph" id="par_id241721571890240"><variable id="stringblank">Cells with the empty string ("") are not equivalent to blank cells. When searching or calculating with text, the empty string "" is the text with length zero.</variable></paragraph>
+<paragraph role="paragraph" id="par_id451721571895265">For example, when the formula in A1 returns the empty string "", the following applies:</paragraph>
+<paragraph role="paragraph" id="par_id591721571900225"><input>=ISBLANK(A1)</input> returns FALSE. The cell is not blank.</paragraph>
+<paragraph role="paragraph" id="par_id781721571904769"><input>=ISFORMULA(A1)</input> returns TRUE. The cell is a formula.</paragraph>
+<paragraph role="paragraph" id="par_id671721571909081"><input>=ISLOGICAL(A1)</input> returns FALSE. Not a logical value.
+</paragraph>
+<paragraph role="paragraph" id="par_id791721571916704"><input>=ISNONTEXT(A1)</input> returns FALSE. The cell has the empty string.</paragraph>
+<paragraph role="paragraph" id="par_id91721571920288"><input>=ISNUMBER(A1)</input> returns FALSE. Not a number.</paragraph>
+<paragraph role="paragraph" id="par_id821721571924250"><input>=ISTEXT(A1)</input> returns TRUE. The cell has the empty string, calculated by a formula.</paragraph>
+<paragraph role="paragraph" id="par_id71721571927654"><input>=LEN(A1)</input> returns 0. The length of the empty string is 0.</paragraph>
+
+
+<sort order="asc" descendant="h2">
+
+<section id="arabic"><embed href="text/scalc/01/func_arabic.xhp#func_arabic"/></section>
+
+<section id="asc"><embed href="text/scalc/01/func_asc.xhp#func_asc"/></section>
+
+<section id="bahttext"><embed href="text/scalc/01/func_bahttext.xhp#func_bahttext"/></section>
+
+<section id="base"><embed href="text/scalc/01/func_base.xhp#func_base"/></section>
+
+<section id="char"><embed href="text/scalc/01/func_char.xhp#func_char"/></section>
+
+<section id="clean"><embed href="text/scalc/01/func_clean.xhp#func_clean"/></section>
+
+<section id="code"><embed href="text/scalc/01/func_code.xhp#func_code"/></section>
+
+<section id="concatenate"><embed href="text/scalc/01/func_concatenate.xhp#func_concatenate"/></section>
+
+<section id="decimal"><embed href="text/scalc/01/func_decimal.xhp#func_decimal"/></section>
+
+<section id="dollar"><embed href="text/scalc/01/func_dollar.xhp#func_dollar"/></section>
+
+<section id="encodeurl"><embed href="text/scalc/01/func_encodeurl.xhp#encodeurlfuncheader"/></section>
+
+<section id="exact"><embed href="text/scalc/01/func_exact.xhp#func_exact"/></section>
+
+<section id="filterxml"><embed href="text/scalc/01/func_filterxml.xhp#filterxmlfuncheader"/></section>
+
+<section id="find"><embed href="text/scalc/01/func_find.xhp#func_find"/></section>
+
+<section id="fixed"><embed href="text/scalc/01/func_fixed.xhp#func_fixed"/></section>
+
+<section id="jis">  <embed href="text/scalc/01/func_jis.xhp#func_jis"/></section>
+
+<section id="left"><embed href="text/scalc/01/func_left.xhp#func_left"/></section>
+
+<section id="leftb"><embed href="text/scalc/01/func_leftb.xhp#func_leftb"/></section>
+
+<section id="len"><embed href="text/scalc/01/func_len.xhp#func_len"/></section>
+
+<section id="lenb"><embed href="text/scalc/01/func_lenb.xhp#func_lenb"/></section>
+
+<section id="lower"><embed href="text/scalc/01/func_lower.xhp#func_lower"/></section>
+
+<section id="mid"><embed href="text/scalc/01/func_mid.xhp#func_mid"/></section>
+
+<section id="midb"><embed href="text/scalc/01/func_midb.xhp#func_midb"/></section>
+
+<section id="proper"><embed href="text/scalc/01/func_proper.xhp#func_proper"/></section>
+
+<section id="regex"><embed href="text/scalc/01/func_regex.xhp#func_regex"/></section>
+
+<section id="replace"><embed href="text/scalc/01/func_replace.xhp#func_replace"/></section>
+
+<section id="rept"><embed href="text/scalc/01/func_rept.xhp#func_rept"/></section>
+
+<section id="right"><embed href="text/scalc/01/func_right.xhp#func_right"/></section>
+
+<section id="rightb"><embed href="text/scalc/01/func_rightb.xhp#func_rightb"/></section>
+
+<section id="roman">  <embed href="text/scalc/01/func_roman.xhp#func_roman"/></section>
+
+<section id="search"><embed href="text/scalc/01/func_search.xhp#func_search"/></section>
+
+<section id="substitute"><embed href="text/scalc/01/func_substitute.xhp#func_substitute"/></section>
+
+<section id="t"><embed href="text/scalc/01/func_t.xhp#func_t"/></section>
+
+<section id="text"><embed href="text/scalc/01/func_text.xhp#func_text"/></section>
+
+<section id="trim"><embed href="text/scalc/01/func_trim.xhp#func_trim"/></section>
+
+<section id="unichar"><embed href="text/scalc/01/func_unichar.xhp#func_unichar"/></section>
+
+<section id="unicode"><embed href="text/scalc/01/func_unicode.xhp#func_unicode"/></section>
+
+<section id="upper"><embed href="text/scalc/01/func_upper.xhp#func_upper"/></section>
+
+<section id="value"><embed href="text/scalc/01/func_value.xhp#func_value"/></section>
+
+<section id="webservice"><embed href="text/scalc/01/func_webservice.xhp#webservicefuncheader"/></section>
+
+</sort>
+
+<section id="relatedtopics">
+<embed href="text/scalc/01/04060100.xhp#drking"/>
+</section>
+</body>
+
+</helpdocument>

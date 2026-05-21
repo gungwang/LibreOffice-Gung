@@ -1,0 +1,120 @@
+#. extracted from svl
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2022-01-31 18:20+0100\n"
+"PO-Revision-Date: 2026-03-13 14:30+0000\n"
+"Last-Translator: Athmane MOKRAOUI <butterflyoffire@users.noreply.translations.documentfoundation.org>\n"
+"Language-Team: Kabyle <https://translations.documentfoundation.org/projects/libo_ui-master/svlmessages/kab/>\n"
+"Language: kab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1519742919.000000\n"
+
+#. PDMJD
+#. Internet Media Type Presentations
+#: include/svl/svl.hrc:26
+msgctxt "STR_SVT_MIMETYPE_CNT_FSYSBOX"
+msgid "Workplace"
+msgstr "Tamnaṭ n umahil"
+
+#. k4iRz
+#: include/svl/svl.hrc:27
+msgctxt "STR_FILECTRL_BUTTONTEXT"
+msgid "Browse..."
+msgstr ""
+
+#. jPdyf
+#. tdf#145919 localizable strings to be shared in vcl and cui modules
+#: include/svl/svl.hrc:30
+msgctxt "GRTSTR_PASSED"
+msgid "PASSED"
+msgstr ""
+
+#. CreDg
+#: include/svl/svl.hrc:31
+msgctxt "GRTSTR_QUIRKY"
+msgid "QUIRKY"
+msgstr ""
+
+#. DAmDx
+#: include/svl/svl.hrc:32
+msgctxt "GRTSTR_FAILED"
+msgid "FAILED"
+msgstr ""
+
+#. kR2Uu
+#: include/svl/svl.hrc:33
+msgctxt "GRTSTR_SKIPPED"
+msgid "SKIPPED"
+msgstr "YETTWAZGEL"
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "Rnu"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "_Snes"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "_Semmet"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "Mdel (_C)"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "Kkes (_D)"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "Ẓr_eg"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "Ta_llelt"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "Amay_nut"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "Uhu (_N)"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "Ih (_O)"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "Kkes (_R)"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "A_les awennez"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "_Ih"

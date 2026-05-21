@@ -1,0 +1,953 @@
+#. extracted from helpcontent2/source/text/scalc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2025-07-23 13:31+0200\n"
+"PO-Revision-Date: 2026-01-02 17:30+0000\n"
+"Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
+"Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textscalc/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Weblate 5.10.1\n"
+"X-POOTLE-MTIME: 1513085807.000000\n"
+
+#. ZxQeC
+#: main0000.xhp
+msgctxt ""
+"main0000.xhp\n"
+"tit\n"
+"help.text"
+msgid "Welcome to the $[officename] Calc Help"
+msgstr "Willkommen bei der Hilfe zu $[officename] Calc"
+
+#. PqA2G
+#: main0000.xhp
+msgctxt ""
+"main0000.xhp\n"
+"hd_id3147338\n"
+"help.text"
+msgid "Welcome to the $[officename] Calc Help"
+msgstr "Willkommen bei der Hilfe zu $[officename] Calc"
+
+#. FATnT
+#: main0000.xhp
+msgctxt ""
+"main0000.xhp\n"
+"hd_id3153965\n"
+"help.text"
+msgid "How to Work With $[officename] Calc"
+msgstr "Mit $[officename] Calc arbeiten"
+
+#. scHF2
+#: main0000.xhp
+msgctxt ""
+"main0000.xhp\n"
+"par_id3147004\n"
+"help.text"
+msgid "<link href=\"text/scalc/01/04060100.xhp\">List of Functions by Category</link>"
+msgstr "<link href=\"text/scalc/01/04060100.xhp\">Funktionsliste nach Kategorien</link>"
+
+#. SBdpw
+#: main0000.xhp
+msgctxt ""
+"main0000.xhp\n"
+"hd_id3154659\n"
+"help.text"
+msgid "$[officename] Calc Menus, Toolbars, and Keys"
+msgstr "Menüs, Symbolleisten und Tastenkombinationen in $[officename] Calc"
+
+#. aFUnY
+#: main0100.xhp
+msgctxt ""
+"main0100.xhp\n"
+"tit\n"
+"help.text"
+msgid "Menus"
+msgstr "Menüs"
+
+#. 9PhSp
+#: main0100.xhp
+msgctxt ""
+"main0100.xhp\n"
+"hd_id3156023\n"
+"help.text"
+msgid "<variable id=\"main0100\"><link href=\"text/scalc/main0100.xhp\">Menus</link></variable>"
+msgstr "<variable id=\"main0100\"><link href=\"text/scalc/main0100.xhp\">Menüs</link></variable>"
+
+#. cbjYY
+#: main0100.xhp
+msgctxt ""
+"main0100.xhp\n"
+"par_id3154760\n"
+"help.text"
+msgid "The following menu commands are available for spreadsheets."
+msgstr "Für Tabellendokumente stehen die folgenden Menübefehle zur Verfügung."
+
+#. RHWHH
+#: main0112.xhp
+msgctxt ""
+"main0112.xhp\n"
+"tit\n"
+"help.text"
+msgid "Data"
+msgstr "Daten"
+
+#. 84mGe
+#: main0112.xhp
+msgctxt ""
+"main0112.xhp\n"
+"hd_id3153254\n"
+"help.text"
+msgid "<link href=\"text/scalc/main0112.xhp\">Data</link>"
+msgstr "<link href=\"text/scalc/main0112.xhp\">Daten</link>"
+
+#. gxhqm
+#: main0112.xhp
+msgctxt ""
+"main0112.xhp\n"
+"par_id3147264\n"
+"help.text"
+msgid "<ahelp hid=\".\">Use the <emph>Data</emph> menu commands to edit the data in the current sheet. You can define ranges, sort and filter the data, calculate results, outline data, and create a pivot table.</ahelp>"
+msgstr "<ahelp hid=\".\">Die Daten der aktuellen Tabelle bearbeiten Sie mit den Befehlen unter <emph>Daten</emph>. Sie können Datenbereiche definieren, die Daten sortieren und filtern, Ergebnisse berechnen, Daten gliedern sowie Pivot-Tabellen erstellen.</ahelp>"
+
+#. efuyu
+#: main0116.xhp
+msgctxt ""
+"main0116.xhp\n"
+"tit\n"
+"help.text"
+msgid "Sheet"
+msgstr "Tabelle"
+
+#. 7eVaK
+#: main0116.xhp
+msgctxt ""
+"main0116.xhp\n"
+"hd_id0906201507390173\n"
+"help.text"
+msgid "<link href=\"text/scalc/main0116.xhp\">Sheet</link>"
+msgstr "<link href=\"text/scalc/main0116.xhp\">Tabelle</link>"
+
+#. cLyep
+#: main0116.xhp
+msgctxt ""
+"main0116.xhp\n"
+"par_id0906201507414091\n"
+"help.text"
+msgid "<ahelp hid=\".\">This menu contains commands to modify and manage a sheet and its elements.</ahelp>"
+msgstr "<ahelp hid=\".\">Dieses Menü enthält Befehle, um eine Tabelle und seine Elemente zu verändern und zu verwalten.</ahelp>"
+
+#. 5DRv5
+#: main0200.xhp
+msgctxt ""
+"main0200.xhp\n"
+"tit\n"
+"help.text"
+msgid "Toolbars"
+msgstr "Symbolleisten"
+
+#. eSP96
+#: main0200.xhp
+msgctxt ""
+"main0200.xhp\n"
+"hd_id3154758\n"
+"help.text"
+msgid "<variable id=\"main0200\"><link href=\"text/scalc/main0200.xhp\">Toolbars</link></variable>"
+msgstr "<variable id=\"main0200\"><link href=\"text/scalc/main0200.xhp\">Symbolleisten</link></variable>"
+
+#. yvzAm
+#: main0200.xhp
+msgctxt ""
+"main0200.xhp\n"
+"par_id3148798\n"
+"help.text"
+msgid "This submenu lists the toolbars that are available in spreadsheets. This overview describes the default toolbar configuration for %PRODUCTNAME."
+msgstr "Dieses Untermenü listet die in Tabellendokumenten verfügbaren Symbolleisten auf. Diese Übersicht beschreibt die standardmäßige Symbolleistenkonfiguration für %PRODUCTNAME."
+
+#. XUCUB
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"tit\n"
+"help.text"
+msgid "Formatting Bar"
+msgstr "Symbolleiste Format"
+
+#. VzJEC
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"hd_id3150448\n"
+"help.text"
+msgid "<link href=\"text/scalc/main0202.xhp\">Formatting Bar</link>"
+msgstr "<link href=\"text/scalc/main0202.xhp\">Symbolleiste Format</link>"
+
+#. ayoCz
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"par_id3153897\n"
+"help.text"
+msgid "<ahelp hid=\"HID_SC_TOOLBOX_TABLE\">The <emph>Formatting</emph> bar contains basic commands for applying manually formatting.</ahelp>"
+msgstr "<ahelp hid=\"HID_SC_TOOLBOX_TABLE\">Die Symbolleiste <emph>Format</emph> umfasst Grundbefehle für die manuelle Formatierung.</ahelp>"
+
+#. H2aV6
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"hd_id3150715\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05340300.xhp\">Align Left</link>"
+msgstr "<link href=\"text/shared/01/05340300.xhp\">Linksbündig</link>"
+
+#. XzJxt
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"hd_id3155064\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05340300.xhp\">Align Center Horizontally</link>"
+msgstr "<link href=\"text/shared/01/05340300.xhp\">Horizontal zentriert ausrichten</link>"
+
+#. X4ZVV
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"hd_id3150042\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05340300.xhp\">Align Right</link>"
+msgstr "<link href=\"text/shared/01/05340300.xhp\">Rechtsbündig</link>"
+
+#. T9Q2o
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"hd_id3154703\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05340300.xhp\">Justify</link>"
+msgstr "<link href=\"text/shared/01/05340300.xhp\">Blocksatz</link>"
+
+#. F7CTh
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"hd_id3152986\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05340300.xhp\">Align Top</link>"
+msgstr "<link href=\"text/shared/01/05340300.xhp\">Oben ausrichten</link>"
+
+#. tYBsN
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"hd_id3153306\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05340300.xhp\">Align Center Vertically</link>"
+msgstr "<link href=\"text/shared/01/05340300.xhp\">Vertikal mittig ausrichten</link>"
+
+#. hGLD7
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"hd_id3151240\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05340300.xhp\">Align Bottom</link>"
+msgstr "<link href=\"text/shared/01/05340300.xhp\">Unten ausrichten</link>"
+
+#. 8BDJe
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"par_idN10871\n"
+"help.text"
+msgid "Additional icons"
+msgstr "Zusätzliche Symbole"
+
+#. 9H9PE
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"par_idN10875\n"
+"help.text"
+msgid "If <link href=\"text/shared/00/00000005.xhp#ctl\">CTL</link> support is enabled, two additional icons are visible."
+msgstr "Falls die Option <link href=\"text/shared/00/00000005.xhp#ctl\">Steuerelemente für bidirektionales Schreiben anzeigen</link> aktiviert ist, sind zwei weitere Symbole sichtbar."
+
+#. tcD5T
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"par_id192266\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AlignLeft\" visibility=\"hidden\">Aligns the contents of the cell to the left.</ahelp>"
+msgstr "<ahelp hid=\".uno:AlignLeft\" visibility=\"hidden\">Richtet den Inhalt der Zelle linksbündig aus.</ahelp>"
+
+#. BLQFc
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"par_id1998962\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AlignRight\" visibility=\"hidden\">Aligns the contents of the cell to the right.</ahelp>"
+msgstr "<ahelp hid=\".uno:AlignRight\" visibility=\"hidden\">Richtet den Inhalt der Zelle rechtsbündig aus.</ahelp>"
+
+#. ShvwC
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"par_id2376476\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AlignHorizontalCenter\" visibility=\"hidden\">Horizontally centers the contents of the cell.</ahelp>"
+msgstr "<ahelp hid=\".uno:AlignHorizontalCenter\" visibility=\"hidden\">Richtet den Inhalt der Zelle horizontal mittig aus.</ahelp>"
+
+#. PG4JA
+#: main0202.xhp
+msgctxt ""
+"main0202.xhp\n"
+"par_id349131\n"
+"help.text"
+msgid "<ahelp hid=\".uno:AlignBlock\" visibility=\"hidden\">Aligns the contents of the cell to the left and right cell borders.</ahelp>"
+msgstr "<ahelp hid=\".uno:AlignBlock\" visibility=\"hidden\">Richtet den Inhalt der Zelle an den linken und rechten Zellrändern aus.</ahelp>"
+
+#. GmxHK
+#: main0203.xhp
+msgctxt ""
+"main0203.xhp\n"
+"tit\n"
+"help.text"
+msgid "Drawing Object Properties Bar"
+msgstr "Symbolleiste Zeichnungsobjekt-Eigenschaften"
+
+#. PZcPA
+#: main0203.xhp
+msgctxt ""
+"main0203.xhp\n"
+"hd_id3154346\n"
+"help.text"
+msgid "<link href=\"text/scalc/main0203.xhp\">Drawing Object Properties Bar</link>"
+msgstr "<link href=\"text/scalc/main0203.xhp\">Symbolleiste Zeichnungsobjekt-Eigenschaften</link>"
+
+#. BHsxU
+#: main0203.xhp
+msgctxt ""
+"main0203.xhp\n"
+"par_id3149656\n"
+"help.text"
+msgid "<ahelp hid=\"HID_SC_TOOLBOX_DRAW\">The <emph>Drawing Object Properties</emph> Bar for objects that you select in the sheet contains formatting and alignment commands.</ahelp>"
+msgstr "<ahelp hid=\"HID_SC_TOOLBOX_DRAW\">Die Symbolleiste <emph>Zeichnungsobjekt-Eigenschaften</emph> für die in einer Tabelle ausgewählten Objekte enthält Formatierungs- und Ausrichtungsbefehle.</ahelp>"
+
+#. qe7FF
+#: main0203.xhp
+msgctxt ""
+"main0203.xhp\n"
+"hd_id3145748\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05200100.xhp\">Line Style</link>"
+msgstr "<link href=\"text/shared/01/05200100.xhp\">Linienstil</link>"
+
+#. j278Y
+#: main0203.xhp
+msgctxt ""
+"main0203.xhp\n"
+"hd_id3151073\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05200100.xhp\">Line Thickness</link>"
+msgstr "<link href=\"text/shared/01/05200100.xhp\">Linienbreite</link>"
+
+#. MXcwv
+#: main0203.xhp
+msgctxt ""
+"main0203.xhp\n"
+"hd_id3153417\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05200100.xhp\">Line Color</link>"
+msgstr "<link href=\"text/shared/01/05200100.xhp\">Linienfarbe</link>"
+
+#. QEYq6
+#: main0203.xhp
+msgctxt ""
+"main0203.xhp\n"
+"hd_id3147338\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05210100.xhp\">Background Color</link>"
+msgstr "<link href=\"text/shared/01/05210100.xhp\">Flächenstil/-füllung</link>"
+
+#. BgP3b
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"tit\n"
+"help.text"
+msgid "Text Formatting Bar"
+msgstr "Symbolleiste Textformat"
+
+#. A2hAJ
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3156330\n"
+"help.text"
+msgid "<link href=\"text/scalc/main0205.xhp\">Text Formatting Bar</link>"
+msgstr "<link href=\"text/scalc/main0205.xhp\">Symbolleiste Textformat</link>"
+
+#. h55fM
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"par_id3151112\n"
+"help.text"
+msgid "<ahelp hid=\"HID_SC_TOOLBOX_DRTEXT\">The <emph>Text Formatting</emph> Bar that is displayed when the cursor is in a text object, such as a text box or a drawing object, contains formatting and alignment commands.</ahelp>"
+msgstr "<ahelp hid=\"HID_SC_TOOLBOX_DRTEXT\">Die Symbolleiste <emph>Textformat</emph> wird angezeigt, wenn sich der Cursor in einem Textobjekt befindet, beispielsweise einem Textfeld oder einem Zeichenobjekt, welches Formatierungs- und Ausrichtungsoptionen enthält.</ahelp>"
+
+#. 4TNV9
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3154944\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05030100.xhp\">Line Spacing: 1</link>"
+msgstr "<link href=\"text/shared/01/05030100.xhp\">Zeilenabstand: 1</link>"
+
+#. uqB4L
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3146969\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05030100.xhp\">Line Spacing: 1.5</link>"
+msgstr "<link href=\"text/shared/01/05030100.xhp\">Zeilenabstand: 1,5</link>"
+
+#. QCyNt
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3153711\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05030100.xhp\">Line Spacing: 2</link>"
+msgstr "<link href=\"text/shared/01/05030100.xhp\">Zeilenabstand: 2</link>"
+
+#. PFCrP
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3147345\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05030700.xhp\">Align Left</link>"
+msgstr "<link href=\"text/shared/01/05030700.xhp\">Linksbündig</link>"
+
+#. Mkhar
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3155337\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05030700.xhp\">Centered</link>"
+msgstr "<link href=\"text/shared/01/05030700.xhp\">Zentriert</link>"
+
+#. VyFNF
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3147001\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05030700.xhp\">Align Right</link>"
+msgstr "<link href=\"text/shared/01/05030700.xhp\">Rechtsbündig</link>"
+
+#. LKiD9
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3155115\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05030700.xhp\">Justify</link>"
+msgstr "<link href=\"text/shared/01/05030700.xhp\">Blocksatz</link>"
+
+#. 8QMDx
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3150202\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05020500.xhp\">Superscript</link>"
+msgstr "<link href=\"text/shared/01/05020500.xhp\">Hochgestellt</link>"
+
+#. APeeB
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3155531\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05020500.xhp\">Subscript</link>"
+msgstr "<link href=\"text/shared/01/05020500.xhp\">Tiefgestellt</link>"
+
+#. DXoAZ
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3145387\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05020000.xhp\">Character</link>"
+msgstr "<link href=\"text/shared/01/05020000.xhp\">Zeichen</link>"
+
+#. cYecF
+#: main0205.xhp
+msgctxt ""
+"main0205.xhp\n"
+"hd_id3153067\n"
+"help.text"
+msgid "<link href=\"text/shared/01/05030000.xhp\">Paragraph</link>"
+msgstr "<link href=\"text/shared/01/05030000.xhp\">Absatz</link>"
+
+#. EDAGh
+#: main0206.xhp
+msgctxt ""
+"main0206.xhp\n"
+"tit\n"
+"help.text"
+msgid "Formula Bar"
+msgstr "Rechenleiste"
+
+#. cGRKp
+#: main0206.xhp
+msgctxt ""
+"main0206.xhp\n"
+"hd_id3147264\n"
+"help.text"
+msgid "<variable id=\"formula_bar_h1\"><link href=\"text/scalc/main0206.xhp\">Formula Bar</link></variable>"
+msgstr "<variable id=\"formula_bar_h1\"><link href=\"text/scalc/main0206.xhp\">Rechenleiste</link></variable>"
+
+#. dnFAk
+#: main0206.xhp
+msgctxt ""
+"main0206.xhp\n"
+"par_id3150400\n"
+"help.text"
+msgid "<ahelp hid=\"HID_SC_INPUTWIN\">Use this bar to enter formulas.</ahelp>"
+msgstr "<ahelp hid=\"HID_SC_INPUTWIN\">In dieser Leiste geben Sie Formeln ein.</ahelp>"
+
+#. CG7Dj
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"tit\n"
+"help.text"
+msgid "Status Bar"
+msgstr "Statusleiste"
+
+#. xZZpr
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"hd_id3151385\n"
+"help.text"
+msgid "<link href=\"text/scalc/main0208.xhp\">Status Bar</link>"
+msgstr "<link href=\"text/scalc/main0208.xhp\">Statusleiste</link>"
+
+#. QDPFj
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"par_id3149669\n"
+"help.text"
+msgid "The <emph>Status Bar</emph> displays information about the current sheet."
+msgstr "In der <emph>Statusleiste</emph> finden Sie Informationen über die aktuelle Tabelle."
+
+#. nct5g
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"hd_id0821200911024321\n"
+"help.text"
+msgid "Digital Signature"
+msgstr "Digitale Signatur"
+
+#. buUJc
+#: main0208.xhp
+msgctxt ""
+"main0208.xhp\n"
+"par_id0821200911024344\n"
+"help.text"
+msgid "See also <link href=\"text/shared/guide/digital_signatures.xhp\">Digital Signatures</link>."
+msgstr "Sehen Sie auch <link href=\"text/shared/guide/digital_signatures.xhp\">Digitale Signaturen</link>."
+
+#. iEc7h
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"tit\n"
+"help.text"
+msgid "Print Preview Bar"
+msgstr "Symbolleiste Druckvorschau"
+
+#. dJTLd
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"hd_id3156023\n"
+"help.text"
+msgid "<link href=\"text/scalc/main0210.xhp\">Print Preview Bar</link>"
+msgstr "<link href=\"text/scalc/main0210.xhp\">Symbolleiste Druckvorschau</link>"
+
+#. sMDPh
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"par_id3148663\n"
+"help.text"
+msgid "<ahelp hid=\"HID_SC_WIN_PREVIEW\">The <emph>Print Preview</emph> bar is displayed when you choose <emph>File - Print Preview</emph>.</ahelp>"
+msgstr "<ahelp hid=\"HID_SC_WIN_PREVIEW\">Die Symbolleiste <emph>Druckvorschau</emph> wird angezeigt, wenn Sie <emph>Datei – Druckvorschau</emph> auswählen.</ahelp>"
+
+#. FEZVG
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"hd_id3147393\n"
+"help.text"
+msgid "Full Screen"
+msgstr "Vollbild"
+
+#. c2cjB
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"par_id460828\n"
+"help.text"
+msgid "Hides the menus and toolbars. To exit the full screen mode, click the <emph>Full Screen</emph> button."
+msgstr "Versteckt die Menüs und Symbolleisten. Um den Vollbildmodus zu beenden, klicken Sie auf die Schaltfläche <emph>Vollbild</emph>."
+
+#. hCPa2
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"hd_id3147394\n"
+"help.text"
+msgid "<link href=\"text/scalc/01/05070000.xhp\">Format Page</link>"
+msgstr "<link href=\"text/scalc/01/05070000.xhp\">Seitenformat</link>"
+
+#. w9KJc
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"hd_id3147494\n"
+"help.text"
+msgid "Margins"
+msgstr "Ränder"
+
+#. cEsD4
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"par_id460929\n"
+"help.text"
+msgid "Shows or hides margins of the page. Margins can be dragged by the mouse, and also can be set on <emph>Page</emph> tab of <emph>Page Style</emph> dialog."
+msgstr "Zeigt die Seitenränder der Seite an oder versteckt sie. Seitenränder können mit der Maus gezogen oder im Register <emph>Seite</emph> des Dialogs <emph>Seitenvorlage</emph> gesetzt werden."
+
+#. NsZqF
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"hd_id3245494\n"
+"help.text"
+msgid "Scaling Factor"
+msgstr "Skalierungsfaktor"
+
+#. YZA55
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"par_id460939\n"
+"help.text"
+msgid "This slide defines a page scale for the printed spreadsheet. Scaling factor can be set on <emph>Sheet</emph> tab of <emph>Page Style</emph> dialog, too."
+msgstr "Dieser Schieber definiert einen Maßstab für das zu druckende Tabellendokument. Der Skalierungsfaktor kann auch im Register <emph>Tabelle</emph> des Dialogs <emph>Seitenvorlage</emph> gesetzt werden."
+
+#. GFMWr
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"hd_id3147395\n"
+"help.text"
+msgid "Close Preview"
+msgstr "Druckvorschau schließen"
+
+#. kL6Ds
+#: main0210.xhp
+msgctxt ""
+"main0210.xhp\n"
+"par_id460829\n"
+"help.text"
+msgid "To exit the print preview, click the <emph>Close Preview</emph> button."
+msgstr "Um die Druckvorschau zu verlassen, klicken Sie auf die Schaltfläche <emph>Druckvorschau schließen</emph>."
+
+#. kTaqi
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"tit\n"
+"help.text"
+msgid "Image Bar"
+msgstr "Symbolleiste Bild"
+
+#. MRMXs
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"hd_id3153088\n"
+"help.text"
+msgid "<link href=\"text/scalc/main0214.xhp\">Image Bar</link>"
+msgstr "<link href=\"text/scalc/main0214.xhp\">Symbolleiste Bild</link>"
+
+#. MnQUQ
+#: main0214.xhp
+msgctxt ""
+"main0214.xhp\n"
+"par_id3153896\n"
+"help.text"
+msgid "<ahelp hid=\".\">The <emph>Image</emph> bar is displayed when you insert or select an image in a sheet.</ahelp>"
+msgstr "<ahelp hid=\".\">Die Symbolleiste <emph>Bild</emph> wird angezeigt, wenn Sie ein Bild in die Tabelle einfügen oder in der Tabelle auswählen.</ahelp>"
+
+#. JKNbf
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"tit\n"
+"help.text"
+msgid "Tools Bar"
+msgstr "Symbolleiste Extras"
+
+#. qbY86
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"hd_id3143268\n"
+"help.text"
+msgid "<link href=\"text/scalc/main0218.xhp\">Tools Bar</link>"
+msgstr "<link href=\"text/scalc/main0218.xhp\">Symbolleiste Extras</link>"
+
+#. nSzQ3
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"par_id3151112\n"
+"help.text"
+msgid "<ahelp hid=\"HID_SC_TOOLBOX_TOOLS\">Use the Tools bar to access commonly used commands.</ahelp>"
+msgstr "<ahelp hid=\"HID_SC_TOOLBOX_TOOLS\">Über die Symbolleiste Extras greifen Sie auf die am häufigsten benötigten Befehle zu.</ahelp>"
+
+#. GFPLo
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"par_idN10610\n"
+"help.text"
+msgid "<link href=\"text/shared/02/01170000.xhp\">Controls</link>"
+msgstr "<link href=\"text/shared/02/01170000.xhp\">Steuerelemente</link>"
+
+#. BZMKM
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"hd_id3154730\n"
+"help.text"
+msgid "<link href=\"text/scalc/02/06080000.xhp\">Choose Themes</link>"
+msgstr "<link href=\"text/scalc/02/06080000.xhp\">Themenauswahl</link>"
+
+#. 2mPEC
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"par_idN10690\n"
+"help.text"
+msgid "<link href=\"text/scalc/01/12040300.xhp\">Advanced Filter</link>"
+msgstr "<link href=\"text/scalc/01/12040300.xhp\">Spezialfilter</link>"
+
+#. NgA6E
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"par_idN106A8\n"
+"help.text"
+msgid "<link href=\"text/scalc/01/12090100.xhp\">Start</link>"
+msgstr "<link href=\"text/scalc/01/12090100.xhp\">Starten</link>"
+
+#. G2qFY
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"par_idN106C0\n"
+"help.text"
+msgid "<link href=\"text/shared/autopi/01150000.xhp\">Euro Converter</link>"
+msgstr "<link href=\"text/shared/autopi/01150000.xhp\">Euro-Konverter</link>"
+
+#. Eu4wD
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"par_idN106D8\n"
+"help.text"
+msgid "<link href=\"text/scalc/01/04070100.xhp\">Define</link>"
+msgstr "<link href=\"text/scalc/01/04070100.xhp\">Festlegen</link>"
+
+#. jje43
+#: main0218.xhp
+msgctxt ""
+"main0218.xhp\n"
+"par_idN106F0\n"
+"help.text"
+msgid "<link href=\"text/scalc/01/06040000.xhp\">Goal Seek</link>"
+msgstr "<link href=\"text/scalc/01/06040000.xhp\">Zielwertsuche</link>"
+
+#. Fky5g
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"tit\n"
+"help.text"
+msgid "$[officename] Calc Features"
+msgstr "Leistungsmerkmale von $[officename] Calc"
+
+#. Xj2By
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"hd_id3154758\n"
+"help.text"
+msgid "<variable id=\"main0503\"><link href=\"text/scalc/main0503.xhp\">$[officename] Calc Features</link></variable>"
+msgstr "<variable id=\"main0503\"><link href=\"text/scalc/main0503.xhp\">Leistungsmerkmale von $[officename] Calc</link></variable>"
+
+#. ztyoG
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"par_id3149457\n"
+"help.text"
+msgid "$[officename] Calc is a spreadsheet application that you can use to calculate, analyze, and manage your data. You can also import and modify Microsoft Excel spreadsheets."
+msgstr "$[officename] Calc ist eine Tabellenkalkulation, mit der Sie Ihre Daten berechnen, analysieren und verwalten können. Darüber hinaus können Sie Microsoft Excel Tabellendokumente importieren und bearbeiten."
+
+#. 6iQ5x
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"hd_id3148797\n"
+"help.text"
+msgid "Calculations"
+msgstr "Berechnungen"
+
+#. p3tZu
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"par_id3145172\n"
+"help.text"
+msgid "$[officename] Calc provides you with <link href=\"text/scalc/01/04060100.xhp\">functions</link>, including statistical and banking functions, that you can use to create formulas to perform complex calculations on your data."
+msgstr "$[officename] Calc beinhaltet statistische, Finanz- und andere <link href=\"text/scalc/01/04060100.xhp\">Funktionen</link>, die Sie in Formeln für komplexe Berechnungen mit Ihren Daten einbinden können."
+
+#. QbkGw
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"par_id3145271\n"
+"help.text"
+msgid "You can also use the <link href=\"text/scalc/01/04060000.xhp\">Function Wizard</link> to help you create your formulas."
+msgstr "Außerdem steht Ihnen der <link href=\"text/scalc/01/04060000.xhp\">Funktionsassistent</link> als Hilfe zum Erstellen von Formeln zur Verfügung."
+
+#. jARFA
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"hd_id3152596\n"
+"help.text"
+msgid "What-If Calculations"
+msgstr "Was-wäre-wenn-Berechnungen"
+
+#. 4yrYj
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"par_id3156444\n"
+"help.text"
+msgid "An interesting feature is to be able to immediately view the results of changes made to one factor of calculations that are composed of several factors. For instance, you can see how changing the time period in a loan calculation affects the interest rates or repayment amounts. Furthermore, you can manage larger tables by using different predefined scenarios."
+msgstr "Besonders interessant ist die Möglichkeit, in Berechnungen, die aus mehreren Faktoren bestehen, die Auswirkungen von Änderungen einzelner Faktoren sofort beobachten zu können. So lässt sich beispielsweise sofort feststellen, wie sich die Änderung des Zeitraumes in einer Kreditberechnung auf Zinssatz oder Abzahlungssummen auswirkt. Außerdem stehen zur Verwaltung umfangreicher Tabellen verschiedene vordefinierte Szenarien zur Verfügung."
+
+#. JRYyA
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"hd_id3148576\n"
+"help.text"
+msgid "Database Functions"
+msgstr "Datenbankfunktionen"
+
+#. 99gbx
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"par_id3154011\n"
+"help.text"
+msgid "Use spreadsheets to arrange, store, and filter your data."
+msgstr "Mit Tabellendokumenten können Sie Ihre Daten anordnen, speichern und filtern."
+
+#. EgN7B
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"par_id3154942\n"
+"help.text"
+msgid "$[officename] Calc lets you drag-and-drop tables from databases, or lets you use a spreadsheet as a data source for creating form letters in $[officename] Writer."
+msgstr "$[officename] Calc erlaubt es, Tabellen durch Ziehen-und-Ablegen aus Datenbanken zu übernehmen und Tabellendokumente als Datenquelle zum Erstellen von Serienbriefen in $[officename] Writer einzusetzen."
+
+#. GKCva
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"hd_id3145800\n"
+"help.text"
+msgid "Arranging Data"
+msgstr "Daten gliedern"
+
+#. Bo5vg
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"par_id3154490\n"
+"help.text"
+msgid "With a few mouse-clicks, you can reorganize your spreadsheet to show or hide certain data ranges, or to format ranges according to special conditions, or to quickly calculate subtotals and totals."
+msgstr "Mit wenigen Mausklicks lässt sich Ihr Tabellendokument umstrukturieren, indem Sie beispielsweise bestimmte Datenbereiche ein- oder ausblenden, einzelne Bereiche nach spezifischen Kriterien formatieren oder kurzerhand Teil- oder Gesamtergebnisse berechnen."
+
+#. JBCHF
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"hd_id3155601\n"
+"help.text"
+msgid "Dynamic Charts"
+msgstr "Dynamische Diagramme"
+
+#. QEi8Q
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"par_id3149121\n"
+"help.text"
+msgid "$[officename] Calc lets you present spreadsheet data in dynamic charts that update automatically when the data changes."
+msgstr "$[officename] Calc ermöglicht die Darstellung von Tabellendaten in dynamischen Diagrammen, die bei Änderung der Daten automatisch aktualisiert werden."
+
+#. aFG9z
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"hd_id3153707\n"
+"help.text"
+msgid "Opening and Saving Microsoft Files"
+msgstr "Öffnen und Speichern von Microsoft-Dateien"
+
+#. Xz6yr
+#: main0503.xhp
+msgctxt ""
+"main0503.xhp\n"
+"par_id3157867\n"
+"help.text"
+msgid "Use the $[officename] filters to convert Excel files, or to open and save in a variety of other <link href=\"text/shared/00/00000020.xhp\">formats</link>."
+msgstr "Mit den $[officename]-Filtern konvertieren Sie Excel-Dateien oder öffnen und speichern Dateien in zahlreichen anderen <link href=\"text/shared/00/00000020.xhp\">Formaten</link>."

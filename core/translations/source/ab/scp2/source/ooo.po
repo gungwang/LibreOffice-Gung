@@ -1,0 +1,5543 @@
+#. extracted from scp2/source/ooo
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2026-05-08 12:27+0200\n"
+"PO-Revision-Date: 2025-11-20 19:32+0000\n"
+"Last-Translator: Андрей Абухба <aabuchba@mail.ru>\n"
+"Language-Team: Abkhazian <https://translations.documentfoundation.org/projects/libo_ui-master/scp2sourceooo/ab/>\n"
+"Language: ab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+"X-POOTLE-MTIME: 1542022333.000000\n"
+
+#. CYBGJ
+#: folderitem_ooo.ulf
+msgctxt ""
+"folderitem_ooo.ulf\n"
+"STR_FI_NAME_FROMTEMPLATE\n"
+"LngText.text"
+msgid "From Template"
+msgstr "Ашаблон аҟынтәи..."
+
+#. 9Fn7W
+#: folderitem_ooo.ulf
+msgctxt ""
+"folderitem_ooo.ulf\n"
+"STR_FI_NAME_OPENDOCUMENT\n"
+"LngText.text"
+msgid "Open Document"
+msgstr "Иаарттәуп адокумент"
+
+#. fnmjj
+#: folderitem_ooo.ulf
+msgctxt ""
+"folderitem_ooo.ulf\n"
+"STR_FI_NAME_SAFEMODE\n"
+"LngText.text"
+msgid "%PRODUCTNAME (Troubleshoot Mode)"
+msgstr ""
+
+#. sRSeW
+#: folderitem_ooo.ulf
+msgctxt ""
+"folderitem_ooo.ulf\n"
+"STR_FI_TOOLTIP_SOFFICE\n"
+"LngText.text"
+msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See https://www.documentfoundation.org"
+msgstr "LibreOffice - аофистә пакет, иаԥнаҵеит The Document Foundation. Шахә. https://www.documentfoundation.org"
+
+#. Bf97K
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_ROOT_HELPPACK\n"
+"LngText.text"
+msgid "Additional help packs"
+msgstr "Аилыркаага егьырҭ апакетқәа"
+
+#. vaGBF
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_ROOT_HELPPACK\n"
+"LngText.text"
+msgid "Additional help packs"
+msgstr "Аилыркаага егьырҭ апакетқәа"
+
+#. ydqfu
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EN_US\n"
+"LngText.text"
+msgid "English (United States)"
+msgstr "Англыз бызшәа (США)"
+
+#. Bz4jG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EN_US\n"
+"LngText.text"
+msgid "Installs English (United States) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага англыз бызшәала (ЕАШ) %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. EHWAj
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_DE\n"
+"LngText.text"
+msgid "German"
+msgstr "Анемец бызшәа"
+
+#. RsQ3W
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_DE\n"
+"LngText.text"
+msgid "Installs German help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага анемец бызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. GigxH
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_FR\n"
+"LngText.text"
+msgid "French"
+msgstr "Афранцызтәи"
+
+#. TjY3u
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_FR\n"
+"LngText.text"
+msgid "Installs French help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага афранцыз бызшәала"
+
+#. qGeDg
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_IT\n"
+"LngText.text"
+msgid "Italian"
+msgstr "Италиатәи"
+
+#. zCVAe
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_IT\n"
+"LngText.text"
+msgid "Installs Italian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага аиталиа бызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. QG9eB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ES\n"
+"LngText.text"
+msgid "Spanish"
+msgstr "Испаниатәи"
+
+#. cXmAd
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ES\n"
+"LngText.text"
+msgid "Installs Spanish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага аиспан бызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. mAjgA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SV\n"
+"LngText.text"
+msgid "Swedish"
+msgstr "Швециатәи"
+
+#. jXWC4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SV\n"
+"LngText.text"
+msgid "Installs Swedish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага ашвед бызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. wPHjA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_PT\n"
+"LngText.text"
+msgid "Portuguese"
+msgstr "Португалиатәи"
+
+#. zxqLC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_PT\n"
+"LngText.text"
+msgid "Installs Portuguese help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага португалиа бызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. NFgCe
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_PT_BR\n"
+"LngText.text"
+msgid "Portuguese (Brazil)"
+msgstr "Португалиатәи (Бразилиа)"
+
+#. YBMtr
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_PT_BR\n"
+"LngText.text"
+msgid "Installs Portuguese (Brazil) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага португалиа (Бразилиа) бызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. Fn2Dz
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_JA\n"
+"LngText.text"
+msgid "Japanese"
+msgstr "Иапониатәи"
+
+#. xZvqM
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_JA\n"
+"LngText.text"
+msgid "Installs Japanese help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага аиапон бызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. iGE8W
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KO\n"
+"LngText.text"
+msgid "Korean"
+msgstr "Кореиатәи"
+
+#. JDNfz
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KO\n"
+"LngText.text"
+msgid "Installs Korean help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага кореиатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. NhPo7
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ZH_CN\n"
+"LngText.text"
+msgid "Chinese (simplified)"
+msgstr "Китаитәи ирмариоу"
+
+#. Q2ArU
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ZH_CN\n"
+"LngText.text"
+msgid "Installs Chinese (simplified) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага китаитәи абызшәа (ирмариоу) азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. UsZM3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ZH_TW\n"
+"LngText.text"
+msgid "Chinese (traditional)"
+msgstr "Китаитәи (итрадициатәу)"
+
+#. wWbGh
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ZH_TW\n"
+"LngText.text"
+msgid "Installs Chinese (traditional) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага китаитәи абызшәа (итрадициатәу)азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. qkugj
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NL\n"
+"LngText.text"
+msgid "Dutch"
+msgstr "Голландиатәи"
+
+#. rudMC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NL\n"
+"LngText.text"
+msgid "Installs Dutch help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага голландиатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. f4GBX
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_HU\n"
+"LngText.text"
+msgid "Hungarian"
+msgstr "Венгриатәи"
+
+#. VfDQW
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_HU\n"
+"LngText.text"
+msgid "Installs Hungarian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага венгриатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. DQme4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_PL\n"
+"LngText.text"
+msgid "Polish"
+msgstr "Польшатәи"
+
+#. Nbnea
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_PL\n"
+"LngText.text"
+msgid "Installs Polish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага польшатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. YpbLq
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_RU\n"
+"LngText.text"
+msgid "Russian"
+msgstr "Аурыс"
+
+#. BFBgg
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_RU\n"
+"LngText.text"
+msgid "Installs Russian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага аурыс бызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. 5o5N6
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TR\n"
+"LngText.text"
+msgid "Turkish"
+msgstr "Аҭырқәшәа"
+
+#. aAiAs
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TR\n"
+"LngText.text"
+msgid "Installs Turkish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага аҭырқә бызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. aAyip
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EL\n"
+"LngText.text"
+msgid "Greek"
+msgstr "Абырзентә"
+
+#. CkAz9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EL\n"
+"LngText.text"
+msgid "Installs Greek help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага абырзен бызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. cuDpB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TH\n"
+"LngText.text"
+msgid "Thai"
+msgstr "Таитәи"
+
+#. GGdGt
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TH\n"
+"LngText.text"
+msgid "Installs Thai help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага таитәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. U9MW3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_CS\n"
+"LngText.text"
+msgid "Czech"
+msgstr "Чехиатәи"
+
+#. 5NZgF
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_CS\n"
+"LngText.text"
+msgid "Installs Czech help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага чехиатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. 2GK2k
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SK\n"
+"LngText.text"
+msgid "Slovak"
+msgstr "Словакиатәи"
+
+#. L4EMC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SK\n"
+"LngText.text"
+msgid "Installs Slovak help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага словакиатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. qoeyK
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_HR\n"
+"LngText.text"
+msgid "Croatian"
+msgstr "Хорватиатәи"
+
+#. sGB3v
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_HR\n"
+"LngText.text"
+msgid "Installs Croatian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага хорватиатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. isGDB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ET\n"
+"LngText.text"
+msgid "Estonian"
+msgstr "Естониатәи"
+
+#. uGv5s
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ET\n"
+"LngText.text"
+msgid "Installs Estonian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага естониатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. BMt6C
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_VI\n"
+"LngText.text"
+msgid "Vietnamese"
+msgstr "Виетнамтәи"
+
+#. bFGoQ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_VI\n"
+"LngText.text"
+msgid "Installs Vietnamese help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага виетнамтәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. hwVvG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BG\n"
+"LngText.text"
+msgid "Bulgarian"
+msgstr "Болгариатәи"
+
+#. TEx2B
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BG\n"
+"LngText.text"
+msgid "Installs Bulgarian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага болгариатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. hHEri
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KM\n"
+"LngText.text"
+msgid "Khmer"
+msgstr "Кхмертәи"
+
+#. uCS4M
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KM\n"
+"LngText.text"
+msgid "Installs Khmer help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага кхмертәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. kcEy4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_PA_IN\n"
+"LngText.text"
+msgid "Punjabi"
+msgstr "Пенджабтәи"
+
+#. mBGVR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_PA_IN\n"
+"LngText.text"
+msgid "Installs Punjabi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага пенджабтәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. J5fRD
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TA\n"
+"LngText.text"
+msgid "Tamil"
+msgstr "Тамилтәи"
+
+#. uEKuE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TA\n"
+"LngText.text"
+msgid "Installs Tamil help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага тамилтәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. VZDZ3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_HI\n"
+"LngText.text"
+msgid "Hindi"
+msgstr "Хинди"
+
+#. T73tL
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_HI\n"
+"LngText.text"
+msgid "Installs Hindi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага хинди абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. iBo5F
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ST\n"
+"LngText.text"
+msgid "Southern Sotho (Sutu)"
+msgstr "Аладатәи сото (суту)"
+
+#. QjCFm
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ST\n"
+"LngText.text"
+msgid "Installs Southern Sotho (Sutu) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага аладатәи сото (суту) абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. 3TG74
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TL\n"
+"LngText.text"
+msgid "Tagalog"
+msgstr "Тагалтәи"
+
+#. ioFHU
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TL\n"
+"LngText.text"
+msgid "Installs Tagalog help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәнаргылоит аилыркаага Атагал бызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. AEyYs
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TN\n"
+"LngText.text"
+msgid "Tswana"
+msgstr "Тсвана"
+
+#. PjdCh
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TN\n"
+"LngText.text"
+msgid "Installs Tswana help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага тсвана абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. Qbdyd
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_XH\n"
+"LngText.text"
+msgid "Xhosa"
+msgstr "Коса"
+
+#. PKRxc
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_XH\n"
+"LngText.text"
+msgid "Installs Xhosa help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага коса абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. tECTH
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ZU\n"
+"LngText.text"
+msgid "Zulu"
+msgstr "Зулусиатәи"
+
+#. G5iZk
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ZU\n"
+"LngText.text"
+msgid "Installs Zulu help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага зулусиатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. xDpWR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_AF\n"
+"LngText.text"
+msgid "Afrikaans"
+msgstr "Африкаанс"
+
+#. M99dy
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_AF\n"
+"LngText.text"
+msgid "Installs Afrikaans help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага африкаанс абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. HBLuX
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SW_TZ\n"
+"LngText.text"
+msgid "Swahili"
+msgstr "Суахили"
+
+#. 52qW8
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SW_TZ\n"
+"LngText.text"
+msgid "Installs Swahili help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага суахили абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. DYnBA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_LO\n"
+"LngText.text"
+msgid "Lao"
+msgstr "Лаостәи"
+
+#. ycEgR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_LO\n"
+"LngText.text"
+msgid "Installs Lao help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага лаостәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. Vz23C
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NSO\n"
+"LngText.text"
+msgid "Northern Sotho"
+msgstr "Аҩадатәи сото"
+
+#. 7tfvQ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NSO\n"
+"LngText.text"
+msgid "Installs Northern Sotho help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага аҩадатәи сото абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. NvTJw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BN\n"
+"LngText.text"
+msgid "Bengali (Bangladesh)"
+msgstr "Бенгалиатәи (Бангладеш)"
+
+#. sAKYL
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BN\n"
+"LngText.text"
+msgid "Installs Bengali (Bangladesh) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага бенгалиатәи (Бангладеш) абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. xFibU
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BN_IN\n"
+"LngText.text"
+msgid "Bengali (India)"
+msgstr "Бенгалиатәи (Индиа)"
+
+#. GxDPB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BN_IN\n"
+"LngText.text"
+msgid "Installs Bengali (India) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага бенгалиатәи (Индиа) абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. F8SgH
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_OR\n"
+"LngText.text"
+msgid "Odia"
+msgstr "Одиа"
+
+#. LyUKG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_OR\n"
+"LngText.text"
+msgid "Installs Odia help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага одиа абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. yyNHB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MR\n"
+"LngText.text"
+msgid "Marathi"
+msgstr "Маратхи"
+
+#. AGyN5
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MR\n"
+"LngText.text"
+msgid "Installs Marathi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага маратхи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. deM7s
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NE\n"
+"LngText.text"
+msgid "Nepali"
+msgstr "Непалтәи"
+
+#. mKmPn
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NE\n"
+"LngText.text"
+msgid "Installs Nepali help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага непалтәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. XkJFt
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_AR\n"
+"LngText.text"
+msgid "Arabic"
+msgstr "Арабтәи"
+
+#. D5q8P
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_AR\n"
+"LngText.text"
+msgid "Installs Arabic help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага арабтәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. wtbd7
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_CA\n"
+"LngText.text"
+msgid "Catalan"
+msgstr "Каталантәи"
+
+#. fAwd9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_CA\n"
+"LngText.text"
+msgid "Installs Catalan help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага каталантәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. cA9W3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_CA_VALENCIA\n"
+"LngText.text"
+msgid "Catalan (Valencian)"
+msgstr "Каталантәи (валенсиатәи)"
+
+#. jJ56U
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_CA_VALENCIA\n"
+"LngText.text"
+msgid "Installs Catalan (Valencian) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага каталантәи (валенсиатәи) абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. vFJBH
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_DA\n"
+"LngText.text"
+msgid "Danish"
+msgstr "Даниатәи"
+
+#. AGeAw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_DA\n"
+"LngText.text"
+msgid "Installs Danish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага даниатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. QBcxa
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_FI\n"
+"LngText.text"
+msgid "Finnish"
+msgstr "Финтәи"
+
+#. dSxFo
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_FI\n"
+"LngText.text"
+msgid "Installs Finnish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага финтәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. mVr2U
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_HE\n"
+"LngText.text"
+msgid "Hebrew"
+msgstr "Иврит"
+
+#. BQFXC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_HE\n"
+"LngText.text"
+msgid "Installs Hebrew help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага иврит абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. mipqD
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_IS\n"
+"LngText.text"
+msgid "Icelandic"
+msgstr "Исландиатәи"
+
+#. axbPx
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_IS\n"
+"LngText.text"
+msgid "Installs Icelandic help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага исландиатәи абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. 7HqCw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NB\n"
+"LngText.text"
+msgid "Norwegian (Bokmål)"
+msgstr "Норвегиатәи (букмол)"
+
+#. P5FwB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NB\n"
+"LngText.text"
+msgid "Installs Norwegian (Bokmål) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп норвегиатәи аилыркаага  (букмол) %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. uVnCW
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NN\n"
+"LngText.text"
+msgid "Norwegian (Nynorsk)"
+msgstr "Норвегиатәи (ниунорск)"
+
+#. HrQCy
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NN\n"
+"LngText.text"
+msgid "Installs Norwegian (Nynorsk) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага норвегиа абызшәа ала (иҿыцу норвегиатәи) %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. RqU7H
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_RO\n"
+"LngText.text"
+msgid "Romanian"
+msgstr "Румыниатәи"
+
+#. 6AM3J
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_RO\n"
+"LngText.text"
+msgid "Installs Romanian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп румыниатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. ASMW5
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SQ\n"
+"LngText.text"
+msgid "Albanian"
+msgstr "Албаниатәи"
+
+#. FDWW4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SQ\n"
+"LngText.text"
+msgid "Installs Albanian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп албаниатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. ApYdi
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ID\n"
+"LngText.text"
+msgid "Indonesian"
+msgstr "Индонезиатәи"
+
+#. EhF9j
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ID\n"
+"LngText.text"
+msgid "Installs Indonesian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп индонезиатәи аилыркаага  %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. CBBv7
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_UK\n"
+"LngText.text"
+msgid "Ukrainian"
+msgstr "Украинатәи"
+
+#. 9w8GA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_UK\n"
+"LngText.text"
+msgid "Installs Ukrainian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп украинатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. wV2WJ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BE\n"
+"LngText.text"
+msgid "Belarusian"
+msgstr "Белоруссиатәи"
+
+#. 3oEiq
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BE\n"
+"LngText.text"
+msgid "Installs Belarusian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп белоруссиатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. L4DtD
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SL\n"
+"LngText.text"
+msgid "Slovenian"
+msgstr "Словениатәи"
+
+#. gQzYB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SL\n"
+"LngText.text"
+msgid "Installs Slovenian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп словениатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. pDdtc
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_LV\n"
+"LngText.text"
+msgid "Latvian"
+msgstr "Латыштәи"
+
+#. dCVdu
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_LV\n"
+"LngText.text"
+msgid "Installs Latvian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп латвиатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. SuvD6
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_LT\n"
+"LngText.text"
+msgid "Lithuanian"
+msgstr "Литовиатәи"
+
+#. nHQ8d
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_LT\n"
+"LngText.text"
+msgid "Installs Lithuanian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп литватәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. hLcFR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EU\n"
+"LngText.text"
+msgid "Basque"
+msgstr "Басктәи"
+
+#. dnpFF
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EU\n"
+"LngText.text"
+msgid "Installs Basque help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп басктәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. 46W2Q
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MK\n"
+"LngText.text"
+msgid "Macedonian"
+msgstr "Македониатәи"
+
+#. r5xFn
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MK\n"
+"LngText.text"
+msgid "Installs Macedonian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп македониатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. jfrBS
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_CY\n"
+"LngText.text"
+msgid "Welsh"
+msgstr "Валлиитәи"
+
+#. Zue86
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_CY\n"
+"LngText.text"
+msgid "Installs Welsh help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп валлиитәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. q2Q4i
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GL\n"
+"LngText.text"
+msgid "Galician"
+msgstr "Галиитәи"
+
+#. FvTDb
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GL\n"
+"LngText.text"
+msgid "Installs Galician help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп галиссиатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. vnBuG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SR_LATN\n"
+"LngText.text"
+msgid "Serbian (Latin)"
+msgstr "Сербиатәи (латиница)"
+
+#. i8SBE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SR_LATN\n"
+"LngText.text"
+msgid "Installs Serbian (Latin) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп сербиатәи (латиница) аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. mqGg4
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GA\n"
+"LngText.text"
+msgid "Irish"
+msgstr "Ирландиатәи"
+
+#. wSeqN
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GA\n"
+"LngText.text"
+msgid "Installs Irish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп ирландиатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. rm9kd
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SR\n"
+"LngText.text"
+msgid "Serbian (Cyrillic)"
+msgstr "Сербиатәи (кириллица)"
+
+#. vn6xG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SR\n"
+"LngText.text"
+msgid "Installs Serbian (Cyrillic) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп сербиатәи (кириллица) аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. MGEFE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BS\n"
+"LngText.text"
+msgid "Bosnian"
+msgstr "Босниатәи"
+
+#. ERR2E
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BS\n"
+"LngText.text"
+msgid "Installs Bosnian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп босниатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. YKoPE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_AST\n"
+"LngText.text"
+msgid "Asturian"
+msgstr "Астуриатәи"
+
+#. GhGmh
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_AST\n"
+"LngText.text"
+msgid "Installs Asturian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп астуриатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. v9cpd
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_RW\n"
+"LngText.text"
+msgid "Kinyarwanda"
+msgstr "Киниаруанда"
+
+#. AQ72C
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_RW\n"
+"LngText.text"
+msgid "Installs Kinyarwanda help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага киниаруанда абызшәа ала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. jxCC3
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_FA\n"
+"LngText.text"
+msgid "Persian"
+msgstr "Персиатәи"
+
+#. muqzV
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_FA\n"
+"LngText.text"
+msgid "Installs Persian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп персиатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. XfQPM
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TT\n"
+"LngText.text"
+msgid "Tatar"
+msgstr "Ататар бызшәа"
+
+#. 3YJ8S
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TT\n"
+"LngText.text"
+msgid "Installs Tatar help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага ататар бызшәа ала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. LBVJ8
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TS\n"
+"LngText.text"
+msgid "Tsonga"
+msgstr "Тсонго"
+
+#. nHVDV
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TS\n"
+"LngText.text"
+msgid "Installs Tsonga help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп тсонго аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. vRzNC
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BR\n"
+"LngText.text"
+msgid "Breton"
+msgstr "Бретониатәи"
+
+#. yiXir
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BR\n"
+"LngText.text"
+msgid "Installs Breton help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп бретонтәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. emsat
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_NR\n"
+"LngText.text"
+msgid "Ndebele South"
+msgstr "Аладатәи Ндебале"
+
+#. THBEz
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_NR\n"
+"LngText.text"
+msgid "Installs Ndebele South help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага ндебеле абызшәа ала (Аладатәи Африка) %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. 42ybw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SS\n"
+"LngText.text"
+msgid "Swazi"
+msgstr "Свази"
+
+#. DZvWq
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SS\n"
+"LngText.text"
+msgid "Installs Swazi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп свази аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. wxSEg
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_VE\n"
+"LngText.text"
+msgid "Venda"
+msgstr "Венда"
+
+#. csFbG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_VE\n"
+"LngText.text"
+msgid "Installs Venda help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп венда аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. t8pQ6
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KN\n"
+"LngText.text"
+msgid "Kannada"
+msgstr "Каннада"
+
+#. zdNRi
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KN\n"
+"LngText.text"
+msgid "Installs Kannada help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп каннада аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. 4H9D9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TG\n"
+"LngText.text"
+msgid "Tajik"
+msgstr "Атаџьық"
+
+#. 8wJEE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TG\n"
+"LngText.text"
+msgid "Installs Tajik help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага Аҭаџьық бызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. CQxCR
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KU\n"
+"LngText.text"
+msgid "Kurdish"
+msgstr "Акәырд"
+
+#. LxR37
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KU\n"
+"LngText.text"
+msgid "Installs Kurdish help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага Аҟәырд бызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. TSYpW
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_DZ\n"
+"LngText.text"
+msgid "Dzongkha"
+msgstr "Дзонг-ке"
+
+#. bCSQs
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_DZ\n"
+"LngText.text"
+msgid "Installs Dzongkha help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "%PRODUCTNAME %PRODUCTVERSION аҟны иқәыргылатәуп аилыркаага Дзонг-ке абызшәазы"
+
+#. YEBFY
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KA\n"
+"LngText.text"
+msgid "Georgian"
+msgstr "Ақырҭуа"
+
+#. LNRoQ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KA\n"
+"LngText.text"
+msgid "Installs Georgian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп ақырҭуа аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. FjsKx
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EO\n"
+"LngText.text"
+msgid "Esperanto"
+msgstr "Есперанто"
+
+#. PzgDJ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EO\n"
+"LngText.text"
+msgid "Installs Esperanto help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп есперанто аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. VCEVj
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GU\n"
+"LngText.text"
+msgid "Gujarati"
+msgstr "Гуджарати"
+
+#. L2yoA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GU\n"
+"LngText.text"
+msgid "Installs Gujarati help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага Гуџьарати абызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. n7QAe
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GUG\n"
+"LngText.text"
+msgid "Guarani"
+msgstr "Гуарани абызшәа"
+
+#. c8cWA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GUG\n"
+"LngText.text"
+msgid "Installs Guarani help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага гуарани абызшәа ала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. rsekA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EN_ZA\n"
+"LngText.text"
+msgid "English (South Africa)"
+msgstr "Англыз бызшәа (Аладатәи Африка)"
+
+#. c7XCn
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EN_ZA\n"
+"LngText.text"
+msgid "Installs English (South Africa) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага англыз бызшәа ала (Аладатәи Африка) %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. Qi96F
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_EN_GB\n"
+"LngText.text"
+msgid "English (United Kingdom)"
+msgstr "Англыз бызшәа (Британиа Ду)"
+
+#. tUaM9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_EN_GB\n"
+"LngText.text"
+msgid "Installs English (United Kingdom) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага англыз бызшәа ала (Британиа Ду) %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. CGWCQ
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_UZ\n"
+"LngText.text"
+msgid "Uzbek"
+msgstr "Аузбек бызшәа"
+
+#. cvTRz
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_UZ\n"
+"LngText.text"
+msgid "Installs Uzbek help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага аузбек бызшәа ала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. Da85C
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MN\n"
+"LngText.text"
+msgid "Mongolian"
+msgstr "Монголиа абызшәа"
+
+#. GREps
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MN\n"
+"LngText.text"
+msgid "Installs Mongolian help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп монголиатәи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. CzcXG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MY\n"
+"LngText.text"
+msgid "Burmese"
+msgstr "Бирмантәи абызшәа"
+
+#. MjWDp
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MY\n"
+"LngText.text"
+msgid "Installs Burmese (Myanmar) help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага бирмантәи абызшәа ала (Мианма) %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. bV4tK
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BO\n"
+"LngText.text"
+msgid "Tibetan"
+msgstr "Тибеттәи абызшәа"
+
+#. Pcwm7
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BO\n"
+"LngText.text"
+msgid "Installs Tibetan help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага тибеттәи абызшәа ала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. FJL97
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_OC\n"
+"LngText.text"
+msgid "Occitan"
+msgstr "Провансалиатәи абызшәа"
+
+#. m6GrM
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_OC\n"
+"LngText.text"
+msgid "Installs Occitan help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага провансалиатәи абызшәа ала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. A6Hed
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_OM\n"
+"LngText.text"
+msgid "Oromo"
+msgstr "Оромо"
+
+#. yBECM
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_OM\n"
+"LngText.text"
+msgid "Installs Oromo help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп оромо аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. 2a58x
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SI\n"
+"LngText.text"
+msgid "Sinhala"
+msgstr "Сингалтәи абызшәа"
+
+#. mFE5W
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SI\n"
+"LngText.text"
+msgid "Installs Sinhala help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага сингалтәи абызшәа ала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. BcGYP
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_UG\n"
+"LngText.text"
+msgid "Uyghur"
+msgstr "Уигуртәи абызшәа"
+
+#. fHxQT
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_UG\n"
+"LngText.text"
+msgid "Installs Uyghur help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага уигуртәи абызшәа ала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. rrFCf
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_AS\n"
+"LngText.text"
+msgid "Assamese"
+msgstr "Ассамтәи абызшәа"
+
+#. EoMfP
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_AS\n"
+"LngText.text"
+msgid "Installs Assamese help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага ассамтәи абызшәа ала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. X6xDL
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_BRX\n"
+"LngText.text"
+msgid "Bodo"
+msgstr "Бодо"
+
+#. ZasV2
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_BRX\n"
+"LngText.text"
+msgid "Installs Bodo help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп бодо аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. 42sWG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_DGO\n"
+"LngText.text"
+msgid "Dogri"
+msgstr "Догри"
+
+#. tTNEB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_DGO\n"
+"LngText.text"
+msgid "Installs Dogri help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп догри аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. Hx2Ds
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_GD\n"
+"LngText.text"
+msgid "Scottish Gaelic"
+msgstr "Гельтәи (Шотландиа)"
+
+#. 8iESE
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_GD\n"
+"LngText.text"
+msgid "Installs Scottish Gaelic help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага Гельтәи (Шотландиа) абызшәа азы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. Y6kem
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KK\n"
+"LngText.text"
+msgid "Kazakh"
+msgstr "Аҟазах бызшәа"
+
+#. myE67
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KK\n"
+"LngText.text"
+msgid "Installs Kazakh help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "%PRODUCTNAME %PRODUCTVERSION аҟны иқәыргылатәуп Аҟазах бызшәазы аилыркаага."
+
+#. x4Y6W
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KOK\n"
+"LngText.text"
+msgid "Konkani"
+msgstr "Конкани"
+
+#. xe7dv
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KOK\n"
+"LngText.text"
+msgid "Installs Konkani help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп конкани аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. jJyAc
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_KS\n"
+"LngText.text"
+msgid "Kashmiri"
+msgstr "Кашмири"
+
+#. 3YdBG
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_KS\n"
+"LngText.text"
+msgid "Installs Kashmiri help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп кашмири аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. sKBbF
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MAI\n"
+"LngText.text"
+msgid "Maithili"
+msgstr "Маитхили"
+
+#. jAhts
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MAI\n"
+"LngText.text"
+msgid "Installs Maithili help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага Маитхили абызшәазы %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. VE3tA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_ML\n"
+"LngText.text"
+msgid "Malayalam"
+msgstr "Малаиалам"
+
+#. KcKg5
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_ML\n"
+"LngText.text"
+msgid "Installs Malayalam help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага Малаиалам абызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. NkQSU
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_MNI\n"
+"LngText.text"
+msgid "Manipuri"
+msgstr "Манипури"
+
+#. dsToL
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_MNI\n"
+"LngText.text"
+msgid "Installs Manipuri help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп манипури аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. XFS5Q
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SA_IN\n"
+"LngText.text"
+msgid "Sanskrit (India)"
+msgstr "Санскрит (Индиа)"
+
+#. ZCTa2
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SA_IN\n"
+"LngText.text"
+msgid "Installs Sanskrit help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп аилыркаага Санскрит абызшәала %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. pd9kB
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SAT\n"
+"LngText.text"
+msgid "Santali"
+msgstr "Сантали"
+
+#. P3BA9
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SAT\n"
+"LngText.text"
+msgid "Installs Santali help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп сантали аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. sApan
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SD\n"
+"LngText.text"
+msgid "Sindhi"
+msgstr "Синдхи"
+
+#. Cnb7E
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SD\n"
+"LngText.text"
+msgid "Installs Sindhi help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп синдхи аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. zLTCg
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_TE\n"
+"LngText.text"
+msgid "Telugu"
+msgstr "Телугу"
+
+#. CkmfT
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_TE\n"
+"LngText.text"
+msgid "Installs Telugu help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп телугу аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. tosij
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_SID\n"
+"LngText.text"
+msgid "Sidama"
+msgstr "Сидамо"
+
+#. UGCDw
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_SID\n"
+"LngText.text"
+msgid "Installs Sidama help in %PRODUCTNAME %PRODUCTVERSION"
+msgstr "Иқәыргылатәуп сидамо аилыркаага %PRODUCTNAME %PRODUCTVERSION аҟны"
+
+#. MwRfA
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_NAME_MODULE_HELPPACK_QTZ\n"
+"LngText.text"
+msgid "KeyID"
+msgstr "Аидентификаторқәа"
+
+#. WgSng
+#: module_helppack.ulf
+msgctxt ""
+"module_helppack.ulf\n"
+"STR_DESC_MODULE_HELPPACK_QTZ\n"
+"LngText.text"
+msgid "Installs English help in %PRODUCTNAME %PRODUCTVERSION with a key ID before each paragraph"
+msgstr ""
+
+#. 68jze
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_ROOT_LANGPACK\n"
+"LngText.text"
+msgid "User interface languages"
+msgstr "Ахархәаҩ иинтерфеис абызшәа"
+
+#. AzxTN
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_ROOT_LANGPACK\n"
+"LngText.text"
+msgid "User interface languages"
+msgstr "Ахархәаҩ иинтерфеис абызшәақәа"
+
+#. 2FWMz
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EN_US\n"
+"LngText.text"
+msgid "English (United States)"
+msgstr "Англыз бызшәа (США)"
+
+#. ZyT5e
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EN_US\n"
+"LngText.text"
+msgid "Installs the English (United States) user interface"
+msgstr "Иқәыргылатәуп англыз (ЕАШ) ахархәаҩ иинтерфеис"
+
+#. kFVo8
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DE\n"
+"LngText.text"
+msgid "German"
+msgstr "Агермантә"
+
+#. bfWaA
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DE\n"
+"LngText.text"
+msgid "Installs the German user interface"
+msgstr "Агерман бызшәазы иқәыргылатәуп ахархәаҩ иинтерфеис"
+
+#. ibbMT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FR\n"
+"LngText.text"
+msgid "French"
+msgstr "Афранцызтә"
+
+#. jyWNp
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FR\n"
+"LngText.text"
+msgid "Installs the French user interface"
+msgstr "Афранцыз бызшәазы иқәыргылатәуп ахархәаҩ иинтерфеис"
+
+#. CHSB9
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FUR\n"
+"LngText.text"
+msgid "Friulian"
+msgstr "Фриултәи"
+
+#. hj9iY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FUR\n"
+"LngText.text"
+msgid "Installs the Friulian user interface"
+msgstr "Фриултәи абызшәазы иқәыргылатәуп ахархәаҩ иинтерфеис"
+
+#. FWTCS
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FY\n"
+"LngText.text"
+msgid "Frisian"
+msgstr "Фризиатәи"
+
+#. iQ65Q
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FY\n"
+"LngText.text"
+msgid "Installs the Frisian user interface"
+msgstr "Фризтәи абызшәазы иқәыргылатәуп ахархәаҩ иинтерфеис"
+
+#. bNTwU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HY\n"
+"LngText.text"
+msgid "Armenian"
+msgstr "Аермантә"
+
+#. gHLVy
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HY\n"
+"LngText.text"
+msgid "Installs the Armenian user interface"
+msgstr "Аерман бызшәазы иқәыргылатәуп ахархәаҩ иинтерфеис"
+
+#. 5GsEB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_IT\n"
+"LngText.text"
+msgid "Italian"
+msgstr "Италиатәи"
+
+#. kEDxi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_IT\n"
+"LngText.text"
+msgid "Installs the Italian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы италиатәи аинтерфеис"
+
+#. fGPfo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ES\n"
+"LngText.text"
+msgid "Spanish"
+msgstr "Испаниатэи"
+
+#. QuQfE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ES\n"
+"LngText.text"
+msgid "Installs the Spanish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Испаниатәи аинтерфеис"
+
+#. NreEY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SUN\n"
+"LngText.text"
+msgid "Sundanese"
+msgstr "Судантәи"
+
+#. pa3r3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SUN\n"
+"LngText.text"
+msgid "Installs the Sundanese user interface"
+msgstr "Судантәи абызшәазы иқәыргылатәуп ахархәаҩ иинтерфеис"
+
+#. zAWhn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SV\n"
+"LngText.text"
+msgid "Swedish"
+msgstr "Швециатәи"
+
+#. Cstsw
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SV\n"
+"LngText.text"
+msgid "Installs the Swedish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Швециатәи аинтерфеис"
+
+#. ZaBQB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_PT\n"
+"LngText.text"
+msgid "Portuguese"
+msgstr "Португалиатәи"
+
+#. HCX26
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_PT\n"
+"LngText.text"
+msgid "Installs the Portuguese user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Португалиатәи аинтерфеис"
+
+#. adogr
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_PT_BR\n"
+"LngText.text"
+msgid "Portuguese (Brazil)"
+msgstr "Португалиатәи (Бразилиа)"
+
+#. CijWB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_PT_BR\n"
+"LngText.text"
+msgid "Installs the Brazilian Portuguese user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Португалиатәи (Бразилиа) аинтерфеис"
+
+#. zFXF5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_JA\n"
+"LngText.text"
+msgid "Japanese"
+msgstr "Иапониатәи"
+
+#. EESf9
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_JA\n"
+"LngText.text"
+msgid "Installs the Japanese user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Иапониатәи аинтерфеис"
+
+#. k48KT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KAB\n"
+"LngText.text"
+msgid "Kabyle"
+msgstr "Кабилтәи"
+
+#. KS3XA
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KAB\n"
+"LngText.text"
+msgid "Installs the Kabyle user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Кабилтәи аинтерфеис"
+
+#. GGBUC
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KO\n"
+"LngText.text"
+msgid "Korean"
+msgstr "Кореиатәи"
+
+#. 8SSvD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KO\n"
+"LngText.text"
+msgid "Installs the Korean user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Кореиатәи аинтерфеис"
+
+#. pejiB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ZH_CN\n"
+"LngText.text"
+msgid "Chinese (simplified)"
+msgstr "Китаитәи, ирмариоу"
+
+#. wdZdn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ZH_CN\n"
+"LngText.text"
+msgid "Installs the Chinese (simplified) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Китаитәи (ирмариоу) аинтерфеис"
+
+#. 5hYB3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ZH_TW\n"
+"LngText.text"
+msgid "Chinese (traditional)"
+msgstr "Китаитәи (итрадициатәу)"
+
+#. 38eTs
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ZH_TW\n"
+"LngText.text"
+msgid "Installs the Chinese (traditional) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Китааитәи (итрадициатәу) аинтерфеис"
+
+#. Ha4sm
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NL\n"
+"LngText.text"
+msgid "Dutch"
+msgstr "Голландиатәи"
+
+#. Mye3w
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NL\n"
+"LngText.text"
+msgid "Installs the Dutch user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Голландиатәи аинтерфеис"
+
+#. 2W3Vs
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DSB\n"
+"LngText.text"
+msgid "Lower Sorbian"
+msgstr "Алада-Лужицктәи"
+
+#. uCTAw
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DSB\n"
+"LngText.text"
+msgid "Installs the Lower Sorbian user interface"
+msgstr "Иқәыргылатәуп Алада-Лужицктәи ахархәаҩ иинтерфеис"
+
+#. 93zmP
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HSB\n"
+"LngText.text"
+msgid "Upper Sorbian"
+msgstr "Аҩада-Лужицктәи"
+
+#. kZEGX
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HSB\n"
+"LngText.text"
+msgid "Installs the Upper Sorbian user interface"
+msgstr "Иқәыргылатәуп Аҩада-Лужицктәи ахархәаҩ иинтерфеис"
+
+#. DkPdh
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HU\n"
+"LngText.text"
+msgid "Hungarian"
+msgstr "Венгриатәи"
+
+#. wjc54
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HU\n"
+"LngText.text"
+msgid "Installs the Hungarian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Венгриатәи аинтерфеис"
+
+#. c8nAo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_PL\n"
+"LngText.text"
+msgid "Polish"
+msgstr "Польшатәи"
+
+#. XChpv
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_PL\n"
+"LngText.text"
+msgid "Installs the Polish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Польшатәи аинтерфеис"
+
+#. FpvMD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_RU\n"
+"LngText.text"
+msgid "Russian"
+msgstr "Аурыс"
+
+#. GszNS
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_RU\n"
+"LngText.text"
+msgid "Installs the Russian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Аурыс бызшәа аинтерфеис"
+
+#. qoBPT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TR\n"
+"LngText.text"
+msgid "Turkish"
+msgstr "Аҭырқәа"
+
+#. EtHSG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TR\n"
+"LngText.text"
+msgid "Installs the Turkish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Ҭырқәтәылатәи аинтерфеис"
+
+#. 9D8Zn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EL\n"
+"LngText.text"
+msgid "Greek"
+msgstr "Абырзентә"
+
+#. Px6D7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EL\n"
+"LngText.text"
+msgid "Installs the Greek user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Абырзен бызшәа аинтерфеис"
+
+#. 4dymX
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TH\n"
+"LngText.text"
+msgid "Thai"
+msgstr "Таитәи"
+
+#. 6eYYQ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TH\n"
+"LngText.text"
+msgid "Installs the Thai user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Таитәи аинтерфеис"
+
+#. NHYpD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CKB\n"
+"LngText.text"
+msgid "Central Kurdish"
+msgstr "Сорани"
+
+#. NJJmC
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CKB\n"
+"LngText.text"
+msgid "Installs the Central Kurdish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Сорани абызшәа аинтерфеис"
+
+#. 3CVmz
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CS\n"
+"LngText.text"
+msgid "Czech"
+msgstr "Чехиатәи"
+
+#. EZQUP
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CS\n"
+"LngText.text"
+msgid "Installs the Czech user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Чехиатәи аинтерфеис"
+
+#. ZGQW5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SK\n"
+"LngText.text"
+msgid "Slovak"
+msgstr "Словакиатәи"
+
+#. rw8g2
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SK\n"
+"LngText.text"
+msgid "Installs the Slovak user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Словакиатәи аинтерфеис"
+
+#. sG9sP
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HR\n"
+"LngText.text"
+msgid "Croatian"
+msgstr "Хорватиатәи"
+
+#. cYDC3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HR\n"
+"LngText.text"
+msgid "Installs the Croatian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Хорватиатәи аинтерфеис"
+
+#. x4dFF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ET\n"
+"LngText.text"
+msgid "Estonian"
+msgstr "Естониатәи"
+
+#. WJs9L
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ET\n"
+"LngText.text"
+msgid "Installs the Estonian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Естониатәи аинтерфеис"
+
+#. AgZcB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_VI\n"
+"LngText.text"
+msgid "Vietnamese"
+msgstr "Виетнамтәи"
+
+#. hzxLD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_VI\n"
+"LngText.text"
+msgid "Installs the Vietnamese user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Виетнамтәи аинтерфеис"
+
+#. FDaPN
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BG\n"
+"LngText.text"
+msgid "Bulgarian"
+msgstr "Болгариатәи"
+
+#. 8R9GE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BG\n"
+"LngText.text"
+msgid "Installs the Bulgarian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Болгариатәи аинтерфеис"
+
+#. GEohk
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KM\n"
+"LngText.text"
+msgid "Khmer"
+msgstr "Кхмертәи"
+
+#. ntGb7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KM\n"
+"LngText.text"
+msgid "Installs the Khmer user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Кхмертәи аинтерфеис"
+
+#. aRAAK
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_PA_IN\n"
+"LngText.text"
+msgid "Punjabi"
+msgstr "Панџьаби"
+
+#. Zym8j
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_PA_IN\n"
+"LngText.text"
+msgid "Installs the Punjabi user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Панџьаби абызшә аинтерфеис"
+
+#. rQF9B
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TA\n"
+"LngText.text"
+msgid "Tamil"
+msgstr "Тамилтәи"
+
+#. CHKAZ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TA\n"
+"LngText.text"
+msgid "Installs the Tamil user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Тамилтәи аинтерфеис"
+
+#. 4wniz
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HI\n"
+"LngText.text"
+msgid "Hindi"
+msgstr "Хинди"
+
+#. BFGf2
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HI\n"
+"LngText.text"
+msgid "Installs the Hindi user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Хинди абызшәа аинтерфеис"
+
+#. mC6wm
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ST\n"
+"LngText.text"
+msgid "Southern Sotho (Sutu)"
+msgstr "Аладатәи сото (суту)"
+
+#. TCBhG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ST\n"
+"LngText.text"
+msgid "Installs the Southern Sotho (Sutu) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Аладатәи Сото ()Суту) абызшәа аинтерфеис"
+
+#. jTL8Z
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TL\n"
+"LngText.text"
+msgid "Tagalog"
+msgstr "Тагалтәи"
+
+#. czSWQ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TL\n"
+"LngText.text"
+msgid "Installs the Tagalog user interface"
+msgstr "Иқәыргылатәуп Тагалтәи ахархәаҩ иинтерфеис"
+
+#. hEr4G
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TN\n"
+"LngText.text"
+msgid "Tswana"
+msgstr "Тсвана"
+
+#. MSJ8o
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TN\n"
+"LngText.text"
+msgid "Installs the Tswana user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Тсвана абызшәа аинтерфеис"
+
+#. xmDab
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_XH\n"
+"LngText.text"
+msgid "Xhosa"
+msgstr "Коса"
+
+#. uE8DY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_XH\n"
+"LngText.text"
+msgid "Installs the Xhosa user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Коса абызшәа аинтерфеис"
+
+#. DPZWr
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ZU\n"
+"LngText.text"
+msgid "Zulu"
+msgstr "Зулутәи"
+
+#. EtAZX
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ZU\n"
+"LngText.text"
+msgid "Installs the Zulu user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Зулустәи аинтерфеис"
+
+#. qsjs5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AB\n"
+"LngText.text"
+msgid "Abkhaz"
+msgstr "Аԥсуа"
+
+#. ehMsM
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AB\n"
+"LngText.text"
+msgid "Installs the Abkhazian user interface"
+msgstr "Иқәнаргылоит Аԥсуа интерфеис"
+
+#. RUw6F
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AF\n"
+"LngText.text"
+msgid "Afrikaans"
+msgstr "Африкаанс"
+
+#. ogEci
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AF\n"
+"LngText.text"
+msgid "Installs the Afrikaans user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Африкаанс абызшәа аинтерфеис"
+
+#. Ey8Ey
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SW_TZ\n"
+"LngText.text"
+msgid "Swahili"
+msgstr "Суахили"
+
+#. VMYrA
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SW_TZ\n"
+"LngText.text"
+msgid "Installs the Swahili user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Суахили абызшәа аинтерфеис"
+
+#. t6ayp
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_LO\n"
+"LngText.text"
+msgid "Lao"
+msgstr "Лаостәи"
+
+#. EHe36
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_LO\n"
+"LngText.text"
+msgid "Installs the Lao user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Лаостәи аинтерфеис"
+
+#. rzyWk
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MY\n"
+"LngText.text"
+msgid "Burmese"
+msgstr "Бирмантәи"
+
+#. XE2Yi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MY\n"
+"LngText.text"
+msgid "Installs the Burmese (Myanmar) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Бирмантәи (Мианма) аинтерфеис"
+
+#. CtNk3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NSO\n"
+"LngText.text"
+msgid "Northern Sotho"
+msgstr "Аҩадатәи Сото"
+
+#. DVnrU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NSO\n"
+"LngText.text"
+msgid "Installs the Northern Sotho user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Аҩадатәи Сото аинтерфеис"
+
+#. DS4HT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BN\n"
+"LngText.text"
+msgid "Bengali (Bangladesh)"
+msgstr "Бенгалтәи (Бангладеш)"
+
+#. Gtpvo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BN\n"
+"LngText.text"
+msgid "Installs the Bengali (Bangladesh) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Бенгалтәи (Бангладеш) аинтерфеис"
+
+#. VFLAY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BN_IN\n"
+"LngText.text"
+msgid "Bengali (India)"
+msgstr "Бенгалтәи (Индиа)"
+
+#. CG9LC
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BN_IN\n"
+"LngText.text"
+msgid "Installs the Bengali (India) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Бенгалтәи (Индиа) аинтерфеис"
+
+#. ZHDdr
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_OR\n"
+"LngText.text"
+msgid "Odia"
+msgstr "Ориа"
+
+#. z7wxj
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_OR\n"
+"LngText.text"
+msgid "Installs the Odia user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Ориа аинтерфеис"
+
+#. DyAGo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MR\n"
+"LngText.text"
+msgid "Marathi"
+msgstr "Маратхи"
+
+#. 4H9bk
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MR\n"
+"LngText.text"
+msgid "Installs the Marathi user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Маратхи аинтерфеис"
+
+#. EoNVG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NE\n"
+"LngText.text"
+msgid "Nepali"
+msgstr "Непалтәи"
+
+#. AqMcp
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NE\n"
+"LngText.text"
+msgid "Installs the Nepali user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Непалтәи аинтерфеис"
+
+#. 4dRdD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AR\n"
+"LngText.text"
+msgid "Arabic"
+msgstr "Арабтәи"
+
+#. Xvrxe
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AR\n"
+"LngText.text"
+msgid "Installs the Arabic user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Арабтәи аинтерфеис"
+
+#. FtvcU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CA\n"
+"LngText.text"
+msgid "Catalan"
+msgstr "Каталантәи"
+
+#. Dvwsf
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CA\n"
+"LngText.text"
+msgid "Installs the Catalan user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Каталантәи аинтерфеис"
+
+#. cqBMo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CA_VALENCIA\n"
+"LngText.text"
+msgid "Catalan (Valencian)"
+msgstr "Каталантәи (Валенсиатәи)"
+
+#. BZKTa
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CA_VALENCIA\n"
+"LngText.text"
+msgid "Installs the Catalan (Valencian) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Каталантәи (Валенсиатәи) аинтерфеис"
+
+#. LHRhT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DA\n"
+"LngText.text"
+msgid "Danish"
+msgstr "Даниатәи"
+
+#. wxLQ5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DA\n"
+"LngText.text"
+msgid "Installs the Danish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Даниатәи аинтерфеис"
+
+#. fByyD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FI\n"
+"LngText.text"
+msgid "Finnish"
+msgstr "Финтәи"
+
+#. Z5EEn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FI\n"
+"LngText.text"
+msgid "Installs the Finnish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Финтәи аинтерфеис"
+
+#. FtyWE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_HE\n"
+"LngText.text"
+msgid "Hebrew"
+msgstr "Иврит"
+
+#. 5zHmf
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_HE\n"
+"LngText.text"
+msgid "Installs the Hebrew user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Иврит аинтерфеис"
+
+#. C2wG7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_IS\n"
+"LngText.text"
+msgid "Icelandic"
+msgstr "Исландиатәи"
+
+#. Tbuyy
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_IS\n"
+"LngText.text"
+msgid "Installs the Icelandic user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Исландиатәи аинтерфеис"
+
+#. Hwos6
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NB\n"
+"LngText.text"
+msgid "Norwegian (Bokmål)"
+msgstr "Норвегиатәи (Букмол)"
+
+#. Bn7Md
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NB\n"
+"LngText.text"
+msgid "Installs the Norwegian (Bokmål) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Норвегиатәи (Букмол) аинтерфеис"
+
+#. cApSN
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NN\n"
+"LngText.text"
+msgid "Norwegian (Nynorsk)"
+msgstr "Норвегиатәи (Нонорск)"
+
+#. HfU8r
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NN\n"
+"LngText.text"
+msgid "Installs the Norwegian (Nynorsk) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Норвегиатәи (Нонорск) аинтерфеис"
+
+#. BE7zD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_RO\n"
+"LngText.text"
+msgid "Romanian"
+msgstr "Румыниатәи"
+
+#. rhPqH
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_RO\n"
+"LngText.text"
+msgid "Installs the Romanian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Румыниатәи аинтерфеис"
+
+#. 8LyUz
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SQ\n"
+"LngText.text"
+msgid "Albanian"
+msgstr "Албаниатәи"
+
+#. FsMJh
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SQ\n"
+"LngText.text"
+msgid "Installs the Albanian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Албаниатәи аинтерфеис"
+
+#. B4u5c
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ID\n"
+"LngText.text"
+msgid "Indonesian"
+msgstr "Индонезиатәи"
+
+#. FAehD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ID\n"
+"LngText.text"
+msgid "Installs the Indonesian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Индонезиатәи аинтерфеис"
+
+#. cu2PD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_UK\n"
+"LngText.text"
+msgid "Ukrainian"
+msgstr "Украинатәи"
+
+#. w3CRY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_UK\n"
+"LngText.text"
+msgid "Installs the Ukrainian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Украинатәи аинтерфеис"
+
+#. ZGNC3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BE\n"
+"LngText.text"
+msgid "Belarusian"
+msgstr "Белоруссиатәи"
+
+#. DSkzF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BE\n"
+"LngText.text"
+msgid "Installs the Belarusian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Белоруссиатәи аинтерфеис"
+
+#. ukJM7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SL\n"
+"LngText.text"
+msgid "Slovenian"
+msgstr "Словениатәи"
+
+#. ACFfE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SL\n"
+"LngText.text"
+msgid "Installs the Slovenian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Словениатәи аинтерфеис"
+
+#. 6DxuF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_LV\n"
+"LngText.text"
+msgid "Latvian"
+msgstr "Латвиатәи"
+
+#. 4JeSE
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_LV\n"
+"LngText.text"
+msgid "Installs the Latvian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Латвиатәи аинтерфеис"
+
+#. tFTVR
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_LT\n"
+"LngText.text"
+msgid "Lithuanian"
+msgstr "Литватәи"
+
+#. cKe22
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_LT\n"
+"LngText.text"
+msgid "Installs the Lithuanian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Литватәи аинтерфеис"
+
+#. A4fdb
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EU\n"
+"LngText.text"
+msgid "Basque"
+msgstr "Басктәи"
+
+#. 6VJvN
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EU\n"
+"LngText.text"
+msgid "Installs the Basque user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Басктәи аинтерфеис"
+
+#. Kisg5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MK\n"
+"LngText.text"
+msgid "Macedonian"
+msgstr "Македониатәи"
+
+#. xSDAc
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MK\n"
+"LngText.text"
+msgid "Installs the Macedonian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Македониатәи аинтерфеис"
+
+#. Bqz7U
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_CY\n"
+"LngText.text"
+msgid "Welsh"
+msgstr "Валлиитәи"
+
+#. cMm3B
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_CY\n"
+"LngText.text"
+msgid "Installs the Welsh user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Валлиитәи аинтерфеис"
+
+#. sut6n
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GL\n"
+"LngText.text"
+msgid "Galician"
+msgstr "Галисиатәи"
+
+#. qvNvn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GL\n"
+"LngText.text"
+msgid "Installs the Galician user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Галисиатәи аинтерфеис"
+
+#. eamnD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SR_LATN\n"
+"LngText.text"
+msgid "Serbian (Latin)"
+msgstr "Сербиатәи (Алатиница)"
+
+#. 6DbFi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SR_LATN\n"
+"LngText.text"
+msgid "Installs the Serbian (Latin) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Сербиатәи (Алатиница) аинтерфеис"
+
+#. Dfqs2
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GA\n"
+"LngText.text"
+msgid "Irish"
+msgstr "Ирландиатәи"
+
+#. TAumi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GA\n"
+"LngText.text"
+msgid "Installs the Irish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Ирландиатәи аинтерфеис"
+
+#. XmUCh
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SR\n"
+"LngText.text"
+msgid "Serbian (Cyrillic)"
+msgstr "Сербиатәи (Акириллица)"
+
+#. rWrcY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SR\n"
+"LngText.text"
+msgid "Installs the Serbian (Cyrillic) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Сербиатәи (Акириллица) аинтерфеис"
+
+#. aG2Ei
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BS\n"
+"LngText.text"
+msgid "Bosnian"
+msgstr "Босниатәи"
+
+#. W6nfT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BS\n"
+"LngText.text"
+msgid "Installs the Bosnian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Босниатәи аинтерфеис"
+
+#. 8axvQ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AST\n"
+"LngText.text"
+msgid "Asturian"
+msgstr "Астуриатәи"
+
+#. N87e5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AST\n"
+"LngText.text"
+msgid "Installs the Asturian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Астуриатәи аинтерфеис"
+
+#. dq9eu
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_RW\n"
+"LngText.text"
+msgid "Kinyarwanda"
+msgstr "Киниаруанда"
+
+#. SzGHR
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_RW\n"
+"LngText.text"
+msgid "Installs the Kinyarwanda user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Киниаруанда аинтерфеис"
+
+#. 3x8DY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_FA\n"
+"LngText.text"
+msgid "Persian"
+msgstr "Персиатәи"
+
+#. oC3fc
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_FA\n"
+"LngText.text"
+msgid "Installs the Persian user interface"
+msgstr "Иқәыргылатәуп Персиатәи абызшәазы ахархәаҩ иинтерфеис"
+
+#. 6qYBK
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TT\n"
+"LngText.text"
+msgid "Tatar"
+msgstr "Ататартәи"
+
+#. mSCtF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TT\n"
+"LngText.text"
+msgid "Installs the Tatar user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Ататартәи аинтерфеис"
+
+#. v9Wwj
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TS\n"
+"LngText.text"
+msgid "Tsonga"
+msgstr "Тсонго"
+
+#. EK5FB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TS\n"
+"LngText.text"
+msgid "Installs the Tsonga user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Тсонго  аинтерфеис"
+
+#. L78sW
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BR\n"
+"LngText.text"
+msgid "Breton"
+msgstr "Бретониатәи"
+
+#. XuSYK
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BR\n"
+"LngText.text"
+msgid "Installs the Breton user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Бретониатәи аинтерфеис"
+
+#. qrgoW
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_NR\n"
+"LngText.text"
+msgid "Ndebele South"
+msgstr "Аладатәи Ндебале"
+
+#. DgKLb
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_NR\n"
+"LngText.text"
+msgid "Installs the Ndebele South user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Аладатәи Ндебале аинтерфеис"
+
+#. VM8xy
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SS\n"
+"LngText.text"
+msgid "Swazi"
+msgstr "Свази"
+
+#. F3Qwc
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SS\n"
+"LngText.text"
+msgid "Installs the Swazi user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Свази аинтерфеис"
+
+#. PWJ4e
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_VE\n"
+"LngText.text"
+msgid "Venda"
+msgstr "Венда"
+
+#. gesmL
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_VE\n"
+"LngText.text"
+msgid "Installs the Venda user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Венда аинтерфеис"
+
+#. zCkNG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_VEC\n"
+"LngText.text"
+msgid "Venetian"
+msgstr "Венеттәи"
+
+#. daNwF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_VEC\n"
+"LngText.text"
+msgid "Installs the Venetian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Венеттәи аинтерфеис"
+
+#. A8VRT
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KN\n"
+"LngText.text"
+msgid "Kannada"
+msgstr "Каннада"
+
+#. gsKeJ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KN\n"
+"LngText.text"
+msgid "Installs the Kannada user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Каннада аинтерфеис"
+
+#. VEiMB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TG\n"
+"LngText.text"
+msgid "Tajik"
+msgstr "Атаџьықь бызшәа"
+
+#. YuS5Y
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TG\n"
+"LngText.text"
+msgid "Installs the Tajik user interface"
+msgstr "Аҭаџьык бызшәазы иқәыргылатәуп ахархәаҩ иинтерфеис"
+
+#. pgxMp
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KMR_LATN\n"
+"LngText.text"
+msgid "Kurdish"
+msgstr "Курдтәи"
+
+#. vFtsD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KMR_LATN\n"
+"LngText.text"
+msgid "Installs the Kurdish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Курдтәи аинтерфеис"
+
+#. hL3iS
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DZ\n"
+"LngText.text"
+msgid "Dzongkha"
+msgstr "Дзонг-ке"
+
+#. ZHRCx
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DZ\n"
+"LngText.text"
+msgid "Installs the Dzongkha user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Дзонг-ке аинтерфеис"
+
+#. aggDU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KA\n"
+"LngText.text"
+msgid "Georgian"
+msgstr "Ақырҭуа"
+
+#. WGiTR
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KA\n"
+"LngText.text"
+msgid "Installs the Georgian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Ақырҭуатәи аинтерфеис"
+
+#. hzkrn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EO\n"
+"LngText.text"
+msgid "Esperanto"
+msgstr "Есперанто"
+
+#. TkTNd
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EO\n"
+"LngText.text"
+msgid "Installs the Esperanto user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Есперанто аинтерфеис"
+
+#. fjbXo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GU\n"
+"LngText.text"
+msgid "Gujarati"
+msgstr "Гуджарати"
+
+#. ai3Ga
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GU\n"
+"LngText.text"
+msgid "Installs the Gujarati user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Гуджарати аинтерфеис"
+
+#. tvtGa
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GUG\n"
+"LngText.text"
+msgid "Guarani"
+msgstr "Гуарани"
+
+#. DTeQk
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GUG\n"
+"LngText.text"
+msgid "Installs the Guarani user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Гуарани аинтерфеис"
+
+#. rUQhG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EN_ZA\n"
+"LngText.text"
+msgid "English (South Africa)"
+msgstr "Англыз (Аладатәи Африка)"
+
+#. iDDAw
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EN_ZA\n"
+"LngText.text"
+msgid "Installs the English (South Africa) user interface"
+msgstr "Иқәыргылатәуп англыз бызшәазы (Аладатәи Африка) ахархәаҩ иинтерфеис"
+
+#. B67Fs
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_EN_GB\n"
+"LngText.text"
+msgid "English (United Kingdom)"
+msgstr "Англыз (Британиа Ду)"
+
+#. beJzD
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_EN_GB\n"
+"LngText.text"
+msgid "Installs the English (United Kingdom) user interface"
+msgstr "Иқәыргылатәуп Англыз бызшәазы (Британиа Ду) ахархәаҩ иинтерфеис"
+
+#. dDN6N
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_UZ\n"
+"LngText.text"
+msgid "Uzbek"
+msgstr "Узбектәи"
+
+#. 7pcWi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_UZ\n"
+"LngText.text"
+msgid "Installs the Uzbek user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Узбектәи аинтерфеис"
+
+#. fKDX2
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MN\n"
+"LngText.text"
+msgid "Mongolian"
+msgstr "Монголиатәи"
+
+#. R36Fr
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MN\n"
+"LngText.text"
+msgid "Installs the Mongolian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Монголиатәи аинтерфеис"
+
+#. LVGuw
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BO\n"
+"LngText.text"
+msgid "Tibetan"
+msgstr "Тибеттәи"
+
+#. ysPQ7
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BO\n"
+"LngText.text"
+msgid "Installs the Tibetan user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Тибеттәи аинтерфеис"
+
+#. wJGAU
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_OC\n"
+"LngText.text"
+msgid "Occitan"
+msgstr "Провансальтәи"
+
+#. KTnAB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_OC\n"
+"LngText.text"
+msgid "Installs the Occitan user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Провансальтәи аинтерфеис"
+
+#. iRhub
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_OM\n"
+"LngText.text"
+msgid "Oromo"
+msgstr "Оромо"
+
+#. kAxA4
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_OM\n"
+"LngText.text"
+msgid "Installs the Oromo user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Оромо аинтерфеис"
+
+#. kaB7L
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SI\n"
+"LngText.text"
+msgid "Sinhala"
+msgstr "Сингалтәи"
+
+#. 7VD5P
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SI\n"
+"LngText.text"
+msgid "Installs the Sinhala user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Сингалтәи аинтерфеис"
+
+#. qm94d
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_UG\n"
+"LngText.text"
+msgid "Uyghur"
+msgstr "Уигуртәи"
+
+#. oZD6E
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_UG\n"
+"LngText.text"
+msgid "Installs the Uyghur user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Уигуртәи аинтерфеис"
+
+#. p3jEb
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AS\n"
+"LngText.text"
+msgid "Assamese"
+msgstr "Ассамтәи"
+
+#. BH3ts
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AS\n"
+"LngText.text"
+msgid "Installs the Assamese user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Ассамтәи аинтерфеис"
+
+#. 6R75J
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_BRX\n"
+"LngText.text"
+msgid "Bodo"
+msgstr "Бодо"
+
+#. SYKb6
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_BRX\n"
+"LngText.text"
+msgid "Installs the Bodo user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Бодо аинтерфеис"
+
+#. XJx2S
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_DGO\n"
+"LngText.text"
+msgid "Dogri"
+msgstr "Догри"
+
+#. GHuAc
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_DGO\n"
+"LngText.text"
+msgid "Installs the Dogri user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Догри аинтерфеис"
+
+#. Y5NVi
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_GD\n"
+"LngText.text"
+msgid "Scottish Gaelic"
+msgstr "Гелтәи (Шотландиа)"
+
+#. h6Xji
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_GD\n"
+"LngText.text"
+msgid "Installs the Scottish Gaelic user interface"
+msgstr "Иқәыргылатәуп Гельтәи абызшәазы (Шотландиа) ахархәаҩ иинтерфеис"
+
+#. zNoA6
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KK\n"
+"LngText.text"
+msgid "Kazakh"
+msgstr "Казахтәи"
+
+#. XrCky
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KK\n"
+"LngText.text"
+msgid "Installs the Kazakh user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Казахтәи аинтерфеис"
+
+#. is34S
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KOK\n"
+"LngText.text"
+msgid "Konkani"
+msgstr "Конкани"
+
+#. GCBFA
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KOK\n"
+"LngText.text"
+msgid "Installs the Konkani user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Конкани аинтерфеис"
+
+#. yUMGg
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_KS\n"
+"LngText.text"
+msgid "Kashmiri"
+msgstr "Кашмири"
+
+#. EqdYH
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_KS\n"
+"LngText.text"
+msgid "Installs the Kashmiri user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Кашмири аинтерфеис"
+
+#. Ja29R
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MAI\n"
+"LngText.text"
+msgid "Maithili"
+msgstr "Маитхили"
+
+#. A7zvB
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MAI\n"
+"LngText.text"
+msgid "Installs the Maithili user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Маитхили аинтерфеис"
+
+#. 3vAM4
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_ML\n"
+"LngText.text"
+msgid "Malayalam"
+msgstr "Малаиалам"
+
+#. YUJth
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_ML\n"
+"LngText.text"
+msgid "Installs the Malayalam user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Малаиалам аинтерфеис"
+
+#. w4F2a
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_MNI\n"
+"LngText.text"
+msgid "Manipuri"
+msgstr "Манипури"
+
+#. qDeBC
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_MNI\n"
+"LngText.text"
+msgid "Installs the Manipuri user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Манипури аинтерфеис"
+
+#. nWUhY
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SA_IN\n"
+"LngText.text"
+msgid "Sanskrit (India)"
+msgstr "Санскрипт (Индиа)"
+
+#. EmzAF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SA_IN\n"
+"LngText.text"
+msgid "Installs the Sanskrit user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Санскрипт (Индиа) аинтерфеис"
+
+#. rBenF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SAT\n"
+"LngText.text"
+msgid "Santali"
+msgstr "Сантали"
+
+#. PTFoo
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SAT\n"
+"LngText.text"
+msgid "Installs the Santali user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Сантали аинтерфеис"
+
+#. MBSu9
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SAT_OLCK\n"
+"LngText.text"
+msgid "Santali (Ol-Chiki)"
+msgstr "Сантали (Ол-Чики)"
+
+#. Sp4BG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SAT_OLCK\n"
+"LngText.text"
+msgid "Installs the Santali (Ol-Chiki) user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ иинтерфеис Сантали абызшәа азы (Ол-Чики)"
+
+#. RAjE3
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SD\n"
+"LngText.text"
+msgid "Sindhi"
+msgstr "Синдхи"
+
+#. 6x2sa
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SD\n"
+"LngText.text"
+msgid "Installs the Sindhi user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Синдхи аинтерфеис"
+
+#. Y4YgJ
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_TE\n"
+"LngText.text"
+msgid "Telugu"
+msgstr "Телугу"
+
+#. DDEjG
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_TE\n"
+"LngText.text"
+msgid "Installs the Telugu user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Телугу аинтерфеис"
+
+#. QQ3f5
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_LB\n"
+"LngText.text"
+msgid "Luxembourgish"
+msgstr "Лиуксембургтәи"
+
+#. fxKDm
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_LB\n"
+"LngText.text"
+msgid "Installs the Luxembourgish user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Лиуксембургтәи аинтерфеис"
+
+#. qWsr6
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_AM\n"
+"LngText.text"
+msgid "Amharic"
+msgstr "Амхартәи"
+
+#. dtExs
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_AM\n"
+"LngText.text"
+msgid "Installs the Amharic user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Амхартәи аинтерфеис"
+
+#. AoejF
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SID\n"
+"LngText.text"
+msgid "Sidama"
+msgstr "Сидамо"
+
+#. wYHgn
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SID\n"
+"LngText.text"
+msgid "Installs the Sidama user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Сидамо аинтерфеис"
+
+#. qFqud
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_SZL\n"
+"LngText.text"
+msgid "Silesian"
+msgstr "Силезиатәи"
+
+#. Erz8u
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_SZL\n"
+"LngText.text"
+msgid "Installs the Silesian user interface"
+msgstr "Иқәыргылатәуп ахархәаҩ изы Силезиатәи аинтерфеис"
+
+#. wWJ9Y
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_NAME_MODULE_LANGPACK_QTZ\n"
+"LngText.text"
+msgid "KeyID"
+msgstr "Аидентификаторқәа"
+
+#. eV5vu
+#: module_langpack.ulf
+msgctxt ""
+"module_langpack.ulf\n"
+"STR_DESC_MODULE_LANGPACK_QTZ\n"
+"LngText.text"
+msgid "Installs the English user interface with a key ID before each UI element"
+msgstr ""
+
+#. 7iL3K
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_ROOT_OSL\n"
+"LngText.text"
+msgid "%PRODUCTNAME %PRODUCTVERSION"
+msgstr "%PRODUCTNAME %PRODUCTVERSION"
+
+#. AzNK3
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_ROOT_OSL\n"
+"LngText.text"
+msgid "%PRODUCTNAME %PRODUCTVERSION"
+msgstr "%PRODUCTNAME %PRODUCTVERSION"
+
+#. 83WCE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_PRG\n"
+"LngText.text"
+msgid "%PRODUCTNAME Program Modules"
+msgstr "%PRODUCTNAME ихадоу амодульқәа"
+
+#. Aknoa
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_PRG\n"
+"LngText.text"
+msgid "List of all installable %PRODUCTNAME modules."
+msgstr "%PRODUCTNAME амодульқәа зегьы рсиа."
+
+#. mR8gY
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_OPTIONAL\n"
+"LngText.text"
+msgid "Optional Components"
+msgstr "Ихазырҭәаауа акомпонентқәа"
+
+#. izkNq
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_OPTIONAL\n"
+"LngText.text"
+msgid "Common components and additional programs shared by all %PRODUCTNAME programs."
+msgstr "%PRODUCTNAME апрограммақәа зегьы рхы иадырхәо азеиԥш компонентқәеи егьырҭ апрогараммақәеи."
+
+#. SCcWV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_DICTIONARIES\n"
+"LngText.text"
+msgid "Dictionaries"
+msgstr "Ажәарқәа"
+
+#. aYDSu
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_DICTIONARIES\n"
+"LngText.text"
+msgid "Spelling dictionaries, hyphenation rules, thesauri and grammar checkers."
+msgstr "Аорфографиатә жәарқәа, аиагара аԥҟарақәа, атезаурусқәеи аграмматика агәаҭареи."
+
+#. MYXBi
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_AF\n"
+"LngText.text"
+msgid "Afrikaans"
+msgstr "Африкаанс"
+
+#. W3oZL
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_AF\n"
+"LngText.text"
+msgid "Afrikaans spelling dictionary, and hyphenation rules"
+msgstr "Африкаанс аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. iZib4
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_AN\n"
+"LngText.text"
+msgid "Aragonese"
+msgstr "Арагониатәи"
+
+#. T7zQV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_AN\n"
+"LngText.text"
+msgid "Aragonese spelling dictionary"
+msgstr "Арагониатәи аорфографиатә жәар"
+
+#. qN2sF
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_AR\n"
+"LngText.text"
+msgid "Arabic"
+msgstr "Арабтәи"
+
+#. TuYuu
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_AR\n"
+"LngText.text"
+msgid "Arabic spelling dictionary, and thesaurus"
+msgstr "Арабтәи аорфографиатә жәари атезауруси"
+
+#. RrDK6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BE\n"
+"LngText.text"
+msgid "Belarusian"
+msgstr "Белоруссиатәи"
+
+#. GFGyq
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BE\n"
+"LngText.text"
+msgid "Belarusian spelling dictionary"
+msgstr "Белоруссиатәи аорфографиатә жәар"
+
+#. B9iCs
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BG\n"
+"LngText.text"
+msgid "Bulgarian"
+msgstr "Болгариатәи"
+
+#. BBGDC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BG\n"
+"LngText.text"
+msgid "Bulgarian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Болгариатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. BTti9
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BN\n"
+"LngText.text"
+msgid "Bengali"
+msgstr "Бенгалтәи"
+
+#. eK99V
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BN\n"
+"LngText.text"
+msgid "Bengali spelling dictionary"
+msgstr "Бенгалтәи аорфографиатә жәар"
+
+#. qMM8i
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BO\n"
+"LngText.text"
+msgid "Classical Tibetan"
+msgstr "Иклассикатәу Тибеттәи"
+
+#. xXyL2
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BO\n"
+"LngText.text"
+msgid "Classical Tibetan syllable spelling dictionary"
+msgstr "Аклассикатә Тибеттәи цыралатәи аорфографиатә жәар"
+
+#. gjKdw
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BR\n"
+"LngText.text"
+msgid "Breton"
+msgstr "Бретониатәи"
+
+#. iDDXs
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BR\n"
+"LngText.text"
+msgid "Breton spelling dictionary"
+msgstr "Бретониатәи аорфографиатә жәар"
+
+#. z3N6j
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_BS\n"
+"LngText.text"
+msgid "Bosnian"
+msgstr "Босниатәи"
+
+#. icYu4
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_BS\n"
+"LngText.text"
+msgid "Bosnian spelling dictionary"
+msgstr "Босниатәи аорфографиатә жәар"
+
+#. YgTuV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_CA\n"
+"LngText.text"
+msgid "Catalan"
+msgstr "Каталантәи"
+
+#. ADAkJ
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_CA\n"
+"LngText.text"
+msgid "Catalan spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Каталантәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. CVnGE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_CKB\n"
+"LngText.text"
+msgid "Central Kurdish"
+msgstr "Сорани"
+
+#. xEtQ6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_CKB\n"
+"LngText.text"
+msgid "Central Kurdish spelling dictionary"
+msgstr "Сорани аорфографиатә жәар"
+
+#. CCE5q
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_CS\n"
+"LngText.text"
+msgid "Czech"
+msgstr "Чехиатәи"
+
+#. ECaT7
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_CS\n"
+"LngText.text"
+msgid "Czech spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Чехиатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. gS2wr
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_DA\n"
+"LngText.text"
+msgid "Danish"
+msgstr "Даниатәи"
+
+#. MpqAG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_DA\n"
+"LngText.text"
+msgid "Danish spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Даниатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. 7swZQ
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_DE\n"
+"LngText.text"
+msgid "German"
+msgstr "Агерман"
+
+#. PwSxk
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_DE\n"
+"LngText.text"
+msgid "German (Austria, Germany, Switzerland) spelling dictionaries, hyphenation rules, and thesauri"
+msgstr "Агерман бызшәа (Австриа, Германиа, Швеицариа) аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. CkBTE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_EN\n"
+"LngText.text"
+msgid "English"
+msgstr "Англыз"
+
+#. BzD6Z
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_EN\n"
+"LngText.text"
+msgid "English spelling dictionaries, hyphenation rules, thesaurus, and grammar checker"
+msgstr "Англыз бызшәа аорфографиатә жәар, аиагара аԥҟарақәа, атезауруси аграмматика агәаҭареи"
+
+#. 2DiA4
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_EL\n"
+"LngText.text"
+msgid "Greek"
+msgstr "Абырзентә"
+
+#. B67mE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_EL\n"
+"LngText.text"
+msgid "Greek spelling dictionary, and hyphenation rules"
+msgstr "Абырзентә аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. d5cqB
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_EO\n"
+"LngText.text"
+msgid "Esperanto"
+msgstr "Есперанто"
+
+#. kCMkK
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_EO\n"
+"LngText.text"
+msgid "Esperanto spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Есперанто аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. 6Mzvn
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_ES\n"
+"LngText.text"
+msgid "Spanish"
+msgstr "Испаниатәи"
+
+#. 9QkGG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_ES\n"
+"LngText.text"
+msgid "Spanish spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Ипаниатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. KRfJz
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_ET\n"
+"LngText.text"
+msgid "Estonian"
+msgstr "Естониатәи"
+
+#. BwPVk
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_ET\n"
+"LngText.text"
+msgid "Estonian spelling dictionary, and hyphenation rules"
+msgstr "Естониатәи аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. ccL3Z
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_FA\n"
+"LngText.text"
+msgid "Persian"
+msgstr "Персиатәи"
+
+#. FLaCv
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_FA\n"
+"LngText.text"
+msgid "Persian Spell Checking Dictionary"
+msgstr "Персиатәи аорфографиатә жәар"
+
+#. 5QqAr
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_FR\n"
+"LngText.text"
+msgid "French"
+msgstr "Франциатәи"
+
+#. MZrvF
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_FR\n"
+"LngText.text"
+msgid "French spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Франциатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. gFGrA
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_GD\n"
+"LngText.text"
+msgid "Scottish Gaelic"
+msgstr "Гелтәи (Шотландиа)"
+
+#. RBdc6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_GD\n"
+"LngText.text"
+msgid "Scottish Gaelic spelling dictionary"
+msgstr "Гелтәи (Шотландиа) аорфографиатә жәар"
+
+#. QZv9T
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_GL\n"
+"LngText.text"
+msgid "Galician"
+msgstr "Галисиатәи"
+
+#. SnJ62
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_GL\n"
+"LngText.text"
+msgid "Galician spelling dictionary"
+msgstr "Галисиатәи аорфографиатә жәар"
+
+#. BfhaS
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_GU\n"
+"LngText.text"
+msgid "Gujarati"
+msgstr "Гуджарати"
+
+#. EJ73v
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_GU\n"
+"LngText.text"
+msgid "Gujarati spelling dictionary"
+msgstr "Гуджарати аорфографиатә жәар"
+
+#. TETpE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_HE\n"
+"LngText.text"
+msgid "Hebrew"
+msgstr "Иврит"
+
+#. Kb7VT
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_HE\n"
+"LngText.text"
+msgid "Hebrew spelling dictionary"
+msgstr "Иврит аорфографиатә жәар"
+
+#. Bw48q
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_HI\n"
+"LngText.text"
+msgid "Hindi"
+msgstr "Хинди"
+
+#. yrD8a
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_HI\n"
+"LngText.text"
+msgid "Hindi spelling dictionary"
+msgstr "Хинди аорфографиатә жәар"
+
+#. 9p6WB
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_HU\n"
+"LngText.text"
+msgid "Hungarian"
+msgstr "Венгриатәи"
+
+#. ZgByi
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_HU\n"
+"LngText.text"
+msgid "Hungarian spelling dictionary, hyphenation rules, thesaurus, and grammar checker"
+msgstr "Венгриатәи аорфографиатә жәар, аиагара аԥҟарақәа, атезауруси аграмматика агәаҭареи"
+
+#. QDFn9
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_HR\n"
+"LngText.text"
+msgid "Croatian"
+msgstr "Хорватиатәи"
+
+#. A2Sit
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_HR\n"
+"LngText.text"
+msgid "Croatian spelling dictionary, and hyphenation rules"
+msgstr "Хорватиатәи аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. kfnGf
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_ID\n"
+"LngText.text"
+msgid "Indonesian"
+msgstr "Индонезиатәи"
+
+#. bKFJd
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_ID\n"
+"LngText.text"
+msgid "Indonesian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Индонезиатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. G6XKV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_IS\n"
+"LngText.text"
+msgid "Icelandic"
+msgstr "Исландиатәи"
+
+#. 2GCeD
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_IS\n"
+"LngText.text"
+msgid "Icelandic spelling dictionary and thesaurus"
+msgstr "Исландиатәи аорфографиатә жәари атезауруси"
+
+#. eMWNC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_IT\n"
+"LngText.text"
+msgid "Italian"
+msgstr "Италиатәи"
+
+#. xmEH8
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_IT\n"
+"LngText.text"
+msgid "Italian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Италиатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. FVsWA
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_KMR_LATN\n"
+"LngText.text"
+msgid "Kurdish, Northern, Latin script"
+msgstr "Курманджи, алаҭын алфавит"
+
+#. eVdFs
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_KMR_LATN\n"
+"LngText.text"
+msgid "Kurdish, Northern, Latin script spelling dictionary"
+msgstr "Курманджи, алаҭын аорфографиатә жәар"
+
+#. UrEiC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_KO\n"
+"LngText.text"
+msgid "Korean"
+msgstr "Кореиатәи"
+
+#. EeEDH
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_KO\n"
+"LngText.text"
+msgid "Korean spelling dictionary"
+msgstr "Кореиатәи аорфографиатә жәар"
+
+#. xuCvE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_LO\n"
+"LngText.text"
+msgid "Lao"
+msgstr "Лаостәи"
+
+#. sk35z
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_LO\n"
+"LngText.text"
+msgid "Lao spelling dictionary"
+msgstr "Лаостәи аорфографиатә жәар"
+
+#. 3SgjJ
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_LT\n"
+"LngText.text"
+msgid "Lithuanian"
+msgstr "Литватәи"
+
+#. EDJnu
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_LT\n"
+"LngText.text"
+msgid "Lithuanian spelling dictionary, and hyphenation rules"
+msgstr "Литватәи аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. f8VcG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_LV\n"
+"LngText.text"
+msgid "Latvian"
+msgstr "Латвиатәи"
+
+#. 4mvRA
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_LV\n"
+"LngText.text"
+msgid "Latvian spelling dictionary, and hyphenation rules"
+msgstr "Латвиатәи аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. bPEcW
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_MN\n"
+"LngText.text"
+msgid "Mongolian"
+msgstr "Монголиатәи"
+
+#. 54a9A
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_MN\n"
+"LngText.text"
+msgid "Mongolian spelling dictionary, and hyphenation rules"
+msgstr "Монголиатә аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. s33jG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_NE\n"
+"LngText.text"
+msgid "Nepali"
+msgstr "Непалтәи"
+
+#. zJJvz
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_NE\n"
+"LngText.text"
+msgid "Nepali spelling dictionary, and thesaurus"
+msgstr "Непалтәи  аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. QanF5
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_NL\n"
+"LngText.text"
+msgid "Dutch"
+msgstr "Голландиатәи"
+
+#. DZAnE
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_NL\n"
+"LngText.text"
+msgid "Dutch spelling dictionary, and hyphenation rules"
+msgstr "Голландиатәи аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. DJA8F
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_NO\n"
+"LngText.text"
+msgid "Norwegian"
+msgstr "Норвегиатәи"
+
+#. jRRbG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_NO\n"
+"LngText.text"
+msgid "Norwegian (Nynorsk and Bokmal) spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Норвегиатәи (Ниунорск, Букмол) аорфографиатә жәар, аиагара аԥҟарақәеи атезуруси"
+
+#. FDCJV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_OC\n"
+"LngText.text"
+msgid "Occitan"
+msgstr "Провансалтәи"
+
+#. hzs4i
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_OC\n"
+"LngText.text"
+msgid "Occitan spelling dictionary"
+msgstr "Провансалтәи аорфографиатә жәар"
+
+#. QicMe
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_PL\n"
+"LngText.text"
+msgid "Polish"
+msgstr "Польшатәи"
+
+#. E9rKY
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_PL\n"
+"LngText.text"
+msgid "Polish spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Польшатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. QGpSq
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_PT_BR\n"
+"LngText.text"
+msgid "Portuguese (Brazil)"
+msgstr "Португалиатәи (Бразилиа)"
+
+#. wWCfp
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_PT_BR\n"
+"LngText.text"
+msgid "Portuguese (Brazil) spelling Dictionary (1990 Spelling Agreement), and hyphenation rules"
+msgstr "Португалиатәи (Бразилиа) аорфографиатә жәари (аорфографиатә еиҭакра 1990) аиагара аԥҟарақәеи"
+
+#. KZETs
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_PT_PT\n"
+"LngText.text"
+msgid "Portuguese"
+msgstr "Португалиатәи"
+
+#. vKkFM
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_PT_PT\n"
+"LngText.text"
+msgid "European Portuguese spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Португалиатәи (Европа) аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. pBzE7
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_RO\n"
+"LngText.text"
+msgid "Romanian"
+msgstr "Румыниатәи"
+
+#. FmNsz
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_RO\n"
+"LngText.text"
+msgid "Romanian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Румыниатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. wUTBC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_RU\n"
+"LngText.text"
+msgid "Russian"
+msgstr "Аурыс"
+
+#. jEuDR
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_RU\n"
+"LngText.text"
+msgid "Russian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Аурыс орфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. LvDHM
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SI\n"
+"LngText.text"
+msgid "Sinhala"
+msgstr "Сингалтәи"
+
+#. qDXQw
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SI\n"
+"LngText.text"
+msgid "Sinhala spelling dictionary"
+msgstr "Синхалтәи аорфографиатә жәар"
+
+#. DrzpP
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SK\n"
+"LngText.text"
+msgid "Slovak"
+msgstr "Словакиатәи"
+
+#. t3S53
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SK\n"
+"LngText.text"
+msgid "Slovak spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Словакиатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. ypzEV
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SL\n"
+"LngText.text"
+msgid "Slovenian"
+msgstr "Словениатәи"
+
+#. WasEv
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SL\n"
+"LngText.text"
+msgid "Slovenian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Словениатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. S7shF
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SQ\n"
+"LngText.text"
+msgid "Albanian"
+msgstr "Албаниатәи"
+
+#. gDEY6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SQ\n"
+"LngText.text"
+msgid "Albanian spelling dictionary"
+msgstr "Албаниатәи аорфографиатә жәар"
+
+#. DsKAH
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SR\n"
+"LngText.text"
+msgid "Serbian"
+msgstr "Сербиатәи"
+
+#. wm6FC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SR\n"
+"LngText.text"
+msgid "Serbian (Cyrillic and Latin) spelling dictionary, and hyphenation rules"
+msgstr "Сербиатәи (Акириллицеи Алатиницеи) аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. a5sxo
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SV\n"
+"LngText.text"
+msgid "Swedish"
+msgstr "Швециатәи"
+
+#. 268M7
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SV\n"
+"LngText.text"
+msgid "Swedish spelling dictionary, and thesaurus"
+msgstr "Швециатәи аорфографиатә жәари атезауруси"
+
+#. AGpUb
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_SW\n"
+"LngText.text"
+msgid "Swahili"
+msgstr "Суахили"
+
+#. iHEAm
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_SW\n"
+"LngText.text"
+msgid "Swahili spelling dictionary"
+msgstr "Суахили аорфографиатә жәар"
+
+#. Cnrv2
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_TE\n"
+"LngText.text"
+msgid "Telugu"
+msgstr "Телугу"
+
+#. dBCkd
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_TE\n"
+"LngText.text"
+msgid "Telugu spelling dictionary, and hyphenation rules"
+msgstr "Телугу аорфографиатә жәари аиагара аԥҟарақәеи"
+
+#. w2MSG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_TH\n"
+"LngText.text"
+msgid "Thai"
+msgstr "Таитәи"
+
+#. ycBR6
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_TH\n"
+"LngText.text"
+msgid "Thai spelling dictionary"
+msgstr "Таитәи аорфографиатә жәар"
+
+#. RTDDS
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_TR\n"
+"LngText.text"
+msgid "Turkish"
+msgstr "Аҭырқәа"
+
+#. ALNqi
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_TR\n"
+"LngText.text"
+msgid "Turkish spelling dictionary"
+msgstr "Аҭырқәа бызшәа аорфографиатә жәар"
+
+#. gyKCb
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_UK\n"
+"LngText.text"
+msgid "Ukrainian"
+msgstr "Украинатәи"
+
+#. 9WkNj
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_UK\n"
+"LngText.text"
+msgid "Ukrainian spelling dictionary, hyphenation rules, and thesaurus"
+msgstr "Украинатәи аорфографиатә жәар, аиагара аԥҟарақәеи атезауруси"
+
+#. azarG
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_VI\n"
+"LngText.text"
+msgid "Vietnamese"
+msgstr "Виетнамтәи"
+
+#. i9ESQ
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_VI\n"
+"LngText.text"
+msgid "Vietnamese spelling dictionary"
+msgstr "Виетнамтәи аорфографиатә жәар"
+
+#. fq4qC
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_NAME_MODULE_EXTENSION_DICTIONARY_ZU\n"
+"LngText.text"
+msgid "Zulu"
+msgstr "Зулустәи"
+
+#. MFaBx
+#: module_ooo.ulf
+msgctxt ""
+"module_ooo.ulf\n"
+"STR_DESC_MODULE_EXTENSION_DICTIONARY_ZU\n"
+"LngText.text"
+msgid "Zulu hyphenation rules"
+msgstr "Зулустәи аорфографиатә жәар"
+
+#. pxQ5u
+#: module_reportbuilder.ulf
+msgctxt ""
+"module_reportbuilder.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_REPORTDESIGN\n"
+"LngText.text"
+msgid "Report Builder"
+msgstr "Аҳасабырбақәа реиқәыршәага"
+
+#. uzCcq
+#: module_reportbuilder.ulf
+msgctxt ""
+"module_reportbuilder.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_REPORTDESIGN\n"
+"LngText.text"
+msgid "Report Builder helps to design database reports. It requires Java."
+msgstr "Аҳасабырба аиҿкаага ацхраауеит адырқәа рбаза ахархәарала аҳасабырба аԥҵара. Иаҭахуп Java."
+
+#. 9vjxt
+#: module_systemint.ulf
+msgctxt ""
+"module_systemint.ulf\n"
+"STR_NAME_MODULE_OPTIONAL_SYSTEMINTEGRATION\n"
+"LngText.text"
+msgid "Desktop integration"
+msgstr ""
+
+#. Wvfym
+#: module_systemint.ulf
+msgctxt ""
+"module_systemint.ulf\n"
+"STR_DESC_MODULE_OPTIONAL_SYSTEMINTEGRATION\n"
+"LngText.text"
+msgid "Desktop integration of %PRODUCTNAME %PRODUCTVERSION."
+msgstr ""
+
+#. tcNqY
+#: registryitem_ooo.ulf
+msgctxt ""
+"registryitem_ooo.ulf\n"
+"STR_REG_VAL_INSTALL\n"
+"LngText.text"
+msgid "&Install"
+msgstr "Иқәыргылатәуп"
+
+#. oZCSv
+#: registryitem_ooo.ulf
+msgctxt ""
+"registryitem_ooo.ulf\n"
+"STR_REG_VAL_SO60_CONFIGFILE\n"
+"LngText.text"
+msgid "%PRODUCTNAME Configuration File"
+msgstr "%PRODUCTNAME архиарақәа рфаил"
+
+#. AjY7Q
+#: registryitem_ooo.ulf
+msgctxt ""
+"registryitem_ooo.ulf\n"
+"STR_REG_VAL_EXTENSION\n"
+"LngText.text"
+msgid "%PRODUCTNAME Extension"
+msgstr "%PRODUCTNAME-Арҭбаара"
+
+#. TKpXD
+#: registryitem_ooo.ulf
+msgctxt ""
+"registryitem_ooo.ulf\n"
+"STR_REG_VAL_APPCAPABILITY_DESCRIPTION_OOO\n"
+"LngText.text"
+msgid "LibreOffice"
+msgstr "LibreOffice"

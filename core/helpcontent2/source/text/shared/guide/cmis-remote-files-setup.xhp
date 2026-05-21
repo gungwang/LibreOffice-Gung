@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+-->
+
+<meta>
+  <topic id="textsharedguidecmisremotefilessetupxml" indexer="include" status="PUBLISH">
+    <title id="tit">Using Remote Files</title>
+    <filename>/text/shared/guide/cmis-remote-files-setup.xhp</filename>
+  </topic>
+</meta>
+<body>
+
+<section id="setup_remote_files">
+<bookmark branch="hid/svt/ui/placeedit/@@nowidget@@" id="@@nowidget@@" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/PlaceEditDialog" id="bm_id19391" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/dialog-vbox1" id="bm_id32365" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/Details" id="bm_id58969" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/typeLabel" id="bm_id23742" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/hostLabel" id="bm_id43702" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/portLabel" id="bm_id3799" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/shareLabel" id="bm_id42698" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/loginLabel" id="bm_id4325" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/passwordLabel" id="bm_id16884" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/rememberPassword" id="bm_id48392" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/repositoryLabel" id="bm_id13518" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/repositoriesRefresh" id="bm_id26499" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/nameLabel" id="bm_id34632" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/pathLabel" id="bm_id44849" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/dialog-action_area1" id="bm_id16811" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/help" id="bm_id27954" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/ok" id="bm_id26508" localize="false"/>
+<bookmark branch="hid/svt/ui/placeedit/cancel" id="bm_id16650" localize="false"/>
+
+<bookmark branch="index" id="bm_id170820161244279161">
+  <bookmark_value>remote file service;setup</bookmark_value>
+</bookmark>
+
+<h1 id="hd_id200820161036353610"><link href="text/shared/guide/cmis-remote-files-setup.xhp">Setting up a remote file service connection</link></h1>
+</section>
+
+<section id="howtoget">
+  <embed href="text/shared/00/00000004.xhp#from_menu_bar"/>
+  <paragraph role="paragraph" id="par_id291755781348999">Select <menuitem>File - Open Remote</menuitem>...</paragraph>
+  <paragraph role="paragraph" id="par_id231755781353095">Select <menuitem>File - Save Remote</menuitem>...</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_startcenter"/>
+  <paragraph role="paragraph" id="par_id161755781345030">Press <menuitem>Open Remote</menuitem>...</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_tabUI"/>
+  <paragraph role="paragraph" id="par_id191755781634737">Long click on <menuitem>File - Open</menuitem> then <menuitem>Open Remote</menuitem>...</paragraph>
+  <paragraph role="paragraph" id="par_id401755781638562">Long click on <menuitem>File - Save</menuitem> then <menuitem>Save Remote</menuitem>...</paragraph>
+  <embed href="text/shared/00/00000004.xhp#from_toolbars"/>
+  <table id="tab_id311755781285036">
+    <tablerow>
+      <tablecell>
+        <paragraph id="par_id991755781285039" role="paragraph"><image src="cmd/lc_openremote.svg" id="img_id771755781285041" width="1cm"  height="1cm"><alt id="alt_id541755781285044">Icon Open Remote</alt></image></paragraph>
+      </tablecell>
+      <tablecell>
+        <paragraph id="par_id771755781285048" role="paragraph">Open Remote</paragraph>
+      </tablecell>
+    </tablerow>
+    </table>
+    <table id="tab_id231755781290093">
+      <tablerow>
+        <tablecell>
+          <paragraph id="par_id161755781290096" role="paragraph"><image src="cmd/lc_saveasremote.svg" id="img_id451755781290098" width="1cm"  height="1cm"><alt id="alt_id751755781290101">Icon Save Remote</alt></image></paragraph>
+        </tablecell>
+        <tablecell>
+          <paragraph id="par_id41755781290105" role="paragraph">Save Remote</paragraph>
+        </tablecell>
+      </tablerow>
+    </table>
+
+  <paragraph id="par_id150820161816033600" role="paragraph">Then press <widget>Manage Services</widget> button in the dialog to open the File Services dialog.</paragraph>
+</section>
+<bookmark branch="index" id="bm_id170820162240508275">
+  <bookmark_value>WebDAV;remote file service setup</bookmark_value>
+  <bookmark_value>remote file service setup;WebDAV</bookmark_value>
+</bookmark>
+
+<bookmark branch="hid/svt/ui/placeedit/webdavs" id="bm_id42632" localize="false"/>
+<h3 id="hd_id1501201618160340">Connecting to a <link href="text/shared/00/00000002.xhp#webdav">WebDAV</link> server</h3>
+<paragraph id="par_id150820161816034989" role="paragraph"><variable id="introservice">In the File Services dialog, set:</variable></paragraph>
+
+<list type="unordered">
+  <listitem>
+    <paragraph id="par_id150820161816033753" role="listitem"><emph>Type</emph>: WebDAV</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816034500" role="listitem"><emph>Host</emph>: the server URL, usually in the form <item type="literal">file.service.com</item></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816037709" role="listitem"><emph>Port</emph>: port number (usually <item type="literal">80</item>)</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816032816" role="listitem">Select <emph>Secure Connection</emph> checkbox to access the service through <item type="literal">https</item> protocol and port <item type="literal">443</item></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816035209" role="listitem"><variable id="labelpar"><emph>Label</emph>: give a name for this connection. This name will show in the Service listbox of the Open or Save remote files dialog.</variable></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id15082016181603431" role="listitem"><variable id="rootpar"><emph>Root</emph>: enter the path to the root URL of your account.</variable></paragraph>
+  </listitem></list>
+<note id="par_id150820161816034394">Note: the root of the file service is provided by the file service administrator and may consists of scripts files, parameters and paths. </note>
+<paragraph id="par_id150820161816036744" role="paragraph"><variable id="okbutton">Once the connection is defined, click <emph>OK</emph> to connect. The dialog will dim until the connection is established with the server.</variable> A dialog asking for the user name and the password may pop up to let you log in the server. Proceed entering the right user name and password.</paragraph>
+<bookmark branch="index" id="bm_id170820161240508275">
+  <bookmark_value>SSH;remote file service setup</bookmark_value>
+  <bookmark_value>remote file service setup;SSH</bookmark_value>
+</bookmark>
+
+<h3 id="hd_id1508201618160340">Connecting to SSH servers</h3>
+<note id="par_id391755780605532">Connecting to a SSH server is not available on Windows systems. On other platforms, it depends on D-Bus, GIO and GVfs with SSH support present on the system.</note>
+<paragraph id="par_id150820161816034969" role="paragraph" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#introservice" markup="keep"/></paragraph>
+
+<list type="unordered">
+  <listitem>
+    <paragraph id="par_id150820161816039418" role="listitem"><emph>Type</emph>: SSH</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id15082016181603238" role="listitem"><emph>Host</emph>: the server URL, usually in the form <item type="literal">file.service.com</item></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816046286" role="listitem"><emph>Port</emph>: port number (usually 22 for SSH).</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816041989" role="listitem"><emph>User, Password</emph>: the username and password of the service.</paragraph>
+  </listitem>
+  <listitem>
+      <paragraph id="par_id150820161816047387" role="listitem"><variable id="rememberpw"><emph>Remember password</emph>: Check to store the password in %PRODUCTNAME’s user profile. The password will be secured by the master password in <switchinline select="sys"><caseinline select="MAC"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME - Security - Internet passwords</menuitem>.</variable></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816045167" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#labelpar" markup="keep"/></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816045015" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#rootpar" markup="keep"/></paragraph>
+  </listitem></list>
+<paragraph id="par_id150820161816045804" role="paragraph" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#okbutton"/></paragraph>
+
+<h3 id="hd_id150820161816049600">Connecting to a Windows share</h3>
+<bookmark branch="index" id="bm_id170820161249395796">
+  <bookmark_value>remote file service;Windows share</bookmark_value>
+  <bookmark_value>Windows share;remote file service</bookmark_value>
+  <bookmark_value>Windows share;remote file service setup</bookmark_value>
+  <bookmark_value>remote file service setup;Windows share</bookmark_value>
+</bookmark>
+
+<paragraph id="par_id150820161816046729" role="paragraph" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#introservice" markup="keep"/></paragraph>
+
+<list type="unordered">
+  <listitem>
+    <paragraph id="par_id150820161816041482" role="listitem"><emph>Type</emph>: Windows Share</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816041093" role="listitem"><emph>Host</emph>: the server URL, usually in the form <item type="literal">file.service.com</item></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816042364" role="listitem"><emph>Share</emph>: The Windows share.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816049" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#rememberpw" markup="keep"/></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816048365" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#labelpar" markup="keep"/></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816048181" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#rootpar" markup="keep"/></paragraph>
+  </listitem></list>
+<paragraph id="par_id150820161816047868" role="paragraph" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#okbutton"/></paragraph>
+
+<h3 id="hd_id160820161759157773">Connecting to Google Drive</h3>
+<bookmark branch="index" id="bm_id170820161251022847">
+  <bookmark_value>remote file service;Google Drive</bookmark_value>
+  <bookmark_value>Google Drive;remote file service</bookmark_value>
+  <bookmark_value>Google Drive;remote file service setup</bookmark_value>
+  <bookmark_value>remote file service setup;Google Drive</bookmark_value>
+</bookmark>
+
+<paragraph id="par_id160820161759169124" role="paragraph" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#introservice" markup="keep"/></paragraph>
+
+<list type="unordered">
+  <listitem>
+    <paragraph id="par_id160820161759169511" role="listitem"><emph>Type</emph>: Google Drive.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id16082016175916814" role="listitem"><emph>User, Password</emph>: the username and password of the Google account.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id160820161759162239" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#rememberpw" markup="keep"/></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id160820161759166391" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#labelpar" markup="keep"/></paragraph>
+  </listitem></list>
+<paragraph id="par_id160820161759163527" role="paragraph" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#okbutton"/></paragraph>
+
+<h3 id="hd_id150820161816044879">Connecting to a <link href="text/shared/00/00000002.xhp#cmis">CMIS</link> server</h3>
+<bookmark branch="index" id="bm_id170820161254261587">
+  <bookmark_value>remote file service setup;other file services</bookmark_value>
+  <bookmark_value>remote file service setup;Lotus</bookmark_value>
+  <bookmark_value>remote file service setup;SharePoint</bookmark_value>
+  <bookmark_value>remote file service setup;IBM</bookmark_value>
+  <bookmark_value>remote file service setup;Nuxeo</bookmark_value>
+  <bookmark_value>remote file service setup;Alfresco</bookmark_value>
+  <bookmark_value>remote file service setup;CMIS server</bookmark_value>
+</bookmark>
+
+<paragraph id="par_id150820161816048323" role="paragraph" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#introservice" markup="keep"/></paragraph>
+
+<list type="unordered">
+  <listitem>
+    <paragraph id="par_id150820161816042787" role="listitem"><emph>Type</emph>: Select the type of server in the list.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816045515" role="listitem"><emph>Host</emph>: the server URL. A URL default template is provided according to the server type. Set data accordingly.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816046632" role="listitem"><emph>User, Password</emph>: the username and password of the CMIS service.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816054077" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#rememberpw" markup="keep"/></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816053608" role="listitem"><emph>Repository</emph>: select the files repository in the drop-down list.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816054065" role="listitem"><emph>Refresh button</emph>: click to refresh the contents of the repository list.</paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816054039" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#labelpar" markup="keep"/></paragraph>
+  </listitem>
+  <listitem>
+    <paragraph id="par_id150820161816052286" role="listitem" localize="false"><embedvar href="text/shared/guide/cmis-remote-files-setup.xhp#rootpar" markup="keep"/></paragraph>
+  </listitem></list>
+
+<section id="relatedtopics">
+
+<paragraph id="par_id210820361039438142" role="paragraph"><link href="text/shared/guide/cmis-remote-files.xhp">Opening and saving documents in remote file servers</link></paragraph>
+<paragraph id="par_id210820161039438142" role="paragraph"><link href="text/shared/guide/cmis-remote-files.xhp#check">Checking-in and checking-out documents</link></paragraph>
+</section>
+</body>
+</helpdocument>

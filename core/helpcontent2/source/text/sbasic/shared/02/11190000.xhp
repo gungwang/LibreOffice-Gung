@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpdocument version="1.0">
+
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+
+
+<meta>
+      <topic id="textsbasicshared0211190000xml" indexer="include" status="PUBLISH">
+         <title id="tit">Export Dialog</title>
+         <filename>/text/sbasic/shared/02/11190000.xhp</filename>
+      </topic>
+</meta>
+<body>
+<bookmark branch="hid/.uno:ExportDialog" id="bm_id099200903013963" localize="false"/>
+<section id="export">
+   <h1 id="hd_id3156183"><link href="text/sbasic/shared/02/11190000.xhp">Export Dialog</link></h1>
+   <paragraph id="par_id3152363" role="paragraph"><ahelp hid=".">In the dialog editor, this command calls a "Save as" dialog to export the current BASIC dialog.</ahelp></paragraph>
+</section>
+<section id="syexport">
+   <table id="tbl_id3153750">
+      <tablerow>
+         <tablecell>
+            <paragraph id="par_id3143267" role="paragraph"><image id="img_id3155339" src="cmd/lc_exportdialog.svg" width="1cm" height="1cm"><alt id="alt_id3155339">Icon Export Dialog</alt></image></paragraph>
+         </tablecell>
+         <tablecell>
+            <paragraph id="par_id3145383" role="paragraph">Export Dialog</paragraph>
+         </tablecell>
+      </tablerow>
+   </table>
+</section>
+</body>
+</helpdocument>
