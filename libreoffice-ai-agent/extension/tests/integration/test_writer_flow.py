@@ -8,13 +8,47 @@ from loaia.bootstrap import SIDEBAR_RESOURCE_URL
 from loaia.broker.client import SidecarClient
 from loaia.broker.transport import SidecarTransportClient
 from loaia.chat_controller import ChatController
-from loaia.context.writer import WriterSelectionState, build_writer_chat_request
+from loaia.context.writer import build_writer_chat_request, capture_writer_selection
 from loaia.sidebar_panel import SidebarPanel
 from loaia_sidecar.server import LoaiaSidecarServer
 from loaia_sidecar.transport.named_pipe import NamedPipeTransport
 
 
 pytestmark = pytest.mark.skipif(os.name != "nt", reason="Windows named pipes only")
+
+
+class FakeWriterTextRange:
+    def __init__(self, text: str) -> None:
+        self.text = text
+
+    def getString(self) -> str:
+        return self.text
+
+    def setString(self, text: str) -> None:
+        self.text = text
+
+
+class FakeWriterSelection:
+    def __init__(self, *ranges: FakeWriterTextRange) -> None:
+        self._ranges = ranges
+
+    def getCount(self) -> int:
+        return len(self._ranges)
+
+    def getByIndex(self, index: int) -> FakeWriterTextRange:
+        return self._ranges[index]
+
+
+class FakeWriterSelectionSupplier:
+    def __init__(self, selection: FakeWriterSelection) -> None:
+        self._selection = selection
+        self.last_selected_range: FakeWriterTextRange | None = None
+
+    def getSelection(self) -> FakeWriterSelection:
+        return self._selection
+
+    def select(self, text_range: FakeWriterTextRange) -> None:
+        self.last_selected_range = text_range
 
 
 def test_writer_preview_then_approve_apply_round_trip() -> None:
@@ -30,7 +64,9 @@ def test_writer_preview_then_approve_apply_round_trip() -> None:
         panel=panel,
         client=SidecarClient(transport=SidecarTransportClient(address=address)),
     )
-    selection = WriterSelectionState(text="hello world")
+    text_range = FakeWriterTextRange("hello world")
+    selection_supplier = FakeWriterSelectionSupplier(FakeWriterSelection(text_range))
+    selection = capture_writer_selection(selection_supplier)
     request = build_writer_chat_request(
         selection=selection,
         user_message="Please convert this selection to uppercase.",
@@ -52,4 +88,6 @@ def test_writer_preview_then_approve_apply_round_trip() -> None:
 
     assert applied_text == "HELLO WORLD"
     assert selection.text == "HELLO WORLD"
+    assert text_range.text == "HELLO WORLD"
+    assert selection_supplier.last_selected_range is text_range
     assert panel.state.pending_proposal is None
