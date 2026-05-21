@@ -1,4 +1,4 @@
-# LibreOffice AI Agent 兄弟仓库脚手架方案
+# LibreOffice AI Agent 仓库内子项目脚手架方案
 
 英文版: [libreoffice-ai-agent-repo-scaffold.md](./libreoffice-ai-agent-repo-scaffold.md)
 详细 MVP 设计规格: [libreoffice-ai-agent-mvp-design-spec.zh-CN.md](./libreoffice-ai-agent-mvp-design-spec.zh-CN.md)
@@ -7,17 +7,17 @@
 
 这份文档回答两个问题：
 
-- 新的兄弟仓库应该长什么样
+- 新的仓库内子项目应该长什么样
 - 第一阶段应该先搭哪些骨架，才能尽快做出可运行的版本
 
 这里说的“脚手架”，可以理解为项目的基础骨架：目录结构、关键模块、测试位置、构建脚本、里程碑拆分。
 
-## 建议的新仓库
+## 建议的子项目
 
-- 仓库名：`libreoffice-ai-agent`
-- 建议路径：`C:\AI\intel-ai\libreoffice-ai-agent`
+- 子项目目录名：`libreoffice-ai-agent`
+- 建议路径：`./libreoffice-ai-agent`
 
-这个仓库与 LibreOffice core 分开维护，但会产出两个交付物：
+这个子项目放在当前顶层仓库里，与 `./core` 下的 LibreOffice core 保持边界分离，但会产出两个交付物：
 
 - 一个 LibreOffice 扩展包（`.oxt`）
 - 一个运行在 Windows 本机的 AI 侧车进程

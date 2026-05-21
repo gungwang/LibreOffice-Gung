@@ -1,14 +1,14 @@
-# LibreOffice AI Agent Sibling Repo Scaffold Proposal
+# LibreOffice AI Agent Implementation Scaffold Proposal
 
 Simplified Chinese version: [libreoffice-ai-agent-repo-scaffold.zh-CN.md](./libreoffice-ai-agent-repo-scaffold.zh-CN.md)
 Detailed MVP design specification: [libreoffice-ai-agent-mvp-design-spec.md](./libreoffice-ai-agent-mvp-design-spec.md)
 
-## Proposed Repository
+## Proposed Subproject
 
-- Repository name: `libreoffice-ai-agent`
-- Suggested location: `C:\AI\intel-ai\libreoffice-ai-agent`
+- Subproject directory name: `libreoffice-ai-agent`
+- Suggested location: `./libreoffice-ai-agent`
 
-This repository is separate from LibreOffice core and produces two deliverables:
+This implementation subproject stays in the current top-level repository, remains separate from LibreOffice core under `./core`, and produces two deliverables:
 
 - a LibreOffice extension package (`.oxt`)
 - a local sidecar broker process for Windows

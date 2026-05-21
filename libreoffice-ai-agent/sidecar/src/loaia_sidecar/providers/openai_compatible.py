@@ -1,4 +1,4 @@
-from loaia_sidecar.providers.base import BaseProviderAdapter, ProviderChunk, ProviderRequest
+from loaia_sidecar.providers.base import BaseProviderAdapter, ProviderRequest
 
 
 class OpenAICompatibleAdapter(BaseProviderAdapter):

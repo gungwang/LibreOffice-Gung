@@ -7,7 +7,7 @@
 
 这份文档说明了 LibreOffice AI 聊天与代理系统的目标架构。
 
-第一阶段，这个系统只支持 Windows，并且先以“独立兄弟仓库”的方式交付，而不是一开始就直接改 LibreOffice 核心代码。它会通过两个部分集成到 LibreOffice 中：
+第一阶段，这个系统只支持 Windows，并且先以当前仓库里的 `./libreoffice-ai-agent` 子项目方式交付，而不是一开始就直接改 LibreOffice 核心代码。它会通过两个部分集成到 LibreOffice 中：
 
 - 一个 LibreOffice 扩展
 - 一个本地侧车进程（sidecar，也就是运行在 LibreOffice 外部、专门负责 AI 能力的辅助程序）
@@ -17,7 +17,7 @@
 ## 固定产品决策
 
 - 第一阶段应用范围：Writer + Calc + Impress
-- 交付方式：先做独立扩展和侧车仓库，放在 LibreOffice core 旁边
+- 交付方式：先做仓库内的 `./libreoffice-ai-agent` 子项目，并与 `./core` 下的 LibreOffice core 保持边界分离
 - 默认隐私策略：默认只发送“当前选中内容”给模型
 - 凭证方式：用户自己提供 API Key，也支持本地开源模型端点
 - 本地模型策略：支持任何 OpenAI 兼容接口的本地服务

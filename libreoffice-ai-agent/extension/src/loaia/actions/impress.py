@@ -1,0 +1,34 @@
+from loaia.actions.base import ActionDefinition
+
+IMPRESS_ACTIONS = [
+    ActionDefinition(
+        "Impress.GetSelectedText",
+        "impress",
+        safe_formatting=False,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Impress.ToggleBold",
+        "impress",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Impress.ApplyBullets",
+        "impress",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Impress.ReplaceSelectedText",
+        "impress",
+        safe_formatting=False,
+        requires_approval=True,
+    ),
+    ActionDefinition(
+        "Impress.CreateSlideFromOutline",
+        "impress",
+        safe_formatting=False,
+        requires_approval=True,
+    ),
+]

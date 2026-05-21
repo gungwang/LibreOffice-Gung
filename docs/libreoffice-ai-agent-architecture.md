@@ -5,14 +5,14 @@ Detailed MVP design specification: [libreoffice-ai-agent-mvp-design-spec.md](./l
 
 ## Summary
 
-This document defines the target architecture for a Windows-only LibreOffice AI chat and agent system delivered first as a separate sibling repository and integrated into LibreOffice through an extension plus a local sidecar process.
+This document defines the target architecture for a Windows-only LibreOffice AI chat and agent system delivered first as an in-repo implementation subproject at `./libreoffice-ai-agent` and integrated into LibreOffice through an extension plus a local sidecar process.
 
 The system goal is to let users invoke common Writer, Calc, and Impress functionality through a chat panel while keeping document changes safe, reversible, privacy-aware, and provider-agnostic.
 
 ## Fixed Product Decisions
 
 - Application scope for phase 1: Writer + Calc + Impress
-- Delivery path: separate extension and sidecar repository beside LibreOffice core
+- Delivery path: in-repo `./libreoffice-ai-agent` subproject, kept separate from LibreOffice core under `./core`
 - Privacy default: selection-only context sharing
 - Credential model: user-provided API keys and local open-source model endpoints
 - Local model strategy: any OpenAI-compatible local server
