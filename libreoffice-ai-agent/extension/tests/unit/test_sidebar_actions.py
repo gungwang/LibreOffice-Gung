@@ -1,4 +1,5 @@
 from types import SimpleNamespace
+from unittest.mock import patch
 
 from loaia.bootstrap import SIDEBAR_RESOURCE_URL
 from loaia.sidebar_actions import SidebarDialogEventHandler
@@ -252,3 +253,42 @@ def test_sidebar_send_action_surfaces_transport_errors_clearly() -> None:
     )
     assert "Last result:\nNo completed result yet." in window.controls["Summary"].model.Text
     assert window.controls["ApproveButton"].model.Enabled is False
+
+
+def test_sidebar_send_action_can_override_pipe_address_for_runtime_probe() -> None:
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    text_range = FakeWriterTextRange("hello world")
+    panel.attach_frame(FakeFrame(FakeWriterController(text_range)))
+    window = FakeWindow(prompt="Please convert this selection to uppercase.")
+    default_transport = FailingTransport("default transport should not be used")
+    override_transport = FakeTransport(
+        {
+            "type": "DirectAnswer",
+            "text": (
+                "Sidecar scaffold is running. Planner and provider execution are "
+                "not implemented yet."
+            ),
+        }
+    )
+    handler = SidebarDialogEventHandler(panel=panel, transport=default_transport)
+
+    with patch(
+        "loaia.sidebar_actions.RuntimeSidecarTransportClient",
+        return_value=override_transport,
+    ) as transport_client:
+        result = handler.preview_current_selection(
+            window=window,
+            prompt="Please summarize this selection.",
+            pipe_address=r"\\.\pipe\loaia-sidecar-missing-test",
+        )
+
+    assert result == (
+        "Sidecar scaffold is running. Planner and provider execution are not "
+        "implemented yet."
+    )
+    assert default_transport.requests == []
+    assert transport_client.call_args.kwargs == {
+        "address": r"\\.\pipe\loaia-sidecar-missing-test"
+    }
+    assert override_transport.requests[0]["type"] == "ChatRequest"
+    assert override_transport.requests[0]["userMessage"] == "Please summarize this selection."

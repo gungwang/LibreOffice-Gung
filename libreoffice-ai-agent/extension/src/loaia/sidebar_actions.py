@@ -82,8 +82,13 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self,
         window: object | None = None,
         prompt: str | None = None,
+        pipe_address: str | None = None,
     ) -> str:
-        return self._handle_send(window=window, prompt_override=prompt)
+        return self._handle_send(
+            window=window,
+            prompt_override=prompt,
+            pipe_address_override=pipe_address,
+        )
 
     def approve_pending(self, window: object | None = None) -> str:
         return self._handle_approve(window=window)
@@ -92,6 +97,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self,
         window: object | None,
         prompt_override: str | None = None,
+        pipe_address_override: str | None = None,
     ) -> str:
         prompt = (
             prompt_override
@@ -118,7 +124,12 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         try:
             selection = self._capture_writer_selection()
             self.panel.set_selection_preview(selection.text)
-            response = self.transport.request(self._build_chat_request(selection, prompt))
+            transport_client = (
+                self.transport
+                if pipe_address_override is None
+                else RuntimeSidecarTransportClient(address=pipe_address_override)
+            )
+            response = transport_client.request(self._build_chat_request(selection, prompt))
         except TransportError as exc:
             self.panel.set_connected(False)
             self.panel.set_last_error(str(exc))

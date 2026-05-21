@@ -1,4 +1,5 @@
 from types import SimpleNamespace
+from unittest.mock import patch
 
 from loaia.bootstrap import (
     APPROVE_PENDING_COMMAND,
@@ -149,6 +150,73 @@ def test_protocol_handler_dispatches_preview_and_approve_commands() -> None:
     assert panel.state.pending_proposal is None
     assert panel.state.last_result == "Applied Writer.ReplaceSelection"
     assert panel.state.last_command == APPROVE_PENDING_COMMAND
+
+
+def test_protocol_handler_preview_command_accepts_pipe_address_override() -> None:
+    runtime_transport = FakeTransport(
+        {
+            "type": "ToolProposal",
+            "proposals": [
+                {
+                    "proposalId": "proposal-1",
+                    "toolId": "Writer.ReplaceSelection",
+                    "safetyClass": "content-edit",
+                    "requiresApproval": True,
+                    "preview": {
+                        "summary": "Preview Writer selection replacement",
+                        "before": "hello world",
+                        "after": "HELLO WORLD",
+                    },
+                    "arguments": {"replacementText": "HELLO WORLD"},
+                }
+            ],
+        }
+    )
+    override_transport = FakeTransport(
+        {
+            "type": "DirectAnswer",
+            "text": (
+                "Sidecar scaffold is running. Planner and provider execution are "
+                "not implemented yet."
+            ),
+        }
+    )
+    runtime = ExtensionBootstrap(transport=runtime_transport)
+    provider = LoaiaProtocolHandlerProvider(runtime=runtime)
+    text_range = FakeWriterTextRange("hello world")
+    frame = FakeFrame(FakeWriterController(text_range))
+    provider.initialize((frame,))
+
+    preview_url = SimpleNamespace(
+        Protocol=PROTOCOL_SCHEME,
+        Path=PREVIEW_SELECTION_COMMAND,
+        Complete=f"{PROTOCOL_SCHEME}{PREVIEW_SELECTION_COMMAND}",
+    )
+    dispatch = provider.queryDispatch(preview_url, "_self", 0)
+
+    assert dispatch is not None
+
+    preview_args = (
+        SimpleNamespace(Name="Prompt", Value="Please summarize this selection."),
+        SimpleNamespace(Name="PipeAddress", Value=r"\\.\pipe\loaia-sidecar-missing-test"),
+    )
+
+    with patch(
+        "loaia.sidebar_actions.RuntimeSidecarTransportClient",
+        return_value=override_transport,
+    ) as transport_client:
+        dispatch.dispatch(preview_url, preview_args)
+
+    panel = runtime.get_panel()
+    assert runtime_transport.requests == []
+    assert transport_client.call_args.kwargs == {
+        "address": r"\\.\pipe\loaia-sidecar-missing-test"
+    }
+    assert override_transport.requests[0]["type"] == "ChatRequest"
+    assert panel.state.last_result == (
+        "Sidecar scaffold is running. Planner and provider execution are not implemented yet."
+    )
+    assert panel.state.last_command == PREVIEW_SELECTION_COMMAND
 
 
 def test_sidebar_factory_creates_toolpanel_ui_element() -> None:

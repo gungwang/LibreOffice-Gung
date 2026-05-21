@@ -24,6 +24,7 @@ Useful scripts:
 - `scripts/run_sidecar.ps1` starts the local named-pipe sidecar with the project `PYTHONPATH`
 - `scripts/verify_protocol_actions.ps1` installs the OXT and live-verifies the Writer preview/apply protocol flow
 - `scripts/verify_sidebar_direct_answer.ps1` installs the OXT and live-verifies the open-sidebar plus direct-answer flow without changing the document
+- `scripts/verify_sidebar_transport_error.ps1` installs the OXT and live-verifies the sidecar-unavailable error path by dispatching preview-selection against an isolated missing pipe address
 
 Canonical planning documents currently live in the parent repository docs folder:
 

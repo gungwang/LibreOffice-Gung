@@ -47,12 +47,17 @@ class ExtensionBootstrap:
         self,
         frame: object | None = None,
         prompt: str | None = None,
+        pipe_address: str | None = None,
         window: object | None = None,
     ) -> str:
         panel = self.get_panel()
         panel.attach_frame(frame)
         panel.set_last_command(PREVIEW_SELECTION_COMMAND)
-        return self.get_event_handler().preview_current_selection(window=window, prompt=prompt)
+        return self.get_event_handler().preview_current_selection(
+            window=window,
+            prompt=prompt,
+            pipe_address=pipe_address,
+        )
 
     def approve_pending(
         self,

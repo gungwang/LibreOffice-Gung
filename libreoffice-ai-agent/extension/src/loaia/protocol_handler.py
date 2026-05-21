@@ -40,7 +40,12 @@ class AIProtocolHandler:
 
         if command == PREVIEW_SELECTION_COMMAND:
             prompt = self._argument_value(arguments, "Prompt", "UserMessage")
-            return self.preview_selection(frame=self._frame, prompt=prompt)
+            pipe_address = self._argument_value(arguments, "PipeAddress")
+            return self.preview_selection(
+                frame=self._frame,
+                prompt=prompt,
+                pipe_address=pipe_address,
+            )
 
         return self.approve_pending(frame=self._frame)
 
@@ -48,8 +53,17 @@ class AIProtocolHandler:
         panel = self.runtime.open_sidebar(frame=frame)
         return f"{panel.title} sidebar opened"
 
-    def preview_selection(self, frame: object | None = None, prompt: str | None = None) -> str:
-        return self.runtime.preview_selection(frame=frame, prompt=prompt)
+    def preview_selection(
+        self,
+        frame: object | None = None,
+        prompt: str | None = None,
+        pipe_address: str | None = None,
+    ) -> str:
+        return self.runtime.preview_selection(
+            frame=frame,
+            prompt=prompt,
+            pipe_address=pipe_address,
+        )
 
     def approve_pending(self, frame: object | None = None) -> str:
         return self.runtime.approve_pending(frame=frame)
