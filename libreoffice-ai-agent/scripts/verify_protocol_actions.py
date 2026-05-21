@@ -12,12 +12,47 @@ from verification_probe_common import (
     model_text,
 )
 
+CHANGED_TEXT_SENTINEL = "__CHANGED_TEXT__"
+SCAFFOLD_DIRECT_ANSWER = (
+    "Sidecar scaffold is running. Planner and provider execution are not implemented yet."
+)
+NO_REPLACEMENT_SENTINEL = "NO_REPLACEMENT"
+
+
+def extract_section(summary_text: str, header: str, next_header: str | None = None) -> str:
+    header_marker = f"{header}:\n"
+    start_index = summary_text.find(header_marker)
+    if start_index < 0:
+        return ""
+
+    content_start = start_index + len(header_marker)
+    if next_header is None:
+        return summary_text[content_start:].strip()
+
+    next_marker = f"\n\n{next_header}:\n"
+    end_index = summary_text.find(next_marker, content_start)
+    if end_index < 0:
+        return summary_text[content_start:].strip()
+
+    return summary_text[content_start:end_index].strip()
+
+
+def extract_labeled_value(section_text: str, label: str) -> str:
+    prefix = f"{label}: "
+    for line in section_text.splitlines():
+        if line.startswith(prefix):
+            return line[len(prefix) :].strip()
+
+    return ""
+
 
 def verify(
     context: object,
     prompt: str,
     initial_selection: str,
     expected_text: str,
+    expected_provider: str | None = None,
+    expected_model: str | None = None,
 ) -> int:
     desktop = None
     document = None
@@ -56,29 +91,77 @@ def verify(
             (make_property("Prompt", prompt),),
         )
 
+        status_after_preview = model_text(panel_window.getControl("Status"))
         summary_after_preview = model_text(panel_window.getControl("Summary"))
+        pending_preview = extract_section(summary_after_preview, "Pending preview", "Last result")
+        preview_after = extract_labeled_value(pending_preview, "After")
         approve_button = panel_window.getControl("ApproveButton")
         results["HAS_PENDING_PREVIEW"] = str(
-            "Pending preview:" in summary_after_preview
-            and "Preview Writer selection replacement" in summary_after_preview
+            pending_preview not in ("", "No pending proposal.")
+            and "Preview Writer selection replacement" in pending_preview
+        )
+        results["HAS_PREVIEW_RESULT"] = str(
+            "Last result:\nPreview Writer selection replacement" in summary_after_preview
         )
         results["APPROVE_ENABLED_AFTER_PREVIEW"] = str(approve_button.isEnabled())
+        if expected_provider is not None:
+            results["HAS_EXPECTED_PROVIDER"] = str(
+                f"Provider: {expected_provider}" in status_after_preview
+            )
+        if expected_model is not None:
+            results["HAS_EXPECTED_MODEL"] = str(
+                f"Model: {expected_model}" in status_after_preview
+            )
+        if expected_text == CHANGED_TEXT_SENTINEL:
+            results["PROPOSED_TEXT_CHANGED"] = str(
+                preview_after
+                not in (
+                    "",
+                    initial_selection,
+                    SCAFFOLD_DIRECT_ANSWER,
+                    NO_REPLACEMENT_SENTINEL,
+                )
+            )
 
         approve_dispatch.dispatch(approve_url, ())
 
         summary_after_approve = model_text(panel_window.getControl("Summary"))
-        results["DOC_TEXT"] = document.Text.getString()
+        document_text = document.Text.getString()
+        results["DOC_TEXT"] = document_text
         results["HAS_APPLIED_RESULT"] = str(
             "Applied Writer.ReplaceSelection" in summary_after_approve
         )
         results["APPROVE_ENABLED_AFTER_APPROVE"] = str(approve_button.isEnabled())
+        if expected_text == CHANGED_TEXT_SENTINEL:
+            results["DOC_TEXT_CHANGED"] = str(
+                document_text.strip()
+                and document_text
+                not in (
+                    initial_selection,
+                    SCAFFOLD_DIRECT_ANSWER,
+                    NO_REPLACEMENT_SENTINEL,
+                )
+            )
 
         failures: list[str] = []
         if results["HAS_PENDING_PREVIEW"] != "True":
             failures.append("Preview dispatch did not populate a pending proposal.")
+        if results["HAS_PREVIEW_RESULT"] != "True":
+            failures.append("Sidebar summary did not record the preview result.")
         if results["APPROVE_ENABLED_AFTER_PREVIEW"] != "True":
             failures.append("Approve was not enabled after preview dispatch.")
-        if results["DOC_TEXT"] != expected_text:
+        if expected_provider is not None and results["HAS_EXPECTED_PROVIDER"] != "True":
+            failures.append("Sidebar status did not show the expected provider.")
+        if expected_model is not None and results["HAS_EXPECTED_MODEL"] != "True":
+            failures.append("Sidebar status did not show the expected model.")
+        if expected_text == CHANGED_TEXT_SENTINEL:
+            if results["PROPOSED_TEXT_CHANGED"] != "True":
+                failures.append("Pending preview did not expose a changed replacement text.")
+            if results["DOC_TEXT_CHANGED"] != "True":
+                failures.append(
+                    "Approval did not update the Writer document to a changed replacement."
+                )
+        elif results["DOC_TEXT"] != expected_text:
             failures.append(
                 "Approval did not update the Writer document to the expected text."
             )
@@ -103,21 +186,26 @@ def verify(
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) != 4:
+    if len(argv) not in (4, 6):
         print(
             "Usage: verify_protocol_actions.py <pipe_name> <prompt> "
-            "<initial_selection> <expected_text>",
+            "<initial_selection> <expected_text|__CHANGED_TEXT__> "
+            "[<expected_provider> <expected_model>]",
             file=sys.stderr,
         )
         return 2
 
-    pipe_name, prompt, initial_selection, expected_text = argv
+    pipe_name, prompt, initial_selection, expected_text, *extra = argv
+    expected_provider = extra[0] if len(extra) == 2 else None
+    expected_model = extra[1] if len(extra) == 2 else None
     context = connect(pipe_name)
     return verify(
         context=context,
         prompt=prompt,
         initial_selection=initial_selection,
         expected_text=expected_text,
+        expected_provider=expected_provider,
+        expected_model=expected_model,
     )
 
 
