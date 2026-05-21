@@ -19,6 +19,7 @@ class ChatController:
             model=request.model,
             privacy_scope=str(request.privacy_scope),
             selection_text=selection_text,
+            user_message=request.user_message,
         )
 
         response = self.client.request_chat(request)
@@ -26,6 +27,7 @@ class ChatController:
 
         if isinstance(response, DirectAnswer):
             self.panel.clear_pending_proposal()
+            self.panel.set_last_result(response.text)
             self.panel.append_message(response.text)
             return response.text
 
@@ -33,6 +35,7 @@ class ChatController:
             proposal = self._select_proposal(response)
             self.panel.set_pending_proposal(proposal)
             preview_summary = proposal.preview.summary if proposal.preview else proposal.tool_id
+            self.panel.set_last_result(preview_summary)
             self.panel.append_message(preview_summary)
             return preview_summary
 
@@ -44,7 +47,10 @@ class ChatController:
             raise ValidationError("No pending writer proposal is available for approval")
 
         applied_text = apply_writer_proposal(selection, proposal)
-        self.panel.append_message(f"Applied {proposal.tool_id}")
+        applied_message = f"Applied {proposal.tool_id}"
+        self.panel.set_selection_preview(applied_text)
+        self.panel.set_last_result(applied_message)
+        self.panel.append_message(applied_message)
         self.panel.clear_pending_proposal()
         return applied_text
 

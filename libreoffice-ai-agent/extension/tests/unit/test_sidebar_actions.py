@@ -3,6 +3,7 @@ from types import SimpleNamespace
 from loaia.bootstrap import SIDEBAR_RESOURCE_URL
 from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
+from loaia_shared.errors import TransportError
 
 
 class FakeWriterTextRange:
@@ -54,6 +55,7 @@ class FakeFrame:
 class FakeModel:
     def __init__(self, attribute_name: str, value: str = "") -> None:
         setattr(self, attribute_name, value)
+        self.Enabled = True
 
 
 class FakeControl:
@@ -77,6 +79,8 @@ class FakeWindow:
             "Title": FakeControl("Label"),
             "Status": FakeControl("Label"),
             "PromptInput": FakeControl("Text", prompt),
+            "SendButton": FakeControl("Label"),
+            "ApproveButton": FakeControl("Label"),
             "Summary": FakeControl("Text"),
             "Privacy": FakeControl("Label"),
         }
@@ -93,6 +97,16 @@ class FakeTransport:
     def request(self, payload: dict[str, object]) -> dict[str, object]:
         self.requests.append(payload)
         return self.response
+
+
+class FailingTransport:
+    def __init__(self, message: str) -> None:
+        self.message = message
+        self.requests: list[dict[str, object]] = []
+
+    def request(self, payload: dict[str, object]) -> dict[str, object]:
+        self.requests.append(payload)
+        raise TransportError(self.message)
 
 
 def test_sidebar_send_action_previews_writer_proposal() -> None:
@@ -125,6 +139,8 @@ def test_sidebar_send_action_previews_writer_proposal() -> None:
         event_handler=SidebarDialogEventHandler(panel=panel, transport=transport),
     )
 
+    assert window.controls["ApproveButton"].model.Enabled is False
+
     assert tool_panel.event_handler.callHandlerMethod(window, None, "Send") is True
 
     assert transport.requests[0]["type"] == "ChatRequest"
@@ -133,14 +149,22 @@ def test_sidebar_send_action_previews_writer_proposal() -> None:
         "selection": {"mimeType": "text/plain", "text": "hello world"}
     }
     assert panel.state.connected is True
+    assert panel.state.last_prompt == "Please convert this selection to uppercase."
+    assert panel.state.last_result == "Preview Writer selection replacement"
+    assert panel.state.last_error is None
     assert panel.state.selection_preview == "hello world"
     assert panel.state.pending_proposal is not None
     assert panel.state.pending_proposal.preview.after == "HELLO WORLD"
+    expected_prompt = "Prompt:\nPlease convert this selection to uppercase."
+    expected_result = "Last result:\nPreview Writer selection replacement"
     assert "Provider: openai-compatible" in window.controls["Status"].model.Label
+    assert expected_prompt in window.controls["Summary"].model.Text
     assert (
         "Pending preview:\nPreview Writer selection replacement"
         in window.controls["Summary"].model.Text
     )
+    assert expected_result in window.controls["Summary"].model.Text
+    assert window.controls["ApproveButton"].model.Enabled is True
 
 
 def test_sidebar_approve_action_applies_pending_writer_change() -> None:
@@ -180,7 +204,11 @@ def test_sidebar_approve_action_applies_pending_writer_change() -> None:
     assert text_range.text == "HELLO WORLD"
     assert controller.last_selected_range is text_range
     assert panel.state.pending_proposal is None
+    assert panel.state.selection_preview == "HELLO WORLD"
+    assert panel.state.last_result == "Applied Writer.ReplaceSelection"
     assert window.controls["PromptInput"].model.Text == ""
+    assert window.controls["ApproveButton"].model.Enabled is False
+    assert "Last result:\nApplied Writer.ReplaceSelection" in window.controls["Summary"].model.Text
     expected_activity = "\n".join(
         [
             "Recent activity:",
@@ -192,3 +220,35 @@ def test_sidebar_approve_action_applies_pending_writer_change() -> None:
         expected_activity
         in window.controls["Summary"].model.Text
     )
+
+
+def test_sidebar_send_action_surfaces_transport_errors_clearly() -> None:
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    text_range = FakeWriterTextRange("hello world")
+    panel.attach_frame(FakeFrame(FakeWriterController(text_range)))
+    window = FakeWindow(prompt="Please convert this selection to uppercase.")
+    transport = FailingTransport("Could not connect to sidecar pipe at \\\\.\\pipe\\loaia-sidecar")
+    tool_panel = SidebarToolPanel(
+        panel=panel,
+        window=window,
+        event_handler=SidebarDialogEventHandler(panel=panel, transport=transport),
+    )
+
+    assert tool_panel.event_handler.callHandlerMethod(window, None, "Send") is True
+
+    expected_error = "Could not connect to sidecar pipe at \\\\.\\pipe\\loaia-sidecar"
+    expected_status_error = f"Last error: {expected_error}"
+
+    assert transport.requests[0]["type"] == "ChatRequest"
+    assert panel.state.connected is False
+    assert panel.state.last_prompt == "Please convert this selection to uppercase."
+    assert panel.state.last_error == expected_error
+    assert panel.state.last_result is None
+    assert panel.state.pending_proposal is None
+    assert expected_status_error in window.controls["Status"].model.Label
+    assert (
+        "Prompt:\nPlease convert this selection to uppercase."
+        in window.controls["Summary"].model.Text
+    )
+    assert "Last result:\nNo completed result yet." in window.controls["Summary"].model.Text
+    assert window.controls["ApproveButton"].model.Enabled is False

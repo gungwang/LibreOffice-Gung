@@ -87,6 +87,13 @@ def _shorten_text(text: str | None, limit: int = 160) -> str:
     return f"{normalized[: limit - 3].rstrip()}..."
 
 
+def _describe_optional_text(text: str | None, empty_label: str, limit: int = 160) -> str:
+    if text is None:
+        return empty_label
+
+    return _shorten_text(text, limit=limit)
+
+
 def _summarize_pending_proposal(proposal: object | None) -> str:
     if proposal is None:
         return "No pending proposal."
@@ -123,6 +130,9 @@ class SidebarState:
     connected: bool = False
     visible: bool = False
     last_command: str | None = None
+    last_prompt: str | None = None
+    last_result: str | None = None
+    last_error: str | None = None
     selection_preview: str | None = None
     pending_proposal: object | None = None
     messages: list[str] = field(default_factory=list)
@@ -150,15 +160,32 @@ class SidebarPanel:
         model: str,
         privacy_scope: str,
         selection_text: str | None,
+        user_message: str | None = None,
     ) -> None:
         self.state.provider = provider
         self.state.model = model
         self.state.privacy_scope = privacy_scope
         self.state.selection_preview = selection_text
+        if user_message is not None:
+            self.state.last_prompt = user_message
+        self.state.last_error = None
+        self._notify_observers()
+
+    def set_selection_preview(self, selection_text: str | None) -> None:
+        self.state.selection_preview = selection_text
         self._notify_observers()
 
     def set_connected(self, connected: bool) -> None:
         self.state.connected = connected
+        self._notify_observers()
+
+    def set_last_result(self, result: str | None) -> None:
+        self.state.last_result = result
+        self.state.last_error = None
+        self._notify_observers()
+
+    def set_last_error(self, error_message: str | None) -> None:
+        self.state.last_error = error_message
         self._notify_observers()
 
     def append_message(self, text: str) -> None:
@@ -190,26 +217,48 @@ class SidebarPanel:
             "connected to sidecar" if self.state.connected else "waiting for first sidecar response"
         )
         last_command = self.state.last_command or "not opened via protocol yet"
-        return "\n".join(
-            [
-                f"Connection: {connection_state}",
-                f"Provider: {self.state.provider}",
-                f"Model: {self.state.model}",
-                f"Last command: {last_command}",
-            ]
-        )
+        lines = [
+            f"Connection: {connection_state}",
+            f"Provider: {self.state.provider}",
+            f"Model: {self.state.model}",
+            f"Last command: {last_command}",
+        ]
+        if self.state.last_error is not None:
+            lines.append(f"Last error: {_shorten_text(self.state.last_error, limit=90)}")
+
+        return "\n".join(lines)
 
     def render_summary_text(self) -> str:
-        selection_summary = _shorten_text(self.state.selection_preview, limit=180)
+        prompt_summary = _describe_optional_text(
+            self.state.last_prompt,
+            empty_label="No prompt submitted yet.",
+            limit=180,
+        )
+        selection_summary = _describe_optional_text(
+            self.state.selection_preview,
+            empty_label="No captured selection yet.",
+            limit=180,
+        )
         pending_summary = _summarize_pending_proposal(self.state.pending_proposal)
+        result_summary = _describe_optional_text(
+            self.state.last_result,
+            empty_label="No completed result yet.",
+            limit=180,
+        )
         recent_activity = _summarize_recent_messages(self.state.messages)
         return "\n".join(
             [
+                "Prompt:",
+                prompt_summary,
+                "",
                 "Selection:",
                 selection_summary,
                 "",
                 "Pending preview:",
                 pending_summary,
+                "",
+                "Last result:",
+                result_summary,
                 "",
                 "Recent activity:",
                 recent_activity,
@@ -264,6 +313,7 @@ class SidebarToolPanel(unohelper.Base, XToolPanel):
         self._set_control_text("Status", panel.render_status_text())
         self._set_control_text("Summary", panel.render_summary_text())
         self._set_control_text("Privacy", panel.render_privacy_text())
+        self._set_control_enabled("ApproveButton", panel.state.pending_proposal is not None)
 
     def createAccessible(self, parent_accessible: object) -> object | None:
         return self.window or parent_accessible
@@ -296,6 +346,42 @@ class SidebarToolPanel(unohelper.Base, XToolPanel):
                     return
                 except Exception:
                     continue
+
+    def _set_control_enabled(self, control_name: str, enabled: bool) -> None:
+        if self.window is None or not hasattr(self.window, "getControl"):
+            return
+
+        try:
+            control = self.window.getControl(control_name)
+        except Exception:
+            return
+
+        if control is None:
+            return
+
+        if hasattr(control, "setEnable"):
+            try:
+                control.setEnable(enabled)
+                return
+            except Exception:
+                pass
+
+        if not hasattr(control, "getModel"):
+            return
+
+        model = control.getModel()
+        if model is None:
+            return
+
+        if hasattr(model, "Enabled"):
+            model.Enabled = enabled
+            return
+
+        if hasattr(model, "setPropertyValue"):
+            try:
+                model.setPropertyValue("Enabled", enabled)
+            except Exception:
+                return
 
 
 class SidebarUIElement(unohelper.Base, XUIElement):

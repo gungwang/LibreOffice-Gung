@@ -112,6 +112,7 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
     class FakeModel:
         def __init__(self, attribute_name: str) -> None:
             setattr(self, attribute_name, "")
+            self.Enabled = True
 
     class FakeControl:
         def __init__(self, attribute_name: str) -> None:
@@ -127,6 +128,7 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
                 "Status": FakeControl("Label"),
                 "Summary": FakeControl("Text"),
                 "Privacy": FakeControl("Label"),
+                "ApproveButton": FakeControl("Label"),
             }
 
         def getControl(self, name: str) -> FakeControl:
@@ -136,6 +138,8 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
     window = FakeWindow()
     SidebarToolPanel(panel=panel, window=window)
 
+    assert window.controls["ApproveButton"].model.Enabled is False
+
     panel.mark_visible()
     panel.set_last_command(OPEN_SIDEBAR_COMMAND)
     panel.record_request(
@@ -143,6 +147,7 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
         model="local-default",
         privacy_scope="selection-only",
         selection_text="hello world",
+        user_message="Please convert this selection to uppercase.",
     )
     panel.set_connected(True)
     panel.set_pending_proposal(
@@ -155,19 +160,26 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
             ),
         )
     )
+    panel.set_last_result("Preview Writer selection replacement")
     panel.append_message("Preview Writer selection replacement")
+
+    expected_prompt = "Prompt:\nPlease convert this selection to uppercase."
+    expected_result = "Last result:\nPreview Writer selection replacement"
 
     assert window.controls["Title"].model.Label == "LibreOffice AI Agent"
     assert "Connection: connected to sidecar" in window.controls["Status"].model.Label
     assert "Provider: openai-compatible" in window.controls["Status"].model.Label
+    assert expected_prompt in window.controls["Summary"].model.Text
     assert "Selection:\nhello world" in window.controls["Summary"].model.Text
     assert (
         "Pending preview:\nPreview Writer selection replacement"
         in window.controls["Summary"].model.Text
     )
+    assert expected_result in window.controls["Summary"].model.Text
     assert "After: HELLO WORLD" in window.controls["Summary"].model.Text
     assert (
         "Recent activity:\n- Preview Writer selection replacement"
         in window.controls["Summary"].model.Text
     )
     assert "Privacy scope: selection-only" in window.controls["Privacy"].model.Label
+    assert window.controls["ApproveButton"].model.Enabled is True

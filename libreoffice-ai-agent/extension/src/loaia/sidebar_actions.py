@@ -81,33 +81,43 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
     def _handle_send(self, window: object) -> None:
         prompt = _get_control_text(window, "PromptInput")
         if not prompt.strip():
-            self.panel.append_message("Enter a prompt before sending.")
-            return
-
-        try:
-            selection = self._capture_writer_selection()
-            response = self.transport.request(self._build_chat_request(selection, prompt))
-        except (TransportError, ValueError) as exc:
-            self.panel.set_connected(False)
-            self.panel.append_message(str(exc))
+            message = "Enter a prompt before sending."
+            self.panel.set_last_error(message)
+            self.panel.append_message(message)
             return
 
         self.panel.record_request(
             provider=self.panel.state.provider,
             model=self.panel.state.model,
             privacy_scope=self.panel.state.privacy_scope,
-            selection_text=selection.text,
+            selection_text=None,
+            user_message=prompt,
         )
+
+        try:
+            selection = self._capture_writer_selection()
+            self.panel.set_selection_preview(selection.text)
+            response = self.transport.request(self._build_chat_request(selection, prompt))
+        except TransportError as exc:
+            self.panel.set_connected(False)
+            self.panel.set_last_error(str(exc))
+            self.panel.append_message(str(exc))
+            return
+        except ValueError as exc:
+            self.panel.set_last_error(str(exc))
+            self.panel.append_message(str(exc))
+            return
+
         self.panel.set_connected(True)
 
         response_type = response.get("type")
         if response_type == "DirectAnswer":
             text = response.get("text")
+            answer_text = text if isinstance(text, str) else "Sidecar returned an empty answer."
             self._pending_selection = None
             self.panel.clear_pending_proposal()
-            self.panel.append_message(
-                text if isinstance(text, str) else "Sidecar returned an empty answer."
-            )
+            self.panel.set_last_result(answer_text)
+            self.panel.append_message(answer_text)
             return
 
         if response_type == "ToolProposal":
@@ -125,30 +135,40 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             summary = preview.summary if preview is not None else proposal.tool_id
             self._pending_selection = selection
             self.panel.set_pending_proposal(proposal)
+            self.panel.set_last_result(summary)
             self.panel.append_message(summary)
             return
 
         message = response.get("message")
         if isinstance(message, str):
+            self.panel.set_last_error(message)
             self.panel.append_message(f"Error: {message}")
             return
 
-        self.panel.append_message(f"Unexpected response type from sidecar: {response_type!r}")
+        unexpected_message = f"Unexpected response type from sidecar: {response_type!r}"
+        self.panel.set_last_error(unexpected_message)
+        self.panel.append_message(unexpected_message)
 
     def _handle_approve(self, window: object) -> None:
         proposal = self.panel.state.pending_proposal
         if proposal is None or self._pending_selection is None:
-            self.panel.append_message("No pending Writer proposal is available for approval.")
+            message = "No pending Writer proposal is available for approval."
+            self.panel.set_last_error(message)
+            self.panel.append_message(message)
             return
 
         try:
             replacement_text = _extract_replacement_text(proposal)
             _apply_writer_replacement(self._pending_selection, replacement_text)
         except ValueError as exc:
+            self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
             return
 
-        self.panel.append_message(f"Applied {proposal.tool_id}")
+        applied_message = f"Applied {proposal.tool_id}"
+        self.panel.set_selection_preview(replacement_text)
+        self.panel.set_last_result(applied_message)
+        self.panel.append_message(applied_message)
         self.panel.clear_pending_proposal()
         self._pending_selection = None
         _set_control_text(window, "PromptInput", "")
