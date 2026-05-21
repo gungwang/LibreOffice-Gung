@@ -24,6 +24,7 @@
 - `scripts/run_sidecar.ps1` 启动本地 sidecar，并自动设置项目需要的 `PYTHONPATH`
 - `scripts/verify_protocol_actions.ps1` 安装 OXT，并在真实 LibreOffice 中验证 Writer 的“预览/批准应用”改写流程
 - `scripts/verify_sidebar_direct_answer.ps1` 安装 OXT，并在真实 LibreOffice 中验证“打开侧边栏 + 直接回答”流程，且不改动文档内容
+- `scripts/verify_sidebar_openrouter_writer_proposal.ps1` 安装 OXT，并在真实 LibreOffice 中验证一个真实的 OpenRouter Writer 改写提案与批准应用流程，使用的提示词不会命中本地 uppercase/lowercase 这类启发式规则
 - `scripts/verify_sidebar_transport_error.ps1` 安装 OXT，并通过一个隔离的不存在命名管道地址，在真实 LibreOffice 中验证“sidecar 不可用”时的错误显示流程
 - `scripts/verify_sidebar_invalid_selection.ps1` 安装 OXT，并在真实 LibreOffice 中验证 Writer“未选中文本”时的本地校验流程，此时 `preview-selection` 应在发出 sidecar 请求之前直接失败
 - `scripts/verify_sidebar_unsupported_document.ps1` 安装 OXT，并在真实 LibreOffice 的 Calc 文档中验证“仅支持 Writer”的本地拒绝流程，此时 `preview-selection` 应本地失败且不修改表格内容
