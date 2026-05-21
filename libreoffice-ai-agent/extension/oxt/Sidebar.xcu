@@ -15,7 +15,7 @@
         <prop oor:name="Id"><value>LoaiaPanel</value></prop>
         <prop oor:name="DeckId"><value>LoaiaDeck</value></prop>
         <prop oor:name="Title"><value xml:lang="en-US">Chat</value></prop>
-        <prop oor:name="ImplementationURL"><value>private:resource/toolpanel/LoaiaPanel</value></prop>
+        <prop oor:name="ImplementationURL"><value>private:resource/toolpanel/LoaiaPanelFactory/LoaiaPanel</value></prop>
         <prop oor:name="OrderIndex"><value>1000</value></prop>
       </node>
     </node>

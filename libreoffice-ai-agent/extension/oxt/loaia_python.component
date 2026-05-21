@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component loader="com.sun.star.loader.Python"
+    xmlns="http://openoffice.org/2010/uno-components">
+  <implementation name="org.gungwang.libreoffice.ai.agent.ProtocolHandler">
+    <service name="com.sun.star.frame.ProtocolHandler"/>
+  </implementation>
+  <implementation name="org.gungwang.libreoffice.ai.agent.SidebarFactory">
+    <service name="com.sun.star.ui.UIElementFactory"/>
+  </implementation>
+</component>

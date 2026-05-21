@@ -18,6 +18,14 @@
     "/^python -m pytest extension/tests/unit/test_action_registry\\.py -q; \\$code1=\\$LASTEXITCODE; python -m pytest sidecar/tests/unit/test_handshake\\.py -q; \\$code2=\\$LASTEXITCODE; Write-Output \"__RESULT__ action_registry=\\$code1 handshake=\\$code2\"; if \\(\\$code1 -ne 0 -or \\$code2 -ne 0\\) \\{ exit 1 \\}$/": {
       "approve": true,
       "matchCommandLine": true
+    },
+    "/^python -m pytest sidecar/tests/integration/test_named_pipe_transport\\.py -q$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^python -m pytest extension/tests/unit/test_uno_entrypoints\\.py -q$/": {
+      "approve": true,
+      "matchCommandLine": true
     }
   }
 }
