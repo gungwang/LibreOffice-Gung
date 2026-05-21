@@ -102,7 +102,7 @@ class LoaiaProtocolHandlerProvider(
     XDispatchProvider,
 ):
     implementationName = "org.gungwang.libreoffice.ai.agent.ProtocolHandler"
-    serviceNames = ("com.sun.star.frame.ProtocolHandler",)
+    serviceNames = ("org.gungwang.libreoffice.ai.agent.ProtocolHandler",)
 
     def __init__(
         self,
@@ -147,7 +147,7 @@ class LoaiaSidebarPanelFactory(
     XUIElementFactory,
 ):
     implementationName = "org.gungwang.libreoffice.ai.agent.SidebarFactory"
-    serviceNames = ("com.sun.star.ui.UIElementFactory",)
+    serviceNames = ("org.gungwang.libreoffice.ai.agent.SidebarFactory",)
 
     def __init__(
         self,

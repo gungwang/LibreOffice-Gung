@@ -20,6 +20,13 @@ function Reset-Directory {
 	New-Item -ItemType Directory -Path $Path -Force | Out-Null
 }
 
+function Remove-PythonCaches {
+	param([string]$Root)
+
+	Get-ChildItem -Path $Root -Recurse -Directory -Filter "__pycache__" |
+		Remove-Item -Recurse -Force
+}
+
 $projectRootPath = [System.IO.Path]::GetFullPath($ProjectRoot)
 $resolvedOutputDir = if ($OutputDir) {
 	[System.IO.Path]::GetFullPath($OutputDir)
@@ -48,6 +55,23 @@ New-Item -ItemType Directory -Path $resolvedOutputDir -Force | Out-Null
 
 Copy-Item -Path (Join-Path $assetRoot "*") -Destination $resolvedStageDir -Recurse -Force
 Copy-Item -Path (Join-Path $sourceRoot "*") -Destination $resolvedStageDir -Recurse -Force
+
+Remove-PythonCaches -Root $resolvedStageDir
+
+$pythonRuntimeDir = Join-Path $resolvedStageDir "loaia"
+if (Test-Path -LiteralPath $pythonRuntimeDir) {
+	$pythonZipPath = Join-Path $resolvedStageDir "pythonpath.zip"
+	$pythonZipStageDir = Join-Path $resolvedStageDir "pythonpath-stage"
+	if (Test-Path -LiteralPath $pythonZipPath) {
+		Remove-Item -LiteralPath $pythonZipPath -Force
+	}
+	Reset-Directory -Path $pythonZipStageDir
+	Copy-Item -Path $pythonRuntimeDir -Destination $pythonZipStageDir -Recurse -Force
+
+	[System.IO.Compression.ZipFile]::CreateFromDirectory($pythonZipStageDir, $pythonZipPath)
+	Remove-Item -LiteralPath $pythonZipStageDir -Recurse -Force
+	Remove-Item -LiteralPath $pythonRuntimeDir -Recurse -Force
+}
 
 $packagePath = Join-Path $resolvedOutputDir $PackageName
 if (Test-Path -LiteralPath $packagePath) {

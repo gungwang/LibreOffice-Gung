@@ -1,6 +1,24 @@
 from dataclasses import dataclass, field
 
-TOOL_PANEL_UI_TYPE = 7
+try:
+    import unohelper
+    from com.sun.star.ui import XToolPanel, XUIElement
+    from com.sun.star.ui.UIElementType import TOOLPANEL as TOOL_PANEL_UI_TYPE
+except ImportError:  # pragma: no cover - exercised under LibreOffice runtime
+    class _UnoBase:
+        pass
+
+    class XUIElement:  # type: ignore[no-redef]
+        pass
+
+    class XToolPanel:  # type: ignore[no-redef]
+        pass
+
+    class _UnoHelperModule:
+        Base = _UnoBase
+
+    unohelper = _UnoHelperModule()
+    TOOL_PANEL_UI_TYPE = 7
 
 
 @dataclass(slots=True)
@@ -42,27 +60,33 @@ class SidebarPanel:
         self.state.pending_proposal = None
 
 
-@dataclass(slots=True)
-class SidebarToolPanel:
-    panel: SidebarPanel
-    window: object | None = None
+class SidebarToolPanel(unohelper.Base, XToolPanel):
+    def __init__(self, panel: SidebarPanel, window: object | None = None) -> None:
+        self.panel = panel
+        self.window = window
+        self.PanelWindow = window
+        self.Window = window
 
     def getWindow(self) -> object | None:
         return self.window
 
-    @property
-    def Window(self) -> object | None:
-        return self.getWindow()
-
-    def createAccessible(self, parent_accessible: object) -> object:
-        return parent_accessible
+    def createAccessible(self, parent_accessible: object) -> object | None:
+        return self.window
 
 
-@dataclass(slots=True)
-class SidebarUIElement:
-    frame: object | None
-    resource_url: str
-    tool_panel: SidebarToolPanel
+class SidebarUIElement(unohelper.Base, XUIElement):
+    def __init__(
+        self,
+        frame: object | None,
+        resource_url: str,
+        tool_panel: SidebarToolPanel,
+    ) -> None:
+        self.frame = frame
+        self.resource_url = resource_url
+        self.tool_panel = tool_panel
+        self.Frame = frame
+        self.ResourceURL = resource_url
+        self.Type = TOOL_PANEL_UI_TYPE
 
     def getRealInterface(self) -> SidebarToolPanel:
         return self.tool_panel
@@ -70,20 +94,8 @@ class SidebarUIElement:
     def getFrame(self) -> object | None:
         return self.frame
 
-    @property
-    def Frame(self) -> object | None:
-        return self.getFrame()
-
     def getResourceURL(self) -> str:
         return self.resource_url
 
-    @property
-    def ResourceURL(self) -> str:
-        return self.getResourceURL()
-
     def getType(self) -> int:
         return TOOL_PANEL_UI_TYPE
-
-    @property
-    def Type(self) -> int:
-        return self.getType()
