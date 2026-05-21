@@ -255,6 +255,50 @@ def test_sidebar_send_action_surfaces_transport_errors_clearly() -> None:
     assert window.controls["ApproveButton"].model.Enabled is False
 
 
+def test_sidebar_send_action_surfaces_empty_selection_error_clearly() -> None:
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    text_range = FakeWriterTextRange("")
+    panel.attach_frame(FakeFrame(FakeWriterController(text_range)))
+    window = FakeWindow(prompt="Please convert this selection to uppercase.")
+    transport = FakeTransport(
+        {
+            "type": "ToolProposal",
+            "proposals": [],
+        }
+    )
+    tool_panel = SidebarToolPanel(
+        panel=panel,
+        window=window,
+        event_handler=SidebarDialogEventHandler(panel=panel, transport=transport),
+    )
+
+    assert tool_panel.event_handler.callHandlerMethod(window, None, "Send") is True
+
+    expected_error = "Select text in Writer before sending a request."
+    expected_status_error = f"Last error: {expected_error}"
+
+    assert transport.requests == []
+    assert panel.state.connected is False
+    assert panel.state.last_prompt == "Please convert this selection to uppercase."
+    assert panel.state.last_error == expected_error
+    assert panel.state.selection_preview is None
+    assert panel.state.last_result is None
+    assert panel.state.pending_proposal is None
+    assert expected_status_error in window.controls["Status"].model.Label
+    assert (
+        "Prompt:\nPlease convert this selection to uppercase."
+        in window.controls["Summary"].model.Text
+    )
+    assert "Selection:\nNo captured selection yet." in window.controls["Summary"].model.Text
+    assert "Pending preview:\nNo pending proposal." in window.controls["Summary"].model.Text
+    assert "Last result:\nNo completed result yet." in window.controls["Summary"].model.Text
+    assert (
+        "Recent activity:\n- Select text in Writer before sending a request."
+        in window.controls["Summary"].model.Text
+    )
+    assert window.controls["ApproveButton"].model.Enabled is False
+
+
 def test_sidebar_send_action_can_override_pipe_address_for_runtime_probe() -> None:
     panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
     text_range = FakeWriterTextRange("hello world")

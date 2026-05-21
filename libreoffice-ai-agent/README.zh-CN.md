@@ -25,6 +25,7 @@
 - `scripts/verify_protocol_actions.ps1` 安装 OXT，并在真实 LibreOffice 中验证 Writer 的“预览/批准应用”改写流程
 - `scripts/verify_sidebar_direct_answer.ps1` 安装 OXT，并在真实 LibreOffice 中验证“打开侧边栏 + 直接回答”流程，且不改动文档内容
 - `scripts/verify_sidebar_transport_error.ps1` 安装 OXT，并通过一个隔离的不存在命名管道地址，在真实 LibreOffice 中验证“sidecar 不可用”时的错误显示流程
+- `scripts/verify_sidebar_invalid_selection.ps1` 安装 OXT，并在真实 LibreOffice 中验证 Writer“未选中文本”时的本地校验流程，此时 `preview-selection` 应在发出 sidecar 请求之前直接失败
 
 当前更完整的规划文档仍然放在上一级仓库的 `docs/` 目录中：
 

@@ -25,6 +25,7 @@ Useful scripts:
 - `scripts/verify_protocol_actions.ps1` installs the OXT and live-verifies the Writer preview/apply protocol flow
 - `scripts/verify_sidebar_direct_answer.ps1` installs the OXT and live-verifies the open-sidebar plus direct-answer flow without changing the document
 - `scripts/verify_sidebar_transport_error.ps1` installs the OXT and live-verifies the sidecar-unavailable error path by dispatching preview-selection against an isolated missing pipe address
+- `scripts/verify_sidebar_invalid_selection.ps1` installs the OXT and live-verifies the local Writer no-selection validation path, where preview-selection should fail before any sidecar request is made
 
 Canonical planning documents currently live in the parent repository docs folder:
 

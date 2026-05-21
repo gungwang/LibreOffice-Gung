@@ -229,6 +229,9 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
         text_ranges = tuple(index_access.getByIndex(index) for index in range(count))
         selection_text = "\n".join(_get_range_text(text_range) for text_range in text_ranges)
+        if not selection_text.strip():
+            raise ValueError("Select text in Writer before sending a request.")
+
         return RuntimeWriterSelection(
             text=selection_text,
             text_ranges=text_ranges,
