@@ -2,10 +2,8 @@ param(
 	[string]$ProjectRoot = (Join-Path $PSScriptRoot ".."),
 	[string]$LibreOfficeProgramPath,
 	[string]$UserProfileDir,
-	[string]$Prompt = "Please summarize this selection.",
-	[string]$InitialSelection = "hello world",
-	[string]$ExpectedAnswer = "Sidecar scaffold is running. Planner and provider execution are not implemented yet.",
-	[string]$PythonPath,
+	[string]$Prompt = "Please convert this selection to uppercase.",
+	[string]$InitialCellText = "hello world",
 	[switch]$SkipBuild
 )
 
@@ -18,21 +16,19 @@ $projectRootPath = [System.IO.Path]::GetFullPath($ProjectRoot)
 $resolvedUserProfileDir = if ($UserProfileDir) {
 	[System.IO.Path]::GetFullPath($UserProfileDir)
 } else {
-	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-profile-verify-direct-answer"))
+	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-profile-verify-unsupported-document"))
 }
 
-$probeScriptPath = Join-Path $PSScriptRoot "verify_sidebar_direct_answer.py"
+$probeScriptPath = Join-Path $PSScriptRoot "verify_sidebar_unsupported_document.py"
 
 $probeArguments = @{
 	ProjectRoot = $projectRootPath
 	LibreOfficeProgramPath = $LibreOfficeProgramPath
 	UserProfileDir = $resolvedUserProfileDir
 	ProbeScriptPath = $probeScriptPath
-	ProbeArguments = @($Prompt, $InitialSelection, $ExpectedAnswer)
-	SidecarPythonPath = $PythonPath
+	ProbeArguments = @($Prompt, $InitialCellText)
 	SkipBuild = $SkipBuild
 	ResetUserProfileDir = -not $UserProfileDir
-	StartSidecar = $true
 }
 
 $probeExitCode = Invoke-LoaiaVerificationProbe @probeArguments
