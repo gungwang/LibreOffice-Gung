@@ -15,6 +15,8 @@ from loaia_sidecar.providers.base import BaseProviderAdapter, ProviderRequest
 from loaia_sidecar.providers.openrouter import OpenRouterAdapter
 from loaia_sidecar.transport.named_pipe import NamedPipeTransport
 
+WRITER_NO_REPLACEMENT_SENTINEL = "NO_REPLACEMENT"
+
 
 class LoaiaSidecarServer:
     """Minimal sidecar server skeleton.
@@ -104,6 +106,9 @@ class LoaiaSidecarServer:
             return None
 
         replacement_text = self._rewrite_writer_selection(request.user_message, selection.text)
+        if replacement_text is None:
+            replacement_text = self._plan_writer_replace_selection_via_provider(request)
+
         if replacement_text is None or replacement_text == selection.text:
             return None
 
@@ -136,6 +141,65 @@ class LoaiaSidecarServer:
             return selection_text.strip()
 
         return None
+
+    def _plan_writer_replace_selection_via_provider(self, request: ChatRequest) -> str | None:
+        selection = request.context.selection
+        if selection is None:
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_writer_rewrite_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        response_text = adapter.complete(provider_request)
+        return self._normalize_writer_rewrite_response(response_text)
+
+    @staticmethod
+    def _build_writer_rewrite_prompt(user_message: str) -> str:
+        return "\n".join(
+            [
+                "You are planning a LibreOffice Writer ReplaceSelection action.",
+                (
+                    "If the user's request should be answered directly instead of by "
+                    f"replacing the selected text, reply exactly {WRITER_NO_REPLACEMENT_SENTINEL}."
+                ),
+                "Otherwise reply with only the full replacement text for the selection.",
+                "Do not include quotes, labels, markdown, or explanations.",
+                f"User request: {user_message.strip()}",
+            ]
+        )
+
+    @staticmethod
+    def _normalize_writer_rewrite_response(response_text: str) -> str | None:
+        normalized = response_text.strip()
+        if not normalized:
+            return None
+
+        if normalized.casefold() == WRITER_NO_REPLACEMENT_SENTINEL.casefold():
+            return None
+
+        if normalized.startswith("```") and normalized.endswith("```"):
+            lines = normalized.splitlines()
+            if lines and lines[0].startswith("```"):
+                lines = lines[1:]
+            if lines and lines[-1].startswith("```"):
+                lines = lines[:-1]
+            normalized = "\n".join(lines).strip()
+
+        if (
+            len(normalized) >= 2
+            and normalized[0] == normalized[-1]
+            and normalized[0] in {'"', "'"}
+        ):
+            normalized = normalized[1:-1].strip()
+
+        return normalized or None
 
     def _complete_direct_answer(self, request: ChatRequest) -> str:
         provider_request = ProviderRequest(
