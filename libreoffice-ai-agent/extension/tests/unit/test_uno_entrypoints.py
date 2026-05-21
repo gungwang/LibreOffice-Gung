@@ -14,6 +14,7 @@ from loaia.bootstrap import (
 from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_python import LoaiaProtocolHandlerProvider, LoaiaSidebarPanelFactory
+from loaia_shared.defaults import get_default_model, get_default_provider
 
 
 class FakeWriterTextRange:
@@ -329,8 +330,8 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
     panel.mark_visible()
     panel.set_last_command(OPEN_SIDEBAR_COMMAND)
     panel.record_request(
-        provider="openai-compatible",
-        model="local-default",
+        provider=get_default_provider(),
+        model=get_default_model(),
         privacy_scope="selection-only",
         selection_text="hello world",
         user_message="Please convert this selection to uppercase.",
@@ -354,7 +355,7 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
 
     assert window.controls["Title"].model.Label == "LibreOffice AI Agent"
     assert "Connection: connected to sidecar" in window.controls["Status"].model.Label
-    assert "Provider: openai-compatible" in window.controls["Status"].model.Label
+    assert f"Provider: {get_default_provider()}" in window.controls["Status"].model.Label
     assert expected_prompt in window.controls["Summary"].model.Text
     assert "Selection:\nhello world" in window.controls["Summary"].model.Text
     assert (

@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+from loaia_shared.defaults import get_default_model, get_default_provider
 from loaia_shared.errors import ValidationError
 from loaia_shared.schema.actions import ToolProposal
 from loaia_shared.schema.messages import ChatRequest, ContextEnvelope, DocumentRef, SelectionContext
@@ -33,15 +34,18 @@ def build_writer_chat_request(
     request_id: str = "writer-request-1",
     canonical_url: str = "file:///writer-document.odt",
     profile_id: str = "default-profile",
-    provider: str = "openai-compatible",
-    model: str = "local-default",
+    provider: str | None = None,
+    model: str | None = None,
 ) -> ChatRequest:
+    effective_provider = provider or get_default_provider()
+    effective_model = model or get_default_model()
+
     return ChatRequest(
         requestId=request_id,
         app=AppType.WRITER,
         document=DocumentRef(canonicalUrl=canonical_url, profileId=profile_id),
-        provider=provider,
-        model=model,
+        provider=effective_provider,
+        model=effective_model,
         privacyScope=PrivacyScope.SELECTION_ONLY,
         context=extract_writer_selection(selection.text),
         userMessage=user_message,

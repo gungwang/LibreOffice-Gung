@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from typing import Callable
 
 from loaia.sidebar_actions import SidebarDialogEventHandler
+from loaia_shared.defaults import get_default_model, get_default_provider
 
 try:
     import unohelper
@@ -124,8 +125,8 @@ def _summarize_recent_messages(messages: list[str]) -> str:
 
 @dataclass(slots=True)
 class SidebarState:
-    provider: str = "openai-compatible"
-    model: str = "local-default"
+    provider: str = field(default_factory=get_default_provider)
+    model: str = field(default_factory=get_default_model)
     privacy_scope: str = "selection-only"
     connected: bool = False
     visible: bool = False

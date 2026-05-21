@@ -4,6 +4,7 @@ from unittest.mock import patch
 from loaia.bootstrap import SIDEBAR_RESOURCE_URL
 from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
+from loaia_shared.defaults import get_default_provider
 from loaia_shared.errors import TransportError
 
 
@@ -45,6 +46,14 @@ class FakeWriterController:
         self.last_selected_range = text_range
 
 
+class FakeWriterControllerWithoutSelectionApi:
+    def __init__(self) -> None:
+        self.model = SimpleNamespace(Text=True, URL="file:///test-writer-document.odt")
+
+    def getModel(self) -> object:
+        return self.model
+
+
 class FakeCalcController:
     def __init__(self) -> None:
         self.model = SimpleNamespace(URL="file:///test-calc-document.ods")
@@ -54,10 +63,10 @@ class FakeCalcController:
 
 
 class FakeFrame:
-    def __init__(self, controller: FakeWriterController) -> None:
+    def __init__(self, controller: object) -> None:
         self.controller = controller
 
-    def getController(self) -> FakeWriterController:
+    def getController(self) -> object:
         return self.controller
 
 
@@ -166,7 +175,7 @@ def test_sidebar_send_action_previews_writer_proposal() -> None:
     assert panel.state.pending_proposal.preview.after == "HELLO WORLD"
     expected_prompt = "Prompt:\nPlease convert this selection to uppercase."
     expected_result = "Last result:\nPreview Writer selection replacement"
-    assert "Provider: openai-compatible" in window.controls["Status"].model.Label
+    assert f"Provider: {get_default_provider()}" in window.controls["Status"].model.Label
     assert expected_prompt in window.controls["Summary"].model.Text
     assert (
         "Pending preview:\nPreview Writer selection replacement"
@@ -345,6 +354,49 @@ def test_sidebar_send_action_surfaces_non_writer_error_clearly() -> None:
     assert "Last result:\nNo completed result yet." in window.controls["Summary"].model.Text
     assert (
         "Recent activity:\n- Sidebar actions currently support Writer documents only."
+        in window.controls["Summary"].model.Text
+    )
+    assert window.controls["ApproveButton"].model.Enabled is False
+
+
+def test_sidebar_send_action_surfaces_missing_selection_api_error_clearly() -> None:
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    panel.attach_frame(FakeFrame(FakeWriterControllerWithoutSelectionApi()))
+    window = FakeWindow(prompt="Please convert this selection to uppercase.")
+    transport = FakeTransport(
+        {
+            "type": "ToolProposal",
+            "proposals": [],
+        }
+    )
+    tool_panel = SidebarToolPanel(
+        panel=panel,
+        window=window,
+        event_handler=SidebarDialogEventHandler(panel=panel, transport=transport),
+    )
+
+    assert tool_panel.event_handler.callHandlerMethod(window, None, "Send") is True
+
+    expected_error = "Current document controller does not expose selection APIs."
+    expected_status_error = f"Last error: {expected_error}"
+
+    assert transport.requests == []
+    assert panel.state.connected is False
+    assert panel.state.last_prompt == "Please convert this selection to uppercase."
+    assert panel.state.last_error == expected_error
+    assert panel.state.selection_preview is None
+    assert panel.state.last_result is None
+    assert panel.state.pending_proposal is None
+    assert expected_status_error in window.controls["Status"].model.Label
+    assert (
+        "Prompt:\nPlease convert this selection to uppercase."
+        in window.controls["Summary"].model.Text
+    )
+    assert "Selection:\nNo captured selection yet." in window.controls["Summary"].model.Text
+    assert "Pending preview:\nNo pending proposal." in window.controls["Summary"].model.Text
+    assert "Last result:\nNo completed result yet." in window.controls["Summary"].model.Text
+    assert (
+        "Recent activity:\n- Current document controller does not expose selection APIs."
         in window.controls["Summary"].model.Text
     )
     assert window.controls["ApproveButton"].model.Enabled is False

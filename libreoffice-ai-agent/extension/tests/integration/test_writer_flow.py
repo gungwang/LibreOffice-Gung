@@ -10,6 +10,7 @@ from loaia.broker.transport import SidecarTransportClient
 from loaia.chat_controller import ChatController
 from loaia.context.writer import build_writer_chat_request, capture_writer_selection
 from loaia.sidebar_panel import SidebarPanel
+from loaia_shared.defaults import get_default_model, get_default_provider
 from loaia_sidecar.server import LoaiaSidecarServer
 from loaia_sidecar.transport.named_pipe import NamedPipeTransport
 
@@ -80,8 +81,8 @@ def test_writer_preview_then_approve_apply_round_trip() -> None:
 
     assert preview_summary == "Preview Writer selection replacement"
     assert panel.state.connected is True
-    assert panel.state.provider == "openai-compatible"
-    assert panel.state.model == "local-default"
+    assert panel.state.provider == get_default_provider()
+    assert panel.state.model == get_default_model()
     assert panel.state.privacy_scope == "selection-only"
     assert panel.state.selection_preview == "hello world"
     assert panel.state.pending_proposal is not None

@@ -9,6 +9,10 @@ from loaia_shared.schema.messages import (
     ToolProposalEnvelope,
 )
 from loaia_shared.types import AppType
+from loaia_sidecar.config.secrets import SecretStore
+from loaia_sidecar.config.settings import SidecarSettings
+from loaia_sidecar.providers.base import BaseProviderAdapter, ProviderRequest
+from loaia_sidecar.providers.openrouter import OpenRouterAdapter
 from loaia_sidecar.transport.named_pipe import NamedPipeTransport
 
 
@@ -19,7 +23,20 @@ class LoaiaSidecarServer:
     streaming lifecycle, and structured tool proposal generation.
     """
 
-    def __init__(self) -> None:
+    def __init__(
+        self,
+        settings: SidecarSettings | None = None,
+        secret_store: SecretStore | None = None,
+        provider_adapters: dict[str, BaseProviderAdapter] | None = None,
+    ) -> None:
+        self.settings = settings or SidecarSettings()
+        self.secret_store = secret_store or SecretStore()
+        self.provider_adapters = provider_adapters or {
+            OpenRouterAdapter.name: OpenRouterAdapter(
+                settings=self.settings,
+                secret_store=self.secret_store,
+            )
+        }
         self.capabilities = [
             "handshake",
             "streaming",
@@ -31,12 +48,7 @@ class LoaiaSidecarServer:
         return HandshakeResponse(
             serverVersion="0.1.0",
             capabilities=self.capabilities,
-            availableProviders=[
-                "openai-compatible",
-                "anthropic",
-                "gemini",
-                "openrouter",
-            ],
+            availableProviders=self.settings.enabled_providers,
         )
 
     def handle_chat_request(self, request: ChatRequest) -> DirectAnswer | ToolProposalEnvelope:
@@ -46,10 +58,7 @@ class LoaiaSidecarServer:
 
         return DirectAnswer(
             requestId=request.request_id,
-            text=(
-                "Sidecar scaffold is running. Planner and provider execution "
-                "are not implemented yet."
-            ),
+            text=self._complete_direct_answer(request),
         )
 
     def handle_message(self, payload: dict[str, object]) -> dict[str, object]:
@@ -68,7 +77,14 @@ class LoaiaSidecarServer:
                     mode="json",
                 )
 
-            response = self.handle_chat_request(request)
+            try:
+                response = self.handle_chat_request(request)
+            except (RuntimeError, ValueError) as exc:
+                return ErrorResponse(requestId=request_id, message=str(exc)).model_dump(
+                    by_alias=True,
+                    mode="json",
+                )
+
             return response.model_dump(by_alias=True, mode="json")
 
         return ErrorResponse(
@@ -120,3 +136,19 @@ class LoaiaSidecarServer:
             return selection_text.strip()
 
         return None
+
+    def _complete_direct_answer(self, request: ChatRequest) -> str:
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=request.user_message,
+            context_text=request.context.selection.text if request.context.selection else "",
+        )
+        adapter = self.provider_adapters.get(provider_request.provider)
+        if adapter is None:
+            return (
+                "Sidecar scaffold is running. Planner and provider execution "
+                "are not implemented yet."
+            )
+
+        return adapter.complete(provider_request)

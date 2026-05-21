@@ -2,7 +2,15 @@ from __future__ import annotations
 
 import sys
 
-from verify_protocol_actions import connect, make_property, make_url, model_text
+from verification_probe_common import (
+    close_document_session,
+    connect,
+    get_sidebar_panel_window,
+    load_document,
+    make_property,
+    make_url,
+    model_text,
+)
 
 
 def shorten_text(text: str, limit: int = 90) -> str:
@@ -21,19 +29,10 @@ def verify(
 ) -> int:
     expected_error = f"Could not connect to sidecar pipe at {pipe_address}"
     expected_short_error = shorten_text(expected_error, limit=90)
-    service_manager = context.ServiceManager
-    desktop = service_manager.createInstanceWithContext(
-        "com.sun.star.frame.Desktop",
-        context,
-    )
+    desktop = None
     document = None
     try:
-        document = desktop.loadComponentFromURL(
-            "private:factory/swriter",
-            "_blank",
-            0,
-            (make_property("Hidden", False),),
-        )
+        desktop, document = load_document(context, "private:factory/swriter")
         controller = document.getCurrentController()
         frame = controller.getFrame()
 
@@ -55,17 +54,7 @@ def verify(
 
         open_dispatch.dispatch(open_sidebar_url, ())
 
-        factory_manager = context.getValueByName(
-            "/singletons/com.sun.star.ui.theUIElementFactoryManager"
-        )
-        ui_element = factory_manager.createUIElement(
-            "private:resource/toolpanel/LoaiaPanelFactory/LoaiaPanel",
-            (
-                make_property("Frame", frame),
-                make_property("ParentWindow", frame.getContainerWindow()),
-            ),
-        )
-        panel_window = ui_element.getRealInterface().Window
+        panel_window = get_sidebar_panel_window(context, frame)
 
         status_after_open = model_text(panel_window.getControl("Status"))
         approve_button = panel_window.getControl("ApproveButton")
@@ -154,15 +143,7 @@ def verify(
         print("VALIDATION_PASSED=True")
         return 0
     finally:
-        if document is not None:
-            try:
-                document.close(True)
-            except Exception:
-                pass
-        try:
-            desktop.terminate()
-        except Exception:
-            pass
+        close_document_session(document=document, desktop=desktop)
 
 
 def main(argv: list[str]) -> int:

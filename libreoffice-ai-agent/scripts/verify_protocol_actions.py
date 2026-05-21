@@ -1,52 +1,16 @@
 from __future__ import annotations
 
 import sys
-import time
 
-import uno
-
-
-def connect(pipe_name: str) -> object:
-    local_context = uno.getComponentContext()
-    resolver = local_context.ServiceManager.createInstanceWithContext(
-        "com.sun.star.bridge.UnoUrlResolver",
-        local_context,
-    )
-    uno_url = f"uno:pipe,name={pipe_name};urp;StarOffice.ComponentContext"
-    last_error: Exception | None = None
-    for _ in range(30):
-        try:
-            return resolver.resolve(uno_url)
-        except Exception as exc:  # pragma: no cover - runtime-only under LibreOffice
-            last_error = exc
-            time.sleep(1)
-
-    raise RuntimeError(f"Could not connect to LibreOffice over {uno_url}: {last_error}")
-
-
-def make_property(name: str, value: object) -> object:
-    prop = uno.createUnoStruct("com.sun.star.beans.PropertyValue")
-    prop.Name = name
-    prop.Value = value
-    return prop
-
-
-def make_url(command: str) -> object:
-    url = uno.createUnoStruct("com.sun.star.util.URL")
-    url.Complete = f"vnd.org.libreoffice.ai.agent:{command}"
-    url.Protocol = "vnd.org.libreoffice.ai.agent:"
-    url.Path = command
-    return url
-
-
-def model_text(control: object) -> str:
-    model = control.getModel()
-    for attribute_name in ("Text", "Label"):
-        value = getattr(model, attribute_name, None)
-        if isinstance(value, str):
-            return value
-
-    return ""
+from verification_probe_common import (
+    close_document_session,
+    connect,
+    get_sidebar_panel_window,
+    load_document,
+    make_property,
+    make_url,
+    model_text,
+)
 
 
 def verify(
@@ -55,32 +19,13 @@ def verify(
     initial_selection: str,
     expected_text: str,
 ) -> int:
-    service_manager = context.ServiceManager
-    desktop = service_manager.createInstanceWithContext(
-        "com.sun.star.frame.Desktop",
-        context,
-    )
+    desktop = None
     document = None
     try:
-        document = desktop.loadComponentFromURL(
-            "private:factory/swriter",
-            "_blank",
-            0,
-            (make_property("Hidden", False),),
-        )
+        desktop, document = load_document(context, "private:factory/swriter")
         controller = document.getCurrentController()
         frame = controller.getFrame()
-        factory_manager = context.getValueByName(
-            "/singletons/com.sun.star.ui.theUIElementFactoryManager"
-        )
-        ui_element = factory_manager.createUIElement(
-            "private:resource/toolpanel/LoaiaPanelFactory/LoaiaPanel",
-            (
-                make_property("Frame", frame),
-                make_property("ParentWindow", frame.getContainerWindow()),
-            ),
-        )
-        panel_window = ui_element.getRealInterface().Window
+        panel_window = get_sidebar_panel_window(context, frame)
 
         text = document.Text
         cursor = text.createTextCursor()
@@ -154,15 +99,7 @@ def verify(
         print("VALIDATION_PASSED=True")
         return 0
     finally:
-        if document is not None:
-            try:
-                document.close(True)
-            except Exception:
-                pass
-        try:
-            desktop.terminate()
-        except Exception:
-            pass
+        close_document_session(document=document, desktop=desktop)
 
 
 def main(argv: list[str]) -> int:
