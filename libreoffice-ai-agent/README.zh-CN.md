@@ -22,7 +22,7 @@
 常用脚本：
 
 - `scripts/run_sidecar.ps1` 启动本地 sidecar，并自动设置项目需要的 `PYTHONPATH`
-- `scripts/cleanup_build_profiles.ps1` 清理 `build/` 下较旧的手动命名 LibreOffice 验证 profile；它会跳过仍在使用的 profile，并通过 `-KeepNewest` 保留一小部分最近目录
+- `scripts/cleanup_build_profiles.ps1` 清理 `build/` 下较旧的手动命名 LibreOffice 验证 profile；它会跳过仍在使用的 profile，并通过 `-KeepNewest` 保留一小部分最近目录。配合 `-IncludeInstallProfiles` 时，同一个入口也会清理较旧的 `lo-profile-install-*` 目录
 - `scripts/verify_protocol_actions.ps1` 安装 OXT，并在真实 LibreOffice 中验证 Writer 的“预览/批准应用”改写流程；默认检查本地启发式改写，配合 `-ExpectChangedText` 与 `-Provider`/`-Model` 也可以验证 provider 驱动的 Writer 改写提案
 - `scripts/verify_sidebar_direct_answer.ps1` 安装 OXT，并在真实 LibreOffice 中验证“打开侧边栏 + 直接回答”流程，且不改动文档内容；配合 `-ExpectNonScaffoldAnswer` 与 `-Provider`/`-Model`，同一个脚本也可以强制验证 provider 驱动的直接回答路径
 - `scripts/verify_sidebar_invalid_selection.ps1` 安装 OXT，并在真实 LibreOffice 中验证 `preview-selection` 的错误路径；默认检查 Writer“未选中文本”校验，配合 `-Scenario unsupported-document` 可验证 Calc 中“仅支持 Writer”的本地拒绝，配合 `-Scenario transport-error` 可通过一个隔离的不存在命名管道地址验证“sidecar 不可用”的错误显示流程

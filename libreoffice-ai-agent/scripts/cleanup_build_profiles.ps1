@@ -1,7 +1,8 @@
 param(
 	[string]$ProjectRoot = (Join-Path $PSScriptRoot ".."),
 	[ValidateRange(0, 1000)]
-	[int]$KeepNewest = 5
+	[int]$KeepNewest = 5,
+	[switch]$IncludeInstallProfiles
 )
 
 Set-StrictMode -Version Latest
@@ -21,6 +22,10 @@ $namePatterns = @(
 	"^lo-profile-verify-",
 	"^lo-profile-invalid-selection-shape$"
 )
+
+if ($IncludeInstallProfiles) {
+	$namePatterns += "^lo-profile-install-"
+}
 
 $matchingProfileDirs = @(
 	Get-ChildItem -LiteralPath $buildDir -Directory -ErrorAction SilentlyContinue |
