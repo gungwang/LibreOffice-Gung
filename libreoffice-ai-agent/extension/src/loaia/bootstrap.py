@@ -12,7 +12,76 @@ SAVE_SETTINGS_COMMAND = "save-settings"
 SIDEBAR_FACTORY_NAME = "LoaiaPanelFactory"
 SIDEBAR_PANEL_ID = "LoaiaPanel"
 SIDEBAR_RESOURCE_URL = f"private:resource/toolpanel/{SIDEBAR_FACTORY_NAME}/{SIDEBAR_PANEL_ID}"
+SIDEBAR_DECK_ID = "LoaiaDeck"
 SIDEBAR_DIALOG_PATH = "toolpanels/sidebar_shell.xdl"
+
+
+def _show_sidebar_deck(frame: object | None) -> None:
+    """Programmatically open the LibreOffice sidebar and show the AI deck."""
+    if frame is None:
+        return
+
+    try:
+        # Get the SidebarController from the frame's sidebar.
+        controller = frame.getController() if hasattr(frame, "getController") else None
+        if controller is None:
+            return
+
+        # Try the sidebar API (available since LO 5.1):
+        # XFrame → XController → XSidebar via getSidebar()
+        sidebar = None
+        if hasattr(controller, "getSidebar"):
+            sidebar = controller.getSidebar()
+        if sidebar is None:
+            # Fallback: dispatch .uno:Sidebar to toggle visibility, then request deck
+            _dispatch_uno_command(frame, ".uno:Sidebar")
+            if hasattr(controller, "getSidebar"):
+                sidebar = controller.getSidebar()
+
+        if sidebar is not None:
+            # Ensure sidebar is visible
+            if hasattr(sidebar, "setVisible"):
+                sidebar.setVisible(True)
+            # Request our deck
+            if hasattr(sidebar, "requestDeck"):
+                sidebar.requestDeck(SIDEBAR_DECK_ID)
+            return
+
+        # Last resort: use dispatch helper to toggle sidebar on
+        _dispatch_uno_command(frame, ".uno:Sidebar")
+    except Exception:
+        # Best-effort; if sidebar API is unavailable, the panel still registered
+        pass
+
+
+def _dispatch_uno_command(frame: object, command: str) -> None:
+    """Dispatch a .uno: command to the given frame."""
+    try:
+        dispatch_helper = None
+        context = getattr(frame, "ComponentContext", None)
+        if context is None and hasattr(frame, "getComponentContext"):
+            context = frame.getComponentContext()
+
+        if context is not None:
+            smgr = context.getServiceManager()
+            if smgr is not None:
+                dispatch_helper = smgr.createInstanceWithContext(
+                    "com.sun.star.frame.DispatchHelper", context
+                )
+
+        if dispatch_helper is None:
+            # Try via global component context
+            import uno  # noqa: F401 — available in LO Python
+            ctx = uno.getComponentContext()
+            smgr = ctx.getServiceManager()
+            dispatch_helper = smgr.createInstanceWithContext(
+                "com.sun.star.frame.DispatchHelper", ctx
+            )
+
+        if dispatch_helper is not None:
+            dispatch_helper.executeDispatch(frame, command, "", 0, ())
+    except Exception:
+        pass
 
 
 class ExtensionBootstrap:
@@ -57,6 +126,7 @@ class ExtensionBootstrap:
         self._restore_panel_session(panel)
         panel.mark_visible()
         panel.set_last_command(OPEN_SIDEBAR_COMMAND)
+        _show_sidebar_deck(frame)
         return panel
 
     def preview_selection(

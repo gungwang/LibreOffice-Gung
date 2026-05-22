@@ -7,7 +7,11 @@
       <node oor:name="LoaiaDeck" oor:op="replace">
         <prop oor:name="Id"><value>LoaiaDeck</value></prop>
         <prop oor:name="Title"><value xml:lang="en-US">AI Agent</value></prop>
+        <prop oor:name="IconURL"><value>private:graphicrepository/cmd/lc_insertscript.png</value></prop>
         <prop oor:name="OrderIndex"><value>1000</value></prop>
+        <prop oor:name="ContextList">
+          <value oor:separator=";">any, any, visible;</value>
+        </prop>
       </node>
     </node>
     <node oor:name="PanelList">
@@ -17,6 +21,9 @@
         <prop oor:name="Title"><value xml:lang="en-US">Chat</value></prop>
         <prop oor:name="ImplementationURL"><value>private:resource/toolpanel/LoaiaPanelFactory/LoaiaPanel</value></prop>
         <prop oor:name="OrderIndex"><value>1000</value></prop>
+        <prop oor:name="ContextList">
+          <value oor:separator=";">any, any, visible;</value>
+        </prop>
       </node>
     </node>
   </node>
