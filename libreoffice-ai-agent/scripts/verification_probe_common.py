@@ -25,6 +25,31 @@ def connect(pipe_name: str) -> object:
     raise RuntimeError(f"Could not connect to LibreOffice over {uno_url}: {last_error}")
 
 
+def wait_for_uno_result(
+    callback: object,
+    description: str,
+    attempts: int = 20,
+    delay_seconds: float = 0.5,
+) -> object:
+    last_error: Exception | None = None
+    for _ in range(attempts):
+        try:
+            result = callback()
+            if result is not None:
+                return result
+        except Exception as exc:  # pragma: no cover - runtime-only under LibreOffice
+            last_error = exc
+
+        time.sleep(delay_seconds)
+
+    if last_error is not None:
+        raise RuntimeError(
+            f"Could not access {description} after LibreOffice startup: {last_error}"
+        ) from last_error
+
+    raise RuntimeError(f"Could not access {description} after LibreOffice startup.")
+
+
 def make_property(name: str, value: object) -> object:
     prop = uno.createUnoStruct("com.sun.star.beans.PropertyValue")
     prop.Name = name
@@ -62,6 +87,7 @@ def load_document(context: object, component_url: str) -> tuple[object, object]:
         0,
         (make_property("Hidden", False),),
     )
+    wait_for_uno_result(document.getCurrentController, "document controller")
     return desktop, document
 
 
