@@ -6,6 +6,9 @@ from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_shared.defaults import get_default_provider
 from loaia_shared.errors import TransportError
+from loaia_shared.schema.history import HistorySessionKey
+from loaia_shared.types import AppType
+from loaia.session_store import InMemorySidebarSessionStore
 
 
 class FakeWriterTextRange:
@@ -96,6 +99,10 @@ class FakeWindow:
         self.controls = {
             "Title": FakeControl("Label"),
             "Status": FakeControl("Label"),
+            "ProviderInput": FakeControl("Text", get_default_provider()),
+            "ModelInput": FakeControl("Text", "openai/gpt-4.1-mini"),
+            "SaveSettingsButton": FakeControl("Label"),
+            "SettingsStatus": FakeControl("Label"),
             "PromptInput": FakeControl("Text", prompt),
             "SendButton": FakeControl("Label"),
             "ApproveButton": FakeControl("Label"),
@@ -439,3 +446,79 @@ def test_sidebar_send_action_can_override_pipe_address_for_runtime_probe() -> No
     }
     assert override_transport.requests[0]["type"] == "ChatRequest"
     assert override_transport.requests[0]["userMessage"] == "Please summarize this selection."
+
+
+def test_sidebar_save_settings_persists_provider_and_model() -> None:
+    store = InMemorySidebarSessionStore()
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    window = FakeWindow(prompt="Please convert this selection to uppercase.")
+    tool_panel = SidebarToolPanel(
+        panel=panel,
+        window=window,
+        event_handler=SidebarDialogEventHandler(panel=panel, session_store=store),
+    )
+    window.controls["ProviderInput"].model.Text = "openrouter"
+    window.controls["ModelInput"].model.Text = "openai/gpt-4.1"
+
+    assert tool_panel.event_handler.callHandlerMethod(window, None, "SaveSettings") is True
+
+    settings = store.load_settings()
+    assert settings.provider == "openrouter"
+    assert settings.model == "openai/gpt-4.1"
+    assert panel.state.provider == "openrouter"
+    assert panel.state.model == "openai/gpt-4.1"
+    assert "Saved Writer-first provider settings." in window.controls["SettingsStatus"].model.Label
+
+
+def test_sidebar_send_action_uses_only_prior_history_in_request_summary() -> None:
+    store = InMemorySidebarSessionStore()
+    session_key = HistorySessionKey(
+        profileId="default-profile",
+        canonicalDocumentUrl="file:///test-writer-document.odt",
+        appType=AppType.WRITER,
+    )
+    store.record_request(
+        session_key,
+        "Earlier prompt",
+        provider=get_default_provider(),
+        model="openai/gpt-4.1-mini",
+    )
+    store.record_result(
+        session_key,
+        "Earlier answer",
+        provider=get_default_provider(),
+        model="openai/gpt-4.1-mini",
+    )
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    text_range = FakeWriterTextRange("hello world")
+    panel.attach_frame(FakeFrame(FakeWriterController(text_range)))
+    panel.apply_settings(
+        provider=get_default_provider(),
+        model="openai/gpt-4.1-mini",
+        api_key_status="missing",
+    )
+    window = FakeWindow(prompt="Please convert this selection to uppercase.")
+    transport = FakeTransport(
+        {
+            "type": "DirectAnswer",
+            "text": "Remote answer",
+        }
+    )
+    tool_panel = SidebarToolPanel(
+        panel=panel,
+        window=window,
+        event_handler=SidebarDialogEventHandler(
+            panel=panel,
+            transport=transport,
+            session_store=store,
+        ),
+    )
+
+    assert tool_panel.event_handler.callHandlerMethod(window, None, "Send") is True
+
+    history_summary = transport.requests[0]["historySummary"]
+    assert [item["role"] for item in history_summary] == ["user", "assistant"]
+    assert [item["text"] for item in history_summary] == ["Earlier prompt", "Earlier answer"]
+    assert "Please convert this selection to uppercase." not in [
+        item["text"] for item in history_summary
+    ]

@@ -89,7 +89,9 @@ def test_handle_chat_request_uses_provider_adapter_for_direct_answers() -> None:
 
 
 def test_handle_chat_request_uses_provider_adapter_for_writer_proposals() -> None:
-    adapter = FakeProviderAdapter(answer="Greetings from the revised draft.")
+    adapter = FakeProviderAdapter(
+        answer='{"action":"replace-selection","replacementText":"Greetings from the revised draft."}'
+    )
     server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
 
     response = server.handle_chat_request(
@@ -106,14 +108,15 @@ def test_handle_chat_request_uses_provider_adapter_for_writer_proposals() -> Non
     assert proposal.arguments == {"replacementText": "Greetings from the revised draft."}
     assert len(adapter.requests) == 1
     assert adapter.requests[0].context_text == "hello world"
-    assert "NO_REPLACEMENT" in adapter.requests[0].prompt
+    assert '"action":"no-replacement"' in adapter.requests[0].prompt
+    assert '"replacementText":"<full replacement text>"' in adapter.requests[0].prompt
     assert "Rewrite this selection in a more formal tone." in adapter.requests[0].prompt
 
 
 def test_handle_chat_request_falls_back_to_direct_answer_when_provider_declines_rewrite() -> None:
     def complete_impl(request: ProviderRequest) -> str:
-        if "NO_REPLACEMENT" in request.prompt:
-            return "NO_REPLACEMENT"
+        if '"action":"no-replacement"' in request.prompt:
+            return '{"action":"no-replacement"}'
 
         return "Remote summary"
 
@@ -125,7 +128,7 @@ def test_handle_chat_request_falls_back_to_direct_answer_when_provider_declines_
     assert response.type == "DirectAnswer"
     assert response.text == "Remote summary"
     assert len(adapter.requests) == 2
-    assert "NO_REPLACEMENT" in adapter.requests[0].prompt
+    assert '"action":"no-replacement"' in adapter.requests[0].prompt
     assert adapter.requests[0].context_text == "hello world"
     assert adapter.requests[1] == ProviderRequest(
         provider="openrouter",
@@ -133,6 +136,18 @@ def test_handle_chat_request_falls_back_to_direct_answer_when_provider_declines_
         prompt="Summarize this selection.",
         context_text="hello world",
     )
+
+
+def test_normalize_writer_rewrite_response_supports_json_contract() -> None:
+    server = LoaiaSidecarServer(provider_adapters={})
+
+    assert (
+        server._normalize_writer_rewrite_response(
+            '{"action":"replace-selection","replacementText":"Formal rewrite"}'
+        )
+        == "Formal rewrite"
+    )
+    assert server._normalize_writer_rewrite_response('{"action":"no-replacement"}') is None
 
 
 def test_handle_message_returns_error_response_for_provider_failures() -> None:

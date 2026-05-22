@@ -127,6 +127,7 @@ def _summarize_recent_messages(messages: list[str]) -> str:
 class SidebarState:
     provider: str = field(default_factory=get_default_provider)
     model: str = field(default_factory=get_default_model)
+    api_key_status: str = "unknown"
     privacy_scope: str = "selection-only"
     connected: bool = False
     visible: bool = False
@@ -134,6 +135,7 @@ class SidebarState:
     last_prompt: str | None = None
     last_result: str | None = None
     last_error: str | None = None
+    settings_notice: str | None = None
     selection_preview: str | None = None
     pending_proposal: object | None = None
     messages: list[str] = field(default_factory=list)
@@ -167,9 +169,40 @@ class SidebarPanel:
         self.state.model = model
         self.state.privacy_scope = privacy_scope
         self.state.selection_preview = selection_text
+        self.state.settings_notice = None
         if user_message is not None:
             self.state.last_prompt = user_message
         self.state.last_error = None
+        self._notify_observers()
+
+    def apply_settings(
+        self,
+        provider: str,
+        model: str,
+        api_key_status: str,
+        notice: str | None = None,
+    ) -> None:
+        self.state.provider = provider
+        self.state.model = model
+        self.state.api_key_status = api_key_status
+        self.state.settings_notice = notice
+        self._notify_observers()
+
+    def restore_session(
+        self,
+        *,
+        last_prompt: str | None,
+        last_result: str | None,
+        last_error: str | None,
+        messages: list[str],
+    ) -> None:
+        self.state.last_prompt = last_prompt
+        self.state.last_result = last_result
+        self.state.last_error = last_error
+        self.state.messages = list(messages)
+        self.state.selection_preview = None
+        self.state.pending_proposal = None
+        self.state.settings_notice = None
         self._notify_observers()
 
     def set_selection_preview(self, selection_text: str | None) -> None:
@@ -222,10 +255,23 @@ class SidebarPanel:
             f"Connection: {connection_state}",
             f"Provider: {self.state.provider}",
             f"Model: {self.state.model}",
+            f"API key: {self.state.api_key_status}",
             f"Last command: {last_command}",
         ]
         if self.state.last_error is not None:
             lines.append(f"Last error: {_shorten_text(self.state.last_error, limit=90)}")
+
+        return "\n".join(lines)
+
+    def render_settings_text(self) -> str:
+        lines = [
+            "Writer-first settings:",
+            f"Provider profile: {self.state.provider}",
+            f"Model profile: {self.state.model}",
+            f"API key status: {self.state.api_key_status}",
+        ]
+        if self.state.settings_notice is not None:
+            lines.append(_shorten_text(self.state.settings_notice, limit=120))
 
         return "\n".join(lines)
 
@@ -312,6 +358,9 @@ class SidebarToolPanel(unohelper.Base, XToolPanel):
     def refresh_from_panel(self, panel: SidebarPanel) -> None:
         self._set_control_text("Title", panel.title)
         self._set_control_text("Status", panel.render_status_text())
+        self._set_control_text("ProviderInput", panel.state.provider)
+        self._set_control_text("ModelInput", panel.state.model)
+        self._set_control_text("SettingsStatus", panel.render_settings_text())
         self._set_control_text("Summary", panel.render_summary_text())
         self._set_control_text("Privacy", panel.render_privacy_text())
         self._set_control_enabled("ApproveButton", panel.state.pending_proposal is not None)

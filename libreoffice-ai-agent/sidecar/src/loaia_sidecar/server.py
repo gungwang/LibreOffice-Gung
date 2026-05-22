@@ -1,3 +1,5 @@
+import json
+
 from pydantic import ValidationError as PydanticValidationError
 
 from loaia_shared.schema.actions import ActionPreview, SafetyClass, ToolProposal
@@ -166,11 +168,21 @@ class LoaiaSidecarServer:
             [
                 "You are planning a LibreOffice Writer ReplaceSelection action.",
                 (
-                    "If the user's request should be answered directly instead of by "
-                    f"replacing the selected text, reply exactly {WRITER_NO_REPLACEMENT_SENTINEL}."
+                    "Reply with JSON only. Do not add markdown fences, commentary, or extra text."
                 ),
-                "Otherwise reply with only the full replacement text for the selection.",
-                "Do not include quotes, labels, markdown, or explanations.",
+                (
+                    "For a rewrite, return exactly: "
+                    '{"action":"replace-selection","replacementText":"<full replacement text>"}'
+                ),
+                (
+                    "If the request should stay a direct answer instead of replacing the "
+                    "selection, return exactly: "
+                    '{"action":"no-replacement"}'
+                ),
+                (
+                    f"Legacy fallback remains {WRITER_NO_REPLACEMENT_SENTINEL}, but prefer the JSON "
+                    "contract above."
+                ),
                 f"User request: {user_message.strip()}",
             ]
         )
@@ -181,9 +193,6 @@ class LoaiaSidecarServer:
         if not normalized:
             return None
 
-        if normalized.casefold() == WRITER_NO_REPLACEMENT_SENTINEL.casefold():
-            return None
-
         if normalized.startswith("```") and normalized.endswith("```"):
             lines = normalized.splitlines()
             if lines and lines[0].startswith("```"):
@@ -191,6 +200,28 @@ class LoaiaSidecarServer:
             if lines and lines[-1].startswith("```"):
                 lines = lines[:-1]
             normalized = "\n".join(lines).strip()
+
+        if normalized.casefold() == WRITER_NO_REPLACEMENT_SENTINEL.casefold():
+            return None
+
+        if normalized.startswith("{") and normalized.endswith("}"):
+            try:
+                payload = json.loads(normalized)
+            except json.JSONDecodeError:
+                payload = None
+
+            if isinstance(payload, dict):
+                action = str(payload.get("action") or "").strip().casefold()
+                if action == "no-replacement":
+                    return None
+
+                if action == "replace-selection":
+                    replacement_text = payload.get("replacementText")
+                    if isinstance(replacement_text, str):
+                        replacement_text = replacement_text.strip()
+                        return replacement_text or None
+
+                    return None
 
         if (
             len(normalized) >= 2

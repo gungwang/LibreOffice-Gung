@@ -1,5 +1,7 @@
 from loaia.sidebar_actions import SidebarDialogEventHandler
+from loaia.document_session import resolve_history_session_key
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel, SidebarUIElement
+from loaia.session_store import JsonSidebarSessionStore
 
 EXTENSION_IDENTIFIER = "org.gungwang.libreoffice-ai-agent"
 PROTOCOL_SCHEME = "vnd.org.libreoffice.ai.agent:"
@@ -13,16 +15,27 @@ SIDEBAR_DIALOG_PATH = "toolpanels/sidebar_shell.xdl"
 
 
 class ExtensionBootstrap:
-    def __init__(self, transport: object | None = None) -> None:
+    def __init__(
+        self,
+        transport: object | None = None,
+        session_store: JsonSidebarSessionStore | None = None,
+    ) -> None:
         self._panel: SidebarPanel | None = None
         self._event_handler: SidebarDialogEventHandler | None = None
         self._transport = transport
+        self._session_store = session_store or JsonSidebarSessionStore()
 
     def get_panel(self) -> SidebarPanel:
         if self._panel is None:
             self._panel = SidebarPanel(
                 title="LibreOffice AI Agent",
                 resource_url=SIDEBAR_RESOURCE_URL,
+            )
+            settings = self._session_store.load_settings()
+            self._panel.apply_settings(
+                provider=settings.provider,
+                model=settings.model,
+                api_key_status=settings.api_key_status,
             )
 
         return self._panel
@@ -32,6 +45,7 @@ class ExtensionBootstrap:
             self._event_handler = SidebarDialogEventHandler(
                 panel=self.get_panel(),
                 transport=self._transport,
+                session_store=self._session_store,
             )
 
         return self._event_handler
@@ -39,6 +53,7 @@ class ExtensionBootstrap:
     def open_sidebar(self, frame: object | None = None) -> SidebarPanel:
         panel = self.get_panel()
         panel.attach_frame(frame)
+        self._restore_panel_session(panel)
         panel.mark_visible()
         panel.set_last_command(OPEN_SIDEBAR_COMMAND)
         return panel
@@ -89,6 +104,23 @@ class ExtensionBootstrap:
             frame=frame,
             resource_url=resource_url,
             tool_panel=tool_panel,
+        )
+
+    def _restore_panel_session(self, panel: SidebarPanel) -> None:
+        settings = self._session_store.load_settings()
+        panel.apply_settings(
+            provider=settings.provider,
+            model=settings.model,
+            api_key_status=settings.api_key_status,
+        )
+        session_snapshot = self._session_store.load_session(
+            resolve_history_session_key(panel.frame)
+        )
+        panel.restore_session(
+            last_prompt=session_snapshot.last_prompt,
+            last_result=session_snapshot.last_result,
+            last_error=session_snapshot.last_error,
+            messages=session_snapshot.message_texts,
         )
 
 

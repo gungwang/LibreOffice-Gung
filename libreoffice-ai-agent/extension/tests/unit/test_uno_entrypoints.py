@@ -15,6 +15,9 @@ from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_python import LoaiaProtocolHandlerProvider, LoaiaSidebarPanelFactory
 from loaia_shared.defaults import get_default_model, get_default_provider
+from loaia_shared.schema.history import HistorySessionKey
+from loaia_shared.types import AppType
+from loaia.session_store import InMemorySidebarSessionStore
 
 
 class FakeWriterTextRange:
@@ -73,7 +76,7 @@ class FakeTransport:
 
 
 def test_protocol_handler_dispatch_opens_sidebar() -> None:
-    runtime = ExtensionBootstrap()
+    runtime = ExtensionBootstrap(session_store=InMemorySidebarSessionStore())
     provider = LoaiaProtocolHandlerProvider(runtime=runtime)
     url = SimpleNamespace(
         Protocol=PROTOCOL_SCHEME,
@@ -112,7 +115,10 @@ def test_protocol_handler_dispatches_preview_and_approve_commands() -> None:
             ],
         }
     )
-    runtime = ExtensionBootstrap(transport=transport)
+    runtime = ExtensionBootstrap(
+        transport=transport,
+        session_store=InMemorySidebarSessionStore(),
+    )
     provider = LoaiaProtocolHandlerProvider(runtime=runtime)
     text_range = FakeWriterTextRange("hello world")
     frame = FakeFrame(FakeWriterController(text_range))
@@ -182,7 +188,10 @@ def test_protocol_handler_preview_command_accepts_pipe_address_override() -> Non
             ),
         }
     )
-    runtime = ExtensionBootstrap(transport=runtime_transport)
+    runtime = ExtensionBootstrap(
+        transport=runtime_transport,
+        session_store=InMemorySidebarSessionStore(),
+    )
     provider = LoaiaProtocolHandlerProvider(runtime=runtime)
     text_range = FakeWriterTextRange("hello world")
     frame = FakeFrame(FakeWriterController(text_range))
@@ -221,7 +230,7 @@ def test_protocol_handler_preview_command_accepts_pipe_address_override() -> Non
 
 
 def test_sidebar_factory_creates_toolpanel_ui_element() -> None:
-    runtime = ExtensionBootstrap()
+    runtime = ExtensionBootstrap(session_store=InMemorySidebarSessionStore())
     factory = LoaiaSidebarPanelFactory(runtime=runtime)
     arguments = [
         SimpleNamespace(Name="Frame", Value="frame-1"),
@@ -313,6 +322,9 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
             self.controls = {
                 "Title": FakeControl("Label"),
                 "Status": FakeControl("Label"),
+                "ProviderInput": FakeControl("Text"),
+                "ModelInput": FakeControl("Text"),
+                "SettingsStatus": FakeControl("Label"),
                 "Summary": FakeControl("Text"),
                 "Privacy": FakeControl("Label"),
                 "ApproveButton": FakeControl("Label"),
@@ -336,6 +348,11 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
         selection_text="hello world",
         user_message="Please convert this selection to uppercase.",
     )
+    panel.apply_settings(
+        provider=get_default_provider(),
+        model=get_default_model(),
+        api_key_status="missing",
+    )
     panel.set_connected(True)
     panel.set_pending_proposal(
         SimpleNamespace(
@@ -356,6 +373,10 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
     assert window.controls["Title"].model.Label == "LibreOffice AI Agent"
     assert "Connection: connected to sidecar" in window.controls["Status"].model.Label
     assert f"Provider: {get_default_provider()}" in window.controls["Status"].model.Label
+    assert "API key: missing" in window.controls["Status"].model.Label
+    assert window.controls["ProviderInput"].model.Text == get_default_provider()
+    assert window.controls["ModelInput"].model.Text == get_default_model()
+    assert "Writer-first settings:" in window.controls["SettingsStatus"].model.Label
     assert expected_prompt in window.controls["Summary"].model.Text
     assert "Selection:\nhello world" in window.controls["Summary"].model.Text
     assert (
@@ -370,3 +391,35 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
     )
     assert "Privacy scope: selection-only" in window.controls["Privacy"].model.Label
     assert window.controls["ApproveButton"].model.Enabled is True
+
+
+def test_open_sidebar_restores_persisted_writer_session() -> None:
+    store = InMemorySidebarSessionStore()
+    store.save_settings("openrouter", "openai/gpt-4.1")
+    session_key = HistorySessionKey(
+        profileId="default-profile",
+        canonicalDocumentUrl="file:///test-writer-document.odt",
+        appType=AppType.WRITER,
+    )
+    store.record_request(
+        session_key,
+        "Earlier prompt",
+        provider="openrouter",
+        model="openai/gpt-4.1",
+    )
+    store.record_result(
+        session_key,
+        "Earlier result",
+        provider="openrouter",
+        model="openai/gpt-4.1",
+    )
+    runtime = ExtensionBootstrap(session_store=store)
+    frame = FakeFrame(FakeWriterController(FakeWriterTextRange("hello world")))
+
+    panel = runtime.open_sidebar(frame=frame)
+
+    assert panel.state.provider == "openrouter"
+    assert panel.state.model == "openai/gpt-4.1"
+    assert panel.state.last_prompt == "Earlier prompt"
+    assert panel.state.last_result == "Earlier result"
+    assert panel.state.messages == ["Earlier prompt", "Earlier result"]

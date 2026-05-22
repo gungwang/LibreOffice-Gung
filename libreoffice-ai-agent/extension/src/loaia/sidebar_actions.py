@@ -27,6 +27,14 @@ from loaia_shared.transport import (
     decode_transport_payload,
     encode_transport_payload,
 )
+from loaia.document_session import (
+    DEFAULT_PROFILE_ID,
+    get_controller,
+    get_model,
+    resolve_document_url,
+    resolve_history_session_key,
+)
+from loaia.session_store import JsonSidebarSessionStore, describe_api_key_status
 
 if TYPE_CHECKING:
     from loaia.sidebar_panel import SidebarPanel
@@ -57,9 +65,11 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self,
         panel: SidebarPanel,
         transport: RuntimeSidecarTransportClient | None = None,
+        session_store: JsonSidebarSessionStore | None = None,
     ) -> None:
         self.panel = panel
         self.transport = transport or RuntimeSidecarTransportClient()
+        self.session_store = session_store
         self._pending_selection: RuntimeWriterSelection | None = None
 
     def callHandlerMethod(self, window: object, event_object: object, method_name: str) -> bool:
@@ -73,10 +83,14 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self.approve_pending(window=window)
             return True
 
+        if method_name == "SaveSettings":
+            self.save_settings(window=window)
+            return True
+
         return False
 
     def getSupportedMethodNames(self) -> tuple[str, ...]:
-        return ("Send", "Approve")
+        return ("Send", "Approve", "SaveSettings")
 
     def preview_current_selection(
         self,
@@ -93,12 +107,16 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
     def approve_pending(self, window: object | None = None) -> str:
         return self._handle_approve(window=window)
 
+    def save_settings(self, window: object | None = None) -> str:
+        return self._handle_save_settings(window=window)
+
     def _handle_send(
         self,
         window: object | None,
         prompt_override: str | None = None,
         pipe_address_override: str | None = None,
     ) -> str:
+        session_key = resolve_history_session_key(self.panel.frame)
         prompt = (
             prompt_override
             if prompt_override is not None
@@ -108,6 +126,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             message = "Enter a prompt before sending."
             self.panel.set_last_error(message)
             self.panel.append_message(message)
+            self._record_error(session_key, message)
             return message
 
         if prompt_override is not None:
@@ -120,6 +139,8 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             selection_text=None,
             user_message=prompt,
         )
+        history_summary = self._load_history_summary(session_key)
+        self._record_request(session_key, prompt)
 
         try:
             selection = self._capture_writer_selection()
@@ -129,15 +150,19 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 if pipe_address_override is None
                 else RuntimeSidecarTransportClient(address=pipe_address_override)
             )
-            response = transport_client.request(self._build_chat_request(selection, prompt))
+            response = transport_client.request(
+                self._build_chat_request(selection, prompt, history_summary)
+            )
         except TransportError as exc:
             self.panel.set_connected(False)
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
+            self._record_error(session_key, str(exc))
             return str(exc)
         except ValueError as exc:
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
+            self._record_error(session_key, str(exc))
             return str(exc)
 
         self.panel.set_connected(True)
@@ -150,6 +175,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self.panel.clear_pending_proposal()
             self.panel.set_last_result(answer_text)
             self.panel.append_message(answer_text)
+            self._record_result(session_key, answer_text)
             return answer_text
 
         if response_type == "ToolProposal":
@@ -162,6 +188,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 message = "Sidecar returned an invalid tool proposal payload."
                 self.panel.set_last_error(message)
                 self.panel.append_message(message)
+                self._record_error(session_key, message)
                 return message
 
             proposal = _proposal_from_payload(proposals[0])
@@ -171,25 +198,30 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self.panel.set_pending_proposal(proposal)
             self.panel.set_last_result(summary)
             self.panel.append_message(summary)
+            self._record_result(session_key, summary)
             return summary
 
         message = response.get("message")
         if isinstance(message, str):
             self.panel.set_last_error(message)
             self.panel.append_message(f"Error: {message}")
+            self._record_error(session_key, message)
             return message
 
         unexpected_message = f"Unexpected response type from sidecar: {response_type!r}"
         self.panel.set_last_error(unexpected_message)
         self.panel.append_message(unexpected_message)
+        self._record_error(session_key, unexpected_message)
         return unexpected_message
 
     def _handle_approve(self, window: object | None) -> str:
+        session_key = resolve_history_session_key(self.panel.frame)
         proposal = self.panel.state.pending_proposal
         if proposal is None or self._pending_selection is None:
             message = "No pending Writer proposal is available for approval."
             self.panel.set_last_error(message)
             self.panel.append_message(message)
+            self._record_error(session_key, message)
             return message
 
         try:
@@ -198,21 +230,51 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         except ValueError as exc:
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
+            self._record_error(session_key, str(exc))
             return str(exc)
 
         applied_message = f"Applied {proposal.tool_id}"
         self.panel.set_selection_preview(replacement_text)
         self.panel.set_last_result(applied_message)
         self.panel.append_message(applied_message)
+        self._record_result(session_key, applied_message, role="system")
         self.panel.clear_pending_proposal()
         self._pending_selection = None
         _set_control_text(window, "PromptInput", "")
         return applied_message
 
+    def _handle_save_settings(self, window: object | None) -> str:
+        provider = _get_control_text(window, "ProviderInput").strip()
+        model = _get_control_text(window, "ModelInput").strip()
+        if not provider or not model:
+            message = "Provider and model must both be set before saving settings."
+            self.panel.apply_settings(
+                provider=self.panel.state.provider,
+                model=self.panel.state.model,
+                api_key_status=self.panel.state.api_key_status,
+                notice=message,
+            )
+            return message
+
+        if self.session_store is None:
+            api_key_status = describe_api_key_status(provider)
+        else:
+            snapshot = self.session_store.save_settings(provider, model)
+            api_key_status = snapshot.api_key_status
+
+        message = "Saved Writer-first provider settings."
+        self.panel.apply_settings(
+            provider=provider,
+            model=model,
+            api_key_status=api_key_status,
+            notice=message,
+        )
+        return message
+
     def _capture_writer_selection(self) -> RuntimeWriterSelection:
         frame = self.panel.frame
-        controller = _get_controller(frame)
-        model = _get_model(controller)
+        controller = get_controller(frame)
+        model = get_model(controller)
         if model is None or not hasattr(model, "Text"):
             raise ValueError("Sidebar actions currently support Writer documents only.")
 
@@ -242,18 +304,15 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self,
         selection: RuntimeWriterSelection,
         prompt: str,
+        history_summary: list[dict[str, object]] | None = None,
     ) -> dict[str, object]:
-        document_url = "file:///writer-document.odt"
-        controller = _get_controller(self.panel.frame)
-        model = _get_model(controller)
-        if model is not None:
-            model_url = None
-            if hasattr(model, "getURL"):
-                model_url = model.getURL()
-            elif hasattr(model, "URL"):
-                model_url = model.URL
-            if isinstance(model_url, str) and model_url:
-                document_url = model_url
+        session_key = resolve_history_session_key(self.panel.frame)
+        document_url = resolve_document_url(self.panel.frame)
+        profile_id = DEFAULT_PROFILE_ID
+        effective_history_summary = history_summary or []
+        if session_key is not None:
+            document_url = session_key.canonical_document_url
+            profile_id = session_key.profile_id
 
         return {
             "type": "ChatRequest",
@@ -261,7 +320,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             "app": "writer",
             "document": {
                 "canonicalUrl": document_url,
-                "profileId": "default-profile",
+                "profileId": profile_id,
             },
             "provider": self.panel.state.provider,
             "model": self.panel.state.model,
@@ -273,35 +332,52 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 }
             },
             "userMessage": prompt,
-            "historySummary": [],
+            "historySummary": effective_history_summary,
         }
 
+    def _load_history_summary(self, session_key: object) -> list[dict[str, object]]:
+        if self.session_store is None:
+            return []
 
-def _get_controller(frame: object | None) -> object:
-    if frame is None:
-        raise ValueError("Sidebar is not attached to an active document frame.")
+        return self.session_store.load_session(session_key).history_summary
 
-    if hasattr(frame, "getController"):
-        controller = frame.getController()
-    elif hasattr(frame, "Controller"):
-        controller = frame.Controller
-    else:
-        controller = None
+    def _record_request(
+        self,
+        session_key: object,
+        prompt: str,
+    ) -> None:
+        if self.session_store is None:
+            return
 
-    if controller is None:
-        raise ValueError("Could not access the active document controller.")
+        self.session_store.record_request(
+            session_key,
+            prompt,
+            provider=self.panel.state.provider,
+            model=self.panel.state.model,
+        )
 
-    return controller
+    def _record_result(
+        self,
+        session_key: object,
+        text: str,
+        role: str = "assistant",
+    ) -> None:
+        if self.session_store is None:
+            return
 
+        self.session_store.record_result(
+            session_key,
+            text,
+            provider=self.panel.state.provider,
+            model=self.panel.state.model,
+            role=role,
+        )
 
-def _get_model(controller: object | None) -> object | None:
-    if controller is None:
-        return None
+    def _record_error(self, session_key: object, message: str) -> None:
+        if self.session_store is None:
+            return
 
-    if hasattr(controller, "getModel"):
-        return controller.getModel()
-
-    return getattr(controller, "Model", None)
+        self.session_store.record_error(session_key, message)
 
 
 def _get_range_text(text_range: object) -> str:
