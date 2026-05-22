@@ -1,5 +1,6 @@
 from collections.abc import Callable, Iterable
 from multiprocessing.connection import Client, Listener
+from threading import Thread
 from typing import Union
 
 from loaia_shared.errors import TransportError
@@ -43,13 +44,21 @@ class NamedPipeTransport:
             raise TransportError("Named-pipe listener is not available")
 
         connection = listener.accept()
+        # Handle in a daemon thread so the listener can accept the next
+        # connection immediately (needed for CancelRequest during streaming).
+        thread = Thread(
+            target=self._handle_connection, args=(connection,), daemon=True
+        )
+        thread.start()
+
+    def _handle_connection(self, connection: object) -> None:
         with connection:
             try:
                 payload = decode_transport_payload(connection.recv_bytes())
-            except EOFError as exc:
+            except EOFError:
                 if self._stopped:
                     return
-                raise TransportError("Client disconnected before sending a payload") from exc
+                return
 
             result = self._handler(payload)
             if isinstance(result, dict):

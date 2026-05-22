@@ -1,11 +1,14 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from hashlib import sha1
 
 from loaia_shared.types import AppType
 
 DEFAULT_PROFILE_ID = "default-profile"
 DEFAULT_DOCUMENT_URL = "file:///writer-document.odt"
+
+_cached_profile_id: str | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -87,13 +90,43 @@ def resolve_app_type(frame: object | None) -> AppType | None:
     return None
 
 
+def resolve_profile_id() -> str:
+    """Resolve the active LibreOffice user profile ID.
+
+    Tries the UNO PathSubstitution service to get the ``$(user)`` path, then
+    hashes it into a stable short identifier. Falls back to DEFAULT_PROFILE_ID
+    when running outside of LibreOffice (e.g. in tests).
+    """
+    global _cached_profile_id  # noqa: PLW0603
+    if _cached_profile_id is not None:
+        return _cached_profile_id
+
+    try:
+        import uno  # type: ignore[import]
+
+        ctx = uno.getComponentContext()
+        smgr = ctx.ServiceManager
+        path_sub = smgr.createInstanceWithContext(
+            "com.sun.star.util.PathSubstitution", ctx
+        )
+        user_path = path_sub.substituteVariables("$(user)", True)
+        if isinstance(user_path, str) and user_path:
+            profile_id = sha1(user_path.encode("utf-8")).hexdigest()[:12]
+            _cached_profile_id = profile_id
+            return profile_id
+    except Exception:
+        pass
+
+    return DEFAULT_PROFILE_ID
+
+
 def resolve_history_session_key(frame: object | None) -> DocumentSessionKey | None:
     app_type = resolve_app_type(frame)
     if app_type is None:
         return None
 
     return DocumentSessionKey(
-        profile_id=DEFAULT_PROFILE_ID,
+        profile_id=resolve_profile_id(),
         canonical_document_url=resolve_document_url(frame),
         app_type=app_type,
     )

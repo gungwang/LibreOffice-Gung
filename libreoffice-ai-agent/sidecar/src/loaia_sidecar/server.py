@@ -1,17 +1,19 @@
 import json
+import threading
 
 from pydantic import ValidationError as PydanticValidationError
 
 from loaia_shared.schema.actions import ActionPreview, SafetyClass, ToolProposal
 from loaia_shared.schema.messages import (
     ChatRequest,
+    ConsentRequest,
     DirectAnswer,
     ErrorResponse,
     HandshakeResponse,
     StreamChunk,
     ToolProposalEnvelope,
 )
-from loaia_shared.types import AppType
+from loaia_shared.types import AppType, PrivacyScope
 from loaia_sidecar.config.secrets import SecretStore
 from loaia_sidecar.config.settings import SidecarSettings
 from loaia_sidecar.providers.base import BaseProviderAdapter, ProviderRequest
@@ -51,7 +53,10 @@ class LoaiaSidecarServer:
             "streaming",
             "tool-proposals",
             "consent-escalation",
+            "cancellation",
         ]
+        self._cancelled_requests: set[str] = set()
+        self._cancel_lock = threading.Lock()
 
     def handshake(self) -> HandshakeResponse:
         return HandshakeResponse(
@@ -60,7 +65,14 @@ class LoaiaSidecarServer:
             availableProviders=self.settings.enabled_providers,
         )
 
-    def handle_chat_request(self, request: ChatRequest) -> DirectAnswer | ToolProposalEnvelope:
+    def handle_chat_request(
+        self, request: ChatRequest
+    ) -> DirectAnswer | ToolProposalEnvelope | ConsentRequest:
+        # Check if consent escalation is needed.
+        consent = self._check_consent_escalation(request)
+        if consent is not None:
+            return consent
+
         # Try app-specific planning first.
         proposal = self._plan_tool_proposal(request)
         if proposal is not None:
@@ -77,6 +89,12 @@ class LoaiaSidecarServer:
 
         if message_type == "HandshakeRequest":
             return self.handshake().model_dump(by_alias=True, mode="json")
+
+        if message_type == "CancelRequest":
+            cancel_id = request_id
+            with self._cancel_lock:
+                self._cancelled_requests.add(cancel_id)
+            return {"type": "CancelAck", "requestId": cancel_id}
 
         if message_type == "ChatRequest":
             try:
@@ -115,6 +133,12 @@ class LoaiaSidecarServer:
         if message_type == "HandshakeRequest":
             return self.handshake().model_dump(by_alias=True, mode="json")
 
+        if message_type == "CancelRequest":
+            cancel_id = request_id
+            with self._cancel_lock:
+                self._cancelled_requests.add(cancel_id)
+            return {"type": "CancelAck", "requestId": cancel_id}
+
         if message_type == "ChatRequest":
             try:
                 request = ChatRequest.model_validate(payload)
@@ -124,6 +148,11 @@ class LoaiaSidecarServer:
                 )
 
             try:
+                # Check consent escalation first.
+                consent = self._check_consent_escalation(request)
+                if consent is not None:
+                    return consent.model_dump(by_alias=True, mode="json")
+
                 # Non-streaming path for tool proposals
                 proposal = self._plan_tool_proposal(request)
                 if proposal is not None:
@@ -143,6 +172,47 @@ class LoaiaSidecarServer:
             requestId=request_id,
             message=f"Unsupported request type: {message_type!r}",
         ).model_dump(by_alias=True, mode="json")
+
+    # ------------------------------------------------------------------
+    # Consent escalation
+    # ------------------------------------------------------------------
+
+    _DOCUMENT_SCOPE_KEYWORDS = (
+        "whole document", "entire document", "full document",
+        "whole page", "entire page", "full page",
+        "all text", "the document", "this document",
+        "summarize everything", "review everything",
+    )
+
+    def _check_consent_escalation(
+        self, request: ChatRequest
+    ) -> ConsentRequest | None:
+        """Return a ConsentRequest if the user's message implies broader
+        context but the current scope is selection-only with no/empty selection.
+        """
+        if request.privacy_scope != PrivacyScope.SELECTION_ONLY:
+            return None
+
+        has_selection = (
+            request.context.selection is not None
+            and request.context.selection.text.strip()
+        )
+        if has_selection:
+            return None
+
+        normalized = request.user_message.casefold()
+        if not any(kw in normalized for kw in self._DOCUMENT_SCOPE_KEYWORDS):
+            return None
+
+        return ConsentRequest(
+            requestId=request.request_id,
+            requestedScope=PrivacyScope.FULL_DOCUMENT.value,
+            reason=(
+                "Your request appears to need the full document, but the "
+                "current privacy scope is selection-only. Please approve "
+                "escalation to full-document scope."
+            ),
+        )
 
     def _stream_direct_answer(
         self, request: ChatRequest
@@ -164,6 +234,8 @@ class LoaiaSidecarServer:
 
         try:
             for chunk in adapter.stream(provider_request):
+                if self._is_cancelled(request.request_id):
+                    break
                 collected_text.append(chunk.text)
                 frames.append(
                     StreamChunk(
@@ -186,7 +258,14 @@ class LoaiaSidecarServer:
                 requestId=request.request_id, text=full_text
             ).model_dump(by_alias=True, mode="json")
         )
+        # Clean up cancellation entry now that the request is done.
+        with self._cancel_lock:
+            self._cancelled_requests.discard(request.request_id)
         return frames
+
+    def _is_cancelled(self, request_id: str) -> bool:
+        with self._cancel_lock:
+            return request_id in self._cancelled_requests
 
     def _plan_writer_proposal(self, request: ChatRequest) -> ToolProposal | None:
         """Plan a Writer content-edit: either insert-below or replace-selection."""

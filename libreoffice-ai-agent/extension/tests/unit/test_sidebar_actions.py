@@ -119,6 +119,7 @@ class FakeTransport:
     def __init__(self, response: dict[str, object]) -> None:
         self.response = response
         self.requests: list[dict[str, object]] = []
+        self.cancelled_ids: list[str] = []
 
     def request(self, payload: dict[str, object]) -> dict[str, object]:
         self.requests.append(payload)
@@ -129,6 +130,9 @@ class FakeTransport:
     ) -> dict[str, object]:
         self.requests.append(payload)
         return self.response
+
+    def send_cancel(self, request_id: str) -> None:
+        self.cancelled_ids.append(request_id)
 
 
 class FailingTransport:
@@ -145,6 +149,9 @@ class FailingTransport:
     ) -> dict[str, object]:
         self.requests.append(payload)
         raise TransportError(self.message)
+
+    def send_cancel(self, request_id: str) -> None:
+        pass
 
 
 def test_sidebar_send_action_previews_writer_proposal() -> None:

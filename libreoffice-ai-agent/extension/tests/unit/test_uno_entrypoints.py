@@ -81,6 +81,9 @@ class FakeTransport:
         self.requests.append(payload)
         return self.response
 
+    def send_cancel(self, request_id: str) -> None:
+        pass
+
 
 def test_protocol_handler_dispatch_opens_sidebar() -> None:
     runtime = ExtensionBootstrap(session_store=InMemorySidebarSessionStore())

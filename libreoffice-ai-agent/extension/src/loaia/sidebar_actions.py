@@ -26,12 +26,12 @@ from loaia.audit import AuditLogger
 from loaia.context.calc import apply_calc_formula, capture_calc_selection
 from loaia.context.impress import apply_impress_text_replacement, capture_impress_selection
 from loaia.document_session import (
-    DEFAULT_PROFILE_ID,
     get_controller,
     get_model,
     resolve_app_type,
     resolve_document_url,
     resolve_history_session_key,
+    resolve_profile_id,
 )
 from loaia.session_store import (
     JsonSidebarSessionStore,
@@ -101,6 +101,22 @@ class RuntimeSidecarTransportClient:
         except OSError as exc:
             raise TransportError(f"Could not connect to sidecar pipe at {self.address}") from exc
 
+    def send_cancel(self, request_id: str) -> None:
+        """Send a CancelRequest to the sidecar on a separate connection."""
+        payload: dict[str, object] = {
+            "type": "CancelRequest",
+            "requestId": request_id,
+        }
+        try:
+            with Client(self.address, family="AF_PIPE", authkey=None) as connection:
+                connection.send_bytes(encode_transport_payload(payload))
+                try:
+                    decode_transport_payload(connection.recv_bytes())
+                except EOFError:
+                    pass
+        except OSError:
+            pass  # Sidecar may already be gone; cancel is best-effort
+
 
 class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
     def __init__(
@@ -115,6 +131,8 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self.audit = AuditLogger()
         self._pending_selection: RuntimeSelection | None = None
         self._cancel_requested: bool = False
+        self._current_request_id: str | None = None
+        self._pending_consent: dict[str, object] | None = None
 
     def callHandlerMethod(self, window: object, event_object: object, method_name: str) -> bool:
         del event_object
@@ -133,6 +151,8 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
         if method_name == "Cancel":
             self._cancel_requested = True
+            if self._current_request_id is not None:
+                self.transport.send_cancel(self._current_request_id)
             return True
 
         return False
@@ -216,6 +236,10 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self._cancel_requested = False
             self.panel.set_streaming(True)
             streaming_chunks: list[str] = []
+            chat_payload = self._build_chat_request(
+                selection, prompt, history_summary
+            )
+            self._current_request_id = str(chat_payload.get("requestId", ""))
 
             def _on_stream_chunk(frame: dict[str, object]) -> None:
                 if self._cancel_requested:
@@ -226,9 +250,10 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                     self.panel.set_last_result("".join(streaming_chunks))
 
             response = transport_client.request_streaming(
-                self._build_chat_request(selection, prompt, history_summary),
+                chat_payload,
                 on_chunk=_on_stream_chunk,
             )
+            self._current_request_id = None
             self.panel.set_streaming(False)
 
             if self._cancel_requested:
@@ -314,6 +339,24 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self._record_result(session_key, summary)
             return summary
 
+        if response_type == "ConsentRequest":
+            reason = response.get("reason", "")
+            requested_scope = response.get("requestedScope", "")
+            consent_msg = (
+                f"Scope escalation requested: {reason}\n"
+                f"Requested scope: {requested_scope}\n"
+                "Click Approve to grant broader access, or send a new prompt."
+            )
+            self._pending_consent = {
+                "requestedScope": requested_scope,
+                "prompt": prompt,
+                "selection": selection,
+            }
+            self.panel.set_last_result(consent_msg)
+            self.panel.append_message(consent_msg)
+            self._record_result(session_key, consent_msg, role="system")
+            return consent_msg
+
         message = response.get("message")
         if isinstance(message, str):
             self.panel.set_last_error(message)
@@ -328,6 +371,10 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         return unexpected_message
 
     def _handle_approve(self, window: object | None) -> str:
+        # Handle consent escalation approval.
+        if self._pending_consent is not None:
+            return self._handle_consent_approve(window)
+
         session_key = resolve_history_session_key(self.panel.frame)
         proposal = self.panel.state.pending_proposal
         if proposal is None or self._pending_selection is None:
@@ -369,6 +416,24 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self._pending_selection = None
         _set_control_text(window, "PromptInput", "")
         return applied_message
+
+    def _handle_consent_approve(self, window: object | None) -> str:
+        """Re-send the original prompt with the escalated privacy scope."""
+        consent = self._pending_consent
+        self._pending_consent = None
+        if consent is None:
+            return "No pending consent to approve."
+
+        requested_scope = str(consent.get("requestedScope", "full-document"))
+        original_prompt = str(consent.get("prompt", ""))
+
+        # Update panel state to the escalated scope.
+        self.panel.state.privacy_scope = requested_scope
+
+        # Re-run the send flow with the same prompt.
+        return self.preview_current_selection(
+            window=window, prompt=original_prompt
+        )
 
     def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> None:
         """Execute an approved proposal against the given selection."""
@@ -582,7 +647,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
     ) -> dict[str, object]:
         session_key = resolve_history_session_key(self.panel.frame)
         document_url = resolve_document_url(self.panel.frame)
-        profile_id = DEFAULT_PROFILE_ID
+        profile_id = resolve_profile_id()
         effective_history_summary = history_summary or []
         if session_key is not None:
             document_url = session_key.canonical_document_url

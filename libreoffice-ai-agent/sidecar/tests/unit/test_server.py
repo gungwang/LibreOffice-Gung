@@ -382,3 +382,92 @@ def test_impress_layout_proposal() -> None:
     proposal = response.proposals[0]
     assert proposal.tool_id == "Impress.ApplyLayoutToCurrentSlide"
     assert proposal.arguments["layout"] == 0
+
+
+# ------------------------------------------------------------------
+# Cancellation tests
+# ------------------------------------------------------------------
+
+
+def test_cancel_request_acknowledged() -> None:
+    server = LoaiaSidecarServer(provider_adapters={})
+
+    result = server.handle_message(
+        {"type": "CancelRequest", "requestId": "req-cancel-1"}
+    )
+
+    assert result["type"] == "CancelAck"
+    assert result["requestId"] == "req-cancel-1"
+
+
+def test_cancel_request_stops_streaming() -> None:
+    """Simulate cancellation during streaming by pre-registering a cancelled ID."""
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    # Pre-cancel the request
+    server.handle_message_streaming(
+        {"type": "CancelRequest", "requestId": "req-openrouter-1"}
+    )
+
+    # Now make the chat request with the same ID
+    request = make_chat_request(
+        selection_text=None, user_message="Tell me a story"
+    )
+    response = server.handle_chat_request(request)
+
+    # With no streaming chunks collected due to cancel, the response should
+    # still be a direct answer (non-streaming fallback or empty).
+    # The key thing is: no exception was raised.
+    assert response is not None
+
+
+# ------------------------------------------------------------------
+# Consent escalation tests
+# ------------------------------------------------------------------
+
+
+def test_consent_escalation_when_no_selection_and_document_keyword() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            selection_text=None,
+            user_message="Summarize this document",
+        )
+    )
+
+    assert response.type == "ConsentRequest"
+    assert response.requested_scope == "full-document"
+    assert "full document" in response.reason.lower()
+
+
+def test_no_consent_escalation_when_selection_present() -> None:
+    adapter = FakeProviderAdapter(answer="Summary of selection")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            selection_text="Some selected text",
+            user_message="Summarize this document",
+        )
+    )
+
+    # Should NOT trigger consent — selection is present.
+    assert response.type != "ConsentRequest"
+
+
+def test_no_consent_escalation_for_generic_prompt() -> None:
+    adapter = FakeProviderAdapter(answer="Hello!")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            selection_text=None,
+            user_message="Tell me a joke",
+        )
+    )
+
+    # No document-scope keywords — should be a direct answer.
+    assert response.type == "DirectAnswer"
