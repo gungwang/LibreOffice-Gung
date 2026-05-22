@@ -542,3 +542,50 @@ def test_sidebar_send_action_uses_only_prior_history_in_request_summary() -> Non
     assert "Please convert this selection to uppercase." not in [
         item["text"] for item in history_summary
     ]
+
+
+def test_sidebar_send_action_auto_applies_safe_formatting_without_approval() -> None:
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    text_range = FakeWriterTextRange("hello world")
+    panel.attach_frame(FakeFrame(FakeWriterController(text_range)))
+    window = FakeWindow(prompt="Make this bold.")
+    transport = FakeTransport(
+        {
+            "type": "ToolProposal",
+            "proposals": [
+                {
+                    "proposalId": "proposal-safe-1",
+                    "toolId": "Writer.ToggleBold",
+                    "safetyClass": "safe-formatting",
+                    "requiresApproval": False,
+                    "preview": {
+                        "summary": "Apply Writer.ToggleBold",
+                        "before": "",
+                        "after": "",
+                    },
+                    "arguments": {},
+                }
+            ],
+        }
+    )
+    tool_panel = SidebarToolPanel(
+        panel=panel,
+        window=window,
+        event_handler=SidebarDialogEventHandler(panel=panel, transport=transport),
+    )
+
+    with patch("loaia.sidebar_actions.execute_safe_formatting") as mock_exec, patch(
+        "loaia.sidebar_actions.undo_context"
+    ):
+        mock_exec.return_value = "Applied Writer.ToggleBold"
+        assert tool_panel.event_handler.callHandlerMethod(window, None, "Send") is True
+
+    # Auto-applied: no pending proposal, result recorded, approve disabled.
+    assert panel.state.pending_proposal is None
+    assert panel.state.last_result == "Applied Writer.ToggleBold"
+    assert panel.state.last_error is None
+    assert window.controls["ApproveButton"].model.Enabled is False
+    assert "Applied Writer.ToggleBold" in window.controls["Summary"].model.Text
+    # Document text unchanged (only formatting was applied).
+    assert text_range.text == "hello world"
+    mock_exec.assert_called_once_with(panel.frame, "Writer.ToggleBold")

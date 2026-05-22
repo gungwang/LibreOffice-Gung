@@ -93,7 +93,6 @@ def _get_dispatch_helper() -> object:
     """Get the global UNO dispatch helper service."""
     try:
         import uno  # type: ignore[import]
-        from com.sun.star.frame import DispatchHelper  # type: ignore[import]  # noqa: F401
 
         ctx = uno.getComponentContext()
         smgr = ctx.ServiceManager

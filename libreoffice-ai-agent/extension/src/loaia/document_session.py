@@ -80,11 +80,17 @@ def resolve_app_type(frame: object | None) -> AppType | None:
     if hasattr(model, "Text"):
         return AppType.WRITER
 
-    document_url = resolve_document_url(frame).casefold()
-    if document_url.endswith(".ods"):
+    if hasattr(model, "Sheets"):
         return AppType.CALC
 
-    if document_url.endswith(".odp"):
+    if hasattr(model, "DrawPages"):
+        return AppType.IMPRESS
+
+    document_url = resolve_document_url(frame).casefold()
+    if document_url.endswith(".ods") or "scalc" in document_url:
+        return AppType.CALC
+
+    if document_url.endswith(".odp") or "simpress" in document_url:
         return AppType.IMPRESS
 
     return None

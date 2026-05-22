@@ -110,6 +110,31 @@ $results.Add([pscustomobject]@{ Scenario = "Install"; ExitCode = $directAnswerEx
 $results.Add([pscustomobject]@{ Scenario = "Direct answer"; ExitCode = $directAnswerExitCode; CoveredBy = "verify_sidebar_direct_answer.ps1" }) | Out-Null
 $shouldSkipBuild = $true
 
+$safeFormattingArgumentMap = @{
+	ProjectRoot = $projectRootPath
+	Prompt = "Make this bold."
+	InitialSelection = "hello world"
+	ExpectedToolId = "Writer.ToggleBold"
+	Provider = $resolvedProvider
+	Model = $resolvedModel
+	SkipBuild = $true
+}
+if ($LibreOfficeProgramPath) {
+	$safeFormattingArgumentMap.LibreOfficeProgramPath = $LibreOfficeProgramPath
+}
+if ($PythonPath) {
+	$safeFormattingArgumentMap.PythonPath = $PythonPath
+}
+
+$safeFormattingExitCode = Invoke-SmokeScript `
+	-Scenario "safe-formatting" `
+	-Invocation {
+		& (Join-Path $PSScriptRoot "verify_safe_formatting.ps1") @safeFormattingArgumentMap
+	} `
+	-StateRootDir (Join-Path $stateRootBaseDir "safe-formatting") `
+	-UseStateIsolation
+$results.Add([pscustomobject]@{ Scenario = "Safe formatting"; ExitCode = $safeFormattingExitCode; CoveredBy = "verify_safe_formatting.ps1" }) | Out-Null
+
 $previewArgumentMap = @{
 	ProjectRoot = $projectRootPath
 	Prompt = "Rewrite this selection into a more formal sentence."
