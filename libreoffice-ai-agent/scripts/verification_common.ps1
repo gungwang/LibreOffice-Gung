@@ -188,6 +188,46 @@ function Remove-LoaiaProfileDir {
 	)
 }
 
+function Remove-LoaiaGeneratedRunProfiles {
+	param(
+		[string]$BaseProfileDir,
+		[string]$ExcludePath,
+		[int]$KeepNewest = 3
+	)
+
+	$resolvedBaseProfileDir = [System.IO.Path]::GetFullPath($BaseProfileDir)
+	$profileParentDir = Split-Path -Parent $resolvedBaseProfileDir
+	$profileLeafName = Split-Path -Leaf $resolvedBaseProfileDir
+	$excludeResolvedPath = if ($ExcludePath) {
+		[System.IO.Path]::GetFullPath($ExcludePath)
+	} else {
+		$null
+	}
+
+	if (-not (Test-Path -LiteralPath $profileParentDir)) {
+		return
+	}
+
+	$runProfileDirs = @(
+		Get-ChildItem -LiteralPath $profileParentDir -Directory -ErrorAction SilentlyContinue |
+			Where-Object {
+				$_.Name -like ("{0}-run-*" -f $profileLeafName) -and
+				($null -eq $excludeResolvedPath -or $_.FullName -ne $excludeResolvedPath)
+			} |
+			Sort-Object LastWriteTimeUtc -Descending
+	)
+
+	$runProfileDirsToRemove = @($runProfileDirs | Select-Object -Skip $KeepNewest)
+	foreach ($runProfileDir in $runProfileDirsToRemove) {
+		$runProfileUrl = Convert-ToFileUrl -Path $runProfileDir.FullName
+		if ((Get-LoaiaProfileProcesses -UserInstallationUrl $runProfileUrl).Count -gt 0) {
+			continue
+		}
+
+		Remove-LoaiaProfileDir -Path $runProfileDir.FullName -UserInstallationUrl $runProfileUrl
+	}
+}
+
 function Invoke-LoaiaVerificationProbe {
 	param(
 		[string]$ProjectRoot,
@@ -234,8 +274,11 @@ function Invoke-LoaiaVerificationProbe {
 	Import-LoaiaDotEnv -ProjectRoot $projectRootPath -PreserveExisting
 	$userInstallationUrl = Convert-ToFileUrl -Path $resolvedUserProfileDir
 
-	if ($ResetUserProfileDir -and (Test-Path -LiteralPath $resolvedUserProfileDir)) {
-		Remove-LoaiaProfileDir -Path $resolvedUserProfileDir -UserInstallationUrl $userInstallationUrl
+	if ($ResetUserProfileDir) {
+		Remove-LoaiaGeneratedRunProfiles -BaseProfileDir $requestedUserProfileDir -ExcludePath $resolvedUserProfileDir
+		if (Test-Path -LiteralPath $resolvedUserProfileDir) {
+			Remove-LoaiaProfileDir -Path $resolvedUserProfileDir -UserInstallationUrl $userInstallationUrl
+		}
 	}
 
 	$installArguments = @{
@@ -308,6 +351,10 @@ function Invoke-LoaiaVerificationProbe {
 	} finally {
 		if ($sidecarProcess -and -not $sidecarProcess.HasExited) {
 			Stop-Process -Id $sidecarProcess.Id -Force
+		}
+
+		if ($ResetUserProfileDir -and $probeExitCode -eq 0 -and (Test-Path -LiteralPath $resolvedUserProfileDir)) {
+			Remove-LoaiaProfileDir -Path $resolvedUserProfileDir -UserInstallationUrl $userInstallationUrl
 		}
 	}
 
