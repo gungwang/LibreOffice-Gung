@@ -15,6 +15,7 @@ function Resolve-LibreOfficeProgramPath {
 	$candidates = @(
 		$RequestedPath,
 		$env:LIBREOFFICE_PROGRAM_PATH,
+		"C:\Program Files\LibreOffice\26\program",
 		"C:\Program Files\LibreOffice\program",
 		"C:\Program Files (x86)\LibreOffice\program"
 	) | Where-Object { $_ }
