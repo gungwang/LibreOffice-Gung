@@ -22,6 +22,7 @@ except ImportError:  # pragma: no cover - exercised under LibreOffice runtime
     unohelper = _UnoHelperModule()
 
 from loaia.actions.executor import execute_safe_formatting, is_safe_formatting_action
+from loaia.audit import AuditLogger
 from loaia.context.calc import apply_calc_formula, capture_calc_selection
 from loaia.context.impress import apply_impress_text_replacement, capture_impress_selection
 from loaia.document_session import (
@@ -32,7 +33,12 @@ from loaia.document_session import (
     resolve_document_url,
     resolve_history_session_key,
 )
-from loaia.session_store import JsonSidebarSessionStore, describe_api_key_status
+from loaia.session_store import (
+    JsonSidebarSessionStore,
+    SqliteSidebarSessionStore,
+    describe_api_key_status,
+)
+from loaia.sidecar_lifecycle import ensure_sidecar_running
 from loaia_shared.errors import TransportError
 from loaia_shared.transport import (
     DEFAULT_NAMED_PIPE_ADDRESS,
@@ -101,12 +107,14 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self,
         panel: SidebarPanel,
         transport: RuntimeSidecarTransportClient | None = None,
-        session_store: JsonSidebarSessionStore | None = None,
+        session_store: JsonSidebarSessionStore | SqliteSidebarSessionStore | None = None,
     ) -> None:
         self.panel = panel
         self.transport = transport or RuntimeSidecarTransportClient()
         self.session_store = session_store
+        self.audit = AuditLogger()
         self._pending_selection: RuntimeSelection | None = None
+        self._cancel_requested: bool = False
 
     def callHandlerMethod(self, window: object, event_object: object, method_name: str) -> bool:
         del event_object
@@ -123,10 +131,14 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self.save_settings(window=window)
             return True
 
+        if method_name == "Cancel":
+            self._cancel_requested = True
+            return True
+
         return False
 
     def getSupportedMethodNames(self) -> tuple[str, ...]:
-        return ("Send", "Approve", "SaveSettings")
+        return ("Send", "Approve", "SaveSettings", "Cancel")
 
     def preview_current_selection(
         self,
@@ -190,14 +202,24 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         try:
             selection = self._capture_selection()
             self.panel.set_selection_preview(selection.text)
+            pipe_address = (
+                pipe_address_override
+                if pipe_address_override is not None
+                else DEFAULT_NAMED_PIPE_ADDRESS
+            )
+            ensure_sidecar_running(address=pipe_address)
             transport_client = (
                 self.transport
                 if pipe_address_override is None
                 else RuntimeSidecarTransportClient(address=pipe_address_override)
             )
+            self._cancel_requested = False
+            self.panel.set_streaming(True)
             streaming_chunks: list[str] = []
 
             def _on_stream_chunk(frame: dict[str, object]) -> None:
+                if self._cancel_requested:
+                    return
                 text = frame.get("text")
                 if isinstance(text, str):
                     streaming_chunks.append(text)
@@ -207,13 +229,23 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 self._build_chat_request(selection, prompt, history_summary),
                 on_chunk=_on_stream_chunk,
             )
+            self.panel.set_streaming(False)
+
+            if self._cancel_requested:
+                cancel_msg = "Request cancelled."
+                self.panel.set_last_error(cancel_msg)
+                self.panel.append_message(cancel_msg)
+                self._record_error(session_key, cancel_msg)
+                return cancel_msg
         except TransportError as exc:
+            self.panel.set_streaming(False)
             self.panel.set_connected(False)
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
             self._record_error(session_key, str(exc))
             return str(exc)
         except ValueError as exc:
+            self.panel.set_streaming(False)
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
             self._record_error(session_key, str(exc))
@@ -264,6 +296,13 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 self.panel.set_last_result(result_message)
                 self.panel.append_message(result_message)
                 self._record_result(session_key, result_message, role="system")
+                self.audit.log_auto_apply(
+                    request_id=getattr(proposal, "proposal_id", ""),
+                    tool_id=proposal.tool_id,
+                    document_url=resolve_document_url(self.panel.frame),
+                    provider=self.panel.state.provider,
+                    model=self.panel.state.model,
+                )
                 return result_message
 
             preview = proposal.preview
@@ -311,6 +350,21 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self.panel.set_last_result(applied_message)
         self.panel.append_message(applied_message)
         self._record_result(session_key, applied_message, role="system")
+        self.audit.log_approval(
+            request_id=getattr(proposal, "proposal_id", ""),
+            tool_id=getattr(proposal, "tool_id", ""),
+            document_url=resolve_document_url(self.panel.frame),
+            provider=self.panel.state.provider,
+            model=self.panel.state.model,
+        )
+        self.audit.log_execution(
+            request_id=getattr(proposal, "proposal_id", ""),
+            tool_id=getattr(proposal, "tool_id", ""),
+            document_url=resolve_document_url(self.panel.frame),
+            provider=self.panel.state.provider,
+            model=self.panel.state.model,
+            result=applied_message,
+        )
         self.panel.clear_pending_proposal()
         self._pending_selection = None
         _set_control_text(window, "PromptInput", "")
@@ -609,6 +663,12 @@ def _get_control_text(window: object, control_name: str) -> str:
     if control is None:
         return ""
 
+    # MenuList / ListBox: read selected item text.
+    if hasattr(control, "getSelectedItem"):
+        item = control.getSelectedItem()
+        if isinstance(item, str) and item:
+            return item
+
     if hasattr(control, "getText"):
         text = control.getText()
         if isinstance(text, str):
@@ -618,6 +678,16 @@ def _get_control_text(window: object, control_name: str) -> str:
         return ""
 
     model = control.getModel()
+
+    # MenuList model: SelectedItems index into StringItemList.
+    if hasattr(model, "StringItemList") and hasattr(model, "SelectedItems"):
+        items = model.StringItemList
+        selected = model.SelectedItems
+        if items and selected and len(selected) > 0:
+            idx = selected[0]
+            if 0 <= idx < len(items):
+                return str(items[idx])
+
     for attribute_name in ("Text", "Label"):
         value = getattr(model, attribute_name, None)
         if isinstance(value, str):

@@ -26,20 +26,36 @@
       dlg:height="34"
         dlg:value="Sidebar shell is live. Chat transport and document tools will attach here."
         dlg:multiline="true"/>
-    <dlg:textfield dlg:id="ProviderInput"
+    <dlg:menulist dlg:id="ProviderInput"
       dlg:tab-index="2"
       dlg:left="6"
       dlg:top="62"
       dlg:width="78"
       dlg:height="12"
-      dlg:value="openrouter"/>
-    <dlg:textfield dlg:id="ModelInput"
+      dlg:spin="true"
+      dlg:linecount="5">
+      <dlg:menupopup>
+        <dlg:menuitem dlg:value="openrouter"/>
+        <dlg:menuitem dlg:value="openai-compatible"/>
+      </dlg:menupopup>
+    </dlg:menulist>
+    <dlg:menulist dlg:id="ModelInput"
       dlg:tab-index="3"
       dlg:left="88"
       dlg:top="62"
       dlg:width="78"
       dlg:height="12"
-      dlg:value="openai/gpt-4.1-mini"/>
+      dlg:spin="true"
+      dlg:linecount="8"
+      dlg:editable="true">
+      <dlg:menupopup>
+        <dlg:menuitem dlg:value="openai/gpt-4.1-mini"/>
+        <dlg:menuitem dlg:value="openai/gpt-4.1-nano"/>
+        <dlg:menuitem dlg:value="anthropic/claude-sonnet-4"/>
+        <dlg:menuitem dlg:value="google/gemini-2.5-flash"/>
+        <dlg:menuitem dlg:value="local-default"/>
+      </dlg:menupopup>
+    </dlg:menulist>
     <dlg:button dlg:id="SaveSettingsButton"
       dlg:tab-index="4"
       dlg:left="6"
@@ -69,10 +85,20 @@
       dlg:tab-index="7"
         dlg:left="6"
       dlg:top="174"
-        dlg:width="76"
+        dlg:width="50"
         dlg:height="14"
         dlg:value="Preview">
       <script:event script:event-name="on-performaction" script:macro-name="vnd.sun.star.UNO:Send" script:language="UNO"/>
+    </dlg:button>
+    <dlg:button dlg:id="CancelButton"
+      dlg:tab-index="11"
+      dlg:left="60"
+      dlg:top="174"
+      dlg:width="24"
+      dlg:height="14"
+      dlg:value="Cancel"
+      dlg:disabled="true">
+      <script:event script:event-name="on-performaction" script:macro-name="vnd.sun.star.UNO:Cancel" script:language="UNO"/>
     </dlg:button>
     <dlg:button dlg:id="ApproveButton"
       dlg:tab-index="8"

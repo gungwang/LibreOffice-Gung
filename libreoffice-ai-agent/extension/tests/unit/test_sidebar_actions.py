@@ -105,6 +105,7 @@ class FakeWindow:
             "SettingsStatus": FakeControl("Label"),
             "PromptInput": FakeControl("Text", prompt),
             "SendButton": FakeControl("Label"),
+            "CancelButton": FakeControl("Label"),
             "ApproveButton": FakeControl("Label"),
             "Summary": FakeControl("Text"),
             "Privacy": FakeControl("Label"),

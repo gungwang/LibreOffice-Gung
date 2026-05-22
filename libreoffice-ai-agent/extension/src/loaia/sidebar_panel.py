@@ -131,6 +131,7 @@ class SidebarState:
     privacy_scope: str = "selection-only"
     connected: bool = False
     visible: bool = False
+    streaming: bool = False
     last_command: str | None = None
     last_prompt: str | None = None
     last_result: str | None = None
@@ -211,6 +212,10 @@ class SidebarPanel:
 
     def set_connected(self, connected: bool) -> None:
         self.state.connected = connected
+        self._notify_observers()
+
+    def set_streaming(self, streaming: bool) -> None:
+        self.state.streaming = streaming
         self._notify_observers()
 
     def set_last_result(self, result: str | None) -> None:
@@ -364,6 +369,8 @@ class SidebarToolPanel(unohelper.Base, XToolPanel):
         self._set_control_text("Summary", panel.render_summary_text())
         self._set_control_text("Privacy", panel.render_privacy_text())
         self._set_control_enabled("ApproveButton", panel.state.pending_proposal is not None)
+        self._set_control_enabled("CancelButton", panel.state.streaming)
+        self._set_control_enabled("SendButton", not panel.state.streaming)
 
     def createAccessible(self, parent_accessible: object) -> object | None:
         return self.window or parent_accessible
@@ -382,6 +389,18 @@ class SidebarToolPanel(unohelper.Base, XToolPanel):
 
         model = control.getModel()
         if model is None:
+            return
+
+        # MenuList / ListBox: select matching item or add it.
+        if hasattr(model, "StringItemList") and hasattr(model, "SelectedItems"):
+            items = list(model.StringItemList) if model.StringItemList else []
+            try:
+                idx = items.index(value)
+            except ValueError:
+                items.append(value)
+                model.StringItemList = tuple(items)
+                idx = len(items) - 1
+            model.SelectedItems = (idx,)
             return
 
         for attribute_name in ("Text", "Label"):

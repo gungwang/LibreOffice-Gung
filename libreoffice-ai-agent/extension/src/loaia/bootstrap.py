@@ -1,5 +1,5 @@
 from loaia.document_session import resolve_history_session_key
-from loaia.session_store import JsonSidebarSessionStore
+from loaia.session_store import JsonSidebarSessionStore, SqliteSidebarSessionStore
 from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel, SidebarUIElement
 
@@ -19,12 +19,12 @@ class ExtensionBootstrap:
     def __init__(
         self,
         transport: object | None = None,
-        session_store: JsonSidebarSessionStore | None = None,
+        session_store: JsonSidebarSessionStore | SqliteSidebarSessionStore | None = None,
     ) -> None:
         self._panel: SidebarPanel | None = None
         self._event_handler: SidebarDialogEventHandler | None = None
         self._transport = transport
-        self._session_store = session_store or JsonSidebarSessionStore()
+        self._session_store = session_store or SqliteSidebarSessionStore()
 
     def get_panel(self) -> SidebarPanel:
         if self._panel is None:

@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import os
+import sqlite3
+import time
 from copy import deepcopy
 from dataclasses import dataclass, field
 from hashlib import sha1
@@ -16,12 +18,26 @@ STATE_FILE_NAME = "sidebar-state.json"
 MAX_HISTORY_MESSAGES = 12
 
 
+def _check_credential_manager(target: str) -> bool:
+    """Check if a credential exists in Windows Credential Manager."""
+    try:
+        from loaia_sidecar.config.secrets import _read_windows_credential
+
+        value = _read_windows_credential(target)
+        return bool(value)
+    except Exception:
+        return False
+
+
 def describe_api_key_status(provider: str) -> str:
     normalized_provider = provider.strip().casefold()
     if normalized_provider == "openrouter":
         for env_var in OPENROUTER_API_KEY_ENV_VARS:
             if os.environ.get(env_var, "").strip():
                 return "configured"
+
+        if _check_credential_manager("LibreOfficeAIAgent/openrouter"):
+            return "configured"
 
         return "missing"
 
@@ -306,3 +322,249 @@ class InMemorySidebarSessionStore(JsonSidebarSessionStore):
 
     def _write_data(self, data: dict[str, object]) -> None:
         self._data = deepcopy(data)
+
+
+_SQLITE_DB_NAME = "history.sqlite3"
+_SQLITE_SETTINGS_FILE = "settings.json"
+
+_SCHEMA_SQL = """
+CREATE TABLE IF NOT EXISTS sessions (
+    session_id TEXT PRIMARY KEY,
+    profile_id TEXT NOT NULL,
+    canonical_document_url TEXT NOT NULL,
+    app_type TEXT NOT NULL,
+    last_prompt TEXT,
+    last_result TEXT,
+    last_error TEXT,
+    updated_at REAL NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS messages (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    session_id TEXT NOT NULL REFERENCES sessions(session_id),
+    role TEXT NOT NULL,
+    text TEXT NOT NULL,
+    provider TEXT,
+    model TEXT,
+    created_at REAL NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_messages_session ON messages(session_id, id);
+"""
+
+
+class SqliteSidebarSessionStore:
+    """SQLite-backed session store for conversation history.
+
+    Settings are still stored in a JSON file alongside the database
+    to keep the settings path consistent with the JSON store.
+    """
+
+    def __init__(self, state_root: Path | None = None) -> None:
+        self.state_root = state_root or _default_state_root()
+        self._db_path = self.state_root / _SQLITE_DB_NAME
+        self._settings_file = self.state_root / _SQLITE_SETTINGS_FILE
+        self._conn: sqlite3.Connection | None = None
+
+    def _get_connection(self) -> sqlite3.Connection:
+        if self._conn is not None:
+            return self._conn
+
+        self.state_root.mkdir(parents=True, exist_ok=True)
+        self._conn = sqlite3.connect(str(self._db_path), check_same_thread=False)
+        self._conn.execute("PRAGMA journal_mode=WAL")
+        self._conn.executescript(_SCHEMA_SQL)
+        return self._conn
+
+    def close(self) -> None:
+        if self._conn is not None:
+            self._conn.close()
+            self._conn = None
+
+    # -- Settings (JSON file, same as JsonSidebarSessionStore) --
+
+    def load_settings(self) -> SidebarSettingsSnapshot:
+        data = self._read_settings_data()
+        provider = str(data.get("provider") or get_default_provider())
+        model = str(data.get("model") or get_default_model())
+        return SidebarSettingsSnapshot(
+            provider=provider,
+            model=model,
+            api_key_status=describe_api_key_status(provider),
+        )
+
+    def save_settings(self, provider: str, model: str) -> SidebarSettingsSnapshot:
+        self.state_root.mkdir(parents=True, exist_ok=True)
+        self._settings_file.write_text(
+            json.dumps({"provider": provider, "model": model}, indent=2),
+            encoding="utf-8",
+        )
+        return SidebarSettingsSnapshot(
+            provider=provider,
+            model=model,
+            api_key_status=describe_api_key_status(provider),
+        )
+
+    def _read_settings_data(self) -> dict[str, object]:
+        if not self._settings_file.exists():
+            return {}
+        try:
+            return json.loads(self._settings_file.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return {}
+
+    # -- Session history (SQLite) --
+
+    def load_session(self, session_key: DocumentSessionKey | None) -> SidebarSessionSnapshot:
+        if session_key is None:
+            return SidebarSessionSnapshot()
+
+        conn = self._get_connection()
+        session_id = _make_session_id(session_key)
+
+        row = conn.execute(
+            "SELECT last_prompt, last_result, last_error FROM sessions WHERE session_id = ?",
+            (session_id,),
+        ).fetchone()
+
+        if row is None:
+            return SidebarSessionSnapshot()
+
+        last_prompt, last_result, last_error = row
+
+        messages = conn.execute(
+            "SELECT role, text, provider, model FROM messages "
+            "WHERE session_id = ? ORDER BY id",
+            (session_id,),
+        ).fetchall()
+
+        message_texts = [text for _, text, _, _ in messages]
+        history_summary = [
+            self._row_to_history_entry(role, text, provider, model)
+            for role, text, provider, model in messages[-6:]
+        ]
+
+        return SidebarSessionSnapshot(
+            last_prompt=last_prompt,
+            last_result=last_result,
+            last_error=last_error,
+            message_texts=message_texts[-MAX_HISTORY_MESSAGES:],
+            history_summary=history_summary,
+        )
+
+    def record_request(
+        self,
+        session_key: DocumentSessionKey | None,
+        prompt: str,
+        provider: str,
+        model: str,
+    ) -> None:
+        if session_key is None:
+            return
+
+        conn = self._get_connection()
+        session_id = _make_session_id(session_key)
+        now = time.time()
+
+        self._ensure_session(conn, session_id, session_key, now)
+        conn.execute(
+            "UPDATE sessions SET last_prompt = ?, last_error = NULL, updated_at = ? "
+            "WHERE session_id = ?",
+            (prompt, now, session_id),
+        )
+        conn.execute(
+            "INSERT INTO messages (session_id, role, text, provider, model, created_at) "
+            "VALUES (?, ?, ?, ?, ?, ?)",
+            (session_id, "user", prompt, provider, model, now),
+        )
+        self._trim_messages(conn, session_id)
+        conn.commit()
+
+    def record_result(
+        self,
+        session_key: DocumentSessionKey | None,
+        text: str,
+        provider: str,
+        model: str,
+        role: str = "assistant",
+    ) -> None:
+        if session_key is None:
+            return
+
+        conn = self._get_connection()
+        session_id = _make_session_id(session_key)
+        now = time.time()
+
+        self._ensure_session(conn, session_id, session_key, now)
+        conn.execute(
+            "UPDATE sessions SET last_result = ?, last_error = NULL, updated_at = ? "
+            "WHERE session_id = ?",
+            (text, now, session_id),
+        )
+        conn.execute(
+            "INSERT INTO messages (session_id, role, text, provider, model, created_at) "
+            "VALUES (?, ?, ?, ?, ?, ?)",
+            (session_id, role, text, provider, model, now),
+        )
+        self._trim_messages(conn, session_id)
+        conn.commit()
+
+    def record_error(self, session_key: DocumentSessionKey | None, error_message: str) -> None:
+        if session_key is None:
+            return
+
+        conn = self._get_connection()
+        session_id = _make_session_id(session_key)
+        now = time.time()
+
+        self._ensure_session(conn, session_id, session_key, now)
+        conn.execute(
+            "UPDATE sessions SET last_error = ?, updated_at = ? WHERE session_id = ?",
+            (error_message, now, session_id),
+        )
+        conn.execute(
+            "INSERT INTO messages (session_id, role, text, provider, model, created_at) "
+            "VALUES (?, ?, ?, ?, ?, ?)",
+            (session_id, "system", error_message, None, None, now),
+        )
+        self._trim_messages(conn, session_id)
+        conn.commit()
+
+    @staticmethod
+    def _ensure_session(
+        conn: sqlite3.Connection,
+        session_id: str,
+        session_key: DocumentSessionKey,
+        now: float,
+    ) -> None:
+        conn.execute(
+            "INSERT OR IGNORE INTO sessions "
+            "(session_id, profile_id, canonical_document_url, app_type, updated_at) "
+            "VALUES (?, ?, ?, ?, ?)",
+            (
+                session_id,
+                session_key.profile_id,
+                session_key.canonical_document_url,
+                str(session_key.app_type),
+                now,
+            ),
+        )
+
+    @staticmethod
+    def _trim_messages(conn: sqlite3.Connection, session_id: str) -> None:
+        conn.execute(
+            "DELETE FROM messages WHERE session_id = ? AND id NOT IN "
+            "(SELECT id FROM messages WHERE session_id = ? ORDER BY id DESC LIMIT ?)",
+            (session_id, session_id, MAX_HISTORY_MESSAGES),
+        )
+
+    @staticmethod
+    def _row_to_history_entry(
+        role: str, text: str, provider: str | None, model: str | None
+    ) -> dict[str, object]:
+        entry: dict[str, object] = {"role": role, "text": text}
+        if provider is not None:
+            entry["provider"] = provider
+        if model is not None:
+            entry["model"] = model
+        return entry
