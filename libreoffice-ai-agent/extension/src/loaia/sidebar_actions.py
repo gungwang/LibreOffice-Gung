@@ -133,38 +133,26 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self.transport = transport or RuntimeSidecarTransportClient()
         self.session_store = session_store
         self.audit = AuditLogger()
-        self._pending_selection: RuntimeSelection | None = None
         self._cancel_requested: bool = False
         self._current_request_id: str | None = None
-        self._pending_consent: dict[str, object] | None = None
 
     def callHandlerMethod(self, window: object, event_object: object, method_name: str) -> bool:
         del event_object
 
         if method_name == "Send":
-            self.preview_current_selection(window=window)
-            return True
-
-        if method_name == "Approve":
-            self.approve_pending(window=window)
+            self.handle_send(window=window)
             return True
 
         if method_name == "SaveSettings":
             self.save_settings(window=window)
             return True
 
-        if method_name == "Cancel":
-            self._cancel_requested = True
-            if self._current_request_id is not None:
-                self.transport.send_cancel(self._current_request_id)
-            return True
-
         return False
 
     def getSupportedMethodNames(self) -> tuple[str, ...]:
-        return ("Send", "Approve", "SaveSettings", "Cancel")
+        return ("Send", "SaveSettings")
 
-    def preview_current_selection(
+    def handle_send(
         self,
         window: object | None = None,
         prompt: str | None = None,
@@ -176,19 +164,18 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             pipe_address_override=pipe_address,
         )
 
-    def approve_pending(self, window: object | None = None) -> str:
-        return self._handle_approve(window=window)
-
     def save_settings(
         self,
         window: object | None = None,
         provider: str | None = None,
         model: str | None = None,
+        api_key: str | None = None,
     ) -> str:
         return self._handle_save_settings(
             window=window,
             provider_override=provider,
             model_override=model,
+            api_key_override=api_key,
         )
 
     def _handle_send(
@@ -204,14 +191,15 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             else _get_control_text(window, "PromptInput")
         )
         if not prompt.strip():
-            message = "Enter a prompt before sending."
+            message = "Enter a message before sending."
             self.panel.set_last_error(message)
-            self.panel.append_message(message)
+            self._append_chat(window, f"[Error] {message}")
             self._record_error(session_key, message)
             return message
 
-        if prompt_override is not None:
-            _set_control_text(window, "PromptInput", prompt)
+        # Show user message in chat
+        self._append_chat(window, f"You: {prompt.strip()}")
+        _set_control_text(window, "PromptInput", "")
 
         self.panel.record_request(
             provider=self.panel.state.provider,
@@ -225,7 +213,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
         try:
             selection = self._capture_selection()
-            self.panel.set_selection_preview(selection.text)
             pipe_address = (
                 pipe_address_override
                 if pipe_address_override is not None
@@ -251,7 +238,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 text = frame.get("text")
                 if isinstance(text, str):
                     streaming_chunks.append(text)
-                    self.panel.set_last_result("".join(streaming_chunks))
 
             response = transport_client.request_streaming(
                 chat_payload,
@@ -262,21 +248,18 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
             if self._cancel_requested:
                 cancel_msg = "Request cancelled."
-                self.panel.set_last_error(cancel_msg)
-                self.panel.append_message(cancel_msg)
+                self._append_chat(window, f"[System] {cancel_msg}")
                 self._record_error(session_key, cancel_msg)
                 return cancel_msg
         except TransportError as exc:
             self.panel.set_streaming(False)
             self.panel.set_connected(False)
-            self.panel.set_last_error(str(exc))
-            self.panel.append_message(str(exc))
+            self._append_chat(window, f"[Error] {exc}")
             self._record_error(session_key, str(exc))
             return str(exc)
         except ValueError as exc:
             self.panel.set_streaming(False)
-            self.panel.set_last_error(str(exc))
-            self.panel.append_message(str(exc))
+            self._append_chat(window, f"[Error] {exc}")
             self._record_error(session_key, str(exc))
             return str(exc)
 
@@ -285,11 +268,8 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         response_type = response.get("type")
         if response_type == "DirectAnswer":
             text = response.get("text")
-            answer_text = text if isinstance(text, str) else "Sidecar returned an empty answer."
-            self._pending_selection = None
-            self.panel.clear_pending_proposal()
-            self.panel.set_last_result(answer_text)
-            self.panel.append_message(answer_text)
+            answer_text = text if isinstance(text, str) else "AI returned an empty answer."
+            self._append_chat(window, f"AI: {answer_text}")
             self._record_result(session_key, answer_text)
             return answer_text
 
@@ -300,151 +280,67 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 or not proposals
                 or not isinstance(proposals[0], dict)
             ):
-                message = "Sidecar returned an invalid tool proposal payload."
-                self.panel.set_last_error(message)
-                self.panel.append_message(message)
+                message = "AI returned an invalid action payload."
+                self._append_chat(window, f"[Error] {message}")
                 self._record_error(session_key, message)
                 return message
 
             proposal = _proposal_from_payload(proposals[0])
 
-            # Auto-apply safe formatting actions without preview/approval.
-            if is_safe_formatting_action(proposal.tool_id):
-                try:
-                    model = get_model(get_controller(self.panel.frame))
-                    with undo_context(model, f"AI: {proposal.tool_id}"):
+            # Auto-execute all proposals directly (no approval needed)
+            try:
+                model = get_model(get_controller(self.panel.frame))
+                with undo_context(model, f"AI: {proposal.tool_id}"):
+                    if is_safe_formatting_action(proposal.tool_id):
                         result_message = execute_safe_formatting(
                             self.panel.frame, proposal.tool_id
                         )
-                except (ValueError, RuntimeError) as exc:
-                    self.panel.set_last_error(str(exc))
-                    self.panel.append_message(str(exc))
-                    self._record_error(session_key, str(exc))
-                    return str(exc)
+                    else:
+                        self._execute_proposal(selection, proposal)
+                        result_message = f"Applied: {proposal.tool_id}"
+            except (ValueError, RuntimeError) as exc:
+                self._append_chat(window, f"[Error] {exc}")
+                self._record_error(session_key, str(exc))
+                return str(exc)
 
-                self._pending_selection = None
-                self.panel.clear_pending_proposal()
-                self.panel.set_last_result(result_message)
-                self.panel.append_message(result_message)
-                self._record_result(session_key, result_message, role="system")
-                self.audit.log_auto_apply(
-                    request_id=getattr(proposal, "proposal_id", ""),
-                    tool_id=proposal.tool_id,
-                    document_url=resolve_document_url(self.panel.frame),
-                    provider=self.panel.state.provider,
-                    model=self.panel.state.model,
-                )
-                return result_message
-
-            preview = proposal.preview
-            summary = preview.summary if preview is not None else proposal.tool_id
-            self._pending_selection = selection
-            self.panel.set_pending_proposal(proposal)
-            self.panel.set_last_result(summary)
-            self.panel.append_message(summary)
-            self._record_result(session_key, summary)
-            return summary
+            self._append_chat(window, f"AI: Done. {result_message}")
+            self._record_result(session_key, result_message, role="system")
+            self.audit.log_auto_apply(
+                request_id=getattr(proposal, "proposal_id", ""),
+                tool_id=proposal.tool_id,
+                document_url=resolve_document_url(self.panel.frame),
+                provider=self.panel.state.provider,
+                model=self.panel.state.model,
+            )
+            return result_message
 
         if response_type == "ConsentRequest":
+            # Auto-grant scope escalation for simpler UX
             reason = response.get("reason", "")
-            requested_scope = response.get("requestedScope", "")
-            consent_msg = (
-                f"Scope escalation requested: {reason}\n"
-                f"Requested scope: {requested_scope}\n"
-                "Click Approve to grant broader access, or send a new prompt."
+            self._append_chat(window, f"[System] Scope escalated: {reason}")
+            self.panel.state.privacy_scope = str(
+                response.get("requestedScope", "full-document")
             )
-            self._pending_consent = {
-                "requestedScope": requested_scope,
-                "prompt": prompt,
-                "selection": selection,
-            }
-            self.panel.set_last_result(consent_msg)
-            self.panel.append_message(consent_msg)
-            self._record_result(session_key, consent_msg, role="system")
-            return consent_msg
+            # Re-send with escalated scope
+            return self._handle_send(
+                window=window,
+                prompt_override=prompt,
+                pipe_address_override=pipe_address_override,
+            )
 
         message = response.get("message")
         if isinstance(message, str):
-            self.panel.set_last_error(message)
-            self.panel.append_message(f"Error: {message}")
+            self._append_chat(window, f"[Error] {message}")
             self._record_error(session_key, message)
             return message
 
-        unexpected_message = f"Unexpected response type from sidecar: {response_type!r}"
-        self.panel.set_last_error(unexpected_message)
-        self.panel.append_message(unexpected_message)
+        unexpected_message = f"Unexpected response: {response_type!r}"
+        self._append_chat(window, f"[Error] {unexpected_message}")
         self._record_error(session_key, unexpected_message)
         return unexpected_message
 
-    def _handle_approve(self, window: object | None) -> str:
-        # Handle consent escalation approval.
-        if self._pending_consent is not None:
-            return self._handle_consent_approve(window)
-
-        session_key = resolve_history_session_key(self.panel.frame)
-        proposal = self.panel.state.pending_proposal
-        if proposal is None or self._pending_selection is None:
-            message = "No pending proposal is available for approval."
-            self.panel.set_last_error(message)
-            self.panel.append_message(message)
-            self._record_error(session_key, message)
-            return message
-
-        try:
-            model = get_model(get_controller(self.panel.frame))
-            with undo_context(model, f"AI: {proposal.tool_id}"):
-                self._execute_proposal(self._pending_selection, proposal)
-        except ValueError as exc:
-            self.panel.set_last_error(str(exc))
-            self.panel.append_message(str(exc))
-            self._record_error(session_key, str(exc))
-            return str(exc)
-
-        applied_message = f"Applied {proposal.tool_id}"
-        self.panel.set_selection_preview(self._pending_selection.text)
-        self.panel.set_last_result(applied_message)
-        self.panel.append_message(applied_message)
-        self._record_result(session_key, applied_message, role="system")
-        self.audit.log_approval(
-            request_id=getattr(proposal, "proposal_id", ""),
-            tool_id=getattr(proposal, "tool_id", ""),
-            document_url=resolve_document_url(self.panel.frame),
-            provider=self.panel.state.provider,
-            model=self.panel.state.model,
-        )
-        self.audit.log_execution(
-            request_id=getattr(proposal, "proposal_id", ""),
-            tool_id=getattr(proposal, "tool_id", ""),
-            document_url=resolve_document_url(self.panel.frame),
-            provider=self.panel.state.provider,
-            model=self.panel.state.model,
-            result=applied_message,
-        )
-        self.panel.clear_pending_proposal()
-        self._pending_selection = None
-        _set_control_text(window, "PromptInput", "")
-        return applied_message
-
-    def _handle_consent_approve(self, window: object | None) -> str:
-        """Re-send the original prompt with the escalated privacy scope."""
-        consent = self._pending_consent
-        self._pending_consent = None
-        if consent is None:
-            return "No pending consent to approve."
-
-        requested_scope = str(consent.get("requestedScope", "full-document"))
-        original_prompt = str(consent.get("prompt", ""))
-
-        # Update panel state to the escalated scope.
-        self.panel.state.privacy_scope = requested_scope
-
-        # Re-run the send flow with the same prompt.
-        return self.preview_current_selection(
-            window=window, prompt=original_prompt
-        )
-
     def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> None:
-        """Execute an approved proposal against the given selection."""
+        """Execute a proposal against the given selection."""
         tool_id = getattr(proposal, "tool_id", "")
 
         if tool_id == "Writer.ReplaceSelection":
@@ -464,9 +360,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 raise ValueError("Calc formula proposal does not contain a formula.")
             if selection.controller is None:
                 raise ValueError("Calc controller is not available for formula insertion.")
-            result = apply_calc_formula(selection.controller, formula)
-            selection.text = formula
-            del result  # side effect applied
+            apply_calc_formula(selection.controller, formula)
             return
 
         if tool_id == "Calc.CreateChartFromSelection":
@@ -502,7 +396,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             if selection.controller is None:
                 raise ValueError("Impress controller is not available for text replacement.")
             apply_impress_text_replacement(selection.controller, replacement_text)
-            selection.text = replacement_text
             return
 
         if tool_id == "Impress.CreateSlideFromOutline":
@@ -538,7 +431,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             if selection.controller is None:
                 raise ValueError("Draw controller is not available for text replacement.")
             apply_draw_text_replacement(selection.controller, replacement_text)
-            selection.text = replacement_text
             return
 
         if tool_id == "Math.ReplaceFormula":
@@ -551,20 +443,19 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             if selection.controller is None:
                 raise ValueError("Math controller is not available for formula replacement.")
             apply_math_formula(selection.controller, formula)
-            selection.text = formula
             return
 
         if tool_id == "Base.ExplainQuery":
-            # Direct answer — no document modification needed.
             return
 
-        raise ValueError(f"Unsupported proposal tool: {tool_id}")
+        raise ValueError(f"Unsupported tool: {tool_id}")
 
     def _handle_save_settings(
         self,
         window: object | None,
         provider_override: str | None = None,
         model_override: str | None = None,
+        api_key_override: str | None = None,
     ) -> str:
         provider = (
             provider_override
@@ -576,15 +467,24 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             if model_override is not None
             else _get_control_text(window, "ModelInput")
         ).strip()
+        api_key = (
+            api_key_override
+            if api_key_override is not None
+            else _get_control_text(window, "ApiKeyInput")
+        ).strip()
+
         if not provider or not model:
-            message = "Provider and model must both be set before saving settings."
-            self.panel.apply_settings(
-                provider=self.panel.state.provider,
-                model=self.panel.state.model,
-                api_key_status=self.panel.state.api_key_status,
-                notice=message,
-            )
+            message = "Provider and model must both be set."
+            _set_control_text(window, "SettingsStatus", message)
             return message
+
+        # Save API key to credential store if provided
+        if api_key:
+            try:
+                from loaia.sidecar_lifecycle import save_api_key
+                save_api_key(provider, api_key)
+            except Exception:
+                pass  # Best-effort; will try env var fallback at runtime
 
         if self.session_store is None:
             api_key_status = describe_api_key_status(provider)
@@ -592,18 +492,33 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             snapshot = self.session_store.save_settings(provider, model)
             api_key_status = snapshot.api_key_status
 
-        message = "Saved Writer-first provider settings."
-        if provider_override is not None:
-            _set_control_text(window, "ProviderInput", provider)
-        if model_override is not None:
-            _set_control_text(window, "ModelInput", model)
+        # If key was just provided, update status
+        if api_key:
+            api_key_status = "configured (just saved)"
+
         self.panel.apply_settings(
             provider=provider,
             model=model,
             api_key_status=api_key_status,
-            notice=message,
         )
+
+        message = f"Settings saved. Provider: {provider}, Model: {model}"
+        _set_control_text(window, "SettingsStatus", message)
+        # Clear API key field after saving for security
+        _set_control_text(window, "ApiKeyInput", "")
+        self._append_chat(window, f"[System] {message}")
         return message
+
+    def _append_chat(self, window: object | None, text: str) -> None:
+        """Append a line to the ChatOutput control."""
+        if window is None:
+            return
+        current = _get_control_text(window, "ChatOutput")
+        if current and current != "Ready. Type a message below to chat with AI.":
+            new_text = f"{current}\n{text}"
+        else:
+            new_text = text
+        _set_control_text(window, "ChatOutput", new_text)
 
     def _capture_selection(self) -> RuntimeSelection:
         frame = self.panel.frame
@@ -623,7 +538,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if app_type == AppType.BASE:
             return self._capture_base_selection_impl(controller)
 
-        raise ValueError("Sidebar actions require a supported LibreOffice document.")
+        raise ValueError("Unsupported document type.")
 
     def _capture_writer_selection_impl(self, controller: object) -> RuntimeSelection:
         model = get_model(controller)
@@ -656,7 +571,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
     def _capture_calc_selection_impl(self, controller: object) -> RuntimeSelection:
         cell_text, formula = capture_calc_selection(controller)
-        # Show formula if available, otherwise cell display text.
         context_text = formula if formula.strip() else cell_text
         if not context_text.strip():
             raise ValueError("Select a cell with content in Calc before sending a request.")
@@ -752,33 +666,20 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
         return self.session_store.load_session(session_key).history_summary
 
-    def _record_request(
-        self,
-        session_key: object,
-        prompt: str,
-    ) -> None:
+    def _record_request(self, session_key: object, prompt: str) -> None:
         if self.session_store is None:
             return
-
         self.session_store.record_request(
-            session_key,
-            prompt,
+            session_key, prompt,
             provider=self.panel.state.provider,
             model=self.panel.state.model,
         )
 
-    def _record_result(
-        self,
-        session_key: object,
-        text: str,
-        role: str = "assistant",
-    ) -> None:
+    def _record_result(self, session_key: object, text: str, role: str = "assistant") -> None:
         if self.session_store is None:
             return
-
         self.session_store.record_result(
-            session_key,
-            text,
+            session_key, text,
             provider=self.panel.state.provider,
             model=self.panel.state.model,
             role=role,
@@ -787,43 +688,34 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
     def _record_error(self, session_key: object, message: str) -> None:
         if self.session_store is None:
             return
-
         self.session_store.record_error(session_key, message)
 
 
 def _get_range_text(text_range: object) -> str:
     if not hasattr(text_range, "getString"):
         raise ValueError("Writer selected range does not expose getString().")
-
     text = text_range.getString()
     if not isinstance(text, str):
         raise ValueError("Writer selected range returned a non-string value.")
-
     return text
 
 
 def _apply_writer_replacement(selection: RuntimeSelection, replacement_text: str) -> None:
     if len(selection.text_ranges) != 1:
         raise ValueError("Writer replace-selection currently supports exactly one selected range.")
-
     text_range = selection.text_ranges[0]
     if not hasattr(text_range, "setString"):
         raise ValueError("Writer selected range does not expose setString().")
-
     text_range.setString(replacement_text)
     selection.text = replacement_text
-
     if hasattr(selection.selection_supplier, "select"):
         selection.selection_supplier.select(text_range)
 
 
 def _insert_below_writer_selection(selection: RuntimeSelection, text: str) -> None:
-    """Insert *text* as a new paragraph immediately after the current selection."""
+    """Insert text as a new paragraph immediately after the current selection."""
     if len(selection.text_ranges) != 1:
-        raise ValueError(
-            "Writer insert-below currently supports exactly one selected range."
-        )
-
+        raise ValueError("Writer insert-below currently supports exactly one selected range.")
     text_range = selection.text_ranges[0]
     parent_text = (
         getattr(text_range, "Text", None)
@@ -831,13 +723,11 @@ def _insert_below_writer_selection(selection: RuntimeSelection, text: str) -> No
     )
     if parent_text is None or not hasattr(parent_text, "insertControlCharacter"):
         raise ValueError("Writer text object does not support paragraph insertion.")
-
     end_cursor = text_range.getEnd()
     try:
         from com.sun.star.text.ControlCharacter import PARAGRAPH_BREAK  # type: ignore[import]
     except ImportError:
-        PARAGRAPH_BREAK = 0  # UNO constant fallback
-
+        PARAGRAPH_BREAK = 0
     parent_text.insertControlCharacter(end_cursor, PARAGRAPH_BREAK, False)
     parent_text.insertString(end_cursor, text, False)
     selection.text = text
@@ -848,14 +738,12 @@ def _extract_replacement_text(proposal: object) -> str:
     preview_after = getattr(preview, "after", None)
     if isinstance(preview_after, str) and preview_after:
         return preview_after
-
     arguments = getattr(proposal, "arguments", {})
     if isinstance(arguments, dict):
         replacement_text = arguments.get("replacementText")
         if isinstance(replacement_text, str):
             return replacement_text
-
-    raise ValueError("Writer replacement proposal does not contain replacement text.")
+    raise ValueError("Proposal does not contain replacement text.")
 
 
 def _proposal_from_payload(payload: dict[str, object]) -> SimpleNamespace:
@@ -867,7 +755,6 @@ def _proposal_from_payload(payload: dict[str, object]) -> SimpleNamespace:
             before=preview_payload.get("before"),
             after=preview_payload.get("after"),
         )
-
     arguments = payload.get("arguments")
     return SimpleNamespace(
         proposal_id=payload.get("proposalId"),
@@ -882,59 +769,40 @@ def _proposal_from_payload(payload: dict[str, object]) -> SimpleNamespace:
 def _get_control_text(window: object, control_name: str) -> str:
     if window is None or not hasattr(window, "getControl"):
         return ""
-
-    control = window.getControl(control_name)
+    try:
+        control = window.getControl(control_name)
+    except Exception:
+        return ""
     if control is None:
         return ""
-
-    # MenuList / ListBox: read selected item text.
-    if hasattr(control, "getSelectedItem"):
-        item = control.getSelectedItem()
-        if isinstance(item, str) and item:
-            return item
-
     if hasattr(control, "getText"):
         text = control.getText()
         if isinstance(text, str):
             return text
-
     if not hasattr(control, "getModel"):
         return ""
-
     model = control.getModel()
-
-    # MenuList model: SelectedItems index into StringItemList.
-    if hasattr(model, "StringItemList") and hasattr(model, "SelectedItems"):
-        items = model.StringItemList
-        selected = model.SelectedItems
-        if items and selected and len(selected) > 0:
-            idx = selected[0]
-            if 0 <= idx < len(items):
-                return str(items[idx])
-
     for attribute_name in ("Text", "Label"):
         value = getattr(model, attribute_name, None)
         if isinstance(value, str):
             return value
-
     return ""
 
 
 def _set_control_text(window: object, control_name: str, value: str) -> None:
     if window is None or not hasattr(window, "getControl"):
         return
-
-    control = window.getControl(control_name)
+    try:
+        control = window.getControl(control_name)
+    except Exception:
+        return
     if control is None:
         return
-
     if hasattr(control, "setText"):
         control.setText(value)
         return
-
     if not hasattr(control, "getModel"):
         return
-
     model = control.getModel()
     for attribute_name in ("Text", "Label"):
         if hasattr(model, attribute_name):

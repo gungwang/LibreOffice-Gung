@@ -120,3 +120,70 @@ def _build_sidecar_env() -> dict[str, str]:
 
     env["PYTHONPATH"] = os.pathsep.join(python_path_entries)
     return env
+
+
+def save_api_key(provider: str, api_key: str) -> bool:
+    """Save an API key to the environment variable for the current session.
+
+    Also attempts to save via Windows Credential Manager if available.
+    """
+    # Set in current process environment so the sidecar inherits it.
+    env_var_map = {
+        "openrouter": "OPENROUTER_API_KEY",
+        "openai-compatible": "OPENAI_API_KEY",
+    }
+    env_var = env_var_map.get(provider)
+    if env_var:
+        os.environ[env_var] = api_key
+
+    # Try Windows Credential Manager
+    if sys.platform == "win32":
+        try:
+            import ctypes
+            import ctypes.wintypes
+
+            _CRED_TYPE_GENERIC = 1
+            _CRED_PERSIST_LOCAL_MACHINE = 2
+
+            target_map = {
+                "openrouter": "LibreOfficeAIAgent/openrouter",
+                "openai-compatible": "LibreOfficeAIAgent/openai-compatible",
+            }
+            target = target_map.get(provider)
+            if target is None:
+                target = f"LibreOfficeAIAgent/{provider}"
+
+            advapi32 = ctypes.windll.advapi32  # type: ignore[attr-defined]
+
+            class _CREDENTIAL(ctypes.Structure):
+                _fields_ = [
+                    ("Flags", ctypes.wintypes.DWORD),
+                    ("Type", ctypes.wintypes.DWORD),
+                    ("TargetName", ctypes.wintypes.LPWSTR),
+                    ("Comment", ctypes.wintypes.LPWSTR),
+                    ("LastWritten", ctypes.wintypes.FILETIME),
+                    ("CredentialBlobSize", ctypes.wintypes.DWORD),
+                    ("CredentialBlob", ctypes.POINTER(ctypes.c_byte)),
+                    ("Persist", ctypes.wintypes.DWORD),
+                    ("AttributeCount", ctypes.wintypes.DWORD),
+                    ("Attributes", ctypes.c_void_p),
+                    ("TargetAlias", ctypes.wintypes.LPWSTR),
+                    ("UserName", ctypes.wintypes.LPWSTR),
+                ]
+
+            encoded = api_key.encode("utf-16-le")
+            blob = (ctypes.c_byte * len(encoded))(*encoded)
+
+            cred = _CREDENTIAL()
+            cred.Type = _CRED_TYPE_GENERIC
+            cred.TargetName = target
+            cred.UserName = provider
+            cred.CredentialBlobSize = len(encoded)
+            cred.CredentialBlob = blob
+            cred.Persist = _CRED_PERSIST_LOCAL_MACHINE
+
+            return bool(advapi32.CredWriteW(ctypes.byref(cred), 0))
+        except Exception:
+            pass
+
+    return bool(env_var)

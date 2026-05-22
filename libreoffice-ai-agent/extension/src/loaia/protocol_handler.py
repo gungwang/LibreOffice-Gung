@@ -1,9 +1,8 @@
 from loaia.bootstrap import (
-    APPROVE_PENDING_COMMAND,
     OPEN_SIDEBAR_COMMAND,
-    PREVIEW_SELECTION_COMMAND,
-    PROTOCOL_SCHEME,
     SAVE_SETTINGS_COMMAND,
+    SEND_MESSAGE_COMMAND,
+    PROTOCOL_SCHEME,
     ExtensionBootstrap,
     bootstrap,
 )
@@ -12,8 +11,7 @@ from loaia.bootstrap import (
 class AIProtocolHandler:
     SUPPORTED_COMMANDS = {
         OPEN_SIDEBAR_COMMAND,
-        PREVIEW_SELECTION_COMMAND,
-        APPROVE_PENDING_COMMAND,
+        SEND_MESSAGE_COMMAND,
         SAVE_SETTINGS_COMMAND,
     }
 
@@ -40,10 +38,10 @@ class AIProtocolHandler:
         if command == OPEN_SIDEBAR_COMMAND:
             return self.open_sidebar(frame=self._frame)
 
-        if command == PREVIEW_SELECTION_COMMAND:
+        if command == SEND_MESSAGE_COMMAND:
             prompt = self._argument_value(arguments, "Prompt", "UserMessage")
             pipe_address = self._argument_value(arguments, "PipeAddress")
-            return self.preview_selection(
+            return self.send_message(
                 frame=self._frame,
                 prompt=prompt,
                 pipe_address=pipe_address,
@@ -58,26 +56,23 @@ class AIProtocolHandler:
                 model=model,
             )
 
-        return self.approve_pending(frame=self._frame)
+        raise ValueError("Protocol handler received an unsupported URL")
 
     def open_sidebar(self, frame: object | None = None) -> str:
         panel = self.runtime.open_sidebar(frame=frame)
         return f"{panel.title} sidebar opened"
 
-    def preview_selection(
+    def send_message(
         self,
         frame: object | None = None,
         prompt: str | None = None,
         pipe_address: str | None = None,
     ) -> str:
-        return self.runtime.preview_selection(
+        return self.runtime.send_message(
             frame=frame,
             prompt=prompt,
             pipe_address=pipe_address,
         )
-
-    def approve_pending(self, frame: object | None = None) -> str:
-        return self.runtime.approve_pending(frame=frame)
 
     def save_settings(
         self,

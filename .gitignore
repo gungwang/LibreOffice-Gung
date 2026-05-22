@@ -24,3 +24,5 @@ __pycache__/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+libreoffice-ai-agent/.env

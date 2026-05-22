@@ -6,8 +6,7 @@ from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel, SidebarUIElement
 EXTENSION_IDENTIFIER = "org.gungwang.libreoffice-ai-agent"
 PROTOCOL_SCHEME = "vnd.org.libreoffice.ai.agent:"
 OPEN_SIDEBAR_COMMAND = "open-sidebar"
-PREVIEW_SELECTION_COMMAND = "preview-selection"
-APPROVE_PENDING_COMMAND = "approve-pending"
+SEND_MESSAGE_COMMAND = "send-message"
 SAVE_SETTINGS_COMMAND = "save-settings"
 SIDEBAR_FACTORY_NAME = "LoaiaPanelFactory"
 SIDEBAR_PANEL_ID = "LoaiaPanel"
@@ -22,35 +21,32 @@ def _show_sidebar_deck(frame: object | None) -> None:
         return
 
     try:
-        # Get the SidebarController from the frame's sidebar.
+        # Best approach: dispatch directly to our deck via .uno:SidebarDeck.DeckId
+        # This both opens the sidebar and switches to our deck in one step.
+        _dispatch_uno_command(frame, f".uno:SidebarDeck.{SIDEBAR_DECK_ID}")
+    except Exception:
+        pass
+
+    try:
+        # Fallback: try getSidebar API
         controller = frame.getController() if hasattr(frame, "getController") else None
         if controller is None:
             return
 
-        # Try the sidebar API (available since LO 5.1):
-        # XFrame → XController → XSidebar via getSidebar()
         sidebar = None
         if hasattr(controller, "getSidebar"):
             sidebar = controller.getSidebar()
         if sidebar is None:
-            # Fallback: dispatch .uno:Sidebar to toggle visibility, then request deck
             _dispatch_uno_command(frame, ".uno:Sidebar")
             if hasattr(controller, "getSidebar"):
                 sidebar = controller.getSidebar()
 
         if sidebar is not None:
-            # Ensure sidebar is visible
             if hasattr(sidebar, "setVisible"):
                 sidebar.setVisible(True)
-            # Request our deck
             if hasattr(sidebar, "requestDeck"):
                 sidebar.requestDeck(SIDEBAR_DECK_ID)
-            return
-
-        # Last resort: use dispatch helper to toggle sidebar on
-        _dispatch_uno_command(frame, ".uno:Sidebar")
     except Exception:
-        # Best-effort; if sidebar API is unavailable, the panel still registered
         pass
 
 
@@ -98,7 +94,7 @@ class ExtensionBootstrap:
     def get_panel(self) -> SidebarPanel:
         if self._panel is None:
             self._panel = SidebarPanel(
-                title="LibreOffice AI Agent",
+                title="AI Agent",
                 resource_url=SIDEBAR_RESOURCE_URL,
             )
             settings = self._session_store.load_settings()
@@ -129,7 +125,7 @@ class ExtensionBootstrap:
         _show_sidebar_deck(frame)
         return panel
 
-    def preview_selection(
+    def send_message(
         self,
         frame: object | None = None,
         prompt: str | None = None,
@@ -138,22 +134,12 @@ class ExtensionBootstrap:
     ) -> str:
         panel = self.get_panel()
         panel.attach_frame(frame)
-        panel.set_last_command(PREVIEW_SELECTION_COMMAND)
-        return self.get_event_handler().preview_current_selection(
+        panel.set_last_command(SEND_MESSAGE_COMMAND)
+        return self.get_event_handler().handle_send(
             window=window,
             prompt=prompt,
             pipe_address=pipe_address,
         )
-
-    def approve_pending(
-        self,
-        frame: object | None = None,
-        window: object | None = None,
-    ) -> str:
-        panel = self.get_panel()
-        panel.attach_frame(frame)
-        panel.set_last_command(APPROVE_PENDING_COMMAND)
-        return self.get_event_handler().approve_pending(window=window)
 
     def save_settings(
         self,

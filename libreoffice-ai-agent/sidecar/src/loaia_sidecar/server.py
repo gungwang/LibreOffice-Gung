@@ -333,7 +333,7 @@ class LoaiaSidecarServer:
             proposalId=f"{request.request_id}-writer-insert-below",
             toolId="Writer.InsertBelowSelection",
             safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=True,
+            requiresApproval=False,
             preview=ActionPreview(
                 summary="Insert text below current selection",
                 before="",
@@ -372,9 +372,9 @@ class LoaiaSidecarServer:
             proposalId=f"{request.request_id}-writer-replace",
             toolId="Writer.ReplaceSelection",
             safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=True,
+            requiresApproval=False,
             preview=ActionPreview(
-                summary="Preview Writer selection replacement",
+                summary="Replace selection",
                 before=selection.text,
                 after=replacement_text,
             ),
@@ -633,7 +633,7 @@ class LoaiaSidecarServer:
                 proposalId=f"{request.request_id}-calc-chart",
                 toolId="Calc.CreateChartFromSelection",
                 safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=True,
+                requiresApproval=False,
                 preview=ActionPreview(
                     summary=f"Create {chart_type} chart from selection",
                     before="",
@@ -651,7 +651,7 @@ class LoaiaSidecarServer:
                 proposalId=f"{request.request_id}-calc-sort",
                 toolId="Calc.SortSelectedRange",
                 safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=True,
+                requiresApproval=False,
                 preview=ActionPreview(
                     summary=f"Sort selected range ({direction})",
                     before="",
@@ -689,7 +689,7 @@ class LoaiaSidecarServer:
             proposalId=f"{request.request_id}-calc-formula",
             toolId="Calc.InsertFormulaInSelection",
             safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=True,
+            requiresApproval=False,
             preview=ActionPreview(
                 summary=f"Insert formula: {formula}",
                 before=selection.text,
@@ -725,7 +725,7 @@ class LoaiaSidecarServer:
                 proposalId=f"{request.request_id}-impress-slide",
                 toolId="Impress.CreateSlideFromOutline",
                 safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=True,
+                requiresApproval=False,
                 preview=ActionPreview(
                     summary="Create new slide from outline",
                     before="",
@@ -747,7 +747,7 @@ class LoaiaSidecarServer:
                 proposalId=f"{request.request_id}-impress-layout",
                 toolId="Impress.ApplyLayoutToCurrentSlide",
                 safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=True,
+                requiresApproval=False,
                 preview=ActionPreview(
                     summary=f"Apply layout {layout} to current slide",
                     before="",
@@ -784,7 +784,7 @@ class LoaiaSidecarServer:
             proposalId=f"{request.request_id}-impress-replace",
             toolId="Impress.ReplaceSelectedText",
             safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=True,
+            requiresApproval=False,
             preview=ActionPreview(
                 summary="Replace selected Impress text",
                 before=selection.text,
@@ -823,7 +823,7 @@ class LoaiaSidecarServer:
             proposalId=f"{request.request_id}-draw-replace",
             toolId="Draw.ReplaceSelectedText",
             safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=True,
+            requiresApproval=False,
             preview=ActionPreview(
                 summary="Replace selected Draw text",
                 before=selection.text,
@@ -864,7 +864,7 @@ class LoaiaSidecarServer:
                 proposalId=f"{request.request_id}-math-replace",
                 toolId="Math.ReplaceFormula",
                 safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=True,
+                requiresApproval=False,
                 preview=ActionPreview(
                     summary="Replace Math formula",
                     before=selection.text,
