@@ -1,5 +1,6 @@
-from collections.abc import Callable
+from collections.abc import Callable, Iterable
 from multiprocessing.connection import Client, Listener
+from typing import Union
 
 from loaia_shared.errors import TransportError
 from loaia_shared.transport import (
@@ -9,6 +10,9 @@ from loaia_shared.transport import (
 )
 
 MessageHandler = Callable[[dict[str, object]], dict[str, object]]
+StreamingMessageHandler = Callable[
+    [dict[str, object]], Union[dict[str, object], Iterable[dict[str, object]]]
+]
 
 
 class NamedPipeTransport:
@@ -17,10 +21,10 @@ class NamedPipeTransport:
     def __init__(
         self,
         address: str = DEFAULT_NAMED_PIPE_ADDRESS,
-        handler: MessageHandler | None = None,
+        handler: StreamingMessageHandler | None = None,
     ) -> None:
         self.address = address
-        self._handler = handler or self._missing_handler
+        self._handler: StreamingMessageHandler = handler or self._missing_handler
         self._listener: Listener | None = None
         self._stopped = False
 
@@ -47,8 +51,12 @@ class NamedPipeTransport:
                     return
                 raise TransportError("Client disconnected before sending a payload") from exc
 
-            response = self._handler(payload)
-            connection.send_bytes(encode_transport_payload(response))
+            result = self._handler(payload)
+            if isinstance(result, dict):
+                connection.send_bytes(encode_transport_payload(result))
+            else:
+                for frame in result:
+                    connection.send_bytes(encode_transport_payload(frame))
 
     def serve_forever(self) -> None:
         self.start()

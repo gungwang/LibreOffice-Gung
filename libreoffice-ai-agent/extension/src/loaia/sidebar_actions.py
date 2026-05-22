@@ -22,10 +22,13 @@ except ImportError:  # pragma: no cover - exercised under LibreOffice runtime
     unohelper = _UnoHelperModule()
 
 from loaia.actions.executor import execute_safe_formatting, is_safe_formatting_action
+from loaia.context.calc import apply_calc_formula, capture_calc_selection
+from loaia.context.impress import apply_impress_text_replacement, capture_impress_selection
 from loaia.document_session import (
     DEFAULT_PROFILE_ID,
     get_controller,
     get_model,
+    resolve_app_type,
     resolve_document_url,
     resolve_history_session_key,
 )
@@ -36,16 +39,19 @@ from loaia_shared.transport import (
     decode_transport_payload,
     encode_transport_payload,
 )
+from loaia_shared.types import AppType
 
 if TYPE_CHECKING:
     from loaia.sidebar_panel import SidebarPanel
 
 
 @dataclass(slots=True)
-class RuntimeWriterSelection:
+class RuntimeSelection:
+    app_type: AppType
     text: str
-    text_ranges: tuple[object, ...]
-    selection_supplier: object
+    text_ranges: tuple[object, ...] = ()
+    selection_supplier: object | None = None
+    controller: object | None = None
 
 
 class RuntimeSidecarTransportClient:
@@ -60,6 +66,35 @@ class RuntimeSidecarTransportClient:
         except OSError as exc:
             raise TransportError(f"Could not connect to sidecar pipe at {self.address}") from exc
 
+    def request_streaming(
+        self,
+        payload: dict[str, object],
+        on_chunk: object = None,
+    ) -> dict[str, object]:
+        """Send a request and receive streamed frames."""
+        try:
+            with Client(self.address, family="AF_PIPE", authkey=None) as connection:
+                connection.send_bytes(encode_transport_payload(payload))
+                final_frame: dict[str, object] | None = None
+                while True:
+                    try:
+                        frame = decode_transport_payload(connection.recv_bytes())
+                    except EOFError:
+                        break
+
+                    frame_type = frame.get("type")
+                    if frame_type == "StreamChunk":
+                        if on_chunk is not None:
+                            on_chunk(frame)  # type: ignore[operator]
+                    else:
+                        final_frame = frame
+
+                if final_frame is None:
+                    raise TransportError("Sidecar closed connection without a final response")
+                return final_frame
+        except OSError as exc:
+            raise TransportError(f"Could not connect to sidecar pipe at {self.address}") from exc
+
 
 class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
     def __init__(
@@ -71,7 +106,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self.panel = panel
         self.transport = transport or RuntimeSidecarTransportClient()
         self.session_store = session_store
-        self._pending_selection: RuntimeWriterSelection | None = None
+        self._pending_selection: RuntimeSelection | None = None
 
     def callHandlerMethod(self, window: object, event_object: object, method_name: str) -> bool:
         del event_object
@@ -153,15 +188,24 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self._record_request(session_key, prompt)
 
         try:
-            selection = self._capture_writer_selection()
+            selection = self._capture_selection()
             self.panel.set_selection_preview(selection.text)
             transport_client = (
                 self.transport
                 if pipe_address_override is None
                 else RuntimeSidecarTransportClient(address=pipe_address_override)
             )
-            response = transport_client.request(
-                self._build_chat_request(selection, prompt, history_summary)
+            streaming_chunks: list[str] = []
+
+            def _on_stream_chunk(frame: dict[str, object]) -> None:
+                text = frame.get("text")
+                if isinstance(text, str):
+                    streaming_chunks.append(text)
+                    self.panel.set_last_result("".join(streaming_chunks))
+
+            response = transport_client.request_streaming(
+                self._build_chat_request(selection, prompt, history_summary),
+                on_chunk=_on_stream_chunk,
             )
         except TransportError as exc:
             self.panel.set_connected(False)
@@ -248,15 +292,14 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         session_key = resolve_history_session_key(self.panel.frame)
         proposal = self.panel.state.pending_proposal
         if proposal is None or self._pending_selection is None:
-            message = "No pending Writer proposal is available for approval."
+            message = "No pending proposal is available for approval."
             self.panel.set_last_error(message)
             self.panel.append_message(message)
             self._record_error(session_key, message)
             return message
 
         try:
-            replacement_text = _extract_replacement_text(proposal)
-            _apply_writer_replacement(self._pending_selection, replacement_text)
+            self._execute_proposal(self._pending_selection, proposal)
         except ValueError as exc:
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
@@ -264,7 +307,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             return str(exc)
 
         applied_message = f"Applied {proposal.tool_id}"
-        self.panel.set_selection_preview(replacement_text)
+        self.panel.set_selection_preview(self._pending_selection.text)
         self.panel.set_last_result(applied_message)
         self.panel.append_message(applied_message)
         self._record_result(session_key, applied_message, role="system")
@@ -272,6 +315,37 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         self._pending_selection = None
         _set_control_text(window, "PromptInput", "")
         return applied_message
+
+    def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> None:
+        """Execute an approved proposal against the given selection."""
+        tool_id = getattr(proposal, "tool_id", "")
+
+        if tool_id == "Writer.ReplaceSelection":
+            replacement_text = _extract_replacement_text(proposal)
+            _apply_writer_replacement(selection, replacement_text)
+            return
+
+        if tool_id == "Calc.InsertFormulaInSelection":
+            arguments = getattr(proposal, "arguments", {})
+            formula = arguments.get("formula") if isinstance(arguments, dict) else None
+            if not isinstance(formula, str) or not formula:
+                raise ValueError("Calc formula proposal does not contain a formula.")
+            if selection.controller is None:
+                raise ValueError("Calc controller is not available for formula insertion.")
+            result = apply_calc_formula(selection.controller, formula)
+            selection.text = formula
+            del result  # side effect applied
+            return
+
+        if tool_id == "Impress.ReplaceSelectedText":
+            replacement_text = _extract_replacement_text(proposal)
+            if selection.controller is None:
+                raise ValueError("Impress controller is not available for text replacement.")
+            apply_impress_text_replacement(selection.controller, replacement_text)
+            selection.text = replacement_text
+            return
+
+        raise ValueError(f"Unsupported proposal tool: {tool_id}")
 
     def _handle_save_settings(
         self,
@@ -318,12 +392,24 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         )
         return message
 
-    def _capture_writer_selection(self) -> RuntimeWriterSelection:
+    def _capture_selection(self) -> RuntimeSelection:
         frame = self.panel.frame
         controller = get_controller(frame)
+        app_type = resolve_app_type(frame)
+
+        if app_type == AppType.WRITER:
+            return self._capture_writer_selection_impl(controller)
+        if app_type == AppType.CALC:
+            return self._capture_calc_selection_impl(controller)
+        if app_type == AppType.IMPRESS:
+            return self._capture_impress_selection_impl(controller)
+
+        raise ValueError("Sidebar actions require a Writer, Calc, or Impress document.")
+
+    def _capture_writer_selection_impl(self, controller: object) -> RuntimeSelection:
         model = get_model(controller)
         if model is None or not hasattr(model, "Text"):
-            raise ValueError("Sidebar actions currently support Writer documents only.")
+            raise ValueError("Current document is not a Writer document.")
 
         if not hasattr(controller, "getSelection"):
             raise ValueError("Current document controller does not expose selection APIs.")
@@ -341,15 +427,41 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if not selection_text.strip():
             raise ValueError("Select text in Writer before sending a request.")
 
-        return RuntimeWriterSelection(
+        return RuntimeSelection(
+            app_type=AppType.WRITER,
             text=selection_text,
             text_ranges=text_ranges,
             selection_supplier=controller,
+            controller=controller,
+        )
+
+    def _capture_calc_selection_impl(self, controller: object) -> RuntimeSelection:
+        cell_text, formula = capture_calc_selection(controller)
+        # Show formula if available, otherwise cell display text.
+        context_text = formula if formula.strip() else cell_text
+        if not context_text.strip():
+            raise ValueError("Select a cell with content in Calc before sending a request.")
+
+        return RuntimeSelection(
+            app_type=AppType.CALC,
+            text=context_text,
+            controller=controller,
+        )
+
+    def _capture_impress_selection_impl(self, controller: object) -> RuntimeSelection:
+        selection_text = capture_impress_selection(controller)
+        if not selection_text.strip():
+            raise ValueError("Select a text shape in Impress before sending a request.")
+
+        return RuntimeSelection(
+            app_type=AppType.IMPRESS,
+            text=selection_text,
+            controller=controller,
         )
 
     def _build_chat_request(
         self,
-        selection: RuntimeWriterSelection,
+        selection: RuntimeSelection,
         prompt: str,
         history_summary: list[dict[str, object]] | None = None,
     ) -> dict[str, object]:
@@ -364,7 +476,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         return {
             "type": "ChatRequest",
             "requestId": f"sidebar-{uuid4().hex}",
-            "app": "writer",
+            "app": selection.app_type.value,
             "document": {
                 "canonicalUrl": document_url,
                 "profileId": profile_id,
@@ -438,7 +550,7 @@ def _get_range_text(text_range: object) -> str:
     return text
 
 
-def _apply_writer_replacement(selection: RuntimeWriterSelection, replacement_text: str) -> None:
+def _apply_writer_replacement(selection: RuntimeSelection, replacement_text: str) -> None:
     if len(selection.text_ranges) != 1:
         raise ValueError("Writer replace-selection currently supports exactly one selected range.")
 

@@ -74,7 +74,55 @@ class OpenAICompatibleAdapter(BaseProviderAdapter):
         return _extract_assistant_text(response_payload)
 
     def stream(self, request: ProviderRequest) -> Iterable[ProviderChunk]:
-        raise NotImplementedError("OpenAI-compatible streaming is not implemented yet")
+        endpoint_url = self.settings.local_endpoint_url.rstrip("/")
+        url = f"{endpoint_url}/chat/completions"
+
+        encoded_payload = json.dumps(
+            {
+                "model": request.model,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": _build_user_message(
+                            prompt=request.prompt,
+                            context_text=request.context_text,
+                        ),
+                    }
+                ],
+                "stream": True,
+            }
+        ).encode("utf-8")
+
+        http_request = Request(
+            url=url,
+            data=encoded_payload,
+            headers={
+                "Accept": "text/event-stream",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+
+        try:
+            response = self._urlopen(
+                http_request,
+                timeout=self.settings.request_timeout_seconds,
+            )
+        except HTTPError as exc:
+            detail = _extract_error_detail(exc.read())
+            message = detail or str(exc.reason)
+            raise RuntimeError(
+                f"Local endpoint request failed with HTTP {exc.code}: {message}"
+            ) from exc
+        except URLError as exc:
+            raise RuntimeError(
+                f"Local endpoint unreachable at {endpoint_url}: {exc.reason}"
+            ) from exc
+
+        try:
+            yield from _parse_sse_chunks(response)
+        finally:
+            response.close()
 
 
 def _build_user_message(prompt: str, context_text: str) -> str:
@@ -122,3 +170,35 @@ def _extract_assistant_text(payload: object) -> str:
         raise RuntimeError("Local endpoint response content was not a string")
 
     return content.strip()
+
+
+def _parse_sse_chunks(response: object) -> Iterable[ProviderChunk]:
+    """Parse Server-Sent Events from an OpenAI-compatible streaming response."""
+    for raw_line in response:
+        line = raw_line.decode("utf-8", errors="replace").rstrip("\n\r")
+        if not line.startswith("data: "):
+            continue
+
+        data = line[len("data: "):]
+        if data == "[DONE]":
+            break
+
+        try:
+            payload = json.loads(data)
+        except json.JSONDecodeError:
+            continue
+
+        if not isinstance(payload, dict):
+            continue
+
+        choices = payload.get("choices")
+        if not isinstance(choices, list) or not choices:
+            continue
+
+        delta = choices[0].get("delta") if isinstance(choices[0], dict) else None
+        if not isinstance(delta, dict):
+            continue
+
+        content = delta.get("content")
+        if isinstance(content, str) and content:
+            yield ProviderChunk(text=content)

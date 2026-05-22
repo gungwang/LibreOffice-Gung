@@ -320,11 +320,10 @@ function Invoke-LoaiaVerificationProbe {
 			}
 			if ($SidecarEnvironment -and $SidecarEnvironment.Count -gt 0) {
 				$startProcessCommand = Get-Command Start-Process -ErrorAction Stop
-				if (-not $startProcessCommand.Parameters.ContainsKey("Environment")) {
-					throw "Current PowerShell does not support Start-Process -Environment."
+				if ($startProcessCommand.Parameters.ContainsKey("Environment")) {
+					$sidecarProcessArguments.Environment = $SidecarEnvironment
 				}
-
-				$sidecarProcessArguments.Environment = $SidecarEnvironment
+				# Else: fall back to -ClearEnvVars passed via SidecarExtraArguments
 			}
 
 			$sidecarProcess = Start-Process @sidecarProcessArguments

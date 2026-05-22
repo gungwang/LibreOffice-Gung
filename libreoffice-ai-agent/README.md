@@ -35,6 +35,9 @@ Canonical planning documents currently live in the parent repository docs folder
 
 Status:
 
-- this has moved from an initial scaffold into a working Windows-first prototype
-- the sidebar shell, Writer preview/apply flow, and live LibreOffice verification scripts are in place
-- planner/provider execution beyond the scaffold responses is still incomplete
+- MVP implementation is complete against the design specification
+- OpenRouter (remote) and OpenAI-compatible (local) providers both work end to end
+- Writer preview/apply, direct-answer, safe formatting auto-apply, and session persistence flows are working
+- Calc and Impress minimal slices are implemented (context extraction, planning, action execution)
+- 43 unit and integration tests pass with zero lint errors
+- Live verification scripts cover install, direct answer, preview/apply, provider failure, sidecar failure, and restart persistence

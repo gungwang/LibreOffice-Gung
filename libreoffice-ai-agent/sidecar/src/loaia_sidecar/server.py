@@ -8,6 +8,7 @@ from loaia_shared.schema.messages import (
     DirectAnswer,
     ErrorResponse,
     HandshakeResponse,
+    StreamChunk,
     ToolProposalEnvelope,
 )
 from loaia_shared.types import AppType
@@ -102,7 +103,90 @@ class LoaiaSidecarServer:
         ).model_dump(by_alias=True, mode="json")
 
     def run(self) -> None:
-        NamedPipeTransport(handler=self.handle_message).serve_forever()
+        NamedPipeTransport(handler=self.handle_message_streaming).serve_forever()
+
+    def handle_message_streaming(
+        self, payload: dict[str, object]
+    ) -> dict[str, object] | list[dict[str, object]]:
+        """Handle a message, returning streamed chunks + final response when applicable."""
+        message_type = payload.get("type")
+        request_id = payload.get("requestId") if isinstance(payload.get("requestId"), str) else ""
+
+        if message_type == "HandshakeRequest":
+            return self.handshake().model_dump(by_alias=True, mode="json")
+
+        if message_type == "ChatRequest":
+            try:
+                request = ChatRequest.model_validate(payload)
+            except PydanticValidationError as exc:
+                return ErrorResponse(requestId=request_id, message=str(exc)).model_dump(
+                    by_alias=True, mode="json"
+                )
+
+            try:
+                # Non-streaming path for tool proposals
+                proposal = self._plan_tool_proposal(request)
+                if proposal is not None:
+                    response = ToolProposalEnvelope(
+                        requestId=request.request_id, proposals=[proposal]
+                    )
+                    return response.model_dump(by_alias=True, mode="json")
+
+                # Streaming path for direct answers
+                return self._stream_direct_answer(request)
+            except (RuntimeError, ValueError) as exc:
+                return ErrorResponse(requestId=request_id, message=str(exc)).model_dump(
+                    by_alias=True, mode="json"
+                )
+
+        return ErrorResponse(
+            requestId=request_id,
+            message=f"Unsupported request type: {message_type!r}",
+        ).model_dump(by_alias=True, mode="json")
+
+    def _stream_direct_answer(
+        self, request: ChatRequest
+    ) -> dict[str, object] | list[dict[str, object]]:
+        """Stream a direct answer, returning chunks + final DirectAnswer."""
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            raise ValueError(f"Provider {request.provider!r} is not available.")
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=request.user_message,
+            context_text=(request.context.selection.text if request.context.selection else ""),
+        )
+
+        frames: list[dict[str, object]] = []
+        collected_text: list[str] = []
+
+        try:
+            for chunk in adapter.stream(provider_request):
+                collected_text.append(chunk.text)
+                frames.append(
+                    StreamChunk(
+                        requestId=request.request_id, text=chunk.text
+                    ).model_dump(by_alias=True, mode="json")
+                )
+        except NotImplementedError:
+            # Fallback to non-streaming complete()
+            text = adapter.complete(provider_request)
+            return DirectAnswer(
+                requestId=request.request_id, text=text
+            ).model_dump(by_alias=True, mode="json")
+
+        full_text = "".join(collected_text).strip()
+        if not full_text:
+            raise RuntimeError("Provider returned an empty response.")
+
+        frames.append(
+            DirectAnswer(
+                requestId=request.request_id, text=full_text
+            ).model_dump(by_alias=True, mode="json")
+        )
+        return frames
 
     def _plan_writer_replace_selection(self, request: ChatRequest) -> ToolProposal | None:
         selection = request.context.selection

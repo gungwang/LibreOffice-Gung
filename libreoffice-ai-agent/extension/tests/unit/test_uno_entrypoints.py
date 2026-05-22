@@ -75,6 +75,12 @@ class FakeTransport:
         self.requests.append(payload)
         return self.response
 
+    def request_streaming(
+        self, payload: dict[str, object], on_chunk: object = None
+    ) -> dict[str, object]:
+        self.requests.append(payload)
+        return self.response
+
 
 def test_protocol_handler_dispatch_opens_sidebar() -> None:
     runtime = ExtensionBootstrap(session_store=InMemorySidebarSessionStore())

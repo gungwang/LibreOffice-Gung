@@ -80,7 +80,58 @@ class OpenRouterAdapter(BaseProviderAdapter):
         return _extract_assistant_text(response_payload)
 
     def stream(self, request: ProviderRequest) -> Iterable[ProviderChunk]:
-        raise NotImplementedError("OpenRouter adapter is not implemented yet")
+        api_key = self.secret_store.get_api_key(self.name)
+        if api_key is None:
+            raise ValueError(
+                "OpenRouter API key is not configured. "
+                "Set OPENROUTER_API_KEY or LOAIA_OPENROUTER_API_KEY."
+            )
+
+        encoded_payload = json.dumps(
+            {
+                "model": request.model,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": _build_user_message(
+                            prompt=request.prompt,
+                            context_text=request.context_text,
+                        ),
+                    }
+                ],
+                "stream": True,
+            }
+        ).encode("utf-8")
+        http_request = Request(
+            url="https://openrouter.ai/api/v1/chat/completions",
+            data=encoded_payload,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Accept": "text/event-stream",
+                "Content-Type": "application/json",
+                "X-Title": "LibreOffice AI Agent",
+            },
+            method="POST",
+        )
+
+        try:
+            response = self._urlopen(
+                http_request,
+                timeout=self.settings.request_timeout_seconds,
+            )
+        except HTTPError as exc:
+            detail = _extract_error_detail(exc.read())
+            message = detail or str(exc.reason)
+            raise RuntimeError(
+                f"OpenRouter request failed with HTTP {exc.code}: {message}"
+            ) from exc
+        except URLError as exc:
+            raise RuntimeError(f"OpenRouter request failed: {exc.reason}") from exc
+
+        try:
+            yield from _parse_sse_chunks(response)
+        finally:
+            response.close()
 
 
 def _build_user_message(prompt: str, context_text: str) -> str:
@@ -150,3 +201,35 @@ def _extract_error_detail(raw_body: bytes) -> str:
             return message.strip()
 
     return decoded_body
+
+
+def _parse_sse_chunks(response: object) -> Iterable[ProviderChunk]:
+    """Parse Server-Sent Events from an OpenAI-compatible streaming response."""
+    for raw_line in response:
+        line = raw_line.decode("utf-8", errors="replace").rstrip("\n\r")
+        if not line.startswith("data: "):
+            continue
+
+        data = line[len("data: "):]
+        if data == "[DONE]":
+            break
+
+        try:
+            payload = json.loads(data)
+        except json.JSONDecodeError:
+            continue
+
+        if not isinstance(payload, dict):
+            continue
+
+        choices = payload.get("choices")
+        if not isinstance(choices, list) or not choices:
+            continue
+
+        delta = choices[0].get("delta") if isinstance(choices[0], dict) else None
+        if not isinstance(delta, dict):
+            continue
+
+        content = delta.get("content")
+        if isinstance(content, str) and content:
+            yield ProviderChunk(text=content)

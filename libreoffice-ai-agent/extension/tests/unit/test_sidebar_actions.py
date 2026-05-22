@@ -123,6 +123,12 @@ class FakeTransport:
         self.requests.append(payload)
         return self.response
 
+    def request_streaming(
+        self, payload: dict[str, object], on_chunk: object = None
+    ) -> dict[str, object]:
+        self.requests.append(payload)
+        return self.response
+
 
 class FailingTransport:
     def __init__(self, message: str) -> None:
@@ -130,6 +136,12 @@ class FailingTransport:
         self.requests: list[dict[str, object]] = []
 
     def request(self, payload: dict[str, object]) -> dict[str, object]:
+        self.requests.append(payload)
+        raise TransportError(self.message)
+
+    def request_streaming(
+        self, payload: dict[str, object], on_chunk: object = None
+    ) -> dict[str, object]:
         self.requests.append(payload)
         raise TransportError(self.message)
 
@@ -341,7 +353,7 @@ def test_sidebar_send_action_surfaces_non_writer_error_clearly() -> None:
 
     assert tool_panel.event_handler.callHandlerMethod(window, None, "Send") is True
 
-    expected_error = "Sidebar actions currently support Writer documents only."
+    expected_error = "Select a cell with content in Calc before sending a request."
     expected_status_error = f"Last error: {expected_error}"
 
     assert transport.requests == []
@@ -360,7 +372,7 @@ def test_sidebar_send_action_surfaces_non_writer_error_clearly() -> None:
     assert "Pending preview:\nNo pending proposal." in window.controls["Summary"].model.Text
     assert "Last result:\nNo completed result yet." in window.controls["Summary"].model.Text
     assert (
-        "Recent activity:\n- Sidebar actions currently support Writer documents only."
+        "Recent activity:\n- Select a cell with content in Calc before sending a request."
         in window.controls["Summary"].model.Text
     )
     assert window.controls["ApproveButton"].model.Enabled is False
