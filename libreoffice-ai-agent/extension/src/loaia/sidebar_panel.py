@@ -40,6 +40,17 @@ def _get_service_manager(context: object | None) -> object | None:
     return None
 
 
+def _debug_log(msg: str) -> None:
+    """Write diagnostic messages to a file for debugging panel creation."""
+    import os
+    log_path = os.path.join(os.path.expanduser("~"), "loaia-panel-debug.log")
+    try:
+        with open(log_path, "a", encoding="utf-8") as f:
+            f.write(msg + "\n")
+    except Exception:
+        pass
+
+
 def _create_panel_window(
     context: object | None,
     parent_window: object | None,
@@ -47,31 +58,57 @@ def _create_panel_window(
     dialog_path: str | None,
     handler: object | None = None,
 ) -> object | None:
-    if (
-        context is None
-        or parent_window is None
-        or not extension_identifier
-        or not dialog_path
-    ):
+    if parent_window is None or not extension_identifier or not dialog_path:
+        _debug_log(f"EARLY_RETURN: parent_window={parent_window}, ext_id={extension_identifier}, path={dialog_path}")
         return parent_window
 
+    # Try with the provided context first, then fall back to global component context.
+    contexts_to_try = [context]
     try:
-        package_info = context.getValueByName(
-            "/singletons/com.sun.star.deployment.PackageInformationProvider"
-        )
-        package_location = package_info.getPackageLocation(extension_identifier)
-        service_manager = _get_service_manager(context)
-        if service_manager is None:
-            return parent_window
+        import uno
+        global_ctx = uno.getComponentContext()
+        if global_ctx is not context:
+            contexts_to_try.append(global_ctx)
+    except Exception as e:
+        _debug_log(f"FAILED_GET_GLOBAL_CTX: {e}")
 
-        provider = service_manager.createInstanceWithContext(
-            "com.sun.star.awt.ContainerWindowProvider",
-            context,
-        )
-        dialog_url = f"{package_location}/{dialog_path}"
-        return provider.createContainerWindow(dialog_url, "", parent_window, handler)
-    except Exception:
-        return parent_window
+    for i, ctx in enumerate(contexts_to_try):
+        if ctx is None:
+            _debug_log(f"CTX[{i}]: None, skipping")
+            continue
+        try:
+            _debug_log(f"CTX[{i}]: trying, type={type(ctx).__name__}")
+            package_info = ctx.getValueByName(
+                "/singletons/com.sun.star.deployment.PackageInformationProvider"
+            )
+            package_location = package_info.getPackageLocation(extension_identifier)
+            _debug_log(f"CTX[{i}]: package_location=[{package_location}]")
+            if not package_location:
+                continue
+
+            service_manager = _get_service_manager(ctx)
+            if service_manager is None:
+                _debug_log(f"CTX[{i}]: service_manager is None")
+                continue
+
+            provider = service_manager.createInstanceWithContext(
+                "com.sun.star.awt.ContainerWindowProvider",
+                ctx,
+            )
+            dialog_url = f"{package_location}/{dialog_path}"
+            _debug_log(f"CTX[{i}]: creating window with dialog_url={dialog_url}")
+            window = provider.createContainerWindow(
+                dialog_url, "", parent_window, handler
+            )
+            _debug_log(f"CTX[{i}]: window={window}, type={type(window).__name__ if window else 'None'}")
+            if window is not None:
+                return window
+        except Exception as e:
+            _debug_log(f"CTX[{i}]: EXCEPTION: {type(e).__name__}: {e}")
+            continue
+
+    _debug_log("ALL_CONTEXTS_FAILED: returning parent_window")
+    return parent_window
 
 
 def _shorten_text(text: str | None, limit: int = 160) -> str:
@@ -353,6 +390,12 @@ class SidebarToolPanel(unohelper.Base, XToolPanel):
             dialog_path=dialog_path,
             handler=self.event_handler,
         )
+        # Make the dialog window visible inside the sidebar panel area.
+        if self.window is not None and hasattr(self.window, "setVisible"):
+            try:
+                self.window.setVisible(True)
+            except Exception:
+                pass
         self.PanelWindow = self.window
         self.Window = self.window
         self.panel.bind_view(self.refresh_from_panel)
