@@ -6,6 +6,8 @@ param(
 	[string]$InitialSelection = "hello world",
 	[string]$ExpectedAnswer = "Sidecar scaffold is running. Planner and provider execution are not implemented yet.",
 	[switch]$ExpectNonScaffoldAnswer,
+	[string]$Provider,
+	[string]$Model,
 	[string]$ExpectedProvider,
 	[string]$ExpectedModel,
 	[string]$PythonPath,
@@ -31,32 +33,56 @@ $resolvedUserProfileDir = if ($UserProfileDir) {
 $probeScriptPath = Join-Path $PSScriptRoot "verify_sidebar_direct_answer.py"
 $sentinelAnswer = "__NON_SCAFFOLD__"
 
-$resolvedExpectedProvider = if ($ExpectedProvider) {
-	$ExpectedProvider
+
+$resolvedProvider = if ($Provider) {
+	$Provider
 } elseif ($env:LOAIA_DEFAULT_PROVIDER) {
 	$env:LOAIA_DEFAULT_PROVIDER
 } else {
 	"openai-compatible"
 }
 
-$resolvedExpectedModel = if ($ExpectedModel) {
-	$ExpectedModel
+$resolvedModel = if ($Model) {
+	$Model
 } elseif ($env:LOAIA_DEFAULT_MODEL) {
 	$env:LOAIA_DEFAULT_MODEL
 } else {
 	"local-default"
 }
 
+$resolvedExpectedProvider = if ($ExpectedProvider) {
+	$ExpectedProvider
+} else {
+	$resolvedProvider
+}
+
+$resolvedExpectedModel = if ($ExpectedModel) {
+	$ExpectedModel
+} else {
+	$resolvedModel
+}
+
 if (
 	-not $ExpectNonScaffoldAnswer -and
 	$ExpectedAnswer -eq $defaultScaffoldAnswer -and
-	$resolvedExpectedProvider -ne "openai-compatible"
+	$resolvedProvider -ne "openai-compatible"
 ) {
 	$ExpectNonScaffoldAnswer = $true
 }
 
+
+$shouldAssertProviderDetails = (
+	$ExpectNonScaffoldAnswer -or
+	$PSBoundParameters.ContainsKey("Provider") -or
+	$PSBoundParameters.ContainsKey("Model") -or
+	$PSBoundParameters.ContainsKey("ExpectedProvider") -or
+	$PSBoundParameters.ContainsKey("ExpectedModel")
+)
+
 $resolvedProbeArguments = if ($ExpectNonScaffoldAnswer) {
 	@($Prompt, $InitialSelection, $sentinelAnswer, $resolvedExpectedProvider, $resolvedExpectedModel)
+	} elseif ($shouldAssertProviderDetails) {
+	@($Prompt, $InitialSelection, $ExpectedAnswer, $resolvedExpectedProvider, $resolvedExpectedModel)
 } else {
 	@($Prompt, $InitialSelection, $ExpectedAnswer)
 }
@@ -73,5 +99,35 @@ $probeArguments = @{
 	StartSidecar = $true
 }
 
-$probeExitCode = Invoke-LoaiaVerificationProbe @probeArguments
+$previousProvider = Get-Item -Path Env:LOAIA_DEFAULT_PROVIDER -ErrorAction SilentlyContinue
+$previousModel = Get-Item -Path Env:LOAIA_DEFAULT_MODEL -ErrorAction SilentlyContinue
+
+try {
+	if ($PSBoundParameters.ContainsKey("Provider")) {
+		$env:LOAIA_DEFAULT_PROVIDER = $Provider
+	}
+
+	if ($PSBoundParameters.ContainsKey("Model")) {
+		$env:LOAIA_DEFAULT_MODEL = $Model
+	}
+
+	$probeExitCode = Invoke-LoaiaVerificationProbe @probeArguments
+} finally {
+	if ($PSBoundParameters.ContainsKey("Provider")) {
+		if ($null -ne $previousProvider) {
+			$env:LOAIA_DEFAULT_PROVIDER = $previousProvider.Value
+		} else {
+			Remove-Item -Path Env:LOAIA_DEFAULT_PROVIDER -ErrorAction SilentlyContinue
+		}
+	}
+
+	if ($PSBoundParameters.ContainsKey("Model")) {
+		if ($null -ne $previousModel) {
+			$env:LOAIA_DEFAULT_MODEL = $previousModel.Value
+		} else {
+			Remove-Item -Path Env:LOAIA_DEFAULT_MODEL -ErrorAction SilentlyContinue
+		}
+	}
+}
+
 exit $probeExitCode

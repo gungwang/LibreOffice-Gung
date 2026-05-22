@@ -201,5 +201,16 @@ def main(argv: list[str]) -> int:
     )
 
 
+def cli(argv: list[str]) -> int:
+    try:
+        return main(argv)
+    except Exception as error:
+        print(
+            f"UNHANDLED_EXCEPTION={error.__class__.__name__}: {error}",
+            file=sys.stderr,
+        )
+        return 1
+
+
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv[1:]))
+    raise SystemExit(cli(sys.argv[1:]))

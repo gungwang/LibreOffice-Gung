@@ -1,0 +1,8 @@
+RenderMethod: vulkan
+Vendor: 0x8086
+Device: 0x56a0
+API: 1.4.344
+Driver: 0.406.532
+DeviceType: discrete
+DeviceName: Intel(R) Arc(TM) A770 Graphics
+Denylisted: no

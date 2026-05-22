@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog"
+    xmlns:script="http://openoffice.org/2000/script"
+    dlg:id="LoaiaSidebarShell"
+    dlg:left="0"
+    dlg:top="0"
+    dlg:width="176"
+    dlg:height="268"
+    dlg:closeable="false"
+    dlg:moveable="false"
+    dlg:withtitlebar="false">
+  <dlg:bulletinboard>
+    <dlg:text dlg:id="Title"
+        dlg:tab-index="0"
+        dlg:left="6"
+        dlg:top="6"
+        dlg:width="160"
+        dlg:height="14"
+        dlg:value="LibreOffice AI Agent"/>
+    <dlg:text dlg:id="Status"
+        dlg:tab-index="1"
+        dlg:left="6"
+        dlg:top="24"
+        dlg:width="160"
+        dlg:height="36"
+        dlg:value="Sidebar shell is live. Chat transport and document tools will attach here."
+        dlg:multiline="true"/>
+    <dlg:textfield dlg:id="PromptInput"
+        dlg:tab-index="2"
+        dlg:left="6"
+        dlg:top="64"
+        dlg:width="160"
+        dlg:height="34"
+        dlg:multiline="true"
+        dlg:value="Please convert this selection to uppercase."/>
+    <dlg:button dlg:id="SendButton"
+        dlg:tab-index="3"
+        dlg:left="6"
+        dlg:top="104"
+        dlg:width="76"
+        dlg:height="14"
+        dlg:value="Preview">
+      <script:event script:event-name="on-performaction" script:macro-name="vnd.sun.star.UNO:Send" script:language="UNO"/>
+    </dlg:button>
+    <dlg:button dlg:id="ApproveButton"
+        dlg:tab-index="4"
+        dlg:left="90"
+        dlg:top="104"
+        dlg:width="76"
+        dlg:height="14"
+        dlg:value="Approve">
+      <script:event script:event-name="on-performaction" script:macro-name="vnd.sun.star.UNO:Approve" script:language="UNO"/>
+    </dlg:button>
+    <dlg:textfield dlg:id="Summary"
+        dlg:tab-index="5"
+        dlg:left="6"
+        dlg:top="126"
+        dlg:width="160"
+        dlg:height="94"
+        dlg:vscroll="true"
+        dlg:multiline="true"
+        dlg:readonly="true"
+        dlg:value="Current behavior:\x0a;- Sidebar registration works in a live LibreOffice process.\x0a;- Protocol dispatch can open this panel.\x0a;- Writer proposal preview and apply already work in tests.\x0a;\x0a;Next implementation step:\x0a;Render live chat state and actions in this panel."/>
+    <dlg:text dlg:id="Privacy"
+        dlg:tab-index="6"
+        dlg:left="6"
+        dlg:top="224"
+        dlg:width="160"
+        dlg:height="36"
+        dlg:value="Privacy scope: selection-only by default. Broader document edits stay behind explicit approval."
+        dlg:multiline="true"/>
+  </dlg:bulletinboard>
+</dlg:window>
