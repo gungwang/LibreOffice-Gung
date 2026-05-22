@@ -1,3 +1,26 @@
+# Environment and secrets
 .env
+
+# Temporary working directories
 .tmp
 libreoffice-ai-agent/.tmp
+
+# Build artifacts and generated profiles
+build/
+
+# Linter and tool caches
+.ruff_cache/
+
+# VS Code user-specific settings
+.vscode/
+
+# Python artifacts (belt-and-suspenders for top-level)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS-generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
