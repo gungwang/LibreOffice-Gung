@@ -51,12 +51,132 @@ function Convert-ToFileUrl {
 	return ([System.Uri]([System.IO.Path]::GetFullPath($Path))).AbsoluteUri
 }
 
+function Get-LoaiaProfileProcesses {
+	param([string]$UserInstallationUrl)
+
+	$processes = Get-CimInstance Win32_Process -Filter (
+		"Name = 'soffice.exe' OR Name = 'soffice.bin' OR Name = 'unopkg.com' OR Name = 'unopkg.exe'"
+	) -ErrorAction SilentlyContinue
+
+	return @($processes | Where-Object {
+		$_.CommandLine -and
+		$_.CommandLine.IndexOf($UserInstallationUrl, [System.StringComparison]::OrdinalIgnoreCase) -ge 0
+	})
+}
+
+function Stop-LoaiaProfileProcesses {
+	param(
+		[string]$UserInstallationUrl,
+		[int]$MaxAttempts = 10,
+		[int]$DelayMilliseconds = 500
+	)
+
+	for ($attempt = 1; $attempt -le $MaxAttempts; $attempt++) {
+		$processes = @(Get-LoaiaProfileProcesses -UserInstallationUrl $UserInstallationUrl)
+		if ($processes.Count -eq 0) {
+			return
+		}
+
+		foreach ($processInfo in $processes) {
+			Stop-Process -Id $processInfo.ProcessId -Force -ErrorAction SilentlyContinue
+		}
+
+		[System.Threading.Thread]::Sleep($DelayMilliseconds)
+	}
+
+	$remainingProcesses = @(Get-LoaiaProfileProcesses -UserInstallationUrl $UserInstallationUrl)
+	if ($remainingProcesses.Count -gt 0) {
+		$processSummary = ($remainingProcesses | ForEach-Object {
+			"{0}({1})" -f $_.Name, $_.ProcessId
+		}) -join ", "
+		throw (
+			"Could not stop LibreOffice profile processes for {0}: {1}" -f
+			$UserInstallationUrl,
+			$processSummary
+		)
+	}
+}
+
+function Remove-LoaiaProfileDir {
+	param(
+		[string]$Path,
+		[string]$UserInstallationUrl,
+		[int]$MaxAttempts = 5,
+		[int]$DelayMilliseconds = 500
+	)
+
+	if (-not (Test-Path -LiteralPath $Path)) {
+		return
+	}
+
+	$lastError = $null
+	for ($attempt = 1; $attempt -le $MaxAttempts; $attempt++) {
+		Stop-LoaiaProfileProcesses -UserInstallationUrl $UserInstallationUrl
+
+		try {
+			Remove-Item -LiteralPath $Path -Recurse -Force -ErrorAction Stop
+			return
+		} catch {
+			$lastError = $_
+			if ($attempt -lt $MaxAttempts) {
+				[System.Threading.Thread]::Sleep($DelayMilliseconds)
+			}
+		}
+	}
+
+	throw (
+		"Could not remove install profile at {0}: {1}" -f
+		$Path,
+		$lastError.Exception.Message
+	)
+}
+
+function Remove-LoaiaGeneratedInstallProfiles {
+	param(
+		[string]$BuildDir,
+		[string]$ExcludePath,
+		[int]$KeepNewest = 3
+	)
+
+	if (-not (Test-Path -LiteralPath $BuildDir)) {
+		return
+	}
+
+	$excludeResolvedPath = if ($ExcludePath) {
+		[System.IO.Path]::GetFullPath($ExcludePath)
+	} else {
+		$null
+	}
+
+	$installProfileDirs = @(
+		Get-ChildItem -LiteralPath $BuildDir -Directory -ErrorAction SilentlyContinue |
+			Where-Object {
+				$_.Name -like "lo-profile-install-*" -and
+				($null -eq $excludeResolvedPath -or $_.FullName -ne $excludeResolvedPath)
+			} |
+			Sort-Object LastWriteTimeUtc -Descending
+	)
+
+	$installProfileDirsToRemove = @($installProfileDirs | Select-Object -Skip $KeepNewest)
+	foreach ($installProfileDir in $installProfileDirsToRemove) {
+		$installProfileUrl = Convert-ToFileUrl -Path $installProfileDir.FullName
+		if (@(Get-LoaiaProfileProcesses -UserInstallationUrl $installProfileUrl).Count -gt 0) {
+			continue
+		}
+
+		Remove-LoaiaProfileDir -Path $installProfileDir.FullName -UserInstallationUrl $installProfileUrl
+	}
+}
+
 $projectRootPath = [System.IO.Path]::GetFullPath($ProjectRoot)
 $resolvedUserProfileDir = if ($UserProfileDir) {
 	[System.IO.Path]::GetFullPath($UserProfileDir)
 } else {
 	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-profile"))
 }
+$buildDir = [System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build"))
+
+Remove-LoaiaGeneratedInstallProfiles -BuildDir $buildDir -ExcludePath $resolvedUserProfileDir
 
 if (-not $SkipBuild -or -not $PackagePath) {
 	$PackagePath = & (Join-Path $PSScriptRoot "build_oxt.ps1") -ProjectRoot $projectRootPath
