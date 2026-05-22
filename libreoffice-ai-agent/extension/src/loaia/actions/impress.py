@@ -14,7 +14,31 @@ IMPRESS_ACTIONS = [
         requires_approval=False,
     ),
     ActionDefinition(
+        "Impress.ToggleItalic",
+        "impress",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
         "Impress.ApplyBullets",
+        "impress",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Impress.AlignLeft",
+        "impress",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Impress.AlignCenter",
+        "impress",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Impress.AlignRight",
         "impress",
         safe_formatting=True,
         requires_approval=False,
@@ -27,6 +51,12 @@ IMPRESS_ACTIONS = [
     ),
     ActionDefinition(
         "Impress.CreateSlideFromOutline",
+        "impress",
+        safe_formatting=False,
+        requires_approval=True,
+    ),
+    ActionDefinition(
+        "Impress.ApplyLayoutToCurrentSlide",
         "impress",
         safe_formatting=False,
         requires_approval=True,

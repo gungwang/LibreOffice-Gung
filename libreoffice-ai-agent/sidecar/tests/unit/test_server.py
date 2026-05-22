@@ -160,3 +160,74 @@ def test_handle_message_returns_error_response_for_provider_failures() -> None:
     assert response["type"] == "ErrorResponse"
     assert response["requestId"] == "req-openrouter-1"
     assert response["message"] == "OpenRouter API key is not configured."
+
+
+def test_calc_formula_proposal_generated_for_formula_request() -> None:
+    adapter = FakeProviderAdapter(answer="=SUM(A1:A10)")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.CALC,
+            selection_text="100",
+            user_message="Insert a SUM formula for column A",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert len(response.proposals) == 1
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "Calc.InsertFormulaInSelection"
+    assert proposal.arguments == {"formula": "=SUM(A1:A10)"}
+
+
+def test_calc_direct_answer_for_non_formula_request() -> None:
+    adapter = FakeProviderAdapter(answer="This cell contains the number 100.")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.CALC,
+            selection_text="100",
+            user_message="Explain what this cell contains.",
+        )
+    )
+
+    assert response.type == "DirectAnswer"
+    assert response.text == "This cell contains the number 100."
+
+
+def test_impress_rewrite_proposal_generated_for_rewrite_request() -> None:
+    adapter = FakeProviderAdapter(answer="Simplified bullet points for the audience.")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.IMPRESS,
+            selection_text="Complex slide text with jargon.",
+            user_message="Rewrite this to be simpler.",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert len(response.proposals) == 1
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "Impress.ReplaceSelectedText"
+    assert proposal.preview is not None
+    assert proposal.preview.after == "Simplified bullet points for the audience."
+
+
+def test_impress_direct_answer_for_non_rewrite_request() -> None:
+    adapter = FakeProviderAdapter(answer="This slide discusses project milestones.")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.IMPRESS,
+            selection_text="Q1 goals achieved.",
+            user_message="What does this slide talk about?",
+        )
+    )
+
+    assert response.type == "DirectAnswer"
+    assert response.text == "This slide discusses project milestones."

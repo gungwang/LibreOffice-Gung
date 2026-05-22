@@ -19,6 +19,10 @@ SCAFFOLD_DIRECT_ANSWER = (
 NO_REPLACEMENT_SENTINEL = "NO_REPLACEMENT"
 
 
+def flatten_text(text: str) -> str:
+    return text.replace("\r", "\\r").replace("\n", "\\n")
+
+
 def extract_section(summary_text: str, header: str, next_header: str | None = None) -> str:
     header_marker = f"{header}:\n"
     start_index = summary_text.find(header_marker)
@@ -96,6 +100,10 @@ def verify(
         pending_preview = extract_section(summary_after_preview, "Pending preview", "Last result")
         preview_after = extract_labeled_value(pending_preview, "After")
         approve_button = panel_window.getControl("ApproveButton")
+        results["RAW_STATUS_AFTER_PREVIEW"] = flatten_text(status_after_preview)
+        results["RAW_SUMMARY_AFTER_PREVIEW"] = flatten_text(summary_after_preview)
+        results["PENDING_PREVIEW_TEXT"] = flatten_text(pending_preview)
+        results["PREVIEW_AFTER_TEXT"] = flatten_text(preview_after)
         results["HAS_PENDING_PREVIEW"] = str(
             pending_preview not in ("", "No pending proposal.")
             and "Preview Writer selection replacement" in pending_preview

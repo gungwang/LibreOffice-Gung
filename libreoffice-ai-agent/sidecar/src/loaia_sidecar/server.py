@@ -14,6 +14,7 @@ from loaia_shared.types import AppType
 from loaia_sidecar.config.secrets import SecretStore
 from loaia_sidecar.config.settings import SidecarSettings
 from loaia_sidecar.providers.base import BaseProviderAdapter, ProviderRequest
+from loaia_sidecar.providers.openai_compatible import OpenAICompatibleAdapter
 from loaia_sidecar.providers.openrouter import OpenRouterAdapter
 from loaia_sidecar.transport.named_pipe import NamedPipeTransport
 
@@ -39,7 +40,10 @@ class LoaiaSidecarServer:
             OpenRouterAdapter.name: OpenRouterAdapter(
                 settings=self.settings,
                 secret_store=self.secret_store,
-            )
+            ),
+            OpenAICompatibleAdapter.name: OpenAICompatibleAdapter(
+                settings=self.settings,
+            ),
         }
         self.capabilities = [
             "handshake",
@@ -56,7 +60,8 @@ class LoaiaSidecarServer:
         )
 
     def handle_chat_request(self, request: ChatRequest) -> DirectAnswer | ToolProposalEnvelope:
-        proposal = self._plan_writer_replace_selection(request)
+        # Try app-specific planning first.
+        proposal = self._plan_tool_proposal(request)
         if proposal is not None:
             return ToolProposalEnvelope(requestId=request.request_id, proposals=[proposal])
 
@@ -180,8 +185,8 @@ class LoaiaSidecarServer:
                     '{"action":"no-replacement"}'
                 ),
                 (
-                    f"Legacy fallback remains {WRITER_NO_REPLACEMENT_SENTINEL}, but prefer the JSON "
-                    "contract above."
+                    f"Legacy fallback remains {WRITER_NO_REPLACEMENT_SENTINEL}, "
+                    "but prefer the JSON contract above."
                 ),
                 f"User request: {user_message.strip()}",
             ]
@@ -231,6 +236,138 @@ class LoaiaSidecarServer:
             normalized = normalized[1:-1].strip()
 
         return normalized or None
+
+    def _plan_tool_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        """Route planning to the appropriate app-specific planner."""
+        if request.app is AppType.WRITER:
+            return self._plan_writer_replace_selection(request)
+        if request.app is AppType.CALC:
+            return self._plan_calc_proposal(request)
+        if request.app is AppType.IMPRESS:
+            return self._plan_impress_proposal(request)
+        return None
+
+    def _plan_calc_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        """Plan a Calc action proposal if the user message implies formula insertion."""
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        normalized_message = request.user_message.casefold()
+        # Only propose formula insertion for explicit formula-related requests.
+        formula_keywords = ("formula", "insert formula", "calculate", "sum", "average", "count")
+        if not any(keyword in normalized_message for keyword in formula_keywords):
+            return None
+
+        # Use the provider to generate a formula suggestion.
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_calc_formula_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        response_text = adapter.complete(provider_request)
+        formula = self._normalize_calc_formula_response(response_text)
+        if formula is None:
+            return None
+
+        return ToolProposal(
+            proposalId=f"{request.request_id}-calc-formula",
+            toolId="Calc.InsertFormulaInSelection",
+            safetyClass=SafetyClass.CONTENT_EDIT,
+            requiresApproval=True,
+            preview=ActionPreview(
+                summary=f"Insert formula: {formula}",
+                before=selection.text,
+                after=formula,
+            ),
+            arguments={"formula": formula},
+        )
+
+    def _plan_impress_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        """Plan an Impress text replacement proposal."""
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        normalized_message = request.user_message.casefold()
+        # Only propose text replacement for explicit rewrite requests.
+        rewrite_keywords = ("rewrite", "rephrase", "improve", "reword", "simplify", "shorten")
+        if not any(keyword in normalized_message for keyword in rewrite_keywords):
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_impress_rewrite_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        response_text = adapter.complete(provider_request)
+        replacement = response_text.strip()
+        if not replacement or replacement == selection.text:
+            return None
+
+        return ToolProposal(
+            proposalId=f"{request.request_id}-impress-replace",
+            toolId="Impress.ReplaceSelectedText",
+            safetyClass=SafetyClass.CONTENT_EDIT,
+            requiresApproval=True,
+            preview=ActionPreview(
+                summary="Replace selected Impress text",
+                before=selection.text,
+                after=replacement,
+            ),
+            arguments={"replacementText": replacement},
+        )
+
+    @staticmethod
+    def _build_calc_formula_prompt(user_message: str) -> str:
+        return "\n".join(
+            [
+                "You are a LibreOffice Calc formula assistant.",
+                "Given the user request and the selected cell context, suggest a formula.",
+                "Reply with ONLY the formula (starting with =). No explanation, no commentary.",
+                "If you cannot suggest a formula, reply with: NO_FORMULA",
+                f"User request: {user_message.strip()}",
+            ]
+        )
+
+    @staticmethod
+    def _normalize_calc_formula_response(response_text: str) -> str | None:
+        normalized = response_text.strip()
+        if not normalized or normalized.casefold() == "no_formula":
+            return None
+        # Strip markdown fences if present.
+        if normalized.startswith("```") and normalized.endswith("```"):
+            lines = normalized.splitlines()
+            if lines and lines[0].startswith("```"):
+                lines = lines[1:]
+            if lines and lines[-1].startswith("```"):
+                lines = lines[:-1]
+            normalized = "\n".join(lines).strip()
+        # Must look like a formula.
+        if normalized.startswith("="):
+            return normalized
+        return None
+
+    @staticmethod
+    def _build_impress_rewrite_prompt(user_message: str) -> str:
+        return "\n".join(
+            [
+                "You are a LibreOffice Impress text editor.",
+                "Rewrite the selected slide text according to the user request.",
+                "Reply with ONLY the rewritten text. No explanation, no markdown fences.",
+                f"User request: {user_message.strip()}",
+            ]
+        )
 
     def _complete_direct_answer(self, request: ChatRequest) -> str:
         provider_request = ProviderRequest(

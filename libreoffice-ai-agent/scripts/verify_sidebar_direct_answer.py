@@ -18,6 +18,10 @@ SCAFFOLD_DIRECT_ANSWER = (
 )
 
 
+def flatten_text(text: str) -> str:
+    return text.replace("\r", "\\r").replace("\n", "\\n")
+
+
 def extract_section(summary_text: str, header: str, next_header: str | None = None) -> str:
     header_marker = f"{header}:\n"
     start_index = summary_text.find(header_marker)
@@ -70,9 +74,30 @@ def verify(
         open_dispatch.dispatch(open_sidebar_url, ())
 
         panel_window = get_sidebar_panel_window(context, frame)
+        provider_input = panel_window.getControl("ProviderInput")
+        model_input = panel_window.getControl("ModelInput")
+        save_settings_button = panel_window.getControl("SaveSettingsButton")
+        settings_status_control = panel_window.getControl("SettingsStatus")
 
         status_after_open = model_text(panel_window.getControl("Status"))
+        settings_after_open = model_text(settings_status_control)
         approve_button = panel_window.getControl("ApproveButton")
+        results["SETTINGS_CONTROLS_RENDERED"] = str(
+            all(
+                control is not None
+                for control in (
+                    provider_input,
+                    model_input,
+                    save_settings_button,
+                    settings_status_control,
+                )
+            )
+        )
+        results["PROVIDER_INPUT_HAS_VALUE"] = str(bool(model_text(provider_input).strip()))
+        results["MODEL_INPUT_HAS_VALUE"] = str(bool(model_text(model_input).strip()))
+        results["SETTINGS_STATUS_HAS_HEADER"] = str(
+            "Writer-first settings:" in settings_after_open
+        )
         results["OPEN_STATUS_HAS_COMMAND"] = str(
             "Last command: open-sidebar" in status_after_open
         )
@@ -94,6 +119,9 @@ def verify(
         summary_after_answer = model_text(panel_window.getControl("Summary"))
         rendered_result = extract_section(summary_after_answer, "Last result", "Recent activity")
         rendered_recent_activity = extract_section(summary_after_answer, "Recent activity")
+        results["RAW_STATUS_AFTER_ANSWER"] = flatten_text(status_after_answer)
+        results["RAW_SUMMARY_AFTER_ANSWER"] = flatten_text(summary_after_answer)
+        results["RENDERED_RESULT"] = flatten_text(rendered_result)
         results["CONNECTED_AFTER_ANSWER"] = str(
             "Connection: connected to sidecar" in status_after_answer
         )
@@ -135,6 +163,14 @@ def verify(
         results["APPROVE_ENABLED_AFTER_ANSWER"] = str(approve_button.isEnabled())
 
         failures: list[str] = []
+        if results["SETTINGS_CONTROLS_RENDERED"] != "True":
+            failures.append("Sidebar settings controls did not render after opening the panel.")
+        if results["PROVIDER_INPUT_HAS_VALUE"] != "True":
+            failures.append("Provider input did not render with an initial value.")
+        if results["MODEL_INPUT_HAS_VALUE"] != "True":
+            failures.append("Model input did not render with an initial value.")
+        if results["SETTINGS_STATUS_HAS_HEADER"] != "True":
+            failures.append("Settings section did not render its Writer-first header.")
         if results["OPEN_STATUS_HAS_COMMAND"] != "True":
             failures.append("Sidebar status did not reflect the open-sidebar command.")
         if results["APPROVE_ENABLED_AFTER_OPEN"] != "False":

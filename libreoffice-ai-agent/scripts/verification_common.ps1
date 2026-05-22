@@ -236,6 +236,8 @@ function Invoke-LoaiaVerificationProbe {
 		[string]$ProbeScriptPath,
 		[string[]]$ProbeArguments = @(),
 		[string]$SidecarPythonPath,
+		[string[]]$SidecarExtraArguments = @(),
+		[hashtable]$SidecarEnvironment,
 		[int]$MaxProbeAttempts = 3,
 		[switch]$ResetUserProfileDir,
 		[switch]$SkipBuild,
@@ -307,8 +309,25 @@ function Invoke-LoaiaVerificationProbe {
 			if ($SidecarPythonPath) {
 				$sidecarArguments += @("-PythonPath", $SidecarPythonPath)
 			}
+			if ($SidecarExtraArguments) {
+				$sidecarArguments += $SidecarExtraArguments
+			}
 
-			$sidecarProcess = Start-Process -FilePath $shellPath -ArgumentList $sidecarArguments -PassThru
+			$sidecarProcessArguments = @{
+				FilePath = $shellPath
+				ArgumentList = $sidecarArguments
+				PassThru = $true
+			}
+			if ($SidecarEnvironment -and $SidecarEnvironment.Count -gt 0) {
+				$startProcessCommand = Get-Command Start-Process -ErrorAction Stop
+				if (-not $startProcessCommand.Parameters.ContainsKey("Environment")) {
+					throw "Current PowerShell does not support Start-Process -Environment."
+				}
+
+				$sidecarProcessArguments.Environment = $SidecarEnvironment
+			}
+
+			$sidecarProcess = Start-Process @sidecarProcessArguments
 			Write-Host "SIDECAR_PID=$($sidecarProcess.Id)"
 		}
 

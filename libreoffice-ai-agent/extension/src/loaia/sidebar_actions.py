@@ -21,12 +21,7 @@ except ImportError:  # pragma: no cover - exercised under LibreOffice runtime
 
     unohelper = _UnoHelperModule()
 
-from loaia_shared.errors import TransportError
-from loaia_shared.transport import (
-    DEFAULT_NAMED_PIPE_ADDRESS,
-    decode_transport_payload,
-    encode_transport_payload,
-)
+from loaia.actions.executor import execute_safe_formatting, is_safe_formatting_action
 from loaia.document_session import (
     DEFAULT_PROFILE_ID,
     get_controller,
@@ -35,6 +30,12 @@ from loaia.document_session import (
     resolve_history_session_key,
 )
 from loaia.session_store import JsonSidebarSessionStore, describe_api_key_status
+from loaia_shared.errors import TransportError
+from loaia_shared.transport import (
+    DEFAULT_NAMED_PIPE_ADDRESS,
+    decode_transport_payload,
+    encode_transport_payload,
+)
 
 if TYPE_CHECKING:
     from loaia.sidebar_panel import SidebarPanel
@@ -201,6 +202,26 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 return message
 
             proposal = _proposal_from_payload(proposals[0])
+
+            # Auto-apply safe formatting actions without preview/approval.
+            if is_safe_formatting_action(proposal.tool_id):
+                try:
+                    result_message = execute_safe_formatting(
+                        self.panel.frame, proposal.tool_id
+                    )
+                except (ValueError, RuntimeError) as exc:
+                    self.panel.set_last_error(str(exc))
+                    self.panel.append_message(str(exc))
+                    self._record_error(session_key, str(exc))
+                    return str(exc)
+
+                self._pending_selection = None
+                self.panel.clear_pending_proposal()
+                self.panel.set_last_result(result_message)
+                self.panel.append_message(result_message)
+                self._record_result(session_key, result_message, role="system")
+                return result_message
+
             preview = proposal.preview
             summary = preview.summary if preview is not None else proposal.tool_id
             self._pending_selection = selection

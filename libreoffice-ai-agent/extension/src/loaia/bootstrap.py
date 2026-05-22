@@ -1,7 +1,7 @@
-from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.document_session import resolve_history_session_key
-from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel, SidebarUIElement
 from loaia.session_store import JsonSidebarSessionStore
+from loaia.sidebar_actions import SidebarDialogEventHandler
+from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel, SidebarUIElement
 
 EXTENSION_IDENTIFIER = "org.gungwang.libreoffice-ai-agent"
 PROTOCOL_SCHEME = "vnd.org.libreoffice.ai.agent:"

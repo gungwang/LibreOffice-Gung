@@ -45,7 +45,7 @@ def test_named_pipe_chat_round_trip() -> None:
         requestId="req-1",
         app=AppType.WRITER,
         document=DocumentRef(canonicalUrl="file:///example.odt", profileId="profile-1"),
-        provider="openai-compatible",
+        provider="unregistered-test-provider",
         model="local-default",
         privacyScope=PrivacyScope.SELECTION_ONLY,
         context={},

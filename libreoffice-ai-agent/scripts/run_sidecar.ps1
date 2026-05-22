@@ -1,6 +1,7 @@
 param(
 	[string]$ProjectRoot = (Join-Path $PSScriptRoot ".."),
-	[string]$PythonPath
+	[string]$PythonPath,
+	[string]$ClearEnvVars = ""
 )
 
 Set-StrictMode -Version Latest
@@ -29,6 +30,12 @@ function Resolve-PythonPath {
 $projectRootPath = [System.IO.Path]::GetFullPath($ProjectRoot)
 if (-not (Test-Path -LiteralPath $projectRootPath)) {
 	throw "Project root not found: $projectRootPath"
+}
+
+foreach ($envVar in @($ClearEnvVars -split ";")) {
+	if (-not [string]::IsNullOrWhiteSpace($envVar)) {
+		Set-Item -Path ("Env:" + $envVar.Trim()) -Value " "
+	}
 }
 
 Import-LoaiaDotEnv -ProjectRoot $projectRootPath -PreserveExisting
