@@ -8,6 +8,7 @@ PROTOCOL_SCHEME = "vnd.org.libreoffice.ai.agent:"
 OPEN_SIDEBAR_COMMAND = "open-sidebar"
 PREVIEW_SELECTION_COMMAND = "preview-selection"
 APPROVE_PENDING_COMMAND = "approve-pending"
+SAVE_SETTINGS_COMMAND = "save-settings"
 SIDEBAR_FACTORY_NAME = "LoaiaPanelFactory"
 SIDEBAR_PANEL_ID = "LoaiaPanel"
 SIDEBAR_RESOURCE_URL = f"private:resource/toolpanel/{SIDEBAR_FACTORY_NAME}/{SIDEBAR_PANEL_ID}"
@@ -83,6 +84,22 @@ class ExtensionBootstrap:
         panel.attach_frame(frame)
         panel.set_last_command(APPROVE_PENDING_COMMAND)
         return self.get_event_handler().approve_pending(window=window)
+
+    def save_settings(
+        self,
+        frame: object | None = None,
+        window: object | None = None,
+        provider: str | None = None,
+        model: str | None = None,
+    ) -> str:
+        panel = self.get_panel()
+        panel.attach_frame(frame)
+        panel.set_last_command(SAVE_SETTINGS_COMMAND)
+        return self.get_event_handler().save_settings(
+            window=window,
+            provider=provider,
+            model=model,
+        )
 
     def create_sidebar_ui_element(
         self,

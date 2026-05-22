@@ -7,15 +7,16 @@ from loaia.bootstrap import (
     OPEN_SIDEBAR_COMMAND,
     PREVIEW_SELECTION_COMMAND,
     PROTOCOL_SCHEME,
+    SAVE_SETTINGS_COMMAND,
     SIDEBAR_DIALOG_PATH,
     SIDEBAR_RESOURCE_URL,
     ExtensionBootstrap,
 )
+from loaia.document_session import DocumentSessionKey
 from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_python import LoaiaProtocolHandlerProvider, LoaiaSidebarPanelFactory
 from loaia_shared.defaults import get_default_model, get_default_provider
-from loaia_shared.schema.history import HistorySessionKey
 from loaia_shared.types import AppType
 from loaia.session_store import InMemorySidebarSessionStore
 
@@ -229,6 +230,37 @@ def test_protocol_handler_preview_command_accepts_pipe_address_override() -> Non
     assert panel.state.last_command == PREVIEW_SELECTION_COMMAND
 
 
+def test_protocol_handler_dispatches_save_settings_command() -> None:
+    store = InMemorySidebarSessionStore()
+    runtime = ExtensionBootstrap(session_store=store)
+    provider = LoaiaProtocolHandlerProvider(runtime=runtime)
+    frame = FakeFrame(FakeWriterController(FakeWriterTextRange("hello world")))
+    provider.initialize((frame,))
+
+    save_url = SimpleNamespace(
+        Protocol=PROTOCOL_SCHEME,
+        Path=SAVE_SETTINGS_COMMAND,
+        Complete=f"{PROTOCOL_SCHEME}{SAVE_SETTINGS_COMMAND}",
+    )
+    dispatch = provider.queryDispatch(save_url, "_self", 0)
+
+    assert dispatch is not None
+
+    save_args = (
+        SimpleNamespace(Name="Provider", Value="openrouter"),
+        SimpleNamespace(Name="Model", Value="openai/gpt-4.1"),
+    )
+    dispatch.dispatch(save_url, save_args)
+
+    panel = runtime.get_panel()
+    settings = store.load_settings()
+    assert settings.provider == "openrouter"
+    assert settings.model == "openai/gpt-4.1"
+    assert panel.state.provider == "openrouter"
+    assert panel.state.model == "openai/gpt-4.1"
+    assert panel.state.last_command == SAVE_SETTINGS_COMMAND
+
+
 def test_sidebar_factory_creates_toolpanel_ui_element() -> None:
     runtime = ExtensionBootstrap(session_store=InMemorySidebarSessionStore())
     factory = LoaiaSidebarPanelFactory(runtime=runtime)
@@ -396,10 +428,10 @@ def test_sidebar_toolpanel_refreshes_dialog_controls_from_panel_state() -> None:
 def test_open_sidebar_restores_persisted_writer_session() -> None:
     store = InMemorySidebarSessionStore()
     store.save_settings("openrouter", "openai/gpt-4.1")
-    session_key = HistorySessionKey(
-        profileId="default-profile",
-        canonicalDocumentUrl="file:///test-writer-document.odt",
-        appType=AppType.WRITER,
+    session_key = DocumentSessionKey(
+        profile_id="default-profile",
+        canonical_document_url="file:///test-writer-document.odt",
+        app_type=AppType.WRITER,
     )
     store.record_request(
         session_key,

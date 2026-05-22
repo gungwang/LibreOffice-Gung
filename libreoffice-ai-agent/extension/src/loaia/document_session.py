@@ -1,10 +1,18 @@
 from __future__ import annotations
 
-from loaia_shared.schema.history import HistorySessionKey
+from dataclasses import dataclass
+
 from loaia_shared.types import AppType
 
 DEFAULT_PROFILE_ID = "default-profile"
 DEFAULT_DOCUMENT_URL = "file:///writer-document.odt"
+
+
+@dataclass(frozen=True, slots=True)
+class DocumentSessionKey:
+    profile_id: str
+    canonical_document_url: str
+    app_type: AppType
 
 
 def get_controller(frame: object | None) -> object:
@@ -79,13 +87,13 @@ def resolve_app_type(frame: object | None) -> AppType | None:
     return None
 
 
-def resolve_history_session_key(frame: object | None) -> HistorySessionKey | None:
+def resolve_history_session_key(frame: object | None) -> DocumentSessionKey | None:
     app_type = resolve_app_type(frame)
     if app_type is None:
         return None
 
-    return HistorySessionKey(
-        profileId=DEFAULT_PROFILE_ID,
-        canonicalDocumentUrl=resolve_document_url(frame),
-        appType=app_type,
+    return DocumentSessionKey(
+        profile_id=DEFAULT_PROFILE_ID,
+        canonical_document_url=resolve_document_url(frame),
+        app_type=app_type,
     )

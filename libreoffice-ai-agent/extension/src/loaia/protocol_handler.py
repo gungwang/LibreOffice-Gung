@@ -3,6 +3,7 @@ from loaia.bootstrap import (
     OPEN_SIDEBAR_COMMAND,
     PREVIEW_SELECTION_COMMAND,
     PROTOCOL_SCHEME,
+    SAVE_SETTINGS_COMMAND,
     ExtensionBootstrap,
     bootstrap,
 )
@@ -13,6 +14,7 @@ class AIProtocolHandler:
         OPEN_SIDEBAR_COMMAND,
         PREVIEW_SELECTION_COMMAND,
         APPROVE_PENDING_COMMAND,
+        SAVE_SETTINGS_COMMAND,
     }
 
     def __init__(self, runtime: ExtensionBootstrap | None = None) -> None:
@@ -47,6 +49,15 @@ class AIProtocolHandler:
                 pipe_address=pipe_address,
             )
 
+        if command == SAVE_SETTINGS_COMMAND:
+            provider = self._argument_value(arguments, "Provider")
+            model = self._argument_value(arguments, "Model")
+            return self.save_settings(
+                frame=self._frame,
+                provider=provider,
+                model=model,
+            )
+
         return self.approve_pending(frame=self._frame)
 
     def open_sidebar(self, frame: object | None = None) -> str:
@@ -67,6 +78,18 @@ class AIProtocolHandler:
 
     def approve_pending(self, frame: object | None = None) -> str:
         return self.runtime.approve_pending(frame=frame)
+
+    def save_settings(
+        self,
+        frame: object | None = None,
+        provider: str | None = None,
+        model: str | None = None,
+    ) -> str:
+        return self.runtime.save_settings(
+            frame=frame,
+            provider=provider,
+            model=model,
+        )
 
     @staticmethod
     def _path_from_complete(complete: str) -> str:

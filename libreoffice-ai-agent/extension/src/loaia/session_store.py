@@ -7,8 +7,8 @@ from dataclasses import dataclass, field
 from hashlib import sha1
 from pathlib import Path
 
+from loaia.document_session import DocumentSessionKey
 from loaia_shared.defaults import get_default_model, get_default_provider
-from loaia_shared.schema.history import HistoryMessage, HistorySessionKey
 
 OPENROUTER_API_KEY_ENV_VARS = ("LOAIA_OPENROUTER_API_KEY", "OPENROUTER_API_KEY")
 STATE_ROOT_ENV_VAR = "LOAIA_EXTENSION_STATE_ROOT"
@@ -40,8 +40,15 @@ def _default_state_root() -> Path:
     return Path.home() / ".libreoffice-ai-agent"
 
 
-def _make_session_id(session_key: HistorySessionKey) -> str:
-    payload = session_key.model_dump_json(by_alias=True)
+def _make_session_id(session_key: DocumentSessionKey) -> str:
+    payload = json.dumps(
+        {
+            "profileId": session_key.profile_id,
+            "canonicalDocumentUrl": session_key.canonical_document_url,
+            "appType": str(session_key.app_type),
+        },
+        sort_keys=True,
+    )
     return sha1(payload.encode("utf-8")).hexdigest()
 
 
@@ -90,7 +97,7 @@ class JsonSidebarSessionStore:
             api_key_status=describe_api_key_status(provider),
         )
 
-    def load_session(self, session_key: HistorySessionKey | None) -> SidebarSessionSnapshot:
+    def load_session(self, session_key: DocumentSessionKey | None) -> SidebarSessionSnapshot:
         if session_key is None:
             return SidebarSessionSnapshot()
 
@@ -98,23 +105,24 @@ class JsonSidebarSessionStore:
         sessions = data.get("sessions", {})
         session_payload = sessions.get(_make_session_id(session_key), {})
         messages = [
-            HistoryMessage.model_validate(message)
-            for message in session_payload.get("messages", [])
-            if isinstance(message, dict)
+            message
+            for message in (
+                self._coerce_history_message(message)
+                for message in session_payload.get("messages", [])
+            )
+            if message is not None
         ]
         return SidebarSessionSnapshot(
             last_prompt=self._coerce_optional_str(session_payload.get("lastPrompt")),
             last_result=self._coerce_optional_str(session_payload.get("lastResult")),
             last_error=self._coerce_optional_str(session_payload.get("lastError")),
-            message_texts=[message.text for message in messages],
-            history_summary=[
-                message.model_dump(mode="json") for message in messages[-6:]
-            ],
+            message_texts=[str(message["text"]) for message in messages],
+            history_summary=[dict(message) for message in messages[-6:]],
         )
 
     def record_request(
         self,
-        session_key: HistorySessionKey | None,
+        session_key: DocumentSessionKey | None,
         prompt: str,
         provider: str,
         model: str,
@@ -128,13 +136,18 @@ class JsonSidebarSessionStore:
         session_payload["lastError"] = None
         self._append_message(
             session_payload,
-            HistoryMessage(role="user", text=prompt, provider=provider, model=model),
+            self._make_history_message(
+                role="user",
+                text=prompt,
+                provider=provider,
+                model=model,
+            ),
         )
         self._write_data(data)
 
     def record_result(
         self,
-        session_key: HistorySessionKey | None,
+        session_key: DocumentSessionKey | None,
         text: str,
         provider: str,
         model: str,
@@ -149,11 +162,16 @@ class JsonSidebarSessionStore:
         session_payload["lastError"] = None
         self._append_message(
             session_payload,
-            HistoryMessage(role=role, text=text, provider=provider, model=model),
+            self._make_history_message(
+                role=role,
+                text=text,
+                provider=provider,
+                model=model,
+            ),
         )
         self._write_data(data)
 
-    def record_error(self, session_key: HistorySessionKey | None, error_message: str) -> None:
+    def record_error(self, session_key: DocumentSessionKey | None, error_message: str) -> None:
         if session_key is None:
             return
 
@@ -162,7 +180,7 @@ class JsonSidebarSessionStore:
         session_payload["lastError"] = error_message
         self._append_message(
             session_payload,
-            HistoryMessage(role="system", text=error_message),
+            self._make_history_message(role="system", text=error_message),
         )
         self._write_data(data)
 
@@ -187,20 +205,23 @@ class JsonSidebarSessionStore:
         return value if isinstance(value, str) else None
 
     @staticmethod
-    def _append_message(session_payload: dict[str, object], message: HistoryMessage) -> None:
+    def _append_message(
+        session_payload: dict[str, object],
+        message: dict[str, object],
+    ) -> None:
         raw_messages = session_payload.setdefault("messages", [])
         if not isinstance(raw_messages, list):
             raw_messages = []
             session_payload["messages"] = raw_messages
 
-        raw_messages.append(message.model_dump(mode="json"))
+        raw_messages.append(message)
         if len(raw_messages) > MAX_HISTORY_MESSAGES:
             del raw_messages[:-MAX_HISTORY_MESSAGES]
 
     @staticmethod
     def _get_session_payload(
         data: dict[str, object],
-        session_key: HistorySessionKey,
+        session_key: DocumentSessionKey,
     ) -> dict[str, object]:
         sessions = data.setdefault("sessions", {})
         if not isinstance(sessions, dict):
@@ -211,18 +232,68 @@ class JsonSidebarSessionStore:
         session_payload = sessions.setdefault(
             session_id,
             {
-                "key": session_key.model_dump(by_alias=True, mode="json"),
+                "key": {
+                    "profileId": session_key.profile_id,
+                    "canonicalDocumentUrl": session_key.canonical_document_url,
+                    "appType": str(session_key.app_type),
+                },
                 "messages": [],
             },
         )
         if not isinstance(session_payload, dict):
             session_payload = {
-                "key": session_key.model_dump(by_alias=True, mode="json"),
+                "key": {
+                    "profileId": session_key.profile_id,
+                    "canonicalDocumentUrl": session_key.canonical_document_url,
+                    "appType": str(session_key.app_type),
+                },
                 "messages": [],
             }
             sessions[session_id] = session_payload
 
         return session_payload
+
+    @staticmethod
+    def _make_history_message(
+        *,
+        role: str,
+        text: str,
+        provider: str | None = None,
+        model: str | None = None,
+    ) -> dict[str, object]:
+        message: dict[str, object] = {
+            "role": role,
+            "text": text,
+        }
+        if provider is not None:
+            message["provider"] = provider
+        if model is not None:
+            message["model"] = model
+
+        return message
+
+    @staticmethod
+    def _coerce_history_message(message: object) -> dict[str, object] | None:
+        if not isinstance(message, dict):
+            return None
+
+        role = message.get("role")
+        text = message.get("text")
+        if not isinstance(role, str) or not isinstance(text, str):
+            return None
+
+        normalized: dict[str, object] = {
+            "role": role,
+            "text": text,
+        }
+        provider = message.get("provider")
+        if isinstance(provider, str):
+            normalized["provider"] = provider
+        model = message.get("model")
+        if isinstance(model, str):
+            normalized["model"] = model
+
+        return normalized
 
 
 class InMemorySidebarSessionStore(JsonSidebarSessionStore):

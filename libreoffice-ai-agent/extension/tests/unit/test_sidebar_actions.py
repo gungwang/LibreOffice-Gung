@@ -2,11 +2,11 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 from loaia.bootstrap import SIDEBAR_RESOURCE_URL
+from loaia.document_session import DocumentSessionKey
 from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_shared.defaults import get_default_provider
 from loaia_shared.errors import TransportError
-from loaia_shared.schema.history import HistorySessionKey
 from loaia_shared.types import AppType
 from loaia.session_store import InMemorySidebarSessionStore
 
@@ -472,10 +472,10 @@ def test_sidebar_save_settings_persists_provider_and_model() -> None:
 
 def test_sidebar_send_action_uses_only_prior_history_in_request_summary() -> None:
     store = InMemorySidebarSessionStore()
-    session_key = HistorySessionKey(
-        profileId="default-profile",
-        canonicalDocumentUrl="file:///test-writer-document.odt",
-        appType=AppType.WRITER,
+    session_key = DocumentSessionKey(
+        profile_id="default-profile",
+        canonical_document_url="file:///test-writer-document.odt",
+        app_type=AppType.WRITER,
     )
     store.record_request(
         session_key,

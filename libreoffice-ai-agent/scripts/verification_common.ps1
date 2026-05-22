@@ -220,7 +220,7 @@ function Remove-LoaiaGeneratedRunProfiles {
 	$runProfileDirsToRemove = @($runProfileDirs | Select-Object -Skip $KeepNewest)
 	foreach ($runProfileDir in $runProfileDirsToRemove) {
 		$runProfileUrl = Convert-ToFileUrl -Path $runProfileDir.FullName
-		if ((Get-LoaiaProfileProcesses -UserInstallationUrl $runProfileUrl).Count -gt 0) {
+		if (@(Get-LoaiaProfileProcesses -UserInstallationUrl $runProfileUrl).Count -gt 0) {
 			continue
 		}
 
@@ -334,8 +334,12 @@ function Invoke-LoaiaVerificationProbe {
 			Wait-LoaiaOfficeStartup -UserInstallationUrl $userInstallationUrl
 
 			try {
-				& $pythonPath $resolvedProbeScriptPath $pipeName @ProbeArguments
+				$probeOutput = & $pythonPath -u $resolvedProbeScriptPath $pipeName @ProbeArguments 2>&1
 				$probeExitCode = $LASTEXITCODE
+				foreach ($probeOutputLine in @($probeOutput)) {
+					Write-Host $probeOutputLine
+				}
+				Write-Host "PROBE_EXIT_CODE=$probeExitCode"
 			} finally {
 				if ($sofficeProcess -and -not $sofficeProcess.HasExited) {
 					Stop-Process -Id $sofficeProcess.Id -Force -ErrorAction SilentlyContinue

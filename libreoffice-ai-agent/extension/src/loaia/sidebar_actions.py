@@ -107,8 +107,17 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
     def approve_pending(self, window: object | None = None) -> str:
         return self._handle_approve(window=window)
 
-    def save_settings(self, window: object | None = None) -> str:
-        return self._handle_save_settings(window=window)
+    def save_settings(
+        self,
+        window: object | None = None,
+        provider: str | None = None,
+        model: str | None = None,
+    ) -> str:
+        return self._handle_save_settings(
+            window=window,
+            provider_override=provider,
+            model_override=model,
+        )
 
     def _handle_send(
         self,
@@ -243,9 +252,22 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         _set_control_text(window, "PromptInput", "")
         return applied_message
 
-    def _handle_save_settings(self, window: object | None) -> str:
-        provider = _get_control_text(window, "ProviderInput").strip()
-        model = _get_control_text(window, "ModelInput").strip()
+    def _handle_save_settings(
+        self,
+        window: object | None,
+        provider_override: str | None = None,
+        model_override: str | None = None,
+    ) -> str:
+        provider = (
+            provider_override
+            if provider_override is not None
+            else _get_control_text(window, "ProviderInput")
+        ).strip()
+        model = (
+            model_override
+            if model_override is not None
+            else _get_control_text(window, "ModelInput")
+        ).strip()
         if not provider or not model:
             message = "Provider and model must both be set before saving settings."
             self.panel.apply_settings(
@@ -263,6 +285,10 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             api_key_status = snapshot.api_key_status
 
         message = "Saved Writer-first provider settings."
+        if provider_override is not None:
+            _set_control_text(window, "ProviderInput", provider)
+        if model_override is not None:
+            _set_control_text(window, "ModelInput", model)
         self.panel.apply_settings(
             provider=provider,
             model=model,

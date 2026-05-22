@@ -75,6 +75,26 @@ def model_text(control: object) -> str:
     return ""
 
 
+def set_model_text(control: object, value: str) -> None:
+    if hasattr(control, "setText"):
+        control.setText(value)
+        return
+
+    model = control.getModel()
+    for attribute_name in ("Text", "Label"):
+        if hasattr(model, attribute_name):
+            setattr(model, attribute_name, value)
+            return
+
+    if hasattr(model, "setPropertyValue"):
+        for property_name in ("Text", "Label"):
+            try:
+                model.setPropertyValue(property_name, value)
+                return
+            except Exception:
+                continue
+
+
 def load_document(context: object, component_url: str) -> tuple[object, object]:
     service_manager = context.ServiceManager
     desktop = service_manager.createInstanceWithContext(
@@ -103,6 +123,18 @@ def get_sidebar_panel_window(context: object, frame: object) -> object:
         ),
     )
     return ui_element.getRealInterface().Window
+
+
+def control_is_enabled(control: object) -> bool:
+    if hasattr(control, "isEnabled"):
+        return bool(control.isEnabled())
+
+    model = control.getModel()
+    enabled = getattr(model, "Enabled", None)
+    if isinstance(enabled, bool):
+        return enabled
+
+    return False
 
 
 def close_document_session(document: object | None, desktop: object | None) -> None:
