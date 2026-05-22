@@ -160,6 +160,30 @@ $calcSafeFormattingExitCode = Invoke-SmokeScript `
 	-UseStateIsolation
 $results.Add([pscustomobject]@{ Scenario = "Calc safe formatting"; ExitCode = $calcSafeFormattingExitCode; CoveredBy = "verify_calc_safe_formatting.ps1" }) | Out-Null
 
+$calcFormulaArgumentMap = @{
+	ProjectRoot = $projectRootPath
+	Prompt = "Insert a SUM formula for cells A1 through A10."
+	InitialValue = "100"
+	Provider = $resolvedProvider
+	Model = $resolvedModel
+	SkipBuild = $true
+}
+if ($LibreOfficeProgramPath) {
+	$calcFormulaArgumentMap.LibreOfficeProgramPath = $LibreOfficeProgramPath
+}
+if ($PythonPath) {
+	$calcFormulaArgumentMap.PythonPath = $PythonPath
+}
+
+$calcFormulaExitCode = Invoke-SmokeScript `
+	-Scenario "calc-formula" `
+	-Invocation {
+		& (Join-Path $PSScriptRoot "verify_calc_formula.ps1") @calcFormulaArgumentMap
+	} `
+	-StateRootDir (Join-Path $stateRootBaseDir "calc-formula") `
+	-UseStateIsolation
+$results.Add([pscustomobject]@{ Scenario = "Calc formula"; ExitCode = $calcFormulaExitCode; CoveredBy = "verify_calc_formula.ps1" }) | Out-Null
+
 $previewArgumentMap = @{
 	ProjectRoot = $projectRootPath
 	Prompt = "Rewrite this selection into a more formal sentence."
