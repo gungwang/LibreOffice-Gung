@@ -14,6 +14,15 @@ from verification_probe_common import (
 
 INVALID_SELECTION = "invalid-selection"
 UNSUPPORTED_DOCUMENT = "unsupported-document"
+TRANSPORT_ERROR = "transport-error"
+
+
+def shorten_text(text: str, limit: int = 90) -> str:
+    normalized = text.strip()
+    if len(normalized) <= limit:
+        return normalized
+
+    return f"{normalized[: limit - 3].rstrip()}..."
 
 
 def verify(
@@ -21,9 +30,12 @@ def verify(
     prompt: str,
     initial_text: str,
     scenario: str = INVALID_SELECTION,
+    pipe_address: str | None = None,
 ) -> int:
     if scenario == INVALID_SELECTION:
         expected_error = "Select text in Writer before sending a request."
+        expected_status_error = expected_error
+        expected_recent_activity = expected_error
         document_url = "private:factory/swriter"
         value_key = "DOC_TEXT"
         waiting_failure = (
@@ -38,8 +50,12 @@ def verify(
         unchanged_value_failure = (
             "Invalid-selection flow unexpectedly changed the Writer document."
         )
+        approve_failure = "Approve should stay disabled after invalid selection."
+        expected_selection_summary = "Selection:\nNo captured selection yet."
     elif scenario == UNSUPPORTED_DOCUMENT:
         expected_error = "Sidebar actions currently support Writer documents only."
+        expected_status_error = expected_error
+        expected_recent_activity = expected_error
         document_url = "private:factory/scalc"
         value_key = "CELL_TEXT"
         waiting_failure = (
@@ -55,6 +71,34 @@ def verify(
         unchanged_value_failure = (
             "Unsupported-document flow unexpectedly changed the Calc cell value."
         )
+        approve_failure = (
+            "Approve should stay disabled after unsupported document validation."
+        )
+        expected_selection_summary = "Selection:\nNo captured selection yet."
+    elif scenario == TRANSPORT_ERROR:
+        if not pipe_address:
+            print("Missing pipe address for transport-error scenario.", file=sys.stderr)
+            return 2
+
+        expected_error = f"Could not connect to sidecar pipe at {pipe_address}"
+        expected_status_error = shorten_text(expected_error, limit=90)
+        expected_recent_activity = expected_status_error
+        document_url = "private:factory/swriter"
+        value_key = "DOC_TEXT"
+        waiting_failure = (
+            "Connection state did not remain in the waiting state after transport error."
+        )
+        expected_error_failure = (
+            "Sidebar status did not show the expected sidecar transport error."
+        )
+        recent_activity_failure = (
+            "Sidebar recent activity did not include the transport error."
+        )
+        unchanged_value_failure = (
+            "Transport error flow unexpectedly changed the Writer document."
+        )
+        approve_failure = "Approve should stay disabled after a transport error."
+        expected_selection_summary = f"Selection:\n{initial_text}"
     else:
         print(f"Unsupported scenario: {scenario}", file=sys.stderr)
         return 2
@@ -93,10 +137,14 @@ def verify(
         )
         results["APPROVE_ENABLED_AFTER_OPEN"] = str(approve_button.isEnabled())
 
-        if scenario == INVALID_SELECTION:
+        if scenario in (INVALID_SELECTION, TRANSPORT_ERROR):
             text = document.Text
             cursor = text.createTextCursor()
             text.insertString(cursor, initial_text, False)
+            if scenario == TRANSPORT_ERROR:
+                cursor.gotoStart(False)
+                cursor.goRight(len(initial_text), True)
+                controller.select(cursor)
             current_value = document.Text.getString()
         else:
             sheet = document.getSheets().getByIndex(0)
@@ -104,10 +152,11 @@ def verify(
             cell.setString(initial_text)
             current_value = cell.getString()
 
-        preview_dispatch.dispatch(
-            preview_url,
-            (make_property("Prompt", prompt),),
-        )
+        dispatch_properties = [make_property("Prompt", prompt)]
+        if scenario == TRANSPORT_ERROR:
+            dispatch_properties.append(make_property("PipeAddress", pipe_address))
+
+        preview_dispatch.dispatch(preview_url, tuple(dispatch_properties))
 
         status_after_error = model_text(panel_window.getControl("Status"))
         summary_after_error = model_text(panel_window.getControl("Summary"))
@@ -118,11 +167,11 @@ def verify(
             "Last command: preview-selection" in status_after_error
         )
         results["HAS_EXPECTED_ERROR_IN_STATUS"] = str(
-            f"Last error: {expected_error}" in status_after_error
+            f"Last error: {expected_status_error}" in status_after_error
         )
         results["HAS_PROMPT_IN_SUMMARY"] = str(f"Prompt:\n{prompt}" in summary_after_error)
-        results["HAS_NO_SELECTION_IN_SUMMARY"] = str(
-            "Selection:\nNo captured selection yet." in summary_after_error
+        results["HAS_EXPECTED_SELECTION_IN_SUMMARY"] = str(
+            expected_selection_summary in summary_after_error
         )
         results["HAS_NO_PENDING_PREVIEW"] = str(
             "Pending preview:\nNo pending proposal." in summary_after_error
@@ -131,7 +180,7 @@ def verify(
             "Last result:\nNo completed result yet." in summary_after_error
         )
         results["HAS_RECENT_ERROR_ACTIVITY"] = str(
-            f"Recent activity:\n- {expected_error}" in summary_after_error
+            f"Recent activity:\n- {expected_recent_activity}" in summary_after_error
         )
         results[value_key] = current_value
         results["APPROVE_ENABLED_AFTER_ERROR"] = str(approve_button.isEnabled())
@@ -149,8 +198,8 @@ def verify(
             failures.append(expected_error_failure)
         if results["HAS_PROMPT_IN_SUMMARY"] != "True":
             failures.append("Sidebar summary did not retain the submitted prompt.")
-        if results["HAS_NO_SELECTION_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not keep the empty selection state.")
+        if results["HAS_EXPECTED_SELECTION_IN_SUMMARY"] != "True":
+            failures.append("Sidebar summary did not show the expected selection state.")
         if results["HAS_NO_PENDING_PREVIEW"] != "True":
             failures.append("Sidebar summary did not show the empty pending-preview state.")
         if results["HAS_NO_RESULT"] != "True":
@@ -160,7 +209,7 @@ def verify(
         if results[value_key] != initial_text:
             failures.append(unchanged_value_failure)
         if results["APPROVE_ENABLED_AFTER_ERROR"] != "False":
-            failures.append("Approve should stay disabled after invalid selection.")
+            failures.append(approve_failure)
 
         for key, value in results.items():
             print(f"{key}={value}")
@@ -178,22 +227,24 @@ def verify(
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) not in (3, 4):
+    if len(argv) not in (3, 4, 5):
         print(
             "Usage: verify_sidebar_invalid_selection.py <pipe_name> <prompt> "
-            "<initial_text> [<scenario>]",
+            "<initial_text> [<scenario> [<pipe_address>]]",
             file=sys.stderr,
         )
         return 2
 
     pipe_name, prompt, initial_text, *extra = argv
     scenario = extra[0] if extra else INVALID_SELECTION
+    pipe_address = extra[1] if len(extra) > 1 else None
     context = connect(pipe_name)
     return verify(
         context=context,
         prompt=prompt,
         initial_text=initial_text,
         scenario=scenario,
+        pipe_address=pipe_address,
     )
 
 
