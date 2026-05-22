@@ -25,8 +25,7 @@ Useful scripts:
 - `scripts/verify_protocol_actions.ps1` installs the OXT and live-verifies the Writer preview/apply protocol flow; by default it checks deterministic local rewrites, and with `-ExpectChangedText` plus `-Provider`/`-Model` it also validates provider-backed Writer proposals
 - `scripts/verify_sidebar_direct_answer.ps1` installs the OXT and live-verifies the open-sidebar plus direct-answer flow without changing the document; with `-ExpectNonScaffoldAnswer` plus `-Provider`/`-Model` it can force a provider-backed direct-answer check through the same runner
 - `scripts/verify_sidebar_transport_error.ps1` installs the OXT and live-verifies the sidecar-unavailable error path by dispatching preview-selection against an isolated missing pipe address
-- `scripts/verify_sidebar_invalid_selection.ps1` installs the OXT and live-verifies the local Writer no-selection validation path, where preview-selection should fail before any sidecar request is made
-- `scripts/verify_sidebar_unsupported_document.ps1` installs the OXT and live-verifies the Writer-only rejection path from Calc, where preview-selection should fail locally without changing the sheet
+- `scripts/verify_sidebar_invalid_selection.ps1` installs the OXT and live-verifies local pre-sidecar rejection paths; by default it checks the Writer no-selection validation, and with `-Scenario unsupported-document` it also validates the Calc Writer-only rejection without changing the sheet
 
 Canonical planning documents currently live in the parent repository docs folder:
 

@@ -12,17 +12,57 @@ from verification_probe_common import (
     model_text,
 )
 
+INVALID_SELECTION = "invalid-selection"
+UNSUPPORTED_DOCUMENT = "unsupported-document"
+
 
 def verify(
     context: object,
     prompt: str,
     initial_text: str,
+    scenario: str = INVALID_SELECTION,
 ) -> int:
-    expected_error = "Select text in Writer before sending a request."
+    if scenario == INVALID_SELECTION:
+        expected_error = "Select text in Writer before sending a request."
+        document_url = "private:factory/swriter"
+        value_key = "DOC_TEXT"
+        waiting_failure = (
+            "Connection state did not remain in the waiting state after invalid selection."
+        )
+        expected_error_failure = (
+            "Sidebar status did not show the expected invalid-selection error."
+        )
+        recent_activity_failure = (
+            "Sidebar recent activity did not include the invalid-selection error."
+        )
+        unchanged_value_failure = (
+            "Invalid-selection flow unexpectedly changed the Writer document."
+        )
+    elif scenario == UNSUPPORTED_DOCUMENT:
+        expected_error = "Sidebar actions currently support Writer documents only."
+        document_url = "private:factory/scalc"
+        value_key = "CELL_TEXT"
+        waiting_failure = (
+            "Connection state did not remain in the waiting state after unsupported "
+            "document validation."
+        )
+        expected_error_failure = (
+            "Sidebar status did not show the expected Writer-only error."
+        )
+        recent_activity_failure = (
+            "Sidebar recent activity did not include the Writer-only error."
+        )
+        unchanged_value_failure = (
+            "Unsupported-document flow unexpectedly changed the Calc cell value."
+        )
+    else:
+        print(f"Unsupported scenario: {scenario}", file=sys.stderr)
+        return 2
+
     desktop = None
     document = None
     try:
-        desktop, document = load_document(context, "private:factory/swriter")
+        desktop, document = load_document(context, document_url)
         controller = document.getCurrentController()
         frame = controller.getFrame()
 
@@ -53,9 +93,16 @@ def verify(
         )
         results["APPROVE_ENABLED_AFTER_OPEN"] = str(approve_button.isEnabled())
 
-        text = document.Text
-        cursor = text.createTextCursor()
-        text.insertString(cursor, initial_text, False)
+        if scenario == INVALID_SELECTION:
+            text = document.Text
+            cursor = text.createTextCursor()
+            text.insertString(cursor, initial_text, False)
+            current_value = document.Text.getString()
+        else:
+            sheet = document.getSheets().getByIndex(0)
+            cell = sheet.getCellByPosition(0, 0)
+            cell.setString(initial_text)
+            current_value = cell.getString()
 
         preview_dispatch.dispatch(
             preview_url,
@@ -86,7 +133,7 @@ def verify(
         results["HAS_RECENT_ERROR_ACTIVITY"] = str(
             f"Recent activity:\n- {expected_error}" in summary_after_error
         )
-        results["DOC_TEXT"] = document.Text.getString()
+        results[value_key] = current_value
         results["APPROVE_ENABLED_AFTER_ERROR"] = str(approve_button.isEnabled())
 
         failures: list[str] = []
@@ -95,13 +142,11 @@ def verify(
         if results["APPROVE_ENABLED_AFTER_OPEN"] != "False":
             failures.append("Approve should start disabled after opening the sidebar.")
         if results["STILL_WAITING_AFTER_ERROR"] != "True":
-            failures.append(
-                "Connection state did not remain in the waiting state after invalid selection."
-            )
+            failures.append(waiting_failure)
         if results["LAST_COMMAND_AFTER_ERROR"] != "True":
             failures.append("Sidebar status did not reflect the preview-selection command.")
         if results["HAS_EXPECTED_ERROR_IN_STATUS"] != "True":
-            failures.append("Sidebar status did not show the expected invalid-selection error.")
+            failures.append(expected_error_failure)
         if results["HAS_PROMPT_IN_SUMMARY"] != "True":
             failures.append("Sidebar summary did not retain the submitted prompt.")
         if results["HAS_NO_SELECTION_IN_SUMMARY"] != "True":
@@ -111,9 +156,9 @@ def verify(
         if results["HAS_NO_RESULT"] != "True":
             failures.append("Sidebar summary did not keep the empty last-result state.")
         if results["HAS_RECENT_ERROR_ACTIVITY"] != "True":
-            failures.append("Sidebar recent activity did not include the invalid-selection error.")
-        if results["DOC_TEXT"] != initial_text:
-            failures.append("Invalid-selection flow unexpectedly changed the Writer document.")
+            failures.append(recent_activity_failure)
+        if results[value_key] != initial_text:
+            failures.append(unchanged_value_failure)
         if results["APPROVE_ENABLED_AFTER_ERROR"] != "False":
             failures.append("Approve should stay disabled after invalid selection.")
 
@@ -133,21 +178,35 @@ def verify(
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) != 3:
+    if len(argv) not in (3, 4):
         print(
-            "Usage: verify_sidebar_invalid_selection.py <pipe_name> <prompt> <initial_text>",
+            "Usage: verify_sidebar_invalid_selection.py <pipe_name> <prompt> "
+            "<initial_text> [<scenario>]",
             file=sys.stderr,
         )
         return 2
 
-    pipe_name, prompt, initial_text = argv
+    pipe_name, prompt, initial_text, *extra = argv
+    scenario = extra[0] if extra else INVALID_SELECTION
     context = connect(pipe_name)
     return verify(
         context=context,
         prompt=prompt,
         initial_text=initial_text,
+        scenario=scenario,
     )
 
 
+def cli(argv: list[str]) -> int:
+    try:
+        return main(argv)
+    except Exception as error:
+        print(
+            f"UNHANDLED_EXCEPTION={error.__class__.__name__}: {error}",
+            file=sys.stderr,
+        )
+        return 1
+
+
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv[1:]))
+    raise SystemExit(cli(sys.argv[1:]))

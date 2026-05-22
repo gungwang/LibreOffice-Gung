@@ -4,6 +4,8 @@ param(
 	[string]$UserProfileDir,
 	[string]$Prompt = "Please convert this selection to uppercase.",
 	[string]$InitialText = "hello world",
+	[ValidateSet("invalid-selection", "unsupported-document")]
+	[string]$Scenario = "invalid-selection",
 	[switch]$SkipBuild
 )
 
@@ -13,10 +15,16 @@ $ErrorActionPreference = "Stop"
 . (Join-Path $PSScriptRoot "verification_common.ps1")
 
 $projectRootPath = [System.IO.Path]::GetFullPath($ProjectRoot)
+$defaultProfileDir = if ($Scenario -eq "unsupported-document") {
+	"build\lo-profile-verify-unsupported-document"
+} else {
+	"build\lo-profile-verify-invalid-selection"
+}
+
 $resolvedUserProfileDir = if ($UserProfileDir) {
 	[System.IO.Path]::GetFullPath($UserProfileDir)
 } else {
-	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-profile-verify-invalid-selection"))
+	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath $defaultProfileDir))
 }
 
 $probeScriptPath = Join-Path $PSScriptRoot "verify_sidebar_invalid_selection.py"
@@ -26,7 +34,7 @@ $probeArguments = @{
 	LibreOfficeProgramPath = $LibreOfficeProgramPath
 	UserProfileDir = $resolvedUserProfileDir
 	ProbeScriptPath = $probeScriptPath
-	ProbeArguments = @($Prompt, $InitialText)
+	ProbeArguments = @($Prompt, $InitialText, $Scenario)
 	SkipBuild = $SkipBuild
 	ResetUserProfileDir = -not $UserProfileDir
 }
