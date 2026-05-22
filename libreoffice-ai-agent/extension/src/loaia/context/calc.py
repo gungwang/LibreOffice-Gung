@@ -57,3 +57,54 @@ def apply_calc_formula(controller: object, formula: str) -> str:
             raise ValueError(f"Could not insert formula: {exc}") from exc
 
     raise ValueError("Selected Calc object does not support formula insertion.")
+
+
+def create_chart_from_selection(controller: object, chart_type: str = "Bar") -> str:
+    """Create a chart from the currently selected Calc range.
+
+    Uses UNO dispatch to insert a chart. *chart_type* is informational metadata;
+    the dispatch creates the default chart which the user can customise.
+    """
+    try:
+        import uno  # type: ignore[import]
+
+        ctx = uno.getComponentContext()
+        smgr = ctx.ServiceManager
+        dispatcher = smgr.createInstanceWithContext(
+            "com.sun.star.frame.DispatchHelper", ctx
+        )
+    except ImportError:
+        raise ValueError("UNO runtime is not available for chart creation.") from None
+
+    frame = controller.getFrame() if hasattr(controller, "getFrame") else None
+    if frame is None:
+        raise ValueError("Controller does not expose a frame for dispatch.")
+
+    dispatcher.executeDispatch(frame, ".uno:InsertObjectChart", "", 0, ())
+    return f"Inserted chart (type hint: {chart_type}) from selection."
+
+
+def sort_selected_range(controller: object, *, ascending: bool = True) -> str:
+    """Sort the currently selected Calc range by the first column.
+
+    Uses UNO dispatch with SortAscending / SortDescending.
+    """
+    try:
+        import uno  # type: ignore[import]
+
+        ctx = uno.getComponentContext()
+        smgr = ctx.ServiceManager
+        dispatcher = smgr.createInstanceWithContext(
+            "com.sun.star.frame.DispatchHelper", ctx
+        )
+    except ImportError:
+        raise ValueError("UNO runtime is not available for sorting.") from None
+
+    frame = controller.getFrame() if hasattr(controller, "getFrame") else None
+    if frame is None:
+        raise ValueError("Controller does not expose a frame for dispatch.")
+
+    cmd = ".uno:SortAscending" if ascending else ".uno:SortDescending"
+    dispatcher.executeDispatch(frame, cmd, "", 0, ())
+    direction = "ascending" if ascending else "descending"
+    return f"Sorted selected range ({direction})."

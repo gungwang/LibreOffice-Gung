@@ -231,3 +231,154 @@ def test_impress_direct_answer_for_non_rewrite_request() -> None:
 
     assert response.type == "DirectAnswer"
     assert response.text == "This slide discusses project milestones."
+
+
+# ------------------------------------------------------------------
+# Safe-formatting planner tests
+# ------------------------------------------------------------------
+
+
+def test_safe_formatting_bold_writer() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(user_message="Make this bold")
+    )
+
+    assert response.type == "ToolProposal"
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "Writer.ToggleBold"
+    assert proposal.safety_class.value == "safe-formatting"
+    assert proposal.requires_approval is False
+
+
+def test_safe_formatting_center_calc() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.CALC,
+            user_message="Center this cell",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Calc.AlignCenter"
+
+
+def test_safe_formatting_bullets_impress() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.IMPRESS,
+            user_message="Add bullets to this",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Impress.ApplyBullets"
+
+
+# ------------------------------------------------------------------
+# Writer insert-below planner test
+# ------------------------------------------------------------------
+
+
+def test_writer_insert_below_proposal() -> None:
+    adapter = FakeProviderAdapter(answer="New paragraph text")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(user_message="Insert below a summary paragraph")
+    )
+
+    assert response.type == "ToolProposal"
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "Writer.InsertBelowSelection"
+    assert proposal.requires_approval is True
+
+
+# ------------------------------------------------------------------
+# Calc chart / sort planner tests
+# ------------------------------------------------------------------
+
+
+def test_calc_chart_proposal() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.CALC,
+            selection_text="A1:B10",
+            user_message="Create a pie chart from this data",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "Calc.CreateChartFromSelection"
+    assert proposal.arguments["chartType"] == "Pie"
+
+
+def test_calc_sort_proposal() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.CALC,
+            selection_text="A1:B10",
+            user_message="Sort this data in descending order",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "Calc.SortSelectedRange"
+    assert proposal.arguments["ascending"] is False
+
+
+# ------------------------------------------------------------------
+# Impress slide / layout planner tests
+# ------------------------------------------------------------------
+
+
+def test_impress_create_slide_proposal() -> None:
+    adapter = FakeProviderAdapter(answer="Project Status Update")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.IMPRESS,
+            selection_text="",
+            user_message="Create a new slide about project status",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "Impress.CreateSlideFromOutline"
+    assert proposal.arguments["outline"] == "Project Status Update"
+
+
+def test_impress_layout_proposal() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.IMPRESS,
+            selection_text="",
+            user_message="Apply a blank layout to this slide",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "Impress.ApplyLayoutToCurrentSlide"
+    assert proposal.arguments["layout"] == 0

@@ -379,6 +379,11 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             _apply_writer_replacement(selection, replacement_text)
             return
 
+        if tool_id == "Writer.InsertBelowSelection":
+            text = _extract_replacement_text(proposal)
+            _insert_below_writer_selection(selection, text)
+            return
+
         if tool_id == "Calc.InsertFormulaInSelection":
             arguments = getattr(proposal, "arguments", {})
             formula = arguments.get("formula") if isinstance(arguments, dict) else None
@@ -391,12 +396,68 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             del result  # side effect applied
             return
 
+        if tool_id == "Calc.CreateChartFromSelection":
+            if selection.controller is None:
+                raise ValueError("Calc controller is not available for chart creation.")
+            from loaia.context.calc import create_chart_from_selection
+
+            arguments = getattr(proposal, "arguments", {})
+            chart_type = (
+                arguments.get("chartType", "Bar")
+                if isinstance(arguments, dict)
+                else "Bar"
+            )
+            create_chart_from_selection(selection.controller, chart_type)
+            return
+
+        if tool_id == "Calc.SortSelectedRange":
+            if selection.controller is None:
+                raise ValueError("Calc controller is not available for sorting.")
+            from loaia.context.calc import sort_selected_range
+
+            arguments = getattr(proposal, "arguments", {})
+            ascending = (
+                arguments.get("ascending", True)
+                if isinstance(arguments, dict)
+                else True
+            )
+            sort_selected_range(selection.controller, ascending=ascending)
+            return
+
         if tool_id == "Impress.ReplaceSelectedText":
             replacement_text = _extract_replacement_text(proposal)
             if selection.controller is None:
                 raise ValueError("Impress controller is not available for text replacement.")
             apply_impress_text_replacement(selection.controller, replacement_text)
             selection.text = replacement_text
+            return
+
+        if tool_id == "Impress.CreateSlideFromOutline":
+            if selection.controller is None:
+                raise ValueError("Impress controller is not available for slide creation.")
+            from loaia.context.impress import create_slide_from_outline
+
+            arguments = getattr(proposal, "arguments", {})
+            outline = (
+                arguments.get("outline", "")
+                if isinstance(arguments, dict)
+                else ""
+            )
+            create_slide_from_outline(selection.controller, outline)
+            return
+
+        if tool_id == "Impress.ApplyLayoutToCurrentSlide":
+            if selection.controller is None:
+                raise ValueError("Impress controller is not available for layout change.")
+            from loaia.context.impress import apply_layout_to_current_slide
+
+            arguments = getattr(proposal, "arguments", {})
+            layout = (
+                arguments.get("layout", 0)
+                if isinstance(arguments, dict)
+                else 0
+            )
+            apply_layout_to_current_slide(selection.controller, layout)
             return
 
         raise ValueError(f"Unsupported proposal tool: {tool_id}")
@@ -617,6 +678,32 @@ def _apply_writer_replacement(selection: RuntimeSelection, replacement_text: str
 
     if hasattr(selection.selection_supplier, "select"):
         selection.selection_supplier.select(text_range)
+
+
+def _insert_below_writer_selection(selection: RuntimeSelection, text: str) -> None:
+    """Insert *text* as a new paragraph immediately after the current selection."""
+    if len(selection.text_ranges) != 1:
+        raise ValueError(
+            "Writer insert-below currently supports exactly one selected range."
+        )
+
+    text_range = selection.text_ranges[0]
+    parent_text = (
+        getattr(text_range, "Text", None)
+        or getattr(text_range, "getText", lambda: None)()
+    )
+    if parent_text is None or not hasattr(parent_text, "insertControlCharacter"):
+        raise ValueError("Writer text object does not support paragraph insertion.")
+
+    end_cursor = text_range.getEnd()
+    try:
+        from com.sun.star.text.ControlCharacter import PARAGRAPH_BREAK  # type: ignore[import]
+    except ImportError:
+        PARAGRAPH_BREAK = 0  # UNO constant fallback
+
+    parent_text.insertControlCharacter(end_cursor, PARAGRAPH_BREAK, False)
+    parent_text.insertString(end_cursor, text, False)
+    selection.text = text
 
 
 def _extract_replacement_text(proposal: object) -> str:

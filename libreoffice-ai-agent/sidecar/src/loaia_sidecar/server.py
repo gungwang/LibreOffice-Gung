@@ -188,6 +188,61 @@ class LoaiaSidecarServer:
         )
         return frames
 
+    def _plan_writer_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        """Plan a Writer content-edit: either insert-below or replace-selection."""
+        normalized = request.user_message.casefold()
+        insert_keywords = (
+            "insert below", "add below", "append", "add after",
+            "insert after", "write below", "add paragraph",
+        )
+        if any(kw in normalized for kw in insert_keywords):
+            return self._plan_writer_insert_below(request)
+        return self._plan_writer_replace_selection(request)
+
+    def _plan_writer_insert_below(self, request: ChatRequest) -> ToolProposal | None:
+        """Plan Writer.InsertBelowSelection via the provider."""
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_writer_insert_below_prompt(request.user_message),
+            context_text=(
+                request.context.selection.text
+                if request.context.selection
+                else ""
+            ),
+        )
+        text = adapter.complete(provider_request).strip()
+        if not text:
+            return None
+
+        return ToolProposal(
+            proposalId=f"{request.request_id}-writer-insert-below",
+            toolId="Writer.InsertBelowSelection",
+            safetyClass=SafetyClass.CONTENT_EDIT,
+            requiresApproval=True,
+            preview=ActionPreview(
+                summary="Insert text below current selection",
+                before="",
+                after=text,
+            ),
+            arguments={"replacementText": text},
+        )
+
+    @staticmethod
+    def _build_writer_insert_below_prompt(user_message: str) -> str:
+        return "\n".join(
+            [
+                "You are a LibreOffice Writer assistant.",
+                "The user wants to insert new text below their current selection.",
+                "Reply with ONLY the text to insert. No explanation, no markdown fences.",
+                f"User request: {user_message.strip()}",
+            ]
+        )
+
     def _plan_writer_replace_selection(self, request: ChatRequest) -> ToolProposal | None:
         selection = request.context.selection
         if request.app is not AppType.WRITER or selection is None:
@@ -323,22 +378,160 @@ class LoaiaSidecarServer:
 
     def _plan_tool_proposal(self, request: ChatRequest) -> ToolProposal | None:
         """Route planning to the appropriate app-specific planner."""
+        # Try safe-formatting first (applies across all apps).
+        safe_proposal = self._plan_safe_formatting(request)
+        if safe_proposal is not None:
+            return safe_proposal
+
         if request.app is AppType.WRITER:
-            return self._plan_writer_replace_selection(request)
+            return self._plan_writer_proposal(request)
         if request.app is AppType.CALC:
             return self._plan_calc_proposal(request)
         if request.app is AppType.IMPRESS:
             return self._plan_impress_proposal(request)
         return None
 
+    # ------------------------------------------------------------------
+    # Safe-formatting planner
+    # ------------------------------------------------------------------
+
+    _SAFE_FORMATTING_KEYWORDS: dict[str, dict[str, str]] = {
+        "bold": {
+            "writer": "Writer.ToggleBold",
+            "calc": "Calc.ToggleBold",
+            "impress": "Impress.ToggleBold",
+        },
+        "italic": {
+            "writer": "Writer.ToggleItalic",
+            "calc": "Calc.ToggleItalic",
+            "impress": "Impress.ToggleItalic",
+        },
+        "underline": {"writer": "Writer.ToggleUnderline"},
+        "heading 1": {"writer": "Writer.ApplyHeading1"},
+        "heading 2": {"writer": "Writer.ApplyHeading2"},
+        "heading 3": {"writer": "Writer.ApplyHeading3"},
+        "bullet": {
+            "writer": "Writer.ApplyBullets",
+            "impress": "Impress.ApplyBullets",
+        },
+        "bullets": {
+            "writer": "Writer.ApplyBullets",
+            "impress": "Impress.ApplyBullets",
+        },
+        "align left": {
+            "writer": "Writer.AlignLeft",
+            "calc": "Calc.AlignLeft",
+            "impress": "Impress.AlignLeft",
+        },
+        "left align": {
+            "writer": "Writer.AlignLeft",
+            "calc": "Calc.AlignLeft",
+            "impress": "Impress.AlignLeft",
+        },
+        "center": {
+            "writer": "Writer.AlignCenter",
+            "calc": "Calc.AlignCenter",
+            "impress": "Impress.AlignCenter",
+        },
+        "align center": {
+            "writer": "Writer.AlignCenter",
+            "calc": "Calc.AlignCenter",
+            "impress": "Impress.AlignCenter",
+        },
+        "align right": {
+            "writer": "Writer.AlignRight",
+            "calc": "Calc.AlignRight",
+            "impress": "Impress.AlignRight",
+        },
+        "right align": {
+            "writer": "Writer.AlignRight",
+            "calc": "Calc.AlignRight",
+            "impress": "Impress.AlignRight",
+        },
+        "currency": {"calc": "Calc.ApplyNumberFormatCurrency"},
+        "currency format": {"calc": "Calc.ApplyNumberFormatCurrency"},
+        "percent": {"calc": "Calc.ApplyNumberFormatPercent"},
+        "percent format": {"calc": "Calc.ApplyNumberFormatPercent"},
+        "date format": {"calc": "Calc.ApplyNumberFormatDate"},
+    }
+
+    def _plan_safe_formatting(self, request: ChatRequest) -> ToolProposal | None:
+        """Match user message against known formatting keywords and return a proposal."""
+        normalized = request.user_message.casefold().strip()
+        app_key = {
+            AppType.WRITER: "writer",
+            AppType.CALC: "calc",
+            AppType.IMPRESS: "impress",
+        }.get(request.app)
+        if app_key is None:
+            return None
+
+        for keyword, app_map in self._SAFE_FORMATTING_KEYWORDS.items():
+            if keyword in normalized:
+                tool_id = app_map.get(app_key)
+                if tool_id is not None:
+                    return ToolProposal(
+                        proposalId=f"{request.request_id}-safe-fmt",
+                        toolId=tool_id,
+                        safetyClass=SafetyClass.SAFE_FORMATTING,
+                        requiresApproval=False,
+                        preview=ActionPreview(
+                            summary=f"Apply {tool_id}",
+                            before="",
+                            after="",
+                        ),
+                        arguments={},
+                    )
+        return None
+
     def _plan_calc_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Plan a Calc action proposal if the user message implies formula insertion."""
+        """Plan a Calc action proposal: formula, chart, or sort."""
+        normalized_message = request.user_message.casefold()
+
+        # Chart creation
+        chart_keywords = ("chart", "graph", "plot", "visualize", "visualization")
+        if any(kw in normalized_message for kw in chart_keywords):
+            chart_type = "Bar"
+            for ct in ("pie", "line", "scatter", "area", "column", "bar"):
+                if ct in normalized_message:
+                    chart_type = ct.capitalize()
+                    break
+            return ToolProposal(
+                proposalId=f"{request.request_id}-calc-chart",
+                toolId="Calc.CreateChartFromSelection",
+                safetyClass=SafetyClass.CONTENT_EDIT,
+                requiresApproval=True,
+                preview=ActionPreview(
+                    summary=f"Create {chart_type} chart from selection",
+                    before="",
+                    after=f"[{chart_type} chart]",
+                ),
+                arguments={"chartType": chart_type},
+            )
+
+        # Sort
+        sort_keywords = ("sort", "order", "arrange")
+        if any(kw in normalized_message for kw in sort_keywords):
+            ascending = "descend" not in normalized_message
+            direction = "ascending" if ascending else "descending"
+            return ToolProposal(
+                proposalId=f"{request.request_id}-calc-sort",
+                toolId="Calc.SortSelectedRange",
+                safetyClass=SafetyClass.CONTENT_EDIT,
+                requiresApproval=True,
+                preview=ActionPreview(
+                    summary=f"Sort selected range ({direction})",
+                    before="",
+                    after=f"[sorted {direction}]",
+                ),
+                arguments={"ascending": ascending},
+            )
+
+        # Formula insertion
         selection = request.context.selection
         if selection is None or not selection.text.strip():
             return None
 
-        normalized_message = request.user_message.casefold()
-        # Only propose formula insertion for explicit formula-related requests.
         formula_keywords = ("formula", "insert formula", "calculate", "sum", "average", "count")
         if not any(keyword in normalized_message for keyword in formula_keywords):
             return None
@@ -373,13 +566,68 @@ class LoaiaSidecarServer:
         )
 
     def _plan_impress_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Plan an Impress text replacement proposal."""
+        """Plan an Impress action: slide creation, layout change, or text replacement."""
+        normalized_message = request.user_message.casefold()
+
+        # Slide creation from outline
+        slide_keywords = ("new slide", "create slide", "add slide", "insert slide")
+        if any(kw in normalized_message for kw in slide_keywords):
+            adapter = self.provider_adapters.get(request.provider)
+            if adapter is not None:
+                provider_request = ProviderRequest(
+                    provider=request.provider,
+                    model=request.model,
+                    prompt=self._build_impress_outline_prompt(request.user_message),
+                    context_text=(
+                        request.context.selection.text
+                        if request.context.selection
+                        else ""
+                    ),
+                )
+                outline = adapter.complete(provider_request).strip()
+            else:
+                outline = request.user_message.strip()
+
+            return ToolProposal(
+                proposalId=f"{request.request_id}-impress-slide",
+                toolId="Impress.CreateSlideFromOutline",
+                safetyClass=SafetyClass.CONTENT_EDIT,
+                requiresApproval=True,
+                preview=ActionPreview(
+                    summary="Create new slide from outline",
+                    before="",
+                    after=outline,
+                ),
+                arguments={"outline": outline},
+            )
+
+        # Layout change
+        layout_keywords = ("layout", "apply layout", "change layout", "slide layout")
+        if any(kw in normalized_message for kw in layout_keywords):
+            layout = 0  # default blank
+            layout_map = {"blank": 0, "title": 1, "content": 1, "two column": 3}
+            for name, idx in layout_map.items():
+                if name in normalized_message:
+                    layout = idx
+                    break
+            return ToolProposal(
+                proposalId=f"{request.request_id}-impress-layout",
+                toolId="Impress.ApplyLayoutToCurrentSlide",
+                safetyClass=SafetyClass.CONTENT_EDIT,
+                requiresApproval=True,
+                preview=ActionPreview(
+                    summary=f"Apply layout {layout} to current slide",
+                    before="",
+                    after=f"[layout {layout}]",
+                ),
+                arguments={"layout": layout},
+            )
+
+        # Text replacement (existing)
         selection = request.context.selection
         if selection is None or not selection.text.strip():
             return None
 
-        normalized_message = request.user_message.casefold()
-        # Only propose text replacement for explicit rewrite requests.
         rewrite_keywords = ("rewrite", "rephrase", "improve", "reword", "simplify", "shorten")
         if not any(keyword in normalized_message for keyword in rewrite_keywords):
             return None
@@ -449,6 +697,17 @@ class LoaiaSidecarServer:
                 "You are a LibreOffice Impress text editor.",
                 "Rewrite the selected slide text according to the user request.",
                 "Reply with ONLY the rewritten text. No explanation, no markdown fences.",
+                f"User request: {user_message.strip()}",
+            ]
+        )
+
+    @staticmethod
+    def _build_impress_outline_prompt(user_message: str) -> str:
+        return "\n".join(
+            [
+                "You are a LibreOffice Impress slide creator.",
+                "Generate slide outline text based on the user request.",
+                "Reply with ONLY the slide text content. No explanation, no markdown fences.",
                 f"User request: {user_message.strip()}",
             ]
         )
