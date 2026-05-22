@@ -135,6 +135,31 @@ $safeFormattingExitCode = Invoke-SmokeScript `
 	-UseStateIsolation
 $results.Add([pscustomobject]@{ Scenario = "Safe formatting"; ExitCode = $safeFormattingExitCode; CoveredBy = "verify_safe_formatting.ps1" }) | Out-Null
 
+$calcSafeFormattingArgumentMap = @{
+	ProjectRoot = $projectRootPath
+	Prompt = "Make this bold."
+	InitialValue = "12345"
+	ExpectedToolId = "Calc.ToggleBold"
+	Provider = $resolvedProvider
+	Model = $resolvedModel
+	SkipBuild = $true
+}
+if ($LibreOfficeProgramPath) {
+	$calcSafeFormattingArgumentMap.LibreOfficeProgramPath = $LibreOfficeProgramPath
+}
+if ($PythonPath) {
+	$calcSafeFormattingArgumentMap.PythonPath = $PythonPath
+}
+
+$calcSafeFormattingExitCode = Invoke-SmokeScript `
+	-Scenario "calc-safe-formatting" `
+	-Invocation {
+		& (Join-Path $PSScriptRoot "verify_calc_safe_formatting.ps1") @calcSafeFormattingArgumentMap
+	} `
+	-StateRootDir (Join-Path $stateRootBaseDir "calc-safe-formatting") `
+	-UseStateIsolation
+$results.Add([pscustomobject]@{ Scenario = "Calc safe formatting"; ExitCode = $calcSafeFormattingExitCode; CoveredBy = "verify_calc_safe_formatting.ps1" }) | Out-Null
+
 $previewArgumentMap = @{
 	ProjectRoot = $projectRootPath
 	Prompt = "Rewrite this selection into a more formal sentence."

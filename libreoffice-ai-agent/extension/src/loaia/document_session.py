@@ -84,7 +84,15 @@ def resolve_app_type(frame: object | None) -> AppType | None:
         return AppType.CALC
 
     if hasattr(model, "DrawPages"):
-        return AppType.IMPRESS
+        # Both Draw and Impress have DrawPages; distinguish via Presentations
+        # (only Impress has a presentation API) or URL fallback.
+        if hasattr(model, "getPresentation") or hasattr(model, "Presentation"):
+            return AppType.IMPRESS
+        document_url = resolve_document_url(frame).casefold()
+        if document_url.endswith(".odp") or "simpress" in document_url:
+            return AppType.IMPRESS
+        # Unrecognised draw-based document (e.g. Draw) — not supported.
+        return None
 
     document_url = resolve_document_url(frame).casefold()
     if document_url.endswith(".ods") or "scalc" in document_url:

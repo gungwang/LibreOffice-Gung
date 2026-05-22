@@ -53,11 +53,11 @@ def verify(
         approve_failure = "Approve should stay disabled after invalid selection."
         expected_selection_summary = "Selection:\nNo captured selection yet."
     elif scenario == UNSUPPORTED_DOCUMENT:
-        expected_error = "Sidebar actions currently support Writer documents only."
+        expected_error = "Sidebar actions require a Writer, Calc, or Impress document."
         expected_status_error = expected_error
         expected_recent_activity = expected_error
-        document_url = "private:factory/scalc"
-        value_key = "CELL_TEXT"
+        document_url = "private:factory/sdraw"
+        value_key = "DOC_TEXT"
         waiting_failure = (
             "Connection state did not remain in the waiting state after unsupported "
             "document validation."
@@ -69,7 +69,7 @@ def verify(
             "Sidebar recent activity did not include the Writer-only error."
         )
         unchanged_value_failure = (
-            "Unsupported-document flow unexpectedly changed the Calc cell value."
+            "Unsupported-document flow unexpectedly changed the document."
         )
         approve_failure = (
             "Approve should stay disabled after unsupported document validation."
@@ -146,11 +146,10 @@ def verify(
                 cursor.goRight(len(initial_text), True)
                 controller.select(cursor)
             current_value = document.Text.getString()
-        else:
-            sheet = document.getSheets().getByIndex(0)
-            cell = sheet.getCellByPosition(0, 0)
-            cell.setString(initial_text)
-            current_value = cell.getString()
+        elif scenario == UNSUPPORTED_DOCUMENT:
+            # Draw documents have no text or cells to populate; just verify
+            # the error path without modifying document content.
+            current_value = initial_text
 
         dispatch_properties = [make_property("Prompt", prompt)]
         if scenario == TRANSPORT_ERROR:
