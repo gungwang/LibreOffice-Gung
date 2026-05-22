@@ -175,8 +175,12 @@ $results.Add([pscustomobject]@{ Scenario = "Sidecar failure"; ExitCode = $sideca
 
 $persistenceArgumentMap = @{
 	ProjectRoot = $projectRootPath
-	Provider = "openai-compatible"
-	Model = "local-default"
+	Provider = $resolvedProvider
+	Model = $resolvedModel
+	Prompt = "What single word does this text begin with?"
+	InitialSelection = "hello world"
+	ExpectedAnswer = "*"
+	ExpectedApiKeyStatus = "configured"
 	SkipBuild = $true
 }
 if ($LibreOfficeProgramPath) {

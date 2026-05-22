@@ -67,6 +67,19 @@ def make_url(command: str) -> object:
 
 def model_text(control: object) -> str:
     model = control.getModel()
+
+    # ListBox / ComboBox: return selected item text
+    items = getattr(model, "StringItemList", None)
+    selected = getattr(model, "SelectedItems", None)
+    if items is not None and selected is not None:
+        if selected and len(items) > selected[0]:
+            return items[selected[0]]
+        # Editable ComboBox may have typed text in the Text property
+        text = getattr(model, "Text", None)
+        if isinstance(text, str) and text:
+            return text
+        return ""
+
     for attribute_name in ("Text", "Label"):
         value = getattr(model, attribute_name, None)
         if isinstance(value, str):

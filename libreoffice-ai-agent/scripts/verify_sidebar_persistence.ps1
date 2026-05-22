@@ -23,7 +23,7 @@ Import-LoaiaDotEnv -ProjectRoot $projectRootPath -PreserveExisting
 $requestedUserProfileDir = if ($UserProfileDir) {
 	[System.IO.Path]::GetFullPath($UserProfileDir)
 } else {
-	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-profile-verify-sidebar-persistence"))
+	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-vfy-persist"))
 }
 
 $resolvedUserProfileDir = if ($UserProfileDir) {

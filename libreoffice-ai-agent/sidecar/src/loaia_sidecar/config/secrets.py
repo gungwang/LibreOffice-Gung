@@ -117,7 +117,9 @@ class SecretStore:
             if value:
                 return value
 
-        # 2. Windows Credential Manager lookup.
+        # 2. Windows Credential Manager lookup (disabled via env for testing).
+        if os.environ.get("LOAIA_SKIP_CREDENTIAL_MANAGER", "").strip():
+            return None
         target = CREDENTIAL_MANAGER_TARGETS.get(provider)
         if target is not None:
             value = _read_windows_credential(target)

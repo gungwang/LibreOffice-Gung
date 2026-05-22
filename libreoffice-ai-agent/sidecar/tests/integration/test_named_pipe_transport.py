@@ -11,7 +11,6 @@ from loaia_shared.types import AppType, PrivacyScope
 from loaia_sidecar.server import LoaiaSidecarServer
 from loaia_sidecar.transport.named_pipe import NamedPipeTransport
 
-
 pytestmark = pytest.mark.skipif(os.name != "nt", reason="Windows named pipes only")
 
 
@@ -53,7 +52,9 @@ def test_named_pipe_chat_round_trip() -> None:
     )
 
     try:
-        response = SidecarClient(transport=SidecarTransportClient(address=address)).send_chat(request)
+        response = SidecarClient(transport=SidecarTransportClient(address=address)).send_chat(
+            request
+        )
     finally:
         worker.join(timeout=2)
         transport.close()

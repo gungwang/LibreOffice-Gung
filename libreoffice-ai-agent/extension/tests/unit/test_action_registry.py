@@ -1,9 +1,9 @@
-from loaia.actions.registry import ACTION_REGISTRY
 from loaia.actions.executor import (
     SAFE_FORMATTING_TOOL_IDS,
     TOOL_UNO_DISPATCH_MAP,
     is_safe_formatting_action,
 )
+from loaia.actions.registry import ACTION_REGISTRY
 
 
 def test_writer_toggle_bold_is_registered() -> None:

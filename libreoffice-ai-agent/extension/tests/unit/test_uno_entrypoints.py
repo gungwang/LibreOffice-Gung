@@ -13,12 +13,12 @@ from loaia.bootstrap import (
     ExtensionBootstrap,
 )
 from loaia.document_session import DocumentSessionKey
+from loaia.session_store import InMemorySidebarSessionStore
 from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_python import LoaiaProtocolHandlerProvider, LoaiaSidebarPanelFactory
 from loaia_shared.defaults import get_default_model, get_default_provider
 from loaia_shared.types import AppType
-from loaia.session_store import InMemorySidebarSessionStore
 
 
 class FakeWriterTextRange:

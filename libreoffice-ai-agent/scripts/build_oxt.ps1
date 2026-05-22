@@ -2,7 +2,8 @@ param(
 	[string]$ProjectRoot = (Join-Path $PSScriptRoot ".."),
 	[string]$OutputDir,
 	[string]$StageDir,
-	[string]$PackageName = "libreoffice-ai-agent.oxt"
+	[string]$PackageName = "libreoffice-ai-agent.oxt",
+	[string]$PythonPath
 )
 
 Set-StrictMode -Version Latest
@@ -77,21 +78,57 @@ $pythonRuntimeDirs = @(
 )
 
 if ($pythonRuntimeDirs.Count -gt 0) {
+	# Use a pythonpath/ directory (not zip) because pydantic_core has compiled .pyd files.
+	$pythonpathDir = Join-Path $resolvedStageDir "pythonpath"
+	if (Test-Path -LiteralPath $pythonpathDir) {
+		Remove-Item -LiteralPath $pythonpathDir -Recurse -Force
+	}
+	New-Item -ItemType Directory -Path $pythonpathDir -Force | Out-Null
+
+	foreach ($pythonRuntimeDir in $pythonRuntimeDirs) {
+		Copy-Item -Path $pythonRuntimeDir -Destination $pythonpathDir -Recurse -Force
+	}
+
+	# Vendor pydantic and its runtime dependencies using the target Python
+	# so the compiled pydantic_core .pyd matches the LibreOffice Python ABI.
+	$resolvedPythonPath = if ($PythonPath) {
+		$PythonPath
+	} else {
+		$loCandidates = @(
+			"C:\Program Files\LibreOffice\26\program\python.exe",
+			"C:\Program Files\LibreOffice\program\python.exe"
+		)
+		$found = $loCandidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
+		if ($found) { $found } else { "python" }
+	}
+	$vendorDepsDir = Join-Path $resolvedStageDir "vendor-deps"
+	if (Test-Path -LiteralPath $vendorDepsDir) {
+		Remove-Item -LiteralPath $vendorDepsDir -Recurse -Force
+	}
+	New-Item -ItemType Directory -Path $vendorDepsDir -Force | Out-Null
+	& $resolvedPythonPath -m pip install --target $vendorDepsDir "pydantic>=2.7,<3" 2>&1 | Out-Null
+	# Copy all installed packages (dirs and single-file modules), skipping dist-info.
+	Get-ChildItem -LiteralPath $vendorDepsDir -Directory |
+		Where-Object { $_.Name -notlike "*.dist-info" -and $_.Name -ne "__pycache__" } |
+		ForEach-Object {
+			Copy-Item -Path $_.FullName -Destination $pythonpathDir -Recurse -Force
+		}
+	Get-ChildItem -LiteralPath $vendorDepsDir -File -Filter "*.py" |
+		ForEach-Object {
+			Copy-Item -Path $_.FullName -Destination $pythonpathDir -Force
+		}
+	Remove-Item -LiteralPath $vendorDepsDir -Recurse -Force
+
+	# Remove the old pythonpath.zip if it exists and the top-level source dirs.
 	$pythonZipPath = Join-Path $resolvedStageDir "pythonpath.zip"
-	$pythonZipStageDir = Join-Path $resolvedStageDir "pythonpath-stage"
 	if (Test-Path -LiteralPath $pythonZipPath) {
 		Remove-Item -LiteralPath $pythonZipPath -Force
 	}
-	Reset-Directory -Path $pythonZipStageDir
-	foreach ($pythonRuntimeDir in $pythonRuntimeDirs) {
-		Copy-Item -Path $pythonRuntimeDir -Destination $pythonZipStageDir -Recurse -Force
-	}
-
-	[System.IO.Compression.ZipFile]::CreateFromDirectory($pythonZipStageDir, $pythonZipPath)
-	Remove-Item -LiteralPath $pythonZipStageDir -Recurse -Force
 	foreach ($pythonRuntimeDir in $pythonRuntimeDirs) {
 		Remove-Item -LiteralPath $pythonRuntimeDir -Recurse -Force
 	}
+
+	Remove-PythonCaches -Root $pythonpathDir
 }
 
 $packagePath = Join-Path $resolvedOutputDir $PackageName

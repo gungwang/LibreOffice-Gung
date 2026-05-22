@@ -3,12 +3,12 @@ from unittest.mock import patch
 
 from loaia.bootstrap import SIDEBAR_RESOURCE_URL
 from loaia.document_session import DocumentSessionKey
+from loaia.session_store import InMemorySidebarSessionStore
 from loaia.sidebar_actions import SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_shared.defaults import get_default_provider
 from loaia_shared.errors import TransportError
 from loaia_shared.types import AppType
-from loaia.session_store import InMemorySidebarSessionStore
 
 
 class FakeWriterTextRange:

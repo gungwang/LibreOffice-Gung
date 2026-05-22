@@ -250,7 +250,7 @@ function Invoke-LoaiaVerificationProbe {
 		$profileParentDir = Split-Path -Parent $requestedUserProfileDir
 		$profileLeafName = Split-Path -Leaf $requestedUserProfileDir
 		[System.IO.Path]::GetFullPath((Join-Path $profileParentDir (
-			"{0}-run-{1}" -f $profileLeafName, [guid]::NewGuid().ToString("N")
+			"{0}-{1}" -f $profileLeafName, [guid]::NewGuid().ToString("N").Substring(0, 8)
 		)))
 	} else {
 		$requestedUserProfileDir
@@ -298,6 +298,11 @@ function Invoke-LoaiaVerificationProbe {
 	$sidecarProcess = $null
 	try {
 		if ($StartSidecar) {
+			# Kill any orphaned sidecar Python processes from prior runs.
+			Get-Process python* -ErrorAction SilentlyContinue |
+				Where-Object { $_.CommandLine -like '*loaia_sidecar*' } |
+				Stop-Process -Force -ErrorAction SilentlyContinue
+
 			$shellPath = Resolve-ShellPath
 			$sidecarArguments = @(
 				"-NoProfile",
@@ -372,8 +377,12 @@ function Invoke-LoaiaVerificationProbe {
 		}
 	} finally {
 		if ($sidecarProcess -and -not $sidecarProcess.HasExited) {
-			Stop-Process -Id $sidecarProcess.Id -Force
+			Stop-Process -Id $sidecarProcess.Id -Force -ErrorAction SilentlyContinue
 		}
+		# Also kill any child Python sidecar processes that may have been orphaned.
+		Get-Process python* -ErrorAction SilentlyContinue |
+			Where-Object { $_.CommandLine -like '*loaia_sidecar*' } |
+			Stop-Process -Force -ErrorAction SilentlyContinue
 
 		if ($ResetUserProfileDir -and $probeExitCode -eq 0 -and (Test-Path -LiteralPath $resolvedUserProfileDir)) {
 			Remove-LoaiaProfileDir -Path $resolvedUserProfileDir -UserInstallationUrl $userInstallationUrl

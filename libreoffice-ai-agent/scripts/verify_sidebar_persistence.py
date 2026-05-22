@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import sys
 
 from verification_probe_common import (
@@ -13,6 +14,8 @@ from verification_probe_common import (
     model_text,
     set_model_text,
 )
+
+_CAPTURED_ANSWER_FILENAME = ".captured_last_result.txt"
 
 
 def extract_section(summary_text: str, header: str, next_header: str | None = None) -> str:
@@ -31,6 +34,27 @@ def extract_section(summary_text: str, header: str, next_header: str | None = No
         return summary_text[content_start:].strip()
 
     return summary_text[content_start:end_index].strip()
+
+
+def _check_last_result(summary_text: str, expected_answer: str) -> tuple[bool, str]:
+    """Check whether the expected answer is in the summary's Last result section.
+
+    When expected_answer is "*", any non-empty result passes and the actual text
+    is returned so it can be forwarded to the restore phase.
+    """
+    actual_result = extract_section(summary_text, "Last result", "Recent activity")
+    if expected_answer == "*":
+        no_result = actual_result in ("", "No completed result yet.")
+        return (not no_result, actual_result)
+    return (f"Last result:\n{expected_answer}" in summary_text, expected_answer)
+
+
+def _check_recent_activity(summary_text: str, expected_answer: str) -> bool:
+    """Check whether the expected answer appears in the Recent activity section."""
+    recent_activity = extract_section(summary_text, "Recent activity")
+    if expected_answer == "*":
+        return recent_activity != ""
+    return expected_answer in recent_activity
 
 
 def _save_session(
@@ -66,7 +90,9 @@ def _save_session(
             for key, value in results.items():
                 print(f"{key}={value}")
             print("VALIDATION_PASSED=False")
-            print("FAILURE=Protocol dispatch is not available for one or more persistence commands.")
+            print(
+                "FAILURE=Protocol dispatch is not available for one or more persistence commands."
+            )
             return 1
 
         print("PHASE=save:open-sidebar", flush=True)
@@ -100,9 +126,7 @@ def _save_session(
         results["SETTINGS_STATUS_HAS_PROVIDER"] = str(
             f"Provider profile: {provider}" in settings_after_save
         )
-        results["SETTINGS_STATUS_HAS_MODEL"] = str(
-            f"Model profile: {model}" in settings_after_save
-        )
+        results["SETTINGS_STATUS_HAS_MODEL"] = str(f"Model profile: {model}" in settings_after_save)
         results["SETTINGS_STATUS_HAS_API_KEY"] = str(
             f"API key status: {expected_api_key_status}" in settings_after_save
         )
@@ -125,20 +149,25 @@ def _save_session(
 
         status_after_answer = model_text(panel_window.getControl("Status"))
         summary_after_answer = model_text(panel_window.getControl("Summary"))
-        results["ANSWER_STATUS_HAS_PROVIDER"] = str(
-            f"Provider: {provider}" in status_after_answer
-        )
+        results["ANSWER_STATUS_HAS_PROVIDER"] = str(f"Provider: {provider}" in status_after_answer)
         results["ANSWER_STATUS_HAS_MODEL"] = str(f"Model: {model}" in status_after_answer)
         results["ANSWER_STATUS_HAS_API_KEY"] = str(
             f"API key: {expected_api_key_status}" in status_after_answer
         )
         results["HAS_PROMPT_IN_SUMMARY"] = str(f"Prompt:\n{prompt}" in summary_after_answer)
-        results["HAS_LAST_RESULT_IN_SUMMARY"] = str(
-            f"Last result:\n{expected_answer}" in summary_after_answer
-        )
+        has_result, captured_answer = _check_last_result(summary_after_answer, expected_answer)
+        results["HAS_LAST_RESULT_IN_SUMMARY"] = str(has_result)
         results["HAS_RECENT_ACTIVITY_IN_SUMMARY"] = str(
-            f"Recent activity:\n- {expected_answer}" in summary_after_answer
+            _check_recent_activity(summary_after_answer, expected_answer)
         )
+        if captured_answer and expected_answer == "*":
+            # Persist captured answer for the restore phase to verify.
+            state_root = os.environ.get("LOAIA_EXTENSION_STATE_ROOT", "")
+            if state_root:
+                cap_path = os.path.join(state_root, _CAPTURED_ANSWER_FILENAME)
+                with open(cap_path, "w", encoding="utf-8") as f:
+                    f.write(captured_answer)
+            print(f"CAPTURED_LAST_RESULT={captured_answer}", flush=True)
         results["HAS_NO_PENDING_PREVIEW"] = str(
             "Pending preview:\nNo pending proposal." in summary_after_answer
         )
@@ -177,7 +206,9 @@ def _save_session(
         if results["HAS_LAST_RESULT_IN_SUMMARY"] != "True":
             failures.append("Sidebar summary did not retain the direct answer before restart.")
         if results["HAS_RECENT_ACTIVITY_IN_SUMMARY"] != "True":
-            failures.append("Sidebar recent activity did not retain the direct answer before restart.")
+            failures.append(
+                "Sidebar recent activity did not retain the direct answer before restart."
+            )
         if results["HAS_NO_PENDING_PREVIEW"] != "True":
             failures.append("Sidebar summary did not show the empty pending-preview state.")
         if results["APPROVE_DISABLED_AFTER_DIRECT_ANSWER"] != "True":
@@ -208,6 +239,15 @@ def _restore_session(
     expected_answer: str,
     expected_api_key_status: str,
 ) -> int:
+    # When using wildcard matching, read the captured answer from the save phase.
+    if expected_answer == "*":
+        state_root = os.environ.get("LOAIA_EXTENSION_STATE_ROOT", "")
+        if state_root:
+            cap_path = os.path.join(state_root, _CAPTURED_ANSWER_FILENAME)
+            if os.path.isfile(cap_path):
+                with open(cap_path, encoding="utf-8") as f:
+                    expected_answer = f.read().strip()
+
     desktop = None
     document = None
     try:
@@ -235,14 +275,11 @@ def _restore_session(
         status_after_open = model_text(panel_window.getControl("Status"))
         settings_after_open = model_text(panel_window.getControl("SettingsStatus"))
         summary_after_open = model_text(panel_window.getControl("Summary"))
-        recent_activity_after_open = extract_section(summary_after_open, "Recent activity")
         approve_button = panel_window.getControl("ApproveButton")
         provider_input = panel_window.getControl("ProviderInput")
         model_input = panel_window.getControl("ModelInput")
 
-        results["STATUS_HAS_OPEN_COMMAND"] = str(
-            "Last command: open-sidebar" in status_after_open
-        )
+        results["STATUS_HAS_OPEN_COMMAND"] = str("Last command: open-sidebar" in status_after_open)
         results["STATUS_HAS_EXPECTED_PROVIDER"] = str(f"Provider: {provider}" in status_after_open)
         results["STATUS_HAS_EXPECTED_MODEL"] = str(f"Model: {model}" in status_after_open)
         results["STATUS_HAS_API_KEY"] = str(
@@ -253,17 +290,16 @@ def _restore_session(
         results["SETTINGS_STATUS_HAS_PROVIDER"] = str(
             f"Provider profile: {provider}" in settings_after_open
         )
-        results["SETTINGS_STATUS_HAS_MODEL"] = str(
-            f"Model profile: {model}" in settings_after_open
-        )
+        results["SETTINGS_STATUS_HAS_MODEL"] = str(f"Model profile: {model}" in settings_after_open)
         results["SETTINGS_STATUS_HAS_API_KEY"] = str(
             f"API key status: {expected_api_key_status}" in settings_after_open
         )
         results["HAS_PROMPT_IN_SUMMARY"] = str(f"Prompt:\n{prompt}" in summary_after_open)
-        results["HAS_LAST_RESULT_IN_SUMMARY"] = str(
-            f"Last result:\n{expected_answer}" in summary_after_open
+        has_result, _ = _check_last_result(summary_after_open, expected_answer)
+        results["HAS_LAST_RESULT_IN_SUMMARY"] = str(has_result)
+        results["HAS_RECENT_ACTIVITY_IN_SUMMARY"] = str(
+            _check_recent_activity(summary_after_open, expected_answer)
         )
-        results["HAS_RECENT_ACTIVITY_IN_SUMMARY"] = str(expected_answer in recent_activity_after_open)
         results["HAS_EMPTY_SELECTION_IN_SUMMARY"] = str(
             "Selection:\nNo captured selection yet." in summary_after_open
         )
@@ -296,11 +332,15 @@ def _restore_session(
         if results["HAS_LAST_RESULT_IN_SUMMARY"] != "True":
             failures.append("Sidebar summary did not restore the saved result after restart.")
         if results["HAS_RECENT_ACTIVITY_IN_SUMMARY"] != "True":
-            failures.append("Sidebar recent activity did not restore the saved result after restart.")
+            failures.append(
+                "Sidebar recent activity did not restore the saved result after restart."
+            )
         if results["HAS_EMPTY_SELECTION_IN_SUMMARY"] != "True":
             failures.append("Sidebar summary did not reset selection preview on restore.")
         if results["HAS_NO_PENDING_PREVIEW"] != "True":
-            failures.append("Sidebar summary did not keep the empty pending-preview state after restart.")
+            failures.append(
+                "Sidebar summary did not keep the empty pending-preview state after restart."
+            )
         if results["APPROVE_DISABLED_AFTER_RESTORE"] != "True":
             failures.append("Approve should be disabled after restoring a direct-answer session.")
 

@@ -27,7 +27,7 @@ Import-LoaiaDotEnv -ProjectRoot $projectRootPath -PreserveExisting
 $resolvedUserProfileDir = if ($UserProfileDir) {
 	[System.IO.Path]::GetFullPath($UserProfileDir)
 } else {
-	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-profile-verify-direct-answer"))
+	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-vfy-da"))
 }
 
 $probeScriptPath = Join-Path $PSScriptRoot "verify_sidebar_direct_answer.py"

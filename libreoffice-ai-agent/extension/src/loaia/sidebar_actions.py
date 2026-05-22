@@ -39,6 +39,7 @@ from loaia.session_store import (
     describe_api_key_status,
 )
 from loaia.sidecar_lifecycle import ensure_sidecar_running
+from loaia.undo import undo_context
 from loaia_shared.errors import TransportError
 from loaia_shared.transport import (
     DEFAULT_NAMED_PIPE_ADDRESS,
@@ -307,9 +308,11 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             # Auto-apply safe formatting actions without preview/approval.
             if is_safe_formatting_action(proposal.tool_id):
                 try:
-                    result_message = execute_safe_formatting(
-                        self.panel.frame, proposal.tool_id
-                    )
+                    model = get_model(get_controller(self.panel.frame))
+                    with undo_context(model, f"AI: {proposal.tool_id}"):
+                        result_message = execute_safe_formatting(
+                            self.panel.frame, proposal.tool_id
+                        )
                 except (ValueError, RuntimeError) as exc:
                     self.panel.set_last_error(str(exc))
                     self.panel.append_message(str(exc))
@@ -385,7 +388,9 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             return message
 
         try:
-            self._execute_proposal(self._pending_selection, proposal)
+            model = get_model(get_controller(self.panel.frame))
+            with undo_context(model, f"AI: {proposal.tool_id}"):
+                self._execute_proposal(self._pending_selection, proposal)
         except ValueError as exc:
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))

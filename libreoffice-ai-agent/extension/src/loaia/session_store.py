@@ -2,15 +2,18 @@ from __future__ import annotations
 
 import json
 import os
-import sqlite3
 import time
 from copy import deepcopy
 from dataclasses import dataclass, field
 from hashlib import sha1
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 from loaia.document_session import DocumentSessionKey
 from loaia_shared.defaults import get_default_model, get_default_provider
+
+if TYPE_CHECKING:
+    import sqlite3
 
 OPENROUTER_API_KEY_ENV_VARS = ("LOAIA_OPENROUTER_API_KEY", "OPENROUTER_API_KEY")
 STATE_ROOT_ENV_VAR = "LOAIA_EXTENSION_STATE_ROOT"
@@ -364,9 +367,11 @@ class SqliteSidebarSessionStore:
         self.state_root = state_root or _default_state_root()
         self._db_path = self.state_root / _SQLITE_DB_NAME
         self._settings_file = self.state_root / _SQLITE_SETTINGS_FILE
-        self._conn: sqlite3.Connection | None = None
+        self._conn: "sqlite3.Connection | None" = None
 
-    def _get_connection(self) -> sqlite3.Connection:
+    def _get_connection(self) -> "sqlite3.Connection":
+        import sqlite3
+
         if self._conn is not None:
             return self._conn
 
@@ -532,7 +537,7 @@ class SqliteSidebarSessionStore:
 
     @staticmethod
     def _ensure_session(
-        conn: sqlite3.Connection,
+        conn: "sqlite3.Connection",
         session_id: str,
         session_key: DocumentSessionKey,
         now: float,
@@ -551,7 +556,7 @@ class SqliteSidebarSessionStore:
         )
 
     @staticmethod
-    def _trim_messages(conn: sqlite3.Connection, session_id: str) -> None:
+    def _trim_messages(conn: "sqlite3.Connection", session_id: str) -> None:
         conn.execute(
             "DELETE FROM messages WHERE session_id = ? AND id NOT IN "
             "(SELECT id FROM messages WHERE session_id = ? ORDER BY id DESC LIMIT ?)",

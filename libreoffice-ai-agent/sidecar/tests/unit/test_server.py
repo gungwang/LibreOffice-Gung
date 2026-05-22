@@ -90,7 +90,10 @@ def test_handle_chat_request_uses_provider_adapter_for_direct_answers() -> None:
 
 def test_handle_chat_request_uses_provider_adapter_for_writer_proposals() -> None:
     adapter = FakeProviderAdapter(
-        answer='{"action":"replace-selection","replacementText":"Greetings from the revised draft."}'
+        answer=(
+            '{"action":"replace-selection",'
+            '"replacementText":"Greetings from the revised draft."}'
+        )
     )
     server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
 
@@ -123,7 +126,9 @@ def test_handle_chat_request_falls_back_to_direct_answer_when_provider_declines_
     adapter = FakeProviderAdapter(complete_impl=complete_impl)
     server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
 
-    response = server.handle_chat_request(make_chat_request())
+    response = server.handle_chat_request(
+        make_chat_request(user_message="Fix the grammar in this text.")
+    )
 
     assert response.type == "DirectAnswer"
     assert response.text == "Remote summary"
@@ -133,7 +138,7 @@ def test_handle_chat_request_falls_back_to_direct_answer_when_provider_declines_
     assert adapter.requests[1] == ProviderRequest(
         provider="openrouter",
         model="openai/gpt-4.1-mini",
-        prompt="Summarize this selection.",
+        prompt="Fix the grammar in this text.",
         context_text="hello world",
     )
 
@@ -153,9 +158,7 @@ def test_normalize_writer_rewrite_response_supports_json_contract() -> None:
 def test_handle_message_returns_error_response_for_provider_failures() -> None:
     server = LoaiaSidecarServer(provider_adapters={"openrouter": FailingProviderAdapter()})
 
-    response = server.handle_message(
-        make_chat_request().model_dump(by_alias=True, mode="json")
-    )
+    response = server.handle_message(make_chat_request().model_dump(by_alias=True, mode="json"))
 
     assert response["type"] == "ErrorResponse"
     assert response["requestId"] == "req-openrouter-1"
@@ -242,9 +245,7 @@ def test_safe_formatting_bold_writer() -> None:
     adapter = FakeProviderAdapter()
     server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
 
-    response = server.handle_chat_request(
-        make_chat_request(user_message="Make this bold")
-    )
+    response = server.handle_chat_request(make_chat_request(user_message="Make this bold"))
 
     assert response.type == "ToolProposal"
     proposal = response.proposals[0]
@@ -392,9 +393,7 @@ def test_impress_layout_proposal() -> None:
 def test_cancel_request_acknowledged() -> None:
     server = LoaiaSidecarServer(provider_adapters={})
 
-    result = server.handle_message(
-        {"type": "CancelRequest", "requestId": "req-cancel-1"}
-    )
+    result = server.handle_message({"type": "CancelRequest", "requestId": "req-cancel-1"})
 
     assert result["type"] == "CancelAck"
     assert result["requestId"] == "req-cancel-1"
@@ -406,14 +405,10 @@ def test_cancel_request_stops_streaming() -> None:
     server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
 
     # Pre-cancel the request
-    server.handle_message_streaming(
-        {"type": "CancelRequest", "requestId": "req-openrouter-1"}
-    )
+    server.handle_message_streaming({"type": "CancelRequest", "requestId": "req-openrouter-1"})
 
     # Now make the chat request with the same ID
-    request = make_chat_request(
-        selection_text=None, user_message="Tell me a story"
-    )
+    request = make_chat_request(selection_text=None, user_message="Tell me a story")
     response = server.handle_chat_request(request)
 
     # With no streaming chunks collected due to cancel, the response should

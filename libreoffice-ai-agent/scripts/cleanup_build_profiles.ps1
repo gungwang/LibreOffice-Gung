@@ -20,7 +20,9 @@ if (-not (Test-Path -LiteralPath $buildDir)) {
 
 $namePatterns = @(
 	"^lo-profile-verify-",
-	"^lo-profile-invalid-selection-shape$"
+	"^lo-vfy-",
+	"^lo-profile-invalid-selection-shape$",
+	"^lo-test$"
 )
 
 if ($IncludeInstallProfiles) {

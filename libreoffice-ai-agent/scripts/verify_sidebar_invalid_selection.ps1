@@ -17,11 +17,11 @@ $ErrorActionPreference = "Stop"
 
 $projectRootPath = [System.IO.Path]::GetFullPath($ProjectRoot)
 $defaultProfileDir = if ($Scenario -eq "unsupported-document") {
-	"build\lo-profile-verify-unsupported-document"
+	"build\lo-vfy-unsup"
 	} elseif ($Scenario -eq "transport-error") {
-	"build\lo-profile-verify-transport-error"
+	"build\lo-vfy-trerr"
 } else {
-	"build\lo-profile-verify-invalid-selection"
+	"build\lo-vfy-invsel"
 }
 
 $resolvedUserProfileDir = if ($UserProfileDir) {

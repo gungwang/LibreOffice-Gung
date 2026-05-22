@@ -20,7 +20,7 @@ $projectRootPath = [System.IO.Path]::GetFullPath($ProjectRoot)
 $resolvedUserProfileDir = if ($UserProfileDir) {
 	[System.IO.Path]::GetFullPath($UserProfileDir)
 } else {
-	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-profile-verify-provider-failure"))
+	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-vfy-pfail"))
 }
 
 $probeScriptPath = Join-Path $PSScriptRoot "verify_sidebar_provider_failure.py"
@@ -36,6 +36,7 @@ foreach ($envVar in $keyEnvVars) {
 
 try {
 	$env:LOAIA_EXTENSION_STATE_ROOT = $stateRootDir
+	$env:LOAIA_SKIP_CREDENTIAL_MANAGER = "1"
 
 	foreach ($envVar in $keyEnvVars) {
 		Set-Item -Path ("Env:" + $envVar) -Value $missingKeyPlaceholder
@@ -61,6 +62,7 @@ try {
 		SidecarEnvironment = @{
 			LOAIA_OPENROUTER_API_KEY = $missingKeyPlaceholder
 			OPENROUTER_API_KEY = $missingKeyPlaceholder
+			LOAIA_SKIP_CREDENTIAL_MANAGER = "1"
 		}
 		SkipBuild = $SkipBuild
 		ResetUserProfileDir = -not $UserProfileDir
@@ -74,6 +76,8 @@ try {
 	} else {
 		Remove-Item -Path Env:LOAIA_EXTENSION_STATE_ROOT -ErrorAction SilentlyContinue
 	}
+
+	Remove-Item -Path Env:LOAIA_SKIP_CREDENTIAL_MANAGER -ErrorAction SilentlyContinue
 
 	foreach ($envVar in $keyEnvVars) {
 		$previousItem = $previousKeyItems[$envVar]

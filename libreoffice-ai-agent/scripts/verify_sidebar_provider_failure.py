@@ -59,7 +59,10 @@ def verify(
             for key, value in results.items():
                 print(f"{key}={value}")
             print("VALIDATION_PASSED=False")
-            print("FAILURE=Protocol dispatch is not available for one or more provider-failure commands.")
+            print(
+                "FAILURE=Protocol dispatch is not available"
+                " for one or more provider-failure commands."
+            )
             return 1
 
         open_dispatch.dispatch(open_sidebar_url, ())
@@ -71,12 +74,8 @@ def verify(
         approve_button = panel_window.getControl("ApproveButton")
 
         status_after_open = model_text(panel_window.getControl("Status"))
-        results["OPEN_STATUS_HAS_COMMAND"] = str(
-            "Last command: open-sidebar" in status_after_open
-        )
-        results["APPROVE_DISABLED_AFTER_OPEN"] = str(
-            not control_is_enabled(approve_button)
-        )
+        results["OPEN_STATUS_HAS_COMMAND"] = str("Last command: open-sidebar" in status_after_open)
+        results["APPROVE_DISABLED_AFTER_OPEN"] = str(not control_is_enabled(approve_button))
 
         set_model_text(provider_input, provider)
         set_model_text(model_input, model)
@@ -97,18 +96,14 @@ def verify(
         results["STATUS_HAS_PROVIDER_AFTER_SAVE"] = str(
             f"Provider: {provider}" in status_after_save
         )
-        results["STATUS_HAS_MODEL_AFTER_SAVE"] = str(
-            f"Model: {model}" in status_after_save
-        )
+        results["STATUS_HAS_MODEL_AFTER_SAVE"] = str(f"Model: {model}" in status_after_save)
         results["STATUS_HAS_API_KEY_AFTER_SAVE"] = str(
             f"API key: {expected_api_key_status}" in status_after_save
         )
         results["SETTINGS_STATUS_HAS_PROVIDER"] = str(
             f"Provider profile: {provider}" in settings_after_save
         )
-        results["SETTINGS_STATUS_HAS_MODEL"] = str(
-            f"Model profile: {model}" in settings_after_save
-        )
+        results["SETTINGS_STATUS_HAS_MODEL"] = str(f"Model profile: {model}" in settings_after_save)
         results["SETTINGS_STATUS_HAS_API_KEY"] = str(
             f"API key status: {expected_api_key_status}" in settings_after_save
         )
@@ -143,9 +138,7 @@ def verify(
         results["HAS_EXPECTED_PROVIDER_AFTER_ERROR"] = str(
             f"Provider: {provider}" in status_after_error
         )
-        results["HAS_EXPECTED_MODEL_AFTER_ERROR"] = str(
-            f"Model: {model}" in status_after_error
-        )
+        results["HAS_EXPECTED_MODEL_AFTER_ERROR"] = str(f"Model: {model}" in status_after_error)
         results["HAS_EXPECTED_API_KEY_AFTER_ERROR"] = str(
             f"API key: {expected_api_key_status}" in status_after_error
         )
@@ -166,9 +159,7 @@ def verify(
             f"- {expected_recent_activity}" in summary_after_error
         )
         results["DOC_TEXT"] = document.Text.getString()
-        results["APPROVE_DISABLED_AFTER_ERROR"] = str(
-            not control_is_enabled(approve_button)
-        )
+        results["APPROVE_DISABLED_AFTER_ERROR"] = str(not control_is_enabled(approve_button))
 
         failures: list[str] = []
         if results["PROVIDER_INPUT_AFTER_SAVE"] != provider:
@@ -184,7 +175,9 @@ def verify(
         if results["STATUS_HAS_MODEL_AFTER_SAVE"] != "True":
             failures.append("Sidebar status did not show the saved model after save-settings.")
         if results["STATUS_HAS_API_KEY_AFTER_SAVE"] != "True":
-            failures.append("Sidebar status did not show the expected API-key status after save-settings.")
+            failures.append(
+                "Sidebar status did not show the expected API-key status after save-settings."
+            )
         if results["SETTINGS_STATUS_HAS_PROVIDER"] != "True":
             failures.append("Settings section did not show the saved provider.")
         if results["SETTINGS_STATUS_HAS_MODEL"] != "True":
@@ -198,11 +191,17 @@ def verify(
         if results["LAST_COMMAND_AFTER_ERROR"] != "True":
             failures.append("Sidebar status did not reflect the preview-selection command.")
         if results["HAS_EXPECTED_PROVIDER_AFTER_ERROR"] != "True":
-            failures.append("Sidebar status did not retain the expected provider after provider failure.")
+            failures.append(
+                "Sidebar status did not retain the expected provider after provider failure."
+            )
         if results["HAS_EXPECTED_MODEL_AFTER_ERROR"] != "True":
-            failures.append("Sidebar status did not retain the expected model after provider failure.")
+            failures.append(
+                "Sidebar status did not retain the expected model after provider failure."
+            )
         if results["HAS_EXPECTED_API_KEY_AFTER_ERROR"] != "True":
-            failures.append("Sidebar status did not retain the expected API-key status after provider failure.")
+            failures.append(
+                "Sidebar status did not retain the expected API-key status after provider failure."
+            )
         if results["HAS_EXPECTED_ERROR_IN_STATUS"] != "True":
             failures.append("Sidebar status did not show the expected provider error.")
         if results["HAS_PROMPT_IN_SUMMARY"] != "True":

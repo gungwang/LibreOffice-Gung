@@ -267,9 +267,40 @@ class LoaiaSidecarServer:
         with self._cancel_lock:
             return request_id in self._cancelled_requests
 
+    _QUESTION_STARTERS: tuple[str, ...] = (
+        "what does", "what is", "what are", "what was", "what were",
+        "who is", "who are", "who was", "who were",
+        "where is", "where are", "where was",
+        "when is", "when was", "when did",
+        "why is", "why are", "why does", "why did",
+        "how is", "how are", "how does", "how did", "how many", "how much",
+        "tell me about", "tell me what", "tell me why", "tell me how",
+        "is this", "is it", "are there", "does this", "do these",
+        "can you explain", "can you tell",
+    )
+
+    _ANALYSIS_KEYWORDS: tuple[str, ...] = (
+        "summarize this", "summarise this", "summarize the",
+        "summarise the", "give a summary", "provide a summary",
+        "explain this", "explain the", "analyze this", "analyse this",
+        "describe this", "describe the", "list the key",
+        "answer this question",
+        "please summarize", "please summarise",
+        "please explain", "please describe",
+    )
+
     def _plan_writer_proposal(self, request: ChatRequest) -> ToolProposal | None:
         """Plan a Writer content-edit: either insert-below or replace-selection."""
-        normalized = request.user_message.casefold()
+        normalized = request.user_message.casefold().strip()
+
+        # Questions about the text should be direct answers, not edits.
+        if (
+            normalized.endswith("?")
+            or any(normalized.startswith(q) for q in self._QUESTION_STARTERS)
+            or any(kw in normalized for kw in self._ANALYSIS_KEYWORDS)
+        ):
+            return None
+
         insert_keywords = (
             "insert below", "add below", "append", "add after",
             "insert after", "write below", "add paragraph",
@@ -394,13 +425,18 @@ class LoaiaSidecarServer:
                     "Reply with JSON only. Do not add markdown fences, commentary, or extra text."
                 ),
                 (
-                    "For a rewrite, return exactly: "
+                    "For a rewrite/edit/transform request, return exactly: "
                     '{"action":"replace-selection","replacementText":"<full replacement text>"}'
                 ),
                 (
-                    "If the request should stay a direct answer instead of replacing the "
-                    "selection, return exactly: "
+                    "If the user is asking a QUESTION about the text (e.g. summarize, "
+                    "explain, translate to another language, analyze, or answer a question), "
+                    "return exactly: "
                     '{"action":"no-replacement"}'
+                ),
+                (
+                    "Only use replace-selection when the user explicitly wants to CHANGE "
+                    "the document text (rewrite, fix grammar, shorten, expand, etc.)."
                 ),
                 (
                     f"Legacy fallback remains {WRITER_NO_REPLACEMENT_SENTINEL}, "

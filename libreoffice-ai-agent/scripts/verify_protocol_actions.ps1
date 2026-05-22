@@ -27,7 +27,7 @@ Import-LoaiaDotEnv -ProjectRoot $projectRootPath -PreserveExisting
 $resolvedUserProfileDir = if ($UserProfileDir) {
 	[System.IO.Path]::GetFullPath($UserProfileDir)
 } else {
-	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-profile-verify-protocol"))
+	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\lo-vfy-proto"))
 }
 
 $probeScriptPath = Join-Path $PSScriptRoot "verify_protocol_actions.py"

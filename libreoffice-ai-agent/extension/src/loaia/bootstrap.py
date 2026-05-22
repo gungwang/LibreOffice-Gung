@@ -24,7 +24,7 @@ class ExtensionBootstrap:
         self._panel: SidebarPanel | None = None
         self._event_handler: SidebarDialogEventHandler | None = None
         self._transport = transport
-        self._session_store = session_store or SqliteSidebarSessionStore()
+        self._session_store = session_store or JsonSidebarSessionStore()
 
     def get_panel(self) -> SidebarPanel:
         if self._panel is None:
