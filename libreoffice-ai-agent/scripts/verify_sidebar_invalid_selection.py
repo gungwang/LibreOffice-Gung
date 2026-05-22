@@ -53,26 +53,26 @@ def verify(
         approve_failure = "Approve should stay disabled after invalid selection."
         expected_selection_summary = "Selection:\nNo captured selection yet."
     elif scenario == UNSUPPORTED_DOCUMENT:
-        expected_error = "Sidebar actions require a Writer, Calc, or Impress document."
+        expected_error = "Select a shape with text in Draw before sending a request."
         expected_status_error = expected_error
         expected_recent_activity = expected_error
         document_url = "private:factory/sdraw"
         value_key = "DOC_TEXT"
         waiting_failure = (
-            "Connection state did not remain in the waiting state after unsupported "
-            "document validation."
+            "Connection state did not remain in the waiting state after empty "
+            "Draw document validation."
         )
         expected_error_failure = (
-            "Sidebar status did not show the expected Writer-only error."
+            "Sidebar status did not show the expected Draw empty-selection error."
         )
         recent_activity_failure = (
-            "Sidebar recent activity did not include the Writer-only error."
+            "Sidebar recent activity did not include the Draw empty-selection error."
         )
         unchanged_value_failure = (
-            "Unsupported-document flow unexpectedly changed the document."
+            "Draw empty-selection flow unexpectedly changed the document."
         )
         approve_failure = (
-            "Approve should stay disabled after unsupported document validation."
+            "Approve should stay disabled after Draw empty-selection validation."
         )
         expected_selection_summary = "Selection:\nNo captured selection yet."
     elif scenario == TRANSPORT_ERROR:

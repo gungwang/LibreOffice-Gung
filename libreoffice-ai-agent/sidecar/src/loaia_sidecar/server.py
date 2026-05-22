@@ -504,6 +504,12 @@ class LoaiaSidecarServer:
             return self._plan_calc_proposal(request)
         if request.app is AppType.IMPRESS:
             return self._plan_impress_proposal(request)
+        if request.app is AppType.DRAW:
+            return self._plan_draw_proposal(request)
+        if request.app is AppType.MATH:
+            return self._plan_math_proposal(request)
+        if request.app is AppType.BASE:
+            return self._plan_base_proposal(request)
         return None
 
     # ------------------------------------------------------------------
@@ -515,13 +521,18 @@ class LoaiaSidecarServer:
             "writer": "Writer.ToggleBold",
             "calc": "Calc.ToggleBold",
             "impress": "Impress.ToggleBold",
+            "draw": "Draw.ToggleBold",
         },
         "italic": {
             "writer": "Writer.ToggleItalic",
             "calc": "Calc.ToggleItalic",
             "impress": "Impress.ToggleItalic",
+            "draw": "Draw.ToggleItalic",
         },
-        "underline": {"writer": "Writer.ToggleUnderline"},
+        "underline": {
+            "writer": "Writer.ToggleUnderline",
+            "draw": "Draw.ToggleUnderline",
+        },
         "heading 1": {"writer": "Writer.ApplyHeading1"},
         "heading 2": {"writer": "Writer.ApplyHeading2"},
         "heading 3": {"writer": "Writer.ApplyHeading3"},
@@ -537,31 +548,37 @@ class LoaiaSidecarServer:
             "writer": "Writer.AlignLeft",
             "calc": "Calc.AlignLeft",
             "impress": "Impress.AlignLeft",
+            "draw": "Draw.AlignLeft",
         },
         "left align": {
             "writer": "Writer.AlignLeft",
             "calc": "Calc.AlignLeft",
             "impress": "Impress.AlignLeft",
+            "draw": "Draw.AlignLeft",
         },
         "center": {
             "writer": "Writer.AlignCenter",
             "calc": "Calc.AlignCenter",
             "impress": "Impress.AlignCenter",
+            "draw": "Draw.AlignCenter",
         },
         "align center": {
             "writer": "Writer.AlignCenter",
             "calc": "Calc.AlignCenter",
             "impress": "Impress.AlignCenter",
+            "draw": "Draw.AlignCenter",
         },
         "align right": {
             "writer": "Writer.AlignRight",
             "calc": "Calc.AlignRight",
             "impress": "Impress.AlignRight",
+            "draw": "Draw.AlignRight",
         },
         "right align": {
             "writer": "Writer.AlignRight",
             "calc": "Calc.AlignRight",
             "impress": "Impress.AlignRight",
+            "draw": "Draw.AlignRight",
         },
         "currency": {"calc": "Calc.ApplyNumberFormatCurrency"},
         "currency format": {"calc": "Calc.ApplyNumberFormatCurrency"},
@@ -577,6 +594,7 @@ class LoaiaSidecarServer:
             AppType.WRITER: "writer",
             AppType.CALC: "calc",
             AppType.IMPRESS: "impress",
+            AppType.DRAW: "draw",
         }.get(request.app)
         if app_key is None:
             return None
@@ -775,6 +793,97 @@ class LoaiaSidecarServer:
             arguments={"replacementText": replacement},
         )
 
+    def _plan_draw_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        """Plan a Draw action: text replacement in selected shapes."""
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        normalized_message = request.user_message.casefold()
+        rewrite_keywords = ("rewrite", "rephrase", "improve", "reword", "simplify", "shorten")
+        if not any(keyword in normalized_message for keyword in rewrite_keywords):
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_draw_rewrite_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        response_text = adapter.complete(provider_request)
+        replacement = response_text.strip()
+        if not replacement or replacement == selection.text:
+            return None
+
+        return ToolProposal(
+            proposalId=f"{request.request_id}-draw-replace",
+            toolId="Draw.ReplaceSelectedText",
+            safetyClass=SafetyClass.CONTENT_EDIT,
+            requiresApproval=True,
+            preview=ActionPreview(
+                summary="Replace selected Draw text",
+                before=selection.text,
+                after=replacement,
+            ),
+            arguments={"replacementText": replacement},
+        )
+
+    def _plan_math_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        """Plan a Math action: formula rewrite or explanation."""
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        normalized_message = request.user_message.casefold()
+
+        # Formula rewrite
+        rewrite_keywords = (
+            "rewrite", "simplify", "expand", "factor", "convert", "fix", "correct",
+        )
+        if any(keyword in normalized_message for keyword in rewrite_keywords):
+            adapter = self.provider_adapters.get(request.provider)
+            if adapter is None:
+                return None
+
+            provider_request = ProviderRequest(
+                provider=request.provider,
+                model=request.model,
+                prompt=self._build_math_rewrite_prompt(request.user_message),
+                context_text=selection.text,
+            )
+            response_text = adapter.complete(provider_request)
+            formula = response_text.strip()
+            if not formula or formula == selection.text:
+                return None
+
+            return ToolProposal(
+                proposalId=f"{request.request_id}-math-replace",
+                toolId="Math.ReplaceFormula",
+                safetyClass=SafetyClass.CONTENT_EDIT,
+                requiresApproval=True,
+                preview=ActionPreview(
+                    summary="Replace Math formula",
+                    before=selection.text,
+                    after=formula,
+                ),
+                arguments={"formula": formula},
+            )
+
+        # Default: return None (will fall through to direct answer)
+        return None
+
+    def _plan_base_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        """Plan a Base action: SQL query generation or explanation.
+
+        Base actions are informational only — they don't modify the database.
+        """
+        # Base is primarily informational; return None to trigger direct answer.
+        return None
+
     @staticmethod
     def _build_calc_formula_prompt(user_message: str) -> str:
         return "\n".join(
@@ -823,6 +932,29 @@ class LoaiaSidecarServer:
                 "You are a LibreOffice Impress slide creator.",
                 "Generate slide outline text based on the user request.",
                 "Reply with ONLY the slide text content. No explanation, no markdown fences.",
+                f"User request: {user_message.strip()}",
+            ]
+        )
+
+    @staticmethod
+    def _build_draw_rewrite_prompt(user_message: str) -> str:
+        return "\n".join(
+            [
+                "You are a LibreOffice Draw text editor.",
+                "Rewrite the selected shape text according to the user request.",
+                "Reply with ONLY the rewritten text. No explanation, no markdown fences.",
+                f"User request: {user_message.strip()}",
+            ]
+        )
+
+    @staticmethod
+    def _build_math_rewrite_prompt(user_message: str) -> str:
+        return "\n".join(
+            [
+                "You are a LibreOffice Math formula editor.",
+                "The formula uses StarMath markup notation.",
+                "Rewrite the formula according to the user request.",
+                "Reply with ONLY the StarMath formula. No explanation, no markdown fences.",
                 f"User request: {user_message.strip()}",
             ]
         )

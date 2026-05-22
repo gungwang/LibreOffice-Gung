@@ -67,6 +67,39 @@ def test_all_mvp_impress_actions_registered() -> None:
         assert tool_id in ACTION_REGISTRY, f"Missing: {tool_id}"
 
 
+def test_all_mvp_draw_actions_registered() -> None:
+    expected = [
+        "Draw.GetSelectedText",
+        "Draw.ToggleBold",
+        "Draw.ToggleItalic",
+        "Draw.ToggleUnderline",
+        "Draw.AlignLeft",
+        "Draw.AlignCenter",
+        "Draw.AlignRight",
+        "Draw.ReplaceSelectedText",
+    ]
+    for tool_id in expected:
+        assert tool_id in ACTION_REGISTRY, f"Missing: {tool_id}"
+
+
+def test_all_mvp_math_actions_registered() -> None:
+    expected = [
+        "Math.GetFormula",
+        "Math.ReplaceFormula",
+    ]
+    for tool_id in expected:
+        assert tool_id in ACTION_REGISTRY, f"Missing: {tool_id}"
+
+
+def test_all_mvp_base_actions_registered() -> None:
+    expected = [
+        "Base.GetContext",
+        "Base.ExplainQuery",
+    ]
+    for tool_id in expected:
+        assert tool_id in ACTION_REGISTRY, f"Missing: {tool_id}"
+
+
 def test_safe_formatting_registry_actions_match_executor() -> None:
     for tool_id, action_def in ACTION_REGISTRY.items():
         if action_def.safe_formatting:

@@ -23,8 +23,11 @@ except ImportError:  # pragma: no cover - exercised under LibreOffice runtime
 
 from loaia.actions.executor import execute_safe_formatting, is_safe_formatting_action
 from loaia.audit import AuditLogger
+from loaia.context.base import capture_base_context
 from loaia.context.calc import apply_calc_formula, capture_calc_selection
+from loaia.context.draw import apply_draw_text_replacement, capture_draw_selection
 from loaia.context.impress import apply_impress_text_replacement, capture_impress_selection
+from loaia.context.math import apply_math_formula, capture_math_formula
 from loaia.document_session import (
     get_controller,
     get_model,
@@ -530,6 +533,31 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             apply_layout_to_current_slide(selection.controller, layout)
             return
 
+        if tool_id == "Draw.ReplaceSelectedText":
+            replacement_text = _extract_replacement_text(proposal)
+            if selection.controller is None:
+                raise ValueError("Draw controller is not available for text replacement.")
+            apply_draw_text_replacement(selection.controller, replacement_text)
+            selection.text = replacement_text
+            return
+
+        if tool_id == "Math.ReplaceFormula":
+            arguments = getattr(proposal, "arguments", {})
+            formula = arguments.get("formula") if isinstance(arguments, dict) else None
+            if not isinstance(formula, str) or not formula:
+                formula = _extract_replacement_text(proposal)
+            if not formula:
+                raise ValueError("Math formula proposal does not contain a formula.")
+            if selection.controller is None:
+                raise ValueError("Math controller is not available for formula replacement.")
+            apply_math_formula(selection.controller, formula)
+            selection.text = formula
+            return
+
+        if tool_id == "Base.ExplainQuery":
+            # Direct answer — no document modification needed.
+            return
+
         raise ValueError(f"Unsupported proposal tool: {tool_id}")
 
     def _handle_save_settings(
@@ -588,8 +616,14 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             return self._capture_calc_selection_impl(controller)
         if app_type == AppType.IMPRESS:
             return self._capture_impress_selection_impl(controller)
+        if app_type == AppType.DRAW:
+            return self._capture_draw_selection_impl(controller)
+        if app_type == AppType.MATH:
+            return self._capture_math_selection_impl(controller)
+        if app_type == AppType.BASE:
+            return self._capture_base_selection_impl(controller)
 
-        raise ValueError("Sidebar actions require a Writer, Calc, or Impress document.")
+        raise ValueError("Sidebar actions require a supported LibreOffice document.")
 
     def _capture_writer_selection_impl(self, controller: object) -> RuntimeSelection:
         model = get_model(controller)
@@ -641,6 +675,39 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         return RuntimeSelection(
             app_type=AppType.IMPRESS,
             text=selection_text,
+            controller=controller,
+        )
+
+    def _capture_draw_selection_impl(self, controller: object) -> RuntimeSelection:
+        selection_text = capture_draw_selection(controller)
+        if not selection_text.strip():
+            raise ValueError("Select a shape with text in Draw before sending a request.")
+
+        return RuntimeSelection(
+            app_type=AppType.DRAW,
+            text=selection_text,
+            controller=controller,
+        )
+
+    def _capture_math_selection_impl(self, controller: object) -> RuntimeSelection:
+        formula_text = capture_math_formula(controller)
+        if not formula_text.strip():
+            raise ValueError("Open a Math formula before sending a request.")
+
+        return RuntimeSelection(
+            app_type=AppType.MATH,
+            text=formula_text,
+            controller=controller,
+        )
+
+    def _capture_base_selection_impl(self, controller: object) -> RuntimeSelection:
+        context_text = capture_base_context(controller)
+        if not context_text.strip():
+            raise ValueError("Open a database object in Base before sending a request.")
+
+        return RuntimeSelection(
+            app_type=AppType.BASE,
+            text=context_text,
             controller=controller,
         )
 

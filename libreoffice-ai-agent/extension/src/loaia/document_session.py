@@ -77,6 +77,13 @@ def resolve_app_type(frame: object | None) -> AppType | None:
     if model is None:
         return None
 
+    # Math documents expose a formula component — check BEFORE Text because
+    # Math models also have a Text attribute.
+    if hasattr(model, "getFormula") or (
+        hasattr(model, "Formula") and not hasattr(model, "Sheets")
+    ):
+        return AppType.MATH
+
     if hasattr(model, "Text"):
         return AppType.WRITER
 
@@ -91,8 +98,12 @@ def resolve_app_type(frame: object | None) -> AppType | None:
         document_url = resolve_document_url(frame).casefold()
         if document_url.endswith(".odp") or "simpress" in document_url:
             return AppType.IMPRESS
-        # Unrecognised draw-based document (e.g. Draw) — not supported.
-        return None
+        # Draw document (has DrawPages but no Presentation).
+        return AppType.DRAW
+
+    # Base documents expose a DatabaseDocument service.
+    if hasattr(model, "DataSource"):
+        return AppType.BASE
 
     document_url = resolve_document_url(frame).casefold()
     if document_url.endswith(".ods") or "scalc" in document_url:
@@ -100,6 +111,15 @@ def resolve_app_type(frame: object | None) -> AppType | None:
 
     if document_url.endswith(".odp") or "simpress" in document_url:
         return AppType.IMPRESS
+
+    if document_url.endswith(".odg") or "sdraw" in document_url:
+        return AppType.DRAW
+
+    if document_url.endswith(".odf") or "smath" in document_url:
+        return AppType.MATH
+
+    if document_url.endswith(".odb") or "sbase" in document_url:
+        return AppType.BASE
 
     return None
 

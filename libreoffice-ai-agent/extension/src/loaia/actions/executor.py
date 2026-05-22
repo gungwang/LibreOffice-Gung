@@ -35,6 +35,13 @@ TOOL_UNO_DISPATCH_MAP: dict[str, str] = {
     "Impress.AlignLeft": ".uno:LeftPara",
     "Impress.AlignCenter": ".uno:CenterPara",
     "Impress.AlignRight": ".uno:RightPara",
+    # Draw
+    "Draw.ToggleBold": ".uno:Bold",
+    "Draw.ToggleItalic": ".uno:Italic",
+    "Draw.ToggleUnderline": ".uno:Underline",
+    "Draw.AlignLeft": ".uno:LeftPara",
+    "Draw.AlignCenter": ".uno:CenterPara",
+    "Draw.AlignRight": ".uno:RightPara",
 }
 
 # Heading style arguments for Writer.ApplyHeading* actions.

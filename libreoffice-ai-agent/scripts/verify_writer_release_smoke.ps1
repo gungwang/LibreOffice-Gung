@@ -184,6 +184,55 @@ $calcFormulaExitCode = Invoke-SmokeScript `
 	-UseStateIsolation
 $results.Add([pscustomobject]@{ Scenario = "Calc formula"; ExitCode = $calcFormulaExitCode; CoveredBy = "verify_calc_formula.ps1" }) | Out-Null
 
+$drawSafeFormattingArgumentMap = @{
+	ProjectRoot = $projectRootPath
+	Prompt = "Make this bold."
+	InitialText = "Hello Draw"
+	ExpectedToolId = "Draw.ToggleBold"
+	Provider = $resolvedProvider
+	Model = $resolvedModel
+	SkipBuild = $true
+}
+if ($LibreOfficeProgramPath) {
+	$drawSafeFormattingArgumentMap.LibreOfficeProgramPath = $LibreOfficeProgramPath
+}
+if ($PythonPath) {
+	$drawSafeFormattingArgumentMap.PythonPath = $PythonPath
+}
+
+$drawSafeFormattingExitCode = Invoke-SmokeScript `
+	-Scenario "draw-safe-formatting" `
+	-Invocation {
+		& (Join-Path $PSScriptRoot "verify_draw_safe_formatting.ps1") @drawSafeFormattingArgumentMap
+	} `
+	-StateRootDir (Join-Path $stateRootBaseDir "draw-safe-formatting") `
+	-UseStateIsolation
+$results.Add([pscustomobject]@{ Scenario = "Draw safe formatting"; ExitCode = $drawSafeFormattingExitCode; CoveredBy = "verify_draw_safe_formatting.ps1" }) | Out-Null
+
+$mathDirectAnswerArgumentMap = @{
+	ProjectRoot = $projectRootPath
+	Prompt = "Explain what this formula represents."
+	InitialFormula = "a^2 + b^2 = c^2"
+	Provider = $resolvedProvider
+	Model = $resolvedModel
+	SkipBuild = $true
+}
+if ($LibreOfficeProgramPath) {
+	$mathDirectAnswerArgumentMap.LibreOfficeProgramPath = $LibreOfficeProgramPath
+}
+if ($PythonPath) {
+	$mathDirectAnswerArgumentMap.PythonPath = $PythonPath
+}
+
+$mathDirectAnswerExitCode = Invoke-SmokeScript `
+	-Scenario "math-direct-answer" `
+	-Invocation {
+		& (Join-Path $PSScriptRoot "verify_math_direct_answer.ps1") @mathDirectAnswerArgumentMap
+	} `
+	-StateRootDir (Join-Path $stateRootBaseDir "math-direct-answer") `
+	-UseStateIsolation
+$results.Add([pscustomobject]@{ Scenario = "Math direct answer"; ExitCode = $mathDirectAnswerExitCode; CoveredBy = "verify_math_direct_answer.ps1" }) | Out-Null
+
 $previewArgumentMap = @{
 	ProjectRoot = $projectRootPath
 	Prompt = "Rewrite this selection into a more formal sentence."
