@@ -5,6 +5,9 @@ class AppType(StrEnum):
     WRITER = "writer"
     CALC = "calc"
     IMPRESS = "impress"
+    DRAW = "draw"
+    MATH = "math"
+    BASE = "base"
 
 
 class PrivacyScope(StrEnum):

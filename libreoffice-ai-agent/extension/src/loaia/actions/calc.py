@@ -8,13 +8,55 @@ CALC_ACTIONS = [
         requires_approval=False,
     ),
     ActionDefinition(
+        "Calc.GetSelectedFormula",
+        "calc",
+        safe_formatting=False,
+        requires_approval=False,
+    ),
+    ActionDefinition(
         "Calc.ToggleBold",
         "calc",
         safe_formatting=True,
         requires_approval=False,
     ),
     ActionDefinition(
+        "Calc.ToggleItalic",
+        "calc",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Calc.AlignLeft",
+        "calc",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Calc.AlignCenter",
+        "calc",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Calc.AlignRight",
+        "calc",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
         "Calc.ApplyNumberFormatCurrency",
+        "calc",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Calc.ApplyNumberFormatPercent",
+        "calc",
+        safe_formatting=True,
+        requires_approval=False,
+    ),
+    ActionDefinition(
+        "Calc.ApplyNumberFormatDate",
         "calc",
         safe_formatting=True,
         requires_approval=False,
@@ -27,6 +69,12 @@ CALC_ACTIONS = [
     ),
     ActionDefinition(
         "Calc.CreateChartFromSelection",
+        "calc",
+        safe_formatting=False,
+        requires_approval=True,
+    ),
+    ActionDefinition(
+        "Calc.SortSelectedRange",
         "calc",
         safe_formatting=False,
         requires_approval=True,
