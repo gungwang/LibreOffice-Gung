@@ -398,6 +398,15 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             apply_impress_text_replacement(selection.controller, replacement_text)
             return
 
+        if tool_id == "Writer.InsertTable":
+            arguments = getattr(proposal, "arguments", {})
+            if not isinstance(arguments, dict):
+                arguments = {}
+            rows = int(arguments.get("rows", 3))
+            cols = int(arguments.get("columns", 3))
+            _insert_writer_table(selection, rows, cols)
+            return
+
         if tool_id == "Impress.CreateSlideFromOutline":
             if selection.controller is None:
                 raise ValueError("Impress controller is not available for slide creation.")
@@ -746,6 +755,49 @@ def _insert_below_writer_selection(selection: RuntimeSelection, text: str) -> No
     parent_text.insertControlCharacter(end_cursor, PARAGRAPH_BREAK, False)
     parent_text.insertString(end_cursor, text, False)
     selection.text = text
+
+
+def _insert_writer_table(selection: RuntimeSelection, rows: int, cols: int) -> None:
+    """Insert a table at the current cursor position in Writer."""
+    if not selection.text_ranges:
+        raise ValueError("No text range available for table insertion.")
+
+    text_range = selection.text_ranges[0]
+    parent_text = (
+        getattr(text_range, "Text", None)
+        or getattr(text_range, "getText", lambda: None)()
+    )
+    if parent_text is None:
+        raise ValueError("Writer text object not available for table insertion.")
+
+    # Get the document model to create the table
+    try:
+        import uno  # type: ignore[import]
+
+        ctx = uno.getComponentContext()
+        smgr = ctx.ServiceManager
+        desktop = smgr.createInstanceWithContext("com.sun.star.frame.Desktop", ctx)
+        doc = desktop.getCurrentComponent()
+    except ImportError:
+        raise ValueError("UNO runtime not available for table insertion.")
+
+    if doc is None or not hasattr(doc, "createInstance"):
+        raise ValueError("No active document for table insertion.")
+
+    # Create table via document factory
+    table = doc.createInstance("com.sun.star.text.TextTable")
+    table.initialize(rows, cols)
+
+    # Insert at cursor position (end of current selection)
+    cursor = text_range.getEnd()
+    parent_text.insertTextContent(cursor, table, False)
+
+    # Apply basic styling: header row background
+    try:
+        first_row = table.getRows().getByIndex(0)
+        first_row.setPropertyValue("BackColor", 0xDDDDDD)  # Light gray header
+    except Exception:
+        pass  # Style is optional, don't fail if it doesn't work
 
 
 def _extract_replacement_text(proposal: object) -> str:

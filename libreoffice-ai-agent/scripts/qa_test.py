@@ -283,9 +283,60 @@ def test_heading_request() -> bool:
         return False
 
 
+def test_insert_table_request() -> bool:
+    """Send 'insert a table 3x5' and verify it returns Writer.InsertTable."""
+    try:
+        conn = Client(PIPE_ADDRESS, family="AF_PIPE")
+        chat_msg = json.dumps({
+            "type": "ChatRequest",
+            "requestId": "qa-test-004",
+            "userMessage": "insert a table 3x5",
+            "provider": "openrouter",
+            "model": os.environ.get("LOAIA_DEFAULT_MODEL", "minimax/minimax-m2.7"),
+            "privacyScope": "full-document",
+            "app": "writer",
+            "document": {"canonicalUrl": "file:///qa-test.odt", "profileId": "qa-profile"},
+            "context": {
+                "selection": {"text": "Some text here.", "mimeType": "text/plain"}
+            },
+        }).encode("utf-8")
+        conn.send_bytes(chat_msg)
+
+        frames: list[dict] = []
+        while True:
+            try:
+                data = conn.recv_bytes()
+                frame = json.loads(data.decode("utf-8"))
+                frames.append(frame)
+            except EOFError:
+                break
+        conn.close()
+
+        if not frames:
+            report("Insert table → Writer.InsertTable", False, "No frames received")
+            return False
+
+        last = frames[-1]
+        last_type = last.get("type")
+
+        if last_type == "ToolProposal":
+            proposals = last.get("proposals", [])
+            tool_id = proposals[0].get("toolId", "") if proposals else ""
+            args = proposals[0].get("arguments", {}) if proposals else {}
+            ok = tool_id == "Writer.InsertTable"
+            report("Insert table → Writer.InsertTable", ok, f"tool={tool_id}, args={args}")
+            return ok
+
+        report("Insert table → Writer.InsertTable", False, f"Got type={last_type}")
+        return False
+    except Exception as exc:
+        report("Insert table → Writer.InsertTable", False, str(exc))
+        return False
+
+
 def main() -> int:
     print(f"\n{'='*60}")
-    print(f"  LibreOffice AI Agent — QA Test Suite (v0.1.5)")
+    print(f"  LibreOffice AI Agent — QA Test Suite (v0.1.6)")
     print(f"{'='*60}\n")
 
     # Phase 1: Static checks
@@ -349,6 +400,7 @@ def main() -> int:
         test_chat_request()
         test_translate_request()
         test_heading_request()
+        test_insert_table_request()
 
         # Cleanup
         server_proc.terminate()

@@ -301,6 +301,11 @@ class LoaiaSidecarServer:
         ):
             return None
 
+        # Table insertion
+        table_keywords = ("insert a table", "insert table", "create a table", "create table", "add a table", "add table")
+        if any(kw in normalized for kw in table_keywords):
+            return self._plan_writer_insert_table(request)
+
         insert_keywords = (
             "insert below", "add below", "append", "add after",
             "insert after", "write below", "add paragraph",
@@ -340,6 +345,42 @@ class LoaiaSidecarServer:
                 after=text,
             ),
             arguments={"replacementText": text},
+        )
+
+    def _plan_writer_insert_table(self, request: ChatRequest) -> ToolProposal:
+        """Plan a Writer.InsertTable action by parsing rows/columns from user message."""
+        import re
+
+        normalized = request.user_message.casefold()
+        # Try to extract dimensions like "3x5", "3 x 5", "3 by 5", "3 columns 5 rows", etc.
+        # Pattern: NxM or N by M
+        match = re.search(r"(\d+)\s*[x×by]\s*(\d+)", normalized)
+        if match:
+            num1, num2 = int(match.group(1)), int(match.group(2))
+            # Heuristic: if user says "3x5", interpret as 3 columns x 5 rows
+            cols, rows = num1, num2
+        else:
+            # Try "N rows" and "M columns" separately
+            row_match = re.search(r"(\d+)\s*rows?", normalized)
+            col_match = re.search(r"(\d+)\s*col(?:umn)?s?", normalized)
+            rows = int(row_match.group(1)) if row_match else 3
+            cols = int(col_match.group(1)) if col_match else 3
+
+        # Clamp to reasonable limits
+        rows = max(1, min(rows, 50))
+        cols = max(1, min(cols, 20))
+
+        return ToolProposal(
+            proposalId=f"{request.request_id}-writer-table",
+            toolId="Writer.InsertTable",
+            safetyClass=SafetyClass.CONTENT_EDIT,
+            requiresApproval=False,
+            preview=ActionPreview(
+                summary=f"Insert {cols}x{rows} table",
+                before="",
+                after=f"[Table: {cols} columns × {rows} rows]",
+            ),
+            arguments={"rows": rows, "columns": cols},
         )
 
     @staticmethod

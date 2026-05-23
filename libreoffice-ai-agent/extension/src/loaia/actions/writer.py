@@ -79,4 +79,10 @@ WRITER_ACTIONS = [
         safe_formatting=False,
         requires_approval=True,
     ),
+    ActionDefinition(
+        "Writer.InsertTable",
+        "writer",
+        safe_formatting=False,
+        requires_approval=False,
+    ),
 ]
