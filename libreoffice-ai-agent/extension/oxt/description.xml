@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <d:description xmlns:d="http://openoffice.org/extensions/description/2006">
   <d:identifier value="org.gungwang.libreoffice-ai-agent"/>
-  <d:version value="0.1.4"/>
+  <d:version value="0.1.5"/>
   <d:display-name>
     <name lang="en">LibreOffice AI Agent</name>
   </d:display-name>

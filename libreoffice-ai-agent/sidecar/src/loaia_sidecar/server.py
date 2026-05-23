@@ -225,7 +225,7 @@ class LoaiaSidecarServer:
         provider_request = ProviderRequest(
             provider=request.provider,
             model=request.model,
-            prompt=request.user_message,
+            prompt=self._build_direct_answer_prompt(request.user_message),
             context_text=(request.context.selection.text if request.context.selection else ""),
         )
 
@@ -429,14 +429,18 @@ class LoaiaSidecarServer:
                     '{"action":"replace-selection","replacementText":"<full replacement text>"}'
                 ),
                 (
+                    "Translation IS a replace-selection action. When the user asks to translate "
+                    "the text to another language, return the translated text as replacementText."
+                ),
+                (
                     "If the user is asking a QUESTION about the text (e.g. summarize, "
-                    "explain, translate to another language, analyze, or answer a question), "
-                    "return exactly: "
+                    "explain, analyze, or answer a question) WITHOUT wanting to change "
+                    "the document, return exactly: "
                     '{"action":"no-replacement"}'
                 ),
                 (
-                    "Only use replace-selection when the user explicitly wants to CHANGE "
-                    "the document text (rewrite, fix grammar, shorten, expand, etc.)."
+                    "Use replace-selection when the user wants to CHANGE the document text "
+                    "(rewrite, fix grammar, shorten, expand, translate, convert, etc.)."
                 ),
                 (
                     f"Legacy fallback remains {WRITER_NO_REPLACEMENT_SENTINEL}, "
@@ -534,8 +538,14 @@ class LoaiaSidecarServer:
             "draw": "Draw.ToggleUnderline",
         },
         "heading 1": {"writer": "Writer.ApplyHeading1"},
+        "heading1": {"writer": "Writer.ApplyHeading1"},
+        "h1": {"writer": "Writer.ApplyHeading1"},
         "heading 2": {"writer": "Writer.ApplyHeading2"},
+        "heading2": {"writer": "Writer.ApplyHeading2"},
+        "h2": {"writer": "Writer.ApplyHeading2"},
         "heading 3": {"writer": "Writer.ApplyHeading3"},
+        "heading3": {"writer": "Writer.ApplyHeading3"},
+        "h3": {"writer": "Writer.ApplyHeading3"},
         "bullet": {
             "writer": "Writer.ApplyBullets",
             "impress": "Impress.ApplyBullets",
@@ -959,11 +969,23 @@ class LoaiaSidecarServer:
             ]
         )
 
+    @staticmethod
+    def _build_direct_answer_prompt(user_message: str) -> str:
+        return "\n".join([
+            "You are a concise AI assistant embedded in LibreOffice.",
+            "Answer the user's question briefly and directly.",
+            "Do NOT generate setup guides, tutorials, or unrelated content.",
+            "Keep answers short (1-3 paragraphs max) unless the user explicitly asks for detail.",
+            "If the user provides document text as context, answer about THAT text specifically.",
+            f"User: {user_message.strip()}",
+        ])
+
     def _complete_direct_answer(self, request: ChatRequest) -> str:
+        prompt = self._build_direct_answer_prompt(request.user_message)
         provider_request = ProviderRequest(
             provider=request.provider,
             model=request.model,
-            prompt=request.user_message,
+            prompt=prompt,
             context_text=request.context.selection.text if request.context.selection else "",
         )
         adapter = self.provider_adapters.get(provider_request.provider)

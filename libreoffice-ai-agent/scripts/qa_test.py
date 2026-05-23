@@ -127,13 +127,13 @@ def test_pipe_handshake(server_proc: subprocess.Popen) -> bool:
 
 
 def test_chat_request() -> bool:
-    """Send a real chat request and verify streaming response."""
+    """Send a real chat request (question) and verify streaming DirectAnswer response."""
     try:
         conn = Client(PIPE_ADDRESS, family="AF_PIPE")
         chat_msg = json.dumps({
             "type": "ChatRequest",
             "requestId": "qa-test-001",
-            "userMessage": "Reply with exactly: QA_OK",
+            "userMessage": "What is 2+2? Reply with just the number.",
             "provider": "openrouter",
             "model": os.environ.get("LOAIA_DEFAULT_MODEL", "minimax/minimax-m2.7"),
             "privacyScope": "full-document",
@@ -156,32 +156,136 @@ def test_chat_request() -> bool:
         conn.close()
 
         if not frames:
-            report("Chat request (streaming)", False, "No frames received")
+            report("Chat request (DirectAnswer)", False, "No frames received")
             return False
 
         last = frames[-1]
         last_type = last.get("type")
 
         if last_type == "ErrorResponse":
-            report("Chat request (streaming)", False, f"Error: {last.get('message', '')[:100]}")
+            report("Chat request (DirectAnswer)", False, f"Error: {last.get('message', '')[:100]}")
             return False
 
         if last_type == "DirectAnswer":
             text = last.get("text", "")
             stream_count = sum(1 for f in frames if f.get("type") == "StreamChunk")
-            report("Chat request (streaming)", True, f"streamed={stream_count} chunks, answer={text[:60]}")
+            report("Chat request (DirectAnswer)", True, f"streamed={stream_count} chunks, answer={text[:60]}")
             return True
 
-        report("Chat request (streaming)", False, f"Unexpected final type: {last_type}")
+        report("Chat request (DirectAnswer)", False, f"Unexpected final type: {last_type}")
         return False
     except Exception as exc:
-        report("Chat request (streaming)", False, str(exc))
+        report("Chat request (DirectAnswer)", False, str(exc))
+        return False
+
+
+def test_translate_request() -> bool:
+    """Send a translate request and verify it returns a ToolProposal (replace-selection)."""
+    try:
+        conn = Client(PIPE_ADDRESS, family="AF_PIPE")
+        chat_msg = json.dumps({
+            "type": "ChatRequest",
+            "requestId": "qa-test-002",
+            "userMessage": "translate to chinese",
+            "provider": "openrouter",
+            "model": os.environ.get("LOAIA_DEFAULT_MODEL", "minimax/minimax-m2.7"),
+            "privacyScope": "full-document",
+            "app": "writer",
+            "document": {"canonicalUrl": "file:///qa-test.odt", "profileId": "qa-profile"},
+            "context": {
+                "selection": {"text": "Hello world", "mimeType": "text/plain"}
+            },
+        }).encode("utf-8")
+        conn.send_bytes(chat_msg)
+
+        frames: list[dict] = []
+        while True:
+            try:
+                data = conn.recv_bytes()
+                frame = json.loads(data.decode("utf-8"))
+                frames.append(frame)
+            except EOFError:
+                break
+        conn.close()
+
+        if not frames:
+            report("Translate → ToolProposal", False, "No frames received")
+            return False
+
+        last = frames[-1]
+        last_type = last.get("type")
+
+        if last_type == "ErrorResponse":
+            report("Translate → ToolProposal", False, f"Error: {last.get('message', '')[:100]}")
+            return False
+
+        if last_type == "ToolProposal":
+            proposals = last.get("proposals", [])
+            tool_id = proposals[0].get("toolId", "") if proposals else ""
+            replacement = proposals[0].get("arguments", {}).get("replacementText", "") if proposals else ""
+            report("Translate → ToolProposal", True, f"tool={tool_id}, replacement={replacement[:40]}")
+            return True
+
+        report("Translate → ToolProposal", False, f"Got type={last_type} instead of ToolProposal")
+        return False
+    except Exception as exc:
+        report("Translate → ToolProposal", False, str(exc))
+        return False
+
+
+def test_heading_request() -> bool:
+    """Send 'change to h1' and verify it returns ApplyHeading1 (safe formatting)."""
+    try:
+        conn = Client(PIPE_ADDRESS, family="AF_PIPE")
+        chat_msg = json.dumps({
+            "type": "ChatRequest",
+            "requestId": "qa-test-003",
+            "userMessage": "change to h1",
+            "provider": "openrouter",
+            "model": os.environ.get("LOAIA_DEFAULT_MODEL", "minimax/minimax-m2.7"),
+            "privacyScope": "full-document",
+            "app": "writer",
+            "document": {"canonicalUrl": "file:///qa-test.odt", "profileId": "qa-profile"},
+            "context": {
+                "selection": {"text": "My Title", "mimeType": "text/plain"}
+            },
+        }).encode("utf-8")
+        conn.send_bytes(chat_msg)
+
+        frames: list[dict] = []
+        while True:
+            try:
+                data = conn.recv_bytes()
+                frame = json.loads(data.decode("utf-8"))
+                frames.append(frame)
+            except EOFError:
+                break
+        conn.close()
+
+        if not frames:
+            report("Heading h1 → ApplyHeading1", False, "No frames received")
+            return False
+
+        last = frames[-1]
+        last_type = last.get("type")
+
+        if last_type == "ToolProposal":
+            proposals = last.get("proposals", [])
+            tool_id = proposals[0].get("toolId", "") if proposals else ""
+            ok = tool_id == "Writer.ApplyHeading1"
+            report("Heading h1 → ApplyHeading1", ok, f"tool={tool_id}")
+            return ok
+
+        report("Heading h1 → ApplyHeading1", False, f"Got type={last_type}")
+        return False
+    except Exception as exc:
+        report("Heading h1 → ApplyHeading1", False, str(exc))
         return False
 
 
 def main() -> int:
     print(f"\n{'='*60}")
-    print(f"  LibreOffice AI Agent — QA Test Suite (v0.1.4)")
+    print(f"  LibreOffice AI Agent — QA Test Suite (v0.1.5)")
     print(f"{'='*60}\n")
 
     # Phase 1: Static checks
@@ -194,6 +298,21 @@ def main() -> int:
 
     # Phase 2: Live sidecar test
     print("\nPhase 2: Live Sidecar Integration")
+
+    # Kill any stale sidecar that might be holding the pipe
+    try:
+        conn = Client(PIPE_ADDRESS, family="AF_PIPE")
+        conn.close()
+        print("  Killing stale sidecar on pipe...")
+        if sys.platform == "win32":
+            os.system('taskkill /f /fi "IMAGENAME eq python.exe" /fi "WINDOWTITLE eq loaia*" >nul 2>&1')
+            # Also try via port connection to force close
+            import signal
+            # Just wait a moment for pipe to release
+            time.sleep(1.0)
+    except OSError:
+        pass  # No stale process
+
     print("  Starting sidecar subprocess...")
 
     env = dict(os.environ)
@@ -228,6 +347,8 @@ def main() -> int:
         report("Sidecar startup", True, f"PID={server_proc.pid}")
         test_pipe_handshake(server_proc)
         test_chat_request()
+        test_translate_request()
+        test_heading_request()
 
         # Cleanup
         server_proc.terminate()
