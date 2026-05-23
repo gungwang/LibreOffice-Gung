@@ -407,6 +407,16 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             _insert_writer_table(selection, rows, cols)
             return
 
+        if tool_id == "Writer.ConvertToTable":
+            arguments = getattr(proposal, "arguments", {})
+            if not isinstance(arguments, dict):
+                arguments = {}
+            rows = int(arguments.get("rows", 3))
+            cols = int(arguments.get("columns", 3))
+            tsv_data = str(arguments.get("tsvData", ""))
+            _convert_writer_text_to_table(selection, rows, cols, tsv_data)
+            return
+
         if tool_id == "Impress.CreateSlideFromOutline":
             if selection.controller is None:
                 raise ValueError("Impress controller is not available for slide creation.")
@@ -798,6 +808,83 @@ def _insert_writer_table(selection: RuntimeSelection, rows: int, cols: int) -> N
         first_row.setPropertyValue("BackColor", 0xDDDDDD)  # Light gray header
     except Exception:
         pass  # Style is optional, don't fail if it doesn't work
+
+
+def _convert_writer_text_to_table(
+    selection: RuntimeSelection, rows: int, cols: int, tsv_data: str
+) -> None:
+    """Replace selected text with a table populated from TSV data."""
+    if not selection.text_ranges:
+        raise ValueError("No text range available for table conversion.")
+
+    text_range = selection.text_ranges[0]
+    parent_text = (
+        getattr(text_range, "Text", None)
+        or getattr(text_range, "getText", lambda: None)()
+    )
+    if parent_text is None:
+        raise ValueError("Writer text object not available for table conversion.")
+
+    try:
+        import uno  # type: ignore[import]
+
+        ctx = uno.getComponentContext()
+        smgr = ctx.ServiceManager
+        desktop = smgr.createInstanceWithContext("com.sun.star.frame.Desktop", ctx)
+        doc = desktop.getCurrentComponent()
+    except ImportError:
+        raise ValueError("UNO runtime not available for table conversion.")
+
+    if doc is None or not hasattr(doc, "createInstance"):
+        raise ValueError("No active document for table conversion.")
+
+    # Delete the selected text first
+    try:
+        text_range.setString("")
+    except Exception:
+        pass
+
+    # Create and insert table
+    table = doc.createInstance("com.sun.star.text.TextTable")
+    table.initialize(rows, cols)
+    cursor = text_range.getEnd()
+    parent_text.insertTextContent(cursor, table, False)
+
+    # Populate with TSV data
+    lines = [line for line in tsv_data.splitlines() if line.strip()]
+    for row_idx, line in enumerate(lines):
+        if row_idx >= rows:
+            break
+        cells = line.split("\t")
+        for col_idx, cell_text in enumerate(cells):
+            if col_idx >= cols:
+                break
+            cell_name = _table_cell_name(col_idx, row_idx)
+            try:
+                cell = table.getCellByName(cell_name)
+                if cell is not None:
+                    cell.setString(cell_text.strip())
+            except Exception:
+                pass
+
+    # Style header row
+    try:
+        first_row = table.getRows().getByIndex(0)
+        first_row.setPropertyValue("BackColor", 0xDDDDDD)
+    except Exception:
+        pass
+
+
+def _table_cell_name(col: int, row: int) -> str:
+    """Convert 0-based col/row to Writer table cell name like A1, B2, AA3."""
+    name = ""
+    c = col
+    while True:
+        name = chr(ord("A") + c % 26) + name
+        c = c // 26 - 1
+        if c < 0:
+            break
+    return f"{name}{row + 1}"
 
 
 def _extract_replacement_text(proposal: object) -> str:

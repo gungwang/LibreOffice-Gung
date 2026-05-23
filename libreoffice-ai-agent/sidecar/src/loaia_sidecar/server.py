@@ -60,7 +60,7 @@ class LoaiaSidecarServer:
 
     def handshake(self) -> HandshakeResponse:
         return HandshakeResponse(
-            serverVersion="0.1.0",
+            serverVersion="0.1.7",
             capabilities=self.capabilities,
             availableProviders=self.settings.enabled_providers,
         )
@@ -290,10 +290,19 @@ class LoaiaSidecarServer:
     )
 
     def _plan_writer_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Plan a Writer content-edit: either insert-below or replace-selection."""
+        """Plan a Writer content-edit using intent classification.
+
+        Implements Copilot-like behavior:
+        - Questions/summaries → DirectAnswer (return None)
+        - Rewrite/edit/translate/tone → ReplaceSelection
+        - Draft new content / insert below → InsertBelowSelection
+        - Insert table → InsertTable
+        - Convert text to table → ConvertToTable
+        - Formatting (bold/heading/etc.) → handled by _plan_safe_formatting (called before this)
+        """
         normalized = request.user_message.casefold().strip()
 
-        # Questions about the text should be direct answers, not edits.
+        # --- Questions and analysis → DirectAnswer ---
         if (
             normalized.endswith("?")
             or any(normalized.startswith(q) for q in self._QUESTION_STARTERS)
@@ -301,17 +310,35 @@ class LoaiaSidecarServer:
         ):
             return None
 
-        # Table insertion
-        table_keywords = ("insert a table", "insert table", "create a table", "create table", "add a table", "add table")
-        if any(kw in normalized for kw in table_keywords):
+        # --- Table insertion (new empty table) ---
+        table_insert_keywords = (
+            "insert a table", "insert table", "create a table", "create table",
+            "add a table", "add table", "make a table",
+        )
+        if any(kw in normalized for kw in table_insert_keywords):
             return self._plan_writer_insert_table(request)
 
+        # --- Convert text to table (Copilot: "Visualize as Table") ---
+        table_convert_keywords = (
+            "convert to table", "convert to a table", "make into table",
+            "make into a table", "visualize as table", "visualize as a table",
+            "turn into table", "turn into a table", "format as table",
+            "format as a table", "text to table",
+        )
+        if any(kw in normalized for kw in table_convert_keywords):
+            return self._plan_writer_convert_to_table(request)
+
+        # --- Insert below / draft new content ---
         insert_keywords = (
             "insert below", "add below", "append", "add after",
             "insert after", "write below", "add paragraph",
+            "draft", "write a", "write an", "generate",
+            "compose", "create a paragraph", "create content",
         )
         if any(kw in normalized for kw in insert_keywords):
             return self._plan_writer_insert_below(request)
+
+        # --- Rewrite / edit / translate / tone (operates on selection) ---
         return self._plan_writer_replace_selection(request)
 
     def _plan_writer_insert_below(self, request: ChatRequest) -> ToolProposal | None:
@@ -381,6 +408,61 @@ class LoaiaSidecarServer:
                 after=f"[Table: {cols} columns × {rows} rows]",
             ),
             arguments={"rows": rows, "columns": cols},
+        )
+
+    def _plan_writer_convert_to_table(self, request: ChatRequest) -> ToolProposal | None:
+        """Convert selected text into a table (Copilot: 'Visualize as Table').
+
+        Sends the selection to the LLM to parse into rows/columns, then inserts
+        a table with that data.
+        """
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        prompt = "\n".join([
+            "Convert the following text into a table format.",
+            "Output ONLY tab-separated values (TSV). Each line is a row, columns separated by TAB.",
+            "First line should be the header row if headers can be inferred.",
+            "Do NOT add any explanation, markdown, or formatting. Just TSV data.",
+            "",
+            "Text to convert:",
+            selection.text.strip(),
+        ])
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=prompt,
+            context_text="",
+        )
+        tsv_text = adapter.complete(provider_request).strip()
+        if not tsv_text:
+            return None
+
+        # Parse TSV to determine dimensions
+        lines = [line for line in tsv_text.splitlines() if line.strip()]
+        if not lines:
+            return None
+        rows = len(lines)
+        cols = max(len(line.split("\t")) for line in lines)
+        cols = max(cols, 1)
+
+        return ToolProposal(
+            proposalId=f"{request.request_id}-writer-convert-table",
+            toolId="Writer.ConvertToTable",
+            safetyClass=SafetyClass.CONTENT_EDIT,
+            requiresApproval=False,
+            preview=ActionPreview(
+                summary=f"Convert text to {cols}x{rows} table",
+                before=selection.text[:100],
+                after=tsv_text[:200],
+            ),
+            arguments={"rows": rows, "columns": cols, "tsvData": tsv_text},
         )
 
     @staticmethod
@@ -461,42 +543,34 @@ class LoaiaSidecarServer:
     def _build_writer_rewrite_prompt(user_message: str) -> str:
         return "\n".join(
             [
-                "You are planning a LibreOffice Writer ReplaceSelection action.",
-                (
-                    "Reply with JSON only. Do not add markdown fences, commentary, or extra text."
-                ),
-                (
-                    "For a rewrite/edit/transform request, return exactly: "
-                    '{"action":"replace-selection","replacementText":"<full replacement text>"}'
-                ),
-                (
-                    "Translation IS a replace-selection action. When the user asks to translate "
-                    "the text to another language, return the translated text as replacementText."
-                ),
-                (
-                    "If the user is asking a QUESTION about the text (e.g. summarize, "
-                    "explain, analyze, or answer a question) WITHOUT wanting to change "
-                    "the document, return exactly: "
-                    '{"action":"no-replacement"}'
-                ),
-                (
-                    "Use replace-selection when the user wants to CHANGE the document text "
-                    "(rewrite, fix grammar, shorten, expand, translate, convert, etc.)."
-                ),
-                (
-                    f"Legacy fallback remains {WRITER_NO_REPLACEMENT_SENTINEL}, "
-                    "but prefer the JSON contract above."
-                ),
-                f"User request: {user_message.strip()}",
+                "You are a document editing assistant. The user wants to MODIFY their selected text.",
+                "",
+                "RULES:",
+                "1. Reply with ONLY the replacement text. No explanations, no JSON, no markdown fences.",
+                "2. Return the COMPLETE replacement text that should replace the user's selection.",
+                "3. For translation: return the fully translated text.",
+                "4. For rewrite/rephrase: return the rewritten version.",
+                "5. For tone change (formal, casual, professional): return the adjusted text.",
+                "6. For make shorter/longer: return condensed or expanded version.",
+                "7. For fix grammar/spelling: return the corrected text.",
+                "8. NEVER explain what you did. NEVER add notes. Just output the replacement text.",
+                "",
+                f"User instruction: {user_message.strip()}",
             ]
         )
 
     @staticmethod
     def _normalize_writer_rewrite_response(response_text: str) -> str | None:
+        """Normalize the LLM response for a rewrite action.
+
+        The prompt asks for raw replacement text, but some models may still
+        wrap in markdown fences or quotes. Strip those.
+        """
         normalized = response_text.strip()
         if not normalized:
             return None
 
+        # Strip markdown code fences
         if normalized.startswith("```") and normalized.endswith("```"):
             lines = normalized.splitlines()
             if lines and lines[0].startswith("```"):
@@ -505,34 +579,32 @@ class LoaiaSidecarServer:
                 lines = lines[:-1]
             normalized = "\n".join(lines).strip()
 
+        # Legacy sentinel
         if normalized.casefold() == WRITER_NO_REPLACEMENT_SENTINEL.casefold():
             return None
 
+        # Some models still return JSON despite instructions — handle gracefully
         if normalized.startswith("{") and normalized.endswith("}"):
             try:
                 payload = json.loads(normalized)
+                if isinstance(payload, dict):
+                    if payload.get("action") == "no-replacement":
+                        return None
+                    replacement = payload.get("replacementText")
+                    if isinstance(replacement, str) and replacement.strip():
+                        return replacement.strip()
             except json.JSONDecodeError:
-                payload = None
+                pass
 
-            if isinstance(payload, dict):
-                action = str(payload.get("action") or "").strip().casefold()
-                if action == "no-replacement":
-                    return None
-
-                if action == "replace-selection":
-                    replacement_text = payload.get("replacementText")
-                    if isinstance(replacement_text, str):
-                        replacement_text = replacement_text.strip()
-                        return replacement_text or None
-
-                    return None
-
+        # Strip wrapping quotes
         if (
             len(normalized) >= 2
             and normalized[0] == normalized[-1]
             and normalized[0] in {'"', "'"}
         ):
-            normalized = normalized[1:-1].strip()
+            inner = normalized[1:-1].strip()
+            if inner:
+                normalized = inner
 
         return normalized or None
 

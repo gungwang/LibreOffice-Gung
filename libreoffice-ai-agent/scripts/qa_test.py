@@ -334,9 +334,121 @@ def test_insert_table_request() -> bool:
         return False
 
 
+def test_convert_to_table_request() -> bool:
+    """Send 'convert to table' and verify it returns Writer.ConvertToTable."""
+    try:
+        conn = Client(PIPE_ADDRESS, family="AF_PIPE")
+        chat_msg = json.dumps({
+            "type": "ChatRequest",
+            "requestId": "qa-test-005",
+            "userMessage": "convert to table",
+            "provider": "openrouter",
+            "model": os.environ.get("LOAIA_DEFAULT_MODEL", "minimax/minimax-m2.7"),
+            "privacyScope": "full-document",
+            "app": "writer",
+            "document": {"canonicalUrl": "file:///qa-test.odt", "profileId": "qa-profile"},
+            "context": {
+                "selection": {"text": "Name: Alice, Age: 30\nName: Bob, Age: 25\nName: Carol, Age: 28", "mimeType": "text/plain"}
+            },
+        }).encode("utf-8")
+        conn.send_bytes(chat_msg)
+
+        frames: list[dict] = []
+        while True:
+            try:
+                data = conn.recv_bytes()
+                frame = json.loads(data.decode("utf-8"))
+                frames.append(frame)
+            except EOFError:
+                break
+        conn.close()
+
+        if not frames:
+            report("Convert to table → Writer.ConvertToTable", False, "No frames received")
+            return False
+
+        last = frames[-1]
+        last_type = last.get("type")
+
+        if last_type == "ErrorResponse":
+            report("Convert to table → Writer.ConvertToTable", False, f"Error: {last.get('message', '')[:100]}")
+            return False
+
+        if last_type == "ToolProposal":
+            proposals = last.get("proposals", [])
+            tool_id = proposals[0].get("toolId", "") if proposals else ""
+            args = proposals[0].get("arguments", {}) if proposals else {}
+            ok = tool_id == "Writer.ConvertToTable"
+            has_tsv = bool(args.get("tsvData"))
+            report("Convert to table → Writer.ConvertToTable", ok and has_tsv, f"tool={tool_id}, has_tsv={has_tsv}, rows={args.get('rows')}")
+            return ok and has_tsv
+
+        report("Convert to table → Writer.ConvertToTable", False, f"Got type={last_type}")
+        return False
+    except Exception as exc:
+        report("Convert to table → Writer.ConvertToTable", False, str(exc))
+        return False
+
+
+def test_tone_change_request() -> bool:
+    """Send 'make it more formal' and verify it returns Writer.ReplaceSelection."""
+    try:
+        conn = Client(PIPE_ADDRESS, family="AF_PIPE")
+        chat_msg = json.dumps({
+            "type": "ChatRequest",
+            "requestId": "qa-test-006",
+            "userMessage": "make it more formal",
+            "provider": "openrouter",
+            "model": os.environ.get("LOAIA_DEFAULT_MODEL", "minimax/minimax-m2.7"),
+            "privacyScope": "full-document",
+            "app": "writer",
+            "document": {"canonicalUrl": "file:///qa-test.odt", "profileId": "qa-profile"},
+            "context": {
+                "selection": {"text": "Hey dude, whats up? Can u come to the meeting tmrw?", "mimeType": "text/plain"}
+            },
+        }).encode("utf-8")
+        conn.send_bytes(chat_msg)
+
+        frames: list[dict] = []
+        while True:
+            try:
+                data = conn.recv_bytes()
+                frame = json.loads(data.decode("utf-8"))
+                frames.append(frame)
+            except EOFError:
+                break
+        conn.close()
+
+        if not frames:
+            report("Tone change → ReplaceSelection", False, "No frames received")
+            return False
+
+        last = frames[-1]
+        last_type = last.get("type")
+
+        if last_type == "ErrorResponse":
+            report("Tone change → ReplaceSelection", False, f"Error: {last.get('message', '')[:100]}")
+            return False
+
+        if last_type == "ToolProposal":
+            proposals = last.get("proposals", [])
+            tool_id = proposals[0].get("toolId", "") if proposals else ""
+            replacement = proposals[0].get("arguments", {}).get("replacementText", "") if proposals else ""
+            ok = tool_id == "Writer.ReplaceSelection" and bool(replacement)
+            # The replacement should be different from the original (more formal)
+            report("Tone change → ReplaceSelection", ok, f"tool={tool_id}, replacement={replacement[:60]}")
+            return ok
+
+        report("Tone change → ReplaceSelection", False, f"Got type={last_type}")
+        return False
+    except Exception as exc:
+        report("Tone change → ReplaceSelection", False, str(exc))
+        return False
+
+
 def main() -> int:
     print(f"\n{'='*60}")
-    print(f"  LibreOffice AI Agent — QA Test Suite (v0.1.6)")
+    print(f"  LibreOffice AI Agent — QA Test Suite (v0.1.7)")
     print(f"{'='*60}\n")
 
     # Phase 1: Static checks
@@ -401,6 +513,8 @@ def main() -> int:
         test_translate_request()
         test_heading_request()
         test_insert_table_request()
+        test_convert_to_table_request()
+        test_tone_change_request()
 
         # Cleanup
         server_proc.terminate()
