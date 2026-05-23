@@ -446,9 +446,94 @@ def test_tone_change_request() -> bool:
         return False
 
 
+def test_toolbar_formatting_tools() -> bool:
+    """Test that all toolbar formatting keywords route to correct safe-formatting tools.
+
+    These are local keyword matches (no LLM call needed), so they're fast.
+    Tests: font color, alignment, strikethrough, numbered list, font size,
+    highlight, clear formatting, superscript, subscript, justify, indent.
+    """
+    test_cases = [
+        # (user_message, expected_tool_id, test_label)
+        ("red color font", "Writer.FontColorRed", "Font color red"),
+        ("change font color to blue", "Writer.FontColorBlue", "Font color blue"),
+        ("make green", "Writer.FontColorGreen", "Font color green"),
+        ("text to right", "Writer.AlignRight", "Align right (natural)"),
+        ("align left", "Writer.AlignLeft", "Align left"),
+        ("center text", "Writer.AlignCenter", "Center text"),
+        ("justify text", "Writer.AlignJustify", "Justify"),
+        ("strikethrough", "Writer.ToggleStrikethrough", "Strikethrough"),
+        ("numbered list", "Writer.ApplyNumbering", "Numbered list"),
+        ("increase font size", "Writer.IncreaseFontSize", "Increase font"),
+        ("smaller font", "Writer.DecreaseFontSize", "Decrease font"),
+        ("highlight yellow", "Writer.HighlightYellow", "Highlight yellow"),
+        ("clear formatting", "Writer.ClearFormatting", "Clear formatting"),
+        ("superscript", "Writer.ToggleSuperscript", "Superscript"),
+        ("subscript", "Writer.ToggleSubscript", "Subscript"),
+        ("increase indent", "Writer.IncreaseIndent", "Increase indent"),
+        ("double spacing", "Writer.LineSpacingDouble", "Double spacing"),
+        ("bullet list", "Writer.ApplyBullets", "Bullet list"),
+        ("underline", "Writer.ToggleUnderline", "Underline"),
+    ]
+
+    all_passed = True
+    for user_msg, expected_tool, label in test_cases:
+        try:
+            conn = Client(PIPE_ADDRESS, family="AF_PIPE")
+            chat_msg = json.dumps({
+                "type": "ChatRequest",
+                "requestId": f"qa-fmt-{label.replace(' ', '-').lower()}",
+                "userMessage": user_msg,
+                "provider": "openrouter",
+                "model": os.environ.get("LOAIA_DEFAULT_MODEL", "minimax/minimax-m2.7"),
+                "privacyScope": "full-document",
+                "app": "writer",
+                "document": {"canonicalUrl": "file:///qa-test.odt", "profileId": "qa-profile"},
+                "context": {
+                    "selection": {"text": "Test text.", "mimeType": "text/plain"}
+                },
+            }).encode("utf-8")
+            conn.send_bytes(chat_msg)
+
+            frames: list[dict] = []
+            while True:
+                try:
+                    data = conn.recv_bytes()
+                    frame = json.loads(data.decode("utf-8"))
+                    frames.append(frame)
+                except EOFError:
+                    break
+            conn.close()
+
+            if not frames:
+                report(f"Toolbar: {label}", False, "No frames")
+                all_passed = False
+                continue
+
+            last = frames[-1]
+            last_type = last.get("type")
+            if last_type == "ToolProposal":
+                proposals = last.get("proposals", [])
+                tool_id = proposals[0].get("toolId", "") if proposals else ""
+                ok = tool_id == expected_tool
+                if not ok:
+                    report(f"Toolbar: {label}", False, f"got {tool_id}, expected {expected_tool}")
+                    all_passed = False
+                else:
+                    report(f"Toolbar: {label}", True, tool_id)
+            else:
+                report(f"Toolbar: {label}", False, f"type={last_type}, expected ToolProposal")
+                all_passed = False
+        except Exception as exc:
+            report(f"Toolbar: {label}", False, str(exc))
+            all_passed = False
+
+    return all_passed
+
+
 def main() -> int:
     print(f"\n{'='*60}")
-    print(f"  LibreOffice AI Agent — QA Test Suite (v0.1.7)")
+    print(f"  LibreOffice AI Agent — QA Test Suite (v0.1.8)")
     print(f"{'='*60}\n")
 
     # Phase 1: Static checks
@@ -515,6 +600,9 @@ def main() -> int:
         test_insert_table_request()
         test_convert_to_table_request()
         test_tone_change_request()
+
+        print("\n  Phase 3: Toolbar Formatting Tools")
+        test_toolbar_formatting_tools()
 
         # Cleanup
         server_proc.terminate()
