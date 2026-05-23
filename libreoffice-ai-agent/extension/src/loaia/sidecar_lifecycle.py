@@ -46,12 +46,17 @@ def ensure_sidecar_running(address: str = DEFAULT_NAMED_PIPE_ADDRESS) -> bool:
     if _sidecar_process is None:
         python_exe = _resolve_python_executable()
         env = _build_sidecar_env()
+        # Use the sidecar src dir as CWD so '' in sys.path won't shadow stdlib
+        sidecar_cwd = env.get("PYTHONPATH", "").split(os.pathsep)[0] or None
+        log_path = Path(os.path.expanduser("~")) / "loaia-sidecar-stderr.log"
         try:
+            stderr_file = open(log_path, "w", encoding="utf-8")  # noqa: SIM115
             _sidecar_process = subprocess.Popen(
                 [python_exe, "-m", _SIDECAR_MODULE],
                 env=env,
+                cwd=sidecar_cwd,
                 stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL,
+                stderr=stderr_file,
                 creationflags=subprocess.CREATE_NO_WINDOW,
             )
         except OSError:
@@ -90,7 +95,42 @@ def stop_sidecar() -> None:
 
 
 def _resolve_python_executable() -> str:
-    """Find the Python executable to use for the sidecar subprocess."""
+    """Find the Python executable to use for the sidecar subprocess.
+
+    Prefers system Python over LibreOffice's embedded Python because the
+    sidecar requires pydantic and other packages not bundled with LO.
+    """
+    # 1. Explicit override via environment variable
+    env_python = os.environ.get("LOAIA_SIDECAR_PYTHON", "").strip()
+    if env_python and os.path.isfile(env_python):
+        return env_python
+
+    # 2. Try to find system Python on PATH (not the LO one)
+    lo_program_dir = os.path.normcase(os.path.normpath(
+        os.environ.get("LIBREOFFICE_PROGRAM_PATH", r"C:\Program Files\LibreOffice")
+    ))
+
+    # Look for python.exe on PATH that is NOT inside the LO directory
+    path_dirs = os.environ.get("PATH", "").split(os.pathsep)
+    for path_dir in path_dirs:
+        candidate = os.path.join(path_dir, "python.exe")
+        if os.path.isfile(candidate):
+            normalized = os.path.normcase(os.path.normpath(candidate))
+            if not normalized.startswith(lo_program_dir):
+                return candidate
+
+    # 3. Common system Python locations on Windows
+    for candidate in [
+        os.path.expandvars(r"%LOCALAPPDATA%\Programs\Python\Python312\python.exe"),
+        os.path.expandvars(r"%LOCALAPPDATA%\Programs\Python\Python311\python.exe"),
+        os.path.expandvars(r"%LOCALAPPDATA%\Programs\Python\Python313\python.exe"),
+        r"C:\Python312\python.exe",
+        r"C:\Python311\python.exe",
+    ]:
+        if os.path.isfile(candidate):
+            return candidate
+
+    # 4. Fallback to sys.executable (may be LO Python, but better than nothing)
     return sys.executable or "python"
 
 
@@ -98,12 +138,50 @@ def _build_sidecar_env() -> dict[str, str]:
     """Build the environment for the sidecar subprocess.
 
     Inherits current environment and adds PYTHONPATH entries for sidecar and shared sources.
+    Strips LibreOffice paths from PATH/PYTHONPATH to prevent stdlib version conflicts.
     """
     env = dict(os.environ)
 
+    # Remove LibreOffice program paths from PATH to prevent stdlib contamination.
+    lo_markers = ("libreoffice", "LibreOffice")
+    clean_path = os.pathsep.join(
+        p for p in env.get("PATH", "").split(os.pathsep)
+        if not any(m in p for m in lo_markers)
+    )
+    env["PATH"] = clean_path
+
+    # Remove any PYTHONPATH entries pointing into LO
+    if "PYTHONPATH" in env:
+        env["PYTHONPATH"] = os.pathsep.join(
+            p for p in env["PYTHONPATH"].split(os.pathsep)
+            if not any(m in p for m in lo_markers)
+        )
+
+    # Remove PYTHONHOME if set (LO sets this to its own tree)
+    env.pop("PYTHONHOME", None)
+
     # Determine the project root (libreoffice-ai-agent/).
-    extension_src = Path(__file__).resolve().parent.parent
-    project_root = extension_src.parent
+    # 1. Explicit override
+    project_root_override = os.environ.get("LOAIA_PROJECT_ROOT", "").strip()
+    if project_root_override and Path(project_root_override).is_dir():
+        project_root = Path(project_root_override)
+    else:
+        # 2. Walk up from this file: loaia/sidecar_lifecycle.py → loaia → src → extension → project
+        extension_src = Path(__file__).resolve().parent.parent
+        project_root = extension_src.parent
+        # If we're inside the OXT (pythonpath/loaia/...), walk up differently
+        if not (project_root / "sidecar" / "src").is_dir():
+            # Try one more level up
+            project_root = project_root.parent
+        if not (project_root / "sidecar" / "src").is_dir():
+            # Try common workspace locations
+            for candidate in [
+                Path(r"C:\AI\intel-ai\libreoffice\libreoffice-ai-agent"),
+                Path.home() / "libreoffice-ai-agent",
+            ]:
+                if (candidate / "sidecar" / "src").is_dir():
+                    project_root = candidate
+                    break
 
     sidecar_src = project_root / "sidecar" / "src"
     shared_src = project_root / "shared" / "src"
@@ -119,6 +197,23 @@ def _build_sidecar_env() -> dict[str, str]:
         python_path_entries.append(existing_pythonpath)
 
     env["PYTHONPATH"] = os.pathsep.join(python_path_entries)
+
+    # Load .env file from project root for API keys
+    env_file = project_root / ".env"
+    if env_file.is_file():
+        try:
+            for line in env_file.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, _, value = line.partition("=")
+                key = key.strip()
+                value = value.strip()
+                if key and key not in env:
+                    env[key] = value
+        except OSError:
+            pass
+
     return env
 
 

@@ -548,18 +548,33 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if not hasattr(controller, "getSelection"):
             raise ValueError("Current document controller does not expose selection APIs.")
 
+        # Try to get selected text first
         index_access = controller.getSelection()
-        if not hasattr(index_access, "getCount") or not hasattr(index_access, "getByIndex"):
-            raise ValueError("Current Writer selection is not accessible.")
+        selection_text = ""
+        text_ranges = ()
 
-        count = index_access.getCount()
-        if count < 1:
-            raise ValueError("Select text in Writer before sending a request.")
+        if hasattr(index_access, "getCount") and hasattr(index_access, "getByIndex"):
+            count = index_access.getCount()
+            if count >= 1:
+                text_ranges = tuple(index_access.getByIndex(i) for i in range(count))
+                selection_text = "\n".join(
+                    _get_range_text(r) for r in text_ranges
+                )
 
-        text_ranges = tuple(index_access.getByIndex(index) for index in range(count))
-        selection_text = "\n".join(_get_range_text(text_range) for text_range in text_ranges)
+        # If no selection, use full document text
         if not selection_text.strip():
-            raise ValueError("Select text in Writer before sending a request.")
+            doc_text = model.Text
+            if hasattr(doc_text, "getString"):
+                selection_text = doc_text.getString() or ""
+                # Create a text range spanning the full document for replacement
+                if hasattr(doc_text, "createTextCursor"):
+                    cursor = doc_text.createTextCursor()
+                    cursor.gotoStart(False)
+                    cursor.gotoEnd(True)
+                    text_ranges = (cursor,)
+
+        if not selection_text.strip():
+            raise ValueError("The document is empty. Add some text first.")
 
         return RuntimeSelection(
             app_type=AppType.WRITER,
