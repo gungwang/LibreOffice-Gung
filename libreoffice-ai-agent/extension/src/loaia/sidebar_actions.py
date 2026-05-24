@@ -869,6 +869,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 selection_before=before_text,
                 selection_after=after_text,
                 summary="",
+                controller=selection.controller,
             )
             revision = self._report_observation(
                 transport_client,
@@ -895,6 +896,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             selection_before=before_text,
             selection_after=after_text,
             summary=result_message,
+            controller=selection.controller,
         )
         revision = self._report_observation(
             transport_client,

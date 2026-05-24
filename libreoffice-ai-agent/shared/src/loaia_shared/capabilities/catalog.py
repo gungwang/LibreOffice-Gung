@@ -455,14 +455,14 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "safety_class": SafetyClass.CONTENT_EDIT,
         "requires_approval": True,
         "summary": "Create a new slide from an outline",
-        "postcondition_probes": ("summary.matches_argument.outlineLength",),
+        "postcondition_probes": ("impress.last_slide_text.equals_argument.outline",),
     },
     "Impress.ApplyLayoutToCurrentSlide": {
         "app": "impress",
         "safety_class": SafetyClass.CONTENT_EDIT,
         "requires_approval": True,
         "summary": "Apply a layout to the current slide",
-        "postcondition_probes": ("summary.matches_argument.layout",),
+        "postcondition_probes": ("impress.current_slide_layout.equals_argument.layout",),
     },
     "Draw.GetSelectedText": {
         "app": "draw",

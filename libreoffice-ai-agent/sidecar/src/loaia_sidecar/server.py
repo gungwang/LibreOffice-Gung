@@ -1088,8 +1088,9 @@ class LoaiaSidecarServer:
             return True
         if probe == "selection.equals_preview_after":
             return proposal.preview.after if proposal.preview is not None else None
-        if probe.startswith("selection.equals_argument."):
-            return proposal.arguments.get(probe.removeprefix("selection.equals_argument."))
+        if ".equals_argument." in probe:
+            _, _, argument_name = probe.rpartition(".equals_argument.")
+            return proposal.arguments.get(argument_name)
         if probe.startswith("summary.matches_argument."):
             return proposal.arguments.get(probe.removeprefix("summary.matches_argument."))
         return None

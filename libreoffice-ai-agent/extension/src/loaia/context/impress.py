@@ -14,7 +14,8 @@ def capture_impress_selection(controller: object) -> str:
 
     Returns the text content of the selected text frame or shape.
     """
-    selection = controller.getSelection() if hasattr(controller, "getSelection") else None
+    get_selection = getattr(controller, "getSelection", None)
+    selection = get_selection() if callable(get_selection) else None
     if selection is None:
         return ""
 
@@ -38,7 +39,8 @@ def apply_impress_text_replacement(controller: object, replacement_text: str) ->
 
     Returns a result message.
     """
-    selection = controller.getSelection() if hasattr(controller, "getSelection") else None
+    get_selection = getattr(controller, "getSelection", None)
+    selection = get_selection() if callable(get_selection) else None
     if selection is None:
         raise ValueError("No Impress shape is selected.")
 
@@ -64,7 +66,8 @@ def create_slide_from_outline(controller: object, outline: str) -> str:
 
     Uses the document's DrawPages API to append a page and set its text.
     """
-    model = controller.getModel() if hasattr(controller, "getModel") else None
+    get_model = getattr(controller, "getModel", None)
+    model = get_model() if callable(get_model) else None
     draw_pages = model.getDrawPages() if model and hasattr(model, "getDrawPages") else None
     if draw_pages is None:
         raise ValueError("Impress document does not expose DrawPages.")
@@ -85,11 +88,8 @@ def apply_layout_to_current_slide(controller: object, layout: int = 0) -> str:
 
     *layout* is the numeric layout index (0 = blank, 1 = title/content, etc.).
     """
-    current_page = (
-        controller.getCurrentPage()
-        if hasattr(controller, "getCurrentPage")
-        else None
-    )
+    get_current_page = getattr(controller, "getCurrentPage", None)
+    current_page = get_current_page() if callable(get_current_page) else None
     if current_page is None:
         raise ValueError("Cannot determine the current Impress slide.")
 
@@ -98,3 +98,31 @@ def apply_layout_to_current_slide(controller: object, layout: int = 0) -> str:
 
     current_page.Layout = layout
     return f"Applied layout {layout} to current slide."
+
+
+def read_current_slide_layout(controller: object) -> int | None:
+    get_current_page = getattr(controller, "getCurrentPage", None)
+    current_page = get_current_page() if callable(get_current_page) else None
+    if current_page is None or not hasattr(current_page, "Layout"):
+        return None
+
+    return int(current_page.Layout)
+
+
+def read_last_slide_text(controller: object) -> str | None:
+    get_model = getattr(controller, "getModel", None)
+    model = get_model() if callable(get_model) else None
+    draw_pages = model.getDrawPages() if model and hasattr(model, "getDrawPages") else None
+    if draw_pages is None or not hasattr(draw_pages, "getCount") or draw_pages.getCount() < 1:
+        return None
+
+    page = draw_pages.getByIndex(draw_pages.getCount() - 1)
+    if page is None or not hasattr(page, "getCount") or page.getCount() < 1:
+        return None
+
+    shape = page.getByIndex(0)
+    if shape is None or not hasattr(shape, "getString"):
+        return None
+
+    text = shape.getString()
+    return text if isinstance(text, str) else None

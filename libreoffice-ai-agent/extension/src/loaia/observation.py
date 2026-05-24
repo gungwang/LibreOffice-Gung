@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 
+from loaia.context.impress import read_current_slide_layout, read_last_slide_text
 from loaia_shared.capabilities.compiler import get_capability_descriptor
 from loaia_shared.schema.plans import ProbeResult
 
@@ -12,6 +13,7 @@ def build_observation_results(
     selection_before: str | None,
     selection_after: str | None,
     summary: str = "",
+    controller: object | None = None,
 ) -> tuple[list[ProbeResult], list[ProbeResult], str]:
     descriptor = get_capability_descriptor(_descriptor_tool_id(proposal))
     if descriptor is None:
@@ -24,6 +26,7 @@ def build_observation_results(
             selection_before,
             selection_after,
             summary,
+            controller,
             stage="pre",
         )
         for probe in descriptor.precondition_probes
@@ -35,6 +38,7 @@ def build_observation_results(
             selection_before,
             selection_after,
             summary,
+            controller,
             stage="post",
         )
         for probe in descriptor.postcondition_probes
@@ -53,8 +57,8 @@ def expected_value_for_probe(proposal: object, probe: str) -> object | None:
     if probe == "selection.equals_preview_after":
         preview = getattr(proposal, "preview", None)
         return getattr(preview, "after", None)
-    if probe.startswith("selection.equals_argument."):
-        argument_name = probe.removeprefix("selection.equals_argument.")
+    if ".equals_argument." in probe:
+        _, _, argument_name = probe.rpartition(".equals_argument.")
         arguments = getattr(proposal, "arguments", {})
         if isinstance(arguments, dict):
             return arguments.get(argument_name)
@@ -72,6 +76,7 @@ def _evaluate_probe(
     selection_before: str | None,
     selection_after: str | None,
     summary: str,
+    controller: object | None,
     *,
     stage: str,
 ) -> ProbeResult:
@@ -80,6 +85,7 @@ def _evaluate_probe(
         selection_before=selection_before,
         selection_after=selection_after,
         summary=summary,
+        controller=controller,
         stage=stage,
     )
     expected = expected_value_for_probe(proposal, probe)
@@ -93,6 +99,7 @@ def _actual_value_for_probe(
     selection_before: str | None,
     selection_after: str | None,
     summary: str,
+    controller: object | None,
     stage: str,
 ) -> object | None:
     if probe == "selection.non_empty":
@@ -102,6 +109,14 @@ def _actual_value_for_probe(
         return selection_after
     if probe.startswith("selection.equals_argument."):
         return selection_after
+    if probe == "impress.current_slide_layout.equals_argument.layout":
+        if controller is None:
+            return None
+        return read_current_slide_layout(controller)
+    if probe == "impress.last_slide_text.equals_argument.outline":
+        if controller is None:
+            return None
+        return read_last_slide_text(controller)
     if probe == "summary.matches_argument.chartType":
         match = re.search(r"type hint:\s*([^\)]+)", summary, flags=re.IGNORECASE)
         return match.group(1).strip() if match is not None else None
