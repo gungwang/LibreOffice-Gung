@@ -138,6 +138,15 @@ def get_sidebar_panel_window(context: object, frame: object) -> object:
     return ui_element.getRealInterface().Window
 
 
+def open_sidebar(frame: object) -> None:
+    open_sidebar_url = make_url("open-sidebar")
+    open_dispatch = frame.queryDispatch(open_sidebar_url, "_self", 0)
+    if open_dispatch is None:
+        raise RuntimeError("Protocol dispatch is not available for open-sidebar.")
+
+    open_dispatch.dispatch(open_sidebar_url, ())
+
+
 def control_is_enabled(control: object) -> bool:
     if hasattr(control, "isEnabled"):
         return bool(control.isEnabled())

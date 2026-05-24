@@ -69,25 +69,42 @@ def apply_calc_formula(controller: object, formula: str) -> str:
 def create_chart_from_selection(controller: object, chart_type: str = "Bar") -> str:
     """Create a chart from the currently selected Calc range.
 
-    Uses UNO dispatch to insert a chart, then applies the requested chart type
-    to the newly inserted chart document.
+    Creates a chart directly from the selected range through the active sheet's
+    chart collection, then applies the requested chart type to the new chart.
     """
     try:
         import uno  # type: ignore[import]
-
-        ctx = uno.getComponentContext()
-        smgr = ctx.ServiceManager
-        dispatcher = smgr.createInstanceWithContext(
-            "com.sun.star.frame.DispatchHelper", ctx
-        )
     except ImportError:
         raise ValueError("UNO runtime is not available for chart creation.") from None
 
-    frame = controller.getFrame() if hasattr(controller, "getFrame") else None
-    if frame is None:
-        raise ValueError("Controller does not expose a frame for dispatch.")
+    selection = _get_selection(controller)
+    if selection is None:
+        raise ValueError("No Calc range is selected.")
 
-    dispatcher.executeDispatch(frame, ".uno:InsertObjectChart", "", 0, ())
+    range_address = _selection_range_address(selection)
+    if range_address is None:
+        raise ValueError("Selected Calc object does not expose a range address.")
+
+    sheet = _get_active_sheet(controller)
+    if sheet is None:
+        raise ValueError("Could not resolve the active Calc sheet.")
+
+    charts = _get_sheet_charts(sheet)
+    if charts is None:
+        raise ValueError("The active Calc sheet does not expose a chart collection.")
+
+    chart_name = _next_chart_name(charts)
+    rectangle = uno.createUnoStruct("com.sun.star.awt.Rectangle")
+    rectangle.X = 500
+    rectangle.Y = 3000
+    rectangle.Width = 15000
+    rectangle.Height = 9000
+
+    add_new_by_name = getattr(charts, "addNewByName", None)
+    if not callable(add_new_by_name):
+        raise ValueError("The active Calc sheet chart collection does not support addNewByName().")
+
+    add_new_by_name(chart_name, rectangle, (range_address,), True, True)
     _apply_chart_type_to_last_chart(controller, chart_type)
     return f"Inserted chart (type hint: {chart_type}) from selection."
 
@@ -182,14 +199,9 @@ def read_active_sheet_chart_count(controller: object) -> int | None:
     if sheet is None:
         return None
 
-    charts = getattr(sheet, "Charts", None)
+    charts = _get_sheet_charts(sheet)
     if charts is not None and hasattr(charts, "getCount"):
         return int(charts.getCount())
-
-    get_charts = getattr(sheet, "getCharts", None)
-    resolved_charts = get_charts() if callable(get_charts) else None
-    if resolved_charts is not None and hasattr(resolved_charts, "getCount"):
-        return int(resolved_charts.getCount())
 
     draw_page = getattr(sheet, "DrawPage", None)
     if draw_page is not None and hasattr(draw_page, "getCount"):
@@ -317,10 +329,7 @@ def _get_last_table_chart(controller: object) -> object | None:
     if sheet is None:
         return None
 
-    charts = getattr(sheet, "Charts", None)
-    if charts is None:
-        get_charts = getattr(sheet, "getCharts", None)
-        charts = get_charts() if callable(get_charts) else None
+    charts = _get_sheet_charts(sheet)
     if charts is None:
         return None
 
@@ -329,6 +338,29 @@ def _get_last_table_chart(controller: object) -> object | None:
         return None
 
     return _indexed_container_get(charts, count - 1)
+
+
+def _get_sheet_charts(sheet: object) -> object | None:
+    charts = getattr(sheet, "Charts", None)
+    if charts is not None:
+        return charts
+
+    get_charts = getattr(sheet, "getCharts", None)
+    return get_charts() if callable(get_charts) else None
+
+
+def _selection_range_address(selection: object) -> object | None:
+    range_address = getattr(selection, "RangeAddress", None)
+    if range_address is not None:
+        return range_address
+
+    get_range_address = getattr(selection, "getRangeAddress", None)
+    return get_range_address() if callable(get_range_address) else None
+
+
+def _next_chart_name(charts: object) -> str:
+    count = _indexed_container_count(charts) or 0
+    return f"LoaiaChart{count + 1}"
 
 
 def _get_chart_document(chart: object) -> object | None:

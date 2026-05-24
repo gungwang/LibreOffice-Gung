@@ -184,6 +184,28 @@ $calcFormulaExitCode = Invoke-SmokeScript `
 	-UseStateIsolation
 $results.Add([pscustomobject]@{ Scenario = "Calc formula"; ExitCode = $calcFormulaExitCode; CoveredBy = "verify_calc_formula.ps1" }) | Out-Null
 
+$calcChartArgumentMap = @{
+	ProjectRoot = $projectRootPath
+	Prompt = "Create a Pie chart from this selection."
+	ChartType = "Pie"
+	SkipBuild = $true
+}
+if ($LibreOfficeProgramPath) {
+	$calcChartArgumentMap.LibreOfficeProgramPath = $LibreOfficeProgramPath
+}
+if ($PythonPath) {
+	$calcChartArgumentMap.PythonPath = $PythonPath
+}
+
+$calcChartExitCode = Invoke-SmokeScript `
+	-Scenario "calc-chart" `
+	-Invocation {
+		& (Join-Path $PSScriptRoot "verify_calc_chart.ps1") @calcChartArgumentMap
+	} `
+	-StateRootDir (Join-Path $stateRootBaseDir "calc-chart") `
+	-UseStateIsolation
+$results.Add([pscustomobject]@{ Scenario = "Calc chart"; ExitCode = $calcChartExitCode; CoveredBy = "verify_calc_chart.ps1" }) | Out-Null
+
 $drawSafeFormattingArgumentMap = @{
 	ProjectRoot = $projectRootPath
 	Prompt = "Make this bold."
