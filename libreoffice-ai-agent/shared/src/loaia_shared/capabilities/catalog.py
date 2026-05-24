@@ -305,6 +305,7 @@ CAPABILITY_METADATA_OVERRIDES: dict[str, dict[str, object]] = {
     "Writer.ToggleBold": {
         "examples": ("make this bold", "bold this selection"),
         "intent_tags": ("bold", "format", "emphasis"),
+        "precondition_probes": ("selection.non_empty",),
     },
     "Writer.ToggleItalic": {
         "examples": ("italicize this", "make this italic"),
@@ -358,6 +359,8 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "requires_approval": True,
         "summary": "Replace the selected Writer text",
         "intent_tags": ("rewrite", "rephrase", "simplify", "translate", "grammar", "selection"),
+        "precondition_probes": ("selection.non_empty",),
+        "postcondition_probes": ("selection.equals_preview_after",),
         "examples": (
             "rewrite this selection in a more formal tone",
             "fix the grammar in this text",
@@ -370,6 +373,8 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "requires_approval": True,
         "summary": "Insert generated text below the current Writer selection",
         "intent_tags": ("insert", "below", "append", "draft", "write"),
+        "precondition_probes": ("selection.non_empty",),
+        "postcondition_probes": ("selection.equals_argument.replacementText",),
         "examples": ("insert below a summary paragraph", "draft a follow-up paragraph below this"),
     },
     "Writer.InsertTable": {
@@ -408,6 +413,8 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "requires_approval": True,
         "summary": "Insert a formula into the current Calc selection",
         "intent_tags": ("formula", "insert", "sum", "average", "count", "calculate"),
+        "precondition_probes": ("selection.non_empty",),
+        "postcondition_probes": ("selection.equals_argument.formula",),
         "examples": ("insert a SUM formula for column A",),
     },
     "Calc.CreateChartFromSelection": {
@@ -435,6 +442,8 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "requires_approval": True,
         "summary": "Replace selected Impress text",
         "intent_tags": ("rewrite", "rephrase", "simplify", "slide", "text"),
+        "precondition_probes": ("selection.non_empty",),
+        "postcondition_probes": ("selection.equals_preview_after",),
         "examples": ("rewrite this to be simpler",),
     },
     "Impress.CreateSlideFromOutline": {
@@ -462,6 +471,8 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "requires_approval": True,
         "summary": "Replace selected Draw text",
         "intent_tags": ("rewrite", "rephrase", "simplify", "draw", "text"),
+        "precondition_probes": ("selection.non_empty",),
+        "postcondition_probes": ("selection.equals_preview_after",),
     },
     "Math.GetFormula": {
         "app": "math",
@@ -476,6 +487,8 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "requires_approval": True,
         "summary": "Replace the current Math formula",
         "intent_tags": ("rewrite", "simplify", "expand", "factor", "convert", "formula"),
+        "precondition_probes": ("selection.non_empty",),
+        "postcondition_probes": ("selection.equals_argument.formula",),
     },
     "Base.GetContext": {
         "app": "base",
@@ -559,6 +572,8 @@ def _build_dispatch_descriptor(tool_id: str, dispatch_url: str) -> CapabilityDes
     summary = str(metadata.get("summary", title))
     intent_tags = tuple(metadata.get("intent_tags", _default_intent_tags(tool_id, app)))
     examples = tuple(metadata.get("examples", ()))
+    precondition_probes = tuple(metadata.get("precondition_probes", ()))
+    postcondition_probes = tuple(metadata.get("postcondition_probes", ()))
     return CapabilityDescriptor(
         tool_id=tool_id,
         app=app,
@@ -569,6 +584,8 @@ def _build_dispatch_descriptor(tool_id: str, dispatch_url: str) -> CapabilityDes
         binding=binding,
         intent_tags=intent_tags,
         examples=examples,
+        precondition_probes=precondition_probes,
+        postcondition_probes=postcondition_probes,
     )
 
 
@@ -579,6 +596,8 @@ def _build_manual_descriptor(tool_id: str, metadata: dict[str, object]) -> Capab
     summary = str(metadata.get("summary", title))
     intent_tags = tuple(metadata.get("intent_tags", _default_intent_tags(tool_id, app)))
     examples = tuple(metadata.get("examples", ()))
+    precondition_probes = tuple(metadata.get("precondition_probes", ()))
+    postcondition_probes = tuple(metadata.get("postcondition_probes", ()))
     return CapabilityDescriptor(
         tool_id=tool_id,
         app=app,
@@ -589,6 +608,8 @@ def _build_manual_descriptor(tool_id: str, metadata: dict[str, object]) -> Capab
         binding=binding,
         intent_tags=intent_tags,
         examples=examples,
+        precondition_probes=precondition_probes,
+        postcondition_probes=postcondition_probes,
     )
 
 

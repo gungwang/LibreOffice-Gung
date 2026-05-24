@@ -1,5 +1,6 @@
 import json
 import threading
+from dataclasses import dataclass
 
 from pydantic import ValidationError as PydanticValidationError
 
@@ -14,7 +15,13 @@ from loaia_shared.schema.messages import (
     StreamChunk,
     ToolProposalEnvelope,
 )
-from loaia_shared.schema.plans import ExecutionPlan, ObservationReport, PlanRevision, PlanStep
+from loaia_shared.schema.plans import (
+    ExecutionPlan,
+    ExpectedObservation,
+    ObservationReport,
+    PlanRevision,
+    PlanStep,
+)
 from loaia_shared.types import AppType, PrivacyScope
 from loaia_sidecar.planner.evaluator import evaluate_observation
 from loaia_sidecar.planner.retriever import CapabilityRetriever
@@ -26,6 +33,12 @@ from loaia_sidecar.providers.openrouter import OpenRouterAdapter
 from loaia_sidecar.transport.named_pipe import NamedPipeTransport
 
 WRITER_NO_REPLACEMENT_SENTINEL = "NO_REPLACEMENT"
+
+
+@dataclass(slots=True)
+class PlanSessionState:
+    request: ChatRequest
+    plan: ExecutionPlan
 
 
 class LoaiaSidecarServer:
@@ -63,7 +76,7 @@ class LoaiaSidecarServer:
             "cancellation",
         ]
         self.capability_retriever = CapabilityRetriever()
-        self._plan_sessions: dict[str, ExecutionPlan] = {}
+        self._plan_sessions: dict[str, PlanSessionState] = {}
         self._cancelled_requests: set[str] = set()
         self._cancel_lock = threading.Lock()
 
@@ -663,7 +676,7 @@ class LoaiaSidecarServer:
 
         specialized = self._build_specialized_proposal(request)
         if specialized is not None:
-            self._plan_sessions[request.request_id] = self._build_execution_plan(request, specialized)
+            self._store_plan_session(request, specialized)
             return specialized
         if writer_rewrite_intent:
             return None
@@ -684,7 +697,7 @@ class LoaiaSidecarServer:
                     return None
                 continue
 
-            self._plan_sessions[request.request_id] = self._build_execution_plan(request, proposal)
+            self._store_plan_session(request, proposal)
             return proposal
 
         return None
@@ -969,37 +982,130 @@ class LoaiaSidecarServer:
             arguments=proposal_arguments,
         )
 
-    def _build_execution_plan(self, request: ChatRequest, proposal: ToolProposal) -> ExecutionPlan:
-        descriptor_hash = get_descriptor_hash(proposal.tool_id) or ""
-        approval_mode = "explicit" if proposal.requires_approval else "auto"
+    def _store_plan_session(self, request: ChatRequest, proposal: ToolProposal) -> None:
+        plan = self._build_execution_plan(request, self._build_plan_sequence(request, proposal))
+        self._plan_sessions[request.request_id] = PlanSessionState(request=request, plan=plan)
+
+    def _build_plan_sequence(
+        self,
+        request: ChatRequest,
+        proposal: ToolProposal,
+    ) -> list[ToolProposal]:
+        proposals = [proposal]
+        normalized = request.user_message.casefold()
+
+        if proposal.tool_id == "Writer.ReplaceSelection" and "bold" in normalized:
+            proposals.append(self._proposal_from_capability(request, "Writer.ToggleBold"))
+
+        if proposal.tool_id == "Impress.CreateSlideFromOutline" and any(
+            keyword in normalized for keyword in ("layout", "blank", "title", "content")
+        ):
+            layout_proposal = self._build_impress_layout_proposal(request)
+            if layout_proposal is not None:
+                proposals.append(layout_proposal)
+
+        return proposals
+
+    def _build_execution_plan(
+        self,
+        request: ChatRequest,
+        proposals: list[ToolProposal],
+    ) -> ExecutionPlan:
         return ExecutionPlan(
             sessionId=request.request_id,
             goal=request.user_message,
             steps=[
-                PlanStep(
-                    stepId=f"{request.request_id}-step-1",
-                    capabilityId=proposal.tool_id,
-                    descriptorHash=descriptor_hash,
-                    arguments=proposal.arguments,
-                    targetScope=str(request.privacy_scope),
-                    approvalMode=approval_mode,
-                    onFailure="replan",
-                )
+                self._build_plan_step(request, proposal, index)
+                for index, proposal in enumerate(proposals, start=1)
             ],
         )
 
+    def _build_plan_step(
+        self,
+        request: ChatRequest,
+        proposal: ToolProposal,
+        index: int,
+    ) -> PlanStep:
+        descriptor_hash = get_descriptor_hash(proposal.tool_id) or ""
+        approval_mode = "explicit" if proposal.requires_approval else "auto"
+        return PlanStep(
+            stepId=f"{request.request_id}-step-{index}",
+            capabilityId=proposal.tool_id,
+            descriptorHash=descriptor_hash,
+            arguments=proposal.arguments,
+            preview=proposal.preview,
+            targetScope=str(request.privacy_scope),
+            approvalMode=approval_mode,
+            expectedObservation=self._expected_observation_for_proposal(proposal),
+            onFailure="replan",
+        )
+
+    def _expected_observation_for_proposal(
+        self,
+        proposal: ToolProposal,
+    ) -> ExpectedObservation | None:
+        descriptor = get_capability_descriptor(proposal.tool_id)
+        if descriptor is None or not descriptor.postcondition_probes:
+            return None
+
+        probe = descriptor.postcondition_probes[0]
+        expected_value = self._expected_value_for_probe(proposal, probe)
+        return ExpectedObservation(probe=probe, value=expected_value)
+
+    @staticmethod
+    def _expected_value_for_probe(proposal: ToolProposal, probe: str) -> object | None:
+        if probe == "selection.non_empty":
+            return True
+        if probe == "selection.equals_preview_after":
+            return proposal.preview.after if proposal.preview is not None else None
+        if probe.startswith("selection.equals_argument."):
+            return proposal.arguments.get(probe.removeprefix("selection.equals_argument."))
+        return None
+
     def _handle_observation_report(self, report: ObservationReport) -> PlanRevision:
-        plan = self._plan_sessions.get(report.session_id)
-        if plan is None:
+        session = self._plan_sessions.get(report.session_id)
+        if session is None:
             return PlanRevision(
                 sessionId=report.session_id,
                 action="stop",
                 reason="No matching execution plan was found for this session.",
             )
 
-        decision = evaluate_observation(plan, report)
+        decision = evaluate_observation(session.plan, report)
         if decision.action == "complete":
             self._plan_sessions.pop(report.session_id, None)
+            return PlanRevision(
+                sessionId=report.session_id,
+                action=decision.action,
+                reason=decision.reason,
+                nextStepId=decision.next_step_id,
+            )
+
+        if decision.action == "continue":
+            next_step = self._find_plan_step(session.plan, decision.next_step_id)
+            if next_step is None:
+                self._plan_sessions.pop(report.session_id, None)
+                return PlanRevision(
+                    sessionId=report.session_id,
+                    action="stop",
+                    reason="The requested next plan step could not be found.",
+                )
+
+            return PlanRevision(
+                sessionId=report.session_id,
+                action=decision.action,
+                reason=decision.reason,
+                nextStepId=decision.next_step_id,
+                nextProposal=self._proposal_from_plan_step(report.session_id, next_step),
+            )
+
+        if decision.action == "replan":
+            revision = self._build_replan_revision(session, report, decision.reason)
+            if revision.action in {"stop", "complete"}:
+                self._plan_sessions.pop(report.session_id, None)
+            return revision
+
+        self._plan_sessions.pop(report.session_id, None)
 
         return PlanRevision(
             sessionId=report.session_id,
@@ -1007,6 +1113,92 @@ class LoaiaSidecarServer:
             reason=decision.reason,
             nextStepId=decision.next_step_id,
         )
+
+    def _build_replan_revision(
+        self,
+        session: PlanSessionState,
+        report: ObservationReport,
+        reason: str,
+    ) -> PlanRevision:
+        current_step = self._find_plan_step(session.plan, report.step_id)
+        excluded_tool_ids = {current_step.capability_id} if current_step is not None else set()
+        proposal = self._build_replan_proposal(session.request, excluded_tool_ids)
+        if proposal is None:
+            return PlanRevision(
+                sessionId=report.session_id,
+                action="stop",
+                reason=f"{reason} No alternative proposal was found.",
+            )
+
+        revised_plan = self._build_execution_plan(
+            session.request,
+            self._build_plan_sequence(session.request, proposal),
+        )
+        self._plan_sessions[session.request.request_id] = PlanSessionState(
+            request=session.request,
+            plan=revised_plan,
+        )
+        next_step = revised_plan.steps[0]
+        return PlanRevision(
+            sessionId=report.session_id,
+            action="replan",
+            reason=reason,
+            nextStepId=next_step.step_id,
+            nextProposal=self._proposal_from_plan_step(report.session_id, next_step),
+        )
+
+    def _build_replan_proposal(
+        self,
+        request: ChatRequest,
+        excluded_tool_ids: set[str],
+    ) -> ToolProposal | None:
+        candidates = self.capability_retriever.search(
+            app=request.app,
+            query=request.user_message,
+            limit=8,
+        )
+        for candidate in candidates:
+            descriptor = candidate.descriptor
+            if descriptor.tool_id in excluded_tool_ids:
+                continue
+            if descriptor.safety_class == SafetyClass.READ_ONLY:
+                continue
+            if descriptor.tool_id == "App.ExecuteUnoCommand":
+                continue
+
+            proposal = self._compose_candidate_proposal(request, descriptor.tool_id)
+            if proposal is not None:
+                return proposal
+
+        return None
+
+    def _proposal_from_plan_step(
+        self,
+        session_id: str,
+        step: PlanStep,
+    ) -> ToolProposal:
+        descriptor = get_capability_descriptor(step.capability_id)
+        if descriptor is None:
+            raise ValueError(f"Unknown capability for plan step: {step.capability_id}")
+
+        return ToolProposal(
+            proposalId=f"{session_id}-{step.step_id}",
+            toolId=step.capability_id,
+            safetyClass=descriptor.safety_class,
+            requiresApproval=step.approval_mode == "explicit",
+            preview=step.preview,
+            arguments=step.arguments,
+        )
+
+    @staticmethod
+    def _find_plan_step(plan: ExecutionPlan, step_id: str | None) -> PlanStep | None:
+        if step_id is None:
+            return None
+
+        for step in plan.steps:
+            if step.step_id == step_id:
+                return step
+        return None
 
     @staticmethod
     def _build_writer_insert_below_prompt(user_message: str) -> str:

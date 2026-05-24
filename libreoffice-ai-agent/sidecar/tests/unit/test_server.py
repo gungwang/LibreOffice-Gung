@@ -399,6 +399,53 @@ def test_impress_layout_proposal() -> None:
     assert proposal.arguments["layout"] == 0
 
 
+def test_writer_multistep_plan_returns_follow_up_proposal_after_observation() -> None:
+    adapter = FakeProviderAdapter(
+        answer='{"action":"replace-selection","replacementText":"HELLO WORLD"}'
+    )
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            user_message="Please convert this selection to uppercase and make it bold.",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Writer.ReplaceSelection"
+
+    revision = server.handle_message(
+        {
+            "type": "ObservationReport",
+            "sessionId": "req-openrouter-1",
+            "stepId": "req-openrouter-1-step-1",
+            "outcome": "satisfied",
+            "preconditions": [
+                {
+                    "probe": "selection.non_empty",
+                    "status": "passed",
+                    "actual": True,
+                    "expected": True,
+                }
+            ],
+            "postconditions": [
+                {
+                    "probe": "selection.equals_preview_after",
+                    "status": "passed",
+                    "actual": "HELLO WORLD",
+                    "expected": "HELLO WORLD",
+                }
+            ],
+            "summary": "Applied Writer.ReplaceSelection",
+        }
+    )
+
+    assert revision["type"] == "PlanRevision"
+    assert revision["action"] == "continue"
+    assert revision["nextStepId"] == "req-openrouter-1-step-2"
+    assert revision["nextProposal"]["toolId"] == "Writer.ToggleBold"
+
+
 # ------------------------------------------------------------------
 # Cancellation tests
 # ------------------------------------------------------------------

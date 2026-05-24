@@ -1,5 +1,7 @@
 from pydantic import BaseModel, Field
 
+from loaia_shared.schema.actions import ActionPreview, ToolProposal
+
 
 class ExpectedObservation(BaseModel):
     probe: str
@@ -12,6 +14,7 @@ class PlanStep(BaseModel):
     capability_id: str = Field(alias="capabilityId")
     descriptor_hash: str = Field(alias="descriptorHash")
     arguments: dict[str, object] = Field(default_factory=dict)
+    preview: ActionPreview | None = None
     target_scope: str = Field(default="selection", alias="targetScope")
     approval_mode: str = Field(default="auto", alias="approvalMode")
     expected_observation: ExpectedObservation | None = Field(
@@ -57,5 +60,6 @@ class PlanRevision(BaseModel):
     action: str
     reason: str
     next_step_id: str | None = Field(default=None, alias="nextStepId")
+    next_proposal: ToolProposal | None = Field(default=None, alias="nextProposal")
 
     model_config = {"populate_by_name": True}

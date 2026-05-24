@@ -8,6 +8,7 @@ from loaia.sidebar_actions import RuntimeSelection, SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_shared.defaults import get_default_provider
 from loaia_shared.errors import TransportError
+from loaia_shared.schema.plans import ProbeResult
 from loaia_shared.types import AppType
 
 
@@ -294,10 +295,210 @@ def test_sidebar_approve_action_applies_pending_writer_change() -> None:
         "sessionId": "sidebar-observe-test",
         "stepId": "sidebar-observe-test-step-1",
         "outcome": "satisfied",
-        "preconditions": [],
-        "postconditions": [],
+        "preconditions": [
+            {
+                "probe": "selection.non_empty",
+                "status": "passed",
+                "actual": True,
+                "expected": True,
+            }
+        ],
+        "postconditions": [
+            {
+                "probe": "selection.equals_preview_after",
+                "status": "passed",
+                "actual": "HELLO WORLD",
+                "expected": "HELLO WORLD",
+            }
+        ],
         "summary": "Applied Writer.ReplaceSelection",
     }
+
+
+def test_sidebar_approve_action_continues_with_follow_up_plan_step() -> None:
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    text_range = FakeWriterTextRange("hello world")
+    controller = FakeWriterController(text_range)
+    panel.attach_frame(FakeFrame(controller))
+    window = FakeWindow(prompt="Please convert this selection to uppercase and make it bold.")
+    transport = FakeTransport(
+        [
+            {
+                "type": "ToolProposal",
+                "proposals": [
+                    {
+                        "proposalId": "proposal-1",
+                        "toolId": "Writer.ReplaceSelection",
+                        "safetyClass": "content-edit",
+                        "requiresApproval": True,
+                        "preview": {
+                            "summary": "Preview Writer selection replacement",
+                            "before": "hello world",
+                            "after": "HELLO WORLD",
+                        },
+                        "arguments": {"replacementText": "HELLO WORLD"},
+                    }
+                ],
+            },
+            {
+                "type": "PlanRevision",
+                "sessionId": "sidebar-follow-up-test",
+                "action": "continue",
+                "reason": "Current step satisfied its expected observation.",
+                "nextStepId": "sidebar-follow-up-test-step-2",
+                "nextProposal": {
+                    "proposalId": "proposal-2",
+                    "toolId": "Writer.ToggleBold",
+                    "safetyClass": "safe-formatting",
+                    "requiresApproval": False,
+                    "preview": {
+                        "summary": "Apply Writer.ToggleBold",
+                        "before": "",
+                        "after": "",
+                    },
+                    "arguments": {},
+                },
+            },
+            {
+                "type": "PlanRevision",
+                "sessionId": "sidebar-follow-up-test",
+                "action": "complete",
+                "reason": "All planned steps satisfied.",
+            },
+        ]
+    )
+    tool_panel = SidebarToolPanel(
+        panel=panel,
+        window=window,
+        event_handler=SidebarDialogEventHandler(panel=panel, transport=transport),
+    )
+
+    original_build_chat_request = tool_panel.event_handler._build_chat_request
+
+    def _build_chat_request_with_fixed_id(*args: object, **kwargs: object) -> dict[str, object]:
+        payload = original_build_chat_request(*args, **kwargs)
+        payload["requestId"] = "sidebar-follow-up-test"
+        return payload
+
+    tool_panel.event_handler._build_chat_request = _build_chat_request_with_fixed_id
+
+    with patch("loaia.sidebar_actions.execute_safe_formatting") as execute_safe_formatting_mock:
+        execute_safe_formatting_mock.return_value = "Applied Writer.ToggleBold"
+
+        tool_panel.event_handler.callHandlerMethod(window, None, "Send")
+        assert tool_panel.event_handler.callHandlerMethod(window, None, "Approve") is True
+
+    execute_safe_formatting_mock.assert_called_once_with(panel.frame, "Writer.ToggleBold")
+    assert panel.state.pending_proposal is None
+    assert panel.state.last_result == "Applied Writer.ToggleBold"
+    assert panel.state.selection_preview == "HELLO WORLD"
+    assert transport.requests[2] == {
+        "type": "ObservationReport",
+        "sessionId": "sidebar-follow-up-test",
+        "stepId": "sidebar-follow-up-test-step-2",
+        "outcome": "satisfied",
+        "preconditions": [
+            {
+                "probe": "selection.non_empty",
+                "status": "passed",
+                "actual": True,
+                "expected": True,
+            }
+        ],
+        "postconditions": [],
+        "summary": "Applied Writer.ToggleBold",
+    }
+
+
+def test_sidebar_approve_action_surfaces_replanned_proposal() -> None:
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    text_range = FakeWriterTextRange("hello world")
+    controller = FakeWriterController(text_range)
+    panel.attach_frame(FakeFrame(controller))
+    window = FakeWindow(prompt="Fix this and add a follow-up paragraph.")
+    transport = FakeTransport(
+        [
+            {
+                "type": "ToolProposal",
+                "proposals": [
+                    {
+                        "proposalId": "proposal-1",
+                        "toolId": "Writer.ReplaceSelection",
+                        "safetyClass": "content-edit",
+                        "requiresApproval": True,
+                        "preview": {
+                            "summary": "Preview Writer selection replacement",
+                            "before": "hello world",
+                            "after": "HELLO WORLD",
+                        },
+                        "arguments": {"replacementText": "HELLO WORLD"},
+                    }
+                ],
+            },
+            {
+                "type": "PlanRevision",
+                "sessionId": "sidebar-replan-test",
+                "action": "replan",
+                "reason": "Observed outcome did not satisfy the current plan step.",
+                "nextStepId": "sidebar-replan-test-step-2",
+                "nextProposal": {
+                    "proposalId": "proposal-2",
+                    "toolId": "Writer.InsertBelowSelection",
+                    "safetyClass": "content-edit",
+                    "requiresApproval": True,
+                    "preview": {
+                        "summary": "Insert text below current selection",
+                        "before": "",
+                        "after": "Follow-up paragraph",
+                    },
+                    "arguments": {"replacementText": "Follow-up paragraph"},
+                },
+            },
+        ]
+    )
+    tool_panel = SidebarToolPanel(
+        panel=panel,
+        window=window,
+        event_handler=SidebarDialogEventHandler(panel=panel, transport=transport),
+    )
+
+    original_build_chat_request = tool_panel.event_handler._build_chat_request
+
+    def _build_chat_request_with_fixed_id(*args: object, **kwargs: object) -> dict[str, object]:
+        payload = original_build_chat_request(*args, **kwargs)
+        payload["requestId"] = "sidebar-replan-test"
+        return payload
+
+    tool_panel.event_handler._build_chat_request = _build_chat_request_with_fixed_id
+
+    with patch(
+        "loaia.sidebar_actions.build_observation_results",
+        return_value=(
+            [
+                ProbeResult(
+                    probe="selection.non_empty",
+                    status="passed",
+                    actual=True,
+                    expected=True,
+                )
+            ],
+            [
+                ProbeResult(
+                    probe="selection.equals_preview_after",
+                    status="failed",
+                    actual="hello world",
+                    expected="HELLO WORLD",
+                )
+            ],
+            "failed",
+        ),
+    ):
+        tool_panel.event_handler.callHandlerMethod(window, None, "Send")
+        assert tool_panel.event_handler.callHandlerMethod(window, None, "Approve") is True
+
+    assert panel.state.pending_proposal is not None
+    assert panel.state.pending_proposal.tool_id == "Writer.InsertBelowSelection"
+    assert panel.state.last_result == "Insert text below current selection"
 
 
 def test_sidebar_send_action_surfaces_transport_errors_clearly() -> None:

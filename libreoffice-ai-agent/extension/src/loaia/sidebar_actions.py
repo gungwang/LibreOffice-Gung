@@ -42,6 +42,7 @@ from loaia.document_session import (
     resolve_history_session_key,
     resolve_profile_id,
 )
+from loaia.observation import build_observation_results
 from loaia.session_store import (
     JsonSidebarSessionStore,
     SqliteSidebarSessionStore,
@@ -51,6 +52,7 @@ from loaia.sidecar_lifecycle import ensure_sidecar_running
 from loaia.undo import undo_context
 from loaia_shared.errors import TransportError
 from loaia_shared.schema.messages import ObservationReport, PlanRevision
+from loaia_shared.schema.plans import ProbeResult
 from loaia_shared.transport import (
     DEFAULT_NAMED_PIPE_ADDRESS,
     decode_transport_payload,
@@ -347,48 +349,21 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 return preview_summary
 
             try:
-                model = get_model(get_controller(self.panel.frame))
-                with undo_context(model, f"AI: {proposal.tool_id}"):
-                    if is_safe_formatting_action(proposal.tool_id):
-                        result_message = execute_safe_formatting(
-                            self.panel.frame,
-                            proposal.tool_id,
-                            **_extract_proposal_arguments(proposal),
-                        )
-                    else:
-                        self._execute_proposal(selection, proposal)
-                        result_message = f"Applied {proposal.tool_id}"
-                self._report_observation(
+                result_message = self._execute_proposal_step(
                     transport_client,
+                    session_key,
+                    selection,
                     proposal,
-                    outcome="satisfied",
-                    summary=result_message,
+                    window=window,
                 )
             except (ValueError, RuntimeError) as exc:
-                self._report_observation(
-                    transport_client,
-                    proposal,
-                    outcome="failed",
-                    summary=str(exc),
-                )
                 self.panel.set_last_error(str(exc))
                 self.panel.append_message(str(exc))
                 self._append_chat(window, f"[Error] {exc}")
                 self._record_error(session_key, str(exc))
                 return str(exc)
 
-            self.panel.clear_pending_proposal()
-            self.panel.set_last_result(result_message)
-            self.panel.append_message(result_message)
             self._append_chat(window, f"AI: Done. {result_message}")
-            self._record_result(session_key, result_message, role="system")
-            self.audit.log_auto_apply(
-                request_id=getattr(proposal, "proposal_id", ""),
-                tool_id=proposal.tool_id,
-                document_url=resolve_document_url(self.panel.frame),
-                provider=self.panel.state.provider,
-                model=self.panel.state.model,
-            )
             return result_message
 
         if response_type == "ConsentRequest":
@@ -447,35 +422,19 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
         try:
             selection = self._capture_selection()
-            model = get_model(get_controller(self.panel.frame))
-            with undo_context(model, f"AI: {proposal.tool_id}"):
-                self._execute_proposal(selection, proposal)
-            result_message = f"Applied {proposal.tool_id}"
-            selection_preview = _proposal_selection_preview(proposal)
-            if selection_preview is not None:
-                self.panel.set_selection_preview(selection_preview)
-            self._report_observation(
+            result_message = self._execute_proposal_step(
                 transport_client,
+                session_key,
+                selection,
                 proposal,
-                outcome="satisfied",
-                summary=result_message,
+                window=window,
             )
         except (ValueError, RuntimeError) as exc:
-            self._report_observation(
-                transport_client,
-                proposal,
-                outcome="failed",
-                summary=str(exc),
-            )
             self.panel.set_last_error(str(exc))
             self.panel.append_message(str(exc))
             self._record_error(session_key, str(exc))
             return str(exc)
 
-        self.panel.set_last_result(result_message)
-        self.panel.append_message(result_message)
-        self.panel.clear_pending_proposal()
-        self._record_result(session_key, result_message, role="system")
         return result_message
 
     def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> None:
@@ -865,6 +824,8 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         proposal: object,
         outcome: str,
         summary: str,
+        preconditions: list[ProbeResult] | None = None,
+        postconditions: list[ProbeResult] | None = None,
     ) -> PlanRevision | None:
         session_id = _optional_string(getattr(proposal, "session_id", None))
         step_id = _optional_string(getattr(proposal, "step_id", None))
@@ -875,6 +836,8 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             sessionId=session_id,
             stepId=step_id,
             outcome=outcome,
+            preconditions=preconditions or [],
+            postconditions=postconditions or [],
             summary=summary,
         )
         response = transport_client.request(payload.model_dump(by_alias=True, mode="json"))
@@ -882,6 +845,151 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             return None
 
         return PlanRevision.model_validate(response)
+
+    def _execute_proposal_step(
+        self,
+        transport_client: RuntimeSidecarTransportClient,
+        session_key: object,
+        selection: RuntimeSelection,
+        proposal: object,
+        *,
+        window: object | None,
+        depth: int = 0,
+    ) -> str:
+        if depth > 4:
+            raise RuntimeError("Plan revision depth exceeded the current safety limit.")
+
+        before_text = selection.text
+
+        try:
+            model = get_model(get_controller(self.panel.frame))
+            with undo_context(model, f"AI: {proposal.tool_id}"):
+                if is_safe_formatting_action(proposal.tool_id):
+                    result_message = execute_safe_formatting(
+                        self.panel.frame,
+                        proposal.tool_id,
+                        **_extract_proposal_arguments(proposal),
+                    )
+                else:
+                    self._execute_proposal(selection, proposal)
+                    result_message = f"Applied {proposal.tool_id}"
+        except (ValueError, RuntimeError):
+            after_text = self._capture_observation_selection_text(selection, before_text)
+            preconditions, postconditions, _ = build_observation_results(
+                proposal,
+                selection_before=before_text,
+                selection_after=after_text,
+            )
+            revision = self._report_observation(
+                transport_client,
+                proposal,
+                outcome="failed",
+                summary=f"Failed {proposal.tool_id}",
+                preconditions=preconditions,
+                postconditions=postconditions,
+            )
+            follow_up = self._apply_plan_revision(
+                transport_client,
+                session_key,
+                revision,
+                window=window,
+                depth=depth + 1,
+            )
+            if follow_up is not None:
+                return follow_up
+            raise
+
+        after_text = self._capture_observation_selection_text(selection, before_text)
+        preconditions, postconditions, outcome = build_observation_results(
+            proposal,
+            selection_before=before_text,
+            selection_after=after_text,
+        )
+        revision = self._report_observation(
+            transport_client,
+            proposal,
+            outcome=outcome,
+            summary=result_message,
+            preconditions=preconditions,
+            postconditions=postconditions,
+        )
+
+        self.panel.clear_pending_proposal()
+        self.panel.set_selection_preview(after_text)
+        self.panel.set_last_result(result_message)
+        self.panel.append_message(result_message)
+        self._record_result(session_key, result_message, role="system")
+        self.audit.log_auto_apply(
+            request_id=getattr(proposal, "proposal_id", ""),
+            tool_id=proposal.tool_id,
+            document_url=resolve_document_url(self.panel.frame),
+            provider=self.panel.state.provider,
+            model=self.panel.state.model,
+        )
+
+        follow_up = self._apply_plan_revision(
+            transport_client,
+            session_key,
+            revision,
+            window=window,
+            depth=depth + 1,
+        )
+        return follow_up or result_message
+
+    def _apply_plan_revision(
+        self,
+        transport_client: RuntimeSidecarTransportClient,
+        session_key: object,
+        revision: PlanRevision | None,
+        *,
+        window: object | None,
+        depth: int,
+    ) -> str | None:
+        if revision is None:
+            return None
+
+        if revision.action in {"complete", "stop"} or revision.next_proposal is None:
+            return None
+
+        next_proposal = _proposal_from_payload(
+            revision.next_proposal.model_dump(by_alias=True, mode="json"),
+            session_id=revision.session_id,
+            step_id=revision.next_step_id,
+        )
+        if next_proposal.requires_approval:
+            preview = getattr(next_proposal, "preview", None)
+            preview_summary = getattr(preview, "summary", None) or next_proposal.tool_id
+            self.panel.set_pending_proposal(next_proposal)
+            self.panel.set_last_result(preview_summary)
+            self.panel.append_message(preview_summary)
+            self._record_result(session_key, preview_summary)
+            return preview_summary
+
+        selection = self._capture_selection()
+        return self._execute_proposal_step(
+            transport_client,
+            session_key,
+            selection,
+            next_proposal,
+            window=window,
+            depth=depth,
+        )
+
+    def _capture_observation_selection_text(
+        self,
+        selection: RuntimeSelection,
+        fallback: str,
+    ) -> str:
+        try:
+            current_selection = self._capture_selection()
+            if current_selection.text.strip():
+                return current_selection.text
+        except ValueError:
+            pass
+
+        if selection.text.strip():
+            return selection.text
+        return fallback
 
 
 def _get_range_text(text_range: object) -> str:
@@ -1075,6 +1183,7 @@ def _extract_replacement_text(proposal: object) -> str:
 def _proposal_from_payload(
     payload: dict[str, object],
     session_id: str | None = None,
+    step_id: str | None = None,
 ) -> SimpleNamespace:
     preview = None
     preview_payload = payload.get("preview")
@@ -1086,7 +1195,7 @@ def _proposal_from_payload(
         )
     arguments = payload.get("arguments")
     resolved_session_id = session_id or None
-    step_id = f"{resolved_session_id}-step-1" if resolved_session_id else None
+    resolved_step_id = step_id or (f"{resolved_session_id}-step-1" if resolved_session_id else None)
     return SimpleNamespace(
         proposal_id=payload.get("proposalId"),
         tool_id=payload.get("toolId"),
@@ -1095,7 +1204,7 @@ def _proposal_from_payload(
         preview=preview,
         arguments=dict(arguments) if isinstance(arguments, dict) else {},
         session_id=resolved_session_id,
-        step_id=step_id,
+        step_id=resolved_step_id,
     )
 
 
