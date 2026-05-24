@@ -758,10 +758,12 @@ class LoaiaSidecarServer:
         if request.app == AppType.CALC:
             if any(keyword in normalized for keyword in ("sort", "order", "arrange")):
                 return self._build_calc_sort_proposal(request)
+            if any(keyword in normalized for keyword in ("formula", "insert formula", "calculate", "sum", "average", "count")):
+                formula_proposal = self._build_calc_formula_proposal(request)
+                if formula_proposal is not None:
+                    return formula_proposal
             if any(keyword in normalized for keyword in ("chart", "graph", "plot", "visualize", "visualization")):
                 return self._build_calc_chart_proposal(request)
-            if any(keyword in normalized for keyword in ("formula", "insert formula", "calculate", "sum", "average", "count")):
-                return self._build_calc_formula_proposal(request)
 
         if request.app == AppType.IMPRESS:
             if any(
@@ -904,7 +906,7 @@ class LoaiaSidecarServer:
                 before="",
                 after=f"[{chart_type} chart]",
             ),
-            arguments={"chartType": chart_type, "chartCountDelta": 1},
+            arguments={"chartType": chart_type},
         )
 
     def _build_calc_sort_proposal(self, request: ChatRequest) -> ToolProposal | None:
@@ -1013,6 +1015,14 @@ class LoaiaSidecarServer:
             proposals.append(self._proposal_from_capability(request, "Writer.ToggleBold"))
 
         if proposal.tool_id == "Calc.SortSelectedRange" and any(
+            keyword in normalized
+            for keyword in ("chart", "graph", "plot", "visualize", "visualise", "visualization")
+        ):
+            chart_proposal = self._build_calc_chart_proposal(request)
+            if chart_proposal is not None:
+                proposals.append(chart_proposal)
+
+        if proposal.tool_id == "Calc.InsertFormulaInSelection" and any(
             keyword in normalized
             for keyword in ("chart", "graph", "plot", "visualize", "visualise", "visualization")
         ):

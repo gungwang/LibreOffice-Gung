@@ -96,8 +96,8 @@ def test_evaluator_replans_when_expected_probe_mismatches_even_if_outcome_satisf
                 capabilityId="Calc.CreateChartFromSelection",
                 descriptorHash="abc123",
                 expectedObservation=ExpectedObservation(
-                    probe="calc.active_sheet_chart_count.delta.equals_argument.chartCountDelta",
-                    value=1,
+                    probe="calc.active_sheet_last_chart_type.equals_argument.chartType",
+                    value="Pie",
                 ),
                 onFailure="replan",
             )
@@ -117,10 +117,10 @@ def test_evaluator_replans_when_expected_probe_mismatches_even_if_outcome_satisf
         ],
         postconditions=[
             {
-                "probe": "calc.active_sheet_chart_count.delta.equals_argument.chartCountDelta",
+                "probe": "calc.active_sheet_last_chart_type.equals_argument.chartType",
                 "status": "failed",
-                "actual": 0,
-                "expected": 1,
+                "actual": "Bar",
+                "expected": "Pie",
             }
         ],
         summary="Inserted chart (type hint: Bar) from selection.",

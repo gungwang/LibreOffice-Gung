@@ -493,6 +493,53 @@ def test_calc_sort_then_chart_plan_returns_chart_follow_up_after_observation() -
     assert revision["nextProposal"]["arguments"]["chartType"] == "Pie"
 
 
+def test_calc_formula_then_chart_plan_returns_chart_follow_up_after_observation() -> None:
+    adapter = FakeProviderAdapter(answer="=SUM(A1:A10)")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.CALC,
+            selection_text="100",
+            user_message="Insert a SUM formula and create a pie chart.",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Calc.InsertFormulaInSelection"
+
+    revision = server.handle_message(
+        {
+            "type": "ObservationReport",
+            "sessionId": "req-openrouter-1",
+            "stepId": "req-openrouter-1-step-1",
+            "outcome": "partial",
+            "preconditions": [
+                {
+                    "probe": "selection.non_empty",
+                    "status": "passed",
+                    "actual": True,
+                    "expected": True,
+                }
+            ],
+            "postconditions": [
+                {
+                    "probe": "selection.equals_argument.formula",
+                    "status": "passed",
+                    "actual": "=SUM(A1:A10)",
+                    "expected": "=SUM(A1:A10)",
+                }
+            ],
+            "summary": "Inserted formula: =SUM(A1:A10)",
+        }
+    )
+
+    assert revision["type"] == "PlanRevision"
+    assert revision["action"] == "continue"
+    assert revision["nextProposal"]["toolId"] == "Calc.CreateChartFromSelection"
+    assert revision["nextProposal"]["arguments"]["chartType"] == "Pie"
+
+
 def test_impress_replace_then_layout_plan_returns_layout_follow_up_after_observation() -> None:
     adapter = FakeProviderAdapter(answer="Simplified slide text")
     server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})

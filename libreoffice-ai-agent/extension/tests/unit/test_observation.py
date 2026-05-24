@@ -1,19 +1,49 @@
 from types import SimpleNamespace
 
+from loaia.context.calc import _apply_chart_type_to_last_chart, read_active_sheet_last_chart_type
 from loaia.observation import build_observation_results, capture_observation_state
 
 
 class FakeCalcCharts:
-    def __init__(self, count: int) -> None:
-        self._count = count
+    def __init__(self, *charts: object) -> None:
+        self._charts = list(charts)
 
     def getCount(self) -> int:
-        return self._count
+        return len(self._charts)
+
+    def getByIndex(self, index: int) -> object:
+        return self._charts[index]
+
+
+class FakeChartDiagram:
+    def __init__(self, diagram_type: str, *, vertical: bool | None = None) -> None:
+        self._diagram_type = diagram_type
+        if vertical is not None:
+            self.Vertical = vertical
+
+    def getDiagramType(self) -> str:
+        return self._diagram_type
+
+
+class FakeChartDocument:
+    def __init__(self, diagram: FakeChartDiagram) -> None:
+        self.Diagram = diagram
+
+    def createInstance(self, service_name: str) -> FakeChartDiagram:
+        vertical = None
+        if service_name == "com.sun.star.chart.BarDiagram":
+            vertical = True
+        return FakeChartDiagram(service_name, vertical=vertical)
+
+
+class FakeTableChart:
+    def __init__(self, diagram: FakeChartDiagram) -> None:
+        self.EmbeddedObject = FakeChartDocument(diagram)
 
 
 class FakeCalcSheet:
-    def __init__(self, chart_count: int) -> None:
-        self.Charts = FakeCalcCharts(chart_count)
+    def __init__(self, *charts: FakeTableChart) -> None:
+        self.Charts = FakeCalcCharts(*charts)
 
 
 class FakeCalcSelection:
@@ -25,9 +55,9 @@ class FakeCalcSelection:
 
 
 class FakeCalcController:
-    def __init__(self, rows: list[list[object]], *, chart_count: int) -> None:
+    def __init__(self, rows: list[list[object]], *charts: FakeTableChart) -> None:
         self._selection = FakeCalcSelection(rows)
-        self._sheet = FakeCalcSheet(chart_count)
+        self._sheet = FakeCalcSheet(*charts)
 
     def getSelection(self) -> FakeCalcSelection:
         return self._selection
@@ -90,12 +120,14 @@ class FakeImpressController:
 
 
 def test_build_observation_results_parses_calc_chart_summary_probe() -> None:
-    before_controller = FakeCalcController([[1, 2], [3, 4]], chart_count=0)
-    after_controller = FakeCalcController([[1, 2], [3, 4]], chart_count=1)
+    after_controller = FakeCalcController(
+        [[1, 2], [3, 4]],
+        FakeTableChart(FakeChartDiagram("com.sun.star.chart.PieDiagram")),
+    )
     proposal = SimpleNamespace(
         tool_id="Calc.CreateChartFromSelection",
         preview=None,
-        arguments={"chartType": "Pie", "chartCountDelta": 1},
+        arguments={"chartType": "Pie"},
     )
 
     preconditions, postconditions, outcome = build_observation_results(
@@ -104,19 +136,43 @@ def test_build_observation_results_parses_calc_chart_summary_probe() -> None:
         selection_after="A1:B10",
         summary="Inserted chart (type hint: Pie) from selection.",
         controller=after_controller,
-        state_before=capture_observation_state(proposal, before_controller),
         state_after=capture_observation_state(proposal, after_controller),
     )
 
     assert preconditions[0].status == "passed"
-    assert postconditions[0].probe == "calc.active_sheet_chart_count.delta.equals_argument.chartCountDelta"
-    assert postconditions[0].actual == 1
-    assert postconditions[0].expected == 1
+    assert postconditions[0].probe == "calc.active_sheet_last_chart_type.equals_argument.chartType"
+    assert postconditions[0].actual == "Pie"
+    assert postconditions[0].expected == "Pie"
     assert outcome == "satisfied"
 
 
+def test_apply_chart_type_to_last_chart_sets_requested_diagram() -> None:
+    controller = FakeCalcController(
+        [[1, 2], [3, 4]],
+        FakeTableChart(FakeChartDiagram("com.sun.star.chart.BarDiagram", vertical=True)),
+    )
+
+    _apply_chart_type_to_last_chart(controller, "Pie")
+
+    assert read_active_sheet_last_chart_type(controller) == "Pie"
+
+
+def test_read_active_sheet_last_chart_type_distinguishes_column_from_bar() -> None:
+    column_controller = FakeCalcController(
+        [[1, 2], [3, 4]],
+        FakeTableChart(FakeChartDiagram("com.sun.star.chart.BarDiagram", vertical=False)),
+    )
+    bar_controller = FakeCalcController(
+        [[1, 2], [3, 4]],
+        FakeTableChart(FakeChartDiagram("com.sun.star.chart.BarDiagram", vertical=True)),
+    )
+
+    assert read_active_sheet_last_chart_type(column_controller) == "Column"
+    assert read_active_sheet_last_chart_type(bar_controller) == "Bar"
+
+
 def test_build_observation_results_parses_calc_sort_summary_probe() -> None:
-    controller = FakeCalcController([[9], [5], [1]], chart_count=0)
+    controller = FakeCalcController([[9], [5], [1]])
     proposal = SimpleNamespace(
         tool_id="Calc.SortSelectedRange",
         preview=None,

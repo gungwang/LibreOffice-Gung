@@ -69,8 +69,8 @@ def apply_calc_formula(controller: object, formula: str) -> str:
 def create_chart_from_selection(controller: object, chart_type: str = "Bar") -> str:
     """Create a chart from the currently selected Calc range.
 
-    Uses UNO dispatch to insert a chart. *chart_type* is informational metadata;
-    the dispatch creates the default chart which the user can customise.
+    Uses UNO dispatch to insert a chart, then applies the requested chart type
+    to the newly inserted chart document.
     """
     try:
         import uno  # type: ignore[import]
@@ -88,6 +88,7 @@ def create_chart_from_selection(controller: object, chart_type: str = "Bar") -> 
         raise ValueError("Controller does not expose a frame for dispatch.")
 
     dispatcher.executeDispatch(frame, ".uno:InsertObjectChart", "", 0, ())
+    _apply_chart_type_to_last_chart(controller, chart_type)
     return f"Inserted chart (type hint: {chart_type}) from selection."
 
 
@@ -202,6 +203,65 @@ def read_active_sheet_chart_count(controller: object) -> int | None:
     return None
 
 
+def read_active_sheet_last_chart_type(controller: object) -> str | None:
+    chart = _get_last_table_chart(controller)
+    if chart is None:
+        return None
+
+    chart_document = _get_chart_document(chart)
+    if chart_document is None:
+        return None
+
+    diagram = _get_chart_diagram(chart_document)
+    if diagram is None:
+        return None
+
+    diagram_type = _get_diagram_type(diagram)
+    if diagram_type is None:
+        return None
+
+    if diagram_type == "com.sun.star.chart.BarDiagram":
+        vertical = getattr(diagram, "Vertical", None)
+        if isinstance(vertical, bool):
+            return "Bar" if vertical else "Column"
+        return "Bar"
+
+    return _canonical_chart_type_from_service(diagram_type)
+
+
+def _apply_chart_type_to_last_chart(controller: object, chart_type: str) -> None:
+    chart = _get_last_table_chart(controller)
+    if chart is None:
+        raise ValueError("The active Calc sheet does not expose the inserted chart.")
+
+    chart_document = _get_chart_document(chart)
+    if chart_document is None:
+        raise ValueError("The inserted Calc chart does not expose an embedded chart document.")
+
+    service_name, vertical = _chart_service_name(chart_type)
+    create_instance = getattr(chart_document, "createInstance", None)
+    if not callable(create_instance):
+        raise ValueError("The embedded Calc chart document does not support diagram creation.")
+
+    diagram = create_instance(service_name)
+    if diagram is None:
+        raise ValueError(f"Could not create Calc chart diagram service {service_name}.")
+
+    if vertical is not None and hasattr(diagram, "Vertical"):
+        diagram.Vertical = vertical
+
+    if hasattr(chart_document, "Diagram"):
+        chart_document.Diagram = diagram
+        return
+
+    set_diagram = getattr(chart_document, "setDiagram", None)
+    if callable(set_diagram):
+        set_diagram(diagram)
+        return
+
+    raise ValueError("The embedded Calc chart document does not support assigning a diagram.")
+
+
 def _infer_selection_row_count(selection: object) -> int | None:
     rows = getattr(selection, "Rows", None)
     if rows is not None and hasattr(rows, "getCount"):
@@ -250,6 +310,103 @@ def _get_active_sheet(controller: object) -> object | None:
 
     get_active_sheet = getattr(current_controller, "getActiveSheet", None)
     return get_active_sheet() if callable(get_active_sheet) else None
+
+
+def _get_last_table_chart(controller: object) -> object | None:
+    sheet = _get_active_sheet(controller)
+    if sheet is None:
+        return None
+
+    charts = getattr(sheet, "Charts", None)
+    if charts is None:
+        get_charts = getattr(sheet, "getCharts", None)
+        charts = get_charts() if callable(get_charts) else None
+    if charts is None:
+        return None
+
+    count = _indexed_container_count(charts)
+    if count is None or count < 1:
+        return None
+
+    return _indexed_container_get(charts, count - 1)
+
+
+def _get_chart_document(chart: object) -> object | None:
+    embedded_object = getattr(chart, "EmbeddedObject", None)
+    if embedded_object is not None:
+        return embedded_object
+
+    get_embedded_object = getattr(chart, "getEmbeddedObject", None)
+    return get_embedded_object() if callable(get_embedded_object) else None
+
+
+def _get_chart_diagram(chart_document: object) -> object | None:
+    diagram = getattr(chart_document, "Diagram", None)
+    if diagram is not None:
+        return diagram
+
+    get_first_diagram = getattr(chart_document, "getFirstDiagram", None)
+    if callable(get_first_diagram):
+        return get_first_diagram()
+
+    get_diagram = getattr(chart_document, "getDiagram", None)
+    return get_diagram() if callable(get_diagram) else None
+
+
+def _get_diagram_type(diagram: object) -> str | None:
+    get_diagram_type = getattr(diagram, "getDiagramType", None)
+    if callable(get_diagram_type):
+        diagram_type = get_diagram_type()
+        return diagram_type if isinstance(diagram_type, str) else None
+    return None
+
+
+def _chart_service_name(chart_type: str) -> tuple[str, bool | None]:
+    normalized = chart_type.casefold()
+    if normalized == "pie":
+        return ("com.sun.star.chart.PieDiagram", None)
+    if normalized == "line":
+        return ("com.sun.star.chart.LineDiagram", None)
+    if normalized == "scatter":
+        return ("com.sun.star.chart.XYDiagram", None)
+    if normalized == "area":
+        return ("com.sun.star.chart.AreaDiagram", None)
+    if normalized == "column":
+        return ("com.sun.star.chart.BarDiagram", False)
+    if normalized == "bar":
+        return ("com.sun.star.chart.BarDiagram", True)
+    return ("com.sun.star.chart.BarDiagram", True)
+
+
+def _canonical_chart_type_from_service(service_name: str) -> str | None:
+    service_map = {
+        "com.sun.star.chart.PieDiagram": "Pie",
+        "com.sun.star.chart.LineDiagram": "Line",
+        "com.sun.star.chart.XYDiagram": "Scatter",
+        "com.sun.star.chart.AreaDiagram": "Area",
+        "com.sun.star.chart.BarDiagram": "Bar",
+    }
+    return service_map.get(service_name)
+
+
+def _indexed_container_count(container: object) -> int | None:
+    get_count = getattr(container, "getCount", None)
+    if callable(get_count):
+        return int(get_count())
+    try:
+        return len(container)  # type: ignore[arg-type]
+    except TypeError:
+        return None
+
+
+def _indexed_container_get(container: object, index: int) -> object | None:
+    get_by_index = getattr(container, "getByIndex", None)
+    if callable(get_by_index):
+        return get_by_index(index)
+    try:
+        return container[index]  # type: ignore[index]
+    except (KeyError, IndexError, TypeError):
+        return None
 
 
 def _coerce_sort_value(value: object) -> tuple[int, object]:

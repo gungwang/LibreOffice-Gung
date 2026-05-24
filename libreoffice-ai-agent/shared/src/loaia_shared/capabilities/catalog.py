@@ -423,7 +423,7 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "requires_approval": True,
         "summary": "Create a chart from the current Calc selection",
         "precondition_probes": ("selection.non_empty",),
-        "postcondition_probes": ("calc.active_sheet_chart_count.delta.equals_argument.chartCountDelta",),
+        "postcondition_probes": ("calc.active_sheet_last_chart_type.equals_argument.chartType",),
     },
     "Calc.SortSelectedRange": {
         "app": "calc",

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 
-from loaia.context.calc import read_active_sheet_chart_count, read_selection_first_column_order
+from loaia.context.calc import read_active_sheet_last_chart_type, read_selection_first_column_order
 from loaia.context.impress import read_current_slide_layout, read_last_slide_text
 from loaia_shared.capabilities.compiler import get_capability_descriptor
 from loaia_shared.schema.plans import ProbeResult
@@ -76,9 +76,9 @@ def capture_observation_state(
     tool_id = _descriptor_tool_id(proposal)
 
     if tool_id == "Calc.CreateChartFromSelection":
-        chart_count = read_active_sheet_chart_count(controller)
-        if chart_count is not None:
-            state["calc.active_sheet_chart_count"] = chart_count
+        chart_type = read_active_sheet_last_chart_type(controller)
+        if chart_type is not None:
+            state["calc.active_sheet_last_chart_type"] = chart_type
 
     if tool_id == "Calc.SortSelectedRange":
         order = read_selection_first_column_order(controller)
@@ -152,12 +152,8 @@ def _actual_value_for_probe(
         return selection_after
     if probe.startswith("selection.equals_argument."):
         return selection_after
-    if probe == "calc.active_sheet_chart_count.delta.equals_argument.chartCountDelta":
-        before_count = _state_int_value(state_before, "calc.active_sheet_chart_count")
-        after_count = _state_int_value(state_after, "calc.active_sheet_chart_count")
-        if before_count is None or after_count is None:
-            return None
-        return after_count - before_count
+    if probe == "calc.active_sheet_last_chart_type.equals_argument.chartType":
+        return _state_string_value(state_after, "calc.active_sheet_last_chart_type")
     if probe == "calc.selection_first_column_order.equals_argument.sortDirection":
         return _state_string_value(state_after, "calc.selection_first_column_order")
     if probe == "impress.current_slide_layout.equals_argument.layout":
@@ -185,13 +181,6 @@ def _actual_value_for_probe(
         match = re.search(r"outline\s*\((\d+)\s+chars\)", summary, flags=re.IGNORECASE)
         return int(match.group(1)) if match is not None else None
     return None
-
-
-def _state_int_value(state: dict[str, object] | None, key: str) -> int | None:
-    if state is None:
-        return None
-    value = state.get(key)
-    return int(value) if isinstance(value, int) else None
 
 
 def _state_string_value(state: dict[str, object] | None, key: str) -> str | None:
