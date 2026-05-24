@@ -764,6 +764,21 @@ class LoaiaSidecarServer:
                 return self._build_calc_formula_proposal(request)
 
         if request.app == AppType.IMPRESS:
+            if any(
+                keyword in normalized
+                for keyword in (
+                    "rewrite",
+                    "rephrase",
+                    "simplify",
+                    "shorten",
+                    "formal",
+                    "fix",
+                    "improve",
+                )
+            ):
+                rewrite_proposal = self._build_impress_replace_proposal(request)
+                if rewrite_proposal is not None:
+                    return rewrite_proposal
             if any(keyword in normalized for keyword in ("new slide", "create slide", "add slide", "insert slide")):
                 return self._build_impress_create_slide_proposal(request)
             if any(keyword in normalized for keyword in ("layout", "apply layout", "change layout", "slide layout")):
@@ -903,7 +918,7 @@ class LoaiaSidecarServer:
                 before="",
                 after=f"[sorted {direction}]",
             ),
-            arguments={"ascending": ascending},
+            arguments={"ascending": ascending, "sortDirection": direction},
         )
 
     def _build_impress_create_slide_proposal(self, request: ChatRequest) -> ToolProposal | None:
@@ -926,7 +941,7 @@ class LoaiaSidecarServer:
                 before="",
                 after=outline,
             ),
-            arguments={"outline": outline},
+            arguments={"outline": outline, "outlineLength": len(outline)},
         )
 
     def _build_impress_layout_proposal(self, request: ChatRequest) -> ToolProposal | None:
@@ -997,6 +1012,21 @@ class LoaiaSidecarServer:
         if proposal.tool_id == "Writer.ReplaceSelection" and "bold" in normalized:
             proposals.append(self._proposal_from_capability(request, "Writer.ToggleBold"))
 
+        if proposal.tool_id == "Calc.SortSelectedRange" and any(
+            keyword in normalized
+            for keyword in ("chart", "graph", "plot", "visualize", "visualise", "visualization")
+        ):
+            chart_proposal = self._build_calc_chart_proposal(request)
+            if chart_proposal is not None:
+                proposals.append(chart_proposal)
+
+        if proposal.tool_id == "Impress.ReplaceSelectedText" and any(
+            keyword in normalized for keyword in ("layout", "blank", "title", "content", "two column")
+        ):
+            layout_proposal = self._build_impress_layout_proposal(request)
+            if layout_proposal is not None:
+                proposals.append(layout_proposal)
+
         if proposal.tool_id == "Impress.CreateSlideFromOutline" and any(
             keyword in normalized for keyword in ("layout", "blank", "title", "content")
         ):
@@ -1060,6 +1090,8 @@ class LoaiaSidecarServer:
             return proposal.preview.after if proposal.preview is not None else None
         if probe.startswith("selection.equals_argument."):
             return proposal.arguments.get(probe.removeprefix("selection.equals_argument."))
+        if probe.startswith("summary.matches_argument."):
+            return proposal.arguments.get(probe.removeprefix("summary.matches_argument."))
         return None
 
     def _handle_observation_report(self, report: ObservationReport) -> PlanRevision:

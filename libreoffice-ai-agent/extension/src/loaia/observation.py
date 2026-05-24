@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from loaia_shared.capabilities.compiler import get_capability_descriptor
 from loaia_shared.schema.plans import ProbeResult
 
@@ -9,17 +11,32 @@ def build_observation_results(
     *,
     selection_before: str | None,
     selection_after: str | None,
+    summary: str = "",
 ) -> tuple[list[ProbeResult], list[ProbeResult], str]:
     descriptor = get_capability_descriptor(_descriptor_tool_id(proposal))
     if descriptor is None:
         return [], [], "satisfied"
 
     preconditions = [
-        _evaluate_probe(probe, proposal, selection_before, selection_after, stage="pre")
+        _evaluate_probe(
+            probe,
+            proposal,
+            selection_before,
+            selection_after,
+            summary,
+            stage="pre",
+        )
         for probe in descriptor.precondition_probes
     ]
     postconditions = [
-        _evaluate_probe(probe, proposal, selection_before, selection_after, stage="post")
+        _evaluate_probe(
+            probe,
+            proposal,
+            selection_before,
+            selection_after,
+            summary,
+            stage="post",
+        )
         for probe in descriptor.postcondition_probes
     ]
     return preconditions, postconditions, _derive_outcome(
@@ -41,6 +58,11 @@ def expected_value_for_probe(proposal: object, probe: str) -> object | None:
         arguments = getattr(proposal, "arguments", {})
         if isinstance(arguments, dict):
             return arguments.get(argument_name)
+    if probe.startswith("summary.matches_argument."):
+        argument_name = probe.removeprefix("summary.matches_argument.")
+        arguments = getattr(proposal, "arguments", {})
+        if isinstance(arguments, dict):
+            return arguments.get(argument_name)
     return None
 
 
@@ -49,6 +71,7 @@ def _evaluate_probe(
     proposal: object,
     selection_before: str | None,
     selection_after: str | None,
+    summary: str,
     *,
     stage: str,
 ) -> ProbeResult:
@@ -56,6 +79,7 @@ def _evaluate_probe(
         probe,
         selection_before=selection_before,
         selection_after=selection_after,
+        summary=summary,
         stage=stage,
     )
     expected = expected_value_for_probe(proposal, probe)
@@ -68,6 +92,7 @@ def _actual_value_for_probe(
     *,
     selection_before: str | None,
     selection_after: str | None,
+    summary: str,
     stage: str,
 ) -> object | None:
     if probe == "selection.non_empty":
@@ -77,6 +102,22 @@ def _actual_value_for_probe(
         return selection_after
     if probe.startswith("selection.equals_argument."):
         return selection_after
+    if probe == "summary.matches_argument.chartType":
+        match = re.search(r"type hint:\s*([^\)]+)", summary, flags=re.IGNORECASE)
+        return match.group(1).strip() if match is not None else None
+    if probe == "summary.matches_argument.layout":
+        match = re.search(r"Applied layout\s+(-?\d+)", summary, flags=re.IGNORECASE)
+        return int(match.group(1)) if match is not None else None
+    if probe == "summary.matches_argument.sortDirection":
+        match = re.search(
+            r"Sorted selected range\s*\((ascending|descending)\)",
+            summary,
+            flags=re.IGNORECASE,
+        )
+        return match.group(1).casefold() if match is not None else None
+    if probe == "summary.matches_argument.outlineLength":
+        match = re.search(r"outline\s*\((\d+)\s+chars\)", summary, flags=re.IGNORECASE)
+        return int(match.group(1)) if match is not None else None
     return None
 
 

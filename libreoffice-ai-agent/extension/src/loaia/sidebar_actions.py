@@ -437,34 +437,32 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
         return result_message
 
-    def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> None:
+    def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> str | None:
         """Execute a proposal against the given selection."""
         tool_id = getattr(proposal, "tool_id", "")
         arguments = _extract_proposal_arguments(proposal)
 
         if tool_id == "App.ExecuteUnoCommand":
-            execute_uno_command(
+            return execute_uno_command(
                 self.panel.frame,
                 target_tool_id=_optional_string(arguments.get("targetToolId")),
                 dispatch_alias=_optional_string(arguments.get("dispatchAlias")),
                 command=_optional_string(arguments.get("command")),
                 arguments=arguments,
             )
-            return
 
         if can_execute_via_dispatch(tool_id):
-            execute_dispatch_action(self.panel.frame, tool_id, **arguments)
-            return
+            return execute_dispatch_action(self.panel.frame, tool_id, **arguments)
 
         if tool_id == "Writer.ReplaceSelection":
             replacement_text = _extract_replacement_text(proposal)
             _apply_writer_replacement(selection, replacement_text)
-            return
+            return None
 
         if tool_id == "Writer.InsertBelowSelection":
             text = _extract_replacement_text(proposal)
             _insert_below_writer_selection(selection, text)
-            return
+            return None
 
         if tool_id == "Calc.InsertFormulaInSelection":
             formula = arguments.get("formula") if isinstance(arguments, dict) else None
@@ -472,8 +470,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 raise ValueError("Calc formula proposal does not contain a formula.")
             if selection.controller is None:
                 raise ValueError("Calc controller is not available for formula insertion.")
-            apply_calc_formula(selection.controller, formula)
-            return
+            return apply_calc_formula(selection.controller, formula)
 
         if tool_id == "Calc.CreateChartFromSelection":
             if selection.controller is None:
@@ -485,8 +482,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 if isinstance(arguments, dict)
                 else "Bar"
             )
-            create_chart_from_selection(selection.controller, chart_type)
-            return
+            return create_chart_from_selection(selection.controller, chart_type)
 
         if tool_id == "Calc.SortSelectedRange":
             if selection.controller is None:
@@ -498,28 +494,26 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 if isinstance(arguments, dict)
                 else True
             )
-            sort_selected_range(selection.controller, ascending=ascending)
-            return
+            return sort_selected_range(selection.controller, ascending=ascending)
 
         if tool_id == "Impress.ReplaceSelectedText":
             replacement_text = _extract_replacement_text(proposal)
             if selection.controller is None:
                 raise ValueError("Impress controller is not available for text replacement.")
-            apply_impress_text_replacement(selection.controller, replacement_text)
-            return
+            return apply_impress_text_replacement(selection.controller, replacement_text)
 
         if tool_id == "Writer.InsertTable":
             rows = int(arguments.get("rows", 3))
             cols = int(arguments.get("columns", 3))
             _insert_writer_table(selection, rows, cols)
-            return
+            return "Inserted Writer table."
 
         if tool_id == "Writer.ConvertToTable":
             rows = int(arguments.get("rows", 3))
             cols = int(arguments.get("columns", 3))
             tsv_data = str(arguments.get("tsvData", ""))
             _convert_writer_text_to_table(selection, rows, cols, tsv_data)
-            return
+            return "Converted Writer selection to a table."
 
         if tool_id == "Impress.CreateSlideFromOutline":
             if selection.controller is None:
@@ -531,8 +525,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 if isinstance(arguments, dict)
                 else ""
             )
-            create_slide_from_outline(selection.controller, outline)
-            return
+            return create_slide_from_outline(selection.controller, outline)
 
         if tool_id == "Impress.ApplyLayoutToCurrentSlide":
             if selection.controller is None:
@@ -544,15 +537,13 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 if isinstance(arguments, dict)
                 else 0
             )
-            apply_layout_to_current_slide(selection.controller, layout)
-            return
+            return apply_layout_to_current_slide(selection.controller, layout)
 
         if tool_id == "Draw.ReplaceSelectedText":
             replacement_text = _extract_replacement_text(proposal)
             if selection.controller is None:
                 raise ValueError("Draw controller is not available for text replacement.")
-            apply_draw_text_replacement(selection.controller, replacement_text)
-            return
+            return apply_draw_text_replacement(selection.controller, replacement_text)
 
         if tool_id == "Math.ReplaceFormula":
             formula = arguments.get("formula") if isinstance(arguments, dict) else None
@@ -562,11 +553,10 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 raise ValueError("Math formula proposal does not contain a formula.")
             if selection.controller is None:
                 raise ValueError("Math controller is not available for formula replacement.")
-            apply_math_formula(selection.controller, formula)
-            return
+            return apply_math_formula(selection.controller, formula)
 
         if tool_id == "Base.ExplainQuery":
-            return
+            return f"Applied {tool_id}"
 
         raise ValueError(f"Unsupported tool: {tool_id}")
 
@@ -871,14 +861,14 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                         **_extract_proposal_arguments(proposal),
                     )
                 else:
-                    self._execute_proposal(selection, proposal)
-                    result_message = f"Applied {proposal.tool_id}"
+                    result_message = self._execute_proposal(selection, proposal) or f"Applied {proposal.tool_id}"
         except (ValueError, RuntimeError):
             after_text = self._capture_observation_selection_text(selection, before_text)
             preconditions, postconditions, _ = build_observation_results(
                 proposal,
                 selection_before=before_text,
                 selection_after=after_text,
+                summary="",
             )
             revision = self._report_observation(
                 transport_client,
@@ -904,6 +894,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             proposal,
             selection_before=before_text,
             selection_after=after_text,
+            summary=result_message,
         )
         revision = self._report_observation(
             transport_client,

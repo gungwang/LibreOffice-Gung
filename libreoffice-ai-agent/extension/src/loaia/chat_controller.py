@@ -60,6 +60,7 @@ class ChatController:
             proposal,
             selection_before=before_text,
             selection_after=applied_text,
+            summary=f"Applied {proposal.tool_id}",
         )
         revision = self.client.report_observation(
             ObservationReport(

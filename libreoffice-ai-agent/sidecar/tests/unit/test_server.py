@@ -446,6 +446,100 @@ def test_writer_multistep_plan_returns_follow_up_proposal_after_observation() ->
     assert revision["nextProposal"]["toolId"] == "Writer.ToggleBold"
 
 
+def test_calc_sort_then_chart_plan_returns_chart_follow_up_after_observation() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.CALC,
+            selection_text="A1:B10",
+            user_message="Sort this data in descending order and create a pie chart.",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Calc.SortSelectedRange"
+
+    revision = server.handle_message(
+        {
+            "type": "ObservationReport",
+            "sessionId": "req-openrouter-1",
+            "stepId": "req-openrouter-1-step-1",
+            "outcome": "partial",
+            "preconditions": [
+                {
+                    "probe": "selection.non_empty",
+                    "status": "passed",
+                    "actual": True,
+                    "expected": True,
+                }
+            ],
+            "postconditions": [
+                {
+                    "probe": "summary.matches_argument.sortDirection",
+                    "status": "passed",
+                    "actual": "descending",
+                    "expected": "descending",
+                }
+            ],
+            "summary": "Sorted selected range (descending).",
+        }
+    )
+
+    assert revision["type"] == "PlanRevision"
+    assert revision["action"] == "continue"
+    assert revision["nextProposal"]["toolId"] == "Calc.CreateChartFromSelection"
+    assert revision["nextProposal"]["arguments"]["chartType"] == "Pie"
+
+
+def test_impress_replace_then_layout_plan_returns_layout_follow_up_after_observation() -> None:
+    adapter = FakeProviderAdapter(answer="Simplified slide text")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.IMPRESS,
+            selection_text="Complex slide text with jargon.",
+            user_message="Rewrite this to be simpler and apply a blank layout.",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Impress.ReplaceSelectedText"
+
+    revision = server.handle_message(
+        {
+            "type": "ObservationReport",
+            "sessionId": "req-openrouter-1",
+            "stepId": "req-openrouter-1-step-1",
+            "outcome": "partial",
+            "preconditions": [
+                {
+                    "probe": "selection.non_empty",
+                    "status": "passed",
+                    "actual": True,
+                    "expected": True,
+                }
+            ],
+            "postconditions": [
+                {
+                    "probe": "selection.equals_preview_after",
+                    "status": "passed",
+                    "actual": "Simplified slide text",
+                    "expected": "Simplified slide text",
+                }
+            ],
+            "summary": "Replaced selected Impress text.",
+        }
+    )
+
+    assert revision["type"] == "PlanRevision"
+    assert revision["action"] == "continue"
+    assert revision["nextProposal"]["toolId"] == "Impress.ApplyLayoutToCurrentSlide"
+    assert revision["nextProposal"]["arguments"]["layout"] == 0
+
+
 # ------------------------------------------------------------------
 # Cancellation tests
 # ------------------------------------------------------------------

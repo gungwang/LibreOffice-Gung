@@ -422,12 +422,16 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "safety_class": SafetyClass.CONTENT_EDIT,
         "requires_approval": True,
         "summary": "Create a chart from the current Calc selection",
+        "precondition_probes": ("selection.non_empty",),
+        "postcondition_probes": ("summary.matches_argument.chartType",),
     },
     "Calc.SortSelectedRange": {
         "app": "calc",
         "safety_class": SafetyClass.CONTENT_EDIT,
         "requires_approval": True,
         "summary": "Sort the current Calc selection",
+        "precondition_probes": ("selection.non_empty",),
+        "postcondition_probes": ("summary.matches_argument.sortDirection",),
     },
     "Impress.GetSelectedText": {
         "app": "impress",
@@ -451,12 +455,14 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "safety_class": SafetyClass.CONTENT_EDIT,
         "requires_approval": True,
         "summary": "Create a new slide from an outline",
+        "postcondition_probes": ("summary.matches_argument.outlineLength",),
     },
     "Impress.ApplyLayoutToCurrentSlide": {
         "app": "impress",
         "safety_class": SafetyClass.CONTENT_EDIT,
         "requires_approval": True,
         "summary": "Apply a layout to the current slide",
+        "postcondition_probes": ("summary.matches_argument.layout",),
     },
     "Draw.GetSelectedText": {
         "app": "draw",
