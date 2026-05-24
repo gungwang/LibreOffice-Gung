@@ -1,10 +1,15 @@
 from __future__ import annotations
 
+import json
+import os
 import time
+from pathlib import Path
 
 import uno
 
 SIDEBAR_RESOURCE_URL = "private:resource/toolpanel/LoaiaPanelFactory/LoaiaPanel"
+STATE_ROOT_ENV_VAR = "LOAIA_EXTENSION_STATE_ROOT"
+STATE_FILE_NAME = "sidebar-state.json"
 
 
 def connect(pipe_name: str) -> object:
@@ -48,6 +53,94 @@ def wait_for_uno_result(
         ) from last_error
 
     raise RuntimeError(f"Could not access {description} after LibreOffice startup.")
+
+
+def resolve_sidebar_state_root() -> Path:
+    configured_root = os.environ.get(STATE_ROOT_ENV_VAR, "").strip()
+    if configured_root:
+        return Path(configured_root)
+
+    app_data = os.environ.get("APPDATA", "").strip()
+    if app_data:
+        return Path(app_data) / "LibreOfficeAIAgent"
+
+    return Path.home() / ".libreoffice-ai-agent"
+
+
+def sidebar_state_file() -> Path:
+    return resolve_sidebar_state_root() / STATE_FILE_NAME
+
+
+def load_sidebar_state() -> dict[str, object]:
+    state_file = sidebar_state_file()
+    if not state_file.exists():
+        return {}
+
+    try:
+        return json.loads(state_file.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def coerce_sidebar_messages(session_payload: dict[str, object]) -> list[dict[str, str]]:
+    raw_messages = session_payload.get("messages")
+    if not isinstance(raw_messages, list):
+        return []
+
+    messages: list[dict[str, str]] = []
+    for message in raw_messages:
+        if not isinstance(message, dict):
+            continue
+
+        role = message.get("role")
+        text = message.get("text")
+        if not isinstance(role, str) or not isinstance(text, str):
+            continue
+
+        normalized: dict[str, str] = {
+            "role": role,
+            "text": text,
+        }
+        provider = message.get("provider")
+        if isinstance(provider, str):
+            normalized["provider"] = provider
+        model = message.get("model")
+        if isinstance(model, str):
+            normalized["model"] = model
+        messages.append(normalized)
+
+    return messages
+
+
+def find_sidebar_session(
+    *,
+    last_prompt: str | None = None,
+    require_result: bool = False,
+    require_error: bool = False,
+) -> tuple[dict[str, object], dict[str, object]] | None:
+    state_data = load_sidebar_state()
+    sessions = state_data.get("sessions")
+    if not isinstance(sessions, dict):
+        return None
+
+    for payload in sessions.values():
+        if not isinstance(payload, dict):
+            continue
+
+        prompt_value = payload.get("lastPrompt")
+        result_value = payload.get("lastResult")
+        error_value = payload.get("lastError")
+
+        if last_prompt is not None and prompt_value != last_prompt:
+            continue
+        if require_result and (not isinstance(result_value, str) or not result_value.strip()):
+            continue
+        if require_error and (not isinstance(error_value, str) or not error_value.strip()):
+            continue
+
+        return state_data, payload
+
+    return None
 
 
 def make_property(name: str, value: object) -> object:

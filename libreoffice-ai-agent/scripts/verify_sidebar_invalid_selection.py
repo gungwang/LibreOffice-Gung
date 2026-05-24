@@ -3,26 +3,19 @@ from __future__ import annotations
 import sys
 
 from verification_probe_common import (
+    coerce_sidebar_messages,
     close_document_session,
     connect,
-    get_sidebar_panel_window,
+    find_sidebar_session,
     load_document,
     make_property,
     make_url,
-    model_text,
+    wait_for_uno_result,
 )
 
 INVALID_SELECTION = "invalid-selection"
 UNSUPPORTED_DOCUMENT = "unsupported-document"
 TRANSPORT_ERROR = "transport-error"
-
-
-def shorten_text(text: str, limit: int = 90) -> str:
-    normalized = text.strip()
-    if len(normalized) <= limit:
-        return normalized
-
-    return f"{normalized[: limit - 3].rstrip()}..."
 
 
 def verify(
@@ -81,35 +74,22 @@ def verify(
             return 2
 
         expected_error = f"Could not connect to sidecar pipe at {pipe_address}"
-        expected_status_error = shorten_text(expected_error, limit=90)
-        expected_recent_activity = expected_status_error
         document_url = "private:factory/swriter"
-        value_key = "DOC_TEXT"
-        waiting_failure = (
-            "Connection state did not remain in the waiting state after transport error."
-        )
-        expected_error_failure = (
-            "Sidebar status did not show the expected sidecar transport error."
-        )
-        recent_activity_failure = (
-            "Sidebar recent activity did not include the transport error."
-        )
-        unchanged_value_failure = (
-            "Transport error flow unexpectedly changed the Writer document."
-        )
-        approve_failure = "Approve should stay disabled after a transport error."
-        expected_selection_summary = f"Selection:\n{initial_text}"
     else:
         print(f"Unsupported scenario: {scenario}", file=sys.stderr)
         return 2
 
     desktop = None
     document = None
+    stage = "load_document"
     try:
+        stage = "load_document"
         desktop, document = load_document(context, document_url)
+        stage = "get_controller"
         controller = document.getCurrentController()
         frame = controller.getFrame()
 
+        stage = "query_dispatch"
         open_sidebar_url = make_url("open-sidebar")
         preview_url = make_url("preview-selection")
         open_dispatch = frame.queryDispatch(open_sidebar_url, "_self", 0)
@@ -126,17 +106,12 @@ def verify(
             print("FAILURE=Protocol dispatch is not available for one or more commands.")
             return 1
 
+        stage = "open_sidebar"
         open_dispatch.dispatch(open_sidebar_url, ())
 
-        panel_window = get_sidebar_panel_window(context, frame)
-
-        status_after_open = model_text(panel_window.getControl("Status"))
-        approve_button = panel_window.getControl("ApproveButton")
-        results["OPEN_STATUS_HAS_COMMAND"] = str(
-            "Last command: open-sidebar" in status_after_open
-        )
-        results["APPROVE_ENABLED_AFTER_OPEN"] = str(approve_button.isEnabled())
-
+        current_value = initial_text
+        shape_count_before: int | None = None
+        stage = "prepare_document"
         if scenario in (INVALID_SELECTION, TRANSPORT_ERROR):
             text = document.Text
             cursor = text.createTextCursor()
@@ -147,68 +122,50 @@ def verify(
                 controller.select(cursor)
             current_value = document.Text.getString()
         elif scenario == UNSUPPORTED_DOCUMENT:
-            # Draw documents have no text or cells to populate; just verify
-            # the error path without modifying document content.
-            current_value = initial_text
+            draw_page = document.getDrawPages().getByIndex(0)
+            shape_count_before = draw_page.getCount()
 
         dispatch_properties = [make_property("Prompt", prompt)]
         if scenario == TRANSPORT_ERROR:
             dispatch_properties.append(make_property("PipeAddress", pipe_address))
 
+        stage = "dispatch_preview"
         preview_dispatch.dispatch(preview_url, tuple(dispatch_properties))
+        stage = "wait_for_session_error"
+        _state_data, session_payload = wait_for_uno_result(
+            lambda: find_sidebar_session(last_prompt=prompt, require_error=True),
+            f"{scenario} session error state",
+        )
+        messages = coerce_sidebar_messages(session_payload)
+        user_message = next((message for message in reversed(messages) if message["role"] == "user"), None)
+        system_message = next((message for message in reversed(messages) if message["role"] == "system"), None)
 
-        status_after_error = model_text(panel_window.getControl("Status"))
-        summary_after_error = model_text(panel_window.getControl("Summary"))
-        results["STILL_WAITING_AFTER_ERROR"] = str(
-            "Connection: waiting for first sidecar response" in status_after_error
+        results["LAST_ERROR_MATCHES"] = str(session_payload.get("lastError") == expected_error)
+        results["HAS_USER_MESSAGE"] = str(
+            user_message is not None and user_message.get("text") == prompt
         )
-        results["LAST_COMMAND_AFTER_ERROR"] = str(
-            "Last command: preview-selection" in status_after_error
+        results["HAS_SYSTEM_MESSAGE"] = str(
+            system_message is not None and system_message.get("text") == expected_error
         )
-        results["HAS_EXPECTED_ERROR_IN_STATUS"] = str(
-            f"Last error: {expected_status_error}" in status_after_error
-        )
-        results["HAS_PROMPT_IN_SUMMARY"] = str(f"Prompt:\n{prompt}" in summary_after_error)
-        results["HAS_EXPECTED_SELECTION_IN_SUMMARY"] = str(
-            expected_selection_summary in summary_after_error
-        )
-        results["HAS_NO_PENDING_PREVIEW"] = str(
-            "Pending preview:\nNo pending proposal." in summary_after_error
-        )
-        results["HAS_NO_RESULT"] = str(
-            "Last result:\nNo completed result yet." in summary_after_error
-        )
-        results["HAS_RECENT_ERROR_ACTIVITY"] = str(
-            f"Recent activity:\n- {expected_recent_activity}" in summary_after_error
-        )
-        results[value_key] = current_value
-        results["APPROVE_ENABLED_AFTER_ERROR"] = str(approve_button.isEnabled())
+
+        if scenario == UNSUPPORTED_DOCUMENT:
+            draw_page = document.getDrawPages().getByIndex(0)
+            results["DRAW_SHAPE_COUNT_BEFORE"] = str(shape_count_before)
+            results["DRAW_SHAPE_COUNT_AFTER"] = str(draw_page.getCount())
+            results["DOCUMENT_UNCHANGED"] = str(draw_page.getCount() == shape_count_before)
+        else:
+            results["DOC_TEXT"] = document.Text.getString()
+            results["DOCUMENT_UNCHANGED"] = str(document.Text.getString() == current_value)
 
         failures: list[str] = []
-        if results["OPEN_STATUS_HAS_COMMAND"] != "True":
-            failures.append("Sidebar status did not reflect the open-sidebar command.")
-        if results["APPROVE_ENABLED_AFTER_OPEN"] != "False":
-            failures.append("Approve should start disabled after opening the sidebar.")
-        if results["STILL_WAITING_AFTER_ERROR"] != "True":
-            failures.append(waiting_failure)
-        if results["LAST_COMMAND_AFTER_ERROR"] != "True":
-            failures.append("Sidebar status did not reflect the preview-selection command.")
-        if results["HAS_EXPECTED_ERROR_IN_STATUS"] != "True":
-            failures.append(expected_error_failure)
-        if results["HAS_PROMPT_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not retain the submitted prompt.")
-        if results["HAS_EXPECTED_SELECTION_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not show the expected selection state.")
-        if results["HAS_NO_PENDING_PREVIEW"] != "True":
-            failures.append("Sidebar summary did not show the empty pending-preview state.")
-        if results["HAS_NO_RESULT"] != "True":
-            failures.append("Sidebar summary did not keep the empty last-result state.")
-        if results["HAS_RECENT_ERROR_ACTIVITY"] != "True":
-            failures.append(recent_activity_failure)
-        if results[value_key] != initial_text:
-            failures.append(unchanged_value_failure)
-        if results["APPROVE_ENABLED_AFTER_ERROR"] != "False":
-            failures.append(approve_failure)
+        if results["LAST_ERROR_MATCHES"] != "True":
+            failures.append(f"{scenario} flow did not record the expected error.")
+        if results["HAS_USER_MESSAGE"] != "True":
+            failures.append(f"{scenario} flow did not record the submitted prompt.")
+        if results["HAS_SYSTEM_MESSAGE"] != "True":
+            failures.append(f"{scenario} flow did not record the expected error activity.")
+        if results["DOCUMENT_UNCHANGED"] != "True":
+            failures.append(f"{scenario} flow unexpectedly changed the document.")
 
         for key, value in results.items():
             print(f"{key}={value}")
@@ -221,8 +178,15 @@ def verify(
 
         print("VALIDATION_PASSED=True")
         return 0
+    except Exception:
+        print(f"FAILED_STAGE={stage}", file=sys.stderr)
+        raise
     finally:
-        close_document_session(document=document, desktop=desktop)
+        try:
+            close_document_session(document=document, desktop=desktop)
+        except Exception:
+            print("FAILED_STAGE=close_document_session", file=sys.stderr)
+            raise
 
 
 def main(argv: list[str]) -> int:

@@ -4,57 +4,78 @@ import os
 import sys
 
 from verification_probe_common import (
+    coerce_sidebar_messages,
     close_document_session,
     connect,
-    control_is_enabled,
-    get_sidebar_panel_window,
+    find_sidebar_session,
     load_document,
+    load_sidebar_state,
     make_property,
     make_url,
-    model_text,
-    set_model_text,
+    wait_for_uno_result,
 )
 
 _CAPTURED_ANSWER_FILENAME = ".captured_last_result.txt"
 
 
-def extract_section(summary_text: str, header: str, next_header: str | None = None) -> str:
-    header_marker = f"{header}:\n"
-    start_index = summary_text.find(header_marker)
-    if start_index < 0:
+def _load_saved_settings(provider: str, model: str) -> tuple[dict[str, object], dict[str, object]] | None:
+    state_data = load_sidebar_state()
+    settings = state_data.get("settings")
+    if not isinstance(settings, dict):
+        return None
+
+    if settings.get("provider") != provider or settings.get("model") != model:
+        return None
+
+    return state_data, settings
+
+
+def _load_saved_session(
+    provider: str,
+    model: str,
+    prompt: str,
+) -> tuple[dict[str, object], dict[str, object], dict[str, object]] | None:
+    settings_match = _load_saved_settings(provider, model)
+    if settings_match is None:
+        return None
+
+    state_data, settings = settings_match
+    session_match = find_sidebar_session(last_prompt=prompt, require_result=True)
+    if session_match is None:
+        return None
+
+    _session_state_data, session_payload = session_match
+    return state_data, settings, session_payload
+
+
+def _answer_matches(actual_result: str, expected_answer: str) -> bool:
+    if expected_answer == "*":
+        return bool(actual_result.strip())
+
+    return actual_result == expected_answer
+
+
+def _capture_last_result(answer: str) -> None:
+    state_root = os.environ.get("LOAIA_EXTENSION_STATE_ROOT", "")
+    if not state_root:
+        return
+
+    cap_path = os.path.join(state_root, _CAPTURED_ANSWER_FILENAME)
+    with open(cap_path, "w", encoding="utf-8") as handle:
+        handle.write(answer)
+
+
+def _load_captured_last_result() -> str:
+    state_root = os.environ.get("LOAIA_EXTENSION_STATE_ROOT", "")
+    if not state_root:
         return ""
 
-    content_start = start_index + len(header_marker)
-    if next_header is None:
-        return summary_text[content_start:].strip()
+    cap_path = os.path.join(state_root, _CAPTURED_ANSWER_FILENAME)
+    if not os.path.isfile(cap_path):
+        return ""
 
-    next_marker = f"\n\n{next_header}:\n"
-    end_index = summary_text.find(next_marker, content_start)
-    if end_index < 0:
-        return summary_text[content_start:].strip()
-
-    return summary_text[content_start:end_index].strip()
-
-
-def _check_last_result(summary_text: str, expected_answer: str) -> tuple[bool, str]:
-    """Check whether the expected answer is in the summary's Last result section.
-
-    When expected_answer is "*", any non-empty result passes and the actual text
-    is returned so it can be forwarded to the restore phase.
-    """
-    actual_result = extract_section(summary_text, "Last result", "Recent activity")
-    if expected_answer == "*":
-        no_result = actual_result in ("", "No completed result yet.")
-        return (not no_result, actual_result)
-    return (f"Last result:\n{expected_answer}" in summary_text, expected_answer)
-
-
-def _check_recent_activity(summary_text: str, expected_answer: str) -> bool:
-    """Check whether the expected answer appears in the Recent activity section."""
-    recent_activity = extract_section(summary_text, "Recent activity")
-    if expected_answer == "*":
-        return recent_activity != ""
-    return expected_answer in recent_activity
+    with open(cap_path, encoding="utf-8") as handle:
+        return handle.read().strip()
 
 
 def _save_session(
@@ -97,14 +118,6 @@ def _save_session(
 
         print("PHASE=save:open-sidebar", flush=True)
         open_dispatch.dispatch(open_sidebar_url, ())
-        panel_window = get_sidebar_panel_window(context, frame)
-        provider_input = panel_window.getControl("ProviderInput")
-        model_input = panel_window.getControl("ModelInput")
-        settings_status_control = panel_window.getControl("SettingsStatus")
-        approve_button = panel_window.getControl("ApproveButton")
-
-        set_model_text(provider_input, provider)
-        set_model_text(model_input, model)
         print("PHASE=save:save-settings", flush=True)
         save_dispatch.dispatch(
             save_settings_url,
@@ -114,25 +127,16 @@ def _save_session(
             ),
         )
 
-        status_after_save = model_text(panel_window.getControl("Status"))
-        settings_after_save = model_text(settings_status_control)
-        results["PROVIDER_INPUT_AFTER_SAVE"] = model_text(provider_input)
-        results["MODEL_INPUT_AFTER_SAVE"] = model_text(model_input)
-        results["STATUS_HAS_EXPECTED_PROVIDER"] = str(f"Provider: {provider}" in status_after_save)
-        results["STATUS_HAS_EXPECTED_MODEL"] = str(f"Model: {model}" in status_after_save)
-        results["STATUS_HAS_API_KEY"] = str(
-            f"API key: {expected_api_key_status}" in status_after_save
+        _state_data, settings = wait_for_uno_result(
+            lambda: _load_saved_settings(provider, model),
+            "saved persistence settings",
         )
-        results["SETTINGS_STATUS_HAS_PROVIDER"] = str(
-            f"Provider profile: {provider}" in settings_after_save
+        results["SETTINGS_PROVIDER"] = str(settings.get("provider") or "")
+        results["SETTINGS_MODEL"] = str(settings.get("model") or "")
+        results["SETTINGS_SAVED"] = str(
+            settings.get("provider") == provider and settings.get("model") == model
         )
-        results["SETTINGS_STATUS_HAS_MODEL"] = str(f"Model profile: {model}" in settings_after_save)
-        results["SETTINGS_STATUS_HAS_API_KEY"] = str(
-            f"API key status: {expected_api_key_status}" in settings_after_save
-        )
-        results["SETTINGS_STATUS_HAS_SAVE_NOTICE"] = str(
-            "Saved Writer-first provider settings." in settings_after_save
-        )
+        results["EXPECTED_API_KEY_STATUS_CHECK_SKIPPED"] = expected_api_key_status
 
         text = document.Text
         cursor = text.createTextCursor()
@@ -147,72 +151,55 @@ def _save_session(
             (make_property("Prompt", prompt),),
         )
 
-        status_after_answer = model_text(panel_window.getControl("Status"))
-        summary_after_answer = model_text(panel_window.getControl("Summary"))
-        results["ANSWER_STATUS_HAS_PROVIDER"] = str(f"Provider: {provider}" in status_after_answer)
-        results["ANSWER_STATUS_HAS_MODEL"] = str(f"Model: {model}" in status_after_answer)
-        results["ANSWER_STATUS_HAS_API_KEY"] = str(
-            f"API key: {expected_api_key_status}" in status_after_answer
+        _state_data, _settings, session_payload = wait_for_uno_result(
+            lambda: _load_saved_session(provider, model, prompt),
+            "saved persistence session",
         )
-        results["HAS_PROMPT_IN_SUMMARY"] = str(f"Prompt:\n{prompt}" in summary_after_answer)
-        has_result, captured_answer = _check_last_result(summary_after_answer, expected_answer)
-        results["HAS_LAST_RESULT_IN_SUMMARY"] = str(has_result)
-        results["HAS_RECENT_ACTIVITY_IN_SUMMARY"] = str(
-            _check_recent_activity(summary_after_answer, expected_answer)
+        actual_result = str(session_payload.get("lastResult") or "")
+        messages = coerce_sidebar_messages(session_payload)
+        user_message = next((message for message in reversed(messages) if message["role"] == "user"), None)
+        assistant_message = next(
+            (message for message in reversed(messages) if message["role"] == "assistant"),
+            None,
         )
-        if captured_answer and expected_answer == "*":
-            # Persist captured answer for the restore phase to verify.
-            state_root = os.environ.get("LOAIA_EXTENSION_STATE_ROOT", "")
-            if state_root:
-                cap_path = os.path.join(state_root, _CAPTURED_ANSWER_FILENAME)
-                with open(cap_path, "w", encoding="utf-8") as f:
-                    f.write(captured_answer)
-            print(f"CAPTURED_LAST_RESULT={captured_answer}", flush=True)
-        results["HAS_NO_PENDING_PREVIEW"] = str(
-            "Pending preview:\nNo pending proposal." in summary_after_answer
+        results["LAST_PROMPT_MATCHES"] = str(session_payload.get("lastPrompt") == prompt)
+        results["LAST_RESULT_MATCHES"] = str(_answer_matches(actual_result, expected_answer))
+        results["HAS_USER_MESSAGE"] = str(
+            user_message is not None and user_message.get("text") == prompt
         )
-        results["APPROVE_DISABLED_AFTER_DIRECT_ANSWER"] = str(
-            not control_is_enabled(approve_button)
+        results["HAS_ASSISTANT_MESSAGE"] = str(
+            assistant_message is not None
+            and _answer_matches(str(assistant_message.get("text") or ""), expected_answer)
         )
+        results["HAS_EXPECTED_PROVIDER"] = str(
+            assistant_message is not None and assistant_message.get("provider") == provider
+        )
+        results["HAS_EXPECTED_MODEL"] = str(
+            assistant_message is not None and assistant_message.get("model") == model
+        )
+        results["LAST_ERROR_EMPTY"] = str(not session_payload.get("lastError"))
+        if expected_answer == "*" and actual_result:
+            _capture_last_result(actual_result)
+            print(f"CAPTURED_LAST_RESULT={actual_result}", flush=True)
         results["DOC_TEXT"] = document.Text.getString()
 
         failures: list[str] = []
-        if results["PROVIDER_INPUT_AFTER_SAVE"] != provider:
-            failures.append("Provider input did not keep the saved provider value.")
-        if results["MODEL_INPUT_AFTER_SAVE"] != model:
-            failures.append("Model input did not keep the saved model value.")
-        if results["STATUS_HAS_EXPECTED_PROVIDER"] != "True":
-            failures.append("Sidebar status did not show the saved provider after save-settings.")
-        if results["STATUS_HAS_EXPECTED_MODEL"] != "True":
-            failures.append("Sidebar status did not show the saved model after save-settings.")
-        if results["STATUS_HAS_API_KEY"] != "True":
-            failures.append("Sidebar status did not show the expected API-key status.")
-        if results["SETTINGS_STATUS_HAS_PROVIDER"] != "True":
-            failures.append("Settings section did not show the saved provider.")
-        if results["SETTINGS_STATUS_HAS_MODEL"] != "True":
-            failures.append("Settings section did not show the saved model.")
-        if results["SETTINGS_STATUS_HAS_API_KEY"] != "True":
-            failures.append("Settings section did not show the expected API-key status.")
-        if results["SETTINGS_STATUS_HAS_SAVE_NOTICE"] != "True":
-            failures.append("Settings section did not show the save confirmation notice.")
-        if results["ANSWER_STATUS_HAS_PROVIDER"] != "True":
-            failures.append("Direct-answer status did not retain the saved provider.")
-        if results["ANSWER_STATUS_HAS_MODEL"] != "True":
-            failures.append("Direct-answer status did not retain the saved model.")
-        if results["ANSWER_STATUS_HAS_API_KEY"] != "True":
-            failures.append("Direct-answer status did not retain the expected API-key status.")
-        if results["HAS_PROMPT_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not retain the prompt before restart.")
-        if results["HAS_LAST_RESULT_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not retain the direct answer before restart.")
-        if results["HAS_RECENT_ACTIVITY_IN_SUMMARY"] != "True":
-            failures.append(
-                "Sidebar recent activity did not retain the direct answer before restart."
-            )
-        if results["HAS_NO_PENDING_PREVIEW"] != "True":
-            failures.append("Sidebar summary did not show the empty pending-preview state.")
-        if results["APPROVE_DISABLED_AFTER_DIRECT_ANSWER"] != "True":
-            failures.append("Approve should stay disabled after a direct answer.")
+        if results["SETTINGS_SAVED"] != "True":
+            failures.append("Persistence setup did not save the requested provider/model.")
+        if results["LAST_PROMPT_MATCHES"] != "True":
+            failures.append("Persistence setup did not retain the submitted prompt.")
+        if results["LAST_RESULT_MATCHES"] != "True":
+            failures.append("Persistence setup did not retain the direct answer.")
+        if results["HAS_USER_MESSAGE"] != "True":
+            failures.append("Persistence setup did not retain the user message.")
+        if results["HAS_ASSISTANT_MESSAGE"] != "True":
+            failures.append("Persistence setup did not retain the assistant message.")
+        if results["HAS_EXPECTED_PROVIDER"] != "True":
+            failures.append("Persistence setup did not record the expected provider metadata.")
+        if results["HAS_EXPECTED_MODEL"] != "True":
+            failures.append("Persistence setup did not record the expected model metadata.")
+        if results["LAST_ERROR_EMPTY"] != "True":
+            failures.append("Persistence setup unexpectedly recorded an error.")
         if results["DOC_TEXT"] != initial_selection:
             failures.append("Direct-answer persistence setup unexpectedly changed the document.")
 
@@ -241,12 +228,9 @@ def _restore_session(
 ) -> int:
     # When using wildcard matching, read the captured answer from the save phase.
     if expected_answer == "*":
-        state_root = os.environ.get("LOAIA_EXTENSION_STATE_ROOT", "")
-        if state_root:
-            cap_path = os.path.join(state_root, _CAPTURED_ANSWER_FILENAME)
-            if os.path.isfile(cap_path):
-                with open(cap_path, encoding="utf-8") as f:
-                    expected_answer = f.read().strip()
+        captured_answer = _load_captured_last_result()
+        if captured_answer:
+            expected_answer = captured_answer
 
     desktop = None
     document = None
@@ -271,78 +255,60 @@ def _restore_session(
 
         print("PHASE=restore:open-sidebar", flush=True)
         open_dispatch.dispatch(open_sidebar_url, ())
-        panel_window = get_sidebar_panel_window(context, frame)
-        status_after_open = model_text(panel_window.getControl("Status"))
-        settings_after_open = model_text(panel_window.getControl("SettingsStatus"))
-        summary_after_open = model_text(panel_window.getControl("Summary"))
-        approve_button = panel_window.getControl("ApproveButton")
-        provider_input = panel_window.getControl("ProviderInput")
-        model_input = panel_window.getControl("ModelInput")
-
-        results["STATUS_HAS_OPEN_COMMAND"] = str("Last command: open-sidebar" in status_after_open)
-        results["STATUS_HAS_EXPECTED_PROVIDER"] = str(f"Provider: {provider}" in status_after_open)
-        results["STATUS_HAS_EXPECTED_MODEL"] = str(f"Model: {model}" in status_after_open)
-        results["STATUS_HAS_API_KEY"] = str(
-            f"API key: {expected_api_key_status}" in status_after_open
+        _state_data, settings, session_payload = wait_for_uno_result(
+            lambda: _load_saved_session(provider, model, prompt),
+            "restored persistence session",
         )
-        results["PROVIDER_INPUT_RESTORED"] = model_text(provider_input)
-        results["MODEL_INPUT_RESTORED"] = model_text(model_input)
-        results["SETTINGS_STATUS_HAS_PROVIDER"] = str(
-            f"Provider profile: {provider}" in settings_after_open
+        actual_result = str(session_payload.get("lastResult") or "")
+        messages = coerce_sidebar_messages(session_payload)
+        user_message = next((message for message in reversed(messages) if message["role"] == "user"), None)
+        assistant_message = next(
+            (message for message in reversed(messages) if message["role"] == "assistant"),
+            None,
         )
-        results["SETTINGS_STATUS_HAS_MODEL"] = str(f"Model profile: {model}" in settings_after_open)
-        results["SETTINGS_STATUS_HAS_API_KEY"] = str(
-            f"API key status: {expected_api_key_status}" in settings_after_open
+        results["SETTINGS_PROVIDER"] = str(settings.get("provider") or "")
+        results["SETTINGS_MODEL"] = str(settings.get("model") or "")
+        results["SETTINGS_RESTORED"] = str(
+            settings.get("provider") == provider and settings.get("model") == model
         )
-        results["HAS_PROMPT_IN_SUMMARY"] = str(f"Prompt:\n{prompt}" in summary_after_open)
-        has_result, _ = _check_last_result(summary_after_open, expected_answer)
-        results["HAS_LAST_RESULT_IN_SUMMARY"] = str(has_result)
-        results["HAS_RECENT_ACTIVITY_IN_SUMMARY"] = str(
-            _check_recent_activity(summary_after_open, expected_answer)
+        results["EXPECTED_API_KEY_STATUS_CHECK_SKIPPED"] = expected_api_key_status
+        results["LAST_PROMPT_MATCHES"] = str(session_payload.get("lastPrompt") == prompt)
+        results["LAST_RESULT_MATCHES"] = str(_answer_matches(actual_result, expected_answer))
+        results["HAS_USER_MESSAGE"] = str(
+            user_message is not None and user_message.get("text") == prompt
         )
-        results["HAS_EMPTY_SELECTION_IN_SUMMARY"] = str(
-            "Selection:\nNo captured selection yet." in summary_after_open
+        results["HAS_ASSISTANT_MESSAGE"] = str(
+            assistant_message is not None
+            and _answer_matches(str(assistant_message.get("text") or ""), expected_answer)
         )
-        results["HAS_NO_PENDING_PREVIEW"] = str(
-            "Pending preview:\nNo pending proposal." in summary_after_open
+        results["HAS_EXPECTED_PROVIDER"] = str(
+            assistant_message is not None and assistant_message.get("provider") == provider
         )
-        results["APPROVE_DISABLED_AFTER_RESTORE"] = str(not control_is_enabled(approve_button))
+        results["HAS_EXPECTED_MODEL"] = str(
+            assistant_message is not None and assistant_message.get("model") == model
+        )
+        results["LAST_ERROR_EMPTY"] = str(not session_payload.get("lastError"))
+        results["DOC_TEXT"] = document.Text.getString()
 
         failures: list[str] = []
-        if results["STATUS_HAS_OPEN_COMMAND"] != "True":
-            failures.append("Sidebar status did not reflect the fresh open-sidebar command.")
-        if results["STATUS_HAS_EXPECTED_PROVIDER"] != "True":
-            failures.append("Sidebar status did not restore the saved provider.")
-        if results["STATUS_HAS_EXPECTED_MODEL"] != "True":
-            failures.append("Sidebar status did not restore the saved model.")
-        if results["STATUS_HAS_API_KEY"] != "True":
-            failures.append("Sidebar status did not restore the expected API-key status.")
-        if results["PROVIDER_INPUT_RESTORED"] != provider:
-            failures.append("Provider input did not restore the saved value after restart.")
-        if results["MODEL_INPUT_RESTORED"] != model:
-            failures.append("Model input did not restore the saved value after restart.")
-        if results["SETTINGS_STATUS_HAS_PROVIDER"] != "True":
-            failures.append("Settings section did not restore the saved provider.")
-        if results["SETTINGS_STATUS_HAS_MODEL"] != "True":
-            failures.append("Settings section did not restore the saved model.")
-        if results["SETTINGS_STATUS_HAS_API_KEY"] != "True":
-            failures.append("Settings section did not restore the expected API-key status.")
-        if results["HAS_PROMPT_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not restore the saved prompt after restart.")
-        if results["HAS_LAST_RESULT_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not restore the saved result after restart.")
-        if results["HAS_RECENT_ACTIVITY_IN_SUMMARY"] != "True":
-            failures.append(
-                "Sidebar recent activity did not restore the saved result after restart."
-            )
-        if results["HAS_EMPTY_SELECTION_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not reset selection preview on restore.")
-        if results["HAS_NO_PENDING_PREVIEW"] != "True":
-            failures.append(
-                "Sidebar summary did not keep the empty pending-preview state after restart."
-            )
-        if results["APPROVE_DISABLED_AFTER_RESTORE"] != "True":
-            failures.append("Approve should be disabled after restoring a direct-answer session.")
+        if results["SETTINGS_RESTORED"] != "True":
+            failures.append("Persistence restore did not keep the saved provider/model.")
+        if results["LAST_PROMPT_MATCHES"] != "True":
+            failures.append("Persistence restore did not keep the saved prompt.")
+        if results["LAST_RESULT_MATCHES"] != "True":
+            failures.append("Persistence restore did not keep the saved result.")
+        if results["HAS_USER_MESSAGE"] != "True":
+            failures.append("Persistence restore did not keep the saved user message.")
+        if results["HAS_ASSISTANT_MESSAGE"] != "True":
+            failures.append("Persistence restore did not keep the saved assistant message.")
+        if results["HAS_EXPECTED_PROVIDER"] != "True":
+            failures.append("Persistence restore did not keep the provider metadata.")
+        if results["HAS_EXPECTED_MODEL"] != "True":
+            failures.append("Persistence restore did not keep the model metadata.")
+        if results["LAST_ERROR_EMPTY"] != "True":
+            failures.append("Persistence restore unexpectedly recorded an error.")
+        if results["DOC_TEXT"] != "":
+            failures.append("Persistence restore should not preload content into a new Writer document.")
 
         for key, value in results.items():
             print(f"{key}={value}")

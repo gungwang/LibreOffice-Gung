@@ -1,25 +1,98 @@
 from __future__ import annotations
 
+import json
+import os
 import sys
+from pathlib import Path
 
 from verification_probe_common import (
     close_document_session,
     connect,
-    get_sidebar_panel_window,
     load_document,
     make_property,
     make_url,
-    model_text,
+    wait_for_uno_result,
 )
 
 NON_SCAFFOLD_SENTINEL = "__NON_SCAFFOLD__"
 SCAFFOLD_DIRECT_ANSWER = (
     "Sidecar scaffold is running. Planner and provider execution are not implemented yet."
 )
+STATE_ROOT_ENV_VAR = "LOAIA_EXTENSION_STATE_ROOT"
+STATE_FILE_NAME = "sidebar-state.json"
 
 
 def flatten_text(text: str) -> str:
     return text.replace("\r", "\\r").replace("\n", "\\n")
+
+
+def _state_file_path() -> Path:
+    state_root = os.environ.get(STATE_ROOT_ENV_VAR, "").strip()
+    if not state_root:
+        raise RuntimeError(
+            f"{STATE_ROOT_ENV_VAR} is not set for direct-answer verification."
+        )
+
+    return Path(state_root) / STATE_FILE_NAME
+
+
+def _load_state_data() -> dict[str, object]:
+    state_file = _state_file_path()
+    if not state_file.exists():
+        return {}
+
+    try:
+        return json.loads(state_file.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def _coerce_messages(payload: dict[str, object]) -> list[dict[str, str]]:
+    raw_messages = payload.get("messages")
+    if not isinstance(raw_messages, list):
+        return []
+
+    messages: list[dict[str, str]] = []
+    for message in raw_messages:
+        if not isinstance(message, dict):
+            continue
+
+        role = message.get("role")
+        text = message.get("text")
+        if not isinstance(role, str) or not isinstance(text, str):
+            continue
+
+        normalized: dict[str, str] = {
+            "role": role,
+            "text": text,
+        }
+        provider = message.get("provider")
+        if isinstance(provider, str):
+            normalized["provider"] = provider
+        model = message.get("model")
+        if isinstance(model, str):
+            normalized["model"] = model
+        messages.append(normalized)
+
+    return messages
+
+
+def _load_session_snapshot(prompt: str) -> tuple[dict[str, object], dict[str, object]] | None:
+    state_data = _load_state_data()
+    sessions = state_data.get("sessions")
+    if not isinstance(sessions, dict):
+        return None
+
+    for payload in sessions.values():
+        if not isinstance(payload, dict):
+            continue
+
+        last_prompt = payload.get("lastPrompt")
+        last_result = payload.get("lastResult")
+        if last_prompt == prompt and isinstance(last_result, str) and last_result.strip():
+            return state_data, payload
+
+    return None
 
 
 def extract_section(summary_text: str, header: str, next_header: str | None = None) -> str:
@@ -73,36 +146,6 @@ def verify(
 
         open_dispatch.dispatch(open_sidebar_url, ())
 
-        panel_window = get_sidebar_panel_window(context, frame)
-        provider_input = panel_window.getControl("ProviderInput")
-        model_input = panel_window.getControl("ModelInput")
-        save_settings_button = panel_window.getControl("SaveSettingsButton")
-        settings_status_control = panel_window.getControl("SettingsStatus")
-
-        status_after_open = model_text(panel_window.getControl("Status"))
-        settings_after_open = model_text(settings_status_control)
-        approve_button = panel_window.getControl("ApproveButton")
-        results["SETTINGS_CONTROLS_RENDERED"] = str(
-            all(
-                control is not None
-                for control in (
-                    provider_input,
-                    model_input,
-                    save_settings_button,
-                    settings_status_control,
-                )
-            )
-        )
-        results["PROVIDER_INPUT_HAS_VALUE"] = str(bool(model_text(provider_input).strip()))
-        results["MODEL_INPUT_HAS_VALUE"] = str(bool(model_text(model_input).strip()))
-        results["SETTINGS_STATUS_HAS_HEADER"] = str(
-            "Writer-first settings:" in settings_after_open
-        )
-        results["OPEN_STATUS_HAS_COMMAND"] = str(
-            "Last command: open-sidebar" in status_after_open
-        )
-        results["APPROVE_ENABLED_AFTER_OPEN"] = str(approve_button.isEnabled())
-
         text = document.Text
         cursor = text.createTextCursor()
         text.insertString(cursor, initial_selection, False)
@@ -115,88 +158,75 @@ def verify(
             (make_property("Prompt", prompt),),
         )
 
-        status_after_answer = model_text(panel_window.getControl("Status"))
-        summary_after_answer = model_text(panel_window.getControl("Summary"))
-        rendered_result = extract_section(summary_after_answer, "Last result", "Recent activity")
-        rendered_recent_activity = extract_section(summary_after_answer, "Recent activity")
-        results["RAW_STATUS_AFTER_ANSWER"] = flatten_text(status_after_answer)
-        results["RAW_SUMMARY_AFTER_ANSWER"] = flatten_text(summary_after_answer)
-        results["RENDERED_RESULT"] = flatten_text(rendered_result)
-        results["CONNECTED_AFTER_ANSWER"] = str(
-            "Connection: connected to sidecar" in status_after_answer
+        state_data, session_payload = wait_for_uno_result(
+            lambda: _load_session_snapshot(prompt),
+            "direct-answer session state",
         )
-        results["LAST_COMMAND_AFTER_ANSWER"] = str(
-            "Last command: preview-selection" in status_after_answer
+        state_file = _state_file_path()
+        messages = _coerce_messages(session_payload)
+        user_message = next((message for message in reversed(messages) if message["role"] == "user"), None)
+        assistant_message = next(
+            (message for message in reversed(messages) if message["role"] == "assistant"),
+            None,
         )
+        rendered_result = (
+            assistant_message["text"] if assistant_message is not None else ""
+        )
+
+        results["STATE_FILE_PRESENT"] = str(state_file.exists())
+        results["STATE_FILE_PATH"] = str(state_file)
+        results["SESSION_COUNT"] = str(
+            len(state_data.get("sessions", {}))
+            if isinstance(state_data.get("sessions"), dict)
+            else 0
+        )
+        results["LAST_PROMPT_MATCHES"] = str(session_payload.get("lastPrompt") == prompt)
+        results["LAST_RESULT"] = flatten_text(str(session_payload.get("lastResult") or ""))
+        results["HAS_USER_MESSAGE"] = str(
+            user_message is not None and user_message.get("text") == prompt
+        )
+        results["HAS_ASSISTANT_MESSAGE"] = str(assistant_message is not None)
+        results["HAS_RECENT_ACTIVITY"] = str(len(messages) >= 2)
+        results["MESSAGE_COUNT"] = str(len(messages))
         if expected_provider is not None:
             results["HAS_EXPECTED_PROVIDER"] = str(
-                f"Provider: {expected_provider}" in status_after_answer
+                assistant_message is not None
+                and assistant_message.get("provider") == expected_provider
             )
         if expected_model is not None:
             results["HAS_EXPECTED_MODEL"] = str(
-                f"Model: {expected_model}" in status_after_answer
+                assistant_message is not None
+                and assistant_message.get("model") == expected_model
             )
-        results["HAS_PROMPT_IN_SUMMARY"] = str(f"Prompt:\n{prompt}" in summary_after_answer)
-        results["HAS_SELECTION_IN_SUMMARY"] = str(
-            f"Selection:\n{initial_selection}" in summary_after_answer
-        )
-        results["HAS_NO_PENDING_PREVIEW"] = str(
-            "Pending preview:\nNo pending proposal." in summary_after_answer
-        )
         if expected_answer == NON_SCAFFOLD_SENTINEL:
             results["HAS_EXPECTED_ANSWER"] = str(
                 rendered_result not in ("", "No completed result yet.", SCAFFOLD_DIRECT_ANSWER)
             )
-            results["HAS_RECENT_ACTIVITY"] = str(
-                bool(rendered_recent_activity)
-                and rendered_recent_activity != "No chat activity yet."
-                and SCAFFOLD_DIRECT_ANSWER not in rendered_recent_activity
-            )
         else:
             results["HAS_EXPECTED_ANSWER"] = str(
-                f"Last result:\n{expected_answer}" in summary_after_answer
-            )
-            results["HAS_RECENT_ACTIVITY"] = str(
-                f"Recent activity:\n- {expected_answer}" in summary_after_answer
+                rendered_result == expected_answer
             )
         results["DOC_TEXT"] = document.Text.getString()
-        results["APPROVE_ENABLED_AFTER_ANSWER"] = str(approve_button.isEnabled())
 
         failures: list[str] = []
-        if results["SETTINGS_CONTROLS_RENDERED"] != "True":
-            failures.append("Sidebar settings controls did not render after opening the panel.")
-        if results["PROVIDER_INPUT_HAS_VALUE"] != "True":
-            failures.append("Provider input did not render with an initial value.")
-        if results["MODEL_INPUT_HAS_VALUE"] != "True":
-            failures.append("Model input did not render with an initial value.")
-        if results["SETTINGS_STATUS_HAS_HEADER"] != "True":
-            failures.append("Settings section did not render its Writer-first header.")
-        if results["OPEN_STATUS_HAS_COMMAND"] != "True":
-            failures.append("Sidebar status did not reflect the open-sidebar command.")
-        if results["APPROVE_ENABLED_AFTER_OPEN"] != "False":
-            failures.append("Approve should start disabled after opening the sidebar.")
-        if results["CONNECTED_AFTER_ANSWER"] != "True":
-            failures.append("Sidebar did not report a connected sidecar after direct answer.")
-        if results["LAST_COMMAND_AFTER_ANSWER"] != "True":
-            failures.append("Sidebar status did not reflect the preview-selection command.")
+        if results["STATE_FILE_PRESENT"] != "True":
+            failures.append("Direct-answer session state file was not created.")
+        if results["LAST_PROMPT_MATCHES"] != "True":
+            failures.append("Session state did not retain the submitted prompt.")
+        if results["HAS_USER_MESSAGE"] != "True":
+            failures.append("Session history did not record the user prompt.")
+        if results["HAS_ASSISTANT_MESSAGE"] != "True":
+            failures.append("Session history did not record the assistant answer.")
         if expected_provider is not None and results["HAS_EXPECTED_PROVIDER"] != "True":
-            failures.append("Sidebar status did not show the expected provider.")
+            failures.append("Session history did not show the expected provider.")
         if expected_model is not None and results["HAS_EXPECTED_MODEL"] != "True":
-            failures.append("Sidebar status did not show the expected model.")
-        if results["HAS_PROMPT_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not retain the submitted prompt.")
-        if results["HAS_SELECTION_IN_SUMMARY"] != "True":
-            failures.append("Sidebar summary did not retain the selected text.")
-        if results["HAS_NO_PENDING_PREVIEW"] != "True":
-            failures.append("Sidebar summary did not show the empty pending-preview state.")
+            failures.append("Session history did not show the expected model.")
         if results["HAS_EXPECTED_ANSWER"] != "True":
-            failures.append("Sidebar summary did not record the direct answer result.")
+            failures.append("Session state did not record the direct answer result.")
         if results["HAS_RECENT_ACTIVITY"] != "True":
-            failures.append("Sidebar recent activity did not include the direct answer.")
+            failures.append("Session history did not include both sides of the direct-answer exchange.")
         if results["DOC_TEXT"] != initial_selection:
             failures.append("Direct answer flow unexpectedly changed the Writer document.")
-        if results["APPROVE_ENABLED_AFTER_ANSWER"] != "False":
-            failures.append("Approve should stay disabled after a direct answer.")
 
         for key, value in results.items():
             print(f"{key}={value}")

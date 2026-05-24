@@ -57,5 +57,22 @@ $probeArguments = @{
 	ResetUserProfileDir = -not $UserProfileDir
 }
 
-$probeExitCode = Invoke-LoaiaVerificationProbe @probeArguments
+$previousStateRoot = Get-Item -Path Env:LOAIA_EXTENSION_STATE_ROOT -ErrorAction SilentlyContinue
+$resolvedStateRootDir = if ($null -ne $previousStateRoot -and $previousStateRoot.Value) {
+	[System.IO.Path]::GetFullPath($previousStateRoot.Value)
+} else {
+	[System.IO.Path]::GetFullPath((Join-Path $resolvedUserProfileDir "loaia-extension-state"))
+}
+
+try {
+	$env:LOAIA_EXTENSION_STATE_ROOT = $resolvedStateRootDir
+	$probeExitCode = Invoke-LoaiaVerificationProbe @probeArguments
+} finally {
+	if ($null -ne $previousStateRoot) {
+		$env:LOAIA_EXTENSION_STATE_ROOT = $previousStateRoot.Value
+	} else {
+		Remove-Item -Path Env:LOAIA_EXTENSION_STATE_ROOT -ErrorAction SilentlyContinue
+	}
+}
+
 exit $probeExitCode
