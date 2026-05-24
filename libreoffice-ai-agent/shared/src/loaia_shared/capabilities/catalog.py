@@ -423,7 +423,7 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "requires_approval": True,
         "summary": "Create a chart from the current Calc selection",
         "precondition_probes": ("selection.non_empty",),
-        "postcondition_probes": ("summary.matches_argument.chartType",),
+        "postcondition_probes": ("calc.active_sheet_chart_count.delta.equals_argument.chartCountDelta",),
     },
     "Calc.SortSelectedRange": {
         "app": "calc",
@@ -431,7 +431,7 @@ NON_DISPATCH_CAPABILITIES: dict[str, dict[str, object]] = {
         "requires_approval": True,
         "summary": "Sort the current Calc selection",
         "precondition_probes": ("selection.non_empty",),
-        "postcondition_probes": ("summary.matches_argument.sortDirection",),
+        "postcondition_probes": ("calc.selection_first_column_order.equals_argument.sortDirection",),
     },
     "Impress.GetSelectedText": {
         "app": "impress",

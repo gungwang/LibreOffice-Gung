@@ -1,6 +1,39 @@
 from types import SimpleNamespace
 
-from loaia.observation import build_observation_results
+from loaia.observation import build_observation_results, capture_observation_state
+
+
+class FakeCalcCharts:
+    def __init__(self, count: int) -> None:
+        self._count = count
+
+    def getCount(self) -> int:
+        return self._count
+
+
+class FakeCalcSheet:
+    def __init__(self, chart_count: int) -> None:
+        self.Charts = FakeCalcCharts(chart_count)
+
+
+class FakeCalcSelection:
+    def __init__(self, rows: list[list[object]]) -> None:
+        self._rows = rows
+
+    def getDataArray(self) -> tuple[tuple[object, ...], ...]:
+        return tuple(tuple(row) for row in self._rows)
+
+
+class FakeCalcController:
+    def __init__(self, rows: list[list[object]], *, chart_count: int) -> None:
+        self._selection = FakeCalcSelection(rows)
+        self._sheet = FakeCalcSheet(chart_count)
+
+    def getSelection(self) -> FakeCalcSelection:
+        return self._selection
+
+    def getActiveSheet(self) -> FakeCalcSheet:
+        return self._sheet
 
 
 class FakeImpressShape:
@@ -57,10 +90,12 @@ class FakeImpressController:
 
 
 def test_build_observation_results_parses_calc_chart_summary_probe() -> None:
+    before_controller = FakeCalcController([[1, 2], [3, 4]], chart_count=0)
+    after_controller = FakeCalcController([[1, 2], [3, 4]], chart_count=1)
     proposal = SimpleNamespace(
         tool_id="Calc.CreateChartFromSelection",
         preview=None,
-        arguments={"chartType": "Pie"},
+        arguments={"chartType": "Pie", "chartCountDelta": 1},
     )
 
     preconditions, postconditions, outcome = build_observation_results(
@@ -68,16 +103,20 @@ def test_build_observation_results_parses_calc_chart_summary_probe() -> None:
         selection_before="A1:B10",
         selection_after="A1:B10",
         summary="Inserted chart (type hint: Pie) from selection.",
+        controller=after_controller,
+        state_before=capture_observation_state(proposal, before_controller),
+        state_after=capture_observation_state(proposal, after_controller),
     )
 
     assert preconditions[0].status == "passed"
-    assert postconditions[0].probe == "summary.matches_argument.chartType"
-    assert postconditions[0].actual == "Pie"
-    assert postconditions[0].expected == "Pie"
+    assert postconditions[0].probe == "calc.active_sheet_chart_count.delta.equals_argument.chartCountDelta"
+    assert postconditions[0].actual == 1
+    assert postconditions[0].expected == 1
     assert outcome == "satisfied"
 
 
 def test_build_observation_results_parses_calc_sort_summary_probe() -> None:
+    controller = FakeCalcController([[9], [5], [1]], chart_count=0)
     proposal = SimpleNamespace(
         tool_id="Calc.SortSelectedRange",
         preview=None,
@@ -89,9 +128,11 @@ def test_build_observation_results_parses_calc_sort_summary_probe() -> None:
         selection_before="A1:B10",
         selection_after="A1:B10",
         summary="Sorted selected range (descending).",
+        controller=controller,
+        state_after=capture_observation_state(proposal, controller),
     )
 
-    assert postconditions[0].probe == "summary.matches_argument.sortDirection"
+    assert postconditions[0].probe == "calc.selection_first_column_order.equals_argument.sortDirection"
     assert postconditions[0].actual == "descending"
     assert postconditions[0].expected == "descending"
     assert outcome == "satisfied"

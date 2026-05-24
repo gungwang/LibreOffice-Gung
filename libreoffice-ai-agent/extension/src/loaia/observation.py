@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 
+from loaia.context.calc import read_active_sheet_chart_count, read_selection_first_column_order
 from loaia.context.impress import read_current_slide_layout, read_last_slide_text
 from loaia_shared.capabilities.compiler import get_capability_descriptor
 from loaia_shared.schema.plans import ProbeResult
@@ -14,10 +15,19 @@ def build_observation_results(
     selection_after: str | None,
     summary: str = "",
     controller: object | None = None,
+    state_before: dict[str, object] | None = None,
+    state_after: dict[str, object] | None = None,
 ) -> tuple[list[ProbeResult], list[ProbeResult], str]:
     descriptor = get_capability_descriptor(_descriptor_tool_id(proposal))
     if descriptor is None:
         return [], [], "satisfied"
+
+    effective_state_before = state_before
+    effective_state_after = state_after
+    if controller is not None and effective_state_before is None:
+        effective_state_before = capture_observation_state(proposal, controller)
+    if controller is not None and effective_state_after is None:
+        effective_state_after = capture_observation_state(proposal, controller)
 
     preconditions = [
         _evaluate_probe(
@@ -27,6 +37,8 @@ def build_observation_results(
             selection_after,
             summary,
             controller,
+            effective_state_before,
+            effective_state_after,
             stage="pre",
         )
         for probe in descriptor.precondition_probes
@@ -39,6 +51,8 @@ def build_observation_results(
             selection_after,
             summary,
             controller,
+            effective_state_before,
+            effective_state_after,
             stage="post",
         )
         for probe in descriptor.postcondition_probes
@@ -49,6 +63,29 @@ def build_observation_results(
         selection_before=selection_before,
         selection_after=selection_after,
     )
+
+
+def capture_observation_state(
+    proposal: object,
+    controller: object | None,
+) -> dict[str, object]:
+    if controller is None:
+        return {}
+
+    state: dict[str, object] = {}
+    tool_id = _descriptor_tool_id(proposal)
+
+    if tool_id == "Calc.CreateChartFromSelection":
+        chart_count = read_active_sheet_chart_count(controller)
+        if chart_count is not None:
+            state["calc.active_sheet_chart_count"] = chart_count
+
+    if tool_id == "Calc.SortSelectedRange":
+        order = read_selection_first_column_order(controller)
+        if order is not None:
+            state["calc.selection_first_column_order"] = order
+
+    return state
 
 
 def expected_value_for_probe(proposal: object, probe: str) -> object | None:
@@ -77,6 +114,8 @@ def _evaluate_probe(
     selection_after: str | None,
     summary: str,
     controller: object | None,
+    state_before: dict[str, object] | None,
+    state_after: dict[str, object] | None,
     *,
     stage: str,
 ) -> ProbeResult:
@@ -86,6 +125,8 @@ def _evaluate_probe(
         selection_after=selection_after,
         summary=summary,
         controller=controller,
+        state_before=state_before,
+        state_after=state_after,
         stage=stage,
     )
     expected = expected_value_for_probe(proposal, probe)
@@ -100,6 +141,8 @@ def _actual_value_for_probe(
     selection_after: str | None,
     summary: str,
     controller: object | None,
+    state_before: dict[str, object] | None,
+    state_after: dict[str, object] | None,
     stage: str,
 ) -> object | None:
     if probe == "selection.non_empty":
@@ -109,6 +152,14 @@ def _actual_value_for_probe(
         return selection_after
     if probe.startswith("selection.equals_argument."):
         return selection_after
+    if probe == "calc.active_sheet_chart_count.delta.equals_argument.chartCountDelta":
+        before_count = _state_int_value(state_before, "calc.active_sheet_chart_count")
+        after_count = _state_int_value(state_after, "calc.active_sheet_chart_count")
+        if before_count is None or after_count is None:
+            return None
+        return after_count - before_count
+    if probe == "calc.selection_first_column_order.equals_argument.sortDirection":
+        return _state_string_value(state_after, "calc.selection_first_column_order")
     if probe == "impress.current_slide_layout.equals_argument.layout":
         if controller is None:
             return None
@@ -134,6 +185,20 @@ def _actual_value_for_probe(
         match = re.search(r"outline\s*\((\d+)\s+chars\)", summary, flags=re.IGNORECASE)
         return int(match.group(1)) if match is not None else None
     return None
+
+
+def _state_int_value(state: dict[str, object] | None, key: str) -> int | None:
+    if state is None:
+        return None
+    value = state.get(key)
+    return int(value) if isinstance(value, int) else None
+
+
+def _state_string_value(state: dict[str, object] | None, key: str) -> str | None:
+    if state is None:
+        return None
+    value = state.get(key)
+    return value if isinstance(value, str) else None
 
 
 def _derive_outcome(

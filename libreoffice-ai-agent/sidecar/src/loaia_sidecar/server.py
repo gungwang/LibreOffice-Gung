@@ -904,7 +904,7 @@ class LoaiaSidecarServer:
                 before="",
                 after=f"[{chart_type} chart]",
             ),
-            arguments={"chartType": chart_type},
+            arguments={"chartType": chart_type, "chartCountDelta": 1},
         )
 
     def _build_calc_sort_proposal(self, request: ChatRequest) -> ToolProposal | None:

@@ -477,7 +477,7 @@ def test_calc_sort_then_chart_plan_returns_chart_follow_up_after_observation() -
             ],
             "postconditions": [
                 {
-                    "probe": "summary.matches_argument.sortDirection",
+                    "probe": "calc.selection_first_column_order.equals_argument.sortDirection",
                     "status": "passed",
                     "actual": "descending",
                     "expected": "descending",

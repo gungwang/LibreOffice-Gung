@@ -42,7 +42,7 @@ from loaia.document_session import (
     resolve_history_session_key,
     resolve_profile_id,
 )
-from loaia.observation import build_observation_results
+from loaia.observation import build_observation_results, capture_observation_state
 from loaia.session_store import (
     JsonSidebarSessionStore,
     SqliteSidebarSessionStore,
@@ -850,6 +850,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             raise RuntimeError("Plan revision depth exceeded the current safety limit.")
 
         before_text = selection.text
+        state_before = capture_observation_state(proposal, selection.controller)
 
         try:
             model = get_model(get_controller(self.panel.frame))
@@ -864,12 +865,15 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                     result_message = self._execute_proposal(selection, proposal) or f"Applied {proposal.tool_id}"
         except (ValueError, RuntimeError):
             after_text = self._capture_observation_selection_text(selection, before_text)
+            state_after = capture_observation_state(proposal, selection.controller)
             preconditions, postconditions, _ = build_observation_results(
                 proposal,
                 selection_before=before_text,
                 selection_after=after_text,
                 summary="",
                 controller=selection.controller,
+                state_before=state_before,
+                state_after=state_after,
             )
             revision = self._report_observation(
                 transport_client,
@@ -891,12 +895,15 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             raise
 
         after_text = self._capture_observation_selection_text(selection, before_text)
+        state_after = capture_observation_state(proposal, selection.controller)
         preconditions, postconditions, outcome = build_observation_results(
             proposal,
             selection_before=before_text,
             selection_after=after_text,
             summary=result_message,
             controller=selection.controller,
+            state_before=state_before,
+            state_after=state_after,
         )
         revision = self._report_observation(
             transport_client,
