@@ -3,6 +3,16 @@
 Simplified Chinese version: [libreoffice-ai-agent-architecture.zh-CN.md](./libreoffice-ai-agent-architecture.zh-CN.md)
 Detailed MVP design specification: [libreoffice-ai-agent-mvp-design-spec.md](./libreoffice-ai-agent-mvp-design-spec.md)
 
+> Archived MVP reference.
+>
+> The active operator-mode documents are:
+>
+> - [LibreOffice AI Operation Layer Architecture](./libreoffice-ai-agent-operation-layer-architecture.md)
+> - [LibreOffice AI Operation Layer Design Specification](./libreoffice-ai-agent-operation-layer-design-spec.md)
+> - [LibreOffice AI Operation Layer Refactor Plan](./libreoffice-ai-agent-operation-layer-refactor-plan.md)
+>
+> Use the operator-mode documents for new planning and implementation work.
+
 ## Summary
 
 This document defines the target architecture for a Windows-only LibreOffice AI chat and agent system delivered first as an in-repo implementation subproject at `./libreoffice-ai-agent` and integrated into LibreOffice through an extension plus a local sidecar process.

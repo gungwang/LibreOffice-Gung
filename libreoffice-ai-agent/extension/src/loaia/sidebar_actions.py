@@ -21,7 +21,13 @@ except ImportError:  # pragma: no cover - exercised under LibreOffice runtime
 
     unohelper = _UnoHelperModule()
 
-from loaia.actions.executor import execute_safe_formatting, is_safe_formatting_action
+from loaia.actions.executor import (
+    can_execute_via_dispatch,
+    execute_dispatch_action,
+    execute_safe_formatting,
+    execute_uno_command,
+    is_safe_formatting_action,
+)
 from loaia.audit import AuditLogger
 from loaia.context.base import capture_base_context
 from loaia.context.calc import apply_calc_formula, capture_calc_selection
@@ -293,7 +299,9 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 with undo_context(model, f"AI: {proposal.tool_id}"):
                     if is_safe_formatting_action(proposal.tool_id):
                         result_message = execute_safe_formatting(
-                            self.panel.frame, proposal.tool_id
+                            self.panel.frame,
+                            proposal.tool_id,
+                            **_extract_proposal_arguments(proposal),
                         )
                     else:
                         self._execute_proposal(selection, proposal)
@@ -342,6 +350,21 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
     def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> None:
         """Execute a proposal against the given selection."""
         tool_id = getattr(proposal, "tool_id", "")
+        arguments = _extract_proposal_arguments(proposal)
+
+        if tool_id == "App.ExecuteUnoCommand":
+            execute_uno_command(
+                self.panel.frame,
+                target_tool_id=_optional_string(arguments.get("targetToolId")),
+                dispatch_alias=_optional_string(arguments.get("dispatchAlias")),
+                command=_optional_string(arguments.get("command")),
+                arguments=arguments,
+            )
+            return
+
+        if can_execute_via_dispatch(tool_id):
+            execute_dispatch_action(self.panel.frame, tool_id, **arguments)
+            return
 
         if tool_id == "Writer.ReplaceSelection":
             replacement_text = _extract_replacement_text(proposal)
@@ -354,7 +377,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             return
 
         if tool_id == "Calc.InsertFormulaInSelection":
-            arguments = getattr(proposal, "arguments", {})
             formula = arguments.get("formula") if isinstance(arguments, dict) else None
             if not isinstance(formula, str) or not formula:
                 raise ValueError("Calc formula proposal does not contain a formula.")
@@ -368,7 +390,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 raise ValueError("Calc controller is not available for chart creation.")
             from loaia.context.calc import create_chart_from_selection
 
-            arguments = getattr(proposal, "arguments", {})
             chart_type = (
                 arguments.get("chartType", "Bar")
                 if isinstance(arguments, dict)
@@ -382,7 +403,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 raise ValueError("Calc controller is not available for sorting.")
             from loaia.context.calc import sort_selected_range
 
-            arguments = getattr(proposal, "arguments", {})
             ascending = (
                 arguments.get("ascending", True)
                 if isinstance(arguments, dict)
@@ -399,18 +419,12 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             return
 
         if tool_id == "Writer.InsertTable":
-            arguments = getattr(proposal, "arguments", {})
-            if not isinstance(arguments, dict):
-                arguments = {}
             rows = int(arguments.get("rows", 3))
             cols = int(arguments.get("columns", 3))
             _insert_writer_table(selection, rows, cols)
             return
 
         if tool_id == "Writer.ConvertToTable":
-            arguments = getattr(proposal, "arguments", {})
-            if not isinstance(arguments, dict):
-                arguments = {}
             rows = int(arguments.get("rows", 3))
             cols = int(arguments.get("columns", 3))
             tsv_data = str(arguments.get("tsvData", ""))
@@ -422,7 +436,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 raise ValueError("Impress controller is not available for slide creation.")
             from loaia.context.impress import create_slide_from_outline
 
-            arguments = getattr(proposal, "arguments", {})
             outline = (
                 arguments.get("outline", "")
                 if isinstance(arguments, dict)
@@ -436,7 +449,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 raise ValueError("Impress controller is not available for layout change.")
             from loaia.context.impress import apply_layout_to_current_slide
 
-            arguments = getattr(proposal, "arguments", {})
             layout = (
                 arguments.get("layout", 0)
                 if isinstance(arguments, dict)
@@ -453,7 +465,6 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             return
 
         if tool_id == "Math.ReplaceFormula":
-            arguments = getattr(proposal, "arguments", {})
             formula = arguments.get("formula") if isinstance(arguments, dict) else None
             if not isinstance(formula, str) or not formula:
                 formula = _extract_replacement_text(proposal)
@@ -732,6 +743,19 @@ def _get_range_text(text_range: object) -> str:
     if not isinstance(text, str):
         raise ValueError("Writer selected range returned a non-string value.")
     return text
+
+
+def _extract_proposal_arguments(proposal: object) -> dict[str, object]:
+    arguments = getattr(proposal, "arguments", {})
+    if isinstance(arguments, dict):
+        return arguments
+    return {}
+
+
+def _optional_string(value: object) -> str | None:
+    if isinstance(value, str) and value:
+        return value
+    return None
 
 
 def _apply_writer_replacement(selection: RuntimeSelection, replacement_text: str) -> None:

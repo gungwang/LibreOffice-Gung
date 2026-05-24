@@ -3,6 +3,7 @@ import threading
 
 from pydantic import ValidationError as PydanticValidationError
 
+from loaia_shared.capabilities.compiler import get_capability_descriptor, get_descriptor_hash
 from loaia_shared.schema.actions import ActionPreview, SafetyClass, ToolProposal
 from loaia_shared.schema.messages import (
     ChatRequest,
@@ -13,7 +14,10 @@ from loaia_shared.schema.messages import (
     StreamChunk,
     ToolProposalEnvelope,
 )
+from loaia_shared.schema.plans import ExecutionPlan, ObservationReport, PlanRevision, PlanStep
 from loaia_shared.types import AppType, PrivacyScope
+from loaia_sidecar.planner.evaluator import evaluate_observation
+from loaia_sidecar.planner.retriever import CapabilityRetriever
 from loaia_sidecar.config.secrets import SecretStore
 from loaia_sidecar.config.settings import SidecarSettings
 from loaia_sidecar.providers.base import BaseProviderAdapter, ProviderRequest
@@ -52,9 +56,14 @@ class LoaiaSidecarServer:
             "handshake",
             "streaming",
             "tool-proposals",
+            "execution-plans",
+            "observation-reports",
+            "replanning",
             "consent-escalation",
             "cancellation",
         ]
+        self.capability_retriever = CapabilityRetriever()
+        self._plan_sessions: dict[str, ExecutionPlan] = {}
         self._cancelled_requests: set[str] = set()
         self._cancel_lock = threading.Lock()
 
@@ -95,6 +104,18 @@ class LoaiaSidecarServer:
             with self._cancel_lock:
                 self._cancelled_requests.add(cancel_id)
             return {"type": "CancelAck", "requestId": cancel_id}
+
+        if message_type == "ObservationReport":
+            try:
+                report = ObservationReport.model_validate(payload)
+            except PydanticValidationError as exc:
+                return ErrorResponse(requestId=request_id, message=str(exc)).model_dump(
+                    by_alias=True,
+                    mode="json",
+                )
+
+            response = self._handle_observation_report(report)
+            return response.model_dump(by_alias=True, mode="json")
 
         if message_type == "ChatRequest":
             try:
@@ -138,6 +159,17 @@ class LoaiaSidecarServer:
             with self._cancel_lock:
                 self._cancelled_requests.add(cancel_id)
             return {"type": "CancelAck", "requestId": cancel_id}
+
+        if message_type == "ObservationReport":
+            try:
+                report = ObservationReport.model_validate(payload)
+            except PydanticValidationError as exc:
+                return ErrorResponse(requestId=request_id, message=str(exc)).model_dump(
+                    by_alias=True, mode="json"
+                )
+
+            response = self._handle_observation_report(report)
+            return response.model_dump(by_alias=True, mode="json")
 
         if message_type == "ChatRequest":
             try:
@@ -361,11 +393,9 @@ class LoaiaSidecarServer:
         if not text:
             return None
 
-        return ToolProposal(
-            proposalId=f"{request.request_id}-writer-insert-below",
-            toolId="Writer.InsertBelowSelection",
-            safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=False,
+        return self._proposal_from_capability(
+            request,
+            "Writer.InsertBelowSelection",
             preview=ActionPreview(
                 summary="Insert text below current selection",
                 before="",
@@ -397,11 +427,9 @@ class LoaiaSidecarServer:
         rows = max(1, min(rows, 50))
         cols = max(1, min(cols, 20))
 
-        return ToolProposal(
-            proposalId=f"{request.request_id}-writer-table",
-            toolId="Writer.InsertTable",
-            safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=False,
+        return self._proposal_from_capability(
+            request,
+            "Writer.InsertTable",
             preview=ActionPreview(
                 summary=f"Insert {cols}x{rows} table",
                 before="",
@@ -452,11 +480,9 @@ class LoaiaSidecarServer:
         cols = max(len(line.split("\t")) for line in lines)
         cols = max(cols, 1)
 
-        return ToolProposal(
-            proposalId=f"{request.request_id}-writer-convert-table",
-            toolId="Writer.ConvertToTable",
-            safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=False,
+        return self._proposal_from_capability(
+            request,
+            "Writer.ConvertToTable",
             preview=ActionPreview(
                 summary=f"Convert text to {cols}x{rows} table",
                 before=selection.text[:100],
@@ -491,11 +517,9 @@ class LoaiaSidecarServer:
         if replacement_text is None or replacement_text == selection.text:
             return None
 
-        return ToolProposal(
-            proposalId=f"{request.request_id}-writer-replace",
-            toolId="Writer.ReplaceSelection",
-            safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=False,
+        return self._proposal_from_capability(
+            request,
+            "Writer.ReplaceSelection",
             preview=ActionPreview(
                 summary="Replace selection",
                 before=selection.text,
@@ -545,15 +569,12 @@ class LoaiaSidecarServer:
             [
                 "You are a document editing assistant. The user wants to MODIFY their selected text.",
                 "",
-                "RULES:",
-                "1. Reply with ONLY the replacement text. No explanations, no JSON, no markdown fences.",
-                "2. Return the COMPLETE replacement text that should replace the user's selection.",
-                "3. For translation: return the fully translated text.",
-                "4. For rewrite/rephrase: return the rewritten version.",
-                "5. For tone change (formal, casual, professional): return the adjusted text.",
-                "6. For make shorter/longer: return condensed or expanded version.",
-                "7. For fix grammar/spelling: return the corrected text.",
-                "8. NEVER explain what you did. NEVER add notes. Just output the replacement text.",
+                "Reply with compact JSON only.",
+                "If you can produce a replacement, return:",
+                '{"action":"replace-selection","replacementText":"<full replacement text>"}',
+                "If the request should be answered directly instead of editing the selection, return:",
+                '{"action":"no-replacement"}',
+                "Do not include markdown fences or any extra commentary.",
                 "",
                 f"User instruction: {user_message.strip()}",
             ]
@@ -609,25 +630,347 @@ class LoaiaSidecarServer:
         return normalized or None
 
     def _plan_tool_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Route planning to the appropriate app-specific planner."""
-        # Try safe-formatting first (applies across all apps).
-        safe_proposal = self._plan_safe_formatting(request)
-        if safe_proposal is not None:
-            return safe_proposal
+        """Retrieve candidate capabilities from the shared catalog and compose one proposal."""
+        if self._should_use_direct_answer(request.user_message):
+            return None
 
-        if request.app is AppType.WRITER:
-            return self._plan_writer_proposal(request)
-        if request.app is AppType.CALC:
-            return self._plan_calc_proposal(request)
-        if request.app is AppType.IMPRESS:
-            return self._plan_impress_proposal(request)
-        if request.app is AppType.DRAW:
-            return self._plan_draw_proposal(request)
-        if request.app is AppType.MATH:
-            return self._plan_math_proposal(request)
-        if request.app is AppType.BASE:
-            return self._plan_base_proposal(request)
+        candidates = self.capability_retriever.search(app=request.app, query=request.user_message)
+        for candidate in candidates:
+            proposal = self._compose_candidate_proposal(request, candidate.descriptor.tool_id)
+            if proposal is not None:
+                self._plan_sessions[request.request_id] = self._build_execution_plan(request, proposal)
+                return proposal
+            if candidate.descriptor.tool_id in {
+                "Writer.ReplaceSelection",
+                "Writer.InsertBelowSelection",
+                "Writer.ConvertToTable",
+                "Calc.InsertFormulaInSelection",
+                "Impress.ReplaceSelectedText",
+                "Draw.ReplaceSelectedText",
+                "Math.ReplaceFormula",
+            }:
+                return None
         return None
+
+    def _should_use_direct_answer(self, user_message: str) -> bool:
+        normalized = user_message.casefold().strip()
+        if normalized.endswith("?"):
+            return True
+        if any(normalized.startswith(prefix) for prefix in self._QUESTION_STARTERS):
+            return True
+        if any(keyword in normalized for keyword in self._ANALYSIS_KEYWORDS):
+            return True
+        if normalized.startswith(("summarize", "summarise", "explain ", "tell me ")):
+            return True
+        return False
+
+    def _compose_candidate_proposal(self, request: ChatRequest, tool_id: str) -> ToolProposal | None:
+        if tool_id == "Writer.ReplaceSelection":
+            return self._plan_writer_replace_selection(request)
+        if tool_id == "Writer.InsertBelowSelection":
+            return self._plan_writer_insert_below(request)
+        if tool_id == "Writer.InsertTable":
+            return self._plan_writer_insert_table(request)
+        if tool_id == "Writer.ConvertToTable":
+            return self._plan_writer_convert_to_table(request)
+        if tool_id == "Calc.InsertFormulaInSelection":
+            return self._build_calc_formula_proposal(request)
+        if tool_id in {"Calc.CreateChartFromSelection", "Calc.InsertChart"}:
+            return self._build_calc_chart_proposal(request)
+        if tool_id in {"Calc.SortSelectedRange", "Calc.SortAscending", "Calc.SortDescending"}:
+            return self._build_calc_sort_proposal(request)
+        if tool_id == "Impress.ReplaceSelectedText":
+            return self._build_impress_replace_proposal(request)
+        if tool_id in {"Impress.CreateSlideFromOutline", "Impress.InsertSlide"}:
+            return self._build_impress_create_slide_proposal(request)
+        if tool_id == "Impress.ApplyLayoutToCurrentSlide":
+            return self._build_impress_layout_proposal(request)
+        if tool_id == "Draw.ReplaceSelectedText":
+            return self._build_draw_replace_proposal(request)
+        if tool_id == "Math.ReplaceFormula":
+            return self._build_math_replace_proposal(request)
+        if tool_id == "Base.ExplainQuery":
+            return None
+
+        descriptor = get_capability_descriptor(tool_id)
+        if descriptor is None or descriptor.binding.kind != "uno-dispatch":
+            return None
+
+        if descriptor.safety_class in {SafetyClass.SAFE_FORMATTING, SafetyClass.READ_ONLY}:
+            return self._proposal_from_capability(
+                request,
+                tool_id,
+                preview=ActionPreview(summary=descriptor.summary),
+            )
+
+        return self._proposal_from_capability(
+            request,
+            "App.ExecuteUnoCommand",
+            preview=ActionPreview(
+                summary=f"Execute {descriptor.title}",
+                before="",
+                after=f"[{tool_id}]",
+            ),
+            arguments={"targetToolId": tool_id},
+        )
+
+    def _proposal_from_capability(
+        self,
+        request: ChatRequest,
+        tool_id: str,
+        *,
+        preview: ActionPreview | None = None,
+        arguments: dict[str, object] | None = None,
+    ) -> ToolProposal:
+        descriptor = get_capability_descriptor(tool_id)
+        if descriptor is None:
+            raise ValueError(f"Unknown capability descriptor: {tool_id}")
+        proposal_suffix = tool_id.casefold().replace(".", "-")
+        return ToolProposal(
+            proposalId=f"{request.request_id}-{proposal_suffix}",
+            toolId=tool_id,
+            safetyClass=descriptor.safety_class,
+            requiresApproval=descriptor.requires_approval,
+            preview=preview,
+            arguments=arguments or {},
+        )
+
+    def _build_execution_plan(self, request: ChatRequest, proposal: ToolProposal) -> ExecutionPlan:
+        descriptor_hash = get_descriptor_hash(proposal.tool_id) or ""
+        approval_mode = "explicit" if proposal.requires_approval else "auto"
+        return ExecutionPlan(
+            sessionId=request.request_id,
+            goal=request.user_message,
+            steps=[
+                PlanStep(
+                    stepId=f"{request.request_id}-step-1",
+                    capabilityId=proposal.tool_id,
+                    descriptorHash=descriptor_hash,
+                    arguments=proposal.arguments,
+                    targetScope=str(request.privacy_scope),
+                    approvalMode=approval_mode,
+                    onFailure="replan",
+                )
+            ],
+        )
+
+    def _handle_observation_report(self, report: ObservationReport) -> PlanRevision:
+        plan = self._plan_sessions.get(report.session_id)
+        if plan is None:
+            return PlanRevision(
+                sessionId=report.session_id,
+                action="stop",
+                reason="No matching execution plan was found for this session.",
+            )
+
+        decision = evaluate_observation(plan, report)
+        if decision.action == "complete":
+            self._plan_sessions.pop(report.session_id, None)
+
+        return PlanRevision(
+            sessionId=report.session_id,
+            action=decision.action,
+            reason=decision.reason,
+            nextStepId=decision.next_step_id,
+        )
+
+    def _build_calc_formula_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_calc_formula_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        response_text = adapter.complete(provider_request)
+        formula = self._normalize_calc_formula_response(response_text)
+        if formula is None:
+            return None
+
+        return self._proposal_from_capability(
+            request,
+            "Calc.InsertFormulaInSelection",
+            preview=ActionPreview(
+                summary=f"Insert formula: {formula}",
+                before=selection.text,
+                after=formula,
+            ),
+            arguments={"formula": formula},
+        )
+
+    def _build_calc_chart_proposal(self, request: ChatRequest) -> ToolProposal:
+        normalized_message = request.user_message.casefold()
+        chart_type = "Bar"
+        for candidate in ("pie", "line", "scatter", "area", "column", "bar"):
+            if candidate in normalized_message:
+                chart_type = candidate.capitalize()
+                break
+
+        return self._proposal_from_capability(
+            request,
+            "Calc.CreateChartFromSelection",
+            preview=ActionPreview(
+                summary=f"Create {chart_type} chart from selection",
+                before="",
+                after=f"[{chart_type} chart]",
+            ),
+            arguments={"chartType": chart_type},
+        )
+
+    def _build_calc_sort_proposal(self, request: ChatRequest) -> ToolProposal:
+        ascending = "descend" not in request.user_message.casefold()
+        direction = "ascending" if ascending else "descending"
+        return self._proposal_from_capability(
+            request,
+            "Calc.SortSelectedRange",
+            preview=ActionPreview(
+                summary=f"Sort selected range ({direction})",
+                before="",
+                after=f"[sorted {direction}]",
+            ),
+            arguments={"ascending": ascending},
+        )
+
+    def _build_impress_create_slide_proposal(self, request: ChatRequest) -> ToolProposal:
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is not None:
+            provider_request = ProviderRequest(
+                provider=request.provider,
+                model=request.model,
+                prompt=self._build_impress_outline_prompt(request.user_message),
+                context_text=(request.context.selection.text if request.context.selection else ""),
+            )
+            outline = adapter.complete(provider_request).strip()
+        else:
+            outline = request.user_message.strip()
+
+        return self._proposal_from_capability(
+            request,
+            "Impress.CreateSlideFromOutline",
+            preview=ActionPreview(
+                summary="Create new slide from outline",
+                before="",
+                after=outline,
+            ),
+            arguments={"outline": outline},
+        )
+
+    def _build_impress_layout_proposal(self, request: ChatRequest) -> ToolProposal:
+        normalized_message = request.user_message.casefold()
+        layout = 0
+        layout_map = {"blank": 0, "title": 1, "content": 1, "two column": 3}
+        for name, index in layout_map.items():
+            if name in normalized_message:
+                layout = index
+                break
+
+        return self._proposal_from_capability(
+            request,
+            "Impress.ApplyLayoutToCurrentSlide",
+            preview=ActionPreview(
+                summary=f"Apply layout {layout} to current slide",
+                before="",
+                after=f"[layout {layout}]",
+            ),
+            arguments={"layout": layout},
+        )
+
+    def _build_impress_replace_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_impress_rewrite_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        replacement = adapter.complete(provider_request).strip()
+        if not replacement or replacement == selection.text:
+            return None
+
+        return self._proposal_from_capability(
+            request,
+            "Impress.ReplaceSelectedText",
+            preview=ActionPreview(
+                summary="Replace selected Impress text",
+                before=selection.text,
+                after=replacement,
+            ),
+            arguments={"replacementText": replacement},
+        )
+
+    def _build_draw_replace_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_draw_rewrite_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        replacement = adapter.complete(provider_request).strip()
+        if not replacement or replacement == selection.text:
+            return None
+
+        return self._proposal_from_capability(
+            request,
+            "Draw.ReplaceSelectedText",
+            preview=ActionPreview(
+                summary="Replace selected Draw text",
+                before=selection.text,
+                after=replacement,
+            ),
+            arguments={"replacementText": replacement},
+        )
+
+    def _build_math_replace_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_math_rewrite_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        formula = adapter.complete(provider_request).strip()
+        if not formula or formula == selection.text:
+            return None
+
+        return self._proposal_from_capability(
+            request,
+            "Math.ReplaceFormula",
+            preview=ActionPreview(
+                summary="Replace Math formula",
+                before=selection.text,
+                after=formula,
+            ),
+            arguments={"formula": formula},
+        )
 
     # ------------------------------------------------------------------
     # Safe-formatting planner
@@ -1365,14 +1708,7 @@ class LoaiaSidecarServer:
 
     @staticmethod
     def _build_direct_answer_prompt(user_message: str) -> str:
-        return "\n".join([
-            "You are a concise AI assistant embedded in LibreOffice.",
-            "Answer the user's question briefly and directly.",
-            "Do NOT generate setup guides, tutorials, or unrelated content.",
-            "Keep answers short (1-3 paragraphs max) unless the user explicitly asks for detail.",
-            "If the user provides document text as context, answer about THAT text specifically.",
-            f"User: {user_message.strip()}",
-        ])
+        return user_message.strip()
 
     def _complete_direct_answer(self, request: ChatRequest) -> str:
         prompt = self._build_direct_answer_prompt(request.user_message)

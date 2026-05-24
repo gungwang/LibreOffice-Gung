@@ -344,6 +344,20 @@ def test_calc_sort_proposal() -> None:
     assert proposal.arguments["ascending"] is False
 
 
+def test_dispatch_backed_writer_command_routes_through_execute_uno_command() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(user_message="Insert a page break here")
+    )
+
+    assert response.type == "ToolProposal"
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "App.ExecuteUnoCommand"
+    assert proposal.arguments["targetToolId"] == "Writer.InsertPageBreak"
+
+
 # ------------------------------------------------------------------
 # Impress slide / layout planner tests
 # ------------------------------------------------------------------

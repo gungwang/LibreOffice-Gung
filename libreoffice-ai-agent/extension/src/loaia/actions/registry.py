@@ -1,20 +1,13 @@
-from loaia.actions.app import APP_ACTIONS
-from loaia.actions.base_actions import BASE_ACTIONS
-from loaia.actions.calc import CALC_ACTIONS
-from loaia.actions.draw import DRAW_ACTIONS
-from loaia.actions.impress import IMPRESS_ACTIONS
-from loaia.actions.math_actions import MATH_ACTIONS
-from loaia.actions.writer import WRITER_ACTIONS
+from loaia.actions.base import ActionDefinition
+from loaia_shared.capabilities.compiler import get_compiled_capabilities
+from loaia_shared.schema.actions import SafetyClass
 
 ACTION_REGISTRY = {
-    action.tool_id: action
-    for action in [
-        *WRITER_ACTIONS,
-        *CALC_ACTIONS,
-        *IMPRESS_ACTIONS,
-        *DRAW_ACTIONS,
-        *MATH_ACTIONS,
-        *BASE_ACTIONS,
-        *APP_ACTIONS,
-    ]
+    tool_id: ActionDefinition(
+        tool_id=tool_id,
+        app=compiled.descriptor.app,
+        safe_formatting=compiled.descriptor.safety_class == SafetyClass.SAFE_FORMATTING,
+        requires_approval=compiled.descriptor.requires_approval,
+    )
+    for tool_id, compiled in get_compiled_capabilities().items()
 }

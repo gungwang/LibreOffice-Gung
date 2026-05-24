@@ -1,29 +1,7 @@
-SAFE_FORMATTING_TOOL_IDS = {
-    "Writer.ToggleBold",
-    "Writer.ToggleItalic",
-    "Writer.ToggleUnderline",
-    "Writer.ApplyHeading1",
-    "Writer.ApplyHeading2",
-    "Writer.ApplyHeading3",
-    "Writer.ApplyBullets",
-    "Writer.AlignLeft",
-    "Writer.AlignCenter",
-    "Writer.AlignRight",
-    "Calc.ToggleBold",
-    "Calc.ToggleItalic",
-    "Calc.AlignLeft",
-    "Calc.AlignCenter",
-    "Calc.AlignRight",
-    "Calc.ApplyNumberFormatCurrency",
-    "Calc.ApplyNumberFormatPercent",
-    "Calc.ApplyNumberFormatDate",
-    "Impress.ToggleBold",
-    "Impress.ToggleItalic",
-    "Impress.ApplyBullets",
-    "Impress.AlignLeft",
-    "Impress.AlignCenter",
-    "Impress.AlignRight",
-}
+from loaia_shared.capabilities.compiler import get_safe_formatting_tool_ids
+
+
+SAFE_FORMATTING_TOOL_IDS = get_safe_formatting_tool_ids()
 
 
 def is_safe_formatting_tool(tool_id: str) -> bool:

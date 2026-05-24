@@ -3,6 +3,16 @@
 英文版: [libreoffice-ai-agent-repo-scaffold.md](./libreoffice-ai-agent-repo-scaffold.md)
 详细 MVP 设计规格: [libreoffice-ai-agent-mvp-design-spec.zh-CN.md](./libreoffice-ai-agent-mvp-design-spec.zh-CN.md)
 
+> 归档说明：这份文档保留的是早期 MVP 方案。
+>
+> 当前应当遵循的操作层文档是：
+>
+> - [LibreOffice AI 操作层架构说明](./libreoffice-ai-agent-operation-layer-architecture.zh-CN.md)
+> - [LibreOffice AI 操作层设计规格](./libreoffice-ai-agent-operation-layer-design-spec.zh-CN.md)
+> - [LibreOffice AI 操作层重构计划与仓库骨架](./libreoffice-ai-agent-operation-layer-refactor-plan.zh-CN.md)
+>
+> 后续新的规划和实现，请以操作层文档为准。
+
 ## 方案概述
 
 这份文档回答两个问题：

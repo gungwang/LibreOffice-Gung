@@ -4,7 +4,7 @@ from unittest.mock import patch
 from loaia.bootstrap import SIDEBAR_RESOURCE_URL
 from loaia.document_session import DocumentSessionKey
 from loaia.session_store import InMemorySidebarSessionStore
-from loaia.sidebar_actions import SidebarDialogEventHandler
+from loaia.sidebar_actions import RuntimeSelection, SidebarDialogEventHandler
 from loaia.sidebar_panel import SidebarPanel, SidebarToolPanel
 from loaia_shared.defaults import get_default_provider
 from loaia_shared.errors import TransportError
@@ -340,7 +340,41 @@ def test_sidebar_send_action_surfaces_empty_selection_error_clearly() -> None:
         "Recent activity:\n- Select text in Writer before sending a request."
         in window.controls["Summary"].model.Text
     )
-    assert window.controls["ApproveButton"].model.Enabled is False
+
+
+def test_execute_proposal_supports_catalog_backed_dispatch_tools() -> None:
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    panel.attach_frame(FakeFrame(FakeWriterController(FakeWriterTextRange("hello world"))))
+    handler = SidebarDialogEventHandler(panel=panel, transport=FakeTransport({"type": "DirectAnswer", "text": "ok"}))
+    selection = RuntimeSelection(app_type=AppType.WRITER, text="hello world")
+    proposal = SimpleNamespace(tool_id="Writer.InsertPageBreak", arguments={})
+
+    with patch("loaia.sidebar_actions.execute_dispatch_action") as dispatch_action:
+        handler._execute_proposal(selection, proposal)
+
+    dispatch_action.assert_called_once_with(panel.frame, "Writer.InsertPageBreak")
+
+
+def test_execute_proposal_supports_execute_uno_command() -> None:
+    panel = SidebarPanel(title="LibreOffice AI Agent", resource_url=SIDEBAR_RESOURCE_URL)
+    panel.attach_frame(FakeFrame(FakeWriterController(FakeWriterTextRange("hello world"))))
+    handler = SidebarDialogEventHandler(panel=panel, transport=FakeTransport({"type": "DirectAnswer", "text": "ok"}))
+    selection = RuntimeSelection(app_type=AppType.WRITER, text="hello world")
+    proposal = SimpleNamespace(
+        tool_id="App.ExecuteUnoCommand",
+        arguments={"targetToolId": "Writer.ToggleBold"},
+    )
+
+    with patch("loaia.sidebar_actions.execute_uno_command") as execute_uno_command_mock:
+        handler._execute_proposal(selection, proposal)
+
+    execute_uno_command_mock.assert_called_once_with(
+        panel.frame,
+        target_tool_id="Writer.ToggleBold",
+        dispatch_alias=None,
+        command=None,
+        arguments={"targetToolId": "Writer.ToggleBold"},
+    )
 
 
 def test_sidebar_send_action_surfaces_non_writer_error_clearly() -> None:

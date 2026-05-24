@@ -4,6 +4,16 @@
 相关架构文档: [libreoffice-ai-agent-architecture.zh-CN.md](./libreoffice-ai-agent-architecture.zh-CN.md)
 相关仓库骨架文档: [libreoffice-ai-agent-repo-scaffold.zh-CN.md](./libreoffice-ai-agent-repo-scaffold.zh-CN.md)
 
+> 归档说明：这份文档保留的是早期 MVP 方案。
+>
+> 当前应当遵循的操作层文档是：
+>
+> - [LibreOffice AI 操作层架构说明](./libreoffice-ai-agent-operation-layer-architecture.zh-CN.md)
+> - [LibreOffice AI 操作层设计规格](./libreoffice-ai-agent-operation-layer-design-spec.zh-CN.md)
+> - [LibreOffice AI 操作层重构计划与仓库骨架](./libreoffice-ai-agent-operation-layer-refactor-plan.zh-CN.md)
+>
+> 后续新的规划和实现，请以操作层文档为准。
+
 ## 1. 文档目的
 
 这份文档是 LibreOffice AI Agent 第一版可运行产品的“可落地设计规格”。
