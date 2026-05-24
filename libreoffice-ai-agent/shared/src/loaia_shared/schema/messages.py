@@ -1,6 +1,7 @@
 from pydantic import BaseModel, Field
 
 from loaia_shared.schema.actions import ToolProposal
+from loaia_shared.schema.plans import ExecutionPlan, ObservationReport, PlanRevision
 from loaia_shared.types import AppType, PrivacyScope
 
 
@@ -99,3 +100,7 @@ class ErrorResponse(BaseModel):
     message: str
 
     model_config = {"populate_by_name": True}
+
+
+ChatResponse = DirectAnswer | ToolProposalEnvelope
+SidecarResponse = DirectAnswer | ToolProposalEnvelope | PlanRevision

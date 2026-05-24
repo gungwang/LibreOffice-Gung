@@ -1,9 +1,16 @@
+from types import SimpleNamespace
+
 from loaia.actions.registry import ACTION_REGISTRY
 from loaia.broker.client import SidecarClient
 from loaia.context.writer import WriterSelectionState, apply_writer_proposal
 from loaia.sidebar_panel import SidebarPanel
 from loaia_shared.errors import ValidationError
-from loaia_shared.schema.messages import ChatRequest, DirectAnswer, ToolProposalEnvelope
+from loaia_shared.schema.messages import (
+    ChatRequest,
+    DirectAnswer,
+    ObservationReport,
+    ToolProposalEnvelope,
+)
 
 
 class ChatController:
@@ -47,6 +54,14 @@ class ChatController:
             raise ValidationError("No pending writer proposal is available for approval")
 
         applied_text = apply_writer_proposal(selection, proposal)
+        self.client.report_observation(
+            ObservationReport(
+                sessionId=proposal.session_id,
+                stepId=proposal.step_id,
+                outcome="satisfied",
+                summary=f"Applied {proposal.tool_id}",
+            )
+        )
         applied_message = f"Applied {proposal.tool_id}"
         self.panel.set_selection_preview(applied_text)
         self.panel.set_last_result(applied_message)
@@ -63,4 +78,13 @@ class ChatController:
         if proposal.tool_id not in ACTION_REGISTRY:
             raise ValidationError(f"Unknown tool proposal: {proposal.tool_id}")
 
-        return proposal
+        return SimpleNamespace(
+            proposal_id=proposal.proposal_id,
+            tool_id=proposal.tool_id,
+            safety_class=proposal.safety_class,
+            requires_approval=proposal.requires_approval,
+            preview=proposal.preview,
+            arguments=dict(proposal.arguments),
+            session_id=response.request_id,
+            step_id=f"{response.request_id}-step-1",
+        )

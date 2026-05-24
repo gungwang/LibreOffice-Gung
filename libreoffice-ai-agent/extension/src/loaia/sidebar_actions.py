@@ -50,6 +50,7 @@ from loaia.session_store import (
 from loaia.sidecar_lifecycle import ensure_sidecar_running
 from loaia.undo import undo_context
 from loaia_shared.errors import TransportError
+from loaia_shared.schema.messages import ObservationReport, PlanRevision
 from loaia_shared.transport import (
     DEFAULT_NAMED_PIPE_ADDRESS,
     decode_transport_payload,
@@ -149,6 +150,10 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self.handle_send(window=window)
             return True
 
+        if method_name == "Approve":
+            self.approve_pending(window=window)
+            return True
+
         if method_name == "SaveSettings":
             self.save_settings(window=window)
             return True
@@ -156,7 +161,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         return False
 
     def getSupportedMethodNames(self) -> tuple[str, ...]:
-        return ("Send", "SaveSettings")
+        return ("Send", "Approve", "SaveSettings")
 
     def handle_send(
         self,
@@ -168,6 +173,18 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             window=window,
             prompt_override=prompt,
             pipe_address_override=pipe_address,
+        )
+
+    def preview_current_selection(
+        self,
+        window: object | None = None,
+        prompt: str | None = None,
+        pipe_address: str | None = None,
+    ) -> str:
+        return self.handle_send(
+            window=window,
+            prompt=prompt,
+            pipe_address=pipe_address,
         )
 
     def save_settings(
@@ -182,6 +199,16 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             provider_override=provider,
             model_override=model,
             api_key_override=api_key,
+        )
+
+    def approve_pending(
+        self,
+        window: object | None = None,
+        pipe_address: str | None = None,
+    ) -> str:
+        return self._handle_approve(
+            window=window,
+            pipe_address_override=pipe_address,
         )
 
     def _handle_send(
@@ -199,6 +226,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if not prompt.strip():
             message = "Enter a message before sending."
             self.panel.set_last_error(message)
+            self.panel.append_message(message)
             self._append_chat(window, f"[Error] {message}")
             self._record_error(session_key, message)
             return message
@@ -206,6 +234,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         # Show user message in chat
         self._append_chat(window, f"You: {prompt.strip()}")
         _set_control_text(window, "PromptInput", "")
+        self.panel.clear_pending_proposal()
 
         self.panel.record_request(
             provider=self.panel.state.provider,
@@ -236,7 +265,9 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             chat_payload = self._build_chat_request(
                 selection, prompt, history_summary
             )
-            self._current_request_id = str(chat_payload.get("requestId", ""))
+            request_id = str(chat_payload.get("requestId", ""))
+            self._current_request_id = request_id
+            self.panel.set_selection_preview(selection.text)
 
             def _on_stream_chunk(frame: dict[str, object]) -> None:
                 if self._cancel_requested:
@@ -254,17 +285,24 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
             if self._cancel_requested:
                 cancel_msg = "Request cancelled."
+                self.panel.set_last_error(cancel_msg)
+                self.panel.append_message(cancel_msg)
                 self._append_chat(window, f"[System] {cancel_msg}")
                 self._record_error(session_key, cancel_msg)
                 return cancel_msg
         except TransportError as exc:
             self.panel.set_streaming(False)
             self.panel.set_connected(False)
+            self.panel.set_last_error(str(exc))
+            self.panel.append_message(str(exc))
             self._append_chat(window, f"[Error] {exc}")
             self._record_error(session_key, str(exc))
             return str(exc)
         except ValueError as exc:
             self.panel.set_streaming(False)
+            self.panel.set_connected(False)
+            self.panel.set_last_error(str(exc))
+            self.panel.append_message(str(exc))
             self._append_chat(window, f"[Error] {exc}")
             self._record_error(session_key, str(exc))
             return str(exc)
@@ -275,6 +313,9 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if response_type == "DirectAnswer":
             text = response.get("text")
             answer_text = text if isinstance(text, str) else "AI returned an empty answer."
+            self.panel.clear_pending_proposal()
+            self.panel.set_last_result(answer_text)
+            self.panel.append_message(answer_text)
             self._append_chat(window, f"AI: {answer_text}")
             self._record_result(session_key, answer_text)
             return answer_text
@@ -291,9 +332,20 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 self._record_error(session_key, message)
                 return message
 
-            proposal = _proposal_from_payload(proposals[0])
+            proposal = _proposal_from_payload(
+                proposals[0],
+                session_id=_optional_string(response.get("requestId")) or request_id,
+            )
 
-            # Auto-execute all proposals directly (no approval needed)
+            if getattr(proposal, "requires_approval", False):
+                preview = getattr(proposal, "preview", None)
+                preview_summary = getattr(preview, "summary", None) or proposal.tool_id
+                self.panel.set_pending_proposal(proposal)
+                self.panel.set_last_result(preview_summary)
+                self.panel.append_message(preview_summary)
+                self._record_result(session_key, preview_summary)
+                return preview_summary
+
             try:
                 model = get_model(get_controller(self.panel.frame))
                 with undo_context(model, f"AI: {proposal.tool_id}"):
@@ -305,12 +357,29 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                         )
                     else:
                         self._execute_proposal(selection, proposal)
-                        result_message = f"Applied: {proposal.tool_id}"
+                        result_message = f"Applied {proposal.tool_id}"
+                self._report_observation(
+                    transport_client,
+                    proposal,
+                    outcome="satisfied",
+                    summary=result_message,
+                )
             except (ValueError, RuntimeError) as exc:
+                self._report_observation(
+                    transport_client,
+                    proposal,
+                    outcome="failed",
+                    summary=str(exc),
+                )
+                self.panel.set_last_error(str(exc))
+                self.panel.append_message(str(exc))
                 self._append_chat(window, f"[Error] {exc}")
                 self._record_error(session_key, str(exc))
                 return str(exc)
 
+            self.panel.clear_pending_proposal()
+            self.panel.set_last_result(result_message)
+            self.panel.append_message(result_message)
             self._append_chat(window, f"AI: Done. {result_message}")
             self._record_result(session_key, result_message, role="system")
             self.audit.log_auto_apply(
@@ -325,6 +394,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if response_type == "ConsentRequest":
             # Auto-grant scope escalation for simpler UX
             reason = response.get("reason", "")
+            self.panel.append_message(str(reason) or "Scope escalated.")
             self._append_chat(window, f"[System] Scope escalated: {reason}")
             self.panel.state.privacy_scope = str(
                 response.get("requestedScope", "full-document")
@@ -338,14 +408,75 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
         message = response.get("message")
         if isinstance(message, str):
+            self.panel.set_last_error(message)
+            self.panel.append_message(message)
             self._append_chat(window, f"[Error] {message}")
             self._record_error(session_key, message)
             return message
 
         unexpected_message = f"Unexpected response: {response_type!r}"
+        self.panel.set_last_error(unexpected_message)
+        self.panel.append_message(unexpected_message)
         self._append_chat(window, f"[Error] {unexpected_message}")
         self._record_error(session_key, unexpected_message)
         return unexpected_message
+
+    def _handle_approve(
+        self,
+        window: object | None,
+        pipe_address_override: str | None = None,
+    ) -> str:
+        proposal = self.panel.state.pending_proposal
+        if proposal is None:
+            message = "No pending proposal is available for approval."
+            self.panel.set_last_error(message)
+            self.panel.append_message(message)
+            return message
+
+        session_key = resolve_history_session_key(self.panel.frame)
+        pipe_address = (
+            pipe_address_override
+            if pipe_address_override is not None
+            else DEFAULT_NAMED_PIPE_ADDRESS
+        )
+        transport_client = (
+            self.transport
+            if pipe_address_override is None
+            else RuntimeSidecarTransportClient(address=pipe_address)
+        )
+
+        try:
+            selection = self._capture_selection()
+            model = get_model(get_controller(self.panel.frame))
+            with undo_context(model, f"AI: {proposal.tool_id}"):
+                self._execute_proposal(selection, proposal)
+            result_message = f"Applied {proposal.tool_id}"
+            selection_preview = _proposal_selection_preview(proposal)
+            if selection_preview is not None:
+                self.panel.set_selection_preview(selection_preview)
+            self._report_observation(
+                transport_client,
+                proposal,
+                outcome="satisfied",
+                summary=result_message,
+            )
+        except (ValueError, RuntimeError) as exc:
+            self._report_observation(
+                transport_client,
+                proposal,
+                outcome="failed",
+                summary=str(exc),
+            )
+            self.panel.set_last_error(str(exc))
+            self.panel.append_message(str(exc))
+            self._record_error(session_key, str(exc))
+            return str(exc)
+
+        self.panel.set_last_result(result_message)
+        self.panel.append_message(result_message)
+        self.panel.clear_pending_proposal()
+        self._record_result(session_key, result_message, role="system")
+        return result_message
 
     def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> None:
         """Execute a proposal against the given selection."""
@@ -532,8 +663,13 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             api_key_status=api_key_status,
         )
 
-        message = f"Settings saved. Provider: {provider}, Model: {model}"
-        _set_control_text(window, "SettingsStatus", message)
+        message = f"Saved Writer-first provider settings. Provider: {provider}, Model: {model}"
+        self.panel.apply_settings(
+            provider=provider,
+            model=model,
+            api_key_status=api_key_status,
+            notice=message,
+        )
         # Clear API key field after saving for security
         _set_control_text(window, "ApiKeyInput", "")
         self._append_chat(window, f"[System] {message}")
@@ -578,7 +714,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if not hasattr(controller, "getSelection"):
             raise ValueError("Current document controller does not expose selection APIs.")
 
-        # Try to get selected text first
+        # Selection-only is the default privacy boundary for Writer edits.
         index_access = controller.getSelection()
         selection_text = ""
         text_ranges = ()
@@ -591,20 +727,8 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                     _get_range_text(r) for r in text_ranges
                 )
 
-        # If no selection, use full document text
         if not selection_text.strip():
-            doc_text = model.Text
-            if hasattr(doc_text, "getString"):
-                selection_text = doc_text.getString() or ""
-                # Create a text range spanning the full document for replacement
-                if hasattr(doc_text, "createTextCursor"):
-                    cursor = doc_text.createTextCursor()
-                    cursor.gotoStart(False)
-                    cursor.gotoEnd(True)
-                    text_ranges = (cursor,)
-
-        if not selection_text.strip():
-            raise ValueError("The document is empty. Add some text first.")
+            raise ValueError("Select text in Writer before sending a request.")
 
         return RuntimeSelection(
             app_type=AppType.WRITER,
@@ -734,6 +858,30 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if self.session_store is None:
             return
         self.session_store.record_error(session_key, message)
+
+    def _report_observation(
+        self,
+        transport_client: RuntimeSidecarTransportClient,
+        proposal: object,
+        outcome: str,
+        summary: str,
+    ) -> PlanRevision | None:
+        session_id = _optional_string(getattr(proposal, "session_id", None))
+        step_id = _optional_string(getattr(proposal, "step_id", None))
+        if session_id is None or step_id is None:
+            return None
+
+        payload = ObservationReport(
+            sessionId=session_id,
+            stepId=step_id,
+            outcome=outcome,
+            summary=summary,
+        )
+        response = transport_client.request(payload.model_dump(by_alias=True, mode="json"))
+        if response.get("type") != "PlanRevision":
+            return None
+
+        return PlanRevision.model_validate(response)
 
 
 def _get_range_text(text_range: object) -> str:
@@ -924,7 +1072,10 @@ def _extract_replacement_text(proposal: object) -> str:
     raise ValueError("Proposal does not contain replacement text.")
 
 
-def _proposal_from_payload(payload: dict[str, object]) -> SimpleNamespace:
+def _proposal_from_payload(
+    payload: dict[str, object],
+    session_id: str | None = None,
+) -> SimpleNamespace:
     preview = None
     preview_payload = payload.get("preview")
     if isinstance(preview_payload, dict):
@@ -934,6 +1085,8 @@ def _proposal_from_payload(payload: dict[str, object]) -> SimpleNamespace:
             after=preview_payload.get("after"),
         )
     arguments = payload.get("arguments")
+    resolved_session_id = session_id or None
+    step_id = f"{resolved_session_id}-step-1" if resolved_session_id else None
     return SimpleNamespace(
         proposal_id=payload.get("proposalId"),
         tool_id=payload.get("toolId"),
@@ -941,7 +1094,17 @@ def _proposal_from_payload(payload: dict[str, object]) -> SimpleNamespace:
         requires_approval=payload.get("requiresApproval"),
         preview=preview,
         arguments=dict(arguments) if isinstance(arguments, dict) else {},
+        session_id=resolved_session_id,
+        step_id=step_id,
     )
+
+
+def _proposal_selection_preview(proposal: object) -> str | None:
+    preview = getattr(proposal, "preview", None)
+    preview_after = getattr(preview, "after", None)
+    if isinstance(preview_after, str) and preview_after:
+        return preview_after
+    return None
 
 
 def _get_control_text(window: object, control_name: str) -> str:

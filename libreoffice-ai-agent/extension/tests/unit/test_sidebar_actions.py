@@ -116,20 +116,27 @@ class FakeWindow:
 
 
 class FakeTransport:
-    def __init__(self, response: dict[str, object]) -> None:
+    def __init__(self, response: dict[str, object] | list[dict[str, object]]) -> None:
         self.response = response
         self.requests: list[dict[str, object]] = []
         self.cancelled_ids: list[str] = []
 
+    def _next_response(self) -> dict[str, object]:
+        if isinstance(self.response, list):
+            if not self.response:
+                raise AssertionError("FakeTransport ran out of queued responses")
+            return self.response.pop(0)
+        return self.response
+
     def request(self, payload: dict[str, object]) -> dict[str, object]:
         self.requests.append(payload)
-        return self.response
+        return self._next_response()
 
     def request_streaming(
         self, payload: dict[str, object], on_chunk: object = None
     ) -> dict[str, object]:
         self.requests.append(payload)
-        return self.response
+        return self._next_response()
 
     def send_cancel(self, request_id: str) -> None:
         self.cancelled_ids.append(request_id)
@@ -219,29 +226,46 @@ def test_sidebar_approve_action_applies_pending_writer_change() -> None:
     panel.attach_frame(FakeFrame(controller))
     window = FakeWindow(prompt="Please convert this selection to uppercase.")
     transport = FakeTransport(
-        {
-            "type": "ToolProposal",
-            "proposals": [
-                {
-                    "proposalId": "proposal-1",
-                    "toolId": "Writer.ReplaceSelection",
-                    "safetyClass": "content-edit",
-                    "requiresApproval": True,
-                    "preview": {
-                        "summary": "Preview Writer selection replacement",
-                        "before": "hello world",
-                        "after": "HELLO WORLD",
-                    },
-                    "arguments": {"replacementText": "HELLO WORLD"},
-                }
-            ],
-        }
+        [
+            {
+                "type": "ToolProposal",
+                "proposals": [
+                    {
+                        "proposalId": "proposal-1",
+                        "toolId": "Writer.ReplaceSelection",
+                        "safetyClass": "content-edit",
+                        "requiresApproval": True,
+                        "preview": {
+                            "summary": "Preview Writer selection replacement",
+                            "before": "hello world",
+                            "after": "HELLO WORLD",
+                        },
+                        "arguments": {"replacementText": "HELLO WORLD"},
+                    }
+                ],
+            },
+            {
+                "type": "PlanRevision",
+                "sessionId": "sidebar-observe-test",
+                "action": "complete",
+                "reason": "All planned steps satisfied.",
+            },
+        ]
     )
     tool_panel = SidebarToolPanel(
         panel=panel,
         window=window,
         event_handler=SidebarDialogEventHandler(panel=panel, transport=transport),
     )
+
+    original_build_chat_request = tool_panel.event_handler._build_chat_request
+
+    def _build_chat_request_with_fixed_id(*args: object, **kwargs: object) -> dict[str, object]:
+        payload = original_build_chat_request(*args, **kwargs)
+        payload["requestId"] = "sidebar-observe-test"
+        return payload
+
+    tool_panel.event_handler._build_chat_request = _build_chat_request_with_fixed_id
 
     tool_panel.event_handler.callHandlerMethod(window, None, "Send")
     assert tool_panel.event_handler.callHandlerMethod(window, None, "Approve") is True
@@ -265,6 +289,15 @@ def test_sidebar_approve_action_applies_pending_writer_change() -> None:
         expected_activity
         in window.controls["Summary"].model.Text
     )
+    assert transport.requests[1] == {
+        "type": "ObservationReport",
+        "sessionId": "sidebar-observe-test",
+        "stepId": "sidebar-observe-test-step-1",
+        "outcome": "satisfied",
+        "preconditions": [],
+        "postconditions": [],
+        "summary": "Applied Writer.ReplaceSelection",
+    }
 
 
 def test_sidebar_send_action_surfaces_transport_errors_clearly() -> None:

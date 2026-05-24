@@ -321,58 +321,6 @@ class LoaiaSidecarServer:
         "please explain", "please describe",
     )
 
-    def _plan_writer_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Plan a Writer content-edit using intent classification.
-
-        Implements Copilot-like behavior:
-        - Questions/summaries → DirectAnswer (return None)
-        - Rewrite/edit/translate/tone → ReplaceSelection
-        - Draft new content / insert below → InsertBelowSelection
-        - Insert table → InsertTable
-        - Convert text to table → ConvertToTable
-        - Formatting (bold/heading/etc.) → handled by _plan_safe_formatting (called before this)
-        """
-        normalized = request.user_message.casefold().strip()
-
-        # --- Questions and analysis → DirectAnswer ---
-        if (
-            normalized.endswith("?")
-            or any(normalized.startswith(q) for q in self._QUESTION_STARTERS)
-            or any(kw in normalized for kw in self._ANALYSIS_KEYWORDS)
-        ):
-            return None
-
-        # --- Table insertion (new empty table) ---
-        table_insert_keywords = (
-            "insert a table", "insert table", "create a table", "create table",
-            "add a table", "add table", "make a table",
-        )
-        if any(kw in normalized for kw in table_insert_keywords):
-            return self._plan_writer_insert_table(request)
-
-        # --- Convert text to table (Copilot: "Visualize as Table") ---
-        table_convert_keywords = (
-            "convert to table", "convert to a table", "make into table",
-            "make into a table", "visualize as table", "visualize as a table",
-            "turn into table", "turn into a table", "format as table",
-            "format as a table", "text to table",
-        )
-        if any(kw in normalized for kw in table_convert_keywords):
-            return self._plan_writer_convert_to_table(request)
-
-        # --- Insert below / draft new content ---
-        insert_keywords = (
-            "insert below", "add below", "append", "add after",
-            "insert after", "write below", "add paragraph",
-            "draft", "write a", "write an", "generate",
-            "compose", "create a paragraph", "create content",
-        )
-        if any(kw in normalized for kw in insert_keywords):
-            return self._plan_writer_insert_below(request)
-
-        # --- Rewrite / edit / translate / tone (operates on selection) ---
-        return self._plan_writer_replace_selection(request)
-
     def _plan_writer_insert_below(self, request: ChatRequest) -> ToolProposal | None:
         """Plan Writer.InsertBelowSelection via the provider."""
         adapter = self.provider_adapters.get(request.provider)
@@ -452,434 +400,44 @@ class LoaiaSidecarServer:
         if adapter is None:
             return None
 
-        prompt = "\n".join([
-            "Convert the following text into a table format.",
-            "Output ONLY tab-separated values (TSV). Each line is a row, columns separated by TAB.",
-            "First line should be the header row if headers can be inferred.",
-            "Do NOT add any explanation, markdown, or formatting. Just TSV data.",
-            "",
-            "Text to convert:",
-            selection.text.strip(),
-        ])
-
+        prompt = "\n".join(
+            [
+                "You are a LibreOffice Writer table assistant.",
+                "Convert the selected text into a tab-separated table.",
+                "Reply with ONLY TSV content using tabs between columns and newlines between rows.",
+                "Do not add markdown fences, explanations, or commentary.",
+                "If the selection cannot be converted into a meaningful table, reply with: NO_TABLE",
+                f"User request: {request.user_message.strip()}",
+            ]
+        )
         provider_request = ProviderRequest(
             provider=request.provider,
             model=request.model,
             prompt=prompt,
-            context_text="",
+            context_text=selection.text,
         )
-        tsv_text = adapter.complete(provider_request).strip()
-        if not tsv_text:
+        tsv_data = adapter.complete(provider_request).strip()
+        if not tsv_data or tsv_data.casefold() == "no_table":
             return None
 
-        # Parse TSV to determine dimensions
-        lines = [line for line in tsv_text.splitlines() if line.strip()]
-        if not lines:
+        rows = [row for row in tsv_data.splitlines() if row.strip()]
+        if not rows:
             return None
-        rows = len(lines)
-        cols = max(len(line.split("\t")) for line in lines)
-        cols = max(cols, 1)
 
+        columns = max(len(row.split("\t")) for row in rows)
         return self._proposal_from_capability(
             request,
             "Writer.ConvertToTable",
             preview=ActionPreview(
-                summary=f"Convert text to {cols}x{rows} table",
-                before=selection.text[:100],
-                after=tsv_text[:200],
-            ),
-            arguments={"rows": rows, "columns": cols, "tsvData": tsv_text},
-        )
-
-    @staticmethod
-    def _build_writer_insert_below_prompt(user_message: str) -> str:
-        return "\n".join(
-            [
-                "You are a LibreOffice Writer assistant.",
-                "The user wants to insert new text below their current selection.",
-                "Reply with ONLY the text to insert. No explanation, no markdown fences.",
-                f"User request: {user_message.strip()}",
-            ]
-        )
-
-    def _plan_writer_replace_selection(self, request: ChatRequest) -> ToolProposal | None:
-        selection = request.context.selection
-        if request.app is not AppType.WRITER or selection is None:
-            return None
-
-        if not selection.text.strip():
-            return None
-
-        replacement_text = self._rewrite_writer_selection(request.user_message, selection.text)
-        if replacement_text is None:
-            replacement_text = self._plan_writer_replace_selection_via_provider(request)
-
-        if replacement_text is None or replacement_text == selection.text:
-            return None
-
-        return self._proposal_from_capability(
-            request,
-            "Writer.ReplaceSelection",
-            preview=ActionPreview(
-                summary="Replace selection",
+                summary="Convert selected text into a table",
                 before=selection.text,
-                after=replacement_text,
+                after=f"[Table: {columns} columns x {len(rows)} rows]",
             ),
-            arguments={"replacementText": replacement_text},
-        )
-
-    @staticmethod
-    def _rewrite_writer_selection(user_message: str, selection_text: str) -> str | None:
-        normalized_message = user_message.casefold()
-        if "uppercase" in normalized_message or "upper case" in normalized_message:
-            return selection_text.upper()
-
-        if "lowercase" in normalized_message or "lower case" in normalized_message:
-            return selection_text.lower()
-
-        if "title case" in normalized_message or "titlecase" in normalized_message:
-            return selection_text.title()
-
-        if "trim" in normalized_message or "strip" in normalized_message:
-            return selection_text.strip()
-
-        return None
-
-    def _plan_writer_replace_selection_via_provider(self, request: ChatRequest) -> str | None:
-        selection = request.context.selection
-        if selection is None:
-            return None
-
-        adapter = self.provider_adapters.get(request.provider)
-        if adapter is None:
-            return None
-
-        provider_request = ProviderRequest(
-            provider=request.provider,
-            model=request.model,
-            prompt=self._build_writer_rewrite_prompt(request.user_message),
-            context_text=selection.text,
-        )
-        response_text = adapter.complete(provider_request)
-        return self._normalize_writer_rewrite_response(response_text)
-
-    @staticmethod
-    def _build_writer_rewrite_prompt(user_message: str) -> str:
-        return "\n".join(
-            [
-                "You are a document editing assistant. The user wants to MODIFY their selected text.",
-                "",
-                "Reply with compact JSON only.",
-                "If you can produce a replacement, return:",
-                '{"action":"replace-selection","replacementText":"<full replacement text>"}',
-                "If the request should be answered directly instead of editing the selection, return:",
-                '{"action":"no-replacement"}',
-                "Do not include markdown fences or any extra commentary.",
-                "",
-                f"User instruction: {user_message.strip()}",
-            ]
-        )
-
-    @staticmethod
-    def _normalize_writer_rewrite_response(response_text: str) -> str | None:
-        """Normalize the LLM response for a rewrite action.
-
-        The prompt asks for raw replacement text, but some models may still
-        wrap in markdown fences or quotes. Strip those.
-        """
-        normalized = response_text.strip()
-        if not normalized:
-            return None
-
-        # Strip markdown code fences
-        if normalized.startswith("```") and normalized.endswith("```"):
-            lines = normalized.splitlines()
-            if lines and lines[0].startswith("```"):
-                lines = lines[1:]
-            if lines and lines[-1].startswith("```"):
-                lines = lines[:-1]
-            normalized = "\n".join(lines).strip()
-
-        # Legacy sentinel
-        if normalized.casefold() == WRITER_NO_REPLACEMENT_SENTINEL.casefold():
-            return None
-
-        # Some models still return JSON despite instructions — handle gracefully
-        if normalized.startswith("{") and normalized.endswith("}"):
-            try:
-                payload = json.loads(normalized)
-                if isinstance(payload, dict):
-                    if payload.get("action") == "no-replacement":
-                        return None
-                    replacement = payload.get("replacementText")
-                    if isinstance(replacement, str) and replacement.strip():
-                        return replacement.strip()
-            except json.JSONDecodeError:
-                pass
-
-        # Strip wrapping quotes
-        if (
-            len(normalized) >= 2
-            and normalized[0] == normalized[-1]
-            and normalized[0] in {'"', "'"}
-        ):
-            inner = normalized[1:-1].strip()
-            if inner:
-                normalized = inner
-
-        return normalized or None
-
-    def _plan_tool_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Retrieve candidate capabilities from the shared catalog and compose one proposal."""
-        if self._should_use_direct_answer(request.user_message):
-            return None
-
-        candidates = self.capability_retriever.search(app=request.app, query=request.user_message)
-        for candidate in candidates:
-            proposal = self._compose_candidate_proposal(request, candidate.descriptor.tool_id)
-            if proposal is not None:
-                self._plan_sessions[request.request_id] = self._build_execution_plan(request, proposal)
-                return proposal
-            if candidate.descriptor.tool_id in {
-                "Writer.ReplaceSelection",
-                "Writer.InsertBelowSelection",
-                "Writer.ConvertToTable",
-                "Calc.InsertFormulaInSelection",
-                "Impress.ReplaceSelectedText",
-                "Draw.ReplaceSelectedText",
-                "Math.ReplaceFormula",
-            }:
-                return None
-        return None
-
-    def _should_use_direct_answer(self, user_message: str) -> bool:
-        normalized = user_message.casefold().strip()
-        if normalized.endswith("?"):
-            return True
-        if any(normalized.startswith(prefix) for prefix in self._QUESTION_STARTERS):
-            return True
-        if any(keyword in normalized for keyword in self._ANALYSIS_KEYWORDS):
-            return True
-        if normalized.startswith(("summarize", "summarise", "explain ", "tell me ")):
-            return True
-        return False
-
-    def _compose_candidate_proposal(self, request: ChatRequest, tool_id: str) -> ToolProposal | None:
-        if tool_id == "Writer.ReplaceSelection":
-            return self._plan_writer_replace_selection(request)
-        if tool_id == "Writer.InsertBelowSelection":
-            return self._plan_writer_insert_below(request)
-        if tool_id == "Writer.InsertTable":
-            return self._plan_writer_insert_table(request)
-        if tool_id == "Writer.ConvertToTable":
-            return self._plan_writer_convert_to_table(request)
-        if tool_id == "Calc.InsertFormulaInSelection":
-            return self._build_calc_formula_proposal(request)
-        if tool_id in {"Calc.CreateChartFromSelection", "Calc.InsertChart"}:
-            return self._build_calc_chart_proposal(request)
-        if tool_id in {"Calc.SortSelectedRange", "Calc.SortAscending", "Calc.SortDescending"}:
-            return self._build_calc_sort_proposal(request)
-        if tool_id == "Impress.ReplaceSelectedText":
-            return self._build_impress_replace_proposal(request)
-        if tool_id in {"Impress.CreateSlideFromOutline", "Impress.InsertSlide"}:
-            return self._build_impress_create_slide_proposal(request)
-        if tool_id == "Impress.ApplyLayoutToCurrentSlide":
-            return self._build_impress_layout_proposal(request)
-        if tool_id == "Draw.ReplaceSelectedText":
-            return self._build_draw_replace_proposal(request)
-        if tool_id == "Math.ReplaceFormula":
-            return self._build_math_replace_proposal(request)
-        if tool_id == "Base.ExplainQuery":
-            return None
-
-        descriptor = get_capability_descriptor(tool_id)
-        if descriptor is None or descriptor.binding.kind != "uno-dispatch":
-            return None
-
-        if descriptor.safety_class in {SafetyClass.SAFE_FORMATTING, SafetyClass.READ_ONLY}:
-            return self._proposal_from_capability(
-                request,
-                tool_id,
-                preview=ActionPreview(summary=descriptor.summary),
-            )
-
-        return self._proposal_from_capability(
-            request,
-            "App.ExecuteUnoCommand",
-            preview=ActionPreview(
-                summary=f"Execute {descriptor.title}",
-                before="",
-                after=f"[{tool_id}]",
-            ),
-            arguments={"targetToolId": tool_id},
-        )
-
-    def _proposal_from_capability(
-        self,
-        request: ChatRequest,
-        tool_id: str,
-        *,
-        preview: ActionPreview | None = None,
-        arguments: dict[str, object] | None = None,
-    ) -> ToolProposal:
-        descriptor = get_capability_descriptor(tool_id)
-        if descriptor is None:
-            raise ValueError(f"Unknown capability descriptor: {tool_id}")
-        proposal_suffix = tool_id.casefold().replace(".", "-")
-        return ToolProposal(
-            proposalId=f"{request.request_id}-{proposal_suffix}",
-            toolId=tool_id,
-            safetyClass=descriptor.safety_class,
-            requiresApproval=descriptor.requires_approval,
-            preview=preview,
-            arguments=arguments or {},
-        )
-
-    def _build_execution_plan(self, request: ChatRequest, proposal: ToolProposal) -> ExecutionPlan:
-        descriptor_hash = get_descriptor_hash(proposal.tool_id) or ""
-        approval_mode = "explicit" if proposal.requires_approval else "auto"
-        return ExecutionPlan(
-            sessionId=request.request_id,
-            goal=request.user_message,
-            steps=[
-                PlanStep(
-                    stepId=f"{request.request_id}-step-1",
-                    capabilityId=proposal.tool_id,
-                    descriptorHash=descriptor_hash,
-                    arguments=proposal.arguments,
-                    targetScope=str(request.privacy_scope),
-                    approvalMode=approval_mode,
-                    onFailure="replan",
-                )
-            ],
-        )
-
-    def _handle_observation_report(self, report: ObservationReport) -> PlanRevision:
-        plan = self._plan_sessions.get(report.session_id)
-        if plan is None:
-            return PlanRevision(
-                sessionId=report.session_id,
-                action="stop",
-                reason="No matching execution plan was found for this session.",
-            )
-
-        decision = evaluate_observation(plan, report)
-        if decision.action == "complete":
-            self._plan_sessions.pop(report.session_id, None)
-
-        return PlanRevision(
-            sessionId=report.session_id,
-            action=decision.action,
-            reason=decision.reason,
-            nextStepId=decision.next_step_id,
-        )
-
-    def _build_calc_formula_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        selection = request.context.selection
-        if selection is None or not selection.text.strip():
-            return None
-
-        adapter = self.provider_adapters.get(request.provider)
-        if adapter is None:
-            return None
-
-        provider_request = ProviderRequest(
-            provider=request.provider,
-            model=request.model,
-            prompt=self._build_calc_formula_prompt(request.user_message),
-            context_text=selection.text,
-        )
-        response_text = adapter.complete(provider_request)
-        formula = self._normalize_calc_formula_response(response_text)
-        if formula is None:
-            return None
-
-        return self._proposal_from_capability(
-            request,
-            "Calc.InsertFormulaInSelection",
-            preview=ActionPreview(
-                summary=f"Insert formula: {formula}",
-                before=selection.text,
-                after=formula,
-            ),
-            arguments={"formula": formula},
-        )
-
-    def _build_calc_chart_proposal(self, request: ChatRequest) -> ToolProposal:
-        normalized_message = request.user_message.casefold()
-        chart_type = "Bar"
-        for candidate in ("pie", "line", "scatter", "area", "column", "bar"):
-            if candidate in normalized_message:
-                chart_type = candidate.capitalize()
-                break
-
-        return self._proposal_from_capability(
-            request,
-            "Calc.CreateChartFromSelection",
-            preview=ActionPreview(
-                summary=f"Create {chart_type} chart from selection",
-                before="",
-                after=f"[{chart_type} chart]",
-            ),
-            arguments={"chartType": chart_type},
-        )
-
-    def _build_calc_sort_proposal(self, request: ChatRequest) -> ToolProposal:
-        ascending = "descend" not in request.user_message.casefold()
-        direction = "ascending" if ascending else "descending"
-        return self._proposal_from_capability(
-            request,
-            "Calc.SortSelectedRange",
-            preview=ActionPreview(
-                summary=f"Sort selected range ({direction})",
-                before="",
-                after=f"[sorted {direction}]",
-            ),
-            arguments={"ascending": ascending},
-        )
-
-    def _build_impress_create_slide_proposal(self, request: ChatRequest) -> ToolProposal:
-        adapter = self.provider_adapters.get(request.provider)
-        if adapter is not None:
-            provider_request = ProviderRequest(
-                provider=request.provider,
-                model=request.model,
-                prompt=self._build_impress_outline_prompt(request.user_message),
-                context_text=(request.context.selection.text if request.context.selection else ""),
-            )
-            outline = adapter.complete(provider_request).strip()
-        else:
-            outline = request.user_message.strip()
-
-        return self._proposal_from_capability(
-            request,
-            "Impress.CreateSlideFromOutline",
-            preview=ActionPreview(
-                summary="Create new slide from outline",
-                before="",
-                after=outline,
-            ),
-            arguments={"outline": outline},
-        )
-
-    def _build_impress_layout_proposal(self, request: ChatRequest) -> ToolProposal:
-        normalized_message = request.user_message.casefold()
-        layout = 0
-        layout_map = {"blank": 0, "title": 1, "content": 1, "two column": 3}
-        for name, index in layout_map.items():
-            if name in normalized_message:
-                layout = index
-                break
-
-        return self._proposal_from_capability(
-            request,
-            "Impress.ApplyLayoutToCurrentSlide",
-            preview=ActionPreview(
-                summary=f"Apply layout {layout} to current slide",
-                before="",
-                after=f"[layout {layout}]",
-            ),
-            arguments={"layout": layout},
+            arguments={
+                "tsvData": tsv_data,
+                "rows": len(rows),
+                "columns": columns,
+            },
         )
 
     def _build_impress_replace_proposal(self, request: ChatRequest) -> ToolProposal | None:
@@ -971,665 +529,6 @@ class LoaiaSidecarServer:
             ),
             arguments={"formula": formula},
         )
-
-    # ------------------------------------------------------------------
-    # Safe-formatting planner
-    # ------------------------------------------------------------------
-
-    _SAFE_FORMATTING_KEYWORDS: dict[str, dict[str, str]] = {
-        # --- Bold ---
-        "bold": {
-            "writer": "Writer.ToggleBold",
-            "calc": "Calc.ToggleBold",
-            "impress": "Impress.ToggleBold",
-            "draw": "Draw.ToggleBold",
-        },
-        "make bold": {"writer": "Writer.ToggleBold", "calc": "Calc.ToggleBold"},
-        "to bold": {"writer": "Writer.ToggleBold", "calc": "Calc.ToggleBold"},
-        # --- Italic ---
-        "italic": {
-            "writer": "Writer.ToggleItalic",
-            "calc": "Calc.ToggleItalic",
-            "impress": "Impress.ToggleItalic",
-            "draw": "Draw.ToggleItalic",
-        },
-        "italicize": {"writer": "Writer.ToggleItalic"},
-        "make italic": {"writer": "Writer.ToggleItalic"},
-        # --- Underline ---
-        "underline": {
-            "writer": "Writer.ToggleUnderline",
-            "draw": "Draw.ToggleUnderline",
-        },
-        # --- Strikethrough ---
-        "strikethrough": {"writer": "Writer.ToggleStrikethrough", "calc": "Calc.ToggleStrikethrough", "impress": "Impress.ToggleStrikethrough", "draw": "Draw.ToggleStrikethrough"},
-        "strike through": {"writer": "Writer.ToggleStrikethrough"},
-        "strikeout": {"writer": "Writer.ToggleStrikethrough"},
-        "cross out": {"writer": "Writer.ToggleStrikethrough"},
-        "line through": {"writer": "Writer.ToggleStrikethrough"},
-        # --- Superscript / Subscript ---
-        "superscript": {"writer": "Writer.ToggleSuperscript"},
-        "super script": {"writer": "Writer.ToggleSuperscript"},
-        "subscript": {"writer": "Writer.ToggleSubscript"},
-        "sub script": {"writer": "Writer.ToggleSubscript"},
-        # --- Shadow / Outline / Small Caps ---
-        "shadow": {"writer": "Writer.ToggleShadow"},
-        "shadow text": {"writer": "Writer.ToggleShadow"},
-        "outline font": {"writer": "Writer.ToggleOutline"},
-        "outline text": {"writer": "Writer.ToggleOutline"},
-        "small caps": {"writer": "Writer.ToggleSmallCaps"},
-        "smallcaps": {"writer": "Writer.ToggleSmallCaps"},
-        # --- Text case ---
-        "uppercase": {"writer": "Writer.CaseUpper"},
-        "upper case": {"writer": "Writer.CaseUpper"},
-        "all caps": {"writer": "Writer.CaseUpper"},
-        "to uppercase": {"writer": "Writer.CaseUpper"},
-        "make uppercase": {"writer": "Writer.CaseUpper"},
-        "lowercase": {"writer": "Writer.CaseLower"},
-        "lower case": {"writer": "Writer.CaseLower"},
-        "to lowercase": {"writer": "Writer.CaseLower"},
-        "make lowercase": {"writer": "Writer.CaseLower"},
-        "title case": {"writer": "Writer.CaseTitle"},
-        "titlecase": {"writer": "Writer.CaseTitle"},
-        "capitalize": {"writer": "Writer.CaseTitle"},
-        "capitalize each word": {"writer": "Writer.CaseTitle"},
-        "sentence case": {"writer": "Writer.CaseSentence"},
-        "toggle case": {"writer": "Writer.CaseToggle"},
-        # --- Headings ---
-        "heading 1": {"writer": "Writer.ApplyHeading1"},
-        "heading1": {"writer": "Writer.ApplyHeading1"},
-        "h1": {"writer": "Writer.ApplyHeading1"},
-        "heading 2": {"writer": "Writer.ApplyHeading2"},
-        "heading2": {"writer": "Writer.ApplyHeading2"},
-        "h2": {"writer": "Writer.ApplyHeading2"},
-        "heading 3": {"writer": "Writer.ApplyHeading3"},
-        "heading3": {"writer": "Writer.ApplyHeading3"},
-        "h3": {"writer": "Writer.ApplyHeading3"},
-        "normal style": {"writer": "Writer.ApplyDefaultStyle"},
-        "default style": {"writer": "Writer.ApplyDefaultStyle"},
-        "remove heading": {"writer": "Writer.ApplyDefaultStyle"},
-        "clear heading": {"writer": "Writer.ApplyDefaultStyle"},
-        # --- Alignment ---
-        "align left": {
-            "writer": "Writer.AlignLeft",
-            "calc": "Calc.AlignLeft",
-            "impress": "Impress.AlignLeft",
-            "draw": "Draw.AlignLeft",
-        },
-        "left align": {
-            "writer": "Writer.AlignLeft",
-            "calc": "Calc.AlignLeft",
-            "impress": "Impress.AlignLeft",
-            "draw": "Draw.AlignLeft",
-        },
-        "text to left": {"writer": "Writer.AlignLeft"},
-        "align to left": {"writer": "Writer.AlignLeft"},
-        "move to left": {"writer": "Writer.AlignLeft"},
-        "center": {
-            "writer": "Writer.AlignCenter",
-            "calc": "Calc.AlignCenter",
-            "impress": "Impress.AlignCenter",
-            "draw": "Draw.AlignCenter",
-        },
-        "align center": {
-            "writer": "Writer.AlignCenter",
-            "calc": "Calc.AlignCenter",
-            "impress": "Impress.AlignCenter",
-            "draw": "Draw.AlignCenter",
-        },
-        "center align": {"writer": "Writer.AlignCenter"},
-        "center text": {"writer": "Writer.AlignCenter"},
-        "text to center": {"writer": "Writer.AlignCenter"},
-        "align right": {
-            "writer": "Writer.AlignRight",
-            "calc": "Calc.AlignRight",
-            "impress": "Impress.AlignRight",
-            "draw": "Draw.AlignRight",
-        },
-        "right align": {
-            "writer": "Writer.AlignRight",
-            "calc": "Calc.AlignRight",
-            "impress": "Impress.AlignRight",
-            "draw": "Draw.AlignRight",
-        },
-        "text to right": {"writer": "Writer.AlignRight"},
-        "align to right": {"writer": "Writer.AlignRight"},
-        "move to right": {"writer": "Writer.AlignRight"},
-        "justify": {"writer": "Writer.AlignJustify"},
-        "justify text": {"writer": "Writer.AlignJustify"},
-        "full justify": {"writer": "Writer.AlignJustify"},
-        "align justify": {"writer": "Writer.AlignJustify"},
-        # --- Bullet / Number list ---
-        "bullet": {
-            "writer": "Writer.ApplyBullets",
-            "impress": "Impress.ApplyBullets",
-        },
-        "bullets": {
-            "writer": "Writer.ApplyBullets",
-            "impress": "Impress.ApplyBullets",
-        },
-        "bullet list": {"writer": "Writer.ApplyBullets"},
-        "bulleted list": {"writer": "Writer.ApplyBullets"},
-        "unordered list": {"writer": "Writer.ApplyBullets"},
-        "numbered list": {"writer": "Writer.ApplyNumbering"},
-        "number list": {"writer": "Writer.ApplyNumbering"},
-        "numbering": {"writer": "Writer.ApplyNumbering"},
-        "ordered list": {"writer": "Writer.ApplyNumbering"},
-        # --- Indent ---
-        "increase indent": {"writer": "Writer.IncreaseIndent"},
-        "indent more": {"writer": "Writer.IncreaseIndent"},
-        "indent": {"writer": "Writer.IncreaseIndent"},
-        "tab in": {"writer": "Writer.IncreaseIndent"},
-        "decrease indent": {"writer": "Writer.DecreaseIndent"},
-        "indent less": {"writer": "Writer.DecreaseIndent"},
-        "outdent": {"writer": "Writer.DecreaseIndent"},
-        "tab out": {"writer": "Writer.DecreaseIndent"},
-        # --- Line spacing ---
-        "single spacing": {"writer": "Writer.LineSpacingSingle"},
-        "single space": {"writer": "Writer.LineSpacingSingle"},
-        "line spacing 1": {"writer": "Writer.LineSpacingSingle"},
-        "1.5 spacing": {"writer": "Writer.LineSpacing1_5"},
-        "one and a half spacing": {"writer": "Writer.LineSpacing1_5"},
-        "line spacing 1.5": {"writer": "Writer.LineSpacing1_5"},
-        "double spacing": {"writer": "Writer.LineSpacingDouble"},
-        "double space": {"writer": "Writer.LineSpacingDouble"},
-        "line spacing 2": {"writer": "Writer.LineSpacingDouble"},
-        # --- Font size ---
-        "increase font": {"writer": "Writer.IncreaseFontSize"},
-        "increase font size": {"writer": "Writer.IncreaseFontSize"},
-        "bigger font": {"writer": "Writer.IncreaseFontSize"},
-        "larger font": {"writer": "Writer.IncreaseFontSize"},
-        "make bigger": {"writer": "Writer.IncreaseFontSize"},
-        "font bigger": {"writer": "Writer.IncreaseFontSize"},
-        "decrease font": {"writer": "Writer.DecreaseFontSize"},
-        "decrease font size": {"writer": "Writer.DecreaseFontSize"},
-        "smaller font": {"writer": "Writer.DecreaseFontSize"},
-        "make smaller": {"writer": "Writer.DecreaseFontSize"},
-        "font smaller": {"writer": "Writer.DecreaseFontSize"},
-        # --- Font color ---
-        "red color": {"writer": "Writer.FontColorRed"},
-        "color red": {"writer": "Writer.FontColorRed"},
-        "font red": {"writer": "Writer.FontColorRed"},
-        "red font": {"writer": "Writer.FontColorRed"},
-        "text red": {"writer": "Writer.FontColorRed"},
-        "red text": {"writer": "Writer.FontColorRed"},
-        "make red": {"writer": "Writer.FontColorRed"},
-        "change to red": {"writer": "Writer.FontColorRed"},
-        "color to red": {"writer": "Writer.FontColorRed"},
-        "font color red": {"writer": "Writer.FontColorRed"},
-        "blue color": {"writer": "Writer.FontColorBlue"},
-        "color blue": {"writer": "Writer.FontColorBlue"},
-        "font blue": {"writer": "Writer.FontColorBlue"},
-        "blue font": {"writer": "Writer.FontColorBlue"},
-        "text blue": {"writer": "Writer.FontColorBlue"},
-        "blue text": {"writer": "Writer.FontColorBlue"},
-        "make blue": {"writer": "Writer.FontColorBlue"},
-        "change to blue": {"writer": "Writer.FontColorBlue"},
-        "color to blue": {"writer": "Writer.FontColorBlue"},
-        "font color blue": {"writer": "Writer.FontColorBlue"},
-        "green color": {"writer": "Writer.FontColorGreen"},
-        "color green": {"writer": "Writer.FontColorGreen"},
-        "font green": {"writer": "Writer.FontColorGreen"},
-        "green font": {"writer": "Writer.FontColorGreen"},
-        "text green": {"writer": "Writer.FontColorGreen"},
-        "green text": {"writer": "Writer.FontColorGreen"},
-        "make green": {"writer": "Writer.FontColorGreen"},
-        "change to green": {"writer": "Writer.FontColorGreen"},
-        "font color green": {"writer": "Writer.FontColorGreen"},
-        "black color": {"writer": "Writer.FontColorBlack"},
-        "color black": {"writer": "Writer.FontColorBlack"},
-        "font black": {"writer": "Writer.FontColorBlack"},
-        "black font": {"writer": "Writer.FontColorBlack"},
-        "make black": {"writer": "Writer.FontColorBlack"},
-        "font color black": {"writer": "Writer.FontColorBlack"},
-        "white color": {"writer": "Writer.FontColorWhite"},
-        "color white": {"writer": "Writer.FontColorWhite"},
-        "font white": {"writer": "Writer.FontColorWhite"},
-        "white font": {"writer": "Writer.FontColorWhite"},
-        "make white": {"writer": "Writer.FontColorWhite"},
-        "font color white": {"writer": "Writer.FontColorWhite"},
-        "orange color": {"writer": "Writer.FontColorOrange"},
-        "color orange": {"writer": "Writer.FontColorOrange"},
-        "font orange": {"writer": "Writer.FontColorOrange"},
-        "orange font": {"writer": "Writer.FontColorOrange"},
-        "make orange": {"writer": "Writer.FontColorOrange"},
-        "font color orange": {"writer": "Writer.FontColorOrange"},
-        "purple color": {"writer": "Writer.FontColorPurple"},
-        "color purple": {"writer": "Writer.FontColorPurple"},
-        "font purple": {"writer": "Writer.FontColorPurple"},
-        "purple font": {"writer": "Writer.FontColorPurple"},
-        "make purple": {"writer": "Writer.FontColorPurple"},
-        "font color purple": {"writer": "Writer.FontColorPurple"},
-        "yellow color": {"writer": "Writer.FontColorYellow"},
-        "color yellow": {"writer": "Writer.FontColorYellow"},
-        "font yellow": {"writer": "Writer.FontColorYellow"},
-        "yellow font": {"writer": "Writer.FontColorYellow"},
-        "make yellow": {"writer": "Writer.FontColorYellow"},
-        "font color yellow": {"writer": "Writer.FontColorYellow"},
-        # --- Highlight / background color ---
-        "highlight yellow": {"writer": "Writer.HighlightYellow"},
-        "yellow highlight": {"writer": "Writer.HighlightYellow"},
-        "highlight green": {"writer": "Writer.HighlightGreen"},
-        "green highlight": {"writer": "Writer.HighlightGreen"},
-        "highlight red": {"writer": "Writer.HighlightRed"},
-        "red highlight": {"writer": "Writer.HighlightRed"},
-        "highlight blue": {"writer": "Writer.HighlightBlue"},
-        "blue highlight": {"writer": "Writer.HighlightBlue"},
-        "remove highlight": {"writer": "Writer.HighlightNone"},
-        "clear highlight": {"writer": "Writer.HighlightNone"},
-        "no highlight": {"writer": "Writer.HighlightNone"},
-        # --- Clear formatting ---
-        "clear formatting": {"writer": "Writer.ClearFormatting", "impress": "Impress.ClearFormatting", "draw": "Draw.ClearFormatting"},
-        "remove formatting": {"writer": "Writer.ClearFormatting", "impress": "Impress.ClearFormatting", "draw": "Draw.ClearFormatting"},
-        "clear format": {"writer": "Writer.ClearFormatting"},
-        "reset formatting": {"writer": "Writer.ClearFormatting"},
-        "plain text": {"writer": "Writer.ClearFormatting"},
-        # --- Paragraph spacing ---
-        "increase paragraph spacing": {"writer": "Writer.IncreaseParaSpacing"},
-        "increase para spacing": {"writer": "Writer.IncreaseParaSpacing"},
-        "more paragraph space": {"writer": "Writer.IncreaseParaSpacing"},
-        "decrease paragraph spacing": {"writer": "Writer.DecreaseParaSpacing"},
-        "decrease para spacing": {"writer": "Writer.DecreaseParaSpacing"},
-        "less paragraph space": {"writer": "Writer.DecreaseParaSpacing"},
-        # --- Insert operations (Writer) ---
-        "insert page break": {"writer": "Writer.InsertPageBreak"},
-        "page break": {"writer": "Writer.InsertPageBreak"},
-        "new page": {"writer": "Writer.InsertPageBreak"},
-        "insert column break": {"writer": "Writer.InsertColumnBreak"},
-        "column break": {"writer": "Writer.InsertColumnBreak"},
-        "insert special character": {"writer": "Writer.InsertSpecialChar"},
-        "special character": {"writer": "Writer.InsertSpecialChar"},
-        "insert symbol": {"writer": "Writer.InsertSpecialChar"},
-        "insert hyperlink": {"writer": "Writer.InsertHyperlink"},
-        "hyperlink": {"writer": "Writer.InsertHyperlink"},
-        "add link": {"writer": "Writer.InsertHyperlink"},
-        "insert link": {"writer": "Writer.InsertHyperlink"},
-        "insert comment": {"writer": "Writer.InsertComment", "calc": "Calc.InsertComment", "impress": "Impress.InsertComment"},
-        "add comment": {"writer": "Writer.InsertComment", "calc": "Calc.InsertComment"},
-        "insert image": {"writer": "Writer.InsertImage", "calc": "Calc.InsertImage", "impress": "Impress.InsertImage", "draw": "Draw.InsertImage"},
-        "insert picture": {"writer": "Writer.InsertImage", "calc": "Calc.InsertImage", "impress": "Impress.InsertImage"},
-        "add image": {"writer": "Writer.InsertImage", "calc": "Calc.InsertImage"},
-        "insert photo": {"writer": "Writer.InsertImage"},
-        "insert bookmark": {"writer": "Writer.InsertBookmark"},
-        "add bookmark": {"writer": "Writer.InsertBookmark"},
-        "insert footnote": {"writer": "Writer.InsertFootnote"},
-        "add footnote": {"writer": "Writer.InsertFootnote"},
-        "insert endnote": {"writer": "Writer.InsertEndnote"},
-        "add endnote": {"writer": "Writer.InsertEndnote"},
-        "insert header": {"writer": "Writer.InsertHeader"},
-        "add header": {"writer": "Writer.InsertHeader"},
-        "insert footer": {"writer": "Writer.InsertFooter"},
-        "add footer": {"writer": "Writer.InsertFooter"},
-        "insert page number": {"writer": "Writer.InsertPageNumber"},
-        "page number": {"writer": "Writer.InsertPageNumber"},
-        "insert date": {"writer": "Writer.InsertDateField"},
-        "insert date field": {"writer": "Writer.InsertDateField"},
-        "insert time": {"writer": "Writer.InsertTimeField"},
-        "insert time field": {"writer": "Writer.InsertTimeField"},
-        # --- Edit / Utility ---
-        "format paintbrush": {"writer": "Writer.FormatPaintbrush"},
-        "clone formatting": {"writer": "Writer.FormatPaintbrush"},
-        "copy formatting": {"writer": "Writer.FormatPaintbrush"},
-        "select all": {"writer": "Writer.SelectAll"},
-        "undo": {"writer": "Writer.Undo"},
-        "redo": {"writer": "Writer.Redo"},
-        "find and replace": {"writer": "Writer.FindReplace"},
-        "search and replace": {"writer": "Writer.FindReplace"},
-        "word count": {"writer": "Writer.WordCount"},
-        "spell check": {"writer": "Writer.SpellCheck"},
-        "check spelling": {"writer": "Writer.SpellCheck"},
-        # --- Calc number formats ---
-        "currency": {"calc": "Calc.ApplyNumberFormatCurrency"},
-        "currency format": {"calc": "Calc.ApplyNumberFormatCurrency"},
-        "percent": {"calc": "Calc.ApplyNumberFormatPercent"},
-        "percent format": {"calc": "Calc.ApplyNumberFormatPercent"},
-        "date format": {"calc": "Calc.ApplyNumberFormatDate"},
-        "number format": {"calc": "Calc.ApplyNumberFormatDecimal"},
-        "scientific format": {"calc": "Calc.ApplyNumberFormatScientific"},
-        "increase decimals": {"calc": "Calc.IncreaseDecimals"},
-        "add decimal": {"calc": "Calc.IncreaseDecimals"},
-        "more decimals": {"calc": "Calc.IncreaseDecimals"},
-        "decrease decimals": {"calc": "Calc.DecreaseDecimals"},
-        "less decimals": {"calc": "Calc.DecreaseDecimals"},
-        "fewer decimals": {"calc": "Calc.DecreaseDecimals"},
-        # --- Calc cells/rows ---
-        "merge cells": {"calc": "Calc.MergeCells"},
-        "merge": {"calc": "Calc.MergeCells"},
-        "insert row above": {"calc": "Calc.InsertRowAbove"},
-        "insert row below": {"calc": "Calc.InsertRowBelow"},
-        "add row": {"calc": "Calc.InsertRowBelow"},
-        "insert column before": {"calc": "Calc.InsertColumnBefore"},
-        "insert column after": {"calc": "Calc.InsertColumnAfter"},
-        "add column": {"calc": "Calc.InsertColumnAfter"},
-        "delete row": {"calc": "Calc.DeleteRows"},
-        "delete rows": {"calc": "Calc.DeleteRows"},
-        "delete column": {"calc": "Calc.DeleteColumns"},
-        "delete columns": {"calc": "Calc.DeleteColumns"},
-        "wrap text": {"calc": "Calc.WrapText"},
-        "text wrap": {"calc": "Calc.WrapText"},
-        # --- Calc sort/filter ---
-        "sort ascending": {"calc": "Calc.SortAscending"},
-        "sort a to z": {"calc": "Calc.SortAscending"},
-        "sort descending": {"calc": "Calc.SortDescending"},
-        "sort z to a": {"calc": "Calc.SortDescending"},
-        "autofilter": {"calc": "Calc.AutoFilter"},
-        "auto filter": {"calc": "Calc.AutoFilter"},
-        "filter": {"calc": "Calc.AutoFilter"},
-        # --- Calc other ---
-        "freeze panes": {"calc": "Calc.FreezePanes"},
-        "freeze": {"calc": "Calc.FreezePanes"},
-        "autosum": {"calc": "Calc.AutoSum"},
-        "auto sum": {"calc": "Calc.AutoSum"},
-        "sum": {"calc": "Calc.AutoSum"},
-        "insert chart": {"calc": "Calc.InsertChart", "impress": "Impress.InsertChart"},
-        # --- Impress slides ---
-        "new slide": {"impress": "Impress.InsertSlide"},
-        "insert slide": {"impress": "Impress.InsertSlide"},
-        "add slide": {"impress": "Impress.InsertSlide"},
-        "duplicate slide": {"impress": "Impress.DuplicateSlide"},
-        "delete slide": {"impress": "Impress.DeleteSlide"},
-        "remove slide": {"impress": "Impress.DeleteSlide"},
-        "start presentation": {"impress": "Impress.StartPresentation"},
-        "play presentation": {"impress": "Impress.StartPresentation"},
-        "start slideshow": {"impress": "Impress.StartPresentation"},
-        "start from current": {"impress": "Impress.StartFromCurrent"},
-    }
-
-    def _plan_safe_formatting(self, request: ChatRequest) -> ToolProposal | None:
-        """Match user message against known formatting keywords and return a proposal."""
-        normalized = request.user_message.casefold().strip()
-        app_key = {
-            AppType.WRITER: "writer",
-            AppType.CALC: "calc",
-            AppType.IMPRESS: "impress",
-            AppType.DRAW: "draw",
-        }.get(request.app)
-        if app_key is None:
-            return None
-
-        for keyword, app_map in self._SAFE_FORMATTING_KEYWORDS.items():
-            if keyword in normalized:
-                tool_id = app_map.get(app_key)
-                if tool_id is not None:
-                    return ToolProposal(
-                        proposalId=f"{request.request_id}-safe-fmt",
-                        toolId=tool_id,
-                        safetyClass=SafetyClass.SAFE_FORMATTING,
-                        requiresApproval=False,
-                        preview=ActionPreview(
-                            summary=f"Apply {tool_id}",
-                            before="",
-                            after="",
-                        ),
-                        arguments={},
-                    )
-        return None
-
-    def _plan_calc_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Plan a Calc action proposal: formula, chart, or sort."""
-        normalized_message = request.user_message.casefold()
-
-        # Chart creation
-        chart_keywords = ("chart", "graph", "plot", "visualize", "visualization")
-        if any(kw in normalized_message for kw in chart_keywords):
-            chart_type = "Bar"
-            for ct in ("pie", "line", "scatter", "area", "column", "bar"):
-                if ct in normalized_message:
-                    chart_type = ct.capitalize()
-                    break
-            return ToolProposal(
-                proposalId=f"{request.request_id}-calc-chart",
-                toolId="Calc.CreateChartFromSelection",
-                safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=False,
-                preview=ActionPreview(
-                    summary=f"Create {chart_type} chart from selection",
-                    before="",
-                    after=f"[{chart_type} chart]",
-                ),
-                arguments={"chartType": chart_type},
-            )
-
-        # Sort
-        sort_keywords = ("sort", "order", "arrange")
-        if any(kw in normalized_message for kw in sort_keywords):
-            ascending = "descend" not in normalized_message
-            direction = "ascending" if ascending else "descending"
-            return ToolProposal(
-                proposalId=f"{request.request_id}-calc-sort",
-                toolId="Calc.SortSelectedRange",
-                safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=False,
-                preview=ActionPreview(
-                    summary=f"Sort selected range ({direction})",
-                    before="",
-                    after=f"[sorted {direction}]",
-                ),
-                arguments={"ascending": ascending},
-            )
-
-        # Formula insertion
-        selection = request.context.selection
-        if selection is None or not selection.text.strip():
-            return None
-
-        formula_keywords = ("formula", "insert formula", "calculate", "sum", "average", "count")
-        if not any(keyword in normalized_message for keyword in formula_keywords):
-            return None
-
-        # Use the provider to generate a formula suggestion.
-        adapter = self.provider_adapters.get(request.provider)
-        if adapter is None:
-            return None
-
-        provider_request = ProviderRequest(
-            provider=request.provider,
-            model=request.model,
-            prompt=self._build_calc_formula_prompt(request.user_message),
-            context_text=selection.text,
-        )
-        response_text = adapter.complete(provider_request)
-        formula = self._normalize_calc_formula_response(response_text)
-        if formula is None:
-            return None
-
-        return ToolProposal(
-            proposalId=f"{request.request_id}-calc-formula",
-            toolId="Calc.InsertFormulaInSelection",
-            safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=False,
-            preview=ActionPreview(
-                summary=f"Insert formula: {formula}",
-                before=selection.text,
-                after=formula,
-            ),
-            arguments={"formula": formula},
-        )
-
-    def _plan_impress_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Plan an Impress action: slide creation, layout change, or text replacement."""
-        normalized_message = request.user_message.casefold()
-
-        # Slide creation from outline
-        slide_keywords = ("new slide", "create slide", "add slide", "insert slide")
-        if any(kw in normalized_message for kw in slide_keywords):
-            adapter = self.provider_adapters.get(request.provider)
-            if adapter is not None:
-                provider_request = ProviderRequest(
-                    provider=request.provider,
-                    model=request.model,
-                    prompt=self._build_impress_outline_prompt(request.user_message),
-                    context_text=(
-                        request.context.selection.text
-                        if request.context.selection
-                        else ""
-                    ),
-                )
-                outline = adapter.complete(provider_request).strip()
-            else:
-                outline = request.user_message.strip()
-
-            return ToolProposal(
-                proposalId=f"{request.request_id}-impress-slide",
-                toolId="Impress.CreateSlideFromOutline",
-                safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=False,
-                preview=ActionPreview(
-                    summary="Create new slide from outline",
-                    before="",
-                    after=outline,
-                ),
-                arguments={"outline": outline},
-            )
-
-        # Layout change
-        layout_keywords = ("layout", "apply layout", "change layout", "slide layout")
-        if any(kw in normalized_message for kw in layout_keywords):
-            layout = 0  # default blank
-            layout_map = {"blank": 0, "title": 1, "content": 1, "two column": 3}
-            for name, idx in layout_map.items():
-                if name in normalized_message:
-                    layout = idx
-                    break
-            return ToolProposal(
-                proposalId=f"{request.request_id}-impress-layout",
-                toolId="Impress.ApplyLayoutToCurrentSlide",
-                safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=False,
-                preview=ActionPreview(
-                    summary=f"Apply layout {layout} to current slide",
-                    before="",
-                    after=f"[layout {layout}]",
-                ),
-                arguments={"layout": layout},
-            )
-
-        # Text replacement (existing)
-        selection = request.context.selection
-        if selection is None or not selection.text.strip():
-            return None
-
-        rewrite_keywords = ("rewrite", "rephrase", "improve", "reword", "simplify", "shorten")
-        if not any(keyword in normalized_message for keyword in rewrite_keywords):
-            return None
-
-        adapter = self.provider_adapters.get(request.provider)
-        if adapter is None:
-            return None
-
-        provider_request = ProviderRequest(
-            provider=request.provider,
-            model=request.model,
-            prompt=self._build_impress_rewrite_prompt(request.user_message),
-            context_text=selection.text,
-        )
-        response_text = adapter.complete(provider_request)
-        replacement = response_text.strip()
-        if not replacement or replacement == selection.text:
-            return None
-
-        return ToolProposal(
-            proposalId=f"{request.request_id}-impress-replace",
-            toolId="Impress.ReplaceSelectedText",
-            safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=False,
-            preview=ActionPreview(
-                summary="Replace selected Impress text",
-                before=selection.text,
-                after=replacement,
-            ),
-            arguments={"replacementText": replacement},
-        )
-
-    def _plan_draw_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Plan a Draw action: text replacement in selected shapes."""
-        selection = request.context.selection
-        if selection is None or not selection.text.strip():
-            return None
-
-        normalized_message = request.user_message.casefold()
-        rewrite_keywords = ("rewrite", "rephrase", "improve", "reword", "simplify", "shorten")
-        if not any(keyword in normalized_message for keyword in rewrite_keywords):
-            return None
-
-        adapter = self.provider_adapters.get(request.provider)
-        if adapter is None:
-            return None
-
-        provider_request = ProviderRequest(
-            provider=request.provider,
-            model=request.model,
-            prompt=self._build_draw_rewrite_prompt(request.user_message),
-            context_text=selection.text,
-        )
-        response_text = adapter.complete(provider_request)
-        replacement = response_text.strip()
-        if not replacement or replacement == selection.text:
-            return None
-
-        return ToolProposal(
-            proposalId=f"{request.request_id}-draw-replace",
-            toolId="Draw.ReplaceSelectedText",
-            safetyClass=SafetyClass.CONTENT_EDIT,
-            requiresApproval=False,
-            preview=ActionPreview(
-                summary="Replace selected Draw text",
-                before=selection.text,
-                after=replacement,
-            ),
-            arguments={"replacementText": replacement},
-        )
-
-    def _plan_math_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Plan a Math action: formula rewrite or explanation."""
-        selection = request.context.selection
-        if selection is None or not selection.text.strip():
-            return None
-
-        normalized_message = request.user_message.casefold()
-
-        # Formula rewrite
-        rewrite_keywords = (
-            "rewrite", "simplify", "expand", "factor", "convert", "fix", "correct",
-        )
-        if any(keyword in normalized_message for keyword in rewrite_keywords):
-            adapter = self.provider_adapters.get(request.provider)
-            if adapter is None:
-                return None
-
-            provider_request = ProviderRequest(
-                provider=request.provider,
-                model=request.model,
-                prompt=self._build_math_rewrite_prompt(request.user_message),
-                context_text=selection.text,
-            )
-            response_text = adapter.complete(provider_request)
-            formula = response_text.strip()
-            if not formula or formula == selection.text:
-                return None
-
-            return ToolProposal(
-                proposalId=f"{request.request_id}-math-replace",
-                toolId="Math.ReplaceFormula",
-                safetyClass=SafetyClass.CONTENT_EDIT,
-                requiresApproval=False,
-                preview=ActionPreview(
-                    summary="Replace Math formula",
-                    before=selection.text,
-                    after=formula,
-                ),
-                arguments={"formula": formula},
-            )
-
-        # Default: return None (will fall through to direct answer)
-        return None
-
-    def _plan_base_proposal(self, request: ChatRequest) -> ToolProposal | None:
-        """Plan a Base action: SQL query generation or explanation.
-
-        Base actions are informational only — they don't modify the database.
-        """
-        # Base is primarily informational; return None to trigger direct answer.
-        return None
 
     @staticmethod
     def _build_calc_formula_prompt(user_message: str) -> str:
@@ -1726,3 +625,439 @@ class LoaiaSidecarServer:
             )
 
         return adapter.complete(provider_request)
+
+    def _should_use_direct_answer(self, request: ChatRequest) -> bool:
+        normalized = request.user_message.casefold().strip()
+        if not normalized:
+            return True
+
+        return (
+            normalized.endswith("?")
+            or any(normalized.startswith(q) for q in self._QUESTION_STARTERS)
+            or any(keyword in normalized for keyword in self._ANALYSIS_KEYWORDS)
+            or normalized.startswith(("explain ", "summarize", "summarise", "describe "))
+        )
+
+    def _plan_tool_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        if self._should_use_direct_answer(request):
+            return None
+
+        normalized = request.user_message.casefold()
+        writer_rewrite_intent = request.app == AppType.WRITER and any(
+            keyword in normalized
+            for keyword in (
+                "rewrite",
+                "rephrase",
+                "formal",
+                "grammar",
+                "simplify",
+                "shorten",
+                "uppercase",
+                "lowercase",
+                "title case",
+                "sentence case",
+                "fix",
+                "improve",
+            )
+        )
+
+        specialized = self._build_specialized_proposal(request)
+        if specialized is not None:
+            self._plan_sessions[request.request_id] = self._build_execution_plan(request, specialized)
+            return specialized
+        if writer_rewrite_intent:
+            return None
+
+        candidates = self.capability_retriever.search(
+            app=request.app,
+            query=request.user_message,
+            limit=8,
+        )
+        for candidate in candidates:
+            tool_id = candidate.descriptor.tool_id
+            if tool_id == "App.ExecuteUnoCommand":
+                continue
+
+            proposal = self._compose_candidate_proposal(request, tool_id)
+            if proposal is None:
+                if tool_id == "Writer.ReplaceSelection":
+                    return None
+                continue
+
+            self._plan_sessions[request.request_id] = self._build_execution_plan(request, proposal)
+            return proposal
+
+        return None
+
+    def _build_specialized_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        normalized = request.user_message.casefold()
+
+        if request.app == AppType.WRITER:
+            if any(
+                keyword in normalized
+                for keyword in (
+                    "convert to table",
+                    "convert this text to a table",
+                    "visualize this as a table",
+                )
+            ):
+                return self._plan_writer_convert_to_table(request)
+            if any(
+                keyword in normalized
+                for keyword in (
+                    "insert a table",
+                    "insert table",
+                    "create a table",
+                    "add a table",
+                )
+            ):
+                return self._plan_writer_insert_table(request)
+            if any(
+                keyword in normalized
+                for keyword in (
+                    "insert below",
+                    "add below",
+                    "append",
+                    "draft",
+                    "write below",
+                )
+            ):
+                return self._plan_writer_insert_below(request)
+            if any(
+                keyword in normalized
+                for keyword in (
+                    "rewrite",
+                    "rephrase",
+                    "formal",
+                    "grammar",
+                    "simplify",
+                    "shorten",
+                    "uppercase",
+                    "lowercase",
+                    "title case",
+                    "sentence case",
+                    "fix",
+                    "improve",
+                )
+            ):
+                return self._build_writer_replace_proposal(request)
+
+        if request.app == AppType.CALC:
+            if any(keyword in normalized for keyword in ("sort", "order", "arrange")):
+                return self._build_calc_sort_proposal(request)
+            if any(keyword in normalized for keyword in ("chart", "graph", "plot", "visualize", "visualization")):
+                return self._build_calc_chart_proposal(request)
+            if any(keyword in normalized for keyword in ("formula", "insert formula", "calculate", "sum", "average", "count")):
+                return self._build_calc_formula_proposal(request)
+
+        if request.app == AppType.IMPRESS:
+            if any(keyword in normalized for keyword in ("new slide", "create slide", "add slide", "insert slide")):
+                return self._build_impress_create_slide_proposal(request)
+            if any(keyword in normalized for keyword in ("layout", "apply layout", "change layout", "slide layout")):
+                return self._build_impress_layout_proposal(request)
+
+        return None
+
+    def _compose_candidate_proposal(
+        self,
+        request: ChatRequest,
+        tool_id: str,
+    ) -> ToolProposal | None:
+        if tool_id == "Writer.ReplaceSelection":
+            return self._build_writer_replace_proposal(request)
+        if tool_id == "Writer.InsertBelowSelection":
+            return self._plan_writer_insert_below(request)
+        if tool_id == "Writer.InsertTable":
+            return self._plan_writer_insert_table(request)
+        if tool_id == "Writer.ConvertToTable":
+            return self._plan_writer_convert_to_table(request)
+        if tool_id == "Calc.InsertFormulaInSelection":
+            return self._build_calc_formula_proposal(request)
+        if tool_id == "Calc.CreateChartFromSelection":
+            return self._build_calc_chart_proposal(request)
+        if tool_id == "Calc.SortSelectedRange":
+            return self._build_calc_sort_proposal(request)
+        if tool_id == "Impress.ReplaceSelectedText":
+            return self._build_impress_replace_proposal(request)
+        if tool_id == "Impress.CreateSlideFromOutline":
+            return self._build_impress_create_slide_proposal(request)
+        if tool_id == "Impress.ApplyLayoutToCurrentSlide":
+            return self._build_impress_layout_proposal(request)
+        if tool_id == "Draw.ReplaceSelectedText":
+            return self._build_draw_replace_proposal(request)
+        if tool_id == "Math.ReplaceFormula":
+            return self._build_math_replace_proposal(request)
+
+        descriptor = get_capability_descriptor(tool_id)
+        if descriptor is None:
+            return None
+
+        if descriptor.safety_class == SafetyClass.SAFE_FORMATTING:
+            return self._proposal_from_capability(request, tool_id)
+
+        if descriptor.binding.kind == "uno-dispatch":
+            return self._proposal_from_capability(request, tool_id, wrap_dispatch=True)
+
+        return self._proposal_from_capability(request, tool_id)
+
+    def _build_writer_replace_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_writer_rewrite_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        replacement = self._normalize_writer_rewrite_response(adapter.complete(provider_request))
+        if replacement is None or replacement == selection.text:
+            return None
+
+        return self._proposal_from_capability(
+            request,
+            "Writer.ReplaceSelection",
+            preview=ActionPreview(
+                summary="Preview Writer selection replacement",
+                before=selection.text,
+                after=replacement,
+            ),
+            arguments={"replacementText": replacement},
+        )
+
+    def _build_calc_formula_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        selection = request.context.selection
+        if selection is None or not selection.text.strip():
+            return None
+
+        adapter = self.provider_adapters.get(request.provider)
+        if adapter is None:
+            return None
+
+        provider_request = ProviderRequest(
+            provider=request.provider,
+            model=request.model,
+            prompt=self._build_calc_formula_prompt(request.user_message),
+            context_text=selection.text,
+        )
+        formula = self._normalize_calc_formula_response(adapter.complete(provider_request))
+        if formula is None:
+            return None
+
+        return self._proposal_from_capability(
+            request,
+            "Calc.InsertFormulaInSelection",
+            preview=ActionPreview(
+                summary=f"Insert formula: {formula}",
+                before=selection.text,
+                after=formula,
+            ),
+            arguments={"formula": formula},
+        )
+
+    def _build_calc_chart_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        normalized = request.user_message.casefold()
+        chart_type = "Bar"
+        for candidate in ("pie", "line", "scatter", "area", "column", "bar"):
+            if candidate in normalized:
+                chart_type = candidate.capitalize()
+                break
+
+        return self._proposal_from_capability(
+            request,
+            "Calc.CreateChartFromSelection",
+            preview=ActionPreview(
+                summary=f"Create {chart_type} chart from selection",
+                before="",
+                after=f"[{chart_type} chart]",
+            ),
+            arguments={"chartType": chart_type},
+        )
+
+    def _build_calc_sort_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        ascending = "descend" not in request.user_message.casefold()
+        direction = "ascending" if ascending else "descending"
+        return self._proposal_from_capability(
+            request,
+            "Calc.SortSelectedRange",
+            preview=ActionPreview(
+                summary=f"Sort selected range ({direction})",
+                before="",
+                after=f"[sorted {direction}]",
+            ),
+            arguments={"ascending": ascending},
+        )
+
+    def _build_impress_create_slide_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        adapter = self.provider_adapters.get(request.provider)
+        outline = request.user_message.strip()
+        if adapter is not None:
+            provider_request = ProviderRequest(
+                provider=request.provider,
+                model=request.model,
+                prompt=self._build_impress_outline_prompt(request.user_message),
+                context_text=request.context.selection.text if request.context.selection else "",
+            )
+            outline = adapter.complete(provider_request).strip() or outline
+
+        return self._proposal_from_capability(
+            request,
+            "Impress.CreateSlideFromOutline",
+            preview=ActionPreview(
+                summary="Create new slide from outline",
+                before="",
+                after=outline,
+            ),
+            arguments={"outline": outline},
+        )
+
+    def _build_impress_layout_proposal(self, request: ChatRequest) -> ToolProposal | None:
+        normalized = request.user_message.casefold()
+        layout = 0
+        layout_map = {"blank": 0, "title": 1, "content": 1, "two column": 3}
+        for name, value in layout_map.items():
+            if name in normalized:
+                layout = value
+                break
+
+        return self._proposal_from_capability(
+            request,
+            "Impress.ApplyLayoutToCurrentSlide",
+            preview=ActionPreview(
+                summary=f"Apply layout {layout} to current slide",
+                before="",
+                after=f"[layout {layout}]",
+            ),
+            arguments={"layout": layout},
+        )
+
+    def _proposal_from_capability(
+        self,
+        request: ChatRequest,
+        capability_id: str,
+        *,
+        preview: ActionPreview | None = None,
+        arguments: dict[str, object] | None = None,
+        wrap_dispatch: bool = False,
+    ) -> ToolProposal:
+        descriptor = get_capability_descriptor(capability_id)
+        if descriptor is None:
+            raise ValueError(f"Unknown capability: {capability_id}")
+
+        proposal_tool_id = capability_id
+        proposal_arguments = dict(arguments or {})
+        if wrap_dispatch:
+            proposal_tool_id = "App.ExecuteUnoCommand"
+            proposal_arguments = {"targetToolId": capability_id, **proposal_arguments}
+
+        return ToolProposal(
+            proposalId=f"{request.request_id}-{capability_id.casefold().replace('.', '-').replace('_', '-')}",
+            toolId=proposal_tool_id,
+            safetyClass=descriptor.safety_class,
+            requiresApproval=descriptor.requires_approval,
+            preview=preview
+            or ActionPreview(
+                summary=f"Apply {capability_id}",
+                before="",
+                after="",
+            ),
+            arguments=proposal_arguments,
+        )
+
+    def _build_execution_plan(self, request: ChatRequest, proposal: ToolProposal) -> ExecutionPlan:
+        descriptor_hash = get_descriptor_hash(proposal.tool_id) or ""
+        approval_mode = "explicit" if proposal.requires_approval else "auto"
+        return ExecutionPlan(
+            sessionId=request.request_id,
+            goal=request.user_message,
+            steps=[
+                PlanStep(
+                    stepId=f"{request.request_id}-step-1",
+                    capabilityId=proposal.tool_id,
+                    descriptorHash=descriptor_hash,
+                    arguments=proposal.arguments,
+                    targetScope=str(request.privacy_scope),
+                    approvalMode=approval_mode,
+                    onFailure="replan",
+                )
+            ],
+        )
+
+    def _handle_observation_report(self, report: ObservationReport) -> PlanRevision:
+        plan = self._plan_sessions.get(report.session_id)
+        if plan is None:
+            return PlanRevision(
+                sessionId=report.session_id,
+                action="stop",
+                reason="No matching execution plan was found for this session.",
+            )
+
+        decision = evaluate_observation(plan, report)
+        if decision.action == "complete":
+            self._plan_sessions.pop(report.session_id, None)
+
+        return PlanRevision(
+            sessionId=report.session_id,
+            action=decision.action,
+            reason=decision.reason,
+            nextStepId=decision.next_step_id,
+        )
+
+    @staticmethod
+    def _build_writer_insert_below_prompt(user_message: str) -> str:
+        return "\n".join(
+            [
+                "You are a LibreOffice Writer drafting assistant.",
+                "Write text that should be inserted below the current selection.",
+                "Reply with ONLY the inserted text. No markdown fences or commentary.",
+                f"User request: {user_message.strip()}",
+            ]
+        )
+
+    @staticmethod
+    def _build_writer_rewrite_prompt(user_message: str) -> str:
+        return "\n".join(
+            [
+                "You are a LibreOffice Writer rewrite assistant.",
+                "Rewrite the selected text according to the user request.",
+                "Reply with ONLY valid JSON.",
+                'If a rewrite is appropriate, reply with: {"action":"replace-selection","replacementText":"<full replacement text>"}',
+                'If no rewrite is needed, reply with: {"action":"no-replacement"}',
+                f"User request: {user_message.strip()}",
+            ]
+        )
+
+    @staticmethod
+    def _normalize_writer_rewrite_response(response_text: str) -> str | None:
+        normalized = response_text.strip()
+        if not normalized:
+            return None
+
+        if normalized.startswith("```") and normalized.endswith("```"):
+            lines = normalized.splitlines()
+            if lines and lines[0].startswith("```"):
+                lines = lines[1:]
+            if lines and lines[-1].startswith("```"):
+                lines = lines[:-1]
+            normalized = "\n".join(lines).strip()
+
+        try:
+            payload = json.loads(normalized)
+        except json.JSONDecodeError:
+            return normalized or None
+
+        if not isinstance(payload, dict):
+            return None
+
+        action = str(payload.get("action", "")).casefold()
+        if action == "no-replacement":
+            return None
+        replacement = payload.get("replacementText")
+        if action == "replace-selection" and isinstance(replacement, str) and replacement:
+            return replacement
+        return None
