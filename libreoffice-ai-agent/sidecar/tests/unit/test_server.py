@@ -344,6 +344,20 @@ def test_calc_sort_proposal() -> None:
     assert proposal.arguments["ascending"] is False
 
 
+def test_dispatch_backed_writer_command_routes_through_execute_uno_command() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(user_message="Insert a page break here")
+    )
+
+    assert response.type == "ToolProposal"
+    proposal = response.proposals[0]
+    assert proposal.tool_id == "App.ExecuteUnoCommand"
+    assert proposal.arguments["targetToolId"] == "Writer.InsertPageBreak"
+
+
 # ------------------------------------------------------------------
 # Impress slide / layout planner tests
 # ------------------------------------------------------------------
@@ -383,6 +397,194 @@ def test_impress_layout_proposal() -> None:
     proposal = response.proposals[0]
     assert proposal.tool_id == "Impress.ApplyLayoutToCurrentSlide"
     assert proposal.arguments["layout"] == 0
+
+
+def test_writer_multistep_plan_returns_follow_up_proposal_after_observation() -> None:
+    adapter = FakeProviderAdapter(
+        answer='{"action":"replace-selection","replacementText":"HELLO WORLD"}'
+    )
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            user_message="Please convert this selection to uppercase and make it bold.",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Writer.ReplaceSelection"
+
+    revision = server.handle_message(
+        {
+            "type": "ObservationReport",
+            "sessionId": "req-openrouter-1",
+            "stepId": "req-openrouter-1-step-1",
+            "outcome": "satisfied",
+            "preconditions": [
+                {
+                    "probe": "selection.non_empty",
+                    "status": "passed",
+                    "actual": True,
+                    "expected": True,
+                }
+            ],
+            "postconditions": [
+                {
+                    "probe": "selection.equals_preview_after",
+                    "status": "passed",
+                    "actual": "HELLO WORLD",
+                    "expected": "HELLO WORLD",
+                }
+            ],
+            "summary": "Applied Writer.ReplaceSelection",
+        }
+    )
+
+    assert revision["type"] == "PlanRevision"
+    assert revision["action"] == "continue"
+    assert revision["nextStepId"] == "req-openrouter-1-step-2"
+    assert revision["nextProposal"]["toolId"] == "Writer.ToggleBold"
+
+
+def test_calc_sort_then_chart_plan_returns_chart_follow_up_after_observation() -> None:
+    adapter = FakeProviderAdapter()
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.CALC,
+            selection_text="A1:B10",
+            user_message="Sort this data in descending order and create a pie chart.",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Calc.SortSelectedRange"
+
+    revision = server.handle_message(
+        {
+            "type": "ObservationReport",
+            "sessionId": "req-openrouter-1",
+            "stepId": "req-openrouter-1-step-1",
+            "outcome": "partial",
+            "preconditions": [
+                {
+                    "probe": "selection.non_empty",
+                    "status": "passed",
+                    "actual": True,
+                    "expected": True,
+                }
+            ],
+            "postconditions": [
+                {
+                    "probe": "calc.selection_first_column_order.equals_argument.sortDirection",
+                    "status": "passed",
+                    "actual": "descending",
+                    "expected": "descending",
+                }
+            ],
+            "summary": "Sorted selected range (descending).",
+        }
+    )
+
+    assert revision["type"] == "PlanRevision"
+    assert revision["action"] == "continue"
+    assert revision["nextProposal"]["toolId"] == "Calc.CreateChartFromSelection"
+    assert revision["nextProposal"]["arguments"]["chartType"] == "Pie"
+
+
+def test_calc_formula_then_chart_plan_returns_chart_follow_up_after_observation() -> None:
+    adapter = FakeProviderAdapter(answer="=SUM(A1:A10)")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.CALC,
+            selection_text="100",
+            user_message="Insert a SUM formula and create a pie chart.",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Calc.InsertFormulaInSelection"
+
+    revision = server.handle_message(
+        {
+            "type": "ObservationReport",
+            "sessionId": "req-openrouter-1",
+            "stepId": "req-openrouter-1-step-1",
+            "outcome": "partial",
+            "preconditions": [
+                {
+                    "probe": "selection.non_empty",
+                    "status": "passed",
+                    "actual": True,
+                    "expected": True,
+                }
+            ],
+            "postconditions": [
+                {
+                    "probe": "selection.equals_argument.formula",
+                    "status": "passed",
+                    "actual": "=SUM(A1:A10)",
+                    "expected": "=SUM(A1:A10)",
+                }
+            ],
+            "summary": "Inserted formula: =SUM(A1:A10)",
+        }
+    )
+
+    assert revision["type"] == "PlanRevision"
+    assert revision["action"] == "continue"
+    assert revision["nextProposal"]["toolId"] == "Calc.CreateChartFromSelection"
+    assert revision["nextProposal"]["arguments"]["chartType"] == "Pie"
+
+
+def test_impress_replace_then_layout_plan_returns_layout_follow_up_after_observation() -> None:
+    adapter = FakeProviderAdapter(answer="Simplified slide text")
+    server = LoaiaSidecarServer(provider_adapters={adapter.name: adapter})
+
+    response = server.handle_chat_request(
+        make_chat_request(
+            app=AppType.IMPRESS,
+            selection_text="Complex slide text with jargon.",
+            user_message="Rewrite this to be simpler and apply a blank layout.",
+        )
+    )
+
+    assert response.type == "ToolProposal"
+    assert response.proposals[0].tool_id == "Impress.ReplaceSelectedText"
+
+    revision = server.handle_message(
+        {
+            "type": "ObservationReport",
+            "sessionId": "req-openrouter-1",
+            "stepId": "req-openrouter-1-step-1",
+            "outcome": "partial",
+            "preconditions": [
+                {
+                    "probe": "selection.non_empty",
+                    "status": "passed",
+                    "actual": True,
+                    "expected": True,
+                }
+            ],
+            "postconditions": [
+                {
+                    "probe": "selection.equals_preview_after",
+                    "status": "passed",
+                    "actual": "Simplified slide text",
+                    "expected": "Simplified slide text",
+                }
+            ],
+            "summary": "Replaced selected Impress text.",
+        }
+    )
+
+    assert revision["type"] == "PlanRevision"
+    assert revision["action"] == "continue"
+    assert revision["nextProposal"]["toolId"] == "Impress.ApplyLayoutToCurrentSlide"
+    assert revision["nextProposal"]["arguments"]["layout"] == 0
 
 
 # ------------------------------------------------------------------

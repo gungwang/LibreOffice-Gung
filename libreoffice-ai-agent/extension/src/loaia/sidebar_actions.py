@@ -21,7 +21,13 @@ except ImportError:  # pragma: no cover - exercised under LibreOffice runtime
 
     unohelper = _UnoHelperModule()
 
-from loaia.actions.executor import execute_safe_formatting, is_safe_formatting_action
+from loaia.actions.executor import (
+    can_execute_via_dispatch,
+    execute_dispatch_action,
+    execute_safe_formatting,
+    execute_uno_command,
+    is_safe_formatting_action,
+)
 from loaia.audit import AuditLogger
 from loaia.context.base import capture_base_context
 from loaia.context.calc import apply_calc_formula, capture_calc_selection
@@ -36,6 +42,7 @@ from loaia.document_session import (
     resolve_history_session_key,
     resolve_profile_id,
 )
+from loaia.observation import build_observation_results, capture_observation_state
 from loaia.session_store import (
     JsonSidebarSessionStore,
     SqliteSidebarSessionStore,
@@ -44,6 +51,8 @@ from loaia.session_store import (
 from loaia.sidecar_lifecycle import ensure_sidecar_running
 from loaia.undo import undo_context
 from loaia_shared.errors import TransportError
+from loaia_shared.schema.messages import ObservationReport, PlanRevision
+from loaia_shared.schema.plans import ProbeResult
 from loaia_shared.transport import (
     DEFAULT_NAMED_PIPE_ADDRESS,
     decode_transport_payload,
@@ -143,6 +152,10 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             self.handle_send(window=window)
             return True
 
+        if method_name == "Approve":
+            self.approve_pending(window=window)
+            return True
+
         if method_name == "SaveSettings":
             self.save_settings(window=window)
             return True
@@ -150,7 +163,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         return False
 
     def getSupportedMethodNames(self) -> tuple[str, ...]:
-        return ("Send", "SaveSettings")
+        return ("Send", "Approve", "SaveSettings")
 
     def handle_send(
         self,
@@ -162,6 +175,18 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             window=window,
             prompt_override=prompt,
             pipe_address_override=pipe_address,
+        )
+
+    def preview_current_selection(
+        self,
+        window: object | None = None,
+        prompt: str | None = None,
+        pipe_address: str | None = None,
+    ) -> str:
+        return self.handle_send(
+            window=window,
+            prompt=prompt,
+            pipe_address=pipe_address,
         )
 
     def save_settings(
@@ -176,6 +201,16 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             provider_override=provider,
             model_override=model,
             api_key_override=api_key,
+        )
+
+    def approve_pending(
+        self,
+        window: object | None = None,
+        pipe_address: str | None = None,
+    ) -> str:
+        return self._handle_approve(
+            window=window,
+            pipe_address_override=pipe_address,
         )
 
     def _handle_send(
@@ -193,6 +228,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if not prompt.strip():
             message = "Enter a message before sending."
             self.panel.set_last_error(message)
+            self.panel.append_message(message)
             self._append_chat(window, f"[Error] {message}")
             self._record_error(session_key, message)
             return message
@@ -200,6 +236,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         # Show user message in chat
         self._append_chat(window, f"You: {prompt.strip()}")
         _set_control_text(window, "PromptInput", "")
+        self.panel.clear_pending_proposal()
 
         self.panel.record_request(
             provider=self.panel.state.provider,
@@ -230,7 +267,9 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             chat_payload = self._build_chat_request(
                 selection, prompt, history_summary
             )
-            self._current_request_id = str(chat_payload.get("requestId", ""))
+            request_id = str(chat_payload.get("requestId", ""))
+            self._current_request_id = request_id
+            self.panel.set_selection_preview(selection.text)
 
             def _on_stream_chunk(frame: dict[str, object]) -> None:
                 if self._cancel_requested:
@@ -248,17 +287,24 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
             if self._cancel_requested:
                 cancel_msg = "Request cancelled."
+                self.panel.set_last_error(cancel_msg)
+                self.panel.append_message(cancel_msg)
                 self._append_chat(window, f"[System] {cancel_msg}")
                 self._record_error(session_key, cancel_msg)
                 return cancel_msg
         except TransportError as exc:
             self.panel.set_streaming(False)
             self.panel.set_connected(False)
+            self.panel.set_last_error(str(exc))
+            self.panel.append_message(str(exc))
             self._append_chat(window, f"[Error] {exc}")
             self._record_error(session_key, str(exc))
             return str(exc)
         except ValueError as exc:
             self.panel.set_streaming(False)
+            self.panel.set_connected(False)
+            self.panel.set_last_error(str(exc))
+            self.panel.append_message(str(exc))
             self._append_chat(window, f"[Error] {exc}")
             self._record_error(session_key, str(exc))
             return str(exc)
@@ -269,6 +315,9 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if response_type == "DirectAnswer":
             text = response.get("text")
             answer_text = text if isinstance(text, str) else "AI returned an empty answer."
+            self.panel.clear_pending_proposal()
+            self.panel.set_last_result(answer_text)
+            self.panel.append_message(answer_text)
             self._append_chat(window, f"AI: {answer_text}")
             self._record_result(session_key, answer_text)
             return answer_text
@@ -285,38 +334,42 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 self._record_error(session_key, message)
                 return message
 
-            proposal = _proposal_from_payload(proposals[0])
+            proposal = _proposal_from_payload(
+                proposals[0],
+                session_id=_optional_string(response.get("requestId")) or request_id,
+            )
 
-            # Auto-execute all proposals directly (no approval needed)
+            if getattr(proposal, "requires_approval", False):
+                preview = getattr(proposal, "preview", None)
+                preview_summary = getattr(preview, "summary", None) or proposal.tool_id
+                self.panel.set_pending_proposal(proposal)
+                self.panel.set_last_result(preview_summary)
+                self.panel.append_message(preview_summary)
+                self._record_result(session_key, preview_summary)
+                return preview_summary
+
             try:
-                model = get_model(get_controller(self.panel.frame))
-                with undo_context(model, f"AI: {proposal.tool_id}"):
-                    if is_safe_formatting_action(proposal.tool_id):
-                        result_message = execute_safe_formatting(
-                            self.panel.frame, proposal.tool_id
-                        )
-                    else:
-                        self._execute_proposal(selection, proposal)
-                        result_message = f"Applied: {proposal.tool_id}"
+                result_message = self._execute_proposal_step(
+                    transport_client,
+                    session_key,
+                    selection,
+                    proposal,
+                    window=window,
+                )
             except (ValueError, RuntimeError) as exc:
+                self.panel.set_last_error(str(exc))
+                self.panel.append_message(str(exc))
                 self._append_chat(window, f"[Error] {exc}")
                 self._record_error(session_key, str(exc))
                 return str(exc)
 
             self._append_chat(window, f"AI: Done. {result_message}")
-            self._record_result(session_key, result_message, role="system")
-            self.audit.log_auto_apply(
-                request_id=getattr(proposal, "proposal_id", ""),
-                tool_id=proposal.tool_id,
-                document_url=resolve_document_url(self.panel.frame),
-                provider=self.panel.state.provider,
-                model=self.panel.state.model,
-            )
             return result_message
 
         if response_type == "ConsentRequest":
             # Auto-grant scope escalation for simpler UX
             reason = response.get("reason", "")
+            self.panel.append_message(str(reason) or "Scope escalated.")
             self._append_chat(window, f"[System] Scope escalated: {reason}")
             self.panel.state.privacy_scope = str(
                 response.get("requestedScope", "full-document")
@@ -330,130 +383,169 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
 
         message = response.get("message")
         if isinstance(message, str):
+            self.panel.set_last_error(message)
+            self.panel.append_message(message)
             self._append_chat(window, f"[Error] {message}")
             self._record_error(session_key, message)
             return message
 
         unexpected_message = f"Unexpected response: {response_type!r}"
+        self.panel.set_last_error(unexpected_message)
+        self.panel.append_message(unexpected_message)
         self._append_chat(window, f"[Error] {unexpected_message}")
         self._record_error(session_key, unexpected_message)
         return unexpected_message
 
-    def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> None:
+    def _handle_approve(
+        self,
+        window: object | None,
+        pipe_address_override: str | None = None,
+    ) -> str:
+        proposal = self.panel.state.pending_proposal
+        if proposal is None:
+            message = "No pending proposal is available for approval."
+            self.panel.set_last_error(message)
+            self.panel.append_message(message)
+            return message
+
+        session_key = resolve_history_session_key(self.panel.frame)
+        pipe_address = (
+            pipe_address_override
+            if pipe_address_override is not None
+            else DEFAULT_NAMED_PIPE_ADDRESS
+        )
+        transport_client = (
+            self.transport
+            if pipe_address_override is None
+            else RuntimeSidecarTransportClient(address=pipe_address)
+        )
+
+        try:
+            selection = self._capture_selection()
+            result_message = self._execute_proposal_step(
+                transport_client,
+                session_key,
+                selection,
+                proposal,
+                window=window,
+            )
+        except (ValueError, RuntimeError) as exc:
+            self.panel.set_last_error(str(exc))
+            self.panel.append_message(str(exc))
+            self._record_error(session_key, str(exc))
+            return str(exc)
+
+        return result_message
+
+    def _execute_proposal(self, selection: RuntimeSelection, proposal: object) -> str | None:
         """Execute a proposal against the given selection."""
         tool_id = getattr(proposal, "tool_id", "")
+        arguments = _extract_proposal_arguments(proposal)
+
+        if tool_id == "App.ExecuteUnoCommand":
+            return execute_uno_command(
+                self.panel.frame,
+                target_tool_id=_optional_string(arguments.get("targetToolId")),
+                dispatch_alias=_optional_string(arguments.get("dispatchAlias")),
+                command=_optional_string(arguments.get("command")),
+                arguments=arguments,
+            )
+
+        if can_execute_via_dispatch(tool_id):
+            return execute_dispatch_action(self.panel.frame, tool_id, **arguments)
 
         if tool_id == "Writer.ReplaceSelection":
             replacement_text = _extract_replacement_text(proposal)
             _apply_writer_replacement(selection, replacement_text)
-            return
+            return None
 
         if tool_id == "Writer.InsertBelowSelection":
             text = _extract_replacement_text(proposal)
             _insert_below_writer_selection(selection, text)
-            return
+            return None
 
         if tool_id == "Calc.InsertFormulaInSelection":
-            arguments = getattr(proposal, "arguments", {})
             formula = arguments.get("formula") if isinstance(arguments, dict) else None
             if not isinstance(formula, str) or not formula:
                 raise ValueError("Calc formula proposal does not contain a formula.")
             if selection.controller is None:
                 raise ValueError("Calc controller is not available for formula insertion.")
-            apply_calc_formula(selection.controller, formula)
-            return
+            return apply_calc_formula(selection.controller, formula)
 
         if tool_id == "Calc.CreateChartFromSelection":
             if selection.controller is None:
                 raise ValueError("Calc controller is not available for chart creation.")
             from loaia.context.calc import create_chart_from_selection
 
-            arguments = getattr(proposal, "arguments", {})
             chart_type = (
                 arguments.get("chartType", "Bar")
                 if isinstance(arguments, dict)
                 else "Bar"
             )
-            create_chart_from_selection(selection.controller, chart_type)
-            return
+            return create_chart_from_selection(selection.controller, chart_type)
 
         if tool_id == "Calc.SortSelectedRange":
             if selection.controller is None:
                 raise ValueError("Calc controller is not available for sorting.")
             from loaia.context.calc import sort_selected_range
 
-            arguments = getattr(proposal, "arguments", {})
             ascending = (
                 arguments.get("ascending", True)
                 if isinstance(arguments, dict)
                 else True
             )
-            sort_selected_range(selection.controller, ascending=ascending)
-            return
+            return sort_selected_range(selection.controller, ascending=ascending)
 
         if tool_id == "Impress.ReplaceSelectedText":
             replacement_text = _extract_replacement_text(proposal)
             if selection.controller is None:
                 raise ValueError("Impress controller is not available for text replacement.")
-            apply_impress_text_replacement(selection.controller, replacement_text)
-            return
+            return apply_impress_text_replacement(selection.controller, replacement_text)
 
         if tool_id == "Writer.InsertTable":
-            arguments = getattr(proposal, "arguments", {})
-            if not isinstance(arguments, dict):
-                arguments = {}
             rows = int(arguments.get("rows", 3))
             cols = int(arguments.get("columns", 3))
             _insert_writer_table(selection, rows, cols)
-            return
+            return "Inserted Writer table."
 
         if tool_id == "Writer.ConvertToTable":
-            arguments = getattr(proposal, "arguments", {})
-            if not isinstance(arguments, dict):
-                arguments = {}
             rows = int(arguments.get("rows", 3))
             cols = int(arguments.get("columns", 3))
             tsv_data = str(arguments.get("tsvData", ""))
             _convert_writer_text_to_table(selection, rows, cols, tsv_data)
-            return
+            return "Converted Writer selection to a table."
 
         if tool_id == "Impress.CreateSlideFromOutline":
             if selection.controller is None:
                 raise ValueError("Impress controller is not available for slide creation.")
             from loaia.context.impress import create_slide_from_outline
 
-            arguments = getattr(proposal, "arguments", {})
             outline = (
                 arguments.get("outline", "")
                 if isinstance(arguments, dict)
                 else ""
             )
-            create_slide_from_outline(selection.controller, outline)
-            return
+            return create_slide_from_outline(selection.controller, outline)
 
         if tool_id == "Impress.ApplyLayoutToCurrentSlide":
             if selection.controller is None:
                 raise ValueError("Impress controller is not available for layout change.")
             from loaia.context.impress import apply_layout_to_current_slide
 
-            arguments = getattr(proposal, "arguments", {})
             layout = (
                 arguments.get("layout", 0)
                 if isinstance(arguments, dict)
                 else 0
             )
-            apply_layout_to_current_slide(selection.controller, layout)
-            return
+            return apply_layout_to_current_slide(selection.controller, layout)
 
         if tool_id == "Draw.ReplaceSelectedText":
             replacement_text = _extract_replacement_text(proposal)
             if selection.controller is None:
                 raise ValueError("Draw controller is not available for text replacement.")
-            apply_draw_text_replacement(selection.controller, replacement_text)
-            return
+            return apply_draw_text_replacement(selection.controller, replacement_text)
 
         if tool_id == "Math.ReplaceFormula":
-            arguments = getattr(proposal, "arguments", {})
             formula = arguments.get("formula") if isinstance(arguments, dict) else None
             if not isinstance(formula, str) or not formula:
                 formula = _extract_replacement_text(proposal)
@@ -461,11 +553,10 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                 raise ValueError("Math formula proposal does not contain a formula.")
             if selection.controller is None:
                 raise ValueError("Math controller is not available for formula replacement.")
-            apply_math_formula(selection.controller, formula)
-            return
+            return apply_math_formula(selection.controller, formula)
 
         if tool_id == "Base.ExplainQuery":
-            return
+            return f"Applied {tool_id}"
 
         raise ValueError(f"Unsupported tool: {tool_id}")
 
@@ -521,8 +612,13 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             api_key_status=api_key_status,
         )
 
-        message = f"Settings saved. Provider: {provider}, Model: {model}"
-        _set_control_text(window, "SettingsStatus", message)
+        message = f"Saved Writer-first provider settings. Provider: {provider}, Model: {model}"
+        self.panel.apply_settings(
+            provider=provider,
+            model=model,
+            api_key_status=api_key_status,
+            notice=message,
+        )
         # Clear API key field after saving for security
         _set_control_text(window, "ApiKeyInput", "")
         self._append_chat(window, f"[System] {message}")
@@ -567,7 +663,7 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
         if not hasattr(controller, "getSelection"):
             raise ValueError("Current document controller does not expose selection APIs.")
 
-        # Try to get selected text first
+        # Selection-only is the default privacy boundary for Writer edits.
         index_access = controller.getSelection()
         selection_text = ""
         text_ranges = ()
@@ -580,20 +676,8 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
                     _get_range_text(r) for r in text_ranges
                 )
 
-        # If no selection, use full document text
         if not selection_text.strip():
-            doc_text = model.Text
-            if hasattr(doc_text, "getString"):
-                selection_text = doc_text.getString() or ""
-                # Create a text range spanning the full document for replacement
-                if hasattr(doc_text, "createTextCursor"):
-                    cursor = doc_text.createTextCursor()
-                    cursor.gotoStart(False)
-                    cursor.gotoEnd(True)
-                    text_ranges = (cursor,)
-
-        if not selection_text.strip():
-            raise ValueError("The document is empty. Add some text first.")
+            raise ValueError("Select text in Writer before sending a request.")
 
         return RuntimeSelection(
             app_type=AppType.WRITER,
@@ -724,6 +808,189 @@ class SidebarDialogEventHandler(unohelper.Base, XContainerWindowEventHandler):
             return
         self.session_store.record_error(session_key, message)
 
+    def _report_observation(
+        self,
+        transport_client: RuntimeSidecarTransportClient,
+        proposal: object,
+        outcome: str,
+        summary: str,
+        preconditions: list[ProbeResult] | None = None,
+        postconditions: list[ProbeResult] | None = None,
+    ) -> PlanRevision | None:
+        session_id = _optional_string(getattr(proposal, "session_id", None))
+        step_id = _optional_string(getattr(proposal, "step_id", None))
+        if session_id is None or step_id is None:
+            return None
+
+        payload = ObservationReport(
+            sessionId=session_id,
+            stepId=step_id,
+            outcome=outcome,
+            preconditions=preconditions or [],
+            postconditions=postconditions or [],
+            summary=summary,
+        )
+        response = transport_client.request(payload.model_dump(by_alias=True, mode="json"))
+        if response.get("type") != "PlanRevision":
+            return None
+
+        return PlanRevision.model_validate(response)
+
+    def _execute_proposal_step(
+        self,
+        transport_client: RuntimeSidecarTransportClient,
+        session_key: object,
+        selection: RuntimeSelection,
+        proposal: object,
+        *,
+        window: object | None,
+        depth: int = 0,
+    ) -> str:
+        if depth > 4:
+            raise RuntimeError("Plan revision depth exceeded the current safety limit.")
+
+        before_text = selection.text
+        state_before = capture_observation_state(proposal, selection.controller)
+
+        try:
+            model = get_model(get_controller(self.panel.frame))
+            with undo_context(model, f"AI: {proposal.tool_id}"):
+                if is_safe_formatting_action(proposal.tool_id):
+                    result_message = execute_safe_formatting(
+                        self.panel.frame,
+                        proposal.tool_id,
+                        **_extract_proposal_arguments(proposal),
+                    )
+                else:
+                    result_message = self._execute_proposal(selection, proposal) or f"Applied {proposal.tool_id}"
+        except (ValueError, RuntimeError):
+            after_text = self._capture_observation_selection_text(selection, before_text)
+            state_after = capture_observation_state(proposal, selection.controller)
+            preconditions, postconditions, _ = build_observation_results(
+                proposal,
+                selection_before=before_text,
+                selection_after=after_text,
+                summary="",
+                controller=selection.controller,
+                state_before=state_before,
+                state_after=state_after,
+            )
+            revision = self._report_observation(
+                transport_client,
+                proposal,
+                outcome="failed",
+                summary=f"Failed {proposal.tool_id}",
+                preconditions=preconditions,
+                postconditions=postconditions,
+            )
+            follow_up = self._apply_plan_revision(
+                transport_client,
+                session_key,
+                revision,
+                window=window,
+                depth=depth + 1,
+            )
+            if follow_up is not None:
+                return follow_up
+            raise
+
+        after_text = self._capture_observation_selection_text(selection, before_text)
+        state_after = capture_observation_state(proposal, selection.controller)
+        preconditions, postconditions, outcome = build_observation_results(
+            proposal,
+            selection_before=before_text,
+            selection_after=after_text,
+            summary=result_message,
+            controller=selection.controller,
+            state_before=state_before,
+            state_after=state_after,
+        )
+        revision = self._report_observation(
+            transport_client,
+            proposal,
+            outcome=outcome,
+            summary=result_message,
+            preconditions=preconditions,
+            postconditions=postconditions,
+        )
+
+        self.panel.clear_pending_proposal()
+        self.panel.set_selection_preview(after_text)
+        self.panel.set_last_result(result_message)
+        self.panel.append_message(result_message)
+        self._record_result(session_key, result_message, role="system")
+        self.audit.log_auto_apply(
+            request_id=getattr(proposal, "proposal_id", ""),
+            tool_id=proposal.tool_id,
+            document_url=resolve_document_url(self.panel.frame),
+            provider=self.panel.state.provider,
+            model=self.panel.state.model,
+        )
+
+        follow_up = self._apply_plan_revision(
+            transport_client,
+            session_key,
+            revision,
+            window=window,
+            depth=depth + 1,
+        )
+        return follow_up or result_message
+
+    def _apply_plan_revision(
+        self,
+        transport_client: RuntimeSidecarTransportClient,
+        session_key: object,
+        revision: PlanRevision | None,
+        *,
+        window: object | None,
+        depth: int,
+    ) -> str | None:
+        if revision is None:
+            return None
+
+        if revision.action in {"complete", "stop"} or revision.next_proposal is None:
+            return None
+
+        next_proposal = _proposal_from_payload(
+            revision.next_proposal.model_dump(by_alias=True, mode="json"),
+            session_id=revision.session_id,
+            step_id=revision.next_step_id,
+        )
+        if next_proposal.requires_approval:
+            preview = getattr(next_proposal, "preview", None)
+            preview_summary = getattr(preview, "summary", None) or next_proposal.tool_id
+            self.panel.set_pending_proposal(next_proposal)
+            self.panel.set_last_result(preview_summary)
+            self.panel.append_message(preview_summary)
+            self._record_result(session_key, preview_summary)
+            return preview_summary
+
+        selection = self._capture_selection()
+        return self._execute_proposal_step(
+            transport_client,
+            session_key,
+            selection,
+            next_proposal,
+            window=window,
+            depth=depth,
+        )
+
+    def _capture_observation_selection_text(
+        self,
+        selection: RuntimeSelection,
+        fallback: str,
+    ) -> str:
+        try:
+            current_selection = self._capture_selection()
+            if current_selection.text.strip():
+                return current_selection.text
+        except ValueError:
+            pass
+
+        if selection.text.strip():
+            return selection.text
+        return fallback
+
 
 def _get_range_text(text_range: object) -> str:
     if not hasattr(text_range, "getString"):
@@ -732,6 +999,19 @@ def _get_range_text(text_range: object) -> str:
     if not isinstance(text, str):
         raise ValueError("Writer selected range returned a non-string value.")
     return text
+
+
+def _extract_proposal_arguments(proposal: object) -> dict[str, object]:
+    arguments = getattr(proposal, "arguments", {})
+    if isinstance(arguments, dict):
+        return arguments
+    return {}
+
+
+def _optional_string(value: object) -> str | None:
+    if isinstance(value, str) and value:
+        return value
+    return None
 
 
 def _apply_writer_replacement(selection: RuntimeSelection, replacement_text: str) -> None:
@@ -900,7 +1180,11 @@ def _extract_replacement_text(proposal: object) -> str:
     raise ValueError("Proposal does not contain replacement text.")
 
 
-def _proposal_from_payload(payload: dict[str, object]) -> SimpleNamespace:
+def _proposal_from_payload(
+    payload: dict[str, object],
+    session_id: str | None = None,
+    step_id: str | None = None,
+) -> SimpleNamespace:
     preview = None
     preview_payload = payload.get("preview")
     if isinstance(preview_payload, dict):
@@ -910,6 +1194,8 @@ def _proposal_from_payload(payload: dict[str, object]) -> SimpleNamespace:
             after=preview_payload.get("after"),
         )
     arguments = payload.get("arguments")
+    resolved_session_id = session_id or None
+    resolved_step_id = step_id or (f"{resolved_session_id}-step-1" if resolved_session_id else None)
     return SimpleNamespace(
         proposal_id=payload.get("proposalId"),
         tool_id=payload.get("toolId"),
@@ -917,7 +1203,17 @@ def _proposal_from_payload(payload: dict[str, object]) -> SimpleNamespace:
         requires_approval=payload.get("requiresApproval"),
         preview=preview,
         arguments=dict(arguments) if isinstance(arguments, dict) else {},
+        session_id=resolved_session_id,
+        step_id=resolved_step_id,
     )
+
+
+def _proposal_selection_preview(proposal: object) -> str | None:
+    preview = getattr(proposal, "preview", None)
+    preview_after = getattr(preview, "after", None)
+    if isinstance(preview_after, str) and preview_after:
+        return preview_after
+    return None
 
 
 def _get_control_text(window: object, control_name: str) -> str:

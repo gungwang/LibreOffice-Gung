@@ -1,28 +1,61 @@
 from __future__ import annotations
 
+import json
+import os
 import time
+from pathlib import Path
 
 import uno
 
 SIDEBAR_RESOURCE_URL = "private:resource/toolpanel/LoaiaPanelFactory/LoaiaPanel"
+STATE_ROOT_ENV_VAR = "LOAIA_EXTENSION_STATE_ROOT"
+STATE_FILE_NAME = "sidebar-state.json"
+_LAST_PIPE_NAME: str | None = None
+_LAST_DESKTOP: object | None = None
 
 
-def connect(pipe_name: str) -> object:
+def connect_desktop(
+    pipe_name: str,
+    attempts: int = 30,
+    delay_seconds: float = 1.0,
+) -> tuple[object, object]:
+    global _LAST_DESKTOP, _LAST_PIPE_NAME
+
     local_context = uno.getComponentContext()
     resolver = local_context.ServiceManager.createInstanceWithContext(
         "com.sun.star.bridge.UnoUrlResolver",
         local_context,
     )
     uno_url = f"uno:pipe,name={pipe_name};urp;StarOffice.ComponentContext"
+    _LAST_PIPE_NAME = pipe_name
     last_error: Exception | None = None
-    for _ in range(30):
+    for _ in range(attempts):
         try:
-            return resolver.resolve(uno_url)
+            context = resolver.resolve(uno_url)
+            desktop = context.ServiceManager.createInstanceWithContext(
+                "com.sun.star.frame.Desktop",
+                context,
+            )
+            _LAST_DESKTOP = desktop
+            return context, desktop
         except Exception as exc:  # pragma: no cover - runtime-only under LibreOffice
             last_error = exc
-            time.sleep(1)
+            time.sleep(delay_seconds)
 
     raise RuntimeError(f"Could not connect to LibreOffice over {uno_url}: {last_error}")
+
+
+def connect(
+    pipe_name: str,
+    attempts: int = 30,
+    delay_seconds: float = 1.0,
+) -> object:
+    context, _desktop = connect_desktop(
+        pipe_name,
+        attempts=attempts,
+        delay_seconds=delay_seconds,
+    )
+    return context
 
 
 def wait_for_uno_result(
@@ -48,6 +81,94 @@ def wait_for_uno_result(
         ) from last_error
 
     raise RuntimeError(f"Could not access {description} after LibreOffice startup.")
+
+
+def resolve_sidebar_state_root() -> Path:
+    configured_root = os.environ.get(STATE_ROOT_ENV_VAR, "").strip()
+    if configured_root:
+        return Path(configured_root)
+
+    app_data = os.environ.get("APPDATA", "").strip()
+    if app_data:
+        return Path(app_data) / "LibreOfficeAIAgent"
+
+    return Path.home() / ".libreoffice-ai-agent"
+
+
+def sidebar_state_file() -> Path:
+    return resolve_sidebar_state_root() / STATE_FILE_NAME
+
+
+def load_sidebar_state() -> dict[str, object]:
+    state_file = sidebar_state_file()
+    if not state_file.exists():
+        return {}
+
+    try:
+        return json.loads(state_file.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def coerce_sidebar_messages(session_payload: dict[str, object]) -> list[dict[str, str]]:
+    raw_messages = session_payload.get("messages")
+    if not isinstance(raw_messages, list):
+        return []
+
+    messages: list[dict[str, str]] = []
+    for message in raw_messages:
+        if not isinstance(message, dict):
+            continue
+
+        role = message.get("role")
+        text = message.get("text")
+        if not isinstance(role, str) or not isinstance(text, str):
+            continue
+
+        normalized: dict[str, str] = {
+            "role": role,
+            "text": text,
+        }
+        provider = message.get("provider")
+        if isinstance(provider, str):
+            normalized["provider"] = provider
+        model = message.get("model")
+        if isinstance(model, str):
+            normalized["model"] = model
+        messages.append(normalized)
+
+    return messages
+
+
+def find_sidebar_session(
+    *,
+    last_prompt: str | None = None,
+    require_result: bool = False,
+    require_error: bool = False,
+) -> tuple[dict[str, object], dict[str, object]] | None:
+    state_data = load_sidebar_state()
+    sessions = state_data.get("sessions")
+    if not isinstance(sessions, dict):
+        return None
+
+    for payload in sessions.values():
+        if not isinstance(payload, dict):
+            continue
+
+        prompt_value = payload.get("lastPrompt")
+        result_value = payload.get("lastResult")
+        error_value = payload.get("lastError")
+
+        if last_prompt is not None and prompt_value != last_prompt:
+            continue
+        if require_result and (not isinstance(result_value, str) or not result_value.strip()):
+            continue
+        if require_error and (not isinstance(error_value, str) or not error_value.strip()):
+            continue
+
+        return state_data, payload
+
+    return None
 
 
 def make_property(name: str, value: object) -> object:
@@ -108,19 +229,60 @@ def set_model_text(control: object, value: str) -> None:
                 continue
 
 
+def load_document_with_controller(
+    context: object,
+    component_url: str,
+) -> tuple[object, object, object]:
+    current_context = context
+    current_desktop = _LAST_DESKTOP
+
+    def _load_document() -> tuple[object, object, object] | None:
+        nonlocal current_context, current_desktop
+
+        try:
+            desktop = current_desktop
+            if desktop is None:
+                service_manager = current_context.ServiceManager
+                desktop = service_manager.createInstanceWithContext(
+                    "com.sun.star.frame.Desktop",
+                    current_context,
+                )
+                current_desktop = desktop
+            document = desktop.loadComponentFromURL(
+                component_url,
+                "_blank",
+                0,
+                (make_property("Hidden", False),),
+            )
+            if document is None:
+                return None
+
+            controller = document.getCurrentController()
+            if controller is None:
+                return None
+
+            return desktop, document, controller
+        except Exception:
+            if _LAST_PIPE_NAME:
+                try:
+                    current_context, current_desktop = connect_desktop(
+                        _LAST_PIPE_NAME,
+                        attempts=3,
+                        delay_seconds=0.2,
+                    )
+                except Exception:
+                    current_desktop = None
+            raise
+
+    desktop, document, controller = wait_for_uno_result(
+        _load_document,
+        "loaded document",
+    )
+    return desktop, document, controller
+
+
 def load_document(context: object, component_url: str) -> tuple[object, object]:
-    service_manager = context.ServiceManager
-    desktop = service_manager.createInstanceWithContext(
-        "com.sun.star.frame.Desktop",
-        context,
-    )
-    document = desktop.loadComponentFromURL(
-        component_url,
-        "_blank",
-        0,
-        (make_property("Hidden", False),),
-    )
-    wait_for_uno_result(document.getCurrentController, "document controller")
+    desktop, document, _ = load_document_with_controller(context, component_url)
     return desktop, document
 
 
@@ -136,6 +298,15 @@ def get_sidebar_panel_window(context: object, frame: object) -> object:
         ),
     )
     return ui_element.getRealInterface().Window
+
+
+def open_sidebar(frame: object) -> None:
+    open_sidebar_url = make_url("open-sidebar")
+    open_dispatch = frame.queryDispatch(open_sidebar_url, "_self", 0)
+    if open_dispatch is None:
+        raise RuntimeError("Protocol dispatch is not available for open-sidebar.")
+
+    open_dispatch.dispatch(open_sidebar_url, ())
 
 
 def control_is_enabled(control: object) -> bool:

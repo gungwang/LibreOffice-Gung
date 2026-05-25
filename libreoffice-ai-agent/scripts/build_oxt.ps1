@@ -37,8 +37,11 @@ $resolvedOutputDir = if ($OutputDir) {
 $resolvedStageDir = if ($StageDir) {
 	[System.IO.Path]::GetFullPath($StageDir)
 } else {
-	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath "build\oxt-stage"))
+	[System.IO.Path]::GetFullPath((Join-Path $projectRootPath (
+		"build\oxt-stage-{0}" -f [guid]::NewGuid().ToString("N")
+	)))
 }
+$shouldCleanupStageDir = -not $StageDir
 
 $assetRoot = Join-Path $projectRootPath "extension\oxt"
 $sourceRoot = Join-Path $projectRootPath "extension\src"
@@ -137,4 +140,7 @@ if (Test-Path -LiteralPath $packagePath) {
 }
 
 [System.IO.Compression.ZipFile]::CreateFromDirectory($resolvedStageDir, $packagePath)
+if ($shouldCleanupStageDir -and (Test-Path -LiteralPath $resolvedStageDir)) {
+	Remove-Item -LiteralPath $resolvedStageDir -Recurse -Force
+}
 Write-Output $packagePath

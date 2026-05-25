@@ -99,10 +99,19 @@ $probeArguments = @{
 	StartSidecar = $true
 }
 
+$previousStateRoot = Get-Item -Path Env:LOAIA_EXTENSION_STATE_ROOT -ErrorAction SilentlyContinue
+$resolvedStateRootDir = if ($null -ne $previousStateRoot -and $previousStateRoot.Value) {
+	[System.IO.Path]::GetFullPath($previousStateRoot.Value)
+} else {
+	[System.IO.Path]::GetFullPath((Join-Path $resolvedUserProfileDir "loaia-extension-state"))
+}
+
 $previousProvider = Get-Item -Path Env:LOAIA_DEFAULT_PROVIDER -ErrorAction SilentlyContinue
 $previousModel = Get-Item -Path Env:LOAIA_DEFAULT_MODEL -ErrorAction SilentlyContinue
 
 try {
+	$env:LOAIA_EXTENSION_STATE_ROOT = $resolvedStateRootDir
+
 	if ($PSBoundParameters.ContainsKey("Provider")) {
 		$env:LOAIA_DEFAULT_PROVIDER = $Provider
 	}
@@ -127,6 +136,12 @@ try {
 		} else {
 			Remove-Item -Path Env:LOAIA_DEFAULT_MODEL -ErrorAction SilentlyContinue
 		}
+	}
+
+	if ($null -ne $previousStateRoot) {
+		$env:LOAIA_EXTENSION_STATE_ROOT = $previousStateRoot.Value
+	} else {
+		Remove-Item -Path Env:LOAIA_EXTENSION_STATE_ROOT -ErrorAction SilentlyContinue
 	}
 }
 

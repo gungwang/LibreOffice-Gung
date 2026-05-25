@@ -7,6 +7,8 @@ EXTENSION_IDENTIFIER = "org.gungwang.libreoffice-ai-agent"
 PROTOCOL_SCHEME = "vnd.org.libreoffice.ai.agent:"
 OPEN_SIDEBAR_COMMAND = "open-sidebar"
 SEND_MESSAGE_COMMAND = "send-message"
+PREVIEW_SELECTION_COMMAND = "preview-selection"
+APPROVE_PENDING_COMMAND = "approve-pending"
 SAVE_SETTINGS_COMMAND = "save-settings"
 SIDEBAR_FACTORY_NAME = "LoaiaPanelFactory"
 SIDEBAR_PANEL_ID = "LoaiaPanel"
@@ -138,6 +140,36 @@ class ExtensionBootstrap:
         return self.get_event_handler().handle_send(
             window=window,
             prompt=prompt,
+            pipe_address=pipe_address,
+        )
+
+    def preview_selection(
+        self,
+        frame: object | None = None,
+        prompt: str | None = None,
+        pipe_address: str | None = None,
+        window: object | None = None,
+    ) -> str:
+        panel = self.get_panel()
+        panel.attach_frame(frame)
+        panel.set_last_command(PREVIEW_SELECTION_COMMAND)
+        return self.get_event_handler().handle_send(
+            window=window,
+            prompt=prompt,
+            pipe_address=pipe_address,
+        )
+
+    def approve_pending(
+        self,
+        frame: object | None = None,
+        window: object | None = None,
+        pipe_address: str | None = None,
+    ) -> str:
+        panel = self.get_panel()
+        panel.attach_frame(frame)
+        panel.set_last_command(APPROVE_PENDING_COMMAND)
+        return self.get_event_handler().approve_pending(
+            window=window,
             pipe_address=pipe_address,
         )
 

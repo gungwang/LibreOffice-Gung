@@ -198,6 +198,14 @@ $unopkgPath = Resolve-UnopkgPath -ProgramPath $programPath
 New-Item -ItemType Directory -Path $resolvedUserProfileDir -Force | Out-Null
 $userInstallationUrl = Convert-ToFileUrl -Path $resolvedUserProfileDir
 
-& $unopkgPath "-env:UserInstallation=$userInstallationUrl" add -f $resolvedPackagePath
+$unopkgOutput = & $unopkgPath "-env:UserInstallation=$userInstallationUrl" add -f $resolvedPackagePath 2>&1
+$unopkgExitCode = $LASTEXITCODE
+if ($unopkgExitCode -ne 0) {
+	foreach ($unopkgOutputLine in @($unopkgOutput)) {
+		Write-Host $unopkgOutputLine
+	}
+
+	throw "unopkg add failed with exit code $unopkgExitCode"
+}
 
 Write-Output $resolvedPackagePath

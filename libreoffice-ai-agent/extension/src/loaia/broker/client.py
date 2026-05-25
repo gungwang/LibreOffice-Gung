@@ -2,12 +2,13 @@ from loaia.broker.transport import SidecarTransportClient
 from loaia_shared.errors import ValidationError
 from loaia_shared.schema.messages import (
     ChatRequest,
+    ChatResponse,
     DirectAnswer,
     ErrorResponse,
+    ObservationReport,
+    PlanRevision,
     ToolProposalEnvelope,
 )
-
-ChatResponse = DirectAnswer | ToolProposalEnvelope
 
 
 class SidecarClient:
@@ -36,3 +37,16 @@ class SidecarClient:
             return response.text
 
         raise ValidationError("Expected a direct answer but received a tool proposal")
+
+    def report_observation(self, report: ObservationReport) -> PlanRevision:
+        payload = self.transport.request(report)
+        response_type = payload.get("type")
+
+        if response_type == "PlanRevision":
+            return PlanRevision.model_validate(payload)
+
+        if response_type == "ErrorResponse":
+            error = ErrorResponse.model_validate(payload)
+            raise ValidationError(error.message)
+
+        raise ValidationError(f"Unexpected response type from sidecar: {response_type!r}")

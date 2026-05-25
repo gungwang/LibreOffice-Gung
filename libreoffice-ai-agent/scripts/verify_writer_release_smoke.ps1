@@ -21,7 +21,9 @@ function Invoke-SmokeScript {
 	)
 
 	$previousStateRoot = Get-Item -Path Env:LOAIA_EXTENSION_STATE_ROOT -ErrorAction SilentlyContinue
+	$previousProgressPreference = $global:ProgressPreference
 	try {
+		$global:ProgressPreference = "SilentlyContinue"
 		if ($UseStateIsolation) {
 			if (Test-Path -LiteralPath $StateRootDir) {
 				Remove-Item -LiteralPath $StateRootDir -Recurse -Force -ErrorAction Stop
@@ -37,6 +39,7 @@ function Invoke-SmokeScript {
 		Write-Host ("SMOKE_EXCEPTION={0}: {1}" -f $_.Exception.GetType().Name, $_.Exception.Message)
 		$exitCode = 1
 	} finally {
+		$global:ProgressPreference = $previousProgressPreference
 		if ($null -ne $previousStateRoot) {
 			$env:LOAIA_EXTENSION_STATE_ROOT = $previousStateRoot.Value
 		} else {
@@ -44,7 +47,11 @@ function Invoke-SmokeScript {
 		}
 	}
 
-	Write-Host ("SMOKE_SCENARIO_RESULT={0}:{1}" -f $Scenario, $(if ($exitCode -eq 0) { "PASS" } else { "FAIL" }))
+	$scenarioResultLine = "SMOKE_SCENARIO_RESULT={0}:{1}" -f $Scenario, $(if ($exitCode -eq 0) { "PASS" } else { "FAIL" })
+	Write-Host $scenarioResultLine
+	if ($script:SmokeSummaryLogPath) {
+		Add-Content -LiteralPath $script:SmokeSummaryLogPath -Value $scenarioResultLine
+	}
 	return $exitCode
 }
 
@@ -77,6 +84,10 @@ if ($resolvedProvider -eq "openai-compatible") {
 
 $stateRootBaseDir = Join-Path $projectRootPath "build\release-smoke-state"
 New-Item -ItemType Directory -Path $stateRootBaseDir -Force | Out-Null
+$script:SmokeSummaryLogPath = Join-Path $stateRootBaseDir "verify_writer_release_smoke.summary.log"
+if (Test-Path -LiteralPath $script:SmokeSummaryLogPath) {
+	Remove-Item -LiteralPath $script:SmokeSummaryLogPath -Force
+}
 
 $results = New-Object System.Collections.Generic.List[object]
 $shouldSkipBuild = [bool]$SkipBuild
@@ -184,6 +195,28 @@ $calcFormulaExitCode = Invoke-SmokeScript `
 	-UseStateIsolation
 $results.Add([pscustomobject]@{ Scenario = "Calc formula"; ExitCode = $calcFormulaExitCode; CoveredBy = "verify_calc_formula.ps1" }) | Out-Null
 
+$calcChartArgumentMap = @{
+	ProjectRoot = $projectRootPath
+	Prompt = "Create a Pie chart from this selection."
+	ChartType = "Pie"
+	SkipBuild = $true
+}
+if ($LibreOfficeProgramPath) {
+	$calcChartArgumentMap.LibreOfficeProgramPath = $LibreOfficeProgramPath
+}
+if ($PythonPath) {
+	$calcChartArgumentMap.PythonPath = $PythonPath
+}
+
+$calcChartExitCode = Invoke-SmokeScript `
+	-Scenario "calc-chart" `
+	-Invocation {
+		& (Join-Path $PSScriptRoot "verify_calc_chart.ps1") @calcChartArgumentMap
+	} `
+	-StateRootDir (Join-Path $stateRootBaseDir "calc-chart") `
+	-UseStateIsolation
+$results.Add([pscustomobject]@{ Scenario = "Calc chart"; ExitCode = $calcChartExitCode; CoveredBy = "verify_calc_chart.ps1" }) | Out-Null
+
 $drawSafeFormattingArgumentMap = @{
 	ProjectRoot = $projectRootPath
 	Prompt = "Make this bold."
@@ -286,6 +319,9 @@ $sidecarFailureArgumentMap = @{
 if ($LibreOfficeProgramPath) {
 	$sidecarFailureArgumentMap.LibreOfficeProgramPath = $LibreOfficeProgramPath
 }
+if ($PythonPath) {
+	$sidecarFailureArgumentMap.PythonPath = $PythonPath
+}
 
 $sidecarFailureExitCode = Invoke-SmokeScript `
 	-Scenario "sidecar-failure" `
@@ -323,14 +359,20 @@ $results.Add([pscustomobject]@{ Scenario = "Restart persistence"; ExitCode = $pe
 $failedResults = @($results | Where-Object { $_.ExitCode -ne 0 })
 
 Write-Host "SMOKE_SUMMARY_BEGIN"
+Add-Content -LiteralPath $script:SmokeSummaryLogPath -Value "SMOKE_SUMMARY_BEGIN"
 foreach ($result in $results) {
 	$status = if ($result.ExitCode -eq 0) { "PASS" } else { "FAIL" }
-	Write-Host ("SMOKE_SUMMARY={0}:{1}:{2}" -f $result.Scenario, $status, $result.CoveredBy)
+	$summaryLine = "SMOKE_SUMMARY={0}:{1}:{2}" -f $result.Scenario, $status, $result.CoveredBy
+	Write-Host $summaryLine
+	Add-Content -LiteralPath $script:SmokeSummaryLogPath -Value $summaryLine
 }
 Write-Host "SMOKE_SUMMARY_END"
+Add-Content -LiteralPath $script:SmokeSummaryLogPath -Value "SMOKE_SUMMARY_END"
 
 if ($failedResults.Count -gt 0) {
+	Add-Content -LiteralPath $script:SmokeSummaryLogPath -Value "FINAL_EXIT_CODE=1"
 	exit 1
 }
 
+Add-Content -LiteralPath $script:SmokeSummaryLogPath -Value "FINAL_EXIT_CODE=0"
 exit 0

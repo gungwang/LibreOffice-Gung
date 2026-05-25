@@ -3,6 +3,16 @@
 Simplified Chinese version: [libreoffice-ai-agent-repo-scaffold.zh-CN.md](./libreoffice-ai-agent-repo-scaffold.zh-CN.md)
 Detailed MVP design specification: [libreoffice-ai-agent-mvp-design-spec.md](./libreoffice-ai-agent-mvp-design-spec.md)
 
+> Archived MVP reference.
+>
+> The active operator-mode documents are:
+>
+> - [LibreOffice AI Operation Layer Architecture](./libreoffice-ai-agent-operation-layer-architecture.md)
+> - [LibreOffice AI Operation Layer Design Specification](./libreoffice-ai-agent-operation-layer-design-spec.md)
+> - [LibreOffice AI Operation Layer Refactor Plan](./libreoffice-ai-agent-operation-layer-refactor-plan.md)
+>
+> Use the operator-mode documents for new planning and implementation work.
+
 ## Proposed Subproject
 
 - Subproject directory name: `libreoffice-ai-agent`

@@ -3,18 +3,28 @@ from __future__ import annotations
 import sys
 
 from verification_probe_common import (
+    coerce_sidebar_messages,
     close_document_session,
     connect,
-    get_sidebar_panel_window,
-    load_document,
+    find_sidebar_session,
+    load_document_with_controller,
     make_property,
     make_url,
-    model_text,
+    wait_for_uno_result,
+)
+
+SCAFFOLD_DIRECT_ANSWER = (
+    "Sidecar scaffold is running. Planner and provider execution are not implemented yet."
 )
 
 
-def flatten_text(text: str) -> str:
-    return text.replace("\r", "\\r").replace("\n", "\\n")
+def read_formula(document: object) -> str:
+    if hasattr(document, "getFormula"):
+        return str(document.getFormula())
+    if hasattr(document, "Formula"):
+        return str(document.Formula)
+
+    raise RuntimeError("Cannot read formula from Math document model")
 
 
 def verify(
@@ -27,10 +37,11 @@ def verify(
     desktop = None
     document = None
     try:
-        desktop, document = load_document(context, "private:factory/smath")
-        controller = document.getCurrentController()
+        desktop, document, controller = load_document_with_controller(
+            context,
+            "private:factory/smath",
+        )
         frame = controller.getFrame()
-        panel_window = get_sidebar_panel_window(context, frame)
 
         # Set the formula in the Math document.
         if hasattr(document, "setFormula"):
@@ -41,11 +52,14 @@ def verify(
             print("UNHANDLED_EXCEPTION=Cannot set formula on Math document model")
             return 1
 
+        formula_before = read_formula(document)
+
         preview_url = make_url("preview-selection")
         preview_dispatch = frame.queryDispatch(preview_url, "_self", 0)
 
         results: dict[str, str] = {
             "PREVIEW_DISPATCH_PRESENT": str(preview_dispatch is not None),
+            "FORMULA_BEFORE": formula_before,
         }
 
         if preview_dispatch is None:
@@ -55,58 +69,59 @@ def verify(
             print("FAILURE=Protocol dispatch is not available for preview-selection.")
             return 1
 
-        approve_button = panel_window.getControl("ApproveButton")
-        results["APPROVE_ENABLED_BEFORE"] = str(approve_button.isEnabled())
-
         preview_dispatch.dispatch(
             preview_url,
             (make_property("Prompt", prompt),),
         )
 
-        status_after = model_text(panel_window.getControl("Status"))
-        summary_after = model_text(panel_window.getControl("Summary"))
+        _state_data, session_payload = wait_for_uno_result(
+            lambda: find_sidebar_session(last_prompt=prompt, require_result=True),
+            "Math direct-answer session state",
+        )
+        messages = coerce_sidebar_messages(session_payload)
+        user_message = next((message for message in reversed(messages) if message["role"] == "user"), None)
+        assistant_message = next(
+            (message for message in reversed(messages) if message["role"] == "assistant"),
+            None,
+        )
+        formula_after = read_formula(document)
 
-        results["RAW_STATUS_AFTER"] = flatten_text(status_after)
-        results["RAW_SUMMARY_AFTER"] = flatten_text(summary_after)
-
-        # Direct answer flow: Math explanations don't modify formula.
-        # Check that a result was generated (not an error).
-        results["HAS_NO_ERROR"] = str("Last error:" not in status_after)
-        results["CONNECTED"] = str("connected to sidecar" in status_after)
+        results["FORMULA_AFTER"] = formula_after
+        results["FORMULA_UNCHANGED"] = str(formula_after == formula_before)
+        results["LAST_RESULT"] = str(session_payload.get("lastResult") or "")
+        results["HAS_USER_MESSAGE"] = str(
+            user_message is not None and user_message.get("text") == prompt
+        )
+        results["HAS_ASSISTANT_MESSAGE"] = str(assistant_message is not None)
 
         if expected_provider is not None:
             results["HAS_EXPECTED_PROVIDER"] = str(
-                f"Provider: {expected_provider}" in status_after
+                assistant_message is not None
+                and assistant_message.get("provider") == expected_provider
             )
         if expected_model is not None:
             results["HAS_EXPECTED_MODEL"] = str(
-                f"Model: {expected_model}" in status_after
+                assistant_message is not None
+                and assistant_message.get("model") == expected_model
             )
-
-        # Check the formula was captured in the selection.
-        results["HAS_FORMULA_IN_SELECTION"] = str(
-            initial_formula in summary_after
-        )
-
-        # Either a direct answer was given or a proposal was created.
-        results["HAS_RESULT_OR_PROPOSAL"] = str(
-            "Last result:" in summary_after
-            and "No completed result yet." not in summary_after
+        results["HAS_EXPECTED_ANSWER"] = str(
+            assistant_message is not None
+            and assistant_message.get("text") not in ("", SCAFFOLD_DIRECT_ANSWER)
         )
 
         failures: list[str] = []
-        if results["CONNECTED"] != "True":
-            failures.append("Sidecar connection was not established.")
-        if results["HAS_NO_ERROR"] != "True":
-            failures.append("An error was reported in status after preview.")
+        if results["FORMULA_UNCHANGED"] != "True":
+            failures.append("Math direct-answer flow unexpectedly changed the formula.")
+        if results["HAS_USER_MESSAGE"] != "True":
+            failures.append("Session history did not record the Math prompt.")
+        if results["HAS_ASSISTANT_MESSAGE"] != "True":
+            failures.append("Session history did not record the Math direct answer.")
         if expected_provider and results.get("HAS_EXPECTED_PROVIDER") != "True":
-            failures.append("Sidebar status did not show the expected provider.")
+            failures.append("Session history did not show the expected provider.")
         if expected_model and results.get("HAS_EXPECTED_MODEL") != "True":
-            failures.append("Sidebar status did not show the expected model.")
-        if results["HAS_FORMULA_IN_SELECTION"] != "True":
-            failures.append("Math formula was not captured in sidebar selection.")
-        if results["HAS_RESULT_OR_PROPOSAL"] != "True":
-            failures.append("No result or proposal generated for the Math formula.")
+            failures.append("Session history did not show the expected model.")
+        if results["HAS_EXPECTED_ANSWER"] != "True":
+            failures.append("No real direct answer was recorded for the Math formula.")
 
         for key, value in results.items():
             print(f"{key}={value}")

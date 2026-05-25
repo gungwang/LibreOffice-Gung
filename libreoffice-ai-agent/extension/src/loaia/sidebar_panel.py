@@ -405,10 +405,13 @@ class SidebarToolPanel(unohelper.Base, XToolPanel):
 
     def refresh_from_panel(self, panel: SidebarPanel) -> None:
         self._set_control_text("Title", panel.title)
+        self._set_control_text("Status", panel.render_status_text())
         self._set_control_text("ProviderInput", panel.state.provider)
         self._set_control_text("ModelInput", panel.state.model)
-        if panel.state.settings_notice:
-            self._set_control_text("SettingsStatus", panel.state.settings_notice)
+        self._set_control_text("SettingsStatus", panel.render_settings_text())
+        self._set_control_text("Summary", panel.render_summary_text())
+        self._set_control_text("Privacy", panel.render_privacy_text())
+        self._set_control_enabled("ApproveButton", panel.state.pending_proposal is not None)
 
     def createAccessible(self, parent_accessible: object) -> object | None:
         return self.window or parent_accessible
