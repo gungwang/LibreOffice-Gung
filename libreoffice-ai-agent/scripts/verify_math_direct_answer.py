@@ -7,7 +7,7 @@ from verification_probe_common import (
     close_document_session,
     connect,
     find_sidebar_session,
-    load_document,
+    load_document_with_controller,
     make_property,
     make_url,
     wait_for_uno_result,
@@ -37,8 +37,10 @@ def verify(
     desktop = None
     document = None
     try:
-        desktop, document = load_document(context, "private:factory/smath")
-        controller = document.getCurrentController()
+        desktop, document, controller = load_document_with_controller(
+            context,
+            "private:factory/smath",
+        )
         frame = controller.getFrame()
 
         # Set the formula in the Math document.

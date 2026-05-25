@@ -136,7 +136,7 @@ function Wait-LoaiaOfficeStartup {
 		[string]$UserInstallationUrl,
 		[int]$TimeoutSeconds = 10,
 		[int]$DelayMilliseconds = 250,
-		[int]$StabilizationMilliseconds = 1000
+		[int]$StabilizationMilliseconds = 5000
 	)
 
 	$deadline = (Get-Date).AddSeconds($TimeoutSeconds)
@@ -238,7 +238,7 @@ function Invoke-LoaiaVerificationProbe {
 		[string]$SidecarPythonPath,
 		[string[]]$SidecarExtraArguments = @(),
 		[hashtable]$SidecarEnvironment,
-		[int]$MaxProbeAttempts = 3,
+		[int]$MaxProbeAttempts = 8,
 		[switch]$ResetUserProfileDir,
 		[switch]$SkipBuild,
 		[switch]$StartSidecar
@@ -341,7 +341,7 @@ function Invoke-LoaiaVerificationProbe {
 				Write-Host "PROBE_ATTEMPT=$attempt"
 			}
 
-			Stop-LoaiaProfileOfficeProcesses -UserInstallationUrl $userInstallationUrl
+			Stop-LoaiaProfileProcesses -UserInstallationUrl $userInstallationUrl
 
 			$pipeName = "loaia" + [guid]::NewGuid().ToString("N")
 			$sofficeProcess = Start-Process -FilePath $sofficePath -ArgumentList @(
@@ -368,7 +368,7 @@ function Invoke-LoaiaVerificationProbe {
 					Stop-Process -Id $sofficeProcess.Id -Force -ErrorAction SilentlyContinue
 				}
 
-				Stop-LoaiaProfileOfficeProcesses -UserInstallationUrl $userInstallationUrl
+				Stop-LoaiaProfileProcesses -UserInstallationUrl $userInstallationUrl
 			}
 
 			if ($probeExitCode -eq 0) {

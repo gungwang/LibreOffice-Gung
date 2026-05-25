@@ -7,7 +7,7 @@ from verification_probe_common import (
     close_document_session,
     connect,
     find_sidebar_session,
-    load_document,
+    load_document_with_controller,
     make_property,
     make_url,
     wait_for_uno_result,
@@ -84,9 +84,11 @@ def verify(
     stage = "load_document"
     try:
         stage = "load_document"
-        desktop, document = load_document(context, document_url)
+        desktop, document, controller = load_document_with_controller(
+            context,
+            document_url,
+        )
         stage = "get_controller"
-        controller = document.getCurrentController()
         frame = controller.getFrame()
 
         stage = "query_dispatch"

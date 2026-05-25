@@ -10,24 +10,52 @@ import uno
 SIDEBAR_RESOURCE_URL = "private:resource/toolpanel/LoaiaPanelFactory/LoaiaPanel"
 STATE_ROOT_ENV_VAR = "LOAIA_EXTENSION_STATE_ROOT"
 STATE_FILE_NAME = "sidebar-state.json"
+_LAST_PIPE_NAME: str | None = None
+_LAST_DESKTOP: object | None = None
 
 
-def connect(pipe_name: str) -> object:
+def connect_desktop(
+    pipe_name: str,
+    attempts: int = 30,
+    delay_seconds: float = 1.0,
+) -> tuple[object, object]:
+    global _LAST_DESKTOP, _LAST_PIPE_NAME
+
     local_context = uno.getComponentContext()
     resolver = local_context.ServiceManager.createInstanceWithContext(
         "com.sun.star.bridge.UnoUrlResolver",
         local_context,
     )
     uno_url = f"uno:pipe,name={pipe_name};urp;StarOffice.ComponentContext"
+    _LAST_PIPE_NAME = pipe_name
     last_error: Exception | None = None
-    for _ in range(30):
+    for _ in range(attempts):
         try:
-            return resolver.resolve(uno_url)
+            context = resolver.resolve(uno_url)
+            desktop = context.ServiceManager.createInstanceWithContext(
+                "com.sun.star.frame.Desktop",
+                context,
+            )
+            _LAST_DESKTOP = desktop
+            return context, desktop
         except Exception as exc:  # pragma: no cover - runtime-only under LibreOffice
             last_error = exc
-            time.sleep(1)
+            time.sleep(delay_seconds)
 
     raise RuntimeError(f"Could not connect to LibreOffice over {uno_url}: {last_error}")
+
+
+def connect(
+    pipe_name: str,
+    attempts: int = 30,
+    delay_seconds: float = 1.0,
+) -> object:
+    context, _desktop = connect_desktop(
+        pipe_name,
+        attempts=attempts,
+        delay_seconds=delay_seconds,
+    )
+    return context
 
 
 def wait_for_uno_result(
@@ -201,19 +229,60 @@ def set_model_text(control: object, value: str) -> None:
                 continue
 
 
+def load_document_with_controller(
+    context: object,
+    component_url: str,
+) -> tuple[object, object, object]:
+    current_context = context
+    current_desktop = _LAST_DESKTOP
+
+    def _load_document() -> tuple[object, object, object] | None:
+        nonlocal current_context, current_desktop
+
+        try:
+            desktop = current_desktop
+            if desktop is None:
+                service_manager = current_context.ServiceManager
+                desktop = service_manager.createInstanceWithContext(
+                    "com.sun.star.frame.Desktop",
+                    current_context,
+                )
+                current_desktop = desktop
+            document = desktop.loadComponentFromURL(
+                component_url,
+                "_blank",
+                0,
+                (make_property("Hidden", False),),
+            )
+            if document is None:
+                return None
+
+            controller = document.getCurrentController()
+            if controller is None:
+                return None
+
+            return desktop, document, controller
+        except Exception:
+            if _LAST_PIPE_NAME:
+                try:
+                    current_context, current_desktop = connect_desktop(
+                        _LAST_PIPE_NAME,
+                        attempts=3,
+                        delay_seconds=0.2,
+                    )
+                except Exception:
+                    current_desktop = None
+            raise
+
+    desktop, document, controller = wait_for_uno_result(
+        _load_document,
+        "loaded document",
+    )
+    return desktop, document, controller
+
+
 def load_document(context: object, component_url: str) -> tuple[object, object]:
-    service_manager = context.ServiceManager
-    desktop = service_manager.createInstanceWithContext(
-        "com.sun.star.frame.Desktop",
-        context,
-    )
-    document = desktop.loadComponentFromURL(
-        component_url,
-        "_blank",
-        0,
-        (make_property("Hidden", False),),
-    )
-    wait_for_uno_result(document.getCurrentController, "document controller")
+    desktop, document, _ = load_document_with_controller(context, component_url)
     return desktop, document
 
 

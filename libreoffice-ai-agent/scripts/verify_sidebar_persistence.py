@@ -8,7 +8,7 @@ from verification_probe_common import (
     close_document_session,
     connect,
     find_sidebar_session,
-    load_document,
+    load_document_with_controller,
     load_sidebar_state,
     make_property,
     make_url,
@@ -91,8 +91,10 @@ def _save_session(
     document = None
     try:
         print("PHASE=save:load-document", flush=True)
-        desktop, document = load_document(context, "private:factory/swriter")
-        controller = document.getCurrentController()
+        desktop, document, controller = load_document_with_controller(
+            context,
+            "private:factory/swriter",
+        )
         frame = controller.getFrame()
 
         open_sidebar_url = make_url("open-sidebar")
@@ -236,8 +238,10 @@ def _restore_session(
     document = None
     try:
         print("PHASE=restore:load-document", flush=True)
-        desktop, document = load_document(context, "private:factory/swriter")
-        controller = document.getCurrentController()
+        desktop, document, controller = load_document_with_controller(
+            context,
+            "private:factory/swriter",
+        )
         frame = controller.getFrame()
 
         open_sidebar_url = make_url("open-sidebar")

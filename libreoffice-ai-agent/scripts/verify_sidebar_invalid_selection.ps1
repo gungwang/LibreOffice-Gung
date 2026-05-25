@@ -7,6 +7,7 @@ param(
 	[ValidateSet("invalid-selection", "unsupported-document", "transport-error")]
 	[string]$Scenario = "invalid-selection",
 	[string]$PipeAddress,
+	[string]$PythonPath,
 	[switch]$SkipBuild
 )
 
@@ -53,8 +54,10 @@ $probeArguments = @{
 	UserProfileDir = $resolvedUserProfileDir
 	ProbeScriptPath = $probeScriptPath
 	ProbeArguments = $resolvedProbeArguments
+	SidecarPythonPath = $PythonPath
 	SkipBuild = $SkipBuild
 	ResetUserProfileDir = -not $UserProfileDir
+	StartSidecar = ($Scenario -eq "transport-error")
 }
 
 $previousStateRoot = Get-Item -Path Env:LOAIA_EXTENSION_STATE_ROOT -ErrorAction SilentlyContinue

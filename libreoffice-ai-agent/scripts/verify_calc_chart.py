@@ -5,7 +5,7 @@ import sys
 from verification_probe_common import (
     close_document_session,
     connect,
-    load_document,
+    load_document_with_controller,
     make_property,
     make_url,
     wait_for_uno_result,
@@ -164,9 +164,11 @@ def verify(
     stage = "load-document"
     try:
         stage = "load-document"
-        desktop, document = load_document(context, "private:factory/scalc")
+        desktop, document, controller = load_document_with_controller(
+            context,
+            "private:factory/scalc",
+        )
         stage = "get-controller"
-        controller = document.getCurrentController()
         frame = controller.getFrame()
 
         stage = "populate-sheet-data"

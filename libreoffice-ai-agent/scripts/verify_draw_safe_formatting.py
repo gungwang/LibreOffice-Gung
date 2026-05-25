@@ -5,7 +5,7 @@ import sys
 from verification_probe_common import (
     close_document_session,
     connect,
-    load_document,
+    load_document_with_controller,
     make_property,
     make_url,
 )
@@ -64,8 +64,10 @@ def verify(
     desktop = None
     document = None
     try:
-        desktop, document = load_document(context, "private:factory/sdraw")
-        controller = document.getCurrentController()
+        desktop, document, controller = load_document_with_controller(
+            context,
+            "private:factory/sdraw",
+        )
         frame = controller.getFrame()
 
         # Insert a text shape with content and select it.
