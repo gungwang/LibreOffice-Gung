@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/LibreOffice-26-green?logo=libreoffice" alt="LibreOffice 26"/>
   <img src="https://img.shields.io/badge/Python-3.11+-blue?logo=python" alt="Python 3.11+"/>
   <img src="https://img.shields.io/badge/License-MPL--2.0-orange" alt="License MPL-2.0"/>
-  <img src="https://img.shields.io/badge/version-0.1.9-brightgreen" alt="Version 0.1.9"/>
+  <img src="https://img.shields.io/badge/status-operation%20layer%20refactor-yellowgreen" alt="Status operation layer refactor"/>
 </p>
 
 # 🚀 LibreOffice AI Agent
@@ -12,6 +12,25 @@
 > Think "Microsoft 365 Copilot", but open-source, privacy-first, and running entirely on your machine.
 
 [简体中文版](./README.zh-CN.md)
+
+---
+
+## Operation Layer Refactor
+
+This repository is being refactored around a capability catalog as the single source of truth for planning, execution, safety policy, and generated documentation.
+
+The immediate goal is a control-model rewrite, not a UI rewrite. The refactor replaces handwritten registries and keyword routing with:
+
+- generated capability artifacts shared by the extension and the sidecar
+- one policy-aware execution runtime for UNO dispatch, UNO routines, and document APIs
+- required observation before and after mutating operations
+- sidecar orchestration that can evaluate results and replan from evidence
+
+Key design docs:
+
+- [Operation layer refactor plan](./docs/libreoffice-ai-agent-operation-layer-refactor-plan.md)
+- [Operation layer architecture](./docs/libreoffice-ai-agent-operation-layer-architecture.md)
+- [Operation layer design specification](./docs/libreoffice-ai-agent-operation-layer-design-spec.md)
 
 ---
 
@@ -28,54 +47,50 @@ LibreOffice AI Agent adds a smart sidebar to LibreOffice that understands natura
 | "Make it more formal" | Rewrites selected text in formal tone |
 | "Align right and double space" | Sets right alignment + 2.0 line spacing |
 
-All formatting happens **instantly** through LibreOffice's native UNO API — not through fragile text manipulation.
+All formatting happens through LibreOffice's native UNO API instead of fragile text manipulation. The operation-layer refactor keeps that behavior, but moves planning and execution onto a more explicit and testable control path.
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture Direction
 
 ```
-┌─────────────────────────────────────────────┐
-│           LibreOffice (Writer/Calc/Impress)  │
-│  ┌───────────────────────────────────────┐  │
-│  │  AI Sidebar Extension (.oxt)          │  │
-│  │  • Context extraction                 │  │
-│  │  • Tool execution (160+ UNO commands) │  │
-│  │  • Preview/Apply workflow             │  │
-│  └────────────────┬──────────────────────┘  │
-└───────────────────┼─────────────────────────┘
-                    │ Named Pipe / Socket
-┌───────────────────┼─────────────────────────┐
-│  Local Sidecar    ▼                         │
-│  • Intent classification                    │
-│  • Tool proposal & planning                 │
-│  • Streaming responses                      │
-│  • Provider abstraction                     │
-└───────────────────┬─────────────────────────┘
-                    │ HTTPS
-          ┌─────────┴─────────┐
-          │  AI Providers     │
-          │  • OpenRouter     │
-          │  • OpenAI-compat  │
-          │  • Anthropic      │
-          │  • Gemini         │
-          └───────────────────┘
+┌────────────────────────────────────────────────────────┐
+│ Shared Capability Catalog                              │
+│ • app packs • safety metadata • generated docs/index   │
+└───────────────┬───────────────────────────────┬────────┘
+                │ generated runtime outputs     │ generated planner inputs
+┌───────────────▼──────────────────┐   ┌────────▼──────────────────────────┐
+│ LibreOffice Extension Runtime    │   │ Sidecar Orchestrator              │
+│ • snapshot                       │   │ • session state                   │
+│ • preflight                      │   │ • retrieval and composition       │
+│ • bindings and execution engine  │   │ • evaluation and bounded replan   │
+│ • observe, approval, undo        │   │ • provider abstraction            │
+└───────────────┬──────────────────┘   └────────┬──────────────────────────┘
+                │ named pipe / socket            │ HTTPS
+┌───────────────▼──────────────────┐   ┌────────▼─────────┐
+│ LibreOffice Apps                 │   │ AI Providers     │
+│ Writer / Calc / Impress / Draw   │   │ OpenRouter       │
+│ Math / Base / App-global actions │   │ OpenAI-compat    │
+└──────────────────────────────────┘   │ Anthropic        │
+                                        │ Gemini           │
+                                        └──────────────────┘
 ```
 
-**Key design decisions:**
-- 🔒 **Privacy-first** — selection-only context; your full document never leaves your machine
-- 🏠 **Local sidecar** — AI logic runs outside LibreOffice core for stability and security
-- 🔌 **Provider-agnostic** — swap between OpenRouter, local LLMs, or any OpenAI-compatible API
-- ⚡ **Native UNO dispatch** — formatting commands execute at native speed, not through text hacks
+**What changes with the refactor:**
+- 🔒 **Capability catalog first** — one catalog generates runtime manifests, safety metadata, and docs tables
+- 🧭 **Unified execution path** — schema checks, policy checks, scope checks, bindings, observation, and undo run through one operation layer
+- 👀 **Observation is required** — mutating steps are validated with reusable probes instead of relying on exception text alone
+- 🧩 **Planner becomes retrieval-driven** — the sidecar retrieves bounded capability summaries instead of routing from keyword tables
+- ⚡ **Native UNO behavior stays** — document operations still execute through LibreOffice-native APIs
 
 ---
 
-## 🛠️ 160+ Toolbar Tools
+## 🛠️ Capability Packs and Coverage
 
-Every toolbar button in Writer, Calc, Impress, and Draw is mapped to the AI agent:
+The existing toolbar and document operations are being migrated into capability packs. Each pack uses the same descriptor schema and the same execution contract, so Writer, Calc, Impress, Draw, Math, Base, and app-global actions can expand without creating new handwritten registries.
 
 <details>
-<summary><b>Writer (80+ tools)</b></summary>
+<summary><b>Writer pack (80+ capabilities)</b></summary>
 
 - **Formatting**: Bold, Italic, Underline, Strikethrough, Superscript, Subscript, Shadow, Outline, Small Caps
 - **Text Case**: Uppercase, Lowercase, Title Case, Sentence Case, Toggle Case
@@ -91,7 +106,7 @@ Every toolbar button in Writer, Calc, Impress, and Draw is mapped to the AI agen
 </details>
 
 <details>
-<summary><b>Calc (40+ tools)</b></summary>
+<summary><b>Calc pack (40+ capabilities)</b></summary>
 
 - **Formatting**: Bold, Italic, Underline, Strikethrough, Font Color, Background Color
 - **Alignment**: Left, Center, Right, Top, Middle, Bottom, Wrap Text
@@ -103,7 +118,7 @@ Every toolbar button in Writer, Calc, Impress, and Draw is mapped to the AI agen
 </details>
 
 <details>
-<summary><b>Impress & Draw (30+ tools)</b></summary>
+<summary><b>Impress and Draw packs (30+ capabilities)</b></summary>
 
 - **Formatting**: Bold, Italic, Underline, Strikethrough, Font Size, Font Color
 - **Alignment**: Left, Center, Right, Justify
@@ -112,6 +127,8 @@ Every toolbar button in Writer, Calc, Impress, and Draw is mapped to the AI agen
 - **Drawing**: Clear Formatting, Numbering
 
 </details>
+
+Additional pack targets in the refactor are **Math**, **Base**, and **app-global capabilities** such as manifest-driven UNO command execution.
 
 ---
 
@@ -171,31 +188,42 @@ All 90 tests pass against LibreOffice 26 on Windows.
 
 ```
 libreoffice-ai-agent/
-├── extension/          # LibreOffice extension (.oxt)
-│   ├── oxt/            # OXT packaging assets (XML configs)
-│   └── src/loaia/      # Python extension code
-│       └── actions/    # Tool executor (UNO dispatch map)
-├── sidecar/            # Local AI broker process
+├── extension/                    # LibreOffice extension (.oxt)
+│   └── src/loaia/
+│       ├── execution/            # Generic runtime, preflight, bindings, observe
+│       ├── snapshot/             # App-specific context snapshots and probes
+│       ├── history/              # Session and audit history
+│       └── broker/               # Extension-side transport and coordination
+├── sidecar/                      # Local AI broker process
 │   └── src/loaia_sidecar/
-│       └── server.py   # Intent classification + tool planning
-├── shared/             # Shared schemas (Pydantic models)
-├── scripts/            # Build, test, and verification scripts
-└── docs/               # Architecture and design documentation
+│       ├── orchestrator/         # Session engine, evaluator, bounded replanning
+│       ├── planner/              # Retrieval, composition, prompt building
+│       └── providers/            # Provider adapters
+├── shared/                       # Shared schemas and capability model
+│   └── src/loaia_shared/
+│       ├── schema/               # Shared request/response models
+│       └── capabilities/         # Catalog, compiler, manifests, generated tables
+├── scripts/                      # Build, test, and verification scripts
+└── docs/                         # Refactor plan, architecture, design specification
 ```
+
+This is the target layout during the operation-layer refactor. The current repository still contains migration-era modules alongside these destinations.
 
 ---
 
 ## 🗺️ Roadmap
 
-- [x] Writer full toolbar support (v0.1.9)
-- [x] Calc/Impress/Draw basic support
-- [x] UI integration test suite (60 UNO dispatch tests)
+- [x] Extension + sidecar MVP with live UNO execution
+- [x] Writer, Calc, Impress, and Draw baseline capability coverage
+- [x] UI integration coverage for live UNO dispatch paths
+- [ ] Capability catalog as the single source of truth
+- [ ] Generated execution manifests and safety matrix
+- [ ] Snapshot and observation probes for every mutating capability
+- [ ] Sidecar orchestrator split from the monolithic server
+- [ ] Retrieval-based planner with bounded replanning
+- [ ] Math, Base, and app-global capability packs
 - [ ] macOS and Linux support
 - [ ] Local LLM support (Ollama, llama.cpp)
-- [ ] Multi-turn conversation context
-- [ ] Document-wide operations (summarize, outline)
-- [ ] Presentation generation from outline
-- [ ] Spreadsheet formula assistance
 
 ---
 
